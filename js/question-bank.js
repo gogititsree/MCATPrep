@@ -421,6 +421,19 @@ const C_P_QUESTIONS = generateCPQuestions(600);
 const P_S_QUESTIONS = generatePSQuestions(600);
 const CARS_PASSAGES = generateCARSPassages(30);
 
+// Attach vetted source metadata to each generated item so UI can show citations
+try {
+  if (typeof SOURCES !== 'undefined') {
+    B_B_QUESTIONS.forEach((q, i) => { q.source = pick(SOURCES, i); });
+    C_P_QUESTIONS.forEach((q, i) => { q.source = pick(SOURCES, i); });
+    P_S_QUESTIONS.forEach((q, i) => { q.source = pick(SOURCES, i); });
+    CARS_PASSAGES.forEach((p, i) => { p.source = pick(SOURCES, i); });
+  }
+} catch (e) {
+  // If SOURCES isn't available at load time, gracefully skip attribution.
+  console.warn('SOURCES not attached:', e);
+}
+
 function getMockExamQuestions(section, examNumber) {
   const perExam = 59;
   const start = (examNumber - 1) * perExam;

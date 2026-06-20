@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MCAT Question",
+  "type": "object",
+  "required": ["text","options","correct","explanation"],
+  "properties": {
+    "text": { "type": "string" },
+    "options": { "type": "array", "minItems": 2, "items": { "type": "string" } },
+    "correct": { "type": "integer", "minimum": 0 },
+    "explanation": { "type": "string" },
+    "source": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "url": { "type": "string", "format": "uri" }
+      },
+      "required": ["name"]
+    },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "difficulty": { "type": "string", "enum": ["easy","medium","hard"] }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,14 @@
+{
+  "passageText": "This passage discusses the role of urban agriculture in modern cities, weighing benefits and practical challenges.",
+  "questions": [
+    {
+      "text": "What is the author's primary attitude toward urban agriculture?",
+      "options": ["Cautiously optimistic","Strongly critical","Indifferent","Hostile"],
+      "correct": 0,
+      "explanation": "The passage highlights both benefits and challenges, suggesting cautious optimism.",
+      "source": { "name": "Princeton Review MCAT", "url": "https://www.princetonreview.com/medical/mcat-test-prep" },
+      "tags": ["CARS","urban studies"],
+      "difficulty": "medium"
+    }
+  ]
+}

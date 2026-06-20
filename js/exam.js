@@ -44,6 +44,7 @@ class MCATExam {
         <div class="explanation" id="exp-${qi}">
           <strong>✅ Correct Answer: ${['A','B','C','D'][q.correct]}</strong><br>
           ${q.explanation}
+          ${q.source ? '<div class="source">Source: <a href="' + (q.source.url || '#') + '" target="_blank" rel="noopener">' + (q.source.name || 'source') + '</a></div>' : ''}
         </div>
       `;
       this.container.appendChild(block);

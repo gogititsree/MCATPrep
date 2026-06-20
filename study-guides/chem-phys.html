@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chem/Phys Study Guide — MCAT Master</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <a class="nav-logo" href="../index.html">⚕ MCAT Master</a>
+    <div class="nav-links">
+      <a href="bio-biochem.html">B/B</a>
+      <a href="psych-soc.html">P/S</a>
+      <a href="cars.html">CARS</a>
+      <a href="../mock-exams/chem-phys-exam.html" class="btn btn-primary btn-sm">Take Exam</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="page-header">
+      <span class="pill pill-cp">Section 2 — C/P</span>
+      <h1 style="margin-top:0.5rem;">Chemical &amp; Physical Foundations</h1>
+      <p>59 questions · 95 minutes · ~25% Gen Chem, ~25% Orgo, ~25% Physics, ~25% Biochem</p>
+    </div>
+
+    <div class="callout callout-success">
+      <div class="callout-title">How C/P shows up on the MCAT</div>
+      <p>C/P is built around passage-based problems that combine chemistry, physics, and biology. You will frequently translate between units, interpret diagrams, and solve conceptual calculations under time pressure.</p>
+      <ul>
+        <li>Graph reading and unit conversion are essential.</li>
+        <li>Think about physical principles in living systems: fluid flow, acid-base balance, energy transfer.</li>
+        <li>Use process of elimination when multiple concepts appear in a single question.</li>
+      </ul>
+    </div>
+
+    <div class="toc">
+      <h2>Table of Contents</h2>
+      <ol>
+        <li><a href="#gen-chem">General Chemistry</a></li>
+        <li><a href="#thermo">Thermodynamics &amp; Kinetics</a></li>
+        <li><a href="#acids">Acids, Bases &amp; Buffers</a></li>
+        <li><a href="#electrochem">Electrochemistry</a></li>
+        <li><a href="#orgo">Organic Chemistry</a></li>
+        <li><a href="#physics">Physics</a></li>
+      </ol>
+    </div>
+
+    <!-- GEN CHEM -->
+    <div class="section-block" id="gen-chem">
+      <h2>1. General Chemistry Fundamentals</h2>
+
+      <h3>Atomic Structure &amp; Periodic Trends</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Trend</th><th>Across Period (L→R)</th><th>Down Group</th></tr></thead>
+          <tbody>
+            <tr><td>Atomic radius</td><td>Decreases (↑ Zeff)</td><td>Increases (more shells)</td></tr>
+            <tr><td>Ionization energy</td><td>Increases</td><td>Decreases</td></tr>
+            <tr><td>Electronegativity</td><td>Increases</td><td>Decreases</td></tr>
+            <tr><td>Electron affinity</td><td>Increases (generally)</td><td>Decreases</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Chemical Bonding</h3>
+      <p><strong>Ionic bonds:</strong> Metal + nonmetal; electron transfer; high melting points; conduct in solution.</p>
+      <p><strong>Covalent bonds:</strong> Nonmetal + nonmetal; electron sharing. Polar covalent = unequal sharing (ΔEN 0.4–1.7). Nonpolar = equal sharing or ΔEN &lt; 0.4.</p>
+      <p><strong>VSEPR:</strong> Electron groups repel → geometry. Lone pairs cause greater repulsion than bonds. Lone pairs compress bond angles.</p>
+
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Electron Groups</th><th>Lone Pairs</th><th>Molecular Shape</th><th>Bond Angles</th></tr></thead>
+          <tbody>
+            <tr><td>2</td><td>0</td><td>Linear</td><td>180°</td></tr>
+            <tr><td>3</td><td>0</td><td>Trigonal planar</td><td>120°</td></tr>
+            <tr><td>3</td><td>1</td><td>Bent</td><td>&lt;120°</td></tr>
+            <tr><td>4</td><td>0</td><td>Tetrahedral</td><td>109.5°</td></tr>
+            <tr><td>4</td><td>1</td><td>Trigonal pyramidal</td><td>&lt;109.5°</td></tr>
+            <tr><td>4</td><td>2</td><td>Bent</td><td>&lt;109.5°</td></tr>
+            <tr><td>5</td><td>0</td><td>Trigonal bipyramidal</td><td>90°/120°</td></tr>
+            <tr><td>6</td><td>0</td><td>Octahedral</td><td>90°</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Gas Laws</h3>
+      <div class="formula">
+        Ideal Gas Law: PV = nRT  (R = 8.314 J/mol·K = 0.0821 L·atm/mol·K)
+        Boyle's Law: P₁V₁ = P₂V₂  (constant T, n)
+        Charles's Law: V₁/T₁ = V₂/T₂  (constant P, n)
+        Gay-Lussac's Law: P₁/T₁ = P₂/T₂  (constant V, n)
+        Combined: P₁V₁/T₁ = P₂V₂/T₂
+        Dalton's Law: P_total = P₁ + P₂ + ... (partial pressures)
+        Graham's Law: Rate₁/Rate₂ = √(M₂/M₁)  (effusion rates)
+      </div>
+      <p>Real gases deviate from ideal at <strong>high pressure</strong> and <strong>low temperature</strong>. Van der Waals equation corrects for intermolecular forces (a) and molecular volume (b).</p>
+
+      <h3>Solution Chemistry</h3>
+      <p><strong>Colligative properties</strong> depend on solute particles, not identity:</p>
+      <ul>
+        <li>Boiling point elevation: ΔTb = iKbm</li>
+        <li>Freezing point depression: ΔTf = iKfm</li>
+        <li>Osmotic pressure: π = iMRT</li>
+        <li>Vapor pressure lowering: Raoult's Law: P = χsolventP°</li>
+      </ul>
+      <p>van 't Hoff factor (i): NaCl → i = 2; CaCl₂ → i = 3; glucose → i = 1</p>
+
+      <h3>Nuclear Chemistry</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Decay Type</th><th>Particle</th><th>Change</th><th>Penetration</th></tr></thead>
+          <tbody>
+            <tr><td>Alpha (α)</td><td>⁴He nucleus (2p + 2n)</td><td>Z–2, A–4</td><td>Lowest (stopped by paper)</td></tr>
+            <tr><td>Beta-minus (β⁻)</td><td>Electron</td><td>Z+1, A unchanged</td><td>Medium (stopped by plastic)</td></tr>
+            <tr><td>Beta-plus (β⁺)</td><td>Positron</td><td>Z–1, A unchanged</td><td>Medium</td></tr>
+            <tr><td>Gamma (γ)</td><td>Photon</td><td>No change</td><td>Highest (requires lead/concrete)</td></tr>
+            <tr><td>Electron capture</td><td>Inner e⁻ absorbed</td><td>Z–1, A unchanged</td><td>—</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="formula">Half-life: t₁/₂ = 0.693/λ &nbsp;&nbsp; N(t) = N₀(½)^(t/t₁/₂)</div>
+    </div>
+
+    <!-- THERMODYNAMICS -->
+    <div class="section-block" id="thermo">
+      <h2>2. Thermodynamics &amp; Kinetics</h2>
+
+      <h3>Laws of Thermodynamics</h3>
+      <ul>
+        <li><strong>Zeroth Law:</strong> Thermal equilibrium is transitive</li>
+        <li><strong>First Law:</strong> Energy is conserved: ΔU = q + w (w = –PΔV for expansion)</li>
+        <li><strong>Second Law:</strong> ΔS_universe ≥ 0 (entropy always increases for spontaneous processes)</li>
+        <li><strong>Third Law:</strong> S = 0 for a perfect crystal at 0 K</li>
+      </ul>
+
+      <h3>Gibbs Free Energy</h3>
+      <div class="formula">ΔG = ΔH − TΔS
+        ΔG° = −RT ln K  →  ΔG° = −nFE°
+        ΔG = ΔG° + RT ln Q</div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>ΔH</th><th>ΔS</th><th>ΔG</th><th>Spontaneity</th></tr></thead>
+          <tbody>
+            <tr><td>–</td><td>+</td><td>Always –</td><td>Always spontaneous</td></tr>
+            <tr><td>–</td><td>–</td><td>– at low T</td><td>Spontaneous at low T</td></tr>
+            <tr><td>+</td><td>+</td><td>– at high T</td><td>Spontaneous at high T</td></tr>
+            <tr><td>+</td><td>–</td><td>Always +</td><td>Never spontaneous</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Hess's Law &amp; Enthalpy</h3>
+      <div class="formula">ΔH°rxn = Σ ΔH°f(products) − Σ ΔH°f(reactants)
+        Bond enthalpies: ΔH = Σ bonds broken (reactants) − Σ bonds formed (products)</div>
+
+      <h3>Chemical Kinetics</h3>
+      <div class="formula">Rate = k[A]^m[B]^n  (m, n = reaction orders determined experimentally)
+        Arrhenius: k = Ae^(−Ea/RT)  →  ln(k) = ln(A) − Ea/RT
+        First order: [A] = [A]₀e^(−kt); t₁/₂ = 0.693/k
+        Second order: 1/[A] = 1/[A]₀ + kt; t₁/₂ = 1/(k[A]₀)</div>
+
+      <h3>Equilibrium</h3>
+      <div class="formula">K = [products]^stoich / [reactants]^stoich  (gases: Kp vs Kc: Kp = Kc(RT)^Δn)
+        Le Chatelier's Principle: System opposes changes to restore equilibrium</div>
+      <p><strong>Ksp</strong> = solubility product. Common insoluble salts: AgCl, BaSO₄, CaCO₃, PbS. Common ion effect decreases solubility.</p>
+    </div>
+
+    <!-- ACIDS & BASES -->
+    <div class="section-block" id="acids">
+      <h2>3. Acids, Bases &amp; Buffers</h2>
+
+      <h3>Key Definitions</h3>
+      <ul>
+        <li><strong>Arrhenius:</strong> Acid donates H⁺ to water; base produces OH⁻</li>
+        <li><strong>Brønsted-Lowry:</strong> Acid = proton donor; Base = proton acceptor</li>
+        <li><strong>Lewis:</strong> Acid = electron pair acceptor; Base = electron pair donor (broader)</li>
+      </ul>
+
+      <div class="formula">
+        Kw = [H⁺][OH⁻] = 1×10⁻¹⁴ at 25°C
+        pH = –log[H⁺]   pOH = –log[OH⁻]   pH + pOH = 14
+        Ka × Kb = Kw  →  pKa + pKb = 14
+      </div>
+
+      <h3>Henderson-Hasselbalch Equation</h3>
+      <div class="formula">pH = pKa + log([A⁻]/[HA])
+        For a buffer: pH ≈ pKa when [A⁻] = [HA] (1:1 ratio)</div>
+      <div class="callout callout-warn">
+        <div class="callout-title">⚡ Buffer Rule</div>
+        Effective buffering range = pKa ± 1 pH unit. Best buffer = weak acid + conjugate base (or weak base + conjugate acid). Phosphate buffer (pKa 6.8) is physiologically important.
+      </div>
+
+      <h3>Titration Concepts</h3>
+      <ul>
+        <li><strong>Equivalence point:</strong> Moles of acid = moles of base. pH depends on the salt formed.</li>
+        <li><strong>Half-equivalence point:</strong> pH = pKa (for weak acid titrated with strong base)</li>
+        <li><strong>Strong acid + Strong base:</strong> Equivalence at pH 7</li>
+        <li><strong>Weak acid + Strong base:</strong> Equivalence pH &gt; 7 (conjugate base is basic)</li>
+        <li><strong>Weak base + Strong acid:</strong> Equivalence pH &lt; 7 (conjugate acid is acidic)</li>
+      </ul>
+
+      <h3>Amino Acid Titration &amp; pI</h3>
+      <div class="formula">pI (isoelectric point) = (pKa1 + pKa2) / 2
+        For basic AAs (His, Lys, Arg): pI = (pKa2 + pKa3) / 2
+        For acidic AAs (Asp, Glu): pI = (pKa1 + pKa2) / 2</div>
+    </div>
+
+    <!-- ELECTROCHEMISTRY -->
+    <div class="section-block" id="electrochem">
+      <h2>4. Electrochemistry</h2>
+
+      <h3>Oxidation-Reduction</h3>
+      <p><strong>OIL RIG:</strong> Oxidation Is Loss; Reduction Is Gain (of electrons). Oxidizing agent is reduced; reducing agent is oxidized.</p>
+      <p><strong>Electrochemical cell:</strong> Anode = oxidation (A = an = anion flows toward); Cathode = reduction.</p>
+
+      <div class="formula">
+        E°cell = E°cathode − E°anode  (standard cell potential)
+        ΔG° = −nFE°  (n = moles of electrons; F = 96,485 C/mol)
+        Nernst equation: E = E° − (RT/nF)ln Q ≈ E° − (0.0592/n)log Q at 25°C
+      </div>
+
+      <h3>Galvanic vs. Electrolytic Cells</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Feature</th><th>Galvanic (Voltaic)</th><th>Electrolytic</th></tr></thead>
+          <tbody>
+            <tr><td>Energy</td><td>Spontaneous; produces electrical energy</td><td>Nonspontaneous; requires electrical energy</td></tr>
+            <tr><td>ΔG</td><td>Negative</td><td>Positive</td></tr>
+            <tr><td>Anode charge</td><td>Negative</td><td>Positive</td></tr>
+            <tr><td>Cathode charge</td><td>Positive</td><td>Negative</td></tr>
+            <tr><td>Example</td><td>Battery</td><td>Electroplating, electrolysis of water</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ORGANIC CHEMISTRY -->
+    <div class="section-block" id="orgo">
+      <h2>5. Organic Chemistry</h2>
+
+      <h3>Functional Groups (High-Yield)</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Group</th><th>Structure</th><th>Suffix</th><th>Key Property</th></tr></thead>
+          <tbody>
+            <tr><td>Alkane</td><td>C–C (sp³)</td><td>-ane</td><td>Nonpolar; unreactive</td></tr>
+            <tr><td>Alkene</td><td>C=C (sp²)</td><td>-ene</td><td>Addition reactions; electrophilic</td></tr>
+            <tr><td>Alkyne</td><td>C≡C (sp)</td><td>-yne</td><td>More acidic than alkenes (pKa ~25)</td></tr>
+            <tr><td>Aromatic</td><td>Benzene ring</td><td>-benzene</td><td>EAS reactions; delocalized π electrons</td></tr>
+            <tr><td>Alcohol</td><td>R–OH</td><td>-ol</td><td>H-bonding; nucleophile; can oxidize</td></tr>
+            <tr><td>Aldehyde</td><td>R–CHO</td><td>-al</td><td>Nucleophilic addition; oxidized to RCOOH</td></tr>
+            <tr><td>Ketone</td><td>R–CO–R'</td><td>-one</td><td>Nucleophilic addition; not oxidized easily</td></tr>
+            <tr><td>Carboxylic acid</td><td>R–COOH</td><td>-oic acid</td><td>Acidic; pKa ~4–5; H-bonding</td></tr>
+            <tr><td>Ester</td><td>R–COO–R'</td><td>-ate</td><td>Saponification; formed from acid + alcohol</td></tr>
+            <tr><td>Amide</td><td>R–CO–NR₂</td><td>-amide</td><td>Resonance; partial double bond; planar</td></tr>
+            <tr><td>Amine</td><td>R–NH₂</td><td>-amine</td><td>Nucleophile; basic; H-bonding</td></tr>
+            <tr><td>Thiol</td><td>R–SH</td><td>-thiol</td><td>Weak acid; forms disulfide bonds</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Nucleophilic Substitution Reactions</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Feature</th><th>SN2</th><th>SN1</th></tr></thead>
+          <tbody>
+            <tr><td>Mechanism</td><td>Concerted, one step</td><td>Two steps (carbocation intermediate)</td></tr>
+            <tr><td>Rate</td><td>Rate = k[Nu][substrate]</td><td>Rate = k[substrate] (RDS)</td></tr>
+            <tr><td>Substrate</td><td>Methyl &gt; 1° &gt; 2° (no 3°)</td><td>3° &gt; 2° &gt; 1° (resonance stabilizes carbocation)</td></tr>
+            <tr><td>Stereochemistry</td><td>Walden inversion (backside attack)</td><td>Racemization (planar carbocation)</td></tr>
+            <tr><td>Solvent</td><td>Polar aprotic (DMF, DMSO, acetone)</td><td>Polar protic (H₂O, ROH)</td></tr>
+            <tr><td>Nucleophile</td><td>Strong nucleophile required</td><td>Weak nucleophile OK</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Elimination Reactions (E1 vs E2)</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Feature</th><th>E2</th><th>E1</th></tr></thead>
+          <tbody>
+            <tr><td>Mechanism</td><td>Concerted; anti-periplanar</td><td>Stepwise; carbocation intermediate</td></tr>
+            <tr><td>Rate</td><td>Rate = k[base][substrate]</td><td>Rate = k[substrate]</td></tr>
+            <tr><td>Base</td><td>Strong, bulky base (t-BuOK)</td><td>Weak base; often concurrent with SN1</td></tr>
+            <tr><td>Product</td><td>Zaitsev rule: more substituted alkene</td><td>Zaitsev rule usually (or Hofmann with bulky)</td></tr>
+            <tr><td>Stereochemistry</td><td>Anti elimination (trans H and LG)</td><td>No geometric requirement</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Stereochemistry</h3>
+      <p><strong>Chiral center:</strong> Carbon with 4 different groups. R/S configuration assigned by Cahn-Ingold-Prelog priority rules.</p>
+      <p><strong>Enantiomers:</strong> Non-superimposable mirror images; opposite R/S at all chiral centers. Same physical/chemical properties except optical activity.</p>
+      <p><strong>Diastereomers:</strong> Stereoisomers that are NOT mirror images; different R/S at some (not all) chiral centers. Different physical and chemical properties.</p>
+      <p><strong>Meso compounds:</strong> Contains chiral centers but has an internal plane of symmetry → achiral overall.</p>
+      <p><strong>Racemic mixture:</strong> 50:50 mixture of enantiomers; no net optical activity.</p>
+
+      <h3>Spectroscopy</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Technique</th><th>What it shows</th><th>Key Peaks</th></tr></thead>
+          <tbody>
+            <tr><td>IR</td><td>Functional groups (bond vibrations)</td><td>O-H (broad, 2500–3300), N-H (3300–3500), C=O (1700–1750), C≡N (2200)</td></tr>
+            <tr><td>¹H NMR</td><td>Hydrogen environments</td><td>TMS = 0 ppm reference; deshielding shifts downfield; coupling (n+1 rule)</td></tr>
+            <tr><td>Mass Spec (MS)</td><td>Molecular mass &amp; fragments</td><td>M⁺ = molecular ion peak; M+1 = isotope; fragments help identify structure</td></tr>
+            <tr><td>UV-Vis</td><td>Conjugation</td><td>More conjugation → longer λmax; used for protein quantification (280 nm)</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- PHYSICS -->
+    <div class="section-block" id="physics">
+      <h2>6. Physics</h2>
+
+      <div class="callout callout-warn">
+        <div class="callout-title">⚡ Essential Equations to Memorize</div>
+        Memorize ALL equations below. The MCAT provides no equation sheet.
+      </div>
+
+      <h3>Mechanics</h3>
+      <div class="formula">
+        Kinematics (constant acceleration):
+          v = v₀ + at
+          x = v₀t + ½at²
+          v² = v₀² + 2ax
+          x = ½(v + v₀)t
+
+        Newton's Laws:
+          F_net = ma  (1N = 1 kg·m/s²)
+          Weight: W = mg  (g = 9.8 m/s² ≈ 10 m/s²)
+          Friction: f = μN  (static μ_s > kinetic μ_k)
+
+        Work &amp; Energy:
+          W = Fd cos θ  (only parallel component)
+          KE = ½mv²
+          PE_gravity = mgh
+          PE_spring = ½kx²  (Hooke's Law: F = –kx)
+          Power: P = W/t = Fv
+
+        Momentum:
+          p = mv
+          Impulse: J = FΔt = Δp
+          Conservation: p_before = p_after (elastic and inelastic)
+          Elastic collision: KE conserved; Inelastic: KE not conserved
+      </div>
+
+      <h3>Fluid Mechanics</h3>
+      <div class="formula">
+        Density: ρ = m/V  (water: 1000 kg/m³ = 1 g/cm³)
+        Pressure: P = F/A = ρgh (hydrostatic)
+        Buoyancy: F_b = ρ_fluid × V_submerged × g (Archimedes)
+        Continuity: A₁v₁ = A₂v₂  (flow rate Q = Av)
+        Bernoulli: P₁ + ½ρv₁² + ρgh₁ = P₂ + ½ρv₂² + ρgh₂
+        Poiseuille: Q = πr⁴ΔP / 8ηL  (flow is very sensitive to radius!)
+        Resistance: R = 8ηL/πr⁴  (like Ohm's law for fluids)
+      </div>
+      <div class="callout callout-info">
+        <div class="callout-title">Clinical Relevance</div>
+        Arteriosclerosis = ↓ r → dramatically ↑ R and ↓ Q. Radius is the most important factor in vascular resistance.
+      </div>
+
+      <h3>Waves &amp; Sound</h3>
+      <div class="formula">
+        v = fλ  (wave speed = frequency × wavelength)
+        Sound: v_sound ≈ 340 m/s in air; faster in solids/liquids
+        Intensity: I = P/A  (W/m²); I ∝ 1/r² (inverse square law)
+        Decibels: β = 10 log(I/I₀)  (I₀ = 10⁻¹² W/m²)
+        Doppler effect: f_obs = f_source × (v ± v_obs)/(v ∓ v_source)
+          (+ if approaching, – if receding)
+        Standing waves (string): λₙ = 2L/n  →  fₙ = nv/2L
+        Open pipe: fₙ = nv/2L (n = 1,2,3...)
+        Closed pipe: fₙ = nv/4L (n = 1,3,5... odd harmonics only)
+      </div>
+
+      <h3>Optics</h3>
+      <div class="formula">
+        Snell's Law: n₁sin θ₁ = n₂sin θ₂
+        Total internal reflection: when θ > θ_c where sin θ_c = n₂/n₁ (n₁ > n₂)
+        Thin lens equation: 1/f = 1/d_o + 1/d_i
+        Magnification: m = –d_i/d_o = h_i/h_o
+        Power (diopters): P = 1/f (meters)
+        Converging (convex) lens: f > 0; can form real or virtual images
+        Diverging (concave) lens: f < 0; always virtual, upright, reduced
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Mirror/Lens Type</th><th>d_o > 2f</th><th>d_o = 2f</th><th>f &lt; d_o &lt; 2f</th><th>d_o &lt; f</th></tr></thead>
+          <tbody>
+            <tr><td>Converging</td><td>Real, inverted, reduced</td><td>Real, inverted, same size</td><td>Real, inverted, enlarged</td><td>Virtual, upright, enlarged</td></tr>
+            <tr><td>Diverging</td><td colspan="4">Always: Virtual, upright, reduced</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Electricity &amp; Magnetism</h3>
+      <div class="formula">
+        Coulomb's Law: F = kq₁q₂/r²  (k = 9×10⁹ N·m²/C²)
+        Electric field: E = F/q = kQ/r²  (N/C = V/m)
+        Electric potential: V = kQ/r  (Volts)
+        Potential energy: U = qV = kq₁q₂/r
+
+        Capacitance: C = Q/V = ε₀A/d  (F = Farads)
+        Energy stored: U = ½CV² = Q²/2C
+
+        Ohm's Law: V = IR  (R in Ohms Ω)
+        Power: P = IV = I²R = V²/R
+        Series: R_total = R₁ + R₂... ; C_total = 1/(1/C₁ + 1/C₂...)
+        Parallel: R_total = 1/(1/R₁ + 1/R₂...) ; C_total = C₁ + C₂...
+
+        Magnetic force on moving charge: F = qv × B = qvBsin θ
+        On current: F = IL × B = ILBsin θ
+      </div>
+    </div>
+
+    <div style="text-align:center;padding:2rem 0;">
+      <a href="../mock-exams/chem-phys-exam.html" class="btn btn-primary btn-lg">Take the C/P Mock Exam →</a>
+    </div>
+  </div>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        document.querySelector(a.getAttribute('href')).scrollIntoView({behavior:'smooth'});
+      });
+    });
+  </script>
+</body>
+</html>

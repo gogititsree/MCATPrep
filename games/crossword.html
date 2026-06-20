@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crossword — MCAT Master</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <style>
+    .cw-wrapper { display: flex; gap: 2rem; flex-wrap: wrap; align-items: flex-start; }
+    .cw-grid-container { overflow-x: auto; }
+    .cw-clues-container { flex: 1; min-width: 280px; }
+    .cw-cell { width: 34px; height: 34px; }
+    .cw-cell input { font-size: 0.95rem; }
+    .puzzle-selector { display: flex; gap: 0.75rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+    .puzzle-selector button { padding: 0.5rem 1.1rem; border-radius: 8px; border: 1px solid var(--border); background: var(--surface2); color: var(--text); cursor: pointer; font-size: 0.875rem; }
+    .puzzle-selector button.active { background: var(--accent); border-color: var(--accent); }
+    .highlighted input { background: rgba(245,158,11,0.2) !important; }
+    .active-word input { background: rgba(99,102,241,0.15) !important; }
+    .active-cell input { background: rgba(99,102,241,0.4) !important; }
+    .correct-cell input { color: var(--accent2) !important; background: rgba(16,185,129,0.15) !important; }
+    .wrong-cell input { color: var(--accent4) !important; background: rgba(239,68,68,0.15) !important; }
+    .cw-controls { display: flex; gap: 0.75rem; margin-top: 1rem; flex-wrap: wrap; }
+    #cw-message { margin-top: 1rem; padding: 0.75rem 1rem; border-radius: 8px; display: none; }
+    .cw-clue-list { max-height: 500px; overflow-y: auto; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <a class="nav-logo" href="../index.html">⚕ MCAT Master</a>
+    <div class="nav-links">
+      <a href="flashcards.html">🃏 Flashcards</a>
+      <a href="matching.html">🎯 Matching</a>
+      <a href="passage-drill.html">📘 Passage Drill</a>
+      <a href="dashboard.html">📊 Dashboard</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="page-header">
+      <h1>🔤 MCAT Crossword Puzzles</h1>
+      <p>Two themed crosswords — Bio/Biochem and Psych/Soc. Click a clue or cell to begin.</p>
+    </div>
+
+    <div class="puzzle-selector">
+      <button class="active" onclick="loadPuzzle(0)">🧬 Bio/Biochem</button>
+      <button onclick="loadPuzzle(1)">🧠 Psych/Soc</button>
+    </div>
+
+    <div class="game-container">
+      <div class="cw-wrapper">
+        <div class="cw-grid-container">
+          <div id="cw-grid" class="crossword-grid"></div>
+          <div class="cw-controls">
+            <button class="btn btn-success" onclick="checkAnswers()">✓ Check Answers</button>
+            <button class="btn btn-secondary" onclick="revealAll()">💡 Reveal All</button>
+            <button class="btn btn-secondary" onclick="clearGrid()">🗑 Clear</button>
+          </div>
+          <div id="cw-message"></div>
+        </div>
+        <div class="cw-clues-container">
+          <div class="tabs">
+            <button class="tab-btn active" onclick="switchTab('across', this)">Across</button>
+            <button class="tab-btn" onclick="switchTab('down', this)">Down</button>
+          </div>
+          <div class="cw-clue-list">
+            <div id="clues-across" class="tab-panel active"></div>
+            <div id="clues-down" class="tab-panel"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ── Puzzle definitions ──────────────────────────────────────────────────
+    // Each word: { word, clue, row, col, dir }  (0-indexed grid coords)
+    // Dir: 'across' or 'down'
+
+    const puzzles = [
+      {
+        name: "Bio/Biochem",
+        size: 13,
+        words: [
+          // Manually verified placement on a 13×13 grid
+          // ACROSS
+          { word: "MITOSIS",    row: 0,  col: 0,  dir: "across", clue: "Cell division producing two genetically identical daughter cells" },
+          { word: "ENZYME",     row: 2,  col: 5,  dir: "across", clue: "Biological catalyst that lowers activation energy" },
+          { word: "OSMOSIS",    row: 4,  col: 0,  dir: "across", clue: "Passive movement of water across a semipermeable membrane" },
+          { word: "LYSOSOME",   row: 6,  col: 0,  dir: "across", clue: "Organelle containing acid hydrolases for intracellular digestion" },
+          { word: "ADENINE",    row: 8,  col: 0,  dir: "across", clue: "Purine nitrogenous base found in DNA and RNA; pairs with thymine in DNA" },
+          { word: "RIBOSOME",   row: 10, col: 0,  dir: "across", clue: "Site of protein synthesis; made of rRNA and protein" },
+          { word: "ALLELE",     row: 12, col: 4,  dir: "across", clue: "Variant form of a gene at a particular locus" },
+          // DOWN
+          { word: "MEIOSIS",    row: 0,  col: 0,  dir: "down", clue: "Cell division producing four haploid gametes; involves crossing over" },
+          { word: "INSULIN",    row: 0,  col: 4,  dir: "down", clue: "Pancreatic hormone that lowers blood glucose; secreted by beta cells" },
+          { word: "GENOME",     row: 2,  col: 6,  dir: "down", clue: "Complete set of genetic material of an organism" },
+          { word: "OSMOLARITY", row: 4,  col: 6,  dir: "down", clue: "Total concentration of solute particles in a solution (per liter)" },
+          { word: "LYASE",      row: 6,  col: 1,  dir: "down", clue: "Enzyme class that cleaves bonds without hydrolysis or oxidation; aldolase is an example" },
+          { word: "AMINO",      row: 8,  col: 3,  dir: "down", clue: "Prefix/group (–NH₂) found in all standard _____ acids" },
+          { word: "RIGOR",      row: 10, col: 2,  dir: "down", clue: "Stiffness; _____ mortis occurs due to ATP depletion after death" },
+        ]
+      },
+      {
+        name: "Psych/Soc",
+        size: 13,
+        words: [
+          // ACROSS
+          { word: "COGNITION",  row: 0,  col: 0,  dir: "across", clue: "Mental processes including thinking, memory, and problem-solving" },
+          { word: "SCHEMA",     row: 2,  col: 0,  dir: "across", clue: "Mental framework or structure that organizes and interprets information" },
+          { word: "NEURON",     row: 4,  col: 1,  dir: "across", clue: "Basic functional unit of the nervous system; transmits electrical signals" },
+          { word: "DOPAMINE",   row: 6,  col: 0,  dir: "across", clue: "Neurotransmitter associated with reward, motivation, and movement" },
+          { word: "SYNAPSE",    row: 8,  col: 3,  dir: "across", clue: "Junction between two neurons where neurotransmitters are released" },
+          { word: "CORTEX",     row: 10, col: 0,  dir: "across", clue: "Outer layer of the brain; responsible for higher cognitive functions" },
+          { word: "STIGMA",     row: 12, col: 2,  dir: "across", clue: "Goffman's term: deeply discrediting attribute that 'spoils' social identity" },
+          // DOWN
+          { word: "CULTURE",    row: 0,  col: 0,  dir: "down", clue: "Shared beliefs, values, norms, and practices of a social group" },
+          { word: "OBSESSION",  row: 0,  col: 4,  dir: "down", clue: "Intrusive, recurrent thought in OCD; ego-dystonic" },
+          { word: "GANGLION",   row: 4,  col: 5,  dir: "down", clue: "Cluster of nerve cell bodies outside the CNS; sympathetic _____ chain" },
+          { word: "NEUROTICISM",row: 0,  col: 8,  dir: "down", clue: "Big Five trait: tendency toward emotional instability and negative emotions" },
+          { word: "OPERANT",    row: 6,  col: 2,  dir: "down", clue: "Skinner's conditioning: behavior modified by consequences (reinforcement/punishment)" },
+          { word: "MOTOR",      row: 10, col: 0,  dir: "down", clue: "Type of neuron that carries signals from CNS to effectors (muscles, glands)" },
+          { word: "CORTISOL",   row: 8,  col: 9,  dir: "down", clue: "Stress hormone secreted by adrenal cortex; part of HPA axis response" },
+        ]
+      }
+    ];
+
+    let currentPuzzle = null;
+    let gridData = [];     // gridData[row][col] = { letter, wordIds: [] }
+    let placedWords = [];  // { ...word, number }
+    let activeCell = null; // { row, col }
+    let activeDir = 'across';
+    let activeWordIdx = -1;
+    let gridSize = 13;
+
+    function loadPuzzle(idx) {
+      document.querySelectorAll('.puzzle-selector button').forEach((b, i) => {
+        b.classList.toggle('active', i === idx);
+      });
+
+      currentPuzzle = puzzles[idx];
+      gridSize = currentPuzzle.size;
+      buildGrid();
+      renderGrid();
+      renderClues();
+    }
+
+    function buildGrid() {
+      // Initialize empty grid
+      gridData = Array.from({length: gridSize}, () =>
+        Array.from({length: gridSize}, () => ({ letter: null, wordIds: [], number: null }))
+      );
+
+      // Place words
+      placedWords = [];
+      let clueNum = 1;
+      const numberPositions = {}; // "row,col" -> number
+
+      // First pass: place letters
+      currentPuzzle.words.forEach((w, wi) => {
+        for (let i = 0; i < w.word.length; i++) {
+          const r = w.row + (w.dir === 'down' ? i : 0);
+          const c = w.col + (w.dir === 'across' ? i : 0);
+          if (r < gridSize && c < gridSize) {
+            gridData[r][c].letter = w.word[i];
+            gridData[r][c].wordIds.push(wi);
+          }
+        }
+        placedWords.push({...w, idx: wi});
+      });
+
+      // Second pass: assign numbers to starting positions
+      const startPositions = {};
+      placedWords.forEach((w, wi) => {
+        const key = `${w.row},${w.col}`;
+        if (!startPositions[key]) startPositions[key] = [];
+        startPositions[key].push(wi);
+      });
+
+      // Sort positions to assign numbers in reading order (top-to-bottom, left-to-right)
+      const sortedKeys = Object.keys(startPositions).sort((a, b) => {
+        const [ar, ac] = a.split(',').map(Number);
+        const [br, bc] = b.split(',').map(Number);
+        return ar !== br ? ar - br : ac - bc;
+      });
+
+      let num = 1;
+      sortedKeys.forEach(key => {
+        const [r, c] = key.split(',').map(Number);
+        gridData[r][c].number = num;
+        startPositions[key].forEach(wi => { placedWords[wi].number = num; });
+        num++;
+      });
+    }
+
+    function renderGrid() {
+      const gridEl = document.getElementById('cw-grid');
+      gridEl.innerHTML = '';
+      gridEl.style.gridTemplateRows = `repeat(${gridSize}, 34px)`;
+
+      for (let r = 0; r < gridSize; r++) {
+        const rowEl = document.createElement('div');
+        rowEl.className = 'cw-row';
+        for (let c = 0; c < gridSize; c++) {
+          const cell = gridData[r][c];
+          const cellEl = document.createElement('div');
+          cellEl.className = 'cw-cell ' + (cell.letter ? 'white' : 'black');
+          cellEl.dataset.row = r;
+          cellEl.dataset.col = c;
+
+          if (cell.letter) {
+            if (cell.number) {
+              const numEl = document.createElement('span');
+              numEl.className = 'cw-num';
+              numEl.textContent = cell.number;
+              cellEl.appendChild(numEl);
+            }
+            const input = document.createElement('input');
+            input.maxLength = 1;
+            input.dataset.row = r;
+            input.dataset.col = c;
+            input.addEventListener('click', () => selectCell(r, c));
+            input.addEventListener('keydown', handleKey);
+            input.addEventListener('input', handleInput);
+            cellEl.appendChild(input);
+          }
+
+          rowEl.appendChild(cellEl);
+        }
+        gridEl.appendChild(rowEl);
+      }
+    }
+
+    function getInput(r, c) {
+      if (r < 0 || r >= gridSize || c < 0 || c >= gridSize) return null;
+      return document.querySelector(`input[data-row="${r}"][data-col="${c}"]`);
+    }
+
+    function getCellEl(r, c) {
+      return document.querySelector(`.cw-cell[data-row="${r}"][data-col="${c}"]`);
+    }
+
+    function selectCell(r, c) {
+      const cell = gridData[r][c];
+      if (!cell.letter) return;
+
+      // If clicking an already-active cell, toggle direction
+      if (activeCell && activeCell.row === r && activeCell.col === c) {
+        const canAcross = cell.wordIds.some(wi => placedWords[wi].dir === 'across');
+        const canDown = cell.wordIds.some(wi => placedWords[wi].dir === 'down');
+        if (canAcross && canDown) {
+          activeDir = activeDir === 'across' ? 'down' : 'across';
+        }
+      } else {
+        // Auto-pick direction based on cell's words
+        const hasAcross = cell.wordIds.some(wi => placedWords[wi].dir === 'across');
+        const hasDown = cell.wordIds.some(wi => placedWords[wi].dir === 'down');
+        if (hasAcross && !hasDown) activeDir = 'across';
+        else if (hasDown && !hasAcross) activeDir = 'down';
+        // else keep current direction if available
+        if (activeDir === 'across' && !hasAcross) activeDir = 'down';
+        if (activeDir === 'down' && !hasDown) activeDir = 'across';
+      }
+
+      activeCell = { row: r, col: c };
+
+      // Find active word
+      activeWordIdx = cell.wordIds.find(wi => placedWords[wi].dir === activeDir) ?? -1;
+
+      highlightWord();
+      focusCell(r, c);
+    }
+
+    function highlightWord() {
+      // Clear all highlights
+      document.querySelectorAll('.cw-cell').forEach(el => {
+        el.classList.remove('active-cell', 'active-word');
+      });
+      document.querySelectorAll('.cw-clue').forEach(el => el.classList.remove('active'));
+
+      if (!activeCell) return;
+
+      // Highlight the word
+      if (activeWordIdx >= 0) {
+        const w = placedWords[activeWordIdx];
+        for (let i = 0; i < w.word.length; i++) {
+          const r = w.row + (w.dir === 'down' ? i : 0);
+          const c = w.col + (w.dir === 'across' ? i : 0);
+          const el = getCellEl(r, c);
+          if (el) el.classList.add('active-word');
+        }
+
+        // Highlight the clue
+        const clueEl = document.getElementById(`clue-${activeWordIdx}`);
+        if (clueEl) {
+          clueEl.classList.add('active');
+          clueEl.scrollIntoView({ block: 'nearest' });
+          // Switch to correct tab
+          if (w.dir !== activeDir) return;
+          const tabId = 'clues-' + w.dir;
+          const panels = document.querySelectorAll('.tab-panel');
+          panels.forEach(p => p.classList.remove('active'));
+          document.getElementById(tabId)?.classList.add('active');
+          document.querySelectorAll('.tab-btn').forEach((b, i) => {
+            b.classList.toggle('active', (i === 0 && w.dir === 'across') || (i === 1 && w.dir === 'down'));
+          });
+        }
+      }
+
+      // Highlight active cell
+      const el = getCellEl(activeCell.row, activeCell.col);
+      if (el) el.classList.add('active-cell');
+    }
+
+    function focusCell(r, c) {
+      const input = getInput(r, c);
+      if (input) input.focus();
+    }
+
+    function handleInput(e) {
+      const input = e.target;
+      const r = parseInt(input.dataset.row);
+      const c = parseInt(input.dataset.col);
+      // Normalize to uppercase, keep only letters
+      const val = input.value.replace(/[^A-Za-z]/g, '').toUpperCase().slice(-1);
+      input.value = val;
+      if (val) moveNext(r, c);
+    }
+
+    function handleKey(e) {
+      const input = e.target;
+      const r = parseInt(input.dataset.row);
+      const c = parseInt(input.dataset.col);
+
+      if (e.key === 'Backspace' && !input.value) {
+        movePrev(r, c);
+        e.preventDefault();
+      } else if (e.key === 'ArrowRight') {
+        activeDir = 'across'; selectCell(r, c);
+        const ni = getInput(r, c + 1);
+        if (ni) { activeCell = {row:r,col:c+1}; highlightWord(); ni.focus(); }
+        e.preventDefault();
+      } else if (e.key === 'ArrowLeft') {
+        activeDir = 'across'; selectCell(r, c);
+        const ni = getInput(r, c - 1);
+        if (ni) { activeCell = {row:r,col:c-1}; highlightWord(); ni.focus(); }
+        e.preventDefault();
+      } else if (e.key === 'ArrowDown') {
+        activeDir = 'down'; selectCell(r, c);
+        const ni = getInput(r + 1, c);
+        if (ni) { activeCell = {row:r+1,col:c}; highlightWord(); ni.focus(); }
+        e.preventDefault();
+      } else if (e.key === 'ArrowUp') {
+        activeDir = 'down'; selectCell(r, c);
+        const ni = getInput(r - 1, c);
+        if (ni) { activeCell = {row:r-1,col:c}; highlightWord(); ni.focus(); }
+        e.preventDefault();
+      } else if (e.key === 'Tab') {
+        e.preventDefault();
+        moveToNextWord(e.shiftKey ? -1 : 1);
+      }
+    }
+
+    function moveNext(r, c) {
+      if (!activeCell) return;
+      const dr = activeDir === 'down' ? 1 : 0;
+      const dc = activeDir === 'across' ? 1 : 0;
+      const nr = r + dr, nc = c + dc;
+      const ni = getInput(nr, nc);
+      if (ni && gridData[nr][nc].letter) {
+        activeCell = {row:nr, col:nc};
+        highlightWord();
+        ni.focus();
+      }
+    }
+
+    function movePrev(r, c) {
+      const dr = activeDir === 'down' ? 1 : 0;
+      const dc = activeDir === 'across' ? 1 : 0;
+      const nr = r - dr, nc = c - dc;
+      const ni = getInput(nr, nc);
+      if (ni && gridData[nr][nc].letter) {
+        activeCell = {row:nr, col:nc};
+        highlightWord();
+        ni.focus();
+      }
+    }
+
+    function moveToNextWord(delta) {
+      const dirs = ['across', 'down'];
+      const sortedWords = [...placedWords].sort((a, b) =>
+        a.number !== b.number ? a.number - b.number :
+        dirs.indexOf(a.dir) - dirs.indexOf(b.dir)
+      );
+      const cur = sortedWords.findIndex(w => w.idx === activeWordIdx);
+      const next = sortedWords[(cur + delta + sortedWords.length) % sortedWords.length];
+      if (next) {
+        activeDir = next.dir;
+        selectCell(next.row, next.col);
+      }
+    }
+
+    function renderClues() {
+      const acrossEl = document.getElementById('clues-across');
+      const downEl = document.getElementById('clues-down');
+      acrossEl.innerHTML = '';
+      downEl.innerHTML = '';
+
+      const acrossWords = placedWords.filter(w => w.dir === 'across')
+        .sort((a, b) => a.number - b.number);
+      const downWords = placedWords.filter(w => w.dir === 'down')
+        .sort((a, b) => a.number - b.number);
+
+      acrossWords.forEach(w => {
+        const el = document.createElement('div');
+        el.className = 'cw-clue';
+        el.id = `clue-${w.idx}`;
+        el.innerHTML = `<span>${w.number}.</span> ${w.clue} (${w.word.length})`;
+        el.onclick = () => { activeDir = 'across'; selectCell(w.row, w.col); };
+        acrossEl.appendChild(el);
+      });
+
+      downWords.forEach(w => {
+        const el = document.createElement('div');
+        el.className = 'cw-clue';
+        el.id = `clue-${w.idx}`;
+        el.innerHTML = `<span>${w.number}.</span> ${w.clue} (${w.word.length})`;
+        el.onclick = () => { activeDir = 'down'; selectCell(w.row, w.col); };
+        downEl.appendChild(el);
+      });
+    }
+
+    function switchTab(dir, btn) {
+      activeDir = dir;
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+      document.getElementById('clues-' + dir)?.classList.add('active');
+    }
+
+    function checkAnswers() {
+      let correct = 0, total = 0;
+      document.querySelectorAll('.cw-cell.white').forEach(cellEl => {
+        const r = parseInt(cellEl.dataset.row);
+        const c = parseInt(cellEl.dataset.col);
+        const input = cellEl.querySelector('input');
+        const expected = gridData[r][c].letter;
+        if (!input) return;
+        total++;
+        cellEl.classList.remove('correct-cell', 'wrong-cell');
+        if (input.value === expected) {
+          cellEl.classList.add('correct-cell');
+          correct++;
+        } else if (input.value) {
+          cellEl.classList.add('wrong-cell');
+        }
+      });
+      const msg = document.getElementById('cw-message');
+      msg.style.display = 'block';
+      if (correct === total) {
+        msg.style.background = 'rgba(16,185,129,0.15)';
+        msg.style.border = '1px solid var(--accent2)';
+        msg.textContent = `🎉 Congratulations! All ${total} letters correct!`;
+      } else {
+        msg.style.background = 'rgba(245,158,11,0.12)';
+        msg.style.border = '1px solid var(--accent3)';
+        msg.textContent = `${correct}/${total} letters correct. Green = correct, red = wrong, empty = missing.`;
+      }
+    }
+
+    function revealAll() {
+      document.querySelectorAll('.cw-cell.white').forEach(cellEl => {
+        const r = parseInt(cellEl.dataset.row);
+        const c = parseInt(cellEl.dataset.col);
+        const input = cellEl.querySelector('input');
+        if (input) {
+          input.value = gridData[r][c].letter;
+          cellEl.classList.add('correct-cell');
+          cellEl.classList.remove('wrong-cell');
+        }
+      });
+      const msg = document.getElementById('cw-message');
+      msg.style.display = 'block';
+      msg.style.background = 'rgba(99,102,241,0.12)';
+      msg.style.border = '1px solid var(--accent)';
+      msg.textContent = '💡 Answers revealed! Study the words and try again.';
+    }
+
+    function clearGrid() {
+      document.querySelectorAll('.cw-cell.white input').forEach(input => {
+        input.value = '';
+      });
+      document.querySelectorAll('.cw-cell').forEach(el => {
+        el.classList.remove('correct-cell', 'wrong-cell');
+      });
+      document.getElementById('cw-message').style.display = 'none';
+    }
+
+    // Initialize
+    loadPuzzle(0);
+  </script>
+</body>
+</html>

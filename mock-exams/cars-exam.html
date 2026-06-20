@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+
+
+<head>
+
+
+
+  <meta charset="UTF-8">
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+  <title>CARS Mock Exam — MCAT Master</title>
+
+
+
+  <link rel="stylesheet" href="../css/styles.css">
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+  <nav class="nav">
+
+
+
+    <a class="nav-logo" href="../index.html">⚕ MCAT Master</a>
+
+
+
+    <div class="nav-links">
+
+
+
+      <a href="../study-guides/cars.html">📖 CARS Guide</a>
+
+
+
+      <span style="color:var(--text-muted);font-size:0.875rem;">Timer: <span id="exam-timer" class="exam-timer" style="font-size:0.875rem;">00:00</span></span>
+
+
+
+    </div>
+
+
+
+  </nav>
+
+
+
+
+
+
+
+  <div class="container">
+
+
+
+    <div class="exam-header">
+
+
+
+      <div>
+
+
+
+        <span class="pill pill-cars">CARS Mock Exam</span>
+
+
+
+        <h1 style="margin-top:0.4rem;font-size:1.25rem;">Critical Analysis &amp; Reasoning Skills</h1>
+
+
+
+        <p class="exam-progress">
+
+
+
+        Exam <strong id="mock-number">1</strong> / 10 · Questions: <strong id="question-count">54</strong> · Answered: <span id="answered-count">0</span>
+
+
+
+      </p>
+
+
+
+      <div class="exam-controls" style="display:flex;gap:0.75rem;flex-wrap:wrap;align-items:center;margin-top:0.75rem;">
+
+
+
+        <label>Mock set:
+
+
+
+          <select id="mock-select">
+
+
+
+            <option value="1">#1</option>
+
+
+
+            <option value="2">#2</option>
+
+
+
+            <option value="3">#3</option>
+
+
+
+            <option value="4">#4</option>
+
+
+
+            <option value="5">#5</option>
+
+
+
+            <option value="6">#6</option>
+
+
+
+            <option value="7">#7</option>
+
+
+
+            <option value="8">#8</option>
+
+
+
+            <option value="9">#9</option>
+
+
+
+            <option value="10">#10</option>
+
+
+
+          </select>
+
+
+
+        </label>
+
+
+
+        <button class="btn btn-secondary btn-sm" id="load-mock">Load Set</button>
+
+
+
+      </div>
+
+
+
+      </div>
+
+
+
+      <div class="exam-timer" id="exam-timer">00:00</div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <div class="callout callout-info" style="margin-bottom:1.5rem;">
+
+
+
+      <strong>Instructions:</strong> Read each passage carefully before answering the questions. Base all answers on what is stated or implied in the passage — not on outside knowledge.
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <div id="cars-passages-container"></div>
+
+
+
+
+
+
+
+  <div style="text-align:center;padding:1.5rem 0;">
+
+
+
+      <button class="btn btn-danger btn-lg" onclick="exam.submit()">Submit Exam &amp; See Results</button>
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <div class="score-panel" id="score-panel">
+
+
+
+      <div class="score-big" id="score-big">—</div>
+
+
+
+      <div class="score-label" id="score-label"></div>
+
+
+
+      <div style="margin-top:0.5rem;color:var(--text-muted);" id="score-detail"></div>
+
+
+
+      <div style="margin-top:1.5rem;display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap;">
+
+
+
+        <a href="../study-guides/cars.html" class="btn btn-secondary">CARS Strategy Guide</a>
+
+
+
+        <a href="../index.html" class="btn btn-primary">Back to Dashboard</a>
+
+
+
+        <button class="btn btn-secondary" onclick="location.reload()">Retake Exam</button>
+
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+  </div>
+
+
+
+
+
+
+
+    <script src="../js/question-bank.js"></script>
+
+
+
+  <script>
+
+
+
+    let exam;
+
+
+
+    function loadMockExam(examNumber) {
+      if (exam?.timerInterval) clearInterval(exam.timerInterval);
+
+
+
+      const passages = getMockExam('cars', examNumber);
+
+
+
+      document.getElementById('mock-number').textContent = examNumber;
+
+
+
+      document.getElementById('question-count').textContent = passages.reduce((sum, p) => sum + p.questions.length, 0);
+
+
+
+      document.getElementById('answered-count').textContent = '0';
+
+
+
+      document.getElementById('mock-select').value = examNumber;
+
+
+
+      document.getElementById('cars-passages-container').innerHTML = '';
+
+
+
+      exam = new CARSExam(passages, 'score-panel');
+
+
+
+    }
+
+
+
+
+
+
+
+    document.getElementById('load-mock').addEventListener('click', () => {
+
+
+
+      loadMockExam(Number(document.getElementById('mock-select').value));
+
+
+
+    });
+
+
+
+
+
+
+
+    class CARSExam {
+
+
+
+      constructor(passages, scorePanelId) {
+
+
+
+        this.passages = passages;
+
+
+
+        this.scorePanel = document.getElementById(scorePanelId);
+
+
+
+        this.answers = {};
+
+
+
+        this.submitted = false;
+
+
+
+        this.startTime = Date.now();
+
+
+
+        this.timerEl = document.getElementById('exam-timer');
+
+
+
+        this.countEl = document.getElementById('answered-count');
+
+
+
+        this.render();
+
+
+
+        if (this.timerEl) this.startTimer();
+
+
+
+      }
+
+
+
+
+
+
+
+      startTimer() {
+
+
+
+        this.timerInterval = setInterval(() => {
+
+
+
+          const elapsed = Math.floor((Date.now() - this.startTime) / 1000);
+
+
+
+          const m = Math.floor(elapsed / 60).toString().padStart(2, '0');
+
+
+
+          const s = (elapsed % 60).toString().padStart(2, '0');
+
+
+
+          this.timerEl.textContent = m + ':' + s;
+
+
+
+        }, 1000);
+
+
+
+      }
+
+
+
+
+
+
+
+      get totalQuestions() {
+
+
+
+        return this.passages.reduce((sum, passage) => sum + passage.questions.length, 0);
+
+
+
+      }
+
+
+
+
+
+
+
+      render() {
+
+
+
+        const container = document.getElementById('cars-passages-container');
+
+
+
+        container.innerHTML = '';
+
+
+
+        let globalIndex = 0;
+
+
+
+        this.passages.forEach((passage, passageIndex) => {
+
+
+
+          const passageBlock = document.createElement('div');
+
+
+
+          passageBlock.className = 'passage-block';
+
+
+
+          passageBlock.innerHTML = `
+
+
+
+            <h3>Passage ${passageIndex + 1} (Questions ${globalIndex + 1}–${globalIndex + passage.questions.length})</h3>
+
+
+
+            <p>${passage.passageText}</p>
+
+
+
+          `;
+
+
+
+
+
+
+
+          const questionsContainer = document.createElement('div');
+
+
+
+          questionsContainer.id = `passage-${passageIndex}-questions`;
+
+
+
+          passageBlock.appendChild(questionsContainer);
+
+
+
+          container.appendChild(passageBlock);
+
+
+
+
+
+
+
+          passage.questions.forEach((q, qi) => {
+
+
+
+            const block = document.createElement('div');
+
+
+
+            block.className = 'question-block';
+
+
+
+            block.id = 'q-' + globalIndex;
+
+
+
+
+
+
+
+            const opts = q.options.map((opt, oi) => {
+
+
+
+              const letters = ['A','B','C','D'];
+
+
+
+              return `<div class="option" data-qi="${globalIndex}" data-oi="${oi}" onclick="exam.select(${globalIndex},${oi})">
+
+
+
+                <span class="option-letter">${letters[oi]}</span>
+
+
+
+                <span>${opt}</span>
+
+
+
+              </div>`;
+
+
+
+            }).join('');
+
+
+
+
+
+
+
+            block.innerHTML = `
+
+
+
+              <div class="question-number">Question ${globalIndex + 1} of ${this.totalQuestions}</div>
+
+
+
+              <div class="question-text">${q.text}</div>
+
+
+
+              <div class="options" id="opts-${globalIndex}">${opts}</div>
+
+
+
+              <div class="explanation" id="exp-${globalIndex}">
+
+
+
+                <strong>✅ Correct Answer: ${['A','B','C','D'][q.correct]}</strong><br>
+
+
+
+                ${q.explanation}
+
+
+
+              </div>`;
+
+
+
+
+
+
+
+            questionsContainer.appendChild(block);
+
+
+
+            globalIndex += 1;
+
+
+
+          });
+
+
+
+        });
+
+
+
+      }
+
+
+
+
+
+
+
+      select(qi, oi) {
+
+
+
+        if (this.submitted) return;
+
+
+
+        this.answers[qi] = oi;
+
+
+
+        document.querySelectorAll(`#opts-${qi} .option`).forEach((el, i) => {
+
+
+
+          el.classList.toggle('selected', i === oi);
+
+
+
+        });
+
+
+
+        if (this.countEl) {
+
+
+
+          this.countEl.textContent = Object.keys(this.answers).length;
+
+
+
+        }
+
+
+
+      }
+
+
+
+
+
+
+
+      submit() {
+
+        if (this.submitted) return;
+
+        this.submitted = true;
+
+        if (this.timerInterval) clearInterval(this.timerInterval);
+
+
+
+        let correct = 0;
+
+        let globalIndex = 0;
+
+        this.passages.forEach(passage => {
+
+          passage.questions.forEach(q => {
+
+            const chosen = this.answers[globalIndex];
+
+            const opts = document.querySelectorAll(`#opts-${globalIndex} .option`);
+
+            if (opts[q.correct]) opts[q.correct].classList.add('correct');
+
+            if (chosen !== undefined && opts[chosen]) opts[chosen].classList.add('incorrect');
+
+            if (chosen === q.correct) correct++;
+
+            const exp = document.getElementById('exp-' + globalIndex);
+
+            if (exp) exp.classList.add('show');
+
+            globalIndex += 1;
+
+          });
+
+        });
+
+
+
+        const pct = Math.round((correct / this.totalQuestions) * 100);
+
+        const scoreEl = document.getElementById('score-big');
+
+        const labelEl = document.getElementById('score-label');
+
+        const detailEl = document.getElementById('score-detail');
+
+
+
+        if (scoreEl) scoreEl.textContent = correct + '/' + this.totalQuestions;
+
+        if (labelEl) labelEl.textContent = pct + '% correct';
+
+        if (detailEl) {
+
+          detailEl.textContent = pct >= 80 ? '🎉 Excellent! You're in great shape.' :
+
+            pct >= 60 ? '📚 Good work — review the missed questions.' :
+
+            '💪 Keep studying — go back to the study guide!';
+
+        }
+
+
+
+        if (this.scorePanel) this.scorePanel.classList.add('show');
+
+        if (this.scorePanel) this.scorePanel.scrollIntoView({ behavior: 'smooth' });
+
+      }
+    }
+
+    loadMockExam(1);
+
+
+
+  </script>
+
+
+
+</body>
+
+
+
+</html>

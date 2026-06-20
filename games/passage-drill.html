@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Passage Drill — MCAT Master</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <style>
+    .passage-block { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 1.5rem; margin-bottom: 1.5rem; line-height: 1.75; }
+    .passage-header { display: flex; gap: 1rem; flex-wrap: wrap; align-items: flex-start; margin-bottom: 1rem; }
+    .passage-meta { color: var(--text-muted); font-size: 0.9rem; }
+    .passage-quote { font-style: italic; color: var(--text); margin-top: 0.75rem; }
+    .passage-footer { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1rem; }
+    .passage-brand { display: inline-flex; align-items: center; gap: 0.6rem; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <a class="nav-logo" href="../index.html">⚕ MCAT Master</a>
+    <div class="nav-links">
+      <a href="crossword.html">🔤 Crossword</a>
+      <a href="flashcards.html">🃏 Flashcards</a>
+      <a href="matching.html">🎯 Matching</a>
+      <a href="dashboard.html">📊 Dashboard</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="page-header">
+      <h1>📘 MCAT Passage Drill</h1>
+      <p>Practice exam-style reasoning with a short passage and four related questions.</p>
+    </div>
+
+    <div class="passage-block">
+      <div class="passage-header">
+        <div>
+          <h2>Medical Decision Making</h2>
+          <p class="passage-meta">A short clinical scenario focusing on physiology and reasoning.</p>
+        </div>
+        <div class="passage-brand pill pill-bb">Passage Drill</div>
+      </div>
+      <p>During a routine physical exam, a 26-year-old runner reports frequent muscle cramps after long training sessions. She drinks water regularly, but she also takes an over-the-counter herbal supplement advertised for improved endurance. Her resting heart rate is 48 beats per minute, blood pressure is 108/64 mm Hg, and her serum potassium is slightly elevated. She has no history of kidney disease.</p>
+      <p class="passage-quote">The physician suspects that the supplement contains a substance affecting ion channels and advises her to stop taking it while evaluating her electrolyte balance.</p>
+      <div class="passage-footer">
+        <div>Use the passage to answer questions 1–4.</div>
+        <div class="pill pill-cp">Timed practice</div>
+      </div>
+    </div>
+
+    <div class="exam-header">
+      <div>
+        <div class="exam-timer" id="exam-timer">03:00</div>
+        <div class="exam-progress" id="answered-count">0 / 4 answered</div>
+      </div>
+    </div>
+    <div id="questions-container"></div>
+    <div class="btn-group" style="justify-content:flex-end; margin-top:1rem;">
+      <button class="btn btn-success" onclick="submitPassage()">Submit Answers</button>
+      <button class="btn btn-secondary" onclick="startDrill()">Restart Passage</button>
+    </div>
+
+    <div id="score-panel" class="score-panel">
+      <div class="score-card">
+        <div class="score-big" id="score-big">0/0</div>
+        <div id="score-label"></div>
+        <div id="score-detail"></div>
+        <div style="margin-top:0.75rem; display:flex; gap:0.5rem; flex-wrap:wrap;">
+          <button class="btn btn-primary" onclick="startDrill()">Try Again</button>
+          <a href="../games/flashcards.html" class="btn btn-success">Review Related Concepts</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/exam.js"></script>
+  <script>
+    const PASSAGE_TAKEN_KEY = 'mcat-passage-taken';
+    const PASSAGE_PERFECT_KEY = 'mcat-passage-perfect';
+    const PASSAGE_BEST_KEY = 'mcat-passage-best-time';
+    let passageSubmitted = false;
+
+    function incrementPassageStat(key) {
+      const current = Number(localStorage.getItem(key) || '0');
+      localStorage.setItem(key, String(current + 1));
+    }
+
+    function updatePassageBest(seconds) {
+      const best = Number(localStorage.getItem(PASSAGE_BEST_KEY) || '0');
+      if (best === 0 || seconds < best) {
+        localStorage.setItem(PASSAGE_BEST_KEY, String(seconds));
+      }
+    }
+
+    const passageQuestions = [
+      {
+        text: 'Which mechanism best explains the runner’s elevated serum potassium?',
+        options: [
+          'Increased reabsorption of potassium in the distal tubule',
+          'Redistribution of potassium from cells into the bloodstream',
+          'Enhanced gastrointestinal absorption of potassium',
+          'Excess dietary potassium intake from the supplement'
+        ],
+        correct: 1,
+        explanation: 'Muscle cramps and resting bradycardia after intense exercise suggest cellular stress. Potassium shifts from cells to blood, especially when ion channels are affected, raising serum levels without kidney disease.'
+      },
+      {
+        text: 'The most likely action of the supplement is on which ion channel?',
+        options: [
+          'Voltage-gated sodium channel',
+          'Calcium-release channel in the sarcoplasmic reticulum',
+          'ATP-sensitive potassium channel',
+          'Voltage-gated potassium channel'
+        ],
+        correct: 3,
+        explanation: 'A substance affecting potassium handling and causing muscle cramps is consistent with altered voltage-gated potassium channels, which control repolarization and muscle excitability.'
+      },
+      {
+        text: 'Why is the patient’s bradycardia most likely not caused by hypothyroidism?',
+        options: [
+          'She is young and athletic, and hypothyroidism would cause hyperkalemia',
+          'Hypothyroidism typically causes hypotension, not low heart rate',
+          'Her normal blood pressure and acute onset point to a supplement effect',
+          'Hypothyroidism would also increase resting metabolic rate'
+        ],
+        correct: 2,
+        explanation: 'Hypothyroidism is chronic and would affect multiple systems; this patient’s acute presentation and supplement use suggest a direct pharmacologic effect instead.'
+      },
+      {
+        text: 'What is the best next step in management?',
+        options: [
+          'Order a thyroid-stimulating hormone test',
+          'Prescribe a potassium-wasting diuretic',
+          'Stop the supplement and recheck electrolytes',
+          'Begin a low-potassium diet immediately'
+        ],
+        correct: 2,
+        explanation: 'The most appropriate immediate step is to stop the suspected supplement and reassess serum electrolytes before pursuing further treatment, since the supplement is the likely cause.'
+      }
+    ];
+
+    function startDrill() {
+      passageSubmitted = false;
+      document.getElementById('score-panel').classList.remove('show');
+      exam = new MCATExam(passageQuestions, 'questions-container', 'score-panel');
+      window.exam = exam;
+      document.getElementById('exam-timer').textContent = '03:00';
+      document.getElementById('answered-count').textContent = '0 / 4 answered';
+      incrementPassageStat(PASSAGE_TAKEN_KEY);
+    }
+
+    function submitPassage() {
+      if (!exam || exam.submitted) return;
+      exam.submit();
+      if (exam.submitted && !passageSubmitted) {
+        passageSubmitted = true;
+        const scoreText = document.getElementById('score-big').textContent || '0/4';
+        const correct = Number(scoreText.split('/')[0]);
+        if (correct === passageQuestions.length) {
+          incrementPassageStat(PASSAGE_PERFECT_KEY);
+        }
+        const elapsed = 180 - Number(document.getElementById('exam-timer').textContent.split(':')[0]) * 60 - Number(document.getElementById('exam-timer').textContent.split(':')[1]);
+        updatePassageBest(elapsed);
+      }
+    }
+
+    startDrill();
+  </script>
+</body>
+</html>

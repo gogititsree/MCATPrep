@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcards — MCAT Master</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <style>
+    .category-filter { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+    .cat-btn {
+      padding: 0.35rem 0.85rem; border-radius: 999px;
+      border: 1px solid var(--border); background: var(--surface2);
+      color: var(--text-muted); cursor: pointer; font-size: 0.8rem;
+      transition: all 0.15s;
+    }
+    .cat-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+    .cat-btn[data-cat="BB"].active { background: var(--bb-color); border-color: var(--bb-color); }
+    .cat-btn[data-cat="CP"].active { background: var(--cp-color); border-color: var(--cp-color); }
+    .cat-btn[data-cat="PS"].active { background: var(--ps-color); border-color: var(--ps-color); }
+
+    .card-meta { font-size: 0.75rem; color: var(--text-dim); margin-bottom: 0.3rem; }
+    .card-status { font-size: 0.75rem; color: var(--text-dim); margin-bottom: 0.75rem; }
+    .flashcard-back { justify-content: flex-start; text-align: left; }
+    .flashcard-back .card-side-label { position: absolute; top: 1rem; left: 1rem; }
+    .known-bar { display: flex; gap: 0.75rem; align-items: center; margin-top: 1rem; font-size: 0.875rem; color: var(--text-muted); }
+    .progress-ring { font-size: 1.1rem; font-weight: 700; color: var(--accent2); }
+    .hint { font-size: 0.8rem; color: var(--text-dim); text-align: center; margin-top: 0.5rem; }
+    .quiz-section { margin-top: 1.75rem; background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 1.5rem; }
+    .quiz-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+    .quiz-summary { display: grid; grid-template-columns: repeat(auto-fit,minmax(140px,1fr)); gap: 1rem; margin-bottom: 1rem; }
+    .quiz-stat { background: var(--surface2); border: 1px solid var(--border); border-radius: 14px; padding: 1rem; }
+    .quiz-stat span { display: block; color: var(--text-muted); font-size: 0.8rem; margin-bottom: 0.35rem; }
+    .quiz-stat strong { display: block; font-size: 1.5rem; font-weight: 700; }
+    .quiz-hidden { display: none; }
+    .score-panel { display: none; margin-top: 1rem; }
+    .score-panel.show { display: block; }
+    .score-card { background: rgba(16,185,129,0.08); border: 1px solid rgba(16,185,129,0.3); border-radius: 12px; padding: 1.25rem; }
+    .score-big { font-size: 2rem; font-weight: 800; margin-bottom: 0.35rem; color: var(--accent2); }
+    .badge-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(160px,1fr)); gap: 0.75rem; margin-top: 1rem; }
+    .badge-pill { display: inline-flex; align-items: center; justify-content: center; gap: 0.45rem; padding: 0.6rem 0.9rem; border-radius: 999px; border: 1px solid var(--border); background: var(--surface2); color: var(--text-muted); font-size: 0.82rem; }
+    .badge-pill.unlocked { border-color: var(--accent2); color: var(--text); background: rgba(16,185,129,0.12); }
+    .badge-toast { display: none; margin-top: 1rem; padding: 0.9rem 1rem; border-radius: 12px; background: rgba(99,102,241,0.12); border: 1px solid rgba(99,102,241,0.25); color: var(--text); }
+    .badge-toast.show { display: block; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <a class="nav-logo" href="../index.html">⚕ MCAT Master</a>
+    <div class="nav-links">
+      <a href="crossword.html">🔤 Crossword</a>
+      <a href="matching.html">🎯 Matching</a>
+      <a href="passage-drill.html">📘 Passage Drill</a>
+      <a href="dashboard.html">📊 Dashboard</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="page-header">
+      <h1>🃏 MCAT Flashcards</h1>
+      <p>Click the card to flip. Mark as Known or Still Learning to track progress.</p>
+    </div>
+
+    <div class="category-filter">
+      <button class="cat-btn active" data-cat="ALL" onclick="filterCards('ALL', this)">All (100+)</button>
+      <button class="cat-btn" data-cat="BB" onclick="filterCards('BB', this)">🧬 Bio/Biochem</button>
+      <button class="cat-btn" data-cat="CP" onclick="filterCards('CP', this)">⚗️ Chem/Phys</button>
+      <button class="cat-btn" data-cat="PS" onclick="filterCards('PS', this)">🧠 Psych/Soc</button>
+      <button class="cat-btn" data-cat="UNKNOWN" onclick="filterCards('UNKNOWN', this)">❓ Still Learning</button>
+      <button class="cat-btn" data-cat="DUE" onclick="filterCards('DUE', this)">⏳ Review Due</button>
+    </div>
+
+    <div class="game-container">
+      <div class="stats-bar">
+        <div class="stat"><div class="stat-value" id="stat-total">0</div><div class="stat-label">Total in Set</div></div>
+        <div class="stat"><div class="stat-value" id="stat-current">1</div><div class="stat-label">Current Card</div></div>
+        <div class="stat"><div class="stat-value" style="color:var(--accent2)" id="stat-known">0</div><div class="stat-label">Known ✓</div></div>
+        <div class="stat"><div class="stat-value" style="color:var(--accent3)" id="stat-learning">0</div><div class="stat-label">Still Learning</div></div>
+        <div class="stat"><div class="stat-value" style="color:var(--accent4)" id="stat-due">0</div><div class="stat-label">Due Review</div></div>
+      </div>
+
+      <div class="progress-bar" style="margin-bottom:1rem;">
+        <div class="progress-fill" id="progress-fill" style="width:0%"></div>
+      </div>
+
+      <div class="quiz-section">
+        <div class="quiz-header">
+          <div>
+            <h2>⚡ Timed Quiz</h2>
+            <p>Take a quick 5-question MCAT-style quiz in 2 minutes. Track your best score and streaks over time.</p>
+          </div>
+          <div class="pill pill-bb">Quick recall</div>
+        </div>
+
+        <div class="quiz-summary">
+          <div class="quiz-stat">
+            <span>Best Score</span>
+            <strong id="quiz-best-score">—</strong>
+          </div>
+          <div class="quiz-stat">
+            <span>Fastest Time</span>
+            <strong id="quiz-best-time">—</strong>
+          </div>
+          <div class="quiz-stat">
+            <span>Current Streak</span>
+            <strong id="quiz-streak">0</strong>
+          </div>
+        </div>
+
+        <div>
+          <div style="display:flex; align-items:center; justify-content:space-between; gap:1rem; margin-bottom:0.75rem;">
+            <div><strong>Achievements</strong> — earn badges for consistency and mastery.</div>
+            <div class="pill pill-ps" style="font-size:0.8rem;">Stay motivated</div>
+          </div>
+          <div id="badge-list" class="badge-grid"></div>
+          <div id="badge-toast" class="badge-toast"></div>
+        </div>
+
+        <div id="quiz-control-panel" style="display:flex; gap:0.75rem; flex-wrap:wrap; align-items:center; margin-bottom:1rem;">
+          <button class="btn btn-primary" onclick="launchQuiz()">Start Quiz</button>
+          <button class="btn btn-secondary" onclick="resetQuizProgress()">Reset Quiz Tracker</button>
+        </div>
+
+        <div id="quiz-area" class="quiz-hidden">
+          <div class="exam-header">
+            <div>
+              <div class="exam-timer" id="quiz-timer">02:00</div>
+              <div class="exam-progress" id="quiz-progress-text">Answer all questions. Time auto-submits at 0.</div>
+            </div>
+          </div>
+          <div id="quiz-questions"></div>
+          <div class="btn-group" style="justify-content:flex-end; margin-top:1rem;">
+            <button class="btn btn-success" onclick="submitQuiz()">Submit Quiz</button>
+          </div>
+          <div id="quiz-score-panel" class="score-panel">
+            <div class="score-card">
+              <div class="score-big" id="score-big">0/0</div>
+              <div id="score-label"></div>
+              <div id="score-detail"></div>
+              <div style="margin-top:0.75rem;">
+                <button class="btn btn-secondary" onclick="launchQuiz()">Try Again</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flashcard-scene" onclick="flipCard()">
+        <div class="flashcard" id="flashcard">
+          <div class="flashcard-front">
+            <span class="card-side-label">TERM</span>
+            <div class="card-meta" id="card-category"></div>
+            <div class="card-status" id="card-status"></div>
+            <div class="flashcard-term" id="card-term"></div>
+          </div>
+          <div class="flashcard-back">
+            <span class="card-side-label">DEFINITION</span>
+            <div class="flashcard-def" id="card-def"></div>
+          </div>
+        </div>
+      </div>
+      <div class="hint">Click card to flip · Use buttons below to navigate and mark</div>
+
+      <div class="flashcard-controls">
+        <button class="btn btn-success" onclick="markKnown()">✓ Known</button>
+        <button class="btn btn-warn" onclick="markLearning()">↻ Still Learning</button>
+      </div>
+
+      <div class="flashcard-nav">
+        <button class="btn btn-secondary" onclick="prevCard()">← Prev</button>
+        <span class="flashcard-counter" id="fc-counter">1 / 1</span>
+        <button class="btn btn-secondary" onclick="nextCard()">Next →</button>
+        <button class="btn btn-secondary btn-sm" onclick="shuffle()" title="Shuffle deck">🔀</button>
+        <button class="btn btn-secondary btn-sm" onclick="resetProgress()" title="Reset known/learning">🔄 Reset</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/exam.js"></script>
+  <script>
+    const ALL_CARDS = [
+      // ── Bio/Biochem ──────────────────────────────────────
+      { cat: 'BB', term: 'Km (Michaelis constant)', def: 'Substrate concentration at which reaction rate = ½ Vmax. Low Km = HIGH affinity for substrate. Determined experimentally from the Michaelis-Menten equation.' },
+      { cat: 'BB', term: 'Competitive Inhibition', def: 'Inhibitor binds ACTIVE site of free enzyme. Effect: Km ↑ (apparent), Vmax UNCHANGED. Can be overcome by adding more substrate. Example: Statins (HMG-CoA reductase).' },
+      { cat: 'BB', term: 'Noncompetitive Inhibition', def: 'Inhibitor binds ALLOSTERIC site (on free enzyme OR ES complex equally). Effect: Vmax ↓, Km UNCHANGED. Cannot be overcome by adding substrate. Example: Heavy metals.' },
+      { cat: 'BB', term: 'Uncompetitive Inhibition', def: 'Inhibitor binds ONLY enzyme-substrate (ES) complex. Effect: Vmax ↓, Km ↓ (both decrease proportionally). Lineweaver-Burk: parallel lines.' },
+      { cat: 'BB', term: 'Allosteric Enzyme', def: 'Enzyme with multiple subunits; shows sigmoidal (not hyperbolic) kinetics; regulated by molecules binding at sites other than the active site. Example: Hemoglobin, ATCase, PFK-1.' },
+      { cat: 'BB', term: 'Glycolysis Net Yield', def: '1 glucose → 2 pyruvate + 2 ATP (net) + 2 NADH. Location: cytoplasm. Reactions: 10 steps. Rate-limiting step: PFK-1 (Fructose-6-P → Fructose-1,6-bisP).' },
+      { cat: 'BB', term: 'TCA Cycle Yield (per acetyl-CoA)', def: '3 NADH + 1 FADH₂ + 1 GTP + 2 CO₂. Location: mitochondrial matrix. Rate-limiting enzyme: Isocitrate dehydrogenase.' },
+      { cat: 'BB', term: 'Oxidative Phosphorylation', def: 'NADH → 2.5 ATP; FADH₂ → 1.5 ATP. Total per glucose: ~30-32 ATP. Inner mitochondrial membrane. Electron transport → proton gradient → ATP synthase (chemiosmosis).' },
+      { cat: 'BB', term: 'Uncoupling Agent', def: 'Dissipates the proton gradient without making ATP → heat is produced instead. Examples: DNP (dinitrophenol), thermogenin (UCP1 in brown adipose tissue). Increases O₂ consumption but decreases ATP yield.' },
+      { cat: 'BB', term: 'Gluconeogenesis', def: 'Synthesis of glucose from non-carbohydrate sources (pyruvate, lactate, glycerol, glucogenic amino acids). Location: primarily liver. Activated by glucagon/cortisol. Unique enzymes: pyruvate carboxylase, PEPCK, F1,6BPase, G6Pase.' },
+      { cat: 'BB', term: 'Pyruvate Dehydrogenase Complex', def: 'Converts pyruvate → acetyl-CoA + CO₂ + NADH. Location: mitochondrial matrix. Requires: TPP, lipoamide, CoA, FAD, NAD⁺. Activated by Ca²⁺, AMP. Inhibited by acetyl-CoA, NADH, ATP.' },
+      { cat: 'BB', term: 'β-Oxidation', def: 'Fatty acid catabolism in mitochondrial matrix. Each cycle produces: 1 FADH₂ + 1 NADH + 1 Acetyl-CoA (chain shortened by 2C). Rate-limited by carnitine shuttle (CPT-I; malonyl-CoA inhibits).' },
+      { cat: 'BB', term: 'Semi-conservative Replication', def: 'Each new DNA molecule consists of one original (parental) strand and one newly synthesized strand. Proven by Meselson-Stahl experiment using ¹⁴N/¹⁵N isotopes.' },
+      { cat: 'BB', term: 'Central Dogma', def: 'DNA → (transcription) → RNA → (translation) → Protein. Exceptions: reverse transcriptase (RNA → DNA in retroviruses); RNA replication (RNA viruses).' },
+      { cat: 'BB', term: 'Lac Operon', def: 'Induced when: lactose present (allolactose removes repressor) AND glucose absent (high cAMP activates CAP). Both conditions needed for maximal expression. E. coli uses glucose preferentially (catabolite repression).' },
+      { cat: 'BB', term: 'Hardy-Weinberg Equation', def: 'p² + 2pq + q² = 1; p + q = 1. Assumes: no mutation, no migration, no selection, no genetic drift, random mating. q² = frequency of recessive homozygotes (affected).' },
+      { cat: 'BB', term: 'Mitosis vs. Meiosis', def: 'Mitosis: 1 division, 2 diploid identical daughter cells, no crossing over. Meiosis: 2 divisions, 4 haploid gametes, crossing over in Prophase I. Meiosis I separates homologs; Meiosis II separates sister chromatids.' },
+      { cat: 'BB', term: 'Hemoglobin Cooperativity', def: 'Sigmoidal O₂-binding curve. Bohr effect: ↑CO₂, ↑H⁺, ↑temp, ↑2,3-BPG → right shift (↓O₂ affinity → O₂ released to tissues). HbF (fetal) has higher O₂ affinity (left shift).' },
+      { cat: 'BB', term: 'Signal Recognition Particle', def: 'Recognizes N-terminal signal peptide on emerging polypeptide → pauses translation → directs ribosome to rough ER membrane. Co-translational insertion for secretory/membrane proteins.' },
+      { cat: 'BB', term: 'DNA Repair: NER', def: 'Nucleotide Excision Repair. Removes bulky DNA adducts (pyrimidine dimers from UV light). Involves: recognition, dual incision (~25 nt removed), gap filling by DNA pol, ligation. Defect → Xeroderma pigmentosum.' },
+      { cat: 'BB', term: 'Protein Targeting to Lysosome', def: 'Lysosomal enzymes are tagged with mannose-6-phosphate (M6P) in the Golgi → sorted to late endosomes → lysosomes. Defect in M6P tagging → I-cell disease (enzymes secreted instead of targeted).' },
+      { cat: 'BB', term: 'X-linked Recessive Inheritance', def: 'Affects males more than females (hemizygous). Carrier mothers have 50% affected sons. Affected fathers cannot pass to sons (pass Y); all daughters are carriers. Examples: hemophilia A (FVIII), hemophilia B (FIX), G6PD deficiency, DMD.' },
+      { cat: 'BB', term: 'HbA₁c (Glycated Hemoglobin)', def: 'Hemoglobin non-enzymatically glycated at N-terminus of β-chain. Reflects average blood glucose over ~3 months (RBC lifespan). Used to monitor long-term diabetes control. Normal <5.7%; diabetes ≥6.5%.' },
+      { cat: 'BB', term: 'Frank-Starling Law', def: 'Increased preload (venous return → ventricular filling) → increased stroke volume (up to a limit). The heart pumps what it receives. Mediated by sarcomere stretch → increased Ca²⁺ sensitivity and cross-bridge formation.' },
+      { cat: 'BB', term: 'Renin-Angiotensin-Aldosterone System', def: 'Low BP/Na⁺ → renin (kidney) → angiotensinogen → angiotensin I → ACE → angiotensin II → aldosterone ↑ (Na⁺ retention, K⁺ secretion) + vasoconstriction. Net: ↑ BP, ↑ blood volume.' },
+      // ── Chem/Phys ────────────────────────────────────────
+      { cat: 'CP', term: 'Gibbs Free Energy', def: 'ΔG = ΔH – TΔS. Spontaneous if ΔG < 0. At equilibrium: ΔG = 0. ΔG° = –RT ln K = –nFE°. ΔG = ΔG° + RT ln Q. Enzymes lower Ea but do NOT change ΔG° or Keq.' },
+      { cat: 'CP', term: 'Henderson-Hasselbalch', def: 'pH = pKa + log([A⁻]/[HA]). Effective buffer range: pKa ± 1 pH unit. At pH = pKa: [A⁻] = [HA]. Physiologic buffers: bicarbonate (pKa 6.1), phosphate (pKa 6.8), proteins.' },
+      { cat: 'CP', term: 'Le Chatelier\'s Principle', def: 'A system at equilibrium responds to stress by shifting to partially counteract the stress. ↑ concentration of reactant → shift right. ↑ temperature → shift toward endothermic direction. ↑ pressure → shift toward fewer moles of gas.' },
+      { cat: 'CP', term: 'SN2 Reaction', def: 'Bimolecular nucleophilic substitution. Concerted mechanism (one step). Rate = k[Nu][substrate]. Favors: 1° or CH₃ substrate, strong nucleophile, polar aprotic solvent. Stereochemistry: Walden inversion (backside attack → inversion of configuration).' },
+      { cat: 'CP', term: 'SN1 Reaction', def: 'Unimolecular nucleophilic substitution. Two-step: carbocation intermediate (RDS), then nucleophile attack. Rate = k[substrate]. Favors: 3° > 2° > 1° substrate, polar protic solvent, resonance-stabilized carbocation. Stereochemistry: racemization.' },
+      { cat: 'CP', term: 'Electrochemistry Cell Potential', def: 'E°cell = E°cathode – E°anode. ΔG° = –nFE°. Nernst: E = E° – (0.0592/n)log Q at 25°C. Galvanic cell (spontaneous): ΔG < 0, E > 0. Anode = oxidation; Cathode = reduction.' },
+      { cat: 'CP', term: 'Ideal Gas Law', def: 'PV = nRT. R = 8.314 J/mol·K = 0.0821 L·atm/mol·K. T must be in Kelvin (°C + 273). Real gases deviate at high P and low T.' },
+      { cat: 'CP', term: 'Colligative Properties', def: 'Depend on NUMBER of solute particles, not identity. ΔTb = iKbm (BP elevation); ΔTf = iKfm (FP depression); π = iMRT (osmotic pressure). i = van\'t Hoff factor (NaCl: i=2, glucose: i=1).' },
+      { cat: 'CP', term: 'Half-life Equations', def: 'First order: t₁/₂ = 0.693/k (constant, independent of [A]). Second order: t₁/₂ = 1/(k[A]₀) (depends on initial concentration). Zero order: t₁/₂ = [A]₀/2k.' },
+      { cat: 'CP', term: 'Bernoulli\'s Equation', def: 'P + ½ρv² + ρgh = constant. Applications: Venturi effect (narrowing → ↑v, ↓P), Pitot tube, airplane wings. Works for ideal, incompressible fluid flow.' },
+      { cat: 'CP', term: 'Poiseuille\'s Law', def: 'Q = πr⁴ΔP / (8ηL). Resistance R = 8ηL/πr⁴. Flow is proportional to r⁴ — halving radius → 16-fold decrease in flow! Most important factor in vascular resistance. Basis of atherosclerosis pathophysiology.' },
+      { cat: 'CP', term: 'VSEPR Geometries', def: 'Lone pairs cause greater repulsion than bonding pairs. 4 groups, 0 LP = tetrahedral (109.5°). 4 groups, 1 LP = trigonal pyramidal (<109.5°). 4 groups, 2 LP = bent (<109.5°). 3 groups, 0 LP = trigonal planar (120°).' },
+      { cat: 'CP', term: 'Arrhenius Equation', def: 'k = Ae^(–Ea/RT). ln(k₂/k₁) = (Ea/R)(1/T₁ – 1/T₂). Increasing T → ↑k. Catalyst → ↓Ea → ↑k without changing T. A = frequency factor (collision frequency × proper orientation).' },
+      { cat: 'CP', term: 'Thin Lens Equation', def: '1/f = 1/do + 1/di. Magnification m = –di/do = hi/ho. Converging (convex) lens: f > 0. Diverging (concave) lens: f < 0 → always virtual, upright, reduced. Real image: di > 0; Virtual image: di < 0.' },
+      { cat: 'CP', term: 'Doppler Effect (Sound)', def: 'f_obs = f_source × (v ± v_obs)/(v ∓ v_source). Use + when approaching, – when receding (for both observer numerator and source denominator). Observer moving toward source: f_obs ↑. Source moving toward observer: f_obs ↑.' },
+      { cat: 'CP', term: 'Stereochemistry: R/S Configuration', def: 'Assign priorities (highest atomic number = 1st). View from opposite lowest priority. Clockwise = R (Rectus); Counterclockwise = S (Sinister). Enantiomers: opposite R/S at ALL chiral centers. Diastereomers: opposite R/S at SOME centers.' },
+      { cat: 'CP', term: 'IR Spectroscopy Key Peaks', def: 'O–H (alcohol): 3200–3550 cm⁻¹ (broad). O–H (carboxylic acid): 2500–3300 cm⁻¹ (very broad). N–H: 3300–3500 cm⁻¹ (sharper). C=O: 1700–1750 cm⁻¹ (strong). C≡N: 2200–2260 cm⁻¹.' },
+      { cat: 'CP', term: 'Nuclear Decay', def: 'Alpha (α): –2p, –2n; lowest penetration. Beta-minus (β⁻): p+ increases by 1 (n → p + e⁻); stopped by plastic. Beta-plus (β⁺): p+ decreases by 1. Gamma (γ): no change in mass/Z; highest penetration (needs Pb). t₁/₂ = 0.693/λ.' },
+      { cat: 'CP', term: 'Acid-Base: Conjugate Pairs', def: 'Strong acids (HCl, H₂SO₄, HNO₃, HBr, HI, HClO₄) have very weak conjugate bases. Weak acid (HA) ⇌ H⁺ + A⁻. Ka × Kb = Kw = 10⁻¹⁴. pKa + pKb = 14. Lower pKa = stronger acid.' },
+      { cat: 'CP', term: 'Newton\'s Laws Summary', def: '1st: Object remains at rest/constant velocity unless net force acts. 2nd: F=ma (ΣF=ma). 3rd: Every action has equal and opposite reaction. For projectile: horizontal velocity constant; vertical: a=g=9.8 m/s².' },
+      { cat: 'CP', term: 'Organic Reactions: Aldehydes/Ketones', def: 'Nucleophilic addition to C=O. Aldehydes more reactive than ketones (less steric, more electrophilic). Grignard (RMgX) + ketone → 3° alcohol. Aldehyde + Tollens → silver mirror (silver nitrate oxidation test). Ketone: no Tollens reaction.' },
+      // ── Psych/Soc ────────────────────────────────────────
+      { cat: 'PS', term: 'Big Five Personality Traits (OCEAN)', def: 'Openness (to experience), Conscientiousness (organized, disciplined), Extraversion (sociable, assertive), Agreeableness (cooperative, empathetic), Neuroticism (emotional instability, anxiety). Trait theory; dimensional; cross-cultural validity.' },
+      { cat: 'PS', term: 'Maslow\'s Hierarchy of Needs', def: 'Pyramid (bottom to top): 1. Physiological (food, water, sleep), 2. Safety, 3. Love/Belonging, 4. Esteem, 5. Self-actualization. Lower needs must be met before higher needs motivate behavior. Humanistic psychology.' },
+      { cat: 'PS', term: 'Piaget\'s Stages', def: '0–2: Sensorimotor (object permanence). 2–7: Preoperational (symbolic; no conservation; egocentrism). 7–11: Concrete operational (conservation; logical for concrete). 12+: Formal operational (abstract; hypothetical reasoning).' },
+      { cat: 'PS', term: 'Erikson\'s Stage 5: Identity vs. Role Confusion', def: 'Adolescence (12–18). Key question: "Who am I?" Successful resolution → Fidelity (sense of identity). Failure → role confusion, difficulty with commitments. Influenced by peers and social roles.' },
+      { cat: 'PS', term: 'Classical Conditioning Key Terms', def: 'US: unconditioned stimulus (naturally triggers response). UR: unconditioned response. CS: conditioned stimulus (originally neutral). CR: conditioned response. Extinction: CS without US → CR weakens. Spontaneous recovery: CR reappears after rest.' },
+      { cat: 'PS', term: 'Variable Ratio Reinforcement', def: 'Reinforcement after UNPREDICTABLE number of responses. Produces HIGHEST response rate and GREATEST resistance to extinction. Example: slot machines, fishing. Contrast with fixed ratio (post-reinforcement pause), fixed interval (scallop).' },
+      { cat: 'PS', term: 'Fundamental Attribution Error', def: 'Tendency to OVER-attribute others\' behavior to DISPOSITIONAL (internal) factors while under-estimating SITUATIONAL (external) factors. Actor-observer bias: reverse for our OWN behavior (attribute to situation). MCAT loves this in clinical contexts.' },
+      { cat: 'PS', term: 'Social Facilitation', def: 'Presence of others IMPROVES performance on EASY/well-learned tasks but IMPAIRS performance on DIFFICULT/novel tasks. Explained by arousal theory (Zajonc): others → ↑ arousal → ↑ dominant response (easy = correct; hard = incorrect).' },
+      { cat: 'PS', term: 'Conformity vs. Obedience', def: 'Conformity: changing behavior to match group norms (Asch line study; 37% conformity rate). Obedience: following authority figure\'s orders (Milgram; 65% delivered max shock). Conformity = normative/informational pressure; Obedience = authority.' },
+      { cat: 'PS', term: 'Schachter-Singer Two-Factor Theory', def: 'Emotion = physiological arousal + cognitive label. Same arousal can produce different emotions depending on context (misattribution of arousal). Supported by bridge study (Dutton & Aron). Explains placebo effects, drug-emotion interactions.' },
+      { cat: 'PS', term: 'Major Depressive Disorder Criteria', def: '≥5 symptoms for ≥2 weeks (must include depressed mood OR anhedonia): depressed mood, anhedonia, weight/appetite change, insomnia/hypersomnia, psychomotor agitation/retardation, fatigue, worthlessness/guilt, poor concentration, suicidal ideation.' },
+      { cat: 'PS', term: 'Schizophrenia: Positive vs. Negative Symptoms', def: 'Positive (added abnormal): hallucinations, delusions, disorganized speech/behavior. Negative (lost normal): flat affect, alogia (poverty of speech), avolition (lack of motivation), anhedonia. Antipsychotics (D2 blockers) better for positive symptoms.' },
+      { cat: 'PS', term: 'Sociological Theories', def: 'Functionalism (Durkheim, Parsons): society = interdependent parts; consensus. Conflict theory (Marx, Weber): power struggle; inequality maintained by dominant group. Symbolic Interactionism (Mead, Goffman): society created through micro-level interactions and meanings.' },
+      { cat: 'PS', term: 'Impression Management (Goffman)', def: 'We present different "selves" in different situations (dramaturgical model). Front stage (public performance) vs. Backstage (private self). Stigma: discrediting attribute. Face-work: managing self-presentation to avoid embarrassment.' },
+      { cat: 'PS', term: 'Social Determinants of Health', def: 'Non-medical factors influencing health outcomes: income, education, employment, neighborhood, housing, food access, social support, healthcare access, discrimination. Lower SES → worse health outcomes through multiple pathways.' },
+      { cat: 'PS', term: 'Health Disparities: Key Concepts', def: 'Disparity = preventable differences in health burden between groups. Incidence: NEW cases / population at risk (rate). Prevalence: ALL existing cases / total population. Relative risk: P(disease|exposure) / P(disease|no exposure). Odds ratio used for case-control studies.' },
+      { cat: 'PS', term: 'Broca\'s vs. Wernicke\'s Aphasia', def: 'Broca\'s (frontal lobe): NON-fluent speech, effortful, telegraphic; comprehension intact. "BRoken speech." Wernicke\'s (posterior temporal): FLUENT but nonsensical "word salad"; poor comprehension. Arcuate fasciculus connects the two areas.' },
+      { cat: 'PS', term: 'Defense Mechanisms (Freud)', def: 'Repression (unconscious forgetting), Denial, Projection (attribute own feelings to others), Rationalization, Displacement, Reaction formation, Regression (to earlier stage), Sublimation (most mature: redirect to socially acceptable activity).' },
+      { cat: 'PS', term: 'Neurotransmitter Chart', def: 'Dopamine: reward, movement; Parkinson\'s (↓), schizophrenia (↑). Serotonin: mood, sleep; depression (↓). GABA: inhibitory; anxiety (↓), benzodiazepines ↑. Glutamate: excitatory, LTP, learning. NE: arousal, fight-or-flight. ACh: memory, muscle; Alzheimer\'s (↓).' },
+      { cat: 'PS', term: 'Cognitive Dissonance', def: 'Discomfort from holding inconsistent cognitions or acting against one\'s beliefs. Motivation to restore consistency → attitude change (usually). Classic study: Festinger & Carlsmith ($1 vs. $20 for boring task). Applied: patient education, behavior change.' },
+      { cat: 'PS', term: 'Memory Consolidation', def: 'Process by which unstable short-term memories are stabilized into long-term memories. Requires hippocampus (declarative memory). Occurs during sleep (especially slow-wave sleep and REM). LTP (long-term potentiation) = synaptic strengthening via NMDA receptors; cellular basis of memory.' },
+    ];
+
+    let activeCards = [...ALL_CARDS];
+    let currentIdx = 0;
+    let isFlipped = false;
+    let knownSet = new Set(JSON.parse(localStorage.getItem('mcat-known') || '[]'));
+    let unknownSet = new Set(JSON.parse(localStorage.getItem('mcat-unknown') || '[]'));
+
+    const catColors = { BB: 'var(--bb-color)', CP: 'var(--cp-color)', PS: 'var(--ps-color)' };
+    const catLabels = { BB: '🧬 Bio/Biochem', CP: '⚗️ Chem/Phys', PS: '🧠 Psych/Soc' };
+    const REVIEW_SCHEDULE = [1, 3, 7, 14, 30];
+    let reviewData = JSON.parse(localStorage.getItem('mcat-review') || '{}');
+
+    function getReviewData(card) {
+      const key = getKey(card);
+      if (!reviewData[key]) {
+        reviewData[key] = { level: 0, nextReview: Date.now(), updated: 0 };
+      }
+      return reviewData[key];
+    }
+
+    function formatDueText(data) {
+      const delta = Math.ceil((data.nextReview - Date.now()) / (1000 * 60 * 60 * 24));
+      if (delta <= 0) return 'Review due today';
+      return `Next review in ${delta} day${delta === 1 ? '' : 's'}`;
+    }
+
+    function isCardDue(card) {
+      const data = reviewData[getKey(card)];
+      return !data || data.nextReview <= Date.now();
+    }
+
+    function dueCount() {
+      return ALL_CARDS.filter(isCardDue).length;
+    }
+
+    function saveReview() {
+      localStorage.setItem('mcat-review', JSON.stringify(reviewData));
+    }
+
+    function updateReview(card, known) {
+      const key = getKey(card);
+      const data = getReviewData(card);
+      if (known) {
+        data.level = Math.min(REVIEW_SCHEDULE.length, data.level + 1);
+        const interval = REVIEW_SCHEDULE[Math.max(0, data.level - 1)];
+        data.nextReview = Date.now() + interval * 24 * 60 * 60 * 1000;
+      } else {
+        data.level = Math.max(0, data.level - 1);
+        data.nextReview = Date.now() + 24 * 60 * 60 * 1000;
+      }
+      data.updated = Date.now();
+      saveReview();
+    }
+
+    function filterCards(cat, btn) {
+      document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      if (cat === 'ALL') activeCards = [...ALL_CARDS];
+      else if (cat === 'UNKNOWN') {
+        activeCards = ALL_CARDS.filter(c => unknownSet.has(getKey(c)));
+        if (activeCards.length === 0) {
+          activeCards = [...ALL_CARDS];
+          alert('No "Still Learning" cards yet. Study some cards first!');
+        }
+      } else if (cat === 'DUE') {
+        activeCards = ALL_CARDS.filter(isCardDue);
+        if (activeCards.length === 0) {
+          activeCards = [...ALL_CARDS];
+          alert('No cards are due yet. Check back when your next review is ready.');
+        }
+      } else activeCards = ALL_CARDS.filter(c => c.cat === cat);
+
+      currentIdx = 0;
+      showCard();
+    }
+
+    function getKey(card) { return `${card.cat}:${card.term}`; }
+
+    function showCard() {
+      if (!activeCards.length) return;
+      const card = activeCards[currentIdx];
+
+      document.getElementById('card-term').textContent = card.term;
+      document.getElementById('card-def').textContent = card.def;
+      document.getElementById('card-category').textContent = catLabels[card.cat] || card.cat;
+      document.getElementById('card-category').style.color = catColors[card.cat] || 'var(--accent)';
+
+      const fc = document.getElementById('flashcard');
+      fc.classList.remove('flipped');
+      isFlipped = false;
+
+      const key = getKey(card);
+      const totalKnown = [...ALL_CARDS].filter(c => knownSet.has(getKey(c))).length;
+      const totalLearning = [...ALL_CARDS].filter(c => unknownSet.has(getKey(c))).length;
+      const cardReview = getReviewData(card);
+
+      document.getElementById('card-status').textContent = `Mastery ${cardReview.level}/${REVIEW_SCHEDULE.length} · ${formatDueText(cardReview)}`;
+      document.getElementById('stat-total').textContent = activeCards.length;
+      document.getElementById('stat-current').textContent = currentIdx + 1;
+      document.getElementById('stat-known').textContent = totalKnown;
+      document.getElementById('stat-learning').textContent = totalLearning;
+      document.getElementById('stat-due').textContent = dueCount();
+      document.getElementById('fc-counter').textContent = `${currentIdx + 1} / ${activeCards.length}`;
+
+      const pct = Math.round((totalKnown / ALL_CARDS.length) * 100);
+      document.getElementById('progress-fill').style.width = pct + '%';
+    }
+
+    function flipCard() {
+      document.getElementById('flashcard').classList.toggle('flipped');
+      isFlipped = !isFlipped;
+    }
+
+    function markKnown() {
+      const card = activeCards[currentIdx];
+      const key = getKey(card);
+      knownSet.add(key);
+      unknownSet.delete(key);
+      updateReview(card, true);
+      save();
+      checkBadges();
+      nextCard();
+    }
+
+    function markLearning() {
+      const card = activeCards[currentIdx];
+      const key = getKey(card);
+      unknownSet.add(key);
+      knownSet.delete(key);
+      updateReview(card, false);
+      save();
+      checkBadges();
+      nextCard();
+    }
+
+    function nextCard() {
+      currentIdx = (currentIdx + 1) % activeCards.length;
+      showCard();
+    }
+
+    function prevCard() {
+      currentIdx = (currentIdx - 1 + activeCards.length) % activeCards.length;
+      showCard();
+    }
+
+    function shuffle() {
+      for (let i = activeCards.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [activeCards[i], activeCards[j]] = [activeCards[j], activeCards[i]];
+      }
+      currentIdx = 0;
+      showCard();
+    }
+
+    function save() {
+      localStorage.setItem('mcat-known', JSON.stringify([...knownSet]));
+      localStorage.setItem('mcat-unknown', JSON.stringify([...unknownSet]));
+    }
+
+    function resetProgress() {
+      if (confirm('Reset all Known/Learning progress?')) {
+        knownSet.clear();
+        unknownSet.clear();
+        reviewData = {};
+        localStorage.removeItem('mcat-review');
+        save();
+        showCard();
+      }
+    }
+
+    const QUIZ_DURATION = 120;
+    const QUIZ_SCORE_KEY = 'mcat-quiz-best-score';
+    const QUIZ_TIME_KEY = 'mcat-quiz-fastest-time';
+    const QUIZ_STREAK_KEY = 'mcat-quiz-streak';
+
+    const quizQuestions = [
+      {
+        text: 'Km is best described as:',
+        options: [
+          'The substrate concentration at half of Vmax',
+          'The maximum reaction velocity',
+          'The inhibitor concentration that halves enzyme activity',
+          'The rate constant for product formation'
+        ],
+        correct: 0,
+        explanation: 'Km is the substrate concentration at which the reaction rate is half of Vmax. Lower Km means higher enzyme affinity for substrate.'
+      },
+      {
+        text: 'In noncompetitive inhibition, the effect on enzyme kinetics is:',
+        options: [
+          'Vmax unchanged, Km increased',
+          'Vmax decreased, Km unchanged',
+          'Vmax decreased, Km increased',
+          'Vmax unchanged, Km decreased'
+        ],
+        correct: 1,
+        explanation: 'Noncompetitive inhibitors bind allosteric sites and lower Vmax without changing Km, because they affect enzyme function regardless of substrate binding.'
+      },
+      {
+        text: 'Which VSEPR geometry describes 4 electron groups and 2 lone pairs?',
+        options: [
+          'Tetrahedral',
+          'Trigonal pyramidal',
+          'Bent',
+          'Linear'
+        ],
+        correct: 2,
+        explanation: 'Four electron groups with two lone pairs results in a bent molecular shape, with bond angles less than 109.5°.'
+      },
+      {
+        text: 'The Bohr effect on hemoglobin means that:',
+        options: [
+          'High pH shifts the curve right',
+          'Low CO2 increases O2 unloading',
+          'Increased 2,3-BPG raises O2 affinity',
+          'Increased H+ shifts the curve right and lowers affinity'
+        ],
+        correct: 3,
+        explanation: 'Acidic conditions (more H+) and CO2 lower hemoglobin affinity for O2, shifting the curve right and promoting oxygen release.'
+      },
+      {
+        text: 'Social facilitation predicts performance on an easy task will:',
+        options: [
+          'Remain unchanged because arousal has no effect',
+          'Improve in the presence of others',
+          'Worsen in the presence of others',
+          'Only improve after multiple practice trials'
+        ],
+        correct: 1,
+        explanation: 'Social facilitation improves performance on easy or well-learned tasks because the presence of others increases arousal and the dominant response is more likely to occur.'
+      },
+      {
+        text: 'In classical conditioning, the conditioned stimulus (CS) is:',
+        options: [
+          'A previously neutral stimulus that now triggers a learned response',
+          'An unlearned, natural trigger of response',
+          'The response elicited by the unconditioned stimulus',
+          'The consequence that reinforces behavior'
+        ],
+        correct: 0,
+        explanation: 'The conditioned stimulus is initially neutral but becomes able to elicit a response after being paired with an unconditioned stimulus.'
+      }
+    ];
+
+    let quizExam = null;
+    let quizTimerInterval = null;
+    let quizTimeLeft = QUIZ_DURATION;
+    let quizBestScore = Number(localStorage.getItem(QUIZ_SCORE_KEY) || '0');
+    let quizBestTime = Number(localStorage.getItem(QUIZ_TIME_KEY) || '0');
+    let quizStreak = Number(localStorage.getItem(QUIZ_STREAK_KEY) || '0');
+    const BADGES_KEY = 'mcat-badge-unlocks';
+    const BADGE_DEFS = [
+      { id: 'flashcard-apprentice', label: 'Flashcard Apprentice', desc: 'Mark 10 cards as Known.', condition: () => knownCount() >= 10 },
+      { id: 'flashcard-master', label: 'Flashcard Master', desc: 'Mark 30 cards as Known.', condition: () => knownCount() >= 30 },
+      { id: 'first-quiz', label: 'First Quiz', desc: 'Complete your first timed quiz.', condition: () => quizTaken >= 1 },
+      { id: 'quiz-streak', label: 'Quiz Streak', desc: 'Earn a quiz streak of 3 or more.', condition: () => quizStreak >= 3 },
+      { id: 'quiz-ace', label: 'Quiz Ace', desc: 'Score 5/5 on a timed quiz.', condition: () => quizBestScore === quizQuestions.length }
+    ];
+    let unlockedBadges = new Set(JSON.parse(localStorage.getItem(BADGES_KEY) || '[]'));
+    let quizTaken = Number(localStorage.getItem('mcat-quiz-taken') || '0');
+
+    function knownCount() {
+      return [...ALL_CARDS].filter(c => knownSet.has(getKey(c))).length;
+    }
+
+    function saveBadges() {
+      localStorage.setItem(BADGES_KEY, JSON.stringify([...unlockedBadges]));
+    }
+
+    function unlockBadge(id) {
+      if (!unlockedBadges.has(id)) {
+        unlockedBadges.add(id);
+        saveBadges();
+        renderBadges();
+        showBadgeToast(`🏅 Badge unlocked: ${BADGE_DEFS.find(b => b.id === id)?.label || id}`);
+      }
+    }
+
+    function showBadgeToast(message) {
+      const toast = document.getElementById('badge-toast');
+      toast.textContent = message;
+      toast.classList.add('show');
+      clearTimeout(toast.dismissTimer);
+      toast.dismissTimer = setTimeout(() => toast.classList.remove('show'), 4000);
+    }
+
+    function checkBadges() {
+      BADGE_DEFS.forEach(badge => {
+        if (badge.condition()) unlockBadge(badge.id);
+      });
+    }
+
+    function renderBadges() {
+      const container = document.getElementById('badge-list');
+      container.innerHTML = BADGE_DEFS.map(badge => {
+        const unlocked = unlockedBadges.has(badge.id);
+        return `<span class="badge-pill ${unlocked ? 'unlocked' : ''}" title="${badge.desc}">${unlocked ? '✅' : '⌛'} ${badge.label}</span>`;
+      }).join('');
+    }
+
+    function launchQuiz() {
+      quizTimeLeft = QUIZ_DURATION;
+      document.getElementById('quiz-area').classList.remove('quiz-hidden');
+      document.getElementById('quiz-score-panel').classList.remove('show');
+      document.getElementById('quiz-timer').textContent = formatTime(quizTimeLeft);
+      document.getElementById('quiz-progress-text').textContent = 'Answer all questions. Time auto-submits at 0.';
+      quizExam = new MCATExam(quizQuestions, 'quiz-questions', 'quiz-score-panel');
+      window.exam = quizExam;
+      if (quizTimerInterval) clearInterval(quizTimerInterval);
+      quizTaken += 1;
+      localStorage.setItem('mcat-quiz-taken', String(quizTaken));
+      checkBadges();
+      quizTimerInterval = setInterval(() => {
+        quizTimeLeft = Math.max(0, quizTimeLeft - 1);
+        document.getElementById('quiz-timer').textContent = formatTime(quizTimeLeft);
+        if (quizTimeLeft <= 0) {
+          clearInterval(quizTimerInterval);
+          document.getElementById('quiz-progress-text').textContent = 'Time is up — submitting your quiz.';
+          submitQuiz();
+        }
+      }, 1000);
+      renderQuizSummary();
+      setTimeout(() => document.getElementById('quiz-questions').scrollIntoView({ behavior: 'smooth' }), 100);
+    }
+
+    function formatTime(seconds) {
+      const m = Math.floor(seconds / 60).toString().padStart(2, '0');
+      const s = Math.max(0, seconds % 60).toString().padStart(2, '0');
+      return `${m}:${s}`;
+    }
+
+    function submitQuiz() {
+      if (!quizExam || quizExam.submitted) return;
+      if (quizTimerInterval) {
+        clearInterval(quizTimerInterval);
+        quizTimerInterval = null;
+      }
+      quizExam.submit();
+      const scoreText = document.getElementById('score-big').textContent || '0/0';
+      const correct = Number(scoreText.split('/')[0]);
+      const elapsed = QUIZ_DURATION - quizTimeLeft;
+      if (correct > quizBestScore) {
+        quizBestScore = correct;
+        localStorage.setItem(QUIZ_SCORE_KEY, String(quizBestScore));
+      }
+      if (correct >= Math.ceil(quizQuestions.length * 0.8)) {
+        quizStreak += 1;
+        if (quizBestTime === 0 || elapsed < quizBestTime) {
+          quizBestTime = elapsed;
+          localStorage.setItem(QUIZ_TIME_KEY, String(quizBestTime));
+        }
+      } else {
+        quizStreak = 0;
+      }
+      localStorage.setItem(QUIZ_STREAK_KEY, String(quizStreak));
+      checkBadges();
+      renderQuizSummary();
+      document.getElementById('quiz-score-panel').classList.add('show');
+    }
+
+    function renderQuizSummary() {
+      document.getElementById('quiz-best-score').textContent = quizBestScore ? `${quizBestScore}/${quizQuestions.length}` : '—';
+      document.getElementById('quiz-best-time').textContent = quizBestTime ? formatTime(quizBestTime) : '—';
+      document.getElementById('quiz-streak').textContent = quizStreak;
+    }
+
+    function resetQuizProgress() {
+      if (!confirm('Reset your quiz best score and streak?')) return;
+      quizBestScore = 0;
+      quizBestTime = 0;
+      quizStreak = 0;
+      localStorage.removeItem(QUIZ_SCORE_KEY);
+      localStorage.removeItem(QUIZ_TIME_KEY);
+      localStorage.removeItem(QUIZ_STREAK_KEY);
+      renderQuizSummary();
+    }
+
+    // Keyboard navigation
+    document.addEventListener('keydown', e => {
+      if (e.key === 'ArrowRight') nextCard();
+      else if (e.key === 'ArrowLeft') prevCard();
+      else if (e.key === ' ') { e.preventDefault(); flipCard(); }
+      else if (e.key === 'k') markKnown();
+      else if (e.key === 'l') markLearning();
+    });
+
+    renderQuizSummary();
+    checkBadges();
+    renderBadges();
+    showCard();
+  </script>
+</body>
+</html>

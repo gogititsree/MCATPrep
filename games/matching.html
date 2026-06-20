@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matching Game — MCAT Master</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <style>
+    .match-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.65rem; }
+    .match-card {
+      background: var(--surface2);
+      border: 2px solid var(--border);
+      border-radius: 10px;
+      padding: 0.75rem 0.5rem;
+      text-align: center;
+      cursor: pointer;
+      font-size: 0.8rem;
+      min-height: 70px;
+      display: flex; align-items: center; justify-content: center;
+      transition: all 0.2s;
+      font-weight: 500;
+      line-height: 1.4;
+    }
+    .match-card:hover:not(.matched):not(.selected) {
+      border-color: var(--accent); transform: scale(1.02);
+    }
+    .match-card.selected { border-color: var(--accent); background: rgba(99,102,241,0.2); }
+    .match-card.matched {
+      border-color: var(--accent2);
+      background: rgba(16,185,129,0.12);
+      cursor: default; opacity: 0.75;
+    }
+    .match-card.wrong {
+      border-color: var(--accent4);
+      background: rgba(239,68,68,0.15);
+      animation: shake 0.35s ease;
+    }
+    @keyframes shake {
+      0%,100% { transform: translateX(0); }
+      25% { transform: translateX(-6px); }
+      75% { transform: translateX(6px); }
+    }
+    .round-selector { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+    .round-btn {
+      padding: 0.4rem 0.9rem; border-radius: 8px;
+      border: 1px solid var(--border); background: var(--surface2);
+      color: var(--text-muted); cursor: pointer; font-size: 0.8rem;
+    }
+    .round-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+    .completion-banner {
+      display: none; text-align: center; padding: 1.5rem;
+      background: rgba(16,185,129,0.1); border: 1px solid var(--accent2);
+      border-radius: 12px; margin-top: 1rem;
+    }
+    .completion-banner.show { display: block; }
+    .match-term { color: var(--accent3); font-weight: 700; }
+    .match-def { color: var(--text); }
+    .timer-display {
+      font-size: 1.2rem; font-weight: 700;
+      font-variant-numeric: tabular-nums;
+      color: var(--accent3);
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <a class="nav-logo" href="../index.html">⚕ MCAT Master</a>
+    <div class="nav-links">
+      <a href="crossword.html">🔤 Crossword</a>
+      <a href="flashcards.html">🃏 Flashcards</a>
+      <a href="passage-drill.html">📘 Passage Drill</a>
+      <a href="dashboard.html">📊 Dashboard</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="page-header">
+      <h1>🎯 MCAT Matching Game</h1>
+      <p>Match each term with its definition. Select a term, then its matching definition.</p>
+    </div>
+
+    <div class="round-selector" id="round-selector"></div>
+
+    <div class="game-container">
+      <div class="stats-bar">
+        <div class="stat"><div class="stat-value timer-display" id="timer">0:00</div><div class="stat-label">Time</div></div>
+        <div class="stat"><div class="stat-value" id="moves-stat">0</div><div class="stat-label">Moves</div></div>
+        <div class="stat"><div class="stat-value" id="matched-stat" style="color:var(--accent2)">0</div><div class="stat-label">Matched</div></div>
+        <div class="stat"><div class="stat-value" id="remaining-stat">8</div><div class="stat-label">Remaining</div></div>
+        <div class="stat">
+          <button class="btn btn-secondary btn-sm" onclick="restartRound()">↺ Restart</button>
+        </div>
+      </div>
+
+      <div class="match-grid" id="match-grid"></div>
+
+      <div class="completion-banner" id="completion-banner">
+        <div style="font-size:2.5rem;">🎉</div>
+        <div style="font-size:1.3rem;font-weight:700;margin:0.5rem 0;">Round Complete!</div>
+        <div id="completion-stats" style="color:var(--text-muted);margin-bottom:1rem;"></div>
+        <button class="btn btn-success" onclick="nextRound()">Next Round →</button>
+        <button class="btn btn-secondary" onclick="restartRound()">Replay Round</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // 8 pairs per round = 16 cards
+    const rounds = [
+      {
+        name: "Enzyme Kinetics",
+        pairs: [
+          { term: "Km",                 def: "[S] at which v = ½ Vmax" },
+          { term: "Competitive Inh.",   def: "↑Km, unchanged Vmax" },
+          { term: "Noncompetitive Inh.",def: "↓Vmax, unchanged Km" },
+          { term: "Uncompetitive Inh.", def: "↓Vmax AND ↓Km (parallel LB lines)" },
+          { term: "Allosteric enzyme",  def: "Sigmoidal kinetics; cooperative binding" },
+          { term: "kcat",               def: "Catalytic rate (turnover number)" },
+          { term: "kcat/Km",            def: "Catalytic efficiency (specificity constant)" },
+          { term: "Feedback inhibition",def: "End product inhibits early pathway enzyme" },
+        ]
+      },
+      {
+        name: "Metabolism",
+        pairs: [
+          { term: "Glycolysis net",      def: "2 ATP + 2 NADH per glucose (cytoplasm)" },
+          { term: "TCA per acetyl-CoA",  def: "3 NADH + 1 FADH₂ + 1 GTP + 2 CO₂" },
+          { term: "ETC: NADH yield",     def: "≈ 2.5 ATP per NADH" },
+          { term: "ETC: FADH₂ yield",    def: "≈ 1.5 ATP per FADH₂" },
+          { term: "PFK-1",               def: "Rate-limiting enzyme of glycolysis" },
+          { term: "Uncoupler (DNP)",     def: "Dissipates H⁺ gradient → heat, not ATP" },
+          { term: "Carnitine shuttle",   def: "Transports long-chain acyl-CoA into mitochondria" },
+          { term: "Gluconeogenesis",     def: "Glucose synthesis from pyruvate, lactate, glycerol" },
+        ]
+      },
+      {
+        name: "Molecular Biology",
+        pairs: [
+          { term: "Helicase",        def: "Unwinds DNA double helix at replication fork" },
+          { term: "Primase",         def: "Synthesizes RNA primer (5'→3')" },
+          { term: "DNA Pol III",     def: "Main prokaryotic replicative polymerase" },
+          { term: "DNA Ligase",      def: "Seals nicks; joins Okazaki fragments" },
+          { term: "mRNA 5' cap",     def: "7-methylguanosine; added co-transcriptionally in eukaryotes" },
+          { term: "Lac operon",      def: "Induced by lactose + low glucose (CAP-cAMP)" },
+          { term: "NER",             def: "Removes bulky adducts (pyrimidine dimers from UV)" },
+          { term: "Semi-conservative",def: "Each daughter DNA has one old + one new strand" },
+        ]
+      },
+      {
+        name: "General Chemistry",
+        pairs: [
+          { term: "ΔG < 0",          def: "Spontaneous reaction (thermodynamically favorable)" },
+          { term: "Henderson-H.",     def: "pH = pKa + log([A⁻]/[HA])" },
+          { term: "Le Chatelier",     def: "System opposes changes to restore equilibrium" },
+          { term: "Boyle's Law",      def: "P₁V₁ = P₂V₂ (constant T, n)" },
+          { term: "Ksp",              def: "Solubility product (product of ion concentrations)" },
+          { term: "Galvanic cell",    def: "Spontaneous; anode (–) oxidized; cathode (+) reduced" },
+          { term: "Nernst equation",  def: "E = E° – (0.0592/n)log Q at 25°C" },
+          { term: "SN2",             def: "Backside attack; inversion of configuration; 1° favored" },
+        ]
+      },
+      {
+        name: "Physics",
+        pairs: [
+          { term: "Bernoulli's eq.", def: "P + ½ρv² + ρgh = constant (energy conservation)" },
+          { term: "Poiseuille's Law", def: "Q = πr⁴ΔP/8ηL; halve r → 16× ↑ resistance" },
+          { term: "v = fλ",          def: "Wave speed = frequency × wavelength" },
+          { term: "Snell's Law",      def: "n₁sinθ₁ = n₂sinθ₂ (refraction at interface)" },
+          { term: "1/f = 1/do + 1/di",def: "Thin lens (or mirror) equation" },
+          { term: "Doppler effect",   def: "Approaching source → higher observed frequency" },
+          { term: "F = qvBsinθ",     def: "Magnetic force on moving charge" },
+          { term: "Work",             def: "W = Fdcosθ (only parallel component does work)" },
+        ]
+      },
+      {
+        name: "Psychology: Learning",
+        pairs: [
+          { term: "Classical conditioning", def: "Neutral stimulus paired with US to elicit CR (Pavlov)" },
+          { term: "Operant conditioning", def: "Behavior shaped by consequences (reinforcement/punishment)" },
+          { term: "+Reinforcement", def: "Add reward → behavior increases" },
+          { term: "–Reinforcement", def: "Remove aversive → behavior increases" },
+          { term: "+Punishment",    def: "Add aversive → behavior decreases" },
+          { term: "–Punishment",    def: "Remove reward → behavior decreases" },
+          { term: "Variable ratio", def: "Highest response rate; most resistant to extinction" },
+          { term: "Observational learning", def: "Learning by watching a model (Bandura; Bobo doll)" },
+        ]
+      },
+      {
+        name: "Psychology: Memory & Cognition",
+        pairs: [
+          { term: "Working memory capacity", def: "7 ± 2 chunks (Miller's Law)" },
+          { term: "Anterograde amnesia", def: "Cannot form NEW memories (hippocampal damage; H.M.)" },
+          { term: "Episodic memory",   def: "Personal autobiographical events (explicit/declarative)" },
+          { term: "Procedural memory", def: "Skills and habits; implicit; not hippocampus-dependent" },
+          { term: "Proactive interference", def: "OLD memories interfere with NEW memory formation" },
+          { term: "Availability heuristic", def: "Judge probability by ease of recall" },
+          { term: "Cognitive dissonance", def: "Discomfort from inconsistent beliefs → attitude change" },
+          { term: "FAE",               def: "Over-attribute others' behavior to disposition, not situation" },
+        ]
+      },
+      {
+        name: "Sociology & Social Psychology",
+        pairs: [
+          { term: "Conflict theory",   def: "Society = power struggle; inequality maintained by dominant group (Marx)" },
+          { term: "Functionalism",     def: "Society = interdependent parts working for stability (Durkheim)" },
+          { term: "Symbolic interactionism", def: "Society created through micro-level interactions and meanings (Goffman)" },
+          { term: "Stigma (Goffman)", def: "Deeply discrediting attribute that 'spoils' social identity" },
+          { term: "Ascribed status",  def: "Status assigned at birth; not chosen (race, sex, caste)" },
+          { term: "Achieved status",  def: "Status earned through effort (occupation, education)" },
+          { term: "Conformity (Asch)", def: "Matching group behavior; ↑ by unanimity; ↓ by privacy" },
+          { term: "Obedience (Milgram)", def: "65% delivered max shock when ordered by authority" },
+        ]
+      }
+    ];
+
+    const MATCH_COMPLETED_KEY = 'mcat-matching-completed';
+    let currentRound = 0;
+    let selectedCard = null;
+    let matchedPairs = 0;
+    let moves = 0;
+    let timerInterval = null;
+    let seconds = 0;
+    let cards = [];
+    let bestTimes = JSON.parse(localStorage.getItem('mcat-match-times') || '{}');
+
+    function incrementMatchingCompleted() {
+      const current = Number(localStorage.getItem(MATCH_COMPLETED_KEY) || '0');
+      localStorage.setItem(MATCH_COMPLETED_KEY, String(current + 1));
+    }
+
+    function buildRoundSelector() {
+      const sel = document.getElementById('round-selector');
+      rounds.forEach((r, i) => {
+        const btn = document.createElement('button');
+        btn.className = 'round-btn' + (i === 0 ? ' active' : '');
+        btn.textContent = r.name;
+        btn.onclick = () => loadRound(i, btn);
+        sel.appendChild(btn);
+      });
+    }
+
+    function loadRound(idx, btn) {
+      document.querySelectorAll('.round-btn').forEach(b => b.classList.remove('active'));
+      if (btn) btn.classList.add('active');
+      currentRound = idx;
+      startRound();
+    }
+
+    function startRound() {
+      clearInterval(timerInterval);
+      seconds = 0;
+      moves = 0;
+      matchedPairs = 0;
+      selectedCard = null;
+      document.getElementById('completion-banner').classList.remove('show');
+      document.getElementById('moves-stat').textContent = '0';
+      document.getElementById('matched-stat').textContent = '0';
+      document.getElementById('remaining-stat').textContent = rounds[currentRound].pairs.length;
+
+      timerInterval = setInterval(() => {
+        seconds++;
+        const m = Math.floor(seconds / 60);
+        const s = (seconds % 60).toString().padStart(2, '0');
+        document.getElementById('timer').textContent = m + ':' + s;
+      }, 1000);
+
+      buildCards();
+    }
+
+    function buildCards() {
+      const round = rounds[currentRound];
+      cards = [];
+
+      round.pairs.forEach((pair, i) => {
+        cards.push({ id: i, type: 'term', text: pair.term, pairId: i });
+        cards.push({ id: i + round.pairs.length, type: 'def', text: pair.def, pairId: i });
+      });
+
+      // Shuffle
+      for (let i = cards.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [cards[i], cards[j]] = [cards[j], cards[i]];
+      }
+
+      renderCards();
+    }
+
+    function renderCards() {
+      const grid = document.getElementById('match-grid');
+      grid.innerHTML = '';
+
+      cards.forEach((card, i) => {
+        const el = document.createElement('div');
+        el.className = 'match-card ' + (card.type === 'term' ? 'match-term' : 'match-def');
+        el.textContent = card.text;
+        el.dataset.index = i;
+        el.onclick = () => selectCard(i, el);
+        grid.appendChild(el);
+      });
+    }
+
+    function selectCard(idx, el) {
+      const card = cards[idx];
+      if (el.classList.contains('matched')) return;
+
+      if (selectedCard === null) {
+        // First selection
+        selectedCard = { idx, el, card };
+        el.classList.add('selected');
+      } else {
+        if (selectedCard.idx === idx) {
+          // Deselect same card
+          el.classList.remove('selected');
+          selectedCard = null;
+          return;
+        }
+
+        moves++;
+        document.getElementById('moves-stat').textContent = moves;
+
+        const first = selectedCard;
+        selectedCard = null;
+        first.el.classList.remove('selected');
+
+        if (first.card.pairId === card.pairId && first.card.type !== card.type) {
+          // Match!
+          first.el.classList.add('matched');
+          el.classList.add('matched');
+          matchedPairs++;
+          document.getElementById('matched-stat').textContent = matchedPairs;
+          document.getElementById('remaining-stat').textContent = rounds[currentRound].pairs.length - matchedPairs;
+
+          if (matchedPairs === rounds[currentRound].pairs.length) {
+            clearInterval(timerInterval);
+            const key = currentRound;
+            if (!bestTimes[key] || seconds < bestTimes[key]) {
+              bestTimes[key] = seconds;
+              localStorage.setItem('mcat-match-times', JSON.stringify(bestTimes));
+            }
+            incrementMatchingCompleted();
+            showCompletion();
+          }
+        } else {
+          // Wrong
+          el.classList.add('wrong');
+          first.el.classList.add('wrong');
+          setTimeout(() => {
+            el.classList.remove('wrong');
+            first.el.classList.remove('wrong');
+          }, 600);
+        }
+      }
+    }
+
+    function showCompletion() {
+      const m = Math.floor(seconds / 60);
+      const s = (seconds % 60).toString().padStart(2, '0');
+      const best = bestTimes[currentRound];
+      const bm = Math.floor(best / 60);
+      const bs = (best % 60).toString().padStart(2, '0');
+
+      let statsText = `Time: ${m}:${s} · Moves: ${moves}`;
+      if (best === seconds) statsText += ' · 🏆 New best time!';
+      else statsText += ` · Best time: ${bm}:${bs}`;
+
+      document.getElementById('completion-stats').textContent = statsText;
+      document.getElementById('completion-banner').classList.add('show');
+      document.getElementById('completion-banner').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function nextRound() {
+      const nextIdx = (currentRound + 1) % rounds.length;
+      const btns = document.querySelectorAll('.round-btn');
+      loadRound(nextIdx, btns[nextIdx]);
+    }
+
+    function restartRound() {
+      startRound();
+    }
+
+    buildRoundSelector();
+    startRound();
+  </script>
+</body>
+</html>

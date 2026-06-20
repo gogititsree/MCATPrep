@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCAT Master Prep</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .section-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; }
+    .section-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.5rem;
+      display: flex; flex-direction: column; gap: 1rem;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .section-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,0.3); }
+    .sc-top { display: flex; align-items: center; gap: 0.9rem; }
+    .sc-icon { width: 48px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; }
+    .sc-title h2 { font-size: 0.95rem; font-weight: 700; }
+    .sc-title p { font-size: 0.78rem; color: var(--text-muted); }
+    .sc-desc { font-size: 0.85rem; color: var(--text-muted); }
+    .sc-links { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+    .sc-link {
+      display: inline-flex; align-items: center; gap: 0.35rem;
+      padding: 0.35rem 0.75rem; border-radius: 6px; font-size: 0.8rem; font-weight: 500;
+      border: 1px solid var(--border); color: var(--text); background: var(--surface2);
+      transition: all 0.15s;
+    }
+    .sc-link:hover { border-color: currentColor; text-decoration: none; }
+    .bb-link:hover { color: var(--bb-color); }
+    .cp-link:hover { color: var(--cp-color); }
+    .ps-link:hover { color: var(--ps-color); }
+    .cars-link:hover { color: var(--cars-color); }
+
+    .games-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+    .game-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      text-align: center;
+      transition: transform 0.15s, border-color 0.15s;
+    }
+    .game-card:hover { transform: translateY(-2px); border-color: var(--accent); }
+    .game-emoji { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    .game-card h3 { font-size: 0.95rem; font-weight: 600; margin-bottom: 0.3rem; }
+    .game-card p { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem; }
+
+    .mcat-overview {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .mcat-overview h2 { font-size: 1rem; font-weight: 700; margin-bottom: 1rem; }
+    .overview-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
+    .overview-stat { background: var(--surface2); border-radius: 10px; padding: 1rem; text-align: center; }
+    .overview-stat .num { font-size: 1.6rem; font-weight: 800; color: var(--accent); }
+    .overview-stat .lbl { font-size: 0.78rem; color: var(--text-muted); margin-top: 0.25rem; }
+
+    .score-scale {
+      display: flex; gap: 0.5rem; margin-top: 1rem; flex-wrap: wrap;
+    }
+    .scale-item {
+      flex: 1; min-width: 100px;
+      border-radius: 8px; padding: 0.6rem 0.8rem; text-align: center;
+      font-size: 0.8rem; font-weight: 600;
+    }
+
+    .section-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-dim); font-weight: 700; margin-bottom: 1rem; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <span class="nav-logo">⚕ MCAT Master</span>
+    <div class="nav-links">
+      <a href="#study">Study Guides</a>
+      <a href="#exams">Mock Exams</a>
+      <a href="#games">Games</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="hero">
+      <h1>MCAT <span>Master</span> Prep</h1>
+      <p>Comprehensive study guides · Full-length mock exams · Interactive learning games</p>
+    </div>
+
+    <!-- MCAT Overview -->
+    <div class="mcat-overview">
+      <h2>📊 MCAT at a Glance</h2>
+      <div class="overview-grid">
+        <div class="overview-stat"><div class="num">7.5 hrs</div><div class="lbl">Total Testing Time</div></div>
+        <div class="overview-stat"><div class="num">230</div><div class="lbl">Total Questions</div></div>
+        <div class="overview-stat"><div class="num">472–528</div><div class="lbl">Score Range</div></div>
+        <div class="overview-stat"><div class="num">4</div><div class="lbl">Sections</div></div>
+        <div class="overview-stat"><div class="num">118–132</div><div class="lbl">Per Section Score</div></div>
+        <div class="overview-stat"><div class="num">500</div><div class="lbl">Average Score</div></div>
+      </div>
+      <div class="score-scale">
+        <div class="scale-item" style="background:rgba(239,68,68,0.15);color:#EF4444;">472–499<br><small>Below Average</small></div>
+        <div class="scale-item" style="background:rgba(245,158,11,0.15);color:#F59E0B;">500–509<br><small>Average</small></div>
+        <div class="scale-item" style="background:rgba(99,102,241,0.15);color:#6366F1;">510–516<br><small>Competitive</small></div>
+        <div class="scale-item" style="background:rgba(16,185,129,0.15);color:#10B981;">517–528<br><small>Exceptional</small></div>
+      </div>
+    </div>
+
+    <!-- Section Study Cards -->
+    <div class="section-label" id="study">MCAT Sections</div>
+    <div class="section-cards">
+      <!-- B/B -->
+      <div class="section-card">
+        <div class="sc-top">
+          <div class="sc-icon" style="background:rgba(16,185,129,0.15);">🧬</div>
+          <div class="sc-title">
+            <h2>Biological &amp; Biochemical Foundations</h2>
+            <p>59 questions · 95 minutes · Section 1</p>
+          </div>
+        </div>
+        <p class="sc-desc">Biology, Biochemistry, Organic Chemistry, and General Chemistry — the foundation of living systems.</p>
+        <div class="sc-links">
+          <a class="sc-link bb-link" href="study-guides/bio-biochem.html">📖 Study Guide</a>
+          <a class="sc-link bb-link" href="mock-exams/bio-biochem-exam.html">📝 Mock Exam</a>
+        </div>
+      </div>
+
+      <!-- C/P -->
+      <div class="section-card">
+        <div class="sc-top">
+          <div class="sc-icon" style="background:rgba(99,102,241,0.15);">⚗️</div>
+          <div class="sc-title">
+            <h2>Chemical &amp; Physical Foundations</h2>
+            <p>59 questions · 95 minutes · Section 2</p>
+          </div>
+        </div>
+        <p class="sc-desc">General Chemistry, Organic Chemistry, Physics, and Biochemistry applied to biological systems.</p>
+        <div class="sc-links">
+          <a class="sc-link cp-link" href="study-guides/chem-phys.html">📖 Study Guide</a>
+          <a class="sc-link cp-link" href="mock-exams/chem-phys-exam.html">📝 Mock Exam</a>
+        </div>
+      </div>
+
+      <!-- P/S -->
+      <div class="section-card">
+        <div class="sc-top">
+          <div class="sc-icon" style="background:rgba(245,158,11,0.15);">🧠</div>
+          <div class="sc-title">
+            <h2>Psychological &amp; Social Foundations</h2>
+            <p>59 questions · 95 minutes · Section 3</p>
+          </div>
+        </div>
+        <p class="sc-desc">Psychology, Sociology, and Biology of behavior — how biological, psychological, and sociocultural factors affect health.</p>
+        <div class="sc-links">
+          <a class="sc-link ps-link" href="study-guides/psych-soc.html">📖 Study Guide</a>
+          <a class="sc-link ps-link" href="mock-exams/psych-soc-exam.html">📝 Mock Exam</a>
+        </div>
+      </div>
+
+      <!-- CARS -->
+      <div class="section-card">
+        <div class="sc-top">
+          <div class="sc-icon" style="background:rgba(239,68,68,0.15);">📚</div>
+          <div class="sc-title">
+            <h2>Critical Analysis &amp; Reasoning</h2>
+            <p>53 questions · 90 minutes · Section 4</p>
+          </div>
+        </div>
+        <p class="sc-desc">Reading comprehension and critical analysis of passages from humanities, social sciences, and natural sciences.</p>
+        <div class="sc-links">
+          <a class="sc-link cars-link" href="study-guides/cars.html">📖 Study Guide</a>
+          <a class="sc-link cars-link" href="mock-exams/cars-exam.html">📝 Mock Exam</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="mcat-overview" style="margin-top:1.5rem;">
+      <h2>🧪 Mock Exam Center</h2>
+      <div class="overview-grid">
+        <div class="overview-stat"><div class="num">4</div><div class="lbl">Sections</div></div>
+        <div class="overview-stat"><div class="num">10</div><div class="lbl">Mock sets each</div></div>
+        <div class="overview-stat"><div class="num">600</div><div class="lbl">Questions per section bank</div></div>
+      </div>
+      <p style="margin-top:1rem;color:var(--text-muted);font-size:0.95rem;">Jump to the mock exam hub for organized section practice and fast navigation to any target set.</p>
+      <a href="mock-exams/index.html" class="btn btn-primary btn-lg" style="margin-top:1rem;display:inline-block;">Open Mock Exam Center</a>
+    </div>
+
+    <!-- Games -->
+    <div class="section-label" id="games">Learning Games</div>
+    <div class="games-grid">
+      <div class="game-card">
+        <div class="game-emoji">🔤</div>
+        <h3>Crossword Puzzle</h3>
+        <p>Test your MCAT vocabulary with themed crosswords for each section.</p>
+        <a href="games/crossword.html" class="btn btn-primary btn-sm">Play Now</a>
+      </div>
+      <div class="game-card">
+        <div class="game-emoji">🃏</div>
+        <h3>Flashcards</h3>
+        <p>Spaced-repetition flashcards covering 100+ high-yield MCAT concepts.</p>
+        <a href="games/flashcards.html" class="btn btn-success btn-sm">Study Now</a>
+      </div>
+      <div class="game-card">
+        <div class="game-emoji">🎯</div>
+        <h3>Matching Game</h3>
+        <p>Match terms with definitions in a timed memory challenge.</p>
+        <a href="games/matching.html" class="btn btn-warn btn-sm">Play Now</a>
+      </div>
+      <div class="game-card">
+        <div class="game-emoji">📘</div>
+        <h3>Passage Drill</h3>
+        <p>Practice MCAT reasoning with a short passage and questions.</p>
+        <a href="games/passage-drill.html" class="btn btn-primary btn-sm">Try Passage</a>
+      </div>
+      <div class="game-card">
+        <div class="game-emoji">📊</div>
+        <h3>Study Dashboard</h3>
+        <p>Track your progress, goals, and review-ready cards in one place.</p>
+        <a href="games/dashboard.html" class="btn btn-success btn-sm">Open Dashboard</a>
+      </div>
+    </div>
+
+    <!-- Quick Tips -->
+    <div class="section-label" id="exams">Study Strategy</div>
+    <div class="grid grid-2" style="margin-bottom:2rem;">
+      <div class="card">
+        <h3 style="margin-bottom:0.75rem;">📅 Recommended Study Timeline</h3>
+        <ul style="font-size:0.875rem;padding-left:1.25rem;color:var(--text-muted);">
+          <li><strong style="color:var(--text);">Months 1–2:</strong> Content review — use the study guides</li>
+          <li><strong style="color:var(--text);">Month 3:</strong> Practice questions &amp; games daily</li>
+          <li><strong style="color:var(--text);">Month 4:</strong> Full mock exams; identify weak areas</li>
+          <li><strong style="color:var(--text);">Week before:</strong> Light review, sleep, and hydrate</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom:0.75rem;">⚡ High-Yield Focus Areas</h3>
+        <ul style="font-size:0.875rem;padding-left:1.25rem;color:var(--text-muted);">
+          <li>Amino acids &amp; enzyme kinetics (B/B)</li>
+          <li>Metabolic pathways: glycolysis, TCA, ETC</li>
+          <li>Acid-base equilibrium &amp; buffers (C/P)</li>
+          <li>Neurotransmitters &amp; conditioning (P/S)</li>
+          <li>CARS: read every day for 6 weeks</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <footer style="text-align:center;padding:2rem;color:var(--text-dim);font-size:0.8rem;border-top:1px solid var(--border);margin-top:2rem;">
+    MCAT Master Prep — Built for MCAT excellence &nbsp;·&nbsp; Content based on AAMC guidelines
+  </footer>
+</body>
+</html>

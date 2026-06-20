@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard — MCAT Master</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <style>
+    .dashboard-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 1rem; margin-bottom: 1.5rem; }
+    .dashboard-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 1.25rem; }
+    .dashboard-card h2 { font-size: 1rem; margin-bottom: 0.75rem; }
+    .dashboard-card p { color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; }
+    .dashboard-score { font-size: 2.1rem; font-weight: 800; color: var(--accent2); }
+    .dashboard-meta { display: grid; gap: 0.75rem; }
+    .goal-form { display: grid; gap: 0.75rem; margin-top: 1rem; }
+    .goal-form input { width: 75px; padding: 0.65rem 0.85rem; border-radius: 10px; border: 1px solid var(--border); background: var(--surface2); color: var(--text); }
+    .goal-meter { background: var(--surface2); border: 1px solid var(--border); border-radius: 999px; overflow: hidden; height: 18px; }
+    .goal-fill { height: 100%; background: var(--accent); width: 0%; transition: width 0.3s ease; }
+    .weekly-chart { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 0.5rem; align-items: end; margin-top: 1rem; }
+    .weekly-bar { display: flex; flex-direction: column; align-items: center; gap: 0.35rem; }
+    .weekly-bar-inner { width: 100%; background: var(--surface2); border-radius: 999px; overflow: hidden; height: 120px; display: flex; align-items: flex-end; }
+    .weekly-bar-fill { width: 0%; background: var(--accent2); border-radius: 999px 999px 0 0; transition: width 0.3s ease, background 0.3s ease; }
+    .weekly-bar-fill.goal-met { background: var(--accent); }
+    .weekly-day { font-size: 0.75rem; color: var(--text-muted); text-align: center; }
+    .weekly-count { font-size: 0.8rem; font-weight: 700; color: var(--text); }
+    .pill-small { display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.35rem 0.75rem; border-radius: 999px; background: var(--surface2); font-size: 0.8rem; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <a class="nav-logo" href="../index.html">⚕ MCAT Master</a>
+    <div class="nav-links">
+      <a href="crossword.html">🔤 Crossword</a>
+      <a href="flashcards.html">🃏 Flashcards</a>
+      <a href="matching.html">🎯 Matching</a>
+      <a href="passage-drill.html">📘 Passage Drill</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="page-header">
+      <h1>📈 Study Dashboard</h1>
+      <p>Track your MCAT progress across flashcards, quizzes, matching rounds, and passage drills.</p>
+    </div>
+
+    <div class="dashboard-grid">
+      <div class="dashboard-card">
+        <h2>Flashcards</h2>
+        <div class="dashboard-score" id="dash-known-count">0</div>
+        <p><span class="pill-small">Known cards</span></p>
+        <div class="dashboard-meta">
+          <div><strong id="dash-due-count">0</strong> due for review</div>
+          <div><strong id="dash-learning-count">0</strong> still learning</div>
+        </div>
+      </div>
+      <div class="dashboard-card">
+        <h2>Quiz Progress</h2>
+        <div class="dashboard-score" id="dash-quiz-best">—</div>
+        <p><span class="pill-small">Best score / streak</span></p>
+        <div class="dashboard-meta">
+          <div><strong id="dash-quiz-taken">0</strong> quizzes taken</div>
+          <div><strong id="dash-quiz-streak">0</strong> quiz streak</div>
+        </div>
+      </div>
+      <div class="dashboard-card">
+        <h2>Passage Drill</h2>
+        <div class="dashboard-score" id="dash-passage-count">0</div>
+        <p><span class="pill-small">Passages attempted</span></p>
+        <div class="dashboard-meta">
+          <div><strong id="dash-passage-perfect">0</strong> perfect runs</div>
+          <div><strong id="dash-passage-best">—</strong> best time</div>
+        </div>
+      </div>
+      <div class="dashboard-card">
+        <h2>Matching Practice</h2>
+        <div class="dashboard-score" id="dash-match-count">0</div>
+        <p><span class="pill-small">Rounds completed</span></p>
+        <div class="dashboard-meta">
+          <div><strong id="dash-match-best">—</strong> best round time</div>
+          <div><strong id="dash-match-average">—</strong> average time</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="dashboard-card">
+      <h2>Weekly Study Summary</h2>
+      <p>Track study sessions across the last 7 days. Bars turn green when daily goal is reached.</p>
+      <div class="weekly-chart" id="weekly-chart"></div>
+    </div>
+
+    <div class="dashboard-card">
+      <h2>Daily Goal</h2>
+      <p>Set a target for today and track your study sessions. Tap "Mark study session" each time you complete a focused review.</p>
+      <div class="goal-form">
+        <label>Daily sessions target: <input type="number" id="goal-input" min="1" step="1"></label>
+        <div class="goal-meter"><div id="goal-fill" class="goal-fill"></div></div>
+        <div><strong id="goal-progress-text">0 / 0</strong></div>
+        <div style="display:flex; gap:0.75rem; flex-wrap:wrap; margin-top:0.5rem;">
+          <button class="btn btn-success" onclick="markStudySession()">Mark study session</button>
+          <button class="btn btn-secondary" onclick="saveGoal()">Save target</button>
+          <button class="btn btn-secondary" onclick="resetGoal()">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="dashboard-card">
+      <h2>Quick Actions</h2>
+      <div class="dashboard-meta">
+        <div><a class="btn btn-primary btn-sm" href="flashcards.html">Review flashcards</a></div>
+        <div><a class="btn btn-success btn-sm" href="passage-drill.html">Practice another passage</a></div>
+        <div><a class="btn btn-warn btn-sm" href="matching.html">Play matching</a></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const REVIEW_KEY = 'mcat-review';
+    const GOAL_KEY = 'mcat-daily-goal';
+    const GOAL_PROGRESS_KEY = 'mcat-daily-progress';
+    const PASSAGE_TAKEN_KEY = 'mcat-passage-taken';
+    const PASSAGE_PERFECT_KEY = 'mcat-passage-perfect';
+    const PASSAGE_BEST_KEY = 'mcat-passage-best-time';
+    const MATCH_COMPLETED_KEY = 'mcat-matching-completed';
+    const MATCH_TIMES_KEY = 'mcat-match-times';
+    const QUIZ_TAKEN_KEY = 'mcat-quiz-taken';
+    const QUIZ_BEST_KEY = 'mcat-quiz-best-score';
+    const QUIZ_STREAK_KEY = 'mcat-quiz-streak';
+
+    function getJson(key, fallback) {
+      try { return JSON.parse(localStorage.getItem(key) || fallback); }
+      catch (err) { return JSON.parse(fallback); }
+    }
+
+    function getTodayKey() {
+      const now = new Date();
+      return now.toISOString().slice(0, 10);
+    }
+
+    function loadGoalState() {
+      const goal = Number(localStorage.getItem(GOAL_KEY) || '3');
+      const progress = getJson(GOAL_PROGRESS_KEY, '{}');
+      const today = getTodayKey();
+      const count = Number(progress[today] || 0);
+      return { goal, count, progress, today };
+    }
+
+    function renderDashboard() {
+      const known = getJson('mcat-known', '[]').length;
+      const unknown = getJson('mcat-unknown', '[]').length;
+      const reviewData = getJson(REVIEW_KEY, '{}');
+      const dueCount = Object.values(reviewData).filter(item => item.nextReview && item.nextReview <= Date.now()).length;
+      const quizBest = localStorage.getItem(QUIZ_BEST_KEY) || '—';
+      const quizStreak = localStorage.getItem(QUIZ_STREAK_KEY) || '0';
+      const quizTaken = localStorage.getItem(QUIZ_TAKEN_KEY) || '0';
+      const passageTaken = localStorage.getItem(PASSAGE_TAKEN_KEY) || '0';
+      const passagePerfect = localStorage.getItem(PASSAGE_PERFECT_KEY) || '0';
+      const passageBest = localStorage.getItem(PASSAGE_BEST_KEY) || '—';
+      const matchCompleted = localStorage.getItem(MATCH_COMPLETED_KEY) || '0';
+      const matchTimes = getJson(MATCH_TIMES_KEY, '{}');
+      const matchBest = Object.values(matchTimes).length ? Math.min(...Object.values(matchTimes)) : null;
+      const matchAverage = Object.values(matchTimes).length ? Math.round(Object.values(matchTimes).reduce((a,b)=>a+b,0) / Object.values(matchTimes).length) : null;
+      const goalState = loadGoalState();
+
+      document.getElementById('dash-known-count').textContent = known;
+      document.getElementById('dash-due-count').textContent = dueCount;
+      document.getElementById('dash-learning-count').textContent = unknown;
+      document.getElementById('dash-quiz-best').textContent = quizBest === '—' ? '—' : `${quizBest}/${4}`;
+      document.getElementById('dash-quiz-taken').textContent = quizTaken;
+      document.getElementById('dash-quiz-streak').textContent = quizStreak;
+      document.getElementById('dash-passage-count').textContent = passageTaken;
+      document.getElementById('dash-passage-perfect').textContent = passagePerfect;
+      document.getElementById('dash-passage-best').textContent = passageBest === '—' ? '—' : formatTime(Number(passageBest));
+      document.getElementById('dash-match-count').textContent = matchCompleted;
+      document.getElementById('dash-match-best').textContent = matchBest === null ? '—' : formatTime(matchBest);
+      document.getElementById('dash-match-average').textContent = matchAverage === null ? '—' : formatTime(matchAverage);
+      document.getElementById('goal-input').value = goalState.goal;
+      document.getElementById('goal-progress-text').textContent = `${goalState.count} / ${goalState.goal}`;
+      const percent = Math.min(100, Math.round((goalState.count / goalState.goal) * 100));
+      document.getElementById('goal-fill').style.width = `${percent}%`;
+      renderWeeklySummary(goalState);
+    }
+
+    function getLast7Days() {
+      const days = [];
+      const today = new Date();
+      for (let i = 6; i >= 0; i--) {
+        const d = new Date(today);
+        d.setDate(today.getDate() - i);
+        days.push(d.toISOString().slice(0, 10));
+      }
+      return days;
+    }
+
+    function formatDayLabel(dateString) {
+      return new Date(dateString).toLocaleDateString('en-US', { weekday: 'short' }).slice(0, 3);
+    }
+
+    function renderWeeklySummary(goalState) {
+      const chart = document.getElementById('weekly-chart');
+      const goal = Math.max(1, goalState.goal);
+      const days = getLast7Days();
+      const maxCount = Math.max(goal, ...days.map(day => Number(goalState.progress[day] || 0)));
+      chart.innerHTML = days.map(day => {
+        const count = Number(goalState.progress[day] || 0);
+        const fill = maxCount ? Math.min(100, Math.round((count / maxCount) * 100)) : 0;
+        const met = count >= goal;
+        return `
+          <div class="weekly-bar">
+            <div class="weekly-bar-inner"><div class="weekly-bar-fill ${met ? 'goal-met' : ''}" style="height:${fill}%"></div></div>
+            <div class="weekly-count">${count}</div>
+            <div class="weekly-day">${formatDayLabel(day)}</div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function formatTime(totalSeconds) {
+      const minutes = Math.floor(totalSeconds / 60);
+      const seconds = (totalSeconds % 60).toString().padStart(2, '0');
+      return `${minutes}:${seconds}`;
+    }
+
+    function saveGoal() {
+      const value = Number(document.getElementById('goal-input').value || '3');
+      localStorage.setItem(GOAL_KEY, String(Math.max(1, value)));
+      renderDashboard();
+    }
+
+    function markStudySession() {
+      const state = loadGoalState();
+      state.progress[state.today] = (Number(state.progress[state.today] || 0) + 1);
+      localStorage.setItem(GOAL_PROGRESS_KEY, JSON.stringify(state.progress));
+      renderDashboard();
+    }
+
+    function resetGoal() {
+      localStorage.removeItem(GOAL_KEY);
+      localStorage.removeItem(GOAL_PROGRESS_KEY);
+      renderDashboard();
+    }
+
+    renderDashboard();
+  </script>
+</body>
+</html>

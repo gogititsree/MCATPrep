@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B/B Mock Exam — MCAT Master</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <a class="nav-logo" href="../index.html">⚕ MCAT Master</a>
+    <div class="nav-links">
+      <a href="../study-guides/bio-biochem.html">📖 Study Guide</a>
+      <span style="color:var(--text-muted);font-size:0.875rem;">Timer: <span id="exam-timer" class="exam-timer" style="font-size:0.875rem;">00:00</span></span>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="exam-header">
+      <div>
+        <span class="pill pill-bb">B/B Mock Exam</span>
+        <h1 style="margin-top:0.4rem;font-size:1.25rem;">Biological &amp; Biochemical Foundations</h1>
+        <p class="exam-progress">
+        Exam <strong id="mock-number">1</strong> / 10 · Questions: <strong id="question-count">59</strong> · Answered: <span id="answered-count">0</span>
+      </p>
+      <div class="exam-controls" style="display:flex;gap:0.75rem;flex-wrap:wrap;align-items:center;margin-top:0.75rem;">
+        <label>Mock set:
+          <select id="mock-select">
+            <option value="1">#1</option>
+            <option value="2">#2</option>
+            <option value="3">#3</option>
+            <option value="4">#4</option>
+            <option value="5">#5</option>
+            <option value="6">#6</option>
+            <option value="7">#7</option>
+            <option value="8">#8</option>
+            <option value="9">#9</option>
+            <option value="10">#10</option>
+          </select>
+        </label>
+        <button class="btn btn-secondary btn-sm" id="load-mock">Load Set</button>
+      </div>
+      </div>
+      <div class="exam-timer" id="exam-timer">00:00</div>
+    </div>
+
+    <div id="questions-container"></div>
+
+    <div style="text-align:center;padding:1.5rem 0;">
+      <button class="btn btn-success btn-lg" onclick="exam.submit()">Submit Exam &amp; See Results</button>
+    </div>
+
+    <div class="score-panel" id="score-panel">
+      <div class="score-big" id="score-big">—</div>
+      <div class="score-label" id="score-label"></div>
+      <div style="margin-top:0.5rem;color:var(--text-muted);" id="score-detail"></div>
+      <div style="margin-top:1.5rem;display:flex;gap:0.75rem;justify-content:center;flex-wrap:wrap;">
+        <a href="../study-guides/bio-biochem.html" class="btn btn-secondary">Review Study Guide</a>
+        <a href="../mock-exams/chem-phys-exam.html" class="btn btn-primary">Next: C/P Exam →</a>
+        <button class="btn btn-secondary" onclick="location.reload()">Retake Exam</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/question-bank.js"></script>
+  <script src="../js/exam.js"></script>
+  <script>
+    let exam;
+    function loadMockExam(examNumber) {
+      if (exam?.timerInterval) clearInterval(exam.timerInterval);
+      const questions = getMockExam('bb', examNumber);
+      document.getElementById('mock-number').textContent = examNumber;
+      document.getElementById('question-count').textContent = questions.length;
+      document.getElementById('answered-count').textContent = '0';
+      document.getElementById('mock-select').value = examNumber;
+      document.getElementById('questions-container').innerHTML = '';
+      exam = new MCATExam(questions, 'questions-container', 'score-panel');
+    }
+
+    document.getElementById('load-mock').addEventListener('click', () => {
+      loadMockExam(Number(document.getElementById('mock-select').value));
+    });
+
+    loadMockExam(1);
+  </script>
+</body>
+</html>

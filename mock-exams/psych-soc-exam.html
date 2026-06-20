@@ -127,31 +127,24 @@
 
 
   <script src="../js/sources.js"></script>
-  <script src="../js/question-bank.js"></script>
-
   <script src="../js/exam.js"></script>
 
   <script>
 
     let exam;
 
-    function loadMockExam(examNumber) {
+    async function loadMockExam(examNumber) {
       if (exam?.timerInterval) clearInterval(exam.timerInterval);
-
-      const questions = getMockExam('ps', examNumber);
-
+      const pad = String(examNumber).padStart(2, '0');
+      const url = `../exams/ps/exam-${pad}.json`;
+      const res = await fetch(url);
+      const questions = await res.json();
       document.getElementById('mock-number').textContent = examNumber;
-
       document.getElementById('question-count').textContent = questions.length;
-
       document.getElementById('answered-count').textContent = '0';
-
       document.getElementById('mock-select').value = examNumber;
-
       document.getElementById('questions-container').innerHTML = '';
-
       exam = new MCATExam(questions, 'questions-container', 'score-panel');
-
     }
 
 

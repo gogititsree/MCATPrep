@@ -416,10 +416,10 @@ function generateCARSPassages(count = 30) {
   });
 }
 
-const B_B_QUESTIONS = generateBBQuestions(600);
-const C_P_QUESTIONS = generateCPQuestions(600);
-const P_S_QUESTIONS = generatePSQuestions(600);
-const CARS_PASSAGES = generateCARSPassages(30);
+const B_B_QUESTIONS = generateBBQuestions(1000);
+const C_P_QUESTIONS = generateCPQuestions(1000);
+const P_S_QUESTIONS = generatePSQuestions(1000);
+const CARS_PASSAGES = generateCARSPassages(60);
 
 // Attach vetted source metadata to each generated item so UI can show citations
 try {

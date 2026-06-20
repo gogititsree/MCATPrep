@@ -1,0 +1,641 @@
+[
+  {
+    "text": "A container holds 3 mol of an ideal gas at 320 K in 6 L. What is the pressure?",
+    "options": [
+      "13.14 atm",
+      "26.27 atm",
+      "3.28 atm",
+      "6.57 atm"
+    ],
+    "correct": 0,
+    "explanation": "Use PV = nRT. The correct pressure is 13.136000000000001 atm."
+  },
+  {
+    "text": "For a buffer with pKa = 5.2 and [A⁻]/[HA] = 0.5, what is the pH?",
+    "options": [
+      "4.90",
+      "6.2.00",
+      "4.2.00",
+      "5.2.00"
+    ],
+    "correct": 0,
+    "explanation": "Use Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA]). The answer is 4.90."
+  },
+  {
+    "text": "If the solubility of a salt is 0.00032 M and it dissociates into two ions, what is its Ksp?",
+    "options": [
+      "1.02e-7",
+      "2.6e-5",
+      "1.69e-8",
+      "1.69e-10"
+    ],
+    "correct": 0,
+    "explanation": "Ksp = s² for a 1:1 salt. (0.00032)² = 1.02e-7."
+  },
+  {
+    "text": "Light travels from an index of refraction 1.33 into 1.2. What is the critical angle?",
+    "options": [
+      "64.7°",
+      "41.8°",
+      "38.7°"
+    ],
+    "correct": 0,
+    "explanation": "sin θc = n₂/n₁. For n₁ = 1.33 and n₂ = 1.2, θc ≈ 64.7°."
+  },
+  {
+    "text": "Which set of conditions best describes a typical SN2 reaction?",
+    "options": [
+      "SN2 with methyl substrate and polar aprotic solvent conditions",
+      "SN1 with tertiary substrate and polar protic solvent conditions",
+      "E1 with secondary substrate and weak solvent conditions",
+      "E2 with secondary substrate and strong bulky solvent conditions"
+    ],
+    "correct": 0,
+    "explanation": "SN2 reactions require methyl substrates and polar aprotic conditions. The correct description matches this pattern."
+  },
+  {
+    "text": "A charge of 10 C moves at 1 m/s perpendicular to a magnetic field of 0.5 T. What is the magnitude of the magnetic force?",
+    "options": [
+      "5 N",
+      "15 N",
+      "2 N"
+    ],
+    "correct": 0,
+    "explanation": "F = qvB. 10 × 1 × 0.5 = 5 N."
+  },
+  {
+    "text": "A container holds 1.5 mol of an ideal gas at 300 K in 10 L. What is the pressure?",
+    "options": [
+      "7.39 atm",
+      "3.69 atm",
+      "1.85 atm",
+      "0.92 atm"
+    ],
+    "correct": 1,
+    "explanation": "Use PV = nRT. The correct pressure is 3.6945 atm."
+  },
+  {
+    "text": "For a buffer with pKa = 4.74 and [A⁻]/[HA] = 10, what is the pH?",
+    "options": [
+      "5.74",
+      "4.74.00",
+      "5.74.00",
+      "3.74.00"
+    ],
+    "correct": 0,
+    "explanation": "Use Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA]). The answer is 5.74."
+  },
+  {
+    "text": "If the solubility of a salt is 0.000013 M and it dissociates into two ions, what is its Ksp?",
+    "options": [
+      "1.69e-8",
+      "1.69e-10",
+      "2.6e-5"
+    ],
+    "correct": 1,
+    "explanation": "Ksp = s² for a 1:1 salt. (0.000013)² = 1.69e-10."
+  },
+  {
+    "text": "Light travels from an index of refraction 1.33 into 1. What is the critical angle?",
+    "options": [
+      "64.7°",
+      "38.7°",
+      "41.8°",
+      "48.8°"
+    ],
+    "correct": 3,
+    "explanation": "sin θc = n₂/n₁. For n₁ = 1.33 and n₂ = 1, θc ≈ 48.8°."
+  },
+  {
+    "text": "Which set of conditions best describes a typical SN2 reaction?",
+    "options": [
+      "SN1 with tertiary substrate and polar protic solvent conditions",
+      "SN2 with primary substrate and polar aprotic solvent conditions",
+      "E2 with secondary substrate and strong bulky solvent conditions",
+      "E1 with secondary substrate and weak solvent conditions"
+    ],
+    "correct": 1,
+    "explanation": "SN2 reactions require primary substrates and polar aprotic conditions. The correct description matches this pattern."
+  },
+  {
+    "text": "A charge of 5 C moves at 2 m/s perpendicular to a magnetic field of 0.5 T. What is the magnitude of the magnetic force?",
+    "options": [
+      "10 N",
+      "5 N",
+      "15 N",
+      "2 N"
+    ],
+    "correct": 0,
+    "explanation": "F = qvB. 5 × 2 × 0.5 = 10 N."
+  },
+  {
+    "text": "A container holds 2 mol of an ideal gas at 310 K in 5 L. What is the pressure?",
+    "options": [
+      "10.18 atm",
+      "2.55 atm",
+      "20.36 atm",
+      "5.09 atm"
+    ],
+    "correct": 0,
+    "explanation": "Use PV = nRT. The correct pressure is 10.1804 atm."
+  },
+  {
+    "text": "For a buffer with pKa = 9.25 and [A⁻]/[HA] = 0.1, what is the pH?",
+    "options": [
+      "10.25.00",
+      "8.25.00",
+      "9.25.00",
+      "8.25"
+    ],
+    "correct": 3,
+    "explanation": "Use Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA]). The answer is 8.25."
+  },
+  {
+    "text": "If the solubility of a salt is 0.00025 M and it dissociates into two ions, what is its Ksp?",
+    "options": [
+      "6.25e-8",
+      "2.6e-5",
+      "1.69e-8",
+      "1.69e-10"
+    ],
+    "correct": 0,
+    "explanation": "Ksp = s² for a 1:1 salt. (0.00025)² = 6.25e-8."
+  },
+  {
+    "text": "Light travels from an index of refraction 1.5 into 1. What is the critical angle?",
+    "options": [
+      "38.7°",
+      "64.7°",
+      "41.8°"
+    ],
+    "correct": 2,
+    "explanation": "sin θc = n₂/n₁. For n₁ = 1.5 and n₂ = 1, θc ≈ 41.8°."
+  },
+  {
+    "text": "Which set of conditions best describes a typical SN1 reaction?",
+    "options": [
+      "E2 with secondary substrate and strong bulky solvent conditions",
+      "SN2 with primary substrate and polar aprotic solvent conditions",
+      "E1 with secondary substrate and weak solvent conditions",
+      "SN1 with tertiary substrate and polar protic solvent conditions"
+    ],
+    "correct": 3,
+    "explanation": "SN1 reactions require tertiary substrates and polar protic conditions. The correct description matches this pattern."
+  },
+  {
+    "text": "A charge of 3 C moves at 4 m/s perpendicular to a magnetic field of 0.25 T. What is the magnitude of the magnetic force?",
+    "options": [
+      "2 N",
+      "15 N",
+      "5 N",
+      "3 N"
+    ],
+    "correct": 3,
+    "explanation": "F = qvB. 3 × 4 × 0.25 = 3 N."
+  },
+  {
+    "text": "A container holds 0.75 mol of an ideal gas at 298 K in 2 L. What is the pressure?",
+    "options": [
+      "9.17 atm",
+      "18.35 atm",
+      "4.59 atm",
+      "2.29 atm"
+    ],
+    "correct": 0,
+    "explanation": "Use PV = nRT. The correct pressure is 9.174675 atm."
+  },
+  {
+    "text": "For a buffer with pKa = 6.8 and [A⁻]/[HA] = 1, what is the pH?",
+    "options": [
+      "6.8.00",
+      "7.8.00",
+      "5.8.00",
+      "6.8"
+    ],
+    "correct": 3,
+    "explanation": "Use Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA]). The answer is 6.8."
+  },
+  {
+    "text": "If the solubility of a salt is 0.000004 M and it dissociates into two ions, what is its Ksp?",
+    "options": [
+      "1.69e-10",
+      "2.6e-5",
+      "1.6e-11",
+      "1.69e-8"
+    ],
+    "correct": 2,
+    "explanation": "Ksp = s² for a 1:1 salt. (0.000004)² = 1.6e-11."
+  },
+  {
+    "text": "Light travels from an index of refraction 1.4 into 1. What is the critical angle?",
+    "options": [
+      "64.7°",
+      "38.7°",
+      "41.8°",
+      "45.6°"
+    ],
+    "correct": 3,
+    "explanation": "sin θc = n₂/n₁. For n₁ = 1.4 and n₂ = 1, θc ≈ 45.6°."
+  },
+  {
+    "text": "Which set of conditions best describes a typical E2 reaction?",
+    "options": [
+      "E2 with secondary substrate and strong bulky solvent conditions",
+      "SN2 with primary substrate and polar aprotic solvent conditions",
+      "SN1 with tertiary substrate and polar protic solvent conditions",
+      "E1 with secondary substrate and weak solvent conditions"
+    ],
+    "correct": 0,
+    "explanation": "E2 reactions require secondary substrates and strong bulky conditions. The correct description matches this pattern."
+  },
+  {
+    "text": "A charge of 2 C moves at 5 m/s perpendicular to a magnetic field of 0.4 T. What is the magnitude of the magnetic force?",
+    "options": [
+      "4 N",
+      "5 N",
+      "2 N",
+      "15 N"
+    ],
+    "correct": 0,
+    "explanation": "F = qvB. 2 × 5 × 0.4 = 4 N."
+  },
+  {
+    "text": "A container holds 1 mol of an ideal gas at 273 K in 4 L. What is the pressure?",
+    "options": [
+      "1.40 atm",
+      "11.21 atm",
+      "5.60 atm",
+      "2.80 atm"
+    ],
+    "correct": 2,
+    "explanation": "Use PV = nRT. The correct pressure is 5.603325000000001 atm."
+  },
+  {
+    "text": "For a buffer with pKa = 3.75 and [A⁻]/[HA] = 100, what is the pH?",
+    "options": [
+      "3.75.00",
+      "4.75.00",
+      "2.75.00",
+      "5.75"
+    ],
+    "correct": 3,
+    "explanation": "Use Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA]). The answer is 5.75."
+  },
+  {
+    "text": "If the solubility of a salt is 0.00008 M and it dissociates into two ions, what is its Ksp?",
+    "options": [
+      "1.69e-10",
+      "1.69e-8",
+      "2.6e-5",
+      "6.4e-9"
+    ],
+    "correct": 3,
+    "explanation": "Ksp = s² for a 1:1 salt. (0.00008)² = 6.4e-9."
+  },
+  {
+    "text": "Light travels from an index of refraction 1.6 into 1. What is the critical angle?",
+    "options": [
+      "38.7°",
+      "41.8°",
+      "64.7°"
+    ],
+    "correct": 0,
+    "explanation": "sin θc = n₂/n₁. For n₁ = 1.6 and n₂ = 1, θc ≈ 38.7°."
+  },
+  {
+    "text": "Which set of conditions best describes a typical E1 reaction?",
+    "options": [
+      "SN1 with tertiary substrate and polar protic solvent conditions",
+      "SN2 with primary substrate and polar aprotic solvent conditions",
+      "E2 with secondary substrate and strong bulky solvent conditions",
+      "E1 with secondary substrate and weak solvent conditions"
+    ],
+    "correct": 3,
+    "explanation": "E1 reactions require secondary substrates and weak conditions. The correct description matches this pattern."
+  },
+  {
+    "text": "A charge of 6 C moves at 3 m/s perpendicular to a magnetic field of 0.2 T. What is the magnitude of the magnetic force?",
+    "options": [
+      "2 N",
+      "15 N",
+      "5 N",
+      "3.6 N"
+    ],
+    "correct": 3,
+    "explanation": "F = qvB. 6 × 3 × 0.2 = 3.6 N."
+  },
+  {
+    "text": "A container holds 3 mol of an ideal gas at 320 K in 6 L. What is the pressure?",
+    "options": [
+      "3.28 atm",
+      "6.57 atm",
+      "26.27 atm",
+      "13.14 atm"
+    ],
+    "correct": 3,
+    "explanation": "Use PV = nRT. The correct pressure is 13.136000000000001 atm."
+  },
+  {
+    "text": "For a buffer with pKa = 5.2 and [A⁻]/[HA] = 0.5, what is the pH?",
+    "options": [
+      "6.2.00",
+      "5.2.00",
+      "4.90",
+      "4.2.00"
+    ],
+    "correct": 2,
+    "explanation": "Use Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA]). The answer is 4.90."
+  },
+  {
+    "text": "If the solubility of a salt is 0.00032 M and it dissociates into two ions, what is its Ksp?",
+    "options": [
+      "1.02e-7",
+      "2.6e-5",
+      "1.69e-8",
+      "1.69e-10"
+    ],
+    "correct": 0,
+    "explanation": "Ksp = s² for a 1:1 salt. (0.00032)² = 1.02e-7."
+  },
+  {
+    "text": "Light travels from an index of refraction 1.33 into 1.2. What is the critical angle?",
+    "options": [
+      "38.7°",
+      "41.8°",
+      "64.7°"
+    ],
+    "correct": 2,
+    "explanation": "sin θc = n₂/n₁. For n₁ = 1.33 and n₂ = 1.2, θc ≈ 64.7°."
+  },
+  {
+    "text": "Which set of conditions best describes a typical SN2 reaction?",
+    "options": [
+      "SN2 with methyl substrate and polar aprotic solvent conditions",
+      "SN1 with tertiary substrate and polar protic solvent conditions",
+      "E2 with secondary substrate and strong bulky solvent conditions",
+      "E1 with secondary substrate and weak solvent conditions"
+    ],
+    "correct": 0,
+    "explanation": "SN2 reactions require methyl substrates and polar aprotic conditions. The correct description matches this pattern."
+  },
+  {
+    "text": "A charge of 10 C moves at 1 m/s perpendicular to a magnetic field of 0.5 T. What is the magnitude of the magnetic force?",
+    "options": [
+      "5 N",
+      "15 N",
+      "2 N"
+    ],
+    "correct": 0,
+    "explanation": "F = qvB. 10 × 1 × 0.5 = 5 N."
+  },
+  {
+    "text": "A container holds 1.5 mol of an ideal gas at 300 K in 10 L. What is the pressure?",
+    "options": [
+      "3.69 atm",
+      "7.39 atm",
+      "1.85 atm",
+      "0.92 atm"
+    ],
+    "correct": 0,
+    "explanation": "Use PV = nRT. The correct pressure is 3.6945 atm."
+  },
+  {
+    "text": "For a buffer with pKa = 4.74 and [A⁻]/[HA] = 10, what is the pH?",
+    "options": [
+      "3.74.00",
+      "5.74.00",
+      "4.74.00",
+      "5.74"
+    ],
+    "correct": 3,
+    "explanation": "Use Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA]). The answer is 5.74."
+  },
+  {
+    "text": "If the solubility of a salt is 0.000013 M and it dissociates into two ions, what is its Ksp?",
+    "options": [
+      "2.6e-5",
+      "1.69e-10",
+      "1.69e-8"
+    ],
+    "correct": 1,
+    "explanation": "Ksp = s² for a 1:1 salt. (0.000013)² = 1.69e-10."
+  },
+  {
+    "text": "Light travels from an index of refraction 1.33 into 1. What is the critical angle?",
+    "options": [
+      "48.8°",
+      "41.8°",
+      "38.7°",
+      "64.7°"
+    ],
+    "correct": 0,
+    "explanation": "sin θc = n₂/n₁. For n₁ = 1.33 and n₂ = 1, θc ≈ 48.8°."
+  },
+  {
+    "text": "Which set of conditions best describes a typical SN2 reaction?",
+    "options": [
+      "E1 with secondary substrate and weak solvent conditions",
+      "SN1 with tertiary substrate and polar protic solvent conditions",
+      "SN2 with primary substrate and polar aprotic solvent conditions",
+      "E2 with secondary substrate and strong bulky solvent conditions"
+    ],
+    "correct": 2,
+    "explanation": "SN2 reactions require primary substrates and polar aprotic conditions. The correct description matches this pattern."
+  },
+  {
+    "text": "A charge of 5 C moves at 2 m/s perpendicular to a magnetic field of 0.5 T. What is the magnitude of the magnetic force?",
+    "options": [
+      "15 N",
+      "5 N",
+      "10 N",
+      "2 N"
+    ],
+    "correct": 2,
+    "explanation": "F = qvB. 5 × 2 × 0.5 = 10 N."
+  },
+  {
+    "text": "A container holds 2 mol of an ideal gas at 310 K in 5 L. What is the pressure?",
+    "options": [
+      "2.55 atm",
+      "5.09 atm",
+      "20.36 atm",
+      "10.18 atm"
+    ],
+    "correct": 3,
+    "explanation": "Use PV = nRT. The correct pressure is 10.1804 atm."
+  },
+  {
+    "text": "For a buffer with pKa = 9.25 and [A⁻]/[HA] = 0.1, what is the pH?",
+    "options": [
+      "10.25.00",
+      "9.25.00",
+      "8.25.00",
+      "8.25"
+    ],
+    "correct": 3,
+    "explanation": "Use Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA]). The answer is 8.25."
+  },
+  {
+    "text": "If the solubility of a salt is 0.00025 M and it dissociates into two ions, what is its Ksp?",
+    "options": [
+      "2.6e-5",
+      "1.69e-10",
+      "1.69e-8",
+      "6.25e-8"
+    ],
+    "correct": 3,
+    "explanation": "Ksp = s² for a 1:1 salt. (0.00025)² = 6.25e-8."
+  },
+  {
+    "text": "Light travels from an index of refraction 1.5 into 1. What is the critical angle?",
+    "options": [
+      "41.8°",
+      "38.7°",
+      "64.7°"
+    ],
+    "correct": 0,
+    "explanation": "sin θc = n₂/n₁. For n₁ = 1.5 and n₂ = 1, θc ≈ 41.8°."
+  },
+  {
+    "text": "Which set of conditions best describes a typical SN1 reaction?",
+    "options": [
+      "SN2 with primary substrate and polar aprotic solvent conditions",
+      "SN1 with tertiary substrate and polar protic solvent conditions",
+      "E2 with secondary substrate and strong bulky solvent conditions",
+      "E1 with secondary substrate and weak solvent conditions"
+    ],
+    "correct": 1,
+    "explanation": "SN1 reactions require tertiary substrates and polar protic conditions. The correct description matches this pattern."
+  },
+  {
+    "text": "A charge of 3 C moves at 4 m/s perpendicular to a magnetic field of 0.25 T. What is the magnitude of the magnetic force?",
+    "options": [
+      "3 N",
+      "5 N",
+      "15 N",
+      "2 N"
+    ],
+    "correct": 0,
+    "explanation": "F = qvB. 3 × 4 × 0.25 = 3 N."
+  },
+  {
+    "text": "A container holds 0.75 mol of an ideal gas at 298 K in 2 L. What is the pressure?",
+    "options": [
+      "4.59 atm",
+      "2.29 atm",
+      "18.35 atm",
+      "9.17 atm"
+    ],
+    "correct": 3,
+    "explanation": "Use PV = nRT. The correct pressure is 9.174675 atm."
+  },
+  {
+    "text": "For a buffer with pKa = 6.8 and [A⁻]/[HA] = 1, what is the pH?",
+    "options": [
+      "6.8",
+      "5.8.00",
+      "6.8.00",
+      "7.8.00"
+    ],
+    "correct": 0,
+    "explanation": "Use Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA]). The answer is 6.8."
+  },
+  {
+    "text": "If the solubility of a salt is 0.000004 M and it dissociates into two ions, what is its Ksp?",
+    "options": [
+      "1.6e-11",
+      "2.6e-5",
+      "1.69e-10",
+      "1.69e-8"
+    ],
+    "correct": 0,
+    "explanation": "Ksp = s² for a 1:1 salt. (0.000004)² = 1.6e-11."
+  },
+  {
+    "text": "Light travels from an index of refraction 1.4 into 1. What is the critical angle?",
+    "options": [
+      "64.7°",
+      "38.7°",
+      "41.8°",
+      "45.6°"
+    ],
+    "correct": 3,
+    "explanation": "sin θc = n₂/n₁. For n₁ = 1.4 and n₂ = 1, θc ≈ 45.6°."
+  },
+  {
+    "text": "Which set of conditions best describes a typical E2 reaction?",
+    "options": [
+      "SN2 with primary substrate and polar aprotic solvent conditions",
+      "E2 with secondary substrate and strong bulky solvent conditions",
+      "E1 with secondary substrate and weak solvent conditions",
+      "SN1 with tertiary substrate and polar protic solvent conditions"
+    ],
+    "correct": 1,
+    "explanation": "E2 reactions require secondary substrates and strong bulky conditions. The correct description matches this pattern."
+  },
+  {
+    "text": "A charge of 2 C moves at 5 m/s perpendicular to a magnetic field of 0.4 T. What is the magnitude of the magnetic force?",
+    "options": [
+      "4 N",
+      "5 N",
+      "15 N",
+      "2 N"
+    ],
+    "correct": 0,
+    "explanation": "F = qvB. 2 × 5 × 0.4 = 4 N."
+  },
+  {
+    "text": "A container holds 1 mol of an ideal gas at 273 K in 4 L. What is the pressure?",
+    "options": [
+      "5.60 atm",
+      "1.40 atm",
+      "11.21 atm",
+      "2.80 atm"
+    ],
+    "correct": 0,
+    "explanation": "Use PV = nRT. The correct pressure is 5.603325000000001 atm."
+  },
+  {
+    "text": "For a buffer with pKa = 3.75 and [A⁻]/[HA] = 100, what is the pH?",
+    "options": [
+      "4.75.00",
+      "5.75",
+      "2.75.00",
+      "3.75.00"
+    ],
+    "correct": 1,
+    "explanation": "Use Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA]). The answer is 5.75."
+  },
+  {
+    "text": "If the solubility of a salt is 0.00008 M and it dissociates into two ions, what is its Ksp?",
+    "options": [
+      "2.6e-5",
+      "1.69e-10",
+      "6.4e-9",
+      "1.69e-8"
+    ],
+    "correct": 2,
+    "explanation": "Ksp = s² for a 1:1 salt. (0.00008)² = 6.4e-9."
+  },
+  {
+    "text": "Light travels from an index of refraction 1.6 into 1. What is the critical angle?",
+    "options": [
+      "64.7°",
+      "41.8°",
+      "38.7°"
+    ],
+    "correct": 2,
+    "explanation": "sin θc = n₂/n₁. For n₁ = 1.6 and n₂ = 1, θc ≈ 38.7°."
+  },
+  {
+    "text": "Which set of conditions best describes a typical E1 reaction?",
+    "options": [
+      "E2 with secondary substrate and strong bulky solvent conditions",
+      "SN1 with tertiary substrate and polar protic solvent conditions",
+      "SN2 with primary substrate and polar aprotic solvent conditions",
+      "E1 with secondary substrate and weak solvent conditions"
+    ],
+    "correct": 3,
+    "explanation": "E1 reactions require secondary substrates and weak conditions. The correct description matches this pattern."
+  }
+]

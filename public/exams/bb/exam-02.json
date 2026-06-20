@@ -1,0 +1,651 @@
+[
+  {
+    "text": "Which condition is associated with X-linked recessive?",
+    "options": [
+      "Klinefelter syndrome",
+      "Turner syndrome",
+      "Down syndrome",
+      "Hemophilia A"
+    ],
+    "correct": 3,
+    "explanation": "Hemophilia A is linked to X-linked recessive. The other conditions have different inheritance patterns or karyotypes."
+  },
+  {
+    "text": "Which amino acid has a hydroxyl-containing side chain and is classified as polar?",
+    "options": [
+      "Serine",
+      "Valine",
+      "Glycine",
+      "Alanine"
+    ],
+    "correct": 0,
+    "explanation": "Serine is a polar amino acid with a hydroxyl-containing side chain. The options differ in both side chain chemistry and structural properties."
+  },
+  {
+    "text": "Which enzyme catalyzes the step pyruvate → OAA and is activated by acetyl-CoA?",
+    "options": [
+      "Pyruvate kinase",
+      "Pyruvate carboxylase",
+      "Hexokinase",
+      "Phosphofructokinase-1"
+    ],
+    "correct": 1,
+    "explanation": "Pyruvate carboxylase catalyzes pyruvate → OAA. It is activated by acetyl-CoA. The other enzymes listed catalyze different metabolic steps."
+  },
+  {
+    "text": "The conversion of succinate to fumarate depends on which cofactor?",
+    "options": [
+      "pyruvate",
+      "FAD",
+      "F6P",
+      "glucose"
+    ],
+    "correct": 1,
+    "explanation": "fumarate production from succinate depends on FAD. The distractors are cofactors used in other pathways."
+  },
+  {
+    "text": "Which organelle is best known for degrades macromolecules and recycles organelles?",
+    "options": [
+      "lipid synthesis and detoxification",
+      "Lysosome",
+      "ATP production by oxidative phosphorylation",
+      "protein synthesis for secretion and membrane insertion"
+    ],
+    "correct": 1,
+    "explanation": "Lysosome is responsible for degrades macromolecules and recycles organelles. The other organelles have different major functions."
+  },
+  {
+    "text": "Which hormone increases water reabsorption in the collecting duct?",
+    "options": [
+      "increases gluconeogenesis and glycogenolysis",
+      "increases glucose uptake and glycogen synthesis",
+      "ADH",
+      "stimulates glycogen breakdown and lipolysis"
+    ],
+    "correct": 2,
+    "explanation": "ADH increases water reabsorption in the collecting duct. The distractor hormones produce different physiological effects."
+  },
+  {
+    "text": "Which condition is associated with X-linked recessive?",
+    "options": [
+      "Duchenne muscular dystrophy",
+      "Turner syndrome",
+      "Klinefelter syndrome",
+      "Down syndrome"
+    ],
+    "correct": 0,
+    "explanation": "Duchenne muscular dystrophy is linked to X-linked recessive. The other conditions have different inheritance patterns or karyotypes."
+  },
+  {
+    "text": "Which amino acid has a hydroxyl and methyl side chain and is classified as polar?",
+    "options": [
+      "Threonine",
+      "Glycine",
+      "Alanine",
+      "Valine"
+    ],
+    "correct": 0,
+    "explanation": "Threonine is a polar amino acid with a hydroxyl and methyl side chain. The options differ in both side chain chemistry and structural properties."
+  },
+  {
+    "text": "Which enzyme catalyzes the step OAA → PEP and is requires GTP?",
+    "options": [
+      "Pyruvate kinase",
+      "Phosphofructokinase-1",
+      "Hexokinase",
+      "PEPCK"
+    ],
+    "correct": 3,
+    "explanation": "PEPCK catalyzes OAA → PEP. It is requires GTP. The other enzymes listed catalyze different metabolic steps."
+  },
+  {
+    "text": "The conversion of malate to OAA depends on which cofactor?",
+    "options": [
+      "glucose",
+      "F6P",
+      "pyruvate",
+      "NAD+"
+    ],
+    "correct": 3,
+    "explanation": "OAA production from malate depends on NAD+. The distractors are cofactors used in other pathways."
+  },
+  {
+    "text": "Which organelle is best known for oxidizes very long chain fatty acids and detoxifies H2O2?",
+    "options": [
+      "lipid synthesis and detoxification",
+      "protein synthesis for secretion and membrane insertion",
+      "ATP production by oxidative phosphorylation",
+      "Peroxisome"
+    ],
+    "correct": 3,
+    "explanation": "Peroxisome is responsible for oxidizes very long chain fatty acids and detoxifies H2O2. The other organelles have different major functions."
+  },
+  {
+    "text": "Which hormone increases basal metabolic rate?",
+    "options": [
+      "Thyroxine",
+      "increases glucose uptake and glycogen synthesis",
+      "increases gluconeogenesis and glycogenolysis",
+      "stimulates glycogen breakdown and lipolysis"
+    ],
+    "correct": 0,
+    "explanation": "Thyroxine increases basal metabolic rate. The distractor hormones produce different physiological effects."
+  },
+  {
+    "text": "Which condition is associated with Autosomal recessive?",
+    "options": [
+      "Klinefelter syndrome",
+      "Turner syndrome",
+      "Down syndrome",
+      "Cystic fibrosis"
+    ],
+    "correct": 3,
+    "explanation": "Cystic fibrosis is linked to Autosomal recessive. The other conditions have different inheritance patterns or karyotypes."
+  },
+  {
+    "text": "Which amino acid has a thiol side chain and is classified as polar?",
+    "options": [
+      "Cysteine",
+      "Glycine",
+      "Valine",
+      "Alanine"
+    ],
+    "correct": 0,
+    "explanation": "Cysteine is a polar amino acid with a thiol side chain. The options differ in both side chain chemistry and structural properties."
+  },
+  {
+    "text": "Which enzyme catalyzes the step glucose → G6P and is inhibited by G6P?",
+    "options": [
+      "Phosphofructokinase-1",
+      "Pyruvate kinase",
+      "Hexokinase",
+      "Glucose-6-phosphatase"
+    ],
+    "correct": 2,
+    "explanation": "Hexokinase catalyzes glucose → G6P. It is inhibited by G6P. The other enzymes listed catalyze different metabolic steps."
+  },
+  {
+    "text": "The conversion of pyruvate to acetyl-CoA depends on which cofactor?",
+    "options": [
+      "thiamine",
+      "glucose",
+      "OAA",
+      "F6P"
+    ],
+    "correct": 0,
+    "explanation": "acetyl-CoA production from pyruvate depends on thiamine. The distractors are cofactors used in other pathways."
+  },
+  {
+    "text": "Which organelle is best known for ATP production by oxidative phosphorylation?",
+    "options": [
+      "lipid synthesis and detoxification",
+      "protein synthesis for secretion and membrane insertion",
+      "protein modification and sorting",
+      "Mitochondria"
+    ],
+    "correct": 3,
+    "explanation": "Mitochondria is responsible for ATP production by oxidative phosphorylation. The other organelles have different major functions."
+  },
+  {
+    "text": "Which hormone increases glucose uptake and glycogen synthesis?",
+    "options": [
+      "stimulates glycogen breakdown and lipolysis",
+      "increases gluconeogenesis and glycogenolysis",
+      "Insulin",
+      "increases sodium reabsorption and potassium secretion"
+    ],
+    "correct": 2,
+    "explanation": "Insulin increases glucose uptake and glycogen synthesis. The distractor hormones produce different physiological effects."
+  },
+  {
+    "text": "Which condition is associated with Trisomy 21?",
+    "options": [
+      "Klinefelter syndrome",
+      "Down syndrome",
+      "Hemophilia A",
+      "Turner syndrome"
+    ],
+    "correct": 1,
+    "explanation": "Down syndrome is linked to Trisomy 21. The other conditions have different inheritance patterns or karyotypes."
+  },
+  {
+    "text": "Which amino acid has a amide side chain and is classified as polar?",
+    "options": [
+      "Glycine",
+      "Alanine",
+      "Valine",
+      "Asparagine"
+    ],
+    "correct": 3,
+    "explanation": "Asparagine is a polar amino acid with a amide side chain. The options differ in both side chain chemistry and structural properties."
+  },
+  {
+    "text": "Which enzyme catalyzes the step F6P → F1,6BP and is activated by AMP, inhibited by ATP?",
+    "options": [
+      "Phosphofructokinase-1",
+      "Hexokinase",
+      "Glucose-6-phosphatase",
+      "Pyruvate kinase"
+    ],
+    "correct": 0,
+    "explanation": "Phosphofructokinase-1 catalyzes F6P → F1,6BP. It is activated by AMP, inhibited by ATP. The other enzymes listed catalyze different metabolic steps."
+  },
+  {
+    "text": "The conversion of glucose to G6P depends on which cofactor?",
+    "options": [
+      "ATP",
+      "pyruvate",
+      "F6P",
+      "OAA"
+    ],
+    "correct": 0,
+    "explanation": "G6P production from glucose depends on ATP. The distractors are cofactors used in other pathways."
+  },
+  {
+    "text": "Which organelle is best known for protein synthesis for secretion and membrane insertion?",
+    "options": [
+      "protein modification and sorting",
+      "ATP production by oxidative phosphorylation",
+      "lipid synthesis and detoxification",
+      "Rough ER"
+    ],
+    "correct": 3,
+    "explanation": "Rough ER is responsible for protein synthesis for secretion and membrane insertion. The other organelles have different major functions."
+  },
+  {
+    "text": "Which hormone increases gluconeogenesis and glycogenolysis?",
+    "options": [
+      "Glucagon",
+      "increases sodium reabsorption and potassium secretion",
+      "stimulates glycogen breakdown and lipolysis",
+      "increases glucose uptake and glycogen synthesis"
+    ],
+    "correct": 0,
+    "explanation": "Glucagon increases gluconeogenesis and glycogenolysis. The distractor hormones produce different physiological effects."
+  },
+  {
+    "text": "Which condition is associated with 45,X?",
+    "options": [
+      "Hemophilia A",
+      "Klinefelter syndrome",
+      "Turner syndrome",
+      "Down syndrome"
+    ],
+    "correct": 2,
+    "explanation": "Turner syndrome is linked to 45,X. The other conditions have different inheritance patterns or karyotypes."
+  },
+  {
+    "text": "Which amino acid has a larger amide side chain and is classified as polar?",
+    "options": [
+      "Valine",
+      "Glutamine",
+      "Glycine",
+      "Alanine"
+    ],
+    "correct": 1,
+    "explanation": "Glutamine is a polar amino acid with a larger amide side chain. The options differ in both side chain chemistry and structural properties."
+  },
+  {
+    "text": "Which enzyme catalyzes the step PEP → pyruvate and is activated by F1,6BP, inhibited by ATP?",
+    "options": [
+      "Pyruvate kinase",
+      "Hexokinase",
+      "Glucose-6-phosphatase",
+      "Phosphofructokinase-1"
+    ],
+    "correct": 0,
+    "explanation": "Pyruvate kinase catalyzes PEP → pyruvate. It is activated by F1,6BP, inhibited by ATP. The other enzymes listed catalyze different metabolic steps."
+  },
+  {
+    "text": "The conversion of F6P to F1,6BP depends on which cofactor?",
+    "options": [
+      "glucose",
+      "OAA",
+      "pyruvate",
+      "ATP"
+    ],
+    "correct": 3,
+    "explanation": "F1,6BP production from F6P depends on ATP. The distractors are cofactors used in other pathways."
+  },
+  {
+    "text": "Which organelle is best known for lipid synthesis and detoxification?",
+    "options": [
+      "ATP production by oxidative phosphorylation",
+      "protein modification and sorting",
+      "Smooth ER",
+      "protein synthesis for secretion and membrane insertion"
+    ],
+    "correct": 2,
+    "explanation": "Smooth ER is responsible for lipid synthesis and detoxification. The other organelles have different major functions."
+  },
+  {
+    "text": "Which hormone stimulates glycogen breakdown and lipolysis?",
+    "options": [
+      "increases glucose uptake and glycogen synthesis",
+      "increases sodium reabsorption and potassium secretion",
+      "Epinephrine",
+      "increases gluconeogenesis and glycogenolysis"
+    ],
+    "correct": 2,
+    "explanation": "Epinephrine stimulates glycogen breakdown and lipolysis. The distractor hormones produce different physiological effects."
+  },
+  {
+    "text": "Which condition is associated with 47,XXY?",
+    "options": [
+      "Hemophilia A",
+      "Turner syndrome",
+      "Down syndrome",
+      "Klinefelter syndrome"
+    ],
+    "correct": 3,
+    "explanation": "Klinefelter syndrome is linked to 47,XXY. The other conditions have different inheritance patterns or karyotypes."
+  },
+  {
+    "text": "Which amino acid has a negative charged side chain and is classified as acidic?",
+    "options": [
+      "Glycine",
+      "Alanine",
+      "Aspartate",
+      "Valine"
+    ],
+    "correct": 2,
+    "explanation": "Aspartate is a acidic amino acid with a negative charged side chain. The options differ in both side chain chemistry and structural properties."
+  },
+  {
+    "text": "Which enzyme catalyzes the step G6P → glucose and is active in gluconeogenesis?",
+    "options": [
+      "Pyruvate kinase",
+      "Phosphofructokinase-1",
+      "Hexokinase",
+      "Glucose-6-phosphatase"
+    ],
+    "correct": 3,
+    "explanation": "Glucose-6-phosphatase catalyzes G6P → glucose. It is active in gluconeogenesis. The other enzymes listed catalyze different metabolic steps."
+  },
+  {
+    "text": "The conversion of OAA to citrate depends on which cofactor?",
+    "options": [
+      "acetyl-CoA",
+      "pyruvate",
+      "F6P",
+      "glucose"
+    ],
+    "correct": 0,
+    "explanation": "citrate production from OAA depends on acetyl-CoA. The distractors are cofactors used in other pathways."
+  },
+  {
+    "text": "Which organelle is best known for protein modification and sorting?",
+    "options": [
+      "Golgi apparatus",
+      "lipid synthesis and detoxification",
+      "ATP production by oxidative phosphorylation",
+      "protein synthesis for secretion and membrane insertion"
+    ],
+    "correct": 0,
+    "explanation": "Golgi apparatus is responsible for protein modification and sorting. The other organelles have different major functions."
+  },
+  {
+    "text": "Which hormone increases sodium reabsorption and potassium secretion?",
+    "options": [
+      "stimulates glycogen breakdown and lipolysis",
+      "Aldosterone",
+      "increases glucose uptake and glycogen synthesis",
+      "increases gluconeogenesis and glycogenolysis"
+    ],
+    "correct": 1,
+    "explanation": "Aldosterone increases sodium reabsorption and potassium secretion. The distractor hormones produce different physiological effects."
+  },
+  {
+    "text": "Which condition is associated with X-linked recessive?",
+    "options": [
+      "Klinefelter syndrome",
+      "Turner syndrome",
+      "Down syndrome",
+      "Hemophilia A"
+    ],
+    "correct": 3,
+    "explanation": "Hemophilia A is linked to X-linked recessive. The other conditions have different inheritance patterns or karyotypes."
+  },
+  {
+    "text": "Which amino acid has a acidic side chain with extra methylene and is classified as acidic?",
+    "options": [
+      "Alanine",
+      "Glycine",
+      "Valine",
+      "Glutamate"
+    ],
+    "correct": 3,
+    "explanation": "Glutamate is a acidic amino acid with a acidic side chain with extra methylene. The options differ in both side chain chemistry and structural properties."
+  },
+  {
+    "text": "Which enzyme catalyzes the step pyruvate → OAA and is activated by acetyl-CoA?",
+    "options": [
+      "Pyruvate carboxylase",
+      "Hexokinase",
+      "Phosphofructokinase-1",
+      "Pyruvate kinase"
+    ],
+    "correct": 0,
+    "explanation": "Pyruvate carboxylase catalyzes pyruvate → OAA. It is activated by acetyl-CoA. The other enzymes listed catalyze different metabolic steps."
+  },
+  {
+    "text": "The conversion of succinate to fumarate depends on which cofactor?",
+    "options": [
+      "F6P",
+      "glucose",
+      "pyruvate",
+      "FAD"
+    ],
+    "correct": 3,
+    "explanation": "fumarate production from succinate depends on FAD. The distractors are cofactors used in other pathways."
+  },
+  {
+    "text": "Which organelle is best known for degrades macromolecules and recycles organelles?",
+    "options": [
+      "lipid synthesis and detoxification",
+      "protein synthesis for secretion and membrane insertion",
+      "ATP production by oxidative phosphorylation",
+      "Lysosome"
+    ],
+    "correct": 3,
+    "explanation": "Lysosome is responsible for degrades macromolecules and recycles organelles. The other organelles have different major functions."
+  },
+  {
+    "text": "Which hormone increases water reabsorption in the collecting duct?",
+    "options": [
+      "ADH",
+      "increases glucose uptake and glycogen synthesis",
+      "increases gluconeogenesis and glycogenolysis",
+      "stimulates glycogen breakdown and lipolysis"
+    ],
+    "correct": 0,
+    "explanation": "ADH increases water reabsorption in the collecting duct. The distractor hormones produce different physiological effects."
+  },
+  {
+    "text": "Which condition is associated with X-linked recessive?",
+    "options": [
+      "Turner syndrome",
+      "Duchenne muscular dystrophy",
+      "Klinefelter syndrome",
+      "Down syndrome"
+    ],
+    "correct": 1,
+    "explanation": "Duchenne muscular dystrophy is linked to X-linked recessive. The other conditions have different inheritance patterns or karyotypes."
+  },
+  {
+    "text": "Which amino acid has a basic side chain with terminal amino group and is classified as basic?",
+    "options": [
+      "Lysine",
+      "Glycine",
+      "Alanine",
+      "Valine"
+    ],
+    "correct": 0,
+    "explanation": "Lysine is a basic amino acid with a basic side chain with terminal amino group. The options differ in both side chain chemistry and structural properties."
+  },
+  {
+    "text": "Which enzyme catalyzes the step OAA → PEP and is requires GTP?",
+    "options": [
+      "Pyruvate kinase",
+      "Phosphofructokinase-1",
+      "Hexokinase",
+      "PEPCK"
+    ],
+    "correct": 3,
+    "explanation": "PEPCK catalyzes OAA → PEP. It is requires GTP. The other enzymes listed catalyze different metabolic steps."
+  },
+  {
+    "text": "The conversion of malate to OAA depends on which cofactor?",
+    "options": [
+      "F6P",
+      "NAD+",
+      "pyruvate",
+      "glucose"
+    ],
+    "correct": 1,
+    "explanation": "OAA production from malate depends on NAD+. The distractors are cofactors used in other pathways."
+  },
+  {
+    "text": "Which organelle is best known for oxidizes very long chain fatty acids and detoxifies H2O2?",
+    "options": [
+      "Peroxisome",
+      "ATP production by oxidative phosphorylation",
+      "protein synthesis for secretion and membrane insertion",
+      "lipid synthesis and detoxification"
+    ],
+    "correct": 0,
+    "explanation": "Peroxisome is responsible for oxidizes very long chain fatty acids and detoxifies H2O2. The other organelles have different major functions."
+  },
+  {
+    "text": "Which hormone increases basal metabolic rate?",
+    "options": [
+      "stimulates glycogen breakdown and lipolysis",
+      "increases gluconeogenesis and glycogenolysis",
+      "increases glucose uptake and glycogen synthesis",
+      "Thyroxine"
+    ],
+    "correct": 3,
+    "explanation": "Thyroxine increases basal metabolic rate. The distractor hormones produce different physiological effects."
+  },
+  {
+    "text": "Which condition is associated with Autosomal recessive?",
+    "options": [
+      "Klinefelter syndrome",
+      "Turner syndrome",
+      "Down syndrome",
+      "Cystic fibrosis"
+    ],
+    "correct": 3,
+    "explanation": "Cystic fibrosis is linked to Autosomal recessive. The other conditions have different inheritance patterns or karyotypes."
+  },
+  {
+    "text": "Which amino acid has a most basic guanidinium side chain and is classified as basic?",
+    "options": [
+      "Arginine",
+      "Glycine",
+      "Alanine",
+      "Valine"
+    ],
+    "correct": 0,
+    "explanation": "Arginine is a basic amino acid with a most basic guanidinium side chain. The options differ in both side chain chemistry and structural properties."
+  },
+  {
+    "text": "Which enzyme catalyzes the step glucose → G6P and is inhibited by G6P?",
+    "options": [
+      "Pyruvate kinase",
+      "Phosphofructokinase-1",
+      "Glucose-6-phosphatase",
+      "Hexokinase"
+    ],
+    "correct": 3,
+    "explanation": "Hexokinase catalyzes glucose → G6P. It is inhibited by G6P. The other enzymes listed catalyze different metabolic steps."
+  },
+  {
+    "text": "The conversion of pyruvate to acetyl-CoA depends on which cofactor?",
+    "options": [
+      "thiamine",
+      "glucose",
+      "F6P",
+      "OAA"
+    ],
+    "correct": 0,
+    "explanation": "acetyl-CoA production from pyruvate depends on thiamine. The distractors are cofactors used in other pathways."
+  },
+  {
+    "text": "Which organelle is best known for ATP production by oxidative phosphorylation?",
+    "options": [
+      "Mitochondria",
+      "lipid synthesis and detoxification",
+      "protein modification and sorting",
+      "protein synthesis for secretion and membrane insertion"
+    ],
+    "correct": 0,
+    "explanation": "Mitochondria is responsible for ATP production by oxidative phosphorylation. The other organelles have different major functions."
+  },
+  {
+    "text": "Which hormone increases glucose uptake and glycogen synthesis?",
+    "options": [
+      "Insulin",
+      "increases gluconeogenesis and glycogenolysis",
+      "stimulates glycogen breakdown and lipolysis",
+      "increases sodium reabsorption and potassium secretion"
+    ],
+    "correct": 0,
+    "explanation": "Insulin increases glucose uptake and glycogen synthesis. The distractor hormones produce different physiological effects."
+  },
+  {
+    "text": "Which condition is associated with Trisomy 21?",
+    "options": [
+      "Klinefelter syndrome",
+      "Turner syndrome",
+      "Hemophilia A",
+      "Down syndrome"
+    ],
+    "correct": 3,
+    "explanation": "Down syndrome is linked to Trisomy 21. The other conditions have different inheritance patterns or karyotypes."
+  },
+  {
+    "text": "Which amino acid has a imidazole side chain with pKa near physiological pH and is classified as basic?",
+    "options": [
+      "Glycine",
+      "Histidine",
+      "Valine",
+      "Alanine"
+    ],
+    "correct": 1,
+    "explanation": "Histidine is a basic amino acid with a imidazole side chain with pKa near physiological pH. The options differ in both side chain chemistry and structural properties."
+  },
+  {
+    "text": "Which enzyme catalyzes the step F6P → F1,6BP and is activated by AMP, inhibited by ATP?",
+    "options": [
+      "Glucose-6-phosphatase",
+      "Pyruvate kinase",
+      "Hexokinase",
+      "Phosphofructokinase-1"
+    ],
+    "correct": 3,
+    "explanation": "Phosphofructokinase-1 catalyzes F6P → F1,6BP. It is activated by AMP, inhibited by ATP. The other enzymes listed catalyze different metabolic steps."
+  },
+  {
+    "text": "The conversion of glucose to G6P depends on which cofactor?",
+    "options": [
+      "pyruvate",
+      "F6P",
+      "ATP",
+      "OAA"
+    ],
+    "correct": 2,
+    "explanation": "G6P production from glucose depends on ATP. The distractors are cofactors used in other pathways."
+  },
+  {
+    "text": "Which organelle is best known for protein synthesis for secretion and membrane insertion?",
+    "options": [
+      "protein modification and sorting",
+      "Rough ER",
+      "ATP production by oxidative phosphorylation",
+      "lipid synthesis and detoxification"
+    ],
+    "correct": 1,
+    "explanation": "Rough ER is responsible for protein synthesis for secretion and membrane insertion. The other organelles have different major functions."
+  }
+]

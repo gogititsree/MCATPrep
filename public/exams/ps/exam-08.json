@@ -1,0 +1,651 @@
+[
+  {
+    "text": "Which sociological term does this sentence most accurately describe?",
+    "options": [
+      "Incidence measures total population size",
+      "Prevalence measures new cases only",
+      "Incidence counts the number of deaths",
+      "Prevalence measures existing cases in a population"
+    ],
+    "correct": 3,
+    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
+  },
+  {
+    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
+    "options": [
+      "Variable interval",
+      "Fixed ratio",
+      "Variable ratio",
+      "Fixed interval"
+    ],
+    "correct": 2,
+    "explanation": "The correct answer is Variable ratio based on the schedule or learning description. The distractors describe different schedules or concepts."
+  },
+  {
+    "text": "Which statement correctly describes the memory concept?",
+    "options": [
+      "Short-term memory stores material for years",
+      "Sensory memory is unlimited",
+      "Long-term memory lasts 20–30 seconds",
+      "Working memory lasts 20–30 seconds"
+    ],
+    "correct": 3,
+    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
+  },
+  {
+    "text": "Which example best illustrates the developmental concept described?",
+    "options": [
+      "Formal operational children cannot reason hypothetically",
+      "Concrete operational children lack conservation",
+      "Preoperational children lack conservation",
+      "Sensorimotor children have mastered abstract thought"
+    ],
+    "correct": 2,
+    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
+  },
+  {
+    "text": "Which psychological or social concept is illustrated here?",
+    "options": [
+      "Self-serving bias blames others for failures",
+      "Actor-observer bias overestimates disposition for self",
+      "Fundamental attribution error overestimates disposition for others",
+      "Just world hypothesis accepts structural inequality"
+    ],
+    "correct": 2,
+    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
+  },
+  {
+    "text": "Which disorder description is most accurate for this scenario?",
+    "options": [
+      "Generalized anxiety includes delusions",
+      "Bipolar II includes full mania",
+      "PTSD is diagnosed before 1 month has passed",
+      "Bipolar I includes manic episodes that may require hospitalization"
+    ],
+    "correct": 3,
+    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
+  },
+  {
+    "text": "Which sociological term does this sentence most accurately describe?",
+    "options": [
+      "Symbolic interactionism focuses on biology only",
+      "Functionalism denies social inequality exists",
+      "Social stratification describes structured inequality by class and status",
+      "Feminist theory ignores power dynamics"
+    ],
+    "correct": 2,
+    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
+  },
+  {
+    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
+    "options": [
+      "Positive reinforcement",
+      "Negative punishment",
+      "Positive punishment",
+      "Extinction"
+    ],
+    "correct": 0,
+    "explanation": "The correct answer is Positive reinforcement based on the schedule or learning description. The distractors describe different schedules or concepts."
+  },
+  {
+    "text": "Which statement correctly describes the memory concept?",
+    "options": [
+      "Procedural memory stores facts",
+      "Implicit memory stores conscious recollection",
+      "Episodic memory stores personal events",
+      "Semantic memory stores habits"
+    ],
+    "correct": 2,
+    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
+  },
+  {
+    "text": "Which example best illustrates the developmental concept described?",
+    "options": [
+      "Identity vs. Role confusion is adolescent stage",
+      "Trust vs. Mistrust is adolescent stage",
+      "Generativity vs. Stagnation is toddler stage",
+      "Industry vs. Inferiority is late adulthood"
+    ],
+    "correct": 0,
+    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
+  },
+  {
+    "text": "Which psychological or social concept is illustrated here?",
+    "options": [
+      "Groupthink encourages dissent",
+      "Obedience drops when authority is closer",
+      "Conformity rises with private answers",
+      "Conformity drops with anonymous responses"
+    ],
+    "correct": 3,
+    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
+  },
+  {
+    "text": "Which disorder description is most accurate for this scenario?",
+    "options": [
+      "OCD combines obsessions and compulsions",
+      "Schizophrenia is primarily a mood disorder",
+      "Borderline PD lacks identity instability",
+      "Autism is always diagnosed in adulthood"
+    ],
+    "correct": 0,
+    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
+  },
+  {
+    "text": "Which sociological term does this sentence most accurately describe?",
+    "options": [
+      "Intersectionality examines overlapping identities and discrimination",
+      "Social exchange theory emphasizes fixed roles",
+      "Deviance is always pathological",
+      "Culture is limited to material objects"
+    ],
+    "correct": 0,
+    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
+  },
+  {
+    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
+    "options": [
+      "Latent learning",
+      "Operant conditioning",
+      "Classical conditioning",
+      "Observational learning"
+    ],
+    "correct": 0,
+    "explanation": "The correct answer is Latent learning based on the schedule or learning description. The distractors describe different schedules or concepts."
+  },
+  {
+    "text": "Which statement correctly describes the memory concept?",
+    "options": [
+      "Encoding specificity says recall is best when retrieval context matches encoding context",
+      "Decay theory says memory fades with time",
+      "Interference means old memories help new ones",
+      "Motivated forgetting improves memory"
+    ],
+    "correct": 0,
+    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
+  },
+  {
+    "text": "Which example best illustrates the developmental concept described?",
+    "options": [
+      "Avoidant attachment clings to the caregiver",
+      "Disorganized attachment is consistent and orderly",
+      "Secure attachment uses caregiver as safe base",
+      "Anxious attachment ignores the caregiver"
+    ],
+    "correct": 2,
+    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
+  },
+  {
+    "text": "Which psychological or social concept is illustrated here?",
+    "options": [
+      "Confirmation bias is disbelief in inconsistent evidence",
+      "Foot-in-the-door is a punishment method",
+      "Peripheral route processing uses careful argument analysis",
+      "Cognitive dissonance is discomfort from inconsistent beliefs"
+    ],
+    "correct": 3,
+    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
+  },
+  {
+    "text": "Which disorder description is most accurate for this scenario?",
+    "options": [
+      "ADHD requires psychosis",
+      "ADHD symptoms must begin before age 12 in multiple settings",
+      "ADHD is an anxiety disorder",
+      "ADHD appears only in school settings"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
+  },
+  {
+    "text": "Which sociological term does this sentence most accurately describe?",
+    "options": [
+      "Incidence measures total population size",
+      "Prevalence measures existing cases in a population",
+      "Prevalence measures new cases only",
+      "Incidence counts the number of deaths"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
+  },
+  {
+    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
+    "options": [
+      "Variable interval",
+      "Variable ratio",
+      "Fixed ratio",
+      "Fixed interval"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is Variable ratio based on the schedule or learning description. The distractors describe different schedules or concepts."
+  },
+  {
+    "text": "Which statement correctly describes the memory concept?",
+    "options": [
+      "Short-term memory stores material for years",
+      "Sensory memory is unlimited",
+      "Long-term memory lasts 20–30 seconds",
+      "Working memory lasts 20–30 seconds"
+    ],
+    "correct": 3,
+    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
+  },
+  {
+    "text": "Which example best illustrates the developmental concept described?",
+    "options": [
+      "Preoperational children lack conservation",
+      "Formal operational children cannot reason hypothetically",
+      "Sensorimotor children have mastered abstract thought",
+      "Concrete operational children lack conservation"
+    ],
+    "correct": 0,
+    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
+  },
+  {
+    "text": "Which psychological or social concept is illustrated here?",
+    "options": [
+      "Just world hypothesis accepts structural inequality",
+      "Self-serving bias blames others for failures",
+      "Actor-observer bias overestimates disposition for self",
+      "Fundamental attribution error overestimates disposition for others"
+    ],
+    "correct": 3,
+    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
+  },
+  {
+    "text": "Which disorder description is most accurate for this scenario?",
+    "options": [
+      "Bipolar I includes manic episodes that may require hospitalization",
+      "PTSD is diagnosed before 1 month has passed",
+      "Bipolar II includes full mania",
+      "Generalized anxiety includes delusions"
+    ],
+    "correct": 0,
+    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
+  },
+  {
+    "text": "Which sociological term does this sentence most accurately describe?",
+    "options": [
+      "Feminist theory ignores power dynamics",
+      "Symbolic interactionism focuses on biology only",
+      "Functionalism denies social inequality exists",
+      "Social stratification describes structured inequality by class and status"
+    ],
+    "correct": 3,
+    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
+  },
+  {
+    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
+    "options": [
+      "Negative punishment",
+      "Positive reinforcement",
+      "Extinction",
+      "Positive punishment"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is Positive reinforcement based on the schedule or learning description. The distractors describe different schedules or concepts."
+  },
+  {
+    "text": "Which statement correctly describes the memory concept?",
+    "options": [
+      "Procedural memory stores facts",
+      "Episodic memory stores personal events",
+      "Semantic memory stores habits",
+      "Implicit memory stores conscious recollection"
+    ],
+    "correct": 1,
+    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
+  },
+  {
+    "text": "Which example best illustrates the developmental concept described?",
+    "options": [
+      "Identity vs. Role confusion is adolescent stage",
+      "Trust vs. Mistrust is adolescent stage",
+      "Generativity vs. Stagnation is toddler stage",
+      "Industry vs. Inferiority is late adulthood"
+    ],
+    "correct": 0,
+    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
+  },
+  {
+    "text": "Which psychological or social concept is illustrated here?",
+    "options": [
+      "Obedience drops when authority is closer",
+      "Conformity rises with private answers",
+      "Conformity drops with anonymous responses",
+      "Groupthink encourages dissent"
+    ],
+    "correct": 2,
+    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
+  },
+  {
+    "text": "Which disorder description is most accurate for this scenario?",
+    "options": [
+      "OCD combines obsessions and compulsions",
+      "Schizophrenia is primarily a mood disorder",
+      "Borderline PD lacks identity instability",
+      "Autism is always diagnosed in adulthood"
+    ],
+    "correct": 0,
+    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
+  },
+  {
+    "text": "Which sociological term does this sentence most accurately describe?",
+    "options": [
+      "Intersectionality examines overlapping identities and discrimination",
+      "Deviance is always pathological",
+      "Social exchange theory emphasizes fixed roles",
+      "Culture is limited to material objects"
+    ],
+    "correct": 0,
+    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
+  },
+  {
+    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
+    "options": [
+      "Latent learning",
+      "Operant conditioning",
+      "Observational learning",
+      "Classical conditioning"
+    ],
+    "correct": 0,
+    "explanation": "The correct answer is Latent learning based on the schedule or learning description. The distractors describe different schedules or concepts."
+  },
+  {
+    "text": "Which statement correctly describes the memory concept?",
+    "options": [
+      "Motivated forgetting improves memory",
+      "Decay theory says memory fades with time",
+      "Interference means old memories help new ones",
+      "Encoding specificity says recall is best when retrieval context matches encoding context"
+    ],
+    "correct": 3,
+    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
+  },
+  {
+    "text": "Which example best illustrates the developmental concept described?",
+    "options": [
+      "Disorganized attachment is consistent and orderly",
+      "Anxious attachment ignores the caregiver",
+      "Secure attachment uses caregiver as safe base",
+      "Avoidant attachment clings to the caregiver"
+    ],
+    "correct": 2,
+    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
+  },
+  {
+    "text": "Which psychological or social concept is illustrated here?",
+    "options": [
+      "Cognitive dissonance is discomfort from inconsistent beliefs",
+      "Confirmation bias is disbelief in inconsistent evidence",
+      "Foot-in-the-door is a punishment method",
+      "Peripheral route processing uses careful argument analysis"
+    ],
+    "correct": 0,
+    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
+  },
+  {
+    "text": "Which disorder description is most accurate for this scenario?",
+    "options": [
+      "ADHD symptoms must begin before age 12 in multiple settings",
+      "ADHD is an anxiety disorder",
+      "ADHD requires psychosis",
+      "ADHD appears only in school settings"
+    ],
+    "correct": 0,
+    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
+  },
+  {
+    "text": "Which sociological term does this sentence most accurately describe?",
+    "options": [
+      "Incidence counts the number of deaths",
+      "Incidence measures total population size",
+      "Prevalence measures new cases only",
+      "Prevalence measures existing cases in a population"
+    ],
+    "correct": 3,
+    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
+  },
+  {
+    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
+    "options": [
+      "Variable interval",
+      "Fixed interval",
+      "Fixed ratio",
+      "Variable ratio"
+    ],
+    "correct": 3,
+    "explanation": "The correct answer is Variable ratio based on the schedule or learning description. The distractors describe different schedules or concepts."
+  },
+  {
+    "text": "Which statement correctly describes the memory concept?",
+    "options": [
+      "Working memory lasts 20–30 seconds",
+      "Sensory memory is unlimited",
+      "Short-term memory stores material for years",
+      "Long-term memory lasts 20–30 seconds"
+    ],
+    "correct": 0,
+    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
+  },
+  {
+    "text": "Which example best illustrates the developmental concept described?",
+    "options": [
+      "Preoperational children lack conservation",
+      "Sensorimotor children have mastered abstract thought",
+      "Concrete operational children lack conservation",
+      "Formal operational children cannot reason hypothetically"
+    ],
+    "correct": 0,
+    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
+  },
+  {
+    "text": "Which psychological or social concept is illustrated here?",
+    "options": [
+      "Fundamental attribution error overestimates disposition for others",
+      "Actor-observer bias overestimates disposition for self",
+      "Just world hypothesis accepts structural inequality",
+      "Self-serving bias blames others for failures"
+    ],
+    "correct": 0,
+    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
+  },
+  {
+    "text": "Which disorder description is most accurate for this scenario?",
+    "options": [
+      "Bipolar I includes manic episodes that may require hospitalization",
+      "Bipolar II includes full mania",
+      "PTSD is diagnosed before 1 month has passed",
+      "Generalized anxiety includes delusions"
+    ],
+    "correct": 0,
+    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
+  },
+  {
+    "text": "Which sociological term does this sentence most accurately describe?",
+    "options": [
+      "Social stratification describes structured inequality by class and status",
+      "Functionalism denies social inequality exists",
+      "Feminist theory ignores power dynamics",
+      "Symbolic interactionism focuses on biology only"
+    ],
+    "correct": 0,
+    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
+  },
+  {
+    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
+    "options": [
+      "Negative punishment",
+      "Positive reinforcement",
+      "Positive punishment",
+      "Extinction"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is Positive reinforcement based on the schedule or learning description. The distractors describe different schedules or concepts."
+  },
+  {
+    "text": "Which statement correctly describes the memory concept?",
+    "options": [
+      "Semantic memory stores habits",
+      "Implicit memory stores conscious recollection",
+      "Episodic memory stores personal events",
+      "Procedural memory stores facts"
+    ],
+    "correct": 2,
+    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
+  },
+  {
+    "text": "Which example best illustrates the developmental concept described?",
+    "options": [
+      "Trust vs. Mistrust is adolescent stage",
+      "Industry vs. Inferiority is late adulthood",
+      "Identity vs. Role confusion is adolescent stage",
+      "Generativity vs. Stagnation is toddler stage"
+    ],
+    "correct": 2,
+    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
+  },
+  {
+    "text": "Which psychological or social concept is illustrated here?",
+    "options": [
+      "Obedience drops when authority is closer",
+      "Groupthink encourages dissent",
+      "Conformity rises with private answers",
+      "Conformity drops with anonymous responses"
+    ],
+    "correct": 3,
+    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
+  },
+  {
+    "text": "Which disorder description is most accurate for this scenario?",
+    "options": [
+      "OCD combines obsessions and compulsions",
+      "Schizophrenia is primarily a mood disorder",
+      "Autism is always diagnosed in adulthood",
+      "Borderline PD lacks identity instability"
+    ],
+    "correct": 0,
+    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
+  },
+  {
+    "text": "Which sociological term does this sentence most accurately describe?",
+    "options": [
+      "Intersectionality examines overlapping identities and discrimination",
+      "Social exchange theory emphasizes fixed roles",
+      "Deviance is always pathological",
+      "Culture is limited to material objects"
+    ],
+    "correct": 0,
+    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
+  },
+  {
+    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
+    "options": [
+      "Observational learning",
+      "Classical conditioning",
+      "Operant conditioning",
+      "Latent learning"
+    ],
+    "correct": 3,
+    "explanation": "The correct answer is Latent learning based on the schedule or learning description. The distractors describe different schedules or concepts."
+  },
+  {
+    "text": "Which statement correctly describes the memory concept?",
+    "options": [
+      "Encoding specificity says recall is best when retrieval context matches encoding context",
+      "Decay theory says memory fades with time",
+      "Interference means old memories help new ones",
+      "Motivated forgetting improves memory"
+    ],
+    "correct": 0,
+    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
+  },
+  {
+    "text": "Which example best illustrates the developmental concept described?",
+    "options": [
+      "Secure attachment uses caregiver as safe base",
+      "Avoidant attachment clings to the caregiver",
+      "Anxious attachment ignores the caregiver",
+      "Disorganized attachment is consistent and orderly"
+    ],
+    "correct": 0,
+    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
+  },
+  {
+    "text": "Which psychological or social concept is illustrated here?",
+    "options": [
+      "Confirmation bias is disbelief in inconsistent evidence",
+      "Peripheral route processing uses careful argument analysis",
+      "Cognitive dissonance is discomfort from inconsistent beliefs",
+      "Foot-in-the-door is a punishment method"
+    ],
+    "correct": 2,
+    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
+  },
+  {
+    "text": "Which disorder description is most accurate for this scenario?",
+    "options": [
+      "ADHD requires psychosis",
+      "ADHD symptoms must begin before age 12 in multiple settings",
+      "ADHD appears only in school settings",
+      "ADHD is an anxiety disorder"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
+  },
+  {
+    "text": "Which sociological term does this sentence most accurately describe?",
+    "options": [
+      "Prevalence measures new cases only",
+      "Incidence measures total population size",
+      "Incidence counts the number of deaths",
+      "Prevalence measures existing cases in a population"
+    ],
+    "correct": 3,
+    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
+  },
+  {
+    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
+    "options": [
+      "Variable interval",
+      "Fixed interval",
+      "Fixed ratio",
+      "Variable ratio"
+    ],
+    "correct": 3,
+    "explanation": "The correct answer is Variable ratio based on the schedule or learning description. The distractors describe different schedules or concepts."
+  },
+  {
+    "text": "Which statement correctly describes the memory concept?",
+    "options": [
+      "Long-term memory lasts 20–30 seconds",
+      "Short-term memory stores material for years",
+      "Working memory lasts 20–30 seconds",
+      "Sensory memory is unlimited"
+    ],
+    "correct": 2,
+    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
+  },
+  {
+    "text": "Which example best illustrates the developmental concept described?",
+    "options": [
+      "Formal operational children cannot reason hypothetically",
+      "Sensorimotor children have mastered abstract thought",
+      "Concrete operational children lack conservation",
+      "Preoperational children lack conservation"
+    ],
+    "correct": 3,
+    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
+  },
+  {
+    "text": "Which psychological or social concept is illustrated here?",
+    "options": [
+      "Self-serving bias blames others for failures",
+      "Just world hypothesis accepts structural inequality",
+      "Actor-observer bias overestimates disposition for self",
+      "Fundamental attribution error overestimates disposition for others"
+    ],
+    "correct": 3,
+    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
+  }
+]

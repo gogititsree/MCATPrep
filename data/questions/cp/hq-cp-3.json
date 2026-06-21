@@ -1,0 +1,826 @@
+[
+  {
+    "text": "According to Cahn-Ingold-Prelog (CIP) rules, a chiral center is assigned R configuration when:",
+    "options": [
+      "The remaining three groups (after placing lowest priority group away from viewer) rotate clockwise from highest to lowest priority",
+      "The three groups rotate counterclockwise from highest to lowest priority",
+      "The molecule has a positive specific rotation",
+      "The molecule cannot be superimposed on its mirror image"
+    ],
+    "correct": 0,
+    "explanation": "CIP rules: assign priorities 1\u20134 based on atomic number (highest = 1). Place the lowest priority group (4) away from viewer. If groups 1\u21922\u21923 rotate clockwise, the center is R (rectus). If counterclockwise, it is S (sinister). Specific rotation (+ or \u2212) is an experimental measurement unrelated to R/S designation. Non-superimposability defines chirality, not R/S.",
+    "tags": [
+      "organic-chemistry",
+      "stereochemistry",
+      "CIP",
+      "RS-configuration"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A meso compound is achiral despite having multiple stereocenters because:",
+    "options": [
+      "All stereocenters have the same R/S configuration",
+      "It has an internal plane of symmetry that makes the molecule superimposable on its mirror image",
+      "It is a racemic mixture",
+      "The stereocenters cancel optical activity by rotating light in opposite directions"
+    ],
+    "correct": 1,
+    "explanation": "A meso compound has two (or more) stereocenters with an internal plane of symmetry \u2014 one half of the molecule is the mirror image of the other. The molecule is superimposable on its mirror image, making it achiral and optically inactive. meso-tartaric acid (2R,3S-tartaric acid) is the classic example. A racemic mixture is a 50:50 mixture of two enantiomers, not a single compound.",
+    "tags": [
+      "organic-chemistry",
+      "stereochemistry",
+      "meso"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The E/Z nomenclature for alkene geometry is based on:",
+    "options": [
+      "CIP priority of substituents on each carbon of the double bond \u2014 Z (zusammen/together) when higher-priority groups are on the same side",
+      "Whether the double bond is cis or trans based on hydrogen positions",
+      "The number of carbons on each side of the double bond",
+      "Whether the compound rotates plane-polarized light clockwise (E) or counterclockwise (Z)"
+    ],
+    "correct": 0,
+    "explanation": "E/Z uses CIP priorities: assign priority (1 or 2) to each substituent on each doubly bonded carbon by atomic number. Z (zusammen, 'together') = higher priority groups on same side; E (entgegen, 'opposite') = higher priority groups on opposite sides. E/Z is more general than cis/trans because it works even when there are no hydrogen atoms on the double bond carbons.",
+    "tags": [
+      "organic-chemistry",
+      "stereochemistry",
+      "EZ-nomenclature"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which statement correctly describes enantiomers vs diastereomers?",
+    "options": [
+      "Enantiomers always rotate light; diastereomers are always optically inactive",
+      "Enantiomers can be separated by achiral chromatography; diastereomers cannot",
+      "Enantiomers are non-superimposable mirror images with opposite configurations at ALL stereocenters; diastereomers differ at SOME but not all stereocenters",
+      "Enantiomers differ at one stereocenter; diastereomers differ at all stereocenters"
+    ],
+    "correct": 2,
+    "explanation": "Enantiomers: mirror images with opposite (R vs S) configurations at EVERY stereocenter \u2014 they have identical physical properties except optical rotation (equal and opposite). Diastereomers: stereoisomers that are NOT mirror images \u2014 they differ at some but not all stereocenters. Diastereomers have different physical properties (MP, BP, solubility) and can be separated by ordinary chromatography. Enantiomers require chiral stationary phases for separation.",
+    "tags": [
+      "organic-chemistry",
+      "stereochemistry",
+      "enantiomers",
+      "diastereomers"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "SN2 reactions proceed with inversion of configuration at the chiral center because:",
+    "options": [
+      "The reaction goes through a planar carbocation intermediate that allows attack from both faces",
+      "SN2 reactions actually retain configuration \u2014 SN1 causes inversion",
+      "The nucleophile attacks from the backside (180\u00b0 from the leaving group), displacing it and inverting the geometry like an umbrella turning inside-out (Walden inversion)",
+      "The leaving group departs before the nucleophile attacks, allowing free rotation"
+    ],
+    "correct": 2,
+    "explanation": "In SN2 (bimolecular nucleophilic substitution), the nucleophile attacks the electrophilic carbon from the back (anti to the leaving group) in a single concerted step. The three remaining substituents 'flip' like an umbrella turning inside-out (Walden inversion), giving 100% inversion of configuration (R\u2192S or S\u2192R). SN1 gives a racemic mixture (carbocation intermediate allows attack from both faces).",
+    "tags": [
+      "organic-chemistry",
+      "stereochemistry",
+      "SN2",
+      "walden-inversion"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A racemic mixture contains equal amounts of two enantiomers. It is optically inactive because:",
+    "options": [
+      "The two enantiomers interconvert rapidly at room temperature",
+      "Neither enantiomer can rotate plane-polarized light individually",
+      "Racemic mixtures have a plane of symmetry within a single molecule",
+      "The equal and opposite rotations of each enantiomer cancel out, giving net zero rotation of plane-polarized light"
+    ],
+    "correct": 3,
+    "explanation": "Each pure enantiomer rotates plane-polarized light equally but in opposite directions (+x\u00b0 and \u2212x\u00b0). In a 50:50 racemic mixture, the two rotations cancel, giving net 0\u00b0 rotation. This is external compensation (vs internal compensation in meso compounds). Racemic mixtures can be resolved into enantiomers using chiral reagents, enzymes, or chiral chromatography.",
+    "tags": [
+      "organic-chemistry",
+      "stereochemistry",
+      "racemic-mixture"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In the Michael addition, a nucleophile adds to an alpha,beta-unsaturated carbonyl at the:",
+    "options": [
+      "Carbonyl carbon (1,2-addition)",
+      "Beta carbon (conjugate/1,4-addition), not the carbonyl carbon (1,2-addition)",
+      "Alpha carbon after enolization",
+      "Carbonyl oxygen"
+    ],
+    "correct": 1,
+    "explanation": "In Michael (conjugate) addition, a soft nucleophile (enolate, malonate, amine) attacks the beta carbon of an alpha,beta-unsaturated carbonyl compound (enone, enoate). This is 1,4-addition because the nucleophile adds at position 4 relative to the oxygen. Hard nucleophiles (organolithium) prefer 1,2-addition at the carbonyl carbon. The product is a 1,4-dicarbonyl after workup.",
+    "tags": [
+      "organic-chemistry",
+      "carbonyl",
+      "michael-addition"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Diels-Alder reaction requires a diene in which conformation?",
+    "options": [
+      "s-trans conformation",
+      "Any conformation \u2014 the reaction is conformationally flexible",
+      "A cumulated diene (allene)",
+      "s-cis conformation (both double bonds on same side of the single bond)"
+    ],
+    "correct": 3,
+    "explanation": "The Diels-Alder is a [4+2] cycloaddition between a diene and a dienophile (electron-poor alkene). The diene must adopt the s-cis conformation so both ends can overlap with the dienophile's pi system simultaneously. s-trans dienes (locked in trans conformation) cannot react. Electron-withdrawing groups on the dienophile activate it; electron-donating groups on the diene activate it.",
+    "tags": [
+      "organic-chemistry",
+      "carbonyl",
+      "diels-alder"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Robinson annulation combines a Michael addition followed by an intramolecular aldol condensation to form:",
+    "options": [
+      "A five-membered ring lactam",
+      "A beta-lactam ring",
+      "A simple acyclic 1,5-dicarbonyl",
+      "A six-membered ring containing an enone (cyclohexenone)"
+    ],
+    "correct": 3,
+    "explanation": "The Robinson annulation (developed by Robert Robinson) uses an enone (Michael acceptor) and a ketone (Michael donor). Step 1: Michael addition forms a 1,5-dicarbonyl. Step 2: intramolecular aldol condensation closes the ring and dehydrates to form a six-membered alpha,beta-unsaturated ketone (cyclohex-2-enone). It is a key method for building ring systems in steroid synthesis.",
+    "tags": [
+      "organic-chemistry",
+      "carbonyl",
+      "robinson-annulation"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Alpha-halogenation of a ketone under acidic conditions is regioselective because:",
+    "options": [
+      "Alpha-halogenation does not occur under acidic conditions",
+      "Acid catalysis gives a slow enol formation step that determines which alpha carbon is halogenated (kinetic enol selectivity)",
+      "Under acidic conditions, only the carbonyl is halogenated",
+      "Halogen attacks the more substituted alpha carbon regardless of enol formation"
+    ],
+    "correct": 1,
+    "explanation": "Under acidic conditions, enol formation is slow (rate-determining); each molecule of halogen reacts with one enol molecule before re-equilibration. The more substituted (thermodynamically more stable but kinetically slower to form) enol reacts preferentially to give monohalogenation at the more substituted position. Under basic conditions, carbanion (enolate) forms rapidly and multiple halogenations occur (haloform reaction).",
+    "tags": [
+      "organic-chemistry",
+      "carbonyl",
+      "halogenation"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In the Fischer projection of D-glucose, the D designation refers to:",
+    "options": [
+      "The configuration of the hydroxyl group at the highest-numbered chiral center (C5) being on the right, same as D-glyceraldehyde",
+      "The molecule being found in the dextrorotatory form in nature",
+      "The molecule rotating plane-polarized light to the right (+)",
+      "The presence of more than four hydroxyl groups"
+    ],
+    "correct": 0,
+    "explanation": "D/L nomenclature for sugars is based on the configuration at the highest-numbered chiral carbon (C5 for hexoses) relative to D-glyceraldehyde. D-sugars have the hydroxyl group on the RIGHT at that carbon in the Fischer projection. D does NOT mean dextrorotatory \u2014 D-fructose is levorotatory (\u2212). Most naturally occurring sugars are D-sugars.",
+    "tags": [
+      "organic-chemistry",
+      "carbohydrates",
+      "DL-nomenclature"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The anomeric carbon of a cyclic monosaccharide is the carbon that:",
+    "options": [
+      "Bears the primary hydroxyl (-CH\u2082OH) group",
+      "Was the carbonyl carbon (C1 in aldoses) and becomes chiral upon ring closure, creating alpha and beta anomers",
+      "Is attached to the ring oxygen and has a free hydroxyl",
+      "Is connected to two hydroxyl groups"
+    ],
+    "correct": 1,
+    "explanation": "When glucose undergoes ring closure (intramolecular hemiacetal formation between C1 aldehyde and C5 hydroxyl), C1 becomes a new chiral center called the anomeric carbon. Alpha anomer: hydroxyl at anomeric carbon is AXIAL (same side as C6 in Haworth) / trans to CH\u2082OH; beta anomer: hydroxyl is EQUATORIAL / cis to CH\u2082OH in Haworth. Beta-D-glucose (equatorial -OH) is more stable and predominates at equilibrium (64%).",
+    "tags": [
+      "organic-chemistry",
+      "carbohydrates",
+      "anomeric-carbon",
+      "anomers"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Mutarotation of glucose refers to the spontaneous change in:",
+    "options": [
+      "The reducing end to a non-reducing end",
+      "Optical rotation as alpha and beta anomers interconvert in solution through the open-chain form",
+      "The D to L configuration at C5",
+      "The ring size from pyranose to furanose"
+    ],
+    "correct": 1,
+    "explanation": "Mutarotation: alpha-D-glucose ([\u03b1]D = +112\u00b0) and beta-D-glucose ([\u03b1]D = +18.7\u00b0) interconvert in aqueous solution through the open-chain (aldehyde) form, reaching an equilibrium mixture with [\u03b1]D = +52.7\u00b0. This equilibration is catalyzed by acid, base, or enzymes (mutarotase). Glucose is therefore a reducing sugar because its aldehyde (in the open form) can reduce Fehling's or Tollens' reagent.",
+    "tags": [
+      "organic-chemistry",
+      "carbohydrates",
+      "mutarotation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Sucrose is a non-reducing sugar because:",
+    "options": [
+      "Sucrose is a polysaccharide",
+      "Sucrose lacks hydroxyl groups",
+      "Sucrose cannot be hydrolyzed by water",
+      "Its glycosidic bond links the anomeric carbons of both glucose and fructose (C1-C2 linkage), so neither has a free hemiacetal"
+    ],
+    "correct": 3,
+    "explanation": "Sucrose (glucose + fructose) is formed by a glycosidic bond between C1 of glucose and C2 of fructose \u2014 both anomeric carbons are involved. This means no free hemiacetal/hemiketal (anomeric -OH) is available to open into an aldehyde/ketone form, so sucrose cannot reduce oxidizing agents (non-reducing). Maltose and lactose have free anomeric carbons and are reducing sugars.",
+    "tags": [
+      "organic-chemistry",
+      "carbohydrates",
+      "sucrose",
+      "reducing-sugar"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The glycosidic bond in cellulose (beta-1,4 linkage) makes it indigestible to humans because:",
+    "options": [
+      "Cellulose is cross-linked with lignin, making it chemically inert",
+      "Humans lack beta-glucosidase (cellulase) to hydrolyze beta-1,4 glycosidic bonds; alpha-1,4 bonds (starch, glycogen) are hydrolyzed by amylase",
+      "Cellulose forms insoluble crystals that cannot enter the digestive tract",
+      "Cellulose monomers are L-glucose, which cannot be transported"
+    ],
+    "correct": 1,
+    "explanation": "Cellulose has beta-1,4 glycosidic bonds between glucose units. Humans produce only alpha-glucosidases (salivary/pancreatic amylase) that cleave alpha-1,4 bonds. The beta-1,4 orientation makes cellulose a structural polymer (hydrogen bonds between chains create strong fibers). Ruminants harbor microbes that produce cellulase. Starch (alpha-1,4 with alpha-1,6 branches) is fully digestible.",
+    "tags": [
+      "organic-chemistry",
+      "carbohydrates",
+      "cellulose",
+      "glycosidic-bond"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "At physiological pH (7.4), most amino acids exist as zwitterions. What is a zwitterion?",
+    "options": [
+      "An amino acid dissolved in basic solution",
+      "A molecule with both a positive charge (protonated amine, -NH\u2083\u207a) and a negative charge (deprotonated carboxyl, -COO\u207b) but overall neutral",
+      "A molecule with two negative charges",
+      "A dipeptide with an ionized N-terminus only"
+    ],
+    "correct": 1,
+    "explanation": "A zwitterion (German: 'double ion') has both a positive charge (protonated amino group, -NH\u2083\u207a, pKa ~9) and a negative charge (deprotonated carboxyl group, -COO\u207b, pKa ~2), with net charge of zero. At physiological pH (7.4), both ionizable groups are in their charged forms because pH is between the two pKas. The isoelectric point (pI) is the pH at which net charge = 0.",
+    "tags": [
+      "biochemistry",
+      "amino-acids",
+      "zwitterion"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The isoelectric point (pI) of an amino acid with only alpha-amino and alpha-carboxyl groups (pKa1 = 2.0, pKa2 = 9.0) is:",
+    "options": [
+      "2.0",
+      "7.0",
+      "5.5 (average of the two pKas)",
+      "9.0"
+    ],
+    "correct": 2,
+    "explanation": "For a simple amino acid (only two ionizable groups), pI = (pKa1 + pKa2)/2 = (2.0 + 9.0)/2 = 5.5. At pH 5.5, the molecule is electrically neutral (equal amounts of +1 and 0 charge forms, or strictly at the maximum zwitterion form). For acidic amino acids (Asp, Glu), pI = average of the two lowest pKas; for basic amino acids (Lys, Arg, His), pI = average of the two highest pKas.",
+    "tags": [
+      "biochemistry",
+      "amino-acids",
+      "isoelectric-point"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Edman degradation sequentially removes and identifies amino acids from the:",
+    "options": [
+      "Any position using trypsin cleavage",
+      "Internal positions using cyanogen bromide (CNBr)",
+      "C-terminus using carboxypeptidase",
+      "N-terminus (free alpha-amino group) using phenyl isothiocyanate (PITC)"
+    ],
+    "correct": 3,
+    "explanation": "Edman degradation: PITC reacts with the free N-terminal alpha-amino group under mild alkaline conditions. Acid treatment cyclizes and releases the N-terminal amino acid as a PTH-amino acid without hydrolyzing the rest of the peptide, which can undergo another round. This allows sequential readout from the N-terminus. CNBr cleaves after methionine residues (internal); carboxypeptidases remove from C-terminus.",
+    "tags": [
+      "biochemistry",
+      "amino-acids",
+      "peptides",
+      "edman-degradation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Cyanogen bromide (CNBr) cleaves peptides specifically after:",
+    "options": [
+      "Aspartate residues",
+      "Methionine residues (at the C-side of Met)",
+      "Lysine and arginine residues",
+      "Tryptophan residues"
+    ],
+    "correct": 1,
+    "explanation": "CNBr reacts specifically with the sulfur of methionine residues, converting Met into homoserine lactone and cleaving the peptide bond on the C-terminal side of the methionine. This is used to generate specific peptide fragments for sequencing. Trypsin cleaves after Lys and Arg; chymotrypsin after Phe, Trp, Tyr; V8 protease after Asp and Glu; pepsin less specifically.",
+    "tags": [
+      "biochemistry",
+      "amino-acids",
+      "peptide-sequencing",
+      "CNBr"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The peptide bond between amino acids is formed by a condensation reaction and has which property due to resonance?",
+    "options": [
+      "Full single-bond character allowing free rotation",
+      "Negative charge localized on nitrogen",
+      "Full double-bond character with no rotation at all",
+      "Partial double-bond character, making the C-N bond rigid and planar (trans configuration preferred)"
+    ],
+    "correct": 3,
+    "explanation": "The peptide bond (CO-NH) has resonance between C=O/C-N and C-O\u207b/C=N\u207a forms, giving the C-N bond approximately 40% double-bond character. This makes the peptide bond rigid and planar (~0\u00b0 or 180\u00b0, usually trans to minimize steric clashes between R groups). Rotation is only free at phi (C\u03b1-N) and psi (C\u03b1-C) angles \u2014 the basis for the Ramachandran plot.",
+    "tags": [
+      "biochemistry",
+      "peptide-bond",
+      "protein-structure"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In crystal field theory, the d-orbital splitting energy (\u0394) in an octahedral complex is influenced by the spectrochemical series. Which ligand causes the LARGEST splitting?",
+    "options": [
+      "F\u207b (fluoride), a weak-field ligand",
+      "H\u2082O (water), a moderate-field ligand",
+      "CN\u207b (cyanide), a strong-field ligand",
+      "I\u207b (iodide), a weak-field ligand"
+    ],
+    "correct": 2,
+    "explanation": "The spectrochemical series ranks ligands by their ability to split d-orbital energies: I\u207b < Br\u207b < Cl\u207b < F\u207b < OH\u207b < H\u2082O < py < NH\u2083 < en < NO\u2082\u207b < CN\u207b < CO. Strong-field ligands (CN\u207b, CO) cause large \u0394, leading to low-spin complexes. Weak-field ligands (halides) cause small \u0394, leading to high-spin complexes. The color of complexes arises from d-d transitions absorbing complementary wavelengths.",
+    "tags": [
+      "general-chemistry",
+      "coordination-chemistry",
+      "crystal-field",
+      "spectrochemical-series"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A coordination compound is paramagnetic if it has:",
+    "options": [
+      "Unpaired d-electrons",
+      "Only s and p electrons",
+      "All d-electrons paired",
+      "A full d-subshell (d\u00b9\u2070)"
+    ],
+    "correct": 0,
+    "explanation": "Paramagnetic compounds have unpaired electrons and are attracted to magnetic fields. In transition metal complexes, unpaired d-electrons determine paramagnetism. High-spin complexes (weak-field ligands, small \u0394) have more unpaired electrons (following Hund's rule for filling). Low-spin complexes (strong-field ligands, large \u0394) have electrons paired in lower energy d-orbitals. d\u2070 and d\u00b9\u2070 complexes are diamagnetic.",
+    "tags": [
+      "general-chemistry",
+      "coordination-chemistry",
+      "paramagnetism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "EDTA (ethylenediaminetetraacetic acid) is a hexadentate ligand. Polydentate (chelate) ligands form more stable complexes than monodentate ligands primarily because:",
+    "options": [
+      "Polydentate ligands have higher charge and stronger electrostatic attraction",
+      "Chelates form stronger individual metal-ligand bonds",
+      "The chelate effect: releasing multiple water molecules upon binding increases entropy (\u0394S > 0), making complex formation more thermodynamically favorable",
+      "Entropy decreases upon chelation, stabilizing the complex by enthalpy alone"
+    ],
+    "correct": 2,
+    "explanation": "The chelate effect: when a polydentate ligand replaces multiple monodentate ligands, the number of free particles in solution increases (e.g., EDTA replaces 6 water molecules, releasing 5 more particles net per EDTA). This large positive entropy change (\u0394S > 0) makes \u0394G = \u0394H - T\u0394S more negative, stabilizing chelate complexes despite similar bond enthalpies. EDTA is used clinically for heavy metal poisoning (chelation therapy).",
+    "tags": [
+      "general-chemistry",
+      "coordination-chemistry",
+      "chelate-effect",
+      "EDTA"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The color of transition metal complexes arises because:",
+    "options": [
+      "d-electrons absorb infrared radiation",
+      "Electrons in split d-orbitals absorb visible light of the complementary color when promoted to higher d-orbitals",
+      "Transition metals emit light via fluorescence",
+      "The ligands absorb UV light and emit visible light"
+    ],
+    "correct": 1,
+    "explanation": "The crystal field splitting (\u0394) in transition metal complexes corresponds to energies of visible light photons. When an electron absorbs a photon and is promoted from lower (t\u2082g) to upper (eg) d-orbitals, the complementary color is transmitted/reflected. For example, Cu\u00b2\u207a(aq) absorbs red/orange light (\u0394 \u2248 2.1 eV) and appears blue. Larger \u0394 absorbs at shorter wavelengths (blue shift \u2192 appears red/orange).",
+    "tags": [
+      "general-chemistry",
+      "coordination-chemistry",
+      "color"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A 0.1 mol/kg solution of NaCl has a van't Hoff factor (i) of approximately 2. Its freezing point depression compared to a 0.1 mol/kg glucose solution is:",
+    "options": [
+      "Four times as large",
+      "Twice as large (NaCl solution freezes 2\u00d7 lower)",
+      "The same (molality determines \u0394Tf, not ions)",
+      "Half as large"
+    ],
+    "correct": 1,
+    "explanation": "\u0394Tf = i \u00d7 Kf \u00d7 m. For glucose (i = 1): \u0394Tf = 1 \u00d7 1.86 \u00d7 0.1 = 0.186\u00b0C. For NaCl (i \u2248 2, dissociates into Na\u207a and Cl\u207b): \u0394Tf = 2 \u00d7 1.86 \u00d7 0.1 = 0.372\u00b0C. The NaCl solution has approximately twice the freezing point depression because it produces twice as many solute particles per formula unit. Colligative properties depend on particle count, not identity.",
+    "tags": [
+      "general-chemistry",
+      "colligative-properties",
+      "freezing-point-depression"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The triple point on a phase diagram represents:",
+    "options": [
+      "The temperature above which a gas cannot be liquefied regardless of pressure",
+      "The point at which solid and liquid densities become equal",
+      "The unique temperature and pressure at which solid, liquid, and gas phases coexist in equilibrium",
+      "The normal boiling point at 1 atm"
+    ],
+    "correct": 2,
+    "explanation": "The triple point is the unique combination of temperature and pressure where all three phases (solid, liquid, gas) coexist simultaneously in equilibrium. For water, the triple point is 273.16 K (0.01\u00b0C) and 611.73 Pa (0.006 atm). Above the critical point (critical temperature and pressure), the liquid-gas distinction disappears and a supercritical fluid forms. Normal boiling point is at 1 atm on the liquid-gas boundary.",
+    "tags": [
+      "general-chemistry",
+      "phase-diagram",
+      "triple-point"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A solution's osmotic pressure (\u03c0) is given by \u03c0 = iMRT. For a 0.2 M NaCl solution at 37\u00b0C (310 K), using R = 0.0821 L\u00b7atm/(mol\u00b7K) and i = 2, the osmotic pressure is approximately:",
+    "options": [
+      "~2.5 atm",
+      "~10.2 atm",
+      "~20.4 atm",
+      "~5.1 atm"
+    ],
+    "correct": 1,
+    "explanation": "\u03c0 = iMRT = 2 \u00d7 0.2 mol/L \u00d7 0.0821 L\u00b7atm/(mol\u00b7K) \u00d7 310 K = 2 \u00d7 0.2 \u00d7 25.45 = 2 \u00d7 5.09 \u2248 10.2 atm. This is close to the osmotic pressure of physiological saline (0.9% NaCl \u2248 0.154 M NaCl, giving ~7.6 atm). High osmotic pressure is why saline solutions must be carefully matched to biological fluids to prevent cell lysis or crenation.",
+    "tags": [
+      "general-chemistry",
+      "colligative-properties",
+      "osmotic-pressure"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Vapor pressure lowering by a nonvolatile solute is described by Raoult's law: P_solution = X_solvent \u00d7 P\u00b0_solvent. Adding a solute:",
+    "options": [
+      "Has no effect on vapor pressure if the solute is nonvolatile",
+      "Increases the vapor pressure by adding more molecules to the gas phase",
+      "Decreases vapor pressure only if the solute-solvent interactions are stronger than solvent-solvent interactions",
+      "Decreases the vapor pressure proportionally to the mole fraction of solute"
+    ],
+    "correct": 3,
+    "explanation": "Raoult's law states that vapor pressure is proportional to the mole fraction of solvent. Since Xsolvent = 1 \u2212 Xsolute, adding solute decreases Xsolvent and lowers vapor pressure. The decrease is \u0394P = X_solute \u00d7 P\u00b0. This is a purely statistical/entropic effect (fewer solvent molecules at the surface) for ideal solutions \u2014 solute-solvent interaction strength affects ideality but the lowering still occurs.",
+    "tags": [
+      "general-chemistry",
+      "colligative-properties",
+      "raoults-law"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A torque of 10 N\u00b7m is applied to a wheel with moment of inertia I = 2 kg\u00b7m\u00b2. The angular acceleration is:",
+    "options": [
+      "20 rad/s\u00b2",
+      "0.2 rad/s\u00b2",
+      "5 rad/s\u00b2",
+      "10 rad/s\u00b2"
+    ],
+    "correct": 2,
+    "explanation": "Newton's second law for rotation: \u03c4 = I\u03b1, so \u03b1 = \u03c4/I = 10 N\u00b7m / 2 kg\u00b7m\u00b2 = 5 rad/s\u00b2. This is the rotational analog of F = ma. The moment of inertia I depends on mass distribution about the axis (not just total mass). Greater I means greater resistance to angular acceleration for the same torque.",
+    "tags": [
+      "physics",
+      "rotational-dynamics",
+      "torque",
+      "angular-acceleration"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Conservation of angular momentum explains why a spinning skater speeds up when pulling their arms in, because:",
+    "options": [
+      "Reducing arm radius reduces friction, allowing faster rotation",
+      "L = I\u03c9 is conserved; reducing I (smaller radius of gyration) must increase \u03c9 to keep L constant",
+      "Pulling arms in increases the torque applied by leg muscles",
+      "Total kinetic energy is conserved as translational energy converts to rotational energy"
+    ],
+    "correct": 1,
+    "explanation": "Angular momentum L = I\u03c9 is conserved when no external torque acts. When the skater pulls arms inward, the moment of inertia I decreases (mass is closer to the rotation axis). Since L = I\u03c9 must remain constant, \u03c9 (angular velocity) increases proportionally. Rotational kinetic energy (\u00bdI\u03c9\u00b2) actually INCREASES because internal muscular work is done pulling arms in.",
+    "tags": [
+      "physics",
+      "rotational-dynamics",
+      "angular-momentum",
+      "conservation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A solid cylinder (I = \u00bdMR\u00b2) and a hollow cylinder (I = MR\u00b2) start from rest and roll without slipping down an identical incline. Which reaches the bottom first?",
+    "options": [
+      "The solid cylinder \u2014 it has a smaller moment of inertia relative to its mass, so more energy goes to translational motion",
+      "They arrive simultaneously since both have the same mass M and radius R",
+      "The hollow cylinder \u2014 it rolls more efficiently",
+      "The hollow cylinder \u2014 it has more rotational energy stored"
+    ],
+    "correct": 0,
+    "explanation": "Total KE at bottom = \u00bdMv\u00b2 + \u00bdI\u03c9\u00b2. For rolling without slipping, \u03c9 = v/R. Solid cylinder: KE = \u00bdMv\u00b2 + \u00bd(\u00bdMR\u00b2)(v/R)\u00b2 = \u00bdMv\u00b2 + \u00bcMv\u00b2 = \u00beMv\u00b2. Hollow: KE = \u00bdMv\u00b2 + \u00bd(MR\u00b2)(v/R)\u00b2 = Mv\u00b2. Setting mgh = KE: solid gets v = \u221a(4gh/3), hollow gets v = \u221a(gh). Solid has higher translational speed and arrives first. Objects with more mass near the rim (larger I/MR\u00b2 ratio) roll slower.",
+    "tags": [
+      "physics",
+      "rotational-dynamics",
+      "rolling",
+      "moment-of-inertia"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The rotational kinetic energy of a spinning disk with I = 0.5 kg\u00b7m\u00b2 and \u03c9 = 4 rad/s is:",
+    "options": [
+      "1 J",
+      "2 J",
+      "8 J",
+      "4 J"
+    ],
+    "correct": 3,
+    "explanation": "Rotational KE = \u00bdI\u03c9\u00b2 = \u00bd \u00d7 0.5 kg\u00b7m\u00b2 \u00d7 (4 rad/s)\u00b2 = \u00bd \u00d7 0.5 \u00d7 16 = 4 J. Compare with translational KE = \u00bdmv\u00b2. If this disk were also translating at speed v_cm, the total KE would be the sum of both terms. For a rolling object, both terms contribute to total mechanical energy.",
+    "tags": [
+      "physics",
+      "rotational-dynamics",
+      "rotational-kinetic-energy"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The parallel axis theorem states that I_parallel = I_cm + Md\u00b2. This is useful for calculating the moment of inertia about an axis:",
+    "options": [
+      "Only for hollow objects",
+      "About any arbitrary axis with no restriction",
+      "Parallel to the center-of-mass axis but displaced by distance d",
+      "Perpendicular to the center-of-mass axis"
+    ],
+    "correct": 2,
+    "explanation": "The parallel axis theorem: to find I about any axis parallel to an axis through the center of mass, add Md\u00b2 to I_cm (where d is the perpendicular distance between axes, M is total mass). Example: I of a rod about one end = I_cm + M(L/2)\u00b2 = (1/12)ML\u00b2 + (1/4)ML\u00b2 = (1/3)ML\u00b2. The axis must be parallel to the CM axis \u2014 the perpendicular axis theorem applies to perpendicular axes.",
+    "tags": [
+      "physics",
+      "rotational-dynamics",
+      "parallel-axis-theorem"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A fluid flows through a pipe that narrows from radius R to R/2. By the continuity equation, the speed in the narrow section compared to the wide section is:",
+    "options": [
+      "2 times faster",
+      "16 times faster",
+      "4 times faster (v\u2082 = 4v\u2081)",
+      "The same speed"
+    ],
+    "correct": 2,
+    "explanation": "Continuity equation for incompressible fluid: A\u2081v\u2081 = A\u2082v\u2082. Area A = \u03c0R\u00b2. If radius decreases from R to R/2: A\u2082 = \u03c0(R/2)\u00b2 = \u03c0R\u00b2/4 = A\u2081/4. So v\u2082 = A\u2081v\u2081/A\u2082 = 4v\u2081. The fluid speeds up 4-fold. By Bernoulli's principle, this increased speed corresponds to decreased pressure in the narrow section (Venturi effect).",
+    "tags": [
+      "physics",
+      "fluid-dynamics",
+      "continuity-equation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Bernoulli's principle relates pressure and velocity in a flowing fluid. In an airplane wing (greater speed over top surface), the pressure:",
+    "options": [
+      "Is equal on both surfaces since the fluid is air",
+      "Is lower over the top surface (high speed = low pressure), creating a net upward lift force",
+      "Is determined only by the wing's weight",
+      "Is higher over the top surface due to faster-moving air pushing down"
+    ],
+    "correct": 1,
+    "explanation": "Bernoulli's equation: P + \u00bd\u03c1v\u00b2 + \u03c1gh = constant along a streamline. Air flows faster over the curved top surface of a wing. By Bernoulli, higher v \u2192 lower P. So pressure above the wing < pressure below \u2192 net upward force (lift). This is one component of lift; Newton's third law (air deflected downward) also contributes. The Venturi tube and carburetor work by the same principle.",
+    "tags": [
+      "physics",
+      "fluid-dynamics",
+      "bernoulli",
+      "lift"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Stokes' law gives the drag force on a sphere moving slowly through a viscous fluid: F = 6\u03c0\u03b7rv. This force increases proportionally with:",
+    "options": [
+      "Sphere radius squared and velocity squared",
+      "Fluid density and velocity only",
+      "Sphere mass and gravity",
+      "Fluid viscosity (\u03b7), sphere radius (r), and sphere velocity (v)"
+    ],
+    "correct": 3,
+    "explanation": "Stokes' law: F_drag = 6\u03c0\u03b7rv, valid for slow (laminar, low Reynolds number) flow. Drag increases linearly with viscosity \u03b7 (thicker fluid resists more), radius r (larger sphere has more surface area), and velocity v. At terminal velocity, drag equals gravitational force (mg): 6\u03c0\u03b7rv_t = (4/3)\u03c0r\u00b3(\u03c1_particle \u2212 \u03c1_fluid)g, so v_t = 2r\u00b2(\u0394\u03c1)g/(9\u03b7). This is the basis for viscometry and sedimentation rate.",
+    "tags": [
+      "physics",
+      "fluid-dynamics",
+      "stokes-law",
+      "viscosity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Surface tension causes water to rise in a thin capillary tube (capillary action). The height to which water rises is:",
+    "options": [
+      "Independent of tube radius",
+      "Greater in thinner tubes (h \u221d 1/r), because higher surface-area-to-volume ratio allows surface tension to lift more water per unit volume",
+      "Greater in wider tubes",
+      "Greater for non-polar liquids"
+    ],
+    "correct": 1,
+    "explanation": "Capillary rise height h = 2\u03b3cos\u03b8/(\u03c1gr), where \u03b3 = surface tension, \u03b8 = contact angle, \u03c1 = fluid density, g = gravity, r = tube radius. Since h \u221d 1/r, water rises higher in narrower tubes. This occurs because cohesion (water-water surface tension) and adhesion (water-glass) combine. Water wets glass (\u03b8 < 90\u00b0); mercury doesn't (\u03b8 > 90\u00b0, so it is depressed in glass capillaries).",
+    "tags": [
+      "physics",
+      "fluid-dynamics",
+      "surface-tension",
+      "capillary-action"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In an adiabatic process, by definition:",
+    "options": [
+      "No heat is exchanged with the surroundings (q = 0), so \u0394U = w",
+      "Temperature remains constant",
+      "No work is done (w = 0), so \u0394U = q",
+      "Both q = 0 and w = 0"
+    ],
+    "correct": 0,
+    "explanation": "Adiabatic: no heat exchange (q = 0). First law: \u0394U = q + w \u2192 \u0394U = w. If the gas expands adiabatically (w < 0 by convention when system does work), internal energy decreases and temperature falls. Isothermal = constant T (q \u2260 0). Isochoric = constant V (w = 0, \u0394U = q). Isobaric = constant P. Adiabatic processes are faster than isothermal because no heat equilibration occurs.",
+    "tags": [
+      "physics",
+      "thermodynamics",
+      "adiabatic"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "On a PV diagram, the work done BY the gas during expansion equals:",
+    "options": [
+      "The change in internal energy (\u0394U)",
+      "The area to the LEFT of the PV curve",
+      "P\u0394T (change in temperature times pressure)",
+      "The area under the PV curve (\u222bP dV)"
+    ],
+    "correct": 3,
+    "explanation": "Work done by the gas: w = \u222bP dV = area under the P-V curve. For expansion (\u0394V > 0), work is positive (system does work on surroundings). For compression (\u0394V < 0), work is negative (surroundings do work on system). For a cyclic process, net work = area enclosed by the cycle. \u0394U = q \u2212 w (if w = work done BY gas); for isothermal ideal gas expansion, \u0394U = 0 and q = w.",
+    "tags": [
+      "physics",
+      "thermodynamics",
+      "PV-diagram",
+      "work"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The efficiency of a Carnot heat engine operating between temperatures T_H (hot) and T_C (cold) is:",
+    "options": [
+      "e = T_H/(T_H + T_C)",
+      "e = 1 \u2212 T_C/T_H (using absolute/Kelvin temperatures)",
+      "e = (T_H \u2212 T_C)/T_C",
+      "e = 1 \u2212 T_H/T_C"
+    ],
+    "correct": 1,
+    "explanation": "The Carnot efficiency e = 1 \u2212 T_C/T_H represents the maximum possible efficiency of any heat engine operating between two temperatures (must be in Kelvin). No real engine can exceed Carnot efficiency. Example: engine between 400 K and 300 K has max efficiency = 1 \u2212 300/400 = 25%. Increasing T_H or decreasing T_C improves efficiency. Real engines are less efficient due to irreversibilities (friction, heat losses).",
+    "tags": [
+      "physics",
+      "thermodynamics",
+      "carnot",
+      "heat-engine"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "For an isothermal expansion of an ideal gas, \u0394U = 0 because:",
+    "options": [
+      "Pressure and volume changes cancel exactly",
+      "Work done and heat absorbed are both zero",
+      "Ideal gas molecules do not interact, so expansion requires no energy",
+      "Internal energy of an ideal gas depends only on temperature (T is constant), so \u0394U = 0 regardless of volume change"
+    ],
+    "correct": 3,
+    "explanation": "For an ideal gas, internal energy U depends only on temperature (kinetic energy of molecules). In isothermal conditions (constant T), \u0394U = 0 regardless of pressure or volume changes. By the first law: 0 = q + w \u2192 q = \u2212w. For isothermal expansion, the gas does work (w < 0 by convention where w = work done ON gas), so q > 0 (heat is absorbed from surroundings to maintain T). Real gases have \u0394U \u2260 0 in isothermal expansion due to intermolecular forces.",
+    "tags": [
+      "physics",
+      "thermodynamics",
+      "ideal-gas",
+      "isothermal"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Entropy increases in a spontaneous irreversible process because:",
+    "options": [
+      "The total entropy of the universe (system + surroundings) increases; the second law of thermodynamics states \u0394S_universe \u2265 0",
+      "Heat always flows from cold to hot in irreversible processes",
+      "Internal energy always increases in irreversible processes",
+      "Free energy always increases in irreversible processes"
+    ],
+    "correct": 0,
+    "explanation": "The second law of thermodynamics: in any spontaneous process, total entropy of the universe increases (\u0394S_universe = \u0394S_system + \u0394S_surroundings \u2265 0). Reversible processes have \u0394S_universe = 0; irreversible spontaneous processes have \u0394S_universe > 0. Gibbs free energy \u0394G = \u0394H \u2212 T\u0394S measures spontaneity at constant T and P (\u0394G < 0 for spontaneous processes), combining system entropy change with enthalpy.",
+    "tags": [
+      "physics",
+      "thermodynamics",
+      "entropy",
+      "second-law"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A capacitor with capacitance C is charged to voltage V. The energy stored in the capacitor is:",
+    "options": [
+      "U = \u00bdCV\u00b2",
+      "U = \u00bdCV",
+      "U = CV",
+      "U = CV\u00b2"
+    ],
+    "correct": 0,
+    "explanation": "The energy stored in a capacitor is U = \u00bdCV\u00b2 = \u00bdQ\u00b2/C = \u00bdQV (all equivalent). Derivation: as charge builds up, the work done against the increasing voltage is dW = V dq = (q/C)dq; integrating from 0 to Q gives W = Q\u00b2/(2C) = \u00bdCV\u00b2. The factor of \u00bd arises because voltage starts at 0 and increases linearly to V as charge accumulates. This energy is stored in the electric field between the plates.",
+    "tags": [
+      "physics",
+      "electricity",
+      "capacitor",
+      "energy"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Inserting a dielectric material between capacitor plates (at constant charge Q):",
+    "options": [
+      "Has no effect on capacitance",
+      "Increases capacitance by factor \u03ba (dielectric constant) and decreases voltage by factor \u03ba, leaving Q unchanged but reducing stored energy",
+      "Increases both capacitance and voltage proportionally",
+      "Decreases capacitance and increases voltage"
+    ],
+    "correct": 1,
+    "explanation": "A dielectric (\u03ba > 1) between capacitor plates increases capacitance: C' = \u03baC. With fixed Q: V' = Q/C' = Q/(\u03baC) = V/\u03ba (voltage decreases). Energy U' = Q\u00b2/(2C') = Q\u00b2/(2\u03baC) = U/\u03ba (stored energy decreases \u2014 the dielectric is pulled in, doing work on the capacitor). At constant voltage (battery connected): Q increases, C increases, and stored energy U = \u00bdCV\u00b2 increases as energy comes from the battery.",
+    "tags": [
+      "physics",
+      "electricity",
+      "capacitor",
+      "dielectric"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In an RC circuit, the time constant \u03c4 = RC determines that the capacitor charges to approximately 63% of its final voltage after:",
+    "options": [
+      "Two time constants",
+      "One time constant (t = \u03c4 = RC)",
+      "The time constant squared",
+      "Half the time constant"
+    ],
+    "correct": 1,
+    "explanation": "In an RC charging circuit, V(t) = V\u2080(1 \u2212 e^(\u2212t/RC)). At t = \u03c4 = RC: V = V\u2080(1 \u2212 e\u207b\u00b9) = V\u2080(1 \u2212 0.368) \u2248 0.632V\u2080 (\u224863%). After 5\u03c4, the capacitor is 99.3% charged (practically fully charged). The time constant \u03c4 = RC is larger for large capacitance (stores more charge) or large resistance (limits current flow). Same \u03c4 applies to discharge: V(t) = V\u2080e^(\u2212t/RC).",
+    "tags": [
+      "physics",
+      "electricity",
+      "RC-circuit",
+      "time-constant"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Lenz's law states that the induced EMF and current in a conductor oppose the change in magnetic flux that caused them. This is because:",
+    "options": [
+      "Ohm's law requires opposing currents",
+      "Conservation of energy requires the induced current to create a magnetic field opposing the change, preventing perpetual motion",
+      "Electrons prefer to move opposite to the direction of the external field",
+      "Magnetic fields always repel each other"
+    ],
+    "correct": 1,
+    "explanation": "Lenz's law (a consequence of Faraday's law and energy conservation): if increasing flux induced a current that enhanced the flux further, a positive feedback loop would create energy from nothing. Instead, the induced current creates a magnetic field opposing the change in flux (if flux increases, induced B opposes it; if flux decreases, induced B supports it). This is why electromagnetic braking works and why AC transformers have energy losses.",
+    "tags": [
+      "physics",
+      "electricity",
+      "lenz-law",
+      "electromagnetic-induction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Electric power dissipated in a resistor can be expressed as P = I\u00b2R = V\u00b2/R = IV. If the voltage across a 100-\u03a9 resistor is 10 V, the power dissipated is:",
+    "options": [
+      "0.1 W",
+      "1 W",
+      "1000 W",
+      "10 W"
+    ],
+    "correct": 1,
+    "explanation": "P = V\u00b2/R = (10 V)\u00b2/100 \u03a9 = 100/100 = 1 W. Alternatively: I = V/R = 10/100 = 0.1 A; P = IV = 0.1 \u00d7 10 = 1 W; or P = I\u00b2R = (0.1)\u00b2 \u00d7 100 = 1 W. All three forms give the same answer. The power is dissipated as heat in the resistor (Joule heating). High-power resistors require heat sinks to prevent overheating.",
+    "tags": [
+      "physics",
+      "electricity",
+      "power",
+      "resistor"
+    ],
+    "difficulty": "easy"
+  }
+]

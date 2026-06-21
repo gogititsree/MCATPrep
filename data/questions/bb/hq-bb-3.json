@@ -1,5 +1,129 @@
 [
   {
+    "text": "Which component of gram-positive bacteria is targeted by beta-lactam antibiotics?",
+    "options": [
+      "DNA gyrase",
+      "Peptidoglycan cross-linking (transpeptidase/PBP)",
+      "30S ribosomal subunit",
+      "The outer membrane lipopolysaccharide"
+    ],
+    "correct": 1,
+    "explanation": "Beta-lactams (penicillin, amoxicillin, cephalosporins) inhibit penicillin-binding proteins (transpeptidases) that cross-link peptidoglycan strands. Gram-positive bacteria have a thick peptidoglycan layer and no outer membrane, making them highly susceptible. LPS is the target of polymyxins; 30S is targeted by aminoglycosides; DNA gyrase by fluoroquinolones.",
+    "tags": [
+      "microbiology",
+      "bacteria",
+      "antibiotics"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Gram staining distinguishes bacteria primarily based on differences in:",
+    "options": [
+      "Flagella arrangement",
+      "Cell wall peptidoglycan thickness and presence/absence of an outer membrane",
+      "The presence or absence of ribosomes",
+      "Capsule composition"
+    ],
+    "correct": 1,
+    "explanation": "Gram-positive bacteria retain crystal violet (stain purple) due to their thick peptidoglycan layer; gram-negative bacteria lose it during decolorization because their thin peptidoglycan is sandwiched between inner and outer membranes, and counterstain pink with safranin. The outer membrane with LPS is unique to gram-negatives.",
+    "tags": [
+      "microbiology",
+      "bacteria",
+      "gram-stain"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which process transfers genetic material directly through cell-to-cell contact via a pilus?",
+    "options": [
+      "Conjugation",
+      "Transformation",
+      "Sporulation",
+      "Transduction"
+    ],
+    "correct": 0,
+    "explanation": "Conjugation requires physical contact between bacteria via the sex pilus (F-pilus), through which plasmid or chromosomal DNA is transferred. Transformation involves uptake of free DNA from the environment. Transduction uses bacteriophage as a vector. Sporulation is endospore formation, not gene transfer.",
+    "tags": [
+      "microbiology",
+      "bacteria",
+      "genetics",
+      "conjugation"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A bacterium incorporates a fragment of donor DNA from the environment into its chromosome. This process is called:",
+    "options": [
+      "Conjugation",
+      "Transformation",
+      "Transduction",
+      "Transposition"
+    ],
+    "correct": 1,
+    "explanation": "Transformation is the uptake and incorporation of exogenous DNA from the environment by competent bacteria (e.g., Streptococcus pneumoniae). This was first demonstrated by Griffith and the molecular basis identified by Avery et al. Transduction uses phage; conjugation uses pili; transposition moves genetic elements within/between chromosomes.",
+    "tags": [
+      "microbiology",
+      "bacteria",
+      "genetics",
+      "transformation"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In generalized transduction, a bacteriophage accidentally packages:",
+    "options": [
+      "Random fragments of host bacterial DNA instead of phage DNA",
+      "RNA from the bacterial host",
+      "Only phage DNA from the host",
+      "Plasmids that the bacterium carries"
+    ],
+    "correct": 0,
+    "explanation": "In generalized transduction, the phage accidentally packages random pieces of host chromosomal DNA during assembly. When the phage infects a new host, this donor DNA can recombine with the recipient's chromosome. In specialized transduction, only specific genes adjacent to the phage integration site are transferred.",
+    "tags": [
+      "microbiology",
+      "bacteria",
+      "genetics",
+      "transduction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Aminoglycoside antibiotics (e.g., gentamicin) kill bacteria primarily by:",
+    "options": [
+      "Disrupting the cell membrane",
+      "Inhibiting RNA polymerase",
+      "Binding the 30S ribosomal subunit, causing misreading of mRNA and defective protein synthesis",
+      "Blocking folate synthesis"
+    ],
+    "correct": 2,
+    "explanation": "Aminoglycosides bind the 30S ribosomal subunit (specifically 16S rRNA), causing misreading of mRNA codons, which leads to incorporation of wrong amino acids and production of abnormal proteins that disrupt the cell membrane, causing bactericidal effects. Rifampin inhibits RNA polymerase; polymyxins disrupt membranes; sulfonamides block folate.",
+    "tags": [
+      "microbiology",
+      "bacteria",
+      "antibiotics",
+      "aminoglycosides"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Fluoroquinolone antibiotics (e.g., ciprofloxacin) target:",
+    "options": [
+      "Dihydrofolate reductase",
+      "DNA gyrase (topoisomerase II) and topoisomerase IV, preventing DNA replication",
+      "The 50S ribosomal subunit",
+      "Cell wall synthesis"
+    ],
+    "correct": 1,
+    "explanation": "Fluoroquinolones inhibit DNA gyrase (topoisomerase II) in gram-negative bacteria and topoisomerase IV in gram-positive bacteria. These enzymes relieve supercoiling ahead of the replication fork. Without them, DNA replication stalls and the bacteria cannot divide. This explains their bactericidal, broad-spectrum activity.",
+    "tags": [
+      "microbiology",
+      "bacteria",
+      "antibiotics",
+      "fluoroquinolones"
+    ],
+    "difficulty": "medium"
+  },
+  {
     "text": "Quorum sensing in bacteria allows population-density-dependent regulation of gene expression. Which molecule typically mediates this in gram-negative bacteria?",
     "options": [
       "cAMP",
@@ -25,7 +149,7 @@
       "Are destroyed by standard alcohol-based sanitizers"
     ],
     "correct": 2,
-    "explanation": "Bacterial endospores (formed by Bacillus and Clostridium) are metabolically dormant and extremely resistant to heat, UV radiation, chemicals, and desiccation. Autoclaving at 121°C for 15–20 minutes (not just boiling) is required to kill them. They lack membrane-bound organelles (prokaryotic). Alcohol sanitizers are ineffective against spores.",
+    "explanation": "Bacterial endospores (formed by Bacillus and Clostridium) are metabolically dormant and extremely resistant to heat, UV radiation, chemicals, and desiccation. Autoclaving at 121\u00b0C for 15\u201320 minutes (not just boiling) is required to kill them. They lack membrane-bound organelles (prokaryotic). Alcohol sanitizers are ineffective against spores.",
     "tags": [
       "microbiology",
       "bacteria",
@@ -256,7 +380,7 @@
       "0.49"
     ],
     "correct": 1,
-    "explanation": "If q = 0.3, then p = 1 - 0.3 = 0.7. Heterozygote frequency = 2pq = 2(0.7)(0.3) = 0.42. Homozygous dominant = p² = 0.49; homozygous recessive = q² = 0.09. The HWE equation is p² + 2pq + q² = 1.",
+    "explanation": "If q = 0.3, then p = 1 - 0.3 = 0.7. Heterozygote frequency = 2pq = 2(0.7)(0.3) = 0.42. Homozygous dominant = p\u00b2 = 0.49; homozygous recessive = q\u00b2 = 0.09. The HWE equation is p\u00b2 + 2pq + q\u00b2 = 1.",
     "tags": [
       "genetics",
       "population-genetics",
@@ -324,7 +448,7 @@
       "~0.99 (99%)"
     ],
     "correct": 1,
-    "explanation": "With q = 0.01, p ≈ 0.99, heterozygote frequency = 2pq = 2(0.99)(0.01) ≈ 0.0198, or ~2%. This illustrates why recessive lethal alleles are not quickly eliminated — most copies hide in heterozygous carriers. Homozygous recessive (affected) = q² = 0.0001 (only 1 in 10,000).",
+    "explanation": "With q = 0.01, p \u2248 0.99, heterozygote frequency = 2pq = 2(0.99)(0.01) \u2248 0.0198, or ~2%. This illustrates why recessive lethal alleles are not quickly eliminated \u2014 most copies hide in heterozygous carriers. Homozygous recessive (affected) = q\u00b2 = 0.0001 (only 1 in 10,000).",
     "tags": [
       "genetics",
       "population-genetics",
@@ -358,7 +482,7 @@
       "Rare alleles have higher fitness than common alleles (negative frequency-dependence)"
     ],
     "correct": 3,
-    "explanation": "Negative frequency-dependent selection (e.g., MHC diversity, prey search image avoidance) gives rare alleles a fitness advantage — when they become common, their advantage diminishes. This self-correcting mechanism maintains multiple alleles at stable intermediate frequencies, contributing to polymorphism in natural populations.",
+    "explanation": "Negative frequency-dependent selection (e.g., MHC diversity, prey search image avoidance) gives rare alleles a fitness advantage \u2014 when they become common, their advantage diminishes. This self-correcting mechanism maintains multiple alleles at stable intermediate frequencies, contributing to polymorphism in natural populations.",
     "tags": [
       "genetics",
       "population-genetics",
@@ -375,7 +499,7 @@
       "PEP carboxykinase (PEPCK)"
     ],
     "correct": 0,
-    "explanation": "Pyruvate carboxylase (mitochondrial, requires biotin and acetyl-CoA as allosteric activator) converts pyruvate + CO₂ + ATP → oxaloacetate. OAA is then converted by PEPCK to PEP. Pyruvate kinase runs the reverse reaction in glycolysis (PEP → pyruvate); fructose-1,6-bisphosphatase bypasses PFK-1; PEPCK acts after pyruvate carboxylase.",
+    "explanation": "Pyruvate carboxylase (mitochondrial, requires biotin and acetyl-CoA as allosteric activator) converts pyruvate + CO\u2082 + ATP \u2192 oxaloacetate. OAA is then converted by PEPCK to PEP. Pyruvate kinase runs the reverse reaction in glycolysis (PEP \u2192 pyruvate); fructose-1,6-bisphosphatase bypasses PFK-1; PEPCK acts after pyruvate carboxylase.",
     "tags": [
       "metabolism",
       "gluconeogenesis",
@@ -386,7 +510,7 @@
   {
     "text": "The Cori cycle shuttles lactate from exercising muscle to the liver. In the liver, lactate is converted back to glucose via:",
     "options": [
-      "Gluconeogenesis using lactate → pyruvate → OAA → PEP → glucose",
+      "Gluconeogenesis using lactate \u2192 pyruvate \u2192 OAA \u2192 PEP \u2192 glucose",
       "Glycogenolysis releasing glucose-1-phosphate",
       "Direct phosphorylation of lactate to glucose-6-phosphate",
       "Beta-oxidation to acetyl-CoA followed by gluconeogenesis"
@@ -444,7 +568,7 @@
       "Export alanine to the brain as a fuel source"
     ],
     "correct": 1,
-    "explanation": "In the glucose-alanine cycle, muscle transaminases convert pyruvate + glutamate → alanine + alpha-ketoglutarate. Alanine is exported to the liver, where ALT converts it back to pyruvate (+ glutamate). Pyruvate enters gluconeogenesis; the amino group enters the urea cycle. This cycle transports both carbon (as glucose) and nitrogen (as urea) between muscle and liver.",
+    "explanation": "In the glucose-alanine cycle, muscle transaminases convert pyruvate + glutamate \u2192 alanine + alpha-ketoglutarate. Alanine is exported to the liver, where ALT converts it back to pyruvate (+ glutamate). Pyruvate enters gluconeogenesis; the amino group enters the urea cycle. This cycle transports both carbon (as glucose) and nitrogen (as urea) between muscle and liver.",
     "tags": [
       "metabolism",
       "gluconeogenesis",
@@ -478,7 +602,7 @@
       "G6PD is required for hemoglobin synthesis"
     ],
     "correct": 1,
-    "explanation": "G6PD (glucose-6-phosphate dehydrogenase) catalyzes the first step of the PPP, producing NADPH. Mature RBCs lack mitochondria and depend entirely on the PPP for NADPH. Without NADPH, glutathione cannot be regenerated, H₂O₂ accumulates, hemoglobin oxidizes to methemoglobin, and Heinz bodies form — causing hemolysis. RBCs do perform glycolysis; G6PD is not in that pathway.",
+    "explanation": "G6PD (glucose-6-phosphate dehydrogenase) catalyzes the first step of the PPP, producing NADPH. Mature RBCs lack mitochondria and depend entirely on the PPP for NADPH. Without NADPH, glutathione cannot be regenerated, H\u2082O\u2082 accumulates, hemoglobin oxidizes to methemoglobin, and Heinz bodies form \u2014 causing hemolysis. RBCs do perform glycolysis; G6PD is not in that pathway.",
     "tags": [
       "metabolism",
       "pentose-phosphate-pathway",
@@ -513,7 +637,7 @@
       "Inhibiting cholesterol absorption in the intestine"
     ],
     "correct": 0,
-    "explanation": "Statins (lovastatin, atorvastatin) are structural analogs of HMG-CoA that competitively inhibit HMG-CoA reductase, blocking the conversion of HMG-CoA → mevalonate (the committed, rate-limiting step). This reduces intracellular cholesterol, upregulates LDL receptors (secondary effect), and lowers plasma LDL. PCSK9 inhibitors are a different drug class.",
+    "explanation": "Statins (lovastatin, atorvastatin) are structural analogs of HMG-CoA that competitively inhibit HMG-CoA reductase, blocking the conversion of HMG-CoA \u2192 mevalonate (the committed, rate-limiting step). This reduces intracellular cholesterol, upregulates LDL receptors (secondary effect), and lowers plasma LDL. PCSK9 inhibitors are a different drug class.",
     "tags": [
       "metabolism",
       "cholesterol",
@@ -531,7 +655,7 @@
       "Malonyl-CoA"
     ],
     "correct": 3,
-    "explanation": "ACC uses biotin to carboxylate acetyl-CoA to malonyl-CoA using ATP and CO₂ (ACC: acetyl-CoA + CO₂ + ATP → malonyl-CoA + ADP + Pi). Malonyl-CoA is the 2-carbon donor for fatty acid elongation by FAS. Malonyl-CoA also inhibits carnitine acyltransferase I, preventing fatty acid import into mitochondria — preventing simultaneous synthesis and oxidation.",
+    "explanation": "ACC uses biotin to carboxylate acetyl-CoA to malonyl-CoA using ATP and CO\u2082 (ACC: acetyl-CoA + CO\u2082 + ATP \u2192 malonyl-CoA + ADP + Pi). Malonyl-CoA is the 2-carbon donor for fatty acid elongation by FAS. Malonyl-CoA also inhibits carnitine acyltransferase I, preventing fatty acid import into mitochondria \u2014 preventing simultaneous synthesis and oxidation.",
     "tags": [
       "metabolism",
       "fatty-acid-synthesis",
@@ -541,7 +665,7 @@
     "difficulty": "medium"
   },
   {
-    "text": "During skeletal muscle contraction, Ca²⁺ binds to which protein to allow myosin-actin interaction?",
+    "text": "During skeletal muscle contraction, Ca\u00b2\u207a binds to which protein to allow myosin-actin interaction?",
     "options": [
       "Troponin I",
       "Troponin C",
@@ -549,7 +673,7 @@
       "Tropomyosin"
     ],
     "correct": 1,
-    "explanation": "Ca²⁺ released from the sarcoplasmic reticulum binds troponin C (the Ca²⁺-binding subunit of the troponin complex). This causes a conformational change that moves tropomyosin away from myosin-binding sites on actin, allowing cross-bridge formation. Troponin I normally inhibits myosin binding; titin is a structural protein maintaining sarcomere elasticity.",
+    "explanation": "Ca\u00b2\u207a released from the sarcoplasmic reticulum binds troponin C (the Ca\u00b2\u207a-binding subunit of the troponin complex). This causes a conformational change that moves tropomyosin away from myosin-binding sites on actin, allowing cross-bridge formation. Troponin I normally inhibits myosin binding; titin is a structural protein maintaining sarcomere elasticity.",
     "tags": [
       "physiology",
       "muscle",
@@ -577,13 +701,13 @@
   {
     "text": "Rigor mortis occurs after death because:",
     "options": [
-      "Ca²⁺ floods into muscle cells and permanently activates troponin",
+      "Ca\u00b2\u207a floods into muscle cells and permanently activates troponin",
       "Glycogen depletion prevents new muscle contractions",
       "Acetylcholine accumulates at the NMJ causing persistent depolarization",
       "ATP depletion prevents myosin cross-bridges from detaching from actin, locking muscles in a contracted state"
     ],
     "correct": 3,
-    "explanation": "Myosin detaches from actin only when ATP binds to myosin (completing the cross-bridge cycle). After death, ATP production ceases; existing ATP is consumed but new ATP cannot be made. Without ATP, myosin remains tightly bound to actin (rigor state). Rigor mortis resolves 24–48 hours post-mortem as proteolytic enzymes degrade the cross-bridges.",
+    "explanation": "Myosin detaches from actin only when ATP binds to myosin (completing the cross-bridge cycle). After death, ATP production ceases; existing ATP is consumed but new ATP cannot be made. Without ATP, myosin remains tightly bound to actin (rigor state). Rigor mortis resolves 24\u201348 hours post-mortem as proteolytic enzymes degrade the cross-bridges.",
     "tags": [
       "physiology",
       "muscle",
@@ -630,7 +754,7 @@
     "options": [
       "Stimulate pancreatic enzyme secretion and gallbladder contraction",
       "Stimulate gastric acid secretion and increase stomach motility",
-      "Inhibit pancreatic enzyme secretion and stimulate HCO₃⁻ release",
+      "Inhibit pancreatic enzyme secretion and stimulate HCO\u2083\u207b release",
       "Stimulate gastric emptying and absorb fat-soluble vitamins"
     ],
     "correct": 0,
@@ -652,7 +776,7 @@
       "Emulsifying fat globules into smaller droplets, increasing surface area for pancreatic lipase"
     ],
     "correct": 3,
-    "explanation": "Bile salts are amphipathic (hydrophilic and hydrophobic regions) and act as detergents to emulsify dietary fats — breaking large fat globules into smaller droplets that dramatically increase surface area for pancreatic lipase action. They also form micelles to transport lipid digestion products to the brush border. Lipase itself hydrolyzes the bonds; colipase (not bile salts) activates lipase.",
+    "explanation": "Bile salts are amphipathic (hydrophilic and hydrophobic regions) and act as detergents to emulsify dietary fats \u2014 breaking large fat globules into smaller droplets that dramatically increase surface area for pancreatic lipase action. They also form micelles to transport lipid digestion products to the brush border. Lipase itself hydrolyzes the bonds; colipase (not bile salts) activates lipase.",
     "tags": [
       "physiology",
       "GI",
@@ -670,7 +794,7 @@
       "Stimulate pancreatic ductal cells to secrete bicarbonate-rich fluid, neutralizing acidic chyme"
     ],
     "correct": 3,
-    "explanation": "Secretin is released when duodenal pH drops below 4.5 (acidic chyme from the stomach). It stimulates pancreatic ductal cells to secrete HCO₃⁻-rich fluid, neutralizing the acid. Secretin also inhibits gastric acid secretion and gastric motility. CCK (not secretin) stimulates gallbladder contraction and pancreatic enzyme secretion.",
+    "explanation": "Secretin is released when duodenal pH drops below 4.5 (acidic chyme from the stomach). It stimulates pancreatic ductal cells to secrete HCO\u2083\u207b-rich fluid, neutralizing the acid. Secretin also inhibits gastric acid secretion and gastric motility. CCK (not secretin) stimulates gallbladder contraction and pancreatic enzyme secretion.",
     "tags": [
       "physiology",
       "GI",
@@ -705,7 +829,7 @@
       "Portal vein directly to the liver"
     ],
     "correct": 1,
-    "explanation": "Fat-soluble vitamins are incorporated into micelles in the intestinal lumen, taken up by enterocytes, packaged into chylomicrons, and transported via the lymphatic system (lacteals → thoracic duct) to the bloodstream. They bypass first-pass hepatic metabolism. Water-soluble vitamins (B vitamins, vitamin C) are absorbed into the portal blood directly.",
+    "explanation": "Fat-soluble vitamins are incorporated into micelles in the intestinal lumen, taken up by enterocytes, packaged into chylomicrons, and transported via the lymphatic system (lacteals \u2192 thoracic duct) to the bloodstream. They bypass first-pass hepatic metabolism. Water-soluble vitamins (B vitamins, vitamin C) are absorbed into the portal blood directly.",
     "tags": [
       "physiology",
       "GI",
@@ -740,7 +864,7 @@
       "Meiosis I separates homologous chromosomes; meiosis II separates sister chromatids"
     ],
     "correct": 3,
-    "explanation": "Meiosis I is the reductional division — homologous chromosomes (each consisting of 2 sister chromatids) separate, halving chromosome number. Meiosis II is the equational division — like mitosis, it separates sister chromatids. Starting with 2n (4 chromatids per homolog pair), after meiosis I: 2 cells each 1n (2 chromatids); after meiosis II: 4 haploid cells (1 chromatid each).",
+    "explanation": "Meiosis I is the reductional division \u2014 homologous chromosomes (each consisting of 2 sister chromatids) separate, halving chromosome number. Meiosis II is the equational division \u2014 like mitosis, it separates sister chromatids. Starting with 2n (4 chromatids per homolog pair), after meiosis I: 2 cells each 1n (2 chromatids); after meiosis II: 4 haploid cells (1 chromatid each).",
     "tags": [
       "genetics",
       "meiosis"
@@ -821,13 +945,13 @@
   {
     "text": "The three steps of a standard PCR cycle are, in order:",
     "options": [
-      "Denaturation (~95°C), annealing (~55°C), extension (~72°C)",
-      "Extension (~72°C), denaturation (~95°C), annealing (~55°C)",
+      "Denaturation (~95\u00b0C), annealing (~55\u00b0C), extension (~72\u00b0C)",
+      "Extension (~72\u00b0C), denaturation (~95\u00b0C), annealing (~55\u00b0C)",
       "Annealing, denaturation, extension",
       "Denaturation, extension, annealing"
     ],
     "correct": 0,
-    "explanation": "PCR cycle: (1) Denaturation at ~95°C — heat separates dsDNA into ssDNA templates; (2) Annealing at ~50–65°C — primers bind (hybridize) to complementary sequences on template strands; (3) Extension at ~72°C — Taq polymerase synthesizes new DNA from each primer. After ~30 cycles, the target sequence is amplified ~10⁹-fold.",
+    "explanation": "PCR cycle: (1) Denaturation at ~95\u00b0C \u2014 heat separates dsDNA into ssDNA templates; (2) Annealing at ~50\u201365\u00b0C \u2014 primers bind (hybridize) to complementary sequences on template strands; (3) Extension at ~72\u00b0C \u2014 Taq polymerase synthesizes new DNA from each primer. After ~30 cycles, the target sequence is amplified ~10\u2079-fold.",
     "tags": [
       "laboratory",
       "PCR"
@@ -860,7 +984,7 @@
       "RNA"
     ],
     "correct": 2,
-    "explanation": "Mnemonic: SNoW DRoP — Southern = DNA, Northern = RNA, Western = Protein. In Southern blotting: DNA is restriction-digested, size-separated by gel electrophoresis, transferred to a membrane, and hybridized with a labeled DNA probe. Northern blotting uses RNA. Western blotting uses antibody probes to detect proteins. Eastern blotting detects carbohydrates/lipids.",
+    "explanation": "Mnemonic: SNoW DRoP \u2014 Southern = DNA, Northern = RNA, Western = Protein. In Southern blotting: DNA is restriction-digested, size-separated by gel electrophoresis, transferred to a membrane, and hybridized with a labeled DNA probe. Northern blotting uses RNA. Western blotting uses antibody probes to detect proteins. Eastern blotting detects carbohydrates/lipids.",
     "tags": [
       "laboratory",
       "blotting",
@@ -893,7 +1017,7 @@
       "Two restriction enzymes targeting the same sequence"
     ],
     "correct": 2,
-    "explanation": "CRISPR-Cas9 uses: (1) single-guide RNA (sgRNA) — a chimeric RNA that guides Cas9 to the target by Watson-Crick base pairing with a 20-nucleotide sequence adjacent to a PAM (protospacer adjacent motif, typically NGG); (2) Cas9 — endonuclease that creates a double-strand break. The cell then repairs via NHEJ (causing indels) or HDR (if a repair template is provided).",
+    "explanation": "CRISPR-Cas9 uses: (1) single-guide RNA (sgRNA) \u2014 a chimeric RNA that guides Cas9 to the target by Watson-Crick base pairing with a 20-nucleotide sequence adjacent to a PAM (protospacer adjacent motif, typically NGG); (2) Cas9 \u2014 endonuclease that creates a double-strand break. The cell then repairs via NHEJ (causing indels) or HDR (if a repair template is provided).",
     "tags": [
       "laboratory",
       "CRISPR",
@@ -926,7 +1050,7 @@
       "Pyruvate carboxylase and acetyl-CoA carboxylase"
     ],
     "correct": 2,
-    "explanation": "TPP (thiamine pyrophosphate) is required for: (1) pyruvate dehydrogenase (pyruvate → acetyl-CoA); (2) alpha-ketoglutarate dehydrogenase (TCA cycle); (3) transketolase (PPP, non-oxidative phase); (4) branched-chain ketoacid dehydrogenase. Thiamine deficiency (beriberi, Wernicke-Korsakoff) impairs these reactions, especially in high-energy-demand tissues. Biotin cofactors carboxylases; PLP cofactors transaminases.",
+    "explanation": "TPP (thiamine pyrophosphate) is required for: (1) pyruvate dehydrogenase (pyruvate \u2192 acetyl-CoA); (2) alpha-ketoglutarate dehydrogenase (TCA cycle); (3) transketolase (PPP, non-oxidative phase); (4) branched-chain ketoacid dehydrogenase. Thiamine deficiency (beriberi, Wernicke-Korsakoff) impairs these reactions, especially in high-energy-demand tissues. Biotin cofactors carboxylases; PLP cofactors transaminases.",
     "tags": [
       "vitamins",
       "thiamine",
@@ -944,7 +1068,7 @@
       "Transamination reactions (amino acid metabolism) and decarboxylation of amino acids"
     ],
     "correct": 3,
-    "explanation": "PLP is the active form of vitamin B6 and is a cofactor for: (1) aminotransferases (transaminations — transfers amino groups from amino acids to alpha-keto acids); (2) amino acid decarboxylases (makes neurotransmitters: GABA, serotonin, dopamine, histamine); (3) glycogen phosphorylase. Deficiency causes peripheral neuropathy and sideroblastic anemia.",
+    "explanation": "PLP is the active form of vitamin B6 and is a cofactor for: (1) aminotransferases (transaminations \u2014 transfers amino groups from amino acids to alpha-keto acids); (2) amino acid decarboxylases (makes neurotransmitters: GABA, serotonin, dopamine, histamine); (3) glycogen phosphorylase. Deficiency causes peripheral neuropathy and sideroblastic anemia.",
     "tags": [
       "vitamins",
       "B6",
@@ -958,11 +1082,11 @@
     "options": [
       "Methyl group transfer",
       "Hydrogen transfer (oxidation-reduction)",
-      "CO₂ transfer (carboxylation reactions)",
+      "CO\u2082 transfer (carboxylation reactions)",
       "Amino group transfer (transamination)"
     ],
     "correct": 2,
-    "explanation": "Biotin is the cofactor for carboxylases — enzymes that add CO₂ to substrates: (1) pyruvate carboxylase (pyruvate → OAA); (2) acetyl-CoA carboxylase (acetyl-CoA → malonyl-CoA); (3) propionyl-CoA carboxylase (propionyl-CoA → methylmalonyl-CoA). Avidin in raw egg whites binds biotin, preventing absorption. Deficiency causes dermatitis, alopecia, neurological symptoms.",
+    "explanation": "Biotin is the cofactor for carboxylases \u2014 enzymes that add CO\u2082 to substrates: (1) pyruvate carboxylase (pyruvate \u2192 OAA); (2) acetyl-CoA carboxylase (acetyl-CoA \u2192 malonyl-CoA); (3) propionyl-CoA carboxylase (propionyl-CoA \u2192 methylmalonyl-CoA). Avidin in raw egg whites binds biotin, preventing absorption. Deficiency causes dermatitis, alopecia, neurological symptoms.",
     "tags": [
       "vitamins",
       "biotin",
@@ -979,7 +1103,7 @@
       "Production of NADH for the electron transport chain"
     ],
     "correct": 2,
-    "explanation": "B12 has two key roles: (1) Methylcobalamin cofactors methionine synthase (regenerates methionine from homocysteine, needed for myelin synthesis and DNA methylation); (2) Adenosylcobalamin cofactors methylmalonyl-CoA mutase (methylmalonyl-CoA → succinyl-CoA for TCA). Deficiency causes methylmalonic acid accumulation, disrupting myelin, causing subacute combined degeneration of the spinal cord. Folate deficiency also causes megaloblastic anemia but NOT neurological symptoms.",
+    "explanation": "B12 has two key roles: (1) Methylcobalamin cofactors methionine synthase (regenerates methionine from homocysteine, needed for myelin synthesis and DNA methylation); (2) Adenosylcobalamin cofactors methylmalonyl-CoA mutase (methylmalonyl-CoA \u2192 succinyl-CoA for TCA). Deficiency causes methylmalonic acid accumulation, disrupting myelin, causing subacute combined degeneration of the spinal cord. Folate deficiency also causes megaloblastic anemia but NOT neurological symptoms.",
     "tags": [
       "vitamins",
       "B12",
@@ -997,7 +1121,7 @@
       "Factors II (thrombin), VII, IX, X, and proteins C and S"
     ],
     "correct": 3,
-    "explanation": "Vitamin K (reduced form KH₂) is a cofactor for gamma-glutamyl carboxylase, which adds a carboxyl group to glutamate residues on clotting factors II, VII, IX, X (plus anticoagulant proteins C and S). This carboxylation allows Ca²⁺ binding and phospholipid membrane binding, essential for clotting. Warfarin inhibits vitamin K epoxide reductase, blocking regeneration of active vitamin K.",
+    "explanation": "Vitamin K (reduced form KH\u2082) is a cofactor for gamma-glutamyl carboxylase, which adds a carboxyl group to glutamate residues on clotting factors II, VII, IX, X (plus anticoagulant proteins C and S). This carboxylation allows Ca\u00b2\u207a binding and phospholipid membrane binding, essential for clotting. Warfarin inhibits vitamin K epoxide reductase, blocking regeneration of active vitamin K.",
     "tags": [
       "vitamins",
       "vitamin-K",
@@ -1014,7 +1138,7 @@
       "The intestine then the skin"
     ],
     "correct": 0,
-    "explanation": "Vitamin D3 (cholecalciferol) is made in the skin from 7-dehydrocholesterol via UV radiation. It is 25-hydroxylated in the liver to calcidiol (25-OH vitamin D3, the storage form measured in blood). Calcidiol is then 1-alpha-hydroxylated in the kidney by PTH-stimulated CYP27B1 to calcitriol (1,25-(OH)₂ D3), the active hormone that increases intestinal Ca²⁺ and phosphate absorption.",
+    "explanation": "Vitamin D3 (cholecalciferol) is made in the skin from 7-dehydrocholesterol via UV radiation. It is 25-hydroxylated in the liver to calcidiol (25-OH vitamin D3, the storage form measured in blood). Calcidiol is then 1-alpha-hydroxylated in the kidney by PTH-stimulated CYP27B1 to calcitriol (1,25-(OH)\u2082 D3), the active hormone that increases intestinal Ca\u00b2\u207a and phosphate absorption.",
     "tags": [
       "vitamins",
       "vitamin-D",

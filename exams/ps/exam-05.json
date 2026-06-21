@@ -1,651 +1,614 @@
 [
   {
-    "text": "Which example best illustrates the developmental concept described?",
+    "text": "Freud's concept of the id operates according to the:",
     "options": [
-      "Preoperational children lack conservation",
-      "Concrete operational children lack conservation",
-      "Sensorimotor children have mastered abstract thought",
-      "Formal operational children cannot reason hypothetically"
-    ],
-    "correct": 0,
-    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
-  },
-  {
-    "text": "Which psychological or social concept is illustrated here?",
-    "options": [
-      "Self-serving bias blames others for failures",
-      "Actor-observer bias overestimates disposition for self",
-      "Just world hypothesis accepts structural inequality",
-      "Fundamental attribution error overestimates disposition for others"
+      "Rationality principle — logical problem-solving",
+      "Morality principle — applying ethical standards",
+      "Reality principle — negotiating with the external world",
+      "Pleasure principle — seeking immediate gratification"
     ],
     "correct": 3,
-    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
-  },
-  {
-    "text": "Which disorder description is most accurate for this scenario?",
-    "options": [
-      "Bipolar I includes manic episodes that may require hospitalization",
-      "Bipolar II includes full mania",
-      "Generalized anxiety includes delusions",
-      "PTSD is diagnosed before 1 month has passed"
+    "explanation": "Freud's psychoanalytic theory: the id is the primitive, unconscious part of the mind that operates on the pleasure principle (seeking immediate gratification of instincts). The ego operates on the reality principle, and the superego represents internalized moral standards.",
+    "tags": [
+      "personality",
+      "psychoanalytic",
+      "freud"
     ],
-    "correct": 0,
-    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
+    "difficulty": "easy"
   },
   {
-    "text": "Which sociological term does this sentence most accurately describe?",
+    "text": "The Big Five (OCEAN) personality traits include all EXCEPT:",
     "options": [
-      "Feminist theory ignores power dynamics",
-      "Symbolic interactionism focuses on biology only",
-      "Functionalism denies social inequality exists",
-      "Social stratification describes structured inequality by class and status"
-    ],
-    "correct": 3,
-    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
-  },
-  {
-    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
-    "options": [
-      "Positive reinforcement",
-      "Extinction",
-      "Negative punishment",
-      "Positive punishment"
-    ],
-    "correct": 0,
-    "explanation": "The correct answer is Positive reinforcement based on the schedule or learning description. The distractors describe different schedules or concepts."
-  },
-  {
-    "text": "Which statement correctly describes the memory concept?",
-    "options": [
-      "Implicit memory stores conscious recollection",
-      "Episodic memory stores personal events",
-      "Procedural memory stores facts",
-      "Semantic memory stores habits"
-    ],
-    "correct": 1,
-    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
-  },
-  {
-    "text": "Which example best illustrates the developmental concept described?",
-    "options": [
-      "Industry vs. Inferiority is late adulthood",
-      "Generativity vs. Stagnation is toddler stage",
-      "Trust vs. Mistrust is adolescent stage",
-      "Identity vs. Role confusion is adolescent stage"
-    ],
-    "correct": 3,
-    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
-  },
-  {
-    "text": "Which psychological or social concept is illustrated here?",
-    "options": [
-      "Conformity drops with anonymous responses",
-      "Conformity rises with private answers",
-      "Groupthink encourages dissent",
-      "Obedience drops when authority is closer"
-    ],
-    "correct": 0,
-    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
-  },
-  {
-    "text": "Which disorder description is most accurate for this scenario?",
-    "options": [
-      "OCD combines obsessions and compulsions",
-      "Autism is always diagnosed in adulthood",
-      "Schizophrenia is primarily a mood disorder",
-      "Borderline PD lacks identity instability"
-    ],
-    "correct": 0,
-    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
-  },
-  {
-    "text": "Which sociological term does this sentence most accurately describe?",
-    "options": [
-      "Intersectionality examines overlapping identities and discrimination",
-      "Social exchange theory emphasizes fixed roles",
-      "Deviance is always pathological",
-      "Culture is limited to material objects"
-    ],
-    "correct": 0,
-    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
-  },
-  {
-    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
-    "options": [
-      "Classical conditioning",
-      "Observational learning",
-      "Latent learning",
-      "Operant conditioning"
+      "Openness to experience",
+      "Neuroticism",
+      "Authoritarianism",
+      "Conscientiousness"
     ],
     "correct": 2,
-    "explanation": "The correct answer is Latent learning based on the schedule or learning description. The distractors describe different schedules or concepts."
-  },
-  {
-    "text": "Which statement correctly describes the memory concept?",
-    "options": [
-      "Decay theory says memory fades with time",
-      "Encoding specificity says recall is best when retrieval context matches encoding context",
-      "Motivated forgetting improves memory",
-      "Interference means old memories help new ones"
+    "explanation": "The Big Five (OCEAN) are: Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism. Authoritarianism is not part of the Big Five. It is a separate personality construct measuring submissiveness to authority and hostility toward out-groups.",
+    "tags": [
+      "personality",
+      "big-five",
+      "trait-theory"
     ],
-    "correct": 1,
-    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
+    "difficulty": "easy"
   },
   {
-    "text": "Which example best illustrates the developmental concept described?",
+    "text": "According to Bandura, self-efficacy refers to:",
     "options": [
-      "Disorganized attachment is consistent and orderly",
-      "Anxious attachment ignores the caregiver",
-      "Avoidant attachment clings to the caregiver",
-      "Secure attachment uses caregiver as safe base"
-    ],
-    "correct": 3,
-    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
-  },
-  {
-    "text": "Which psychological or social concept is illustrated here?",
-    "options": [
-      "Foot-in-the-door is a punishment method",
-      "Confirmation bias is disbelief in inconsistent evidence",
-      "Peripheral route processing uses careful argument analysis",
-      "Cognitive dissonance is discomfort from inconsistent beliefs"
-    ],
-    "correct": 3,
-    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
-  },
-  {
-    "text": "Which disorder description is most accurate for this scenario?",
-    "options": [
-      "ADHD is an anxiety disorder",
-      "ADHD symptoms must begin before age 12 in multiple settings",
-      "ADHD requires psychosis",
-      "ADHD appears only in school settings"
-    ],
-    "correct": 1,
-    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
-  },
-  {
-    "text": "Which sociological term does this sentence most accurately describe?",
-    "options": [
-      "Incidence counts the number of deaths",
-      "Prevalence measures existing cases in a population",
-      "Incidence measures total population size",
-      "Prevalence measures new cases only"
-    ],
-    "correct": 1,
-    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
-  },
-  {
-    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
-    "options": [
-      "Variable ratio",
-      "Fixed interval",
-      "Fixed ratio",
-      "Variable interval"
-    ],
-    "correct": 0,
-    "explanation": "The correct answer is Variable ratio based on the schedule or learning description. The distractors describe different schedules or concepts."
-  },
-  {
-    "text": "Which statement correctly describes the memory concept?",
-    "options": [
-      "Working memory lasts 20–30 seconds",
-      "Short-term memory stores material for years",
-      "Long-term memory lasts 20–30 seconds",
-      "Sensory memory is unlimited"
-    ],
-    "correct": 0,
-    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
-  },
-  {
-    "text": "Which example best illustrates the developmental concept described?",
-    "options": [
-      "Sensorimotor children have mastered abstract thought",
-      "Concrete operational children lack conservation",
-      "Preoperational children lack conservation",
-      "Formal operational children cannot reason hypothetically"
+      "Intrinsic motivation for learning",
+      "The amount of self-esteem a person has",
+      "One's belief in one's ability to perform specific tasks successfully",
+      "Objective measure of ability on specific tasks"
     ],
     "correct": 2,
-    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
+    "explanation": "Self-efficacy (Bandura) is the belief in one's own ability to execute behaviors required to produce specific outcomes. High self-efficacy increases persistence and performance. It is distinct from self-esteem (overall self-worth) and actual ability.",
+    "tags": [
+      "personality",
+      "social-cognitive",
+      "bandura",
+      "self-efficacy"
+    ],
+    "difficulty": "easy"
   },
   {
-    "text": "Which psychological or social concept is illustrated here?",
+    "text": "Which neurotransmitter is most directly implicated in the dopamine hypothesis of schizophrenia?",
     "options": [
-      "Fundamental attribution error overestimates disposition for others",
-      "Just world hypothesis accepts structural inequality",
-      "Self-serving bias blames others for failures",
-      "Actor-observer bias overestimates disposition for self"
+      "Dopamine (excess D2 receptor activity)",
+      "Serotonin",
+      "GABA",
+      "Norepinephrine"
     ],
     "correct": 0,
-    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
+    "explanation": "The dopamine hypothesis proposes that positive symptoms of schizophrenia result from hyperactivity of dopaminergic pathways (especially mesolimbic). Evidence: antipsychotics block D2 receptors; dopamine-releasing drugs can produce schizophrenia-like psychosis.",
+    "tags": [
+      "psychopathology",
+      "schizophrenia",
+      "dopamine"
+    ],
+    "difficulty": "medium"
   },
   {
-    "text": "Which disorder description is most accurate for this scenario?",
+    "text": "Major depressive disorder (MDD) is characterized by the presence of:",
     "options": [
-      "Bipolar I includes manic episodes that may require hospitalization",
-      "Bipolar II includes full mania",
-      "Generalized anxiety includes delusions",
-      "PTSD is diagnosed before 1 month has passed"
+      "Persistent mild depressive symptoms for ≥2 years",
+      "Depressed mood or anhedonia most of the day for ≥2 weeks, plus additional symptoms",
+      "Psychotic features required for diagnosis",
+      "Discrete episodes of both mania and depression"
+    ],
+    "correct": 1,
+    "explanation": "DSM-5 criteria for MDD require ≥5 symptoms during a 2-week period, including depressed mood or anhedonia (loss of pleasure), plus symptoms like changes in sleep/appetite/weight, fatigue, worthlessness, concentration difficulties, and suicidal ideation.",
+    "tags": [
+      "psychopathology",
+      "depression",
+      "mdd"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The diathesis-stress model proposes that psychological disorders result from:",
+    "options": [
+      "An interaction between biological predisposition (diathesis) and environmental stressors",
+      "Conscious choice to adopt the sick role",
+      "Only environmental and social stressors",
+      "Purely biological factors"
     ],
     "correct": 0,
-    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
+    "explanation": "The diathesis-stress model: individuals have varying biological vulnerabilities (diathesis — genetic, neurological). Disorders develop when this vulnerability combines with sufficient environmental stress. This biopsychosocial framework underlies much of modern psychopathology.",
+    "tags": [
+      "psychopathology",
+      "diathesis-stress",
+      "biopsychosocial"
+    ],
+    "difficulty": "easy"
   },
   {
-    "text": "Which sociological term does this sentence most accurately describe?",
+    "text": "Cognitive-behavioral therapy (CBT) primarily targets:",
     "options": [
-      "Symbolic interactionism focuses on biology only",
-      "Functionalism denies social inequality exists",
-      "Social stratification describes structured inequality by class and status",
-      "Feminist theory ignores power dynamics"
+      "Maladaptive thought patterns and behaviors that maintain psychological disorders",
+      "Unconscious conflicts from childhood",
+      "Brain chemistry through medication",
+      "Social relationships and family systems"
+    ],
+    "correct": 0,
+    "explanation": "CBT is based on Beck's cognitive model: psychological distress is maintained by dysfunctional thought patterns (cognitive distortions) and maladaptive behaviors. Treatment involves identifying and challenging negative cognitions and changing problematic behaviors.",
+    "tags": [
+      "therapy",
+      "cbt",
+      "cognitive-behavioral"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The fundamental attribution error is the tendency to:",
+    "options": [
+      "Underestimate one's own ability relative to others",
+      "Overestimate the influence of situations on behavior",
+      "Overestimate dispositional factors and underestimate situational factors when explaining others' behavior",
+      "Attribute successes to internal factors and failures to external factors"
     ],
     "correct": 2,
-    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
-  },
-  {
-    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
-    "options": [
-      "Extinction",
-      "Positive punishment",
-      "Negative punishment",
-      "Positive reinforcement"
+    "explanation": "FAE (correspondence bias): observers tend to attribute others' behaviors to their internal disposition (personality, character) while underweighting situational forces. Example: assuming someone who is rude had a bad night rather than is just rude. Less common when judging our own behavior (actor-observer bias).",
+    "tags": [
+      "social-psychology",
+      "attribution",
+      "fundamental-attribution-error"
     ],
-    "correct": 3,
-    "explanation": "The correct answer is Positive reinforcement based on the schedule or learning description. The distractors describe different schedules or concepts."
+    "difficulty": "easy"
   },
   {
-    "text": "Which statement correctly describes the memory concept?",
+    "text": "Stanley Milgram's obedience experiments demonstrated that:",
     "options": [
-      "Semantic memory stores habits",
-      "Procedural memory stores facts",
-      "Episodic memory stores personal events",
-      "Implicit memory stores conscious recollection"
+      "People resist obeying authority when given clear instructions",
+      "Situational factors are less important than personality in predicting obedience",
+      "Ordinary people would administer apparently dangerous electric shocks under authority pressure",
+      "Only aggressive individuals obey destructive orders"
     ],
     "correct": 2,
-    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
+    "explanation": "Milgram found ~65% of participants delivered maximum shocks (450V) to a screaming confederate when instructed by an authority figure (experimenter). This demonstrated the powerful role of situational factors (legitimate authority, agentic state) in producing destructive obedience.",
+    "tags": [
+      "social-psychology",
+      "obedience",
+      "milgram"
+    ],
+    "difficulty": "easy"
   },
   {
-    "text": "Which example best illustrates the developmental concept described?",
+    "text": "Cognitive dissonance theory (Festinger) predicts that when people behave inconsistently with their attitudes, they will:",
     "options": [
-      "Industry vs. Inferiority is late adulthood",
-      "Generativity vs. Stagnation is toddler stage",
-      "Trust vs. Mistrust is adolescent stage",
-      "Identity vs. Role confusion is adolescent stage"
+      "Ignore the inconsistency and maintain the attitude",
+      "Seek external justification without changing attitude",
+      "Experience positive affect from the inconsistency",
+      "Experience discomfort and change their attitude or behavior to reduce the inconsistency"
     ],
     "correct": 3,
-    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
+    "explanation": "Cognitive dissonance is the discomfort arising from holding contradictory cognitions (attitude vs. behavior). People are motivated to reduce dissonance by changing an attitude, changing behavior, or adding new cognitions. Classic study: paid $1 (vs $20) to lie → more attitude change.",
+    "tags": [
+      "social-psychology",
+      "cognitive-dissonance",
+      "festinger"
+    ],
+    "difficulty": "medium"
   },
   {
-    "text": "Which psychological or social concept is illustrated here?",
+    "text": "Social facilitation refers to the phenomenon where the presence of others:",
     "options": [
-      "Groupthink encourages dissent",
-      "Conformity rises with private answers",
-      "Obedience drops when authority is closer",
-      "Conformity drops with anonymous responses"
+      "Always improves performance regardless of task difficulty",
+      "Improves performance on easy/well-learned tasks but impairs performance on difficult/novel tasks",
+      "Always impairs performance",
+      "Has no effect on performance"
+    ],
+    "correct": 1,
+    "explanation": "Social facilitation (Zajonc): the mere presence of others enhances arousal. For simple or well-practiced tasks, increased arousal improves the dominant (learned) response. For difficult or new tasks, arousal enhances incorrect responses, impairing performance.",
+    "tags": [
+      "social-psychology",
+      "social-facilitation",
+      "zajonc"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Groupthink occurs when a highly cohesive group:",
+    "options": [
+      "Prioritizes consensus and harmony over critical evaluation of alternatives",
+      "Contains members with highly diverse viewpoints",
+      "Engages in rigorous debate to reach the best decision",
+      "Is led by a weak or uninvolved leader"
+    ],
+    "correct": 0,
+    "explanation": "Groupthink (Janis): in highly cohesive groups with strong leadership, members suppress dissent to maintain harmony. Symptoms include illusion of invulnerability, collective rationalization, and self-censorship. Examples: Bay of Pigs invasion, space shuttle Challenger decision.",
+    "tags": [
+      "social-psychology",
+      "groupthink",
+      "group-decision-making"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The bystander effect (Darley & Latané) explains that:",
+    "options": [
+      "More observers means more help is provided",
+      "As the number of observers increases, each individual is less likely to help (diffusion of responsibility)",
+      "Only personality traits predict helping behavior",
+      "Bystanders always help in emergencies"
+    ],
+    "correct": 1,
+    "explanation": "Bystander effect: in an emergency, individuals are less likely to intervene when others are present. Diffusion of responsibility (each person feels less personally responsible) and pluralistic ignorance (looking to others for cues) explain why Kitty Genovese's assault was witnessed but not reported.",
+    "tags": [
+      "social-psychology",
+      "bystander-effect",
+      "prosocial-behavior"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Social stratification refers to:",
+    "options": [
+      "Geographic distribution of populations",
+      "Individual social mobility within a society",
+      "Cultural differences between societies",
+      "A system by which society ranks categories of people in a hierarchy based on wealth, power, and prestige"
     ],
     "correct": 3,
-    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
-  },
-  {
-    "text": "Which disorder description is most accurate for this scenario?",
-    "options": [
-      "Autism is always diagnosed in adulthood",
-      "Borderline PD lacks identity instability",
-      "Schizophrenia is primarily a mood disorder",
-      "OCD combines obsessions and compulsions"
+    "explanation": "Social stratification is the hierarchical arrangement of individuals/groups in society, typically based on socioeconomic status (SES), which encompasses wealth (assets), income, occupational prestige, and educational attainment. It creates unequal access to resources.",
+    "tags": [
+      "sociology",
+      "stratification",
+      "ses"
     ],
-    "correct": 3,
-    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
+    "difficulty": "easy"
   },
   {
-    "text": "Which sociological term does this sentence most accurately describe?",
+    "text": "The conflict theory perspective (Marx) emphasizes that social inequality:",
     "options": [
-      "Intersectionality examines overlapping identities and discrimination",
-      "Social exchange theory emphasizes fixed roles",
-      "Deviance is always pathological",
-      "Culture is limited to material objects"
-    ],
-    "correct": 0,
-    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
-  },
-  {
-    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
-    "options": [
-      "Latent learning",
-      "Operant conditioning",
-      "Classical conditioning",
-      "Observational learning"
-    ],
-    "correct": 0,
-    "explanation": "The correct answer is Latent learning based on the schedule or learning description. The distractors describe different schedules or concepts."
-  },
-  {
-    "text": "Which statement correctly describes the memory concept?",
-    "options": [
-      "Encoding specificity says recall is best when retrieval context matches encoding context",
-      "Motivated forgetting improves memory",
-      "Decay theory says memory fades with time",
-      "Interference means old memories help new ones"
-    ],
-    "correct": 0,
-    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
-  },
-  {
-    "text": "Which example best illustrates the developmental concept described?",
-    "options": [
-      "Avoidant attachment clings to the caregiver",
-      "Disorganized attachment is consistent and orderly",
-      "Secure attachment uses caregiver as safe base",
-      "Anxious attachment ignores the caregiver"
+      "Is largely explained by cultural values and norms",
+      "Serves a necessary function in motivating people to fill important roles",
+      "Results from competition over limited resources where powerful groups dominate",
+      "Is a natural outcome of individual differences in ability"
     ],
     "correct": 2,
-    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
-  },
-  {
-    "text": "Which psychological or social concept is illustrated here?",
-    "options": [
-      "Cognitive dissonance is discomfort from inconsistent beliefs",
-      "Peripheral route processing uses careful argument analysis",
-      "Foot-in-the-door is a punishment method",
-      "Confirmation bias is disbelief in inconsistent evidence"
+    "explanation": "Marxist conflict theory: society is structured around competition for scarce resources. The bourgeoisie (capitalist class) control the means of production and exploit the proletariat (working class), perpetuating inequality. This contrasts with functionalism's view that stratification is necessary.",
+    "tags": [
+      "sociology",
+      "conflict-theory",
+      "marx"
     ],
-    "correct": 0,
-    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
+    "difficulty": "medium"
   },
   {
-    "text": "Which disorder description is most accurate for this scenario?",
+    "text": "Social capital, as described by Bourdieu and Putnam, refers to:",
     "options": [
-      "ADHD symptoms must begin before age 12 in multiple settings",
-      "ADHD appears only in school settings",
-      "ADHD requires psychosis",
-      "ADHD is an anxiety disorder"
-    ],
-    "correct": 0,
-    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
-  },
-  {
-    "text": "Which sociological term does this sentence most accurately describe?",
-    "options": [
-      "Incidence measures total population size",
-      "Prevalence measures existing cases in a population",
-      "Prevalence measures new cases only",
-      "Incidence counts the number of deaths"
-    ],
-    "correct": 1,
-    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
-  },
-  {
-    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
-    "options": [
-      "Variable ratio",
-      "Fixed ratio",
-      "Fixed interval",
-      "Variable interval"
-    ],
-    "correct": 0,
-    "explanation": "The correct answer is Variable ratio based on the schedule or learning description. The distractors describe different schedules or concepts."
-  },
-  {
-    "text": "Which statement correctly describes the memory concept?",
-    "options": [
-      "Short-term memory stores material for years",
-      "Long-term memory lasts 20–30 seconds",
-      "Working memory lasts 20–30 seconds",
-      "Sensory memory is unlimited"
+      "Cultural knowledge and skills from education",
+      "Economic wealth accumulated by individuals",
+      "Resources derived from one's social networks and relationships",
+      "Political power held by individuals"
     ],
     "correct": 2,
-    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
-  },
-  {
-    "text": "Which example best illustrates the developmental concept described?",
-    "options": [
-      "Preoperational children lack conservation",
-      "Concrete operational children lack conservation",
-      "Formal operational children cannot reason hypothetically",
-      "Sensorimotor children have mastered abstract thought"
+    "explanation": "Social capital encompasses the networks, norms of reciprocity, and trust that enable collective action and access to resources. Bridging social capital connects diverse groups; bonding social capital strengthens ties within groups. Higher social capital is associated with better health outcomes.",
+    "tags": [
+      "sociology",
+      "social-capital",
+      "bourdieu"
     ],
-    "correct": 0,
-    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
+    "difficulty": "medium"
   },
   {
-    "text": "Which psychological or social concept is illustrated here?",
+    "text": "The sick role, as described by Parsons, includes the expectation that sick individuals will:",
     "options": [
-      "Self-serving bias blames others for failures",
-      "Actor-observer bias overestimates disposition for self",
-      "Just world hypothesis accepts structural inequality",
-      "Fundamental attribution error overestimates disposition for others"
+      "Be excluded from social obligations permanently",
+      "Be responsible for their own illness",
+      "Maintain their normal social roles during illness",
+      "Seek medical help and try to recover, in exchange for exemption from normal duties"
     ],
     "correct": 3,
-    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
+    "explanation": "Parsons' sick role theory: illness is a social status with rights (exemption from normal duties, not held responsible for illness) and obligations (must seek medical help, desire to recover). This functionalist view frames medicine as a form of social control.",
+    "tags": [
+      "sociology",
+      "sick-role",
+      "parsons",
+      "health"
+    ],
+    "difficulty": "medium"
   },
   {
-    "text": "Which disorder description is most accurate for this scenario?",
+    "text": "Primary socialization occurs:",
     "options": [
-      "Bipolar II includes full mania",
-      "Bipolar I includes manic episodes that may require hospitalization",
-      "Generalized anxiety includes delusions",
-      "PTSD is diagnosed before 1 month has passed"
+      "Through peer groups in adolescence",
+      "During childhood, primarily through the family, teaching basic norms and values",
+      "Through formal education and workplace",
+      "In adulthood when entering new social roles"
     ],
     "correct": 1,
-    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
-  },
-  {
-    "text": "Which sociological term does this sentence most accurately describe?",
-    "options": [
-      "Social stratification describes structured inequality by class and status",
-      "Functionalism denies social inequality exists",
-      "Feminist theory ignores power dynamics",
-      "Symbolic interactionism focuses on biology only"
+    "explanation": "Primary socialization is the first and most important phase, occurring in early childhood primarily through the family. Children learn language, basic norms, values, and worldview. Secondary socialization occurs later through schools, peers, workplaces, and media.",
+    "tags": [
+      "sociology",
+      "socialization"
     ],
-    "correct": 0,
-    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
+    "difficulty": "easy"
   },
   {
-    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
+    "text": "Cultural relativism is the principle that:",
     "options": [
-      "Extinction",
-      "Positive punishment",
-      "Negative punishment",
-      "Positive reinforcement"
-    ],
-    "correct": 3,
-    "explanation": "The correct answer is Positive reinforcement based on the schedule or learning description. The distractors describe different schedules or concepts."
-  },
-  {
-    "text": "Which statement correctly describes the memory concept?",
-    "options": [
-      "Procedural memory stores facts",
-      "Episodic memory stores personal events",
-      "Semantic memory stores habits",
-      "Implicit memory stores conscious recollection"
+      "Some cultures are objectively superior to others",
+      "Behaviors and beliefs should be understood in the context of their own culture, not judged by external standards",
+      "Cultural practices that harm individuals must be condemned",
+      "All cultures share universal moral standards"
     ],
     "correct": 1,
-    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
+    "explanation": "Cultural relativism: practices, values, and beliefs of a culture should be evaluated within their own cultural context rather than by the standards of the observer's culture. This is a methodological stance distinct from moral relativism, and contrasts with ethnocentrism.",
+    "tags": [
+      "sociology",
+      "cultural-relativism",
+      "culture"
+    ],
+    "difficulty": "easy"
   },
   {
-    "text": "Which example best illustrates the developmental concept described?",
+    "text": "Erving Goffman's concept of stigma refers to:",
     "options": [
-      "Industry vs. Inferiority is late adulthood",
-      "Identity vs. Role confusion is adolescent stage",
-      "Trust vs. Mistrust is adolescent stage",
-      "Generativity vs. Stagnation is toddler stage"
+      "A ritual of social greeting",
+      "A deeply discrediting attribute that reduces a person from a whole person to a tainted, discounted one",
+      "The process of primary socialization",
+      "A positive social label given to high-status individuals"
     ],
     "correct": 1,
-    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
-  },
-  {
-    "text": "Which psychological or social concept is illustrated here?",
-    "options": [
-      "Conformity drops with anonymous responses",
-      "Groupthink encourages dissent",
-      "Conformity rises with private answers",
-      "Obedience drops when authority is closer"
+    "explanation": "Goffman's stigma: a social attribute that is deeply discrediting, reducing the bearer in others' minds from a whole person to a discounted one. Three types: tribal stigma (group membership), abominations of the body (physical), and blemishes of individual character (behavioral).",
+    "tags": [
+      "sociology",
+      "stigma",
+      "goffman"
     ],
-    "correct": 0,
-    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
+    "difficulty": "medium"
   },
   {
-    "text": "Which disorder description is most accurate for this scenario?",
+    "text": "Intersectionality (Crenshaw) is the concept that:",
     "options": [
-      "Autism is always diagnosed in adulthood",
-      "Borderline PD lacks identity instability",
-      "Schizophrenia is primarily a mood disorder",
-      "OCD combines obsessions and compulsions"
+      "All forms of discrimination stem from a single source",
+      "Social identities can only be analyzed separately",
+      "Race is more important than class in shaping inequality",
+      "Multiple social identities (race, gender, class) overlap to create unique experiences of privilege or oppression"
     ],
     "correct": 3,
-    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
-  },
-  {
-    "text": "Which sociological term does this sentence most accurately describe?",
-    "options": [
-      "Social exchange theory emphasizes fixed roles",
-      "Culture is limited to material objects",
-      "Deviance is always pathological",
-      "Intersectionality examines overlapping identities and discrimination"
+    "explanation": "Intersectionality recognizes that race, class, gender, sexuality, disability, and other identities intersect, creating qualitatively different experiences that cannot be reduced to the sum of individual identities. Developed by Kimberlé Crenshaw to address Black women's experiences not captured by race OR gender analysis alone.",
+    "tags": [
+      "sociology",
+      "intersectionality",
+      "crenshaw"
     ],
-    "correct": 3,
-    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
+    "difficulty": "medium"
   },
   {
-    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
+    "text": "The glass ceiling metaphor refers to:",
     "options": [
-      "Operant conditioning",
-      "Observational learning",
-      "Latent learning",
-      "Classical conditioning"
+      "Transparency of corporate governance",
+      "Glass floors preventing downward mobility",
+      "Invisible barriers preventing women and minorities from advancing to senior positions",
+      "Formal legal prohibitions on employment discrimination"
     ],
     "correct": 2,
-    "explanation": "The correct answer is Latent learning based on the schedule or learning description. The distractors describe different schedules or concepts."
+    "explanation": "The glass ceiling describes invisible, informal barriers (discrimination, exclusion from networks, implicit bias) that prevent qualified women and minorities from rising to the highest levels of organizational hierarchies, despite apparent equal opportunity.",
+    "tags": [
+      "sociology",
+      "glass-ceiling",
+      "gender-inequality"
+    ],
+    "difficulty": "easy"
   },
   {
-    "text": "Which statement correctly describes the memory concept?",
+    "text": "A double-blind experimental design means that:",
     "options": [
-      "Decay theory says memory fades with time",
-      "Encoding specificity says recall is best when retrieval context matches encoding context",
-      "Motivated forgetting improves memory",
-      "Interference means old memories help new ones"
+      "Two separate groups are tested independently",
+      "Neither the participants nor the researchers administering the intervention know who is in the treatment vs. control group",
+      "Only participants are unaware of the group assignment",
+      "Both variables are measured blind to hypothesis"
     ],
     "correct": 1,
-    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
-  },
-  {
-    "text": "Which example best illustrates the developmental concept described?",
-    "options": [
-      "Secure attachment uses caregiver as safe base",
-      "Avoidant attachment clings to the caregiver",
-      "Anxious attachment ignores the caregiver",
-      "Disorganized attachment is consistent and orderly"
+    "explanation": "In double-blind designs, both participants (preventing placebo effects) and the researchers who interact with them (preventing experimenter bias/demand characteristics) are unaware of group assignment. This controls for both participant and researcher expectations.",
+    "tags": [
+      "research-methods",
+      "experimental-design",
+      "blind-studies"
     ],
-    "correct": 0,
-    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
+    "difficulty": "easy"
   },
   {
-    "text": "Which psychological or social concept is illustrated here?",
+    "text": "A correlation of r = -0.85 between stress and immune function indicates:",
     "options": [
-      "Peripheral route processing uses careful argument analysis",
-      "Foot-in-the-door is a punishment method",
-      "Confirmation bias is disbelief in inconsistent evidence",
-      "Cognitive dissonance is discomfort from inconsistent beliefs"
+      "A weak relationship between stress and immunity",
+      "Stress causes immune dysfunction",
+      "Immunity is the independent variable",
+      "A strong negative relationship: as stress increases, immune function decreases"
     ],
     "correct": 3,
-    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
+    "explanation": "Correlation coefficients range from -1 to +1. r = -0.85 is a strong (large magnitude) negative correlation: higher stress is associated with lower immune function. Importantly, correlation does not imply causation — a third variable could explain the relationship.",
+    "tags": [
+      "research-methods",
+      "correlation"
+    ],
+    "difficulty": "easy"
   },
   {
-    "text": "Which disorder description is most accurate for this scenario?",
+    "text": "Internal validity in research refers to:",
     "options": [
-      "ADHD symptoms must begin before age 12 in multiple settings",
-      "ADHD is an anxiety disorder",
-      "ADHD requires psychosis",
-      "ADHD appears only in school settings"
+      "The extent to which a measure assesses what it intends to measure",
+      "The degree to which results generalize to other populations",
+      "The reliability of measurements over time",
+      "The degree to which results accurately reflect a causal relationship between variables within the study"
+    ],
+    "correct": 3,
+    "explanation": "Internal validity concerns whether changes in the dependent variable were actually caused by the independent variable. Threats include confounds, selection bias, history effects, and maturation. External validity refers to generalizability.",
+    "tags": [
+      "research-methods",
+      "validity",
+      "internal-validity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The p-value in hypothesis testing represents:",
+    "options": [
+      "The probability that the null hypothesis is true",
+      "The effect size of the intervention",
+      "The probability that the research hypothesis is true",
+      "The probability of obtaining results as extreme as observed, assuming the null hypothesis is true"
+    ],
+    "correct": 3,
+    "explanation": "The p-value is the probability of observing data as extreme as the sample data (or more extreme), given that the null hypothesis is true. A p-value < 0.05 means there is less than a 5% chance of getting these results by chance alone (if H₀ is true).",
+    "tags": [
+      "research-methods",
+      "statistics",
+      "hypothesis-testing"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The health belief model predicts that people will take health action when they perceive:",
+    "options": [
+      "Susceptibility to illness, severity of illness, benefits of action outweigh barriers",
+      "High self-efficacy regardless of perceived threat",
+      "Strong social norms to act healthily",
+      "Only the benefits of the health action"
     ],
     "correct": 0,
-    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
+    "explanation": "The Health Belief Model (Rosenstock): health behavior depends on perceived susceptibility (I'm at risk), perceived severity (it's serious), perceived benefits (action helps), and perceived barriers (costs of action). Cues to action and self-efficacy are also incorporated.",
+    "tags": [
+      "health-psychology",
+      "health-belief-model"
+    ],
+    "difficulty": "medium"
   },
   {
-    "text": "Which sociological term does this sentence most accurately describe?",
+    "text": "The General Adaptation Syndrome (Selye) describes the body's response to stress in stages:",
     "options": [
-      "Incidence measures total population size",
-      "Prevalence measures existing cases in a population",
-      "Prevalence measures new cases only",
-      "Incidence counts the number of deaths"
+      "Alarm → Resistance → Exhaustion",
+      "Alarm → Exhaustion → Recovery",
+      "Resistance → Alarm → Exhaustion",
+      "Exhaustion → Resistance → Alarm"
+    ],
+    "correct": 0,
+    "explanation": "Selye's GAS: (1) Alarm — fight-or-flight activation (HPA axis, sympathetic NS). (2) Resistance — sustained mobilization of resources if stressor persists. (3) Exhaustion — depletion of resources leading to immune suppression, disease, and potential death.",
+    "tags": [
+      "health-psychology",
+      "stress",
+      "general-adaptation-syndrome"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Signal detection theory distinguishes between:",
+    "options": [
+      "Rods and cones in visual detection",
+      "Sensitivity (d') and response criterion (β) as separate components of detection",
+      "Top-down and bottom-up processing",
+      "Absolute threshold and just-noticeable difference"
     ],
     "correct": 1,
-    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
+    "explanation": "Signal Detection Theory (SDT): sensitivity (d') measures the observer's ability to discriminate signal from noise, while criterion (β) reflects response bias (willingness to say yes). This separates true perceptual ability from decision-making tendencies.",
+    "tags": [
+      "perception",
+      "signal-detection-theory"
+    ],
+    "difficulty": "hard"
   },
   {
-    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
+    "text": "The trichromatic (Young-Helmholtz) theory of color vision states that:",
     "options": [
-      "Variable ratio",
-      "Fixed ratio",
-      "Variable interval",
-      "Fixed interval"
+      "Three types of cones respond maximally to red, green, and blue wavelengths; other colors from combinations",
+      "Color is perceived by a single photoreceptor type",
+      "Color perception is based on opponent processes (red/green, blue/yellow)",
+      "Rods in the retina are responsible for color vision"
     ],
     "correct": 0,
-    "explanation": "The correct answer is Variable ratio based on the schedule or learning description. The distractors describe different schedules or concepts."
+    "explanation": "Young-Helmholtz: three cone types (S, M, L — short, medium, long wavelength). Color perception arises from the relative activation pattern across the three cone types. The opponent process theory (Hering) operates at the ganglion cell level and both theories are needed for complete color vision.",
+    "tags": [
+      "perception",
+      "color-vision",
+      "trichromatic-theory"
+    ],
+    "difficulty": "medium"
   },
   {
-    "text": "Which statement correctly describes the memory concept?",
+    "text": "The hypothalamus plays a key role in:",
     "options": [
-      "Working memory lasts 20–30 seconds",
-      "Sensory memory is unlimited",
-      "Long-term memory lasts 20–30 seconds",
-      "Short-term memory stores material for years"
+      "Regulating homeostasis (hunger, thirst, temperature, circadian rhythms), linking nervous and endocrine systems",
+      "Higher-order reasoning and planning",
+      "Long-term memory formation",
+      "Visual processing"
     ],
     "correct": 0,
-    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
-  },
-  {
-    "text": "Which example best illustrates the developmental concept described?",
-    "options": [
-      "Preoperational children lack conservation",
-      "Concrete operational children lack conservation",
-      "Formal operational children cannot reason hypothetically",
-      "Sensorimotor children have mastered abstract thought"
+    "explanation": "The hypothalamus, though small, is critical for homeostasis: it regulates hunger (lateral hypothalamus = hunger center, ventromedial = satiety center), thirst, body temperature, sleep-wake cycles, and the HPA axis (stress response). It controls the pituitary gland.",
+    "tags": [
+      "biological-psychology",
+      "hypothalamus",
+      "homeostasis"
     ],
-    "correct": 0,
-    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
+    "difficulty": "easy"
   },
   {
-    "text": "Which psychological or social concept is illustrated here?",
+    "text": "The limbic system is primarily associated with:",
     "options": [
-      "Actor-observer bias overestimates disposition for self",
-      "Fundamental attribution error overestimates disposition for others",
-      "Just world hypothesis accepts structural inequality",
-      "Self-serving bias blames others for failures"
+      "Motor coordination and balance",
+      "Language comprehension and production",
+      "Primary sensory processing",
+      "Emotional processing and memory formation (amygdala, hippocampus)"
+    ],
+    "correct": 3,
+    "explanation": "The limbic system includes the amygdala (emotional processing, fear conditioning, threat detection), hippocampus (explicit memory formation, spatial navigation), cingulate cortex, and hypothalamus. It mediates emotion-memory integration.",
+    "tags": [
+      "biological-psychology",
+      "limbic-system",
+      "emotion"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Long-term potentiation (LTP) is considered a synaptic mechanism for learning and memory because it involves:",
+    "options": [
+      "Reduced neurotransmitter release at active synapses",
+      "Myelination of neuronal axons",
+      "Elimination of synaptic connections through disuse",
+      "Strengthening of synaptic connections through repeated stimulation (NMDA receptor activation)"
+    ],
+    "correct": 3,
+    "explanation": "LTP: high-frequency stimulation of a synapse leads to long-lasting increase in synaptic strength. NMDA receptors act as coincidence detectors (require both presynaptic glutamate release AND postsynaptic depolarization). AMPA receptor insertion increases sensitivity. LTP is impaired by hippocampal damage.",
+    "tags": [
+      "biological-psychology",
+      "ltp",
+      "synaptic-plasticity",
+      "memory"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which neurotransmitter is most directly implicated in Parkinson's disease?",
+    "options": [
+      "GABA",
+      "Dopamine (loss of dopaminergic neurons in substantia nigra)",
+      "Acetylcholine",
+      "Serotonin"
     ],
     "correct": 1,
-    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
-  },
-  {
-    "text": "Which disorder description is most accurate for this scenario?",
-    "options": [
-      "Bipolar II includes full mania",
-      "Bipolar I includes manic episodes that may require hospitalization",
-      "PTSD is diagnosed before 1 month has passed",
-      "Generalized anxiety includes delusions"
+    "explanation": "Parkinson's disease results from progressive degeneration of dopaminergic neurons in the substantia nigra pars compacta. These neurons project to the striatum (nigrostriatal pathway), and their loss disrupts motor control. Treatment: L-DOPA (dopamine precursor).",
+    "tags": [
+      "biological-psychology",
+      "parkinson",
+      "dopamine",
+      "basal-ganglia"
     ],
-    "correct": 1,
-    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
+    "difficulty": "easy"
   },
   {
-    "text": "Which sociological term does this sentence most accurately describe?",
+    "text": "Broca's area damage results in:",
     "options": [
-      "Symbolic interactionism focuses on biology only",
-      "Functionalism denies social inequality exists",
-      "Social stratification describes structured inequality by class and status",
-      "Feminist theory ignores power dynamics"
+      "Wernicke's aphasia: fluent but meaningless speech",
+      "Alexia: inability to read",
+      "Agrammatism with intact phonology",
+      "Broca's aphasia: nonfluent, halting speech production with intact comprehension"
+    ],
+    "correct": 3,
+    "explanation": "Broca's area (left inferior frontal gyrus) is critical for speech production and grammar. Damage causes Broca's aphasia: labored, telegraphic speech (function words omitted) but relatively preserved comprehension. Wernicke's area damage (left temporal) causes fluent but nonsensical speech with poor comprehension.",
+    "tags": [
+      "language",
+      "brocas-area",
+      "aphasia"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Sapir-Whorf hypothesis (linguistic relativity) proposes that:",
+    "options": [
+      "Grammar is innate (Universal Grammar)",
+      "Language acquisition follows a critical period determined by genetics",
+      "Language influences or determines thought and perception of reality",
+      "Thought is universal and independent of language"
     ],
     "correct": 2,
-    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
-  },
-  {
-    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
-    "options": [
-      "Negative punishment",
-      "Extinction",
-      "Positive reinforcement",
-      "Positive punishment"
+    "explanation": "Sapir-Whorf: the language we speak shapes how we think about and perceive the world. The strong version (linguistic determinism) claims language determines thought; the weak version (linguistic relativity) claims language influences but does not determine thought. Color perception studies provide mixed evidence.",
+    "tags": [
+      "language",
+      "sapir-whorf",
+      "linguistic-relativity"
     ],
-    "correct": 2,
-    "explanation": "The correct answer is Positive reinforcement based on the schedule or learning description. The distractors describe different schedules or concepts."
+    "difficulty": "medium"
   }
 ]

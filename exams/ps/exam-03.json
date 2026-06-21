@@ -1,53 +1,1056 @@
 [
   {
-    "text": "Which neurotransmitter is most directly implicated in Parkinson's disease?",
+    "text": "The 'goodness of fit' concept in Thomas & Chess's temperament research refers to:",
     "options": [
-      "GABA",
-      "Dopamine (loss of dopaminergic neurons in substantia nigra)",
-      "Acetylcholine",
-      "Serotonin"
+      "The match between a child's temperament and parental expectations/environment, which predicts adjustment",
+      "The degree to which temperament type is inherited from biological parents",
+      "A child's ability to adapt temperament style to different social contexts",
+      "The compatibility between difficult and easy temperament siblings"
+    ],
+    "correct": 0,
+    "explanation": "Goodness of fit: adjustment outcomes depend not just on temperament type but on how well the environment accommodates the child's temperament. A 'difficult' child raised with patient, structured parenting may have good outcomes. Poor fit (e.g., demanding parents with a slow-to-warm child) predicts behavioral problems.",
+    "tags": [
+      "developmental",
+      "temperament",
+      "goodness-of-fit",
+      "thomas-chess"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The MMPI-2 is best classified as a(n):",
+    "options": [
+      "Structured clinical interview format",
+      "Objective self-report personality inventory",
+      "Projective technique relying on ambiguous stimuli",
+      "Neuropsychological battery assessing cognitive deficits"
     ],
     "correct": 1,
-    "explanation": "Parkinson's disease results from progressive degeneration of dopaminergic neurons in the substantia nigra pars compacta. These neurons project to the striatum (nigrostriatal pathway), and their loss disrupts motor control. Treatment: L-DOPA (dopamine precursor).",
+    "explanation": "The MMPI-2 is an objective self-report inventory with empirically derived scales and validity scales. It requires true/false responses to 567 items. Projective techniques (Rorschach, TAT) use ambiguous stimuli. Neuropsychological batteries assess brain-behavior relationships.",
     "tags": [
-      "biological-psychology",
-      "parkinson",
-      "dopamine",
-      "basal-ganglia"
+      "personality-assessment",
+      "MMPI",
+      "objective-assessment"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "Broca's area damage results in:",
+    "text": "A key advantage of the MMPI-2 over projective tests is that it:",
     "options": [
-      "Wernicke's aphasia: fluent but meaningless speech",
-      "Alexia: inability to read",
-      "Agrammatism with intact phonology",
-      "Broca's aphasia: nonfluent, halting speech production with intact comprehension"
+      "Has established validity scales that detect underreporting (defensiveness) and overreporting (malingering)",
+      "Requires no reading ability to complete",
+      "Can reveal unconscious conflicts that self-report cannot access",
+      "Is free from cultural bias due to its empirical derivation"
     ],
-    "correct": 3,
-    "explanation": "Broca's area (left inferior frontal gyrus) is critical for speech production and grammar. Damage causes Broca's aphasia: labored, telegraphic speech (function words omitted) but relatively preserved comprehension. Wernicke's area damage (left temporal) causes fluent but nonsensical speech with poor comprehension.",
+    "correct": 0,
+    "explanation": "The MMPI-2 includes validity scales (L = lie scale, F = infrequency, K = defensiveness, Fp) to detect response biases like malingering or defensiveness. This is a major advantage over projective tests. Projective tests theoretically access unconscious material. MMPI-2 requires reading ability (6th-grade level) and is not free from cultural bias.",
     "tags": [
-      "language",
-      "brocas-area",
-      "aphasia"
+      "personality-assessment",
+      "MMPI",
+      "validity-scales",
+      "malingering"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "The Sapir-Whorf hypothesis (linguistic relativity) proposes that:",
+    "text": "The Rorschach inkblot test is classified as a projective technique because:",
     "options": [
-      "Grammar is innate (Universal Grammar)",
-      "Language acquisition follows a critical period determined by genetics",
-      "Language influences or determines thought and perception of reality",
-      "Thought is universal and independent of language"
+      "It uses standardized, unambiguous stimuli to elicit responses",
+      "Examiners project expected responses based on clinical training",
+      "It projects visual images onto a screen for subjects to identify",
+      "Subjects project psychological needs, conflicts, and personality characteristics onto ambiguous stimuli"
+    ],
+    "correct": 3,
+    "explanation": "Projective tests use ambiguous stimuli (inkblots, vague pictures) to elicit responses that are assumed to reflect the respondent's unconscious processes, needs, and personality characteristics. The ambiguity allows projection of internal states. Objective tests use unambiguous stimuli with structured response formats.",
+    "tags": [
+      "personality-assessment",
+      "rorschach",
+      "projective-tests"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A major criticism of the Rorschach inkblot test is that it:",
+    "options": [
+      "Measures only conscious, accessible personality traits",
+      "Has been standardized on populations that are too large to be meaningful",
+      "Has questionable interrater reliability and limited evidence of diagnostic validity",
+      "Is too transparent, making dissimulation easy"
     ],
     "correct": 2,
-    "explanation": "Sapir-Whorf: the language we speak shapes how we think about and perceive the world. The strong version (linguistic determinism) claims language determines thought; the weak version (linguistic relativity) claims language influences but does not determine thought. Color perception studies provide mixed evidence.",
+    "explanation": "The Rorschach has been criticized for poor interrater reliability (even with the Exner Comprehensive System) and limited criterion validity for clinical diagnosis. It scores complex verbal responses subjectively. Objective tests (MMPI) have better reliability. Transparency/dissimulation is a concern for objective tests, not projective.",
     "tags": [
-      "language",
-      "sapir-whorf",
-      "linguistic-relativity"
+      "personality-assessment",
+      "rorschach",
+      "criticism",
+      "reliability",
+      "validity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Thematic Apperception Test (TAT) requires subjects to:",
+    "options": [
+      "Sort cards depicting personality traits from most to least characteristic",
+      "Identify shapes in inkblots as quickly as possible",
+      "Respond true or false to a series of self-descriptive statements",
+      "Create stories about ambiguous pictures, which are analyzed for themes revealing underlying motivations"
+    ],
+    "correct": 3,
+    "explanation": "The TAT (Murray) presents pictures of ambiguous social scenes and asks subjects to narrate a story. Themes in the stories are assumed to reflect needs, motivations, and conflicts. McClelland used a TAT-derived measure to assess need for achievement. Inkblot responses characterize the Rorschach.",
+    "tags": [
+      "personality-assessment",
+      "TAT",
+      "projective",
+      "murray"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which psychometric property refers to the consistency of a test in measuring the same construct across time?",
+    "options": [
+      "Criterion validity",
+      "Test-retest reliability",
+      "Construct validity",
+      "Content validity"
+    ],
+    "correct": 1,
+    "explanation": "Test-retest reliability measures temporal consistency — administering the same test twice yields similar scores. Content validity assesses whether test items represent all aspects of the construct. Criterion validity compares test scores to external outcomes. Construct validity assesses whether the test measures the intended theoretical construct.",
+    "tags": [
+      "personality-assessment",
+      "psychometrics",
+      "test-retest-reliability"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Standardization of a psychological test involves:",
+    "options": [
+      "Establishing uniform administration procedures and norms from a representative sample",
+      "Removing items that show cultural bias through statistical analysis",
+      "Translating a test into multiple languages for cross-cultural use",
+      "Ensuring all test items are novel and non-overlapping"
+    ],
+    "correct": 0,
+    "explanation": "Standardization requires establishing uniform conditions for administering, scoring, and interpreting a test, and developing normative data from a representative sample so individual scores can be compared to the population. Item analysis for bias is one step in test development but not the definition of standardization.",
+    "tags": [
+      "personality-assessment",
+      "psychometrics",
+      "standardization",
+      "norms"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Construct validity of a personality test can be demonstrated by showing:",
+    "options": [
+      "Convergent evidence (correlates with similar measures) and discriminant evidence (does not correlate with unrelated measures)",
+      "The test predicts future behavior in real-world settings",
+      "High internal consistency (Cronbach's alpha)",
+      "Agreement between two different raters scoring the same responses"
+    ],
+    "correct": 0,
+    "explanation": "Construct validity (Campbell & Fiske's multitrait-multimethod matrix) requires convergent validity (correlation with theoretically related measures) and discriminant validity (low correlation with theoretically unrelated measures). Internal consistency reflects reliability. Predictive validity (future behavior) is a type of criterion validity. Interrater agreement is a reliability measure.",
+    "tags": [
+      "personality-assessment",
+      "psychometrics",
+      "construct-validity"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "A behavioral assessment approach to personality would emphasize:",
+    "options": [
+      "Analyzing unconscious conflicts projected onto ambiguous stimuli",
+      "Administering standardized questionnaires to identify trait profiles",
+      "Observing specific behaviors in defined situations rather than inferring underlying traits or unconscious processes",
+      "Assessing neural correlates of personality using brain imaging"
+    ],
+    "correct": 2,
+    "explanation": "Behavioral assessment (rooted in behaviorism) focuses on observable, measurable behaviors in specific contexts, avoiding inferences about unobservable traits or unconscious processes. Psychodynamic assessment (projective tests) infers unconscious dynamics. Trait assessment uses questionnaires. Brain imaging reflects biological approaches.",
+    "tags": [
+      "personality-assessment",
+      "behavioral-assessment",
+      "behaviorism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A psychodynamic approach to personality assessment would be most likely to use:",
+    "options": [
+      "Neuropsychological tests of executive function",
+      "Self-report inventories with validated scales",
+      "Structured behavioral observations in natural settings",
+      "Projective tests (Rorschach, TAT) and free association to access unconscious processes"
+    ],
+    "correct": 3,
+    "explanation": "Psychodynamic assessment assumes that important personality processes are unconscious and cannot be directly observed or self-reported; projective tests and free association are used to access these processes indirectly. Behavioral assessments use observation; trait assessments use self-report; neuropsychological tests assess brain functions.",
+    "tags": [
+      "personality-assessment",
+      "psychodynamic",
+      "projective",
+      "unconscious"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A researcher correlates MMPI-2 scores with psychiatric diagnoses made by structured clinical interview. This assesses the test's:",
+    "options": [
+      "Criterion validity (concurrent validity)",
+      "Test-retest reliability",
+      "Internal consistency",
+      "Content validity"
+    ],
+    "correct": 0,
+    "explanation": "Criterion validity (concurrent): comparing test scores to an external criterion measured at the same time (diagnosis via interview). Predictive validity uses future criteria. Content validity assesses item representativeness. Test-retest and internal consistency are reliability measures.",
+    "tags": [
+      "personality-assessment",
+      "psychometrics",
+      "criterion-validity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The 'base rate' problem in personality assessment refers to:",
+    "options": [
+      "The fact that tests must account for how rare a disorder is in the population to maximize diagnostic accuracy",
+      "The proportion of items that a sample correctly endorses",
+      "The frequency with which items appear on a standardized test",
+      "The rate at which test scores change over time due to practice effects"
+    ],
+    "correct": 0,
+    "explanation": "Base rate problem: if a disorder is rare (e.g., 1% prevalence), even a highly accurate test will generate many false positives. Positive predictive value depends on both test sensitivity/specificity AND the prevalence (base rate) of the condition. Ignoring base rates leads to overdiagnosis of rare conditions.",
+    "tags": [
+      "personality-assessment",
+      "psychometrics",
+      "base-rate",
+      "diagnostic-accuracy"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which of the following is an advantage of projective tests over self-report measures?",
+    "options": [
+      "They are less time-consuming to administer and score",
+      "They have stronger empirical reliability and validity data",
+      "They provide normative data applicable across all cultural groups",
+      "They are less susceptible to deliberate faking or impression management"
+    ],
+    "correct": 3,
+    "explanation": "Because projective stimuli are ambiguous and the purpose is not obvious, respondents cannot easily control their responses to create a desired impression (though sophisticated test-takers can). Self-report measures can be faked more easily. Projective tests generally have weaker reliability/validity, are time-consuming, and have limited cross-cultural norms.",
+    "tags": [
+      "personality-assessment",
+      "projective-tests",
+      "faking",
+      "impression-management"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Interrater reliability is most important for which type of assessment?",
+    "options": [
+      "True/false self-report inventories with automated scoring",
+      "Projective tests where scoring requires clinical judgment",
+      "Computer-administered cognitive tests",
+      "Multiple-choice personality questionnaires"
+    ],
+    "correct": 1,
+    "explanation": "Interrater reliability (agreement between scorers) is critical for assessments requiring subjective clinical judgment — projective tests, behavioral observations, and open-ended interviews. Objective measures with automated scoring have perfect interrater agreement by design. Multiple-choice questionnaires are also objectively scored.",
+    "tags": [
+      "personality-assessment",
+      "psychometrics",
+      "interrater-reliability"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A test has high internal consistency (Cronbach's alpha = 0.92) but only moderate test-retest reliability (r = 0.55). This pattern suggests:",
+    "options": [
+      "Standardization norms need to be updated",
+      "The items are highly intercorrelated but scores fluctuate over time, possibly measuring a state rather than a stable trait",
+      "The test is measuring multiple distinct constructs",
+      "The test is valid but not reliable"
+    ],
+    "correct": 1,
+    "explanation": "High internal consistency (items coherent) plus low test-retest reliability (scores unstable over time) suggests the test may be measuring a psychological state (mood, anxiety today) rather than a stable trait. Reliability is necessary for validity but they are distinct properties. Validity cannot exceed reliability.",
+    "tags": [
+      "personality-assessment",
+      "psychometrics",
+      "reliability",
+      "state-vs-trait"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Self-determination theory (Deci & Ryan) proposes that intrinsic motivation is optimal when which three basic psychological needs are satisfied?",
+    "options": [
+      "Achievement, affiliation, and power",
+      "Autonomy, competence, and relatedness",
+      "Hunger, thirst, and sexual drive reduction",
+      "Safety, esteem, and self-actualization"
+    ],
+    "correct": 1,
+    "explanation": "SDT posits three universal psychological needs: autonomy (feeling volitional control), competence (feeling effective), and relatedness (feeling connected to others). When these are satisfied, intrinsic motivation and psychological well-being are enhanced. Achievement/affiliation/power are McClelland's needs. Maslow's hierarchy includes safety, esteem, and self-actualization.",
+    "tags": [
+      "motivation",
+      "SDT",
+      "self-determination-theory",
+      "deci-ryan"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The overjustification effect (undermining effect) predicts that:",
+    "options": [
+      "External rewards increase intrinsic interest when given unexpectedly",
+      "Adding external rewards for an already intrinsically motivating activity reduces intrinsic motivation",
+      "Tasks with no external rewards will never be completed",
+      "Intrinsic motivation always overcomes external reward systems"
+    ],
+    "correct": 1,
+    "explanation": "The overjustification effect (Lepper et al.): when people are given external rewards for activities they already find intrinsically interesting, intrinsic motivation decreases. The person attributes their engagement to the external reward rather than genuine interest. Unexpected rewards have less negative impact on intrinsic motivation.",
+    "tags": [
+      "motivation",
+      "overjustification",
+      "intrinsic-motivation",
+      "extrinsic-reward"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "McClelland's need for achievement (nAch) is best assessed using:",
+    "options": [
+      "Behavioral observation of task persistence",
+      "Direct self-report questionnaires about career goals",
+      "TAT stories scored for achievement themes",
+      "Implicit association tests measuring response latency"
+    ],
+    "correct": 2,
+    "explanation": "McClelland used a TAT-derived scoring system to measure nAch — stories written to ambiguous pictures are scored for achievement imagery. McClelland argued that implicit motives like nAch are best captured through projective/implicit methods rather than self-report, which measures explicit self-concept of achievement.",
+    "tags": [
+      "motivation",
+      "mcclelland",
+      "nAch",
+      "TAT"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "According to Weiner's attribution theory of achievement, a student who attributes failure to low ability is making an attribution that is:",
+    "options": [
+      "Internal, unstable, and controllable",
+      "External, unstable, and uncontrollable",
+      "External, stable, and controllable",
+      "Internal, stable, and uncontrollable"
+    ],
+    "correct": 3,
+    "explanation": "Weiner's 3-dimensional model: ability is internal (within the person), stable (doesn't change easily), and uncontrollable (can't be directly changed). Attributing failure to ability predicts low expectancy for future success and helplessness. Effort is internal/unstable/controllable — more adaptive for motivation.",
+    "tags": [
+      "motivation",
+      "weiner",
+      "attribution-theory",
+      "achievement"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which attribution for academic success is most likely to sustain motivation for future challenges?",
+    "options": [
+      "Internal, unstable, controllable (e.g., effort)",
+      "External, stable, uncontrollable (e.g., task ease)",
+      "Internal, stable, uncontrollable (e.g., innate ability)",
+      "External, unstable, uncontrollable (e.g., luck)"
+    ],
+    "correct": 0,
+    "explanation": "Effort attributions (internal, unstable, controllable) sustain motivation because success is attributed to something the person can repeat and control. Ability attributions are less controllable. External attributions (luck, easy task) undermine pride and motivation. Controllability and instability mean the student can improve through future effort.",
+    "tags": [
+      "motivation",
+      "weiner",
+      "attribution-theory",
+      "effort"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Drive reduction theory (Hull) proposes that motivation arises from:",
+    "options": [
+      "Biological needs creating internal tension (drives) that motivate behavior to restore homeostasis",
+      "External incentives that pull behavior toward desirable stimuli",
+      "Cognitive appraisals of expected reward value",
+      "Curiosity and intrinsic interest in novel stimulation"
+    ],
+    "correct": 0,
+    "explanation": "Hull's drive reduction theory: biological needs (hunger, thirst) create internal tension (drives) that motivate behavior; behaviors that reduce the drive are reinforced (negative reinforcement). Incentive theory focuses on external motivators (pull). Curiosity is an intrinsic/optimal arousal concept. Cognitive appraisals characterize expectancy-value theories.",
+    "tags": [
+      "motivation",
+      "drive-reduction",
+      "hull",
+      "homeostasis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Incentive theory differs from drive reduction theory in that it emphasizes:",
+    "options": [
+      "Cognitive evaluation of one's own competence",
+      "Biological homeostasis as the primary source of motivation",
+      "External stimuli that pull behavior toward goals, rather than internal deficits that push behavior",
+      "The role of unconscious conflicts in directing behavior"
+    ],
+    "correct": 2,
+    "explanation": "Incentive theory: behavior is motivated by external rewards (incentives) that attract/pull — money, food, praise. This explains why people seek pleasures even when no drive deficit exists. Drive reduction theory emphasizes internal push (deficit → drive → behavior → drive reduction). Both contribute to a complete account of motivation.",
+    "tags": [
+      "motivation",
+      "incentive-theory",
+      "drive-reduction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A student who practices piano for hours because she finds it deeply enjoyable and personally meaningful is demonstrating:",
+    "options": [
+      "Introjected regulation (SDT)",
+      "Intrinsic motivation",
+      "External regulation",
+      "Identified regulation (SDT)"
+    ],
+    "correct": 1,
+    "explanation": "Intrinsic motivation: engaging in an activity for the inherent satisfaction and enjoyment. SDT's autonomy continuum: external regulation (do it for reward/avoid punishment) → introjected (do it to avoid guilt) → identified (value the activity) → integrated → intrinsic (purely enjoyable). Practicing for personal enjoyment is intrinsic.",
+    "tags": [
+      "motivation",
+      "intrinsic-motivation",
+      "SDT"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The Yerkes-Dodson law describes the relationship between arousal and performance as:",
+    "options": [
+      "An inverted U-shape, with optimal performance at moderate arousal levels",
+      "No consistent relationship, depending entirely on task difficulty",
+      "A linear positive relationship — more arousal always improves performance",
+      "A linear negative relationship — higher arousal always impairs performance"
+    ],
+    "correct": 0,
+    "explanation": "Yerkes-Dodson law: performance is best at moderate arousal. Too little arousal = poor motivation; too much = anxiety/interference. The optimal arousal level varies with task complexity — simple tasks benefit from higher arousal; complex tasks require lower arousal for peak performance. This is an inverted U-curve.",
+    "tags": [
+      "motivation",
+      "yerkes-dodson",
+      "arousal",
+      "performance"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "According to SDT, a manager who gives employees choice in how to complete tasks, provides positive competency feedback, and fosters team cohesion is supporting:",
+    "options": [
+      "Autonomy, competence, and relatedness simultaneously",
+      "Only extrinsic motivation through feedback",
+      "Drive reduction through task completion",
+      "Incentive theory through external rewards"
+    ],
+    "correct": 0,
+    "explanation": "SDT: giving choice supports autonomy; positive feedback on effectiveness supports competence; team cohesion supports relatedness. All three basic needs being met predicts the highest intrinsic motivation, engagement, and well-being. Feedback alone (praise without choice) supports competence but may undermine autonomy.",
+    "tags": [
+      "motivation",
+      "SDT",
+      "autonomy",
+      "competence",
+      "relatedness"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Students who believe intelligence is fixed (entity theory) vs. malleable (incremental theory) differ in attribution patterns after failure. Entity theorists are more likely to attribute failure to:",
+    "options": [
+      "Bad luck, which predicts optimism for future success",
+      "Insufficient effort, leading to increased persistence",
+      "Fixed internal ability, leading to helpless responses",
+      "External circumstances, maintaining self-esteem"
+    ],
+    "correct": 2,
+    "explanation": "Dweck's mindset theory: entity (fixed) theorists attribute failure to stable, uncontrollable ability → helplessness (Weiner: internal/stable/uncontrollable). Incremental (growth) theorists attribute failure to effort → mastery orientation. Entity mindset predicts avoidance of challenges; incremental mindset predicts persistence.",
+    "tags": [
+      "motivation",
+      "dweck",
+      "mindset",
+      "entity-theory",
+      "attribution"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "McClelland found that individuals high in need for achievement (nAch) prefer tasks that are:",
+    "options": [
+      "Moderately difficult, where success depends on skill and where feedback is available",
+      "Irrelevant to personal performance, like games of pure chance",
+      "Very easy, guaranteeing frequent success",
+      "Extremely difficult, demonstrating exceptional ability"
+    ],
+    "correct": 0,
+    "explanation": "High nAch individuals prefer tasks with moderate difficulty — difficult enough to be challenging and skill-dependent, but achievable. They want feedback on performance to know whether they succeeded through effort and skill. Easy tasks lack challenge; impossible tasks give no success feedback; chance tasks don't reflect ability.",
+    "tags": [
+      "motivation",
+      "mcclelland",
+      "nAch",
+      "task-difficulty"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "According to Deci & Ryan, adding verbal rewards (praise for a well-done job) to intrinsically motivating tasks tends to:",
+    "options": [
+      "Decrease intrinsic motivation only in children, not adults",
+      "Enhance intrinsic motivation by supporting competence feelings when informational",
+      "Have no effect on intrinsic motivation regardless of context",
+      "Always undermine intrinsic motivation through overjustification"
+    ],
+    "correct": 1,
+    "explanation": "SDT distinguishes between informational and controlling rewards. Verbal praise that provides specific competency-related information (informational aspect) can enhance intrinsic motivation by satisfying the competence need. Controlling rewards that undermine autonomy reduce intrinsic motivation. This is a nuance beyond the basic overjustification effect.",
+    "tags": [
+      "motivation",
+      "SDT",
+      "verbal-rewards",
+      "competence",
+      "informational"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The Zeigarnik effect, relevant to motivation, refers to:",
+    "options": [
+      "People forget failure experiences more readily than success experiences",
+      "Arousal always impairs memory for complex tasks",
+      "People remember uncompleted tasks better than completed ones, suggesting tension from unfinished goals maintains motivation",
+      "Motivation increases linearly as a task nears completion"
+    ],
+    "correct": 2,
+    "explanation": "The Zeigarnik effect: incomplete tasks create cognitive/motivational tension that keeps them in mind until completed. This relates to goal-directed motivation — the system remains 'activated' for unfinished goals. Yerkes-Dodson addresses arousal-performance; neither forgetting failure nor linear motivation matches the Zeigarnik effect.",
+    "tags": [
+      "motivation",
+      "zeigarnik-effect",
+      "goal-pursuit",
+      "memory"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A child who used to love drawing begins drawing only when promised a sticker, and stops drawing when stickers are no longer given. This demonstrates:",
+    "options": [
+      "Overjustification effect — extrinsic reward undermined intrinsic motivation",
+      "Operant extinction of a previously reinforced behavior",
+      "Drive reduction — the sticker satisfied the 'drawing drive'",
+      "Learned helplessness from reward removal"
+    ],
+    "correct": 0,
+    "explanation": "Lepper's overjustification/undermining effect: rewarding intrinsically motivated behavior shifts the child's attribution from 'I draw because I enjoy it' to 'I draw to get stickers.' When stickers stop, the child perceives no reason to draw. This demonstrates how extrinsic rewards can undermine intrinsic motivation for already-enjoyable activities.",
+    "tags": [
+      "motivation",
+      "overjustification",
+      "extrinsic-reward",
+      "intrinsic-motivation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In Asch's conformity experiments, participants gave obviously wrong answers to line-length judgments when:",
+    "options": [
+      "Participants were told their answers would be made public",
+      "Confederates were perceived as experts in visual measurement",
+      "The correct answer was ambiguous or unclear",
+      "Confederates unanimously gave an incorrect answer, demonstrating normative social influence"
+    ],
+    "correct": 3,
+    "explanation": "Asch showed participants gave wrong answers on unambiguous line judgments when all confederates unanimously chose the wrong line. This demonstrates normative social influence — conforming to avoid social rejection. Informational influence occurs when the situation is ambiguous. Unanimity of confederates is key — one dissenter dramatically reduces conformity.",
+    "tags": [
+      "social-influence",
+      "asch",
+      "conformity",
+      "normative-social-influence"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Informational social influence is most likely to occur when:",
+    "options": [
+      "The authority figure is physically present",
+      "The group is highly cohesive and has clear norms",
+      "The situation is ambiguous or the person lacks expertise and looks to others for guidance",
+      "The person wants to be liked by the group"
+    ],
+    "correct": 2,
+    "explanation": "Informational social influence: using others' behavior as information to guide correct behavior, especially in ambiguous or novel situations where one lacks personal expertise. Normative social influence is driven by wanting social approval. Physical presence of authority relates to Milgram obedience.",
+    "tags": [
+      "social-influence",
+      "informational-social-influence",
+      "ambiguity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The foot-in-the-door technique works because of:",
+    "options": [
+      "Scarcity — the limited-time offer increases perceived value",
+      "Consistency motivation and self-perception — agreeing to a small request creates an identity as a 'helpful person' who then complies with larger requests",
+      "Reciprocity — the person feels obligated to return a favor",
+      "Social proof — seeing others comply increases willingness"
+    ],
+    "correct": 1,
+    "explanation": "Foot-in-the-door (Freedman & Fraser): small initial commitment creates self-perception as a compliant, helpful person, leading to larger compliance. This leverages consistency motivation (people want their behavior to match their self-image). Reciprocity, scarcity, and social proof are Cialdini's other influence principles.",
+    "tags": [
+      "social-influence",
+      "foot-in-the-door",
+      "consistency",
+      "self-perception"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The door-in-the-face technique is based on which principle?",
+    "options": [
+      "Commitment — public commitment to a position increases later compliance",
+      "Consistency — a small initial yes leads to larger commitments",
+      "Reciprocal concession — after a large request is refused, a smaller request seems like a concession the person feels obligated to reciprocate",
+      "Social proof — majority behavior defines appropriate response"
+    ],
+    "correct": 2,
+    "explanation": "Door-in-the-face (Cialdini): a large initial request is made and refused; then a smaller target request is made. The requester's concession to a smaller ask creates reciprocal pressure on the target to also concede. This exploits the reciprocity norm. Foot-in-the-door uses consistency/self-perception instead.",
+    "tags": [
+      "social-influence",
+      "door-in-the-face",
+      "reciprocity",
+      "concession"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Cialdini's principle of scarcity influences compliance because:",
+    "options": [
+      "Scarcity creates commitment through public statements of desire",
+      "People imitate the behavior of the majority who possess scarce items",
+      "People assign more value to things that are rare or becoming unavailable (reactance theory)",
+      "Limited availability signals authority and expertise"
+    ],
+    "correct": 2,
+    "explanation": "Scarcity: items perceived as rare are valued more highly (psychological reactance — restricted freedom increases desire). 'Only 3 left!' increases purchase likelihood. Social proof involves majority behavior. Authority involves credibility. Commitment involves public consistency.",
+    "tags": [
+      "social-influence",
+      "scarcity",
+      "cialdini",
+      "reactance"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Moscovici's research on minority influence showed that a consistent minority can change majority opinion by:",
+    "options": [
+      "Using normative pressure through social exclusion threats",
+      "Offering material incentives for attitude change",
+      "Demonstrating conviction and consistency over time, causing the majority to engage in deeper processing of the minority's position",
+      "Holding formal authority positions in the group"
+    ],
+    "correct": 2,
+    "explanation": "Moscovici's minority influence: consistent, confident minorities shift majority views through informational influence — their consistency signals genuine conviction and causes majority members to reconsider their position. This is conversion (private attitude change) rather than compliance. Authority and normative pressure characterize majority influence.",
+    "tags": [
+      "social-influence",
+      "moscovici",
+      "minority-influence",
+      "consistency"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Group polarization refers to the tendency for group discussion to:",
+    "options": [
+      "Amplify the initial predominant tendency of the group, making moderate positions more extreme",
+      "Increase individual variance in opinions after discussion",
+      "Move toward compromise between opposing positions",
+      "Produce conformity to the group average"
+    ],
+    "correct": 0,
+    "explanation": "Group polarization (Moscovici & Zavalloni): group discussion strengthens the initially dominant position — if the group initially leans risky, discussion makes them more risk-taking (risky shift); if cautious, more cautious. This occurs via persuasive argument theory and social comparison. It differs from groupthink, which involves premature consensus.",
+    "tags": [
+      "social-influence",
+      "group-polarization",
+      "group-dynamics"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Groupshift refers to which specific phenomenon?",
+    "options": [
+      "The shift from external to internal locus of control in group settings",
+      "The change in leadership roles that occurs when group composition changes",
+      "The tendency for groups to make more extreme decisions than individual members would make alone",
+      "The movement from majority to minority opinion following Moscovici-style conversion"
+    ],
+    "correct": 2,
+    "explanation": "Groupshift (related to group polarization): group decisions shift to more extreme positions than the average pre-discussion individual positions. This can be toward greater risk (risky shift) or greater caution depending on initial group tendency. Group polarization is the broader phenomenon; groupshift emphasizes the direction of the change.",
+    "tags": [
+      "social-influence",
+      "groupshift",
+      "group-polarization"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In Asch's experiments, what single change most dramatically reduced conformity?",
+    "options": [
+      "Increasing the size of the confederate group beyond 3",
+      "Making the task more difficult",
+      "Allowing participants to respond in writing rather than aloud",
+      "Presence of one confederate who gave the correct answer (a social supporter)"
+    ],
+    "correct": 3,
+    "explanation": "Having just one 'ally' (confederate who gave the correct answer) reduced conformity from ~37% to ~5–10%. The ally breaks unanimity, making it easier for participants to resist normative pressure. Group size beyond 3–4 confederates has diminishing returns on conformity. Written responses reduce normative but not informational pressure.",
+    "tags": [
+      "social-influence",
+      "asch",
+      "conformity",
+      "social-supporter"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The reciprocity norm (Cialdini) states that:",
+    "options": [
+      "People feel obligated to return favors, gifts, or concessions received from others",
+      "People comply with requests that are consistent with their prior behavior",
+      "People value items more when they are rare or in short supply",
+      "People follow the lead of those they respect as experts"
+    ],
+    "correct": 0,
+    "explanation": "Reciprocity: receiving a gift or favor creates a sense of obligation to reciprocate. This universal social norm is exploited commercially (free samples, gifts before requests). Consistency underlies foot-in-the-door. Authority involves expert credibility. Scarcity involves limited availability.",
+    "tags": [
+      "social-influence",
+      "reciprocity",
+      "cialdini",
+      "compliance"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A vignette: Customers in a supermarket were offered free cheese samples; those who received samples were significantly more likely to purchase the cheese. This best illustrates:",
+    "options": [
+      "Reciprocity norm",
+      "Social proof",
+      "Mere exposure effect",
+      "Foot-in-the-door technique"
+    ],
+    "correct": 0,
+    "explanation": "Free samples exploit the reciprocity norm — receiving a gift creates obligation to return the favor (purchase). Mere exposure effect (Zajonc) would predict that repeated exposure to the cheese increases liking. Social proof would involve observing others purchase. Foot-in-the-door would require an initial small purchase before a larger request.",
+    "tags": [
+      "social-influence",
+      "reciprocity",
+      "cialdini",
+      "vignette"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Social proof, as a compliance principle, works because:",
+    "options": [
+      "They feel socially excluded if they do not conform to visible majority behavior",
+      "Repeated observation of majority behavior increases the perceived value of an item",
+      "Majority behavior creates a commitment that the individual feels obligated to match",
+      "People assume that if many others are doing something, it must be the correct or appropriate behavior"
+    ],
+    "correct": 3,
+    "explanation": "Social proof (Cialdini): people look to others to determine appropriate behavior — 'everyone is doing it, so it must be right.' This is informational social influence. Social exclusion motivation is normative influence. Commitment is consistency. Increased value from observation is exposure or scarcity.",
+    "tags": [
+      "social-influence",
+      "social-proof",
+      "cialdini",
+      "informational-influence"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Normative social influence and informational social influence are distinguished by:",
+    "options": [
+      "They are interchangeable terms for the same process",
+      "Normative: produces permanent attitude change; informational: only temporary compliance",
+      "Normative: driven by desire for approval; informational: driven by desire to be accurate using others as information",
+      "Normative: occurs only in expert groups; informational: in non-expert groups"
+    ],
+    "correct": 2,
+    "explanation": "Normative influence: conforming to gain approval or avoid rejection (public compliance without private acceptance). Informational influence: genuinely using others' behavior as evidence about reality, especially in ambiguous situations (may produce private acceptance). They differ in motivation and are not interchangeable.",
+    "tags": [
+      "social-influence",
+      "normative",
+      "informational",
+      "distinction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A salesperson first shows a customer a very expensive car, then suggests a moderately priced car that now seems reasonable by comparison. This technique is called:",
+    "options": [
+      "Door-in-the-face / contrast principle",
+      "Lowballing",
+      "Foot-in-the-door",
+      "Scarcity"
+    ],
+    "correct": 0,
+    "explanation": "This uses the contrast principle (related to door-in-the-face) — the moderately priced car seems cheaper after the expensive anchor. The door-in-the-face also uses this contrast, but involves making a large request first and then the target request as a concession. Lowballing quotes a low price initially and raises it after commitment. Scarcity involves limited availability.",
+    "tags": [
+      "social-influence",
+      "door-in-the-face",
+      "contrast-principle",
+      "anchoring"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which aspect of Asch's conformity findings supports the power of normative social influence specifically?",
+    "options": [
+      "Conformity was reduced by expertise in visual perception",
+      "Conformity dropped dramatically when the task was done anonymously (writing responses), even when confederates still gave wrong answers aloud",
+      "Conformity increased with group size regardless of unanimity",
+      "Conformity was highest when the task was ambiguous"
+    ],
+    "correct": 1,
+    "explanation": "When participants could respond privately (anonymously), conformity dropped substantially — showing that much of the conformity in Asch's original paradigm was normative (driven by public exposure/social pressure) rather than truly believing the wrong answer. Anonymous conditions reduce normative but not informational pressure.",
+    "tags": [
+      "social-influence",
+      "asch",
+      "conformity",
+      "normative",
+      "anonymity"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Absolute poverty is best defined as:",
+    "options": [
+      "Experiencing downward social mobility across generations",
+      "Having significantly less income or wealth than the median of one's society",
+      "Being excluded from social participation due to low income",
+      "Lacking resources necessary for basic survival (food, shelter, healthcare)"
+    ],
+    "correct": 3,
+    "explanation": "Absolute poverty: a threshold based on basic survival needs — insufficient income for food, shelter, clothing, and basic healthcare. Relative poverty is defined in relation to the societal median or average (e.g., below 60% of median income). Social exclusion is related but distinct from absolute deprivation.",
+    "tags": [
+      "sociology",
+      "poverty",
+      "absolute-poverty"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Relative poverty measures are important because they capture:",
+    "options": [
+      "The absolute number of individuals below a poverty threshold",
+      "Whether a person has enough to survive biologically",
+      "Social exclusion and inequality relative to prevailing living standards in a society",
+      "Cross-national comparisons using purchasing power parity"
+    ],
+    "correct": 2,
+    "explanation": "Relative poverty acknowledges that deprivation is context-dependent — being poor in a wealthy society involves social exclusion, inability to participate in normal activities, and relative disadvantage, even if basic biological survival is met. Absolute poverty focuses on survival needs. Both measures are useful for different purposes.",
+    "tags": [
+      "sociology",
+      "poverty",
+      "relative-poverty",
+      "social-exclusion"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Oscar Lewis's 'culture of poverty' thesis argues that:",
+    "options": [
+      "The welfare state creates dependency that prevents economic mobility",
+      "The poor develop a distinct set of values, behaviors, and attitudes that perpetuate poverty across generations",
+      "Absolute poverty is caused by lack of human capital (education and skills)",
+      "Poverty results from structural factors like labor market exclusion and racial discrimination"
+    ],
+    "correct": 1,
+    "explanation": "Lewis argued that the poor develop a subculture (fatalism, present-orientation, low aspirations) that becomes self-perpetuating across generations independent of structural barriers. Critics (Wilson, Gans) argue this 'blames the victim' and underestimates structural determinants of poverty. Both structural and cultural factors interact.",
+    "tags": [
+      "sociology",
+      "poverty",
+      "culture-of-poverty",
+      "oscar-lewis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A major sociological critique of the 'culture of poverty' thesis is that it:",
+    "options": [
+      "Fails to recognize any cultural differences between poor and wealthy communities",
+      "Ignores the role of education in upward mobility",
+      "Overestimates the role of class consciousness in poverty persistence",
+      "Attributes poverty to individual values rather than structural barriers like discrimination and labor market inequality"
+    ],
+    "correct": 3,
+    "explanation": "Critics (Wilson's 'The Truly Disadvantaged,' Gans) argue that Lewis pathologized the poor by attributing poverty to their culture rather than to structural factors (deindustrialization, housing segregation, labor market exclusion). The culture-of-poverty thesis has been used to justify reducing welfare rather than addressing structural inequalities.",
+    "tags": [
+      "sociology",
+      "poverty",
+      "culture-of-poverty",
+      "structural-factors",
+      "critique"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Intergenerational social mobility refers to:",
+    "options": [
+      "Geographic relocation associated with class change",
+      "Changes in social class position between parents and their adult children",
+      "The total amount of movement between classes in a society",
+      "Movement within an individual's own career over their lifetime"
+    ],
+    "correct": 1,
+    "explanation": "Intergenerational mobility: comparing social class between generations (parent vs. child). Intragenerational mobility: movement within one's own lifetime/career. Both are key measures in stratification research. Low intergenerational mobility (strong parent-child correlations) indicates a rigid class system.",
+    "tags": [
+      "sociology",
+      "social-mobility",
+      "intergenerational-mobility"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Bourdieu's concept of 'cultural capital' most directly explains how social inequality is reproduced through:",
+    "options": [
+      "Differential possession of cultural knowledge, skills, and credentials that are valued in educational and professional contexts",
+      "Differential access to financial resources for schooling",
+      "Legal barriers preventing lower-class individuals from accessing higher education",
+      "Biological differences in cognitive ability between social classes"
+    ],
+    "correct": 0,
+    "explanation": "Bourdieu: cultural capital (knowledge of dominant culture, educational credentials, linguistic facility) is unequally distributed and converts to economic and social advantage in educational and labor markets. This reproduces class inequality without overt discrimination. Financial barriers are economic capital; legal barriers are structural constraints.",
+    "tags": [
+      "sociology",
+      "bourdieu",
+      "cultural-capital",
+      "social-reproduction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Matthew effect in sociology refers to:",
+    "options": [
+      "Downward mobility that follows unexpected economic shocks",
+      "The process by which welfare dependency perpetuates poverty",
+      "The cumulative advantage process by which those who start ahead gain more resources over time ('the rich get richer')",
+      "Social stratification based on religious credentials"
+    ],
+    "correct": 2,
+    "explanation": "The Matthew effect (Merton, from Matthew 25:29 — 'to him who has, more shall be given'): early advantages (better schooling, social networks, income) compound over time, widening inequality. This explains why initial class differences grow rather than shrink over time despite formal equal opportunity.",
+    "tags": [
+      "sociology",
+      "matthew-effect",
+      "cumulative-advantage",
+      "merton"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following best distinguishes income from wealth in discussions of social stratification?",
+    "options": [
+      "Income is the flow of money earned in a period; wealth (net worth) is the stock of accumulated assets minus liabilities",
+      "They are synonymous in stratification research",
+      "Income includes all assets; wealth refers only to inherited property",
+      "Wealth is earned; income is inherited"
+    ],
+    "correct": 0,
+    "explanation": "Income = current earnings (wages, salary) — a flow. Wealth (net worth) = total assets minus total liabilities — a stock that accumulates. Racial and class wealth gaps are larger than income gaps because wealth compounds through inheritance and investment. Using income alone understates true economic inequality.",
+    "tags": [
+      "sociology",
+      "poverty",
+      "income",
+      "wealth",
+      "stratification"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Meritocracy as a sociological concept is problematic because:",
+    "options": [
+      "Access to achievement is shaped by ascribed characteristics (race, class, gender) and structural barriers, not merit alone",
+      "It accurately describes how most industrial societies allocate rewards",
+      "It was developed to critique capitalism rather than describe it",
+      "It overstates the importance of achieved characteristics like education"
+    ],
+    "correct": 0,
+    "explanation": "The meritocracy myth: while meritocracy ideologically claims rewards go to the most talented/hardworking, structural barriers (discrimination, differential access to quality education, inherited wealth) mean starting positions are unequal. Bourdieu's cultural capital, Merton's anomie, and empirical mobility research all challenge pure meritocracy.",
+    "tags": [
+      "sociology",
+      "meritocracy",
+      "stratification",
+      "structural-barriers"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Bourdieu's 'field theory' posits that social life is organized into:",
+    "options": [
+      "A single hierarchical structure determined entirely by economic capital",
+      "Relatively autonomous social arenas (fields) with their own rules and forms of capital that determine position",
+      "Cultural groups united by shared values and norms (Durkheimian collectivism)",
+      "Rational actor calculations of cost-benefit in social interactions"
+    ],
+    "correct": 1,
+    "explanation": "Bourdieu's field: semi-autonomous social spaces (academic, artistic, economic, political) each with their own logic, rules, and stakes. Position within a field is determined by the volume and composition of relevant capital (economic, social, cultural). This multi-dimensional view contrasts with purely economic or purely cultural accounts.",
+    "tags": [
+      "sociology",
+      "bourdieu",
+      "field-theory",
+      "capital"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Absolute social mobility can be high while relative social mobility remains low when:",
+    "options": [
+      "Welfare programs raise absolute income without changing relative rankings",
+      "Immigration increases total population but not the number of high-status positions",
+      "Educational credentials expand but their economic value decreases",
+      "The overall economy grows (so more people move up), but class position relative to others stays about the same"
+    ],
+    "correct": 3,
+    "explanation": "Absolute mobility measures how many people are in a higher class than their parents (rising tide lifts all boats in economic growth). Relative mobility measures whether one's chance of ending up in a particular class depends on parental class — i.e., equality of opportunity. Societies can have high absolute but low relative mobility.",
+    "tags": [
+      "sociology",
+      "social-mobility",
+      "absolute-vs-relative-mobility"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Bourdieu's concept of 'social capital' refers to:",
+    "options": [
+      "Resources derived from social networks and connections — who you know and the obligations and trust these relationships create",
+      "The economic resources and assets held by a social group",
+      "The formal educational credentials obtained through schooling",
+      "The cultural knowledge and tastes that signal class membership"
+    ],
+    "correct": 0,
+    "explanation": "Social capital (Bourdieu): resources embedded in social relationships and networks — connections, trust, group membership. Cultural capital: knowledge, taste, credentials. Economic capital: financial assets. Educational credentials are a form of institutionalized cultural capital. All three forms of capital can be converted into one another.",
+    "tags": [
+      "sociology",
+      "bourdieu",
+      "social-capital",
+      "networks"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A researcher finds that children from wealthy families attend better schools, gain better credentials, and obtain higher-paying jobs despite equal cognitive ability as children from poor families. This best illustrates:",
+    "options": [
+      "Weber's Protestant ethic linking religious values to economic success",
+      "The culture of poverty perpetuating economic disadvantage",
+      "Bourdieu's social reproduction through cultural and economic capital advantage",
+      "Merton's strain theory explaining deviance through legitimate vs. illegitimate means"
+    ],
+    "correct": 2,
+    "explanation": "Bourdieu's social reproduction: advantage is transmitted through capital (economic, cultural, social) across generations, not through biological ability. Equal ability with unequal outcomes demonstrates structural advantage. Culture of poverty blames the poor's values. Merton's strain theory addresses deviance. Weber addressed religious-economic links.",
+    "tags": [
+      "sociology",
+      "bourdieu",
+      "social-reproduction",
+      "inequality",
+      "vignette"
     ],
     "difficulty": "medium"
   }

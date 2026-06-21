@@ -876,115 +876,127 @@
     "difficulty": "hard"
   },
   {
-    "text": "Which amino acid is the only one that lacks a chiral alpha carbon?",
+    "text": "Which component of gram-positive bacteria is targeted by beta-lactam antibiotics?",
     "options": [
-      "Serine",
-      "Alanine",
-      "Proline",
-      "Glycine"
+      "DNA gyrase",
+      "Peptidoglycan cross-linking (transpeptidase/PBP)",
+      "30S ribosomal subunit",
+      "The outer membrane lipopolysaccharide"
     ],
-    "correct": 3,
-    "explanation": "Glycine has two H atoms on its alpha carbon (R = H), giving it two identical substituents and no chirality. Every other standard amino acid has four distinct groups at the alpha carbon and exists as the L-enantiomer in proteins.",
+    "correct": 1,
+    "explanation": "Beta-lactams (penicillin, amoxicillin, cephalosporins) inhibit penicillin-binding proteins (transpeptidases) that cross-link peptidoglycan strands. Gram-positive bacteria have a thick peptidoglycan layer and no outer membrane, making them highly susceptible. LPS is the target of polymyxins; 30S is targeted by aminoglycosides; DNA gyrase by fluoroquinolones.",
     "tags": [
-      "amino acids",
-      "chirality"
+      "microbiology",
+      "bacteria",
+      "antibiotics"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Gram staining distinguishes bacteria primarily based on differences in:",
+    "options": [
+      "Flagella arrangement",
+      "Cell wall peptidoglycan thickness and presence/absence of an outer membrane",
+      "The presence or absence of ribosomes",
+      "Capsule composition"
+    ],
+    "correct": 1,
+    "explanation": "Gram-positive bacteria retain crystal violet (stain purple) due to their thick peptidoglycan layer; gram-negative bacteria lose it during decolorization because their thin peptidoglycan is sandwiched between inner and outer membranes, and counterstain pink with safranin. The outer membrane with LPS is unique to gram-negatives.",
+    "tags": [
+      "microbiology",
+      "bacteria",
+      "gram-stain"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "At physiological pH (~7.4), which amino acid side chain is best positioned to donate or accept a proton and function as an acid-base catalyst?",
+    "text": "Which process transfers genetic material directly through cell-to-cell contact via a pilus?",
     "options": [
-      "Glutamine",
-      "Aspartate",
-      "Histidine",
-      "Lysine"
+      "Conjugation",
+      "Transformation",
+      "Sporulation",
+      "Transduction"
     ],
-    "correct": 2,
-    "explanation": "Histidine's imidazole side chain has pKa ≈ 6.0, closest to physiological pH of all standard amino acids. This lets it toggle between protonated and deprotonated forms under physiological conditions. Lysine (pKa ≈ 10.5) stays protonated; aspartate (pKa ≈ 3.9) stays deprotonated; glutamine has no ionizable side chain.",
+    "correct": 0,
+    "explanation": "Conjugation requires physical contact between bacteria via the sex pilus (F-pilus), through which plasmid or chromosomal DNA is transferred. Transformation involves uptake of free DNA from the environment. Transduction uses bacteriophage as a vector. Sporulation is endospore formation, not gene transfer.",
     "tags": [
-      "amino acids",
-      "enzyme catalysis"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which amino acid side chain contains a thiol group (–SH) that can form disulfide bonds?",
-    "options": [
-      "Serine",
-      "Methionine",
-      "Threonine",
-      "Cysteine"
-    ],
-    "correct": 3,
-    "explanation": "Cysteine's thiol (–SH) group is oxidized to form disulfide bonds (–S–S–) with another cysteine, stabilizing tertiary/quaternary protein structure. Serine and threonine have –OH groups. Methionine contains a thioether (–S–CH3) that cannot form disulfide bonds.",
-    "tags": [
-      "amino acids",
-      "protein structure"
+      "microbiology",
+      "bacteria",
+      "genetics",
+      "conjugation"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "Why does proline disrupt alpha-helices?",
+    "text": "A bacterium incorporates a fragment of donor DNA from the environment into its chromosome. This process is called:",
     "options": [
-      "Its side chain is too large to fit in the helix",
-      "It carries a negative charge at physiological pH",
-      "Its side chain bonds to the backbone nitrogen, eliminating the N–H hydrogen bond donor",
-      "It forms an extra covalent bond with adjacent residues"
+      "Conjugation",
+      "Transformation",
+      "Transduction",
+      "Transposition"
     ],
-    "correct": 2,
-    "explanation": "Proline's nitrogen is locked in a pyrrolidine ring with its side chain, removing the backbone N–H needed for hydrogen bonding in a helix. This creates a rigid kink, making proline a 'helix breaker.' It can appear at the end of helices or in beta-turns.",
+    "correct": 1,
+    "explanation": "Transformation is the uptake and incorporation of exogenous DNA from the environment by competent bacteria (e.g., Streptococcus pneumoniae). This was first demonstrated by Griffith and the molecular basis identified by Avery et al. Transduction uses phage; conjugation uses pili; transposition moves genetic elements within/between chromosomes.",
     "tags": [
-      "amino acids",
-      "protein structure"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Proteins absorb strongly at 280 nm primarily because of which amino acids?",
-    "options": [
-      "Phenylalanine and alanine",
-      "Methionine and cysteine",
-      "Glycine and proline",
-      "Tryptophan and tyrosine"
-    ],
-    "correct": 3,
-    "explanation": "Tryptophan (indole ring) and tyrosine (phenol ring) absorb at 280 nm due to aromatic pi electrons. Tryptophan has the larger extinction coefficient. This is used to estimate protein concentration spectrophotometrically. Phenylalanine absorbs weakly at ~257 nm.",
-    "tags": [
-      "amino acids",
-      "spectroscopy"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which amino acid is the direct precursor for catecholamine biosynthesis (dopamine, norepinephrine, epinephrine)?",
-    "options": [
-      "Tryptophan",
-      "Histidine",
-      "Phenylalanine",
-      "Tyrosine"
-    ],
-    "correct": 3,
-    "explanation": "Tyrosine → L-DOPA (tyrosine hydroxylase) → Dopamine → Norepinephrine → Epinephrine. Phenylalanine can be converted to tyrosine by phenylalanine hydroxylase, but tyrosine is the direct precursor. Tryptophan makes serotonin. Histidine makes histamine.",
-    "tags": [
-      "amino acids",
-      "neurotransmitters"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "In eukaryotes, which amino acid is delivered by the initiator tRNA at the start codon AUG?",
-    "options": [
-      "Alanine",
-      "Valine",
-      "Methionine",
-      "Leucine"
-    ],
-    "correct": 2,
-    "explanation": "AUG codes for methionine and serves as the start codon in eukaryotes (the initiator tRNA is met-tRNAi). In prokaryotes, the initiator carries N-formyl-methionine (fMet). The initiating methionine is often cleaved post-translationally.",
-    "tags": [
-      "amino acids",
-      "translation"
+      "microbiology",
+      "bacteria",
+      "genetics",
+      "transformation"
     ],
     "difficulty": "easy"
+  },
+  {
+    "text": "In generalized transduction, a bacteriophage accidentally packages:",
+    "options": [
+      "Random fragments of host bacterial DNA instead of phage DNA",
+      "RNA from the bacterial host",
+      "Only phage DNA from the host",
+      "Plasmids that the bacterium carries"
+    ],
+    "correct": 0,
+    "explanation": "In generalized transduction, the phage accidentally packages random pieces of host chromosomal DNA during assembly. When the phage infects a new host, this donor DNA can recombine with the recipient's chromosome. In specialized transduction, only specific genes adjacent to the phage integration site are transferred.",
+    "tags": [
+      "microbiology",
+      "bacteria",
+      "genetics",
+      "transduction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Aminoglycoside antibiotics (e.g., gentamicin) kill bacteria primarily by:",
+    "options": [
+      "Disrupting the cell membrane",
+      "Inhibiting RNA polymerase",
+      "Binding the 30S ribosomal subunit, causing misreading of mRNA and defective protein synthesis",
+      "Blocking folate synthesis"
+    ],
+    "correct": 2,
+    "explanation": "Aminoglycosides bind the 30S ribosomal subunit (specifically 16S rRNA), causing misreading of mRNA codons, which leads to incorporation of wrong amino acids and production of abnormal proteins that disrupt the cell membrane, causing bactericidal effects. Rifampin inhibits RNA polymerase; polymyxins disrupt membranes; sulfonamides block folate.",
+    "tags": [
+      "microbiology",
+      "bacteria",
+      "antibiotics",
+      "aminoglycosides"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Fluoroquinolone antibiotics (e.g., ciprofloxacin) target:",
+    "options": [
+      "Dihydrofolate reductase",
+      "DNA gyrase (topoisomerase II) and topoisomerase IV, preventing DNA replication",
+      "The 50S ribosomal subunit",
+      "Cell wall synthesis"
+    ],
+    "correct": 1,
+    "explanation": "Fluoroquinolones inhibit DNA gyrase (topoisomerase II) in gram-negative bacteria and topoisomerase IV in gram-positive bacteria. These enzymes relieve supercoiling ahead of the replication fork. Without them, DNA replication stalls and the bacteria cannot divide. This explains their bactericidal, broad-spectrum activity.",
+    "tags": [
+      "microbiology",
+      "bacteria",
+      "antibiotics",
+      "fluoroquinolones"
+    ],
+    "difficulty": "medium"
   }
 ]

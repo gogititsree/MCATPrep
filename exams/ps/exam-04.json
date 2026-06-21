@@ -1,651 +1,1041 @@
 [
   {
-    "text": "Which psychological or social concept is illustrated here?",
+    "text": "Which sociological concept best describes the process where early advantages in education compound over time to produce vastly unequal outcomes?",
     "options": [
-      "Cognitive dissonance is discomfort from inconsistent beliefs",
-      "Foot-in-the-door is a punishment method",
-      "Peripheral route processing uses careful argument analysis",
-      "Confirmation bias is disbelief in inconsistent evidence"
+      "Cumulative advantage (Matthew effect)",
+      "Bourgeois habitus formation",
+      "Relative deprivation theory",
+      "Downward leveling norms"
     ],
     "correct": 0,
-    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
+    "explanation": "Cumulative advantage (Matthew effect): advantages at one stage (better kindergarten preparation → better elementary school performance → better high school → college → career) compound over time. This explains widening inequality despite formal equal opportunity. Relative deprivation is subjective comparison to others, not a process of compounding.",
+    "tags": [
+      "sociology",
+      "cumulative-advantage",
+      "matthew-effect",
+      "inequality"
+    ],
+    "difficulty": "medium"
   },
   {
-    "text": "Which disorder description is most accurate for this scenario?",
+    "text": "Intragenerational social mobility refers to:",
     "options": [
-      "ADHD symptoms must begin before age 12 in multiple settings",
-      "ADHD requires psychosis",
-      "ADHD appears only in school settings",
-      "ADHD is an anxiety disorder"
+      "Changes in social class position within an individual's own lifetime and career",
+      "Class differences between generations in the same family",
+      "Geographic mobility associated with economic opportunity",
+      "The overall rate of class movement in a society across all generations"
     ],
     "correct": 0,
-    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
+    "explanation": "Intragenerational mobility: movement within one person's own career (e.g., starting as a factory worker and becoming a manager). Intergenerational mobility compares positions between parents and children. Both are measured in stratification research to assess the openness of a society's class system.",
+    "tags": [
+      "sociology",
+      "social-mobility",
+      "intragenerational-mobility"
+    ],
+    "difficulty": "easy"
   },
   {
-    "text": "Which sociological term does this sentence most accurately describe?",
+    "text": "Functional MRI (fMRI) measures brain activity by detecting:",
     "options": [
-      "Prevalence measures new cases only",
-      "Prevalence measures existing cases in a population",
-      "Incidence measures total population size",
-      "Incidence counts the number of deaths"
+      "Radioactive tracer uptake reflecting glucose metabolism",
+      "Blood oxygen level-dependent (BOLD) signal changes related to neural activity",
+      "Electrical activity of cortical neurons via scalp electrodes",
+      "Structural differences in white and gray matter density"
     ],
     "correct": 1,
-    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
-  },
-  {
-    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
-    "options": [
-      "Fixed interval",
-      "Variable interval",
-      "Fixed ratio",
-      "Variable ratio"
+    "explanation": "fMRI measures the BOLD signal — hemoglobin's differential magnetic properties when oxygenated vs. deoxygenated, reflecting local blood flow changes that proxy neural activity. EEG measures electrical activity. PET uses radioactive tracers to measure glucose metabolism or neurotransmitter binding. Structural MRI and CT measure anatomy, not function.",
+    "tags": [
+      "biological-psych",
+      "brain-imaging",
+      "fMRI",
+      "BOLD"
     ],
-    "correct": 3,
-    "explanation": "The correct answer is Variable ratio based on the schedule or learning description. The distractors describe different schedules or concepts."
+    "difficulty": "easy"
   },
   {
-    "text": "Which statement correctly describes the memory concept?",
+    "text": "Compared to fMRI, EEG has which resolution advantage?",
     "options": [
-      "Sensory memory is unlimited",
-      "Short-term memory stores material for years",
-      "Working memory lasts 20–30 seconds",
-      "Long-term memory lasts 20–30 seconds"
-    ],
-    "correct": 2,
-    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
-  },
-  {
-    "text": "Which example best illustrates the developmental concept described?",
-    "options": [
-      "Formal operational children cannot reason hypothetically",
-      "Concrete operational children lack conservation",
-      "Preoperational children lack conservation",
-      "Sensorimotor children have mastered abstract thought"
-    ],
-    "correct": 2,
-    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
-  },
-  {
-    "text": "Which psychological or social concept is illustrated here?",
-    "options": [
-      "Just world hypothesis accepts structural inequality",
-      "Actor-observer bias overestimates disposition for self",
-      "Fundamental attribution error overestimates disposition for others",
-      "Self-serving bias blames others for failures"
-    ],
-    "correct": 2,
-    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
-  },
-  {
-    "text": "Which disorder description is most accurate for this scenario?",
-    "options": [
-      "Bipolar I includes manic episodes that may require hospitalization",
-      "Generalized anxiety includes delusions",
-      "PTSD is diagnosed before 1 month has passed",
-      "Bipolar II includes full mania"
-    ],
-    "correct": 0,
-    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
-  },
-  {
-    "text": "Which sociological term does this sentence most accurately describe?",
-    "options": [
-      "Functionalism denies social inequality exists",
-      "Social stratification describes structured inequality by class and status",
-      "Feminist theory ignores power dynamics",
-      "Symbolic interactionism focuses on biology only"
+      "Superior spatial resolution for localizing activity to specific cortical layers",
+      "Superior temporal resolution (milliseconds) because it directly measures electrical neural signals in real time",
+      "Less susceptibility to movement artifacts",
+      "Better ability to image subcortical structures like the amygdala"
     ],
     "correct": 1,
-    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
+    "explanation": "EEG records electrical potentials at the scalp with millisecond temporal resolution, capturing the actual timing of neural events. fMRI is limited by hemodynamic lag (~5-second BOLD response) — excellent spatial resolution (~1–3 mm) but poor temporal resolution. Neither EEG nor fMRI images subcortical structures well; fMRI is better for deep structures.",
+    "tags": [
+      "biological-psych",
+      "brain-imaging",
+      "EEG",
+      "temporal-resolution"
+    ],
+    "difficulty": "medium"
   },
   {
-    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
+    "text": "PET scans differ from fMRI in that PET:",
     "options": [
-      "Positive reinforcement",
-      "Extinction",
-      "Positive punishment",
-      "Negative punishment"
+      "Measures brain structure rather than function",
+      "Has better spatial resolution and no radiation exposure",
+      "Uses injected radioactive tracers to measure metabolism or receptor binding; fMRI uses magnetic fields and radio waves",
+      "Is faster and cheaper to administer"
+    ],
+    "correct": 2,
+    "explanation": "PET (positron emission tomography): radioactive tracer (e.g., [18F]FDG for glucose metabolism, or labeled ligands for receptor binding) is injected; gamma rays are detected. fMRI uses magnetic fields and requires no radiation. PET has poorer spatial resolution than fMRI and involves radiation. PET is expensive and slow compared to fMRI.",
+    "tags": [
+      "biological-psych",
+      "brain-imaging",
+      "PET",
+      "fMRI",
+      "comparison"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Sperry and Gazzaniga's split-brain research demonstrated that after corpus callosum severing:",
+    "options": [
+      "Information presented to one visual field can only be verbally reported if processed by the left hemisphere",
+      "The right hemisphere cannot process spatial information",
+      "Both hemispheres have equal language capabilities",
+      "Language is processed equally by both hemispheres in most people"
     ],
     "correct": 0,
-    "explanation": "The correct answer is Positive reinforcement based on the schedule or learning description. The distractors describe different schedules or concepts."
+    "explanation": "Split-brain findings: visual input from the right visual field (processed by left hemisphere) can be verbally reported; left visual field input (processed by right hemisphere) cannot be named but can be identified by the left hand. This demonstrated left hemispheric language dominance and hemispheric specialization.",
+    "tags": [
+      "biological-psych",
+      "split-brain",
+      "sperry-gazzaniga",
+      "hemispheric-specialization"
+    ],
+    "difficulty": "medium"
   },
   {
-    "text": "Which statement correctly describes the memory concept?",
+    "text": "The corpus callosum's primary function is to:",
     "options": [
-      "Procedural memory stores facts",
-      "Semantic memory stores habits",
-      "Implicit memory stores conscious recollection",
-      "Episodic memory stores personal events"
+      "Transfer information and coordinate activity between the left and right cerebral hemispheres",
+      "Control emotional regulation through amygdala connections",
+      "Coordinate fine motor movements via the cerebellum",
+      "Regulate sleep-wake cycles via circadian inputs"
+    ],
+    "correct": 0,
+    "explanation": "The corpus callosum is a massive white matter bundle of ~250 million axons connecting the two hemispheres, enabling interhemispheric communication. Severing it (callosotomy for epilepsy) creates split-brain phenomena. Sleep-wake regulation involves the SCN and brainstem. Motor coordination involves the cerebellum.",
+    "tags": [
+      "biological-psych",
+      "corpus-callosum",
+      "hemispheric-communication"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Hemispheric lateralization in language typically shows:",
+    "options": [
+      "Right hemisphere dominant for language in most people",
+      "Language distributed equally across both hemispheres with no dominant side",
+      "Left hemisphere for comprehension; right hemisphere for production",
+      "Left hemisphere dominant for language production and comprehension in ~95% of right-handed individuals"
     ],
     "correct": 3,
-    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
+    "explanation": "About 95% of right-handers and ~70% of left-handers show left hemisphere language dominance (Broca's and Wernicke's areas). The right hemisphere contributes to prosody, metaphor, and narrative. Damage to Broca's area (left frontal) impairs production; Wernicke's area (left temporal) impairs comprehension.",
+    "tags": [
+      "biological-psych",
+      "hemispheric-lateralization",
+      "language",
+      "left-hemisphere"
+    ],
+    "difficulty": "easy"
   },
   {
-    "text": "Which example best illustrates the developmental concept described?",
+    "text": "Right hemisphere specialization is most associated with which cognitive functions?",
     "options": [
-      "Trust vs. Mistrust is adolescent stage",
-      "Identity vs. Role confusion is adolescent stage",
-      "Industry vs. Inferiority is late adulthood",
-      "Generativity vs. Stagnation is toddler stage"
+      "Motor control of the right hand and language comprehension",
+      "Language production, analytical reasoning, and phonological processing",
+      "Visuospatial processing, face recognition, musical perception, and emotional prosody",
+      "Declarative memory consolidation and fear conditioning"
+    ],
+    "correct": 2,
+    "explanation": "Right hemisphere: visuospatial tasks, global/holistic processing, face recognition (prosopagnosia from right temporal damage), musical perception, emotional tone of speech (prosody). Left hemisphere: language, analytical processing, sequential reasoning. These are tendencies — not absolute — and vary with individual differences.",
+    "tags": [
+      "biological-psych",
+      "right-hemisphere",
+      "visuospatial",
+      "face-recognition"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Contralateral organization of the motor and sensory cortex means that:",
+    "options": [
+      "Both hemispheres jointly control each limb with equal contribution",
+      "The right hemisphere controls only the right hand and foot",
+      "Each hemisphere controls and receives sensation from the opposite side of the body",
+      "Sensory and motor processing are in the same cortical region for each body part"
+    ],
+    "correct": 2,
+    "explanation": "Contralateral (crossed) organization: the left motor cortex controls the right side of the body and vice versa; left somatosensory cortex receives sensation from the right body side. This is established by pyramidal tract crossing in the medulla. Brain lesions cause deficits on the opposite body side.",
+    "tags": [
+      "biological-psych",
+      "contralateral-organization",
+      "motor-cortex",
+      "sensory-cortex"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A researcher needs to study the precise timing of neural activity during a cognitive task with millisecond accuracy. Which imaging technique is most appropriate?",
+    "options": [
+      "PET",
+      "CT",
+      "EEG",
+      "fMRI"
+    ],
+    "correct": 2,
+    "explanation": "EEG has millisecond temporal resolution, ideal for studying the timing of cognitive processes (event-related potentials, P300). fMRI has ~1–2 second temporal resolution (limited by BOLD hemodynamic lag). PET is even slower. CT measures brain structure only, not function.",
+    "tags": [
+      "biological-psych",
+      "brain-imaging",
+      "EEG",
+      "temporal-resolution",
+      "research-design"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient has damage to the corpus callosum. When a key is placed in her left hand out of sight, she cannot name what she is holding but can select a matching key from a set using her left hand. This demonstrates:",
+    "options": [
+      "The right hemisphere gained language ability after corpus callosum damage",
+      "Right hemisphere processes the left-hand sensation but lacks language; left hand/right hemisphere can still identify objects non-verbally",
+      "Left hemisphere processes left-hand sensation and selects matching objects",
+      "Language production is bilaterally distributed in this patient"
     ],
     "correct": 1,
-    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
-  },
-  {
-    "text": "Which psychological or social concept is illustrated here?",
-    "options": [
-      "Conformity drops with anonymous responses",
-      "Groupthink encourages dissent",
-      "Conformity rises with private answers",
-      "Obedience drops when authority is closer"
+    "explanation": "Left hand → right hemisphere (contralateral). The right hemisphere recognizes the key (visuospatial/tactile processing) and controls the left hand to identify a match. But the right hemisphere cannot access the left hemisphere's language system (corpus callosum is severed), so the patient cannot verbally name it. Classic split-brain demonstration.",
+    "tags": [
+      "biological-psych",
+      "split-brain",
+      "corpus-callosum",
+      "hemispheric-specialization",
+      "vignette"
     ],
-    "correct": 0,
-    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
+    "difficulty": "hard"
   },
   {
-    "text": "Which disorder description is most accurate for this scenario?",
+    "text": "Structural MRI is preferred over CT for imaging soft brain tissue because:",
     "options": [
-      "Autism is always diagnosed in adulthood",
-      "Borderline PD lacks identity instability",
-      "OCD combines obsessions and compulsions",
-      "Schizophrenia is primarily a mood disorder"
-    ],
-    "correct": 2,
-    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
-  },
-  {
-    "text": "Which sociological term does this sentence most accurately describe?",
-    "options": [
-      "Social exchange theory emphasizes fixed roles",
-      "Intersectionality examines overlapping identities and discrimination",
-      "Deviance is always pathological",
-      "Culture is limited to material objects"
+      "MRI can detect acute blood/hemorrhage better than CT",
+      "MRI provides much better contrast between gray and white matter and does not use ionizing radiation",
+      "MRI is less expensive and more widely available",
+      "MRI is faster to acquire than CT"
     ],
     "correct": 1,
-    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
-  },
-  {
-    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
-    "options": [
-      "Operant conditioning",
-      "Classical conditioning",
-      "Observational learning",
-      "Latent learning"
+    "explanation": "MRI provides superior soft tissue contrast (distinguishing gray matter, white matter, CSF) using radio waves and magnetic fields without ionizing radiation. CT is faster (useful in emergencies), better for detecting acute hemorrhage and bone, and more widely available. MRI is more expensive and slower.",
+    "tags": [
+      "biological-psych",
+      "brain-imaging",
+      "MRI",
+      "CT",
+      "comparison"
     ],
-    "correct": 3,
-    "explanation": "The correct answer is Latent learning based on the schedule or learning description. The distractors describe different schedules or concepts."
+    "difficulty": "medium"
   },
   {
-    "text": "Which statement correctly describes the memory concept?",
+    "text": "The 'interpreter' mechanism described by Gazzaniga in split-brain research refers to:",
     "options": [
-      "Encoding specificity says recall is best when retrieval context matches encoding context",
-      "Motivated forgetting improves memory",
-      "Decay theory says memory fades with time",
-      "Interference means old memories help new ones"
-    ],
-    "correct": 0,
-    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
-  },
-  {
-    "text": "Which example best illustrates the developmental concept described?",
-    "options": [
-      "Anxious attachment ignores the caregiver",
-      "Avoidant attachment clings to the caregiver",
-      "Secure attachment uses caregiver as safe base",
-      "Disorganized attachment is consistent and orderly"
-    ],
-    "correct": 2,
-    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
-  },
-  {
-    "text": "Which psychological or social concept is illustrated here?",
-    "options": [
-      "Cognitive dissonance is discomfort from inconsistent beliefs",
-      "Peripheral route processing uses careful argument analysis",
-      "Confirmation bias is disbelief in inconsistent evidence",
-      "Foot-in-the-door is a punishment method"
-    ],
-    "correct": 0,
-    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
-  },
-  {
-    "text": "Which disorder description is most accurate for this scenario?",
-    "options": [
-      "ADHD is an anxiety disorder",
-      "ADHD appears only in school settings",
-      "ADHD requires psychosis",
-      "ADHD symptoms must begin before age 12 in multiple settings"
-    ],
-    "correct": 3,
-    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
-  },
-  {
-    "text": "Which sociological term does this sentence most accurately describe?",
-    "options": [
-      "Incidence counts the number of deaths",
-      "Incidence measures total population size",
-      "Prevalence measures existing cases in a population",
-      "Prevalence measures new cases only"
-    ],
-    "correct": 2,
-    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
-  },
-  {
-    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
-    "options": [
-      "Variable ratio",
-      "Fixed ratio",
-      "Fixed interval",
-      "Variable interval"
-    ],
-    "correct": 0,
-    "explanation": "The correct answer is Variable ratio based on the schedule or learning description. The distractors describe different schedules or concepts."
-  },
-  {
-    "text": "Which statement correctly describes the memory concept?",
-    "options": [
-      "Working memory lasts 20–30 seconds",
-      "Long-term memory lasts 20–30 seconds",
-      "Sensory memory is unlimited",
-      "Short-term memory stores material for years"
-    ],
-    "correct": 0,
-    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
-  },
-  {
-    "text": "Which example best illustrates the developmental concept described?",
-    "options": [
-      "Preoperational children lack conservation",
-      "Concrete operational children lack conservation",
-      "Formal operational children cannot reason hypothetically",
-      "Sensorimotor children have mastered abstract thought"
-    ],
-    "correct": 0,
-    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
-  },
-  {
-    "text": "Which psychological or social concept is illustrated here?",
-    "options": [
-      "Fundamental attribution error overestimates disposition for others",
-      "Actor-observer bias overestimates disposition for self",
-      "Just world hypothesis accepts structural inequality",
-      "Self-serving bias blames others for failures"
-    ],
-    "correct": 0,
-    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
-  },
-  {
-    "text": "Which disorder description is most accurate for this scenario?",
-    "options": [
-      "Bipolar II includes full mania",
-      "PTSD is diagnosed before 1 month has passed",
-      "Bipolar I includes manic episodes that may require hospitalization",
-      "Generalized anxiety includes delusions"
-    ],
-    "correct": 2,
-    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
-  },
-  {
-    "text": "Which sociological term does this sentence most accurately describe?",
-    "options": [
-      "Feminist theory ignores power dynamics",
-      "Symbolic interactionism focuses on biology only",
-      "Functionalism denies social inequality exists",
-      "Social stratification describes structured inequality by class and status"
-    ],
-    "correct": 3,
-    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
-  },
-  {
-    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
-    "options": [
-      "Positive reinforcement",
-      "Extinction",
-      "Negative punishment",
-      "Positive punishment"
-    ],
-    "correct": 0,
-    "explanation": "The correct answer is Positive reinforcement based on the schedule or learning description. The distractors describe different schedules or concepts."
-  },
-  {
-    "text": "Which statement correctly describes the memory concept?",
-    "options": [
-      "Implicit memory stores conscious recollection",
-      "Semantic memory stores habits",
-      "Procedural memory stores facts",
-      "Episodic memory stores personal events"
-    ],
-    "correct": 3,
-    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
-  },
-  {
-    "text": "Which example best illustrates the developmental concept described?",
-    "options": [
-      "Industry vs. Inferiority is late adulthood",
-      "Identity vs. Role confusion is adolescent stage",
-      "Trust vs. Mistrust is adolescent stage",
-      "Generativity vs. Stagnation is toddler stage"
+      "A brain region that integrates sensory information from both visual fields",
+      "The left hemisphere's tendency to construct post-hoc narratives to explain actions generated by the right hemisphere",
+      "The corpus callosum mediating between conflicting hemispheric interpretations",
+      "The right hemisphere's ability to interpret complex social situations"
     ],
     "correct": 1,
-    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
-  },
-  {
-    "text": "Which psychological or social concept is illustrated here?",
-    "options": [
-      "Conformity drops with anonymous responses",
-      "Conformity rises with private answers",
-      "Groupthink encourages dissent",
-      "Obedience drops when authority is closer"
+    "explanation": "Gazzaniga's 'interpreter': the left hemisphere confabulates coherent explanations for actions (generated by the right hemisphere or other processes) that it cannot directly access. E.g., if the right hemisphere causes the left hand to pick up a shovel, the left hemisphere might say 'I'm going to clean the garage' without knowing the true cause.",
+    "tags": [
+      "biological-psych",
+      "gazzaniga",
+      "interpreter",
+      "split-brain",
+      "confabulation"
     ],
-    "correct": 0,
-    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
+    "difficulty": "hard"
   },
   {
-    "text": "Which disorder description is most accurate for this scenario?",
+    "text": "Which brain imaging technique is best suited for studying neuroreceptor density and neurotransmitter binding in living patients?",
     "options": [
-      "OCD combines obsessions and compulsions",
-      "Schizophrenia is primarily a mood disorder",
-      "Borderline PD lacks identity instability",
-      "Autism is always diagnosed in adulthood"
+      "fMRI",
+      "Diffusion tensor imaging (DTI)",
+      "PET with radiolabeled ligands",
+      "EEG"
     ],
-    "correct": 0,
-    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
+    "correct": 2,
+    "explanation": "PET with radiolabeled receptor ligands (e.g., [11C]raclopride for dopamine D2 receptors) directly measures receptor binding and neurotransmitter availability. This is used to study dopamine in schizophrenia/Parkinson's, serotonin in depression. fMRI measures blood flow; EEG measures electrical activity; DTI maps white matter tracts.",
+    "tags": [
+      "biological-psych",
+      "PET",
+      "neurotransmitter-binding",
+      "receptors"
+    ],
+    "difficulty": "hard"
   },
   {
-    "text": "Which sociological term does this sentence most accurately describe?",
+    "text": "Which statement about hemispheric specialization is most accurate based on contemporary neuroscience?",
     "options": [
-      "Social exchange theory emphasizes fixed roles",
-      "Culture is limited to material objects",
-      "Deviance is always pathological",
-      "Intersectionality examines overlapping identities and discrimination"
+      "Hemispheric specialization is fully established at birth with no developmental change",
+      "The right hemisphere is language-dominant in most left-handed people",
+      "Most cognitive functions involve networks distributed across both hemispheres, with tendencies toward lateralization rather than strict dichotomy",
+      "Specific cognitive functions are entirely contained within one hemisphere with no cross-hemispheric contribution"
+    ],
+    "correct": 2,
+    "explanation": "Modern neuroscience views hemispheric specialization as graded tendencies — most complex cognitive functions recruit bilateral networks. Language dominance is left-lateralized in most people, but the right hemisphere contributes to discourse, prosody, and metaphor. Specialization continues to develop through childhood. Pure right-hemisphere language dominance is atypical even in left-handers.",
+    "tags": [
+      "biological-psych",
+      "hemispheric-specialization",
+      "lateralization",
+      "contemporary-neuroscience"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "CT scans use which physical principle to generate brain images?",
+    "options": [
+      "Electrical potentials from scalp electrodes reflecting cortical activity",
+      "Magnetic fields and radio waves to measure proton relaxation in tissue",
+      "Radioactive tracer uptake visualized by gamma ray detection",
+      "Multiple X-ray beams taken at different angles to reconstruct cross-sectional images of tissue density"
     ],
     "correct": 3,
-    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
+    "explanation": "CT (computed tomography): multiple X-ray projections from different angles are reconstructed into cross-sectional images based on tissue density. Bone appears white (dense); air black; brain tissue in between. MRI uses magnetic fields/radio waves. PET uses gamma rays from radioactive tracers. EEG uses electrical potentials.",
+    "tags": [
+      "biological-psych",
+      "CT",
+      "brain-imaging",
+      "X-ray"
+    ],
+    "difficulty": "easy"
   },
   {
-    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
+    "text": "In psychodynamic therapy, 'transference' refers to:",
     "options": [
-      "Observational learning",
-      "Classical conditioning",
-      "Operant conditioning",
-      "Latent learning"
+      "The therapist projecting their own feelings onto the client",
+      "The transfer of skills learned in therapy to real-world situations",
+      "The client unconsciously redirecting feelings from past significant relationships onto the therapist",
+      "A client's intellectual insight about childhood experiences"
+    ],
+    "correct": 2,
+    "explanation": "Transference: the client unconsciously displaces emotions, expectations, and patterns from important past relationships (typically parents) onto the therapist. Working through transference is central to psychodynamic therapy. Countertransference is the therapist's emotional reactions to the client. Insight is cognitive, not an interpersonal projection.",
+    "tags": [
+      "psychotherapy",
+      "psychodynamic",
+      "transference"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Free association in psychodynamic therapy involves:",
+    "options": [
+      "Structured word-association tasks to measure reaction time differences",
+      "The client freely choosing which memories to discuss each session",
+      "The therapist freely associating between sessions to prepare interpretations",
+      "The client verbalizing all thoughts and feelings without censorship, allowing unconscious material to emerge"
     ],
     "correct": 3,
-    "explanation": "The correct answer is Latent learning based on the schedule or learning description. The distractors describe different schedules or concepts."
+    "explanation": "Free association (Freud): the client says whatever comes to mind without self-censorship. This is the 'fundamental rule' of psychoanalysis, intended to bypass ego defenses and allow unconscious material to surface for interpretation. Structured word-association is a research task (Jung). Therapist preparation is not free association.",
+    "tags": [
+      "psychotherapy",
+      "psychodynamic",
+      "free-association",
+      "freud"
+    ],
+    "difficulty": "easy"
   },
   {
-    "text": "Which statement correctly describes the memory concept?",
+    "text": "Which defense mechanism involves unconsciously pushing threatening thoughts or memories out of conscious awareness?",
     "options": [
-      "Encoding specificity says recall is best when retrieval context matches encoding context",
-      "Decay theory says memory fades with time",
-      "Interference means old memories help new ones",
-      "Motivated forgetting improves memory"
+      "Rationalization",
+      "Projection",
+      "Suppression",
+      "Repression"
+    ],
+    "correct": 3,
+    "explanation": "Repression: unconscious exclusion of threatening memories, impulses, or desires from awareness. It is the foundational defense in Freudian theory. Suppression is the conscious decision to not think about something. Rationalization provides false logical justifications. Projection attributes one's own unacceptable feelings to others.",
+    "tags": [
+      "psychotherapy",
+      "psychodynamic",
+      "defense-mechanisms",
+      "repression"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A person angry at their boss comes home and yells at their spouse. This illustrates which defense mechanism?",
+    "options": [
+      "Reaction formation",
+      "Sublimation",
+      "Projection",
+      "Displacement"
+    ],
+    "correct": 3,
+    "explanation": "Displacement: redirecting emotion from a threatening target (boss) to a safer one (spouse). Projection involves attributing one's own feelings to others ('my boss is angry, not me'). Reaction formation expresses the opposite of one's true feelings. Sublimation channels impulses into socially constructive behavior.",
+    "tags": [
+      "psychotherapy",
+      "psychodynamic",
+      "defense-mechanisms",
+      "displacement"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A person with unconscious hostility becomes an outspoken peace activist. This illustrates:",
+    "options": [
+      "Reaction formation",
+      "Sublimation",
+      "Rationalization",
+      "Displacement"
     ],
     "correct": 0,
-    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
+    "explanation": "Reaction formation: expressing the opposite of one's true, unconscious impulse (hostility → pacifism). Sublimation channels impulses into socially acceptable activities without expressing their opposite (e.g., channeling aggression into competitive sports). Displacement redirects to a different target; rationalization justifies behavior.",
+    "tags": [
+      "psychotherapy",
+      "psychodynamic",
+      "defense-mechanisms",
+      "reaction-formation"
+    ],
+    "difficulty": "medium"
   },
   {
-    "text": "Which example best illustrates the developmental concept described?",
+    "text": "Rogers' person-centered therapy holds that therapeutic change requires the therapist to provide:",
     "options": [
-      "Disorganized attachment is consistent and orderly",
-      "Secure attachment uses caregiver as safe base",
-      "Avoidant attachment clings to the caregiver",
-      "Anxious attachment ignores the caregiver"
+      "Interpretation of unconscious conflicts and transference",
+      "Unconditional positive regard, empathy, and genuineness (congruence)",
+      "Structured problem-solving and cognitive restructuring",
+      "Systematic reinforcement of adaptive behaviors"
     ],
     "correct": 1,
-    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
-  },
-  {
-    "text": "Which psychological or social concept is illustrated here?",
-    "options": [
-      "Peripheral route processing uses careful argument analysis",
-      "Foot-in-the-door is a punishment method",
-      "Cognitive dissonance is discomfort from inconsistent beliefs",
-      "Confirmation bias is disbelief in inconsistent evidence"
+    "explanation": "Rogers' core conditions: unconditional positive regard (accepting the client without judgment), empathy (accurately understanding the client's experience), and genuineness/congruence (therapist is authentic). These are the necessary and sufficient conditions for therapeutic change in humanistic therapy, contrasting with psychodynamic interpretation or behavioral techniques.",
+    "tags": [
+      "psychotherapy",
+      "humanistic",
+      "rogers",
+      "person-centered",
+      "UPR"
     ],
-    "correct": 2,
-    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
+    "difficulty": "easy"
   },
   {
-    "text": "Which disorder description is most accurate for this scenario?",
+    "text": "Unconditional positive regard in Rogers' therapy means:",
     "options": [
-      "ADHD symptoms must begin before age 12 in multiple settings",
-      "ADHD requires psychosis",
-      "ADHD appears only in school settings",
-      "ADHD is an anxiety disorder"
-    ],
-    "correct": 0,
-    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
-  },
-  {
-    "text": "Which sociological term does this sentence most accurately describe?",
-    "options": [
-      "Prevalence measures existing cases in a population",
-      "Incidence counts the number of deaths",
-      "Incidence measures total population size",
-      "Prevalence measures new cases only"
-    ],
-    "correct": 0,
-    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
-  },
-  {
-    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
-    "options": [
-      "Variable ratio",
-      "Variable interval",
-      "Fixed ratio",
-      "Fixed interval"
-    ],
-    "correct": 0,
-    "explanation": "The correct answer is Variable ratio based on the schedule or learning description. The distractors describe different schedules or concepts."
-  },
-  {
-    "text": "Which statement correctly describes the memory concept?",
-    "options": [
-      "Working memory lasts 20–30 seconds",
-      "Short-term memory stores material for years",
-      "Long-term memory lasts 20–30 seconds",
-      "Sensory memory is unlimited"
-    ],
-    "correct": 0,
-    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
-  },
-  {
-    "text": "Which example best illustrates the developmental concept described?",
-    "options": [
-      "Formal operational children cannot reason hypothetically",
-      "Concrete operational children lack conservation",
-      "Preoperational children lack conservation",
-      "Sensorimotor children have mastered abstract thought"
-    ],
-    "correct": 2,
-    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
-  },
-  {
-    "text": "Which psychological or social concept is illustrated here?",
-    "options": [
-      "Actor-observer bias overestimates disposition for self",
-      "Fundamental attribution error overestimates disposition for others",
-      "Self-serving bias blames others for failures",
-      "Just world hypothesis accepts structural inequality"
+      "Agreeing with everything the client says to build rapport",
+      "Accepting and valuing the client as a person regardless of their thoughts, feelings, or behaviors without judgment",
+      "Providing positive reinforcement for adaptive behaviors",
+      "Treating all clients equally regardless of diagnosis"
     ],
     "correct": 1,
-    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
-  },
-  {
-    "text": "Which disorder description is most accurate for this scenario?",
-    "options": [
-      "Bipolar I includes manic episodes that may require hospitalization",
-      "Bipolar II includes full mania",
-      "Generalized anxiety includes delusions",
-      "PTSD is diagnosed before 1 month has passed"
+    "explanation": "UPR: the therapist communicates acceptance of the client's inherent worth unconditionally — not contingent on the client's behavior or beliefs. This creates psychological safety for self-exploration and growth. It does not mean agreeing with the client or providing behavioral reinforcement.",
+    "tags": [
+      "psychotherapy",
+      "humanistic",
+      "rogers",
+      "unconditional-positive-regard"
     ],
-    "correct": 0,
-    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
+    "difficulty": "easy"
   },
   {
-    "text": "Which sociological term does this sentence most accurately describe?",
+    "text": "EMDR (Eye Movement Desensitization and Reprocessing) for PTSD involves:",
     "options": [
-      "Social stratification describes structured inequality by class and status",
-      "Feminist theory ignores power dynamics",
-      "Symbolic interactionism focuses on biology only",
-      "Functionalism denies social inequality exists"
+      "Cognitive restructuring of trauma-related beliefs using Socratic questioning",
+      "Pharmacological blockade of memory consolidation immediately post-trauma",
+      "Prolonged imaginal exposure to traumatic memories while preventing escape behaviors",
+      "Processing traumatic memories while engaging in bilateral stimulation (eye movements, taps, or tones) to facilitate memory reprocessing"
     ],
-    "correct": 0,
-    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
-  },
-  {
-    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
-    "options": [
-      "Positive punishment",
-      "Extinction",
-      "Positive reinforcement",
-      "Negative punishment"
+    "correct": 3,
+    "explanation": "EMDR: the client focuses on a traumatic memory while following the therapist's moving finger (or bilateral auditory/tactile stimulation). The mechanism is debated but may involve dual attention that facilitates emotional processing and memory integration. Prolonged exposure is a distinct CBT-based exposure therapy. Cognitive restructuring is CPT (cognitive processing therapy).",
+    "tags": [
+      "psychotherapy",
+      "EMDR",
+      "PTSD",
+      "bilateral-stimulation"
     ],
-    "correct": 2,
-    "explanation": "The correct answer is Positive reinforcement based on the schedule or learning description. The distractors describe different schedules or concepts."
+    "difficulty": "medium"
   },
   {
-    "text": "Which statement correctly describes the memory concept?",
+    "text": "Exposure therapy for phobias works through which primary mechanism?",
     "options": [
-      "Episodic memory stores personal events",
-      "Procedural memory stores facts",
-      "Semantic memory stores habits",
-      "Implicit memory stores conscious recollection"
-    ],
-    "correct": 0,
-    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
-  },
-  {
-    "text": "Which example best illustrates the developmental concept described?",
-    "options": [
-      "Generativity vs. Stagnation is toddler stage",
-      "Trust vs. Mistrust is adolescent stage",
-      "Identity vs. Role confusion is adolescent stage",
-      "Industry vs. Inferiority is late adulthood"
+      "Restructuring cognitive appraisals of the threatening stimulus",
+      "Reinforcing approach behavior toward feared stimuli with rewards",
+      "Extinction of conditioned fear responses by exposing the client to feared stimuli without the feared consequence",
+      "Providing insight into the developmental origins of the phobia"
     ],
     "correct": 2,
-    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
+    "explanation": "Exposure therapy: repeated, systematic confrontation with feared stimuli without safety behaviors, allowing the conditioned fear response to extinguish. The feared consequence (CS–no US pairing) violates the learned association. Behavioral reinforcement, cognitive restructuring, and insight are distinct therapeutic elements.",
+    "tags": [
+      "psychotherapy",
+      "exposure-therapy",
+      "phobia",
+      "extinction"
+    ],
+    "difficulty": "medium"
   },
   {
-    "text": "Which psychological or social concept is illustrated here?",
+    "text": "Motivational interviewing (MI) is best used for:",
     "options": [
-      "Conformity rises with private answers",
-      "Conformity drops with anonymous responses",
-      "Groupthink encourages dissent",
-      "Obedience drops when authority is closer"
+      "Exposing clients to feared situations in a graded hierarchy",
+      "Exploring and resolving ambivalence about behavior change in clients who are not yet ready to change",
+      "Teaching specific coping skills to clients actively engaged in therapy",
+      "Analyzing transference relationships to resolve unconscious conflicts"
     ],
     "correct": 1,
-    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
+    "explanation": "MI (Miller & Rollnick): a collaborative, person-centered approach that explores and resolves ambivalence about change, particularly useful in the precontemplation and contemplation stages of the transtheoretical model. It uses reflective listening, affirmation, and evoking 'change talk.' Skill training is CBT; exposure is for anxiety disorders; transference is psychodynamic.",
+    "tags": [
+      "psychotherapy",
+      "motivational-interviewing",
+      "ambivalence",
+      "behavior-change"
+    ],
+    "difficulty": "medium"
   },
   {
-    "text": "Which disorder description is most accurate for this scenario?",
+    "text": "Sublimation as a defense mechanism is considered one of the most mature because it:",
     "options": [
-      "Autism is always diagnosed in adulthood",
-      "Borderline PD lacks identity instability",
-      "Schizophrenia is primarily a mood disorder",
-      "OCD combines obsessions and compulsions"
+      "Creates intellectualized understanding of the impulse without emotional processing",
+      "Channels socially unacceptable impulses into constructive, socially valued activities",
+      "Redirects the impulse to a different but similar object",
+      "Completely eliminates the underlying impulse from consciousness"
+    ],
+    "correct": 1,
+    "explanation": "Sublimation channels unacceptable drives (aggression, sexuality) into socially productive outlets (art, athletics, medicine). It is 'mature' because the impulse is expressed in a functional way rather than being repressed, denied, or misdirected. Repression eliminates from consciousness. Displacement redirects to a safer target. Intellectualization avoids emotional experience.",
+    "tags": [
+      "psychotherapy",
+      "psychodynamic",
+      "defense-mechanisms",
+      "sublimation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The humanistic therapy emphasis on the client's 'actualizing tendency' refers to:",
+    "options": [
+      "The drive to reduce biological needs and restore homeostasis",
+      "An unconscious force that shapes personality development in childhood",
+      "The tendency to actualize specific skills through behavioral rehearsal",
+      "An innate drive toward growth, fulfillment, and realization of one's full potential"
     ],
     "correct": 3,
-    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
-  },
-  {
-    "text": "Which sociological term does this sentence most accurately describe?",
-    "options": [
-      "Deviance is always pathological",
-      "Social exchange theory emphasizes fixed roles",
-      "Intersectionality examines overlapping identities and discrimination",
-      "Culture is limited to material objects"
+    "explanation": "Rogers' actualizing tendency: all organisms have an innate drive toward growth, health, and the full development of their capacities. Psychological problems arise when this tendency is blocked (e.g., by conditions of worth). This is the core motivational concept in humanistic psychology, contrasting with drive reduction (homeostasis) or psychoanalytic drives.",
+    "tags": [
+      "psychotherapy",
+      "humanistic",
+      "rogers",
+      "actualizing-tendency"
     ],
-    "correct": 2,
-    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
+    "difficulty": "medium"
   },
   {
-    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
+    "text": "Projection as a defense mechanism involves:",
     "options": [
-      "Observational learning",
-      "Classical conditioning",
-      "Operant conditioning",
-      "Latent learning"
+      "Attributing one's own unacceptable impulses, feelings, or traits to another person",
+      "Reverting to behaviors characteristic of an earlier developmental stage",
+      "Justifying unacceptable behavior with socially acceptable reasons",
+      "Compartmentalizing contradictory emotions to avoid anxiety"
+    ],
+    "correct": 0,
+    "explanation": "Projection: 'I don't hate him — he hates me.' One's own unacceptable impulse is perceived as belonging to someone else. Regression is reverting to earlier behaviors under stress. Splitting (BPD) is seeing others as all-good or all-bad. Rationalization provides false logical justifications.",
+    "tags": [
+      "psychotherapy",
+      "psychodynamic",
+      "defense-mechanisms",
+      "projection"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A therapist using person-centered therapy would LEAST likely:",
+    "options": [
+      "Offer specific interpretations of the client's unconscious conflicts",
+      "Reflect the client's feelings back to them",
+      "Maintain genuineness and authenticity in the therapeutic relationship",
+      "Accept the client without judgment regardless of their behavior"
+    ],
+    "correct": 0,
+    "explanation": "Interpretation of unconscious conflicts is a psychodynamic technique, not person-centered therapy. Rogers explicitly rejected the therapist as expert who provides interpretations; the client is the expert on their own experience. Reflection, UPR, and congruence ARE the core techniques of Rogerian therapy.",
+    "tags": [
+      "psychotherapy",
+      "humanistic",
+      "rogers",
+      "person-centered",
+      "interpretation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A vignette: A client with alcohol use disorder enters therapy ambivalent about quitting — he acknowledges harms but values social drinking. He is in the contemplation stage. The MOST appropriate initial therapeutic approach is:",
+    "options": [
+      "Systematic desensitization to social situations triggering drinking",
+      "Insight-oriented psychodynamic therapy to explore childhood trauma",
+      "Immediate exposure therapy to reduce alcohol cravings",
+      "Motivational interviewing to explore ambivalence and evoke intrinsic motivation to change"
     ],
     "correct": 3,
-    "explanation": "The correct answer is Latent learning based on the schedule or learning description. The distractors describe different schedules or concepts."
+    "explanation": "MI is specifically designed for the contemplation stage — when clients acknowledge a problem but are ambivalent about change. It uses empathic reflection and evokes 'change talk.' Jumping straight to skills or exposure assumes motivation already exists. Psychodynamic therapy doesn't target behavioral ambivalence directly.",
+    "tags": [
+      "psychotherapy",
+      "motivational-interviewing",
+      "substance-use",
+      "contemplation",
+      "vignette"
+    ],
+    "difficulty": "medium"
   },
   {
-    "text": "Which statement correctly describes the memory concept?",
+    "text": "Rationalization as a defense mechanism involves:",
     "options": [
-      "Motivated forgetting improves memory",
-      "Interference means old memories help new ones",
-      "Decay theory says memory fades with time",
-      "Encoding specificity says recall is best when retrieval context matches encoding context"
+      "Constructing logical, socially acceptable explanations for behavior driven by unacceptable motives",
+      "Denying the reality of a threatening situation entirely",
+      "Channeling unacceptable impulses into constructive activities",
+      "Attributing one's own hostile feelings to another person"
+    ],
+    "correct": 0,
+    "explanation": "Rationalization: creating plausible but false post-hoc justifications for behavior motivated by unacceptable impulses ('I fired him for performance reasons, not personal dislike'). Sublimation channels impulses constructively. Denial rejects external reality. Projection attributes one's feelings to others.",
+    "tags": [
+      "psychotherapy",
+      "psychodynamic",
+      "defense-mechanisms",
+      "rationalization"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In classical conditioning, an unconditioned stimulus (US) is one that:",
+    "options": [
+      "Was previously neutral before conditioning",
+      "Requires training to produce a response",
+      "Only works after extinction",
+      "Naturally and automatically triggers a response without prior learning"
     ],
     "correct": 3,
-    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
-  },
-  {
-    "text": "Which example best illustrates the developmental concept described?",
-    "options": [
-      "Secure attachment uses caregiver as safe base",
-      "Avoidant attachment clings to the caregiver",
-      "Disorganized attachment is consistent and orderly",
-      "Anxious attachment ignores the caregiver"
+    "explanation": "An unconditioned stimulus (US) is a stimulus that naturally evokes a response (unconditioned response, UR) without any prior learning. Example: food (US) naturally causes salivation (UR) in Pavlov's experiments.",
+    "tags": [
+      "learning",
+      "classical-conditioning"
     ],
-    "correct": 0,
-    "explanation": "The correct choice fits the developmental stage or attachment style. The distractors are mismatched stages or descriptions."
+    "difficulty": "easy"
   },
   {
-    "text": "Which psychological or social concept is illustrated here?",
+    "text": "Extinction in classical conditioning occurs when:",
     "options": [
-      "Peripheral route processing uses careful argument analysis",
-      "Confirmation bias is disbelief in inconsistent evidence",
-      "Cognitive dissonance is discomfort from inconsistent beliefs",
-      "Foot-in-the-door is a punishment method"
+      "A new CS is substituted for the original",
+      "Spontaneous recovery is prevented permanently",
+      "The conditioned stimulus is repeatedly presented without the unconditioned stimulus",
+      "The conditioned stimulus is paired more strongly with the US"
     ],
     "correct": 2,
-    "explanation": "The correct option reflects the social or cognitive bias described. The others refer to different concepts."
-  },
-  {
-    "text": "Which disorder description is most accurate for this scenario?",
-    "options": [
-      "ADHD symptoms must begin before age 12 in multiple settings",
-      "ADHD requires psychosis",
-      "ADHD appears only in school settings",
-      "ADHD is an anxiety disorder"
+    "explanation": "Extinction involves presenting the CS without the US repeatedly. The conditioned response gradually weakens and disappears. However, spontaneous recovery (temporary return of CR after rest) shows the learning is not fully erased.",
+    "tags": [
+      "learning",
+      "classical-conditioning",
+      "extinction"
     ],
-    "correct": 0,
-    "explanation": "The correct answer best matches the syndrome described, while the incorrect options describe other psychiatric conditions."
+    "difficulty": "easy"
   },
   {
-    "text": "Which sociological term does this sentence most accurately describe?",
+    "text": "In operant conditioning, negative reinforcement involves:",
     "options": [
-      "Prevalence measures new cases only",
-      "Incidence measures total population size",
-      "Prevalence measures existing cases in a population",
-      "Incidence counts the number of deaths"
+      "Adding an aversive stimulus to decrease a behavior",
+      "Presenting a reward to increase behavior",
+      "Removing a pleasant stimulus to decrease a behavior",
+      "Removing an aversive stimulus to increase a behavior"
+    ],
+    "correct": 3,
+    "explanation": "Negative reinforcement removes (takes away) an unpleasant/aversive stimulus following a behavior, which increases the frequency of that behavior. Example: taking aspirin to relieve a headache (pain removal reinforces pill-taking behavior).",
+    "tags": [
+      "learning",
+      "operant-conditioning",
+      "reinforcement"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A variable ratio schedule of reinforcement produces:",
+    "options": [
+      "Low response rates with long post-reinforcement pauses",
+      "Responses only at fixed intervals",
+      "High, steady response rates that are most resistant to extinction",
+      "Decreasing response rates over time"
     ],
     "correct": 2,
-    "explanation": "The correct answer is the sociological concept that matches the scenario. The distractors are similar but distinct concepts."
+    "explanation": "Variable ratio (VR) schedules provide reinforcement after an unpredictable number of responses (e.g., slot machines). This produces high, consistent response rates and the greatest resistance to extinction because organisms never know when the next reinforcement will come.",
+    "tags": [
+      "learning",
+      "operant-conditioning",
+      "reinforcement-schedules"
+    ],
+    "difficulty": "medium"
   },
   {
-    "text": "Which option best describes the reinforcement schedule or learning concept in the example?",
+    "text": "Observational learning (Bandura's social learning theory) requires all of the following EXCEPT:",
     "options": [
-      "Variable ratio",
-      "Fixed ratio",
-      "Fixed interval",
-      "Variable interval"
+      "Attention to the model",
+      "Retention of what was observed",
+      "Motivation to reproduce the behavior",
+      "Direct experience with the behavior"
     ],
-    "correct": 0,
-    "explanation": "The correct answer is Variable ratio based on the schedule or learning description. The distractors describe different schedules or concepts."
+    "correct": 3,
+    "explanation": "Bandura identified four components of observational learning: attention, retention, reproduction, and motivation. Direct personal experience is NOT required — observational learning occurs by watching others, which is why it is also called vicarious learning.",
+    "tags": [
+      "learning",
+      "social-learning",
+      "bandura"
+    ],
+    "difficulty": "medium"
   },
   {
-    "text": "Which statement correctly describes the memory concept?",
+    "text": "Habituation is best defined as:",
     "options": [
-      "Working memory lasts 20–30 seconds",
-      "Long-term memory lasts 20–30 seconds",
-      "Sensory memory is unlimited",
-      "Short-term memory stores material for years"
+      "Increased responsiveness to a stimulus through pairing",
+      "An involuntary reflex response",
+      "Forgetting a stimulus entirely",
+      "Decreased responsiveness to a repeated, harmless stimulus"
+    ],
+    "correct": 3,
+    "explanation": "Habituation is the simplest form of learning: organisms reduce their response to stimuli that are repeatedly encountered and found to be harmless/irrelevant. Example: no longer noticing the ticking of a clock.",
+    "tags": [
+      "learning",
+      "habituation"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Working memory (Baddeley & Hitch model) includes all EXCEPT:",
+    "options": [
+      "Phonological loop",
+      "Central executive",
+      "Long-term episodic memory store",
+      "Visuospatial sketchpad"
+    ],
+    "correct": 2,
+    "explanation": "Baddeley's working memory model consists of: (1) central executive (attentional control), (2) phonological loop (verbal/auditory information), (3) visuospatial sketchpad (visual/spatial info), and (4) episodic buffer (links to long-term memory). Long-term episodic memory itself is not a component of working memory.",
+    "tags": [
+      "memory",
+      "working-memory",
+      "baddeley"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The serial position effect shows that in free recall, items are best remembered when they are at the:",
+    "options": [
+      "Middle of a list",
+      "End of a list only",
+      "Beginning (primacy) and end (recency) of a list",
+      "Beginning of a list only"
+    ],
+    "correct": 2,
+    "explanation": "The serial position effect consists of the primacy effect (better recall for early items — they transferred to long-term memory) and the recency effect (better recall for last items — still in working memory). Middle items are recalled worst.",
+    "tags": [
+      "memory",
+      "serial-position",
+      "primacy-recency"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which type of long-term memory stores how to ride a bike?",
+    "options": [
+      "Procedural memory (implicit)",
+      "Semantic memory (explicit)",
+      "Episodic memory (explicit)",
+      "Working memory"
     ],
     "correct": 0,
-    "explanation": "This statement matches the memory theory described. The other statements describe different memory types."
+    "explanation": "Procedural memory is a type of implicit (nondeclarative) long-term memory that stores motor skills and habits. Unlike explicit memory (episodic and semantic), procedural memory is acquired gradually and operates without conscious awareness.",
+    "tags": [
+      "memory",
+      "procedural-memory",
+      "implicit-memory"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Retroactive interference occurs when:",
+    "options": [
+      "A traumatic event prevents encoding",
+      "Retrieval cues are absent",
+      "New learning interferes with recall of previously learned information",
+      "Old memories interfere with new learning"
+    ],
+    "correct": 2,
+    "explanation": "Retroactive interference: new information interferes backward with old memories. Example: learning Spanish after French makes it harder to recall French. Proactive interference is the opposite: old info interferes with new learning.",
+    "tags": [
+      "memory",
+      "interference",
+      "forgetting"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The encoding specificity principle states that memory is best when:",
+    "options": [
+      "Emotional arousal is minimal",
+      "Information is rehearsed at fixed intervals",
+      "Semantic encoding is used regardless of context",
+      "Retrieval conditions match the context at encoding"
+    ],
+    "correct": 3,
+    "explanation": "Encoding specificity (Tulving): the same cues present during encoding should be present at retrieval. Context-dependent memory (same physical environment) and state-dependent memory (same physiological state) are applications of this principle.",
+    "tags": [
+      "memory",
+      "encoding-specificity",
+      "retrieval"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Anterograde amnesia impairs the ability to:",
+    "options": [
+      "Process sensory information",
+      "Retrieve procedural memories",
+      "Recall memories from before the amnesia onset",
+      "Form new memories after the onset of amnesia"
+    ],
+    "correct": 3,
+    "explanation": "Anterograde amnesia is the inability to form new explicit memories after brain damage (e.g., hippocampal damage). Retrograde amnesia is the loss of memories formed before the injury. H.M. (famous case) had severe anterograde amnesia after bilateral hippocampectomy.",
+    "tags": [
+      "memory",
+      "amnesia",
+      "anterograde"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Functional fixedness is a cognitive bias that refers to:",
+    "options": [
+      "Inability to shift between cognitive tasks",
+      "Overreliance on prior experience for problem solving",
+      "Inability to see an object being used in a novel way beyond its typical function",
+      "Tendency to confirm pre-existing beliefs"
+    ],
+    "correct": 2,
+    "explanation": "Functional fixedness (Duncker) is a cognitive barrier where people can only perceive an object's typical use, preventing creative problem-solving. Classic example: not recognizing a thumbtack box can be used as a shelf (Duncker candle problem).",
+    "tags": [
+      "cognition",
+      "problem-solving",
+      "functional-fixedness"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The availability heuristic leads people to judge probability based on:",
+    "options": [
+      "Base rate information",
+      "Rational cost-benefit analysis",
+      "Statistical frequency data",
+      "How easily examples come to mind"
+    ],
+    "correct": 3,
+    "explanation": "The availability heuristic (Tversky & Kahneman): people estimate probability by how easily examples are recalled. Recent or vivid events seem more likely. Example: overestimating plane crash probability after seeing news coverage.",
+    "tags": [
+      "cognition",
+      "heuristics",
+      "availability"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Confirmation bias is the tendency to:",
+    "options": [
+      "Search for, favor, and remember information confirming pre-existing beliefs",
+      "Overestimate the likelihood of rare events",
+      "Underestimate time needed to complete tasks",
+      "Attribute others' behavior to disposition rather than situation"
+    ],
+    "correct": 0,
+    "explanation": "Confirmation bias is pervasive: people preferentially seek, interpret, and remember information consistent with their existing beliefs, while downplaying contradictory evidence. It contributes to scientific misconduct and everyday reasoning errors.",
+    "tags": [
+      "cognition",
+      "biases",
+      "confirmation-bias"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Gardner's theory of multiple intelligences proposes that:",
+    "options": [
+      "Intelligence is primarily determined by genetics",
+      "Intelligence is not a single general factor but consists of multiple distinct abilities",
+      "IQ tests capture the full range of human intelligence",
+      "g (general intelligence) underlies all cognitive performance"
+    ],
+    "correct": 1,
+    "explanation": "Howard Gardner proposed at least 8 distinct intelligences (linguistic, logical-mathematical, spatial, musical, bodily-kinesthetic, interpersonal, intrapersonal, naturalist). This contrasts with Spearman's g-factor theory of a single general intelligence.",
+    "tags": [
+      "intelligence",
+      "gardner",
+      "multiple-intelligences"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "According to Piaget, object permanence is acquired during the:",
+    "options": [
+      "Preoperational stage (2–7 years)",
+      "Formal operational stage (12+ years)",
+      "Concrete operational stage (7–12 years)",
+      "Sensorimotor stage (birth–2 years)"
+    ],
+    "correct": 3,
+    "explanation": "Object permanence — the understanding that objects continue to exist even when out of sight — is the key achievement of the sensorimotor stage. Before ~8 months, infants act as if hidden objects cease to exist.",
+    "tags": [
+      "development",
+      "piaget",
+      "sensorimotor"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Conservation (understanding that quantity remains the same despite changes in shape) is mastered in Piaget's:",
+    "options": [
+      "Preoperational stage",
+      "Formal operational stage",
+      "Concrete operational stage",
+      "Sensorimotor stage"
+    ],
+    "correct": 2,
+    "explanation": "Children in the preoperational stage lack conservation (they are fooled by appearance). In the concrete operational stage (~7–12 years), children master conservation of number, mass, volume, and liquid, showing logical thinking about concrete objects.",
+    "tags": [
+      "development",
+      "piaget",
+      "conservation"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Piaget's formal operational stage is characterized by:",
+    "options": [
+      "Reflexive behaviors and object permanence",
+      "Conservation and logical operations on concrete objects",
+      "Egocentric and symbolic thinking",
+      "Abstract reasoning and hypothetical-deductive thinking"
+    ],
+    "correct": 3,
+    "explanation": "The formal operational stage (adolescence onward) enables abstract thought, systematic hypothesis testing, and reasoning about hypothetical situations. Not all adults reach full formal operations according to Piaget.",
+    "tags": [
+      "development",
+      "piaget",
+      "formal-operational"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "According to Erikson, the central developmental conflict of adolescence is:",
+    "options": [
+      "Identity vs. Role Confusion",
+      "Intimacy vs. Isolation",
+      "Industry vs. Inferiority",
+      "Trust vs. Mistrust"
+    ],
+    "correct": 0,
+    "explanation": "Erikson's fifth stage (adolescence): Identity vs. Role Confusion. Adolescents explore different roles and integrate them into a coherent sense of self. Success leads to a stable identity; failure leads to confusion about one's role in society.",
+    "tags": [
+      "development",
+      "erikson",
+      "adolescence"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Erikson's stage of Generativity vs. Stagnation occurs during:",
+    "options": [
+      "Middle adulthood",
+      "Young adulthood",
+      "Adolescence",
+      "Late adulthood"
+    ],
+    "correct": 0,
+    "explanation": "Generativity vs. Stagnation is Erikson's seventh stage (middle adulthood, ~40–65 years). Generativity involves contributing to society and guiding the next generation. Those who fail to find this purpose stagnate and feel disconnected.",
+    "tags": [
+      "development",
+      "erikson",
+      "middle-adulthood"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In Ainsworth's Strange Situation paradigm, securely attached infants show:",
+    "options": [
+      "Distress when caregiver leaves, comfort upon return, and willingness to explore",
+      "No consistent pattern of attachment behavior",
+      "Intense distress and resistance to comfort upon return",
+      "No distress when caregiver leaves and avoidance upon return"
+    ],
+    "correct": 0,
+    "explanation": "Secure attachment (type B): infants are distressed when the caregiver leaves (not indifferent), and they are easily comforted upon return. They use the caregiver as a safe base for exploration. This is the most common attachment style (~60–65%).",
+    "tags": [
+      "development",
+      "attachment",
+      "ainsworth"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Vygotsky's Zone of Proximal Development (ZPD) refers to:",
+    "options": [
+      "The age range at which cognitive development accelerates most",
+      "Social skills the child has not yet developed",
+      "The gap between current performance and average performance",
+      "The range between what a child can do alone and what they can do with guidance"
+    ],
+    "correct": 3,
+    "explanation": "The ZPD is the distance between actual developmental level (independent problem-solving) and potential developmental level (with guidance from a more capable other). Scaffolding within the ZPD promotes learning and development.",
+    "tags": [
+      "development",
+      "vygotsky",
+      "zpd"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Maslow's hierarchy of needs places which category at the highest level (self-actualization)?",
+    "options": [
+      "Safety and security needs",
+      "Physiological needs (food, water)",
+      "Realizing one's full potential and pursuing personal growth",
+      "Esteem needs (recognition and status)"
+    ],
+    "correct": 2,
+    "explanation": "Maslow's hierarchy (bottom to top): physiological → safety → belongingness/love → esteem → self-actualization. Self-actualization is the highest level, representing the fulfillment of one's unique potential and the pursuit of personal growth.",
+    "tags": [
+      "motivation",
+      "maslow",
+      "hierarchy-of-needs"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The James-Lange theory of emotion proposes that:",
+    "options": [
+      "Cognitive appraisal of a situation precedes both arousal and emotion",
+      "We experience emotion as a result of perceiving our own physiological arousal",
+      "Physiological arousal and emotional experience occur simultaneously",
+      "The thalamus simultaneously sends signals to cortex and body"
+    ],
+    "correct": 1,
+    "explanation": "James-Lange theory: perception of a stimulus → physiological response → emotional experience. 'We are afraid because we run' (not 'we run because we are afraid'). Cannon-Bard challenged this, arguing arousal and emotion are simultaneous.",
+    "tags": [
+      "emotion",
+      "james-lange",
+      "theories-of-emotion"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Schachter-Singer (two-factor) theory of emotion proposes that emotion requires:",
+    "options": [
+      "Only physiological arousal without cognition",
+      "A specific pattern of physiological activation unique to each emotion",
+      "Both physiological arousal AND a cognitive label/attribution for that arousal",
+      "Only cognitive appraisal without physiological arousal"
+    ],
+    "correct": 2,
+    "explanation": "Schachter-Singer: emotion = physiological arousal + cognitive attribution. The same state of arousal is labeled differently based on context. Misattribution of arousal experiments (e.g., Dutton & Aron bridge study) support this theory.",
+    "tags": [
+      "emotion",
+      "schachter-singer",
+      "two-factor-theory"
+    ],
+    "difficulty": "medium"
   }
 ]

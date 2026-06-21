@@ -1,651 +1,977 @@
 [
   {
-    "text": "Which condition is associated with X-linked recessive?",
+    "text": "Net ATP yield from glycolysis (glucose → 2 pyruvate) is:",
     "options": [
-      "Klinefelter syndrome",
-      "Turner syndrome",
-      "Down syndrome",
-      "Hemophilia A"
+      "36–38 ATP",
+      "2 ATP",
+      "6 ATP",
+      "4 ATP"
+    ],
+    "correct": 1,
+    "explanation": "Glycolysis: 4 ATP produced (steps 7 and 10, substrate-level phosphorylation) minus 2 ATP consumed (hexokinase and PFK-1) = net 2 ATP. Also produces 2 NADH. The 36-38 ATP figure includes downstream oxidative phosphorylation from the full aerobic catabolism of glucose.",
+    "tags": [
+      "glycolysis",
+      "bioenergetics"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which glycolytic enzyme catalyzes the only oxidation-reduction step in glycolysis?",
+    "options": [
+      "Phosphoglycerate mutase",
+      "Enolase",
+      "Phosphoglycerate kinase",
+      "Glyceraldehyde-3-phosphate dehydrogenase (G3PDH)"
     ],
     "correct": 3,
-    "explanation": "Hemophilia A is linked to X-linked recessive. The other conditions have different inheritance patterns or karyotypes."
-  },
-  {
-    "text": "Which amino acid has a hydroxyl-containing side chain and is classified as polar?",
-    "options": [
-      "Serine",
-      "Valine",
-      "Glycine",
-      "Alanine"
+    "explanation": "G3PDH oxidizes glyceraldehyde-3-phosphate to 1,3-bisphosphoglycerate, reducing NAD+ to NADH. This is the only redox step in glycolysis. The high-energy thioester intermediate is captured as 1,3-BPG, which then drives ATP synthesis at phosphoglycerate kinase (substrate-level phosphorylation).",
+    "tags": [
+      "glycolysis",
+      "redox reactions"
     ],
-    "correct": 0,
-    "explanation": "Serine is a polar amino acid with a hydroxyl-containing side chain. The options differ in both side chain chemistry and structural properties."
+    "difficulty": "medium"
   },
   {
-    "text": "Which enzyme catalyzes the step pyruvate → OAA and is activated by acetyl-CoA?",
+    "text": "Under anaerobic conditions, NADH generated in glycolysis is reoxidized by:",
     "options": [
-      "Pyruvate kinase",
-      "Pyruvate carboxylase",
-      "Hexokinase",
-      "Phosphofructokinase-1"
-    ],
-    "correct": 1,
-    "explanation": "Pyruvate carboxylase catalyzes pyruvate → OAA. It is activated by acetyl-CoA. The other enzymes listed catalyze different metabolic steps."
-  },
-  {
-    "text": "The conversion of succinate to fumarate depends on which cofactor?",
-    "options": [
-      "pyruvate",
-      "FAD",
-      "F6P",
-      "glucose"
-    ],
-    "correct": 1,
-    "explanation": "fumarate production from succinate depends on FAD. The distractors are cofactors used in other pathways."
-  },
-  {
-    "text": "Which organelle is best known for degrades macromolecules and recycles organelles?",
-    "options": [
-      "lipid synthesis and detoxification",
-      "Lysosome",
-      "ATP production by oxidative phosphorylation",
-      "protein synthesis for secretion and membrane insertion"
-    ],
-    "correct": 1,
-    "explanation": "Lysosome is responsible for degrades macromolecules and recycles organelles. The other organelles have different major functions."
-  },
-  {
-    "text": "Which hormone increases water reabsorption in the collecting duct?",
-    "options": [
-      "increases gluconeogenesis and glycogenolysis",
-      "increases glucose uptake and glycogen synthesis",
-      "ADH",
-      "stimulates glycogen breakdown and lipolysis"
+      "Malate-aspartate shuttle",
+      "Pyruvate dehydrogenase complex",
+      "Lactate dehydrogenase (pyruvate → lactate), regenerating NAD+ to sustain glycolysis",
+      "The electron transport chain"
     ],
     "correct": 2,
-    "explanation": "ADH increases water reabsorption in the collecting duct. The distractor hormones produce different physiological effects."
+    "explanation": "Without O2, the ETC cannot reoxidize NADH. Lactate dehydrogenase (LDH) transfers the electrons from NADH to pyruvate, forming lactate and regenerating NAD+. This NAD+ is essential for continued glycolysis. In yeast, pyruvate decarboxylase and alcohol dehydrogenase regenerate NAD+ via ethanol fermentation.",
+    "tags": [
+      "glycolysis",
+      "anaerobic metabolism"
+    ],
+    "difficulty": "medium"
   },
   {
-    "text": "Which condition is associated with X-linked recessive?",
+    "text": "Pyruvate dehydrogenase complex (PDC) is inhibited by all of the following EXCEPT:",
     "options": [
-      "Duchenne muscular dystrophy",
-      "Turner syndrome",
-      "Klinefelter syndrome",
+      "Acetyl-CoA (product)",
+      "PDC kinase activated by high ATP/ADP ratio",
+      "AMP (which activates PDC)",
+      "NADH (product)"
+    ],
+    "correct": 2,
+    "explanation": "PDC is inhibited by its products (acetyl-CoA and NADH) and by PDC kinase when ATP/ADP and NADH/NAD+ ratios are high (energy surplus). PDC is activated by PDC phosphatase (activated by insulin and Ca2+), by AMP, by CoA, and by NAD+. High AMP signals low energy and would activate PDC to produce more acetyl-CoA.",
+    "tags": [
+      "pyruvate dehydrogenase",
+      "enzyme regulation"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "How many CO2 molecules are released per turn of the TCA cycle?",
+    "options": [
+      "2",
+      "1",
+      "4",
+      "3"
+    ],
+    "correct": 0,
+    "explanation": "Two CO2 are released per TCA cycle turn: one at isocitrate dehydrogenase (isocitrate → alpha-ketoglutarate) and one at alpha-ketoglutarate dehydrogenase (alpha-KG → succinyl-CoA). These are the two oxidative decarboxylation steps of the TCA cycle. The 2-carbon acetyl group entering from acetyl-CoA is fully oxidized over multiple turns.",
+    "tags": [
+      "TCA cycle",
+      "carbon balance"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The energetic yield of one NADH oxidized by the ETC is approximately:",
+    "options": [
+      "4 ATP",
+      "2.5 ATP",
+      "3 ATP",
+      "1.5 ATP"
+    ],
+    "correct": 1,
+    "explanation": "Modern measurements (using P/O ratios from chemiosmosis) give ~2.5 ATP per NADH (pumps 10 H+ across inner mitochondrial membrane; ATP synthase needs ~4 H+ per ATP → 10/4 = 2.5 ATP). FADH2 yields ~1.5 ATP (pumps 6 H+). Older textbooks cited 3 ATP (NADH) and 2 ATP (FADH2), but 2.5 and 1.5 are now accepted values.",
+    "tags": [
+      "electron transport chain",
+      "ATP yield"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which complex of the ETC does NOT pump protons across the inner mitochondrial membrane?",
+    "options": [
+      "Complex III (cytochrome bc1)",
+      "Complex I (NADH dehydrogenase)",
+      "Complex II (succinate dehydrogenase)",
+      "Complex IV (cytochrome c oxidase)"
+    ],
+    "correct": 2,
+    "explanation": "Complexes I, III, and IV pump protons from matrix to intermembrane space, generating the proton motive force. Complex II (succinate dehydrogenase) accepts electrons from FADH2 and passes them to ubiquinone (CoQ) but does NOT translocate protons. This is why FADH2 yields less ATP than NADH.",
+    "tags": [
+      "electron transport chain"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Rotenone, a pesticide, blocks which complex of the ETC?",
+    "options": [
+      "Complex II",
+      "Complex III",
+      "Complex I (NADH:ubiquinone oxidoreductase)",
+      "Complex IV"
+    ],
+    "correct": 2,
+    "explanation": "Rotenone is a specific inhibitor of Complex I (blocks electron transfer from Fe-S center to ubiquinone). Inhibiting Complex I prevents NADH oxidation, halting the ETC. It is also used experimentally to model Parkinson's disease (dopaminergic neurons are especially sensitive to Complex I inhibition).",
+    "tags": [
+      "electron transport chain",
+      "toxicology"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Uncoupling proteins (UCPs, e.g., thermogenin/UCP1 in brown fat) affect oxidative phosphorylation by:",
+    "options": [
+      "Increasing proton gradient without generating heat",
+      "Activating ATP synthase to produce more ATP per proton",
+      "Inhibiting electron flow at Complex III",
+      "Allowing protons to flow back across the inner mitochondrial membrane without producing ATP, generating heat instead"
+    ],
+    "correct": 3,
+    "explanation": "UCPs dissipate the proton gradient (uncouple ETC from ATP synthesis) by providing an alternative proton leak pathway. Instead of driving ATP synthase, the energy is released as heat — thermogenesis. UCP1 in brown adipose tissue is especially important in newborns and hibernating animals for non-shivering thermogenesis.",
+    "tags": [
+      "oxidative phosphorylation",
+      "thermogenesis",
+      "uncoupling"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The unique enzymes of gluconeogenesis that bypass glycolytic irreversible steps are:",
+    "options": [
+      "Pyruvate carboxylase, PEPCK, fructose-1,6-bisphosphatase, glucose-6-phosphatase",
+      "Aldolase and enolase",
+      "Hexokinase, PFK-1, pyruvate kinase",
+      "Glycogen synthase and glycogen phosphorylase"
+    ],
+    "correct": 0,
+    "explanation": "Three irreversible glycolytic steps are bypassed: (1) Pyruvate kinase step bypassed by pyruvate carboxylase (pyruvate→OAA) + PEPCK (OAA→PEP); (2) PFK-1 step bypassed by fructose-1,6-bisphosphatase; (3) Hexokinase step bypassed by glucose-6-phosphatase. Glucose-6-phosphatase is only in liver/kidney, explaining why only those organs can release glucose to blood.",
+    "tags": [
+      "gluconeogenesis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Insulin promotes which of the following metabolic effects in hepatocytes?",
+    "options": [
+      "Glycogenolysis, gluconeogenesis, fatty acid oxidation",
+      "Glycolysis, glycogen synthesis, fatty acid synthesis; inhibits gluconeogenesis",
+      "Ketone body production and glucose output",
+      "Protein catabolism and urea synthesis"
+    ],
+    "correct": 1,
+    "explanation": "Insulin (secreted by beta cells in response to high glucose) promotes anabolic pathways: activates PFK-2 (increases F-2,6-BP → activates PFK-1 → glycolysis), glycogen synthase (glycogen synthesis), acetyl-CoA carboxylase (fatty acid synthesis), and inhibits PEPCK and glucose-6-phosphatase (gluconeogenesis). Net effect: lower blood glucose.",
+    "tags": [
+      "carbohydrate metabolism",
+      "hormones",
+      "insulin"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The pentose phosphate pathway (hexose monophosphate shunt) is particularly important in red blood cells because it:",
+    "options": [
+      "Is the only source of ribose for nucleotide synthesis in RBCs",
+      "Provides the primary ATP source for red blood cells",
+      "Generates acetyl-CoA for fatty acid synthesis in RBCs",
+      "Produces NADPH to maintain glutathione (GSH) reduced, protecting against oxidative hemolysis"
+    ],
+    "correct": 3,
+    "explanation": "RBCs lack mitochondria and nuclei (no TCA, no ETC, no nucleotide synthesis). The pentose phosphate pathway produces NADPH, which reduces glutathione (GSSG → GSH) via glutathione reductase. Reduced GSH protects hemoglobin from oxidative damage. G6PD deficiency impairs this pathway → oxidative hemolysis with oxidative stressors (certain drugs, fava beans).",
+    "tags": [
+      "pentose phosphate pathway",
+      "red blood cells",
+      "G6PD"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Glycogen synthase is activated by:",
+    "options": [
+      "Phosphorylation by PKA",
+      "Epinephrine in skeletal muscle",
+      "Dephosphorylation (by phosphatase, stimulated by insulin) and allosterically by glucose-6-phosphate",
+      "Glucagon via cAMP"
+    ],
+    "correct": 2,
+    "explanation": "Glycogen synthase is active when dephosphorylated (insulin activates PP1 via inhibiting GSK-3). G6P allosterically activates glycogen synthase — high intracellular glucose signals available precursor. Glucagon and epinephrine activate PKA → phosphorylates glycogen synthase → INACTIVATES it (and activates phosphorylase). This reciprocal regulation is a key metabolic switch.",
+    "tags": [
+      "glycogen metabolism",
+      "enzyme regulation",
+      "insulin"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In the Cori cycle, skeletal muscle sends which metabolite to the liver during intense exercise?",
+    "options": [
+      "Pyruvate",
+      "Fatty acids",
+      "Lactate",
+      "Glucose"
+    ],
+    "correct": 2,
+    "explanation": "During intense anaerobic exercise, skeletal muscle converts glucose to lactate (anaerobic glycolysis) to regenerate NAD+ for continued glycolysis. Lactate is exported to the blood, taken up by the liver, converted to pyruvate and then glucose via gluconeogenesis. This glucose returns to muscle — the Cori cycle. Alanine (from muscle amino acid catabolism) participates in the glucose-alanine cycle.",
+    "tags": [
+      "Cori cycle",
+      "glucose-lactate cycle"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Fructose-1,6-bisphosphatase (FBPase-1) is inhibited by which metabolite?",
+    "options": [
+      "Glucose-6-phosphate",
+      "AMP and fructose-2,6-bisphosphate",
+      "Acetyl-CoA",
+      "ATP and citrate"
+    ],
+    "correct": 1,
+    "explanation": "FBPase-1 (the gluconeogenesis enzyme) is inhibited by AMP (low energy signal) and fructose-2,6-bisphosphate (F-2,6-BP, high glycolytic signal). F-2,6-BP is produced by PFK-2 and is a powerful inhibitor of FBPase-1 while simultaneously activating PFK-1. This reciprocal regulation ensures glycolysis and gluconeogenesis don't run simultaneously at high rates.",
+    "tags": [
+      "gluconeogenesis",
+      "enzyme regulation"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Pyruvate carboxylase, an enzyme in gluconeogenesis, is activated by:",
+    "options": [
+      "NADH",
+      "Acetyl-CoA",
+      "AMP",
+      "Glucose-6-phosphate"
+    ],
+    "correct": 1,
+    "explanation": "Pyruvate carboxylase (PC) requires biotin (vitamin B7) and is allosterically activated by acetyl-CoA. High acetyl-CoA (from beta-oxidation during fasting) signals excess fuel and need for oxaloacetate replenishment for both the TCA cycle and gluconeogenesis. Acetyl-CoA cannot be converted back to pyruvate/glucose directly, so PC channels pyruvate into OAA.",
+    "tags": [
+      "gluconeogenesis",
+      "pyruvate carboxylase",
+      "enzyme regulation"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Galactosemia is caused by deficiency of galactose-1-phosphate uridyltransferase, which converts:",
+    "options": [
+      "UDP-galactose to UDP-glucose",
+      "Lactose to glucose and galactose",
+      "Galactose to glucose directly",
+      "Galactose-1-phosphate + UDP-glucose → glucose-1-phosphate + UDP-galactose"
+    ],
+    "correct": 3,
+    "explanation": "In galactose metabolism: galactose → galactose-1-phosphate (galactokinase) → glucose-1-phosphate (galactose-1-phosphate uridyltransferase). Deficiency causes accumulation of galactose-1-phosphate, which is toxic to liver, brain, and kidneys. Newborn screening detects this enzyme deficiency. Treatment is elimination of galactose (lactose) from the diet.",
+    "tags": [
+      "carbohydrate metabolism",
+      "metabolic disorders",
+      "galactose"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which metabolic process generates the majority of the NADH used by the ETC during aerobic glucose catabolism?",
+    "options": [
+      "Glycolysis exclusively",
+      "The pentose phosphate pathway",
+      "Beta-oxidation",
+      "The TCA cycle (most NADH) plus pyruvate dehydrogenase"
+    ],
+    "correct": 3,
+    "explanation": "Of the 10 NADH produced per glucose in complete aerobic catabolism: glycolysis produces 2 NADH (cytoplasmic); pyruvate dehydrogenase produces 2 NADH; the TCA cycle produces 6 NADH (3 per turn × 2 turns). Additionally 2 FADH2 come from TCA. The TCA cycle + PDC provide 8 of 10 NADH, making them the dominant source for the ETC.",
+    "tags": [
+      "TCA cycle",
+      "NADH",
+      "bioenergetics"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Type 1 diabetes results from autoimmune destruction of pancreatic beta cells. Without insulin, which metabolic pathway is inappropriately active in adipose tissue?",
+    "options": [
+      "Lipogenesis (fatty acid synthesis)",
+      "Glycogen synthesis",
+      "Glucose uptake via GLUT4",
+      "Lipolysis (HSL activated by glucagon/epinephrine, not inhibited by insulin)"
+    ],
+    "correct": 3,
+    "explanation": "Insulin normally suppresses hormone-sensitive lipase (HSL) in adipocytes. Without insulin, HSL is active → releases free fatty acids → liver converts to ketone bodies → ketoacidosis. Insulin also promotes GLUT4 insertion into adipocyte membranes for glucose uptake; without insulin, glucose uptake is impaired. This explains the metabolic crisis in untreated T1DM.",
+    "tags": [
+      "lipid metabolism",
+      "hormones",
+      "diabetes"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which enzyme is the rate-limiting step of fatty acid synthesis, and how is it regulated?",
+    "options": [
+      "Acetyl-CoA carboxylase (ACC); activated by citrate, inhibited by palmitoyl-CoA and glucagon-induced phosphorylation",
+      "HMG-CoA reductase; inhibited by statins",
+      "Fatty acid synthase; regulated by product inhibition only",
+      "Malonyl-CoA decarboxylase; activated by glucagon"
+    ],
+    "correct": 0,
+    "explanation": "ACC carboxylates acetyl-CoA to malonyl-CoA (requires biotin). It is allosterically activated by citrate (excess acetyl-CoA signal) and inhibited by palmitoyl-CoA (feedback) and by phosphorylation (AMPK or PKA, activated by fasting/glucagon). Malonyl-CoA also inhibits carnitine palmitoyltransferase-1 (CPT-1), preventing concurrent fatty acid oxidation.",
+    "tags": [
+      "fatty acid synthesis",
+      "enzyme regulation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The transport of long-chain fatty acids into the mitochondrial matrix requires:",
+    "options": [
+      "VLDL particle transport",
+      "Carnitine shuttle (carnitine palmitoyltransferase-1 on outer membrane, CPT-2 on inner membrane)",
+      "The GLUT family of transporters",
+      "Simple diffusion across the inner membrane"
+    ],
+    "correct": 1,
+    "explanation": "Long-chain fatty acyl-CoA cannot cross the inner mitochondrial membrane directly. Acyl-CoA is converted to acylcarnitine by CPT-1 (rate-limiting step of beta-oxidation; inhibited by malonyl-CoA). Acylcarnitine crosses via a translocase; CPT-2 on the inner membrane regenerates acyl-CoA in the matrix for beta-oxidation.",
+    "tags": [
+      "fatty acid oxidation",
+      "carnitine"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The net ATP yield from complete oxidation of one molecule of palmitate (C16:0) is approximately:",
+    "options": [
+      "38 ATP",
+      "106–108 ATP",
+      "15 ATP",
+      "2 ATP"
+    ],
+    "correct": 1,
+    "explanation": "Palmitoyl-CoA → 7 cycles of beta-oxidation: 7 FADH2 (×1.5=10.5 ATP) + 7 NADH (×2.5=17.5 ATP) + 8 acetyl-CoA (×10 ATP each = 80 ATP) = 108 ATP. Subtract 2 ATP for activation (palmitoyl-CoA synthesis). Net ≈ 106 ATP. This is ~3× the yield from glycolysis + TCA for glucose, reflecting fats' higher energy density.",
+    "tags": [
+      "beta-oxidation",
+      "bioenergetics"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Odd-chain fatty acid beta-oxidation produces propionyl-CoA, which is converted to succinyl-CoA by which enzymes and cofactors?",
+    "options": [
+      "Propionyl-CoA carboxylase (biotin) → methylmalonyl-CoA mutase (vitamin B12) → succinyl-CoA",
+      "Fatty acid synthase in reverse",
+      "Propionyl-CoA dehydrogenase → acetyl-CoA directly",
+      "Thiolase cleavage to two acetyl-CoA"
+    ],
+    "correct": 0,
+    "explanation": "Odd-chain fatty acid catabolism: beta-oxidation proceeds normally until 3-carbon propionyl-CoA (instead of 2-carbon acetyl-CoA). Propionyl-CoA carboxylase (biotin) → D-methylmalonyl-CoA → L-methylmalonyl-CoA → succinyl-CoA (methylmalonyl-CoA mutase, requires B12). Succinyl-CoA enters TCA cycle. Methylmalonic acidemia results from B12/mutase deficiency.",
+    "tags": [
+      "beta-oxidation",
+      "odd-chain fatty acids",
+      "vitamin B12"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "HMG-CoA reductase catalyzes the committed, rate-limiting step of cholesterol synthesis. Statins treat hypercholesterolemia by:",
+    "options": [
+      "Competitively inhibiting HMG-CoA reductase, reducing hepatic cholesterol synthesis and upregulating LDL receptors",
+      "Increasing LDL oxidation in macrophages",
+      "Activating VLDL secretion from the liver",
+      "Blocking bile acid reabsorption in the intestine"
+    ],
+    "correct": 0,
+    "explanation": "Statins (e.g., atorvastatin) are structural analogs of HMG-CoA that competitively inhibit HMG-CoA reductase. Reduced intrahepatic cholesterol triggers upregulation of hepatic LDL receptors → more LDL cleared from blood. This is the primary mechanism by which statins lower LDL-C and reduce cardiovascular risk.",
+    "tags": [
+      "cholesterol synthesis",
+      "pharmacology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In diabetic ketoacidosis (DKA), ketone bodies accumulate because:",
+    "options": [
+      "Ketone body utilization is blocked in peripheral tissues",
+      "Insulin blocks beta-oxidation, diverting all acetyl-CoA to ketones",
+      "Excess acetyl-CoA from beta-oxidation cannot enter the TCA cycle (depleted OAA), so it is channeled to ketogenesis",
+      "Cells cannot oxidize glucose, so they burn fat instead (oversimplified: technically OAA depletion is key)"
+    ],
+    "correct": 2,
+    "explanation": "In DKA (untreated T1DM), lack of insulin → lipolysis → excess fatty acids → beta-oxidation in liver → acetyl-CoA accumulates. OAA is depleted (used for gluconeogenesis, reducing TCA capacity). Excess acetyl-CoA → HMG-CoA → ketone bodies (acetoacetate, beta-hydroxybutyrate). Paradoxically, brain eventually uses ketones as fuel during prolonged starvation. Acetone gives the characteristic fruity breath.",
+    "tags": [
+      "ketone bodies",
+      "diabetes",
+      "lipid metabolism"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Adipose triglyceride lipase (ATGL) and hormone-sensitive lipase (HSL) are key lipolytic enzymes. Which hormone activates these during fasting?",
+    "options": [
+      "Cortisol via nuclear receptors only",
+      "Leptin directly activating HSL",
+      "Glucagon (and epinephrine) via cAMP-PKA cascade",
+      "Insulin via PI3K pathway"
+    ],
+    "correct": 2,
+    "explanation": "Glucagon and epinephrine activate adenylyl cyclase → cAMP → PKA → phosphorylates HSL (activating it) and perilipin (allowing access to lipid droplet). ATGL is also activated. Free fatty acids + glycerol are released. Insulin inhibits PKA effects and activates phosphodiesterase (breaks down cAMP), suppressing lipolysis. This is how insulin promotes fat storage and glucagon/epinephrine promote fat mobilization.",
+    "tags": [
+      "lipolysis",
+      "hormones",
+      "signal transduction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Eicosanoids (prostaglandins, thromboxanes, leukotrienes) are derived from which fatty acid?",
+    "options": [
+      "Linoleic acid (C18:2, omega-6)",
+      "Palmitic acid (C16:0)",
+      "Arachidonic acid (C20:4, omega-6)",
+      "Alpha-linolenic acid (C18:3, omega-3)"
+    ],
+    "correct": 2,
+    "explanation": "Arachidonic acid (AA, 20:4, omega-6), released from membrane phospholipids by phospholipase A2, is the major precursor for eicosanoids. COX (cyclooxygenase) converts AA to prostaglandins/thromboxanes; 5-LOX converts AA to leukotrienes. NSAIDs (aspirin, ibuprofen) inhibit COX. Omega-3 fatty acids (EPA, DHA) compete with AA and produce less inflammatory eicosanoids.",
+    "tags": [
+      "lipid metabolism",
+      "eicosanoids",
+      "inflammation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which strand of the double-stranded DNA serves as the template for RNA polymerase?",
+    "options": [
+      "Coding strand (non-template strand, same sequence as mRNA)",
+      "Template strand (antisense strand, read 3'→5' by RNA polymerase, producing RNA 5'→3')",
+      "Either strand is equally used",
+      "The strand with the promoter sequence"
+    ],
+    "correct": 1,
+    "explanation": "RNA polymerase reads the template (antisense) strand 3'→5' and synthesizes RNA 5'→3'. The resulting mRNA has the same sequence as the non-template (coding/sense) strand, except U replaces T. The coding strand is also called the sense strand or non-template strand.",
+    "tags": [
+      "transcription",
+      "molecular biology"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which DNA repair mechanism corrects single-base mismatches and small insertions/deletions that escape proofreading during replication?",
+    "options": [
+      "Nucleotide excision repair (NER)",
+      "Non-homologous end joining (NHEJ)",
+      "Base excision repair (BER)",
+      "Mismatch repair (MMR)"
+    ],
+    "correct": 3,
+    "explanation": "MMR detects and corrects replication errors: MSH2/MSH6 recognize mismatches, MLH1/PMS2 coordinate excision and resynthesis. MMR deficiency (Lynch syndrome/HNPCC) causes microsatellite instability and predisposes to colorectal cancer. NER handles bulky lesions (UV damage). BER handles single oxidized/deaminated bases. NHEJ joins double-strand breaks.",
+    "tags": [
+      "DNA repair",
+      "mismatch repair",
+      "molecular biology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Telomeres are maintained in stem cells and cancer cells by which enzyme?",
+    "options": [
+      "Primase",
+      "Topoisomerase II",
+      "Telomerase (an RNA-dependent DNA polymerase with its own RNA template)",
+      "DNA polymerase delta"
+    ],
+    "correct": 2,
+    "explanation": "Telomeres shorten with each replication (end replication problem). Telomerase is a reverse transcriptase (TERT) with an RNA component (TERC) that serves as the template to extend telomeric repeats (TTAGGG) de novo. Active in stem cells, germ cells, and ~85-90% of cancer cells (allowing immortalization). Absence in somatic cells contributes to cellular senescence.",
+    "tags": [
+      "DNA replication",
+      "telomeres",
+      "cancer biology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which statement about DNA helicase during replication is correct?",
+    "options": [
+      "Helicase ligates Okazaki fragments together",
+      "Helicase unwinds the double helix by breaking hydrogen bonds between base pairs, creating a replication fork",
+      "Helicase removes supercoils introduced by replication",
+      "Helicase synthesizes RNA primers at origins of replication"
+    ],
+    "correct": 1,
+    "explanation": "DNA helicase (DnaB in prokaryotes; MCM complex in eukaryotes) translocates along DNA, using ATP hydrolysis to break hydrogen bonds between complementary base pairs, unwinding the double helix at the replication fork. Single-strand binding proteins (SSBPs) stabilize the separated strands. Topoisomerases resolve the supercoiling generated ahead of the fork.",
+    "tags": [
+      "DNA replication",
+      "helicase"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The RNA primer used to initiate DNA replication is synthesized by:",
+    "options": [
+      "Helicase",
+      "Primase (a type of RNA polymerase)",
+      "DNA ligase",
+      "DNA polymerase I (for removal)"
+    ],
+    "correct": 1,
+    "explanation": "DNA polymerases cannot initiate a new strand de novo — they can only extend a pre-existing 3'-OH. Primase synthesizes a short (~5-10 nt) RNA primer, providing the 3'-OH for DNA polymerase to extend. In eukaryotes, DNA pol alpha-primase complex lays down the primer. After replication, the RNA primer is removed (RNase H/FEN1) and replaced with DNA by pol delta/epsilon.",
+    "tags": [
+      "DNA replication",
+      "primase"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Eukaryotic pre-mRNA processing includes all of the following EXCEPT:",
+    "options": [
+      "Removal of introns by the spliceosome",
+      "3' polyadenylation",
+      "5' capping with 7-methylguanosine",
+      "Removal of tRNA introns by spliceosomes (tRNA introns are removed by endonuclease/ligase, not the spliceosome)"
+    ],
+    "correct": 3,
+    "explanation": "Pre-mRNA processing: 5' cap (m7G added co-transcriptionally), 3' poly-A tail (added after cleavage at polyadenylation signal AAUAAA), and splicing by the spliceosome (snRNPs U1, U2, U4, U5, U6). tRNA introns are spliced by a different mechanism (tRNA splicing endonuclease + tRNA ligase). The spliceosome is for pre-mRNA, not tRNA.",
+    "tags": [
+      "RNA processing",
+      "splicing",
+      "molecular biology"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which RNA polymerase in eukaryotes transcribes mRNA precursors (pre-mRNA)?",
+    "options": [
+      "Primase",
+      "RNA polymerase I",
+      "RNA polymerase II",
+      "RNA polymerase III"
+    ],
+    "correct": 2,
+    "explanation": "Eukaryotes have three nuclear RNA polymerases: Pol I makes 28S, 18S, 5.8S rRNA (in nucleolus); Pol II makes mRNA, snRNA, miRNA precursors; Pol III makes 5S rRNA, tRNA, and other small RNAs. Alpha-amanitin (from death cap mushroom) selectively inhibits Pol II at low doses. Pol II requires general transcription factors (TFIID, etc.) and mediator complex.",
+    "tags": [
+      "transcription",
+      "RNA polymerase"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "During translation, the A site, P site, and E site of the ribosome perform which functions?",
+    "options": [
+      "A site: aminoacyl-tRNA entry; P site: peptidyl-tRNA (growing chain); E site: exit of deacylated tRNA",
+      "All three sites participate equally in peptide bond formation",
+      "A site: polyadenylation; P site: processing; E site: export",
+      "A site: exits the ribosome; P site: entry of new aminoacyl-tRNA; E site: elongation"
+    ],
+    "correct": 0,
+    "explanation": "Ribosome sites: Aminoacyl site (A) — incoming aminoacyl-tRNA decodes mRNA codon; Peptidyl site (P) — carries growing polypeptide chain (peptidyl-tRNA); Exit site (E) — holds deacylated tRNA before release. Peptide bond formation: peptidyl transferase (23S/28S rRNA ribozyme) transfers the polypeptide from P-site tRNA to A-site aminoacyl-tRNA.",
+    "tags": [
+      "translation",
+      "ribosome"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Aminoacyl-tRNA synthetases perform which critical function in translation?",
+    "options": [
+      "Charge tRNAs with their correct amino acid, ensuring the genetic code is accurately interpreted",
+      "Release the polypeptide from the ribosome",
+      "Catalyze peptide bond formation",
+      "Decode the mRNA codon directly"
+    ],
+    "correct": 0,
+    "explanation": "Each of the 20 aminoacyl-tRNA synthetases recognizes a specific amino acid and its cognate tRNA(s), charging the tRNA (forming aminoacyl-tRNA) in a two-step reaction (amino acid + ATP → aminoacyl-AMP + PPi; then transfer to tRNA 3'-OH). These enzymes are the true 'adaptors' of the genetic code — their fidelity determines translation accuracy.",
+    "tags": [
+      "translation",
+      "aminoacyl-tRNA synthetase",
+      "genetic code"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Stop codons (UAA, UAG, UGA) do not have corresponding tRNAs. Instead, translation terminates when:",
+    "options": [
+      "A ribonuclease cleaves the mRNA",
+      "Release factors (eRF1, eRF3) recognize stop codons and trigger peptidyl-tRNA hydrolysis",
+      "The ribosome falls off the mRNA spontaneously",
+      "The 5' cap is removed, stalling the ribosome"
+    ],
+    "correct": 1,
+    "explanation": "When a stop codon enters the A site, no aminoacyl-tRNA can decode it. Instead, eukaryotic release factors eRF1 (recognizes all three stop codons) and eRF3 (GTPase) bind the A site. eRF1 triggers peptidyl transferase to hydrolyze the ester bond linking the polypeptide to the P-site tRNA, releasing the polypeptide. Then the ribosome disassembles.",
+    "tags": [
+      "translation",
+      "termination",
+      "release factors"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In a monohybrid cross of two heterozygous individuals (Aa × Aa), the expected phenotype ratio is:",
+    "options": [
+      "1:2:1",
+      "All dominant",
+      "1:1:1:1",
+      "3 dominant : 1 recessive"
+    ],
+    "correct": 3,
+    "explanation": "Aa × Aa → 1/4 AA : 2/4 Aa : 1/4 aa (genotype 1:2:1). For a dominant trait, AA and Aa both express the dominant phenotype, giving 3/4 dominant : 1/4 recessive phenotype ratio. This is Mendel's law of segregation.",
+    "tags": [
+      "genetics",
+      "Mendelian genetics"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The probability that a child inherits an autosomal recessive disease when both parents are carriers (Aa × Aa) is:",
+    "options": [
+      "1/2",
+      "3/4",
+      "1",
+      "1/4"
+    ],
+    "correct": 3,
+    "explanation": "Carrier × carrier cross: 1/4 AA, 2/4 Aa, 1/4 aa. Only aa individuals are affected (1/4 probability). This is the basis of recessive disease genetics. With cystic fibrosis, for example, if both parents carry one CFTR mutation, each child has a 25% chance of having CF.",
+    "tags": [
+      "genetics",
+      "autosomal recessive"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Duchenne muscular dystrophy (DMD) is X-linked recessive. An unaffected carrier mother (XᴬXᵃ) and unaffected father (XᴬY) have children. What fraction of ALL children is expected to be affected?",
+    "options": [
+      "All daughters",
+      "1/2",
+      "1/4",
+      "1/8"
+    ],
+    "correct": 2,
+    "explanation": "Mother's gametes: 1/2 Xᴬ, 1/2 Xᵃ. Father's gametes: 1/2 Xᴬ, 1/2 Y. Possible outcomes: 1/4 XᴬXᴬ (unaffected daughter), 1/4 XᴬXᵃ (carrier daughter), 1/4 XᴬY (unaffected son), 1/4 XᵃY (affected son). Only 1/4 children are affected (all affected are male). 1/2 of sons are affected, but 1/4 of ALL children.",
+    "tags": [
+      "genetics",
+      "X-linked recessive"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Chromosomal non-disjunction during meiosis I in a female results in:",
+    "options": [
+      "Normal gametes with an extra chromosome",
+      "One secondary oocyte with an extra chromatid",
+      "Two identical oocytes",
+      "One secondary oocyte with both homologous chromosomes, one with neither"
+    ],
+    "correct": 3,
+    "explanation": "Meiosis I non-disjunction: homologous chromosomes fail to separate → one cell receives both chromosomes of a pair, the other receives neither. After meiosis II: two gametes have n+1 chromosomes (disomy), two have n-1 (nullisomy). Fertilization with normal sperm → trisomy (e.g., trisomy 21 Down syndrome) or monosomy. Meiosis II non-disjunction produces sister chromatid separation failure.",
+    "tags": [
+      "genetics",
+      "non-disjunction",
+      "meiosis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Down syndrome (trisomy 21) most commonly arises from:",
+    "options": [
+      "De novo point mutation in the DYRK1A gene",
+      "Paternal non-disjunction",
+      "Maternal non-disjunction during meiosis I (frequency increases with maternal age)",
+      "Translocation (Robertsonian) in ~4% of cases"
+    ],
+    "correct": 2,
+    "explanation": "~95% of Down syndrome cases are standard trisomy 21 from maternal non-disjunction during meiosis I (rarely meiosis II). Risk increases dramatically with maternal age (from ~1/1500 at age 20 to ~1/30 at age 45). About 4% are Robertsonian translocations (chromosome 21 fused to chromosome 14); these have a higher recurrence risk. ~1% are mosaics.",
+    "tags": [
+      "genetics",
+      "chromosomal abnormalities",
       "Down syndrome"
     ],
-    "correct": 0,
-    "explanation": "Duchenne muscular dystrophy is linked to X-linked recessive. The other conditions have different inheritance patterns or karyotypes."
+    "difficulty": "medium"
   },
   {
-    "text": "Which amino acid has a hydroxyl and methyl side chain and is classified as polar?",
+    "text": "Turner syndrome (45,X) results from:",
     "options": [
-      "Threonine",
-      "Glycine",
-      "Alanine",
-      "Valine"
+      "Trisomy X",
+      "Monosomy X (missing one sex chromosome), most commonly from paternal non-disjunction",
+      "Loss of an autosome",
+      "Klinefelter syndrome (47,XXY)"
     ],
-    "correct": 0,
-    "explanation": "Threonine is a polar amino acid with a hydroxyl and methyl side chain. The options differ in both side chain chemistry and structural properties."
-  },
-  {
-    "text": "Which enzyme catalyzes the step OAA → PEP and is requires GTP?",
-    "options": [
-      "Pyruvate kinase",
-      "Phosphofructokinase-1",
-      "Hexokinase",
-      "PEPCK"
-    ],
-    "correct": 3,
-    "explanation": "PEPCK catalyzes OAA → PEP. It is requires GTP. The other enzymes listed catalyze different metabolic steps."
-  },
-  {
-    "text": "The conversion of malate to OAA depends on which cofactor?",
-    "options": [
-      "glucose",
-      "F6P",
-      "pyruvate",
-      "NAD+"
-    ],
-    "correct": 3,
-    "explanation": "OAA production from malate depends on NAD+. The distractors are cofactors used in other pathways."
-  },
-  {
-    "text": "Which organelle is best known for oxidizes very long chain fatty acids and detoxifies H2O2?",
-    "options": [
-      "lipid synthesis and detoxification",
-      "protein synthesis for secretion and membrane insertion",
-      "ATP production by oxidative phosphorylation",
-      "Peroxisome"
-    ],
-    "correct": 3,
-    "explanation": "Peroxisome is responsible for oxidizes very long chain fatty acids and detoxifies H2O2. The other organelles have different major functions."
-  },
-  {
-    "text": "Which hormone increases basal metabolic rate?",
-    "options": [
-      "Thyroxine",
-      "increases glucose uptake and glycogen synthesis",
-      "increases gluconeogenesis and glycogenolysis",
-      "stimulates glycogen breakdown and lipolysis"
-    ],
-    "correct": 0,
-    "explanation": "Thyroxine increases basal metabolic rate. The distractor hormones produce different physiological effects."
-  },
-  {
-    "text": "Which condition is associated with Autosomal recessive?",
-    "options": [
-      "Klinefelter syndrome",
-      "Turner syndrome",
-      "Down syndrome",
-      "Cystic fibrosis"
-    ],
-    "correct": 3,
-    "explanation": "Cystic fibrosis is linked to Autosomal recessive. The other conditions have different inheritance patterns or karyotypes."
-  },
-  {
-    "text": "Which amino acid has a thiol side chain and is classified as polar?",
-    "options": [
-      "Cysteine",
-      "Glycine",
-      "Valine",
-      "Alanine"
-    ],
-    "correct": 0,
-    "explanation": "Cysteine is a polar amino acid with a thiol side chain. The options differ in both side chain chemistry and structural properties."
-  },
-  {
-    "text": "Which enzyme catalyzes the step glucose → G6P and is inhibited by G6P?",
-    "options": [
-      "Phosphofructokinase-1",
-      "Pyruvate kinase",
-      "Hexokinase",
-      "Glucose-6-phosphatase"
-    ],
-    "correct": 2,
-    "explanation": "Hexokinase catalyzes glucose → G6P. It is inhibited by G6P. The other enzymes listed catalyze different metabolic steps."
-  },
-  {
-    "text": "The conversion of pyruvate to acetyl-CoA depends on which cofactor?",
-    "options": [
-      "thiamine",
-      "glucose",
-      "OAA",
-      "F6P"
-    ],
-    "correct": 0,
-    "explanation": "acetyl-CoA production from pyruvate depends on thiamine. The distractors are cofactors used in other pathways."
-  },
-  {
-    "text": "Which organelle is best known for ATP production by oxidative phosphorylation?",
-    "options": [
-      "lipid synthesis and detoxification",
-      "protein synthesis for secretion and membrane insertion",
-      "protein modification and sorting",
-      "Mitochondria"
-    ],
-    "correct": 3,
-    "explanation": "Mitochondria is responsible for ATP production by oxidative phosphorylation. The other organelles have different major functions."
-  },
-  {
-    "text": "Which hormone increases glucose uptake and glycogen synthesis?",
-    "options": [
-      "stimulates glycogen breakdown and lipolysis",
-      "increases gluconeogenesis and glycogenolysis",
-      "Insulin",
-      "increases sodium reabsorption and potassium secretion"
-    ],
-    "correct": 2,
-    "explanation": "Insulin increases glucose uptake and glycogen synthesis. The distractor hormones produce different physiological effects."
-  },
-  {
-    "text": "Which condition is associated with Trisomy 21?",
-    "options": [
-      "Klinefelter syndrome",
-      "Down syndrome",
-      "Hemophilia A",
+    "correct": 1,
+    "explanation": "Turner syndrome: 45,X (missing one sex chromosome). Features: short stature, webbed neck, shield chest, gonadal dysgenesis (streak ovaries, primary amenorrhea), coarctation of the aorta. Most commonly arises from paternal non-disjunction (losing the Y or X from the sperm). Despite having only one X, Barr body is absent (normal: females have one Barr body per extra X above 2 total).",
+    "tags": [
+      "genetics",
+      "chromosomal abnormalities",
       "Turner syndrome"
     ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Genomic imprinting means that:",
+    "options": [
+      "All genes from the father are expressed over maternal genes",
+      "Some genes are expressed from only one parental allele (maternal or paternal), determined by differential methylation",
+      "Only mitochondrial genes are imprinted",
+      "Imprinted genes are deleted in the other parent"
+    ],
     "correct": 1,
-    "explanation": "Down syndrome is linked to Trisomy 21. The other conditions have different inheritance patterns or karyotypes."
+    "explanation": "Imprinted genes have parent-of-origin-specific expression determined by epigenetic marks (DNA methylation, histone modification) established in the germ line. IGF2 (insulin-like growth factor 2) is expressed from the paternal allele; H19 from the maternal. Prader-Willi syndrome (loss of paternal 15q11-q13) and Angelman syndrome (loss of maternal 15q11-q13) are classic imprinting disorders affecting the same chromosomal region.",
+    "tags": [
+      "genetics",
+      "imprinting",
+      "epigenetics"
+    ],
+    "difficulty": "hard"
   },
   {
-    "text": "Which amino acid has a amide side chain and is classified as polar?",
+    "text": "What is the significance of Mendel's law of independent assortment?",
     "options": [
-      "Glycine",
-      "Alanine",
-      "Valine",
-      "Asparagine"
+      "Dominant alleles are always inherited over recessive alleles",
+      "Alleles of different genes on different chromosomes are inherited independently of one another",
+      "Alleles are always inherited in the same combination as the parent",
+      "All alleles of a single gene are inherited together"
+    ],
+    "correct": 1,
+    "explanation": "Independent assortment (Mendel's second law): alleles at different loci (on different chromosomes or far apart on the same chromosome) are distributed to gametes independently. This is the basis for dihybrid crosses producing 9:3:3:1 ratios. Genes linked on the same chromosome violate this law unless separated by recombination.",
+    "tags": [
+      "genetics",
+      "Mendel's laws",
+      "independent assortment"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A female with X-linked red-green colorblindness (XᵃXᵃ) has children with a normal male (XᴬY). What fraction of their daughters will have colorblindness?",
+    "options": [
+      "1/4",
+      "1/2",
+      "All daughters are colorblind",
+      "0 (all daughters are carriers, none are colorblind)"
     ],
     "correct": 3,
-    "explanation": "Asparagine is a polar amino acid with a amide side chain. The options differ in both side chain chemistry and structural properties."
-  },
-  {
-    "text": "Which enzyme catalyzes the step F6P → F1,6BP and is activated by AMP, inhibited by ATP?",
-    "options": [
-      "Phosphofructokinase-1",
-      "Hexokinase",
-      "Glucose-6-phosphatase",
-      "Pyruvate kinase"
+    "explanation": "Mother: XᵃXᵃ (affected). Father: XᴬY. All daughters receive Xᵃ from mother and Xᴬ from father → all daughters are XᴬXᵃ (carriers, not affected). All sons receive Xᵃ from mother and Y from father → all sons are XᵃY (affected). 0 daughters are colorblind in this cross.",
+    "tags": [
+      "genetics",
+      "X-linked",
+      "colorblindness"
     ],
-    "correct": 0,
-    "explanation": "Phosphofructokinase-1 catalyzes F6P → F1,6BP. It is activated by AMP, inhibited by ATP. The other enzymes listed catalyze different metabolic steps."
+    "difficulty": "medium"
   },
   {
-    "text": "The conversion of glucose to G6P depends on which cofactor?",
+    "text": "Genetic linkage means that genes on the same chromosome:",
     "options": [
-      "ATP",
-      "pyruvate",
-      "F6P",
-      "OAA"
+      "Have identical allele frequencies in a population",
+      "Tend to be inherited together; recombination frequency between them reflects map distance (1 cM = 1% recombination)",
+      "Cannot recombine under any circumstances",
+      "Are always co-expressed in the same cell"
     ],
-    "correct": 0,
-    "explanation": "G6P production from glucose depends on ATP. The distractors are cofactors used in other pathways."
-  },
-  {
-    "text": "Which organelle is best known for protein synthesis for secretion and membrane insertion?",
-    "options": [
-      "protein modification and sorting",
-      "ATP production by oxidative phosphorylation",
-      "lipid synthesis and detoxification",
-      "Rough ER"
+    "correct": 1,
+    "explanation": "Linked genes violate independent assortment. Recombination (crossing over during meiosis I) creates new combinations (recombinant gametes). Recombination frequency is used to construct genetic maps: 1 centimorgan (cM) = 1% recombination frequency ≈ 1 Mb (roughly). Genes <50 cM apart are linked; genes >50 cM apart (or on different chromosomes) assort independently.",
+    "tags": [
+      "genetics",
+      "genetic linkage",
+      "recombination"
     ],
-    "correct": 3,
-    "explanation": "Rough ER is responsible for protein synthesis for secretion and membrane insertion. The other organelles have different major functions."
+    "difficulty": "medium"
   },
   {
-    "text": "Which hormone increases gluconeogenesis and glycogenolysis?",
+    "text": "Which type of membrane transport allows Na+ to move from high concentration (outside) to low concentration (inside) the cell?",
     "options": [
-      "Glucagon",
-      "increases sodium reabsorption and potassium secretion",
-      "stimulates glycogen breakdown and lipolysis",
-      "increases glucose uptake and glycogen synthesis"
-    ],
-    "correct": 0,
-    "explanation": "Glucagon increases gluconeogenesis and glycogenolysis. The distractor hormones produce different physiological effects."
-  },
-  {
-    "text": "Which condition is associated with 45,X?",
-    "options": [
-      "Hemophilia A",
-      "Klinefelter syndrome",
-      "Turner syndrome",
-      "Down syndrome"
+      "Endocytosis",
+      "Primary active transport",
+      "Facilitated diffusion via ion channels (passive)",
+      "Secondary active transport"
     ],
     "correct": 2,
-    "explanation": "Turner syndrome is linked to 45,X. The other conditions have different inheritance patterns or karyotypes."
+    "explanation": "Na+ has high extracellular (~145 mM) and low intracellular (~12 mM) concentration, creating a large inward driving force. Na+ flows down its concentration AND electrical gradient (inside negative) via ion channels (facilitated diffusion) — no energy required. The Na+/K+ ATPase maintains this gradient using ATP (primary active transport).",
+    "tags": [
+      "cell biology",
+      "membrane transport"
+    ],
+    "difficulty": "easy"
   },
   {
-    "text": "Which amino acid has a larger amide side chain and is classified as polar?",
+    "text": "The Na+/K+ ATPase pumps per cycle:",
     "options": [
-      "Valine",
-      "Glutamine",
-      "Glycine",
-      "Alanine"
+      "Equal amounts of Na+ and K+ in opposite directions",
+      "3 Na+ out and 2 K+ in, hydrolyzing 1 ATP",
+      "2 Na+ out and 3 K+ in",
+      "Only Na+ out, no K+ movement"
     ],
     "correct": 1,
-    "explanation": "Glutamine is a polar amino acid with a larger amide side chain. The options differ in both side chain chemistry and structural properties."
-  },
-  {
-    "text": "Which enzyme catalyzes the step PEP → pyruvate and is activated by F1,6BP, inhibited by ATP?",
-    "options": [
-      "Pyruvate kinase",
-      "Hexokinase",
-      "Glucose-6-phosphatase",
-      "Phosphofructokinase-1"
+    "explanation": "Na+/K+ ATPase (P-type ATPase) per cycle: 3 Na+ exported out + 2 K+ imported in + 1 ATP hydrolyzed. Net charge movement: 3(+) out and 2(+) in = net 1(+) charge out → electrogenic (contributes slightly to negative resting membrane potential). This pump accounts for ~20-30% of basal ATP consumption in cells.",
+    "tags": [
+      "cell biology",
+      "Na/K ATPase"
     ],
-    "correct": 0,
-    "explanation": "Pyruvate kinase catalyzes PEP → pyruvate. It is activated by F1,6BP, inhibited by ATP. The other enzymes listed catalyze different metabolic steps."
+    "difficulty": "easy"
   },
   {
-    "text": "The conversion of F6P to F1,6BP depends on which cofactor?",
+    "text": "Tight junctions between epithelial cells primarily function to:",
     "options": [
-      "glucose",
-      "OAA",
-      "pyruvate",
-      "ATP"
+      "Anchor the cytoskeleton to the ECM",
+      "Provide mechanical adhesion between cells",
+      "Facilitate rapid communication between adjacent cells",
+      "Create a paracellular seal that prevents movement of solutes between cells, maintaining epithelial polarity"
     ],
     "correct": 3,
-    "explanation": "F1,6BP production from F6P depends on ATP. The distractors are cofactors used in other pathways."
+    "explanation": "Tight junctions (zonula occludens, made of claudins, occludins, ZO proteins) seal adjacent epithelial cells, preventing paracellular diffusion of ions and molecules. They also maintain membrane polarity by preventing lateral diffusion of membrane proteins between apical and basolateral domains. The 'fence' and 'gate' functions. Desmosomes provide mechanical strength; gap junctions allow communication; integrins anchor to ECM.",
+    "tags": [
+      "cell biology",
+      "cell junctions",
+      "epithelium"
+    ],
+    "difficulty": "medium"
   },
   {
-    "text": "Which organelle is best known for lipid synthesis and detoxification?",
+    "text": "The endosome-lysosome pathway processes materials taken up by endocytosis. Which enzyme activates lysosomal hydrolases by making the lumen acidic?",
     "options": [
-      "ATP production by oxidative phosphorylation",
-      "protein modification and sorting",
-      "Smooth ER",
-      "protein synthesis for secretion and membrane insertion"
+      "Na+/K+ ATPase",
+      "Cytochrome c oxidase",
+      "V-type H+ ATPase (vacuolar proton pump)",
+      "Carbonic anhydrase"
     ],
     "correct": 2,
-    "explanation": "Smooth ER is responsible for lipid synthesis and detoxification. The other organelles have different major functions."
+    "explanation": "Lysosomes maintain pH ~4.5–5.0 through V-type H+ ATPase (uses ATP to pump H+ into the lumen). This acidic environment is required for the activity of ~50+ lysosomal hydrolases (proteases, lipases, nucleases, glycosidases). Chloroquine/hydroxychloroquine work by raising lysosomal pH, disrupting pathogen degradation.",
+    "tags": [
+      "cell biology",
+      "lysosomes",
+      "vesicle trafficking"
+    ],
+    "difficulty": "medium"
   },
   {
-    "text": "Which hormone stimulates glycogen breakdown and lipolysis?",
+    "text": "Receptor tyrosine kinases (RTKs) transmit signals by:",
     "options": [
-      "increases glucose uptake and glycogen synthesis",
-      "increases sodium reabsorption and potassium secretion",
-      "Epinephrine",
-      "increases gluconeogenesis and glycogenolysis"
+      "Ligand stimulates adenylyl cyclase directly",
+      "Ligand binding activates associated trimeric G proteins",
+      "Ligand binding causes dimerization and autophosphorylation of tyrosine residues, creating docking sites for SH2 domain-containing signaling proteins",
+      "Ligand-receptor complex translocates to the nucleus to act as transcription factor"
     ],
     "correct": 2,
-    "explanation": "Epinephrine stimulates glycogen breakdown and lipolysis. The distractor hormones produce different physiological effects."
+    "explanation": "RTK signaling: ligand (e.g., EGF, PDGF, insulin) binds extracellular domain → RTK dimerizes → trans-autophosphorylation of tyrosine residues in the intracellular domain → phosphotyrosines serve as docking sites for SH2-domain proteins (Grb2, PI3K, PLC-gamma, Shp2) → activate downstream cascades (Ras-MAPK, PI3K-Akt, PLC-PKC). Mutated/amplified RTKs are oncogenes in cancer.",
+    "tags": [
+      "cell biology",
+      "signal transduction",
+      "RTK"
+    ],
+    "difficulty": "hard"
   },
   {
-    "text": "Which condition is associated with 47,XXY?",
+    "text": "G-protein coupled receptors (GPCRs) signal through trimeric G proteins. In the inactive state, the G protein:",
     "options": [
-      "Hemophilia A",
-      "Turner syndrome",
-      "Down syndrome",
-      "Klinefelter syndrome"
+      "Has GDP bound to the alpha subunit and the alpha-beta-gamma trimer is intact",
+      "Is constitutively active",
+      "Is free of any nucleotide",
+      "Has GTP bound to the alpha subunit and is dissociated"
+    ],
+    "correct": 0,
+    "explanation": "Inactive GPCR: trimeric G protein (alpha-beta-gamma) has GDP bound to alpha subunit. Ligand binds GPCR → conformational change → GPCR acts as GEF, causing GDP-GTP exchange in alpha subunit → alpha-GTP dissociates from beta-gamma → each activates downstream effectors (adenylyl cyclase for Gs, PLC for Gq, adenylyl cyclase inhibition for Gi). GTPase activity of alpha subunit returns to inactive GDP state.",
+    "tags": [
+      "cell biology",
+      "GPCR",
+      "signal transduction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The cell cycle checkpoint at the G1/S boundary (restriction point) monitors:",
+    "options": [
+      "DNA replication completion and accurate chromosome alignment",
+      "DNA integrity and sufficient cell size/growth factors before committing to DNA replication",
+      "Spindle assembly and chromosome attachment to kinetochores",
+      "Sister chromatid cohesion before anaphase"
+    ],
+    "correct": 1,
+    "explanation": "The G1/S checkpoint (restriction point in mammals) is the key decision point for cell division. Rb (retinoblastoma protein) inhibits E2F transcription factors (needed for S-phase entry). When growth factor signaling drives cyclin D/CDK4,6 activity → phosphorylates Rb → releases E2F → S-phase entry. DNA damage activates p53 → p21 → inhibits CDK4,6/cyclin D → cell cycle arrest.",
+    "tags": [
+      "cell biology",
+      "cell cycle",
+      "checkpoints"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Mitosis produces daughter cells that are:",
+    "options": [
+      "Haploid with half the genetic material",
+      "Cells with random chromosome number",
+      "Cells that have undergone meiotic recombination",
+      "Genetically identical to the parent cell (diploid cells producing two diploid daughters)"
     ],
     "correct": 3,
-    "explanation": "Klinefelter syndrome is linked to 47,XXY. The other conditions have different inheritance patterns or karyotypes."
+    "explanation": "Mitosis is cell division for growth, repair, and asexual reproduction. It produces two genetically identical daughter cells, each with the same chromosome number as the parent cell (2n → 2n in diploid organisms). Meiosis, by contrast, produces four haploid (n) cells with genetic variation from recombination and independent assortment, for sexual reproduction.",
+    "tags": [
+      "cell biology",
+      "mitosis",
+      "cell division"
+    ],
+    "difficulty": "easy"
   },
   {
-    "text": "Which amino acid has a negative charged side chain and is classified as acidic?",
+    "text": "During the S phase of interphase:",
     "options": [
-      "Glycine",
-      "Alanine",
-      "Aspartate",
-      "Valine"
+      "Sister chromatids separate to opposite poles",
+      "Chromosomes condense and the spindle forms",
+      "The cell prepares for division by synthesizing cyclins",
+      "DNA is replicated (each chromosome is duplicated to form two sister chromatids joined at the centromere)"
+    ],
+    "correct": 3,
+    "explanation": "S (synthesis) phase: all chromosomal DNA is replicated semiconservatively, producing identical sister chromatids joined at the centromere by cohesin. DNA content doubles from 2C to 4C. After S: G2 phase (growth and preparation) → M phase (mitosis: prophase, prometaphase, metaphase, anaphase, telophase, cytokinesis).",
+    "tags": [
+      "cell biology",
+      "cell cycle",
+      "DNA replication"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The unfolded protein response (UPR) is triggered by:",
+    "options": [
+      "Misfolded proteins in the cytoplasm",
+      "Ribosome stalling during translation",
+      "Accumulation of misfolded proteins in the ER lumen, which activates sensors (IRE1, PERK, ATF6)",
+      "Depletion of ER Ca2+ stores only"
     ],
     "correct": 2,
-    "explanation": "Aspartate is a acidic amino acid with a negative charged side chain. The options differ in both side chain chemistry and structural properties."
-  },
-  {
-    "text": "Which enzyme catalyzes the step G6P → glucose and is active in gluconeogenesis?",
-    "options": [
-      "Pyruvate kinase",
-      "Phosphofructokinase-1",
-      "Hexokinase",
-      "Glucose-6-phosphatase"
+    "explanation": "ER stress: misfolded proteins accumulate in the ER → BiP (Hsp70 chaperone) is titrated away from UPR sensors IRE1, PERK, ATF6 → sensors activate → UPR responses: increased chaperone synthesis, reduced global translation, ERAD (ER-associated degradation). If UPR cannot resolve ER stress, apoptosis ensues (via CHOP transcription factor). UPR is implicated in diabetes, neurodegeneration, and cancer.",
+    "tags": [
+      "cell biology",
+      "ER stress",
+      "unfolded protein response"
     ],
-    "correct": 3,
-    "explanation": "Glucose-6-phosphatase catalyzes G6P → glucose. It is active in gluconeogenesis. The other enzymes listed catalyze different metabolic steps."
+    "difficulty": "hard"
   },
   {
-    "text": "The conversion of OAA to citrate depends on which cofactor?",
+    "text": "The resting membrane potential of a neuron (~–70 mV) is primarily maintained by:",
     "options": [
-      "acetyl-CoA",
-      "pyruvate",
-      "F6P",
-      "glucose"
-    ],
-    "correct": 0,
-    "explanation": "citrate production from OAA depends on acetyl-CoA. The distractors are cofactors used in other pathways."
-  },
-  {
-    "text": "Which organelle is best known for protein modification and sorting?",
-    "options": [
-      "Golgi apparatus",
-      "lipid synthesis and detoxification",
-      "ATP production by oxidative phosphorylation",
-      "protein synthesis for secretion and membrane insertion"
-    ],
-    "correct": 0,
-    "explanation": "Golgi apparatus is responsible for protein modification and sorting. The other organelles have different major functions."
-  },
-  {
-    "text": "Which hormone increases sodium reabsorption and potassium secretion?",
-    "options": [
-      "stimulates glycogen breakdown and lipolysis",
-      "Aldosterone",
-      "increases glucose uptake and glycogen synthesis",
-      "increases gluconeogenesis and glycogenolysis"
+      "Chloride pumps actively removing Cl-",
+      "High intracellular K+ and leak channels; Na+/K+ ATPase maintains ion gradients",
+      "High intracellular Na+ and voltage-gated Na+ channels",
+      "Equal concentrations of all ions inside and outside"
     ],
     "correct": 1,
-    "explanation": "Aldosterone increases sodium reabsorption and potassium secretion. The distractor hormones produce different physiological effects."
-  },
-  {
-    "text": "Which condition is associated with X-linked recessive?",
-    "options": [
-      "Klinefelter syndrome",
-      "Turner syndrome",
-      "Down syndrome",
-      "Hemophilia A"
+    "explanation": "The resting membrane potential is set mainly by K+ permeability (K+ leak channels) and the K+ electrochemical equilibrium (Nernst potential for K+ ≈ –90 mV). Selective permeability to K+ and impermeability to Na+ (at rest) creates the negative interior. Na+/K+ ATPase maintains the gradients over time but contributes little directly to the resting potential (~–3 mV from electrogenic pumping).",
+    "tags": [
+      "neuroscience",
+      "membrane potential"
     ],
-    "correct": 3,
-    "explanation": "Hemophilia A is linked to X-linked recessive. The other conditions have different inheritance patterns or karyotypes."
+    "difficulty": "medium"
   },
   {
-    "text": "Which amino acid has a acidic side chain with extra methylene and is classified as acidic?",
+    "text": "An action potential is propagated along an axon because:",
     "options": [
-      "Alanine",
-      "Glycine",
-      "Valine",
-      "Glutamate"
-    ],
-    "correct": 3,
-    "explanation": "Glutamate is a acidic amino acid with a acidic side chain with extra methylene. The options differ in both side chain chemistry and structural properties."
-  },
-  {
-    "text": "Which enzyme catalyzes the step pyruvate → OAA and is activated by acetyl-CoA?",
-    "options": [
-      "Pyruvate carboxylase",
-      "Hexokinase",
-      "Phosphofructokinase-1",
-      "Pyruvate kinase"
-    ],
-    "correct": 0,
-    "explanation": "Pyruvate carboxylase catalyzes pyruvate → OAA. It is activated by acetyl-CoA. The other enzymes listed catalyze different metabolic steps."
-  },
-  {
-    "text": "The conversion of succinate to fumarate depends on which cofactor?",
-    "options": [
-      "F6P",
-      "glucose",
-      "pyruvate",
-      "FAD"
-    ],
-    "correct": 3,
-    "explanation": "fumarate production from succinate depends on FAD. The distractors are cofactors used in other pathways."
-  },
-  {
-    "text": "Which organelle is best known for degrades macromolecules and recycles organelles?",
-    "options": [
-      "lipid synthesis and detoxification",
-      "protein synthesis for secretion and membrane insertion",
-      "ATP production by oxidative phosphorylation",
-      "Lysosome"
-    ],
-    "correct": 3,
-    "explanation": "Lysosome is responsible for degrades macromolecules and recycles organelles. The other organelles have different major functions."
-  },
-  {
-    "text": "Which hormone increases water reabsorption in the collecting duct?",
-    "options": [
-      "ADH",
-      "increases glucose uptake and glycogen synthesis",
-      "increases gluconeogenesis and glycogenolysis",
-      "stimulates glycogen breakdown and lipolysis"
-    ],
-    "correct": 0,
-    "explanation": "ADH increases water reabsorption in the collecting duct. The distractor hormones produce different physiological effects."
-  },
-  {
-    "text": "Which condition is associated with X-linked recessive?",
-    "options": [
-      "Turner syndrome",
-      "Duchenne muscular dystrophy",
-      "Klinefelter syndrome",
-      "Down syndrome"
-    ],
-    "correct": 1,
-    "explanation": "Duchenne muscular dystrophy is linked to X-linked recessive. The other conditions have different inheritance patterns or karyotypes."
-  },
-  {
-    "text": "Which amino acid has a basic side chain with terminal amino group and is classified as basic?",
-    "options": [
-      "Lysine",
-      "Glycine",
-      "Alanine",
-      "Valine"
-    ],
-    "correct": 0,
-    "explanation": "Lysine is a basic amino acid with a basic side chain with terminal amino group. The options differ in both side chain chemistry and structural properties."
-  },
-  {
-    "text": "Which enzyme catalyzes the step OAA → PEP and is requires GTP?",
-    "options": [
-      "Pyruvate kinase",
-      "Phosphofructokinase-1",
-      "Hexokinase",
-      "PEPCK"
-    ],
-    "correct": 3,
-    "explanation": "PEPCK catalyzes OAA → PEP. It is requires GTP. The other enzymes listed catalyze different metabolic steps."
-  },
-  {
-    "text": "The conversion of malate to OAA depends on which cofactor?",
-    "options": [
-      "F6P",
-      "NAD+",
-      "pyruvate",
-      "glucose"
-    ],
-    "correct": 1,
-    "explanation": "OAA production from malate depends on NAD+. The distractors are cofactors used in other pathways."
-  },
-  {
-    "text": "Which organelle is best known for oxidizes very long chain fatty acids and detoxifies H2O2?",
-    "options": [
-      "Peroxisome",
-      "ATP production by oxidative phosphorylation",
-      "protein synthesis for secretion and membrane insertion",
-      "lipid synthesis and detoxification"
-    ],
-    "correct": 0,
-    "explanation": "Peroxisome is responsible for oxidizes very long chain fatty acids and detoxifies H2O2. The other organelles have different major functions."
-  },
-  {
-    "text": "Which hormone increases basal metabolic rate?",
-    "options": [
-      "stimulates glycogen breakdown and lipolysis",
-      "increases gluconeogenesis and glycogenolysis",
-      "increases glucose uptake and glycogen synthesis",
-      "Thyroxine"
-    ],
-    "correct": 3,
-    "explanation": "Thyroxine increases basal metabolic rate. The distractor hormones produce different physiological effects."
-  },
-  {
-    "text": "Which condition is associated with Autosomal recessive?",
-    "options": [
-      "Klinefelter syndrome",
-      "Turner syndrome",
-      "Down syndrome",
-      "Cystic fibrosis"
-    ],
-    "correct": 3,
-    "explanation": "Cystic fibrosis is linked to Autosomal recessive. The other conditions have different inheritance patterns or karyotypes."
-  },
-  {
-    "text": "Which amino acid has a most basic guanidinium side chain and is classified as basic?",
-    "options": [
-      "Arginine",
-      "Glycine",
-      "Alanine",
-      "Valine"
-    ],
-    "correct": 0,
-    "explanation": "Arginine is a basic amino acid with a most basic guanidinium side chain. The options differ in both side chain chemistry and structural properties."
-  },
-  {
-    "text": "Which enzyme catalyzes the step glucose → G6P and is inhibited by G6P?",
-    "options": [
-      "Pyruvate kinase",
-      "Phosphofructokinase-1",
-      "Glucose-6-phosphatase",
-      "Hexokinase"
-    ],
-    "correct": 3,
-    "explanation": "Hexokinase catalyzes glucose → G6P. It is inhibited by G6P. The other enzymes listed catalyze different metabolic steps."
-  },
-  {
-    "text": "The conversion of pyruvate to acetyl-CoA depends on which cofactor?",
-    "options": [
-      "thiamine",
-      "glucose",
-      "F6P",
-      "OAA"
-    ],
-    "correct": 0,
-    "explanation": "acetyl-CoA production from pyruvate depends on thiamine. The distractors are cofactors used in other pathways."
-  },
-  {
-    "text": "Which organelle is best known for ATP production by oxidative phosphorylation?",
-    "options": [
-      "Mitochondria",
-      "lipid synthesis and detoxification",
-      "protein modification and sorting",
-      "protein synthesis for secretion and membrane insertion"
-    ],
-    "correct": 0,
-    "explanation": "Mitochondria is responsible for ATP production by oxidative phosphorylation. The other organelles have different major functions."
-  },
-  {
-    "text": "Which hormone increases glucose uptake and glycogen synthesis?",
-    "options": [
-      "Insulin",
-      "increases gluconeogenesis and glycogenolysis",
-      "stimulates glycogen breakdown and lipolysis",
-      "increases sodium reabsorption and potassium secretion"
-    ],
-    "correct": 0,
-    "explanation": "Insulin increases glucose uptake and glycogen synthesis. The distractor hormones produce different physiological effects."
-  },
-  {
-    "text": "Which condition is associated with Trisomy 21?",
-    "options": [
-      "Klinefelter syndrome",
-      "Turner syndrome",
-      "Hemophilia A",
-      "Down syndrome"
-    ],
-    "correct": 3,
-    "explanation": "Down syndrome is linked to Trisomy 21. The other conditions have different inheritance patterns or karyotypes."
-  },
-  {
-    "text": "Which amino acid has a imidazole side chain with pKa near physiological pH and is classified as basic?",
-    "options": [
-      "Glycine",
-      "Histidine",
-      "Valine",
-      "Alanine"
-    ],
-    "correct": 1,
-    "explanation": "Histidine is a basic amino acid with a imidazole side chain with pKa near physiological pH. The options differ in both side chain chemistry and structural properties."
-  },
-  {
-    "text": "Which enzyme catalyzes the step F6P → F1,6BP and is activated by AMP, inhibited by ATP?",
-    "options": [
-      "Glucose-6-phosphatase",
-      "Pyruvate kinase",
-      "Hexokinase",
-      "Phosphofructokinase-1"
-    ],
-    "correct": 3,
-    "explanation": "Phosphofructokinase-1 catalyzes F6P → F1,6BP. It is activated by AMP, inhibited by ATP. The other enzymes listed catalyze different metabolic steps."
-  },
-  {
-    "text": "The conversion of glucose to G6P depends on which cofactor?",
-    "options": [
-      "pyruvate",
-      "F6P",
-      "ATP",
-      "OAA"
+      "Neurotransmitter release propagates the signal",
+      "Calcium influx triggers membrane depolarization sequentially",
+      "Depolarization at one node spreads current that depolarizes adjacent membrane, triggering sodium channel opening in the next segment",
+      "Gap junctions directly connect adjacent axon segments"
     ],
     "correct": 2,
-    "explanation": "G6P production from glucose depends on ATP. The distractors are cofactors used in other pathways."
-  },
-  {
-    "text": "Which organelle is best known for protein synthesis for secretion and membrane insertion?",
-    "options": [
-      "protein modification and sorting",
-      "Rough ER",
-      "ATP production by oxidative phosphorylation",
-      "lipid synthesis and detoxification"
+    "explanation": "Local circuit currents flow from the depolarized region (inside positive) to adjacent resting regions (inside negative). This depolarizes the adjacent membrane to threshold, triggering opening of voltage-gated Na+ channels and a new action potential. In myelinated axons (Schwann cells/oligodendrocytes), APs jump between nodes of Ranvier (saltatory conduction), greatly increasing speed.",
+    "tags": [
+      "neuroscience",
+      "action potential",
+      "axon conduction"
     ],
-    "correct": 1,
-    "explanation": "Rough ER is responsible for protein synthesis for secretion and membrane insertion. The other organelles have different major functions."
+    "difficulty": "medium"
   }
 ]

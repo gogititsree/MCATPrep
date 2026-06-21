@@ -75,7 +75,7 @@
       "Direct experience with the behavior"
     ],
     "correct": 3,
-    "explanation": "Bandura identified four components of observational learning: attention, retention, reproduction, and motivation. Direct personal experience is NOT required — observational learning occurs by watching others, which is why it is also called vicarious learning.",
+    "explanation": "Bandura identified four components of observational learning: attention, retention, reproduction, and motivation. Direct personal experience is NOT required \u2014 observational learning occurs by watching others, which is why it is also called vicarious learning.",
     "tags": [
       "learning",
       "social-learning",
@@ -125,7 +125,7 @@
       "Beginning of a list only"
     ],
     "correct": 2,
-    "explanation": "The serial position effect consists of the primacy effect (better recall for early items — they transferred to long-term memory) and the recency effect (better recall for last items — still in working memory). Middle items are recalled worst.",
+    "explanation": "The serial position effect consists of the primacy effect (better recall for early items \u2014 they transferred to long-term memory) and the recency effect (better recall for last items \u2014 still in working memory). Middle items are recalled worst.",
     "tags": [
       "memory",
       "serial-position",
@@ -272,13 +272,13 @@
   {
     "text": "According to Piaget, object permanence is acquired during the:",
     "options": [
-      "Preoperational stage (2–7 years)",
+      "Preoperational stage (2\u20137 years)",
       "Formal operational stage (12+ years)",
-      "Concrete operational stage (7–12 years)",
-      "Sensorimotor stage (birth–2 years)"
+      "Concrete operational stage (7\u201312 years)",
+      "Sensorimotor stage (birth\u20132 years)"
     ],
     "correct": 3,
-    "explanation": "Object permanence — the understanding that objects continue to exist even when out of sight — is the key achievement of the sensorimotor stage. Before ~8 months, infants act as if hidden objects cease to exist.",
+    "explanation": "Object permanence \u2014 the understanding that objects continue to exist even when out of sight \u2014 is the key achievement of the sensorimotor stage. Before ~8 months, infants act as if hidden objects cease to exist.",
     "tags": [
       "development",
       "piaget",
@@ -295,7 +295,7 @@
       "Sensorimotor stage"
     ],
     "correct": 2,
-    "explanation": "Children in the preoperational stage lack conservation (they are fooled by appearance). In the concrete operational stage (~7–12 years), children master conservation of number, mass, volume, and liquid, showing logical thinking about concrete objects.",
+    "explanation": "Children in the preoperational stage lack conservation (they are fooled by appearance). In the concrete operational stage (~7\u201312 years), children master conservation of number, mass, volume, and liquid, showing logical thinking about concrete objects.",
     "tags": [
       "development",
       "piaget",
@@ -346,7 +346,7 @@
       "Late adulthood"
     ],
     "correct": 0,
-    "explanation": "Generativity vs. Stagnation is Erikson's seventh stage (middle adulthood, ~40–65 years). Generativity involves contributing to society and guiding the next generation. Those who fail to find this purpose stagnate and feel disconnected.",
+    "explanation": "Generativity vs. Stagnation is Erikson's seventh stage (middle adulthood, ~40\u201365 years). Generativity involves contributing to society and guiding the next generation. Those who fail to find this purpose stagnate and feel disconnected.",
     "tags": [
       "development",
       "erikson",
@@ -363,7 +363,7 @@
       "No distress when caregiver leaves and avoidance upon return"
     ],
     "correct": 0,
-    "explanation": "Secure attachment (type B): infants are distressed when the caregiver leaves (not indifferent), and they are easily comforted upon return. They use the caregiver as a safe base for exploration. This is the most common attachment style (~60–65%).",
+    "explanation": "Secure attachment (type B): infants are distressed when the caregiver leaves (not indifferent), and they are easily comforted upon return. They use the caregiver as a safe base for exploration. This is the most common attachment style (~60\u201365%).",
     "tags": [
       "development",
       "attachment",
@@ -397,7 +397,7 @@
       "Esteem needs (recognition and status)"
     ],
     "correct": 2,
-    "explanation": "Maslow's hierarchy (bottom to top): physiological → safety → belongingness/love → esteem → self-actualization. Self-actualization is the highest level, representing the fulfillment of one's unique potential and the pursuit of personal growth.",
+    "explanation": "Maslow's hierarchy (bottom to top): physiological \u2192 safety \u2192 belongingness/love \u2192 esteem \u2192 self-actualization. Self-actualization is the highest level, representing the fulfillment of one's unique potential and the pursuit of personal growth.",
     "tags": [
       "motivation",
       "maslow",
@@ -414,7 +414,7 @@
       "The thalamus simultaneously sends signals to cortex and body"
     ],
     "correct": 1,
-    "explanation": "James-Lange theory: perception of a stimulus → physiological response → emotional experience. 'We are afraid because we run' (not 'we run because we are afraid'). Cannon-Bard challenged this, arguing arousal and emotion are simultaneous.",
+    "explanation": "James-Lange theory: perception of a stimulus \u2192 physiological response \u2192 emotional experience. 'We are afraid because we run' (not 'we run because we are afraid'). Cannon-Bard challenged this, arguing arousal and emotion are simultaneous.",
     "tags": [
       "emotion",
       "james-lange",
@@ -442,10 +442,10 @@
   {
     "text": "Freud's concept of the id operates according to the:",
     "options": [
-      "Rationality principle — logical problem-solving",
-      "Morality principle — applying ethical standards",
-      "Reality principle — negotiating with the external world",
-      "Pleasure principle — seeking immediate gratification"
+      "Rationality principle \u2014 logical problem-solving",
+      "Morality principle \u2014 applying ethical standards",
+      "Reality principle \u2014 negotiating with the external world",
+      "Pleasure principle \u2014 seeking immediate gratification"
     ],
     "correct": 3,
     "explanation": "Freud's psychoanalytic theory: the id is the primitive, unconscious part of the mind that operates on the pleasure principle (seeking immediate gratification of instincts). The ego operates on the reality principle, and the superego represents internalized moral standards.",
@@ -511,13 +511,13 @@
   {
     "text": "Major depressive disorder (MDD) is characterized by the presence of:",
     "options": [
-      "Persistent mild depressive symptoms for ≥2 years",
-      "Depressed mood or anhedonia most of the day for ≥2 weeks, plus additional symptoms",
+      "Persistent mild depressive symptoms for \u22652 years",
+      "Depressed mood or anhedonia most of the day for \u22652 weeks, plus additional symptoms",
       "Psychotic features required for diagnosis",
       "Discrete episodes of both mania and depression"
     ],
     "correct": 1,
-    "explanation": "DSM-5 criteria for MDD require ≥5 symptoms during a 2-week period, including depressed mood or anhedonia (loss of pleasure), plus symptoms like changes in sleep/appetite/weight, fatigue, worthlessness, concentration difficulties, and suicidal ideation.",
+    "explanation": "DSM-5 criteria for MDD require \u22655 symptoms during a 2-week period, including depressed mood or anhedonia (loss of pleasure), plus symptoms like changes in sleep/appetite/weight, fatigue, worthlessness, concentration difficulties, and suicidal ideation.",
     "tags": [
       "psychopathology",
       "depression",
@@ -534,7 +534,7 @@
       "Purely biological factors"
     ],
     "correct": 0,
-    "explanation": "The diathesis-stress model: individuals have varying biological vulnerabilities (diathesis — genetic, neurological). Disorders develop when this vulnerability combines with sufficient environmental stress. This biopsychosocial framework underlies much of modern psychopathology.",
+    "explanation": "The diathesis-stress model: individuals have varying biological vulnerabilities (diathesis \u2014 genetic, neurological). Disorders develop when this vulnerability combines with sufficient environmental stress. This biopsychosocial framework underlies much of modern psychopathology.",
     "tags": [
       "psychopathology",
       "diathesis-stress",
@@ -602,7 +602,7 @@
       "Experience discomfort and change their attitude or behavior to reduce the inconsistency"
     ],
     "correct": 3,
-    "explanation": "Cognitive dissonance is the discomfort arising from holding contradictory cognitions (attitude vs. behavior). People are motivated to reduce dissonance by changing an attitude, changing behavior, or adding new cognitions. Classic study: paid $1 (vs $20) to lie → more attitude change.",
+    "explanation": "Cognitive dissonance is the discomfort arising from holding contradictory cognitions (attitude vs. behavior). People are motivated to reduce dissonance by changing an attitude, changing behavior, or adding new cognitions. Classic study: paid $1 (vs $20) to lie \u2192 more attitude change.",
     "tags": [
       "social-psychology",
       "cognitive-dissonance",
@@ -645,7 +645,7 @@
     "difficulty": "easy"
   },
   {
-    "text": "The bystander effect (Darley & Latané) explains that:",
+    "text": "The bystander effect (Darley & Latan\u00e9) explains that:",
     "options": [
       "More observers means more help is provided",
       "As the number of observers increases, each individual is less likely to help (diffusion of responsibility)",
@@ -789,7 +789,7 @@
       "Multiple social identities (race, gender, class) overlap to create unique experiences of privilege or oppression"
     ],
     "correct": 3,
-    "explanation": "Intersectionality recognizes that race, class, gender, sexuality, disability, and other identities intersect, creating qualitatively different experiences that cannot be reduced to the sum of individual identities. Developed by Kimberlé Crenshaw to address Black women's experiences not captured by race OR gender analysis alone.",
+    "explanation": "Intersectionality recognizes that race, class, gender, sexuality, disability, and other identities intersect, creating qualitatively different experiences that cannot be reduced to the sum of individual identities. Developed by Kimberl\u00e9 Crenshaw to address Black women's experiences not captured by race OR gender analysis alone.",
     "tags": [
       "sociology",
       "intersectionality",
@@ -840,7 +840,7 @@
       "A strong negative relationship: as stress increases, immune function decreases"
     ],
     "correct": 3,
-    "explanation": "Correlation coefficients range from -1 to +1. r = -0.85 is a strong (large magnitude) negative correlation: higher stress is associated with lower immune function. Importantly, correlation does not imply causation — a third variable could explain the relationship.",
+    "explanation": "Correlation coefficients range from -1 to +1. r = -0.85 is a strong (large magnitude) negative correlation: higher stress is associated with lower immune function. Importantly, correlation does not imply causation \u2014 a third variable could explain the relationship.",
     "tags": [
       "research-methods",
       "correlation"
@@ -873,7 +873,7 @@
       "The probability of obtaining results as extreme as observed, assuming the null hypothesis is true"
     ],
     "correct": 3,
-    "explanation": "The p-value is the probability of observing data as extreme as the sample data (or more extreme), given that the null hypothesis is true. A p-value < 0.05 means there is less than a 5% chance of getting these results by chance alone (if H₀ is true).",
+    "explanation": "The p-value is the probability of observing data as extreme as the sample data (or more extreme), given that the null hypothesis is true. A p-value < 0.05 means there is less than a 5% chance of getting these results by chance alone (if H\u2080 is true).",
     "tags": [
       "research-methods",
       "statistics",
@@ -900,13 +900,13 @@
   {
     "text": "The General Adaptation Syndrome (Selye) describes the body's response to stress in stages:",
     "options": [
-      "Alarm → Resistance → Exhaustion",
-      "Alarm → Exhaustion → Recovery",
-      "Resistance → Alarm → Exhaustion",
-      "Exhaustion → Resistance → Alarm"
+      "Alarm \u2192 Resistance \u2192 Exhaustion",
+      "Alarm \u2192 Exhaustion \u2192 Recovery",
+      "Resistance \u2192 Alarm \u2192 Exhaustion",
+      "Exhaustion \u2192 Resistance \u2192 Alarm"
     ],
     "correct": 0,
-    "explanation": "Selye's GAS: (1) Alarm — fight-or-flight activation (HPA axis, sympathetic NS). (2) Resistance — sustained mobilization of resources if stressor persists. (3) Exhaustion — depletion of resources leading to immune suppression, disease, and potential death.",
+    "explanation": "Selye's GAS: (1) Alarm \u2014 fight-or-flight activation (HPA axis, sympathetic NS). (2) Resistance \u2014 sustained mobilization of resources if stressor persists. (3) Exhaustion \u2014 depletion of resources leading to immune suppression, disease, and potential death.",
     "tags": [
       "health-psychology",
       "stress",
@@ -918,12 +918,12 @@
     "text": "Signal detection theory distinguishes between:",
     "options": [
       "Rods and cones in visual detection",
-      "Sensitivity (d') and response criterion (β) as separate components of detection",
+      "Sensitivity (d') and response criterion (\u03b2) as separate components of detection",
       "Top-down and bottom-up processing",
       "Absolute threshold and just-noticeable difference"
     ],
     "correct": 1,
-    "explanation": "Signal Detection Theory (SDT): sensitivity (d') measures the observer's ability to discriminate signal from noise, while criterion (β) reflects response bias (willingness to say yes). This separates true perceptual ability from decision-making tendencies.",
+    "explanation": "Signal Detection Theory (SDT): sensitivity (d') measures the observer's ability to discriminate signal from noise, while criterion (\u03b2) reflects response bias (willingness to say yes). This separates true perceptual ability from decision-making tendencies.",
     "tags": [
       "perception",
       "signal-detection-theory"
@@ -939,7 +939,7 @@
       "Rods in the retina are responsible for color vision"
     ],
     "correct": 0,
-    "explanation": "Young-Helmholtz: three cone types (S, M, L — short, medium, long wavelength). Color perception arises from the relative activation pattern across the three cone types. The opponent process theory (Hering) operates at the ganglion cell level and both theories are needed for complete color vision.",
+    "explanation": "Young-Helmholtz: three cone types (S, M, L \u2014 short, medium, long wavelength). Color perception arises from the relative activation pattern across the three cone types. The opponent process theory (Hering) operates at the ganglion cell level and both theories are needed for complete color vision.",
     "tags": [
       "perception",
       "color-vision",
@@ -996,6 +996,58 @@
       "ltp",
       "synaptic-plasticity",
       "memory"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which neurotransmitter is most directly implicated in Parkinson's disease?",
+    "options": [
+      "GABA",
+      "Dopamine (loss of dopaminergic neurons in substantia nigra)",
+      "Acetylcholine",
+      "Serotonin"
+    ],
+    "correct": 1,
+    "explanation": "Parkinson's disease results from progressive degeneration of dopaminergic neurons in the substantia nigra pars compacta. These neurons project to the striatum (nigrostriatal pathway), and their loss disrupts motor control. Treatment: L-DOPA (dopamine precursor).",
+    "tags": [
+      "biological-psychology",
+      "parkinson",
+      "dopamine",
+      "basal-ganglia"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Broca's area damage results in:",
+    "options": [
+      "Wernicke's aphasia: fluent but meaningless speech",
+      "Alexia: inability to read",
+      "Agrammatism with intact phonology",
+      "Broca's aphasia: nonfluent, halting speech production with intact comprehension"
+    ],
+    "correct": 3,
+    "explanation": "Broca's area (left inferior frontal gyrus) is critical for speech production and grammar. Damage causes Broca's aphasia: labored, telegraphic speech (function words omitted) but relatively preserved comprehension. Wernicke's area damage (left temporal) causes fluent but nonsensical speech with poor comprehension.",
+    "tags": [
+      "language",
+      "brocas-area",
+      "aphasia"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Sapir-Whorf hypothesis (linguistic relativity) proposes that:",
+    "options": [
+      "Grammar is innate (Universal Grammar)",
+      "Language acquisition follows a critical period determined by genetics",
+      "Language influences or determines thought and perception of reality",
+      "Thought is universal and independent of language"
+    ],
+    "correct": 2,
+    "explanation": "Sapir-Whorf: the language we speak shapes how we think about and perceive the world. The strong version (linguistic determinism) claims language determines thought; the weak version (linguistic relativity) claims language influences but does not determine thought. Color perception studies provide mixed evidence.",
+    "tags": [
+      "language",
+      "sapir-whorf",
+      "linguistic-relativity"
     ],
     "difficulty": "medium"
   }

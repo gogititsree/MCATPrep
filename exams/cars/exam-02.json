@@ -1,610 +1,159 @@
 [
   {
-    "passageText": "Passage 4: This passage examines climate justice in a critical voice. It describes major debates, historical context, and theoretical implications while contrasting competing viewpoints in a measured way.",
+    "passageText": "The history of antibiotic resistance illustrates how evolutionary pressures can generate rapid and consequential changes in microbial populations. When Alexander Fleming discovered penicillin in 1928 and mass production began in the 1940s, the drug seemed to offer near-miraculous cures for previously fatal bacterial infections. Within years, however, penicillin-resistant Staphylococcus aureus strains had emerged in hospitals. The development of methicillin in 1960 to combat penicillin-resistant staph was followed, within two years, by the first reports of methicillin-resistant Staphylococcus aureus (MRSA).\n\nThe evolutionary dynamics of resistance are well understood. In any bacterial population, individual cells vary genetically. Antibiotic treatment creates intense selective pressure, eliminating susceptible cells while any cells harboring resistance mechanisms survive and proliferate. Resistance can arise de novo through spontaneous mutation, or can be acquired via horizontal gene transfer — plasmids, transposons, and bacteriophage-mediated transduction can rapidly distribute resistance genes across species boundaries. This horizontal transfer is particularly alarming because it can move resistance determinants between clinically significant pathogens in ways that vertical (parent-to-offspring) evolution alone could not achieve in relevant time frames.\n\nThe problem of antibiotic resistance is compounded by the economics of pharmaceutical development. Antibiotics are taken briefly and must be sold cheaply; return on investment is modest compared to drugs for chronic conditions. The WHO has classified antibiotic resistance as one of the greatest threats to global health, yet the development pipeline for novel antibiotics has thinned dramatically since the 1980s. Several approaches have been proposed: antibiotic stewardship programs to reduce inappropriate use; restrictions on agricultural antibiotic use (antibiotics are used extensively in livestock to promote growth); and new incentive structures for pharmaceutical companies, including market-entry rewards decoupled from sales volume.\n\nSome researchers advocate returning to bacteriophage therapy — using viruses that kill specific bacteria — as an alternative or supplement to antibiotics. Phage therapy was widely used in Eastern Europe and the Soviet Union during the twentieth century but largely abandoned in the West after antibiotics proved more reliable. Modern phage therapy has the advantage of targeting specific pathogens (minimizing collateral damage to the microbiome) but faces regulatory challenges because phage preparations must often be customized for individual patients.",
     "questions": [
       {
-        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "text": "The author uses the example of penicillin and MRSA primarily to:",
         "options": [
-          "The author takes a critical stance toward climate justice and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for climate justice without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than climate justice.",
-          "The author endorses the opposite position on climate justice from the one presented."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a critical tone and centers on climate justice. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's author attitude?",
-        "options": [
-          "The passage focuses mainly on unrelated technical details rather than climate justice.",
-          "The author endorses the opposite position on climate justice from the one presented.",
-          "The author takes a critical stance toward climate justice and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for climate justice without acknowledging limitations."
-        ],
-        "correct": 2,
-        "explanation": "The passage uses a critical tone and centers on climate justice. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's inference?",
-        "options": [
-          "The author strongly advocates for climate justice without acknowledging limitations.",
-          "The author takes a critical stance toward climate justice and emphasizes evidence-based reasoning.",
-          "The author endorses the opposite position on climate justice from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than climate justice."
+          "Criticize Fleming for not anticipating resistance",
+          "Illustrate the speed with which antibiotic resistance can emerge after a new drug's introduction",
+          "Argue that antibiotics should never have been developed",
+          "Explain the chemistry of methicillin"
         ],
         "correct": 1,
-        "explanation": "The passage uses a critical tone and centers on climate justice. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "explanation": "The passage uses the timeline — penicillin in the 1940s, resistance within years; methicillin in 1960, MRSA within two years — to illustrate how quickly resistance evolves. This sets up the broader evolutionary discussion. There is no criticism of Fleming's foresight."
       },
       {
-        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "text": "According to the passage, horizontal gene transfer is particularly alarming in the context of antibiotic resistance because:",
         "options": [
-          "The author endorses the opposite position on climate justice from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than climate justice.",
-          "The author strongly advocates for climate justice without acknowledging limitations.",
-          "The author takes a critical stance toward climate justice and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a critical tone and centers on climate justice. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's assumption?",
-        "options": [
-          "The author takes a critical stance toward climate justice and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for climate justice without acknowledging limitations.",
-          "The author endorses the opposite position on climate justice from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than climate justice."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a critical tone and centers on climate justice. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's application?",
-        "options": [
-          "The author strongly advocates for climate justice without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than climate justice.",
-          "The author endorses the opposite position on climate justice from the one presented.",
-          "The author takes a critical stance toward climate justice and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a critical tone and centers on climate justice. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
-        "options": [
-          "The author endorses the opposite position on climate justice from the one presented.",
-          "The author strongly advocates for climate justice without acknowledging limitations.",
-          "The author takes a critical stance toward climate justice and emphasizes evidence-based reasoning.",
-          "The passage focuses mainly on unrelated technical details rather than climate justice."
-        ],
-        "correct": 2,
-        "explanation": "The passage uses a critical tone and centers on climate justice. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's author attitude?",
-        "options": [
-          "The author takes a critical stance toward climate justice and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for climate justice without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than climate justice.",
-          "The author endorses the opposite position on climate justice from the one presented."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a critical tone and centers on climate justice. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's inference?",
-        "options": [
-          "The passage focuses mainly on unrelated technical details rather than climate justice.",
-          "The author strongly advocates for climate justice without acknowledging limitations.",
-          "The author takes a critical stance toward climate justice and emphasizes evidence-based reasoning.",
-          "The author endorses the opposite position on climate justice from the one presented."
-        ],
-        "correct": 2,
-        "explanation": "The passage uses a critical tone and centers on climate justice. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's evidence support?",
-        "options": [
-          "The author strongly advocates for climate justice without acknowledging limitations.",
-          "The author takes a critical stance toward climate justice and emphasizes evidence-based reasoning.",
-          "The author endorses the opposite position on climate justice from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than climate justice."
+          "It occurs only within a single species",
+          "It allows resistance genes to spread across species boundaries faster than vertical evolution could",
+          "It requires antibiotic exposure to occur",
+          "It only moves resistance genes through bacteriophages"
         ],
         "correct": 1,
-        "explanation": "The passage uses a critical tone and centers on climate justice. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "explanation": "The passage states horizontal transfer 'can move resistance determinants between clinically significant pathogens in ways that vertical evolution alone could not achieve in relevant time frames.' The key concern is cross-species spread at speed that exceeds what mutation and vertical inheritance could accomplish."
       },
       {
-        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "text": "The passage suggests that the thin antibiotic development pipeline results primarily from:",
         "options": [
-          "The author takes a critical stance toward climate justice and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for climate justice without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than climate justice.",
-          "The author endorses the opposite position on climate justice from the one presented."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a critical tone and centers on climate justice. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's application?",
-        "options": [
-          "The author endorses the opposite position on climate justice from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than climate justice.",
-          "The author takes a critical stance toward climate justice and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for climate justice without acknowledging limitations."
+          "A lack of scientific knowledge about new antibiotic targets",
+          "Government regulations preventing clinical trials",
+          "Economic disincentives: antibiotics generate modest returns compared to drugs for chronic conditions",
+          "The success of bacteriophage therapy as an alternative"
         ],
         "correct": 2,
-        "explanation": "The passage uses a critical tone and centers on climate justice. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "explanation": "The passage states: 'Antibiotics are taken briefly and must be sold cheaply; return on investment is modest compared to drugs for chronic conditions.' This economic argument explains the thin pipeline. The passage does not mention regulatory barriers to trials or suggest phage therapy has replaced antibiotics."
       },
       {
-        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "text": "Based on the passage, which of the following is cited as an advantage of bacteriophage therapy over conventional antibiotics?",
         "options": [
-          "The author strongly advocates for climate justice without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than climate justice.",
-          "The author endorses the opposite position on climate justice from the one presented.",
-          "The author takes a critical stance toward climate justice and emphasizes evidence-based reasoning."
+          "Phages are cheaper to produce than antibiotics",
+          "Phages have a broader spectrum of activity than most antibiotics",
+          "Phages target specific pathogens, minimizing disruption to the microbiome",
+          "Phage therapy has been rigorously tested in Western clinical trials"
         ],
-        "correct": 3,
-        "explanation": "The passage uses a critical tone and centers on climate justice. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "correct": 2,
+        "explanation": "The passage explicitly states that modern phage therapy has 'the advantage of targeting specific pathogens (minimizing collateral damage to the microbiome).' The passage does not compare production costs, does not claim broad spectrum activity (in fact the opposite — phages are specific), and notes that phage therapy faces regulatory challenges in the West."
       },
       {
-        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "text": "Which of the following interventions mentioned in the passage addresses resistance at the level of reducing the selective pressure that drives resistance evolution?",
         "options": [
-          "The author takes a critical stance toward climate justice and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for climate justice without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than climate justice.",
-          "The author endorses the opposite position on climate justice from the one presented."
+          "Market-entry rewards decoupled from sales volume",
+          "Antibiotic stewardship programs to reduce inappropriate use",
+          "Restricting pharmaceutical company profits",
+          "Developing phage therapy as an alternative"
         ],
-        "correct": 0,
-        "explanation": "The passage uses a critical tone and centers on climate justice. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's inference?",
-        "options": [
-          "The passage focuses mainly on unrelated technical details rather than climate justice.",
-          "The author strongly advocates for climate justice without acknowledging limitations.",
-          "The author endorses the opposite position on climate justice from the one presented.",
-          "The author takes a critical stance toward climate justice and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a critical tone and centers on climate justice. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's evidence support?",
-        "options": [
-          "The author takes a critical stance toward climate justice and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for climate justice without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than climate justice.",
-          "The author endorses the opposite position on climate justice from the one presented."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a critical tone and centers on climate justice. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's assumption?",
-        "options": [
-          "The author takes a critical stance toward climate justice and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for climate justice without acknowledging limitations.",
-          "The author endorses the opposite position on climate justice from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than climate justice."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a critical tone and centers on climate justice. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's application?",
-        "options": [
-          "The author endorses the opposite position on climate justice from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than climate justice.",
-          "The author strongly advocates for climate justice without acknowledging limitations.",
-          "The author takes a critical stance toward climate justice and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a critical tone and centers on climate justice. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "correct": 1,
+        "explanation": "Evolutionary dynamics of resistance are driven by antibiotic selective pressure eliminating susceptible bacteria. Stewardship programs reduce inappropriate use, thereby reducing selective pressure. Market-entry rewards address economic incentives for development; phage therapy is an alternative treatment — neither directly reduces selective pressure on existing antibiotics."
       }
     ]
   },
   {
-    "passageText": "Passage 5: This passage examines language and identity in a analytical voice. It describes major debates, historical context, and theoretical implications while contrasting competing viewpoints in a measured way.",
+    "passageText": "The sociology of science, developed by Robert Merton and later transformed by constructivists, asks not only what science discovers but how scientific knowledge is produced, legitimated, and contested. Merton's normative account identified four institutional imperatives guiding ideal scientific conduct: communalism (knowledge as public property), universalism (truth claims evaluated on merit, not the social characteristics of the claimant), disinterestedness (scientists motivated by the advancement of knowledge, not personal gain), and organized skepticism (systematic scrutiny of all claims).\n\nConstructivists (Bloor, Collins, Latour) challenged the Mertonian picture by arguing that scientific knowledge, including even natural science, is socially constructed — that facts are not simply discovered but are produced through social processes of negotiation, credentialing, and institutionalization. The laboratory studies tradition showed that what counts as a successful experiment depends on judgments about instrument reliability, competence of experimenters, and interpretive conventions that cannot be derived from the data alone.\n\nThe resulting 'science wars' of the 1990s pitted constructivists against scientists and philosophers who argued that strong constructivism collapses into relativism — if all knowledge claims are equally socially constructed, then the germ theory of disease is no more epistemically privileged than pre-modern humoral medicine. Constructivists typically respond that they are not committed to relativism but to symmetry: applying the same standards of sociological explanation to successful and failed scientific claims, rather than explaining success by 'truth' and failure by 'social factors.'\n\nThese debates have practical stakes in an era of scientific skepticism. Public distrust of expert consensus on vaccination, climate change, and evolution is partly fueled by the perception — sometimes deliberately cultivated by interests opposed to regulation — that scientific knowledge is merely one 'narrative' among many. Sociologists of science face the challenge of explaining the social dimensions of knowledge production without inadvertently providing rhetorical resources for antiscience movements.",
     "questions": [
       {
-        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "text": "According to Merton's normative account, which principle requires that scientific claims be evaluated on their merits regardless of who makes them?",
         "options": [
-          "The author takes a analytical stance toward language and identity and emphasizes evidence-based reasoning.",
-          "The author endorses the opposite position on language and identity from the one presented.",
-          "The author strongly advocates for language and identity without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than language and identity."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a analytical tone and centers on language and identity. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's author attitude?",
-        "options": [
-          "The author endorses the opposite position on language and identity from the one presented.",
-          "The author takes a analytical stance toward language and identity and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for language and identity without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than language and identity."
+          "Communalism",
+          "Universalism",
+          "Disinterestedness",
+          "Organized skepticism"
         ],
         "correct": 1,
-        "explanation": "The passage uses a analytical tone and centers on language and identity. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "explanation": "The passage defines universalism as the principle that 'truth claims [are] evaluated on merit, not the social characteristics of the claimant.' This means a scientist's race, gender, nationality, or status should be irrelevant to the evaluation of their claims."
       },
       {
-        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "text": "Constructivists' 'symmetry principle' as described in the passage means that:",
         "options": [
-          "The author endorses the opposite position on language and identity from the one presented.",
-          "The author strongly advocates for language and identity without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than language and identity.",
-          "The author takes a analytical stance toward language and identity and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a analytical tone and centers on language and identity. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's evidence support?",
-        "options": [
-          "The author takes a analytical stance toward language and identity and emphasizes evidence-based reasoning.",
-          "The author endorses the opposite position on language and identity from the one presented.",
-          "The author strongly advocates for language and identity without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than language and identity."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a analytical tone and centers on language and identity. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's assumption?",
-        "options": [
-          "The author endorses the opposite position on language and identity from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than language and identity.",
-          "The author strongly advocates for language and identity without acknowledging limitations.",
-          "The author takes a analytical stance toward language and identity and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a analytical tone and centers on language and identity. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's application?",
-        "options": [
-          "The author takes a analytical stance toward language and identity and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for language and identity without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than language and identity.",
-          "The author endorses the opposite position on language and identity from the one presented."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a analytical tone and centers on language and identity. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
-        "options": [
-          "The passage focuses mainly on unrelated technical details rather than language and identity.",
-          "The author endorses the opposite position on language and identity from the one presented.",
-          "The author takes a analytical stance toward language and identity and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for language and identity without acknowledging limitations."
+          "All scientific theories are equally true",
+          "Social factors explain failed science but not successful science",
+          "Both successful and failed scientific claims should be explained by the same sociological standards",
+          "Science and non-science should be treated as equivalent"
         ],
         "correct": 2,
-        "explanation": "The passage uses a analytical tone and centers on language and identity. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "explanation": "The passage states constructivists claim 'symmetry: applying the same standards of sociological explanation to successful and failed scientific claims, rather than explaining success by truth and failure by social factors.' This is a methodological stance, not a claim about the truth of scientific theories."
       },
       {
-        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "text": "The author presents the concern in the final paragraph about antiscience movements as:",
         "options": [
-          "The author takes a analytical stance toward language and identity and emphasizes evidence-based reasoning.",
-          "The author endorses the opposite position on language and identity from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than language and identity.",
-          "The author strongly advocates for language and identity without acknowledging limitations."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a analytical tone and centers on language and identity. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's inference?",
-        "options": [
-          "The author takes a analytical stance toward language and identity and emphasizes evidence-based reasoning.",
-          "The passage focuses mainly on unrelated technical details rather than language and identity.",
-          "The author strongly advocates for language and identity without acknowledging limitations.",
-          "The author endorses the opposite position on language and identity from the one presented."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a analytical tone and centers on language and identity. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's evidence support?",
-        "options": [
-          "The author takes a analytical stance toward language and identity and emphasizes evidence-based reasoning.",
-          "The author endorses the opposite position on language and identity from the one presented.",
-          "The author strongly advocates for language and identity without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than language and identity."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a analytical tone and centers on language and identity. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's assumption?",
-        "options": [
-          "The passage focuses mainly on unrelated technical details rather than language and identity.",
-          "The author strongly advocates for language and identity without acknowledging limitations.",
-          "The author takes a analytical stance toward language and identity and emphasizes evidence-based reasoning.",
-          "The author endorses the opposite position on language and identity from the one presented."
-        ],
-        "correct": 2,
-        "explanation": "The passage uses a analytical tone and centers on language and identity. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's application?",
-        "options": [
-          "The author strongly advocates for language and identity without acknowledging limitations.",
-          "The author takes a analytical stance toward language and identity and emphasizes evidence-based reasoning.",
-          "The passage focuses mainly on unrelated technical details rather than language and identity.",
-          "The author endorses the opposite position on language and identity from the one presented."
+          "Proof that constructivism is wrong",
+          "A practical challenge for sociologists of science who must explain social dimensions of knowledge without lending credibility to antiscience rhetoric",
+          "Evidence that public skepticism about science is justified",
+          "An argument that scientists should control their public communications more tightly"
         ],
         "correct": 1,
-        "explanation": "The passage uses a analytical tone and centers on language and identity. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "explanation": "The passage frames this as a challenge ('sociologists of science face the challenge of explaining...without inadvertently providing rhetorical resources for antiscience movements'). The author does not conclude that constructivism is wrong, does not endorse skepticism, and does not advocate for communication control."
       },
       {
-        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "text": "The strongest objection to strong constructivism mentioned in the passage is that it:",
         "options": [
-          "The author takes a analytical stance toward language and identity and emphasizes evidence-based reasoning.",
-          "The passage focuses mainly on unrelated technical details rather than language and identity.",
-          "The author endorses the opposite position on language and identity from the one presented.",
-          "The author strongly advocates for language and identity without acknowledging limitations."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a analytical tone and centers on language and identity. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's author attitude?",
-        "options": [
-          "The passage focuses mainly on unrelated technical details rather than language and identity.",
-          "The author strongly advocates for language and identity without acknowledging limitations.",
-          "The author endorses the opposite position on language and identity from the one presented.",
-          "The author takes a analytical stance toward language and identity and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a analytical tone and centers on language and identity. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's inference?",
-        "options": [
-          "The passage focuses mainly on unrelated technical details rather than language and identity.",
-          "The author strongly advocates for language and identity without acknowledging limitations.",
-          "The author endorses the opposite position on language and identity from the one presented.",
-          "The author takes a analytical stance toward language and identity and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a analytical tone and centers on language and identity. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's evidence support?",
-        "options": [
-          "The author takes a analytical stance toward language and identity and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for language and identity without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than language and identity.",
-          "The author endorses the opposite position on language and identity from the one presented."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a analytical tone and centers on language and identity. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's assumption?",
-        "options": [
-          "The author strongly advocates for language and identity without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than language and identity.",
-          "The author takes a analytical stance toward language and identity and emphasizes evidence-based reasoning.",
-          "The author endorses the opposite position on language and identity from the one presented."
-        ],
-        "correct": 2,
-        "explanation": "The passage uses a analytical tone and centers on language and identity. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's application?",
-        "options": [
-          "The author strongly advocates for language and identity without acknowledging limitations.",
-          "The author takes a analytical stance toward language and identity and emphasizes evidence-based reasoning.",
-          "The passage focuses mainly on unrelated technical details rather than language and identity.",
-          "The author endorses the opposite position on language and identity from the one presented."
+          "Ignores the role of experiments in science",
+          "Collapses into relativism, making the germ theory no more valid than humoral medicine",
+          "Cannot explain why some experiments fail to replicate",
+          "Denies that social factors influence science at all"
         ],
         "correct": 1,
-        "explanation": "The passage uses a analytical tone and centers on language and identity. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "explanation": "The passage states that critics argue 'strong constructivism collapses into relativism — if all knowledge claims are equally socially constructed, then the germ theory of disease is no more epistemically privileged than pre-modern humoral medicine.' This is explicitly identified as the core objection."
       }
     ]
   },
   {
-    "passageText": "Passage 6: This passage examines education reform in a cautious voice. It describes major debates, historical context, and theoretical implications while contrasting competing viewpoints in a measured way.",
+    "passageText": "Urban heat islands (UHIs) form when cities replace natural land cover with dense concentrations of pavement, buildings, and other materials that absorb and re-emit the sun's heat more than natural landscapes. The effect is well documented: urban cores can be 1–7°C warmer than surrounding rural areas, with the greatest divergence at night when urban materials release stored heat. The phenomenon has meaningful consequences for energy use, human health, and ecosystem function in cities.\n\nThe physical mechanisms driving UHIs are multiple. Dark impervious surfaces have lower albedo (reflectivity) than vegetated land, absorbing more solar radiation. Buildings and pavement have high thermal mass, storing heat during the day and releasing it at night. The geometry of street canyons traps longwave radiation that would otherwise escape to the atmosphere. Reduced vegetative cover means less evapotranspirative cooling — the process by which plants release water vapor, cooling the surrounding air. Finally, anthropogenic heat (from vehicles, air conditioning, and industry) adds directly to the thermal budget.\n\nMitigation strategies draw on understanding of these mechanisms. Cool roofs and pavements with high albedo reflect more solar radiation. Urban greening — including trees, parks, green roofs, and urban agriculture — restores evapotranspiration and shading. Urban form modifications (street orientation, building height-to-width ratios, and increased sky view factor) can improve nocturnal radiative cooling. Some cities have experimented with white-painted streets and water features.\n\nThe equity dimensions of UHI are often overlooked. Lower-income neighborhoods tend to have less tree canopy, more impervious surface, and older, less efficient housing — all of which increase heat exposure. Studies consistently find that race and income are associated with differential heat exposure within cities. Mitigation investment focused on the most affected neighborhoods can simultaneously address environmental justice and resilience goals, though greening efforts carry the risk of contributing to gentrification by increasing property values.",
     "questions": [
       {
-        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "text": "According to the passage, which process contributes to the urban heat island effect by reducing a natural cooling mechanism?",
         "options": [
-          "The author strongly advocates for education reform without acknowledging limitations.",
-          "The author endorses the opposite position on education reform from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than education reform.",
-          "The author takes a cautious stance toward education reform and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a cautious tone and centers on education reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's author attitude?",
-        "options": [
-          "The author takes a cautious stance toward education reform and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for education reform without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than education reform.",
-          "The author endorses the opposite position on education reform from the one presented."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a cautious tone and centers on education reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's inference?",
-        "options": [
-          "The author endorses the opposite position on education reform from the one presented.",
-          "The author takes a cautious stance toward education reform and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for education reform without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than education reform."
+          "High albedo of urban surfaces",
+          "Reduced evapotranspiration due to less vegetation",
+          "Increased sky view factor in urban canyons",
+          "Lower thermal mass of building materials"
         ],
         "correct": 1,
-        "explanation": "The passage uses a cautious tone and centers on education reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "explanation": "The passage states that 'reduced vegetative cover means less evapotranspirative cooling — the process by which plants release water vapor, cooling the surrounding air.' This removal of vegetation eliminates a natural cooling mechanism. Urban surfaces actually have LOW albedo (not high), and the passage says building materials have HIGH thermal mass."
       },
       {
-        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "text": "The passage suggests that the UHI effect is greatest at night because:",
         "options": [
-          "The author endorses the opposite position on education reform from the one presented.",
-          "The author takes a cautious stance toward education reform and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for education reform without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than education reform."
+          "Solar radiation is absent at night, making albedo irrelevant",
+          "Urban materials store heat during the day and release it at night",
+          "Anthropogenic heat production is highest at night",
+          "Evapotranspiration ceases after sunset"
         ],
         "correct": 1,
-        "explanation": "The passage uses a cautious tone and centers on education reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "explanation": "The passage states that cities are warmest 'with the greatest divergence at night when urban materials release stored heat.' The mechanism is the high thermal mass of buildings and pavement — they store solar energy during daylight and release it slowly after sunset."
       },
       {
-        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "text": "The author characterizes the equity dimensions of UHI as:",
         "options": [
-          "The author takes a cautious stance toward education reform and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for education reform without acknowledging limitations.",
-          "The author endorses the opposite position on education reform from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than education reform."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a cautious tone and centers on education reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's application?",
-        "options": [
-          "The author takes a cautious stance toward education reform and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for education reform without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than education reform.",
-          "The author endorses the opposite position on education reform from the one presented."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a cautious tone and centers on education reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
-        "options": [
-          "The passage focuses mainly on unrelated technical details rather than education reform.",
-          "The author takes a cautious stance toward education reform and emphasizes evidence-based reasoning.",
-          "The author endorses the opposite position on education reform from the one presented.",
-          "The author strongly advocates for education reform without acknowledging limitations."
-        ],
-        "correct": 1,
-        "explanation": "The passage uses a cautious tone and centers on education reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's author attitude?",
-        "options": [
-          "The author takes a cautious stance toward education reform and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for education reform without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than education reform.",
-          "The author endorses the opposite position on education reform from the one presented."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a cautious tone and centers on education reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's inference?",
-        "options": [
-          "The author strongly advocates for education reform without acknowledging limitations.",
-          "The author takes a cautious stance toward education reform and emphasizes evidence-based reasoning.",
-          "The author endorses the opposite position on education reform from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than education reform."
-        ],
-        "correct": 1,
-        "explanation": "The passage uses a cautious tone and centers on education reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's evidence support?",
-        "options": [
-          "The author takes a cautious stance toward education reform and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for education reform without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than education reform.",
-          "The author endorses the opposite position on education reform from the one presented."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a cautious tone and centers on education reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's assumption?",
-        "options": [
-          "The passage focuses mainly on unrelated technical details rather than education reform.",
-          "The author strongly advocates for education reform without acknowledging limitations.",
-          "The author takes a cautious stance toward education reform and emphasizes evidence-based reasoning.",
-          "The author endorses the opposite position on education reform from the one presented."
+          "The primary focus of urban climate policy",
+          "Unrelated to race and income",
+          "Often overlooked, with lower-income and minority communities bearing disproportionate heat exposure",
+          "Fully addressed by existing mitigation strategies"
         ],
         "correct": 2,
-        "explanation": "The passage uses a cautious tone and centers on education reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "explanation": "The passage opens the final paragraph by stating the equity dimensions 'are often overlooked' and that 'studies consistently find that race and income are associated with differential heat exposure within cities.' This characterizes the issue as neglected and inequitably distributed."
       },
       {
-        "text": "Based on the passage, which statement best reflects the author's application?",
+        "text": "Which of the following mitigation strategies described in the passage works by the same mechanism as natural vegetation?",
         "options": [
-          "The author strongly advocates for education reform without acknowledging limitations.",
-          "The author takes a cautious stance toward education reform and emphasizes evidence-based reasoning.",
-          "The author endorses the opposite position on education reform from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than education reform."
+          "Cool roofs with high albedo",
+          "White-painted streets",
+          "Green roofs and urban agriculture",
+          "Modified street canyon geometry"
         ],
-        "correct": 1,
-        "explanation": "The passage uses a cautious tone and centers on education reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
-        "options": [
-          "The passage focuses mainly on unrelated technical details rather than education reform.",
-          "The author strongly advocates for education reform without acknowledging limitations.",
-          "The author endorses the opposite position on education reform from the one presented.",
-          "The author takes a cautious stance toward education reform and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a cautious tone and centers on education reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's author attitude?",
-        "options": [
-          "The author takes a cautious stance toward education reform and emphasizes evidence-based reasoning.",
-          "The author endorses the opposite position on education reform from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than education reform.",
-          "The author strongly advocates for education reform without acknowledging limitations."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a cautious tone and centers on education reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's inference?",
-        "options": [
-          "The author endorses the opposite position on education reform from the one presented.",
-          "The author takes a cautious stance toward education reform and emphasizes evidence-based reasoning.",
-          "The passage focuses mainly on unrelated technical details rather than education reform.",
-          "The author strongly advocates for education reform without acknowledging limitations."
-        ],
-        "correct": 1,
-        "explanation": "The passage uses a cautious tone and centers on education reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's evidence support?",
-        "options": [
-          "The author takes a cautious stance toward education reform and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for education reform without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than education reform.",
-          "The author endorses the opposite position on education reform from the one presented."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a cautious tone and centers on education reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's assumption?",
-        "options": [
-          "The author endorses the opposite position on education reform from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than education reform.",
-          "The author strongly advocates for education reform without acknowledging limitations.",
-          "The author takes a cautious stance toward education reform and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a cautious tone and centers on education reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's application?",
-        "options": [
-          "The author endorses the opposite position on education reform from the one presented.",
-          "The author takes a cautious stance toward education reform and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for education reform without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than education reform."
-        ],
-        "correct": 1,
-        "explanation": "The passage uses a cautious tone and centers on education reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "correct": 2,
+        "explanation": "The passage identifies vegetation's cooling mechanism as evapotranspiration (and shading). Green roofs and urban agriculture restore these same mechanisms — they are vegetated surfaces. Cool roofs and white streets work by increased albedo. Street canyon geometry works by improving radiative cooling."
       }
     ]
   }

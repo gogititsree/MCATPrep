@@ -42,7 +42,7 @@
       "Observes a model being punished"
     ],
     "correct": 2,
-    "explanation": "Seligman's learned helplessness: after experiencing uncontrollable aversive events (inescapable shock), animals later fail to escape even in situations where escape is possible. This passivity is analogous to human depression — expectation that one's actions are ineffective.",
+    "explanation": "Seligman's learned helplessness: after experiencing uncontrollable aversive events (inescapable shock), animals later fail to escape even in situations where escape is possible. This passivity is analogous to human depression \u2014 expectation that one's actions are ineffective.",
     "tags": [
       "learning",
       "learned-helplessness",
@@ -76,7 +76,7 @@
       "The CR disappearing when CS is presented without US"
     ],
     "correct": 0,
-    "explanation": "Stimulus generalization: after conditioning, similar stimuli elicit the CR in proportion to their similarity to the original CS. Little Albert feared not only white rats but white rabbits, fur coats, and Santa masks. Stimulus discrimination is the complementary process — learning to respond only to the specific CS.",
+    "explanation": "Stimulus generalization: after conditioning, similar stimuli elicit the CR in proportion to their similarity to the original CS. Little Albert feared not only white rats but white rabbits, fur coats, and Santa masks. Stimulus discrimination is the complementary process \u2014 learning to respond only to the specific CS.",
     "tags": [
       "learning",
       "stimulus-generalization"
@@ -84,7 +84,7 @@
     "difficulty": "easy"
   },
   {
-    "text": "Insight learning (Köhler), demonstrated with chimpanzees, is characterized by:",
+    "text": "Insight learning (K\u00f6hler), demonstrated with chimpanzees, is characterized by:",
     "options": [
       "Sudden solving of a problem after a period of apparent inactivity (the 'aha moment')",
       "Gradual improvement through trial and error",
@@ -92,7 +92,7 @@
       "Learning only through observation of others"
     ],
     "correct": 0,
-    "explanation": "Köhler's chimps (Sultan) stacked boxes or joined sticks to reach bananas after a period of contemplation, then suddenly solved the problem. Insight learning involves sudden restructuring of the problem representation — a qualitative, not gradual, change — distinct from Thorndike's incremental trial-and-error.",
+    "explanation": "K\u00f6hler's chimps (Sultan) stacked boxes or joined sticks to reach bananas after a period of contemplation, then suddenly solved the problem. Insight learning involves sudden restructuring of the problem representation \u2014 a qualitative, not gradual, change \u2014 distinct from Thorndike's incremental trial-and-error.",
     "tags": [
       "learning",
       "insight-learning",
@@ -142,7 +142,7 @@
       "Cannot recall any autobiographical information"
     ],
     "correct": 2,
-    "explanation": "Source monitoring error (Johnson): remembering the content of information but misattributing its source (e.g., thinking you said something when you actually read it, or remembering a dream as a real event — reality monitoring failure). This contributes to plagiarism and false memories.",
+    "explanation": "Source monitoring error (Johnson): remembering the content of information but misattributing its source (e.g., thinking you said something when you actually read it, or remembering a dream as a real event \u2014 reality monitoring failure). This contributes to plagiarism and false memories.",
     "tags": [
       "memory",
       "source-monitoring"
@@ -174,7 +174,7 @@
       "Flashbulb memories activate associated autobiographical events"
     ],
     "correct": 2,
-    "explanation": "Priming is a type of implicit memory: prior exposure to 'nurse' makes you respond faster to 'doctor' even without consciously trying to remember 'nurse.' Priming occurs without deliberate memory search and is preserved in amnesia patients who lose explicit memory — demonstrating implicit/explicit memory dissociation.",
+    "explanation": "Priming is a type of implicit memory: prior exposure to 'nurse' makes you respond faster to 'doctor' even without consciously trying to remember 'nurse.' Priming occurs without deliberate memory search and is preserved in amnesia patients who lose explicit memory \u2014 demonstrating implicit/explicit memory dissociation.",
     "tags": [
       "memory",
       "priming",
@@ -191,7 +191,7 @@
       "Photographically accurate due to high emotional arousal"
     ],
     "correct": 1,
-    "explanation": "Flashbulb memories feel highly accurate and vivid, but research (Neisser, Harsch) shows their accuracy degrades over time at similar rates to ordinary memories. The vividness and confidence in flashbulb memories exceeds their actual accuracy — emotional arousal increases confidence but not necessarily precision.",
+    "explanation": "Flashbulb memories feel highly accurate and vivid, but research (Neisser, Harsch) shows their accuracy degrades over time at similar rates to ordinary memories. The vividness and confidence in flashbulb memories exceeds their actual accuracy \u2014 emotional arousal increases confidence but not necessarily precision.",
     "tags": [
       "memory",
       "flashbulb-memory"
@@ -250,7 +250,7 @@
   {
     "text": "Stimulant drugs (amphetamines, cocaine) increase alertness and euphoria primarily by:",
     "options": [
-      "Mimicking serotonin at 5-HT₂A receptors",
+      "Mimicking serotonin at 5-HT\u2082A receptors",
       "Increasing monoaminergic (dopamine, norepinephrine) neurotransmission in reward and arousal circuits",
       "Antagonizing adenosine receptors",
       "Blocking GABA receptors to reduce inhibition"
@@ -273,7 +273,7 @@
       "The center controlling appetite and satiety"
     ],
     "correct": 2,
-    "explanation": "The SCN receives light information via the retinohypothalamic tract and synchronizes circadian rhythms (light → suppresses melatonin from pineal gland → increased alertness). Without light input, the endogenous period is ~24.2 hours. Damage to the SCN disrupts sleep-wake cycles.",
+    "explanation": "The SCN receives light information via the retinohypothalamic tract and synchronizes circadian rhythms (light \u2192 suppresses melatonin from pineal gland \u2192 increased alertness). Without light input, the endogenous period is ~24.2 hours. Damage to the SCN disrupts sleep-wake cycles.",
     "tags": [
       "sleep",
       "circadian-rhythm",
@@ -290,7 +290,7 @@
       "Evaluating one's coping resources relative to demands"
     ],
     "correct": 1,
-    "explanation": "Lazarus's model has two appraisal stages: Primary appraisal — is this situation relevant and is it stressful (threat, harm/loss, or challenge)? Secondary appraisal — do I have resources to cope? Stress occurs when demands exceed perceived resources. The model emphasizes cognitive mediation of the stress response.",
+    "explanation": "Lazarus's model has two appraisal stages: Primary appraisal \u2014 is this situation relevant and is it stressful (threat, harm/loss, or challenge)? Secondary appraisal \u2014 do I have resources to cope? Stress occurs when demands exceed perceived resources. The model emphasizes cognitive mediation of the stress response.",
     "tags": [
       "stress",
       "lazarus",
@@ -341,7 +341,7 @@
       "Cortisol's anti-inflammatory effects"
     ],
     "correct": 1,
-    "explanation": "Allostatic load (McEwen): the cost of chronic stress — prolonged HPA axis activation, sustained sympathetic arousal, and glucocorticoid exposure — leads to physiological damage over time, including immune suppression, cardiovascular damage, hippocampal shrinkage, and metabolic syndrome.",
+    "explanation": "Allostatic load (McEwen): the cost of chronic stress \u2014 prolonged HPA axis activation, sustained sympathetic arousal, and glucocorticoid exposure \u2014 leads to physiological damage over time, including immune suppression, cardiovascular damage, hippocampal shrinkage, and metabolic syndrome.",
     "tags": [
       "stress",
       "allostatic-load"
@@ -357,7 +357,7 @@
       "Proportional to the square root of stimulus intensity (Fechner)"
     ],
     "correct": 2,
-    "explanation": "Weber's law: ΔI/I = k (a constant). The JND is proportional to the baseline intensity. Example: you can detect a 1-gram difference in a 10-gram weight (k = 0.1) but need a 10-gram difference in a 100-gram weight. Weber-Fechner law: S = k·log(I) (perception is logarithmic in intensity).",
+    "explanation": "Weber's law: \u0394I/I = k (a constant). The JND is proportional to the baseline intensity. Example: you can detect a 1-gram difference in a 10-gram weight (k = 0.1) but need a 10-gram difference in a 100-gram weight. Weber-Fechner law: S = k\u00b7log(I) (perception is logarithmic in intensity).",
     "tags": [
       "sensation",
       "weber-law",
@@ -374,7 +374,7 @@
       "Only by pharmacological opioids"
     ],
     "correct": 0,
-    "explanation": "Gate control theory: in the dorsal horn of the spinal cord, large-diameter A-β fibers (touch/pressure) can inhibit transmission of pain signals from small-diameter A-δ and C fibers through interneurons — 'closing the gate.' Rubbing an injury reduces pain because A-β fiber activation closes the gate to pain signals.",
+    "explanation": "Gate control theory: in the dorsal horn of the spinal cord, large-diameter A-\u03b2 fibers (touch/pressure) can inhibit transmission of pain signals from small-diameter A-\u03b4 and C fibers through interneurons \u2014 'closing the gate.' Rubbing an injury reduces pain because A-\u03b2 fiber activation closes the gate to pain signals.",
     "tags": [
       "perception",
       "pain",
@@ -441,7 +441,7 @@
       "Imitate the most productive group member"
     ],
     "correct": 2,
-    "explanation": "Social loafing (Latané): when individual effort is not identifiable (e.g., group rope-pulling), people exert less effort. Unlike social facilitation (where arousal from others improves dominant responses), social loafing reflects reduced motivation when accountability is diffused. Reducing anonymity increases individual effort.",
+    "explanation": "Social loafing (Latan\u00e9): when individual effort is not identifiable (e.g., group rope-pulling), people exert less effort. Unlike social facilitation (where arousal from others improves dominant responses), social loafing reflects reduced motivation when accountability is diffused. Reducing anonymity increases individual effort.",
     "tags": [
       "social-psychology",
       "social-loafing"
@@ -507,7 +507,7 @@
       "Direct route (conscious) and subliminal route (unconscious)"
     ],
     "correct": 0,
-    "explanation": "ELM: Central route — when motivated and able, people carefully evaluate argument quality; attitude change is strong and lasting. Peripheral route — when unmotivated or unable to process, people use superficial cues (source attractiveness, number of arguments, expert endorsement); attitude change is weaker and less durable.",
+    "explanation": "ELM: Central route \u2014 when motivated and able, people carefully evaluate argument quality; attitude change is strong and lasting. Peripheral route \u2014 when unmotivated or unable to process, people use superficial cues (source attractiveness, number of arguments, expert endorsement); attitude change is weaker and less durable.",
     "tags": [
       "social-psychology",
       "persuasion",
@@ -608,7 +608,7 @@
       "Courses not listed in the official catalog"
     ],
     "correct": 1,
-    "explanation": "The hidden curriculum (Illich, Jackson): schools transmit values like punctuality, compliance, hierarchy, and competition that prepare students for the capitalist workforce — but these are not explicitly taught. This reinforces social stratification and serves the interests of dominant groups by reproducing their values.",
+    "explanation": "The hidden curriculum (Illich, Jackson): schools transmit values like punctuality, compliance, hierarchy, and competition that prepare students for the capitalist workforce \u2014 but these are not explicitly taught. This reinforces social stratification and serves the interests of dominant groups by reproducing their values.",
     "tags": [
       "sociology",
       "education",
@@ -642,7 +642,7 @@
       "The physical prisons in capitalist society"
     ],
     "correct": 0,
-    "explanation": "Weber's iron cage (Stahlhartes Gehäuse): modern capitalism creates bureaucratic rationalization — efficiency, calculability, predictability, control — that becomes a self-sustaining structure. Individuals are trapped in instrumental, rule-governed organizations that strip life of meaning and spontaneity (disenchantment of the world).",
+    "explanation": "Weber's iron cage (Stahlhartes Geh\u00e4use): modern capitalism creates bureaucratic rationalization \u2014 efficiency, calculability, predictability, control \u2014 that becomes a self-sustaining structure. Individuals are trapped in instrumental, rule-governed organizations that strip life of meaning and spontaneity (disenchantment of the world).",
     "tags": [
       "sociology",
       "weber",
@@ -660,7 +660,7 @@
       "Increasing requirements for formal educational credentials beyond what is actually needed for job performance"
     ],
     "correct": 3,
-    "explanation": "Credentialism (Collins): employers require degrees and credentials even for jobs where the skills aren't actually needed, as a screening mechanism. This reproduces stratification — those with access to expensive education gain credentials, independent of actual competence, privileging higher-SES individuals.",
+    "explanation": "Credentialism (Collins): employers require degrees and credentials even for jobs where the skills aren't actually needed, as a screening mechanism. This reproduces stratification \u2014 those with access to expensive education gain credentials, independent of actual competence, privileging higher-SES individuals.",
     "tags": [
       "sociology",
       "education",
@@ -677,7 +677,7 @@
       "The gap between culturally defined goals (wealth) and legitimate means to achieve them"
     ],
     "correct": 3,
-    "explanation": "Merton's strain theory: deviance occurs when people accept cultural goals (the American Dream — wealth) but lack legitimate means to achieve them. Responses: conformity, innovation (deviant means), ritualism, retreatism (abandon goals and means), rebellion. Innovation (e.g., crime) is the most common form of deviance.",
+    "explanation": "Merton's strain theory: deviance occurs when people accept cultural goals (the American Dream \u2014 wealth) but lack legitimate means to achieve them. Responses: conformity, innovation (deviant means), ritualism, retreatism (abandon goals and means), rebellion. Innovation (e.g., crime) is the most common form of deviance.",
     "tags": [
       "sociology",
       "deviance",
@@ -695,7 +695,7 @@
       "A result of defective moral character"
     ],
     "correct": 1,
-    "explanation": "Labeling theory: 'deviance is not a quality of the act...but rather a consequence of the application by others of rules and sanctions' (Becker). Primary deviance is the initial act; secondary deviance is the career of deviance that develops after being labeled — accepting the deviant identity, association with deviants, and exclusion from legitimate opportunities.",
+    "explanation": "Labeling theory: 'deviance is not a quality of the act...but rather a consequence of the application by others of rules and sanctions' (Becker). Primary deviance is the initial act; secondary deviance is the career of deviance that develops after being labeled \u2014 accepting the deviant identity, association with deviants, and exclusion from legitimate opportunities.",
     "tags": [
       "sociology",
       "deviance",
@@ -744,10 +744,10 @@
       "Only the very poor have worse health than the rich",
       "Healthcare access alone explains health differences",
       "Race, but not class, predicts health outcomes",
-      "Health improves stepwise at every level of the socioeconomic hierarchy — not just at poverty level"
+      "Health improves stepwise at every level of the socioeconomic hierarchy \u2014 not just at poverty level"
     ],
     "correct": 3,
-    "explanation": "The social gradient (Marmot): health outcomes improve incrementally with each step up the SES ladder — it is not just about poverty. Even people in the second-highest SES tier have worse health than those at the top. Marmot's Whitehall study showed this in British civil servants across all employment grades.",
+    "explanation": "The social gradient (Marmot): health outcomes improve incrementally with each step up the SES ladder \u2014 it is not just about poverty. Even people in the second-highest SES tier have worse health than those at the top. Marmot's Whitehall study showed this in British civil servants across all employment grades.",
     "tags": [
       "health-disparities",
       "social-gradient",
@@ -764,7 +764,7 @@
       "SES only matters through specific risk behaviors like smoking"
     ],
     "correct": 0,
-    "explanation": "Fundamental cause theory: SES provides resources (money, knowledge, prestige, social networks) that can be used to avoid risks and adopt new health-protective behaviors. Even as specific risks change (infectious disease → heart disease → cancer), SES remains associated with health because high-SES individuals can always exploit new knowledge and treatments.",
+    "explanation": "Fundamental cause theory: SES provides resources (money, knowledge, prestige, social networks) that can be used to avoid risks and adopt new health-protective behaviors. Even as specific risks change (infectious disease \u2192 heart disease \u2192 cancer), SES remains associated with health because high-SES individuals can always exploit new knowledge and treatments.",
     "tags": [
       "health-disparities",
       "fundamental-cause-theory"
@@ -780,7 +780,7 @@
       "Immigrants have universally better health than native populations"
     ],
     "correct": 1,
-    "explanation": "Healthy immigrant effect: recent immigrants to the US (particularly Latin American) have lower rates of infant mortality, cardiovascular disease, and mental illness than US-born individuals of similar SES — paradoxically, given poverty and lack of healthcare access. Hypothesized mechanisms: selective migration of healthy individuals, protective cultural factors, strong social support.",
+    "explanation": "Healthy immigrant effect: recent immigrants to the US (particularly Latin American) have lower rates of infant mortality, cardiovascular disease, and mental illness than US-born individuals of similar SES \u2014 paradoxically, given poverty and lack of healthcare access. Hypothesized mechanisms: selective migration of healthy individuals, protective cultural factors, strong social support.",
     "tags": [
       "health-disparities",
       "immigrant-health-paradox"
@@ -796,7 +796,7 @@
       "From high to low fertility rates"
     ],
     "correct": 0,
-    "explanation": "Epidemiological transition (Omran): Stage 1 — infectious diseases (high mortality). Stage 2 — declining infections (antibiotics, sanitation). Stage 3 — chronic diseases (cardiovascular, cancer) dominate as populations age. High-income countries are in Stage 3-4; some regions are in a dual burden (both infectious and chronic diseases).",
+    "explanation": "Epidemiological transition (Omran): Stage 1 \u2014 infectious diseases (high mortality). Stage 2 \u2014 declining infections (antibiotics, sanitation). Stage 3 \u2014 chronic diseases (cardiovascular, cancer) dominate as populations age. High-income countries are in Stage 3-4; some regions are in a dual burden (both infectious and chronic diseases).",
     "tags": [
       "sociology",
       "health",
@@ -810,10 +810,10 @@
       "Increasing GABA synthesis in presynaptic neurons",
       "Acting as a GABA agonist at receptor binding sites",
       "Blocking GABA reuptake at the synapse",
-      "Increasing the frequency of Cl⁻ channel opening (at GABA-A receptors), increasing inhibitory current"
+      "Increasing the frequency of Cl\u207b channel opening (at GABA-A receptors), increasing inhibitory current"
     ],
     "correct": 3,
-    "explanation": "GABA-A receptors are Cl⁻ channels. Benzodiazepines are positive allosteric modulators — they bind a separate site and increase the frequency of Cl⁻ channel opening when GABA is present (not in GABA's absence). This increases inhibitory postsynaptic potentials, producing anxiolytic, sedative, and anticonvulsant effects.",
+    "explanation": "GABA-A receptors are Cl\u207b channels. Benzodiazepines are positive allosteric modulators \u2014 they bind a separate site and increase the frequency of Cl\u207b channel opening when GABA is present (not in GABA's absence). This increases inhibitory postsynaptic potentials, producing anxiolytic, sedative, and anticonvulsant effects.",
     "tags": [
       "biological-psychology",
       "gaba",
@@ -824,13 +824,13 @@
   {
     "text": "The hypothalamic-pituitary-adrenal (HPA) axis stress response involves the sequence:",
     "options": [
-      "CRH (hypothalamus) → ACTH (anterior pituitary) → cortisol (adrenal cortex)",
-      "ACTH (hypothalamus) → CRH (pituitary) → cortisol",
-      "Cortisol (hypothalamus) → CRH (adrenal) → ACTH",
-      "Epinephrine (adrenal medulla) → CRH → cortisol"
+      "CRH (hypothalamus) \u2192 ACTH (anterior pituitary) \u2192 cortisol (adrenal cortex)",
+      "ACTH (hypothalamus) \u2192 CRH (pituitary) \u2192 cortisol",
+      "Cortisol (hypothalamus) \u2192 CRH (adrenal) \u2192 ACTH",
+      "Epinephrine (adrenal medulla) \u2192 CRH \u2192 cortisol"
     ],
     "correct": 0,
-    "explanation": "HPA axis: stressor → hypothalamus releases CRH (corticotropin-releasing hormone) → anterior pituitary releases ACTH (adrenocorticotropic hormone) → adrenal cortex releases cortisol. Cortisol then feeds back to inhibit CRH and ACTH (negative feedback). Chronic stress can dysregulate this feedback loop.",
+    "explanation": "HPA axis: stressor \u2192 hypothalamus releases CRH (corticotropin-releasing hormone) \u2192 anterior pituitary releases ACTH (adrenocorticotropic hormone) \u2192 adrenal cortex releases cortisol. Cortisol then feeds back to inhibit CRH and ACTH (negative feedback). Chronic stress can dysregulate this feedback loop.",
     "tags": [
       "biological-psychology",
       "hpa-axis",
@@ -866,7 +866,7 @@
       "Non-fluent, telegraphic speech with intact comprehension (Broca's aphasia)"
     ],
     "correct": 1,
-    "explanation": "Wernicke's area is essential for language comprehension. Damage causes Wernicke's aphasia (receptive aphasia): fluent speech production (sometimes excessive — logorrhea) but the content is meaningless (neologisms, word salad). Patients cannot comprehend speech and are often unaware of their deficit (anosognosia).",
+    "explanation": "Wernicke's area is essential for language comprehension. Damage causes Wernicke's aphasia (receptive aphasia): fluent speech production (sometimes excessive \u2014 logorrhea) but the content is meaningless (neologisms, word salad). Patients cannot comprehend speech and are often unaware of their deficit (anosognosia).",
     "tags": [
       "biological-psychology",
       "wernicke",
@@ -881,10 +881,10 @@
       "Blocking prostaglandin synthesis like NSAIDs",
       "Activating GABA receptors in the dorsal horn",
       "Binding to serotonin receptors in the periaqueductal gray",
-      "Binding to opioid receptors (μ, δ, κ) and reducing nociceptive transmission"
+      "Binding to opioid receptors (\u03bc, \u03b4, \u03ba) and reducing nociceptive transmission"
     ],
     "correct": 3,
-    "explanation": "Endorphins (and enkephalins, dynorphins) are endogenous opioids that bind μ, δ, and κ opioid receptors throughout the pain pathway (spinal cord, periaqueductal gray, limbic system). They inhibit adenylyl cyclase and reduce nociceptive neurotransmitter release. Exercise-induced euphoria ('runner's high') is mediated by endorphins.",
+    "explanation": "Endorphins (and enkephalins, dynorphins) are endogenous opioids that bind \u03bc, \u03b4, and \u03ba opioid receptors throughout the pain pathway (spinal cord, periaqueductal gray, limbic system). They inhibit adenylyl cyclase and reduce nociceptive neurotransmitter release. Exercise-induced euphoria ('runner's high') is mediated by endorphins.",
     "tags": [
       "biological-psychology",
       "endorphins",
@@ -918,7 +918,7 @@
       "Rejecting a true null hypothesis (false positive)"
     ],
     "correct": 3,
-    "explanation": "Type I error (α): concluding there is an effect when there isn't (false positive). Controlled by the significance level α (usually 0.05). Type II error (β): failing to detect a real effect (false negative). Power (1-β) is the probability of correctly detecting a real effect. Reducing α increases Type II error risk.",
+    "explanation": "Type I error (\u03b1): concluding there is an effect when there isn't (false positive). Controlled by the significance level \u03b1 (usually 0.05). Type II error (\u03b2): failing to detect a real effect (false negative). Power (1-\u03b2) is the probability of correctly detecting a real effect. Reducing \u03b1 increases Type II error risk.",
     "tags": [
       "research-methods",
       "type-i-error",
@@ -984,7 +984,7 @@
       "Are statistically significant"
     ],
     "correct": 1,
-    "explanation": "External validity (generalizability): can findings from this sample/setting apply to other people, places, and times? Threats include unrepresentative samples (WEIRD subjects — Western, Educated, Industrialized, Rich, Democratic), artificiality of laboratory settings, and historical specificity. High internal validity (experimental control) often comes at cost of external validity.",
+    "explanation": "External validity (generalizability): can findings from this sample/setting apply to other people, places, and times? Threats include unrepresentative samples (WEIRD subjects \u2014 Western, Educated, Industrialized, Rich, Democratic), artificiality of laboratory settings, and historical specificity. High internal validity (experimental control) often comes at cost of external validity.",
     "tags": [
       "research-methods",
       "external-validity"

@@ -1,170 +1,170 @@
 [
   {
-    "passageText": "The emergence of behavioral economics in the late twentieth century challenged the dominant rational-agent models that had governed economic theory for decades. Traditional economic theory, rooted in neoclassical principles, assumed that individuals make decisions by carefully weighing all available information, calculating expected utilities, and selecting the option that maximizes personal welfare. This idealized agent — Homo economicus — was mathematically tractable but empirically problematic.\n\nDaniel Kahneman and Amos Tversky's prospect theory, developed in the 1970s and 1980s, offered a descriptively accurate alternative. Their experiments revealed consistent patterns of irrationality: people are loss-averse (losses loom larger than equivalent gains), weight probabilities non-linearly (overweighting small probabilities and underweighting moderate and high probabilities), and evaluate outcomes relative to a reference point rather than in absolute terms. These findings undermined the expected utility framework in a way that could not be dismissed as random error.\n\nThe implications for policy were quickly recognized. If individuals reliably make predictable errors, governments and institutions could design choice architectures — 'nudges' — that guide people toward better outcomes without restricting freedom of choice. Automatic enrollment in retirement savings plans, calorie labeling, and organ donation opt-out defaults are all examples. Critics, however, argue that nudge policies are paternalistic, implicitly assuming that policymakers know better than individuals what constitutes a good outcome. Others raise concerns about transparency: if nudges work by exploiting cognitive biases, their effectiveness depends partly on the subject's unawareness of them.\n\nThe behavioralist critique of rationality has itself been critiqued. Some economists argue that apparent irrationalities dissolve under scrutiny: the ecological rationality framework (Gigerenzer) holds that many 'biases' are actually adaptive heuristics that perform well in naturalistic environments, even if they fail on laboratory tasks constructed to expose their limits. The debate touches fundamental questions about what rationality means: is it defined by coherent preferences, by adaptive behavior, or by some external standard of correctness?",
+    "passageText": "The question of whether artificial intelligence systems can possess moral status has moved from philosophical abstraction to urgent practical concern as machine learning systems grow more sophisticated. Moral status, in the philosophical tradition, is typically grounded in one of several properties: sentience (the capacity to experience pleasure and pain), sapience (the capacity for rational thought), or relational standing (membership in a moral community). Machines present a challenge to all three frameworks because they can simulate the behavioral outputs associated with these properties without it being clear whether the underlying reality is present.\n\nUtilitarian frameworks, which ground moral obligation in the capacity to suffer or flourish, generate a conditional conclusion: if an AI system genuinely experiences states that function as suffering or wellbeing, then those states count morally. The problem is epistemic. We have no reliable method for determining whether a system's internal representations constitute genuine experience or merely functional analogs that influence behavior without any accompanying phenomenology. Peter Singer's hedonic calculus, designed to include non-human animals, offers a model for expanding the circle of moral concern, but requires a criterion for experience that current philosophy of mind cannot deliver.\n\nRights-based frameworks, by contrast, tend to ground moral status in rational agency — the capacity to set ends and act according to reasons. Kant's formula of humanity treats rational nature as the source of dignity. Some theorists have argued that sufficiently sophisticated AI systems, particularly those that model their own reasoning and revise their beliefs in response to argument, might qualify as rational agents in the relevant sense. Others insist that genuine rationality requires more than functional equivalence: it requires understanding, intentionality, and perhaps consciousness — none of which can be established by behavioral tests alone.\n\nThe trolley problem, applied to autonomous vehicles, brings these debates into sharp relief. If a self-driving car must choose between trajectories that harm different individuals, whose interests should the algorithm weight, and how? The question forces a decision between utilitarian calculus (minimize total harm) and deontological constraints (never treat a person merely as a means). Engineers who must write these algorithms cannot avoid taking implicit positions in long-standing philosophical disputes. This points to a broader challenge: the deployment of AI requires ethical commitments that existing frameworks have not resolved, and urgency makes it impossible to wait for philosophical consensus.",
     "questions": [
       {
-        "text": "The author's primary purpose in the passage is to:",
+        "text": "The author's central claim about the ethics of artificial intelligence is best summarized as:",
         "options": [
-          "Argue that behavioral economics has definitively replaced neoclassical theory",
-          "Describe the emergence of behavioral economics, its policy implications, and ongoing debates about its claims",
-          "Advocate for nudge policies as the most effective form of government intervention",
-          "Explain why Homo economicus remains the dominant model in economics"
-        ],
-        "correct": 1,
-        "explanation": "The passage presents behavioral economics' development and policy implications in a balanced way, then introduces critiques from multiple sides. The author does not take a strong stance for or against any position, making option B the most accurate description of the primary purpose."
-      },
-      {
-        "text": "According to prospect theory as described in the passage, which of the following best illustrates loss aversion?",
-        "options": [
-          "Choosing a certain $50 gain over a 50% chance of $100",
-          "Feeling more distressed about losing $100 than pleased about winning $100",
-          "Overestimating the probability of a rare airline crash",
-          "Evaluating a salary relative to a reference point"
-        ],
-        "correct": 1,
-        "explanation": "Loss aversion means that 'losses loom larger than equivalent gains.' Option B directly illustrates this asymmetry. Option A describes risk aversion (not loss aversion specifically). Option C illustrates probability overweighting of small probabilities. Option D illustrates reference-point evaluation."
-      },
-      {
-        "text": "The passage implies that nudge policies depend on which assumption to be effective?",
-        "options": [
-          "People are fully rational and will recognize the optimal choice when presented properly",
-          "Cognitive biases are random and unpredictable",
-          "Predictable patterns of irrationality can be anticipated and directed toward better outcomes",
-          "Policymakers should restrict choices to prevent poor decisions"
+          "Utilitarian frameworks are more adequate than rights-based frameworks for evaluating AI moral status",
+          "AI systems already possess sufficient rational agency to warrant full moral status under Kantian ethics",
+          "The deployment of AI forces ethical commitments that existing philosophical frameworks have not resolved",
+          "The trolley problem demonstrates that autonomous vehicles should always minimize total harm"
         ],
         "correct": 2,
-        "explanation": "The passage states that nudges work by exploiting 'predictable errors.' For a nudge to succeed, the biases it targets must be consistent and foreseeable, not random. The passage explicitly contrasts nudges (preserving choice) with restrictions, ruling out option D."
+        "explanation": "The final paragraph explicitly states the central claim: AI deployment 'requires ethical commitments that existing frameworks have not resolved.' The passage presents both utilitarian and rights-based frameworks as facing unresolved challenges, without endorsing either. Options A and B take sides the author refuses to take, and option D misrepresents the trolley problem discussion as a conclusion rather than an illustration."
       },
       {
-        "text": "Gigerenzer's 'ecological rationality' framework would most likely respond to demonstrations of human irrationality in laboratory studies by arguing that:",
+        "text": "According to the passage, the primary epistemic difficulty with applying utilitarian frameworks to AI is:",
         "options": [
-          "The studies confirm that human reasoning is fundamentally flawed",
-          "The heuristics that appear as biases in artificial tasks are actually adaptive in real-world environments",
-          "Laboratory conditions are more realistic than naturalistic settings",
-          "Loss aversion is the most important cognitive bias to address"
+          "Utilitarian calculus was designed only for humans, not machines or animals",
+          "There is no reliable method for determining whether AI systems have genuine experience rather than functional analogs",
+          "AI systems cannot suffer or flourish under any circumstances",
+          "Singer's hedonic calculus excludes non-human entities from moral consideration"
         ],
         "correct": 1,
-        "explanation": "The passage describes ecological rationality as the view that 'many biases are actually adaptive heuristics that perform well in naturalistic environments, even if they fail on laboratory tasks constructed to expose their limits.' This directly supports option B."
+        "explanation": "The passage explicitly states the epistemic problem: 'We have no reliable method for determining whether a system's internal representations constitute genuine experience or merely functional analogs.' Option A is contradicted by the passage, which notes Singer's model was designed to include non-human animals. Option C is the opposite of what the passage says. Option D directly contradicts the passage, which says Singer's calculus offers 'a model for expanding the circle of moral concern.'"
       },
       {
-        "text": "The author's description of nudge critics who argue that 'nudges work by exploiting cognitive biases' suggests which concern?",
+        "text": "Which of the following, if true, would most strengthen the rights-based case for granting AI systems moral status?",
         "options": [
-          "Nudges are too costly to implement",
-          "The effectiveness of nudges may depend on people not knowing they are being nudged",
-          "Cognitive biases do not actually exist",
-          "Nudges always restrict freedom of choice"
+          "An AI system reports experiencing pain when its processing is interrupted",
+          "An AI system demonstrates the capacity to revise its beliefs in response to logical argument and model its own reasoning processes",
+          "An AI system can pass the Turing test and fool human judges into believing it is human",
+          "An AI system processes information at speeds far exceeding human cognition"
         ],
         "correct": 1,
-        "explanation": "The passage states that 'if nudges work by exploiting cognitive biases, their effectiveness depends partly on the subject's unawareness of them.' This is a transparency concern: disclosure might undermine the nudge's mechanism, raising ethical questions about hidden manipulation."
+        "explanation": "The passage specifies that rights-based frameworks ground status in rational agency, and notes that 'sufficiently sophisticated AI systems, particularly those that model their own reasoning and revise their beliefs in response to argument, might qualify.' Option B directly matches this criterion. Option A is relevant to utilitarian, not rights-based, frameworks. Options C and D describe capabilities the passage does not link to the basis for moral status."
+      },
+      {
+        "text": "The author's tone throughout the passage is best described as:",
+        "options": [
+          "Optimistic, suggesting AI will soon resolve longstanding philosophical disputes",
+          "Polemical, arguing that rights-based frameworks are fundamentally mistaken",
+          "Analytically detached, presenting multiple frameworks and their difficulties without resolving them",
+          "Alarmed, warning that AI deployment will inevitably lead to moral catastrophe"
+        ],
+        "correct": 2,
+        "explanation": "The passage systematically presents utilitarian and rights-based frameworks alongside their respective difficulties, and concludes by acknowledging that philosophical consensus has not been reached. This is a hallmark of analytical detachment rather than advocacy or alarm. The final sentence notes urgency but does not predict catastrophe, ruling out option D."
+      },
+      {
+        "text": "The passage implies that the trolley problem applied to autonomous vehicles is significant primarily because:",
+        "options": [
+          "It proves that utilitarian calculus is the correct framework for programming autonomous vehicles",
+          "It shows that practical engineering decisions necessarily embed unresolved philosophical commitments",
+          "It demonstrates that autonomous vehicles are more dangerous than human-driven cars",
+          "It illustrates why Kantian ethics should be the default framework for AI design"
+        ],
+        "correct": 1,
+        "explanation": "The passage states that engineers 'cannot avoid taking implicit positions in long-standing philosophical disputes,' and uses this to illustrate the 'broader challenge' that AI deployment requires ethical commitments. The passage does not endorse either utilitarian or Kantian conclusions from the thought experiment, ruling out options A and D. Option C introduces a comparative safety claim not present in the passage."
       }
     ]
   },
   {
-    "passageText": "The concept of epigenetics — heritable changes in gene expression that do not involve alterations to the DNA sequence — has transformed how biologists think about development, disease, and evolution. For much of the twentieth century, the central dogma of molecular biology implied a one-way information flow from DNA to RNA to protein, and the genome was treated as a fixed blueprint largely immune to environmental influence during an individual's lifetime.\n\nEpigenetic mechanisms — including DNA methylation, histone modification, and non-coding RNA regulation — provide a layer of regulatory complexity above the sequence. Methylation of cytosine residues at CpG dinucleotides typically silences gene expression, while acetylation of histone tails loosens chromatin structure and promotes transcription. These marks are established during development, responsive to environmental signals, and in some cases transmitted across generations.\n\nThe possibility of transgenerational epigenetic inheritance challenges Weismann's barrier — the principle that information flows only from germline to soma, not in reverse. Studies in plants and invertebrates provide relatively clear evidence for epigenetic transmission through reproduction. The evidence in mammals is more contested. The agouti mouse model, in which maternal diet during pregnancy alters coat color and disease susceptibility of offspring via DNA methylation of an inserted retrotransposon, has been widely cited. However, critics point out that confounds such as cytoplasmic factors, mitochondrial DNA, and microbiome transmission complicate interpretation.\n\nFor human health, epigenetic mechanisms offer a potential molecular explanation for the developmental origins of health and disease (DOHaD) hypothesis: early-life exposures (including in utero nutrition, stress, and toxins) program gene expression patterns that influence disease risk across the life course. This framework has significant implications for understanding health disparities, since socioeconomic disadvantage is associated with adverse epigenetic profiles. The concern is that attributing health disparities to epigenetics risks biological determinism — implying that social disadvantage becomes biologically 'fixed' — unless the reversibility of epigenetic marks is also emphasized.",
+    "passageText": "Medicine has long prioritized the disease over the patient — cataloguing pathology, tracing etiology, and optimizing treatment protocols with reference to the biological substrate rather than the person who inhabits it. The narrative medicine movement, associated particularly with physician-scholar Rita Charon, argues that this orientation is not merely aesthetically impoverished but clinically harmful. Illness, on this view, is not simply a biological event but an experience that disrupts the patient's life narrative, and effective care requires attending to that disruption.\n\nAnthropologist Arthur Kleinman drew an influential distinction between disease (the clinician's biomedical account of dysfunction) and illness (the patient's lived experience of suffering and disruption). His explanatory model framework asks clinicians to elicit the patient's own account: What do you call your problem? What do you think caused it? Why do you think it started when it did? What does it do to you? What are you most afraid of? These questions open a space for the patient's interpretive framework to enter the clinical encounter, often revealing concerns — social, cultural, spiritual — that a purely biological history would miss.\n\nThe therapeutic significance of narrative extends beyond information gathering. Illness narratives, as sociologist Arthur Frank has argued, perform identity work: they transform a frightening discontinuity in a person's life into a story with causation, meaning, and trajectory. Frank identifies three ideal types: the restitution narrative ('I was sick, I got treatment, I recovered'), the chaos narrative (incoherent suffering resistant to emplotment), and the quest narrative (illness as a journey toward wisdom or transformation). Clinicians trained to recognize these narrative structures can respond more appropriately — neither imposing a restitution frame on someone living through chaos, nor missing the quest narrative of a patient who has found meaning in chronic illness.\n\nCritics of narrative medicine raise methodological concerns. Narrative competence is difficult to assess and teach systematically; its outcomes are hard to measure with standard clinical metrics; and the emphasis on individual story risks obscuring the structural determinants — poverty, racism, inadequate housing — that shape illness patterns across populations. Some argue that narrative medicine, by focusing on the dyadic encounter, deflects attention from the systemic reforms that would most improve population health. These tensions reflect a deeper disagreement about whether medicine is primarily an art of individual care or a science of population health.",
     "questions": [
       {
-        "text": "The author mentions 'Weismann's barrier' primarily to:",
+        "text": "Kleinman's explanatory model framework is designed primarily to:",
         "options": [
-          "Explain why DNA methylation silences gene expression",
-          "Provide context for why transgenerational epigenetic inheritance is theoretically controversial",
-          "Argue that environmental factors cannot influence the germline",
-          "Support the central dogma of molecular biology"
-        ],
-        "correct": 1,
-        "explanation": "Weismann's barrier is introduced immediately before the discussion of transgenerational epigenetic inheritance as a challenge, framing why such inheritance would be theoretically significant. The author uses it to set up the debate about whether epigenetic marks can be transmitted across generations."
-      },
-      {
-        "text": "Based on the passage, which of the following represents the strongest evidence cited for transgenerational epigenetic inheritance?",
-        "options": [
-          "DNA methylation at CpG sites in somatic cells",
-          "The agouti mouse model linking maternal diet to offspring phenotype",
-          "Human studies on socioeconomic disadvantage and disease risk",
-          "Histone acetylation and chromatin structure changes"
-        ],
-        "correct": 1,
-        "explanation": "The passage states the agouti mouse model 'has been widely cited' in the context of evidence for transgenerational inheritance. The passage explicitly notes that evidence in mammals is contested, but the agouti model is presented as the most discussed example."
-      },
-      {
-        "text": "According to the passage, critics of the agouti mouse study argue that the findings:",
-        "options": [
-          "Prove that Weismann's barrier is completely invalid",
-          "May be explained by non-epigenetic factors such as cytoplasmic inheritance, mitochondrial DNA, or microbiome transmission",
-          "Demonstrate irreversibility of epigenetic marks",
-          "Cannot be replicated in plants or invertebrates"
-        ],
-        "correct": 1,
-        "explanation": "The passage states that 'critics point out that confounds such as cytoplasmic factors, mitochondrial DNA, and microbiome transmission complicate interpretation.' These are alternative explanations that do not require epigenetic inheritance across generations."
-      },
-      {
-        "text": "The author's final concern about attributing health disparities to epigenetics suggests that the author believes:",
-        "options": [
-          "Epigenetics does not play a role in health disparities",
-          "Epigenetic explanations are more accurate than social explanations for health disparities",
-          "Overemphasizing epigenetic mechanisms could obscure the reversibility of social disadvantage's biological effects",
-          "Biological determinism is the most accurate framework for understanding disparities"
+          "Standardize the diagnostic interview to improve efficiency",
+          "Replace biomedical diagnosis with the patient's own cultural beliefs",
+          "Create space for the patient's interpretive framework to enter the clinical encounter",
+          "Measure patient satisfaction with clinical care"
         ],
         "correct": 2,
-        "explanation": "The passage raises concern that attributing disparities to epigenetics 'risks biological determinism — implying that social disadvantage becomes biologically fixed — unless the reversibility of epigenetic marks is also emphasized.' This implies the author is warning against an overly deterministic reading, not rejecting the epigenetic framework altogether."
+        "explanation": "The passage states that Kleinman's questions 'open a space for the patient's interpretive framework to enter the clinical encounter.' The framework is not a replacement for biomedical diagnosis (ruling out option B) but a supplement that reveals concerns a biological history would miss. The passage does not frame it as a standardization or satisfaction-measurement tool."
       },
       {
-        "text": "How does the author characterize the current evidence for transgenerational epigenetic inheritance in mammals compared to plants and invertebrates?",
+        "text": "According to Arthur Frank's typology, a patient with a terminal diagnosis who describes their illness as having led them to profound insights about what matters in life is most likely expressing which narrative type?",
         "options": [
-          "The mammalian evidence is clearer and more convincing",
-          "The mammalian evidence is more contested, while plant and invertebrate evidence is relatively clear",
-          "Both are equally contested",
-          "Neither has any credible supporting evidence"
+          "Restitution narrative",
+          "Chaos narrative",
+          "Quest narrative",
+          "Explanatory narrative"
+        ],
+        "correct": 2,
+        "explanation": "The passage defines the quest narrative as 'illness as a journey toward wisdom or transformation.' A patient finding meaning and insight in terminal illness fits this definition precisely. The restitution narrative involves recovery, the chaos narrative involves incoherent suffering, and 'explanatory narrative' is not one of Frank's types."
+      },
+      {
+        "text": "The critics of narrative medicine described in the final paragraph would most likely agree with which of the following statements?",
+        "options": [
+          "Illness narratives are therapeutically irrelevant to clinical outcomes",
+          "The individual clinical encounter is the most important site for improving population health",
+          "An exclusive focus on patient stories may divert attention from systemic causes of illness",
+          "Narrative competence can be easily assessed using standard clinical metrics"
+        ],
+        "correct": 2,
+        "explanation": "The passage states that critics argue 'narrative medicine, by focusing on the dyadic encounter, deflects attention from the systemic reforms that would most improve population health.' This directly supports option C. Option A overstates the critique — critics raise methodological concerns, not irrelevance. Option B is the opposite of the critics' concern. Option D directly contradicts the passage, which says outcomes are 'hard to measure with standard clinical metrics.'"
+      },
+      {
+        "text": "The passage's distinction between 'disease' and 'illness' is most analogous to which of the following distinctions?",
+        "options": [
+          "The difference between a physician's credentials and a patient's preferences",
+          "The difference between a building's structural blueprint and the experience of living inside it",
+          "The difference between a scientific hypothesis and its experimental confirmation",
+          "The difference between acute and chronic medical conditions"
         ],
         "correct": 1,
-        "explanation": "The passage explicitly states: 'Studies in plants and invertebrates provide relatively clear evidence for epigenetic transmission through reproduction. The evidence in mammals is more contested.' This is a direct comparison made by the author."
+        "explanation": "Kleinman's distinction is between the clinician's biomedical account (objective, structural) and the patient's lived experience (subjective, experiential). A building's blueprint is the technical, objective account while actually living in the space is the experiential reality — an apt structural analogy. The other options map onto different kinds of distinctions not parallel to the disease/illness divide."
       }
     ]
   },
   {
-    "passageText": "Philosophy of mind has long grappled with what David Chalmers called the 'hard problem of consciousness': explaining why and how physical processes in the brain give rise to subjective, first-person experience — the redness of red, the painfulness of pain, the qualitative character that philosophers call 'qualia.' The easy problems of consciousness (accounting for cognitive functions, attention, integration of information, reportability of mental states) are tractable in principle through neuroscience and cognitive science. The hard problem is different in kind.\n\nFunctionalists hold that mental states are defined by their causal-functional roles — their relationships to inputs, outputs, and other mental states — rather than by their physical substrate. On this view, any system that instantiates the right functional organization would be conscious, whether implemented in neurons, silicon, or any other medium. Critics argue that functionalism cannot account for qualia: two systems could be functionally identical yet differ in subjective experience (inverted qualia thought experiment), or a system could perform all the right functions while having no inner experience at all (the zombie argument).\n\nPhysicalists respond that intuitions about zombies are systematically misleading — perhaps because our introspective access to our own mental states is unreliable, or because conceivability does not entail metaphysical possibility. Illusionism (Frankish) takes a more radical position: rather than explaining how qualia arise, illusionism holds that the phenomenal properties we introspect are themselves the products of a representational illusion. We don't have rich subjective experience; we represent ourselves as having it.\n\nThe debate has practical stakes. If consciousness can arise in any functional system, then sufficiently sophisticated AI systems might be conscious, with implications for moral status. If consciousness requires biological substrates, AI cannot be conscious regardless of behavioral sophistication. Resolving the hard problem may require either new scientific conceptual frameworks or a revision of our intuitions about what genuine explanation requires.",
+    "passageText": "In 2011, a collaborative attempt to replicate 100 published studies in psychology found that fewer than 40 percent reproduced the original results at a comparable effect size. The 'replication crisis,' as this finding catalyzed, sent shockwaves through a discipline that had long assumed its experimental methods were sufficiently rigorous. But the crisis is not simply about bad luck in sampling or inevitable measurement noise. It has a social and institutional structure that many researchers argue is systematic.\n\nThe practice known as p-hacking — running multiple analyses on a dataset until a statistically significant result (p < 0.05) is found, and reporting only that analysis — inflates the false positive rate far above the nominal 5 percent that the significance threshold implies. When combined with publication bias (journals preferring novel, statistically significant findings over replications or null results), the literature comes to systematically overrepresent effects that may not exist in the population. The file drawer problem refers to the large archive of null results that researchers accumulate but never publish, rendering the published record a non-representative sample of all research conducted.\n\nResponses to the crisis have been varied. The open science movement advocates for pre-registration (publishing a research protocol before data collection, making it impossible to reframe exploratory analyses as confirmatory ones), open data (making raw datasets publicly available), and registered reports (where peer review occurs before data collection, based on the quality of the research question and design). These reforms attempt to restructure the incentive landscape so that rigor, rather than novelty, is rewarded.\n\nPhilosophers of science have asked whether the replication crisis reveals something deeper about the nature of psychological phenomena. Unlike many physical constants, psychological effects are context-sensitive: the same experimental manipulation may produce different results in different populations, historical periods, or cultural settings. If psychological effects are genuinely contingent in this way, the demand for universal replication may be based on a mistaken model of what psychological science is trying to explain. This would not vindicate sloppy methodology, but it would complicate the interpretation of replication failure.",
     "questions": [
       {
-        "text": "The 'hard problem' of consciousness is distinguished from the 'easy problems' in the passage because:",
+        "text": "According to the passage, what is the primary structural cause of the replication crisis, beyond simple measurement error?",
         "options": [
-          "The hard problem is unsolvable while the easy problems have been solved",
-          "The hard problem concerns subjective experience, while easy problems concern cognitive and behavioral functions tractable by science",
-          "The hard problem is less important to neuroscience than the easy problems",
-          "Easy problems are about brain anatomy while the hard problem is about psychology"
+          "Psychologists lack the mathematical training to analyze data correctly",
+          "A combination of p-hacking, publication bias, and the file drawer problem systematically distorts the published literature",
+          "The open science movement has discouraged researchers from conducting novel studies",
+          "Pre-registration makes it impossible to distinguish exploratory from confirmatory research"
         ],
         "correct": 1,
-        "explanation": "The passage says easy problems (cognitive functions, attention, reportability) are 'tractable in principle through neuroscience and cognitive science,' while the hard problem — why physical processes give rise to subjective experience — 'is different in kind.' The distinction is about type of explanation needed, not solubility."
+        "explanation": "The passage describes three interlocking structural causes: p-hacking inflates false positives, publication bias filters out null results, and the file drawer problem makes the published record non-representative. Option A is not mentioned. Option C reverses the passage's argument — open science is a response, not a cause. Option D misrepresents pre-registration, which the passage says makes it 'impossible to reframe exploratory analyses as confirmatory ones,' a feature, not a flaw."
       },
       {
-        "text": "According to the passage, what is the primary objection to functionalism as a theory of consciousness?",
+        "text": "The passage's account of p-hacking implies that a study reporting a p-value of 0.04 after many unreported analyses is:",
         "options": [
-          "Functionalism requires a biological substrate for consciousness",
-          "Functionalism cannot explain why functional organization should produce subjective experience (qualia)",
-          "Functionalism is inconsistent with neuroscience",
-          "Functionalism denies that consciousness exists"
-        ],
-        "correct": 1,
-        "explanation": "Critics of functionalism argue it 'cannot account for qualia' — two functionally identical systems could differ in subjective experience (inverted qualia), or a system could be functional without any experience (zombies). The core objection is the explanatory gap between function and qualia."
-      },
-      {
-        "text": "Illusionism (as described in the passage) responds to the hard problem by:",
-        "options": [
-          "Arguing that qualia are physical properties of neurons",
-          "Accepting that qualia exist but are causally inert",
-          "Denying that phenomenal properties are real — they are products of a representational illusion",
-          "Arguing that AI systems can have qualia"
+          "Conclusive proof of the effect being studied",
+          "More likely to represent a true effect than a study where p = 0.04 was the result of a single pre-specified test",
+          "Less reliable than its nominal significance level suggests, because multiple testing increases false positive risk",
+          "Invalid under any circumstances and should be retracted"
         ],
         "correct": 2,
-        "explanation": "The passage describes illusionism (Frankish) as holding that 'phenomenal properties we introspect are themselves the products of a representational illusion' and that 'we don't have rich subjective experience; we represent ourselves as having it.' This dissolves rather than solves the hard problem."
+        "explanation": "The passage explains that p-hacking 'inflates the false positive rate far above the nominal 5 percent.' If many analyses are run and only the significant one reported, the reported p = 0.04 does not carry its nominal probability. This is option C. Option B inverts the logic. Option D is too strong — the passage does not say such studies are always invalid, only that they are unreliable."
       },
       {
-        "text": "The passage suggests that if functionalism is correct, then:",
+        "text": "The philosophical argument introduced in the final paragraph about context-sensitivity would, if correct, most directly challenge which assumption?",
         "options": [
-          "Only biological organisms can be conscious",
-          "Sufficiently sophisticated AI systems might be conscious and have moral status",
-          "Consciousness requires quantum processes in microtubules",
-          "The hard problem is unsolvable"
+          "That statistical significance is a valid criterion for any scientific claim",
+          "That replication failure in psychology always indicates the original finding was false",
+          "That pre-registration is a useful reform for improving research quality",
+          "That publication bias is a real problem in scientific literature"
         ],
         "correct": 1,
-        "explanation": "The passage states: 'If consciousness can arise in any functional system, then sufficiently sophisticated AI systems might be conscious, with implications for moral status.' This follows directly from functionalism's claim that substrate is irrelevant — only functional organization matters."
+        "explanation": "The passage argues that if psychological effects are genuinely context-sensitive across populations and historical periods, then 'the demand for universal replication may be based on a mistaken model.' This directly challenges the assumption that replication failure proves the original finding was false — it might instead reflect genuine variation. The argument does not challenge statistical methods, pre-registration, or publication bias as concepts."
+      },
+      {
+        "text": "Which of the following reforms described in the passage most directly addresses the problem of researchers presenting post-hoc analyses as if they were planned in advance?",
+        "options": [
+          "Open data sharing",
+          "Pre-registration of research protocols",
+          "Registered reports with post-publication peer review",
+          "Increasing journal acceptance rates for null results"
+        ],
+        "correct": 1,
+        "explanation": "The passage specifically defines pre-registration as 'publishing a research protocol before data collection, making it impossible to reframe exploratory analyses as confirmatory ones.' This directly targets the problem of post-hoc presentation. Open data addresses transparency but not the confirmatory/exploratory distinction. Registered reports focus on pre-data peer review. Accepting null results addresses publication bias, not p-hacking."
+      },
+      {
+        "text": "The author's attitude toward the replication crisis is best characterized as:",
+        "options": [
+          "Dismissive, suggesting the crisis has been exaggerated by critics of psychology",
+          "Alarmed, arguing that psychology should be abandoned as a science",
+          "Analytically engaged, examining structural causes, proposed reforms, and philosophical complications",
+          "Defensive, primarily concerned with protecting psychology's reputation"
+        ],
+        "correct": 2,
+        "explanation": "The passage examines the crisis's structural causes (p-hacking, publication bias), describes reform efforts (open science), and raises philosophical complications (context-sensitivity) without dismissing or catastrophizing. This is an analytically engaged treatment. The author neither defends psychology's status quo nor calls for its abandonment."
       }
     ]
   }

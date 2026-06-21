@@ -1,148 +1,148 @@
 [
   {
-    "passageText": "The rise of social media platforms in the twenty-first century has prompted intense debate about their effects on democratic discourse and epistemic culture. Two related phenomena — echo chambers and filter bubbles — are frequently cited as mechanisms by which digital platforms degrade the quality of political information environments. Though often used interchangeably, the terms describe different processes. Echo chambers arise primarily from homophily and social dynamics: people tend to associate with, and selectively expose themselves to, those who share their views. Filter bubbles, by contrast, result from algorithmic personalization: recommendation and ranking systems trained to maximize engagement prioritize content predicted to interest individual users, incidentally creating personalized information environments.\n\nThe empirical evidence for these effects is more mixed than popular discourse suggests. Large-scale studies using platform data (Bakshy et al., 2015, on Facebook) found that, while algorithmic ranking did reduce cross-cutting content exposure, individual choice (selective exposure to friends and sources) had a larger effect. Other studies suggest that social media users may actually encounter more diverse viewpoints than those who rely on legacy media — because social networks include weak ties to people with different views. The most politically engaged users, however, do show strong echo chamber effects.\n\nSeparately from the polarization debate, platform architecture shapes the information environment in ways that may incentivize misinformation. Content that provokes strong emotional reactions (outrage, fear, moral condemnation) spreads more widely and rapidly than factually accurate but emotionally neutral content. Platforms that optimize for engagement therefore create structural incentives for misinformation — not because platforms or users intend it, but because the architecture rewards virality over accuracy.\n\nProposed remedies include algorithmic transparency requirements (forcing platforms to disclose how content is ranked), interoperability mandates (allowing users to communicate across platforms), and resurrecting the editorial responsibility model (treating platforms more like publishers, who bear legal responsibility for the content they amplify). Each proposal carries tradeoffs between free expression, innovation, privacy, and democratic function.",
+    "passageText": "What makes you the same person you were ten years ago? You share almost none of the same cells, your beliefs and values may have shifted substantially, and many memories from that period are inaccessible or distorted. The philosophy of personal identity asks whether there is a fact of the matter about what personal identity consists in, and if so, what that fact is.\n\nLocke's influential answer was psychological continuity: what makes a later person the same as an earlier one is an overlapping chain of memories and psychological connections. His criterion focused specifically on memory — person A at time T2 is identical to person B at T1 if A can remember experiences had by B. This view has intuitive appeal in many cases but generates counterintuitive results in others. Derek Parfit, the most influential twentieth-century philosopher of personal identity, argued via thought experiments involving fission and teleportation that identity is not what matters in survival. If your brain were divided and each hemisphere transplanted into a separate body, there would be no fact of the matter about which resulting person is 'really you,' but there would be two people each psychologically continuous with you. Parfit concluded that what matters is psychological continuity itself, not the further fact of numerical identity.\n\nDementia presents a clinically urgent version of these philosophical puzzles. As cognitive function deteriorates, the psychological connections that constitute identity on Locke's account unravel. Does the patient in advanced dementia have the same interests as the person who wrote advance directives years earlier? The Precedent Autonomy debate asks whether the earlier, competent self should have binding authority over the current self, or whether the current self — with its own apparent preferences, even if no longer philosophically sophisticated — has independent moral standing.\n\nBuddhist philosophy offers a strikingly different framework. The doctrine of anatta (no-self) holds that personal identity is a conceptual construction imposed on a stream of causally connected but not substantially unified mental events. Far from being a troubling metaphysical truth, the recognition of no-self is, in Buddhist practice, the beginning of liberation from suffering — since much of what causes suffering derives from the false belief that there is a fixed, permanent self to protect and gratify. The resonances between Parfit's analytical conclusions and Buddhist metaphysics are not coincidental: Parfit acknowledged direct influence.",
     "questions": [
       {
-        "text": "According to the passage, the key distinction between echo chambers and filter bubbles is that:",
+        "text": "According to the passage, Parfit's thought experiments about fission are intended to show that:",
         "options": [
-          "Echo chambers are caused by algorithms while filter bubbles result from human choices",
-          "Filter bubbles are caused by algorithms while echo chambers arise from social homophily and selective exposure",
-          "Echo chambers are more harmful to democracy than filter bubbles",
-          "Filter bubbles only affect political content while echo chambers affect all content"
+          "Psychological continuity is not sufficient for personal identity",
+          "Memory is the only reliable criterion for personal identity",
+          "Personal identity is what matters in survival, not psychological continuity",
+          "Numerical identity is not what matters in survival; psychological continuity is"
+        ],
+        "correct": 3,
+        "explanation": "The passage states that Parfit 'concluded that what matters is psychological continuity itself, not the further fact of numerical identity.' The fission case shows that numerical identity can be indeterminate (no fact about which branch is 'really you') while psychological continuity can still obtain. Options A and B mischaracterize the argument. Option C inverts the conclusion — Parfit says identity (not psychological continuity) is what does NOT matter."
+      },
+      {
+        "text": "The 'Precedent Autonomy' debate described in the passage is best understood as a conflict between:",
+        "options": [
+          "Medical efficiency and patient rights",
+          "The authority of a former, competent self and the interests of a current self with diminished cognition",
+          "The legal validity of advance directives and their clinical implementation",
+          "Utilitarian and deontological approaches to medical decision-making"
         ],
         "correct": 1,
-        "explanation": "The passage directly states: 'Echo chambers arise primarily from homophily and social dynamics...Filter bubbles, by contrast, result from algorithmic personalization.' The passage explicitly corrects the common confusion, assigning algorithmic causation to filter bubbles and social causation to echo chambers."
+        "explanation": "The passage frames Precedent Autonomy as asking 'whether the earlier, competent self should have binding authority over the current self, or whether the current self — with its own apparent preferences — has independent moral standing.' This is directly option B. The passage does not frame the debate in terms of efficiency, legal validity, or utilitarian versus deontological frameworks."
       },
       {
-        "text": "The Bakshy et al. (2015) study is cited in the passage to support which conclusion?",
+        "text": "The passage suggests that Parfit's conclusions are related to Buddhist anatta because:",
         "options": [
-          "Algorithms are the primary cause of political polarization",
-          "Social media has no effect on information diversity",
-          "Individual selective exposure choices may have larger effects than algorithmic ranking on cross-cutting content",
-          "Filter bubbles are more damaging than echo chambers"
+          "Both claim that personal identity is constituted by memory alone",
+          "Both deny that there is a substantial, unified self persisting through time",
+          "Both argue that the self is permanent but unknowable",
+          "Parfit borrowed his teleportation thought experiment from Buddhist texts"
         ],
-        "correct": 2,
-        "explanation": "The passage states the study 'found that, while algorithmic ranking did reduce cross-cutting content exposure, individual choice (selective exposure) had a larger effect.' This nuances the narrative that algorithms are the primary cause, pointing instead to user behavior."
+        "correct": 1,
+        "explanation": "The passage notes that anatta holds 'personal identity is a conceptual construction imposed on a stream of causally connected but not substantially unified mental events,' and Parfit concludes that 'identity is not what matters.' Both frameworks converge on the denial of a substantive, persistent self. Option A is Locke's view, not Parfit's or Buddhism's. Option C contradicts both — neither claims the self is permanent. Option D is not mentioned in the passage."
       },
       {
-        "text": "According to the passage, platforms that optimize for engagement inadvertently incentivize misinformation because:",
+        "text": "Based on the passage, which of the following cases would most directly challenge Locke's memory-based criterion of personal identity?",
         "options": [
-          "Platform owners want to spread false information",
-          "Users cannot distinguish true from false content",
-          "Emotionally provocative content spreads faster than accurate but emotionally neutral content",
-          "Fact-checking algorithms are unreliable"
+          "A person who has vivid memories of their childhood but whose personality has changed dramatically",
+          "A person who has no memory of a crime they committed while sleepwalking but is biologically continuous with the person who committed it",
+          "A person who undergoes a teleportation that perfectly preserves their psychological states",
+          "A person whose advance directive conflicts with the medical team's clinical judgment"
         ],
-        "correct": 2,
-        "explanation": "The passage states: 'Content that provokes strong emotional reactions...spreads more widely and rapidly than factually accurate but emotionally neutral content. Platforms that optimize for engagement therefore create structural incentives for misinformation.' The key mechanism is virality rewarding emotional activation."
-      },
-      {
-        "text": "Which proposed remedy described in the passage would most directly address algorithmic transparency concerns?",
-        "options": [
-          "Interoperability mandates",
-          "The editorial responsibility model",
-          "Algorithmic transparency requirements forcing platforms to disclose ranking methods",
-          "Restricting user access to content outside their network"
-        ],
-        "correct": 2,
-        "explanation": "The passage describes 'algorithmic transparency requirements (forcing platforms to disclose how content is ranked)' as the remedy most directly targeting transparency. Interoperability addresses cross-platform communication; the editorial responsibility model addresses legal liability for amplified content."
+        "correct": 1,
+        "explanation": "Locke's memory criterion implies that if person A cannot remember actions performed by B, A is not identical to B. The sleepwalking case creates a problem: intuitively we hold the person morally responsible, suggesting biological or other continuity matters, but Locke's criterion would say the waking person is not the same as the sleepwalker. This directly challenges the memory criterion. Option A is consistent with Locke (memory present = identity). Option C would support, not challenge, psychological continuity theories. Option D is about advance directives, not personal identity criteria."
       }
     ]
   },
   {
-    "passageText": "Evolutionary biologists have long debated the relative importance of natural selection, genetic drift, mutation, and gene flow in shaping the genetic diversity of populations. The modern synthesis (1930s–1950s) integrated Mendelian genetics with Darwinian selection, producing a framework in which selection was typically viewed as the primary determinant of allele frequencies over time. The neutral theory of molecular evolution, proposed by Motoo Kimura in 1968, challenged this adaptationist consensus.\n\nKimura argued that at the molecular level, most genetic variation is selectively neutral — neither beneficial nor harmful — and that random genetic drift (the stochastic sampling of alleles in finite populations) is the dominant force shaping molecular variation. On this view, most protein polymorphisms and synonymous substitutions (those not changing amino acid sequence) are effectively neutral, maintained or lost by chance rather than selection. The neutral theory made predictions about the rate of molecular evolution: substitution rates should be proportional to the mutation rate (the molecular clock hypothesis), and genetic diversity should scale with effective population size.\n\nThe neutral theory has been partially superseded by the nearly neutral theory (Ohta), which allows for slightly deleterious as well as neutral mutations and predicts that effective population size modulates the efficiency of selection (in small populations, drift overpowers selection on slightly deleterious mutations, allowing them to fix). More recent genomic analyses have found evidence for widespread positive selection in the human genome, suggesting adaptation is more common than the neutral theory implies, though the relative contributions of selection and drift remain contested.\n\nThe debate matters for medicine. Many single-nucleotide polymorphisms (SNPs) identified in genome-wide association studies (GWAS) are in non-coding regulatory regions and may be neutral, nearly neutral, or adaptively maintained. Distinguishing true functional variants from neutral ones requires population genetic analysis. Moreover, understanding the demographic history of populations (bottlenecks, expansions) is necessary for interpreting patterns of genetic variation without confusing the effects of drift with those of selection.",
+    "passageText": "How children acquire language — moving from babble to full grammatical competence in a matter of years, with minimal explicit instruction — has fascinated and divided linguists for decades. The nativist position, associated above all with Noam Chomsky, holds that the speed and uniformity of language acquisition cannot be explained by general learning mechanisms alone. Children are exposed to impoverished and error-laden input (the 'poverty of the stimulus'), yet converge on correct grammatical knowledge far beyond what the input unambiguously supports. Chomsky's postulate of Universal Grammar — an innate, domain-specific cognitive system that constrains the space of possible human languages — was designed to solve this learnability problem.\n\nUsage-based theories, developed by researchers including Michael Tomasello and his collaborators, challenge nativism on empirical and theoretical grounds. Language acquisition, on this view, emerges from the interaction of domain-general cognitive capacities — pattern recognition, statistical learning, intention reading — with the rich, structured input of social interaction. Children do not acquire abstract grammatical categories wholesale but build them incrementally from specific instances, generalizing with increasing scope as experience accumulates. This approach predicts that early language should be item-specific and bound to particular social routines, a prediction borne out by naturalistic corpus studies.\n\nThe critical period hypothesis adds a developmental dimension: there is a window, roughly from birth to puberty, during which full native competence is readily acquired, and after which the process is effortful and incomplete. Evidence comes from cases of language deprivation (feral children, deaf individuals denied sign language during childhood), second language acquisition data, and neuroimaging studies showing shifts in cortical organization after the critical period closes. The hypothesis is consistent with both nativist and usage-based accounts: nativists interpret it as evidence of a maturational schedule built into Universal Grammar; usage-based theorists see it as reflecting the general neurodevelopmental constraints on plasticity.\n\nBilingualism research has moved from the old deficit model — which treated two languages as competing and reducing competence in each — toward findings of cognitive advantage. Bilingual individuals, managing two competing linguistic systems from early childhood, appear to show enhanced executive function, particularly in tasks requiring selective attention and interference suppression. Proposed mechanisms include the constant practice of monitoring which language is appropriate and suppressing the other. The findings are contested, with some large-sample studies failing to replicate the advantage, but the debate has productively displaced the assumption that monolingualism is the cognitive norm.",
     "questions": [
       {
-        "text": "The neutral theory of molecular evolution contradicted the modern synthesis primarily by arguing that:",
+        "text": "The 'poverty of the stimulus' argument, as described in the passage, is intended to support which conclusion?",
         "options": [
-          "Mutations do not occur at the molecular level",
-          "Natural selection cannot act on protein variation",
-          "Most molecular genetic variation is shaped by random drift rather than natural selection",
-          "Effective population size is irrelevant to evolution"
+          "Children in low-income environments acquire language more slowly than wealthy peers",
+          "General learning mechanisms are sufficient to explain language acquisition given sufficient input",
+          "The speed and uniformity of language acquisition requires an innate language-specific mechanism",
+          "Children learn grammar primarily through explicit parental correction"
         ],
         "correct": 2,
-        "explanation": "The passage states that Kimura argued 'at the molecular level, most genetic variation is selectively neutral' and that 'random genetic drift...is the dominant force shaping molecular variation.' This directly challenged the adaptationist view of the modern synthesis that selection drives allele frequencies."
+        "explanation": "The passage explains that children 'converge on correct grammatical knowledge far beyond what the input unambiguously supports,' and that this is what the poverty of the stimulus argument invokes. The argument concludes that general learning from input cannot explain the outcome, supporting the nativist postulate of Universal Grammar. Option A misreads 'poverty of the stimulus' as literal poverty. Option B is the position the argument is designed to challenge. Option D is not mentioned."
       },
       {
-        "text": "According to the passage, the molecular clock hypothesis predicts that:",
+        "text": "Which of the following predictions follows from the usage-based theory, according to the passage?",
         "options": [
-          "Molecular evolution proceeds at a rate proportional to effective population size",
-          "All mutations are fixed at the same rate regardless of mutation rate",
-          "The rate of molecular substitution is proportional to the mutation rate",
-          "Synonymous and nonsynonymous substitutions occur at the same rate"
+          "Children should show evidence of abstract grammatical categories from the earliest stages of language production",
+          "Children learning different languages should converge on identical early grammatical structures",
+          "Early language should be item-specific and tied to particular social routines",
+          "Children deprived of social interaction should nonetheless acquire language through pattern recognition alone"
         ],
         "correct": 2,
-        "explanation": "The passage states: 'Substitution rates should be proportional to the mutation rate (the molecular clock hypothesis).' Under the neutral theory, neutral mutations are fixed at a rate equal to the mutation rate (since fix probability = 1/2N × 2N = 1 for neutral mutations), creating a constant molecular clock."
+        "explanation": "The passage states that usage-based theory 'predicts that early language should be item-specific and bound to particular social routines, a prediction borne out by naturalistic corpus studies.' Option A is the nativist prediction — that abstract categories are present from the start. Option B is also more consistent with Universal Grammar. Option D contradicts the usage-based emphasis on social interaction."
       },
       {
-        "text": "The nearly neutral theory (Ohta) adds to Kimura's neutral theory by predicting that in small populations:",
+        "text": "The passage presents the critical period hypothesis as notable primarily because:",
         "options": [
-          "Positive selection is more efficient",
-          "Slightly deleterious mutations are more likely to be purged",
-          "Drift can overwhelm selection, allowing slightly deleterious mutations to fix",
-          "Genetic diversity is maximized"
+          "It is consistent with nativist theory but incompatible with usage-based approaches",
+          "It applies only to second language acquisition, not to first language acquisition",
+          "Both nativist and usage-based theorists can accommodate it, each interpreting it differently",
+          "It has been definitively proven by cases of language deprivation alone"
         ],
         "correct": 2,
-        "explanation": "The passage states that the nearly neutral theory 'predicts that effective population size modulates the efficiency of selection (in small populations, drift overpowers selection on slightly deleterious mutations, allowing them to fix).' Small populations have stronger drift, which can counteract weak selection against slightly harmful mutations."
+        "explanation": "The passage explicitly states that 'the hypothesis is consistent with both nativist and usage-based accounts' and then describes how each side interprets it. This is option C. Option A incorrectly states incompatibility with usage-based theories. Option B is contradicted — evidence comes from first-language deprivation as well. Option D overstates the evidential status; the passage lists multiple sources of evidence without claiming definitive proof."
       },
       {
-        "text": "The passage implies that distinguishing neutral from adaptive variants in GWAS data requires:",
+        "text": "The author describes the 'old deficit model' of bilingualism in order to:",
         "options": [
-          "Only sequencing more individuals from the same population",
-          "Population genetic analysis and understanding of demographic history",
-          "Focusing only on coding regions of the genome",
-          "Ignoring the effects of genetic drift"
+          "Argue that bilingualism genuinely reduces grammatical competence in each language",
+          "Contrast it with more recent research suggesting cognitive advantages from bilingualism",
+          "Explain why bilingual children perform worse on standardized tests",
+          "Support the nativist claim that Universal Grammar operates in one language at a time"
         ],
         "correct": 1,
-        "explanation": "The passage states: 'Distinguishing true functional variants from neutral ones requires population genetic analysis. Moreover, understanding the demographic history of populations (bottlenecks, expansions) is necessary for interpreting patterns of genetic variation without confusing the effects of drift with those of selection.'"
+        "explanation": "The passage explicitly contrasts the 'old deficit model' with 'findings of cognitive advantage' in bilingual individuals, noting that the debate 'has productively displaced the assumption that monolingualism is the cognitive norm.' The deficit model is introduced as a historical foil. Options A, C, and D misrepresent the passage's purpose and content."
       }
     ]
   },
   {
-    "passageText": "The concept of distributive justice — how benefits and burdens should be fairly allocated in society — has animated political philosophy since antiquity but was given its most influential modern formulation by John Rawls in A Theory of Justice (1971). Rawls argued that principles of justice should be those that free and rational persons, ignorant of their own position in society (behind a 'veil of ignorance'), would choose to govern the basic structure of social institutions. This thought experiment, the 'original position,' is designed to ensure impartiality: knowing neither one's natural talents, social class, race, nor conception of the good, contractors cannot bias principles to their own advantage.\n\nFrom this hypothetical choice situation, Rawls derived two principles. The first principle guarantees each person the most extensive system of equal basic liberties compatible with a similar system for all. The second principle — the difference principle — permits social and economic inequalities only insofar as they benefit the least advantaged members of society. Rawls argued that rational agents behind the veil of ignorance would choose the maximin rule (maximize the minimum position) because they could find themselves among the worst-off.\n\nLibertarians (Nozick) objected that the difference principle violates individual rights: if patterns of distribution result from voluntary exchanges, no redistribution is warranted regardless of whether it benefits the worst-off. Utilitarians objected that the maximin rule is too risk-averse — a rational agent might prefer a system that maximizes total welfare even if it creates greater inequality. Communitarian critics (Sandel, MacIntyre) argued that Rawls's liberal framework presupposes an 'unencumbered self' — an individual whose identity is prior to and independent of social roles and communities — which misrepresents the social constitution of persons.\n\nRawls's theory has been extended and challenged by feminist theorists (Okin), who argued that the original position fails to adequately address gender inequality because it brackets the family — which is itself a site of significant injustice — from the scope of justice. The broader debate continues to address whether liberal theories of justice can adequately accommodate cultural, religious, and group-based claims to recognition.",
+    "passageText": "William James, writing in 1890, defined attention as 'the taking possession by the mind, in clear and vivid form, of one out of what seem several simultaneously possible objects or trains of thought.' That definition captures something essential: attention is selective, effortful, and limited. It is not simply passive reception of input but active allocation of cognitive resources, with the consequence that what falls outside the spotlight is perceived, if at all, in degraded form. Experiments on inattentional blindness — the failure to notice a gorilla walking across a basketball court when attention is otherwise occupied — demonstrate how dramatically the attended and unattended differ in phenomenal salience.\n\nDual-process theory, associated with psychologists Keith Stanovich and Richard West and popularized by Daniel Kahneman, distinguishes between System 1 (fast, automatic, associative, low-effort) and System 2 (slow, deliberate, rule-governed, high-effort) modes of cognition. Attention is the currency of System 2: deliberate reasoning draws on a limited attentional budget, and the depletion of that budget through 'cognitive load' impairs subsequent performance on tasks requiring controlled attention. The theory has been used to explain a wide range of phenomena, from implicit bias (System 1's automatic associations) to logical errors (System 2's susceptibility to fatigue and distraction).\n\nThe attention economy framework, developed by economists and media theorists including Herbert Simon and Michael Goldhaber, applies these insights to the information environment. In an era of information abundance, scarcity shifts from information to attention: the resource being competed for by media platforms, advertisers, and technology companies is not the provision of information but the capture of time and focus. This framework illuminates the design logic of social media platforms — infinite scroll, variable reward schedules, notification systems — as deliberate architectures for maximizing attentional capture and minimizing voluntary disengagement.\n\nCritics of the attention economy framing argue that it tends toward technological determinism and passive victimhood, underestimating the capacity of users to exercise agency and digital literacy. Others raise normative questions about what sustained, undistracted attention makes possible — deep reading, creative work, democratic deliberation — and what its systematic disruption forecloses. The philosopher Simone Weil, in a different register, argued that the capacity for sustained, selfless attention was a moral and spiritual faculty; its cultivation was inseparable from the development of character. Whether that cultivation is compatible with the current information environment is an open question.",
     "questions": [
       {
-        "text": "The purpose of the 'veil of ignorance' in Rawls's original position is to:",
+        "text": "The gorilla experiment cited in the first paragraph is used to illustrate which specific claim?",
         "options": [
-          "Ensure that all participants have equal intelligence",
-          "Remove knowledge of one's own social position so that principles of justice cannot be biased in one's favor",
-          "Guarantee that principles of justice will maximize total welfare",
-          "Prevent participants from knowing the content of Rawls's two principles"
-        ],
-        "correct": 1,
-        "explanation": "The passage explains that the veil of ignorance strips away knowledge of 'one's natural talents, social class, race, nor conception of the good' so that contractors 'cannot bias principles to their own advantage.' The goal is impartiality through ignorance of self-interested factors."
-      },
-      {
-        "text": "Rawls's difference principle holds that inequalities are permissible only when they:",
-        "options": [
-          "Result from voluntary exchanges between consenting individuals",
-          "Maximize total social welfare across all members of society",
-          "Benefit the least advantaged members of society",
-          "Are distributed equally across all social positions"
+          "Humans have a limited working memory capacity",
+          "Attention is a passive process that registers all available stimuli equally",
+          "Unattended objects are perceived dramatically less clearly than attended ones",
+          "System 2 processing is more reliable than System 1 in detecting unexpected events"
         ],
         "correct": 2,
-        "explanation": "The passage states the difference principle 'permits social and economic inequalities only insofar as they benefit the least advantaged members of society.' This is the maximin criterion — improvements at the top are acceptable only if they also improve the position of those at the bottom."
+        "explanation": "The passage introduces the gorilla experiment immediately after claiming that 'what falls outside the spotlight is perceived, if at all, in degraded form.' The experiment demonstrates how dramatically attended and unattended objects differ in salience — you can miss a gorilla entirely when attention is elsewhere. Option B is the opposite of the claim the experiment supports. The experiment is not about working memory capacity (A) or dual-process theory (D), which is introduced later."
       },
       {
-        "text": "Nozick's libertarian objection to the difference principle is that:",
+        "text": "According to dual-process theory as described in the passage, cognitive load affects performance primarily by:",
         "options": [
-          "It is too permissive of inequality",
-          "It violates individual rights by redistributing what resulted from voluntary exchanges",
-          "Rational agents would not choose maximin behind the veil of ignorance",
-          "The original position fails to represent communal identity"
+          "Increasing the speed of System 1 processing",
+          "Depleting the attentional budget available for System 2 reasoning",
+          "Causing permanent damage to working memory circuits",
+          "Making System 2 and System 1 operate simultaneously"
         ],
         "correct": 1,
-        "explanation": "The passage states Nozick argued 'the difference principle violates individual rights: if patterns of distribution result from voluntary exchanges, no redistribution is warranted.' Nozick's entitlement theory holds that holdings are just if acquired justly, regardless of the resulting pattern."
+        "explanation": "The passage states that 'deliberate reasoning draws on a limited attentional budget, and the depletion of that budget through cognitive load impairs subsequent performance on tasks requiring controlled attention.' This is option B — cognitive load depletes the System 2 attentional budget. Option A is not mentioned. Option C introduces neurological permanence not implied by the passage. Option D misrepresents the relationship between systems."
       },
       {
-        "text": "The feminist critique of Rawls described in the passage centers on which objection?",
+        "text": "The 'attention economy' framework implies that social media platforms' design features such as infinite scroll and variable reward schedules are primarily aimed at:",
         "options": [
-          "Women should not be included in the original position",
-          "The original position brackets the family from justice, despite the family being a site of significant injustice",
-          "Gender equality is already fully addressed by Rawls's first principle of equal liberty",
-          "The difference principle is specifically designed to disadvantage women"
+          "Providing users with the most relevant and useful information possible",
+          "Reducing cognitive load so that users can engage more deeply with content",
+          "Maximizing attentional capture and minimizing voluntary disengagement",
+          "Promoting System 2 deliberative reasoning among users"
         ],
-        "correct": 1,
-        "explanation": "The passage states feminist theorists (Okin) argued 'the original position fails to adequately address gender inequality because it brackets the family — which is itself a site of significant injustice — from the scope of justice.' By treating the family as a private sphere outside justice, Rawls ignores internal gender inequalities."
+        "correct": 2,
+        "explanation": "The passage explicitly states that these features are 'deliberate architectures for maximizing attentional capture and minimizing voluntary disengagement.' This is option C. Options A and B describe different, more benign design goals inconsistent with the passage's framing. Option D contradicts the passage — variable reward schedules and infinite scroll are System 1 exploitation mechanisms, not System 2 promoters."
+      },
+      {
+        "text": "Simone Weil's view, as described in the passage, adds which dimension to the discussion of attention that the earlier frameworks do not explicitly address?",
+        "options": [
+          "The neurological basis of attentional capacity",
+          "The economic value of attention as a competitive resource",
+          "The moral and spiritual significance of the capacity for sustained, selfless attention",
+          "The role of dual-process theory in explaining attentional failure"
+        ],
+        "correct": 2,
+        "explanation": "The passage introduces Weil in the final paragraph to add a normative, moral, and spiritual dimension: attention as a faculty whose cultivation is 'inseparable from the development of character.' This is not a dimension of James's phenomenological analysis, Kahneman's cognitive theory, or the attention economy's economic framework. Options A, B, and D correspond to frameworks already discussed earlier in the passage."
       }
     ]
   }

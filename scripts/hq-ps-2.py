@@ -1,994 +1,506 @@
-[
+#!/usr/bin/env python3
+import json, os, random
+
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+Q = [
+  # ── Advanced Learning ───────────────────────────────────────────────────
   {
     "text": "Latent learning (Tolman) demonstrates that:",
-    "options": [
-      "Learning only occurs when rewards are immediately given",
-      "Knowledge cannot be stored without behavioral rehearsal",
-      "Rats cannot form cognitive maps without food rewards",
-      "Organisms acquire knowledge without immediate reinforcement, revealed when motivation is provided"
-    ],
-    "correct": 3,
+    "options": ["Organisms acquire knowledge without immediate reinforcement, revealed when motivation is provided", "Learning only occurs when rewards are immediately given", "Knowledge cannot be stored without behavioral rehearsal", "Rats cannot form cognitive maps without food rewards"],
+    "correct": 0,
     "explanation": "Tolman's latent learning: rats that explored mazes without food rewards performed as well as rewarded rats once food was introduced. This showed cognitive maps (mental representations of space) are formed without explicit reinforcement, challenging strict behaviorist views that all learning requires reinforcement.",
-    "tags": [
-      "learning",
-      "latent-learning",
-      "tolman"
-    ],
+    "tags": ["learning", "latent-learning", "tolman"],
     "difficulty": "medium"
   },
   {
     "text": "The Garcia effect (taste aversion learning) is unusual compared to standard classical conditioning because it:",
-    "options": [
-      "Requires many conditioning trials to establish",
-      "Only works with visual stimuli",
-      "Forms with a single trial and tolerates long delays (hours) between CS and US",
-      "Cannot be extinguished once formed"
-    ],
-    "correct": 2,
+    "options": ["Forms with a single trial and tolerates long delays (hours) between CS and US", "Requires many conditioning trials to establish", "Cannot be extinguished once formed", "Only works with visual stimuli"],
+    "correct": 0,
     "explanation": "Taste aversion (Garcia effect): animals avoid flavors associated with illness even after just one pairing and even when the illness occurs hours later. Standard conditioning requires temporal contiguity (CS-US close in time). This species-specific biological preparedness (belongingness) is an exception to standard conditioning rules.",
-    "tags": [
-      "learning",
-      "taste-aversion",
-      "garcia-effect"
-    ],
+    "tags": ["learning", "taste-aversion", "garcia-effect"],
     "difficulty": "hard"
   },
   {
     "text": "Learned helplessness (Seligman) develops when an organism:",
-    "options": [
-      "Fails to discriminate between two stimuli",
-      "Is repeatedly rewarded regardless of its actions",
-      "Experiences inescapable aversive events and later fails to escape even when escape is possible",
-      "Observes a model being punished"
-    ],
-    "correct": 2,
+    "options": ["Experiences inescapable aversive events and later fails to escape even when escape is possible", "Is repeatedly rewarded regardless of its actions", "Observes a model being punished", "Fails to discriminate between two stimuli"],
+    "correct": 0,
     "explanation": "Seligman's learned helplessness: after experiencing uncontrollable aversive events (inescapable shock), animals later fail to escape even in situations where escape is possible. This passivity is analogous to human depression — expectation that one's actions are ineffective.",
-    "tags": [
-      "learning",
-      "learned-helplessness",
-      "seligman"
-    ],
+    "tags": ["learning", "learned-helplessness", "seligman"],
     "difficulty": "medium"
   },
   {
     "text": "Shaping in operant conditioning refers to:",
-    "options": [
-      "Reinforcing successive approximations to a desired target behavior",
-      "Extinguishing all behaviors except the target",
-      "Punishing incorrect behaviors only",
-      "Using a fixed-ratio schedule from the outset"
-    ],
+    "options": ["Reinforcing successive approximations to a desired target behavior", "Extinguishing all behaviors except the target", "Punishing incorrect behaviors only", "Using a fixed-ratio schedule from the outset"],
     "correct": 0,
     "explanation": "Shaping (method of successive approximations): behaviors closer to the target are reinforced in sequence. As the organism produces behaviors closer to the goal, earlier approximations are no longer reinforced. This is used to teach complex behaviors that would rarely occur spontaneously.",
-    "tags": [
-      "learning",
-      "shaping",
-      "operant-conditioning"
-    ],
+    "tags": ["learning", "shaping", "operant-conditioning"],
     "difficulty": "easy"
   },
   {
     "text": "Stimulus generalization in classical conditioning refers to:",
-    "options": [
-      "Responding to stimuli similar to (but not identical to) the original conditioned stimulus",
-      "Responding only to the exact original CS",
-      "Responding equally to all stimuli",
-      "The CR disappearing when CS is presented without US"
-    ],
+    "options": ["Responding to stimuli similar to (but not identical to) the original conditioned stimulus", "Responding only to the exact original CS", "Responding equally to all stimuli", "The CR disappearing when CS is presented without US"],
     "correct": 0,
     "explanation": "Stimulus generalization: after conditioning, similar stimuli elicit the CR in proportion to their similarity to the original CS. Little Albert feared not only white rats but white rabbits, fur coats, and Santa masks. Stimulus discrimination is the complementary process — learning to respond only to the specific CS.",
-    "tags": [
-      "learning",
-      "stimulus-generalization"
-    ],
+    "tags": ["learning", "stimulus-generalization"],
     "difficulty": "easy"
   },
   {
     "text": "Insight learning (Köhler), demonstrated with chimpanzees, is characterized by:",
-    "options": [
-      "Sudden solving of a problem after a period of apparent inactivity (the 'aha moment')",
-      "Gradual improvement through trial and error",
-      "Solving by exhaustive exploration of all options",
-      "Learning only through observation of others"
-    ],
+    "options": ["Sudden solving of a problem after a period of apparent inactivity (the 'aha moment')", "Gradual improvement through trial and error", "Learning only through observation of others", "Solving by exhaustive exploration of all options"],
     "correct": 0,
     "explanation": "Köhler's chimps (Sultan) stacked boxes or joined sticks to reach bananas after a period of contemplation, then suddenly solved the problem. Insight learning involves sudden restructuring of the problem representation — a qualitative, not gradual, change — distinct from Thorndike's incremental trial-and-error.",
-    "tags": [
-      "learning",
-      "insight-learning",
-      "kohler"
-    ],
+    "tags": ["learning", "insight-learning", "kohler"],
     "difficulty": "medium"
   },
+  # ── Advanced Memory ─────────────────────────────────────────────────────
   {
     "text": "Levels of processing theory (Craik & Lockhart) predicts that the deepest level of encoding is:",
-    "options": [
-      "Repetitive rehearsal (maintenance rehearsal)",
-      "Phonological (sound-based) encoding",
-      "Structural (appearance-based) encoding",
-      "Semantic (meaning-based) encoding, producing the most durable memories"
-    ],
-    "correct": 3,
+    "options": ["Semantic (meaning-based) encoding, producing the most durable memories", "Phonological (sound-based) encoding", "Structural (appearance-based) encoding", "Repetitive rehearsal (maintenance rehearsal)"],
+    "correct": 0,
     "explanation": "Craik & Lockhart: memory durability depends on depth of processing. Structural (shallow): visual features. Phonological (intermediate): sound. Semantic (deep): meaning, associations. Elaborative rehearsal (connecting new info to existing knowledge) produces deeper encoding than maintenance rehearsal (rote repetition).",
-    "tags": [
-      "memory",
-      "levels-of-processing"
-    ],
+    "tags": ["memory", "levels-of-processing"],
     "difficulty": "easy"
   },
   {
     "text": "The misinformation effect (Loftus) demonstrates that:",
-    "options": [
-      "Eyewitness memories are highly accurate for emotionally charged events",
-      "Memory cannot be changed once encoded",
-      "Flashbulb memories are immune to distortion",
-      "Post-event misleading information can alter memory of the original event"
-    ],
-    "correct": 3,
+    "options": ["Post-event misleading information can alter memory of the original event", "Eyewitness memories are highly accurate for emotionally charged events", "Memory cannot be changed once encoded", "Flashbulb memories are immune to distortion"],
+    "correct": 0,
     "explanation": "Loftus's car crash studies: subjects who saw the word 'smashed' estimated higher speeds and were more likely to falsely recall broken glass than those shown 'hit.' Leading questions and post-event information can be incorporated into memory, making eyewitness testimony unreliable.",
-    "tags": [
-      "memory",
-      "misinformation-effect",
-      "loftus"
-    ],
+    "tags": ["memory", "misinformation-effect", "loftus"],
     "difficulty": "easy"
   },
   {
     "text": "Source monitoring error occurs when a person:",
-    "options": [
-      "Completely forgets both the content and source",
-      "Confabulates entirely new memories",
-      "Correctly remembers information but misattributes where or when it was learned",
-      "Cannot recall any autobiographical information"
-    ],
-    "correct": 2,
+    "options": ["Correctly remembers information but misattributes where or when it was learned", "Completely forgets both the content and source", "Confabulates entirely new memories", "Cannot recall any autobiographical information"],
+    "correct": 0,
     "explanation": "Source monitoring error (Johnson): remembering the content of information but misattributing its source (e.g., thinking you said something when you actually read it, or remembering a dream as a real event — reality monitoring failure). This contributes to plagiarism and false memories.",
-    "tags": [
-      "memory",
-      "source-monitoring"
-    ],
+    "tags": ["memory", "source-monitoring"],
     "difficulty": "medium"
   },
   {
     "text": "Memory reconsolidation refers to the finding that:",
-    "options": [
-      "Memories are permanently fixed once consolidated",
-      "Memories must be consciously attended to during retrieval",
-      "Retrieved memories become temporarily labile (vulnerable to modification) before being restabilized",
-      "Long-term potentiation occurs only during initial encoding"
-    ],
-    "correct": 2,
+    "options": ["Retrieved memories become temporarily labile (vulnerable to modification) before being restabilized", "Memories are permanently fixed once consolidated", "Memories must be consciously attended to during retrieval", "Long-term potentiation occurs only during initial encoding"],
+    "correct": 0,
     "explanation": "Reconsolidation: when a long-term memory is retrieved, it briefly becomes unstable (labile) and must be reconsolidated. During this window, the memory can be modified or even erased. This has clinical implications for PTSD treatment (modifying traumatic memories during reconsolidation).",
-    "tags": [
-      "memory",
-      "reconsolidation"
-    ],
+    "tags": ["memory", "reconsolidation"],
     "difficulty": "hard"
   },
   {
     "text": "Priming (implicit memory) refers to the phenomenon where:",
-    "options": [
-      "Remembering a word helps you explicitly recall associated words",
-      "Rehearsal improves later recall",
-      "Prior exposure to a stimulus facilitates later processing of related stimuli without conscious awareness",
-      "Flashbulb memories activate associated autobiographical events"
-    ],
-    "correct": 2,
+    "options": ["Prior exposure to a stimulus facilitates later processing of related stimuli without conscious awareness", "Remembering a word helps you explicitly recall associated words", "Rehearsal improves later recall", "Flashbulb memories activate associated autobiographical events"],
+    "correct": 0,
     "explanation": "Priming is a type of implicit memory: prior exposure to 'nurse' makes you respond faster to 'doctor' even without consciously trying to remember 'nurse.' Priming occurs without deliberate memory search and is preserved in amnesia patients who lose explicit memory — demonstrating implicit/explicit memory dissociation.",
-    "tags": [
-      "memory",
-      "priming",
-      "implicit-memory"
-    ],
+    "tags": ["memory", "priming", "implicit-memory"],
     "difficulty": "medium"
   },
   {
     "text": "Flashbulb memories are vivid, detailed memories of the context surrounding a surprising/shocking event. Research shows they are:",
-    "options": [
-      "Always accurate if the event was personally significant",
-      "Subjectively vivid but not necessarily more accurate than ordinary memories",
-      "Stored in a separate memory system from ordinary memories",
-      "Photographically accurate due to high emotional arousal"
-    ],
-    "correct": 1,
+    "options": ["Subjectively vivid but not necessarily more accurate than ordinary memories", "Photographically accurate due to high emotional arousal", "Always accurate if the event was personally significant", "Stored in a separate memory system from ordinary memories"],
+    "correct": 0,
     "explanation": "Flashbulb memories feel highly accurate and vivid, but research (Neisser, Harsch) shows their accuracy degrades over time at similar rates to ordinary memories. The vividness and confidence in flashbulb memories exceeds their actual accuracy — emotional arousal increases confidence but not necessarily precision.",
-    "tags": [
-      "memory",
-      "flashbulb-memory"
-    ],
+    "tags": ["memory", "flashbulb-memory"],
     "difficulty": "medium"
   },
+  # ── Sleep, Consciousness & Altered States ──────────────────────────────────
   {
     "text": "REM (rapid eye movement) sleep is associated with:",
-    "options": [
-      "Lowest brain activity of any sleep stage",
-      "Vivid dreaming, paralysis of major muscle groups, and consolidation of procedural/emotional memories",
-      "Deep dreamless sleep with delta waves",
-      "Sleepwalking and night terrors"
-    ],
-    "correct": 1,
+    "options": ["Vivid dreaming, paralysis of major muscle groups, and consolidation of procedural/emotional memories", "Deep dreamless sleep with delta waves", "Sleepwalking and night terrors", "Lowest brain activity of any sleep stage"],
+    "correct": 0,
     "explanation": "REM: characterized by high brain activity (EEG similar to wakefulness), rapid eye movements, vivid dreams, and motor atonia (paralysis of skeletal muscles, preventing acting out dreams). REM deprivation impairs emotional regulation and consolidation of implicit/procedural memories.",
-    "tags": [
-      "sleep",
-      "rem"
-    ],
+    "tags": ["sleep", "rem"],
     "difficulty": "easy"
   },
   {
     "text": "Stage 3 NREM sleep (slow-wave sleep / deep sleep) is characterized by:",
-    "options": [
-      "Rapid eye movements and muscle paralysis",
-      "Sleep spindles and K-complexes (Stage 2)",
-      "Low-amplitude high-frequency beta waves",
-      "High-amplitude delta waves (0.5-4 Hz), hardest stage to wake from"
-    ],
-    "correct": 3,
+    "options": ["High-amplitude delta waves (0.5-4 Hz), hardest stage to wake from", "Low-amplitude high-frequency beta waves", "Sleep spindles and K-complexes (Stage 2)", "Rapid eye movements and muscle paralysis"],
+    "correct": 0,
     "explanation": "Stage 3 NREM (slow-wave sleep): delta waves (0.5-4 Hz, high amplitude), lowest arousal threshold (hardest to wake). Sleepwalking and night terrors occur during NREM. Growth hormone is released. Sleep deprivation increases slow-wave rebound ('sleep debt').",
-    "tags": [
-      "sleep",
-      "nrem",
-      "delta-waves"
-    ],
+    "tags": ["sleep", "nrem", "delta-waves"],
     "difficulty": "medium"
   },
   {
     "text": "Narcolepsy is characterized by:",
-    "options": [
-      "Sleepwalking and REM behavior disorder",
-      "Sudden daytime sleep attacks, often with cataplexy (muscle weakness triggered by emotion), due to loss of hypocretin neurons",
-      "Inability to fall asleep despite tiredness (insomnia)",
-      "Repeated breathing pauses during sleep (sleep apnea)"
-    ],
-    "correct": 1,
+    "options": ["Sudden daytime sleep attacks, often with cataplexy (muscle weakness triggered by emotion), due to loss of hypocretin neurons", "Inability to fall asleep despite tiredness (insomnia)", "Repeated breathing pauses during sleep (sleep apnea)", "Sleepwalking and REM behavior disorder"],
+    "correct": 0,
     "explanation": "Narcolepsy: loss of hypocretin (orexin) neurons in the lateral hypothalamus. Patients experience sudden sleep attacks (entering REM directly), cataplexy (emotion-triggered muscle weakness), sleep paralysis, and hypnagogic hallucinations. It is an autoimmune condition in most cases.",
-    "tags": [
-      "sleep",
-      "narcolepsy"
-    ],
+    "tags": ["sleep", "narcolepsy"],
     "difficulty": "medium"
   },
   {
     "text": "Stimulant drugs (amphetamines, cocaine) increase alertness and euphoria primarily by:",
-    "options": [
-      "Mimicking serotonin at 5-HT₂A receptors",
-      "Increasing monoaminergic (dopamine, norepinephrine) neurotransmission in reward and arousal circuits",
-      "Antagonizing adenosine receptors",
-      "Blocking GABA receptors to reduce inhibition"
-    ],
-    "correct": 1,
+    "options": ["Increasing monoaminergic (dopamine, norepinephrine) neurotransmission in reward and arousal circuits", "Blocking GABA receptors to reduce inhibition", "Mimicking serotonin at 5-HT₂A receptors", "Antagonizing adenosine receptors"],
+    "correct": 0,
     "explanation": "Stimulants: cocaine blocks DAT/NET (dopamine/norepinephrine transporters), preventing reuptake. Amphetamines additionally cause reverse transport (release monoamines from vesicles). Both massively increase dopamine in nucleus accumbens (reward) and NE in arousal circuits. This produces euphoria, vigilance, and addiction.",
-    "tags": [
-      "psychoactive-drugs",
-      "stimulants",
-      "dopamine"
-    ],
+    "tags": ["psychoactive-drugs", "stimulants", "dopamine"],
     "difficulty": "medium"
   },
   {
     "text": "The suprachiasmatic nucleus (SCN) of the hypothalamus functions as:",
-    "options": [
-      "The brain region mediating fear responses",
-      "The structure storing long-term memories",
-      "The master circadian clock, regulating ~24-hour biological rhythms in response to light-dark cycles",
-      "The center controlling appetite and satiety"
-    ],
-    "correct": 2,
+    "options": ["The master circadian clock, regulating ~24-hour biological rhythms in response to light-dark cycles", "The center controlling appetite and satiety", "The brain region mediating fear responses", "The structure storing long-term memories"],
+    "correct": 0,
     "explanation": "The SCN receives light information via the retinohypothalamic tract and synchronizes circadian rhythms (light → suppresses melatonin from pineal gland → increased alertness). Without light input, the endogenous period is ~24.2 hours. Damage to the SCN disrupts sleep-wake cycles.",
-    "tags": [
-      "sleep",
-      "circadian-rhythm",
-      "scn"
-    ],
+    "tags": ["sleep", "circadian-rhythm", "scn"],
     "difficulty": "medium"
   },
+  # ── Stress, Health & Coping ────────────────────────────────────────────────
   {
     "text": "Primary appraisal in Lazarus's transactional model of stress refers to:",
-    "options": [
-      "The physiological stress response (HPA activation)",
-      "Evaluating whether a situation is threatening, harmful, or challenging",
-      "Social support available for coping",
-      "Evaluating one's coping resources relative to demands"
-    ],
-    "correct": 1,
+    "options": ["Evaluating whether a situation is threatening, harmful, or challenging", "Evaluating one's coping resources relative to demands", "The physiological stress response (HPA activation)", "Social support available for coping"],
+    "correct": 0,
     "explanation": "Lazarus's model has two appraisal stages: Primary appraisal — is this situation relevant and is it stressful (threat, harm/loss, or challenge)? Secondary appraisal — do I have resources to cope? Stress occurs when demands exceed perceived resources. The model emphasizes cognitive mediation of the stress response.",
-    "tags": [
-      "stress",
-      "lazarus",
-      "primary-appraisal"
-    ],
+    "tags": ["stress", "lazarus", "primary-appraisal"],
     "difficulty": "medium"
   },
   {
     "text": "Problem-focused coping differs from emotion-focused coping in that problem-focused coping:",
-    "options": [
-      "Manages the emotional response to the stressor without changing the situation",
-      "Directly addresses the stressor itself (changing the situation)",
-      "Is always less effective than emotion-focused coping",
-      "Involves seeking social support for emotional validation"
-    ],
-    "correct": 1,
+    "options": ["Directly addresses the stressor itself (changing the situation)", "Manages the emotional response to the stressor without changing the situation", "Involves seeking social support for emotional validation", "Is always less effective than emotion-focused coping"],
+    "correct": 0,
     "explanation": "Problem-focused coping: actions that address the stressor directly (studying for an exam, negotiating a deadline). Emotion-focused coping: managing feelings about the stressor (exercising, meditation, talking to friends). Problem-focused coping is generally more adaptive when the stressor is controllable; emotion-focused is better for uncontrollable stressors.",
-    "tags": [
-      "stress",
-      "coping",
-      "problem-focused"
-    ],
+    "tags": ["stress", "coping", "problem-focused"],
     "difficulty": "easy"
   },
   {
     "text": "The Type A behavior pattern is associated with increased cardiovascular disease risk. The component most strongly linked to this risk is:",
-    "options": [
-      "Time urgency only",
-      "Hostility and cynicism (not time urgency or achievement striving)",
-      "Competitiveness only",
-      "Achievement motivation"
-    ],
-    "correct": 1,
+    "options": ["Hostility and cynicism (not time urgency or achievement striving)", "Competitiveness only", "Time urgency only", "Achievement motivation"],
+    "correct": 0,
     "explanation": "Research (Williams, Barefoot) refined Type A findings: hostility and cynicism (not the whole Type A constellation) are the toxic elements most strongly predictive of cardiovascular disease. Hostile individuals show greater physiological reactivity to interpersonal stress and more chronic inflammation.",
-    "tags": [
-      "stress",
-      "type-a",
-      "health"
-    ],
+    "tags": ["stress", "type-a", "health"],
     "difficulty": "medium"
   },
   {
     "text": "Allostatic load refers to:",
-    "options": [
-      "The immediate mobilization of energy during acute stress",
-      "The cumulative physiological wear-and-tear from chronic stress and repeated stress responses",
-      "The body's ability to adapt to a single stressor",
-      "Cortisol's anti-inflammatory effects"
-    ],
-    "correct": 1,
+    "options": ["The cumulative physiological wear-and-tear from chronic stress and repeated stress responses", "The immediate mobilization of energy during acute stress", "The body's ability to adapt to a single stressor", "Cortisol's anti-inflammatory effects"],
+    "correct": 0,
     "explanation": "Allostatic load (McEwen): the cost of chronic stress — prolonged HPA axis activation, sustained sympathetic arousal, and glucocorticoid exposure — leads to physiological damage over time, including immune suppression, cardiovascular damage, hippocampal shrinkage, and metabolic syndrome.",
-    "tags": [
-      "stress",
-      "allostatic-load"
-    ],
+    "tags": ["stress", "allostatic-load"],
     "difficulty": "medium"
   },
+  # ── Sensation & Perception ────────────────────────────────────────────────
   {
     "text": "Weber's law states that the just noticeable difference (JND) is:",
-    "options": [
-      "Unpredictable and unrelated to base stimulus",
-      "A constant absolute value regardless of base intensity",
-      "A constant proportion (fraction) of the original stimulus intensity",
-      "Proportional to the square root of stimulus intensity (Fechner)"
-    ],
-    "correct": 2,
+    "options": ["A constant proportion (fraction) of the original stimulus intensity", "A constant absolute value regardless of base intensity", "Proportional to the square root of stimulus intensity (Fechner)", "Unpredictable and unrelated to base stimulus"],
+    "correct": 0,
     "explanation": "Weber's law: ΔI/I = k (a constant). The JND is proportional to the baseline intensity. Example: you can detect a 1-gram difference in a 10-gram weight (k = 0.1) but need a 10-gram difference in a 100-gram weight. Weber-Fechner law: S = k·log(I) (perception is logarithmic in intensity).",
-    "tags": [
-      "sensation",
-      "weber-law",
-      "jnd"
-    ],
+    "tags": ["sensation", "weber-law", "jnd"],
     "difficulty": "medium"
   },
   {
     "text": "The gate control theory of pain (Melzack & Wall) proposes that pain signals can be modulated by:",
-    "options": [
-      "Neural 'gates' in the spinal cord that can be closed by large-fiber input or descending brain signals",
-      "Only by emotional state without any spinal mechanism",
-      "Direct pathway from pain receptors to the cortex without modulation",
-      "Only by pharmacological opioids"
-    ],
+    "options": ["Neural 'gates' in the spinal cord that can be closed by large-fiber input or descending brain signals", "Direct pathway from pain receptors to the cortex without modulation", "Only by pharmacological opioids", "Only by emotional state without any spinal mechanism"],
     "correct": 0,
     "explanation": "Gate control theory: in the dorsal horn of the spinal cord, large-diameter A-β fibers (touch/pressure) can inhibit transmission of pain signals from small-diameter A-δ and C fibers through interneurons — 'closing the gate.' Rubbing an injury reduces pain because A-β fiber activation closes the gate to pain signals.",
-    "tags": [
-      "perception",
-      "pain",
-      "gate-control-theory"
-    ],
+    "tags": ["perception", "pain", "gate-control-theory"],
     "difficulty": "medium"
   },
   {
     "text": "Gestalt principle of closure refers to the tendency to:",
-    "options": [
-      "Group similar elements together",
-      "Perceive a figure against its background",
-      "Perceive incomplete figures as complete by mentally filling in missing information",
-      "Group nearby elements together"
-    ],
-    "correct": 2,
+    "options": ["Perceive incomplete figures as complete by mentally filling in missing information", "Group nearby elements together", "Group similar elements together", "Perceive a figure against its background"],
+    "correct": 0,
     "explanation": "Gestalt principles organize perception into meaningful wholes: closure (fill in gaps to see complete shapes), proximity (nearby elements grouped), similarity (similar elements grouped), figure-ground (distinguish object from background), continuity (see smooth continuous lines). Closure is why we see a circle in a broken circle.",
-    "tags": [
-      "perception",
-      "gestalt",
-      "closure"
-    ],
+    "tags": ["perception", "gestalt", "closure"],
     "difficulty": "easy"
   },
   {
     "text": "Binocular disparity as a depth cue relies on:",
-    "options": [
-      "The slightly different views from each eye that the brain uses to calculate distance",
-      "The size of known objects as cues for distance",
-      "Changes in focus of the lens (accommodation)",
-      "Motion parallax as objects move differently at different depths"
-    ],
+    "options": ["The slightly different views from each eye that the brain uses to calculate distance", "Changes in focus of the lens (accommodation)", "The size of known objects as cues for distance", "Motion parallax as objects move differently at different depths"],
     "correct": 0,
     "explanation": "Binocular disparity: each eye sees a slightly different image due to their ~6.5 cm separation. The brain's visual cortex uses the degree of disparity to calculate depth (stereopsis). Greater disparity = closer object. Beyond ~6 m, disparity becomes too small to be useful, and monocular cues dominate.",
-    "tags": [
-      "perception",
-      "depth-cues",
-      "binocular-disparity"
-    ],
+    "tags": ["perception", "depth-cues", "binocular-disparity"],
     "difficulty": "easy"
   },
   {
     "text": "Perceptual constancy refers to:",
-    "options": [
-      "The tendency to prefer familiar stimuli",
-      "Perceiving more than what is in the sensory signal (bottom-up processing)",
-      "The inability to adapt to changing sensory environments",
-      "Perceiving properties of objects (size, shape, lightness) as stable despite changes in sensory input"
-    ],
-    "correct": 3,
+    "options": ["Perceiving properties of objects (size, shape, lightness) as stable despite changes in sensory input", "The inability to adapt to changing sensory environments", "Perceiving more than what is in the sensory signal (bottom-up processing)", "The tendency to prefer familiar stimuli"],
+    "correct": 0,
     "explanation": "Perceptual constancy: size constancy (a person walking away doesn't seem to shrink), shape constancy (a door is seen as rectangular even when viewed at an angle), lightness constancy (coal looks black in bright light; paper looks white in dim light). These rely on top-down processing and contextual information.",
-    "tags": [
-      "perception",
-      "perceptual-constancy"
-    ],
+    "tags": ["perception", "perceptual-constancy"],
     "difficulty": "easy"
   },
+  # ── Advanced Social Psychology ────────────────────────────────────────────
   {
     "text": "Social loafing occurs when individuals in a group:",
-    "options": [
-      "Compete with each other, reducing overall productivity",
-      "Work harder because they are energized by the group",
-      "Exert less effort than they would alone, because individual contributions are not identifiable",
-      "Imitate the most productive group member"
-    ],
-    "correct": 2,
+    "options": ["Exert less effort than they would alone, because individual contributions are not identifiable", "Work harder because they are energized by the group", "Imitate the most productive group member", "Compete with each other, reducing overall productivity"],
+    "correct": 0,
     "explanation": "Social loafing (Latané): when individual effort is not identifiable (e.g., group rope-pulling), people exert less effort. Unlike social facilitation (where arousal from others improves dominant responses), social loafing reflects reduced motivation when accountability is diffused. Reducing anonymity increases individual effort.",
-    "tags": [
-      "social-psychology",
-      "social-loafing"
-    ],
+    "tags": ["social-psychology", "social-loafing"],
     "difficulty": "easy"
   },
   {
     "text": "Deindividuation refers to a state in which people:",
-    "options": [
-      "Lose self-awareness and restraint in group or anonymous situations, becoming more likely to engage in anti-normative behavior",
-      "Exert more effort when part of an anonymous group",
-      "Avoid group situations due to excessive self-consciousness",
-      "Become hyper-aware of their individual identity in groups"
-    ],
+    "options": ["Lose self-awareness and restraint in group or anonymous situations, becoming more likely to engage in anti-normative behavior", "Become hyper-aware of their individual identity in groups", "Exert more effort when part of an anonymous group", "Avoid group situations due to excessive self-consciousness"],
     "correct": 0,
     "explanation": "Deindividuation (Zimbardo, Festinger): anonymity, group immersion, and arousal reduce self-monitoring and normal inhibitions. Examples: riots, online trolling, mob behavior. Wearing uniforms or masks (increasing anonymity) increases deindividuation and aggression.",
-    "tags": [
-      "social-psychology",
-      "deindividuation"
-    ],
+    "tags": ["social-psychology", "deindividuation"],
     "difficulty": "medium"
   },
   {
     "text": "Stereotype threat (Steele & Aronson) refers to:",
-    "options": [
-      "The tendency to evaluate out-group members by stereotypes",
-      "Performance decrements from anxiety about confirming a negative group stereotype",
-      "The process by which stereotypes become self-fulfilling prophecies",
-      "Increased performance when positive stereotypes are activated"
-    ],
-    "correct": 1,
+    "options": ["Performance decrements from anxiety about confirming a negative group stereotype", "The tendency to evaluate out-group members by stereotypes", "The process by which stereotypes become self-fulfilling prophecies", "Increased performance when positive stereotypes are activated"],
+    "correct": 0,
     "explanation": "Stereotype threat: when a person is aware of a negative stereotype about their group and fears confirming it, anxiety and cognitive load interfere with performance. African American students reminded of their race before an IQ test performed worse. This is a situational threat, not a fixed ability difference.",
-    "tags": [
-      "social-psychology",
-      "stereotype-threat",
-      "steele"
-    ],
+    "tags": ["social-psychology", "stereotype-threat", "steele"],
     "difficulty": "medium"
   },
   {
     "text": "The actor-observer bias refers to the tendency to:",
-    "options": [
-      "Attribute all behavior, including our own, to personality",
-      "Be more accurate observers of others than of ourselves",
-      "Attribute others' behavior to disposition (FAE) but attribute our own behavior to situation",
-      "Attribute good outcomes to self and bad outcomes to others"
-    ],
-    "correct": 2,
+    "options": ["Attribute others' behavior to disposition (FAE) but attribute our own behavior to situation", "Attribute all behavior, including our own, to personality", "Attribute good outcomes to self and bad outcomes to others", "Be more accurate observers of others than of ourselves"],
+    "correct": 0,
     "explanation": "Actor-observer asymmetry: as actors, we are acutely aware of situational factors influencing our behavior and attribute our actions to the situation. As observers, we see only the person's behavior (not the situational context), leading to dispositional attribution (FAE). This asymmetry decreases when we know the other person well.",
-    "tags": [
-      "social-psychology",
-      "actor-observer-bias",
-      "attribution"
-    ],
+    "tags": ["social-psychology", "actor-observer-bias", "attribution"],
     "difficulty": "medium"
   },
   {
     "text": "The Elaboration Likelihood Model (Petty & Cacioppo) distinguishes which two routes to persuasion?",
-    "options": [
-      "Central route (careful argument evaluation) and peripheral route (heuristics, cues, source attractiveness)",
-      "Active route (self-persuasion) and passive route (media)",
-      "Emotional route and logical route",
-      "Direct route (conscious) and subliminal route (unconscious)"
-    ],
+    "options": ["Central route (careful argument evaluation) and peripheral route (heuristics, cues, source attractiveness)", "Emotional route and logical route", "Direct route (conscious) and subliminal route (unconscious)", "Active route (self-persuasion) and passive route (media)"],
     "correct": 0,
     "explanation": "ELM: Central route — when motivated and able, people carefully evaluate argument quality; attitude change is strong and lasting. Peripheral route — when unmotivated or unable to process, people use superficial cues (source attractiveness, number of arguments, expert endorsement); attitude change is weaker and less durable.",
-    "tags": [
-      "social-psychology",
-      "persuasion",
-      "elaboration-likelihood-model"
-    ],
+    "tags": ["social-psychology", "persuasion", "elaboration-likelihood-model"],
     "difficulty": "medium"
   },
   {
     "text": "The just-world hypothesis (Lerner) leads people to believe:",
-    "options": [
-      "Random bad events can happen to anyone without cause",
-      "Victims of misfortune deserved their fate, preserving belief in a fair world",
-      "Injustice is always correctable through social action",
-      "People should be compensated for undeserved suffering"
-    ],
-    "correct": 1,
+    "options": ["Victims of misfortune deserved their fate, preserving belief in a fair world", "Random bad events can happen to anyone without cause", "People should be compensated for undeserved suffering", "Injustice is always correctable through social action"],
+    "correct": 0,
     "explanation": "Just-world hypothesis: people have a fundamental need to believe the world is fair and just. When confronted with innocent suffering, they blame the victim (she shouldn't have walked alone; he must have done something wrong) rather than accepting randomness. This rationalizes inequality and can hinder empathy.",
-    "tags": [
-      "social-psychology",
-      "just-world-hypothesis"
-    ],
+    "tags": ["social-psychology", "just-world-hypothesis"],
     "difficulty": "medium"
   },
+  # ── Prejudice & Intergroup Relations ─────────────────────────────────────
   {
     "text": "Allport's contact hypothesis proposes that intergroup prejudice can be reduced through contact when conditions include:",
-    "options": [
-      "Competitive interaction to reduce out-group favoritism",
-      "Physical proximity alone without shared activities",
-      "Any amount of contact regardless of context",
-      "Equal status, common goals, intergroup cooperation, and institutional support"
-    ],
-    "correct": 3,
+    "options": ["Equal status, common goals, intergroup cooperation, and institutional support", "Any amount of contact regardless of context", "Competitive interaction to reduce out-group favoritism", "Physical proximity alone without shared activities"],
+    "correct": 0,
     "explanation": "Allport's contact conditions: equal-status contact, pursuit of common goals, intergroup cooperation (not competition), and support from authorities/social norms. Contact without these conditions can actually worsen prejudice. The Robbers Cave experiment showed that superordinate goals reduced conflict between hostile groups.",
-    "tags": [
-      "social-psychology",
-      "contact-hypothesis",
-      "prejudice"
-    ],
+    "tags": ["social-psychology", "contact-hypothesis", "prejudice"],
     "difficulty": "medium"
   },
   {
     "text": "Social identity theory (Tajfel & Turner) explains prejudice and in-group favoritism as resulting from:",
-    "options": [
-      "People's need for positive self-esteem derived from membership in valued groups, leading to in-group favoritism and out-group derogation",
-      "Childhood socialization to prefer one's own group",
-      "Realistic competition for limited resources",
-      "Cognitive limitations in processing information about many groups"
-    ],
+    "options": ["People's need for positive self-esteem derived from membership in valued groups, leading to in-group favoritism and out-group derogation", "Realistic competition for limited resources", "Childhood socialization to prefer one's own group", "Cognitive limitations in processing information about many groups"],
     "correct": 0,
     "explanation": "Social Identity Theory: self-concept derives partly from group memberships (social identity). To maintain positive social identity, people favor their in-group and derogate out-groups. Even arbitrary, meaningless group distinctions (minimal group paradigm) produce in-group bias, suggesting it doesn't require real competition.",
-    "tags": [
-      "social-psychology",
-      "social-identity-theory",
-      "tajfel"
-    ],
+    "tags": ["social-psychology", "social-identity-theory", "tajfel"],
     "difficulty": "medium"
   },
   {
     "text": "Realistic conflict theory (Sherif, Robbers Cave) attributes intergroup hostility primarily to:",
-    "options": [
-      "Competition over limited real resources and incompatible goals",
-      "Unconscious associations with out-groups from socialization",
-      "Evolutionary in-group preferences",
-      "Cognitive categorization and social identity needs"
-    ],
+    "options": ["Competition over limited real resources and incompatible goals", "Unconscious associations with out-groups from socialization", "Cognitive categorization and social identity needs", "Evolutionary in-group preferences"],
     "correct": 0,
     "explanation": "Sherif's Robbers Cave experiment: two groups of boys became hostile only when placed in competition for limited prizes. When given superordinate goals requiring cooperation, hostility declined. Realistic conflict theory emphasizes objective competition, unlike social identity theory (which requires only group categorization).",
-    "tags": [
-      "social-psychology",
-      "realistic-conflict-theory",
-      "sherif"
-    ],
+    "tags": ["social-psychology", "realistic-conflict-theory", "sherif"],
     "difficulty": "medium"
   },
   {
     "text": "Aversive racism describes a form of prejudice in which:",
-    "options": [
-      "People consciously endorse egalitarian values but harbor unconscious negative feelings toward minority groups, expressed in ambiguous situations",
-      "People openly and consciously discriminate on the basis of race",
-      "People are hostile only toward specific racial groups, not others",
-      "Racism occurs only through formal institutional policies"
-    ],
+    "options": ["People consciously endorse egalitarian values but harbor unconscious negative feelings toward minority groups, expressed in ambiguous situations", "People openly and consciously discriminate on the basis of race", "Racism occurs only through formal institutional policies", "People are hostile only toward specific racial groups, not others"],
     "correct": 0,
     "explanation": "Aversive racism (Gaertner & Dovidio): many White Americans genuinely believe in racial equality (avoid overt discrimination) but hold subtle negative attitudes that emerge in ambiguous situations where prejudice can be attributed to non-racial factors. Unlike old-fashioned racism, aversive racism is often below conscious awareness.",
-    "tags": [
-      "social-psychology",
-      "aversive-racism",
-      "implicit-bias"
-    ],
+    "tags": ["social-psychology", "aversive-racism", "implicit-bias"],
     "difficulty": "hard"
   },
+  # ── Sociological Institutions ──────────────────────────────────────────────
   {
     "text": "The 'hidden curriculum' in education refers to:",
-    "options": [
-      "Knowledge that teachers intentionally withhold from students",
-      "Informal norms, values, and behaviors transmitted through schooling beyond the official curriculum",
-      "Underground study materials students share informally",
-      "Courses not listed in the official catalog"
-    ],
-    "correct": 1,
+    "options": ["Informal norms, values, and behaviors transmitted through schooling beyond the official curriculum", "Courses not listed in the official catalog", "Underground study materials students share informally", "Knowledge that teachers intentionally withhold from students"],
+    "correct": 0,
     "explanation": "The hidden curriculum (Illich, Jackson): schools transmit values like punctuality, compliance, hierarchy, and competition that prepare students for the capitalist workforce — but these are not explicitly taught. This reinforces social stratification and serves the interests of dominant groups by reproducing their values.",
-    "tags": [
-      "sociology",
-      "education",
-      "hidden-curriculum"
-    ],
+    "tags": ["sociology", "education", "hidden-curriculum"],
     "difficulty": "medium"
   },
   {
     "text": "Durkheim's concept of 'sacred' and 'profane' in religion refers to:",
-    "options": [
-      "Religious doctrine vs. secular science",
-      "The division of the world into set-apart special things (sacred) versus ordinary things (profane), not necessarily supernatural",
-      "Clergy vs. laity distinction",
-      "Moral goodness vs. evil"
-    ],
-    "correct": 1,
+    "options": ["The division of the world into set-apart special things (sacred) versus ordinary things (profane), not necessarily supernatural", "Moral goodness vs. evil", "Clergy vs. laity distinction", "Religious doctrine vs. secular science"],
+    "correct": 0,
     "explanation": "Durkheim: the sacred is anything set apart and revered (can be a flag, a totem, a scripture); the profane is the realm of everyday experience. Religion is a unified system of beliefs and practices around sacred things that unite people into a moral community. Sacred/profane is a universal structural distinction, not specific to the supernatural.",
-    "tags": [
-      "sociology",
-      "religion",
-      "durkheim"
-    ],
+    "tags": ["sociology", "religion", "durkheim"],
     "difficulty": "medium"
   },
   {
     "text": "Weber's concept of the 'iron cage' refers to:",
-    "options": [
-      "The increasingly rationalized and bureaucratic nature of modern social life, which constrains human freedom and creativity",
-      "The trap of poverty in stratified societies",
-      "Legal constraints on individual freedom",
-      "The physical prisons in capitalist society"
-    ],
+    "options": ["The increasingly rationalized and bureaucratic nature of modern social life, which constrains human freedom and creativity", "Legal constraints on individual freedom", "The physical prisons in capitalist society", "The trap of poverty in stratified societies"],
     "correct": 0,
     "explanation": "Weber's iron cage (Stahlhartes Gehäuse): modern capitalism creates bureaucratic rationalization — efficiency, calculability, predictability, control — that becomes a self-sustaining structure. Individuals are trapped in instrumental, rule-governed organizations that strip life of meaning and spontaneity (disenchantment of the world).",
-    "tags": [
-      "sociology",
-      "weber",
-      "bureaucracy",
-      "rationalization"
-    ],
+    "tags": ["sociology", "weber", "bureaucracy", "rationalization"],
     "difficulty": "medium"
   },
   {
     "text": "Credentialism refers to the sociological phenomenon of:",
-    "options": [
-      "Educational achievement reflecting actual skills and merit",
-      "Using test scores as the primary basis for employment",
-      "The devaluation of educational credentials over time",
-      "Increasing requirements for formal educational credentials beyond what is actually needed for job performance"
-    ],
-    "correct": 3,
+    "options": ["Increasing requirements for formal educational credentials beyond what is actually needed for job performance", "Educational achievement reflecting actual skills and merit", "The devaluation of educational credentials over time", "Using test scores as the primary basis for employment"],
+    "correct": 0,
     "explanation": "Credentialism (Collins): employers require degrees and credentials even for jobs where the skills aren't actually needed, as a screening mechanism. This reproduces stratification — those with access to expensive education gain credentials, independent of actual competence, privileging higher-SES individuals.",
-    "tags": [
-      "sociology",
-      "education",
-      "credentialism"
-    ],
+    "tags": ["sociology", "education", "credentialism"],
     "difficulty": "medium"
   },
+  # ── Deviance & Social Control ────────────────────────────────────────────
   {
     "text": "Merton's strain theory attributes deviance to:",
-    "options": [
-      "Social learning of deviant behavior from peers",
-      "Inherent criminal personality traits",
-      "Labeling by authorities creating a deviant identity",
-      "The gap between culturally defined goals (wealth) and legitimate means to achieve them"
-    ],
-    "correct": 3,
+    "options": ["The gap between culturally defined goals (wealth) and legitimate means to achieve them", "Inherent criminal personality traits", "Labeling by authorities creating a deviant identity", "Social learning of deviant behavior from peers"],
+    "correct": 0,
     "explanation": "Merton's strain theory: deviance occurs when people accept cultural goals (the American Dream — wealth) but lack legitimate means to achieve them. Responses: conformity, innovation (deviant means), ritualism, retreatism (abandon goals and means), rebellion. Innovation (e.g., crime) is the most common form of deviance.",
-    "tags": [
-      "sociology",
-      "deviance",
-      "strain-theory",
-      "merton"
-    ],
+    "tags": ["sociology", "deviance", "strain-theory", "merton"],
     "difficulty": "medium"
   },
   {
     "text": "Labeling theory (Becker) proposes that deviance is:",
-    "options": [
-      "Caused by poverty and lack of opportunity",
-      "Not an intrinsic property of an act but a label applied by those with power to those who violate norms",
-      "An adaptive response to social exclusion",
-      "A result of defective moral character"
-    ],
-    "correct": 1,
+    "options": ["Not an intrinsic property of an act but a label applied by those with power to those who violate norms", "A result of defective moral character", "Caused by poverty and lack of opportunity", "An adaptive response to social exclusion"],
+    "correct": 0,
     "explanation": "Labeling theory: 'deviance is not a quality of the act...but rather a consequence of the application by others of rules and sanctions' (Becker). Primary deviance is the initial act; secondary deviance is the career of deviance that develops after being labeled — accepting the deviant identity, association with deviants, and exclusion from legitimate opportunities.",
-    "tags": [
-      "sociology",
-      "deviance",
-      "labeling-theory",
-      "becker"
-    ],
+    "tags": ["sociology", "deviance", "labeling-theory", "becker"],
     "difficulty": "medium"
   },
   {
     "text": "Differential association theory (Sutherland) proposes that criminal behavior is learned through:",
-    "options": [
-      "Labeling by the criminal justice system",
-      "Innate biological predispositions",
-      "Intimate personal groups providing favorable definitions of crime that outweigh unfavorable ones",
-      "Structural strain between goals and means"
-    ],
-    "correct": 2,
+    "options": ["Intimate personal groups providing favorable definitions of crime that outweigh unfavorable ones", "Innate biological predispositions", "Labeling by the criminal justice system", "Structural strain between goals and means"],
+    "correct": 0,
     "explanation": "Sutherland: criminal behavior is learned in close groups (family, peers) through definitions favorable to violating law. If an individual encounters more definitions favorable to crime than unfavorable ones, they are more likely to engage in crime. This explains white-collar crime and gang membership.",
-    "tags": [
-      "sociology",
-      "deviance",
-      "differential-association"
-    ],
+    "tags": ["sociology", "deviance", "differential-association"],
     "difficulty": "medium"
   },
   {
     "text": "Total institutions (Goffman) are characterized by:",
-    "options": [
-      "Hospitals that treat only one type of condition",
-      "Control of all aspects of life in one enclosed setting, breaking down normal distinctions between sleep, work, and play",
-      "Religious institutions with total authority over members",
-      "Organizations serving many functions in the community"
-    ],
-    "correct": 1,
+    "options": ["Control of all aspects of life in one enclosed setting, breaking down normal distinctions between sleep, work, and play", "Organizations serving many functions in the community", "Hospitals that treat only one type of condition", "Religious institutions with total authority over members"],
+    "correct": 0,
     "explanation": "Goffman's total institutions (asylums, prisons, military, monasteries): all activities occur in one place under one authority; activities are conducted in the company of a large group treated alike; activities are tightly scheduled; the institutional plan serves official aims. Mortification of self (stripping identity) is key.",
-    "tags": [
-      "sociology",
-      "total-institutions",
-      "goffman"
-    ],
+    "tags": ["sociology", "total-institutions", "goffman"],
     "difficulty": "medium"
   },
+  # ── Health Disparities ─────────────────────────────────────────────────────
   {
     "text": "The social gradient of health refers to the observation that:",
-    "options": [
-      "Only the very poor have worse health than the rich",
-      "Healthcare access alone explains health differences",
-      "Race, but not class, predicts health outcomes",
-      "Health improves stepwise at every level of the socioeconomic hierarchy — not just at poverty level"
-    ],
-    "correct": 3,
+    "options": ["Health improves stepwise at every level of the socioeconomic hierarchy — not just at poverty level", "Only the very poor have worse health than the rich", "Race, but not class, predicts health outcomes", "Healthcare access alone explains health differences"],
+    "correct": 0,
     "explanation": "The social gradient (Marmot): health outcomes improve incrementally with each step up the SES ladder — it is not just about poverty. Even people in the second-highest SES tier have worse health than those at the top. Marmot's Whitehall study showed this in British civil servants across all employment grades.",
-    "tags": [
-      "health-disparities",
-      "social-gradient",
-      "ses"
-    ],
+    "tags": ["health-disparities", "social-gradient", "ses"],
     "difficulty": "medium"
   },
   {
     "text": "The fundamental cause theory (Link & Phelan) argues that SES remains persistently associated with health because:",
-    "options": [
-      "SES provides access to flexible resources (money, knowledge, social connections) that can be deployed against any health risk",
-      "Low SES individuals have worse genetics",
-      "Healthcare is the only determinant of health outcomes",
-      "SES only matters through specific risk behaviors like smoking"
-    ],
+    "options": ["SES provides access to flexible resources (money, knowledge, social connections) that can be deployed against any health risk", "Low SES individuals have worse genetics", "Healthcare is the only determinant of health outcomes", "SES only matters through specific risk behaviors like smoking"],
     "correct": 0,
     "explanation": "Fundamental cause theory: SES provides resources (money, knowledge, prestige, social networks) that can be used to avoid risks and adopt new health-protective behaviors. Even as specific risks change (infectious disease → heart disease → cancer), SES remains associated with health because high-SES individuals can always exploit new knowledge and treatments.",
-    "tags": [
-      "health-disparities",
-      "fundamental-cause-theory"
-    ],
+    "tags": ["health-disparities", "fundamental-cause-theory"],
     "difficulty": "hard"
   },
   {
     "text": "The healthy immigrant paradox (Latino paradox) refers to the finding that:",
-    "options": [
-      "Recent immigrants have worse health than long-term residents",
-      "Recent immigrants often have better health outcomes than native-born residents of similar SES, despite socioeconomic disadvantages",
-      "Health differences between immigrants and natives are purely genetic",
-      "Immigrants have universally better health than native populations"
-    ],
-    "correct": 1,
+    "options": ["Recent immigrants often have better health outcomes than native-born residents of similar SES, despite socioeconomic disadvantages", "Immigrants have universally better health than native populations", "Recent immigrants have worse health than long-term residents", "Health differences between immigrants and natives are purely genetic"],
+    "correct": 0,
     "explanation": "Healthy immigrant effect: recent immigrants to the US (particularly Latin American) have lower rates of infant mortality, cardiovascular disease, and mental illness than US-born individuals of similar SES — paradoxically, given poverty and lack of healthcare access. Hypothesized mechanisms: selective migration of healthy individuals, protective cultural factors, strong social support.",
-    "tags": [
-      "health-disparities",
-      "immigrant-health-paradox"
-    ],
+    "tags": ["health-disparities", "immigrant-health-paradox"],
     "difficulty": "medium"
   },
   {
     "text": "The epidemiological transition refers to the shift:",
-    "options": [
-      "From infectious diseases as primary causes of death to chronic non-communicable diseases as societies industrialize",
-      "From hospital-based to community-based care",
-      "From rural to urban health patterns",
-      "From high to low fertility rates"
-    ],
+    "options": ["From infectious diseases as primary causes of death to chronic non-communicable diseases as societies industrialize", "From rural to urban health patterns", "From high to low fertility rates", "From hospital-based to community-based care"],
     "correct": 0,
     "explanation": "Epidemiological transition (Omran): Stage 1 — infectious diseases (high mortality). Stage 2 — declining infections (antibiotics, sanitation). Stage 3 — chronic diseases (cardiovascular, cancer) dominate as populations age. High-income countries are in Stage 3-4; some regions are in a dual burden (both infectious and chronic diseases).",
-    "tags": [
-      "sociology",
-      "health",
-      "epidemiological-transition"
-    ],
+    "tags": ["sociology", "health", "epidemiological-transition"],
     "difficulty": "medium"
   },
+  # ── Biological Bases Advanced ─────────────────────────────────────────────
   {
     "text": "GABA (gamma-aminobutyric acid) is the primary inhibitory neurotransmitter in the CNS. Benzodiazepines (diazepam) enhance GABA function by:",
-    "options": [
-      "Increasing GABA synthesis in presynaptic neurons",
-      "Acting as a GABA agonist at receptor binding sites",
-      "Blocking GABA reuptake at the synapse",
-      "Increasing the frequency of Cl⁻ channel opening (at GABA-A receptors), increasing inhibitory current"
-    ],
-    "correct": 3,
+    "options": ["Increasing the frequency of Cl⁻ channel opening (at GABA-A receptors), increasing inhibitory current", "Blocking GABA reuptake at the synapse", "Acting as a GABA agonist at receptor binding sites", "Increasing GABA synthesis in presynaptic neurons"],
+    "correct": 0,
     "explanation": "GABA-A receptors are Cl⁻ channels. Benzodiazepines are positive allosteric modulators — they bind a separate site and increase the frequency of Cl⁻ channel opening when GABA is present (not in GABA's absence). This increases inhibitory postsynaptic potentials, producing anxiolytic, sedative, and anticonvulsant effects.",
-    "tags": [
-      "biological-psychology",
-      "gaba",
-      "benzodiazepines"
-    ],
+    "tags": ["biological-psychology", "gaba", "benzodiazepines"],
     "difficulty": "hard"
   },
   {
     "text": "The hypothalamic-pituitary-adrenal (HPA) axis stress response involves the sequence:",
-    "options": [
-      "CRH (hypothalamus) → ACTH (anterior pituitary) → cortisol (adrenal cortex)",
-      "ACTH (hypothalamus) → CRH (pituitary) → cortisol",
-      "Cortisol (hypothalamus) → CRH (adrenal) → ACTH",
-      "Epinephrine (adrenal medulla) → CRH → cortisol"
-    ],
+    "options": ["CRH (hypothalamus) → ACTH (anterior pituitary) → cortisol (adrenal cortex)", "ACTH (hypothalamus) → CRH (pituitary) → cortisol", "Cortisol (hypothalamus) → CRH (adrenal) → ACTH", "Epinephrine (adrenal medulla) → CRH → cortisol"],
     "correct": 0,
     "explanation": "HPA axis: stressor → hypothalamus releases CRH (corticotropin-releasing hormone) → anterior pituitary releases ACTH (adrenocorticotropic hormone) → adrenal cortex releases cortisol. Cortisol then feeds back to inhibit CRH and ACTH (negative feedback). Chronic stress can dysregulate this feedback loop.",
-    "tags": [
-      "biological-psychology",
-      "hpa-axis",
-      "stress",
-      "cortisol"
-    ],
+    "tags": ["biological-psychology", "hpa-axis", "stress", "cortisol"],
     "difficulty": "medium"
   },
   {
     "text": "Serotonin (5-HT) is implicated in mood, appetite, and sleep. SSRIs treat depression by:",
-    "options": [
-      "Blocking serotonin synthesis",
-      "Increasing serotonin metabolism",
-      "Blocking the serotonin reuptake transporter (SERT), increasing synaptic serotonin",
-      "Directly stimulating postsynaptic serotonin receptors"
-    ],
-    "correct": 2,
+    "options": ["Blocking the serotonin reuptake transporter (SERT), increasing synaptic serotonin", "Blocking serotonin synthesis", "Directly stimulating postsynaptic serotonin receptors", "Increasing serotonin metabolism"],
+    "correct": 0,
     "explanation": "SSRIs (selective serotonin reuptake inhibitors): fluoxetine (Prozac), sertraline (Zoloft) block SERT, preventing serotonin reuptake into the presynaptic terminal. This increases the concentration of serotonin in the synapse, enhancing 5-HT receptor activation. Delayed therapeutic effects suggest downstream neuroplastic changes (not just acute receptor activation).",
-    "tags": [
-      "biological-psychology",
-      "serotonin",
-      "ssri",
-      "depression"
-    ],
+    "tags": ["biological-psychology", "serotonin", "ssri", "depression"],
     "difficulty": "medium"
   },
   {
     "text": "Wernicke's area (posterior left superior temporal gyrus) damage causes:",
-    "options": [
-      "Complete mutism",
-      "Wernicke's aphasia: fluent but meaningless speech with poor comprehension",
-      "Visual agnosia",
-      "Non-fluent, telegraphic speech with intact comprehension (Broca's aphasia)"
-    ],
-    "correct": 1,
+    "options": ["Wernicke's aphasia: fluent but meaningless speech with poor comprehension", "Non-fluent, telegraphic speech with intact comprehension (Broca's aphasia)", "Complete mutism", "Visual agnosia"],
+    "correct": 0,
     "explanation": "Wernicke's area is essential for language comprehension. Damage causes Wernicke's aphasia (receptive aphasia): fluent speech production (sometimes excessive — logorrhea) but the content is meaningless (neologisms, word salad). Patients cannot comprehend speech and are often unaware of their deficit (anosognosia).",
-    "tags": [
-      "biological-psychology",
-      "wernicke",
-      "aphasia",
-      "language"
-    ],
+    "tags": ["biological-psychology", "wernicke", "aphasia", "language"],
     "difficulty": "medium"
   },
   {
     "text": "Endorphins are endogenous opioid peptides released in response to pain and exercise. They reduce pain by:",
-    "options": [
-      "Blocking prostaglandin synthesis like NSAIDs",
-      "Activating GABA receptors in the dorsal horn",
-      "Binding to serotonin receptors in the periaqueductal gray",
-      "Binding to opioid receptors (μ, δ, κ) and reducing nociceptive transmission"
-    ],
-    "correct": 3,
+    "options": ["Binding to opioid receptors (μ, δ, κ) and reducing nociceptive transmission", "Blocking prostaglandin synthesis like NSAIDs", "Activating GABA receptors in the dorsal horn", "Binding to serotonin receptors in the periaqueductal gray"],
+    "correct": 0,
     "explanation": "Endorphins (and enkephalins, dynorphins) are endogenous opioids that bind μ, δ, and κ opioid receptors throughout the pain pathway (spinal cord, periaqueductal gray, limbic system). They inhibit adenylyl cyclase and reduce nociceptive neurotransmitter release. Exercise-induced euphoria ('runner's high') is mediated by endorphins.",
-    "tags": [
-      "biological-psychology",
-      "endorphins",
-      "pain"
-    ],
+    "tags": ["biological-psychology", "endorphins", "pain"],
     "difficulty": "medium"
   },
+  # ── Research Methods Additional ────────────────────────────────────────────
   {
     "text": "The difference between reliability and validity is that:",
-    "options": [
-      "Reliability is consistency of measurement; validity is whether it measures what it intends to measure",
-      "Validity is consistency; reliability is accuracy",
-      "Both terms refer to the same concept",
-      "Reliability refers to sample size; validity refers to effect size"
-    ],
+    "options": ["Reliability is consistency of measurement; validity is whether it measures what it intends to measure", "Validity is consistency; reliability is accuracy", "Reliability refers to sample size; validity refers to effect size", "Both terms refer to the same concept"],
     "correct": 0,
     "explanation": "Reliability: does the measure produce consistent results (test-retest, inter-rater, internal consistency)? Validity: does the measure actually measure the intended construct (content, criterion, construct validity)? A measure can be reliable but not valid (consistently measuring the wrong thing). Validity implies reliability but not vice versa.",
-    "tags": [
-      "research-methods",
-      "reliability",
-      "validity"
-    ],
+    "tags": ["research-methods", "reliability", "validity"],
     "difficulty": "easy"
   },
   {
     "text": "A type I error in hypothesis testing is:",
-    "options": [
-      "Failing to reject a false null hypothesis (false negative)",
-      "Calculating the wrong effect size",
-      "Using too small a sample size",
-      "Rejecting a true null hypothesis (false positive)"
-    ],
-    "correct": 3,
+    "options": ["Rejecting a true null hypothesis (false positive)", "Failing to reject a false null hypothesis (false negative)", "Using too small a sample size", "Calculating the wrong effect size"],
+    "correct": 0,
     "explanation": "Type I error (α): concluding there is an effect when there isn't (false positive). Controlled by the significance level α (usually 0.05). Type II error (β): failing to detect a real effect (false negative). Power (1-β) is the probability of correctly detecting a real effect. Reducing α increases Type II error risk.",
-    "tags": [
-      "research-methods",
-      "type-i-error",
-      "hypothesis-testing"
-    ],
+    "tags": ["research-methods", "type-i-error", "hypothesis-testing"],
     "difficulty": "medium"
   },
   {
     "text": "A confounding variable in an experiment is one that:",
-    "options": [
-      "Is held constant across all conditions",
-      "Varies systematically with the independent variable and provides an alternative explanation for results",
-      "Is the outcome measured by the researcher",
-      "Varies randomly and does not affect results"
-    ],
-    "correct": 1,
+    "options": ["Varies systematically with the independent variable and provides an alternative explanation for results", "Is held constant across all conditions", "Is the outcome measured by the researcher", "Varies randomly and does not affect results"],
+    "correct": 0,
     "explanation": "A confound is an extraneous variable that is correlated with the independent variable and causally related to the dependent variable, making it impossible to determine whether the IV or the confound produced the observed effect. Randomization in experiments distributes confounds evenly across conditions, minimizing their impact.",
-    "tags": [
-      "research-methods",
-      "confounding"
-    ],
+    "tags": ["research-methods", "confounding"],
     "difficulty": "easy"
   },
   {
     "text": "Which study design provides the strongest evidence for causation?",
-    "options": [
-      "Case-control study",
-      "Prospective cohort study",
-      "Cross-sectional survey",
-      "Randomized controlled trial (RCT) with random assignment"
-    ],
-    "correct": 3,
+    "options": ["Randomized controlled trial (RCT) with random assignment", "Prospective cohort study", "Cross-sectional survey", "Case-control study"],
+    "correct": 0,
     "explanation": "The RCT is the gold standard: random assignment distributes known and unknown confounders equally across treatment/control groups, allowing causal inference when groups differ on outcomes. Observational studies (cohort, case-control, cross-sectional) can show association but are susceptible to confounding and cannot establish causation.",
-    "tags": [
-      "research-methods",
-      "experimental-design",
-      "rct"
-    ],
+    "tags": ["research-methods", "experimental-design", "rct"],
     "difficulty": "easy"
   },
   {
     "text": "Operationalization in research refers to:",
-    "options": [
-      "The process of randomly assigning participants to conditions",
-      "Conducting statistical analysis on collected data",
-      "Designing the physical experimental apparatus",
-      "Defining abstract constructs in terms of specific, measurable procedures or indicators"
-    ],
-    "correct": 3,
+    "options": ["Defining abstract constructs in terms of specific, measurable procedures or indicators", "Conducting statistical analysis on collected data", "The process of randomly assigning participants to conditions", "Designing the physical experimental apparatus"],
+    "correct": 0,
     "explanation": "Operationalization translates theoretical constructs into measurable variables. Example: 'stress' might be operationalized as salivary cortisol levels, self-reported anxiety scores, or heart rate. Different operationalizations can yield different results, highlighting construct validity concerns.",
-    "tags": [
-      "research-methods",
-      "operationalization"
-    ],
+    "tags": ["research-methods", "operationalization"],
     "difficulty": "easy"
   },
   {
     "text": "External validity refers to the degree to which study findings:",
-    "options": [
-      "Accurately reflect a causal relationship within the study itself",
-      "Generalize to other populations, settings, and time periods beyond the study sample",
-      "Are consistent across repeated measurements",
-      "Are statistically significant"
-    ],
-    "correct": 1,
+    "options": ["Generalize to other populations, settings, and time periods beyond the study sample", "Accurately reflect a causal relationship within the study itself", "Are consistent across repeated measurements", "Are statistically significant"],
+    "correct": 0,
     "explanation": "External validity (generalizability): can findings from this sample/setting apply to other people, places, and times? Threats include unrepresentative samples (WEIRD subjects — Western, Educated, Industrialized, Rich, Democratic), artificiality of laboratory settings, and historical specificity. High internal validity (experimental control) often comes at cost of external validity.",
-    "tags": [
-      "research-methods",
-      "external-validity"
-    ],
+    "tags": ["research-methods", "external-validity"],
     "difficulty": "easy"
-  }
+  },
 ]
+
+random.seed(55)
+for q in Q:
+    c = q["correct"]
+    opts = q["options"][:]
+    correct_text = opts[c]
+    random.shuffle(opts)
+    q["options"] = opts
+    q["correct"] = opts.index(correct_text)
+
+out = os.path.join(BASE, "data", "questions", "ps", "hq-ps-2.json")
+os.makedirs(os.path.dirname(out), exist_ok=True)
+with open(out, "w") as f:
+    json.dump(Q, f, indent=2)
+print(f"Wrote {len(Q)} PS questions to {out}")

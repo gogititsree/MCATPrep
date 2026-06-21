@@ -1,14 +1,14 @@
 [
   {
-    "text": "In the reaction 2H₂ + O₂ → 2H₂O, 4 moles of H₂ react with 1 mole of O₂. What is the limiting reagent?",
+    "text": "In the reaction 2H\u2082 + O\u2082 \u2192 2H\u2082O, 4 moles of H\u2082 react with 1 mole of O\u2082. What is the limiting reagent?",
     "options": [
-      "Neither — both are consumed equally",
-      "O₂",
-      "H₂",
-      "H₂O"
+      "Neither \u2014 both are consumed equally",
+      "O\u2082",
+      "H\u2082",
+      "H\u2082O"
     ],
     "correct": 1,
-    "explanation": "The stoichiometric ratio requires 2 mol H₂ per 1 mol O₂. With 4 mol H₂ and 1 mol O₂, H₂:O₂ = 4:1 but the required ratio is 2:1, so H₂ is in excess. O₂ is the limiting reagent.",
+    "explanation": "The stoichiometric ratio requires 2 mol H\u2082 per 1 mol O\u2082. With 4 mol H\u2082 and 1 mol O\u2082, H\u2082:O\u2082 = 4:1 but the required ratio is 2:1, so H\u2082 is in excess. O\u2082 is the limiting reagent.",
     "tags": [
       "stoichiometry",
       "limiting-reagent"
@@ -16,15 +16,15 @@
     "difficulty": "easy"
   },
   {
-    "text": "The empirical formula of a compound is CH₂O and its molecular weight is 180 g/mol. Its molecular formula is:",
+    "text": "The empirical formula of a compound is CH\u2082O and its molecular weight is 180 g/mol. Its molecular formula is:",
     "options": [
-      "CH₂O",
-      "C₂H₄O₂",
-      "C₆H₁₂O₆",
-      "C₃H₆O₃"
+      "CH\u2082O",
+      "C\u2082H\u2084O\u2082",
+      "C\u2086H\u2081\u2082O\u2086",
+      "C\u2083H\u2086O\u2083"
     ],
     "correct": 2,
-    "explanation": "Empirical formula CH₂O has mass = 12+2+16 = 30 g/mol. 180/30 = 6. Molecular formula = (CH₂O)₆ = C₆H₁₂O₆, which is glucose.",
+    "explanation": "Empirical formula CH\u2082O has mass = 12+2+16 = 30 g/mol. 180/30 = 6. Molecular formula = (CH\u2082O)\u2086 = C\u2086H\u2081\u2082O\u2086, which is glucose.",
     "tags": [
       "stoichiometry",
       "molecular-formula"
@@ -40,7 +40,7 @@
       "25 mL"
     ],
     "correct": 1,
-    "explanation": "M₁V₁ = M₂V₂: (2.0)(V₁) = (0.2)(500) → V₁ = 50 mL. Add 50 mL stock and dilute to 500 mL total.",
+    "explanation": "M\u2081V\u2081 = M\u2082V\u2082: (2.0)(V\u2081) = (0.2)(500) \u2192 V\u2081 = 50 mL. Add 50 mL stock and dilute to 500 mL total.",
     "tags": [
       "solutions",
       "dilution"
@@ -48,7 +48,7 @@
     "difficulty": "easy"
   },
   {
-    "text": "Percent composition of oxygen in glucose (C₆H₁₂O₆, MW = 180 g/mol) is:",
+    "text": "Percent composition of oxygen in glucose (C\u2086H\u2081\u2082O\u2086, MW = 180 g/mol) is:",
     "options": [
       "6.7%",
       "53.3%",
@@ -56,7 +56,7 @@
       "40.0%"
     ],
     "correct": 1,
-    "explanation": "6 oxygen atoms × 16 g/mol = 96 g/mol. (96/180) × 100 = 53.3%.",
+    "explanation": "6 oxygen atoms \u00d7 16 g/mol = 96 g/mol. (96/180) \u00d7 100 = 53.3%.",
     "tags": [
       "stoichiometry",
       "percent-composition"
@@ -80,15 +80,15 @@
     "difficulty": "easy"
   },
   {
-    "text": "A 1.0 m NaCl solution causes approximately what freezing point depression? (Kf water = 1.86°C/m)",
+    "text": "A 1.0 m NaCl solution causes approximately what freezing point depression? (Kf water = 1.86\u00b0C/m)",
     "options": [
-      "0.93°C",
-      "5.58°C",
-      "3.72°C",
-      "1.86°C"
+      "0.93\u00b0C",
+      "5.58\u00b0C",
+      "3.72\u00b0C",
+      "1.86\u00b0C"
     ],
     "correct": 2,
-    "explanation": "ΔTf = i × Kf × m. NaCl dissociates into 2 ions (i ≈ 2). ΔTf = 2 × 1.86 × 1.0 = 3.72°C.",
+    "explanation": "\u0394Tf = i \u00d7 Kf \u00d7 m. NaCl dissociates into 2 ions (i \u2248 2). \u0394Tf = 2 \u00d7 1.86 \u00d7 1.0 = 3.72\u00b0C.",
     "tags": [
       "solutions",
       "colligative-properties",
@@ -105,7 +105,7 @@
       "A carboxylic acid"
     ],
     "correct": 0,
-    "explanation": "PCC (pyridinium chlorochromate) is a mild oxidant that converts primary alcohols to aldehydes without further oxidation to carboxylic acids. Strong oxidants (KMnO₄, K₂Cr₂O₇) fully oxidize primary alcohols to carboxylic acids.",
+    "explanation": "PCC (pyridinium chlorochromate) is a mild oxidant that converts primary alcohols to aldehydes without further oxidation to carboxylic acids. Strong oxidants (KMnO\u2084, K\u2082Cr\u2082O\u2087) fully oxidize primary alcohols to carboxylic acids.",
     "tags": [
       "organic-chemistry",
       "alcohol-oxidation",
@@ -139,7 +139,7 @@
       "Water under acid catalysis"
     ],
     "correct": 2,
-    "explanation": "Acetal formation: RCHO + 2R'OH ⇌ RCH(OR')₂ + H₂O (acid-catalyzed, reversible). First step gives hemiacetal; second step replaces -OH with -OR'. Acetals are used as carbonyl protecting groups.",
+    "explanation": "Acetal formation: RCHO + 2R'OH \u21cc RCH(OR')\u2082 + H\u2082O (acid-catalyzed, reversible). First step gives hemiacetal; second step replaces -OH with -OR'. Acetals are used as carbonyl protecting groups.",
     "tags": [
       "organic-chemistry",
       "acetal"
@@ -155,7 +155,7 @@
       "An alcohol"
     ],
     "correct": 2,
-    "explanation": "Wittig reaction: carbonyl (C=O) + phosphorus ylide (Ph₃P=CHR) → alkene (C=C) + triphenylphosphine oxide (Ph₃P=O). This reaction creates alkenes of defined geometry and is valuable in organic synthesis.",
+    "explanation": "Wittig reaction: carbonyl (C=O) + phosphorus ylide (Ph\u2083P=CHR) \u2192 alkene (C=C) + triphenylphosphine oxide (Ph\u2083P=O). This reaction creates alkenes of defined geometry and is valuable in organic synthesis.",
     "tags": [
       "organic-chemistry",
       "wittig-reaction"
@@ -171,7 +171,7 @@
       "Aldehydes"
     ],
     "correct": 0,
-    "explanation": "Oxidation of a secondary alcohol (R-CHOH-R') gives a ketone (R-CO-R') by removal of H₂. Ketones cannot be further oxidized under typical conditions because the carbonyl carbon has no H-C bond to oxidize.",
+    "explanation": "Oxidation of a secondary alcohol (R-CHOH-R') gives a ketone (R-CO-R') by removal of H\u2082. Ketones cannot be further oxidized under typical conditions because the carbonyl carbon has no H-C bond to oxidize.",
     "tags": [
       "organic-chemistry",
       "alcohol-oxidation"
@@ -187,7 +187,7 @@
       "Acyl chloride (acid chloride)"
     ],
     "correct": 3,
-    "explanation": "Reactivity order: acid chlorides > anhydrides > esters > carboxylic acids >> amides. Acid chlorides are most reactive because Cl⁻ is an excellent leaving group and provides minimal resonance stabilization. Amides are least reactive due to strong N lone-pair donation into C=O.",
+    "explanation": "Reactivity order: acid chlorides > anhydrides > esters > carboxylic acids >> amides. Acid chlorides are most reactive because Cl\u207b is an excellent leaving group and provides minimal resonance stabilization. Amides are least reactive due to strong N lone-pair donation into C=O.",
     "tags": [
       "organic-chemistry",
       "acyl-substitution"
@@ -203,7 +203,7 @@
       "An amide and water"
     ],
     "correct": 2,
-    "explanation": "Saponification: R-COO-R' + NaOH → R-COO⁻Na⁺ + R'OH. The base drives the reaction to completion by forming the resonance-stabilized carboxylate ion. This is the basis of soap-making from triglycerides.",
+    "explanation": "Saponification: R-COO-R' + NaOH \u2192 R-COO\u207bNa\u207a + R'OH. The base drives the reaction to completion by forming the resonance-stabilized carboxylate ion. This is the basis of soap-making from triglycerides.",
     "tags": [
       "organic-chemistry",
       "saponification"
@@ -215,11 +215,11 @@
     "options": [
       "An aldehyde",
       "A secondary alcohol",
-      "A β-keto ester (after loss of alkoxide)",
+      "A \u03b2-keto ester (after loss of alkoxide)",
       "A dicarboxylic acid"
     ],
     "correct": 2,
-    "explanation": "In the Claisen condensation, an ester enolate attacks the carbonyl of another ester. The alkoxide leaves, yielding a β-keto ester. This is mechanistically analogous to the aldol condensation (enolate + carbonyl electrophile) but uses esters instead of aldehydes/ketones.",
+    "explanation": "In the Claisen condensation, an ester enolate attacks the carbonyl of another ester. The alkoxide leaves, yielding a \u03b2-keto ester. This is mechanistically analogous to the aldol condensation (enolate + carbonyl electrophile) but uses esters instead of aldehydes/ketones.",
     "tags": [
       "organic-chemistry",
       "claisen-condensation"
@@ -235,7 +235,7 @@
       "Carboxylic acids have higher molecular weight"
     ],
     "correct": 1,
-    "explanation": "Carboxylate anion (-COO⁻) has the negative charge delocalized over two equivalent oxygens via resonance. Alkoxide ions (-O⁻) have no resonance stabilization. Greater stabilization of conjugate base → stronger acid. Electron-withdrawing groups nearby further increase acidity by induction.",
+    "explanation": "Carboxylate anion (-COO\u207b) has the negative charge delocalized over two equivalent oxygens via resonance. Alkoxide ions (-O\u207b) have no resonance stabilization. Greater stabilization of conjugate base \u2192 stronger acid. Electron-withdrawing groups nearby further increase acidity by induction.",
     "tags": [
       "organic-chemistry",
       "acidity",
@@ -248,7 +248,7 @@
     "options": [
       "Aniline (lone pair delocalized into aromatic ring)",
       "Diethylamine (alkyl groups donate electrons by induction)",
-      "Pyrrole (lone pair is part of the aromatic π system)",
+      "Pyrrole (lone pair is part of the aromatic \u03c0 system)",
       "Acetamide (lone pair delocalized into C=O)"
     ],
     "correct": 1,
@@ -269,7 +269,7 @@
       "Ipso position only"
     ],
     "correct": 1,
-    "explanation": "EDGs like -OH and -NH₂ stabilize the Wheland intermediate (carbocation) at ortho/para positions by resonance. They activate the ring and direct to ortho/para. EWGs like -NO₂ destabilize carbocation at ortho/para but not meta, directing to meta.",
+    "explanation": "EDGs like -OH and -NH\u2082 stabilize the Wheland intermediate (carbocation) at ortho/para positions by resonance. They activate the ring and direct to ortho/para. EWGs like -NO\u2082 destabilize carbocation at ortho/para but not meta, directing to meta.",
     "tags": [
       "organic-chemistry",
       "eas",
@@ -280,13 +280,13 @@
   {
     "text": "Benzene's extraordinary stability (aromatic stabilization) arises from:",
     "options": [
-      "6 π electrons delocalized in a cyclic conjugated system (4n+2, n=1, Hückel's rule)",
-      "Resonance between two Kekulé structures only",
-      "Six sp³ carbons",
+      "6 \u03c0 electrons delocalized in a cyclic conjugated system (4n+2, n=1, H\u00fcckel's rule)",
+      "Resonance between two Kekul\u00e9 structures only",
+      "Six sp\u00b3 carbons",
       "Three isolated double bonds"
     ],
     "correct": 0,
-    "explanation": "Hückel's rule: cyclic, planar, fully conjugated systems with 4n+2 π electrons are aromatic. Benzene (n=1, 6 π electrons) has complete delocalization over all 6 carbons, giving 36 kcal/mol stabilization energy compared to a hypothetical cyclohexatriene with isolated double bonds.",
+    "explanation": "H\u00fcckel's rule: cyclic, planar, fully conjugated systems with 4n+2 \u03c0 electrons are aromatic. Benzene (n=1, 6 \u03c0 electrons) has complete delocalization over all 6 carbons, giving 36 kcal/mol stabilization energy compared to a hypothetical cyclohexatriene with isolated double bonds.",
     "tags": [
       "organic-chemistry",
       "aromaticity",
@@ -303,7 +303,7 @@
       "Protonated (in acid solution)"
     ],
     "correct": 1,
-    "explanation": "NAS proceeds through a Meisenheimer complex (anionic σ-complex). EWGs at ortho/para to the leaving group stabilize this intermediate by delocalizing the negative charge onto their electronegative atoms. 2,4-Dinitrochlorobenzene readily undergoes NAS; chlorobenzene does not.",
+    "explanation": "NAS proceeds through a Meisenheimer complex (anionic \u03c3-complex). EWGs at ortho/para to the leaving group stabilize this intermediate by delocalizing the negative charge onto their electronegative atoms. 2,4-Dinitrochlorobenzene readily undergoes NAS; chlorobenzene does not.",
     "tags": [
       "organic-chemistry",
       "nas"
@@ -343,15 +343,15 @@
     "difficulty": "medium"
   },
   {
-    "text": "When extracting benzoic acid (pKa 4.2) from an ether solution using aqueous NaHCO₃ (pKa of H₂CO₃ ≈ 6.4), benzoic acid:",
+    "text": "When extracting benzoic acid (pKa 4.2) from an ether solution using aqueous NaHCO\u2083 (pKa of H\u2082CO\u2083 \u2248 6.4), benzoic acid:",
     "options": [
-      "Requires NaOH, not NaHCO₃",
+      "Requires NaOH, not NaHCO\u2083",
       "Deprotonates to benzoate and moves to aqueous layer",
       "Remains in ether (too nonpolar for water)",
       "Decomposes in base"
     ],
     "correct": 1,
-    "explanation": "NaHCO₃ is basic enough to deprotonate carboxylic acids (pKa ~4-5) because pKa of H₂CO₃ > pKa of benzoic acid. Benzoate anion is charged and water-soluble, moving to the aqueous layer. Neutral compounds remain in the organic phase. NaHCO₃ does NOT deprotonate phenols (pKa ~10).",
+    "explanation": "NaHCO\u2083 is basic enough to deprotonate carboxylic acids (pKa ~4-5) because pKa of H\u2082CO\u2083 > pKa of benzoic acid. Benzoate anion is charged and water-soluble, moving to the aqueous layer. Neutral compounds remain in the organic phase. NaHCO\u2083 does NOT deprotonate phenols (pKa ~10).",
     "tags": [
       "separation",
       "extraction",
@@ -397,10 +397,10 @@
       "They depend on path taken",
       "They increase monotonically",
       "They are undefined for cyclic processes",
-      "ΔX = 0 (they return to their initial value)"
+      "\u0394X = 0 (they return to their initial value)"
     ],
     "correct": 3,
-    "explanation": "State functions depend only on the current state, not on the path. For any process that returns to the initial state (cyclic), ΔH = ΔS = ΔG = ΔU = 0. Heat (q) and work (w) are path functions and need not be zero in a cycle.",
+    "explanation": "State functions depend only on the current state, not on the path. For any process that returns to the initial state (cyclic), \u0394H = \u0394S = \u0394G = \u0394U = 0. Heat (q) and work (w) are path functions and need not be zero in a cycle.",
     "tags": [
       "thermodynamics",
       "state-functions"
@@ -408,15 +408,15 @@
     "difficulty": "medium"
   },
   {
-    "text": "Boiling point elevation ΔTb for a 1.0 m sucrose solution (i=1) in water (Kb = 0.512°C/m) is:",
+    "text": "Boiling point elevation \u0394Tb for a 1.0 m sucrose solution (i=1) in water (Kb = 0.512\u00b0C/m) is:",
     "options": [
-      "1.024°C",
-      "1.86°C",
-      "0.256°C",
-      "0.512°C"
+      "1.024\u00b0C",
+      "1.86\u00b0C",
+      "0.256\u00b0C",
+      "0.512\u00b0C"
     ],
     "correct": 3,
-    "explanation": "ΔTb = i × Kb × m = 1 × 0.512 × 1.0 = 0.512°C. So the solution boils at 100.512°C instead of 100°C. For electrolytes, use i = number of ions (e.g., NaCl has i ≈ 2, so ΔTb would be doubled).",
+    "explanation": "\u0394Tb = i \u00d7 Kb \u00d7 m = 1 \u00d7 0.512 \u00d7 1.0 = 0.512\u00b0C. So the solution boils at 100.512\u00b0C instead of 100\u00b0C. For electrolytes, use i = number of ions (e.g., NaCl has i \u2248 2, so \u0394Tb would be doubled).",
     "tags": [
       "thermodynamics",
       "colligative-properties"
@@ -424,15 +424,15 @@
     "difficulty": "easy"
   },
   {
-    "text": "The Van't Hoff factor (i) for MgCl₂ fully dissociated in solution is:",
+    "text": "The Van't Hoff factor (i) for MgCl\u2082 fully dissociated in solution is:",
     "options": [
       "4",
-      "3 (Mg²⁺ + 2 Cl⁻ = 3 particles)",
+      "3 (Mg\u00b2\u207a + 2 Cl\u207b = 3 particles)",
       "2",
       "1"
     ],
     "correct": 1,
-    "explanation": "MgCl₂ → Mg²⁺ + 2Cl⁻, producing 3 ions per formula unit. i = 3 for complete dissociation. In reality, ion pairing reduces i slightly below 3, but for MCAT purposes i = 3 is used. This triples the colligative effect compared to a non-electrolyte.",
+    "explanation": "MgCl\u2082 \u2192 Mg\u00b2\u207a + 2Cl\u207b, producing 3 ions per formula unit. i = 3 for complete dissociation. In reality, ion pairing reduces i slightly below 3, but for MCAT purposes i = 3 is used. This triples the colligative effect compared to a non-electrolyte.",
     "tags": [
       "solutions",
       "vant-hoff-factor"
@@ -440,15 +440,15 @@
     "difficulty": "easy"
   },
   {
-    "text": "To balance MnO₄⁻ → Mn²⁺ in acidic solution as a half-reaction, what is added?",
+    "text": "To balance MnO\u2084\u207b \u2192 Mn\u00b2\u207a in acidic solution as a half-reaction, what is added?",
     "options": [
-      "5e⁻ only on the left",
-      "4H₂O and 8H⁺ on the right",
-      "4H₂O on the left and 8OH⁻ on the right",
-      "8H⁺ and 5e⁻ on the left, 4H₂O on the right"
+      "5e\u207b only on the left",
+      "4H\u2082O and 8H\u207a on the right",
+      "4H\u2082O on the left and 8OH\u207b on the right",
+      "8H\u207a and 5e\u207b on the left, 4H\u2082O on the right"
     ],
     "correct": 3,
-    "explanation": "Balance O: add 4H₂O right. Balance H: add 8H⁺ left. Balance charge: left = -1+8 = +7; right = +2; add 5e⁻ to left: +7-5 = +2. Result: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O.",
+    "explanation": "Balance O: add 4H\u2082O right. Balance H: add 8H\u207a left. Balance charge: left = -1+8 = +7; right = +2; add 5e\u207b to left: +7-5 = +2. Result: MnO\u2084\u207b + 8H\u207a + 5e\u207b \u2192 Mn\u00b2\u207a + 4H\u2082O.",
     "tags": [
       "electrochemistry",
       "balancing-half-reactions"
@@ -464,7 +464,7 @@
       "Negative terminal of the power source; reduction occurs here"
     ],
     "correct": 3,
-    "explanation": "In electrolytic cells, an external power source forces non-spontaneous reactions. The cathode (negative terminal of power source) receives electrons — reduction occurs (cations migrate here). The anode (positive terminal) accepts electrons — oxidation occurs (anions migrate here).",
+    "explanation": "In electrolytic cells, an external power source forces non-spontaneous reactions. The cathode (negative terminal of power source) receives electrons \u2014 reduction occurs (cations migrate here). The anode (positive terminal) accepts electrons \u2014 oxidation occurs (anions migrate here).",
     "tags": [
       "electrochemistry",
       "electrolytic-cell"
@@ -476,11 +476,11 @@
     "options": [
       "A neutral spectator",
       "An oxidizing agent consuming oxygen",
-      "The anode (oxidized: Fe → Fe²⁺ + 2e⁻) while O₂ is reduced at cathodic areas",
+      "The anode (oxidized: Fe \u2192 Fe\u00b2\u207a + 2e\u207b) while O\u2082 is reduced at cathodic areas",
       "The cathode (reduced)"
     ],
     "correct": 2,
-    "explanation": "Rusting is an electrochemical process: anodic areas: Fe → Fe²⁺ + 2e⁻; cathodic areas: O₂ + 4H⁺ + 4e⁻ → 2H₂O. Galvanizing with zinc makes zinc the sacrificial anode, protecting the iron beneath.",
+    "explanation": "Rusting is an electrochemical process: anodic areas: Fe \u2192 Fe\u00b2\u207a + 2e\u207b; cathodic areas: O\u2082 + 4H\u207a + 4e\u207b \u2192 2H\u2082O. Galvanizing with zinc makes zinc the sacrificial anode, protecting the iron beneath.",
     "tags": [
       "electrochemistry",
       "corrosion"
@@ -488,15 +488,15 @@
     "difficulty": "medium"
   },
   {
-    "text": "The standard hydrogen electrode (SHE) is assigned E° = 0 V because:",
+    "text": "The standard hydrogen electrode (SHE) is assigned E\u00b0 = 0 V because:",
     "options": [
       "It produces no detectable current",
-      "H⁺ has no charge and thus no electrode potential",
+      "H\u207a has no charge and thus no electrode potential",
       "Hydrogen has zero reduction potential by nature",
-      "It is chosen as the reference standard; all other E° values are measured relative to it"
+      "It is chosen as the reference standard; all other E\u00b0 values are measured relative to it"
     ],
     "correct": 3,
-    "explanation": "The SHE (Pt electrode, 1 M H⁺, H₂ gas at 1 atm) is the arbitrary reference point (E° = 0.00 V by convention). All standard reduction potentials in tables are measured relative to the SHE. This allows direct subtraction to calculate cell potentials.",
+    "explanation": "The SHE (Pt electrode, 1 M H\u207a, H\u2082 gas at 1 atm) is the arbitrary reference point (E\u00b0 = 0.00 V by convention). All standard reduction potentials in tables are measured relative to the SHE. This allows direct subtraction to calculate cell potentials.",
     "tags": [
       "electrochemistry",
       "standard-hydrogen-electrode"
@@ -504,15 +504,15 @@
     "difficulty": "easy"
   },
   {
-    "text": "Three resistors (2Ω, 4Ω, 6Ω) connected in parallel have equivalent resistance:",
+    "text": "Three resistors (2\u03a9, 4\u03a9, 6\u03a9) connected in parallel have equivalent resistance:",
     "options": [
-      "12 Ω",
-      "4 Ω",
-      "0.5 Ω",
-      "≈ 1.09 Ω"
+      "12 \u03a9",
+      "4 \u03a9",
+      "0.5 \u03a9",
+      "\u2248 1.09 \u03a9"
     ],
     "correct": 3,
-    "explanation": "1/R_eq = 1/2 + 1/4 + 1/6 = 6/12 + 3/12 + 2/12 = 11/12. R_eq = 12/11 ≈ 1.09 Ω. Parallel resistance is always less than the smallest individual resistor.",
+    "explanation": "1/R_eq = 1/2 + 1/4 + 1/6 = 6/12 + 3/12 + 2/12 = 11/12. R_eq = 12/11 \u2248 1.09 \u03a9. Parallel resistance is always less than the smallest individual resistor.",
     "tags": [
       "circuits",
       "parallel-resistors"
@@ -520,7 +520,7 @@
     "difficulty": "medium"
   },
   {
-    "text": "The time constant τ = RC for an RC circuit represents:",
+    "text": "The time constant \u03c4 = RC for an RC circuit represents:",
     "options": [
       "The time to fully charge the capacitor (100%)",
       "The time for current to reach zero",
@@ -528,7 +528,7 @@
       "The oscillation period"
     ],
     "correct": 2,
-    "explanation": "Q(t) = Q_max(1 - e^(-t/RC)). At t = τ = RC, Q = Q_max(1 - e⁻¹) ≈ 0.632 Q_max. After 5τ, the capacitor is >99% charged. During discharge: Q = Q₀e^(-t/RC), so at t = τ, Q ≈ 0.368 Q₀.",
+    "explanation": "Q(t) = Q_max(1 - e^(-t/RC)). At t = \u03c4 = RC, Q = Q_max(1 - e\u207b\u00b9) \u2248 0.632 Q_max. After 5\u03c4, the capacitor is >99% charged. During discharge: Q = Q\u2080e^(-t/RC), so at t = \u03c4, Q \u2248 0.368 Q\u2080.",
     "tags": [
       "circuits",
       "rc-circuit"
@@ -544,7 +544,7 @@
       "Current into a node equals current out"
     ],
     "correct": 2,
-    "explanation": "KVL (conservation of energy): ΣV = 0 around any closed loop. Electric potential is a state function — returning to the starting point means net ΔV = 0. KCL (Kirchhoff's current law): ΣI = 0 at any node (conservation of charge).",
+    "explanation": "KVL (conservation of energy): \u03a3V = 0 around any closed loop. Electric potential is a state function \u2014 returning to the starting point means net \u0394V = 0. KCL (Kirchhoff's current law): \u03a3I = 0 at any node (conservation of charge).",
     "tags": [
       "circuits",
       "kvl",
@@ -558,10 +558,10 @@
       "The magnitude of the magnetic field",
       "The resistance of the conductor",
       "The charge on moving particles",
-      "The rate of change of magnetic flux (dΦ_B/dt)"
+      "The rate of change of magnetic flux (d\u03a6_B/dt)"
     ],
     "correct": 3,
-    "explanation": "Faraday's law: EMF = -dΦ_B/dt (where Φ_B = B·A·cosθ). The negative sign reflects Lenz's law: induced current opposes the flux change. This is the basis for electric generators, transformers, and inductive charging.",
+    "explanation": "Faraday's law: EMF = -d\u03a6_B/dt (where \u03a6_B = B\u00b7A\u00b7cos\u03b8). The negative sign reflects Lenz's law: induced current opposes the flux change. This is the basis for electric generators, transformers, and inductive charging.",
     "tags": [
       "magnetism",
       "electromagnetic-induction"
@@ -577,7 +577,7 @@
       "60 V"
     ],
     "correct": 0,
-    "explanation": "V_s/V_p = N_s/N_p → V_s = 120 × (500/100) = 600 V. Voltage is stepped up by a factor of 5. By power conservation, current is stepped down by the same factor (I_s = I_p × N_p/N_s = I_p/5).",
+    "explanation": "V_s/V_p = N_s/N_p \u2192 V_s = 120 \u00d7 (500/100) = 600 V. Voltage is stepped up by a factor of 5. By power conservation, current is stepped down by the same factor (I_s = I_p \u00d7 N_p/N_s = I_p/5).",
     "tags": [
       "magnetism",
       "transformer"
@@ -585,7 +585,7 @@
     "difficulty": "medium"
   },
   {
-    "text": "A 2 kg block slides down a frictionless 5 m incline from height h = 5 m. Its speed at the bottom is: (g=10 m/s²)",
+    "text": "A 2 kg block slides down a frictionless 5 m incline from height h = 5 m. Its speed at the bottom is: (g=10 m/s\u00b2)",
     "options": [
       "10 m/s",
       "5 m/s",
@@ -593,7 +593,7 @@
       "14.1 m/s"
     ],
     "correct": 0,
-    "explanation": "Conservation of energy: mgh = ½mv² → v = √(2gh) = √(2×10×5) = √100 = 10 m/s. Mass cancels — all masses reach the same speed from the same height on frictionless inclines.",
+    "explanation": "Conservation of energy: mgh = \u00bdmv\u00b2 \u2192 v = \u221a(2gh) = \u221a(2\u00d710\u00d75) = \u221a100 = 10 m/s. Mass cancels \u2014 all masses reach the same speed from the same height on frictionless inclines.",
     "tags": [
       "mechanics",
       "energy-conservation"
@@ -606,10 +606,10 @@
       "Amplitude alone",
       "Mass, length, and amplitude",
       "Mass and length",
-      "Length and gravitational acceleration only: T = 2π√(L/g)"
+      "Length and gravitational acceleration only: T = 2\u03c0\u221a(L/g)"
     ],
     "correct": 3,
-    "explanation": "For small oscillations, T = 2π√(L/g). The period is independent of both mass and amplitude (isochronism). A 1 m pendulum on Earth has T = 2π√(1/9.8) ≈ 2.0 s. On the Moon (g = 1.6 m/s²), the same pendulum would swing about 2.5 times more slowly.",
+    "explanation": "For small oscillations, T = 2\u03c0\u221a(L/g). The period is independent of both mass and amplitude (isochronism). A 1 m pendulum on Earth has T = 2\u03c0\u221a(1/9.8) \u2248 2.0 s. On the Moon (g = 1.6 m/s\u00b2), the same pendulum would swing about 2.5 times more slowly.",
     "tags": [
       "mechanics",
       "pendulum",
@@ -620,13 +620,13 @@
   {
     "text": "At maximum displacement in SHM, the energy distribution is:",
     "options": [
-      "All potential energy (KE = 0, PE = ½kA²)",
+      "All potential energy (KE = 0, PE = \u00bdkA\u00b2)",
       "All kinetic energy (PE = 0)",
       "Total energy is zero",
       "Equal KE and PE"
     ],
     "correct": 0,
-    "explanation": "In SHM: total energy E = ½kA² = constant. At maximum displacement (x = A), velocity = 0 so KE = 0 and all energy is stored as elastic PE = ½kA². At equilibrium (x = 0), PE = 0 and KE = ½kA² is maximum.",
+    "explanation": "In SHM: total energy E = \u00bdkA\u00b2 = constant. At maximum displacement (x = A), velocity = 0 so KE = 0 and all energy is stored as elastic PE = \u00bdkA\u00b2. At equilibrium (x = 0), PE = 0 and KE = \u00bdkA\u00b2 is maximum.",
     "tags": [
       "mechanics",
       "shm",
@@ -635,7 +635,7 @@
     "difficulty": "easy"
   },
   {
-    "text": "A motor lifts a 100 kg load 10 m in 5 s. The power output is: (g=10 m/s²)",
+    "text": "A motor lifts a 100 kg load 10 m in 5 s. The power output is: (g=10 m/s\u00b2)",
     "options": [
       "10000 W",
       "2000 W",
@@ -643,7 +643,7 @@
       "200 W"
     ],
     "correct": 1,
-    "explanation": "W = mgh = 100×10×10 = 10,000 J. P = W/t = 10,000/5 = 2000 W = 2 kW.",
+    "explanation": "W = mgh = 100\u00d710\u00d710 = 10,000 J. P = W/t = 10,000/5 = 2000 W = 2 kW.",
     "tags": [
       "mechanics",
       "power"
@@ -675,7 +675,7 @@
       "Alternating bright and dark interference fringes from superposition"
     ],
     "correct": 3,
-    "explanation": "Constructive interference (bright fringes): path difference = nλ. Destructive interference (dark fringes): (n+½)λ. This superposition requires wave behavior. Photons also create this pattern one at a time, demonstrating wave-particle duality.",
+    "explanation": "Constructive interference (bright fringes): path difference = n\u03bb. Destructive interference (dark fringes): (n+\u00bd)\u03bb. This superposition requires wave behavior. Photons also create this pattern one at a time, demonstrating wave-particle duality.",
     "tags": [
       "optics",
       "double-slit",
@@ -692,7 +692,7 @@
       "Electrons are too tightly bound at high frequency"
     ],
     "correct": 2,
-    "explanation": "Classical wave theory predicted any frequency would eject electrons given enough intensity. Einstein showed each photon has E=hf; if hf < work function (φ), no single photon has enough energy to eject an electron regardless of how many photons hit. Increasing intensity increases number of photons, not their energy.",
+    "explanation": "Classical wave theory predicted any frequency would eject electrons given enough intensity. Einstein showed each photon has E=hf; if hf < work function (\u03c6), no single photon has enough energy to eject an electron regardless of how many photons hit. Increasing intensity increases number of photons, not their energy.",
     "tags": [
       "modern-physics",
       "photoelectric-effect"
@@ -700,7 +700,7 @@
     "difficulty": "medium"
   },
   {
-    "text": "The de Broglie wavelength λ = h/mv implies that:",
+    "text": "The de Broglie wavelength \u03bb = h/mv implies that:",
     "options": [
       "Only light has wave properties",
       "Wavelength is independent of speed",
@@ -708,7 +708,7 @@
       "All matter has wave properties; shorter wavelength for faster/heavier objects"
     ],
     "correct": 3,
-    "explanation": "λ = h/mv: wavelength decreases as momentum (mv) increases. Fast, heavy objects have negligible wavelengths (undetectable quantum effects). Electrons moving at ~10⁶ m/s have λ ~10⁻¹⁰ m, comparable to atomic spacings — enabling electron microscopy.",
+    "explanation": "\u03bb = h/mv: wavelength decreases as momentum (mv) increases. Fast, heavy objects have negligible wavelengths (undetectable quantum effects). Electrons moving at ~10\u2076 m/s have \u03bb ~10\u207b\u00b9\u2070 m, comparable to atomic spacings \u2014 enabling electron microscopy.",
     "tags": [
       "modern-physics",
       "de-broglie"
@@ -716,7 +716,7 @@
     "difficulty": "medium"
   },
   {
-    "text": "Heisenberg's uncertainty principle (Δx·Δp ≥ ℏ/2) means that:",
+    "text": "Heisenberg's uncertainty principle (\u0394x\u00b7\u0394p \u2265 \u210f/2) means that:",
     "options": [
       "Uncertainty reflects only measurement imprecision, not fundamental limits",
       "Macroscopic objects are also governed by significant uncertainty",
@@ -724,7 +724,7 @@
       "The more precisely position is known, the less precisely momentum can be known, and vice versa"
     ],
     "correct": 3,
-    "explanation": "The uncertainty principle is a fundamental quantum mechanical limit, not a measurement artifact. Precisely localizing a particle (small Δx) requires a broad range of wave vectors (large Δp), and vice versa. For macroscopic objects, ℏ ≈ 10⁻³⁴ J·s makes this constraint negligible.",
+    "explanation": "The uncertainty principle is a fundamental quantum mechanical limit, not a measurement artifact. Precisely localizing a particle (small \u0394x) requires a broad range of wave vectors (large \u0394p), and vice versa. For macroscopic objects, \u210f \u2248 10\u207b\u00b3\u2074 J\u00b7s makes this constraint negligible.",
     "tags": [
       "modern-physics",
       "heisenberg-uncertainty"
@@ -735,12 +735,12 @@
     "text": "A string (fixed both ends, length L) forms standing waves. Which wavelengths are allowed?",
     "options": [
       "Any wavelength that is less than L",
-      "λ = L/n (full wavelengths only)",
-      "λ = 4L/n (quarter wavelengths)",
-      "λ = 2L/n (n = 1, 2, 3, ...): nodes at both ends require integer half-wavelengths to fit"
+      "\u03bb = L/n (full wavelengths only)",
+      "\u03bb = 4L/n (quarter wavelengths)",
+      "\u03bb = 2L/n (n = 1, 2, 3, ...): nodes at both ends require integer half-wavelengths to fit"
     ],
     "correct": 3,
-    "explanation": "Boundary condition: displacement = 0 at both ends (two nodes). This requires L = n(λ/2) → λ = 2L/n. Fundamental (n=1): λ = 2L. Second harmonic (n=2): λ = L. Corresponding frequencies: f_n = nv/2L = nf₁.",
+    "explanation": "Boundary condition: displacement = 0 at both ends (two nodes). This requires L = n(\u03bb/2) \u2192 \u03bb = 2L/n. Fundamental (n=1): \u03bb = 2L. Second harmonic (n=2): \u03bb = L. Corresponding frequencies: f_n = nv/2L = nf\u2081.",
     "tags": [
       "waves",
       "standing-waves"
@@ -756,7 +756,7 @@
       "f = v/L"
     ],
     "correct": 0,
-    "explanation": "Closed pipe boundary conditions: node at closed end, antinode at open end. L = λ/4 for fundamental, so λ = 4L and f₁ = v/4L. Only odd harmonics (n = 1, 3, 5, ...) are supported because only these satisfy the boundary conditions.",
+    "explanation": "Closed pipe boundary conditions: node at closed end, antinode at open end. L = \u03bb/4 for fundamental, so \u03bb = 4L and f\u2081 = v/4L. Only odd harmonics (n = 1, 3, 5, ...) are supported because only these satisfy the boundary conditions.",
     "tags": [
       "waves",
       "standing-waves",
@@ -765,7 +765,7 @@
     "difficulty": "hard"
   },
   {
-    "text": "The van der Waals equation (P + a/V²)(V - b) = nRT corrects for:",
+    "text": "The van der Waals equation (P + a/V\u00b2)(V - b) = nRT corrects for:",
     "options": [
       "Gravitational attraction between gas molecules",
       "Quantum effects at low temperature",
@@ -784,12 +784,12 @@
     "text": "Dalton's law of partial pressures: total pressure of a gas mixture equals:",
     "options": [
       "Pressure of the most abundant gas",
-      "Sum of partial pressures: P_total = P₁ + P₂ + P₃ + ...",
+      "Sum of partial pressures: P_total = P\u2081 + P\u2082 + P\u2083 + ...",
       "Average of partial pressures",
       "Product of mole fractions times total pressure"
     ],
     "correct": 1,
-    "explanation": "Each gas in an ideal mixture behaves independently. Partial pressure P_i = x_i × P_total, where x_i is the mole fraction. The sum of all partial pressures equals total pressure. Used to calculate O₂ partial pressure in alveoli (accounting for water vapor and CO₂).",
+    "explanation": "Each gas in an ideal mixture behaves independently. Partial pressure P_i = x_i \u00d7 P_total, where x_i is the mole fraction. The sum of all partial pressures equals total pressure. Used to calculate O\u2082 partial pressure in alveoli (accounting for water vapor and CO\u2082).",
     "tags": [
       "gas-laws",
       "daltons-law"
@@ -797,15 +797,15 @@
     "difficulty": "easy"
   },
   {
-    "text": "Graham's law of effusion: the rate of gas effusion is inversely proportional to the square root of molar mass. He (M=4) effuses how much faster than O₂ (M=32)?",
+    "text": "Graham's law of effusion: the rate of gas effusion is inversely proportional to the square root of molar mass. He (M=4) effuses how much faster than O\u2082 (M=32)?",
     "options": [
       "1.41 times faster",
-      "2.83 times faster (√8 = 2.83)",
+      "2.83 times faster (\u221a8 = 2.83)",
       "8 times faster",
       "4 times faster"
     ],
     "correct": 1,
-    "explanation": "Rate_He/Rate_O₂ = √(M_O₂/M_He) = √(32/4) = √8 ≈ 2.83. Lighter gases effuse faster. This principle is used in uranium enrichment (²³⁵UF₆ vs ²³⁸UF₆) and explains why helium balloons deflate faster than air-filled ones.",
+    "explanation": "Rate_He/Rate_O\u2082 = \u221a(M_O\u2082/M_He) = \u221a(32/4) = \u221a8 \u2248 2.83. Lighter gases effuse faster. This principle is used in uranium enrichment (\u00b2\u00b3\u2075UF\u2086 vs \u00b2\u00b3\u2078UF\u2086) and explains why helium balloons deflate faster than air-filled ones.",
     "tags": [
       "gas-laws",
       "grahams-law"
@@ -813,7 +813,7 @@
     "difficulty": "medium"
   },
   {
-    "text": "Gamma (γ) emission from a nucleus:",
+    "text": "Gamma (\u03b3) emission from a nucleus:",
     "options": [
       "Releases energy as a photon; Z and A are unchanged",
       "Decreases A by 1; Z unchanged",
@@ -829,15 +829,15 @@
     "difficulty": "easy"
   },
   {
-    "text": "Positron emission (β⁺ decay) results in the nucleus:",
+    "text": "Positron emission (\u03b2\u207a decay) results in the nucleus:",
     "options": [
-      "Decreasing Z by 1 while A remains the same (proton → neutron + positron + neutrino)",
+      "Decreasing Z by 1 while A remains the same (proton \u2192 neutron + positron + neutrino)",
       "Increasing Z by 1 while A remains the same",
       "Decreasing A by 1",
       "Decreasing both Z and A"
     ],
     "correct": 0,
-    "explanation": "β⁺: p → n + e⁺ + ν_e. The nucleus loses a proton and gains a neutron: Z decreases by 1, A unchanged. Used in PET scanning: ¹⁸F emits a positron which annihilates with an electron to produce two 511 keV gamma rays detected in coincidence.",
+    "explanation": "\u03b2\u207a: p \u2192 n + e\u207a + \u03bd_e. The nucleus loses a proton and gains a neutron: Z decreases by 1, A unchanged. Used in PET scanning: \u00b9\u2078F emits a positron which annihilates with an electron to produce two 511 keV gamma rays detected in coincidence.",
     "tags": [
       "nuclear-physics",
       "positron-emission"
@@ -845,7 +845,7 @@
     "difficulty": "medium"
   },
   {
-    "text": "Angular momentum L = Iω is conserved when:",
+    "text": "Angular momentum L = I\u03c9 is conserved when:",
     "options": [
       "No net external torque acts on the system",
       "Angular velocity is constant",
@@ -853,7 +853,7 @@
       "Moment of inertia is constant"
     ],
     "correct": 0,
-    "explanation": "dL/dt = τ_net. If τ_ext = 0, L is conserved. A figure skater pulling arms in decreases I; ω increases to maintain L = Iω = constant. Conservation of linear momentum (not angular) requires no net external force.",
+    "explanation": "dL/dt = \u03c4_net. If \u03c4_ext = 0, L is conserved. A figure skater pulling arms in decreases I; \u03c9 increases to maintain L = I\u03c9 = constant. Conservation of linear momentum (not angular) requires no net external force.",
     "tags": [
       "mechanics",
       "angular-momentum"
@@ -869,7 +869,7 @@
       "The moving mass stops; the stationary mass moves with the original speed"
     ],
     "correct": 3,
-    "explanation": "For elastic collision of equal masses (m₁=m₂), with m₂ initially at rest: v₁' = 0 and v₂' = v₁ (initial speed). This follows from conserving both momentum and kinetic energy simultaneously. Newton's cradle demonstrates this exchange perfectly.",
+    "explanation": "For elastic collision of equal masses (m\u2081=m\u2082), with m\u2082 initially at rest: v\u2081' = 0 and v\u2082' = v\u2081 (initial speed). This follows from conserving both momentum and kinetic energy simultaneously. Newton's cradle demonstrates this exchange perfectly.",
     "tags": [
       "mechanics",
       "elastic-collision"
@@ -885,7 +885,7 @@
       "The object is at rest"
     ],
     "correct": 2,
-    "explanation": "g = GM/r² varies with distance from Earth's center. For h << R_Earth (~6400 km), g ≈ 9.8 m/s² is nearly constant and U = mgh is an excellent approximation. For large heights (satellites), U = -GMm/r (with the reference at infinity) must be used.",
+    "explanation": "g = GM/r\u00b2 varies with distance from Earth's center. For h << R_Earth (~6400 km), g \u2248 9.8 m/s\u00b2 is nearly constant and U = mgh is an excellent approximation. For large heights (satellites), U = -GMm/r (with the reference at infinity) must be used.",
     "tags": [
       "mechanics",
       "gravitational-potential-energy"
@@ -901,7 +901,7 @@
       "Violet (shortest wavelength, highest index of refraction in glass)"
     ],
     "correct": 3,
-    "explanation": "Dispersion: n varies with wavelength (higher n for shorter λ). By Snell's law, higher n means more bending. Violet light (λ ~400 nm) has higher n in glass than red (λ ~700 nm), so violet bends more. This is why rainbows have violet on the inside and red on the outside.",
+    "explanation": "Dispersion: n varies with wavelength (higher n for shorter \u03bb). By Snell's law, higher n means more bending. Violet light (\u03bb ~400 nm) has higher n in glass than red (\u03bb ~700 nm), so violet bends more. This is why rainbows have violet on the inside and red on the outside.",
     "tags": [
       "optics",
       "dispersion"
@@ -917,7 +917,7 @@
       "-13.3 cm (virtual, on same side as object)"
     ],
     "correct": 3,
-    "explanation": "1/f = 1/do + 1/di → 1/(-20) = 1/40 + 1/di → 1/di = -1/20 - 1/40 = -2/40 - 1/40 = -3/40 → di = -40/3 ≈ -13.3 cm. Negative di = virtual image on the same side as the object. Diverging lenses always produce virtual, upright, diminished images.",
+    "explanation": "1/f = 1/do + 1/di \u2192 1/(-20) = 1/40 + 1/di \u2192 1/di = -1/20 - 1/40 = -2/40 - 1/40 = -3/40 \u2192 di = -40/3 \u2248 -13.3 cm. Negative di = virtual image on the same side as the object. Diverging lenses always produce virtual, upright, diminished images.",
     "tags": [
       "optics",
       "diverging-lens"
@@ -933,7 +933,7 @@
       "15 cm"
     ],
     "correct": 1,
-    "explanation": "1/15 = 1/45 + 1/di → 1/di = 1/15 - 1/45 = 3/45 - 1/45 = 2/45 → di = 22.5 cm. Positive di for a mirror means the image is real and in front of the mirror. Magnification m = -di/do = -22.5/45 = -0.5 (inverted, smaller).",
+    "explanation": "1/15 = 1/45 + 1/di \u2192 1/di = 1/15 - 1/45 = 3/45 - 1/45 = 2/45 \u2192 di = 22.5 cm. Positive di for a mirror means the image is real and in front of the mirror. Magnification m = -di/do = -22.5/45 = -0.5 (inverted, smaller).",
     "tags": [
       "optics",
       "curved-mirror"
@@ -949,12 +949,109 @@
       "4.46"
     ],
     "correct": 2,
-    "explanation": "pH = pKa + log([A⁻]/[HA]) = 4.76 + log(0.2/0.1) = 4.76 + log(2) = 4.76 + 0.30 = 5.06. More conjugate base than acid shifts pH above pKa.",
+    "explanation": "pH = pKa + log([A\u207b]/[HA]) = 4.76 + log(0.2/0.1) = 4.76 + log(2) = 4.76 + 0.30 = 5.06. More conjugate base than acid shifts pH above pKa.",
     "tags": [
       "acid-base",
       "buffers",
       "henderson-hasselbalch"
     ],
     "difficulty": "medium"
+  },
+  {
+    "text": "Lewis acid-base theory defines a Lewis acid as:",
+    "options": [
+      "An electron pair donor (nucleophile)",
+      "A proton donor",
+      "A proton acceptor",
+      "An electron pair acceptor (electrophile)"
+    ],
+    "correct": 3,
+    "explanation": "Lewis theory (broadest acid-base definition): Lewis acid = electron pair acceptor; Lewis base = electron pair donor. BF\u2083, Al\u00b3\u207a, Fe\u00b3\u207a are Lewis acids that cannot donate protons. All Br\u00f8nsted-Lowry acids are Lewis acids, but not vice versa.",
+    "tags": [
+      "acid-base",
+      "lewis-acid-base"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which best explains why HI is a stronger acid than HF?",
+    "options": [
+      "HF ionizes more completely in water",
+      "HI has higher molecular weight",
+      "Iodine is more electronegative than fluorine",
+      "H-I bond is much weaker (longer) than H-F, making proton donation easier"
+    ],
+    "correct": 3,
+    "explanation": "Down a group, bond strength decreases as atomic size increases. H-I bond (bond energy ~297 kJ/mol) is much weaker than H-F (~569 kJ/mol), making H-I much easier to break and H\u207a easier to release. Electronegativity (F >> I) predicts opposite order and does not explain hydrohalic acid trend.",
+    "tags": [
+      "acid-base",
+      "acid-strength",
+      "bond-energy"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "For a second-order reaction, the half-life t\u00bd = 1/(k[A]\u2080). As the reaction proceeds, each subsequent half-life:",
+    "options": [
+      "Stays the same",
+      "Gets shorter",
+      "Increases exponentially",
+      "Gets longer (because [A]\u2080 decreases)"
+    ],
+    "correct": 3,
+    "explanation": "Second-order t\u00bd = 1/(k[A]\u2080). As [A] decreases after each half-life, the next half-life is longer. This contrasts with first-order reactions (constant t\u00bd = 0.693/k). This makes second-order reactions slow down dramatically as concentration falls.",
+    "tags": [
+      "kinetics",
+      "second-order"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The rate-determining step in a multi-step mechanism is identified as the step with:",
+    "options": [
+      "The highest activation energy (slowest step)",
+      "The most reactants",
+      "The most stable intermediates",
+      "The lowest activation energy"
+    ],
+    "correct": 0,
+    "explanation": "The rate-determining step (RDS) has the highest activation energy and is therefore the slowest step. It acts as the bottleneck: the overall reaction rate cannot exceed the rate of the RDS. The rate law for the overall reaction reflects the elementary rate law of the RDS.",
+    "tags": [
+      "kinetics",
+      "rate-determining-step"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "If Q < K for a reaction, the system will:",
+    "options": [
+      "Already be at equilibrium",
+      "Have no net reaction regardless of concentrations",
+      "Proceed in reverse (toward reactants)",
+      "Proceed forward (toward products) to reach equilibrium"
+    ],
+    "correct": 3,
+    "explanation": "The reaction quotient Q uses current concentrations; K uses equilibrium concentrations. If Q < K, products are underrepresented relative to equilibrium, so the reaction shifts forward to produce more products. If Q > K, the reaction shifts reverse. Q = K means equilibrium.",
+    "tags": [
+      "equilibrium",
+      "reaction-quotient"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Adding more reactant to a system at equilibrium will:",
+    "options": [
+      "Have no effect on equilibrium position",
+      "Shift equilibrium toward reactants",
+      "Change the value of K",
+      "Shift equilibrium toward products (Q < K, forward reaction increases)"
+    ],
+    "correct": 3,
+    "explanation": "Adding reactant increases Q denominator (actually decreases Q since Q = [products]/[reactants]). With Q < K, the reaction shifts right to restore equilibrium. The equilibrium constant K is unchanged (it only changes with temperature). This is Le Chatelier's principle.",
+    "tags": [
+      "equilibrium",
+      "le-chatelier"
+    ],
+    "difficulty": "easy"
   }
 ]

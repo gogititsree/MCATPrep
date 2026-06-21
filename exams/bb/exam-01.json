@@ -1,965 +1,961 @@
 [
   {
-    "text": "Which amino acid is the only one that lacks a chiral alpha carbon?",
+    "text": "Which RNA polymerase transcribes protein-coding genes (mRNA) in eukaryotes?",
     "options": [
-      "Serine",
-      "Alanine",
-      "Proline",
-      "Glycine"
+      "RNA Polymerase III",
+      "RNA Polymerase II",
+      "RNA Polymerase I",
+      "Primase"
     ],
-    "correct": 3,
-    "explanation": "Glycine has two H atoms on its alpha carbon (R = H), giving it two identical substituents and no chirality. Every other standard amino acid has four distinct groups at the alpha carbon and exists as the L-enantiomer in proteins.",
+    "correct": 1,
+    "explanation": "RNA Pol II transcribes all protein-coding genes (pre-mRNA) as well as most snRNAs. RNA Pol I transcribes large ribosomal RNAs (28S, 18S, 5.8S). RNA Pol III transcribes tRNA, 5S rRNA, and small RNAs. Primase is a prokaryotic/mitochondrial enzyme that synthesizes RNA primers.",
     "tags": [
-      "amino acids",
-      "chirality"
+      "transcription",
+      "RNA polymerase"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "At physiological pH (~7.4), which amino acid side chain is best positioned to donate or accept a proton and function as an acid-base catalyst?",
+    "text": "What sequence element in eukaryotic promoters is typically found ~25–30 bp upstream of the transcription start site and is recognized by TFIID (TBP)?",
     "options": [
-      "Glutamine",
-      "Aspartate",
-      "Histidine",
-      "Lysine"
+      "Kozak sequence",
+      "GC box",
+      "TATA box",
+      "CAAT box"
     ],
     "correct": 2,
-    "explanation": "Histidine's imidazole side chain has pKa ≈ 6.0, closest to physiological pH of all standard amino acids. This lets it toggle between protonated and deprotonated forms under physiological conditions. Lysine (pKa ≈ 10.5) stays protonated; aspartate (pKa ≈ 3.9) stays deprotonated; glutamine has no ionizable side chain.",
+    "explanation": "The TATA box (consensus TATAAA) is bound by the TATA-binding protein (TBP) subunit of TFIID, nucleating assembly of the pre-initiation complex about 25–30 bp downstream. The CAAT box (~−75) and GC box (~−90) are upstream control elements bound by other transcription factors. The Kozak sequence is a ribosome-recognition element around the AUG start codon, not a promoter element.",
     "tags": [
-      "amino acids",
-      "enzyme catalysis"
+      "transcription",
+      "promoters"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Which amino acid side chain contains a thiol group (–SH) that can form disulfide bonds?",
+    "text": "A 5' 7-methylguanosine cap is added to eukaryotic pre-mRNA primarily to:",
     "options": [
-      "Serine",
-      "Methionine",
-      "Threonine",
-      "Cysteine"
+      "Promote spliceosome assembly at the 5' splice site",
+      "Anchor the mRNA to the nuclear pore",
+      "Protect the mRNA from 5' exonuclease degradation and facilitate ribosome binding",
+      "Signal the stop codon to the ribosome"
     ],
-    "correct": 3,
-    "explanation": "Cysteine's thiol (–SH) group is oxidized to form disulfide bonds (–S–S–) with another cysteine, stabilizing tertiary/quaternary protein structure. Serine and threonine have –OH groups. Methionine contains a thioether (–S–CH3) that cannot form disulfide bonds.",
+    "correct": 2,
+    "explanation": "The 5' cap (m7G) protects the mRNA from 5'→3' exonucleases and is recognized by eIF4E to recruit the 43S pre-initiation complex. It has no role in stop codon recognition or splicing. While the cap does help mRNA export, it is not an anchor; it is recognized by the nuclear cap-binding complex CBP80/20.",
     "tags": [
-      "amino acids",
-      "protein structure"
+      "mRNA processing",
+      "5' cap"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "Why does proline disrupt alpha-helices?",
+    "text": "Which of the following is NOT a required component of the spliceosome?",
     "options": [
-      "Its side chain is too large to fit in the helix",
-      "It carries a negative charge at physiological pH",
-      "Its side chain bonds to the backbone nitrogen, eliminating the N–H hydrogen bond donor",
-      "It forms an extra covalent bond with adjacent residues"
+      "U1 snRNP",
+      "Poly-A polymerase",
+      "U2 snRNP",
+      "U5 snRNP"
+    ],
+    "correct": 1,
+    "explanation": "The spliceosome is assembled from snRNPs U1, U2, U4, U5, and U6, which catalyze the two transesterification reactions of splicing. Poly-A polymerase adds the poly-A tail at the 3' end of the mRNA and is not part of the spliceosome.",
+    "tags": [
+      "mRNA processing",
+      "splicing"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Alternative splicing allows:",
+    "options": [
+      "mRNA to be translated without a ribosome",
+      "Histones to be acetylated at different lysines",
+      "One gene to produce multiple protein isoforms by including or excluding different exons",
+      "tRNA to pair with multiple codons simultaneously"
     ],
     "correct": 2,
-    "explanation": "Proline's nitrogen is locked in a pyrrolidine ring with its side chain, removing the backbone N–H needed for hydrogen bonding in a helix. This creates a rigid kink, making proline a 'helix breaker.' It can appear at the end of helices or in beta-turns.",
+    "explanation": "Alternative splicing joins exons in different combinations, dramatically expanding the proteome from a limited number of genes. The human genome (~20,000 genes) produces >100,000 different proteins largely through alternative splicing. The other options describe epigenetic regulation, IRES-mediated translation, and wobble base-pairing, which are distinct phenomena.",
     "tags": [
-      "amino acids",
-      "protein structure"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Proteins absorb strongly at 280 nm primarily because of which amino acids?",
-    "options": [
-      "Phenylalanine and alanine",
-      "Methionine and cysteine",
-      "Glycine and proline",
-      "Tryptophan and tyrosine"
-    ],
-    "correct": 3,
-    "explanation": "Tryptophan (indole ring) and tyrosine (phenol ring) absorb at 280 nm due to aromatic pi electrons. Tryptophan has the larger extinction coefficient. This is used to estimate protein concentration spectrophotometrically. Phenylalanine absorbs weakly at ~257 nm.",
-    "tags": [
-      "amino acids",
-      "spectroscopy"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which amino acid is the direct precursor for catecholamine biosynthesis (dopamine, norepinephrine, epinephrine)?",
-    "options": [
-      "Tryptophan",
-      "Histidine",
-      "Phenylalanine",
-      "Tyrosine"
-    ],
-    "correct": 3,
-    "explanation": "Tyrosine → L-DOPA (tyrosine hydroxylase) → Dopamine → Norepinephrine → Epinephrine. Phenylalanine can be converted to tyrosine by phenylalanine hydroxylase, but tyrosine is the direct precursor. Tryptophan makes serotonin. Histidine makes histamine.",
-    "tags": [
-      "amino acids",
-      "neurotransmitters"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "In eukaryotes, which amino acid is delivered by the initiator tRNA at the start codon AUG?",
-    "options": [
-      "Alanine",
-      "Valine",
-      "Methionine",
-      "Leucine"
-    ],
-    "correct": 2,
-    "explanation": "AUG codes for methionine and serves as the start codon in eukaryotes (the initiator tRNA is met-tRNAi). In prokaryotes, the initiator carries N-formyl-methionine (fMet). The initiating methionine is often cleaved post-translationally.",
-    "tags": [
-      "amino acids",
-      "translation"
+      "mRNA processing",
+      "alternative splicing"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "A patient with phenylketonuria (PKU) lacks phenylalanine hydroxylase. Which metabolite accumulates and causes neurological damage?",
+    "text": "The polyadenylation signal sequence AAUAAA directs cleavage and poly-A addition approximately how many nucleotides downstream?",
     "options": [
-      "Tyrosine",
-      "Excess dopamine",
-      "Phenylalanine and its toxic byproducts (phenylpyruvate, phenyllactate)",
-      "Tryptophan metabolites"
-    ],
-    "correct": 2,
-    "explanation": "Without phenylalanine hydroxylase, phenylalanine cannot be converted to tyrosine and accumulates. It is shunted to phenylpyruvate, phenyllactate, and phenylacetate. These metabolites inhibit brain aromatic amino acid transport, impair myelination, and cause intellectual disability if untreated.",
-    "tags": [
-      "amino acids",
-      "metabolic disorders"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Glutamic acid (pI ≈ 3.2) carries what net charge at pH 7.4?",
-    "options": [
-      "–1",
-      "+1",
-      "0",
-      "+2"
+      "10–30 nt downstream",
+      "Exactly at the signal sequence",
+      "At the nearest stop codon",
+      "100–200 nt downstream"
     ],
     "correct": 0,
-    "explanation": "At pH 7.4, well above pI 3.2: the alpha-COOH (pKa ~2.1) and side-chain COOH (pKa ~4.1) are both deprotonated (–1 each), while the alpha-NH3+ (pKa ~9.5) is protonated (+1). Net = +1 – 1 – 1 = –1.",
+    "explanation": "The canonical AAUAAA hexamer is recognized by CPSF (cleavage and polyadenylation specificity factor), which directs endonucleolytic cleavage 10–30 nt downstream. Poly-A polymerase then adds ~200 adenosines. Placing the cleavage site at the signal or stop codon would be mechanistically incorrect.",
     "tags": [
-      "amino acids",
-      "acid-base"
+      "mRNA processing",
+      "polyadenylation"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Which of the following is a complete list of the nine essential amino acids?",
+    "text": "In the genetic code, which codon serves as the universal start codon and also encodes methionine during elongation?",
     "options": [
-      "Arg, His, Lys, Asp, Glu, Asn, Gln, Ser, Thr",
-      "Phe, Tyr, Trp, Met, Cys, Gly, Pro, Val, Ala",
-      "His, Ile, Leu, Lys, Met, Phe, Thr, Trp, Val",
-      "Ala, Gly, Pro, Ser, Thr, Asn, Gln, Cys, Tyr"
+      "UAA",
+      "CUG",
+      "AUG",
+      "GUG"
     ],
     "correct": 2,
-    "explanation": "The nine essential amino acids (cannot be synthesized by humans) are Histidine, Isoleucine, Leucine, Lysine, Methionine, Phenylalanine, Threonine, Tryptophan, Valine. Mnemonic: PVT TIM HaLL. They must come from the diet.",
+    "explanation": "AUG encodes methionine and serves as the start codon in virtually all organisms. In some prokaryotes, GUG or UUG can initiate but still incorporate fMet. UAA is a stop codon. CUG can serve as an alternate initiator in some contexts but is not universal.",
     "tags": [
-      "amino acids",
-      "nutrition"
+      "genetic code",
+      "start codon"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "Glycine appears in regions of the Ramachandran plot that are forbidden for other amino acids because:",
+    "text": "Which of the three stop codons is NOT decoded by a release factor and has a distinct structural feature?",
     "options": [
-      "It forms the most stable hydrogen bonds",
-      "It has the most hydrophobic side chain",
-      "Its pKa is farthest from physiological pH",
-      "It lacks a side chain, minimizing steric clash at extreme phi/psi angles"
+      "All three stop codons (UAA, UAG, UGA) are recognized by protein release factors in eukaryotes",
+      "UAA only, because it is the 'ochre' codon",
+      "UAG only, because it resembles a sense codon",
+      "UGA only, because it also encodes selenocysteine"
     ],
-    "correct": 3,
-    "explanation": "Without a side chain, glycine has minimal steric restriction and can adopt phi/psi combinations (including left-handed alpha-helix conformations) inaccessible to other amino acids. This flexibility is why glycine is common at tight turns and in collagen (Gly-X-Y). Proline, conversely, is the most restricted.",
+    "correct": 0,
+    "explanation": "In eukaryotes, all three stop codons (UAA, UAG, UGA) are recognized by the single release factor eRF1. UGA can encode selenocysteine when a SECIS element is present in the 3'-UTR, but in the absence of selenocysteine machinery it functions as a stop codon recognized by eRF1. The premise that one stop codon bypasses release factors is incorrect.",
     "tags": [
-      "amino acids",
-      "protein structure"
+      "genetic code",
+      "stop codons"
     ],
     "difficulty": "hard"
   },
   {
-    "text": "Collagen requires hydroxyproline for stability. Which vitamin is essential for prolyl hydroxylase, and what disease results from its deficiency?",
+    "text": "The anticodon of a tRNA pairs with the mRNA codon in the:",
     "options": [
-      "Vitamin K; coagulopathy",
-      "Vitamin B12; pernicious anemia",
-      "Vitamin D; rickets",
-      "Vitamin C (ascorbic acid); scurvy"
+      "Parallel 5'→3' to 5'→3' orientation",
+      "No specific directionality is required",
+      "Antiparallel 5'→3' to 3'→5' orientation only at wobble position",
+      "Antiparallel 3'→5' to 5'→3' orientation"
     ],
     "correct": 3,
-    "explanation": "Prolyl hydroxylase requires ascorbate (vitamin C) as a cofactor to hydroxylate proline residues in collagen. Hydroxyproline forms extra hydrogen bonds in the collagen triple helix. Without vitamin C, hydroxylation fails, collagen is unstable, and patients develop scurvy: bleeding gums, poor wound healing, perifollicular hemorrhages.",
+    "explanation": "All nucleic acid base-pairing is antiparallel. The mRNA is read 5'→3', so the anticodon pairs antiparallel (3'→5' anticodon with the 5'→3' codon). Wobble occurs at the third codon position (5' anticodon base), but the antiparallel rule applies throughout.",
     "tags": [
-      "amino acids",
-      "collagen",
-      "vitamins"
+      "translation",
+      "tRNA"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "GABA (gamma-aminobutyric acid) is synthesized from which amino acid by glutamate decarboxylase?",
+    "text": "During translation elongation, the ribosome has three tRNA-binding sites. In what order does a tRNA move through these sites?",
     "options": [
-      "Tyrosine",
-      "Aspartate",
-      "Glutamate",
-      "Tryptophan"
-    ],
-    "correct": 2,
-    "explanation": "Glutamate decarboxylase (requires PLP/vitamin B6) converts glutamate → GABA by removing the carboxyl group. GABA is the principal inhibitory neurotransmitter in the CNS. Disruption of GABA signaling is linked to anxiety disorders, epilepsy, and the mechanism of benzodiazepines and barbiturates.",
-    "tags": [
-      "amino acids",
-      "neurotransmitters"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The branched-chain amino acids (BCAAs) are:",
-    "options": [
-      "Phenylalanine, tyrosine, tryptophan",
-      "Serine, threonine, cysteine",
-      "Lysine, arginine, histidine",
-      "Leucine, isoleucine, valine"
-    ],
-    "correct": 3,
-    "explanation": "BCAAs (Leu, Ile, Val) have branched aliphatic side chains and are metabolized primarily in skeletal muscle (not liver), making them important for muscle protein synthesis and energy during exercise. All three are essential amino acids.",
-    "tags": [
-      "amino acids",
-      "metabolism"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Which amino acid pair contains sulfur in their side chains?",
-    "options": [
-      "Cysteine and methionine",
-      "Serine and threonine",
-      "Asparagine and glutamine",
-      "Aspartate and glutamate"
+      "A → P → E",
+      "E → P → A",
+      "P → A → E",
+      "A → E → P"
     ],
     "correct": 0,
-    "explanation": "Cysteine (thiol –SH) and methionine (thioether –S–CH3) are the two standard sulfur-containing amino acids. Cysteine's sulfur forms disulfide bonds; methionine's sulfur is used in methyl group transfer reactions (as SAM, S-adenosylmethionine).",
+    "explanation": "Aminoacyl-tRNAs enter at the A (acceptor/aminoacyl) site, where peptide bond formation occurs (peptidyl transferase). Translocation moves the peptidyl-tRNA to the P (peptidyl) site and the deacylated tRNA to the E (exit) site, from which it dissociates. The sequence is A→P→E.",
     "tags": [
-      "amino acids"
+      "translation",
+      "ribosomes"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "Serine and threonine are common targets for phosphorylation. Which type of kinase performs this modification?",
+    "text": "Puromycin is an antibiotic that terminates translation prematurely. Its mechanism is best described as:",
     "options": [
-      "RNA kinase",
-      "Serine/threonine kinase",
-      "Lipid kinase",
-      "Tyrosine kinase"
+      "It blocks the 50S/60S subunit from associating with the 30S/40S subunit",
+      "It degrades mRNA in the ribosome",
+      "It inhibits peptidyl transferase activity directly",
+      "It mimics aminoacyl-tRNA and is incorporated into the growing peptide, causing chain release"
     ],
-    "correct": 1,
-    "explanation": "Serine/threonine kinases (e.g., PKA, PKC, CDKs) phosphorylate the hydroxyl groups of serine and threonine. Tyrosine kinases (e.g., receptor tyrosine kinases, Src) phosphorylate tyrosine. Phosphorylation on any of these three residues is a key regulatory mechanism in signal transduction.",
+    "correct": 3,
+    "explanation": "Puromycin structurally resembles the 3'-end of aminoacyl-tRNA. It enters the A site and reacts with the peptidyl-tRNA in the P site via peptide bond formation, releasing the truncated peptidyl-puromycin. This irreversibly terminates translation. Cycloheximide (not puromycin) inhibits eukaryotic translocation; chloramphenicol inhibits peptidyl transferase on prokaryotic ribosomes.",
     "tags": [
-      "amino acids",
-      "signal transduction",
+      "translation",
+      "antibiotics"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "N-linked glycosylation of proteins begins in the:",
+    "options": [
+      "Nucleus",
+      "Golgi apparatus",
+      "Endoplasmic reticulum (ER)",
+      "Cytoplasm"
+    ],
+    "correct": 2,
+    "explanation": "N-linked glycosylation begins co-translationally in the ER lumen, where a preassembled 14-sugar oligosaccharide is transferred en bloc from a dolichol-pyrophosphate carrier to the asparagine residue in the N-X-S/T sequon. Further trimming and modification occur in the Golgi. O-linked glycosylation is initiated in the Golgi.",
+    "tags": [
+      "post-translational modifications",
+      "glycosylation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Phosphorylation of serine, threonine, or tyrosine residues in proteins is catalyzed by kinases and typically requires which cofactor?",
+    "options": [
+      "NADH",
+      "Pyridoxal phosphate",
+      "GTP (as phosphate donor)",
+      "ATP (as phosphate donor)"
+    ],
+    "correct": 3,
+    "explanation": "Protein kinases transfer the gamma-phosphate of ATP to the hydroxyl side chains of Ser, Thr, or Tyr. Some signaling kinases use GTP (e.g., some histidine kinases in bacteria), but the vast majority of eukaryotic protein kinases use ATP. NADH is a redox carrier; pyridoxal phosphate is a coenzyme in amino acid metabolism.",
+    "tags": [
+      "post-translational modifications",
       "phosphorylation"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "An amino acid has pI = 9.7. This is most characteristic of which amino acid?",
+    "text": "Which component of the eukaryotic ribosome directly catalyzes peptide bond formation (peptidyl transferase activity)?",
     "options": [
-      "Glutamate",
-      "Tryptophan",
-      "Glycine",
+      "The 18S rRNA of the small subunit",
+      "The ribosomal protein L3",
+      "The 28S rRNA of the large subunit",
+      "Elongation factor EF-Tu (eEF1A)"
+    ],
+    "correct": 2,
+    "explanation": "The peptidyl transferase center is a ribozyme—it is the 28S rRNA (25S in yeast) of the 60S large subunit that directly catalyzes peptide bond formation. This is classic evidence that the ribosome is a ribozyme. The small subunit rRNA (18S/16S) decodes the mRNA; EF-Tu/eEF1A delivers aminoacyl-tRNAs to the A site.",
+    "tags": [
+      "translation",
+      "ribosomes",
+      "ribozyme"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A mutation in the Shine-Dalgarno sequence of a prokaryotic mRNA would most likely:",
+    "options": [
+      "Eliminate splicing of the mRNA",
+      "Increase the rate of mRNA degradation",
+      "Reduce or abolish translation initiation by preventing 30S subunit alignment",
+      "Cause premature termination of translation"
+    ],
+    "correct": 2,
+    "explanation": "The Shine-Dalgarno (SD) sequence (purine-rich, ~5–10 nt upstream of AUG) base-pairs with the 3'-end of 16S rRNA to position the 30S subunit at the start codon. Disrupting it impairs translation initiation. Prokaryotic mRNAs are not spliced. The SD sequence does not directly affect mRNA stability or termination.",
+    "tags": [
+      "translation",
+      "prokaryotes"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following correctly describes a nonsense mutation?",
+    "options": [
+      "A mutation that changes one amino acid to a chemically similar amino acid",
+      "A point mutation that converts an amino acid codon to a stop codon",
+      "An insertion causing a frameshift",
+      "A mutation in a non-coding region"
+    ],
+    "correct": 1,
+    "explanation": "A nonsense mutation changes a sense codon to a stop codon (UAA, UAG, or UGA), resulting in premature termination and a truncated protein. A missense mutation changes one amino acid to another. A frameshift shifts the reading frame. A mutation in a non-coding region is a non-sense/regulatory mutation, not a nonsense mutation.",
+    "tags": [
+      "genetic code",
+      "mutations"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The 'wobble' hypothesis (Crick, 1966) explains why:",
+    "options": [
+      "All synonymous codons are read with equal efficiency",
+      "Ribosomes can read codons in multiple reading frames",
+      "One tRNA can recognize more than one codon by allowing non-Watson-Crick pairing at the third codon position",
+      "The genetic code is degenerate because multiple aminoacyl-tRNA synthetases exist"
+    ],
+    "correct": 2,
+    "explanation": "Wobble refers to flexible base-pairing at the third (3') codon position / 5' anticodon position: inosine in the anticodon can pair with U, C, or A in the codon; G can pair with U or C, etc. This allows one tRNA to decode multiple codons differing at the third position, explaining codon degeneracy with fewer than 61 tRNAs.",
+    "tags": [
+      "genetic code",
+      "tRNA",
+      "wobble"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which eukaryotic initiation factor recognizes the 5' cap to initiate cap-dependent translation?",
+    "options": [
+      "eIF3",
+      "eIF2",
+      "eIF6",
+      "eIF4E"
+    ],
+    "correct": 3,
+    "explanation": "eIF4E directly binds the m7G cap as part of the eIF4F complex (eIF4E + eIF4G + eIF4A). eIF2 delivers the initiator Met-tRNAi to the 43S complex in a GTP-dependent manner. eIF3 binds the 40S subunit and prevents premature 60S association. eIF6 keeps 60S subunits dissociated from 40S in the nucleus.",
+    "tags": [
+      "translation",
+      "initiation factors"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Signal peptides direct newly synthesized proteins to the ER. What happens to the signal peptide after the protein is threaded into the ER lumen?",
+    "options": [
+      "It is phosphorylated and stored in the cytoplasm",
+      "It remains permanently attached to the protein",
+      "It is cleaved by signal peptidase in the ER membrane",
+      "It is retrotranslocated to the nucleus"
+    ],
+    "correct": 2,
+    "explanation": "Signal peptidase, a serine protease in the ER membrane, cleaves the signal peptide co-translationally once the protein enters the ER lumen. The mature protein lacks the signal sequence. Signal peptides are not retained on the protein, phosphorylated for cytoplasmic storage, or sent to the nucleus.",
+    "tags": [
+      "protein targeting",
+      "ER",
+      "post-translational modifications"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Ubiquitin-mediated proteasomal degradation requires the attachment of a poly-ubiquitin chain to the target protein. To which amino acid residue is ubiquitin typically conjugated?",
+    "options": [
+      "Cysteine",
+      "Serine",
+      "Arginine",
       "Lysine"
     ],
     "correct": 3,
-    "explanation": "Lysine (pI ≈ 9.7) has a positively charged epsilon-amino group (pKa ≈ 10.5) in addition to the alpha-amino group. Basic amino acids (Arg, Lys, His) have pI > 7.4 because they carry extra positive charges. Glutamate (pI ≈ 3.2) is acidic; glycine (pI ≈ 6.0) is near neutral.",
+    "explanation": "E3 ubiquitin ligases catalyze the isopeptide bond between the C-terminus of ubiquitin (Gly76) and the epsilon-amino group of a lysine residue on the target protein. Subsequent ubiquitin molecules are typically attached to Lys48 (proteasomal targeting) or Lys63 (DNA repair, signaling) of the preceding ubiquitin.",
     "tags": [
-      "amino acids",
-      "acid-base"
+      "post-translational modifications",
+      "proteasome",
+      "ubiquitin"
     ],
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
-    "text": "N-linked glycosylation is added to which amino acid residue in the ER?",
+    "text": "In prokaryotes, transcription and translation are coupled because:",
     "options": [
-      "Serine",
-      "Lysine",
-      "Asparagine",
-      "Threonine"
-    ],
-    "correct": 2,
-    "explanation": "N-linked glycosylation occurs on asparagine residues in the consensus sequence Asn-X-Ser/Thr (where X ≠ Pro) in the ER, as oligosaccharyltransferase adds a pre-assembled oligosaccharide. O-linked glycosylation occurs on serine and threonine in the Golgi. N-linked glycosylation is important for protein folding, stability, and cell-surface recognition.",
-    "tags": [
-      "amino acids",
-      "glycosylation",
-      "post-translational modification"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Tryptophan is the precursor for which neurotransmitter and hormone?",
-    "options": [
-      "Acetylcholine and histamine",
-      "GABA and glycine",
-      "Dopamine and norepinephrine",
-      "Serotonin and melatonin"
+      "mRNA must be capped before ribosomes bind",
+      "The nuclear envelope coordinates both processes",
+      "Splicing must occur before ribosomes can bind",
+      "Both occur in the cytoplasm simultaneously on the same mRNA"
     ],
     "correct": 3,
-    "explanation": "Tryptophan → 5-hydroxytryptophan (tryptophan hydroxylase) → Serotonin (5-HT) by aromatic amino acid decarboxylase. Serotonin → N-acetylserotonin → Melatonin (in pineal gland). Melatonin regulates circadian rhythms. Serotonin deficiency is associated with depression; SSRI antidepressants increase synaptic serotonin.",
+    "explanation": "Prokaryotes lack a nuclear envelope, so ribosomes can bind the 5' end of an mRNA while it is still being synthesized by RNA polymerase—translation begins before transcription is complete. In eukaryotes, transcription occurs in the nucleus and translation in the cytoplasm, preventing coupling; mRNA must be processed (capped, spliced, polyadenylated) before export.",
     "tags": [
-      "amino acids",
-      "neurotransmitters"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which amino acids are most commonly found at the active sites of serine proteases (e.g., chymotrypsin, trypsin)?",
-    "options": [
-      "Serine, histidine, and aspartate (the catalytic triad)",
-      "Lysine, arginine, and glutamate",
-      "Cysteine, histidine, and asparagine",
-      "Glycine, alanine, and valine"
-    ],
-    "correct": 0,
-    "explanation": "Serine proteases use a catalytic triad: Ser (nucleophile), His (general base/acid), and Asp (orients and stabilizes His). Asp hydrogen bonds to His, lowering its pKa so it can abstract a proton from Ser, making Ser a better nucleophile. This triad is a classic example of convergent evolution, found in unrelated serine proteases.",
-    "tags": [
-      "amino acids",
-      "enzyme catalysis",
-      "proteases"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "The epsilon-amino group of lysine participates in which important post-translational reaction in collagen?",
-    "options": [
-      "Cross-linking by lysyl oxidase to form aldehyde-derived crosslinks",
-      "Glycosylation to form N-linked oligosaccharides",
-      "Hydroxylation by prolyl hydroxylase",
-      "Phosphorylation by receptor tyrosine kinases"
-    ],
-    "correct": 0,
-    "explanation": "Lysyl oxidase (requires copper) oxidatively deaminates lysine/hydroxylysine epsilon-amino groups to aldehydes, which then condense with adjacent lysine residues to form covalent crosslinks. These crosslinks are essential for the tensile strength of collagen fibers. Defects occur in Menkes disease (copper deficiency) and lathyrism.",
-    "tags": [
-      "amino acids",
-      "collagen",
-      "post-translational modification"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Which amino acid is a precursor for heme biosynthesis?",
-    "options": [
-      "Glycine",
-      "Lysine",
-      "Methionine",
-      "Histidine"
-    ],
-    "correct": 0,
-    "explanation": "Heme biosynthesis begins with glycine + succinyl-CoA (from TCA cycle) → delta-aminolevulinic acid (ALA), catalyzed by ALA synthase (rate-limiting step, requires PLP). Eight glycine residues contribute to heme. Glycine's simplicity (no side chain, small) makes it ubiquitous in metabolic biosynthesis pathways.",
-    "tags": [
-      "amino acids",
-      "heme synthesis",
-      "metabolism"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "The pKa of an amino acid side chain can shift in a protein environment. The active site serine of a serine protease has a lower pKa than free serine because:",
-    "options": [
-      "The protein core is more acidic than solution",
-      "Nearby ionic residues completely neutralize the serine",
-      "The serine forms an extra disulfide bond",
-      "The neighboring histidine abstracts its proton, effectively lowering its pKa and increasing its nucleophilicity"
-    ],
-    "correct": 3,
-    "explanation": "In the catalytic triad, histidine acts as a general base, abstracting the proton from serine's hydroxyl. This lowers the effective pKa of serine (from ~13 to near 7), making it a much stronger nucleophile. The aspartate stabilizes the protonated histidine, completing the charge relay system.",
-    "tags": [
-      "amino acids",
-      "enzyme catalysis"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Which statement about D-amino acids in biology is correct?",
-    "options": [
-      "D-amino acids are found in all collagen molecules",
-      "D-amino acids are toxic to all organisms",
-      "D-amino acids are found in bacterial peptidoglycan cell walls but not in typical mammalian proteins",
-      "D-amino acids are the normal configuration in all proteins"
-    ],
-    "correct": 2,
-    "explanation": "Most proteins contain exclusively L-amino acids. However, D-amino acids appear in bacterial peptidoglycan (D-Ala, D-Glu), conferring resistance to most proteases. Some antibiotics (vancomycin, penicillin) exploit this by targeting D-amino acid-containing structures. Small amounts of D-amino acids also exist in the mammalian brain (D-serine as a co-agonist of NMDA receptors).",
-    "tags": [
-      "amino acids",
-      "microbiology"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Arginine is the most basic standard amino acid. Which functional group in its side chain accounts for this?",
-    "options": [
-      "Epsilon-amino group (pKa ~10.5)",
-      "Guanidinium group (pKa ~12.5)",
-      "Imidazole ring (pKa ~6)",
-      "Secondary amine in a ring"
-    ],
-    "correct": 1,
-    "explanation": "Arginine's side chain contains a guanidinium group (–NH–C(=NH)–NH2), which is positively charged at essentially all physiological and experimental pH values (pKa ~12.5). This makes arginine the most basic amino acid. It participates in the urea cycle and forms salt bridges/electrostatic interactions with negatively charged residues and DNA phosphates.",
-    "tags": [
-      "amino acids",
-      "acid-base"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which amino acid is least likely to be found in a transmembrane helix of an integral membrane protein?",
-    "options": [
-      "Leucine",
-      "Isoleucine",
-      "Lysine",
-      "Valine"
-    ],
-    "correct": 2,
-    "explanation": "Transmembrane helices span the hydrophobic lipid bilayer and require predominantly hydrophobic residues (Leu, Val, Ile, Ala, Phe, Met). Lysine is positively charged and highly hydrophilic; burying it in the membrane bilayer is thermodynamically unfavorable. Charged residues found in transmembrane segments are usually involved in ion channel gating or proton transfer.",
-    "tags": [
-      "amino acids",
-      "membrane proteins"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Histidine, lysine, and arginine are basic amino acids. At physiological pH (7.4), which of these carries a net charge of approximately zero (uncharged side chain)?",
-    "options": [
-      "None; all three are fully protonated at pH 7.4",
-      "Arginine (pKa ~12.5)",
-      "Lysine (pKa ~10.5)",
-      "Histidine (pKa ~6.0, mostly deprotonated at pH 7.4)"
-    ],
-    "correct": 3,
-    "explanation": "At pH 7.4, histidine's imidazole (pKa ~6.0) is mostly deprotonated (neutral), since pH > pKa. By Henderson-Hasselbalch, at pH 7.4: ratio = 10^(7.4–6.0) = 25:1 unprotonated:protonated. Lysine and arginine have pKa values far above 7.4 and remain fully protonated (positively charged) at physiological pH.",
-    "tags": [
-      "amino acids",
-      "acid-base"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Which amino acid provides the nitrogen atoms used in urea cycle reactions?",
-    "options": [
-      "Glutamine and alanine",
-      "Histidine and arginine",
-      "Aspartate and ammonia (via carbamoyl phosphate)",
-      "Glycine and serine"
-    ],
-    "correct": 2,
-    "explanation": "The urea cycle incorporates two nitrogen atoms into urea: one from ammonia (as carbamoyl phosphate, made from NH4+ + CO2) and one from aspartate (which donates its amino group via argininosuccinate). Glutamine transports amino nitrogen from peripheral tissues to the liver as NH4+ and as aspartate precursors.",
-    "tags": [
-      "amino acids",
-      "urea cycle",
-      "nitrogen metabolism"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "A peptide bond is formed by:",
-    "options": [
-      "Reduction of a disulfide bond between two cysteines",
-      "Oxidation of two adjacent amino acid side chains",
-      "Condensation of the alpha-carboxyl group of one amino acid with the alpha-amino group of the next, releasing water",
-      "Phosphorylation of the alpha-amino group"
-    ],
-    "correct": 2,
-    "explanation": "Peptide bond formation is a condensation (dehydration) reaction: the alpha-COOH of one amino acid reacts with the alpha-NH2 of the next, releasing H2O and forming an amide bond (–CO–NH–). This occurs at the ribosome during translation. The peptide bond has partial double bond character due to resonance, making it planar and restricting rotation.",
-    "tags": [
-      "amino acids",
-      "protein structure"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Selenocysteine is sometimes called the 21st amino acid. It is encoded by which codon?",
-    "options": [
-      "UGA (normally a stop codon, recoded in context)",
-      "AUG",
-      "UAA",
-      "CGG"
-    ],
-    "correct": 0,
-    "explanation": "Selenocysteine is incorporated at UGA codons when a special stem-loop structure (SECIS element) is present in the mRNA 3' UTR. Normally UGA is a stop codon, but SECIS causes the ribosome to insert selenocysteine instead. Selenoproteins include thioredoxin reductase and glutathione peroxidase. Dietary selenium is essential for their synthesis.",
-    "tags": [
-      "amino acids",
+      "transcription",
       "translation",
-      "molecular biology"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Which pair of amino acids is important for forming salt bridges in proteins?",
-    "options": [
-      "Leucine and valine",
-      "Aspartate/glutamate (negative) with lysine/arginine/histidine (positive)",
-      "Serine and threonine",
-      "Glycine and alanine"
-    ],
-    "correct": 1,
-    "explanation": "Salt bridges form between oppositely charged side chains: anionic residues (Asp pKa ~3.9, Glu pKa ~4.1) pair with cationic residues (Lys pKa ~10.5, Arg pKa ~12.5, His pKa ~6.0). Salt bridges contribute to protein stability, especially in thermophilic proteins, and to protein-protein and protein-DNA interactions.",
-    "tags": [
-      "amino acids",
-      "protein structure"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which level of protein structure is maintained by hydrogen bonds between backbone carbonyl and amide groups?",
-    "options": [
-      "Secondary structure (alpha-helices and beta-sheets)",
-      "Quaternary structure",
-      "Tertiary structure",
-      "Primary structure"
-    ],
-    "correct": 0,
-    "explanation": "Secondary structure (alpha-helices, beta-sheets, turns) is stabilized by H-bonds between backbone C=O and N–H groups, not side chains. Primary structure is the amino acid sequence (covalent). Tertiary structure involves side chain interactions. Quaternary structure involves interactions between subunits.",
-    "tags": [
-      "protein structure"
+      "prokaryotes"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "In an alpha-helix, each residue forms a hydrogen bond with the residue how many positions later?",
+    "text": "A researcher finds that a point mutation in an exon does not change the amino acid sequence of the protein. This is called a:",
     "options": [
-      "4 positions (i+4)",
-      "2 positions (i+2)",
-      "3 positions (i+3)",
-      "7 positions (i+7)"
+      "Silent (synonymous) mutation",
+      "Frameshift mutation",
+      "Nonsense mutation",
+      "Missense mutation"
     ],
     "correct": 0,
-    "explanation": "In an alpha-helix, the N–H of residue i hydrogen bonds to the C=O of residue i+4. The helix has 3.6 residues per turn and a rise of 1.5 Å per residue (5.4 Å per turn). This geometry and the i→i+4 hydrogen bonding pattern define the alpha-helix.",
+    "explanation": "Silent (synonymous) mutations change the DNA/codon sequence but encode the same amino acid due to the degeneracy of the genetic code (often at the third codon position). Missense mutations change the amino acid. Nonsense mutations introduce a stop codon. Frameshift mutations alter the reading frame. Silent mutations can still affect splicing or translation efficiency.",
     "tags": [
-      "protein structure",
-      "alpha-helix"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The dominant thermodynamic driving force for protein folding in aqueous solution is:",
-    "options": [
-      "Maximizing the number of hydrogen bonds",
-      "Maximizing ionic interactions",
-      "The hydrophobic effect — burying nonpolar side chains away from water",
-      "Formation of disulfide bonds"
-    ],
-    "correct": 2,
-    "explanation": "The hydrophobic effect drives folding: exposing nonpolar residues to water is entropically costly (water forms ordered cage around them). Burying them in the protein core releases water, increasing entropy. This is the dominant force, though hydrogen bonds, electrostatic interactions, and van der Waals forces also contribute.",
-    "tags": [
-      "protein structure",
-      "folding",
-      "thermodynamics"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Hemoglobin (alpha2beta2) exhibits cooperative O2 binding. This means:",
-    "options": [
-      "O2 binds to only one subunit at a time",
-      "All four subunits bind O2 simultaneously with equal affinity",
-      "Binding of O2 to one subunit increases O2 affinity in remaining subunits",
-      "Cooperativity decreases O2 binding at high PO2"
-    ],
-    "correct": 2,
-    "explanation": "Hemoglobin's cooperative binding produces a sigmoidal O2 saturation curve. O2 binding to one heme group causes a conformational change from T-state (tense, low affinity) to R-state (relaxed, high affinity), increasing affinity of the remaining hemes. This allows efficient O2 loading in lungs (high PO2) and unloading in tissues (low PO2).",
-    "tags": [
-      "protein structure",
-      "hemoglobin",
-      "cooperativity"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The Bohr effect describes how hemoglobin O2 affinity changes with:",
-    "options": [
-      "Increasing pH and decreasing CO2",
-      "2,3-BPG binding to the T-state",
-      "Temperature changes only",
-      "Decreasing pH and increasing CO2 (lower affinity, promotes O2 release to tissues)"
-    ],
-    "correct": 3,
-    "explanation": "CO2 from metabolizing tissues lowers blood pH (H2CO3 formation) and also carbamylates hemoglobin. Both H+ and CO2 stabilize the T-state (lower O2 affinity), promoting O2 unloading. In lungs, CO2 is expelled and pH rises, shifting to R-state for O2 loading. This is an exquisite physiological adaptation.",
-    "tags": [
-      "protein structure",
-      "hemoglobin",
-      "Bohr effect"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "2,3-bisphosphoglycerate (2,3-BPG) binds to hemoglobin and:",
-    "options": [
-      "Increases O2 affinity (left shift)",
-      "Stabilizes the T-state, decreasing O2 affinity and shifting the curve rightward",
-      "Has no effect on O2 binding",
-      "Is produced only in the lungs"
-    ],
-    "correct": 1,
-    "explanation": "2,3-BPG binds in the central cavity of deoxyhemoglobin (T-state), stabilizing it and decreasing O2 affinity (right shift of the O2-dissociation curve). High altitude → hypoxia → increased 2,3-BPG → more efficient O2 unloading. Fetal hemoglobin (HbF, gamma subunits) has lower affinity for 2,3-BPG, giving it higher O2 affinity to extract O2 from maternal blood.",
-    "tags": [
-      "protein structure",
-      "hemoglobin",
-      "2,3-BPG"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "SDS-PAGE separates proteins primarily based on:",
-    "options": [
-      "Molecular weight",
-      "Hydrophobicity",
-      "Isoelectric point",
-      "Ligand-binding affinity"
-    ],
-    "correct": 0,
-    "explanation": "SDS (sodium dodecyl sulfate) denatures proteins and coats them with negative charge proportional to their size. When run through an acrylamide gel under electric field, all proteins migrate based on size alone (smaller migrates faster). The resulting bands can be stained to reveal molecular weight distribution.",
-    "tags": [
-      "protein structure",
-      "lab techniques"
+      "genetic code",
+      "mutations"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "Which statement about enzyme active sites is correct?",
+    "text": "Which correctly describes the role of aminoacyl-tRNA synthetases?",
     "options": [
-      "Active sites are randomly distributed on the protein surface",
-      "Active sites are small pockets or clefts that are complementary in shape and charge to the substrate",
-      "Active sites are always composed of hydrophobic residues only",
-      "Active sites only function when the substrate is in excess"
+      "They modify the anticodon loop of tRNA",
+      "They unwind mRNA secondary structure ahead of the ribosome",
+      "They attach the correct amino acid to its cognate tRNA, ensuring fidelity of the genetic code",
+      "They catalyze peptide bond formation on the ribosome"
     ],
-    "correct": 1,
-    "explanation": "Enzyme active sites are specific three-dimensional pockets with precise geometries, charge distributions, and hydrophobic/hydrophilic properties complementary to the transition state (and substrate). They are formed by residues from different parts of the primary sequence that come together in the folded protein. The induced fit model proposes that substrates cause conformational changes to optimize complementarity.",
+    "correct": 2,
+    "explanation": "Aminoacyl-tRNA synthetases charge tRNAs by forming an aminoacyl-adenylate intermediate, then transferring the amino acid to the 3'-OH of the tRNA. This 'second genetic code' is the primary fidelity checkpoint—if a wrong amino acid is attached to a tRNA, it will be incorporated when that anticodon pairs with its codon. Peptidyl transferase (ribosomal RNA) forms peptide bonds; helicases unwind RNA; tRNA modification enzymes alter anticodon bases.",
     "tags": [
-      "protein structure",
-      "enzyme function"
+      "translation",
+      "aminoacyl-tRNA synthetases"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The IRES (internal ribosome entry site) allows translation to occur:",
+    "options": [
+      "Without a 5' cap, by recruiting ribosomes internally to the mRNA",
+      "Without aminoacyl-tRNA synthetases",
+      "Only in the nucleus",
+      "In the absence of the 60S ribosomal subunit"
+    ],
+    "correct": 0,
+    "explanation": "IRESs are structured RNA elements in the 5'-UTR that recruit the ribosome directly to the internal AUG without cap recognition. This is important for viral translation (poliovirus, HCV) and some cellular mRNAs during stress when cap-dependent translation is inhibited. Both ribosomal subunits and aminoacyl-tRNAs are still required.",
+    "tags": [
+      "translation",
+      "IRES"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which of the following is an example of a post-transcriptional modification that increases mRNA stability?",
+    "options": [
+      "3' poly-A tail addition by poly-A polymerase",
+      "Intron splicing",
+      "Both A and B",
+      "5' cap addition"
+    ],
+    "correct": 2,
+    "explanation": "Both the 5' m7G cap and the 3' poly-A tail protect mRNA from exonuclease degradation, increasing stability and half-life. The cap prevents 5'→3' degradation; the poly-A tail (protected by PABP) prevents 3'→5' degradation. Splicing removes introns but its primary role is not stability per se. Since both A and B are correct, option D is the best answer.",
+    "tags": [
+      "mRNA processing",
+      "stability"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A transfer RNA has which structure at its 3' end to which the amino acid is attached?",
+    "options": [
+      "GGU-3'",
+      "AUG-3'",
+      "UAA-3'",
+      "CCA-3' (cytidine-cytidine-adenosine)"
+    ],
+    "correct": 3,
+    "explanation": "All tRNAs have the invariant 3'-CCA sequence, and the amino acid is esterified to the 2'- or 3'-OH of the terminal adenosine. This CCA is often added post-transcriptionally by CCA-adding enzyme in eukaryotes (and some prokaryotes). GGU, AUG, and UAA do not represent tRNA 3' ends.",
+    "tags": [
+      "tRNA",
+      "translation"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "Chaperone proteins (e.g., Hsp70, GroEL) assist in protein folding by:",
+    "text": "Eukaryotic mRNA is exported from the nucleus to the cytoplasm via:",
     "options": [
-      "Degrading misfolded proteins exclusively",
-      "Catalyzing disulfide bond formation",
-      "Directly specifying the final folded structure",
-      "Preventing premature/incorrect aggregation by transiently binding exposed hydrophobic regions"
-    ],
-    "correct": 3,
-    "explanation": "Molecular chaperones bind to exposed hydrophobic regions of nascent or unfolded polypeptides, preventing aggregation and providing a protected environment for folding. ATP hydrolysis drives cycles of binding and release, giving the protein repeated chances to fold correctly. Chaperones do not specify the final folded structure — that information is in the primary sequence (Anfinsen's principle).",
-    "tags": [
-      "protein structure",
-      "chaperones",
-      "folding"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The proteasome degrades proteins that are tagged with:",
-    "options": [
-      "Acetyl groups",
-      "Phosphate groups",
-      "Ubiquitin chains (polyubiquitination)",
-      "Glycosyl groups"
+      "Diffusion through the lipid bilayer",
+      "Vesicular transport through the ER",
+      "Nuclear pore complexes after completion of mRNA processing",
+      "Active transport using dynein motors"
     ],
     "correct": 2,
-    "explanation": "The ubiquitin-proteasome system (UPS) marks proteins for degradation: ubiquitin ligases attach ubiquitin chains (usually K48-linked polyubiquitin) to target proteins. The 26S proteasome recognizes polyubiquitin, unfolds the protein, and degrades it into short peptides. This is the main pathway for regulated protein degradation in eukaryotes.",
+    "explanation": "Fully processed mRNAs (capped, spliced, polyadenylated) are exported through nuclear pore complexes (NPCs) by the export receptor Mex67/NXF1 in complex with adaptor proteins. The nuclear envelope is a double membrane that mRNA cannot diffuse through. Vesicular transport is used for secretory proteins, not mRNA. Dynein motors move vesicles along microtubules.",
     "tags": [
-      "protein structure",
-      "ubiquitin-proteasome",
-      "protein degradation"
+      "mRNA processing",
+      "nuclear export"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Which immunoglobulin class is most abundant in serum and crosses the placenta?",
+    "text": "During DNA replication, which enzyme synthesizes short RNA primers required for DNA synthesis?",
     "options": [
-      "IgA",
-      "IgM",
-      "IgG",
-      "IgE"
-    ],
-    "correct": 2,
-    "explanation": "IgG is the most abundant immunoglobulin (~80% of serum Ig) and the only class that crosses the placenta (via FcRn receptors), providing passive immunity to the fetus and newborn for the first months of life. IgM is produced first in an immune response (pentamer, good at complement activation). IgA is the main Ig in mucosal secretions. IgE mediates allergic responses and anti-parasite immunity.",
-    "tags": [
-      "protein structure",
-      "immunology"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Beta-lactam antibiotics (penicillins, cephalosporins) work by:",
-    "options": [
-      "Blocking dihydrofolate reductase",
-      "Inhibiting the bacterial 50S ribosomal subunit",
-      "Disrupting bacterial cell membranes",
-      "Irreversibly inhibiting transpeptidase (PBP) enzymes that crosslink peptidoglycan in bacterial cell walls"
+      "DNA polymerase III",
+      "DNA polymerase I",
+      "Ligase",
+      "Primase"
     ],
     "correct": 3,
-    "explanation": "Beta-lactam antibiotics mimic the D-Ala-D-Ala terminus of peptidoglycan precursors and covalently acylate penicillin-binding proteins (PBPs = transpeptidases), blocking crosslinking of peptidoglycan strands. This weakens the cell wall, causing lysis. Bacteria acquire resistance via beta-lactamases (hydrolyze the beta-lactam ring) or altered PBPs (MRSA).",
+    "explanation": "Primase (a specialized RNA polymerase) synthesizes the short RNA primers (~10 nt in prokaryotes) that provide the free 3'-OH needed by DNA polymerase. DNA Pol III (prokaryotes) then extends the primer with DNA. DNA Pol I removes the primer and replaces it with DNA. Ligase seals the nick between Okazaki fragments.",
     "tags": [
-      "protein structure",
-      "antibiotics",
-      "microbiology"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Collagen is unusually stable because of its unique triple helix structure. What amino acid is essential at every third position in collagen?",
-    "options": [
-      "Hydroxyproline",
-      "Glycine",
-      "Alanine",
-      "Proline"
-    ],
-    "correct": 1,
-    "explanation": "Collagen has the repeating sequence Gly-X-Y, where Gly at every third position is absolutely required. The triple helix packs three chains tightly, and only glycine (the smallest amino acid, R = H) can fit in the central space of the triple helix without steric clash. Mutations substituting even one Gly cause osteogenesis imperfecta.",
-    "tags": [
-      "protein structure",
-      "collagen"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Sickle cell anemia results from which mutation in hemoglobin?",
-    "options": [
-      "A deletion in the alpha-globin gene",
-      "Val→Glu substitution at position 6 of the beta-globin chain (HbS: glutamic acid replaced by valine)",
-      "Incorrect disulfide bond formation",
-      "Phosphorylation of histidine in the active site"
-    ],
-    "correct": 1,
-    "explanation": "HbS has a single nucleotide change (GAG→GTG) causing substitution of hydrophilic Glu with hydrophobic Val at position 6 of beta-globin. In the deoxy (T) state, this Val fits into a hydrophobic pocket on an adjacent beta-chain, causing polymerization. These long fibers distort RBCs into sickle shapes, causing hemolysis, vaso-occlusion, and pain crises. HbS provides heterozygote protection against malaria.",
-    "tags": [
-      "protein structure",
-      "hemoglobin",
-      "genetic disease"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Antibody diversity is primarily generated by which mechanism?",
-    "options": [
-      "Alternative splicing only",
-      "V(D)J recombination — somatic recombination of variable, diversity, and joining gene segments",
-      "Copy number variation in the germ line",
-      "Point mutations in germ cells"
-    ],
-    "correct": 1,
-    "explanation": "V(D)J recombination randomly joins one V, D, and J segment (heavy chain) or V and J segments (light chain) in developing B cells, creating enormous receptor diversity (~10^11 combinations). Additional diversity comes from junctional imprecision (P and N nucleotide addition) and somatic hypermutation (after antigen exposure). This process underlies the ability to recognize virtually any antigen.",
-    "tags": [
-      "protein structure",
-      "immunology",
-      "molecular biology"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "The Michaelis constant (Km) reflects:",
-    "options": [
-      "The number of active sites per enzyme molecule",
-      "Maximum reaction velocity",
-      "The concentration of product that inhibits the enzyme",
-      "Substrate concentration at which v = Vmax/2; inversely related to enzyme-substrate affinity"
-    ],
-    "correct": 3,
-    "explanation": "Km is the substrate concentration at half-maximal velocity. Low Km → enzyme reaches half-saturation at low [S] → high affinity. High Km → enzyme needs more substrate to half-saturate → low affinity. Numerically, Km ≈ (k-1 + k2)/k1 for simple Michaelis-Menten kinetics.",
-    "tags": [
-      "enzyme kinetics"
+      "DNA replication",
+      "primase"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "A competitive inhibitor increases apparent Km but leaves Vmax unchanged because:",
+    "text": "On the lagging strand during DNA replication, newly synthesized Okazaki fragments are joined by:",
     "options": [
-      "The inhibitor binds irreversibly, so more enzyme must be synthesized",
-      "The inhibitor activates an alternative active site",
-      "High substrate concentrations can displace the competitive inhibitor from the active site",
-      "The inhibitor changes the protein's secondary structure"
+      "Helicase and topoisomerase",
+      "Telomerase",
+      "DNA Polymerase I (removes RNA primer and fills gap) followed by DNA ligase (seals nick)",
+      "DNA Pol III alone"
     ],
     "correct": 2,
-    "explanation": "Competitive inhibitors bind reversibly to the active site. At high [S], substrate outcompetes the inhibitor, so Vmax (the rate when enzyme is fully saturated with substrate) is unchanged. However, more substrate is needed to achieve half-saturation in the presence of inhibitor, so apparent Km increases.",
+    "explanation": "Okazaki fragments (~1–2 kb in prokaryotes; ~150–200 nt in eukaryotes) are synthesized discontinuously on the lagging strand. DNA Pol I uses its 5'→3' exonuclease to remove each RNA primer while simultaneously synthesizing DNA (nick translation). DNA ligase then seals the remaining nick using NAD+ (prokaryotes) or ATP (eukaryotes).",
     "tags": [
-      "enzyme kinetics",
-      "competitive inhibition"
+      "DNA replication",
+      "Okazaki fragments"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "An inhibitor decreases Vmax but leaves Km unchanged. This is consistent with:",
+    "text": "Telomerase solves the 'end-replication problem' by:",
     "options": [
-      "Substrate inhibition",
-      "Pure noncompetitive inhibition",
-      "Competitive inhibition",
-      "Uncompetitive inhibition"
+      "Ligating the ends of linear chromosomes",
+      "Recruiting repair proteins to the telomere",
+      "Using its RNA template to extend the 3' overhang of the lagging strand template, allowing complete replication",
+      "Acting as a DNA polymerase that needs no primer"
+    ],
+    "correct": 2,
+    "explanation": "The end-replication problem arises because the lagging strand cannot be fully replicated after the terminal RNA primer is removed. Telomerase (a reverse transcriptase carrying an internal RNA template complementary to the telomeric repeat) extends the 3' overhang of the parental strand, providing a template for primase to synthesize new lagging strand Okazaki fragments. Telomerase requires a primer (the 3' overhang) and does not ligate ends.",
+    "tags": [
+      "DNA replication",
+      "telomerase"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which DNA repair pathway corrects base-base mismatches introduced by DNA polymerase after replication?",
+    "options": [
+      "Base excision repair (BER)",
+      "Nucleotide excision repair (NER)",
+      "Mismatch repair (MMR)",
+      "Homologous recombination (HR)"
+    ],
+    "correct": 2,
+    "explanation": "MMR recognizes distortions from mismatches (e.g., G-T) or insertion/deletion loops. MutS (prokaryotes)/MSH (eukaryotes) detects the mismatch; MutL/MLH1 coordinates repair; MutH/exonuclease removes the newly synthesized strand containing the error. NER removes bulky adducts; BER removes small oxidized/alkylated bases; HR repairs double-strand breaks.",
+    "tags": [
+      "DNA repair",
+      "mismatch repair"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Nucleotide excision repair (NER) is used to remove:",
+    "options": [
+      "Double-strand breaks",
+      "Mismatched bases after replication",
+      "Single-base oxidation products like 8-oxoguanine",
+      "Bulky helix-distorting lesions such as UV-induced thymine dimers and chemical adducts"
+    ],
+    "correct": 3,
+    "explanation": "NER recognizes helix distortion (not specific chemistry), excising a 25–30 nt oligonucleotide containing the lesion. It repairs UV-induced cyclobutane pyrimidine dimers, 6-4 photoproducts, and bulky chemical adducts. 8-oxoguanine is removed by BER (OGG1 glycosylase). DSBs are repaired by HR or NHEJ. Mismatches are corrected by MMR.",
+    "tags": [
+      "DNA repair",
+      "nucleotide excision repair"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Xeroderma pigmentosum (XP) is caused by defects in nucleotide excision repair. Patients have dramatically elevated rates of:",
+    "options": [
+      "Leukemia due to ionizing radiation",
+      "Colon cancer due to microsatellite instability",
+      "Breast/ovarian cancer due to BRCA mutations",
+      "Skin cancer due to UV-induced mutations"
+    ],
+    "correct": 3,
+    "explanation": "XP patients cannot repair UV-induced thymine dimers; unrepaired dimers cause C→T and CC→TT mutations in proliferating skin cells, leading to skin cancer at rates up to 10,000-fold higher than normal. Microsatellite instability from MMR defects (Lynch syndrome) predisposes to colon cancer. BRCA mutations lead to breast/ovarian cancers via defective HR.",
+    "tags": [
+      "DNA repair",
+      "NER",
+      "disease"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Base excision repair (BER) begins with:",
+    "options": [
+      "Helicase unwinding around the lesion",
+      "RNA Pol II stalling at the lesion",
+      "Endonuclease cutting 5 nt on each side of the lesion",
+      "A DNA glycosylase that cleaves the N-glycosidic bond between the damaged base and deoxyribose"
+    ],
+    "correct": 3,
+    "explanation": "BER is initiated by a lesion-specific DNA glycosylase (e.g., OGG1 for 8-oxoG; UNG for uracil) that flips the damaged base out and hydrolyzes the N-glycosidic bond, creating an AP (abasic/apurinic/apyrimidinic) site. AP endonuclease (APE1) then cuts the backbone, and the gap is filled and ligated. NER (not BER) uses an endonuclease to cut flanking regions.",
+    "tags": [
+      "DNA repair",
+      "base excision repair"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "DNA polymerases can only synthesize DNA in the 5'→3' direction. What is the consequence for the lagging strand?",
+    "options": [
+      "It is synthesized by a special 3'→5' polymerase",
+      "It is synthesized continuously in the 3'→5' direction",
+      "It must be synthesized discontinuously as Okazaki fragments",
+      "It is not replicated until the next cell cycle"
+    ],
+    "correct": 2,
+    "explanation": "Since both strands are replicated simultaneously and DNA Pol can only add nucleotides 5'→3', the lagging strand (running 3'→5' in the direction of fork movement) must be synthesized discontinuously in short Okazaki fragments, each starting with a new RNA primer. The leading strand is synthesized continuously. No 3'→5' DNA polymerase exists.",
+    "tags": [
+      "DNA replication",
+      "lagging strand"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The DNA helicase at the replication fork moves in which direction along the strand it unwinds?",
+    "options": [
+      "3'→5' along the leading strand template",
+      "Bidirectionally along both strands",
+      "5'→3' along the leading strand template",
+      "It does not have a directional preference"
+    ],
+    "correct": 0,
+    "explanation": "The replicative helicase (DnaB in E. coli; MCM2-7 in eukaryotes) travels 5'→3' on the lagging strand template, which is equivalent to 3'→5' on the leading strand template. This unwinds the double helix ahead of the polymerase. The helicase translocates using ATP hydrolysis and has a defined directionality.",
+    "tags": [
+      "DNA replication",
+      "helicase"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "PCNA (Proliferating Cell Nuclear Antigen) functions as a sliding clamp during eukaryotic DNA replication. What is its role?",
+    "options": [
+      "It encircles DNA and tethers DNA polymerase delta, increasing processivity",
+      "It removes RNA primers from Okazaki fragments",
+      "It recognizes the replication origin (ORC)",
+      "It unwinds supercoils ahead of the fork"
+    ],
+    "correct": 0,
+    "explanation": "PCNA forms a homotrimeric ring (loaded by RFC) that encircles dsDNA and acts as a platform for DNA Pol delta (lagging strand) and epsilon (leading strand), dramatically increasing their processivity. ORC (origin recognition complex) recognizes replication origins. FEN1/RNase H remove primers. Topoisomerase II relieves supercoiling ahead of the fork.",
+    "tags": [
+      "DNA replication",
+      "PCNA"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In eukaryotes, DNA replication initiates at multiple origins simultaneously. This is important because:",
+    "options": [
+      "Prokaryotic chromosomes are smaller and can use a single origin",
+      "Multiple origins allow each chromosome to be replicated multiple times",
+      "Origins are required for telomerase to act",
+      "Linear chromosomes are very long and a single origin would take too long to replicate"
+    ],
+    "correct": 3,
+    "explanation": "Human chromosomes contain ~30,000 replication origins; without them, replication from a single origin at ~1 kb/min would take >30,000 hours. Prokaryotes have one circular chromosome (~4 Mb in E. coli) that replicates from a single origin (oriC) in ~40 minutes. Multiple origins ensure the entire genome replicates within the S phase (~8 hours). Multiple origins do not cause multiple copies of each chromosome.",
+    "tags": [
+      "DNA replication",
+      "origins"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which enzyme relieves the positive supercoiling tension that accumulates ahead of the replication fork?",
+    "options": [
+      "Topoisomerase II (type II topoisomerase)",
+      "Primase",
+      "Telomerase",
+      "DNA ligase"
+    ],
+    "correct": 0,
+    "explanation": "As helicase unwinds DNA, positive supercoils accumulate ahead of the fork. Type II topoisomerases (eukaryotic Topo II; prokaryotic gyrase, which is a type IIA) relieve this by transiently cutting both strands, passing a duplex through the break, and religating. Topo I (type I) relieves torsional stress by nicking one strand. Ligase, primase, and telomerase serve other functions.",
+    "tags": [
+      "DNA replication",
+      "topoisomerase"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "BRCA1 and BRCA2 proteins are involved in repairing double-strand breaks primarily through:",
+    "options": [
+      "Mismatch repair",
+      "Non-homologous end joining (NHEJ)",
+      "Homologous recombination (HR) using the sister chromatid as a template",
+      "Nucleotide excision repair"
+    ],
+    "correct": 2,
+    "explanation": "BRCA1 and BRCA2 facilitate homologous recombination, the high-fidelity pathway for DSB repair that uses the sister chromatid (in S/G2) as a template. Mutations in BRCA1/2 impair HR, forcing cells to rely on error-prone NHEJ, leading to genomic instability and elevated risk of breast/ovarian cancer. MMR and NER repair different types of lesions.",
+    "tags": [
+      "DNA repair",
+      "BRCA",
+      "homologous recombination"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The proofreading activity of DNA polymerase is its:",
+    "options": [
+      "3'→5' exonuclease activity that excises a misincorporated nucleotide",
+      "Topoisomerase activity",
+      "Strand displacement activity",
+      "5'→3' exonuclease activity used to remove RNA primers"
+    ],
+    "correct": 0,
+    "explanation": "When a wrong nucleotide is incorporated, DNA Pol pauses and uses its 3'→5' exonuclease (proofreading) activity to excise the misincorporated base. Synthesis then resumes. This reduces the error rate from ~1 in 10^5 to ~1 in 10^7. The 5'→3' exonuclease (present in DNA Pol I, not III's core) removes RNA primers. Strand displacement is used in some repair pathways.",
+    "tags": [
+      "DNA replication",
+      "proofreading"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Non-homologous end joining (NHEJ) is considered error-prone because:",
+    "options": [
+      "It methylates the repair site, silencing the gene",
+      "It uses the wrong sister chromatid as template",
+      "It introduces random single-strand nicks",
+      "It ligates broken DNA ends without a homologous template, often causing small insertions or deletions"
+    ],
+    "correct": 3,
+    "explanation": "NHEJ directly ligates DNA double-strand break ends after limited end processing (by Ku70/80, DNA-PKcs, Artemis, XRCC4-Ligase IV). Without a template, end trimming by exonucleases can delete nucleotides, or polymerases may add nucleotides, producing indels. NHEJ is used in G1 when no sister chromatid is available. It is the main DSB pathway in non-dividing cells.",
+    "tags": [
+      "DNA repair",
+      "NHEJ"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Cytosine spontaneously deaminates to uracil in DNA. If not repaired, this causes which mutation at the next replication?",
+    "options": [
+      "No mutation, because uracil is a normal DNA base",
+      "C:G → T:A transition",
+      "C:G → A:T transversion",
+      "C:G → G:C transversion"
     ],
     "correct": 1,
-    "explanation": "Pure noncompetitive inhibitors bind equally well to free enzyme and enzyme-substrate complex (at a site other than active site), reducing the total functional enzyme population. Km is unchanged (substrate still binds normally), but Vmax decreases proportionally with inhibitor concentration. On a Lineweaver-Burk plot, lines have different y-intercepts but the same x-intercept.",
+    "explanation": "When C is deaminated to U, the U pairs with A during replication (instead of G), resulting in a C:G→T:A transition mutation at the next cycle. This is repaired by BER: uracil-DNA glycosylase (UNG) removes the uracil, creating an AP site repaired with cytosine. Uracil is normal in RNA but is not a canonical DNA base.",
     "tags": [
-      "enzyme kinetics",
-      "noncompetitive inhibition"
+      "DNA repair",
+      "mutations",
+      "BER"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "An uncompetitive inhibitor binds only to the enzyme-substrate complex. On a Lineweaver-Burk plot, uncompetitive inhibition produces:",
+    "text": "In the lac operon, the lac repressor binds the operator when:",
     "options": [
-      "Lines intersecting at the x-axis",
-      "Lines intersecting at the y-axis",
-      "No change in the graph",
-      "Parallel lines (same slope, different intercepts)"
-    ],
-    "correct": 3,
-    "explanation": "Uncompetitive inhibitors bind ES complex, decreasing apparent Km and Vmax by the same factor (alpha'). On a double-reciprocal plot, the uninhibited and inhibited lines are parallel (same slope = Km/Vmax, since both change by the same factor). Both the x-intercept (–1/Km) and y-intercept (1/Vmax) shift left/up by the same factor.",
-    "tags": [
-      "enzyme kinetics",
-      "uncompetitive inhibition"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Organophosphate compounds (e.g., nerve agents) are dangerous because they:",
-    "options": [
-      "Activate adenylyl cyclase, flooding cells with cAMP",
-      "Competitively inhibit nicotinic acetylcholine receptors",
-      "Block voltage-gated sodium channels in motor neurons",
-      "Irreversibly phosphorylate the active-site serine of acetylcholinesterase, preventing ACh breakdown"
-    ],
-    "correct": 3,
-    "explanation": "Organophosphates covalently phosphorylate the catalytic serine of acetylcholinesterase (AChE) at the neuromuscular junction. Without AChE, acetylcholine accumulates, causing continuous muscle stimulation (SLUDGE symptoms: salivation, lacrimation, urination, defecation, GI distress, emesis). Treatment includes atropine (muscarinic antagonist) and pralidoxime (reactivates AChE if given early).",
-    "tags": [
-      "enzyme kinetics",
-      "irreversible inhibition",
-      "neuroscience"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Allosteric regulation differs from competitive inhibition in that:",
-    "options": [
-      "Both mechanisms bind at the active site",
-      "Competitive inhibitors permanently modify enzyme structure",
-      "Allosteric effectors only inhibit, never activate",
-      "Allosteric effectors bind to sites distinct from the active site and cause conformational changes; competitive inhibitors bind at the active site"
-    ],
-    "correct": 3,
-    "explanation": "Allosteric regulation involves binding of an effector to a regulatory (allosteric) site, causing conformational changes that alter active site geometry/affinity. Allosteric effectors can be activators or inhibitors and are not structurally similar to the substrate. Competitive inhibitors are typically substrate analogs that directly compete at the active site.",
-    "tags": [
-      "enzyme regulation",
-      "allosterism"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Feedback inhibition in the isoleucine biosynthetic pathway involves isoleucine inhibiting:",
-    "options": [
-      "Threonine deaminase (first committed step)",
-      "Only the export of isoleucine from the cell",
-      "All enzymes simultaneously",
-      "The last enzyme in the pathway"
+      "Lactose (actually allolactose) is absent, blocking transcription",
+      "Glucose is absent, activating transcription",
+      "Lactose is present, activating transcription",
+      "Both glucose and lactose are present"
     ],
     "correct": 0,
-    "explanation": "Classic feedback (product) inhibition: isoleucine (end product) allosterically inhibits threonine deaminase, the first committed step. This prevents overproduction by shutting down the pathway when sufficient product exists. Inhibiting the first committed step is more efficient than inhibiting later enzymes.",
+    "explanation": "The lac repressor protein binds the operator sequence overlapping the promoter, blocking RNA Pol transcription. When allolactose (an isomer of lactose, the true inducer) is present, it binds the repressor causing allosteric conformational change that releases it from the operator. Glucose absence activates catabolite activator protein (CAP), which is a separate positive regulatory mechanism.",
     "tags": [
-      "enzyme regulation",
-      "feedback inhibition"
+      "gene regulation",
+      "lac operon"
     ],
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
-    "text": "Protein kinase A (PKA) is activated by which second messenger?",
+    "text": "The catabolite activator protein (CAP) in E. coli activates the lac operon when:",
     "options": [
-      "cAMP (cyclic AMP)",
-      "Diacylglycerol (DAG)",
-      "Ca2+",
-      "IP3"
+      "The repressor is bound to the operator",
+      "Lactose is absent",
+      "Glucose is present, activating adenylyl cyclase",
+      "Glucose is absent, leading to high cAMP that binds CAP"
     ],
-    "correct": 0,
-    "explanation": "PKA is a tetrameric enzyme with two catalytic (C) and two regulatory (R) subunits. cAMP binds R subunits, causing dissociation and releasing active C subunits. cAMP is made by adenylyl cyclase in response to GPCR activation (e.g., beta-adrenergic receptors). PKA phosphorylates many targets including glycogen phosphorylase kinase and CREB.",
+    "correct": 3,
+    "explanation": "When glucose is absent, adenylyl cyclase is active, producing high cAMP. cAMP binds CAP (also called CRP), which then binds the CAP binding site upstream of the lac promoter and directly contacts RNA Pol alpha-subunit to stimulate transcription. When glucose is present, cAMP is low and CAP is inactive, reducing transcription even if lactose is present—this is catabolite repression.",
     "tags": [
-      "enzyme regulation",
-      "signal transduction",
+      "gene regulation",
+      "lac operon",
       "cAMP"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Michaelis-Menten kinetics break down when an enzyme has multiple subunits with cooperative substrate binding. This behavior is better described by:",
+    "text": "The trp operon uses attenuation as a regulatory mechanism. Attenuation causes premature transcription termination when:",
     "options": [
-      "First-order rate kinetics",
-      "The Hill equation (sigmoidal binding curve)",
-      "Competitive inhibition kinetics",
-      "The Lineweaver-Burk equation"
+      "RNA Pol falls off the template randomly",
+      "Tryptophan is scarce and the ribosome stalls, allowing a terminator hairpin",
+      "Tryptophan is abundant and charges the tRNATrp, allowing a terminator hairpin to form",
+      "The trp repressor is inactive"
+    ],
+    "correct": 2,
+    "explanation": "Attenuation in the trp operon exploits coupling of transcription and translation. When Trp is abundant, tRNATrp is charged and ribosomes translate the leader peptide through two Trp codons without stalling, allowing regions 3:4 to form a transcriptional terminator hairpin, halting transcription. When Trp is scarce, the ribosome stalls at Trp codons, shifting the mRNA structure to an antiterminator, allowing read-through.",
+    "tags": [
+      "gene regulation",
+      "trp operon",
+      "attenuation"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Enhancers differ from promoters in that enhancers:",
+    "options": [
+      "Are only found in prokaryotes",
+      "Can function in either orientation and at great distances (up to 1 Mb) from the gene",
+      "Must be immediately adjacent to the TATA box",
+      "Only function in the 5'→3' orientation"
     ],
     "correct": 1,
-    "explanation": "Cooperative enzymes (like hemoglobin for O2, or regulatory enzymes like PFK-1) show sigmoidal v vs. [S] curves. The Hill coefficient (n) quantifies cooperativity: n>1 = positive cooperativity, n<1 = negative, n=1 = hyperbolic (Michaelis-Menten). The Hill equation: v = Vmax[S]^n / (K0.5^n + [S]^n).",
+    "explanation": "Enhancers are cis-acting regulatory elements that can activate transcription from great distances (tens of kb to >1 Mb), in either orientation, and even downstream of the gene. They work by looping DNA to contact promoter-bound proteins. Promoters must be adjacent to the TSS and are orientation-sensitive. Enhancers are characteristic of eukaryotes; prokaryotic upstream activating sequences have limited range.",
     "tags": [
-      "enzyme kinetics",
-      "cooperativity",
-      "Hill equation"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Hexokinase (in muscle) and glucokinase (hexokinase IV, in liver) both phosphorylate glucose, but differ in that:",
-    "options": [
-      "Glucokinase has a high Km for glucose and is not inhibited by G6P; hexokinase has low Km and is inhibited by G6P",
-      "Glucokinase requires NAD+ as a cofactor",
-      "Both have the same Km but glucokinase is allosterically activated",
-      "Hexokinase only works at high glucose concentrations"
-    ],
-    "correct": 0,
-    "explanation": "Glucokinase (hexokinase IV) has high Km (~10 mM, near portal vein glucose), is not inhibited by G6P, and shows sigmoidal kinetics (cooperative). This makes glucokinase a glucose sensor: it acts as a low-affinity glucose phosphorylator in the liver when blood glucose is high. Muscle hexokinase has low Km (~0.1 mM), is inhibited by G6P, and saturates at normal glucose levels.",
-    "tags": [
-      "enzyme regulation",
-      "glycolysis",
-      "hexokinase"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "The kcat/Km ratio (catalytic efficiency) is important because:",
-    "options": [
-      "It reflects how efficiently an enzyme converts substrate to product at low [S], approaching the diffusion limit",
-      "It equals the maximum velocity",
-      "It measures enzyme concentration",
-      "It is used to calculate the equilibrium constant"
-    ],
-    "correct": 0,
-    "explanation": "kcat/Km is the second-order rate constant for the reaction E + S → E + P at low [S]. The theoretical maximum is the diffusion limit (~10^8–10^9 M-1s-1). 'Catalytically perfect' enzymes (like carbonic anhydrase, triose phosphate isomerase) approach this limit. kcat/Km is used to compare catalytic efficiencies of different enzymes or compare the same enzyme with different substrates.",
-    "tags": [
-      "enzyme kinetics",
-      "catalytic efficiency"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Zymogen activation is best exemplified by:",
-    "options": [
-      "Hexokinase is phosphorylated to activate it",
-      "DNA polymerase requires RNA primer to initiate",
-      "Hemoglobin binds O2 cooperatively",
-      "Trypsinogen is cleaved to trypsin by enteropeptidase in the small intestine"
-    ],
-    "correct": 3,
-    "explanation": "Zymogens (proenzymes) are inactive precursors activated by proteolytic cleavage. Trypsinogen → trypsin (by enteropeptidase/enterokinase); trypsin then activates other zymogens (chymotrypsinogen, proelastase, procarboxypeptidases). This irreversible mechanism prevents premature activation in the pancreas. Premature activation causes pancreatitis.",
-    "tags": [
-      "enzyme regulation",
-      "zymogens",
-      "digestion"
+      "gene regulation",
+      "enhancers"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Which enzyme catalyzes the rate-limiting committed step of glycolysis?",
+    "text": "DNA methylation at CpG dinucleotides in mammals generally leads to:",
     "options": [
-      "Pyruvate kinase",
-      "Aldolase",
-      "Hexokinase",
-      "Phosphofructokinase-1 (PFK-1)"
+      "Gene silencing by recruiting methyl-binding proteins that condense chromatin",
+      "mRNA instability",
+      "Increased transcription by recruiting RNA Pol II",
+      "DNA excision and repair"
     ],
-    "correct": 3,
-    "explanation": "PFK-1 catalyzes fructose-6-phosphate → fructose-1,6-bisphosphate (using ATP). This is the first committed, irreversible step of glycolysis and its major regulatory point. PFK-1 is activated by AMP/ADP/F-2,6-BP and inhibited by ATP/citrate/glucagon. Hexokinase is also regulated but not the committed rate-limiting step.",
+    "correct": 0,
+    "explanation": "Methylation of the cytosine 5-carbon at CpG dinucleotides (catalyzed by DNMTs) is associated with transcriptional repression. Methylated CpGs recruit methyl-CpG binding domain (MBD) proteins, which recruit HDACs and other repressors, causing chromatin compaction. CpG islands in promoters are normally unmethylated in active genes; hypermethylation silences tumor suppressor genes in cancer.",
     "tags": [
-      "glycolysis",
-      "enzyme regulation"
+      "epigenetics",
+      "DNA methylation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Histone acetylation by HATs (histone acetyltransferases) generally promotes gene expression because:",
+    "options": [
+      "Acetylation adds bulky groups that attract RNA Pol II directly",
+      "Acetylation neutralizes the positive charge of lysine residues, loosening DNA-histone interactions",
+      "Acetylation crosslinks histones to DNA more tightly",
+      "Acetylation methylates adjacent CpGs"
+    ],
+    "correct": 1,
+    "explanation": "Histone lysine residues (positively charged) interact with negatively charged DNA. Acetylation adds an acetyl group to the epsilon-amino group of Lys, neutralizing the charge and weakening histone-DNA interaction. This relaxes chromatin (euchromatin) and allows transcription factor and RNA Pol II access. HDACs reverse this, condensing chromatin and repressing transcription.",
+    "tags": [
+      "epigenetics",
+      "histone acetylation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Histone H3 trimethylation at lysine 27 (H3K27me3) is a mark placed by the Polycomb Repressive Complex (PRC2) and is associated with:",
+    "options": [
+      "Gene silencing (facultative heterochromatin)",
+      "Telomere maintenance",
+      "Active transcription",
+      "DNA replication origins"
+    ],
+    "correct": 0,
+    "explanation": "H3K27me3 is a canonical repressive mark deposited by PRC2 (which contains the EZH2 methyltransferase). It recruits PRC1 to compact chromatin and silence developmental genes. In contrast, H3K4me3 marks active promoters and H3K36me3 marks actively transcribed gene bodies. H3K9me3 marks constitutive heterochromatin (pericentromeric regions).",
+    "tags": [
+      "epigenetics",
+      "histone methylation"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "MicroRNAs (miRNAs) regulate gene expression post-transcriptionally by:",
+    "options": [
+      "Binding to complementary sequences in the 3'-UTR of mRNAs, causing translational repression or mRNA degradation",
+      "Methylating CpG islands in gene promoters",
+      "Splicing out introns from pre-mRNA",
+      "Directly inhibiting RNA Pol II in the nucleus"
+    ],
+    "correct": 0,
+    "explanation": "Mature miRNAs (~22 nt) associate with the RISC (RNA-induced silencing complex) and guide it to partially complementary sequences in the 3'-UTR of target mRNAs. Perfect complementarity (common in plants) causes mRNA cleavage by Ago2; imperfect complementarity (common in animals) causes translational repression and mRNA deadenylation/decay. miRNAs do not act in the nucleus to inhibit Pol II, methylate DNA, or perform splicing.",
+    "tags": [
+      "gene regulation",
+      "miRNA"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "siRNA (small interfering RNA) differs from miRNA in that siRNA:",
+    "options": [
+      "Only regulates translation, not mRNA stability",
+      "Typically shows perfect complementarity to its target and causes mRNA cleavage (slicing)",
+      "Is found exclusively in the nucleus",
+      "Derives from endogenous hairpin precursors (pre-miRNA)"
+    ],
+    "correct": 1,
+    "explanation": "siRNA is typically derived from exogenous double-stranded RNA (or synthetic oligonucleotides) and shows near-perfect complementarity to its mRNA target, leading to Ago2-mediated cleavage. miRNA derives from endogenous hairpin transcripts (pri-miRNA→pre-miRNA→miRNA) and usually has imperfect matching. Both work through RISC in the cytoplasm.",
+    "tags": [
+      "gene regulation",
+      "siRNA",
+      "RNAi"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A transcription factor with a zinc finger domain uses zinc to:",
+    "options": [
+      "Coordinate cysteine and histidine residues and stabilize the DNA-binding finger structure",
+      "Catalyze phosphorylation of RNA Pol II",
+      "Transport the factor across the nuclear pore",
+      "Cleave DNA at specific sequences"
+    ],
+    "correct": 0,
+    "explanation": "Zinc finger domains use Zn2+ coordinated by Cys and/or His residues to maintain the finger-loop structure that inserts into the major groove of DNA. Classic Cys2-His2 zinc fingers (e.g., Sp1) each recognize ~3 bp of DNA. Zinc is purely structural; it does not catalyze phosphorylation, cleavage, or transport.",
+    "tags": [
+      "gene regulation",
+      "transcription factors"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In eukaryotes, a gene is constitutively expressed when:",
+    "options": [
+      "It is located on the inactive X chromosome",
+      "Its promoter is always accessible to RNA Pol II without requiring inducible transcription factors",
+      "Its mRNA has no 5' cap",
+      "Its coding sequence has no introns"
+    ],
+    "correct": 1,
+    "explanation": "Constitutive (housekeeping) genes have promoters that are always active in the cell type. They often have CpG islands (unmethylated, acetylated chromatin) and ubiquitous transcription factors. Intron number does not determine expression level. mRNAs always have a 5' cap. Genes on the inactive X chromosome are silenced (except those that escape inactivation).",
+    "tags": [
+      "gene regulation",
+      "constitutive expression"
     ],
     "difficulty": "easy"
+  },
+  {
+    "text": "The concept of 'genomic imprinting' means that:",
+    "options": [
+      "The expression of a gene depends on whether it was inherited from the mother or father",
+      "Genes are only expressed in the tissue where they were first transcribed",
+      "The genetic code changes depending on the parent of origin",
+      "All genes on one chromosome are co-regulated"
+    ],
+    "correct": 0,
+    "explanation": "Imprinting is epigenetic (DNA methylation, histone modification) silencing of one parental allele. Classic examples: IGF2 (paternal allele expressed; maternal silenced) and H19 (maternal expressed; paternal silenced). Loss of imprinting at 15q11-q13 causes Prader-Willi or Angelman syndrome depending on which parent's allele is missing/silenced.",
+    "tags": [
+      "gene regulation",
+      "epigenetics",
+      "imprinting"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Receptor tyrosine kinases (RTKs) are activated by ligand binding, which causes:",
+    "options": [
+      "Receptor dimerization and trans-autophosphorylation of tyrosine residues in the cytoplasmic domain",
+      "Direct activation of adenylyl cyclase",
+      "Opening of ligand-gated ion channels",
+      "Receptor internalization without phosphorylation"
+    ],
+    "correct": 0,
+    "explanation": "Ligand (e.g., EGF, insulin, PDGF) binding causes two RTK monomers to dimerize. In the dimer, each receptor's kinase domain phosphorylates specific tyrosine residues on the partner (trans-autophosphorylation). These pTyr residues serve as docking sites for SH2-domain-containing signaling proteins. RTKs do not directly activate adenylyl cyclase or ion channels; GPCR-coupled receptors do.",
+    "tags": [
+      "cell signaling",
+      "RTK"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "G-protein coupled receptors (GPCRs) activate their downstream effectors via:",
+    "options": [
+      "Dimerizing and phosphorylating each other",
+      "Directly opening ion channels in the membrane",
+      "Exchanging GDP for GTP on the Gα subunit, releasing the Gα-GTP and Gβγ to regulate effectors",
+      "Activating Ras by SH2 domain binding"
+    ],
+    "correct": 2,
+    "explanation": "Ligand-bound GPCR acts as a GEF (guanine nucleotide exchange factor): it catalyzes GDP→GTP exchange on Gα. Gα-GTP and Gβγ dissociate from each other and from the receptor to activate or inhibit effectors (adenylyl cyclase, PLC, ion channels). GTPase activity of Gα hydrolyzes GTP→GDP, inactivating signaling. RTKs dimerize and phosphorylate each other; Ras is activated by a separate GEF (Sos).",
+    "tags": [
+      "cell signaling",
+      "GPCR"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which Gα subunit class inhibits adenylyl cyclase to decrease intracellular cAMP?",
+    "options": [
+      "Gαq",
+      "Gα12",
+      "Gαi",
+      "Gαs"
+    ],
+    "correct": 2,
+    "explanation": "Gαi (inhibitory G protein) inhibits adenylyl cyclase, reducing cAMP and PKA activity. Gαs (stimulatory) activates adenylyl cyclase. Gαq activates phospholipase C-β, generating IP3 and DAG. Gα12/13 activates Rho GEFs affecting cytoskeletal dynamics. This is clinically relevant: cholera toxin ADP-ribosylates Gαs (locks it active); pertussis toxin ADP-ribosylates Gαi (locks it inactive).",
+    "tags": [
+      "cell signaling",
+      "GPCR",
+      "cAMP"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Phospholipase C-β (PLC-β), activated by Gαq, cleaves PIP2 (phosphatidylinositol-4,5-bisphosphate) to generate:",
+    "options": [
+      "IP3 and DAG",
+      "Arachidonic acid and lysophospholipid",
+      "GDP and GTP",
+      "cAMP and AMP"
+    ],
+    "correct": 0,
+    "explanation": "PLC-β hydrolyzes PIP2 into inositol-1,4,5-trisphosphate (IP3) and diacylglycerol (DAG). IP3 diffuses to the ER and triggers Ca2+ release from the ER lumen. DAG remains in the membrane and activates protein kinase C (PKC). cAMP is produced by adenylyl cyclase; arachidonate is released by phospholipase A2.",
+    "tags": [
+      "cell signaling",
+      "PLC",
+      "IP3",
+      "DAG"
+    ],
+    "difficulty": "medium"
   }
 ]

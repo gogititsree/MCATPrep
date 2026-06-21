@@ -1,976 +1,984 @@
 [
   {
-    "text": "Net ATP yield from glycolysis (glucose → 2 pyruvate) is:",
+    "text": "In the MAP kinase (MAPK/ERK) cascade, what is the order of activation?",
     "options": [
-      "36–38 ATP",
-      "2 ATP",
-      "6 ATP",
-      "4 ATP"
-    ],
-    "correct": 1,
-    "explanation": "Glycolysis: 4 ATP produced (steps 7 and 10, substrate-level phosphorylation) minus 2 ATP consumed (hexokinase and PFK-1) = net 2 ATP. Also produces 2 NADH. The 36-38 ATP figure includes downstream oxidative phosphorylation from the full aerobic catabolism of glucose.",
-    "tags": [
-      "glycolysis",
-      "bioenergetics"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Which glycolytic enzyme catalyzes the only oxidation-reduction step in glycolysis?",
-    "options": [
-      "Phosphoglycerate mutase",
-      "Enolase",
-      "Phosphoglycerate kinase",
-      "Glyceraldehyde-3-phosphate dehydrogenase (G3PDH)"
-    ],
-    "correct": 3,
-    "explanation": "G3PDH oxidizes glyceraldehyde-3-phosphate to 1,3-bisphosphoglycerate, reducing NAD+ to NADH. This is the only redox step in glycolysis. The high-energy thioester intermediate is captured as 1,3-BPG, which then drives ATP synthesis at phosphoglycerate kinase (substrate-level phosphorylation).",
-    "tags": [
-      "glycolysis",
-      "redox reactions"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Under anaerobic conditions, NADH generated in glycolysis is reoxidized by:",
-    "options": [
-      "Malate-aspartate shuttle",
-      "Pyruvate dehydrogenase complex",
-      "Lactate dehydrogenase (pyruvate → lactate), regenerating NAD+ to sustain glycolysis",
-      "The electron transport chain"
-    ],
-    "correct": 2,
-    "explanation": "Without O2, the ETC cannot reoxidize NADH. Lactate dehydrogenase (LDH) transfers the electrons from NADH to pyruvate, forming lactate and regenerating NAD+. This NAD+ is essential for continued glycolysis. In yeast, pyruvate decarboxylase and alcohol dehydrogenase regenerate NAD+ via ethanol fermentation.",
-    "tags": [
-      "glycolysis",
-      "anaerobic metabolism"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Pyruvate dehydrogenase complex (PDC) is inhibited by all of the following EXCEPT:",
-    "options": [
-      "Acetyl-CoA (product)",
-      "PDC kinase activated by high ATP/ADP ratio",
-      "AMP (which activates PDC)",
-      "NADH (product)"
-    ],
-    "correct": 2,
-    "explanation": "PDC is inhibited by its products (acetyl-CoA and NADH) and by PDC kinase when ATP/ADP and NADH/NAD+ ratios are high (energy surplus). PDC is activated by PDC phosphatase (activated by insulin and Ca2+), by AMP, by CoA, and by NAD+. High AMP signals low energy and would activate PDC to produce more acetyl-CoA.",
-    "tags": [
-      "pyruvate dehydrogenase",
-      "enzyme regulation"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "How many CO2 molecules are released per turn of the TCA cycle?",
-    "options": [
-      "2",
-      "1",
-      "4",
-      "3"
+      "Ras → Raf (MAPKKK) → MEK (MAPKK) → ERK (MAPK)",
+      "RTK → PKA → ERK",
+      "GPCR → IP3 → ERK → Ras",
+      "Ras → MEK → Raf → ERK"
     ],
     "correct": 0,
-    "explanation": "Two CO2 are released per TCA cycle turn: one at isocitrate dehydrogenase (isocitrate → alpha-ketoglutarate) and one at alpha-ketoglutarate dehydrogenase (alpha-KG → succinyl-CoA). These are the two oxidative decarboxylation steps of the TCA cycle. The 2-carbon acetyl group entering from acetyl-CoA is fully oxidized over multiple turns.",
+    "explanation": "The canonical MAPK cascade: activated Ras (GTP-bound) recruits and activates Raf (a MAPKKK). Raf phosphorylates and activates MEK1/2 (a MAPKK). MEK phosphorylates and activates ERK1/2 (the MAPK). ERK translocates to the nucleus to phosphorylate transcription factors (Elk-1, c-Fos) promoting proliferation. This three-kinase cascade amplifies and integrates RTK signals.",
     "tags": [
-      "TCA cycle",
-      "carbon balance"
+      "cell signaling",
+      "MAP kinase"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "The energetic yield of one NADH oxidized by the ETC is approximately:",
+    "text": "Insulin binding to the insulin receptor (a receptor tyrosine kinase) activates the PI3K/Akt pathway. A key downstream effect of Akt activation is:",
     "options": [
-      "4 ATP",
-      "2.5 ATP",
-      "3 ATP",
-      "1.5 ATP"
-    ],
-    "correct": 1,
-    "explanation": "Modern measurements (using P/O ratios from chemiosmosis) give ~2.5 ATP per NADH (pumps 10 H+ across inner mitochondrial membrane; ATP synthase needs ~4 H+ per ATP → 10/4 = 2.5 ATP). FADH2 yields ~1.5 ATP (pumps 6 H+). Older textbooks cited 3 ATP (NADH) and 2 ATP (FADH2), but 2.5 and 1.5 are now accepted values.",
-    "tags": [
-      "electron transport chain",
-      "ATP yield"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which complex of the ETC does NOT pump protons across the inner mitochondrial membrane?",
-    "options": [
-      "Complex III (cytochrome bc1)",
-      "Complex I (NADH dehydrogenase)",
-      "Complex II (succinate dehydrogenase)",
-      "Complex IV (cytochrome c oxidase)"
-    ],
-    "correct": 2,
-    "explanation": "Complexes I, III, and IV pump protons from matrix to intermembrane space, generating the proton motive force. Complex II (succinate dehydrogenase) accepts electrons from FADH2 and passes them to ubiquinone (CoQ) but does NOT translocate protons. This is why FADH2 yields less ATP than NADH.",
-    "tags": [
-      "electron transport chain"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Rotenone, a pesticide, blocks which complex of the ETC?",
-    "options": [
-      "Complex II",
-      "Complex III",
-      "Complex I (NADH:ubiquinone oxidoreductase)",
-      "Complex IV"
-    ],
-    "correct": 2,
-    "explanation": "Rotenone is a specific inhibitor of Complex I (blocks electron transfer from Fe-S center to ubiquinone). Inhibiting Complex I prevents NADH oxidation, halting the ETC. It is also used experimentally to model Parkinson's disease (dopaminergic neurons are especially sensitive to Complex I inhibition).",
-    "tags": [
-      "electron transport chain",
-      "toxicology"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Uncoupling proteins (UCPs, e.g., thermogenin/UCP1 in brown fat) affect oxidative phosphorylation by:",
-    "options": [
-      "Increasing proton gradient without generating heat",
-      "Activating ATP synthase to produce more ATP per proton",
-      "Inhibiting electron flow at Complex III",
-      "Allowing protons to flow back across the inner mitochondrial membrane without producing ATP, generating heat instead"
-    ],
-    "correct": 3,
-    "explanation": "UCPs dissipate the proton gradient (uncouple ETC from ATP synthesis) by providing an alternative proton leak pathway. Instead of driving ATP synthase, the energy is released as heat — thermogenesis. UCP1 in brown adipose tissue is especially important in newborns and hibernating animals for non-shivering thermogenesis.",
-    "tags": [
-      "oxidative phosphorylation",
-      "thermogenesis",
-      "uncoupling"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The unique enzymes of gluconeogenesis that bypass glycolytic irreversible steps are:",
-    "options": [
-      "Pyruvate carboxylase, PEPCK, fructose-1,6-bisphosphatase, glucose-6-phosphatase",
-      "Aldolase and enolase",
-      "Hexokinase, PFK-1, pyruvate kinase",
-      "Glycogen synthase and glycogen phosphorylase"
+      "GLUT4 translocation to the plasma membrane, increasing glucose uptake in muscle and fat",
+      "Inhibition of glucose uptake in all tissues",
+      "Activation of glucagon secretion",
+      "Inactivation of mTOR"
     ],
     "correct": 0,
-    "explanation": "Three irreversible glycolytic steps are bypassed: (1) Pyruvate kinase step bypassed by pyruvate carboxylase (pyruvate→OAA) + PEPCK (OAA→PEP); (2) PFK-1 step bypassed by fructose-1,6-bisphosphatase; (3) Hexokinase step bypassed by glucose-6-phosphatase. Glucose-6-phosphatase is only in liver/kidney, explaining why only those organs can release glucose to blood.",
+    "explanation": "Insulin receptor → IRS-1 phosphorylation → PI3K → PIP3 → PDK1 → Akt (PKB) activation. Akt phosphorylates AS160 (Rab-GAP), which normally retains GLUT4-containing vesicles intracellularly. Phospho-AS160 is inactive, allowing Rab proteins to drive GLUT4 vesicle fusion with the plasma membrane, increasing glucose uptake. Akt also activates mTORC1 (not inactivates it) to stimulate protein synthesis.",
     "tags": [
-      "gluconeogenesis"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Insulin promotes which of the following metabolic effects in hepatocytes?",
-    "options": [
-      "Glycogenolysis, gluconeogenesis, fatty acid oxidation",
-      "Glycolysis, glycogen synthesis, fatty acid synthesis; inhibits gluconeogenesis",
-      "Ketone body production and glucose output",
-      "Protein catabolism and urea synthesis"
-    ],
-    "correct": 1,
-    "explanation": "Insulin (secreted by beta cells in response to high glucose) promotes anabolic pathways: activates PFK-2 (increases F-2,6-BP → activates PFK-1 → glycolysis), glycogen synthase (glycogen synthesis), acetyl-CoA carboxylase (fatty acid synthesis), and inhibits PEPCK and glucose-6-phosphatase (gluconeogenesis). Net effect: lower blood glucose.",
-    "tags": [
-      "carbohydrate metabolism",
-      "hormones",
-      "insulin"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The pentose phosphate pathway (hexose monophosphate shunt) is particularly important in red blood cells because it:",
-    "options": [
-      "Is the only source of ribose for nucleotide synthesis in RBCs",
-      "Provides the primary ATP source for red blood cells",
-      "Generates acetyl-CoA for fatty acid synthesis in RBCs",
-      "Produces NADPH to maintain glutathione (GSH) reduced, protecting against oxidative hemolysis"
-    ],
-    "correct": 3,
-    "explanation": "RBCs lack mitochondria and nuclei (no TCA, no ETC, no nucleotide synthesis). The pentose phosphate pathway produces NADPH, which reduces glutathione (GSSG → GSH) via glutathione reductase. Reduced GSH protects hemoglobin from oxidative damage. G6PD deficiency impairs this pathway → oxidative hemolysis with oxidative stressors (certain drugs, fava beans).",
-    "tags": [
-      "pentose phosphate pathway",
-      "red blood cells",
-      "G6PD"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Glycogen synthase is activated by:",
-    "options": [
-      "Phosphorylation by PKA",
-      "Epinephrine in skeletal muscle",
-      "Dephosphorylation (by phosphatase, stimulated by insulin) and allosterically by glucose-6-phosphate",
-      "Glucagon via cAMP"
-    ],
-    "correct": 2,
-    "explanation": "Glycogen synthase is active when dephosphorylated (insulin activates PP1 via inhibiting GSK-3). G6P allosterically activates glycogen synthase — high intracellular glucose signals available precursor. Glucagon and epinephrine activate PKA → phosphorylates glycogen synthase → INACTIVATES it (and activates phosphorylase). This reciprocal regulation is a key metabolic switch.",
-    "tags": [
-      "glycogen metabolism",
-      "enzyme regulation",
-      "insulin"
+      "cell signaling",
+      "insulin",
+      "PI3K/Akt"
     ],
     "difficulty": "hard"
   },
   {
-    "text": "In the Cori cycle, skeletal muscle sends which metabolite to the liver during intense exercise?",
+    "text": "Second messengers such as cAMP, IP3, and Ca2+ amplify signals because:",
     "options": [
-      "Pyruvate",
-      "Fatty acids",
-      "Lactate",
-      "Glucose"
+      "They are produced exclusively at the ribosome",
+      "Each activated enzyme produces many second messenger molecules, amplifying the signal through a cascade",
+      "They are proteins that can be phosphorylated",
+      "They directly activate gene transcription without intermediate steps"
     ],
-    "correct": 2,
-    "explanation": "During intense anaerobic exercise, skeletal muscle converts glucose to lactate (anaerobic glycolysis) to regenerate NAD+ for continued glycolysis. Lactate is exported to the blood, taken up by the liver, converted to pyruvate and then glucose via gluconeogenesis. This glucose returns to muscle — the Cori cycle. Alanine (from muscle amino acid catabolism) participates in the glucose-alanine cycle.",
+    "correct": 1,
+    "explanation": "Signal amplification occurs because each step in a signaling cascade is enzymatic: one receptor activates many G proteins, each G protein activates many adenylyl cyclase molecules, each adenylyl cyclase produces many cAMP molecules, and each cAMP activates PKA which phosphorylates many substrates. This cascade amplification allows a small number of hormone molecules to trigger a large cellular response.",
     "tags": [
-      "Cori cycle",
-      "glucose-lactate cycle"
+      "cell signaling",
+      "second messengers",
+      "amplification"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "Fructose-1,6-bisphosphatase (FBPase-1) is inhibited by which metabolite?",
+    "text": "Protein kinase A (PKA) is activated by cAMP. In the inactive state, PKA consists of:",
     "options": [
-      "Glucose-6-phosphate",
-      "AMP and fructose-2,6-bisphosphate",
-      "Acetyl-CoA",
-      "ATP and citrate"
-    ],
-    "correct": 1,
-    "explanation": "FBPase-1 (the gluconeogenesis enzyme) is inhibited by AMP (low energy signal) and fructose-2,6-bisphosphate (F-2,6-BP, high glycolytic signal). F-2,6-BP is produced by PFK-2 and is a powerful inhibitor of FBPase-1 while simultaneously activating PFK-1. This reciprocal regulation ensures glycolysis and gluconeogenesis don't run simultaneously at high rates.",
-    "tags": [
-      "gluconeogenesis",
-      "enzyme regulation"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Pyruvate carboxylase, an enzyme in gluconeogenesis, is activated by:",
-    "options": [
-      "NADH",
-      "Acetyl-CoA",
-      "AMP",
-      "Glucose-6-phosphate"
-    ],
-    "correct": 1,
-    "explanation": "Pyruvate carboxylase (PC) requires biotin (vitamin B7) and is allosterically activated by acetyl-CoA. High acetyl-CoA (from beta-oxidation during fasting) signals excess fuel and need for oxaloacetate replenishment for both the TCA cycle and gluconeogenesis. Acetyl-CoA cannot be converted back to pyruvate/glucose directly, so PC channels pyruvate into OAA.",
-    "tags": [
-      "gluconeogenesis",
-      "pyruvate carboxylase",
-      "enzyme regulation"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Galactosemia is caused by deficiency of galactose-1-phosphate uridyltransferase, which converts:",
-    "options": [
-      "UDP-galactose to UDP-glucose",
-      "Lactose to glucose and galactose",
-      "Galactose to glucose directly",
-      "Galactose-1-phosphate + UDP-glucose → glucose-1-phosphate + UDP-galactose"
+      "A single polypeptide with autoinhibitory domain",
+      "Two regulatory subunits only, with no catalytic activity until ligand binds",
+      "Two catalytic subunits with inhibitory phosphorylation",
+      "Two regulatory (R) subunits and two catalytic (C) subunits; cAMP binding to R releases active C subunits"
     ],
     "correct": 3,
-    "explanation": "In galactose metabolism: galactose → galactose-1-phosphate (galactokinase) → glucose-1-phosphate (galactose-1-phosphate uridyltransferase). Deficiency causes accumulation of galactose-1-phosphate, which is toxic to liver, brain, and kidneys. Newborn screening detects this enzyme deficiency. Treatment is elimination of galactose (lactose) from the diet.",
+    "explanation": "Inactive PKA is a heterotetramer (R2C2). Each R subunit has two cAMP-binding sites; binding of 4 cAMP total (2 per R subunit) causes conformational change that releases the catalytic C subunits as active monomers. Active C subunits phosphorylate serine/threonine residues on target proteins including CREB (transcription factor), glycogen phosphorylase kinase, and lipase.",
     "tags": [
-      "carbohydrate metabolism",
-      "metabolic disorders",
-      "galactose"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Which metabolic process generates the majority of the NADH used by the ETC during aerobic glucose catabolism?",
-    "options": [
-      "Glycolysis exclusively",
-      "The pentose phosphate pathway",
-      "Beta-oxidation",
-      "The TCA cycle (most NADH) plus pyruvate dehydrogenase"
-    ],
-    "correct": 3,
-    "explanation": "Of the 10 NADH produced per glucose in complete aerobic catabolism: glycolysis produces 2 NADH (cytoplasmic); pyruvate dehydrogenase produces 2 NADH; the TCA cycle produces 6 NADH (3 per turn × 2 turns). Additionally 2 FADH2 come from TCA. The TCA cycle + PDC provide 8 of 10 NADH, making them the dominant source for the ETC.",
-    "tags": [
-      "TCA cycle",
-      "NADH",
-      "bioenergetics"
+      "cell signaling",
+      "PKA",
+      "cAMP"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Type 1 diabetes results from autoimmune destruction of pancreatic beta cells. Without insulin, which metabolic pathway is inappropriately active in adipose tissue?",
+    "text": "Calmodulin (CaM) is a calcium-binding protein that:",
     "options": [
-      "Lipogenesis (fatty acid synthesis)",
-      "Glycogen synthesis",
-      "Glucose uptake via GLUT4",
-      "Lipolysis (HSL activated by glucagon/epinephrine, not inhibited by insulin)"
+      "Serves as a receptor for cAMP",
+      "Directly gates Ca2+ channels in the ER membrane",
+      "Is a transcription factor that enters the nucleus independently of Ca2+",
+      "Undergoes conformational change upon Ca2+ binding to activate CaM-kinases and other effectors"
     ],
     "correct": 3,
-    "explanation": "Insulin normally suppresses hormone-sensitive lipase (HSL) in adipocytes. Without insulin, HSL is active → releases free fatty acids → liver converts to ketone bodies → ketoacidosis. Insulin also promotes GLUT4 insertion into adipocyte membranes for glucose uptake; without insulin, glucose uptake is impaired. This explains the metabolic crisis in untreated T1DM.",
+    "explanation": "Calmodulin binds 4 Ca2+ ions via EF-hand motifs, causing a dumbbell-shaped conformational change that exposes hydrophobic surfaces. Ca2+/CaM then activates numerous targets including CaM kinase II (CaMKII), myosin light chain kinase, phosphodiesterase, and calcineurin. CaM is not a channel, cAMP receptor, or constitutive transcription factor.",
     "tags": [
-      "lipid metabolism",
-      "hormones",
-      "diabetes"
+      "cell signaling",
+      "calmodulin",
+      "calcium"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Which enzyme is the rate-limiting step of fatty acid synthesis, and how is it regulated?",
+    "text": "Ras is a small GTPase that is activated by GEFs and inactivated by GAPs. In many cancers, Ras carries a point mutation at codon 12 (Gly→Val). The consequence is:",
     "options": [
-      "Acetyl-CoA carboxylase (ACC); activated by citrate, inhibited by palmitoyl-CoA and glucagon-induced phosphorylation",
-      "HMG-CoA reductase; inhibited by statins",
-      "Fatty acid synthase; regulated by product inhibition only",
-      "Malonyl-CoA decarboxylase; activated by glucagon"
+      "Loss of GTPase activity, so Ras is permanently GTP-bound and active",
+      "Loss of membrane localization",
+      "Increased sensitivity to GAP-stimulated GTP hydrolysis",
+      "Inability to bind GTP"
     ],
     "correct": 0,
-    "explanation": "ACC carboxylates acetyl-CoA to malonyl-CoA (requires biotin). It is allosterically activated by citrate (excess acetyl-CoA signal) and inhibited by palmitoyl-CoA (feedback) and by phosphorylation (AMPK or PKA, activated by fasting/glucagon). Malonyl-CoA also inhibits carnitine palmitoyltransferase-1 (CPT-1), preventing concurrent fatty acid oxidation.",
+    "explanation": "Gly12 of Ras is critical for the transition state of GTP hydrolysis; the Gly12Val mutation sterically blocks the arginine finger of GAP from stimulating hydrolysis. Ras-G12V is constitutively GTP-bound and active, driving uncontrolled proliferation via Raf/MEK/ERK and PI3K/Akt. RAS mutations occur in ~30% of human cancers. The mutation does not affect GTP binding or membrane targeting (which requires CAAX farnesylation).",
     "tags": [
-      "fatty acid synthesis",
-      "enzyme regulation"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The transport of long-chain fatty acids into the mitochondrial matrix requires:",
-    "options": [
-      "VLDL particle transport",
-      "Carnitine shuttle (carnitine palmitoyltransferase-1 on outer membrane, CPT-2 on inner membrane)",
-      "The GLUT family of transporters",
-      "Simple diffusion across the inner membrane"
-    ],
-    "correct": 1,
-    "explanation": "Long-chain fatty acyl-CoA cannot cross the inner mitochondrial membrane directly. Acyl-CoA is converted to acylcarnitine by CPT-1 (rate-limiting step of beta-oxidation; inhibited by malonyl-CoA). Acylcarnitine crosses via a translocase; CPT-2 on the inner membrane regenerates acyl-CoA in the matrix for beta-oxidation.",
-    "tags": [
-      "fatty acid oxidation",
-      "carnitine"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The net ATP yield from complete oxidation of one molecule of palmitate (C16:0) is approximately:",
-    "options": [
-      "38 ATP",
-      "106–108 ATP",
-      "15 ATP",
-      "2 ATP"
-    ],
-    "correct": 1,
-    "explanation": "Palmitoyl-CoA → 7 cycles of beta-oxidation: 7 FADH2 (×1.5=10.5 ATP) + 7 NADH (×2.5=17.5 ATP) + 8 acetyl-CoA (×10 ATP each = 80 ATP) = 108 ATP. Subtract 2 ATP for activation (palmitoyl-CoA synthesis). Net ≈ 106 ATP. This is ~3× the yield from glycolysis + TCA for glucose, reflecting fats' higher energy density.",
-    "tags": [
-      "beta-oxidation",
-      "bioenergetics"
+      "cell signaling",
+      "Ras",
+      "oncogene"
     ],
     "difficulty": "hard"
   },
   {
-    "text": "Odd-chain fatty acid beta-oxidation produces propionyl-CoA, which is converted to succinyl-CoA by which enzymes and cofactors?",
+    "text": "Nuclear receptors (e.g., glucocorticoid receptor) differ from cell-surface receptors in that they:",
     "options": [
-      "Propionyl-CoA carboxylase (biotin) → methylmalonyl-CoA mutase (vitamin B12) → succinyl-CoA",
-      "Fatty acid synthase in reverse",
-      "Propionyl-CoA dehydrogenase → acetyl-CoA directly",
-      "Thiolase cleavage to two acetyl-CoA"
-    ],
-    "correct": 0,
-    "explanation": "Odd-chain fatty acid catabolism: beta-oxidation proceeds normally until 3-carbon propionyl-CoA (instead of 2-carbon acetyl-CoA). Propionyl-CoA carboxylase (biotin) → D-methylmalonyl-CoA → L-methylmalonyl-CoA → succinyl-CoA (methylmalonyl-CoA mutase, requires B12). Succinyl-CoA enters TCA cycle. Methylmalonic acidemia results from B12/mutase deficiency.",
-    "tags": [
-      "beta-oxidation",
-      "odd-chain fatty acids",
-      "vitamin B12"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "HMG-CoA reductase catalyzes the committed, rate-limiting step of cholesterol synthesis. Statins treat hypercholesterolemia by:",
-    "options": [
-      "Competitively inhibiting HMG-CoA reductase, reducing hepatic cholesterol synthesis and upregulating LDL receptors",
-      "Increasing LDL oxidation in macrophages",
-      "Activating VLDL secretion from the liver",
-      "Blocking bile acid reabsorption in the intestine"
-    ],
-    "correct": 0,
-    "explanation": "Statins (e.g., atorvastatin) are structural analogs of HMG-CoA that competitively inhibit HMG-CoA reductase. Reduced intrahepatic cholesterol triggers upregulation of hepatic LDL receptors → more LDL cleared from blood. This is the primary mechanism by which statins lower LDL-C and reduce cardiovascular risk.",
-    "tags": [
-      "cholesterol synthesis",
-      "pharmacology"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "In diabetic ketoacidosis (DKA), ketone bodies accumulate because:",
-    "options": [
-      "Ketone body utilization is blocked in peripheral tissues",
-      "Insulin blocks beta-oxidation, diverting all acetyl-CoA to ketones",
-      "Excess acetyl-CoA from beta-oxidation cannot enter the TCA cycle (depleted OAA), so it is channeled to ketogenesis",
-      "Cells cannot oxidize glucose, so they burn fat instead (oversimplified: technically OAA depletion is key)"
+      "Are exclusively located on the plasma membrane",
+      "Signal exclusively through the JAK-STAT pathway",
+      "Bind lipophilic hormones in the cytoplasm or nucleus and directly regulate transcription as ligand-activated TFs",
+      "Require second messengers to relay the signal to the nucleus"
     ],
     "correct": 2,
-    "explanation": "In DKA (untreated T1DM), lack of insulin → lipolysis → excess fatty acids → beta-oxidation in liver → acetyl-CoA accumulates. OAA is depleted (used for gluconeogenesis, reducing TCA capacity). Excess acetyl-CoA → HMG-CoA → ketone bodies (acetoacetate, beta-hydroxybutyrate). Paradoxically, brain eventually uses ketones as fuel during prolonged starvation. Acetone gives the characteristic fruity breath.",
+    "explanation": "Steroid/thyroid hormones are lipophilic and cross the plasma membrane. They bind intracellular nuclear receptors, causing conformational change, dissociation from heat shock proteins, dimerization, translocation to the nucleus (if cytoplasmic), and binding to hormone response elements (HREs) in DNA to activate or repress transcription. No second messengers are needed. JAK-STAT is used by cytokine receptors (e.g., interferon).",
     "tags": [
-      "ketone bodies",
-      "diabetes",
-      "lipid metabolism"
+      "cell signaling",
+      "nuclear receptors",
+      "steroid hormones"
     ],
-    "difficulty": "hard"
+    "difficulty": "medium"
   },
   {
-    "text": "Adipose triglyceride lipase (ATGL) and hormone-sensitive lipase (HSL) are key lipolytic enzymes. Which hormone activates these during fasting?",
+    "text": "At which cell cycle checkpoint is the cell checked for adequate size, nutrient availability, and growth factor signals before committing to division?",
     "options": [
-      "Cortisol via nuclear receptors only",
-      "Leptin directly activating HSL",
-      "Glucagon (and epinephrine) via cAMP-PKA cascade",
-      "Insulin via PI3K pathway"
+      "Spindle assembly checkpoint",
+      "G2/M checkpoint",
+      "G1/S checkpoint (restriction point)",
+      "Cytokinesis checkpoint"
     ],
     "correct": 2,
-    "explanation": "Glucagon and epinephrine activate adenylyl cyclase → cAMP → PKA → phosphorylates HSL (activating it) and perilipin (allowing access to lipid droplet). ATGL is also activated. Free fatty acids + glycerol are released. Insulin inhibits PKA effects and activates phosphodiesterase (breaks down cAMP), suppressing lipolysis. This is how insulin promotes fat storage and glucagon/epinephrine promote fat mobilization.",
+    "explanation": "The G1/S (restriction) checkpoint integrates mitogenic signals (growth factors), nutrient availability, and cell size. Passing this point commits the cell to S phase. Rb phosphorylation by cyclin D-CDK4/6 releases E2F transcription factors, driving S-phase genes. The G2/M checkpoint ensures DNA is fully replicated; the spindle checkpoint ensures all chromosomes are attached to spindle fibers.",
     "tags": [
-      "lipolysis",
-      "hormones",
-      "signal transduction"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Eicosanoids (prostaglandins, thromboxanes, leukotrienes) are derived from which fatty acid?",
-    "options": [
-      "Linoleic acid (C18:2, omega-6)",
-      "Palmitic acid (C16:0)",
-      "Arachidonic acid (C20:4, omega-6)",
-      "Alpha-linolenic acid (C18:3, omega-3)"
-    ],
-    "correct": 2,
-    "explanation": "Arachidonic acid (AA, 20:4, omega-6), released from membrane phospholipids by phospholipase A2, is the major precursor for eicosanoids. COX (cyclooxygenase) converts AA to prostaglandins/thromboxanes; 5-LOX converts AA to leukotrienes. NSAIDs (aspirin, ibuprofen) inhibit COX. Omega-3 fatty acids (EPA, DHA) compete with AA and produce less inflammatory eicosanoids.",
-    "tags": [
-      "lipid metabolism",
-      "eicosanoids",
-      "inflammation"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which strand of the double-stranded DNA serves as the template for RNA polymerase?",
-    "options": [
-      "Coding strand (non-template strand, same sequence as mRNA)",
-      "Template strand (antisense strand, read 3'→5' by RNA polymerase, producing RNA 5'→3')",
-      "Either strand is equally used",
-      "The strand with the promoter sequence"
-    ],
-    "correct": 1,
-    "explanation": "RNA polymerase reads the template (antisense) strand 3'→5' and synthesizes RNA 5'→3'. The resulting mRNA has the same sequence as the non-template (coding/sense) strand, except U replaces T. The coding strand is also called the sense strand or non-template strand.",
-    "tags": [
-      "transcription",
-      "molecular biology"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Which DNA repair mechanism corrects single-base mismatches and small insertions/deletions that escape proofreading during replication?",
-    "options": [
-      "Nucleotide excision repair (NER)",
-      "Non-homologous end joining (NHEJ)",
-      "Base excision repair (BER)",
-      "Mismatch repair (MMR)"
-    ],
-    "correct": 3,
-    "explanation": "MMR detects and corrects replication errors: MSH2/MSH6 recognize mismatches, MLH1/PMS2 coordinate excision and resynthesis. MMR deficiency (Lynch syndrome/HNPCC) causes microsatellite instability and predisposes to colorectal cancer. NER handles bulky lesions (UV damage). BER handles single oxidized/deaminated bases. NHEJ joins double-strand breaks.",
-    "tags": [
-      "DNA repair",
-      "mismatch repair",
-      "molecular biology"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Telomeres are maintained in stem cells and cancer cells by which enzyme?",
-    "options": [
-      "Primase",
-      "Topoisomerase II",
-      "Telomerase (an RNA-dependent DNA polymerase with its own RNA template)",
-      "DNA polymerase delta"
-    ],
-    "correct": 2,
-    "explanation": "Telomeres shorten with each replication (end replication problem). Telomerase is a reverse transcriptase (TERT) with an RNA component (TERC) that serves as the template to extend telomeric repeats (TTAGGG) de novo. Active in stem cells, germ cells, and ~85-90% of cancer cells (allowing immortalization). Absence in somatic cells contributes to cellular senescence.",
-    "tags": [
-      "DNA replication",
-      "telomeres",
-      "cancer biology"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which statement about DNA helicase during replication is correct?",
-    "options": [
-      "Helicase ligates Okazaki fragments together",
-      "Helicase unwinds the double helix by breaking hydrogen bonds between base pairs, creating a replication fork",
-      "Helicase removes supercoils introduced by replication",
-      "Helicase synthesizes RNA primers at origins of replication"
-    ],
-    "correct": 1,
-    "explanation": "DNA helicase (DnaB in prokaryotes; MCM complex in eukaryotes) translocates along DNA, using ATP hydrolysis to break hydrogen bonds between complementary base pairs, unwinding the double helix at the replication fork. Single-strand binding proteins (SSBPs) stabilize the separated strands. Topoisomerases resolve the supercoiling generated ahead of the fork.",
-    "tags": [
-      "DNA replication",
-      "helicase"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "The RNA primer used to initiate DNA replication is synthesized by:",
-    "options": [
-      "Helicase",
-      "Primase (a type of RNA polymerase)",
-      "DNA ligase",
-      "DNA polymerase I (for removal)"
-    ],
-    "correct": 1,
-    "explanation": "DNA polymerases cannot initiate a new strand de novo — they can only extend a pre-existing 3'-OH. Primase synthesizes a short (~5-10 nt) RNA primer, providing the 3'-OH for DNA polymerase to extend. In eukaryotes, DNA pol alpha-primase complex lays down the primer. After replication, the RNA primer is removed (RNase H/FEN1) and replaced with DNA by pol delta/epsilon.",
-    "tags": [
-      "DNA replication",
-      "primase"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Eukaryotic pre-mRNA processing includes all of the following EXCEPT:",
-    "options": [
-      "Removal of introns by the spliceosome",
-      "3' polyadenylation",
-      "5' capping with 7-methylguanosine",
-      "Removal of tRNA introns by spliceosomes (tRNA introns are removed by endonuclease/ligase, not the spliceosome)"
-    ],
-    "correct": 3,
-    "explanation": "Pre-mRNA processing: 5' cap (m7G added co-transcriptionally), 3' poly-A tail (added after cleavage at polyadenylation signal AAUAAA), and splicing by the spliceosome (snRNPs U1, U2, U4, U5, U6). tRNA introns are spliced by a different mechanism (tRNA splicing endonuclease + tRNA ligase). The spliceosome is for pre-mRNA, not tRNA.",
-    "tags": [
-      "RNA processing",
-      "splicing",
-      "molecular biology"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Which RNA polymerase in eukaryotes transcribes mRNA precursors (pre-mRNA)?",
-    "options": [
-      "Primase",
-      "RNA polymerase I",
-      "RNA polymerase II",
-      "RNA polymerase III"
-    ],
-    "correct": 2,
-    "explanation": "Eukaryotes have three nuclear RNA polymerases: Pol I makes 28S, 18S, 5.8S rRNA (in nucleolus); Pol II makes mRNA, snRNA, miRNA precursors; Pol III makes 5S rRNA, tRNA, and other small RNAs. Alpha-amanitin (from death cap mushroom) selectively inhibits Pol II at low doses. Pol II requires general transcription factors (TFIID, etc.) and mediator complex.",
-    "tags": [
-      "transcription",
-      "RNA polymerase"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "During translation, the A site, P site, and E site of the ribosome perform which functions?",
-    "options": [
-      "A site: aminoacyl-tRNA entry; P site: peptidyl-tRNA (growing chain); E site: exit of deacylated tRNA",
-      "All three sites participate equally in peptide bond formation",
-      "A site: polyadenylation; P site: processing; E site: export",
-      "A site: exits the ribosome; P site: entry of new aminoacyl-tRNA; E site: elongation"
-    ],
-    "correct": 0,
-    "explanation": "Ribosome sites: Aminoacyl site (A) — incoming aminoacyl-tRNA decodes mRNA codon; Peptidyl site (P) — carries growing polypeptide chain (peptidyl-tRNA); Exit site (E) — holds deacylated tRNA before release. Peptide bond formation: peptidyl transferase (23S/28S rRNA ribozyme) transfers the polypeptide from P-site tRNA to A-site aminoacyl-tRNA.",
-    "tags": [
-      "translation",
-      "ribosome"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Aminoacyl-tRNA synthetases perform which critical function in translation?",
-    "options": [
-      "Charge tRNAs with their correct amino acid, ensuring the genetic code is accurately interpreted",
-      "Release the polypeptide from the ribosome",
-      "Catalyze peptide bond formation",
-      "Decode the mRNA codon directly"
-    ],
-    "correct": 0,
-    "explanation": "Each of the 20 aminoacyl-tRNA synthetases recognizes a specific amino acid and its cognate tRNA(s), charging the tRNA (forming aminoacyl-tRNA) in a two-step reaction (amino acid + ATP → aminoacyl-AMP + PPi; then transfer to tRNA 3'-OH). These enzymes are the true 'adaptors' of the genetic code — their fidelity determines translation accuracy.",
-    "tags": [
-      "translation",
-      "aminoacyl-tRNA synthetase",
-      "genetic code"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Stop codons (UAA, UAG, UGA) do not have corresponding tRNAs. Instead, translation terminates when:",
-    "options": [
-      "A ribonuclease cleaves the mRNA",
-      "Release factors (eRF1, eRF3) recognize stop codons and trigger peptidyl-tRNA hydrolysis",
-      "The ribosome falls off the mRNA spontaneously",
-      "The 5' cap is removed, stalling the ribosome"
-    ],
-    "correct": 1,
-    "explanation": "When a stop codon enters the A site, no aminoacyl-tRNA can decode it. Instead, eukaryotic release factors eRF1 (recognizes all three stop codons) and eRF3 (GTPase) bind the A site. eRF1 triggers peptidyl transferase to hydrolyze the ester bond linking the polypeptide to the P-site tRNA, releasing the polypeptide. Then the ribosome disassembles.",
-    "tags": [
-      "translation",
-      "termination",
-      "release factors"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "In a monohybrid cross of two heterozygous individuals (Aa × Aa), the expected phenotype ratio is:",
-    "options": [
-      "1:2:1",
-      "All dominant",
-      "1:1:1:1",
-      "3 dominant : 1 recessive"
-    ],
-    "correct": 3,
-    "explanation": "Aa × Aa → 1/4 AA : 2/4 Aa : 1/4 aa (genotype 1:2:1). For a dominant trait, AA and Aa both express the dominant phenotype, giving 3/4 dominant : 1/4 recessive phenotype ratio. This is Mendel's law of segregation.",
-    "tags": [
-      "genetics",
-      "Mendelian genetics"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "The probability that a child inherits an autosomal recessive disease when both parents are carriers (Aa × Aa) is:",
-    "options": [
-      "1/2",
-      "3/4",
-      "1",
-      "1/4"
-    ],
-    "correct": 3,
-    "explanation": "Carrier × carrier cross: 1/4 AA, 2/4 Aa, 1/4 aa. Only aa individuals are affected (1/4 probability). This is the basis of recessive disease genetics. With cystic fibrosis, for example, if both parents carry one CFTR mutation, each child has a 25% chance of having CF.",
-    "tags": [
-      "genetics",
-      "autosomal recessive"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Duchenne muscular dystrophy (DMD) is X-linked recessive. An unaffected carrier mother (XᴬXᵃ) and unaffected father (XᴬY) have children. What fraction of ALL children is expected to be affected?",
-    "options": [
-      "All daughters",
-      "1/2",
-      "1/4",
-      "1/8"
-    ],
-    "correct": 2,
-    "explanation": "Mother's gametes: 1/2 Xᴬ, 1/2 Xᵃ. Father's gametes: 1/2 Xᴬ, 1/2 Y. Possible outcomes: 1/4 XᴬXᴬ (unaffected daughter), 1/4 XᴬXᵃ (carrier daughter), 1/4 XᴬY (unaffected son), 1/4 XᵃY (affected son). Only 1/4 children are affected (all affected are male). 1/2 of sons are affected, but 1/4 of ALL children.",
-    "tags": [
-      "genetics",
-      "X-linked recessive"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Chromosomal non-disjunction during meiosis I in a female results in:",
-    "options": [
-      "Normal gametes with an extra chromosome",
-      "One secondary oocyte with an extra chromatid",
-      "Two identical oocytes",
-      "One secondary oocyte with both homologous chromosomes, one with neither"
-    ],
-    "correct": 3,
-    "explanation": "Meiosis I non-disjunction: homologous chromosomes fail to separate → one cell receives both chromosomes of a pair, the other receives neither. After meiosis II: two gametes have n+1 chromosomes (disomy), two have n-1 (nullisomy). Fertilization with normal sperm → trisomy (e.g., trisomy 21 Down syndrome) or monosomy. Meiosis II non-disjunction produces sister chromatid separation failure.",
-    "tags": [
-      "genetics",
-      "non-disjunction",
-      "meiosis"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Down syndrome (trisomy 21) most commonly arises from:",
-    "options": [
-      "De novo point mutation in the DYRK1A gene",
-      "Paternal non-disjunction",
-      "Maternal non-disjunction during meiosis I (frequency increases with maternal age)",
-      "Translocation (Robertsonian) in ~4% of cases"
-    ],
-    "correct": 2,
-    "explanation": "~95% of Down syndrome cases are standard trisomy 21 from maternal non-disjunction during meiosis I (rarely meiosis II). Risk increases dramatically with maternal age (from ~1/1500 at age 20 to ~1/30 at age 45). About 4% are Robertsonian translocations (chromosome 21 fused to chromosome 14); these have a higher recurrence risk. ~1% are mosaics.",
-    "tags": [
-      "genetics",
-      "chromosomal abnormalities",
-      "Down syndrome"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Turner syndrome (45,X) results from:",
-    "options": [
-      "Trisomy X",
-      "Monosomy X (missing one sex chromosome), most commonly from paternal non-disjunction",
-      "Loss of an autosome",
-      "Klinefelter syndrome (47,XXY)"
-    ],
-    "correct": 1,
-    "explanation": "Turner syndrome: 45,X (missing one sex chromosome). Features: short stature, webbed neck, shield chest, gonadal dysgenesis (streak ovaries, primary amenorrhea), coarctation of the aorta. Most commonly arises from paternal non-disjunction (losing the Y or X from the sperm). Despite having only one X, Barr body is absent (normal: females have one Barr body per extra X above 2 total).",
-    "tags": [
-      "genetics",
-      "chromosomal abnormalities",
-      "Turner syndrome"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Genomic imprinting means that:",
-    "options": [
-      "All genes from the father are expressed over maternal genes",
-      "Some genes are expressed from only one parental allele (maternal or paternal), determined by differential methylation",
-      "Only mitochondrial genes are imprinted",
-      "Imprinted genes are deleted in the other parent"
-    ],
-    "correct": 1,
-    "explanation": "Imprinted genes have parent-of-origin-specific expression determined by epigenetic marks (DNA methylation, histone modification) established in the germ line. IGF2 (insulin-like growth factor 2) is expressed from the paternal allele; H19 from the maternal. Prader-Willi syndrome (loss of paternal 15q11-q13) and Angelman syndrome (loss of maternal 15q11-q13) are classic imprinting disorders affecting the same chromosomal region.",
-    "tags": [
-      "genetics",
-      "imprinting",
-      "epigenetics"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "What is the significance of Mendel's law of independent assortment?",
-    "options": [
-      "Dominant alleles are always inherited over recessive alleles",
-      "Alleles of different genes on different chromosomes are inherited independently of one another",
-      "Alleles are always inherited in the same combination as the parent",
-      "All alleles of a single gene are inherited together"
-    ],
-    "correct": 1,
-    "explanation": "Independent assortment (Mendel's second law): alleles at different loci (on different chromosomes or far apart on the same chromosome) are distributed to gametes independently. This is the basis for dihybrid crosses producing 9:3:3:1 ratios. Genes linked on the same chromosome violate this law unless separated by recombination.",
-    "tags": [
-      "genetics",
-      "Mendel's laws",
-      "independent assortment"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "A female with X-linked red-green colorblindness (XᵃXᵃ) has children with a normal male (XᴬY). What fraction of their daughters will have colorblindness?",
-    "options": [
-      "1/4",
-      "1/2",
-      "All daughters are colorblind",
-      "0 (all daughters are carriers, none are colorblind)"
-    ],
-    "correct": 3,
-    "explanation": "Mother: XᵃXᵃ (affected). Father: XᴬY. All daughters receive Xᵃ from mother and Xᴬ from father → all daughters are XᴬXᵃ (carriers, not affected). All sons receive Xᵃ from mother and Y from father → all sons are XᵃY (affected). 0 daughters are colorblind in this cross.",
-    "tags": [
-      "genetics",
-      "X-linked",
-      "colorblindness"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Genetic linkage means that genes on the same chromosome:",
-    "options": [
-      "Have identical allele frequencies in a population",
-      "Tend to be inherited together; recombination frequency between them reflects map distance (1 cM = 1% recombination)",
-      "Cannot recombine under any circumstances",
-      "Are always co-expressed in the same cell"
-    ],
-    "correct": 1,
-    "explanation": "Linked genes violate independent assortment. Recombination (crossing over during meiosis I) creates new combinations (recombinant gametes). Recombination frequency is used to construct genetic maps: 1 centimorgan (cM) = 1% recombination frequency ≈ 1 Mb (roughly). Genes <50 cM apart are linked; genes >50 cM apart (or on different chromosomes) assort independently.",
-    "tags": [
-      "genetics",
-      "genetic linkage",
-      "recombination"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which type of membrane transport allows Na+ to move from high concentration (outside) to low concentration (inside) the cell?",
-    "options": [
-      "Endocytosis",
-      "Primary active transport",
-      "Facilitated diffusion via ion channels (passive)",
-      "Secondary active transport"
-    ],
-    "correct": 2,
-    "explanation": "Na+ has high extracellular (~145 mM) and low intracellular (~12 mM) concentration, creating a large inward driving force. Na+ flows down its concentration AND electrical gradient (inside negative) via ion channels (facilitated diffusion) — no energy required. The Na+/K+ ATPase maintains this gradient using ATP (primary active transport).",
-    "tags": [
-      "cell biology",
-      "membrane transport"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "The Na+/K+ ATPase pumps per cycle:",
-    "options": [
-      "Equal amounts of Na+ and K+ in opposite directions",
-      "3 Na+ out and 2 K+ in, hydrolyzing 1 ATP",
-      "2 Na+ out and 3 K+ in",
-      "Only Na+ out, no K+ movement"
-    ],
-    "correct": 1,
-    "explanation": "Na+/K+ ATPase (P-type ATPase) per cycle: 3 Na+ exported out + 2 K+ imported in + 1 ATP hydrolyzed. Net charge movement: 3(+) out and 2(+) in = net 1(+) charge out → electrogenic (contributes slightly to negative resting membrane potential). This pump accounts for ~20-30% of basal ATP consumption in cells.",
-    "tags": [
-      "cell biology",
-      "Na/K ATPase"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Tight junctions between epithelial cells primarily function to:",
-    "options": [
-      "Anchor the cytoskeleton to the ECM",
-      "Provide mechanical adhesion between cells",
-      "Facilitate rapid communication between adjacent cells",
-      "Create a paracellular seal that prevents movement of solutes between cells, maintaining epithelial polarity"
-    ],
-    "correct": 3,
-    "explanation": "Tight junctions (zonula occludens, made of claudins, occludins, ZO proteins) seal adjacent epithelial cells, preventing paracellular diffusion of ions and molecules. They also maintain membrane polarity by preventing lateral diffusion of membrane proteins between apical and basolateral domains. The 'fence' and 'gate' functions. Desmosomes provide mechanical strength; gap junctions allow communication; integrins anchor to ECM.",
-    "tags": [
-      "cell biology",
-      "cell junctions",
-      "epithelium"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The endosome-lysosome pathway processes materials taken up by endocytosis. Which enzyme activates lysosomal hydrolases by making the lumen acidic?",
-    "options": [
-      "Na+/K+ ATPase",
-      "Cytochrome c oxidase",
-      "V-type H+ ATPase (vacuolar proton pump)",
-      "Carbonic anhydrase"
-    ],
-    "correct": 2,
-    "explanation": "Lysosomes maintain pH ~4.5–5.0 through V-type H+ ATPase (uses ATP to pump H+ into the lumen). This acidic environment is required for the activity of ~50+ lysosomal hydrolases (proteases, lipases, nucleases, glycosidases). Chloroquine/hydroxychloroquine work by raising lysosomal pH, disrupting pathogen degradation.",
-    "tags": [
-      "cell biology",
-      "lysosomes",
-      "vesicle trafficking"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Receptor tyrosine kinases (RTKs) transmit signals by:",
-    "options": [
-      "Ligand stimulates adenylyl cyclase directly",
-      "Ligand binding activates associated trimeric G proteins",
-      "Ligand binding causes dimerization and autophosphorylation of tyrosine residues, creating docking sites for SH2 domain-containing signaling proteins",
-      "Ligand-receptor complex translocates to the nucleus to act as transcription factor"
-    ],
-    "correct": 2,
-    "explanation": "RTK signaling: ligand (e.g., EGF, PDGF, insulin) binds extracellular domain → RTK dimerizes → trans-autophosphorylation of tyrosine residues in the intracellular domain → phosphotyrosines serve as docking sites for SH2-domain proteins (Grb2, PI3K, PLC-gamma, Shp2) → activate downstream cascades (Ras-MAPK, PI3K-Akt, PLC-PKC). Mutated/amplified RTKs are oncogenes in cancer.",
-    "tags": [
-      "cell biology",
-      "signal transduction",
-      "RTK"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "G-protein coupled receptors (GPCRs) signal through trimeric G proteins. In the inactive state, the G protein:",
-    "options": [
-      "Has GDP bound to the alpha subunit and the alpha-beta-gamma trimer is intact",
-      "Is constitutively active",
-      "Is free of any nucleotide",
-      "Has GTP bound to the alpha subunit and is dissociated"
-    ],
-    "correct": 0,
-    "explanation": "Inactive GPCR: trimeric G protein (alpha-beta-gamma) has GDP bound to alpha subunit. Ligand binds GPCR → conformational change → GPCR acts as GEF, causing GDP-GTP exchange in alpha subunit → alpha-GTP dissociates from beta-gamma → each activates downstream effectors (adenylyl cyclase for Gs, PLC for Gq, adenylyl cyclase inhibition for Gi). GTPase activity of alpha subunit returns to inactive GDP state.",
-    "tags": [
-      "cell biology",
-      "GPCR",
-      "signal transduction"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The cell cycle checkpoint at the G1/S boundary (restriction point) monitors:",
-    "options": [
-      "DNA replication completion and accurate chromosome alignment",
-      "DNA integrity and sufficient cell size/growth factors before committing to DNA replication",
-      "Spindle assembly and chromosome attachment to kinetochores",
-      "Sister chromatid cohesion before anaphase"
-    ],
-    "correct": 1,
-    "explanation": "The G1/S checkpoint (restriction point in mammals) is the key decision point for cell division. Rb (retinoblastoma protein) inhibits E2F transcription factors (needed for S-phase entry). When growth factor signaling drives cyclin D/CDK4,6 activity → phosphorylates Rb → releases E2F → S-phase entry. DNA damage activates p53 → p21 → inhibits CDK4,6/cyclin D → cell cycle arrest.",
-    "tags": [
-      "cell biology",
       "cell cycle",
-      "checkpoints"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Mitosis produces daughter cells that are:",
-    "options": [
-      "Haploid with half the genetic material",
-      "Cells with random chromosome number",
-      "Cells that have undergone meiotic recombination",
-      "Genetically identical to the parent cell (diploid cells producing two diploid daughters)"
-    ],
-    "correct": 3,
-    "explanation": "Mitosis is cell division for growth, repair, and asexual reproduction. It produces two genetically identical daughter cells, each with the same chromosome number as the parent cell (2n → 2n in diploid organisms). Meiosis, by contrast, produces four haploid (n) cells with genetic variation from recombination and independent assortment, for sexual reproduction.",
-    "tags": [
-      "cell biology",
-      "mitosis",
-      "cell division"
+      "G1/S checkpoint"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "During the S phase of interphase:",
+    "text": "The Rb (retinoblastoma) protein acts as a tumor suppressor primarily by:",
     "options": [
-      "Sister chromatids separate to opposite poles",
-      "Chromosomes condense and the spindle forms",
-      "The cell prepares for division by synthesizing cyclins",
-      "DNA is replicated (each chromosome is duplicated to form two sister chromatids joined at the centromere)"
-    ],
-    "correct": 3,
-    "explanation": "S (synthesis) phase: all chromosomal DNA is replicated semiconservatively, producing identical sister chromatids joined at the centromere by cohesin. DNA content doubles from 2C to 4C. After S: G2 phase (growth and preparation) → M phase (mitosis: prophase, prometaphase, metaphase, anaphase, telophase, cytokinesis).",
-    "tags": [
-      "cell biology",
-      "cell cycle",
-      "DNA replication"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "The unfolded protein response (UPR) is triggered by:",
-    "options": [
-      "Misfolded proteins in the cytoplasm",
-      "Ribosome stalling during translation",
-      "Accumulation of misfolded proteins in the ER lumen, which activates sensors (IRE1, PERK, ATF6)",
-      "Depletion of ER Ca2+ stores only"
-    ],
-    "correct": 2,
-    "explanation": "ER stress: misfolded proteins accumulate in the ER → BiP (Hsp70 chaperone) is titrated away from UPR sensors IRE1, PERK, ATF6 → sensors activate → UPR responses: increased chaperone synthesis, reduced global translation, ERAD (ER-associated degradation). If UPR cannot resolve ER stress, apoptosis ensues (via CHOP transcription factor). UPR is implicated in diabetes, neurodegeneration, and cancer.",
-    "tags": [
-      "cell biology",
-      "ER stress",
-      "unfolded protein response"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "The resting membrane potential of a neuron (~–70 mV) is primarily maintained by:",
-    "options": [
-      "Chloride pumps actively removing Cl-",
-      "High intracellular K+ and leak channels; Na+/K+ ATPase maintains ion gradients",
-      "High intracellular Na+ and voltage-gated Na+ channels",
-      "Equal concentrations of all ions inside and outside"
+      "Activating CDK4/6 to drive cell cycle progression",
+      "Binding and inhibiting E2F transcription factors to prevent entry into S phase",
+      "Directly repairing DNA damage",
+      "Promoting apoptosis in all cell types"
     ],
     "correct": 1,
-    "explanation": "The resting membrane potential is set mainly by K+ permeability (K+ leak channels) and the K+ electrochemical equilibrium (Nernst potential for K+ ≈ –90 mV). Selective permeability to K+ and impermeability to Na+ (at rest) creates the negative interior. Na+/K+ ATPase maintains the gradients over time but contributes little directly to the resting potential (~–3 mV from electrogenic pumping).",
+    "explanation": "Hypophosphorylated (active) Rb binds E2F transcription factors, preventing transcription of S-phase genes (thymidine kinase, cyclin E, DHFR). Mitogenic signals → cyclin D induction → CDK4/6 activation → Rb phosphorylation → E2F release → S-phase entry. Loss-of-function mutations in both RB1 alleles cause retinoblastoma (an autosomal recessive tumor suppressor). Rb does not repair DNA or directly trigger apoptosis.",
     "tags": [
-      "neuroscience",
-      "membrane potential"
+      "cell cycle",
+      "Rb",
+      "tumor suppressor"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "An action potential is propagated along an axon because:",
+    "text": "p53 is activated in response to DNA damage and can trigger all of the following EXCEPT:",
     "options": [
-      "Neurotransmitter release propagates the signal",
-      "Calcium influx triggers membrane depolarization sequentially",
-      "Depolarization at one node spreads current that depolarizes adjacent membrane, triggering sodium channel opening in the next segment",
-      "Gap junctions directly connect adjacent axon segments"
+      "Immediate mitogenic signaling to force rapid cell division and repair",
+      "Apoptosis (via Bax, PUMA, NOXA upregulation)",
+      "Senescence",
+      "Cell cycle arrest (G1 via p21 induction)"
+    ],
+    "correct": 0,
+    "explanation": "p53 is a guardian of the genome that responds to DNA damage, oncogene activation, and hypoxia. It induces: p21 (CDK inhibitor causing G1 arrest), pro-apoptotic genes (Bax, PUMA), and senescence programs. p53 does NOT promote cell division—quite the opposite. Forcing mitosis with damaged DNA would propagate mutations. Oncogenes (not p53) drive proliferation.",
+    "tags": [
+      "cell cycle",
+      "p53",
+      "tumor suppressor"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Cyclin D-CDK4/6 activity is highest in which phase of the cell cycle?",
+    "options": [
+      "S phase",
+      "G1",
+      "G2",
+      "M phase"
+    ],
+    "correct": 1,
+    "explanation": "Cyclin D is the key mitogenic cyclin whose expression is driven by growth factor signaling (Ras/MAPK, Wnt). It rises in G1 and forms active complexes with CDK4 and CDK6 that phosphorylate Rb, driving G1 progression. Cyclin E-CDK2 is peak at G1/S transition; cyclin A-CDK2 in S; cyclin B-CDK1 (MPF) at G2/M. Cyclins are named for their oscillating expression pattern.",
+    "tags": [
+      "cell cycle",
+      "cyclins",
+      "CDKs"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The APC/C (Anaphase-Promoting Complex/Cyclosome) is an E3 ubiquitin ligase activated in M phase that targets which proteins for degradation?",
+    "options": [
+      "Cdc25 and CDK1",
+      "Securin and cyclin B, allowing chromosome separation and mitotic exit",
+      "Cyclin D and CDK4",
+      "p53 and Rb"
+    ],
+    "correct": 1,
+    "explanation": "APC/C-Cdc20 ubiquitinates securin (inhibitor of separase; its degradation releases separase to cleave cohesin, allowing sister chromatid separation) and cyclin B (CDK1 inactivation drives mitotic exit and cytokinesis). APC/C is the engine of mitotic exit. CDK4/cyclin D is degraded earlier in G1; p53/Rb are not APC/C targets; Cdc25 is a CDK-activating phosphatase degraded by SCF in G1.",
+    "tags": [
+      "cell cycle",
+      "APC/C",
+      "mitosis"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The spindle assembly checkpoint (SAC) prevents anaphase onset until:",
+    "options": [
+      "All kinetochores are attached to spindle microtubules from opposite poles (bi-orientation)",
+      "Cyclin D is degraded",
+      "DNA replication is complete",
+      "The cell has reached sufficient size"
+    ],
+    "correct": 0,
+    "explanation": "Unattached kinetochores produce the mitotic checkpoint complex (MCC), which inhibits APC/C-Cdc20, preventing securin and cyclin B degradation. Once all chromosomes achieve amphitelic (bipolar) attachment, MCC production stops and APC/C is activated. Mis-attachment (monotelic/syntelic/merotelic) prolongs arrest. DNA replication completeness is monitored at the G2/M checkpoint, not the SAC.",
+    "tags": [
+      "cell cycle",
+      "spindle checkpoint"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "An oncogene differs from a proto-oncogene in that:",
+    "options": [
+      "An oncogene is a mutated, constitutively active form that promotes cell division even without mitogenic signals",
+      "Proto-oncogenes are only found in cancer cells",
+      "Oncogenes always require both alleles to be mutated to cause cancer",
+      "An oncogene is a normal gene required for development"
+    ],
+    "correct": 0,
+    "explanation": "Proto-oncogenes are normal genes encoding growth factors, receptors, or signaling molecules. A gain-of-function mutation (point mutation, amplification, translocation) converts a proto-oncogene to an oncogene. Oncogenes act dominantly—only one allele needs to be activated. Classic examples: RAS (point mutation), MYC (amplification), BCR-ABL (translocation in CML). Tumor suppressors (e.g., TP53, RB1) require two allele losses (Knudson's two-hit model).",
+    "tags": [
+      "cancer",
+      "oncogenes"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Intrinsic (mitochondrial) apoptosis is initiated when:",
+    "options": [
+      "DNA ligase fails to complete Okazaki fragment joining",
+      "The proteasome degrades anti-apoptotic proteins",
+      "Pro-apoptotic Bcl-2 family proteins (Bax, Bak) permeabilize the outer mitochondrial membrane, releasing cytochrome c",
+      "Caspase-8 is activated by death receptors on the cell surface"
     ],
     "correct": 2,
-    "explanation": "Local circuit currents flow from the depolarized region (inside positive) to adjacent resting regions (inside negative). This depolarizes the adjacent membrane to threshold, triggering opening of voltage-gated Na+ channels and a new action potential. In myelinated axons (Schwann cells/oligodendrocytes), APs jump between nodes of Ranvier (saltatory conduction), greatly increasing speed.",
+    "explanation": "In intrinsic apoptosis, cellular stress activates BH3-only proteins (PUMA, NOXA, Bid) that neutralize Bcl-2/Bcl-XL, freeing Bax and Bak to oligomerize in the OMM and form pores (MOMP). Cytochrome c release forms the apoptosome (with Apaf-1 and procaspase-9), activating executioner caspases-3/7. Extrinsic apoptosis begins with death receptor (TNFR, Fas) activation → DISC → caspase-8. These are parallel pathways that converge at caspase-3.",
     "tags": [
-      "neuroscience",
+      "apoptosis",
+      "Bcl-2",
+      "mitochondria"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Knudson's 'two-hit' hypothesis explains why inherited cancers require:",
+    "options": [
+      "Two simultaneous de novo mutations",
+      "One inherited mutant allele (first hit) plus a somatic mutation in the second allele (second hit) to lose tumor suppressor function",
+      "Activation of an oncogene plus a virus",
+      "Methylation of both alleles of an oncogene"
+    ],
+    "correct": 1,
+    "explanation": "Knudson analyzed retinoblastoma and proposed that both copies of a tumor suppressor gene must be inactivated. In hereditary retinoblastoma, patients carry one germline RB1 mutation in every cell; a single somatic mutation in a retinal cell is sufficient for tumor development (early onset, bilateral). In sporadic retinoblastoma, two somatic mutations must hit the same cell (later onset, unilateral). This applies to RB1, TP53, BRCA1/2, APC, etc.",
+    "tags": [
+      "cancer",
+      "tumor suppressors",
+      "two-hit hypothesis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Warburg effect describes which metabolic phenomenon observed in cancer cells?",
+    "options": [
+      "Exclusive reliance on oxidative phosphorylation",
+      "Decreased glucose uptake compared to normal cells",
+      "Increased fatty acid oxidation and ketone body production",
+      "Preferential aerobic glycolysis and lactate production even in the presence of oxygen"
+    ],
+    "correct": 3,
+    "explanation": "Warburg observed that cancer cells preferentially convert glucose to lactate even under aerobic conditions (aerobic glycolysis). While less ATP-efficient than OXPHOS, aerobic glycolysis generates intermediates (pentose phosphate pathway, serine synthesis) needed for biosynthesis and provides rapid ATP. Elevated glucose uptake is exploited by FDG-PET imaging for tumor detection. Cancer cells do not decrease glucose uptake.",
+    "tags": [
+      "cancer",
+      "Warburg effect",
+      "metabolism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The key difference between innate and adaptive immunity is that:",
+    "options": [
+      "Adaptive immunity acts within minutes of infection",
+      "Only innate immunity involves lymphocytes",
+      "Innate immunity is slower and more specific",
+      "Adaptive immunity is antigen-specific and has memory; innate immunity responds broadly and rapidly without memory"
+    ],
+    "correct": 3,
+    "explanation": "Innate immunity (neutrophils, macrophages, NK cells, complement, pattern recognition receptors) responds within minutes to hours in a non-specific, non-memory manner to conserved pathogen patterns (PAMPs). Adaptive immunity (T and B lymphocytes) develops over days, is highly antigen-specific, and generates immunological memory for faster responses upon re-exposure. Lymphocytes (T and B cells) are exclusively adaptive immune cells.",
+    "tags": [
+      "immunology",
+      "innate vs adaptive immunity"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "MHC class I molecules present peptides to which T cell subset?",
+    "options": [
+      "CD4+ helper T cells",
+      "CD8+ cytotoxic T cells (CTLs)",
+      "NK cells via KIR receptors",
+      "B cells"
+    ],
+    "correct": 1,
+    "explanation": "MHC class I is expressed on virtually all nucleated cells and presents peptides (8–10 aa) derived from endogenous/cytosolic proteins (e.g., viral peptides) to CD8+ T cells (via their TCR + CD8 co-receptor). This triggers CTL-mediated killing of infected cells. MHC class II presents exogenous peptides to CD4+ T cells. NK cells recognize absence of MHC I, not peptide-loaded MHC I via KIR.",
+    "tags": [
+      "immunology",
+      "MHC class I",
+      "CD8 T cells"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "MHC class II molecules present peptides to CD4+ T helper cells. These peptides are derived from:",
+    "options": [
+      "Exogenous antigens internalized and processed in endolysosomal compartments",
+      "Nucleic acids recognized by TLRs",
+      "Cytosolic proteins degraded by the proteasome",
+      "Viral proteins made by infected cells"
+    ],
+    "correct": 0,
+    "explanation": "MHC II-restricted antigen presentation involves uptake of extracellular antigens by APCs (macrophages, dendritic cells, B cells) via phagocytosis or receptor-mediated endocytosis, lysosomal degradation into 13–25 aa peptides, and loading onto MHC II in MIIC (MHC II-enriched compartments) after displacement of CLIP by HLA-DM. Proteasome-derived cytosolic peptides are loaded on MHC I via TAP transporters.",
+    "tags": [
+      "immunology",
+      "MHC class II",
+      "CD4 T cells"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Clonal selection explains why the adaptive immune response is antigen-specific. Which statement correctly describes clonal selection?",
+    "options": [
+      "The thymus selects antigen-specific clones after infection",
+      "Antigen changes the receptor specificity of all lymphocytes to match",
+      "Antigen binds and activates only those lymphocytes bearing a complementary antigen receptor, causing that clone to proliferate",
+      "All lymphocytes are activated simultaneously but only specific ones survive"
+    ],
+    "correct": 2,
+    "explanation": "Each lymphocyte expresses a unique antigen receptor generated by V(D)J recombination. When antigen is encountered, it selects (activates) only those rare lymphocytes bearing a receptor that binds it. These cells undergo clonal expansion (mitotic amplification) and differentiation into effector and memory cells. This explains specificity, memory, and the clonal nature of lymphocyte responses.",
+    "tags": [
+      "immunology",
+      "clonal selection"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Antibodies are composed of two heavy and two light chains connected by disulfide bonds. The antigen-binding region (paratope) is located in:",
+    "options": [
+      "The constant region (Fc)",
+      "The hinge region",
+      "The variable regions (VH and VL) at the Fab tips, specifically the CDR loops",
+      "The CH2 domain of the Fc"
+    ],
+    "correct": 2,
+    "explanation": "Each antibody has two Fab (antigen-binding fragment) arms, each containing a VH-VL heterodimer. Within the variable regions, three hypervariable loops (CDR1, CDR2, CDR3) in VH and VL form the complementarity-determining regions (CDRs) that contact antigen. The Fc region determines antibody class (IgG, IgA, etc.) and effector functions (complement activation, FcR binding). The hinge provides flexibility between Fab and Fc.",
+    "tags": [
+      "immunology",
+      "antibody structure"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Class switching (isotype switching) in B cells changes which part of the antibody?",
+    "options": [
+      "The variable region, changing antigen specificity",
+      "The constant region of the heavy chain (e.g., IgM → IgG), altering effector function",
+      "Only the light chain constant region",
+      "Both heavy and light chain variable regions"
+    ],
+    "correct": 1,
+    "explanation": "Class switch recombination (CSR) replaces the Cμ (IgM) or Cδ (IgD) constant region gene with a downstream constant region gene (Cγ, Cα, or Cε) via a DNA recombination event in the heavy chain locus. This changes the antibody isotype (and effector function) while preserving the VDJ region (antigen specificity). Somatic hypermutation (affinity maturation) changes the V region but not the constant region.",
+    "tags": [
+      "immunology",
+      "class switching",
+      "B cells"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "T regulatory cells (Tregs) express the transcription factor Foxp3 and primarily function to:",
+    "options": [
+      "Activate NK cells during bacterial infection",
+      "Kill virus-infected cells directly",
+      "Suppress excessive immune responses and maintain self-tolerance to prevent autoimmunity",
+      "Produce large amounts of IgE antibodies"
+    ],
+    "correct": 2,
+    "explanation": "Foxp3+ Tregs (CD4+CD25+) suppress immune responses via IL-10, TGF-β, IL-35, CTLA-4-mediated co-stimulation blockade, and direct cell-cell contact. They are essential for peripheral tolerance; Foxp3 mutations cause IPEX syndrome (immune dysregulation, polyendocrinopathy, enteropathy, X-linked) with severe autoimmunity. CTLs (not Tregs) kill infected cells; IgE is from Th2-driven B cells; NK activation is innate.",
+    "tags": [
+      "immunology",
+      "regulatory T cells",
+      "tolerance"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The classical pathway of complement is activated by:",
+    "options": [
+      "TLR signaling in macrophages",
+      "Spontaneous hydrolysis of C3 (alternative pathway)",
+      "Mannose-binding lectin binding to pathogen surfaces (lectin pathway)",
+      "C1q binding to antibody (IgG or IgM) bound to antigen on a pathogen surface"
+    ],
+    "correct": 3,
+    "explanation": "C1q (part of C1 complex) recognizes and binds the Fc regions of IgG or IgM already bound to antigen. This triggers the classical cascade: C1→C4/C2→C3 convertase→C3b opsonization and C5 convertase→C5-9 MAC (membrane attack complex). The alternative pathway is activated by spontaneous C3 hydrolysis amplified on foreign surfaces. The lectin pathway is activated by MBL/ficolins binding carbohydrate patterns, independent of antibody.",
+    "tags": [
+      "immunology",
+      "complement"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Vaccines that consist of live attenuated pathogens are generally more immunogenic than killed vaccines because:",
+    "options": [
+      "Attenuated pathogens do not trigger innate immunity",
+      "Live vaccines bypass the need for adjuvants only in killed vaccines",
+      "They replicate in the host, presenting antigens over time and activating both humoral and cellular immunity more robustly",
+      "Killed vaccines are toxic to the immune system"
+    ],
+    "correct": 2,
+    "explanation": "Live attenuated vaccines (e.g., MMR, varicella, yellow fever) undergo limited replication, providing prolonged antigen exposure and activating innate immunity (via PAMPs), CD4+ and CD8+ T cells, and durable B cell responses with long-lived plasma cells and memory B cells. Killed/subunit vaccines typically require adjuvants and booster doses. Both types trigger innate immunity via PAMPs/DAMPs; adjuvants mimic this in killed vaccines.",
+    "tags": [
+      "immunology",
+      "vaccines"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which cytokine is the primary driver of T helper cell differentiation toward the Th1 phenotype (promoting cell-mediated immunity against intracellular pathogens)?",
+    "options": [
+      "IL-6 + TGF-β (promote Th17)",
+      "IL-4 (promotes Th2)",
+      "IL-12 (produced by macrophages/DCs)",
+      "IL-10 (anti-inflammatory)"
+    ],
+    "correct": 2,
+    "explanation": "IL-12 (produced by activated macrophages and dendritic cells) combined with IFN-γ drives naive CD4+ T cells toward Th1 differentiation (T-bet transcription factor). Th1 cells produce IFN-γ and activate macrophages for intracellular pathogen killing. IL-4 drives Th2 (GATA-3; allergic responses, parasite defense). IL-6+TGF-β drive Th17 (RORγt; extracellular bacteria, fungi). IL-10 is anti-inflammatory.",
+    "tags": [
+      "immunology",
+      "cytokines",
+      "T helper cells"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The resting membrane potential of a typical neuron (~−70 mV) is primarily maintained by:",
+    "options": [
+      "The Na+/K+-ATPase pump and the high resting K+ conductance through leak channels",
+      "High resting Na+ conductance",
+      "Ca2+ influx",
+      "Active Cl- pumping"
+    ],
+    "correct": 0,
+    "explanation": "The resting potential reflects the equilibrium between: (1) Na+/K+-ATPase actively maintaining high intracellular K+ (and high extracellular Na+), and (2) K+ leak channels that allow K+ to flow out down its concentration gradient, generating a negative interior. The resting potential (~−70 mV) is closer to EK (~−90 mV) than ENa (~+60 mV) because resting K+ conductance greatly exceeds Na+ conductance. Na+ conductance rises during action potential depolarization.",
+    "tags": [
+      "nervous system",
+      "resting membrane potential"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "During the rising phase of an action potential, what drives membrane depolarization?",
+    "options": [
+      "Opening of voltage-gated K+ channels",
+      "Ca2+ influx through ligand-gated channels",
+      "Closing of Na+/K+-ATPase pumps",
+      "Rapid opening of voltage-gated Na+ channels, allowing Na+ to flow in down its electrochemical gradient"
+    ],
+    "correct": 3,
+    "explanation": "Action potential initiation: membrane depolarization opens voltage-gated Na+ channels (threshold ~−55 mV); Na+ rushes in driven by its concentration gradient (high outside) and electrical gradient (interior negative). This further depolarizes the membrane in a positive feedback loop (Hodgkin cycle) until the membrane reaches ~+30–40 mV. Then Na+ channels inactivate and K+ channels open to repolarize and hyperpolarize the membrane.",
+    "tags": [
+      "nervous system",
+      "action potential"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The absolute refractory period after an action potential occurs because:",
+    "options": [
+      "Voltage-gated Na+ channels are in their inactivated state and cannot be reopened regardless of stimulus strength",
+      "The synapse is depleted of neurotransmitters",
+      "The Na+/K+-ATPase pump cannot restore the gradient quickly enough",
+      "K+ channels are still open and shunting current"
+    ],
+    "correct": 0,
+    "explanation": "After activation, voltage-gated Na+ channels enter a rapid inactivated state (the inactivation gate closes). No stimulus, regardless of intensity, can reopen Na+ channels while they are inactivated. Channels must return to the closed (resting) state before they can be activated again. This limits action potential frequency and ensures unidirectional propagation. K+ channels being open contributes to the relative refractory period (not absolute).",
+    "tags": [
+      "nervous system",
       "action potential",
-      "axon conduction"
+      "refractory period"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Saltatory conduction in myelinated axons is faster than conduction in unmyelinated axons because:",
+    "options": [
+      "Myelin increases the number of Na+ channels per unit length",
+      "Schwann cells provide ATP to accelerate ion pump activity",
+      "Myelinated axons have larger diameters that increase resistance",
+      "Action potentials jump between nodes of Ranvier, where Na+ channels are concentrated, skipping internodal segments"
+    ],
+    "correct": 3,
+    "explanation": "Myelin (produced by Schwann cells in PNS, oligodendrocytes in CNS) insulates the axon and increases membrane resistance between nodes of Ranvier (~1 mm apart). Voltage-gated Na+ channels cluster at nodes. Current flows passively (and rapidly) through the myelinated internodal segments, regenerating action potentials only at nodes. This saltatory conduction increases velocity from ~0.5–2 m/s (unmyelinated) to ~70–120 m/s (myelinated) and reduces energy use.",
+    "tags": [
+      "nervous system",
+      "myelination",
+      "saltatory conduction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "At a chemical synapse, which event directly triggers neurotransmitter exocytosis?",
+    "options": [
+      "Binding of ACh to presynaptic receptors",
+      "K+ efflux from the presynaptic terminal",
+      "Ca2+ influx through voltage-gated Ca2+ channels in the presynaptic terminal",
+      "Na+ influx through postsynaptic receptors"
+    ],
+    "correct": 2,
+    "explanation": "When an action potential invades the presynaptic terminal, voltage-gated Ca2+ channels (P/Q, N-type) open, allowing Ca2+ to flow in down its electrochemical gradient. Ca2+ binds synaptotagmin on synaptic vesicles, triggering SNARE-mediated fusion of vesicles with the presynaptic membrane and exocytosis of neurotransmitter into the synaptic cleft. Na+ influx and K+ efflux occur during the action potential but are not the direct trigger for exocytosis.",
+    "tags": [
+      "nervous system",
+      "synaptic transmission"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Acetylcholinesterase (AChE) terminates cholinergic signaling by:",
+    "options": [
+      "Degrading nicotinic receptors on the postsynaptic membrane",
+      "Pumping ACh back into the presynaptic terminal via a transporter",
+      "Opening K+ channels to hyperpolarize the postsynaptic cell",
+      "Hydrolyzing acetylcholine in the synaptic cleft into acetate and choline"
+    ],
+    "correct": 3,
+    "explanation": "AChE is located in the synaptic cleft and basal lamina at neuromuscular junctions and cholinergic synapses. It cleaves ACh into acetate and choline; choline is taken back up by a high-affinity choline transporter into the presynaptic terminal for re-synthesis. Organophosphate nerve agents and some pesticides irreversibly inhibit AChE. Monoamine neurotransmitters (dopamine, NE, 5-HT) are cleared primarily by reuptake transporters (DAT, NET, SERT).",
+    "tags": [
+      "nervous system",
+      "neurotransmitters",
+      "ACh"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "GABA (gamma-aminobutyric acid) is the primary inhibitory neurotransmitter in the brain. GABAA receptors are:",
+    "options": [
+      "Ligand-gated Na+ channels causing depolarization",
+      "Ligand-gated Cl- channels; GABA binding opens the channel, allowing Cl- influx and hyperpolarization",
+      "Voltage-gated K+ channels activated by GABA binding",
+      "Metabotropic Gi-coupled receptors that decrease cAMP"
+    ],
+    "correct": 1,
+    "explanation": "GABAA receptors are ionotropic (fast) chloride channels. GABA binding opens the channel; Cl- flows in (ECl ≈ −70 mV in mature neurons), hyperpolarizing or stabilizing the membrane and inhibiting firing. GABAB receptors are metabotropic Gi/Go-coupled (increase K+ conductance/decrease Ca2+ conductance). Benzodiazepines and barbiturates potentiate GABAA. GABA does not open Na+ channels (that would be excitatory) or voltage-gated K+ channels directly.",
+    "tags": [
+      "nervous system",
+      "GABA",
+      "neurotransmitters"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In the sympathetic nervous system (fight-or-flight), the postganglionic neurons release which neurotransmitter onto target organs?",
+    "options": [
+      "Dopamine",
+      "Norepinephrine (noradrenaline)",
+      "Serotonin",
+      "Acetylcholine"
+    ],
+    "correct": 1,
+    "explanation": "Sympathetic preganglionic neurons (thoracolumbar origin) release ACh onto nicotinic receptors on ganglionic neurons. Postganglionic neurons release norepinephrine (NE) onto adrenergic receptors (α1, α2, β1, β2) on target organs. The exception is the adrenal medulla (a modified sympathetic ganglion): preganglionic neurons directly innervate chromaffin cells, which release epinephrine (mostly) and NE into the blood. Parasympathetic postganglionic neurons release ACh.",
+    "tags": [
+      "nervous system",
+      "autonomic nervous system",
+      "norepinephrine"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Glutamate is the primary excitatory neurotransmitter in the CNS. NMDA receptors have a unique property that makes them 'coincidence detectors' because they require:",
+    "options": [
+      "Both postsynaptic depolarization (to displace Mg2+ block) AND glutamate binding to open",
+      "Only glutamate binding to open (like AMPA receptors)",
+      "Simultaneous GABA and glutamate binding",
+      "Only postsynaptic depolarization (voltage-gated)"
+    ],
+    "correct": 0,
+    "explanation": "NMDA receptors are both ligand-gated AND voltage-gated. At resting potential, Mg2+ blocks the channel pore. For the channel to open, the postsynaptic membrane must first be depolarized (displacing Mg2+) AND glutamate (plus glycine) must bind. This coincidence detection makes NMDA receptors critical for Hebbian synaptic plasticity (LTP), learning, and memory. AMPA receptors are simple ligand-gated Na+/K+ channels with no Mg2+ block.",
+    "tags": [
+      "nervous system",
+      "glutamate",
+      "NMDA receptor",
+      "LTP"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which of the following correctly pairs a neurotransmitter with its primary precursor?",
+    "options": [
+      "GABA → synthesized from glutamine",
+      "Dopamine → synthesized from tyrosine via DOPA",
+      "Acetylcholine → synthesized from serine",
+      "Serotonin → synthesized from phenylalanine"
+    ],
+    "correct": 1,
+    "explanation": "Dopamine is synthesized: Tyrosine → L-DOPA (tyrosine hydroxylase, rate-limiting) → Dopamine (DOPA decarboxylase). Serotonin is from tryptophan (not phenylalanine). GABA is from glutamate by glutamate decarboxylase (GAD, requires PLP). ACh is from acetyl-CoA + choline (choline acetyltransferase), not serine.",
+    "tags": [
+      "nervous system",
+      "neurotransmitter synthesis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Peptide hormones differ from steroid hormones in their mechanism of action because peptide hormones:",
+    "options": [
+      "Have longer half-lives in the circulation",
+      "Cross the membrane and bind intracellular receptors directly",
+      "Are always synthesized in the adrenal cortex",
+      "Cannot cross the plasma membrane and bind cell-surface receptors, using second messengers to signal intracellularly"
+    ],
+    "correct": 3,
+    "explanation": "Peptide/protein hormones (insulin, glucagon, GH, TSH, FSH, LH, PTH, ADH, oxytocin) are hydrophilic and bind transmembrane receptors (RTKs, GPCRs, cytokine receptors), triggering second messenger cascades. Steroid hormones (cortisol, aldosterone, testosterone, estrogen, progesterone) and thyroid hormones are lipophilic; they cross the membrane and bind intracellular receptors. Steroids are synthesized in the adrenal cortex and gonads; peptides are synthesized in various glands.",
+    "tags": [
+      "endocrine system",
+      "hormone mechanisms"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Insulin is released from pancreatic beta cells in response to high blood glucose. The mechanism involves:",
+    "options": [
+      "Activation of glucagon receptors on beta cells",
+      "Glucose binding directly to a GPCR on beta cells",
+      "Decreased cAMP in beta cells triggering vesicle fusion",
+      "Glucose metabolism → increased ATP/ADP ratio → closure of KATP channels → membrane depolarization → Ca2+ influx → exocytosis"
+    ],
+    "correct": 3,
+    "explanation": "Glucose enters beta cells via GLUT2 (in rodents) or GLUT1 (humans) and is metabolized, raising ATP/ADP. ATP closes KATP (Kir6.2/SUR1) channels, depolarizing the membrane. Depolarization opens voltage-gated L-type Ca2+ channels; Ca2+ influx triggers insulin granule exocytosis. Sulfonylurea drugs (glibenclamide) treat T2DM by closing KATP channels. GLP-1 amplifies this via cAMP (not triggers it).",
+    "tags": [
+      "endocrine system",
+      "insulin",
+      "beta cells"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Glucagon opposes insulin by acting on the liver. Which of the following correctly describes a glucagon-stimulated effect?",
+    "options": [
+      "Stimulation of GLUT4 insertion in hepatocytes",
+      "Activation of glycogen synthase and inhibition of gluconeogenesis",
+      "Inhibition of lipolysis in adipose tissue",
+      "Activation of glycogen phosphorylase (glycogenolysis) and activation of gluconeogenesis via PKA-mediated phosphorylation"
+    ],
+    "correct": 3,
+    "explanation": "Glucagon binds its GPCR on hepatocytes → Gαs → adenylyl cyclase → cAMP → PKA. PKA activates phosphorylase kinase (activates glycogen phosphorylase for glycogenolysis) and inhibits glycogen synthase. PKA also phosphorylates/activates CREB to induce PEPCK and G6Pase (gluconeogenic enzymes). Glucagon also activates hormone-sensitive lipase (lipolysis) in adipose. GLUT4 is expressed in muscle/fat, not liver.",
+    "tags": [
+      "endocrine system",
+      "glucagon",
+      "liver metabolism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Cortisol, a glucocorticoid from the adrenal cortex, is released in response to ACTH. A major metabolic effect of elevated cortisol is:",
+    "options": [
+      "Decreased blood glucose through enhanced insulin sensitivity",
+      "Inhibition of the immune response by increasing neutrophil production only",
+      "Direct stimulation of pancreatic beta cell insulin secretion",
+      "Increased gluconeogenesis and protein catabolism, raising blood glucose"
+    ],
+    "correct": 3,
+    "explanation": "Cortisol (a steroid) binds GR (glucocorticoid receptor), enters the nucleus, and drives gluconeogenic enzyme expression (PEPCK, G6Pase). It also promotes protein catabolism in muscle (providing gluconeogenic substrates) and lipolysis. Net effect: hyperglycemia (insulin-antagonistic). Cortisol also has potent anti-inflammatory/immunosuppressive effects by inhibiting NF-κB and reducing cytokine production. Cushing's syndrome (excess cortisol) causes hyperglycemia, muscle wasting, and immunosuppression.",
+    "tags": [
+      "endocrine system",
+      "cortisol",
+      "glucocorticoids"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Aldosterone acts on the principal cells of the renal collecting duct to:",
+    "options": [
+      "Increase Na+ reabsorption and K+ secretion by upregulating ENaC and Na+/K+-ATPase",
+      "Stimulate ADH release",
+      "Increase Na+ secretion and K+ reabsorption",
+      "Inhibit renin secretion from juxtaglomerular cells"
+    ],
+    "correct": 0,
+    "explanation": "Aldosterone (mineralocorticoid) binds cytosolic MR (mineralocorticoid receptor), translocates to the nucleus, and induces expression of epithelial sodium channels (ENaC) on the apical membrane and Na+/K+-ATPase on the basolateral membrane. This increases Na+ reabsorption (raising ECF volume and blood pressure) and K+ secretion (hypokalemia in hyperaldosteronism). Hyperaldosteronism (Conn's syndrome) causes hypertension and hypokalemia.",
+    "tags": [
+      "endocrine system",
+      "aldosterone",
+      "kidney"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Thyroid hormone (T3, triiodothyronine) enters the cell and binds its receptor. T3 differs from most peptide hormones in that T3:",
+    "options": [
+      "Binds a GPCR on the cell surface and uses cAMP as a second messenger",
+      "Binds nuclear receptors (TR) that function as ligand-activated transcription factors without requiring a second messenger",
+      "Only affects metabolism in adipose tissue",
+      "Is synthesized from cholesterol like steroid hormones"
+    ],
+    "correct": 1,
+    "explanation": "Thyroid hormones (T3, T4) are derived from the amino acid tyrosine (not cholesterol) and are lipophilic due to iodine addition. They cross the membrane and bind thyroid hormone receptors (TRα/TRβ), which are nuclear hormone receptors that directly regulate gene transcription by binding thyroid response elements (TREs). In the absence of T3, TR-RXR heterodimers actively repress transcription. T3 is the more active form (T4 is converted to T3 by deiodinases in target tissues).",
+    "tags": [
+      "endocrine system",
+      "thyroid hormones"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The hypothalamic-pituitary-adrenal (HPA) axis operates via negative feedback. In Cushing's disease (pituitary ACTH-secreting adenoma), which findings would be expected?",
+    "options": [
+      "Low ACTH, low cortisol, elevated CRH",
+      "Elevated CRH, low ACTH, elevated cortisol",
+      "Elevated ACTH, elevated cortisol, and suppressed CRH",
+      "Normal ACTH, normal cortisol, elevated CRH"
+    ],
+    "correct": 2,
+    "explanation": "In Cushing's disease (pituitary adenoma secreting ACTH autonomously): the adenoma produces excess ACTH, stimulating bilateral adrenal hyperplasia and excess cortisol. High cortisol negatively feeds back to suppress hypothalamic CRH. The pituitary adenoma is partially resistant to cortisol feedback, so ACTH remains elevated (not fully suppressed). Thus: high ACTH, high cortisol, suppressed CRH.",
+    "tags": [
+      "endocrine system",
+      "HPA axis",
+      "Cushing's disease"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Epinephrine is released from the adrenal medulla during acute stress. Its effects include all of the following EXCEPT:",
+    "options": [
+      "Glycogenolysis in liver and muscle (β2/β adrenergic)",
+      "Bronchodilation (β2 adrenergic)",
+      "Decreased heart rate and blood pressure (parasympathetic activation)",
+      "Increased heart rate (β1 adrenergic)"
+    ],
+    "correct": 2,
+    "explanation": "Epinephrine activates sympathetic fight-or-flight responses: increased HR (β1), bronchodilation (β2), vasoconstriction in skin/gut (α1), vasodilation in muscle (β2), glycogenolysis (β2), and lipolysis. It does NOT decrease heart rate or blood pressure—those are parasympathetic (vagal) effects mediated by ACh/muscarinic receptors. Epinephrine increases cardiac output and prepares the body for action.",
+    "tags": [
+      "endocrine system",
+      "epinephrine",
+      "adrenal medulla"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Growth hormone (GH) exerts many of its anabolic effects indirectly through which intermediary produced by the liver?",
+    "options": [
+      "IGF-1 (insulin-like growth factor 1)",
+      "ACTH",
+      "Prolactin",
+      "TSH"
+    ],
+    "correct": 0,
+    "explanation": "GH from the anterior pituitary binds GHR (a cytokine-family receptor) on hepatocytes, activating JAK2-STAT5 signaling, which induces transcription and secretion of IGF-1 (somatomedin C). IGF-1 acts in an endocrine, paracrine, and autocrine manner to promote cell growth, protein synthesis, and tissue proliferation. IGF-1 also feeds back to inhibit GH secretion from the pituitary. Direct GH effects include lipolysis and insulin antagonism (diabetogenic).",
+    "tags": [
+      "endocrine system",
+      "growth hormone",
+      "IGF-1"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Frank-Starling law of the heart states that:",
+    "options": [
+      "The myocardium operates at maximum sarcomere length at rest",
+      "Increasing afterload always increases stroke volume",
+      "Increased end-diastolic volume (preload) stretches the ventricle, increasing stroke volume",
+      "Heart rate is the primary determinant of cardiac output"
+    ],
+    "correct": 2,
+    "explanation": "The Frank-Starling mechanism: greater ventricular filling (preload) stretches sarcomeres, increasing overlap between actin and myosin and enhancing Ca2+ sensitivity of troponin C. This produces a stronger contraction (increased stroke volume) without changing heart rate or contractility. This intrinsic mechanism allows the heart to match output to venous return on a beat-to-beat basis. Afterload (aortic pressure) opposes ejection; high afterload decreases stroke volume.",
+    "tags": [
+      "cardiovascular",
+      "Frank-Starling"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which phase of the cardiac cycle is associated with the highest intraventricular pressure and corresponds to the plateau phase of the ventricular action potential?",
+    "options": [
+      "Isovolumetric relaxation (early diastole)",
+      "Rapid ventricular filling (mid-diastole)",
+      "Isovolumetric contraction followed by rapid ejection (systole)",
+      "Atrial systole (late diastole)"
+    ],
+    "correct": 2,
+    "explanation": "During systole (ventricular contraction), the ventricle develops pressure isovolumetrically until the aortic valve opens (~80 mmHg left ventricle). Rapid ejection follows. The ventricular cardiomyocyte action potential plateau (phase 2, maintained by L-type Ca2+ channels) sustains contraction throughout systole. Isovolumetric relaxation is early diastole when both valves are closed; ventricular pressure falls. Rapid filling and atrial systole are later diastolic phases.",
+    "tags": [
+      "cardiovascular",
+      "cardiac cycle"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In the Starling resistor model of capillary exchange (Starling forces), net fluid movement out of the capillary is INCREASED by:",
+    "options": [
+      "Increased lymphatic drainage",
+      "Increased plasma albumin concentration",
+      "Elevated capillary hydrostatic pressure (Pc) or decreased plasma oncotic pressure (πp)",
+      "Decreased interstitial fluid hydrostatic pressure"
+    ],
+    "correct": 2,
+    "explanation": "Net filtration = Kf [(Pc − Pi) − σ(πp − πi)]. Elevated capillary hydrostatic pressure (Pc; e.g., heart failure, venous obstruction) or decreased plasma oncotic pressure (πp; e.g., hypoalbuminemia from liver disease, nephrotic syndrome) both favor filtration (edema). High albumin increases πp, opposing filtration. Lymphatic drainage removes filtered fluid, reducing edema.",
+    "tags": [
+      "cardiovascular",
+      "Starling forces",
+      "edema"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The Bohr effect describes how increased CO2/H+ shifts the oxyhemoglobin dissociation curve to the right, meaning:",
+    "options": [
+      "Hemoglobin releases O2 more readily at lower pH and higher PCO2 (in metabolically active tissues)",
+      "Hemoglobin binds O2 more tightly at low pH",
+      "The shift occurs only at high altitude",
+      "CO2 increases hemoglobin's affinity for O2"
+    ],
+    "correct": 0,
+    "explanation": "In metabolically active tissues, CO2 and H+ are produced. H+ binds histidines in hemoglobin (T state stabilized), and CO2 forms carbamino-Hb, both reducing O2 affinity (right shift of ODC). At any given PO2, O2 saturation is lower, promoting O2 offloading to tissues. In the lungs, the reverse occurs (low CO2/H+, left shift), favoring O2 loading. 2,3-BPG also shifts the curve right; fetal Hb (HbF) has low 2,3-BPG affinity (left shift).",
+    "tags": [
+      "respiratory",
+      "Bohr effect",
+      "hemoglobin"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The majority of CO2 transported in the blood is carried as:",
+    "options": [
+      "Carbonic acid",
+      "Carbamino-hemoglobin (~23%)",
+      "Dissolved CO2 in plasma (~10%)",
+      "Bicarbonate ions (HCO3-) in plasma (~70%)"
+    ],
+    "correct": 3,
+    "explanation": "CO2 transport: ~70% as HCO3- (CO2 + H2O → H2CO3 → HCO3- + H+, catalyzed by carbonic anhydrase in RBCs; HCO3- exchanges with Cl- via the chloride shift/band 3 protein); ~23% as carbaminohemoglobin (CO2 bound to N-terminal amino groups); ~7–10% dissolved in plasma. In the lungs, these reactions reverse. Carbonic acid is an unstable intermediate, not a stable transport form.",
+    "tags": [
+      "respiratory",
+      "CO2 transport"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The functional residual capacity (FRC) is:",
+    "options": [
+      "The total lung capacity minus the residual volume",
+      "The volume of air remaining in the lungs after a normal (tidal) expiration; FRC = ERV + RV",
+      "The volume exhaled in the first second of a forced expiration (FEV1)",
+      "The maximum air that can be exhaled after maximum inspiration (= vital capacity)"
+    ],
+    "correct": 1,
+    "explanation": "FRC = expiratory reserve volume (ERV) + residual volume (RV). It is the equilibrium volume where the outward recoil of the chest wall equals the inward recoil of the lungs. Vital capacity = IRV + TV + ERV (everything except RV). FEV1 is a dynamic measure. TLC − RV = VC (vital capacity). FRC cannot be measured by simple spirometry (it includes RV); it requires nitrogen washout, helium dilution, or body plethysmography.",
+    "tags": [
+      "respiratory",
+      "lung volumes"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Obstructive lung diseases (e.g., COPD, asthma) are distinguished from restrictive diseases on spirometry by:",
+    "options": [
+      "Normal spirometry in both but abnormal diffusion capacity",
+      "Increased TLC and FRC in restriction",
+      "Increased FEV1/FVC ratio in obstruction",
+      "Decreased FEV1/FVC ratio (<0.7) in obstruction vs. normal or increased FEV1/FVC with reduced TLC in restriction"
+    ],
+    "correct": 3,
+    "explanation": "In obstructive disease: airway resistance is increased; FEV1 falls more than FVC → FEV1/FVC < 0.7 (normal ≥ 0.7). TLC and FRC are often increased (air trapping). In restrictive disease (pulmonary fibrosis, obesity, neuromuscular disease): both FEV1 and FVC are reduced proportionally, preserving the FEV1/FVC ratio (often >0.7 or normal), but TLC is reduced. DLCO (diffusion capacity) is reduced in emphysema (destroyed alveoli) and interstitial fibrosis.",
+    "tags": [
+      "respiratory",
+      "pulmonary function tests",
+      "obstructive vs restrictive"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Hypoxic pulmonary vasoconstriction (HPV) is a unique pulmonary vascular reflex in which:",
+    "options": [
+      "Low O2 causes pulmonary vasodilation to increase blood flow to hypoxic areas",
+      "Low alveolar O2 causes pulmonary arterioles to constrict, redirecting blood to better-ventilated areas",
+      "Systemic arterioles dilate in response to low O2",
+      "HPV is mediated by NO release from alveolar cells"
+    ],
+    "correct": 1,
+    "explanation": "HPV is opposite to the systemic response. In poorly ventilated alveoli, O2 is low; smooth muscle K+ channels close (hypoxia inhibits them), causing depolarization, Ca2+ influx, and vasoconstriction. This V/Q matching redirects blood to well-ventilated regions. In high altitude or diffuse lung disease, global HPV can cause pulmonary hypertension. Systemic arterioles dilate in hypoxia (delivering more O2); the mechanism is reversed in pulmonary circulation.",
+    "tags": [
+      "respiratory",
+      "hypoxic pulmonary vasoconstriction"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Hemoglobin's sigmoidal O2 binding curve (rather than hyperbolic) arises from:",
+    "options": [
+      "Cooperative binding: binding of O2 to one subunit increases O2 affinity of the remaining subunits (T→R state transition)",
+      "Competition between O2 and CO2 for the same heme site",
+      "Irreversible binding of O2 to the heme iron",
+      "Hemoglobin having only one O2 binding site"
+    ],
+    "correct": 0,
+    "explanation": "Hemoglobin is a tetramer (α2β2). Deoxy-Hb is in the tense (T) state with lower O2 affinity. Binding of the first O2 triggers quaternary structure change toward the relaxed (R) state, increasing affinity for subsequent O2 molecules—positive cooperativity. Myoglobin (monomeric) has a hyperbolic curve (no cooperativity). CO2 and 2,3-BPG bind at different sites (not the heme O2 site); CO competes at the heme site.",
+    "tags": [
+      "respiratory",
+      "hemoglobin",
+      "cooperativity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In the nephron, the majority of glucose reabsorption occurs at:",
+    "options": [
+      "The loop of Henle",
+      "The distal convoluted tubule (DCT)",
+      "The collecting duct",
+      "The proximal convoluted tubule (PCT) via SGLT2 (Na+-glucose cotransporter)"
+    ],
+    "correct": 3,
+    "explanation": "~90% of filtered glucose is reabsorbed by SGLT2 (sodium-glucose linked transporter 2) in the early PCT, with the remaining ~10% by SGLT1 in the late PCT. GLUT2 on the basolateral membrane transports glucose into the blood. SGLT2 inhibitors (gliflozins, e.g., empagliflozin) block this reabsorption, causing glucosuria—used to treat T2DM. The loop of Henle, DCT, and collecting duct do not normally reabsorb glucose.",
+    "tags": [
+      "renal",
+      "glucose reabsorption",
+      "PCT"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The glomerular filtration rate (GFR) is best estimated clinically using:",
+    "options": [
+      "Blood urea nitrogen (BUN) alone, since urea is only filtered",
+      "Urine specific gravity",
+      "Serum creatinine (or cystatin C) with the CKD-EPI equation, since creatinine is freely filtered and not reabsorbed",
+      "Serum albumin, since it reflects glomerular permeability"
+    ],
+    "correct": 2,
+    "explanation": "Creatinine is an endogenous marker produced at a relatively constant rate from creatine phosphate in muscle. It is freely filtered at the glomerulus and minimally secreted/not reabsorbed. Rising serum creatinine reflects falling GFR. The CKD-EPI equation estimates GFR using serum creatinine, age, sex, and race. BUN is confounded by protein intake and tubular reabsorption. Albumin in urine (proteinuria) detects glomerular damage, not GFR per se.",
+    "tags": [
+      "renal",
+      "GFR",
+      "creatinine"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "ADH (antidiuretic hormone / vasopressin) increases water reabsorption in the collecting duct by:",
+    "options": [
+      "Opening Na+ channels (ENaC) to drive osmotic water flow",
+      "Inhibiting Na+/K+-ATPase in principal cells",
+      "Binding V2 receptors → cAMP → PKA → insertion of aquaporin-2 (AQP2) channels into the apical membrane",
+      "Directly binding AQP2 to activate it without a receptor"
+    ],
+    "correct": 2,
+    "explanation": "ADH binds V2 receptors (Gαs-coupled) on principal cells of the collecting duct. cAMP → PKA phosphorylates AQP2 vesicles, causing them to fuse with the apical membrane. Water then flows down its osmotic gradient from the tubular lumen into the hypertonic medullary interstitium. AQP3/4 on the basolateral membrane allow water to exit into the blood. Diabetes insipidus results from ADH deficiency (central) or V2/AQP2 mutations (nephrogenic).",
+    "tags": [
+      "renal",
+      "ADH",
+      "aquaporin"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The renin-angiotensin-aldosterone system (RAAS) is activated by which stimulus?",
+    "options": [
+      "Increased GFR causing high Na+ delivery to the macula densa",
+      "High plasma K+ alone (without aldosterone involvement)",
+      "Decreased renal perfusion pressure (sensed by juxtaglomerular cells), low Na+ in macula densa, or sympathetic stimulation",
+      "Increased blood pressure detected by baroreceptors in the kidney"
+    ],
+    "correct": 2,
+    "explanation": "Renin is released from JG cells when: (1) afferent arteriole stretch decreases (low BP), (2) macula densa senses low NaCl in tubular fluid (low GFR or low Na+ reabsorption), or (3) sympathetic β1 receptors on JG cells are activated. Renin cleaves angiotensinogen → Ang I → (ACE) → Ang II. Ang II: vasoconstriction (↑BP), aldosterone release (Na+ retention), ADH release. High BP would inhibit renin release. High plasma K+ does stimulate aldosterone release but independently of renin.",
+    "tags": [
+      "renal",
+      "RAAS"
     ],
     "difficulty": "medium"
   }

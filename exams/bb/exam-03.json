@@ -1,136 +1,990 @@
 [
   {
-    "text": "The Frank-Starling mechanism describes which cardiac property?",
+    "text": "The Henderson-Hasselbalch equation for the bicarbonate buffer system is pH = 6.1 + log([HCO3-]/0.03×PCO2). In metabolic acidosis (e.g., diabetic ketoacidosis):",
     "options": [
-      "Cardiac output is fixed regardless of venous return",
-      "The heart rate increases with increased arterial pressure",
-      "Heart rate is inversely proportional to stroke volume",
-      "Stroke volume increases with increased preload (end-diastolic volume), due to increased myocardial fiber stretch and force generation"
-    ],
-    "correct": 3,
-    "explanation": "Frank-Starling law: within limits, stroke volume is proportional to EDV (preload). Greater ventricular filling → more myofibril overlap → more forceful contraction (Starling mechanism). This is why both ventricles pump equal volumes over time. Increased afterload (SVR) at constant contractility decreases stroke volume. Heart failure reduces the Frank-Starling curve.",
-    "tags": [
-      "cardiovascular physiology",
-      "Frank-Starling"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Pulmonary surfactant, produced by type II pneumocytes, reduces surface tension in alveoli. Without it (as in neonatal respiratory distress syndrome):",
-    "options": [
-      "Alveolar macrophages become hyperactive",
-      "Surfactant removal increases O2 diffusion",
-      "Alveoli collapse (atelectasis) because surface tension increases as alveoli shrink, creating positive feedback of collapse",
-      "Alveoli over-inflate because pressure is increased"
+      "The kidneys excrete HCO3- to compensate",
+      "PCO2 increases as compensation",
+      "HCO3- decreases due to buffering of H+, and the compensatory response is hyperventilation to decrease PCO2",
+      "HCO3- increases to compensate"
     ],
     "correct": 2,
-    "explanation": "By Laplace's law, P = 2T/r; smaller alveoli would collapse unless surface tension (T) decreases as radius decreases. Surfactant (DPPC, dipalmitoylphosphatidylcholine) reduces T proportionally with radius, stabilizing small alveoli. Without surfactant (prematurity, RDS): high T in small alveoli → collapse → atelectasis → hypoxia. Treated with exogenous surfactant and CPAP.",
+    "explanation": "In metabolic acidosis: excess acid consumes HCO3- (H+ + HCO3- → H2O + CO2), lowering serum HCO3- and pH. Chemoreceptors sense the low pH and stimulate hyperventilation, blowing off CO2 (Kussmaul breathing in DKA). Lower PCO2 raises the ratio [HCO3-]/PCO2, partially restoring pH. The kidneys provide slower correction by excreting NH4+ and regenerating HCO3-. Increasing PCO2 would worsen acidosis.",
     "tags": [
-      "respiratory physiology",
-      "surfactant",
-      "lung mechanics"
+      "acid-base",
+      "metabolic acidosis",
+      "Henderson-Hasselbalch"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Which statement about glomerular filtration is correct?",
+    "text": "A patient has pH 7.48, PCO2 32 mmHg, HCO3- 24 mEq/L. What is the acid-base disorder?",
     "options": [
-      "Only small molecules < 1 kDa are filtered",
-      "GFR is determined by net filtration pressure = (Pcap – Pbowman) – oncotic pressure; GFR ≈ 120 mL/min",
-      "The filtration barrier has no size selectivity",
-      "GFR is primarily regulated by hormones acting on tubular cells"
-    ],
-    "correct": 1,
-    "explanation": "GFR is driven by the net balance of Starling forces across the glomerular capillary: hydraulic pressure in capillary (Pgc, ~50 mmHg) minus Bowman's capsule pressure (~15 mmHg) minus plasma oncotic pressure (~30 mmHg) = ~5 mmHg net filtration. Normal GFR ≈ 120-125 mL/min. Regulated by afferent (dilates → increases GFR) and efferent (constricts → increases GFR) arteriolar tone.",
-    "tags": [
-      "renal physiology",
-      "GFR",
-      "filtration"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Aldosterone increases sodium reabsorption by acting on which segment of the nephron?",
-    "options": [
-      "Principal cells of the collecting duct (and late distal tubule), increasing ENaC and Na+/K+ ATPase expression",
-      "Loop of Henle via ADH-sensitive channels",
-      "Thick ascending limb via NKCC2",
-      "Proximal tubule (majority of Na+ reabsorption)"
+      "Primary respiratory alkalosis (low PCO2, elevated pH, normal HCO3-)",
+      "Mixed metabolic acidosis and respiratory alkalosis",
+      "Respiratory acidosis",
+      "Metabolic alkalosis (high HCO3-)"
     ],
     "correct": 0,
-    "explanation": "Aldosterone (from adrenal cortex, stimulated by angiotensin II, high K+) acts on principal cells in the collecting duct: binds cytosolic MR receptor → increases transcription of ENaC (epithelial Na+ channel) and Na+/K+ ATPase. Net: Na+ reabsorption, K+ secretion, water follows Na+. Spironolactone is an aldosterone receptor antagonist (K+-sparing diuretic).",
+    "explanation": "The pH is elevated (alkalosis). PCO2 is low (32 mmHg; normal 35–45)—pointing to primary respiratory alkalosis (hyperventilation). HCO3- is normal (24 mEq/L; normal 22–26), consistent with an acute uncompensated respiratory alkalosis (renal compensation would lower HCO3- over 2–3 days). The absence of HCO3- change indicates this is acute. Metabolic alkalosis would show elevated HCO3- as the primary change.",
     "tags": [
-      "renal physiology",
-      "aldosterone",
-      "RAAS"
+      "acid-base",
+      "respiratory alkalosis"
     ],
-    "difficulty": "medium"
+    "difficulty": "hard"
   },
   {
-    "text": "Parathyroid hormone (PTH) is released in response to hypocalcemia. Its effects include all of the following EXCEPT:",
+    "text": "The counter-current multiplier in the loop of Henle creates a hypertonic medullary interstitium. The key mechanism is:",
     "options": [
-      "Increasing renal Ca2+ reabsorption",
-      "Decreasing bone resorption (PTH increases bone resorption via osteoclast activation)",
-      "Increasing renal phosphate excretion",
-      "Activating renal 1-alpha-hydroxylase to produce calcitriol (active vitamin D)"
+      "Na+/K+-ATPase activity in the thin ascending limb",
+      "Urea recycling from the collecting duct only",
+      "Active NaCl reabsorption (without water) in the thick ascending limb, which is impermeable to water",
+      "Active water transport in the thin descending limb"
+    ],
+    "correct": 2,
+    "explanation": "The thick ascending limb (TAL) of Henle actively reabsorbs NaCl via the NKCC2 cotransporter but is impermeable to water. This dilutes the tubular fluid while concentrating the medullary interstitium. The thin descending limb is permeable to water (not NaCl), so water leaves by osmosis, concentrating tubular fluid. This counter-current arrangement multiplies the osmotic gradient from cortex (~300 mOsm) to inner medulla (~1200 mOsm). Loop diuretics (furosemide) inhibit NKCC2, disrupting the gradient.",
+    "tags": [
+      "renal",
+      "loop of Henle",
+      "counter-current multiplier"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Para-aminohippuric acid (PAH) is used to measure renal plasma flow (RPF) because:",
+    "options": [
+      "PAH is freely reabsorbed in the DCT",
+      "PAH is completely filtered and secreted by the proximal tubule in a single pass, so RPF ≈ UPAH × V / PPAH",
+      "PAH is only filtered, not secreted or reabsorbed",
+      "PAH binds albumin and measures oncotic pressure"
     ],
     "correct": 1,
-    "explanation": "PTH actions on calcium homeostasis: (1) bone: stimulates osteoclast activity → Ca2+ and phosphate release from bone; (2) kidney: increases Ca2+ reabsorption in DCT, increases phosphate excretion, activates 1-alpha-hydroxylase → calcitriol production; (3) gut: indirectly increases Ca2+ absorption via calcitriol. PTH increases serum Ca2+, so answer A is false — PTH INCREASES bone resorption.",
+    "explanation": "At low plasma concentrations, PAH is ~90% extracted from renal plasma (filtered + secreted by organic anion transporters in PCT) in a single pass. This approximates effective RPF (ERPF). Clearance of PAH = UPAH × V/PPAH ≈ RPF. True RPF can be measured by dividing ERPF by extraction ratio (~0.9). Inulin (not PAH) measures GFR because inulin is filtered but not secreted or reabsorbed.",
     "tags": [
-      "endocrine physiology",
+      "renal",
+      "PAH",
+      "renal plasma flow"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In the distal convoluted tubule (DCT), aldosterone causes Na+ reabsorption primarily by upregulating:",
+    "options": [
+      "Aquaporin-2 water channels",
+      "ENaC (epithelial Na+ channel) on the apical surface and Na+/K+-ATPase on the basolateral surface",
+      "SGLT2 cotransporter",
+      "NKCC2 cotransporter"
+    ],
+    "correct": 1,
+    "explanation": "Aldosterone (via MR-SGK1 pathway) increases surface expression and open probability of ENaC (encoded by SCNN1A/B/G) on the apical membrane, and upregulates Na+/K+-ATPase activity on the basolateral membrane. Na+ enters through ENaC and is pumped out basolaterally; K+ secreted into the lumen. NKCC2 is in the TAL (target of furosemide). SGLT2 is in the PCT. AQP2 is regulated by ADH, not aldosterone.",
+    "tags": [
+      "renal",
+      "aldosterone",
+      "DCT"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In respiratory acidosis (e.g., COPD with CO2 retention), the renal compensation involves:",
+    "options": [
+      "Acute buffering by the bicarbonate system (immediate response)",
+      "Increased HCO3- reabsorption and NH4+ excretion by the kidney over 3–5 days, raising plasma HCO3-",
+      "Hyperventilation to blow off CO2",
+      "Increased HCO3- excretion to lower pH further"
+    ],
+    "correct": 1,
+    "explanation": "In respiratory acidosis (high PCO2, low pH), the kidneys compensate over 3–5 days by: increasing H+ secretion (via H+-ATPase and Na+/H+ exchanger), reabsorbing more HCO3-, and excreting more NH4+ (net acid excretion). This raises plasma HCO3-, partially normalizing pH. Hyperventilation would be the response to metabolic acidosis, not the compensation for respiratory acidosis. Acute buffering by bicarbonate is the immediate (~minutes) response; renal compensation is slow.",
+    "tags": [
+      "acid-base",
+      "respiratory acidosis",
+      "renal compensation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Filtered amino acids are reabsorbed in the proximal convoluted tubule by:",
+    "options": [
+      "Passive diffusion down their concentration gradient",
+      "Na+-coupled co-transporters (similar to glucose) on the apical surface, with facilitated diffusion on the basolateral side",
+      "Primary active transport using amino acid-ATPases",
+      "Pinocytosis of the entire glomerular filtrate"
+    ],
+    "correct": 1,
+    "explanation": "Amino acids are freely filtered at the glomerulus and nearly completely reabsorbed in the PCT by Na+-amino acid symporters on the apical brush border. The driving force is the Na+ gradient maintained by basolateral Na+/K+-ATPase. Different transporters handle neutral, basic (cationic), and acidic amino acids. Defects in specific transporters cause aminoacidurias (e.g., cystinuria from defective neutral/cationic transporter; Hartnup disease from neutral amino acid transporter defect).",
+    "tags": [
+      "renal",
+      "amino acid reabsorption",
+      "PCT"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "RNA Polymerase I transcribes ribosomal RNA in the:",
+    "options": [
+      "Cytoplasm",
+      "Nucleolus",
+      "Mitochondrial matrix",
+      "Smooth ER"
+    ],
+    "correct": 1,
+    "explanation": "The nucleolus is a non-membrane-bound nuclear subcompartment organized around ribosomal DNA (rDNA) repeats. RNA Pol I transcribes the large 45S pre-rRNA precursor (processed into 28S, 18S, and 5.8S rRNAs) entirely within the nucleolus. RNA Pol III transcribes 5S rRNA in the nucleoplasm. Cytoplasmic or ER ribosomes translate mRNAs; mitochondria have their own transcription machinery.",
+    "tags": [
+      "transcription",
+      "RNA Pol I",
+      "nucleolus"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following correctly describes the role of the 5'→3' exonuclease activity of eukaryotic XRN1?",
+    "options": [
+      "XRN1 degrades decapped mRNAs in the 5'→3' direction in the cytoplasm",
+      "XRN1 processes 45S pre-rRNA into mature rRNAs",
+      "XRN1 cleaves pre-mRNA at the 3' cleavage site for polyadenylation",
+      "XRN1 removes RNA primers during DNA replication"
+    ],
+    "correct": 0,
+    "explanation": "After mRNA deadenylation and decapping by the decapping enzyme Dcp1/Dcp2, the body of the mRNA is degraded 5'→3' by the cytoplasmic exonuclease XRN1. This is the major mRNA decay pathway. DNA primer removal is by FEN1/RNase H. 3'-end cleavage for polyadenylation is by CPSF73. rRNA processing involves endonucleases and the exosome.",
+    "tags": [
+      "mRNA processing",
+      "mRNA decay"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "During eukaryotic translation, the 80S ribosome is assembled from:",
+    "options": [
+      "60S + 60S subunits",
+      "40S (small) + 60S (large) subunits",
+      "40S + 40S subunits",
+      "30S + 50S subunits"
+    ],
+    "correct": 1,
+    "explanation": "Eukaryotic ribosomes are 80S: the small subunit (40S, containing 18S rRNA) decodes the mRNA, and the large subunit (60S, containing 28S, 5.8S, and 5S rRNA) carries the peptidyl transferase center. Prokaryotic ribosomes are 70S (30S + 50S). These Svedberg (S) values are not additive because they reflect both size and shape. The 70S vs 80S distinction is the basis for selective antibiotic targeting.",
+    "tags": [
+      "translation",
+      "ribosomes"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Trans-splicing, in which exons from two different pre-mRNA molecules are spliced together, is common in:",
+    "options": [
+      "Human somatic cells as a routine process",
+      "Trypanosoma and C. elegans, where a spliced leader sequence is added to most mRNAs",
+      "Mitochondria only",
+      "Only during viral infection"
+    ],
+    "correct": 1,
+    "explanation": "Trans-splicing is characteristic of trypanosomatids (e.g., T. brucei) and nematodes (C. elegans), where a ~39 nt spliced leader (SL) RNA is trans-spliced onto the 5'-end of most mRNAs. It is rare in mammals and occurs only in a small subset of genes (e.g., some chromosomal trans-splicing events). This is distinct from cis-splicing (joining exons within the same pre-mRNA), which is the standard eukaryotic process.",
+    "tags": [
+      "mRNA processing",
+      "trans-splicing"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "A premature stop codon introduced by a nonsense mutation is often detected and the mRNA degraded by:",
+    "options": [
+      "The proteasome",
+      "RNA interference (RNAi)",
+      "Nonsense-mediated mRNA decay (NMD)",
+      "Nonsense-associated altered splicing"
+    ],
+    "correct": 2,
+    "explanation": "NMD is a surveillance pathway: when a ribosome encounters a premature termination codon (PTC) more than ~50 nt upstream of an exon-exon junction (where EJC proteins remain), UPF1/2/3 factors are recruited, triggering rapid mRNA deadenylation, decapping, and decay. This prevents synthesis of potentially dominant-negative truncated proteins. RNAi degrades specific mRNAs but requires complementary small RNA, not PTCs.",
+    "tags": [
+      "mRNA quality control",
+      "NMD"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In eukaryotes, newly synthesized histone proteins are deposited onto newly replicated DNA by histone chaperones during:",
+    "options": [
+      "M phase during condensation",
+      "G1 phase only",
+      "S phase, immediately behind the replication fork, to reform nucleosomes on daughter DNA strands",
+      "G2 phase only"
+    ],
+    "correct": 2,
+    "explanation": "Nucleosome assembly must occur rapidly behind the replication fork to compact newly synthesized DNA and restore chromatin structure. Histone chaperones CAF-1 (Chromatin Assembly Factor 1) and ASF1 deposit H3-H4 tetramers onto newly replicated DNA during S phase. Old (parental) histones with epigenetic marks are also distributed to daughter strands. H2A-H2B dimers are added subsequently.",
+    "tags": [
+      "DNA replication",
+      "chromatin assembly",
+      "histones"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The WRN protein is a helicase/exonuclease mutated in Werner syndrome, a premature aging disorder. WRN participates in which DNA repair pathway?",
+    "options": [
+      "Base excision repair of oxidized bases only",
+      "Resolution of stalled replication forks and repair of DNA double-strand breaks, likely via HR and NHEJ",
+      "Mismatch repair only",
+      "Nucleotide excision repair only"
+    ],
+    "correct": 1,
+    "explanation": "WRN (a RecQ helicase) is involved in maintaining replication fork stability and resolving replication fork stalling. It participates in HR, NHEJ, base excision repair, and telomere maintenance. Loss of WRN causes premature aging features (cataracts, atherosclerosis, neoplasms) due to accumulated genomic instability. RecQ helicases (BLM, WRN, RECQL4) are critical guardians of replication fork integrity.",
+    "tags": [
+      "DNA repair",
+      "Werner syndrome",
+      "RecQ helicase"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which statement correctly describes leading strand synthesis during DNA replication?",
+    "options": [
+      "It does not require primase",
+      "It is synthesized in the 3'→5' direction by a specialized polymerase",
+      "It requires only one RNA primer and is synthesized continuously in the 5'→3' direction toward the replication fork",
+      "It requires multiple RNA primers and is synthesized discontinuously"
+    ],
+    "correct": 2,
+    "explanation": "The leading strand template runs 3'→5', so DNA Pol synthesizes leading strand DNA 5'→3' continuously in the direction of fork movement. It requires only one initial RNA primer. The lagging strand requires multiple primers (one per Okazaki fragment) and is synthesized discontinuously. All DNA synthesis (leading and lagging) requires primase to provide the initial 3'-OH.",
+    "tags": [
+      "DNA replication",
+      "leading strand"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Intercalating agents (e.g., ethidium bromide, acridine orange) cause mutations by:",
+    "options": [
+      "Blocking transcription factor binding",
+      "Inserting between base pairs, distorting the helix and causing frameshift mutations (insertions or deletions) during replication",
+      "Causing direct base oxidation",
+      "Introducing single-strand nicks in DNA"
+    ],
+    "correct": 1,
+    "explanation": "Intercalating agents wedge between adjacent base pairs in dsDNA, locally elongating and unwinding the helix. During replication, this distortion causes DNA polymerase to insert an extra nucleotide or skip a nucleotide, producing frameshift mutations. This is why ethidium bromide is mutagenic and must be handled carefully. It also causes false bands in gel electrophoresis but its mutagenic mechanism is through intercalation.",
+    "tags": [
+      "DNA repair",
+      "mutagens",
+      "frameshift"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "O6-methylguanine, a mutagenic alkylation product, is repaired by which mechanism?",
+    "options": [
+      "Direct reversal by O6-methylguanine DNA methyltransferase (MGMT), which transfers the methyl group to itself",
+      "Nucleotide excision repair",
+      "Mismatch repair",
+      "Base excision repair with a specific glycosylase"
+    ],
+    "correct": 0,
+    "explanation": "O6-methylguanine is directly reversed—not excised—by MGMT (alkyltransferase). MGMT irreversibly transfers the methyl group from O6-MeG to a cysteine residue on itself, restoring guanine. This is a suicide reaction (one MGMT molecule per repair event). O6-MeG mispairs with thymine, causing G:C→A:T transitions if unrepaired. MGMT promoter hypermethylation in glioblastoma predicts response to temozolomide (an alkylating agent).",
+    "tags": [
+      "DNA repair",
+      "alkylation",
+      "MGMT"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The TATA-binding protein (TBP) binds the TATA box and bends the DNA. Which consequence of this bending is functionally important?",
+    "options": [
+      "It marks histones for acetylation at the promoter",
+      "It facilitates recruitment of other GTFs (TFIIB, TFIIF, TFIIE, TFIIH) and RNA Pol II to form the pre-initiation complex",
+      "It directly unwinds the DNA strands for transcription",
+      "It methylates the TATA box cytosines to enhance binding"
+    ],
+    "correct": 1,
+    "explanation": "TBP bends the DNA ~90° toward the major groove, creating a platform for sequential assembly of the pre-initiation complex (PIC): TBP (part of TFIID) → TFIIB (recruits RNA Pol II/TFIIF) → TFIIE → TFIIH. TFIIH has helicase activity to unwind the promoter for open complex formation, and its CDK7 subunit phosphorylates the Pol II CTD to initiate elongation. TBP itself only bends DNA; it does not unwind strands, methylate DNA, or acetylate histones.",
+    "tags": [
+      "transcription",
+      "PIC assembly",
+      "TFIID"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "X-chromosome inactivation (Lyonization) in female mammals is initiated by expression of:",
+    "options": [
+      "DNA methyltransferase DNMT3B acting on the X chromosome",
+      "XIST mRNA encoding a repressor protein",
+      "Histone H1 binding specifically to one X chromosome",
+      "XIST lncRNA (X-inactive specific transcript), which coats the inactive X chromosome in cis"
+    ],
+    "correct": 3,
+    "explanation": "XIST is a long non-coding RNA (lncRNA) transcribed from and coating the future inactive X chromosome in cis. XIST RNA recruits Polycomb repressive complexes (PRC1/2), leading to H3K27me3, H2AK119ub, DNA methylation of CpG islands, and incorporation of the histone variant macroH2A. The result is facultative heterochromatin (Barr body). XIST is not translated into a repressor protein—it acts as RNA.",
+    "tags": [
+      "gene regulation",
+      "X inactivation",
+      "XIST",
+      "lncRNA"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In a negatively regulated operon, the repressor is ACTIVE (bound to operator) when:",
+    "options": [
+      "RNA Pol II is also bound to the promoter",
+      "The sigma factor dissociates from the promoter",
+      "The inducer (substrate) is abundant",
+      "The corepressor (end product) is abundant—typical of biosynthetic operons like the trp operon"
+    ],
+    "correct": 3,
+    "explanation": "In repressible operons (anabolic, e.g., trp operon), the aporepressor protein is inactive until it binds the corepressor (the pathway end product—tryptophan). Corepressor + aporepressor = active repressor that binds the operator and blocks transcription. This is feedback inhibition at the transcriptional level. In inducible operons (catabolic, e.g., lac operon), the repressor is active until an inducer (allolactose) binds and inactivates it.",
+    "tags": [
+      "gene regulation",
+      "operon",
+      "repressor"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Bromodomain-containing proteins recognize:",
+    "options": [
+      "Methylated cytosines in CpG dinucleotides",
+      "Ubiquitinated H2A",
+      "Acetylated lysine residues on histone tails, functioning as 'readers' of active chromatin marks",
+      "Phosphorylated serine residues on H3"
+    ],
+    "correct": 2,
+    "explanation": "Bromodomains are protein modules that recognize acetyl-lysine (Kac) residues on histone tails, linking histone acetylation to downstream effector recruitment. BET proteins (BRD2, BRD3, BRD4) contain tandem bromodomains and are important regulators of transcription and cancer. BET inhibitors (JQ1, I-BET) are in clinical trials. Chromodomains and MBT domains read methylated residues; 14-3-3 proteins read phosphoserine.",
+    "tags": [
+      "epigenetics",
+      "bromodomain",
+      "histone readers"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The SWI/SNF chromatin remodeling complex promotes gene expression by:",
+    "options": [
+      "Degrading cohesin at enhancer-promoter loop junctions",
+      "Adding acetyl groups to histone lysine residues",
+      "Using ATP hydrolysis to reposition or eject nucleosomes, increasing DNA accessibility for transcription factors",
+      "Methylating CpG islands in promoters"
+    ],
+    "correct": 2,
+    "explanation": "SWI/SNF (mammalian: BAF complex) is an ATP-dependent chromatin remodeling complex that disrupts histone-DNA contacts, sliding or evicting nucleosomes to expose regulatory DNA sequences. It cooperates with HATs: remodelers increase access, HATs acetylate nucleosomes to stabilize the open state. BAF complex subunits (ARID1A, SMARCB1/SNF5) are frequently mutated in cancers. HATs (not SWI/SNF) add acetyl groups; DNMTs methylate CpG; cohesin is removed by WAPL.",
+    "tags": [
+      "gene regulation",
+      "chromatin remodeling",
+      "SWI/SNF"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The JAK-STAT signaling pathway is primarily activated by:",
+    "options": [
+      "Ion channels in response to ligand binding",
+      "RTKs like the EGF receptor",
+      "Cytokine receptors (e.g., interferon, IL-6, EPO receptors) that lack intrinsic kinase activity but associate with JAK kinases",
+      "GPCRs via Gαs"
+    ],
+    "correct": 2,
+    "explanation": "Cytokine receptors (Type I: GH, EPO, G-CSF; Type II: interferons) are non-enzymatic but constitutively associated with JAK1/2/3 or TYK2. Cytokine binding causes receptor dimerization, JAK transactivation → STAT phosphorylation (Tyr) → STAT dimerization → nuclear translocation → gene expression. SOCS proteins provide negative feedback. RTKs have intrinsic kinase activity; GPCRs use G proteins; ion channels gate ions.",
+    "tags": [
+      "cell signaling",
+      "JAK-STAT"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Protein phosphatase 2A (PP2A) functions as a tumor suppressor in many cancers. Its role in signaling is to:",
+    "options": [
+      "Remove phosphate groups from signaling proteins, dampening kinase cascades such as MAPK and PI3K/Akt",
+      "Acetylate histones to activate transcription",
+      "Degrade ubiquitinated proteins",
+      "Add phosphate groups to activate proliferation signals"
+    ],
+    "correct": 0,
+    "explanation": "PP2A is a serine/threonine phosphatase that dephosphorylates and inactivates key signaling proteins including Akt (Thr308, Ser473), ERK, and c-Myc. By opposing oncogenic kinase activity, PP2A acts as a tumor suppressor. It is inactivated in many cancers by mutations in its B subunit (PR65/A), overexpression of inhibitors (SET, CIP2A), or viral oncoproteins (SV40 small t antigen blocks PP2A).",
+    "tags": [
+      "cell signaling",
+      "phosphatases",
+      "PP2A"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Nitric oxide (NO) is a gaseous second messenger that activates soluble guanylyl cyclase to produce cGMP. In vascular smooth muscle, this leads to:",
+    "options": [
+      "Increased heart rate via PKA",
+      "Vasoconstriction via increased Ca2+ release",
+      "Platelet aggregation via TXA2 production",
+      "Vasodilation via PKG-mediated phosphorylation and inactivation of myosin light chain kinase"
+    ],
+    "correct": 3,
+    "explanation": "NO (produced by eNOS in endothelium in response to shear stress, ACh, bradykinin) diffuses into smooth muscle cells and activates soluble guanylyl cyclase → cGMP → PKG. PKG phosphorylates myosin light chain kinase (MLCK), reducing its activity, decreasing myosin phosphorylation, and causing smooth muscle relaxation/vasodilation. This is the mechanism of nitroglycerin (converted to NO) for angina relief. Sildenafil inhibits PDE5 (cGMP phosphodiesterase) to prolong vasodilation.",
+    "tags": [
+      "cell signaling",
+      "nitric oxide",
+      "cGMP"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Phosphoinositide-3-kinase (PI3K) phosphorylates which membrane lipid to generate the second messenger PIP3?",
+    "options": [
+      "DAG → phosphatidic acid",
+      "PIP3 → PIP2 (this is PTEN's reaction)",
+      "PIP2 (phosphatidylinositol-4,5-bisphosphate) → PIP3 (phosphatidylinositol-3,4,5-trisphosphate)",
+      "Sphingomyelin → ceramide and phosphocholine"
+    ],
+    "correct": 2,
+    "explanation": "Class I PI3K (activated by RTKs or GPCRs) phosphorylates the 3-position of the inositol head group of PIP2, generating PIP3 at the inner leaflet of the plasma membrane. PIP3 recruits PH domain-containing proteins (Akt, PDK1) to the membrane for activation. PTEN is a phosphatase that reverses this (PIP3→PIP2) and is a major tumor suppressor. Phospholipase C cleaves PIP2 to IP3+DAG (different pathway).",
+    "tags": [
+      "cell signaling",
+      "PI3K",
+      "PIP3"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Wnt signaling promotes cell proliferation by stabilizing which transcription co-activator?",
+    "options": [
+      "PCNA, normally degraded in G1",
+      "E2F, normally inhibited by Rb",
+      "β-catenin, which is normally targeted for proteasomal degradation by the destruction complex (APC/Axin/GSK3β/CK1)",
+      "NFκB, normally sequestered by IκB"
+    ],
+    "correct": 2,
+    "explanation": "Without Wnt: the destruction complex (APC, Axin, GSK3β, CK1) phosphorylates β-catenin, targeting it for β-TrCP E3 ubiquitin ligase and proteasomal degradation. With Wnt: Frizzled/LRP co-receptor activation recruits Dishevelled, inactivating the destruction complex. β-catenin accumulates, translocates to nucleus, and binds TCF/LEF transcription factors to activate Myc, cyclin D1, and other proliferation genes. APC mutations drive colorectal cancer (β-catenin constitutively active).",
+    "tags": [
+      "cell signaling",
+      "Wnt",
+      "beta-catenin"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "CDK inhibitors (CKIs) of the INK4 family (p16INK4a, p15INK4b) specifically inhibit:",
+    "options": [
+      "CDK2, preventing S phase DNA synthesis",
+      "CDK1 (M phase CDK), preventing mitotic entry",
+      "All CDKs equally by binding the ATP site",
+      "CDK4 and CDK6 (G1 CDKs), preventing cyclin D association and Rb phosphorylation"
+    ],
+    "correct": 3,
+    "explanation": "INK4 proteins bind the CMGC-family CDK4/6 and prevent cyclin D from associating, maintaining Rb in its hypophosphorylated, E2F-inhibiting state. p16INK4a (encoded by CDKN2A) is one of the most frequently inactivated tumor suppressors in human cancers (deletion, methylation, mutation). The Cip/Kip family (p21Cip1, p27Kip1, p57Kip2) inhibits a broader range of cyclin-CDK complexes including CDK2-cyclin E/A.",
+    "tags": [
+      "cell cycle",
+      "CDK inhibitors",
+      "INK4"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Telomere shortening with each cell division ultimately triggers:",
+    "options": [
+      "Chromosome fusions and aneuploidy without any growth arrest",
+      "Activation of telomerase in all somatic cells",
+      "Replicative senescence or apoptosis when telomeres become critically short, activating p53/p21 pathways",
+      "Immediate cell death at the first division"
+    ],
+    "correct": 2,
+    "explanation": "Human somatic cells lack telomerase and shorten telomeres with each division (the Hayflick limit, ~50–70 divisions for fibroblasts). When telomeres become critically short, they are recognized as DSBs, activating ATM/p53/p21, causing irreversible G1 arrest (senescence). If senescence is bypassed (p53 mutation), cells enter crisis with chromosome fusions/breakage-fusion cycles and massive genomic instability, from which rare cells escape via telomerase reactivation (~90% of cancers).",
+    "tags": [
+      "cell cycle",
+      "telomeres",
+      "senescence"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The tumor suppressor PTEN is a phosphatase that opposes PI3K signaling. Loss of PTEN function leads to:",
+    "options": [
+      "Decreased Ras-GTP and reduced MAPK signaling",
+      "Increased p53 activity and enhanced apoptosis",
+      "Elevated PIP3 levels and constitutive Akt activation, promoting cell survival and proliferation",
+      "Activation of the APC destruction complex"
+    ],
+    "correct": 2,
+    "explanation": "PTEN (phosphatase and tensin homolog) dephosphorylates PIP3 back to PIP2, antagonizing PI3K and suppressing Akt signaling. PTEN loss (mutation, deletion, epigenetic silencing) in cancers (breast, prostate, glioblastoma, endometrial) causes constitutive PIP3/Akt activation, promoting cell survival, proliferation, and mTOR-mediated anabolism. PTEN does not regulate p53, Ras, or APC directly.",
+    "tags": [
+      "cancer",
+      "PTEN",
+      "PI3K/Akt"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In what phase of the cell cycle does chromosomal DNA condense and become visible as discrete chromosomes?",
+    "options": [
+      "Cytokinesis",
+      "Prophase of mitosis (and prophase I of meiosis)",
+      "S phase",
+      "G2 phase (before prophase)"
+    ],
+    "correct": 1,
+    "explanation": "Chromosomal condensation begins in prophase of mitosis, driven by condensin complexes and CDK1-cyclin B phosphorylation of condensin subunits, compacting ~2-meter chromosomes into ~10 micrometer rod-shaped structures. Although chromosomes begin condensing in late G2, they become individually visible and defined in prophase. Chromosomes are replicated in S phase (as sister chromatids). Cytokinesis separates the cytoplasm after chromosome separation.",
+    "tags": [
+      "cell cycle",
+      "mitosis",
+      "chromosome condensation"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Natural killer (NK) cells kill target cells that:",
+    "options": [
+      "Are coated with IgE antibody",
+      "Only present foreign peptides on MHC class II",
+      "Have lost or downregulated MHC class I expression ('missing self'), as in virus-infected or cancer cells",
+      "Express high levels of MHC class I ('self' cells)"
+    ],
+    "correct": 2,
+    "explanation": "NK cells use inhibitory receptors (KIR, NKG2A) that recognize self-MHC class I to prevent killing of healthy cells. When a cell downregulates MHC I (a viral immune evasion strategy or tumor escape), the inhibitory signal is absent ('missing self'), and activating signals (NKG2D recognizing stress ligands MICA/MICB) dominate, triggering NK cytotoxicity. IgE-coated targets are killed by eosinophils (ADCC) and mast cell degranulation.",
+    "tags": [
+      "immunology",
+      "NK cells",
+      "missing self"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The primary (first exposure) vs. secondary (re-exposure) antibody response differs in that the secondary response:",
+    "options": [
+      "Produces mainly IgM with lower affinity",
+      "Requires a longer lag period before antibodies appear",
+      "Does not involve memory B cells",
+      "Is faster, produces higher antibody titers, and predominantly generates IgG with higher affinity due to immunological memory"
+    ],
+    "correct": 3,
+    "explanation": "Primary response: lag of 7–10 days, predominantly IgM, lower affinity, shorter duration. Secondary response: lag of 1–3 days, predominantly IgG (class-switched), higher affinity (affinity maturation in germinal centers), longer duration. Memory B cells (and long-lived plasma cells) established during the primary response rapidly differentiate into antibody-secreting plasma cells upon re-exposure. This is the immunological basis of vaccination.",
+    "tags": [
+      "immunology",
+      "primary vs secondary response",
+      "memory"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In an ELISA (Enzyme-Linked Immunosorbent Assay), the signal is generated by:",
+    "options": [
+      "An enzyme conjugated to a secondary antibody that converts a substrate to a detectable colored product",
+      "Fluorescent proteins expressed by the target cells",
+      "Precipitation of antigen-antibody complexes",
+      "Radioactive isotopes attached to primary antibodies"
+    ],
+    "correct": 0,
+    "explanation": "In a direct or sandwich ELISA: antigen captured on a plate is detected by a primary antibody, then a secondary antibody conjugated to an enzyme (HRP or alkaline phosphatase). Adding the substrate produces a colored product proportional to the amount of antigen. ELISA is widely used for diagnostics (HIV antibody test, pregnancy hCG). RIA uses radioactive isotopes; IFA uses fluorescent secondary antibodies; agar precipitation (Ouchterlony) uses immune complexes.",
+    "tags": [
+      "immunology",
+      "ELISA",
+      "techniques"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The process by which developing T cells in the thymus that recognize self-peptide/MHC with very high affinity are deleted is called:",
+    "options": [
+      "Positive selection, occurring in the thymic cortex",
+      "NK-mediated fratricide",
+      "Clonal anergy in secondary lymphoid organs",
+      "Negative selection (clonal deletion), occurring primarily in the thymic medulla"
+    ],
+    "correct": 3,
+    "explanation": "T cell development: in the thymic cortex, double-positive (CD4+CD8+) thymocytes undergo positive selection—only those that can recognize self-MHC with appropriate affinity survive. In the thymic medulla, single-positive thymocytes undergo negative selection—those that recognize self-antigens (presented by medullary epithelial cells and dendritic cells) with too-high affinity are deleted (central tolerance). AIRE (autoimmune regulator) allows medullary presentation of peripheral tissue antigens.",
+    "tags": [
+      "immunology",
+      "T cell development",
+      "negative selection"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Long-term potentiation (LTP) at hippocampal Schaffer collateral synapses involves which initial molecular event?",
+    "options": [
+      "Adenosine receptor activation increasing cAMP",
+      "Direct opening of voltage-gated Ca2+ channels by glutamate",
+      "AMPA receptor activation depolarizes the postsynaptic membrane, relieving Mg2+ block of NMDA receptors, allowing Ca2+ influx",
+      "Presynaptic release of BDNF upon high-frequency stimulation"
+    ],
+    "correct": 2,
+    "explanation": "LTP (the cellular basis of learning/memory) is induced at CA3→CA1 synapses by high-frequency stimulation (tetanus): multiple AMPA-receptor activations depolarize the postsynaptic membrane, relieving the Mg2+ block of NMDA receptors. Ca2+ influx via NMDA receptors activates CaMKII, which phosphorylates AMPA receptors (increasing conductance) and promotes their insertion into the synapse. Long-lasting LTP requires MAPK, PKA, CREB-mediated gene expression, and AMPA receptor synthesis.",
+    "tags": [
+      "nervous system",
+      "LTP",
+      "synaptic plasticity"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The blood-brain barrier (BBB) is formed primarily by:",
+    "options": [
+      "Cerebrospinal fluid that bathes and protects the brain",
+      "Thick myelin sheaths around brain capillaries",
+      "Microglia that phagocytose foreign substances",
+      "Tight junctions between cerebral endothelial cells, supplemented by astrocyte end-feet and pericytes"
+    ],
+    "correct": 3,
+    "explanation": "The BBB consists of cerebral endothelial cells joined by tight junctions (claudin-5, occludin, ZO-1) that prevent paracellular passage of water-soluble molecules. Astrocyte end-feet and pericytes maintain and regulate BBB function. Lipophilic molecules (O2, CO2, anesthetics, ethanol) and specific transporter substrates (glucose via GLUT1, amino acids) cross readily. Myelin insulates axons, not capillaries. Microglia are brain-resident macrophages.",
+    "tags": [
+      "nervous system",
+      "blood-brain barrier"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which neurotransmitter is primarily deficient in Parkinson's disease, and from where is it normally released?",
+    "options": [
+      "Dopamine, released from dopaminergic neurons of the substantia nigra pars compacta that project to the striatum",
+      "Serotonin, from the raphe nuclei",
+      "Acetylcholine, from cholinergic neurons of the basal nucleus of Meynert",
+      "Norepinephrine, from the locus coeruleus"
+    ],
+    "correct": 0,
+    "explanation": "Parkinson's disease is characterized by progressive degeneration of dopaminergic neurons in the substantia nigra pars compacta (SNpc), which project via the nigrostriatal pathway to the striatum (caudate, putamen). Loss of dopamine disrupts basal ganglia circuitry, causing the cardinal features: resting tremor, rigidity, bradykinesia, and postural instability. Treatment: L-DOPA (crosses BBB; converted to dopamine). Lewy bodies (α-synuclein aggregates) are the pathological hallmark.",
+    "tags": [
+      "nervous system",
+      "Parkinson's disease",
+      "dopamine"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "At the neuromuscular junction, acetylcholine binds nicotinic ACh receptors (nAChRs). These receptors are:",
+    "options": [
+      "Ligand-gated cation channels that allow Na+ (and some Ca2+) influx, depolarizing the motor end plate",
+      "Voltage-gated channels activated by membrane depolarization",
+      "G-protein coupled receptors that increase cAMP",
+      "Ligand-gated Cl- channels causing hyperpolarization"
+    ],
+    "correct": 0,
+    "explanation": "nAChRs (pentameric ligand-gated ion channels: α2βγδ at NMJ) are non-selective cation channels permeable to Na+, K+, and Ca2+. ACh binding causes Na+ influx (down its gradient), generating the end plate potential (EPP). Sufficient depolarization at the end plate triggers a muscle action potential via voltage-gated Na+ channels and muscle contraction. Muscarinic AChRs are GPCRs. GABAA is an inhibitory Cl- channel. Voltage-gated channels respond to voltage, not ligands directly.",
+    "tags": [
+      "nervous system",
+      "neuromuscular junction",
+      "nAChR"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Oxytocin release during parturition is an example of a positive feedback loop because:",
+    "options": [
+      "Oxytocin is released from the anterior pituitary in response to high estrogen",
+      "The placenta produces oxytocin independently",
+      "Oxytocin inhibits further contractions once a threshold is reached",
+      "Uterine contractions stimulate more oxytocin release from the posterior pituitary, which causes more contractions, amplifying the response until delivery"
+    ],
+    "correct": 3,
+    "explanation": "Positive feedback in endocrinology is rare; oxytocin during labor is a classic example. Stretching of the uterine cervix sends sensory signals to the hypothalamus → posterior pituitary → oxytocin release → uterine contractions → more cervical stretch → more oxytocin. This cascade escalates until delivery removes the stimulus. Unlike negative feedback (which maintains homeostasis), positive feedback amplifies deviation from baseline. Breastfeeding (milk ejection reflex) also uses oxytocin positive feedback.",
+    "tags": [
+      "endocrine system",
+      "oxytocin",
+      "positive feedback"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "ADH (vasopressin) release from the posterior pituitary is stimulated primarily by:",
+    "options": [
+      "Decreased plasma osmolality (dilution)",
+      "High sodium intake alone (not osmolality)",
+      "ACTH release from the anterior pituitary",
+      "Increased plasma osmolality (detected by hypothalamic osmoreceptors) and decreased blood volume/pressure"
+    ],
+    "correct": 3,
+    "explanation": "ADH is synthesized in hypothalamic nuclei (supraoptic and paraventricular) and stored in/released from the posterior pituitary. Main stimuli: (1) increased plasma osmolality sensed by hypothalamic osmoreceptors (threshold ~280 mOsm/kg); (2) decreased blood volume/pressure sensed by baroreceptors (a stronger stimulus). Both stimuli together act synergistically. ADH binds V2 receptors in the collecting duct → AQP2 insertion → water retention. In SIADH, ADH is inappropriately elevated despite low osmolality.",
+    "tags": [
+      "endocrine system",
+      "ADH",
+      "osmoregulation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Parathyroid hormone (PTH) raises serum calcium by acting on all of the following targets EXCEPT:",
+    "options": [
+      "The kidney (activates 1α-hydroxylase to produce active vitamin D)",
+      "The thyroid gland (to increase calcitonin, which opposes PTH)",
+      "The kidney (increases Ca2+ reabsorption in DCT; decreases phosphate reabsorption)",
+      "Bone (stimulates osteoclast activity indirectly via RANK-L on osteoblasts)"
+    ],
+    "correct": 1,
+    "explanation": "PTH directly targets the kidney (increases Ca2+ reabsorption in DCT, decreases PO4 reabsorption, activates 1α-hydroxylase to make calcitriol/1,25-OH2-D3) and bone (stimulates osteoblasts to secrete RANK-L, which activates osteoclasts for bone resorption). PTH does NOT target the thyroid gland. Calcitonin (from thyroid C-cells) lowers serum Ca2+ and opposes PTH, but PTH does not stimulate calcitonin secretion; they are separately regulated.",
+    "tags": [
+      "endocrine system",
       "PTH",
-      "calcium homeostasis"
+      "calcium regulation"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "The oxyhemoglobin dissociation curve shifts to the RIGHT (decreased O2 affinity) with:",
+    "text": "Type 1 diabetes mellitus (T1DM) differs from type 2 (T2DM) in that T1DM is characterized by:",
     "options": [
-      "Decreased temperature, decreased pCO2, increased pH",
-      "Carbon monoxide poisoning",
-      "Increased temperature, increased pCO2, decreased pH, increased 2,3-BPG (Bohr effect)",
-      "Fetal hemoglobin (HbF)"
+      "Inability of cells to respond to insulin due to receptor mutations",
+      "Autoimmune destruction of pancreatic beta cells, leading to absolute insulin deficiency",
+      "Insulin resistance in target tissues with initially preserved beta cell function",
+      "Excess glucagon from alpha cells only"
+    ],
+    "correct": 1,
+    "explanation": "T1DM: autoimmune attack (CD8+ T cells, anti-islet antibodies) destroys >90% of beta cells → absolute insulin deficiency → hyperglycemia, ketoacidosis (without insulin, lipolysis is unchecked, producing ketone bodies). T2DM: peripheral insulin resistance (reduced GLUT4 translocation, impaired IRS signaling) with compensatory hyperinsulinemia, followed by beta cell exhaustion. T2DM patients retain some insulin secretion; DKA is rare. Mutations in the insulin receptor cause severe insulin resistance syndromes (rare).",
+    "tags": [
+      "endocrine system",
+      "diabetes",
+      "T1DM vs T2DM"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Carbon monoxide (CO) poisoning is particularly dangerous because CO:",
+    "options": [
+      "Binds hemoglobin with ~240 times the affinity of O2, forming carboxyhemoglobin that cannot carry O2, and shifts the ODC left",
+      "Damages red blood cells, causing hemolytic anemia",
+      "Increases 2,3-BPG production to compensate",
+      "Binds the cytochrome c oxidase (complex IV) of the electron transport chain exclusively"
+    ],
+    "correct": 0,
+    "explanation": "CO has ~240× greater affinity for hemoglobin than O2, forming HbCO that cannot carry O2. HbCO also shifts the remaining oxyhemoglobin curve left (increases O2 affinity), impairing O2 delivery to tissues. CO also inhibits cytochrome c oxidase (this is an additional mechanism at high concentrations). Treatment: 100% O2 (or hyperbaric O2 to compete with CO). CO does not directly destroy RBCs or increase 2,3-BPG.",
+    "tags": [
+      "respiratory",
+      "CO poisoning",
+      "hemoglobin"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The P-R interval on an electrocardiogram (ECG) represents:",
+    "options": [
+      "Atrial repolarization",
+      "The duration of ventricular depolarization",
+      "The time from ventricular depolarization to repolarization",
+      "The time for electrical conduction from the SA node through the AV node and His-Purkinje system to the ventricular myocardium"
+    ],
+    "correct": 3,
+    "explanation": "The P wave represents atrial depolarization. The PR interval (0.12–0.20 s) represents the delay between atrial depolarization and ventricular depolarization, corresponding to slow conduction through the AV node and His-Purkinje system. Prolonged PR interval (>0.20 s) indicates first-degree AV block. The QRS complex (0.08–0.12 s) represents ventricular depolarization. The QT interval includes ventricular depolarization + repolarization. Atrial repolarization is hidden within the QRS.",
+    "tags": [
+      "cardiovascular",
+      "ECG"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Fetal hemoglobin (HbF, α2γ2) has a higher O2 affinity than adult HbA (α2β2) because:",
+    "options": [
+      "Fetal blood has a lower pH that increases O2 binding",
+      "HbF has four α-chains instead of two",
+      "HbF has different heme groups with higher O2 affinity",
+      "γ-globin chains bind 2,3-BPG less avidly than β-chains, so HbF has less allosteric right-shifting"
+    ],
+    "correct": 3,
+    "explanation": "2,3-BPG stabilizes the deoxy (T) state of HbA by binding between the β-chains. The γ-chains of HbF have serine (instead of histidine) at position 143, reducing 2,3-BPG binding affinity. Lower 2,3-BPG binding means HbF has higher O2 affinity (left-shifted ODC). This allows fetal blood to extract O2 from maternal HbA across the placenta (where maternal blood releases O2 and fetal blood loads it). Both have identical heme groups.",
+    "tags": [
+      "respiratory",
+      "fetal hemoglobin",
+      "2,3-BPG"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Ventricular fibrillation (VF) is a life-threatening arrhythmia because:",
+    "options": [
+      "The QRS complex is widened, causing delayed conduction only",
+      "The atria fail to contract, reducing ventricular filling",
+      "The ventricles contract too slowly to perfuse organs",
+      "Disorganized ventricular electrical activity produces no effective mechanical contraction and no cardiac output"
+    ],
+    "correct": 3,
+    "explanation": "In VF, chaotic re-entrant electrical waves cause uncoordinated quivering of ventricular myocardium with no organized contraction, resulting in zero cardiac output and immediate circulatory arrest. CPR (maintains minimal perfusion) and defibrillation (depolarizes entire myocardium simultaneously, resetting a normal rhythm) are required. Bradycardia is slow but organized. Atrial fibrillation (AF) is often tolerated because ventricular filling (~25%) is maintained by passive filling and slow AF doesn't eliminate cardiac output.",
+    "tags": [
+      "cardiovascular",
+      "arrhythmia",
+      "ventricular fibrillation"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Carbonic anhydrase inhibitors (e.g., acetazolamide) cause diuresis by:",
+    "options": [
+      "Blocking HCO3- reabsorption in the PCT (since CA is needed to convert luminal H2CO3 to CO2 for reabsorption), causing increased HCO3- excretion and metabolic acidosis",
+      "Antagonizing aldosterone receptors in the DCT",
+      "Blocking the NKCC2 transporter in the loop of Henle",
+      "Blocking ADH receptors in the collecting duct"
+    ],
+    "correct": 0,
+    "explanation": "In the PCT, luminal carbonic anhydrase (CA IV) converts secreted H+ + HCO3- → H2CO3 → H2O + CO2. Without CA, H2CO3 accumulates in the lumen and HCO3- is not reabsorbed. This causes bicarbonaturia (urine alkalinization), osmotic diuresis, and metabolic acidosis (loss of HCO3-). Acetazolamide is used for altitude sickness (mild alkalosis) and some glaucoma/epilepsy conditions. Loop diuretics block NKCC2; spironolactone blocks aldosterone receptors; vaptans block V2/ADH receptors.",
+    "tags": [
+      "renal",
+      "carbonic anhydrase",
+      "PCT",
+      "diuretics"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In the proximal tubule, the primary driver of most secondary active transport (glucose, amino acids, phosphate) is:",
+    "options": [
+      "The Cl- gradient maintained by basolateral Cl- channels",
+      "The Na+ electrochemical gradient established by basolateral Na+/K+-ATPase, which keeps intracellular Na+ low",
+      "The H+ gradient created by luminal carbonic anhydrase",
+      "Direct ATP hydrolysis by apical transporters"
+    ],
+    "correct": 1,
+    "explanation": "Secondary active transport couples the movement of a solute (glucose, amino acid, phosphate) to the Na+ gradient. The basolateral Na+/K+-ATPase (primary active transport) pumps 3 Na+ out and 2 K+ in per ATP, keeping intracellular Na+ low (~10–15 mM vs. luminal ~140 mM). This electrochemical gradient drives Na+-coupled symporters (SGLT2, SGLUT, NaPi) on the apical surface. Without Na+/K+-ATPase, all Na+-coupled transport in the kidney would fail.",
+    "tags": [
+      "renal",
+      "secondary active transport",
+      "Na+/K+-ATPase"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Loop diuretics (e.g., furosemide) are among the most potent diuretics because:",
+    "options": [
+      "They antagonize aldosterone in the DCT",
+      "They inhibit NKCC2 in the thick ascending limb, destroying the corticomedullary osmotic gradient and preventing ADH-mediated water reabsorption in the collecting duct",
+      "They block ENaC in the collecting duct",
+      "They inhibit carbonic anhydrase in the PCT"
+    ],
+    "correct": 1,
+    "explanation": "The thick ascending limb (TAL) reabsorbs ~25% of filtered NaCl via NKCC2, building the medullary hyperosmotic gradient needed for concentrated urine formation. Furosemide (binds Cl- site of NKCC2) abolishes this gradient, so even when ADH inserts AQP2 channels, there is no osmotic gradient to drive water reabsorption. This results in large volumes of dilute urine (loss of Na+, K+, Cl-, Ca2+, Mg2+). Used in heart failure, pulmonary edema, hypertension.",
+    "tags": [
+      "renal",
+      "loop diuretics",
+      "furosemide"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient has metabolic alkalosis. Causes include all EXCEPT:",
+    "options": [
+      "Milk-alkali syndrome (excess alkali ingestion)",
+      "Vomiting (loss of HCl)",
+      "Primary hyperaldosteronism (increased H+ secretion in DCT)",
+      "Diabetic ketoacidosis (which causes metabolic acidosis)"
+    ],
+    "correct": 3,
+    "explanation": "Metabolic alkalosis: primary increase in HCO3- or loss of H+. Causes include vomiting (loss of gastric HCl → net gain of HCO3-), diuretic use (contraction alkalosis, hypokalemia), hyperaldosteronism (increased H+ secretion in DCT raises plasma HCO3-), and excess alkali ingestion (milk-alkali syndrome). Diabetic ketoacidosis produces ketoacids (β-hydroxybutyrate, acetoacetate), consuming HCO3- and causing metabolic ACIDOSIS (with anion gap).",
+    "tags": [
+      "acid-base",
+      "metabolic alkalosis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The anion gap = [Na+] - ([Cl-] + [HCO3-]), with a normal value of 8–12 mEq/L. In anion gap metabolic acidosis, the gap is elevated because:",
+    "options": [
+      "Unmeasured anions (lactate, ketones, salicylate, toxin metabolites) accumulate and consume HCO3- without being replaced by Cl-",
+      "Excess HCl is ingested, increasing Cl- and decreasing HCO3-",
+      "The kidneys fail to secrete Cl-",
+      "Na+ is lost in the urine"
+    ],
+    "correct": 0,
+    "explanation": "In non-anion gap metabolic acidosis (normal anion gap/hyperchloremic): HCO3- is lost (diarrhea) or H+ is gained as HCl (RTA, NH4Cl ingestion) → Cl- rises proportionally → anion gap unchanged. In anion gap metabolic acidosis (MUDPILES: methanol, uremia, DKA, propylene glycol/isoniazid, lactic acidosis, ethylene glycol, salicylates): organic acid anions accumulate, HCO3- falls, but these unmeasured anions are not measured as Cl-, so the anion gap increases.",
+    "tags": [
+      "acid-base",
+      "anion gap",
+      "metabolic acidosis"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which amino acid is the only one that lacks a chiral alpha carbon?",
+    "options": [
+      "Serine",
+      "Alanine",
+      "Proline",
+      "Glycine"
+    ],
+    "correct": 3,
+    "explanation": "Glycine has two H atoms on its alpha carbon (R = H), giving it two identical substituents and no chirality. Every other standard amino acid has four distinct groups at the alpha carbon and exists as the L-enantiomer in proteins.",
+    "tags": [
+      "amino acids",
+      "chirality"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "At physiological pH (~7.4), which amino acid side chain is best positioned to donate or accept a proton and function as an acid-base catalyst?",
+    "options": [
+      "Glutamine",
+      "Aspartate",
+      "Histidine",
+      "Lysine"
     ],
     "correct": 2,
-    "explanation": "Right shift (decreased O2 affinity, more O2 delivery to tissues): increased T (fever/exercise), increased pCO2 (exercising tissues), decreased pH (Bohr effect), increased 2,3-BPG (altitude, anemia). Left shift (increased O2 affinity): decreased T, alkalosis, decreased 2,3-BPG, CO poisoning (CO shifts curve left AND occupies binding sites), HbF (lower 2,3-BPG affinity).",
+    "explanation": "Histidine's imidazole side chain has pKa ≈ 6.0, closest to physiological pH of all standard amino acids. This lets it toggle between protonated and deprotonated forms under physiological conditions. Lysine (pKa ≈ 10.5) stays protonated; aspartate (pKa ≈ 3.9) stays deprotonated; glutamine has no ionizable side chain.",
     "tags": [
-      "respiratory physiology",
-      "hemoglobin",
-      "O2 dissociation curve"
+      "amino acids",
+      "enzyme catalysis"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "During exercise, increased CO2 and H+ in working muscles cause:",
+    "text": "Which amino acid side chain contains a thiol group (–SH) that can form disulfide bonds?",
     "options": [
-      "Vasoconstriction in working muscles",
-      "Hemoglobin to bind more O2 (left shift)",
-      "Right shift of oxyhemoglobin dissociation curve → increased O2 unloading to working muscles",
-      "Decreased cardiac output to spare oxygen"
+      "Serine",
+      "Methionine",
+      "Threonine",
+      "Cysteine"
+    ],
+    "correct": 3,
+    "explanation": "Cysteine's thiol (–SH) group is oxidized to form disulfide bonds (–S–S–) with another cysteine, stabilizing tertiary/quaternary protein structure. Serine and threonine have –OH groups. Methionine contains a thioether (–S–CH3) that cannot form disulfide bonds.",
+    "tags": [
+      "amino acids",
+      "protein structure"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Why does proline disrupt alpha-helices?",
+    "options": [
+      "Its side chain is too large to fit in the helix",
+      "It carries a negative charge at physiological pH",
+      "Its side chain bonds to the backbone nitrogen, eliminating the N–H hydrogen bond donor",
+      "It forms an extra covalent bond with adjacent residues"
     ],
     "correct": 2,
-    "explanation": "This is the Bohr effect in action: CO2 from aerobic metabolism lowers muscle pH → hemoglobin's O2 affinity decreases (right shift) → more O2 released at a given PO2 → increased O2 delivery to the active tissue. Simultaneously, increased CO2 stimulates respiration (peripheral and central chemoreceptors), increasing ventilation and O2 delivery.",
+    "explanation": "Proline's nitrogen is locked in a pyrrolidine ring with its side chain, removing the backbone N–H needed for hydrogen bonding in a helix. This creates a rigid kink, making proline a 'helix breaker.' It can appear at the end of helices or in beta-turns.",
     "tags": [
-      "respiratory physiology",
-      "Bohr effect",
-      "exercise physiology"
+      "amino acids",
+      "protein structure"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "The thyroid hormones T3 and T4 are synthesized from which amino acid?",
+    "text": "Proteins absorb strongly at 280 nm primarily because of which amino acids?",
     "options": [
+      "Phenylalanine and alanine",
+      "Methionine and cysteine",
+      "Glycine and proline",
+      "Tryptophan and tyrosine"
+    ],
+    "correct": 3,
+    "explanation": "Tryptophan (indole ring) and tyrosine (phenol ring) absorb at 280 nm due to aromatic pi electrons. Tryptophan has the larger extinction coefficient. This is used to estimate protein concentration spectrophotometrically. Phenylalanine absorbs weakly at ~257 nm.",
+    "tags": [
+      "amino acids",
+      "spectroscopy"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which amino acid is the direct precursor for catecholamine biosynthesis (dopamine, norepinephrine, epinephrine)?",
+    "options": [
+      "Tryptophan",
       "Histidine",
       "Phenylalanine",
-      "Tyrosine (iodinated by thyroid peroxidase)",
-      "Tryptophan"
+      "Tyrosine"
     ],
-    "correct": 2,
-    "explanation": "Thyroid hormone synthesis: tyrosine residues in thyroglobulin are iodinated by thyroid peroxidase (TPO) → monoiodotyrosine (MIT) and diiodotyrosine (DIT) → coupling: DIT + DIT → T4 (thyroxine); DIT + MIT → T3 (triiodothyronine). T3 is the more potent form; T4 is converted to T3 in peripheral tissues by deiodinase. TPO is inhibited by propylthiouracil (PTU) and methimazole.",
+    "correct": 3,
+    "explanation": "Tyrosine → L-DOPA (tyrosine hydroxylase) → Dopamine → Norepinephrine → Epinephrine. Phenylalanine can be converted to tyrosine by phenylalanine hydroxylase, but tyrosine is the direct precursor. Tryptophan makes serotonin. Histidine makes histamine.",
     "tags": [
-      "endocrine physiology",
-      "thyroid hormones"
+      "amino acids",
+      "neurotransmitters"
     ],
     "difficulty": "medium"
+  },
+  {
+    "text": "In eukaryotes, which amino acid is delivered by the initiator tRNA at the start codon AUG?",
+    "options": [
+      "Alanine",
+      "Valine",
+      "Methionine",
+      "Leucine"
+    ],
+    "correct": 2,
+    "explanation": "AUG codes for methionine and serves as the start codon in eukaryotes (the initiator tRNA is met-tRNAi). In prokaryotes, the initiator carries N-formyl-methionine (fMet). The initiating methionine is often cleaved post-translationally.",
+    "tags": [
+      "amino acids",
+      "translation"
+    ],
+    "difficulty": "easy"
   }
 ]

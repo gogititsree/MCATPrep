@@ -1,50 +1,159 @@
 [
   {
-    "passageText": "The pandemic decade transformed public understanding of mRNA vaccine technology, which had been in development for decades before the SARS-CoV-2 crisis propelled it to global prominence. Traditional vaccines introduce attenuated pathogens, inactivated pathogens, or purified protein antigens to stimulate immune responses. mRNA vaccines instead introduce the instructions for the body's own cells to produce a target antigen — in the case of COVID-19 vaccines, the spike protein of SARS-CoV-2.\n\nThe fundamental challenge of mRNA vaccine development had long been stability and delivery. Naked mRNA is rapidly degraded by ubiquitous extracellular RNases, and the negatively charged molecule cannot easily cross cell membranes. Lipid nanoparticles (LNPs), the delivery vehicle used in the first approved mRNA vaccines, encapsulate the mRNA, protecting it from degradation and facilitating cellular uptake via endocytosis. A second innovation was the use of nucleoside modifications (specifically, substituting pseudouridine for uridine in the mRNA) to reduce the innate immune response that would otherwise degrade transfected mRNA before it could be translated.\n\nOnce inside cells, the mRNA is translated by ribosomes to produce the spike protein, which is then displayed on the cell surface, stimulating both humoral (antibody) and cellular (T-cell) immune responses. The mRNA itself does not enter the nucleus and cannot be integrated into genomic DNA — a key safety feature that distinguishes mRNA vaccines from retroviral gene therapy. The mRNA degrades within days after translation.\n\nThe platform has broader applications beyond infectious disease: mRNA approaches are in clinical trials for cancer immunotherapy (personalized tumor-specific neoantigens), rare genetic diseases, and cardiovascular conditions. The speed of mRNA vaccine development — from sequence to clinical trial in days — positions the platform as a critical tool for pandemic preparedness, though equitable global access to the technology and cold-chain distribution requirements remain significant barriers.",
+    "passageText": "Chronic pain represents one of medicine's most challenging clinical and conceptual problems. Unlike acute pain, which functions as a warning signal of tissue damage and typically resolves with healing, chronic pain persists long after the original injury — and often in the complete absence of identifiable tissue pathology. This persistence led to decades of clinical skepticism, with patients whose pain could not be explained by detectable damage labeled as malingerers, psychosomatic cases, or drug-seekers. The biomedical model, which sought a one-to-one correspondence between tissue damage and reported pain, was an inadequate framework for understanding chronic pain's complexity.\n\nRonald Melzack and Patrick Wall's gate control theory, proposed in 1965, offered a neurological basis for the modulation of pain signals. The theory proposed that pain transmission is regulated by a 'gate' in the spinal dorsal horn, which can be opened or closed by peripheral nerve signals and by descending messages from the brain. This meant that psychological and emotional states — anxiety, attention, expectation — could modulate the pain signal before it reached conscious experience. Gate control theory was later revised and extended into neuromatrix theory, which emphasized the brain as an active generator of pain experience rather than a passive receiver of peripheral signals.\n\nThe biopsychosocial model, developed by George Engel as a critique of biomedicine, holds that illness is always the product of interacting biological, psychological, and social factors. Applied to chronic pain, this model highlights the role of pain catastrophizing (the tendency to ruminate on pain, magnify its threat, and feel helpless in its presence), psychological comorbidities, social support, and the healthcare system's own responses. Central sensitization — the neurological phenomenon in which the central nervous system becomes persistently hyperexcitable, amplifying pain signals in the absence of ongoing tissue damage — provides a biological mechanism for the persistence of pain that psychological factors can both trigger and sustain.\n\nPlacebo analgesia has proven particularly illuminating. Placebos produce genuine neurobiological changes — activating endogenous opioid systems, reducing spinal nociceptive processing — not mere subjective distortion. This finding has two implications: first, that the mind-body distinction underlying biomedical skepticism about chronic pain was always oversimplified; and second, that the therapeutic relationship itself, through its effects on expectation and trust, is a neurobiologically active component of treatment, not merely a confound to be controlled.",
     "questions": [
       {
-        "text": "According to the passage, the primary challenge in early mRNA vaccine development was:",
+        "text": "The passage implies that biomedical skepticism toward chronic pain patients whose pain lacked identifiable tissue damage was:",
         "options": [
-          "Difficulty identifying appropriate target antigens",
-          "mRNA instability and delivery across cell membranes",
-          "The body's inability to produce antibody responses to mRNA",
-          "Regulatory resistance to novel vaccine platforms"
+          "Justified given the state of neurological knowledge before gate control theory",
+          "Based on a framework that required one-to-one correspondence between damage and pain, which was an inadequate model",
+          "Primarily motivated by financial concerns about prescription drug costs",
+          "Correct in identifying psychological factors as the exclusive cause of unexplained pain"
         ],
         "correct": 1,
-        "explanation": "The passage states: 'The fundamental challenge of mRNA vaccine development had long been stability and delivery. Naked mRNA is rapidly degraded by ubiquitous extracellular RNases, and the negatively charged molecule cannot easily cross cell membranes.'"
+        "explanation": "The passage states that 'the biomedical model, which sought a one-to-one correspondence between tissue damage and reported pain, was an inadequate framework for understanding chronic pain.' The dismissal of such patients followed from this inadequate model. Option A partially acknowledges historical context but frames the skepticism as justified, which the passage does not. Option C introduces financial motivations not mentioned. Option D overstates — the passage discusses psychological factors as modulating, not exclusively causing, pain."
       },
       {
-        "text": "The passage indicates that lipid nanoparticles (LNPs) address which specific problem in mRNA vaccine delivery?",
+        "text": "Gate control theory was significant because it provided a mechanism for which observation?",
         "options": [
-          "They integrate mRNA into the host genome for stable expression",
-          "They encapsulate mRNA to protect from degradation and facilitate cellular uptake",
-          "They directly stimulate T-cell responses without translation",
-          "They eliminate the need for cold-chain storage"
+          "Chronic pain always corresponds to identifiable peripheral tissue damage",
+          "Psychological and emotional states can modulate pain signals before they reach conscious experience",
+          "Placebos produce genuine neurobiological changes in the opioid system",
+          "Central sensitization is the primary cause of all chronic pain conditions"
         ],
         "correct": 1,
-        "explanation": "The passage states LNPs 'encapsulate the mRNA, protecting it from degradation and facilitating cellular uptake via endocytosis.' The passage does not claim LNPs enable genomic integration (in fact, the opposite is stated), or that they stimulate T-cells directly, or eliminate cold-chain requirements."
+        "explanation": "The passage states that gate control theory showed 'psychological and emotional states — anxiety, attention, expectation — could modulate the pain signal before it reached conscious experience.' This is option B. Option A is the biomedical model the theory helped displace. Option C describes placebo research, discussed in a different paragraph. Option D describes central sensitization, a separate concept."
       },
       {
-        "text": "The passage states that mRNA vaccines cannot integrate into the host genome because:",
+        "text": "Pain catastrophizing, as described in the passage, is an example of which category of factor in the biopsychosocial model?",
         "options": [
-          "The mRNA is too short to encode integrase enzymes",
-          "LNPs prevent the mRNA from reaching the nucleus",
-          "mRNA does not enter the nucleus and degrades within days",
-          "The immune system destroys any mRNA that enters the nucleus"
+          "Biological",
+          "Social",
+          "Psychological",
+          "Neurological"
         ],
         "correct": 2,
-        "explanation": "The passage states: 'The mRNA itself does not enter the nucleus and cannot be integrated into genomic DNA.' It also notes that 'the mRNA degrades within days after translation.' The mechanism is simply that mRNA operates in the cytoplasm, not the nucleus where DNA integration would occur."
+        "explanation": "The passage lists catastrophizing alongside 'psychological comorbidities' and distinguishes it from biological factors (central sensitization) and social factors (social support, healthcare system responses). Catastrophizing — ruminating on pain, magnifying its threat, feeling helpless — is a cognitive-emotional pattern, which is a psychological factor. Neurological is a subcategory of biological and not one of the three biopsychosocial categories."
       },
       {
-        "text": "The author characterizes the speed of mRNA vaccine development primarily as:",
+        "text": "The discussion of placebo analgesia in the final paragraph most directly challenges which assumption?",
         "options": [
-          "A risk to safety because insufficient time for testing",
-          "An advantage for pandemic preparedness",
-          "Irrelevant to vaccine efficacy",
-          "A disadvantage compared to traditional vaccine platforms"
+          "That chronic pain patients are reliable reporters of their own experience",
+          "That the therapeutic relationship has any clinical significance",
+          "That a sharp distinction between mind and body is an adequate framework for understanding pain",
+          "That endogenous opioid systems exist"
+        ],
+        "correct": 2,
+        "explanation": "The passage concludes from placebo research that 'the mind-body distinction underlying biomedical skepticism about chronic pain was always oversimplified.' Placebos produce real neurobiological changes, demonstrating that mental states (expectation, trust) have direct biological effects — collapsing the sharp mind-body divide. Option B is the opposite of what the passage claims: the therapeutic relationship is 'neurobiologically active,' implying it has clinical significance. Options A and D are not challenged by the placebo discussion."
+      },
+      {
+        "text": "Central sensitization is introduced in the passage primarily to:",
+        "options": [
+          "Explain why all chronic pain has a psychological cause",
+          "Provide a biological mechanism for pain persistence that psychological factors can influence",
+          "Demonstrate that peripheral nerve signals are the primary determinants of pain intensity",
+          "Support the view that chronic pain patients are exaggerating their symptoms"
         ],
         "correct": 1,
-        "explanation": "The passage states: 'The speed of mRNA vaccine development — from sequence to clinical trial in days — positions the platform as a critical tool for pandemic preparedness.' This is explicitly presented as an advantage, though the passage also notes remaining barriers (access, cold chain)."
+        "explanation": "The passage describes central sensitization as 'the neurological phenomenon in which the central nervous system becomes persistently hyperexcitable, amplifying pain signals in the absence of ongoing tissue damage' and notes that 'psychological factors can both trigger and sustain' it. Its role is to bridge the biological and psychological dimensions of the biopsychosocial model. Option A overstates — the passage says psychological factors interact with, not exclusively cause, sensitization. Option C contradicts the concept of central (not peripheral) sensitization. Option D is opposite to the passage's intent."
+      }
+    ]
+  },
+  {
+    "passageText": "The problem of other minds asks how we can know that other people have conscious inner lives — that there is 'something it is like' to be them, in Thomas Nagel's influential formulation. Nagel's essay 'What Is It Like to Be a Bat?' argued that the subjective, first-person character of conscious experience is irreducible to any third-person, objective description, however complete. We can know all the neurophysiology of bat echolocation without thereby knowing what it is like to experience the world through sonar. The same gulf, Nagel implies, separates any two conscious beings whose experiential structures differ sufficiently.\n\nTwo major philosophical frameworks address how we understand other minds. Theory-theory holds that we attribute mental states to others by applying a folk-psychological theory — a set of generalizations about how mental states cause behavior. When we observe someone reach for an umbrella, we infer the belief that it will rain and the desire to stay dry. This attribution is inferential, third-personal, and explicitly representational. Simulation theory, by contrast, holds that we understand others by running their situation through our own cognitive systems — we simulate their perspective by imaginatively taking up their point of view, using our own mental processes as a model.\n\nThe discovery of mirror neurons in macaque monkeys in the 1990s appeared to offer a neural substrate for simulation theory. These neurons fire both when the monkey performs an action and when it observes the same action performed by another. Some researchers extrapolated to human empathy: perhaps the capacity to resonate with others' emotions is grounded in a neural mirroring system that directly maps observed action and emotion onto the observer's own motor and affective systems. The claim attracted enormous popular interest but also significant scientific criticism, with critics arguing that the function of mirror neurons remains poorly understood and that the leap from macaque motor neurons to human empathy is empirically unwarranted.\n\nResearch on autism has added practical stakes to these theoretical debates. Early accounts portrayed autism as a deficit in a 'theory of mind' module — an impaired capacity to attribute mental states to others, explaining social difficulties. More recent research has complicated this picture, suggesting that autistic individuals may process social information differently rather than lacking social cognition entirely, and raising questions about whose model of normal social cognition is being used as the standard. The double empathy problem, proposed by researcher Damian Milton, holds that the difficulties in autistic-neurotypical interaction reflect a bidirectional mismatch: neurotypical individuals also have difficulty understanding autistic experience, but this difficulty is rarely pathologized because neurotypical norms dominate the clinical gaze.",
+    "questions": [
+      {
+        "text": "Nagel's 'bat' argument is intended to demonstrate that:",
+        "options": [
+          "Bats have richer conscious experiences than humans",
+          "Neuroscience will eventually provide a complete account of all conscious experience",
+          "The subjective character of experience cannot be captured by any objective, third-person description",
+          "Simulation theory is more adequate than theory-theory for understanding other minds"
+        ],
+        "correct": 2,
+        "explanation": "The passage explains that Nagel argues 'the subjective, first-person character of conscious experience is irreducible to any third-person, objective description, however complete.' We could know all bat neurophysiology without knowing what echolocation experience is like. The argument is about the limits of objective description, not comparative richness (A), neuroscience's prospects (B), or adjudicating between simulation and theory-theory (D)."
+      },
+      {
+        "text": "According to the passage, simulation theory differs from theory-theory in that simulation theory holds:",
+        "options": [
+          "We understand others by applying a set of generalizations about how mental states cause behavior",
+          "We understand others by imaginatively taking up their perspective using our own mental processes as a model",
+          "Mirror neurons provide direct evidence that social cognition is purely neurological",
+          "Autistic individuals have an impaired theory of mind module"
+        ],
+        "correct": 1,
+        "explanation": "The passage defines simulation theory as understanding others 'by running their situation through our own cognitive systems — we simulate their perspective by imaginatively taking up their point of view.' Option A is theory-theory. Options C and D describe other claims in the passage not used to define simulation theory."
+      },
+      {
+        "text": "The critics of mirror neuron research described in the passage would most likely object to which claim?",
+        "options": [
+          "Mirror neurons fire during both action performance and observation in macaques",
+          "Human empathy is directly and adequately explained by a neural mirroring system analogous to macaque mirror neurons",
+          "Autistic individuals process social information differently from neurotypical individuals",
+          "Theory-theory requires explicit representational inference"
+        ],
+        "correct": 1,
+        "explanation": "The passage states that critics argue 'the function of mirror neurons remains poorly understood and that the leap from macaque motor neurons to human empathy is empirically unwarranted.' The critics do not dispute the macaque findings per se (A) — they object to the extrapolation to human empathy. Options C and D are claims not attributed to mirror neuron advocates, so they are not what the critics are objecting to."
+      },
+      {
+        "text": "The 'double empathy problem' proposed by Milton challenges which assumption underlying early autism research?",
+        "options": [
+          "That autistic individuals experience difficulties in social interaction",
+          "That social cognitive difficulties are bidirectional, affecting neurotypical individuals equally",
+          "That the neurotypical model of social cognition is a neutral, universal standard rather than a particular perspective",
+          "That mirror neurons underlie all forms of social understanding"
+        ],
+        "correct": 2,
+        "explanation": "The passage describes the double empathy problem as holding that 'neurotypical individuals also have difficulty understanding autistic experience, but this difficulty is rarely pathologized because neurotypical norms dominate the clinical gaze.' This challenges the assumption that the neurotypical standard is neutral and universal. Option A is not challenged — the passage acknowledges social difficulties. Option B partially misrepresents the argument: Milton does say difficulties are bidirectional, but the key point is about pathologization, not equality. Option D concerns mirror neurons, a separate issue."
+      }
+    ]
+  },
+  {
+    "passageText": "The twentieth century witnessed the largest migration in human history: the movement of populations from rural to urban environments. By 2007, for the first time, more than half of the world's population lived in cities, a proportion projected to reach two-thirds by mid-century. This shift raises fundamental questions not only about economic development and infrastructure but about what conditions support or undermine human flourishing.\n\nJane Jacobs, in her landmark 1961 work on American cities, argued against the prevailing urban renewal ideology that had produced vast housing projects and single-use zoning. Vital neighborhoods, Jacobs contended, required diversity — of use, of building age, of resident income — and density sufficient to generate the casual street life that she saw as the connective tissue of community. Jacobs's empirical eye captured something that planners' abstract models missed: the 'intricate ballet' of the street was not chaos to be rationalized but an evolved, self-organizing social order. Her critique of top-down planning anticipated later complexity theorists who saw cities as emergent systems rather than designed machines.\n\nThe sociologist Georg Simmel, writing in 1903, offered a darker analysis. The metropolitan dweller, confronted by the overwhelming stimulation of urban life — the speed, noise, variety, and anonymity — develops a 'blasé attitude' as a psychological defense. Rather than experiencing each person and event with fresh emotional engagement, the urbanite cultivates detachment and reserve. Simmel's analysis is not simply a complaint about city life; it is a structural argument: the very features that make cities productive and stimulating — their scale, anonymity, and sensory intensity — necessarily generate psychological alienation.\n\nRay Oldenburg's concept of 'third places' — neither home (first place) nor work (second place), but the taverns, barbershops, coffee houses, and public squares that serve as informal gathering grounds — identifies what urban design often fails to provide and what human community requires. Third places are characterized by accessible location, low cost, playfulness, and the presence of regulars; they function as social levelers, crossing class and status lines. Their decline — attributed variously to automobile-centric planning, long commutes, and the privatization of public space — is implicated in the epidemic of loneliness that social scientists have documented in contemporary affluent societies. The tension between the solitude that allows for individual depth and the community that sustains psychological health remains one of urbanization's unresolved inheritances.",
+    "questions": [
+      {
+        "text": "Jane Jacobs's critique of urban renewal is best summarized as arguing that:",
+        "options": [
+          "Cities should be planned as efficiently as possible to maximize economic output",
+          "Vital urban life requires the diversity and density that top-down single-use zoning destroys",
+          "Urban renewal projects improved community life by replacing deteriorated housing",
+          "Cities are too complex to be studied empirically and should be governed by planners' intuition"
+        ],
+        "correct": 1,
+        "explanation": "The passage states that Jacobs argued against 'single-use zoning' and for diversity of 'use, building age, and resident income' and sufficient density to generate 'casual street life.' Her critique targeted top-down planning as destroying the evolved social order of streets. Option C contradicts Jacobs's critique. Option A and D misrepresent her view — she was skeptical of planners' abstract models, not an advocate for planning efficiency."
+      },
+      {
+        "text": "Simmel's concept of the 'blasé attitude' is presented in the passage as:",
+        "options": [
+          "A moral failing of urban residents who should be more engaged with their communities",
+          "A structural consequence of the same urban features that also make cities productive",
+          "Evidence that cities are inherently inferior to rural environments for human flourishing",
+          "A temporary adaptation that disappears as city residents become more experienced"
+        ],
+        "correct": 1,
+        "explanation": "The passage states that Simmel's analysis is 'not simply a complaint' but 'a structural argument: the very features that make cities productive and stimulating — their scale, anonymity, and sensory intensity — necessarily generate psychological alienation.' This is option B — the blasé attitude is a structural consequence, not a moral failing (A), not evidence of rural superiority (C — which goes beyond Simmel's analysis), and not described as temporary (D)."
+      },
+      {
+        "text": "According to the passage, third places serve which social function that first and second places do not?",
+        "options": [
+          "Providing spaces for professional networking and career advancement",
+          "Serving as informal, accessible gathering grounds that cross class and status lines",
+          "Offering private spaces for individual reflection and solitude",
+          "Replacing the need for home and workplace in modern urban settings"
+        ],
+        "correct": 1,
+        "explanation": "The passage defines third places as 'informal gathering grounds' that 'function as social levelers, crossing class and status lines.' Option A describes a function the passage does not attribute to third places. Option C describes solitude, which the passage mentions as a tension against community but does not associate with third places. Option D misrepresents Oldenburg — third places are a third category, not a replacement for the first two."
+      },
+      {
+        "text": "The author's final sentence about 'the tension between solitude and community' implies that:",
+        "options": [
+          "Urban design has successfully resolved the conflict between individual depth and communal health",
+          "The decline of third places is the only factor responsible for contemporary loneliness",
+          "The challenge of balancing individual solitude and communal connection remains an ongoing problem in urban life",
+          "Urbanization has definitively harmed human flourishing compared to pre-urban societies"
+        ],
+        "correct": 2,
+        "explanation": "The passage closes by describing this tension as 'one of urbanization's unresolved inheritances,' explicitly signaling that it remains an ongoing, unresolved challenge. Option A contradicts 'unresolved.' Option B overstates — the passage describes the decline of third places as 'implicated in' loneliness, not as the only cause. Option D is not supported — the passage examines both costs and benefits of urban life without declaring it a net harm."
       }
     ]
   }

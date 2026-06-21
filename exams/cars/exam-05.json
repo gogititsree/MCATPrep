@@ -1,610 +1,170 @@
 [
   {
-    "passageText": "Passage 13: This passage examines mental health stigma in a skeptical voice. It describes major debates, historical context, and theoretical implications while contrasting competing viewpoints in a measured way.",
+    "passageText": "The emergence of behavioral economics in the late twentieth century challenged the dominant rational-agent models that had governed economic theory for decades. Traditional economic theory, rooted in neoclassical principles, assumed that individuals make decisions by carefully weighing all available information, calculating expected utilities, and selecting the option that maximizes personal welfare. This idealized agent — Homo economicus — was mathematically tractable but empirically problematic.\n\nDaniel Kahneman and Amos Tversky's prospect theory, developed in the 1970s and 1980s, offered a descriptively accurate alternative. Their experiments revealed consistent patterns of irrationality: people are loss-averse (losses loom larger than equivalent gains), weight probabilities non-linearly (overweighting small probabilities and underweighting moderate and high probabilities), and evaluate outcomes relative to a reference point rather than in absolute terms. These findings undermined the expected utility framework in a way that could not be dismissed as random error.\n\nThe implications for policy were quickly recognized. If individuals reliably make predictable errors, governments and institutions could design choice architectures — 'nudges' — that guide people toward better outcomes without restricting freedom of choice. Automatic enrollment in retirement savings plans, calorie labeling, and organ donation opt-out defaults are all examples. Critics, however, argue that nudge policies are paternalistic, implicitly assuming that policymakers know better than individuals what constitutes a good outcome. Others raise concerns about transparency: if nudges work by exploiting cognitive biases, their effectiveness depends partly on the subject's unawareness of them.\n\nThe behavioralist critique of rationality has itself been critiqued. Some economists argue that apparent irrationalities dissolve under scrutiny: the ecological rationality framework (Gigerenzer) holds that many 'biases' are actually adaptive heuristics that perform well in naturalistic environments, even if they fail on laboratory tasks constructed to expose their limits. The debate touches fundamental questions about what rationality means: is it defined by coherent preferences, by adaptive behavior, or by some external standard of correctness?",
     "questions": [
       {
-        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "text": "The author's primary purpose in the passage is to:",
         "options": [
-          "The author strongly advocates for mental health stigma without acknowledging limitations.",
-          "The author endorses the opposite position on mental health stigma from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than mental health stigma.",
-          "The author takes a skeptical stance toward mental health stigma and emphasizes evidence-based reasoning."
+          "Argue that behavioral economics has definitively replaced neoclassical theory",
+          "Describe the emergence of behavioral economics, its policy implications, and ongoing debates about its claims",
+          "Advocate for nudge policies as the most effective form of government intervention",
+          "Explain why Homo economicus remains the dominant model in economics"
         ],
-        "correct": 3,
-        "explanation": "The passage uses a skeptical tone and centers on mental health stigma. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "correct": 1,
+        "explanation": "The passage presents behavioral economics' development and policy implications in a balanced way, then introduces critiques from multiple sides. The author does not take a strong stance for or against any position, making option B the most accurate description of the primary purpose."
       },
       {
-        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "text": "According to prospect theory as described in the passage, which of the following best illustrates loss aversion?",
         "options": [
-          "The author strongly advocates for mental health stigma without acknowledging limitations.",
-          "The author endorses the opposite position on mental health stigma from the one presented.",
-          "The author takes a skeptical stance toward mental health stigma and emphasizes evidence-based reasoning.",
-          "The passage focuses mainly on unrelated technical details rather than mental health stigma."
+          "Choosing a certain $50 gain over a 50% chance of $100",
+          "Feeling more distressed about losing $100 than pleased about winning $100",
+          "Overestimating the probability of a rare airline crash",
+          "Evaluating a salary relative to a reference point"
+        ],
+        "correct": 1,
+        "explanation": "Loss aversion means that 'losses loom larger than equivalent gains.' Option B directly illustrates this asymmetry. Option A describes risk aversion (not loss aversion specifically). Option C illustrates probability overweighting of small probabilities. Option D illustrates reference-point evaluation."
+      },
+      {
+        "text": "The passage implies that nudge policies depend on which assumption to be effective?",
+        "options": [
+          "People are fully rational and will recognize the optimal choice when presented properly",
+          "Cognitive biases are random and unpredictable",
+          "Predictable patterns of irrationality can be anticipated and directed toward better outcomes",
+          "Policymakers should restrict choices to prevent poor decisions"
         ],
         "correct": 2,
-        "explanation": "The passage uses a skeptical tone and centers on mental health stigma. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "explanation": "The passage states that nudges work by exploiting 'predictable errors.' For a nudge to succeed, the biases it targets must be consistent and foreseeable, not random. The passage explicitly contrasts nudges (preserving choice) with restrictions, ruling out option D."
       },
       {
-        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "text": "Gigerenzer's 'ecological rationality' framework would most likely respond to demonstrations of human irrationality in laboratory studies by arguing that:",
         "options": [
-          "The author endorses the opposite position on mental health stigma from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than mental health stigma.",
-          "The author strongly advocates for mental health stigma without acknowledging limitations.",
-          "The author takes a skeptical stance toward mental health stigma and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a skeptical tone and centers on mental health stigma. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's evidence support?",
-        "options": [
-          "The author takes a skeptical stance toward mental health stigma and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for mental health stigma without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than mental health stigma.",
-          "The author endorses the opposite position on mental health stigma from the one presented."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a skeptical tone and centers on mental health stigma. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's assumption?",
-        "options": [
-          "The author takes a skeptical stance toward mental health stigma and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for mental health stigma without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than mental health stigma.",
-          "The author endorses the opposite position on mental health stigma from the one presented."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a skeptical tone and centers on mental health stigma. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's application?",
-        "options": [
-          "The author takes a skeptical stance toward mental health stigma and emphasizes evidence-based reasoning.",
-          "The author endorses the opposite position on mental health stigma from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than mental health stigma.",
-          "The author strongly advocates for mental health stigma without acknowledging limitations."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a skeptical tone and centers on mental health stigma. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
-        "options": [
-          "The author strongly advocates for mental health stigma without acknowledging limitations.",
-          "The author takes a skeptical stance toward mental health stigma and emphasizes evidence-based reasoning.",
-          "The passage focuses mainly on unrelated technical details rather than mental health stigma.",
-          "The author endorses the opposite position on mental health stigma from the one presented."
+          "The studies confirm that human reasoning is fundamentally flawed",
+          "The heuristics that appear as biases in artificial tasks are actually adaptive in real-world environments",
+          "Laboratory conditions are more realistic than naturalistic settings",
+          "Loss aversion is the most important cognitive bias to address"
         ],
         "correct": 1,
-        "explanation": "The passage uses a skeptical tone and centers on mental health stigma. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "explanation": "The passage describes ecological rationality as the view that 'many biases are actually adaptive heuristics that perform well in naturalistic environments, even if they fail on laboratory tasks constructed to expose their limits.' This directly supports option B."
       },
       {
-        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "text": "The author's description of nudge critics who argue that 'nudges work by exploiting cognitive biases' suggests which concern?",
         "options": [
-          "The author takes a skeptical stance toward mental health stigma and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for mental health stigma without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than mental health stigma.",
-          "The author endorses the opposite position on mental health stigma from the one presented."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a skeptical tone and centers on mental health stigma. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's inference?",
-        "options": [
-          "The author endorses the opposite position on mental health stigma from the one presented.",
-          "The author takes a skeptical stance toward mental health stigma and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for mental health stigma without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than mental health stigma."
+          "Nudges are too costly to implement",
+          "The effectiveness of nudges may depend on people not knowing they are being nudged",
+          "Cognitive biases do not actually exist",
+          "Nudges always restrict freedom of choice"
         ],
         "correct": 1,
-        "explanation": "The passage uses a skeptical tone and centers on mental health stigma. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's evidence support?",
-        "options": [
-          "The author endorses the opposite position on mental health stigma from the one presented.",
-          "The author takes a skeptical stance toward mental health stigma and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for mental health stigma without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than mental health stigma."
-        ],
-        "correct": 1,
-        "explanation": "The passage uses a skeptical tone and centers on mental health stigma. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's assumption?",
-        "options": [
-          "The author takes a skeptical stance toward mental health stigma and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for mental health stigma without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than mental health stigma.",
-          "The author endorses the opposite position on mental health stigma from the one presented."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a skeptical tone and centers on mental health stigma. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's application?",
-        "options": [
-          "The author endorses the opposite position on mental health stigma from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than mental health stigma.",
-          "The author strongly advocates for mental health stigma without acknowledging limitations.",
-          "The author takes a skeptical stance toward mental health stigma and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a skeptical tone and centers on mental health stigma. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
-        "options": [
-          "The author endorses the opposite position on mental health stigma from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than mental health stigma.",
-          "The author strongly advocates for mental health stigma without acknowledging limitations.",
-          "The author takes a skeptical stance toward mental health stigma and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a skeptical tone and centers on mental health stigma. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's author attitude?",
-        "options": [
-          "The author takes a skeptical stance toward mental health stigma and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for mental health stigma without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than mental health stigma.",
-          "The author endorses the opposite position on mental health stigma from the one presented."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a skeptical tone and centers on mental health stigma. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's inference?",
-        "options": [
-          "The author takes a skeptical stance toward mental health stigma and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for mental health stigma without acknowledging limitations.",
-          "The author endorses the opposite position on mental health stigma from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than mental health stigma."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a skeptical tone and centers on mental health stigma. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's evidence support?",
-        "options": [
-          "The author endorses the opposite position on mental health stigma from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than mental health stigma.",
-          "The author strongly advocates for mental health stigma without acknowledging limitations.",
-          "The author takes a skeptical stance toward mental health stigma and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a skeptical tone and centers on mental health stigma. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's assumption?",
-        "options": [
-          "The author strongly advocates for mental health stigma without acknowledging limitations.",
-          "The author takes a skeptical stance toward mental health stigma and emphasizes evidence-based reasoning.",
-          "The passage focuses mainly on unrelated technical details rather than mental health stigma.",
-          "The author endorses the opposite position on mental health stigma from the one presented."
-        ],
-        "correct": 1,
-        "explanation": "The passage uses a skeptical tone and centers on mental health stigma. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's application?",
-        "options": [
-          "The author endorses the opposite position on mental health stigma from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than mental health stigma.",
-          "The author strongly advocates for mental health stigma without acknowledging limitations.",
-          "The author takes a skeptical stance toward mental health stigma and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a skeptical tone and centers on mental health stigma. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "explanation": "The passage states that 'if nudges work by exploiting cognitive biases, their effectiveness depends partly on the subject's unawareness of them.' This is a transparency concern: disclosure might undermine the nudge's mechanism, raising ethical questions about hidden manipulation."
       }
     ]
   },
   {
-    "passageText": "Passage 14: This passage examines artificial intelligence in a measured voice. It describes major debates, historical context, and theoretical implications while contrasting competing viewpoints in a measured way.",
+    "passageText": "The concept of epigenetics — heritable changes in gene expression that do not involve alterations to the DNA sequence — has transformed how biologists think about development, disease, and evolution. For much of the twentieth century, the central dogma of molecular biology implied a one-way information flow from DNA to RNA to protein, and the genome was treated as a fixed blueprint largely immune to environmental influence during an individual's lifetime.\n\nEpigenetic mechanisms — including DNA methylation, histone modification, and non-coding RNA regulation — provide a layer of regulatory complexity above the sequence. Methylation of cytosine residues at CpG dinucleotides typically silences gene expression, while acetylation of histone tails loosens chromatin structure and promotes transcription. These marks are established during development, responsive to environmental signals, and in some cases transmitted across generations.\n\nThe possibility of transgenerational epigenetic inheritance challenges Weismann's barrier — the principle that information flows only from germline to soma, not in reverse. Studies in plants and invertebrates provide relatively clear evidence for epigenetic transmission through reproduction. The evidence in mammals is more contested. The agouti mouse model, in which maternal diet during pregnancy alters coat color and disease susceptibility of offspring via DNA methylation of an inserted retrotransposon, has been widely cited. However, critics point out that confounds such as cytoplasmic factors, mitochondrial DNA, and microbiome transmission complicate interpretation.\n\nFor human health, epigenetic mechanisms offer a potential molecular explanation for the developmental origins of health and disease (DOHaD) hypothesis: early-life exposures (including in utero nutrition, stress, and toxins) program gene expression patterns that influence disease risk across the life course. This framework has significant implications for understanding health disparities, since socioeconomic disadvantage is associated with adverse epigenetic profiles. The concern is that attributing health disparities to epigenetics risks biological determinism — implying that social disadvantage becomes biologically 'fixed' — unless the reversibility of epigenetic marks is also emphasized.",
     "questions": [
       {
-        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "text": "The author mentions 'Weismann's barrier' primarily to:",
         "options": [
-          "The author takes a measured stance toward artificial intelligence and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for artificial intelligence without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than artificial intelligence.",
-          "The author endorses the opposite position on artificial intelligence from the one presented."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a measured tone and centers on artificial intelligence. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's author attitude?",
-        "options": [
-          "The author takes a measured stance toward artificial intelligence and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for artificial intelligence without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than artificial intelligence.",
-          "The author endorses the opposite position on artificial intelligence from the one presented."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a measured tone and centers on artificial intelligence. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's inference?",
-        "options": [
-          "The author endorses the opposite position on artificial intelligence from the one presented.",
-          "The author takes a measured stance toward artificial intelligence and emphasizes evidence-based reasoning.",
-          "The passage focuses mainly on unrelated technical details rather than artificial intelligence.",
-          "The author strongly advocates for artificial intelligence without acknowledging limitations."
+          "Explain why DNA methylation silences gene expression",
+          "Provide context for why transgenerational epigenetic inheritance is theoretically controversial",
+          "Argue that environmental factors cannot influence the germline",
+          "Support the central dogma of molecular biology"
         ],
         "correct": 1,
-        "explanation": "The passage uses a measured tone and centers on artificial intelligence. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "explanation": "Weismann's barrier is introduced immediately before the discussion of transgenerational epigenetic inheritance as a challenge, framing why such inheritance would be theoretically significant. The author uses it to set up the debate about whether epigenetic marks can be transmitted across generations."
       },
       {
-        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "text": "Based on the passage, which of the following represents the strongest evidence cited for transgenerational epigenetic inheritance?",
         "options": [
-          "The author endorses the opposite position on artificial intelligence from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than artificial intelligence.",
-          "The author strongly advocates for artificial intelligence without acknowledging limitations.",
-          "The author takes a measured stance toward artificial intelligence and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a measured tone and centers on artificial intelligence. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's assumption?",
-        "options": [
-          "The author endorses the opposite position on artificial intelligence from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than artificial intelligence.",
-          "The author strongly advocates for artificial intelligence without acknowledging limitations.",
-          "The author takes a measured stance toward artificial intelligence and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a measured tone and centers on artificial intelligence. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's application?",
-        "options": [
-          "The author endorses the opposite position on artificial intelligence from the one presented.",
-          "The author takes a measured stance toward artificial intelligence and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for artificial intelligence without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than artificial intelligence."
+          "DNA methylation at CpG sites in somatic cells",
+          "The agouti mouse model linking maternal diet to offspring phenotype",
+          "Human studies on socioeconomic disadvantage and disease risk",
+          "Histone acetylation and chromatin structure changes"
         ],
         "correct": 1,
-        "explanation": "The passage uses a measured tone and centers on artificial intelligence. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "explanation": "The passage states the agouti mouse model 'has been widely cited' in the context of evidence for transgenerational inheritance. The passage explicitly notes that evidence in mammals is contested, but the agouti model is presented as the most discussed example."
       },
       {
-        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "text": "According to the passage, critics of the agouti mouse study argue that the findings:",
         "options": [
-          "The author endorses the opposite position on artificial intelligence from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than artificial intelligence.",
-          "The author strongly advocates for artificial intelligence without acknowledging limitations.",
-          "The author takes a measured stance toward artificial intelligence and emphasizes evidence-based reasoning."
+          "Prove that Weismann's barrier is completely invalid",
+          "May be explained by non-epigenetic factors such as cytoplasmic inheritance, mitochondrial DNA, or microbiome transmission",
+          "Demonstrate irreversibility of epigenetic marks",
+          "Cannot be replicated in plants or invertebrates"
         ],
-        "correct": 3,
-        "explanation": "The passage uses a measured tone and centers on artificial intelligence. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "correct": 1,
+        "explanation": "The passage states that 'critics point out that confounds such as cytoplasmic factors, mitochondrial DNA, and microbiome transmission complicate interpretation.' These are alternative explanations that do not require epigenetic inheritance across generations."
       },
       {
-        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "text": "The author's final concern about attributing health disparities to epigenetics suggests that the author believes:",
         "options": [
-          "The author strongly advocates for artificial intelligence without acknowledging limitations.",
-          "The author endorses the opposite position on artificial intelligence from the one presented.",
-          "The author takes a measured stance toward artificial intelligence and emphasizes evidence-based reasoning.",
-          "The passage focuses mainly on unrelated technical details rather than artificial intelligence."
-        ],
-        "correct": 2,
-        "explanation": "The passage uses a measured tone and centers on artificial intelligence. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's inference?",
-        "options": [
-          "The author takes a measured stance toward artificial intelligence and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for artificial intelligence without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than artificial intelligence.",
-          "The author endorses the opposite position on artificial intelligence from the one presented."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a measured tone and centers on artificial intelligence. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's evidence support?",
-        "options": [
-          "The author endorses the opposite position on artificial intelligence from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than artificial intelligence.",
-          "The author strongly advocates for artificial intelligence without acknowledging limitations.",
-          "The author takes a measured stance toward artificial intelligence and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a measured tone and centers on artificial intelligence. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's assumption?",
-        "options": [
-          "The author takes a measured stance toward artificial intelligence and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for artificial intelligence without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than artificial intelligence.",
-          "The author endorses the opposite position on artificial intelligence from the one presented."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a measured tone and centers on artificial intelligence. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's application?",
-        "options": [
-          "The author endorses the opposite position on artificial intelligence from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than artificial intelligence.",
-          "The author takes a measured stance toward artificial intelligence and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for artificial intelligence without acknowledging limitations."
+          "Epigenetics does not play a role in health disparities",
+          "Epigenetic explanations are more accurate than social explanations for health disparities",
+          "Overemphasizing epigenetic mechanisms could obscure the reversibility of social disadvantage's biological effects",
+          "Biological determinism is the most accurate framework for understanding disparities"
         ],
         "correct": 2,
-        "explanation": "The passage uses a measured tone and centers on artificial intelligence. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "explanation": "The passage raises concern that attributing disparities to epigenetics 'risks biological determinism — implying that social disadvantage becomes biologically fixed — unless the reversibility of epigenetic marks is also emphasized.' This implies the author is warning against an overly deterministic reading, not rejecting the epigenetic framework altogether."
       },
       {
-        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "text": "How does the author characterize the current evidence for transgenerational epigenetic inheritance in mammals compared to plants and invertebrates?",
         "options": [
-          "The author takes a measured stance toward artificial intelligence and emphasizes evidence-based reasoning.",
-          "The author endorses the opposite position on artificial intelligence from the one presented.",
-          "The author strongly advocates for artificial intelligence without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than artificial intelligence."
+          "The mammalian evidence is clearer and more convincing",
+          "The mammalian evidence is more contested, while plant and invertebrate evidence is relatively clear",
+          "Both are equally contested",
+          "Neither has any credible supporting evidence"
         ],
-        "correct": 0,
-        "explanation": "The passage uses a measured tone and centers on artificial intelligence. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's author attitude?",
-        "options": [
-          "The passage focuses mainly on unrelated technical details rather than artificial intelligence.",
-          "The author strongly advocates for artificial intelligence without acknowledging limitations.",
-          "The author endorses the opposite position on artificial intelligence from the one presented.",
-          "The author takes a measured stance toward artificial intelligence and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a measured tone and centers on artificial intelligence. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's inference?",
-        "options": [
-          "The passage focuses mainly on unrelated technical details rather than artificial intelligence.",
-          "The author endorses the opposite position on artificial intelligence from the one presented.",
-          "The author strongly advocates for artificial intelligence without acknowledging limitations.",
-          "The author takes a measured stance toward artificial intelligence and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a measured tone and centers on artificial intelligence. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's evidence support?",
-        "options": [
-          "The author takes a measured stance toward artificial intelligence and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for artificial intelligence without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than artificial intelligence.",
-          "The author endorses the opposite position on artificial intelligence from the one presented."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a measured tone and centers on artificial intelligence. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's assumption?",
-        "options": [
-          "The author takes a measured stance toward artificial intelligence and emphasizes evidence-based reasoning.",
-          "The passage focuses mainly on unrelated technical details rather than artificial intelligence.",
-          "The author endorses the opposite position on artificial intelligence from the one presented.",
-          "The author strongly advocates for artificial intelligence without acknowledging limitations."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a measured tone and centers on artificial intelligence. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's application?",
-        "options": [
-          "The author endorses the opposite position on artificial intelligence from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than artificial intelligence.",
-          "The author strongly advocates for artificial intelligence without acknowledging limitations.",
-          "The author takes a measured stance toward artificial intelligence and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a measured tone and centers on artificial intelligence. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "correct": 1,
+        "explanation": "The passage explicitly states: 'Studies in plants and invertebrates provide relatively clear evidence for epigenetic transmission through reproduction. The evidence in mammals is more contested.' This is a direct comparison made by the author."
       }
     ]
   },
   {
-    "passageText": "Passage 15: This passage examines social policy in a optimistic voice. It describes major debates, historical context, and theoretical implications while contrasting competing viewpoints in a measured way.",
+    "passageText": "Philosophy of mind has long grappled with what David Chalmers called the 'hard problem of consciousness': explaining why and how physical processes in the brain give rise to subjective, first-person experience — the redness of red, the painfulness of pain, the qualitative character that philosophers call 'qualia.' The easy problems of consciousness (accounting for cognitive functions, attention, integration of information, reportability of mental states) are tractable in principle through neuroscience and cognitive science. The hard problem is different in kind.\n\nFunctionalists hold that mental states are defined by their causal-functional roles — their relationships to inputs, outputs, and other mental states — rather than by their physical substrate. On this view, any system that instantiates the right functional organization would be conscious, whether implemented in neurons, silicon, or any other medium. Critics argue that functionalism cannot account for qualia: two systems could be functionally identical yet differ in subjective experience (inverted qualia thought experiment), or a system could perform all the right functions while having no inner experience at all (the zombie argument).\n\nPhysicalists respond that intuitions about zombies are systematically misleading — perhaps because our introspective access to our own mental states is unreliable, or because conceivability does not entail metaphysical possibility. Illusionism (Frankish) takes a more radical position: rather than explaining how qualia arise, illusionism holds that the phenomenal properties we introspect are themselves the products of a representational illusion. We don't have rich subjective experience; we represent ourselves as having it.\n\nThe debate has practical stakes. If consciousness can arise in any functional system, then sufficiently sophisticated AI systems might be conscious, with implications for moral status. If consciousness requires biological substrates, AI cannot be conscious regardless of behavioral sophistication. Resolving the hard problem may require either new scientific conceptual frameworks or a revision of our intuitions about what genuine explanation requires.",
     "questions": [
       {
-        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "text": "The 'hard problem' of consciousness is distinguished from the 'easy problems' in the passage because:",
         "options": [
-          "The passage focuses mainly on unrelated technical details rather than social policy.",
-          "The author strongly advocates for social policy without acknowledging limitations.",
-          "The author endorses the opposite position on social policy from the one presented.",
-          "The author takes a optimistic stance toward social policy and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a optimistic tone and centers on social policy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's author attitude?",
-        "options": [
-          "The author endorses the opposite position on social policy from the one presented.",
-          "The author takes a optimistic stance toward social policy and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for social policy without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than social policy."
+          "The hard problem is unsolvable while the easy problems have been solved",
+          "The hard problem concerns subjective experience, while easy problems concern cognitive and behavioral functions tractable by science",
+          "The hard problem is less important to neuroscience than the easy problems",
+          "Easy problems are about brain anatomy while the hard problem is about psychology"
         ],
         "correct": 1,
-        "explanation": "The passage uses a optimistic tone and centers on social policy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "explanation": "The passage says easy problems (cognitive functions, attention, reportability) are 'tractable in principle through neuroscience and cognitive science,' while the hard problem — why physical processes give rise to subjective experience — 'is different in kind.' The distinction is about type of explanation needed, not solubility."
       },
       {
-        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "text": "According to the passage, what is the primary objection to functionalism as a theory of consciousness?",
         "options": [
-          "The author strongly advocates for social policy without acknowledging limitations.",
-          "The author endorses the opposite position on social policy from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than social policy.",
-          "The author takes a optimistic stance toward social policy and emphasizes evidence-based reasoning."
+          "Functionalism requires a biological substrate for consciousness",
+          "Functionalism cannot explain why functional organization should produce subjective experience (qualia)",
+          "Functionalism is inconsistent with neuroscience",
+          "Functionalism denies that consciousness exists"
         ],
-        "correct": 3,
-        "explanation": "The passage uses a optimistic tone and centers on social policy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "correct": 1,
+        "explanation": "Critics of functionalism argue it 'cannot account for qualia' — two functionally identical systems could differ in subjective experience (inverted qualia), or a system could be functional without any experience (zombies). The core objection is the explanatory gap between function and qualia."
       },
       {
-        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "text": "Illusionism (as described in the passage) responds to the hard problem by:",
         "options": [
-          "The author endorses the opposite position on social policy from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than social policy.",
-          "The author strongly advocates for social policy without acknowledging limitations.",
-          "The author takes a optimistic stance toward social policy and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a optimistic tone and centers on social policy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's assumption?",
-        "options": [
-          "The author takes a optimistic stance toward social policy and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for social policy without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than social policy.",
-          "The author endorses the opposite position on social policy from the one presented."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a optimistic tone and centers on social policy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's application?",
-        "options": [
-          "The passage focuses mainly on unrelated technical details rather than social policy.",
-          "The author strongly advocates for social policy without acknowledging limitations.",
-          "The author endorses the opposite position on social policy from the one presented.",
-          "The author takes a optimistic stance toward social policy and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a optimistic tone and centers on social policy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
-        "options": [
-          "The author endorses the opposite position on social policy from the one presented.",
-          "The author strongly advocates for social policy without acknowledging limitations.",
-          "The author takes a optimistic stance toward social policy and emphasizes evidence-based reasoning.",
-          "The passage focuses mainly on unrelated technical details rather than social policy."
+          "Arguing that qualia are physical properties of neurons",
+          "Accepting that qualia exist but are causally inert",
+          "Denying that phenomenal properties are real — they are products of a representational illusion",
+          "Arguing that AI systems can have qualia"
         ],
         "correct": 2,
-        "explanation": "The passage uses a optimistic tone and centers on social policy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "explanation": "The passage describes illusionism (Frankish) as holding that 'phenomenal properties we introspect are themselves the products of a representational illusion' and that 'we don't have rich subjective experience; we represent ourselves as having it.' This dissolves rather than solves the hard problem."
       },
       {
-        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "text": "The passage suggests that if functionalism is correct, then:",
         "options": [
-          "The passage focuses mainly on unrelated technical details rather than social policy.",
-          "The author endorses the opposite position on social policy from the one presented.",
-          "The author strongly advocates for social policy without acknowledging limitations.",
-          "The author takes a optimistic stance toward social policy and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a optimistic tone and centers on social policy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's inference?",
-        "options": [
-          "The passage focuses mainly on unrelated technical details rather than social policy.",
-          "The author endorses the opposite position on social policy from the one presented.",
-          "The author strongly advocates for social policy without acknowledging limitations.",
-          "The author takes a optimistic stance toward social policy and emphasizes evidence-based reasoning."
-        ],
-        "correct": 3,
-        "explanation": "The passage uses a optimistic tone and centers on social policy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's evidence support?",
-        "options": [
-          "The author endorses the opposite position on social policy from the one presented.",
-          "The author takes a optimistic stance toward social policy and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for social policy without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than social policy."
+          "Only biological organisms can be conscious",
+          "Sufficiently sophisticated AI systems might be conscious and have moral status",
+          "Consciousness requires quantum processes in microtubules",
+          "The hard problem is unsolvable"
         ],
         "correct": 1,
-        "explanation": "The passage uses a optimistic tone and centers on social policy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's assumption?",
-        "options": [
-          "The author strongly advocates for social policy without acknowledging limitations.",
-          "The author takes a optimistic stance toward social policy and emphasizes evidence-based reasoning.",
-          "The author endorses the opposite position on social policy from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than social policy."
-        ],
-        "correct": 1,
-        "explanation": "The passage uses a optimistic tone and centers on social policy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's application?",
-        "options": [
-          "The author strongly advocates for social policy without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than social policy.",
-          "The author takes a optimistic stance toward social policy and emphasizes evidence-based reasoning.",
-          "The author endorses the opposite position on social policy from the one presented."
-        ],
-        "correct": 2,
-        "explanation": "The passage uses a optimistic tone and centers on social policy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
-        "options": [
-          "The author takes a optimistic stance toward social policy and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for social policy without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than social policy.",
-          "The author endorses the opposite position on social policy from the one presented."
-        ],
-        "correct": 0,
-        "explanation": "The passage uses a optimistic tone and centers on social policy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's author attitude?",
-        "options": [
-          "The author strongly advocates for social policy without acknowledging limitations.",
-          "The author takes a optimistic stance toward social policy and emphasizes evidence-based reasoning.",
-          "The passage focuses mainly on unrelated technical details rather than social policy.",
-          "The author endorses the opposite position on social policy from the one presented."
-        ],
-        "correct": 1,
-        "explanation": "The passage uses a optimistic tone and centers on social policy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's inference?",
-        "options": [
-          "The author endorses the opposite position on social policy from the one presented.",
-          "The author takes a optimistic stance toward social policy and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for social policy without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than social policy."
-        ],
-        "correct": 1,
-        "explanation": "The passage uses a optimistic tone and centers on social policy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's evidence support?",
-        "options": [
-          "The author endorses the opposite position on social policy from the one presented.",
-          "The author strongly advocates for social policy without acknowledging limitations.",
-          "The author takes a optimistic stance toward social policy and emphasizes evidence-based reasoning.",
-          "The passage focuses mainly on unrelated technical details rather than social policy."
-        ],
-        "correct": 2,
-        "explanation": "The passage uses a optimistic tone and centers on social policy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's assumption?",
-        "options": [
-          "The author strongly advocates for social policy without acknowledging limitations.",
-          "The author takes a optimistic stance toward social policy and emphasizes evidence-based reasoning.",
-          "The author endorses the opposite position on social policy from the one presented.",
-          "The passage focuses mainly on unrelated technical details rather than social policy."
-        ],
-        "correct": 1,
-        "explanation": "The passage uses a optimistic tone and centers on social policy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
-      },
-      {
-        "text": "Based on the passage, which statement best reflects the author's application?",
-        "options": [
-          "The author endorses the opposite position on social policy from the one presented.",
-          "The author takes a optimistic stance toward social policy and emphasizes evidence-based reasoning.",
-          "The author strongly advocates for social policy without acknowledging limitations.",
-          "The passage focuses mainly on unrelated technical details rather than social policy."
-        ],
-        "correct": 1,
-        "explanation": "The passage uses a optimistic tone and centers on social policy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+        "explanation": "The passage states: 'If consciousness can arise in any functional system, then sufficiently sophisticated AI systems might be conscious, with implications for moral status.' This follows directly from functionalism's claim that substrate is irrelevant — only functional organization matters."
       }
     ]
   }

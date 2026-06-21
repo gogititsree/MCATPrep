@@ -1,159 +1,148 @@
 [
   {
-    "passageText": "The history of antibiotic resistance illustrates how evolutionary pressures can generate rapid and consequential changes in microbial populations. When Alexander Fleming discovered penicillin in 1928 and mass production began in the 1940s, the drug seemed to offer near-miraculous cures for previously fatal bacterial infections. Within years, however, penicillin-resistant Staphylococcus aureus strains had emerged in hospitals. The development of methicillin in 1960 to combat penicillin-resistant staph was followed, within two years, by the first reports of methicillin-resistant Staphylococcus aureus (MRSA).\n\nThe evolutionary dynamics of resistance are well understood. In any bacterial population, individual cells vary genetically. Antibiotic treatment creates intense selective pressure, eliminating susceptible cells while any cells harboring resistance mechanisms survive and proliferate. Resistance can arise de novo through spontaneous mutation, or can be acquired via horizontal gene transfer — plasmids, transposons, and bacteriophage-mediated transduction can rapidly distribute resistance genes across species boundaries. This horizontal transfer is particularly alarming because it can move resistance determinants between clinically significant pathogens in ways that vertical (parent-to-offspring) evolution alone could not achieve in relevant time frames.\n\nThe problem of antibiotic resistance is compounded by the economics of pharmaceutical development. Antibiotics are taken briefly and must be sold cheaply; return on investment is modest compared to drugs for chronic conditions. The WHO has classified antibiotic resistance as one of the greatest threats to global health, yet the development pipeline for novel antibiotics has thinned dramatically since the 1980s. Several approaches have been proposed: antibiotic stewardship programs to reduce inappropriate use; restrictions on agricultural antibiotic use (antibiotics are used extensively in livestock to promote growth); and new incentive structures for pharmaceutical companies, including market-entry rewards decoupled from sales volume.\n\nSome researchers advocate returning to bacteriophage therapy — using viruses that kill specific bacteria — as an alternative or supplement to antibiotics. Phage therapy was widely used in Eastern Europe and the Soviet Union during the twentieth century but largely abandoned in the West after antibiotics proved more reliable. Modern phage therapy has the advantage of targeting specific pathogens (minimizing collateral damage to the microbiome) but faces regulatory challenges because phage preparations must often be customized for individual patients.",
+    "passageText": "In 1951, Henrietta Lacks, a Black woman from Baltimore, was treated for cervical cancer at Johns Hopkins Hospital. Cells taken from her tumor — without her knowledge or consent — proved unusually durable in laboratory culture, becoming the first human cell line to survive and reproduce indefinitely outside the body. HeLa cells, as they came to be called, went on to underpin vaccines, cancer research, and gene mapping projects, generating billions of dollars in commercial value. Lacks herself died that year, and her family remained unaware of her cells' existence for decades. When they learned the truth in the 1970s, they could neither afford adequate health insurance nor share in the profits their mother's biology had generated.\n\nThe Lacks case is emblematic of a broader pattern in the relationship between Western biomedical research and marginalized populations. Anthropologist Adriana Petryna has documented the 'outsourcing' of clinical trials to low-income countries, where regulatory regimes are weaker, labor is cheaper, and — crucially — populations may lack the resources to refuse participation or seek alternatives. Critics argue that these arrangements repeat the extractive logic of colonialism: knowledge and profit flow toward wealthy institutions and nations while risk is borne disproportionately by those with the fewest alternatives.\n\nIndigenous communities have raised parallel concerns about the extraction of traditional ecological and medical knowledge. Plants used medicinally for centuries by indigenous peoples have been synthesized, patented, and sold by pharmaceutical companies, with little acknowledgment of their origins and no benefit sharing with the communities whose knowledge made the discoveries possible. The Convention on Biological Diversity and the Nagoya Protocol represent international attempts to address 'biopiracy,' but enforcement remains uneven and contested.\n\nDecolonizing medicine involves more than correcting discrete injustices. Scholars such as Frantz Fanon and, more recently, Achille Mbembe have argued that the epistemological frameworks of Western medicine — its categories of disease, its standards of evidence, its models of the body — are themselves shaped by colonial history and may systematically marginalize non-Western healing traditions. This does not imply that evidence-based medicine is simply a Western bias; it does imply that what counts as evidence, and whose knowledge is recognized as knowledge, are questions that cannot be separated from the political history of the institutions that answer them.",
     "questions": [
       {
-        "text": "The author uses the example of penicillin and MRSA primarily to:",
+        "text": "The primary argument the author develops across all four paragraphs is that:",
         "options": [
-          "Criticize Fleming for not anticipating resistance",
-          "Illustrate the speed with which antibiotic resistance can emerge after a new drug's introduction",
-          "Argue that antibiotics should never have been developed",
-          "Explain the chemistry of methicillin"
+          "HeLa cells represent an isolated ethical failure that has since been corrected by modern consent protocols",
+          "Western biomedical research has systematically extracted knowledge and biological material from marginalized populations without adequate consent or benefit sharing",
+          "Indigenous medical knowledge is superior to evidence-based medicine and should replace it",
+          "Clinical trials should be prohibited in low-income countries until regulatory regimes are strengthened"
         ],
         "correct": 1,
-        "explanation": "The passage uses the timeline — penicillin in the 1940s, resistance within years; methicillin in 1960, MRSA within two years — to illustrate how quickly resistance evolves. This sets up the broader evolutionary discussion. There is no criticism of Fleming's foresight."
+        "explanation": "The passage moves from HeLa cells to clinical trial outsourcing to biopiracy to epistemological colonialism, building a cumulative argument about systematic extraction and inequity. Option A incorrectly characterizes the Lacks case as isolated and corrected. Option C is a misreading — the final paragraph explicitly says the argument 'does not imply that evidence-based medicine is simply a Western bias.' Option D is a policy prescription the author does not make."
       },
       {
-        "text": "According to the passage, horizontal gene transfer is particularly alarming in the context of antibiotic resistance because:",
+        "text": "According to the passage, what is the significance of the fact that Lacks's family 'could neither afford adequate health insurance nor share in the profits'?",
         "options": [
-          "It occurs only within a single species",
-          "It allows resistance genes to spread across species boundaries faster than vertical evolution could",
-          "It requires antibiotic exposure to occur",
-          "It only moves resistance genes through bacteriophages"
+          "It suggests that Johns Hopkins Hospital acted illegally under existing consent laws",
+          "It illustrates the irony that the community bearing the costs of medical research did not share in its benefits",
+          "It shows that the financial value of HeLa cells was not recognized until the 1970s",
+          "It implies that the Lacks family should have been named co-inventors on subsequent patents"
         ],
         "correct": 1,
-        "explanation": "The passage states horizontal transfer 'can move resistance determinants between clinically significant pathogens in ways that vertical evolution alone could not achieve in relevant time frames.' The key concern is cross-species spread at speed that exceeds what mutation and vertical inheritance could accomplish."
+        "explanation": "The passage uses the Lacks family's situation to illustrate the extractive dynamic: Lacks's biology generated enormous commercial and scientific value while her family bore costs (no health coverage) and received no benefits. This supports the broader 'extractive logic of colonialism' argument. The passage does not address legality, the timing of financial recognition, or patent law specifically."
       },
       {
-        "text": "The passage suggests that the thin antibiotic development pipeline results primarily from:",
+        "text": "The passage implies that the Nagoya Protocol and Convention on Biological Diversity are significant but insufficient because:",
         "options": [
-          "A lack of scientific knowledge about new antibiotic targets",
-          "Government regulations preventing clinical trials",
-          "Economic disincentives: antibiotics generate modest returns compared to drugs for chronic conditions",
-          "The success of bacteriophage therapy as an alternative"
+          "They were negotiated without input from indigenous communities",
+          "They prohibit all forms of bioprospecting regardless of benefit-sharing arrangements",
+          "Enforcement of these international frameworks remains uneven and contested",
+          "They apply only to plant-based medicines and not to human cell lines"
         ],
         "correct": 2,
-        "explanation": "The passage states: 'Antibiotics are taken briefly and must be sold cheaply; return on investment is modest compared to drugs for chronic conditions.' This economic argument explains the thin pipeline. The passage does not mention regulatory barriers to trials or suggest phage therapy has replaced antibiotics."
+        "explanation": "The passage states that these frameworks 'represent international attempts to address biopiracy, but enforcement remains uneven and contested.' This directly supports option C. The other options introduce specifics not found in the passage."
       },
       {
-        "text": "Based on the passage, which of the following is cited as an advantage of bacteriophage therapy over conventional antibiotics?",
+        "text": "The argument in the final paragraph most closely resembles which of the following claims?",
         "options": [
-          "Phages are cheaper to produce than antibiotics",
-          "Phages have a broader spectrum of activity than most antibiotics",
-          "Phages target specific pathogens, minimizing disruption to the microbiome",
-          "Phage therapy has been rigorously tested in Western clinical trials"
-        ],
-        "correct": 2,
-        "explanation": "The passage explicitly states that modern phage therapy has 'the advantage of targeting specific pathogens (minimizing collateral damage to the microbiome).' The passage does not compare production costs, does not claim broad spectrum activity (in fact the opposite — phages are specific), and notes that phage therapy faces regulatory challenges in the West."
-      },
-      {
-        "text": "Which of the following interventions mentioned in the passage addresses resistance at the level of reducing the selective pressure that drives resistance evolution?",
-        "options": [
-          "Market-entry rewards decoupled from sales volume",
-          "Antibiotic stewardship programs to reduce inappropriate use",
-          "Restricting pharmaceutical company profits",
-          "Developing phage therapy as an alternative"
+          "Scientific methods are culturally neutral and therefore universally valid",
+          "The standards by which knowledge claims are evaluated are themselves shaped by the historical and political contexts of the institutions that set them",
+          "Non-Western healing traditions have been conclusively proven to be as effective as evidence-based medicine",
+          "Colonial history is irrelevant to the practice of contemporary biomedicine"
         ],
         "correct": 1,
-        "explanation": "Evolutionary dynamics of resistance are driven by antibiotic selective pressure eliminating susceptible bacteria. Stewardship programs reduce inappropriate use, thereby reducing selective pressure. Market-entry rewards address economic incentives for development; phage therapy is an alternative treatment — neither directly reduces selective pressure on existing antibiotics."
+        "explanation": "The final paragraph argues that 'what counts as evidence, and whose knowledge is recognized as knowledge, are questions that cannot be separated from the political history of the institutions that answer them.' This is a claim about the situated, historically shaped nature of epistemic standards — directly paralleled by option B. Option A is what the passage is arguing against. Option C overstates the claim, which is about recognition and evidence standards, not comparative effectiveness."
       }
     ]
   },
   {
-    "passageText": "The sociology of science, developed by Robert Merton and later transformed by constructivists, asks not only what science discovers but how scientific knowledge is produced, legitimated, and contested. Merton's normative account identified four institutional imperatives guiding ideal scientific conduct: communalism (knowledge as public property), universalism (truth claims evaluated on merit, not the social characteristics of the claimant), disinterestedness (scientists motivated by the advancement of knowledge, not personal gain), and organized skepticism (systematic scrutiny of all claims).\n\nConstructivists (Bloor, Collins, Latour) challenged the Mertonian picture by arguing that scientific knowledge, including even natural science, is socially constructed — that facts are not simply discovered but are produced through social processes of negotiation, credentialing, and institutionalization. The laboratory studies tradition showed that what counts as a successful experiment depends on judgments about instrument reliability, competence of experimenters, and interpretive conventions that cannot be derived from the data alone.\n\nThe resulting 'science wars' of the 1990s pitted constructivists against scientists and philosophers who argued that strong constructivism collapses into relativism — if all knowledge claims are equally socially constructed, then the germ theory of disease is no more epistemically privileged than pre-modern humoral medicine. Constructivists typically respond that they are not committed to relativism but to symmetry: applying the same standards of sociological explanation to successful and failed scientific claims, rather than explaining success by 'truth' and failure by 'social factors.'\n\nThese debates have practical stakes in an era of scientific skepticism. Public distrust of expert consensus on vaccination, climate change, and evolution is partly fueled by the perception — sometimes deliberately cultivated by interests opposed to regulation — that scientific knowledge is merely one 'narrative' among many. Sociologists of science face the challenge of explaining the social dimensions of knowledge production without inadvertently providing rhetorical resources for antiscience movements.",
+    "passageText": "Few aesthetic questions have proved more philosophically vexing than whether music is intrinsically sad or happy, independently of the listener who hears it. The debate turns on a prior question: what kind of thing is a musical work? If music is a purely formal structure — patterns of pitch and rhythm — then emotional predicates apply to it only derivatively, by analogy to the human states it expresses or induces. If music is, in some sense, an expressive act whose meaning is partly constituted by the intentions and cultural contexts of its makers, then emotional descriptions may be genuinely applicable in a richer sense.\n\nThe philosopher Peter Kivy distinguished between 'the sad man' and 'the Saint Bernard.' A sad man's face expresses his inner emotional state; a Saint Bernard's face looks sad without the dog necessarily experiencing sadness. Kivy argued that much music is more like the Saint Bernard — it has a contour, a quality, that warrants the description 'sad' without implying that the music itself experiences anything or that listeners must feel sad in response. This cognitivist position holds that hearing sadness in music is a matter of perception rather than affect: we hear the sad quality in the descending melodic line or the minor mode without necessarily being moved to sadness ourselves.\n\nOpponents of cognitivism argue that this account misses the emotional power that gives music its significance. The arousal theory holds that music is sad if and only if it reliably induces sadness in appropriately situated listeners. This view struggles with two difficulties: first, the paradox of enjoying sad music (if sad music makes us sad, why do we seek it out?), and second, empirical variation in response (music that one listener finds deeply moving, another may find tedious). Cross-cultural research complicates the picture further. Some studies have found that certain musical features — tempo, mode, pitch range — correlate with emotional attributions across cultures, suggesting universal perceptual mechanisms. But the meanings of those mechanisms and the experiences they ground remain culturally mediated.\n\nThe distinction between absolute music (instrumental music with no programmatic content) and program music (music depicting a scene, narrative, or extramusical idea) adds another dimension. Program music invites listeners to interpret emotional content through an external referent; absolute music makes that referent unavailable, raising the question of whether emotional predicates can be grounded in purely musical structure. Hanslick's formalist answer — that music's content is nothing but 'tonally moving forms' — remains provocative precisely because it challenges listeners' phenomenological certainty that they hear something more.",
     "questions": [
       {
-        "text": "According to Merton's normative account, which principle requires that scientific claims be evaluated on their merits regardless of who makes them?",
+        "text": "Kivy's 'Saint Bernard' analogy is intended to illustrate which claim?",
         "options": [
-          "Communalism",
-          "Universalism",
-          "Disinterestedness",
-          "Organized skepticism"
+          "Music can express sadness through its formal qualities without the music or listener necessarily experiencing that emotion",
+          "Dogs are better than humans at expressing emotions through physical appearance",
+          "All music is fundamentally about the emotions of its composer",
+          "The arousal theory correctly identifies sadness in music with the sadness it induces in listeners"
         ],
-        "correct": 1,
-        "explanation": "The passage defines universalism as the principle that 'truth claims [are] evaluated on merit, not the social characteristics of the claimant.' This means a scientist's race, gender, nationality, or status should be irrelevant to the evaluation of their claims."
+        "correct": 0,
+        "explanation": "The passage explains that Kivy uses the Saint Bernard to distinguish expressive appearance from inner emotional state: the dog's face looks sad without the dog experiencing sadness. Applied to music, this means music can have a 'sad quality' as a formal feature without implying the music experiences sadness or that listeners must feel sad. This is option A. The analogy does not make claims about dogs per se, and it explicitly opposes the arousal theory."
       },
       {
-        "text": "Constructivists' 'symmetry principle' as described in the passage means that:",
+        "text": "The 'paradox of enjoying sad music,' as the passage describes it, is a challenge specifically to:",
         "options": [
-          "All scientific theories are equally true",
-          "Social factors explain failed science but not successful science",
-          "Both successful and failed scientific claims should be explained by the same sociological standards",
-          "Science and non-science should be treated as equivalent"
-        ],
-        "correct": 2,
-        "explanation": "The passage states constructivists claim 'symmetry: applying the same standards of sociological explanation to successful and failed scientific claims, rather than explaining success by truth and failure by social factors.' This is a methodological stance, not a claim about the truth of scientific theories."
-      },
-      {
-        "text": "The author presents the concern in the final paragraph about antiscience movements as:",
-        "options": [
-          "Proof that constructivism is wrong",
-          "A practical challenge for sociologists of science who must explain social dimensions of knowledge without lending credibility to antiscience rhetoric",
-          "Evidence that public skepticism about science is justified",
-          "An argument that scientists should control their public communications more tightly"
+          "Kivy's cognitivist position",
+          "The arousal theory of musical emotion",
+          "The formalist position articulated by Hanslick",
+          "Cross-cultural research on musical universals"
         ],
         "correct": 1,
-        "explanation": "The passage frames this as a challenge ('sociologists of science face the challenge of explaining...without inadvertently providing rhetorical resources for antiscience movements'). The author does not conclude that constructivism is wrong, does not endorse skepticism, and does not advocate for communication control."
+        "explanation": "The passage explicitly states that the arousal theory 'struggles with two difficulties: first, the paradox of enjoying sad music (if sad music makes us sad, why do we seek it out?).' The paradox challenges arousal theory because that theory defines sad music by its capacity to induce sadness — which should make it aversive. It does not target Kivy's cognitivism, which does not require listeners to feel sad."
       },
       {
-        "text": "The strongest objection to strong constructivism mentioned in the passage is that it:",
+        "text": "Which of the following findings from cross-cultural research would most strongly support the cognitivist position over the arousal theory?",
         "options": [
-          "Ignores the role of experiments in science",
-          "Collapses into relativism, making the germ theory no more valid than humoral medicine",
-          "Cannot explain why some experiments fail to replicate",
-          "Denies that social factors influence science at all"
+          "Listeners from different cultures reliably feel sadness when hearing a particular piece",
+          "Listeners from different cultures reliably perceive a descending minor-mode melody as having a sad quality, even when their self-reported emotional response varies",
+          "Music composed in a major key is universally preferred over music in a minor key",
+          "The emotional responses of musicians are more consistent cross-culturally than those of non-musicians"
         ],
         "correct": 1,
-        "explanation": "The passage states that critics argue 'strong constructivism collapses into relativism — if all knowledge claims are equally socially constructed, then the germ theory of disease is no more epistemically privileged than pre-modern humoral medicine.' This is explicitly identified as the core objection."
+        "explanation": "Cognitivism holds that hearing sadness is a matter of perception rather than affect — we perceive the sad quality without necessarily being moved. Finding consistent cross-cultural perception of sad quality alongside variable emotional responses would support cognitivism (consistent perception) over arousal theory (which predicts consistent emotional induction). Option A would support arousal theory. Options C and D do not directly adjudicate between cognitivism and arousal theory."
+      },
+      {
+        "text": "The author's reference to Hanslick's formalism as 'provocative precisely because it challenges listeners' phenomenological certainty' implies that:",
+        "options": [
+          "Most music theorists now accept Hanslick's view as correct",
+          "Listeners typically experience music as expressing something beyond pure tonal form, making the formalist denial counterintuitive",
+          "Phenomenological certainty is a reliable guide to the correct aesthetic theory",
+          "Program music supports Hanslick's formalism more than absolute music does"
+        ],
+        "correct": 1,
+        "explanation": "The passage says Hanslick's view is 'provocative' because it challenges what listeners feel certain they are experiencing — that they hear something more than tonal form. This implies that listeners' phenomenological certainty points in the opposite direction from formalism, making the denial striking. Option A is not implied. Option C is contradicted by the framing — the passage notes the challenge to phenomenological certainty without endorsing it as a reliable guide. Option D inverts the relationship: absolute music, not program music, is where formalism is most at issue."
       }
     ]
   },
   {
-    "passageText": "Urban heat islands (UHIs) form when cities replace natural land cover with dense concentrations of pavement, buildings, and other materials that absorb and re-emit the sun's heat more than natural landscapes. The effect is well documented: urban cores can be 1–7°C warmer than surrounding rural areas, with the greatest divergence at night when urban materials release stored heat. The phenomenon has meaningful consequences for energy use, human health, and ecosystem function in cities.\n\nThe physical mechanisms driving UHIs are multiple. Dark impervious surfaces have lower albedo (reflectivity) than vegetated land, absorbing more solar radiation. Buildings and pavement have high thermal mass, storing heat during the day and releasing it at night. The geometry of street canyons traps longwave radiation that would otherwise escape to the atmosphere. Reduced vegetative cover means less evapotranspirative cooling — the process by which plants release water vapor, cooling the surrounding air. Finally, anthropogenic heat (from vehicles, air conditioning, and industry) adds directly to the thermal budget.\n\nMitigation strategies draw on understanding of these mechanisms. Cool roofs and pavements with high albedo reflect more solar radiation. Urban greening — including trees, parks, green roofs, and urban agriculture — restores evapotranspiration and shading. Urban form modifications (street orientation, building height-to-width ratios, and increased sky view factor) can improve nocturnal radiative cooling. Some cities have experimented with white-painted streets and water features.\n\nThe equity dimensions of UHI are often overlooked. Lower-income neighborhoods tend to have less tree canopy, more impervious surface, and older, less efficient housing — all of which increase heat exposure. Studies consistently find that race and income are associated with differential heat exposure within cities. Mitigation investment focused on the most affected neighborhoods can simultaneously address environmental justice and resilience goals, though greening efforts carry the risk of contributing to gentrification by increasing property values.",
+    "passageText": "The relationship between economic growth and environmental sustainability has been among the most contested questions in development economics. For much of the twentieth century, growth was treated as the solution to environmental problems as well as poverty: richer societies, the argument went, could afford cleaner technologies and would demand better environmental quality as incomes rose. The Environmental Kuznets Curve (EKC) hypothesis gave this intuition empirical form, suggesting an inverted-U relationship between income per capita and pollution: environmental degradation worsens during early industrialization, then improves as economies develop.\n\nThe EKC has attracted sustained criticism. Empirical support is inconsistent across different pollutants and national contexts: air quality in wealthy nations may improve partly because pollution-intensive industries have been relocated to lower-income countries rather than eliminated. Carbon dioxide, whose atmospheric accumulation drives climate change, shows no clear Kuznets inflection point in historical data. Critics argue that the EKC reflects regulatory capacity and political will, not automatic market processes, and that those same processes can be deployed without waiting for sufficient wealth to accumulate.\n\nThe degrowth movement takes a more radical position. Drawing on the work of economist Herman Daly and the earlier metaphor of economist Kenneth Boulding's 'spaceship Earth' — a closed system with finite resource stocks — degrowth theorists argue that the biophysical limits of the planet make perpetual GDP growth physically impossible and that the pursuit of growth in wealthy nations is not only unnecessary but actively harmful. They propose instead a 'steady-state economy' that maintains stocks of natural and manufactured capital without net growth.\n\nThe standard objection to degrowth is distributional: if the global economy stops growing, how are billions of people still living in poverty to improve their material conditions? Degrowth theorists respond that the relevant question is not whether growth should occur everywhere but whether growth remains the appropriate organizing goal for already-wealthy societies, and that redistribution within and between nations could raise living standards for the poor without requiring aggregate expansion. GDP itself, critics add, is a poor welfare measure: it counts environmental cleanup as growth, while counting unpaid domestic labor, leisure, and subjective wellbeing not at all.",
     "questions": [
       {
-        "text": "According to the passage, which process contributes to the urban heat island effect by reducing a natural cooling mechanism?",
+        "text": "The Environmental Kuznets Curve hypothesis predicts that:",
         "options": [
-          "High albedo of urban surfaces",
-          "Reduced evapotranspiration due to less vegetation",
-          "Increased sky view factor in urban canyons",
-          "Lower thermal mass of building materials"
-        ],
-        "correct": 1,
-        "explanation": "The passage states that 'reduced vegetative cover means less evapotranspirative cooling — the process by which plants release water vapor, cooling the surrounding air.' This removal of vegetation eliminates a natural cooling mechanism. Urban surfaces actually have LOW albedo (not high), and the passage says building materials have HIGH thermal mass."
-      },
-      {
-        "text": "The passage suggests that the UHI effect is greatest at night because:",
-        "options": [
-          "Solar radiation is absent at night, making albedo irrelevant",
-          "Urban materials store heat during the day and release it at night",
-          "Anthropogenic heat production is highest at night",
-          "Evapotranspiration ceases after sunset"
-        ],
-        "correct": 1,
-        "explanation": "The passage states that cities are warmest 'with the greatest divergence at night when urban materials release stored heat.' The mechanism is the high thermal mass of buildings and pavement — they store solar energy during daylight and release it slowly after sunset."
-      },
-      {
-        "text": "The author characterizes the equity dimensions of UHI as:",
-        "options": [
-          "The primary focus of urban climate policy",
-          "Unrelated to race and income",
-          "Often overlooked, with lower-income and minority communities bearing disproportionate heat exposure",
-          "Fully addressed by existing mitigation strategies"
+          "Environmental quality continuously improves as incomes rise",
+          "Environmental degradation increases indefinitely with industrial development",
+          "Environmental quality first worsens and then improves as income per capita rises",
+          "Carbon dioxide emissions follow the same trajectory as other air pollutants in wealthy nations"
         ],
         "correct": 2,
-        "explanation": "The passage opens the final paragraph by stating the equity dimensions 'are often overlooked' and that 'studies consistently find that race and income are associated with differential heat exposure within cities.' This characterizes the issue as neglected and inequitably distributed."
+        "explanation": "The passage describes the EKC as 'an inverted-U relationship between income per capita and pollution: environmental degradation worsens during early industrialization, then improves as economies develop.' This is option C. Option A describes only the second half. Option D is explicitly contradicted — the passage states CO2 'shows no clear Kuznets inflection point in historical data.'"
       },
       {
-        "text": "Which of the following mitigation strategies described in the passage works by the same mechanism as natural vegetation?",
+        "text": "The passage states that one reason air quality improvements in wealthy nations may not validate the EKC is:",
         "options": [
-          "Cool roofs with high albedo",
-          "White-painted streets",
-          "Green roofs and urban agriculture",
-          "Modified street canyon geometry"
+          "Wealthy nations have lower industrial output than developing nations",
+          "Improvements may reflect the relocation of polluting industries abroad rather than actual pollution elimination",
+          "Air quality metrics used in EKC studies are unreliable",
+          "The EKC applies only to water pollution, not air quality"
         ],
-        "correct": 2,
-        "explanation": "The passage identifies vegetation's cooling mechanism as evapotranspiration (and shading). Green roofs and urban agriculture restore these same mechanisms — they are vegetated surfaces. Cool roofs and white streets work by increased albedo. Street canyon geometry works by improving radiative cooling."
+        "correct": 1,
+        "explanation": "The passage explicitly states that air quality in wealthy nations 'may improve partly because pollution-intensive industries have been relocated to lower-income countries rather than eliminated.' This is a displacement critique, not genuine decoupling. The other options introduce claims not made in the passage."
+      },
+      {
+        "text": "Boulding's 'spaceship Earth' metaphor is invoked in the passage to support which argument?",
+        "options": [
+          "International cooperation on climate change requires treating the Earth as a shared vessel",
+          "The planet's finite resource stocks make perpetual GDP growth physically impossible",
+          "Space exploration offers a potential solution to resource scarcity",
+          "Wealthy nations should assist developing nations with technology transfer"
+        ],
+        "correct": 1,
+        "explanation": "The passage uses 'spaceship Earth — a closed system with finite resource stocks' to support the degrowth claim that 'the biophysical limits of the planet make perpetual GDP growth physically impossible.' The metaphor is about finitude and closure, not cooperation, space exploration, or technology transfer."
+      },
+      {
+        "text": "Degrowth theorists' response to the distributional objection, as described in the passage, assumes which of the following?",
+        "options": [
+          "Global GDP must continue growing for poverty reduction to be achievable",
+          "Redistribution between and within nations could raise living standards for the poor independently of aggregate growth",
+          "GDP is an accurate measure of welfare in both wealthy and poor nations",
+          "Wealthy nations have already achieved sufficient material conditions and require no further development"
+        ],
+        "correct": 1,
+        "explanation": "The passage states that degrowth theorists respond to the distributional objection by arguing 'that redistribution within and between nations could raise living standards for the poor without requiring aggregate expansion.' This is option B. Option A is the objection they are responding against. Option C is contradicted by the final sentence, which criticizes GDP as a welfare measure. Option D overstates the argument — the passage says degrowth is the appropriate goal for 'already-wealthy societies,' not a universal prescription."
       }
     ]
   }

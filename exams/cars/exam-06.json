@@ -1,0 +1,611 @@
+[
+  {
+    "passageText": "Passage 16: This passage examines environmental economics in a critical voice. It describes major debates, historical context, and theoretical implications while contrasting competing viewpoints in a measured way.",
+    "questions": [
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author takes a critical stance toward environmental economics and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on environmental economics from the one presented.",
+          "The author strongly advocates for environmental economics without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than environmental economics."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a critical tone and centers on environmental economics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author endorses the opposite position on environmental economics from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than environmental economics.",
+          "The author strongly advocates for environmental economics without acknowledging limitations.",
+          "The author takes a critical stance toward environmental economics and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a critical tone and centers on environmental economics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author takes a critical stance toward environmental economics and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for environmental economics without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than environmental economics.",
+          "The author endorses the opposite position on environmental economics from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a critical tone and centers on environmental economics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author endorses the opposite position on environmental economics from the one presented.",
+          "The author takes a critical stance toward environmental economics and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for environmental economics without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than environmental economics."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a critical tone and centers on environmental economics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author takes a critical stance toward environmental economics and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on environmental economics from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than environmental economics.",
+          "The author strongly advocates for environmental economics without acknowledging limitations."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a critical tone and centers on environmental economics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author takes a critical stance toward environmental economics and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for environmental economics without acknowledging limitations.",
+          "The author endorses the opposite position on environmental economics from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than environmental economics."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a critical tone and centers on environmental economics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author endorses the opposite position on environmental economics from the one presented.",
+          "The author takes a critical stance toward environmental economics and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for environmental economics without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than environmental economics."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a critical tone and centers on environmental economics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author endorses the opposite position on environmental economics from the one presented.",
+          "The author takes a critical stance toward environmental economics and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for environmental economics without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than environmental economics."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a critical tone and centers on environmental economics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author endorses the opposite position on environmental economics from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than environmental economics.",
+          "The author strongly advocates for environmental economics without acknowledging limitations.",
+          "The author takes a critical stance toward environmental economics and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a critical tone and centers on environmental economics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author strongly advocates for environmental economics without acknowledging limitations.",
+          "The author endorses the opposite position on environmental economics from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than environmental economics.",
+          "The author takes a critical stance toward environmental economics and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a critical tone and centers on environmental economics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author takes a critical stance toward environmental economics and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than environmental economics.",
+          "The author strongly advocates for environmental economics without acknowledging limitations.",
+          "The author endorses the opposite position on environmental economics from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a critical tone and centers on environmental economics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than environmental economics.",
+          "The author strongly advocates for environmental economics without acknowledging limitations.",
+          "The author takes a critical stance toward environmental economics and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on environmental economics from the one presented."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a critical tone and centers on environmental economics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author takes a critical stance toward environmental economics and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on environmental economics from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than environmental economics.",
+          "The author strongly advocates for environmental economics without acknowledging limitations."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a critical tone and centers on environmental economics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author endorses the opposite position on environmental economics from the one presented.",
+          "The author strongly advocates for environmental economics without acknowledging limitations.",
+          "The author takes a critical stance toward environmental economics and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than environmental economics."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a critical tone and centers on environmental economics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author takes a critical stance toward environmental economics and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for environmental economics without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than environmental economics.",
+          "The author endorses the opposite position on environmental economics from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a critical tone and centers on environmental economics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author takes a critical stance toward environmental economics and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for environmental economics without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than environmental economics.",
+          "The author endorses the opposite position on environmental economics from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a critical tone and centers on environmental economics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author endorses the opposite position on environmental economics from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than environmental economics.",
+          "The author strongly advocates for environmental economics without acknowledging limitations.",
+          "The author takes a critical stance toward environmental economics and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a critical tone and centers on environmental economics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author endorses the opposite position on environmental economics from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than environmental economics.",
+          "The author strongly advocates for environmental economics without acknowledging limitations.",
+          "The author takes a critical stance toward environmental economics and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a critical tone and centers on environmental economics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      }
+    ]
+  },
+  {
+    "passageText": "Passage 17: This passage examines cognitive science in a analytical voice. It describes major debates, historical context, and theoretical implications while contrasting competing viewpoints in a measured way.",
+    "questions": [
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author endorses the opposite position on cognitive science from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than cognitive science.",
+          "The author strongly advocates for cognitive science without acknowledging limitations.",
+          "The author takes a analytical stance toward cognitive science and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a analytical tone and centers on cognitive science. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than cognitive science.",
+          "The author takes a analytical stance toward cognitive science and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on cognitive science from the one presented.",
+          "The author strongly advocates for cognitive science without acknowledging limitations."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a analytical tone and centers on cognitive science. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author takes a analytical stance toward cognitive science and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for cognitive science without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than cognitive science.",
+          "The author endorses the opposite position on cognitive science from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a analytical tone and centers on cognitive science. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author endorses the opposite position on cognitive science from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than cognitive science.",
+          "The author strongly advocates for cognitive science without acknowledging limitations.",
+          "The author takes a analytical stance toward cognitive science and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a analytical tone and centers on cognitive science. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author endorses the opposite position on cognitive science from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than cognitive science.",
+          "The author strongly advocates for cognitive science without acknowledging limitations.",
+          "The author takes a analytical stance toward cognitive science and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a analytical tone and centers on cognitive science. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author endorses the opposite position on cognitive science from the one presented.",
+          "The author takes a analytical stance toward cognitive science and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than cognitive science.",
+          "The author strongly advocates for cognitive science without acknowledging limitations."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a analytical tone and centers on cognitive science. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author endorses the opposite position on cognitive science from the one presented.",
+          "The author strongly advocates for cognitive science without acknowledging limitations.",
+          "The author takes a analytical stance toward cognitive science and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than cognitive science."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a analytical tone and centers on cognitive science. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author takes a analytical stance toward cognitive science and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for cognitive science without acknowledging limitations.",
+          "The author endorses the opposite position on cognitive science from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than cognitive science."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a analytical tone and centers on cognitive science. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author takes a analytical stance toward cognitive science and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for cognitive science without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than cognitive science.",
+          "The author endorses the opposite position on cognitive science from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a analytical tone and centers on cognitive science. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author takes a analytical stance toward cognitive science and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for cognitive science without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than cognitive science.",
+          "The author endorses the opposite position on cognitive science from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a analytical tone and centers on cognitive science. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author takes a analytical stance toward cognitive science and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for cognitive science without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than cognitive science.",
+          "The author endorses the opposite position on cognitive science from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a analytical tone and centers on cognitive science. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author endorses the opposite position on cognitive science from the one presented.",
+          "The author strongly advocates for cognitive science without acknowledging limitations.",
+          "The author takes a analytical stance toward cognitive science and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than cognitive science."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a analytical tone and centers on cognitive science. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author strongly advocates for cognitive science without acknowledging limitations.",
+          "The author takes a analytical stance toward cognitive science and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on cognitive science from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than cognitive science."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a analytical tone and centers on cognitive science. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author takes a analytical stance toward cognitive science and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for cognitive science without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than cognitive science.",
+          "The author endorses the opposite position on cognitive science from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a analytical tone and centers on cognitive science. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author endorses the opposite position on cognitive science from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than cognitive science.",
+          "The author strongly advocates for cognitive science without acknowledging limitations.",
+          "The author takes a analytical stance toward cognitive science and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a analytical tone and centers on cognitive science. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author endorses the opposite position on cognitive science from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than cognitive science.",
+          "The author strongly advocates for cognitive science without acknowledging limitations.",
+          "The author takes a analytical stance toward cognitive science and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a analytical tone and centers on cognitive science. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author takes a analytical stance toward cognitive science and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on cognitive science from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than cognitive science.",
+          "The author strongly advocates for cognitive science without acknowledging limitations."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a analytical tone and centers on cognitive science. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author endorses the opposite position on cognitive science from the one presented.",
+          "The author strongly advocates for cognitive science without acknowledging limitations.",
+          "The author takes a analytical stance toward cognitive science and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than cognitive science."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a analytical tone and centers on cognitive science. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      }
+    ]
+  },
+  {
+    "passageText": "Passage 18: This passage examines public health ethics in a cautious voice. It describes major debates, historical context, and theoretical implications while contrasting competing viewpoints in a measured way.",
+    "questions": [
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author endorses the opposite position on public health ethics from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than public health ethics.",
+          "The author strongly advocates for public health ethics without acknowledging limitations.",
+          "The author takes a cautious stance toward public health ethics and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a cautious tone and centers on public health ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author takes a cautious stance toward public health ethics and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than public health ethics.",
+          "The author strongly advocates for public health ethics without acknowledging limitations.",
+          "The author endorses the opposite position on public health ethics from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a cautious tone and centers on public health ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author takes a cautious stance toward public health ethics and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for public health ethics without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than public health ethics.",
+          "The author endorses the opposite position on public health ethics from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a cautious tone and centers on public health ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author takes a cautious stance toward public health ethics and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for public health ethics without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than public health ethics.",
+          "The author endorses the opposite position on public health ethics from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a cautious tone and centers on public health ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author takes a cautious stance toward public health ethics and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on public health ethics from the one presented.",
+          "The author strongly advocates for public health ethics without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than public health ethics."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a cautious tone and centers on public health ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author takes a cautious stance toward public health ethics and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for public health ethics without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than public health ethics.",
+          "The author endorses the opposite position on public health ethics from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a cautious tone and centers on public health ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author takes a cautious stance toward public health ethics and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for public health ethics without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than public health ethics.",
+          "The author endorses the opposite position on public health ethics from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a cautious tone and centers on public health ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author endorses the opposite position on public health ethics from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than public health ethics.",
+          "The author strongly advocates for public health ethics without acknowledging limitations.",
+          "The author takes a cautious stance toward public health ethics and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a cautious tone and centers on public health ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author takes a cautious stance toward public health ethics and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for public health ethics without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than public health ethics.",
+          "The author endorses the opposite position on public health ethics from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a cautious tone and centers on public health ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author takes a cautious stance toward public health ethics and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on public health ethics from the one presented.",
+          "The author strongly advocates for public health ethics without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than public health ethics."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a cautious tone and centers on public health ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author endorses the opposite position on public health ethics from the one presented.",
+          "The author takes a cautious stance toward public health ethics and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than public health ethics.",
+          "The author strongly advocates for public health ethics without acknowledging limitations."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a cautious tone and centers on public health ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author strongly advocates for public health ethics without acknowledging limitations.",
+          "The author takes a cautious stance toward public health ethics and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on public health ethics from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than public health ethics."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a cautious tone and centers on public health ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author endorses the opposite position on public health ethics from the one presented.",
+          "The author takes a cautious stance toward public health ethics and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for public health ethics without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than public health ethics."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a cautious tone and centers on public health ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author takes a cautious stance toward public health ethics and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for public health ethics without acknowledging limitations.",
+          "The author endorses the opposite position on public health ethics from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than public health ethics."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a cautious tone and centers on public health ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author endorses the opposite position on public health ethics from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than public health ethics.",
+          "The author strongly advocates for public health ethics without acknowledging limitations.",
+          "The author takes a cautious stance toward public health ethics and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a cautious tone and centers on public health ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author endorses the opposite position on public health ethics from the one presented.",
+          "The author takes a cautious stance toward public health ethics and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for public health ethics without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than public health ethics."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a cautious tone and centers on public health ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author endorses the opposite position on public health ethics from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than public health ethics.",
+          "The author takes a cautious stance toward public health ethics and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for public health ethics without acknowledging limitations."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a cautious tone and centers on public health ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than public health ethics.",
+          "The author endorses the opposite position on public health ethics from the one presented.",
+          "The author takes a cautious stance toward public health ethics and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for public health ethics without acknowledging limitations."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a cautious tone and centers on public health ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      }
+    ]
+  }
+]

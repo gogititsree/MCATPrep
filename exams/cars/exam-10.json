@@ -1,0 +1,611 @@
+[
+  {
+    "passageText": "Passage 28: This passage examines gender studies in a critical voice. It describes major debates, historical context, and theoretical implications while contrasting competing viewpoints in a measured way.",
+    "questions": [
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than gender studies.",
+          "The author takes a critical stance toward gender studies and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for gender studies without acknowledging limitations.",
+          "The author endorses the opposite position on gender studies from the one presented."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a critical tone and centers on gender studies. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author takes a critical stance toward gender studies and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on gender studies from the one presented.",
+          "The author strongly advocates for gender studies without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than gender studies."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a critical tone and centers on gender studies. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author endorses the opposite position on gender studies from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than gender studies.",
+          "The author takes a critical stance toward gender studies and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for gender studies without acknowledging limitations."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a critical tone and centers on gender studies. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than gender studies.",
+          "The author strongly advocates for gender studies without acknowledging limitations.",
+          "The author takes a critical stance toward gender studies and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on gender studies from the one presented."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a critical tone and centers on gender studies. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author takes a critical stance toward gender studies and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for gender studies without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than gender studies.",
+          "The author endorses the opposite position on gender studies from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a critical tone and centers on gender studies. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author takes a critical stance toward gender studies and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than gender studies.",
+          "The author endorses the opposite position on gender studies from the one presented.",
+          "The author strongly advocates for gender studies without acknowledging limitations."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a critical tone and centers on gender studies. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author takes a critical stance toward gender studies and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for gender studies without acknowledging limitations.",
+          "The author endorses the opposite position on gender studies from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than gender studies."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a critical tone and centers on gender studies. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than gender studies.",
+          "The author strongly advocates for gender studies without acknowledging limitations.",
+          "The author takes a critical stance toward gender studies and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on gender studies from the one presented."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a critical tone and centers on gender studies. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than gender studies.",
+          "The author strongly advocates for gender studies without acknowledging limitations.",
+          "The author takes a critical stance toward gender studies and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on gender studies from the one presented."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a critical tone and centers on gender studies. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author endorses the opposite position on gender studies from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than gender studies.",
+          "The author strongly advocates for gender studies without acknowledging limitations.",
+          "The author takes a critical stance toward gender studies and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a critical tone and centers on gender studies. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author strongly advocates for gender studies without acknowledging limitations.",
+          "The author takes a critical stance toward gender studies and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than gender studies.",
+          "The author endorses the opposite position on gender studies from the one presented."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a critical tone and centers on gender studies. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author takes a critical stance toward gender studies and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on gender studies from the one presented.",
+          "The author strongly advocates for gender studies without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than gender studies."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a critical tone and centers on gender studies. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than gender studies.",
+          "The author strongly advocates for gender studies without acknowledging limitations.",
+          "The author takes a critical stance toward gender studies and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on gender studies from the one presented."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a critical tone and centers on gender studies. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author strongly advocates for gender studies without acknowledging limitations.",
+          "The author endorses the opposite position on gender studies from the one presented.",
+          "The author takes a critical stance toward gender studies and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than gender studies."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a critical tone and centers on gender studies. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author takes a critical stance toward gender studies and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for gender studies without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than gender studies.",
+          "The author endorses the opposite position on gender studies from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a critical tone and centers on gender studies. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author endorses the opposite position on gender studies from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than gender studies.",
+          "The author strongly advocates for gender studies without acknowledging limitations.",
+          "The author takes a critical stance toward gender studies and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a critical tone and centers on gender studies. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author takes a critical stance toward gender studies and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for gender studies without acknowledging limitations.",
+          "The author endorses the opposite position on gender studies from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than gender studies."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a critical tone and centers on gender studies. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author takes a critical stance toward gender studies and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for gender studies without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than gender studies.",
+          "The author endorses the opposite position on gender studies from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a critical tone and centers on gender studies. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      }
+    ]
+  },
+  {
+    "passageText": "Passage 29: This passage examines urban planning in a analytical voice. It describes major debates, historical context, and theoretical implications while contrasting competing viewpoints in a measured way.",
+    "questions": [
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author endorses the opposite position on urban planning from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than urban planning.",
+          "The author strongly advocates for urban planning without acknowledging limitations.",
+          "The author takes a analytical stance toward urban planning and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a analytical tone and centers on urban planning. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than urban planning.",
+          "The author strongly advocates for urban planning without acknowledging limitations.",
+          "The author endorses the opposite position on urban planning from the one presented.",
+          "The author takes a analytical stance toward urban planning and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a analytical tone and centers on urban planning. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author endorses the opposite position on urban planning from the one presented.",
+          "The author takes a analytical stance toward urban planning and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for urban planning without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than urban planning."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a analytical tone and centers on urban planning. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author endorses the opposite position on urban planning from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than urban planning.",
+          "The author takes a analytical stance toward urban planning and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for urban planning without acknowledging limitations."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a analytical tone and centers on urban planning. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than urban planning.",
+          "The author strongly advocates for urban planning without acknowledging limitations.",
+          "The author endorses the opposite position on urban planning from the one presented.",
+          "The author takes a analytical stance toward urban planning and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a analytical tone and centers on urban planning. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author endorses the opposite position on urban planning from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than urban planning.",
+          "The author strongly advocates for urban planning without acknowledging limitations.",
+          "The author takes a analytical stance toward urban planning and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a analytical tone and centers on urban planning. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author strongly advocates for urban planning without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than urban planning.",
+          "The author endorses the opposite position on urban planning from the one presented.",
+          "The author takes a analytical stance toward urban planning and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a analytical tone and centers on urban planning. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author takes a analytical stance toward urban planning and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on urban planning from the one presented.",
+          "The author strongly advocates for urban planning without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than urban planning."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a analytical tone and centers on urban planning. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author takes a analytical stance toward urban planning and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than urban planning.",
+          "The author endorses the opposite position on urban planning from the one presented.",
+          "The author strongly advocates for urban planning without acknowledging limitations."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a analytical tone and centers on urban planning. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author endorses the opposite position on urban planning from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than urban planning.",
+          "The author strongly advocates for urban planning without acknowledging limitations.",
+          "The author takes a analytical stance toward urban planning and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a analytical tone and centers on urban planning. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author takes a analytical stance toward urban planning and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for urban planning without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than urban planning.",
+          "The author endorses the opposite position on urban planning from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a analytical tone and centers on urban planning. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author endorses the opposite position on urban planning from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than urban planning.",
+          "The author strongly advocates for urban planning without acknowledging limitations.",
+          "The author takes a analytical stance toward urban planning and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a analytical tone and centers on urban planning. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author takes a analytical stance toward urban planning and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on urban planning from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than urban planning.",
+          "The author strongly advocates for urban planning without acknowledging limitations."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a analytical tone and centers on urban planning. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author takes a analytical stance toward urban planning and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for urban planning without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than urban planning.",
+          "The author endorses the opposite position on urban planning from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a analytical tone and centers on urban planning. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author endorses the opposite position on urban planning from the one presented.",
+          "The author takes a analytical stance toward urban planning and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than urban planning.",
+          "The author strongly advocates for urban planning without acknowledging limitations."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a analytical tone and centers on urban planning. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author takes a analytical stance toward urban planning and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on urban planning from the one presented.",
+          "The author strongly advocates for urban planning without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than urban planning."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a analytical tone and centers on urban planning. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than urban planning.",
+          "The author strongly advocates for urban planning without acknowledging limitations.",
+          "The author takes a analytical stance toward urban planning and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on urban planning from the one presented."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a analytical tone and centers on urban planning. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than urban planning.",
+          "The author takes a analytical stance toward urban planning and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for urban planning without acknowledging limitations.",
+          "The author endorses the opposite position on urban planning from the one presented."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a analytical tone and centers on urban planning. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      }
+    ]
+  },
+  {
+    "passageText": "Passage 30: This passage examines scientific ethics in a cautious voice. It describes major debates, historical context, and theoretical implications while contrasting competing viewpoints in a measured way.",
+    "questions": [
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author takes a cautious stance toward scientific ethics and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for scientific ethics without acknowledging limitations.",
+          "The author endorses the opposite position on scientific ethics from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than scientific ethics."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a cautious tone and centers on scientific ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than scientific ethics.",
+          "The author strongly advocates for scientific ethics without acknowledging limitations.",
+          "The author takes a cautious stance toward scientific ethics and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on scientific ethics from the one presented."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a cautious tone and centers on scientific ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author endorses the opposite position on scientific ethics from the one presented.",
+          "The author strongly advocates for scientific ethics without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than scientific ethics.",
+          "The author takes a cautious stance toward scientific ethics and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a cautious tone and centers on scientific ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than scientific ethics.",
+          "The author strongly advocates for scientific ethics without acknowledging limitations.",
+          "The author endorses the opposite position on scientific ethics from the one presented.",
+          "The author takes a cautious stance toward scientific ethics and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a cautious tone and centers on scientific ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author endorses the opposite position on scientific ethics from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than scientific ethics.",
+          "The author takes a cautious stance toward scientific ethics and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for scientific ethics without acknowledging limitations."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a cautious tone and centers on scientific ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author strongly advocates for scientific ethics without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than scientific ethics.",
+          "The author takes a cautious stance toward scientific ethics and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on scientific ethics from the one presented."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a cautious tone and centers on scientific ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author endorses the opposite position on scientific ethics from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than scientific ethics.",
+          "The author strongly advocates for scientific ethics without acknowledging limitations.",
+          "The author takes a cautious stance toward scientific ethics and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a cautious tone and centers on scientific ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author takes a cautious stance toward scientific ethics and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for scientific ethics without acknowledging limitations.",
+          "The author endorses the opposite position on scientific ethics from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than scientific ethics."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a cautious tone and centers on scientific ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author strongly advocates for scientific ethics without acknowledging limitations.",
+          "The author endorses the opposite position on scientific ethics from the one presented.",
+          "The author takes a cautious stance toward scientific ethics and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than scientific ethics."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a cautious tone and centers on scientific ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author takes a cautious stance toward scientific ethics and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for scientific ethics without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than scientific ethics.",
+          "The author endorses the opposite position on scientific ethics from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a cautious tone and centers on scientific ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author takes a cautious stance toward scientific ethics and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for scientific ethics without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than scientific ethics.",
+          "The author endorses the opposite position on scientific ethics from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a cautious tone and centers on scientific ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than scientific ethics.",
+          "The author strongly advocates for scientific ethics without acknowledging limitations.",
+          "The author takes a cautious stance toward scientific ethics and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on scientific ethics from the one presented."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a cautious tone and centers on scientific ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author strongly advocates for scientific ethics without acknowledging limitations.",
+          "The author takes a cautious stance toward scientific ethics and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on scientific ethics from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than scientific ethics."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a cautious tone and centers on scientific ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author endorses the opposite position on scientific ethics from the one presented.",
+          "The author takes a cautious stance toward scientific ethics and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than scientific ethics.",
+          "The author strongly advocates for scientific ethics without acknowledging limitations."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a cautious tone and centers on scientific ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than scientific ethics.",
+          "The author strongly advocates for scientific ethics without acknowledging limitations.",
+          "The author endorses the opposite position on scientific ethics from the one presented.",
+          "The author takes a cautious stance toward scientific ethics and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a cautious tone and centers on scientific ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author takes a cautious stance toward scientific ethics and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for scientific ethics without acknowledging limitations.",
+          "The author endorses the opposite position on scientific ethics from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than scientific ethics."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a cautious tone and centers on scientific ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author endorses the opposite position on scientific ethics from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than scientific ethics.",
+          "The author strongly advocates for scientific ethics without acknowledging limitations.",
+          "The author takes a cautious stance toward scientific ethics and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a cautious tone and centers on scientific ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than scientific ethics.",
+          "The author endorses the opposite position on scientific ethics from the one presented.",
+          "The author strongly advocates for scientific ethics without acknowledging limitations.",
+          "The author takes a cautious stance toward scientific ethics and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a cautious tone and centers on scientific ethics. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      }
+    ]
+  }
+]

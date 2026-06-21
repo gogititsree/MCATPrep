@@ -1,0 +1,611 @@
+[
+  {
+    "passageText": "Passage 25: This passage examines digital privacy in a skeptical voice. It describes major debates, historical context, and theoretical implications while contrasting competing viewpoints in a measured way.",
+    "questions": [
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author takes a skeptical stance toward digital privacy and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for digital privacy without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than digital privacy.",
+          "The author endorses the opposite position on digital privacy from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a skeptical tone and centers on digital privacy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author endorses the opposite position on digital privacy from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than digital privacy.",
+          "The author strongly advocates for digital privacy without acknowledging limitations.",
+          "The author takes a skeptical stance toward digital privacy and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a skeptical tone and centers on digital privacy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author takes a skeptical stance toward digital privacy and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for digital privacy without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than digital privacy.",
+          "The author endorses the opposite position on digital privacy from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a skeptical tone and centers on digital privacy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author takes a skeptical stance toward digital privacy and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for digital privacy without acknowledging limitations.",
+          "The author endorses the opposite position on digital privacy from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than digital privacy."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a skeptical tone and centers on digital privacy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than digital privacy.",
+          "The author strongly advocates for digital privacy without acknowledging limitations.",
+          "The author takes a skeptical stance toward digital privacy and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on digital privacy from the one presented."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a skeptical tone and centers on digital privacy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author strongly advocates for digital privacy without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than digital privacy.",
+          "The author takes a skeptical stance toward digital privacy and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on digital privacy from the one presented."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a skeptical tone and centers on digital privacy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author strongly advocates for digital privacy without acknowledging limitations.",
+          "The author endorses the opposite position on digital privacy from the one presented.",
+          "The author takes a skeptical stance toward digital privacy and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than digital privacy."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a skeptical tone and centers on digital privacy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than digital privacy.",
+          "The author strongly advocates for digital privacy without acknowledging limitations.",
+          "The author takes a skeptical stance toward digital privacy and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on digital privacy from the one presented."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a skeptical tone and centers on digital privacy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author endorses the opposite position on digital privacy from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than digital privacy.",
+          "The author strongly advocates for digital privacy without acknowledging limitations.",
+          "The author takes a skeptical stance toward digital privacy and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a skeptical tone and centers on digital privacy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author endorses the opposite position on digital privacy from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than digital privacy.",
+          "The author strongly advocates for digital privacy without acknowledging limitations.",
+          "The author takes a skeptical stance toward digital privacy and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a skeptical tone and centers on digital privacy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than digital privacy.",
+          "The author endorses the opposite position on digital privacy from the one presented.",
+          "The author takes a skeptical stance toward digital privacy and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for digital privacy without acknowledging limitations."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a skeptical tone and centers on digital privacy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author endorses the opposite position on digital privacy from the one presented.",
+          "The author takes a skeptical stance toward digital privacy and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for digital privacy without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than digital privacy."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a skeptical tone and centers on digital privacy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than digital privacy.",
+          "The author strongly advocates for digital privacy without acknowledging limitations.",
+          "The author endorses the opposite position on digital privacy from the one presented.",
+          "The author takes a skeptical stance toward digital privacy and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a skeptical tone and centers on digital privacy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author endorses the opposite position on digital privacy from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than digital privacy.",
+          "The author takes a skeptical stance toward digital privacy and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for digital privacy without acknowledging limitations."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a skeptical tone and centers on digital privacy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author endorses the opposite position on digital privacy from the one presented.",
+          "The author strongly advocates for digital privacy without acknowledging limitations.",
+          "The author takes a skeptical stance toward digital privacy and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than digital privacy."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a skeptical tone and centers on digital privacy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author endorses the opposite position on digital privacy from the one presented.",
+          "The author takes a skeptical stance toward digital privacy and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for digital privacy without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than digital privacy."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a skeptical tone and centers on digital privacy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author endorses the opposite position on digital privacy from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than digital privacy.",
+          "The author strongly advocates for digital privacy without acknowledging limitations.",
+          "The author takes a skeptical stance toward digital privacy and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a skeptical tone and centers on digital privacy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than digital privacy.",
+          "The author endorses the opposite position on digital privacy from the one presented.",
+          "The author strongly advocates for digital privacy without acknowledging limitations.",
+          "The author takes a skeptical stance toward digital privacy and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a skeptical tone and centers on digital privacy. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      }
+    ]
+  },
+  {
+    "passageText": "Passage 26: This passage examines science communication in a measured voice. It describes major debates, historical context, and theoretical implications while contrasting competing viewpoints in a measured way.",
+    "questions": [
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author takes a measured stance toward science communication and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for science communication without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than science communication.",
+          "The author endorses the opposite position on science communication from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a measured tone and centers on science communication. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author endorses the opposite position on science communication from the one presented.",
+          "The author strongly advocates for science communication without acknowledging limitations.",
+          "The author takes a measured stance toward science communication and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than science communication."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a measured tone and centers on science communication. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author takes a measured stance toward science communication and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on science communication from the one presented.",
+          "The author strongly advocates for science communication without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than science communication."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a measured tone and centers on science communication. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author strongly advocates for science communication without acknowledging limitations.",
+          "The author takes a measured stance toward science communication and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than science communication.",
+          "The author endorses the opposite position on science communication from the one presented."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a measured tone and centers on science communication. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author strongly advocates for science communication without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than science communication.",
+          "The author endorses the opposite position on science communication from the one presented.",
+          "The author takes a measured stance toward science communication and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a measured tone and centers on science communication. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author takes a measured stance toward science communication and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for science communication without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than science communication.",
+          "The author endorses the opposite position on science communication from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a measured tone and centers on science communication. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author endorses the opposite position on science communication from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than science communication.",
+          "The author strongly advocates for science communication without acknowledging limitations.",
+          "The author takes a measured stance toward science communication and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a measured tone and centers on science communication. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author endorses the opposite position on science communication from the one presented.",
+          "The author takes a measured stance toward science communication and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for science communication without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than science communication."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a measured tone and centers on science communication. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author endorses the opposite position on science communication from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than science communication.",
+          "The author strongly advocates for science communication without acknowledging limitations.",
+          "The author takes a measured stance toward science communication and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a measured tone and centers on science communication. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author strongly advocates for science communication without acknowledging limitations.",
+          "The author endorses the opposite position on science communication from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than science communication.",
+          "The author takes a measured stance toward science communication and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a measured tone and centers on science communication. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author takes a measured stance toward science communication and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for science communication without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than science communication.",
+          "The author endorses the opposite position on science communication from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a measured tone and centers on science communication. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author endorses the opposite position on science communication from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than science communication.",
+          "The author strongly advocates for science communication without acknowledging limitations.",
+          "The author takes a measured stance toward science communication and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a measured tone and centers on science communication. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author endorses the opposite position on science communication from the one presented.",
+          "The author strongly advocates for science communication without acknowledging limitations.",
+          "The author takes a measured stance toward science communication and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than science communication."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a measured tone and centers on science communication. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author endorses the opposite position on science communication from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than science communication.",
+          "The author strongly advocates for science communication without acknowledging limitations.",
+          "The author takes a measured stance toward science communication and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a measured tone and centers on science communication. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author strongly advocates for science communication without acknowledging limitations.",
+          "The author takes a measured stance toward science communication and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on science communication from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than science communication."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a measured tone and centers on science communication. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author takes a measured stance toward science communication and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on science communication from the one presented.",
+          "The author strongly advocates for science communication without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than science communication."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a measured tone and centers on science communication. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than science communication.",
+          "The author endorses the opposite position on science communication from the one presented.",
+          "The author takes a measured stance toward science communication and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for science communication without acknowledging limitations."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a measured tone and centers on science communication. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author endorses the opposite position on science communication from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than science communication.",
+          "The author strongly advocates for science communication without acknowledging limitations.",
+          "The author takes a measured stance toward science communication and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a measured tone and centers on science communication. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      }
+    ]
+  },
+  {
+    "passageText": "Passage 27: This passage examines architecture and culture in a optimistic voice. It describes major debates, historical context, and theoretical implications while contrasting competing viewpoints in a measured way.",
+    "questions": [
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author endorses the opposite position on architecture and culture from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than architecture and culture.",
+          "The author strongly advocates for architecture and culture without acknowledging limitations.",
+          "The author takes a optimistic stance toward architecture and culture and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a optimistic tone and centers on architecture and culture. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author takes a optimistic stance toward architecture and culture and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than architecture and culture.",
+          "The author endorses the opposite position on architecture and culture from the one presented.",
+          "The author strongly advocates for architecture and culture without acknowledging limitations."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a optimistic tone and centers on architecture and culture. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author strongly advocates for architecture and culture without acknowledging limitations.",
+          "The author endorses the opposite position on architecture and culture from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than architecture and culture.",
+          "The author takes a optimistic stance toward architecture and culture and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a optimistic tone and centers on architecture and culture. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author strongly advocates for architecture and culture without acknowledging limitations.",
+          "The author takes a optimistic stance toward architecture and culture and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on architecture and culture from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than architecture and culture."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a optimistic tone and centers on architecture and culture. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author endorses the opposite position on architecture and culture from the one presented.",
+          "The author takes a optimistic stance toward architecture and culture and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than architecture and culture.",
+          "The author strongly advocates for architecture and culture without acknowledging limitations."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a optimistic tone and centers on architecture and culture. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author takes a optimistic stance toward architecture and culture and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on architecture and culture from the one presented.",
+          "The author strongly advocates for architecture and culture without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than architecture and culture."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a optimistic tone and centers on architecture and culture. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author strongly advocates for architecture and culture without acknowledging limitations.",
+          "The author endorses the opposite position on architecture and culture from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than architecture and culture.",
+          "The author takes a optimistic stance toward architecture and culture and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a optimistic tone and centers on architecture and culture. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author endorses the opposite position on architecture and culture from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than architecture and culture.",
+          "The author strongly advocates for architecture and culture without acknowledging limitations.",
+          "The author takes a optimistic stance toward architecture and culture and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a optimistic tone and centers on architecture and culture. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author endorses the opposite position on architecture and culture from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than architecture and culture.",
+          "The author strongly advocates for architecture and culture without acknowledging limitations.",
+          "The author takes a optimistic stance toward architecture and culture and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a optimistic tone and centers on architecture and culture. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author endorses the opposite position on architecture and culture from the one presented.",
+          "The author strongly advocates for architecture and culture without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than architecture and culture.",
+          "The author takes a optimistic stance toward architecture and culture and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a optimistic tone and centers on architecture and culture. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author endorses the opposite position on architecture and culture from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than architecture and culture.",
+          "The author strongly advocates for architecture and culture without acknowledging limitations.",
+          "The author takes a optimistic stance toward architecture and culture and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a optimistic tone and centers on architecture and culture. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author endorses the opposite position on architecture and culture from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than architecture and culture.",
+          "The author strongly advocates for architecture and culture without acknowledging limitations.",
+          "The author takes a optimistic stance toward architecture and culture and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a optimistic tone and centers on architecture and culture. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author endorses the opposite position on architecture and culture from the one presented.",
+          "The author takes a optimistic stance toward architecture and culture and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for architecture and culture without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than architecture and culture."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a optimistic tone and centers on architecture and culture. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author endorses the opposite position on architecture and culture from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than architecture and culture.",
+          "The author strongly advocates for architecture and culture without acknowledging limitations.",
+          "The author takes a optimistic stance toward architecture and culture and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a optimistic tone and centers on architecture and culture. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than architecture and culture.",
+          "The author strongly advocates for architecture and culture without acknowledging limitations.",
+          "The author takes a optimistic stance toward architecture and culture and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on architecture and culture from the one presented."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a optimistic tone and centers on architecture and culture. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author takes a optimistic stance toward architecture and culture and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for architecture and culture without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than architecture and culture.",
+          "The author endorses the opposite position on architecture and culture from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a optimistic tone and centers on architecture and culture. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than architecture and culture.",
+          "The author endorses the opposite position on architecture and culture from the one presented.",
+          "The author strongly advocates for architecture and culture without acknowledging limitations.",
+          "The author takes a optimistic stance toward architecture and culture and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a optimistic tone and centers on architecture and culture. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author endorses the opposite position on architecture and culture from the one presented.",
+          "The author takes a optimistic stance toward architecture and culture and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than architecture and culture.",
+          "The author strongly advocates for architecture and culture without acknowledging limitations."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a optimistic tone and centers on architecture and culture. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      }
+    ]
+  }
+]

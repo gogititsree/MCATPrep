@@ -1,0 +1,611 @@
+[
+  {
+    "passageText": "Passage 22: This passage examines legal reform in a critical voice. It describes major debates, historical context, and theoretical implications while contrasting competing viewpoints in a measured way.",
+    "questions": [
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than legal reform.",
+          "The author endorses the opposite position on legal reform from the one presented.",
+          "The author strongly advocates for legal reform without acknowledging limitations.",
+          "The author takes a critical stance toward legal reform and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a critical tone and centers on legal reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author takes a critical stance toward legal reform and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on legal reform from the one presented.",
+          "The author strongly advocates for legal reform without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than legal reform."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a critical tone and centers on legal reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than legal reform.",
+          "The author strongly advocates for legal reform without acknowledging limitations.",
+          "The author takes a critical stance toward legal reform and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on legal reform from the one presented."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a critical tone and centers on legal reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author strongly advocates for legal reform without acknowledging limitations.",
+          "The author takes a critical stance toward legal reform and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than legal reform.",
+          "The author endorses the opposite position on legal reform from the one presented."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a critical tone and centers on legal reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than legal reform.",
+          "The author takes a critical stance toward legal reform and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for legal reform without acknowledging limitations.",
+          "The author endorses the opposite position on legal reform from the one presented."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a critical tone and centers on legal reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author endorses the opposite position on legal reform from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than legal reform.",
+          "The author strongly advocates for legal reform without acknowledging limitations.",
+          "The author takes a critical stance toward legal reform and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a critical tone and centers on legal reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than legal reform.",
+          "The author strongly advocates for legal reform without acknowledging limitations.",
+          "The author endorses the opposite position on legal reform from the one presented.",
+          "The author takes a critical stance toward legal reform and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a critical tone and centers on legal reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than legal reform.",
+          "The author takes a critical stance toward legal reform and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on legal reform from the one presented.",
+          "The author strongly advocates for legal reform without acknowledging limitations."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a critical tone and centers on legal reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author endorses the opposite position on legal reform from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than legal reform.",
+          "The author strongly advocates for legal reform without acknowledging limitations.",
+          "The author takes a critical stance toward legal reform and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a critical tone and centers on legal reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author endorses the opposite position on legal reform from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than legal reform.",
+          "The author strongly advocates for legal reform without acknowledging limitations.",
+          "The author takes a critical stance toward legal reform and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a critical tone and centers on legal reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author endorses the opposite position on legal reform from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than legal reform.",
+          "The author strongly advocates for legal reform without acknowledging limitations.",
+          "The author takes a critical stance toward legal reform and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a critical tone and centers on legal reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author strongly advocates for legal reform without acknowledging limitations.",
+          "The author takes a critical stance toward legal reform and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than legal reform.",
+          "The author endorses the opposite position on legal reform from the one presented."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a critical tone and centers on legal reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than legal reform.",
+          "The author strongly advocates for legal reform without acknowledging limitations.",
+          "The author endorses the opposite position on legal reform from the one presented.",
+          "The author takes a critical stance toward legal reform and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a critical tone and centers on legal reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author endorses the opposite position on legal reform from the one presented.",
+          "The author takes a critical stance toward legal reform and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for legal reform without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than legal reform."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a critical tone and centers on legal reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author takes a critical stance toward legal reform and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for legal reform without acknowledging limitations.",
+          "The author endorses the opposite position on legal reform from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than legal reform."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a critical tone and centers on legal reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author endorses the opposite position on legal reform from the one presented.",
+          "The author strongly advocates for legal reform without acknowledging limitations.",
+          "The author takes a critical stance toward legal reform and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than legal reform."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a critical tone and centers on legal reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author endorses the opposite position on legal reform from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than legal reform.",
+          "The author takes a critical stance toward legal reform and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for legal reform without acknowledging limitations."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a critical tone and centers on legal reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author endorses the opposite position on legal reform from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than legal reform.",
+          "The author strongly advocates for legal reform without acknowledging limitations.",
+          "The author takes a critical stance toward legal reform and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a critical tone and centers on legal reform. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      }
+    ]
+  },
+  {
+    "passageText": "Passage 23: This passage examines social movements in a analytical voice. It describes major debates, historical context, and theoretical implications while contrasting competing viewpoints in a measured way.",
+    "questions": [
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author endorses the opposite position on social movements from the one presented.",
+          "The author takes a analytical stance toward social movements and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for social movements without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than social movements."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a analytical tone and centers on social movements. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author endorses the opposite position on social movements from the one presented.",
+          "The author takes a analytical stance toward social movements and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for social movements without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than social movements."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a analytical tone and centers on social movements. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author takes a analytical stance toward social movements and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for social movements without acknowledging limitations.",
+          "The author endorses the opposite position on social movements from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than social movements."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a analytical tone and centers on social movements. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author takes a analytical stance toward social movements and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for social movements without acknowledging limitations.",
+          "The author endorses the opposite position on social movements from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than social movements."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a analytical tone and centers on social movements. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author endorses the opposite position on social movements from the one presented.",
+          "The author strongly advocates for social movements without acknowledging limitations.",
+          "The author takes a analytical stance toward social movements and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than social movements."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a analytical tone and centers on social movements. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author takes a analytical stance toward social movements and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for social movements without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than social movements.",
+          "The author endorses the opposite position on social movements from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a analytical tone and centers on social movements. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author strongly advocates for social movements without acknowledging limitations.",
+          "The author takes a analytical stance toward social movements and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than social movements.",
+          "The author endorses the opposite position on social movements from the one presented."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a analytical tone and centers on social movements. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author strongly advocates for social movements without acknowledging limitations.",
+          "The author takes a analytical stance toward social movements and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on social movements from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than social movements."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a analytical tone and centers on social movements. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author endorses the opposite position on social movements from the one presented.",
+          "The author strongly advocates for social movements without acknowledging limitations.",
+          "The author takes a analytical stance toward social movements and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than social movements."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a analytical tone and centers on social movements. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author strongly advocates for social movements without acknowledging limitations.",
+          "The author takes a analytical stance toward social movements and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on social movements from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than social movements."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a analytical tone and centers on social movements. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author takes a analytical stance toward social movements and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for social movements without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than social movements.",
+          "The author endorses the opposite position on social movements from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a analytical tone and centers on social movements. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author takes a analytical stance toward social movements and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for social movements without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than social movements.",
+          "The author endorses the opposite position on social movements from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a analytical tone and centers on social movements. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author takes a analytical stance toward social movements and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for social movements without acknowledging limitations.",
+          "The author endorses the opposite position on social movements from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than social movements."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a analytical tone and centers on social movements. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author strongly advocates for social movements without acknowledging limitations.",
+          "The author takes a analytical stance toward social movements and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than social movements.",
+          "The author endorses the opposite position on social movements from the one presented."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a analytical tone and centers on social movements. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author takes a analytical stance toward social movements and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on social movements from the one presented.",
+          "The author strongly advocates for social movements without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than social movements."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a analytical tone and centers on social movements. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author takes a analytical stance toward social movements and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on social movements from the one presented.",
+          "The author strongly advocates for social movements without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than social movements."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a analytical tone and centers on social movements. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author endorses the opposite position on social movements from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than social movements.",
+          "The author strongly advocates for social movements without acknowledging limitations.",
+          "The author takes a analytical stance toward social movements and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a analytical tone and centers on social movements. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author takes a analytical stance toward social movements and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for social movements without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than social movements.",
+          "The author endorses the opposite position on social movements from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a analytical tone and centers on social movements. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      }
+    ]
+  },
+  {
+    "passageText": "Passage 24: This passage examines economic inequality in a cautious voice. It describes major debates, historical context, and theoretical implications while contrasting competing viewpoints in a measured way.",
+    "questions": [
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than economic inequality.",
+          "The author takes a cautious stance toward economic inequality and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for economic inequality without acknowledging limitations.",
+          "The author endorses the opposite position on economic inequality from the one presented."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a cautious tone and centers on economic inequality. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author endorses the opposite position on economic inequality from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than economic inequality.",
+          "The author strongly advocates for economic inequality without acknowledging limitations.",
+          "The author takes a cautious stance toward economic inequality and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a cautious tone and centers on economic inequality. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than economic inequality.",
+          "The author strongly advocates for economic inequality without acknowledging limitations.",
+          "The author endorses the opposite position on economic inequality from the one presented.",
+          "The author takes a cautious stance toward economic inequality and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a cautious tone and centers on economic inequality. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author takes a cautious stance toward economic inequality and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on economic inequality from the one presented.",
+          "The author strongly advocates for economic inequality without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than economic inequality."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a cautious tone and centers on economic inequality. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author takes a cautious stance toward economic inequality and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for economic inequality without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than economic inequality.",
+          "The author endorses the opposite position on economic inequality from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a cautious tone and centers on economic inequality. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author strongly advocates for economic inequality without acknowledging limitations.",
+          "The author takes a cautious stance toward economic inequality and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than economic inequality.",
+          "The author endorses the opposite position on economic inequality from the one presented."
+        ],
+        "correct": 1,
+        "explanation": "The passage uses a cautious tone and centers on economic inequality. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The author endorses the opposite position on economic inequality from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than economic inequality.",
+          "The author strongly advocates for economic inequality without acknowledging limitations.",
+          "The author takes a cautious stance toward economic inequality and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a cautious tone and centers on economic inequality. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author takes a cautious stance toward economic inequality and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for economic inequality without acknowledging limitations.",
+          "The author endorses the opposite position on economic inequality from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than economic inequality."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a cautious tone and centers on economic inequality. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The author endorses the opposite position on economic inequality from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than economic inequality.",
+          "The author strongly advocates for economic inequality without acknowledging limitations.",
+          "The author takes a cautious stance toward economic inequality and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a cautious tone and centers on economic inequality. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author endorses the opposite position on economic inequality from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than economic inequality.",
+          "The author strongly advocates for economic inequality without acknowledging limitations.",
+          "The author takes a cautious stance toward economic inequality and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a cautious tone and centers on economic inequality. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than economic inequality.",
+          "The author strongly advocates for economic inequality without acknowledging limitations.",
+          "The author takes a cautious stance toward economic inequality and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on economic inequality from the one presented."
+        ],
+        "correct": 2,
+        "explanation": "The passage uses a cautious tone and centers on economic inequality. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author takes a cautious stance toward economic inequality and emphasizes evidence-based reasoning.",
+          "The passage focuses mainly on unrelated technical details rather than economic inequality.",
+          "The author strongly advocates for economic inequality without acknowledging limitations.",
+          "The author endorses the opposite position on economic inequality from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a cautious tone and centers on economic inequality. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's primary purpose?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than economic inequality.",
+          "The author endorses the opposite position on economic inequality from the one presented.",
+          "The author strongly advocates for economic inequality without acknowledging limitations.",
+          "The author takes a cautious stance toward economic inequality and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a cautious tone and centers on economic inequality. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's author attitude?",
+        "options": [
+          "The author takes a cautious stance toward economic inequality and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for economic inequality without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than economic inequality.",
+          "The author endorses the opposite position on economic inequality from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a cautious tone and centers on economic inequality. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's inference?",
+        "options": [
+          "The passage focuses mainly on unrelated technical details rather than economic inequality.",
+          "The author strongly advocates for economic inequality without acknowledging limitations.",
+          "The author endorses the opposite position on economic inequality from the one presented.",
+          "The author takes a cautious stance toward economic inequality and emphasizes evidence-based reasoning."
+        ],
+        "correct": 3,
+        "explanation": "The passage uses a cautious tone and centers on economic inequality. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's evidence support?",
+        "options": [
+          "The author takes a cautious stance toward economic inequality and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for economic inequality without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than economic inequality.",
+          "The author endorses the opposite position on economic inequality from the one presented."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a cautious tone and centers on economic inequality. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's assumption?",
+        "options": [
+          "The author takes a cautious stance toward economic inequality and emphasizes evidence-based reasoning.",
+          "The author strongly advocates for economic inequality without acknowledging limitations.",
+          "The author endorses the opposite position on economic inequality from the one presented.",
+          "The passage focuses mainly on unrelated technical details rather than economic inequality."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a cautious tone and centers on economic inequality. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      },
+      {
+        "text": "Based on the passage, which statement best reflects the author's application?",
+        "options": [
+          "The author takes a cautious stance toward economic inequality and emphasizes evidence-based reasoning.",
+          "The author endorses the opposite position on economic inequality from the one presented.",
+          "The author strongly advocates for economic inequality without acknowledging limitations.",
+          "The passage focuses mainly on unrelated technical details rather than economic inequality."
+        ],
+        "correct": 0,
+        "explanation": "The passage uses a cautious tone and centers on economic inequality. The correct choice reflects that position, while the incorrect choices distort the author's orientation."
+      }
+    ]
+  }
+]

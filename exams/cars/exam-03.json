@@ -1,0 +1,215 @@
+[
+  {
+    "passageText": "The sociological concept of 'modernity' encompasses not just a period in history but a set of transformations in how people relate to time, identity, and community. Pre-modern societies were characterized by what Emile Durkheim called 'mechanical solidarity'—cohesion based on shared beliefs, practices, and roles in relatively undifferentiated communities. The modern division of labor, Durkheim argued, replaced this with 'organic solidarity': social cohesion based on the interdependence of specialized roles, even among individuals who share no common beliefs or practices.\n\nThe experience of modernity brought what Georg Simmel called the 'metropolitan personality': a blasé attitude adopted as a defense against the sensory overload of city life. Where the pre-modern villager knew everyone and was embedded in stable social relationships, the city dweller encountered hundreds of strangers daily. The blasé attitude—a calculated indifference—was not a moral failing but a necessary psychological adaptation to an environment of perpetual stimulation and impersonality.\n\nMax Weber analyzed modernity through the lens of rationalization: the process by which magic, tradition, and personal authority were displaced by scientific, bureaucratic, and legal-rational modes of organization. The 'iron cage' of bureaucracy, while efficient, trapped modern individuals in a web of rules and procedures that drained life of meaning and spontaneity. Weber's diagnosis was not a call to return to tradition but a recognition of the costs that accompanied the undoubted gains of rational organization.\n\nPostmodern theorists challenged the entire framework. Jean-François Lyotard famously defined postmodernity as 'incredulity toward metanarratives'—skepticism toward the grand stories (progress, reason, liberation) that had given modernity its sense of direction and purpose. If the Enlightenment project of rational progress had produced Auschwitz as well as penicillin, then confidence in reason as the motor of history seemed naive. Zygmunt Bauman's concept of 'liquid modernity' captured a world in which stable institutions, long-term commitments, and collective identities had given way to fluidity, flexibility, and perpetual reinvention of the self.\n\nThe tension between these diagnoses matters for social policy. If modernity's problems are those of insufficient rationalization—prejudice, inefficiency, tradition-bound thinking—the cure is more of the same: more science, more planning, more transparency. If the problems are those of excessive rationalization—meaninglessness, alienation, bureaucratic domination—the cure may require reinvesting in community, meaning, and the particularity of place and relationship. Both diagnoses may be partially correct, and different problems may require different remedies.",
+    "questions": [
+      {
+        "text": "Durkheim's distinction between 'mechanical' and 'organic' solidarity, as described in the passage, refers to:",
+        "options": [
+          "Physical vs. biological forms of social cohesion",
+          "Cohesion based on shared identity vs. cohesion based on interdependence among specialized roles",
+          "Urban vs. rural forms of social organization",
+          "Traditional vs. modern religious institutions"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'mechanical solidarity' = 'cohesion based on shared beliefs, practices, and roles in relatively undifferentiated communities'; 'organic solidarity' = 'social cohesion based on the interdependence of specialized roles, even among individuals who share no common beliefs or practices.'"
+      },
+      {
+        "text": "Simmel's 'blasé attitude' is portrayed in the passage as:",
+        "options": [
+          "A moral failure indicating the corruption of urban dwellers",
+          "A psychological adaptation to the sensory overload and impersonality of city life",
+          "A deliberate rejection of community values",
+          "A form of political protest against industrialization"
+        ],
+        "correct": 1,
+        "explanation": "The passage explicitly states: 'The blasé attitude—a calculated indifference—was not a moral failing but a necessary psychological adaptation to an environment of perpetual stimulation and impersonality.' The passage removes moral judgment from this behavioral pattern."
+      },
+      {
+        "text": "Weber's 'iron cage' metaphor refers to:",
+        "options": [
+          "The physical conditions in industrial factories",
+          "The bureaucratic and legal-rational systems of modernity that are efficient but strip life of meaning and spontaneity",
+          "The mental illness caused by industrial capitalism",
+          "The prison system described by Foucault"
+        ],
+        "correct": 1,
+        "explanation": "The passage describes Weber's iron cage as the bureaucratic system that is 'efficient' but 'trapped modern individuals in a web of rules and procedures that drained life of meaning and spontaneity.' It is metaphorical, not physical."
+      },
+      {
+        "text": "Lyotard's definition of postmodernity as 'incredulity toward metanarratives' most nearly means:",
+        "options": [
+          "Distrust of small-scale local knowledge",
+          "Skepticism toward the grand narratives (progress, reason, liberation) that organized modernity's self-understanding",
+          "Rejection of all forms of historical knowledge",
+          "Belief that reason is the primary driver of history"
+        ],
+        "correct": 1,
+        "explanation": "The passage directly states: 'Lyotard famously defined postmodernity as incredulity toward metanarratives—skepticism toward the grand stories (progress, reason, liberation) that had given modernity its sense of direction and purpose.'"
+      },
+      {
+        "text": "The author's final paragraph suggests that the sociological diagnoses of modernity's problems are:",
+        "options": [
+          "Entirely compatible and mutually reinforcing",
+          "Partially correct and that different problems may require different remedies—some problems are about insufficient rationalization, others about excessive rationalization",
+          "Politically motivated and therefore unreliable",
+          "Only applicable to Western European societies"
+        ],
+        "correct": 1,
+        "explanation": "The passage concludes: 'Both diagnoses may be partially correct, and different problems may require different remedies.' This is a pluralistic position that acknowledges validity in competing accounts without declaring a winner."
+      },
+      {
+        "text": "Bauman's concept of 'liquid modernity' would best describe which contemporary phenomenon?",
+        "options": [
+          "The persistence of traditional religious institutions in modern societies",
+          "The proliferation of short-term employment contracts, changing career paths, and frequent relocation as stable institutions give way to flexibility",
+          "The growth of rational bureaucratic regulation in healthcare and education",
+          "The rise of democratic institutions in formerly authoritarian countries"
+        ],
+        "correct": 1,
+        "explanation": "The passage describes liquid modernity as 'a world in which stable institutions, long-term commitments, and collective identities had given way to fluidity, flexibility, and perpetual reinvention of the self.' Short-term employment, career changes, and relocation exemplify this fluidity, unlike the other options which describe stability or rationalization."
+      }
+    ]
+  },
+  {
+    "passageText": "Human beings are, as Aristotle observed, political animals—beings whose nature is fulfilled in community with others. But the form that political community should take has been a matter of profound disagreement. The liberal tradition, originating in the work of John Locke, grounded political authority in the consent of the governed and established that individuals possess natural rights—to life, liberty, and property—that government must protect but cannot rightfully violate. Liberty, on this account, is prior to and independent of political community.\n\nJean-Jacques Rousseau offered a more complex account. Like Locke, he grounded authority in popular consent; unlike Locke, he did not believe that pre-political individuals were the bearers of natural rights. Rather, authentic freedom was possible only within a well-ordered political community. The social contract did not merely protect pre-existing rights but transformed the merely instinctual freedom of nature into genuine moral freedom—the freedom of obedience to a law one has given oneself. For Rousseau, the 'general will'—the common good as distinct from the sum of private interests—was the proper object of political authority.\n\nJ.S. Mill, writing in the nineteenth century, worried that the tyranny of the majority posed as great a threat to liberty as the tyranny of kings. His 'harm principle' proposed a clear demarcation: individuals should be free to do as they wish unless their actions harm others. The state had no business restricting liberty to protect individuals from the consequences of their own choices. Mill's liberalism was not merely political—he was an early and vigorous advocate for women's rights and for the extension of liberty to those previously excluded from it.\n\nThe communitarian critique, associated with philosophers like Michael Sandel and Alasdair MacIntyre, challenged liberalism's image of the individual as an 'unencumbered self'—a person who chooses their values and commitments from outside any particular community or tradition. Communitarians argued that the self is always already constituted by the communities and traditions in which it is embedded; the individual rights championed by liberals presuppose the very communities and languages that make meaningful choice possible. The liberal's individual is an abstraction—nowhere to be found in actual human life.\n\nThe debate between liberalism and communitarianism has practical consequences in contemporary bioethics, where it appears as a tension between patient autonomy and the obligations that individuals have to their families, communities, and future generations. A purely liberal framework would defer to individual patient decisions as the expression of autonomous will; a communitarian framework would ask what those decisions mean in a web of relationships and social responsibilities.",
+    "questions": [
+      {
+        "text": "The central difference between Locke's and Rousseau's social contract theories, as described in the passage, is that:",
+        "options": [
+          "Locke supported monarchy; Rousseau supported democracy",
+          "Locke held that individuals possess pre-political natural rights that government must protect; Rousseau believed authentic freedom was achievable only within a political community that transformed natural freedom into moral freedom",
+          "Rousseau denied the existence of natural rights while Locke embraced them as products of political community",
+          "Both agreed that the general will should be the basis of political authority"
+        ],
+        "correct": 1,
+        "explanation": "The passage states Locke 'grounded political authority in the consent of the governed and established that individuals possess natural rights' prior to politics. Rousseau believed 'authentic freedom was possible only within a well-ordered political community' and that the social contract 'transformed the merely instinctual freedom of nature into genuine moral freedom.'"
+      },
+      {
+        "text": "Mill's 'harm principle' as described in the passage holds that:",
+        "options": [
+          "The state may restrict liberty to protect individuals from the consequences of their own choices",
+          "Individuals should be free to do as they wish unless their actions harm others, with the state having no business restricting self-regarding conduct",
+          "Majority rule is the only legitimate basis for restricting individual liberty",
+          "Liberty can only be granted to those who have demonstrated rational capacity"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'individuals should be free to do as they wish unless their actions harm others. The state had no business restricting liberty to protect individuals from the consequences of their own choices.'"
+      },
+      {
+        "text": "The communitarian critique of liberalism, as described in the passage, is best summarized as:",
+        "options": [
+          "Liberalism grants too much freedom and leads to social disorder",
+          "Liberalism's conception of the individual as an 'unencumbered self' who chooses values from outside any community is an abstraction—real individuals are constituted by communities and traditions",
+          "Individual rights are not important compared to collective welfare",
+          "The liberal state violates natural rights by taxing individuals without consent"
+        ],
+        "correct": 1,
+        "explanation": "The passage states communitarians 'challenged liberalism's image of the individual as an unencumbered self...Communitarians argued that the self is always already constituted by the communities and traditions in which it is embedded.' The communitarian individual is not a pre-social atom but a socially constituted being."
+      },
+      {
+        "text": "The application of the liberalism-communitarianism debate to bioethics, as described in the final paragraph, manifests as:",
+        "options": [
+          "A debate about who should pay for medical care",
+          "A tension between individual patient autonomy (liberal) and obligations to families, communities, and future generations (communitarian)",
+          "A disagreement about whether medicine is a science or an art",
+          "A conflict between physicians' authority and hospital administration"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'A purely liberal framework would defer to individual patient decisions as the expression of autonomous will; a communitarian framework would ask what those decisions mean in a web of relationships and social responsibilities.' This directly maps the philosophical debate onto bioethics."
+      },
+      {
+        "text": "Based on the passage, Rousseau's concept of the 'general will' differs from the 'sum of private interests' in that:",
+        "options": [
+          "The general will is determined by majority vote while private interests are determined by the minority",
+          "The general will represents the common good as distinct from the aggregate of individual preferences; it is what members of the political community share as citizens, not as private individuals",
+          "The general will is identical to the majority's will",
+          "The general will is determined by an enlightened monarch rather than by citizens"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'the general will—the common good as distinct from the sum of private interests—was the proper object of political authority.' The general will is not simply the sum of what individuals want but something qualitatively different—the common interest of citizens as such."
+      },
+      {
+        "text": "The passage implies that the communitarian critique would have the greatest practical impact on which liberal policy?",
+        "options": [
+          "Policies that extend equal civil rights to all citizens regardless of background",
+          "Physician-assisted suicide laws that defer entirely to individual patient choice without requiring consultation with family or consideration of community relationships",
+          "Antitrust laws designed to protect market competition",
+          "Free speech protections that prevent government censorship of political speech"
+        ],
+        "correct": 1,
+        "explanation": "The communitarian framework would most challenge policies that defer entirely to individual choice without regard for community relationships. The final paragraph directly uses medical decisions as the example: a communitarian 'would ask what those decisions mean in a web of relationships and social responsibilities'—directly targeting policies that reduce decision-making to isolated individual will."
+      }
+    ]
+  },
+  {
+    "passageText": "Music's relationship to emotion is at once obvious and philosophically puzzling. It is obvious because few people doubt, on the basis of their own experience, that music can move them—to joy, sadness, nostalgia, exhilaration, or calm. It is puzzling because it is far from clear what music is expressing, or to what in us it is appealing, or what the connection between organized sound and emotional response could possibly be.\n\nOne traditional answer is representationalism: music represents—imitates or describes—emotional situations or states, and our emotions are responses to these representations. A minor key with descending melody represents sadness because it resembles the contours of a sad voice or person. This view has a certain intuitive appeal, but it struggles with absolute music—instrumental music without text or explicit program—which seems to express something without depicting anything at all.\n\nAn alternative is expressivism: music expresses the emotions of the composer, and listeners respond by recognizing and empathizing with that expression. The difficulty here is that composers write joyful music while depressed and sad music while happy; moreover, the performed piece is identical whether or not the composer was sincere. The emotional content, if there is any, cannot simply be the composer's actual emotional state.\n\nPeter Kivy proposed a solution via the concept of 'contour': music can be sad without expressing anyone's sadness because it has the shape or contour of sad things—the downward movement, the slow tempo, the minor mode. As a St. Bernard's face has the 'look' of sadness without the dog being sad, a musical phrase can be sad without expressing a felt sadness. This demystifies musical emotion by treating it as resemblance rather than expression.\n\nJerrold Levinson and others have pushed back, arguing that music is not merely contour-similar to emotional states but that it genuinely invites emotional engagement from listeners—the full range of feeling, not just recognition. Listeners do not merely recognize sadness in a piece; they feel sad when hearing it, or at least feel something that cannot be described without reference to sadness. The philosophy of music, on this view, must account for the affective power of music—not just its structural properties—if it is to explain what music actually does to people.",
+    "questions": [
+      {
+        "text": "The 'obvious and philosophically puzzling' character of music's emotional effects, as described in the passage, consists in:",
+        "options": [
+          "The fact that people disagree about what music sounds good",
+          "The gap between the evident empirical reality of emotional response to music and the philosophical difficulty of explaining the mechanism connecting organized sound to emotion",
+          "The inability of modern instruments to produce the sounds composers intended",
+          "The question of whether music can be considered art at all"
+        ],
+        "correct": 1,
+        "explanation": "The passage describes the obvious part ('few people doubt...that music can move them') and the puzzling part ('it is far from clear what music is expressing, or to what in us it is appealing, or what the connection...could possibly be'). The puzzle is the gap between experiential fact and philosophical explanation."
+      },
+      {
+        "text": "The main difficulty with the representationalist view of musical emotion, as described in the passage, is that it:",
+        "options": [
+          "Cannot explain why some people do not respond emotionally to music",
+          "Struggles to explain absolute music—instrumental music without text or program—which seems to express without depicting anything",
+          "Requires music to be performed by the same person who composed it",
+          "Ignores the role of cultural context in shaping emotional responses"
+        ],
+        "correct": 1,
+        "explanation": "The passage states representationalism 'struggles with absolute music—instrumental music without text or explicit program—which seems to express something without depicting anything at all.' If music expresses by representing, purely instrumental music with no apparent subject should express nothing—but it clearly does."
+      },
+      {
+        "text": "The difficulty with the expressivist account (that music expresses the composer's emotion) is that:",
+        "options": [
+          "Composers generally do not have emotions",
+          "The emotional content cannot simply be the composer's felt state at the time of composition, since composers write happy music when sad and vice versa",
+          "Listeners are incapable of empathizing with composers they have never met",
+          "Music can only express emotions that listeners have personally experienced"
+        ],
+        "correct": 1,
+        "explanation": "The passage notes two problems: 'composers write joyful music while depressed and sad music while happy; moreover, the performed piece is identical whether or not the composer was sincere.' The music is the same regardless of the composer's actual state, so the emotion cannot simply derive from that state."
+      },
+      {
+        "text": "Kivy's 'contour' theory of musical emotion holds that:",
+        "options": [
+          "Music expresses emotions by directly inducing those emotions in the listener",
+          "Music can have the quality of sadness (contour-similarity) without anyone being sad—as a St. Bernard has the look of sadness without feeling sad",
+          "Music's emotional content is entirely constructed by listeners with no basis in the music itself",
+          "Only music with lyrics can have genuine emotional content"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'music can be sad without expressing anyone's sadness because it has the shape or contour of sad things.' The St. Bernard analogy illustrates this: resemblance to sadness, not actual expression of sadness."
+      },
+      {
+        "text": "Levinson's critique of Kivy, as described in the passage, argues that:",
+        "options": [
+          "Contour theory correctly explains all musical emotion",
+          "Kivy's theory fails to account for the full affective power of music—listeners actually feel sad (not just recognize sadness) when hearing sad music",
+          "Music's emotional content is culturally determined, not structurally",
+          "Contour similarity is insufficient to distinguish music from sound effects"
+        ],
+        "correct": 1,
+        "explanation": "The passage states Levinson argued 'music is not merely contour-similar to emotional states but that it genuinely invites emotional engagement from listeners.' Listeners 'feel sad when hearing it, or at least feel something that cannot be described without reference to sadness'—not merely recognize sadness. Kivy's theory, for Levinson, is incomplete."
+      },
+      {
+        "text": "The author's statement that the philosophy of music must 'account for the affective power of music—not just its structural properties' suggests that:",
+        "options": [
+          "Structural analysis of music is completely irrelevant",
+          "An adequate theory of musical emotion must explain why music moves people, not just how it resembles emotional states",
+          "All music has the same affective power on all listeners",
+          "Emotional response to music is purely subjective and cannot be theorized"
+        ],
+        "correct": 1,
+        "explanation": "The passage's final sentence argues that if philosophy of music only accounts for structural resemblance (contour theory), it fails to explain what music 'actually does to people.' A complete theory must address the full affective experience of listeners, not just structural-analytical features of the music."
+      }
+    ]
+  }
+]

@@ -1,0 +1,215 @@
+[
+  {
+    "passageText": "The emergence of photography in the 1840s provoked a crisis in the visual arts whose reverberations continued well into the twentieth century. If a machine could reproduce the visible world with perfect fidelity, what remained for the painter to do? One early response—associated with the Pre-Raphaelites and academic realism—was to compete with photography on its own terms, insisting on ever-greater accuracy of detail. A more consequential response was to reject the mimetic project altogether and explore what painting could do that photography could not.\n\nThe Impressionists did not set out to be revolutionary, but their project—capturing the fleeting effects of light and atmosphere rather than the permanent forms of objects—amounted to a redefinition of what painting was for. Where academic painting sought to depict the stable world of things, the Impressionists painted the unstable world of appearances: the shimmer of light on water, the dissolution of form in fog, the way a cathedral facade changes from hour to hour. This was not a failure of technique but a new aesthetic ambition.\n\nPost-Impressionism extended this logic in several directions. Cézanne was interested not in appearance but in underlying structure—the geometry that underlies the visible world. 'You must see in nature the cylinder, the sphere, the cone,' he wrote, a statement that presaged Cubism's radical fragmentation of perspectival space. Seurat's Pointillism applied the science of color perception to painting: small dots of pure color, the eye was supposed to mix optically at a distance. Van Gogh and Gauguin abandoned naturalistic color altogether, using it for expressive and symbolic ends.\n\nThe twentieth century's avant-garde movements took this logic to its limit. Abstract Expressionism in the postwar United States insisted that painting need not represent anything at all—the canvas was an arena in which the act of painting was itself the subject. Mark Rothko's color fields, hovering planes of luminous pigment without edge or form, invited a meditative encounter with pure color and scale. Clement Greenberg, the movement's influential critic, argued that modernist painting was engaged in a critical self-examination: each medium—painting, sculpture, music—was discovering what was unique and irreducible in itself.\n\nThe exhaustion of this logic became visible by the 1960s. If painting had reduced itself to its essential properties—flatness, pigment, edge—what came next? Pop Art's ironic embrace of commercial imagery, Minimalism's industrial objects, Conceptual Art's displacement of the visual by the textual: each represented a different answer to the question of what art could be once the project of formal self-examination had run its course.",
+    "questions": [
+      {
+        "text": "The author argues that photography's emergence created a crisis in painting because:",
+        "options": [
+          "Photographers competed directly with painters for commissions",
+          "If machines could reproduce the visible world with fidelity, painters had to reconsider the mimetic project and find what painting could do that photography could not",
+          "Photography proved that artistic talent was unnecessary for image-making",
+          "Painters could not afford the new photographic equipment"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'If a machine could reproduce the visible world with perfect fidelity, what remained for the painter to do?' The crisis was about the purpose of painting if its mimetic function could be performed by a machine."
+      },
+      {
+        "text": "The Impressionists' approach to painting, as described in the passage, prioritized:",
+        "options": [
+          "Accurate depiction of stable objects using academic techniques",
+          "The fleeting effects of light and atmosphere—unstable appearances rather than permanent forms—redefining what painting was for",
+          "Symbolic color use for emotional expression",
+          "The geometric structure underlying visible appearances"
+        ],
+        "correct": 1,
+        "explanation": "The passage states Impressionists painted 'the unstable world of appearances: the shimmer of light on water, the dissolution of form in fog' rather than 'the stable world of things' that academic painting depicted."
+      },
+      {
+        "text": "Cézanne's statement that 'you must see in nature the cylinder, the sphere, the cone' reflects his interest in:",
+        "options": [
+          "Photographic accuracy in representing natural forms",
+          "The underlying geometric structure of visible reality, which presaged Cubism's fragmentation of perspectival space",
+          "The expressive use of color in landscape painting",
+          "The optical mixing of color dots to create visual effects"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Cézanne was interested not in appearance but in underlying structure—the geometry that underlies the visible world. You must see in nature the cylinder, the sphere, the cone...a statement that presaged Cubism's radical fragmentation of perspectival space.'"
+      },
+      {
+        "text": "Greenberg's argument that modernist painting was 'engaged in a critical self-examination' means that:",
+        "options": [
+          "Modern painters were highly self-critical of their own personal failings",
+          "Each artistic medium was exploring what was unique and irreducible in itself—painting investigating its own essential properties (flatness, pigment, edge)",
+          "Modern painters rejected all influences from other art movements",
+          "Art criticism became more important than the artwork itself"
+        ],
+        "correct": 1,
+        "explanation": "The passage states Greenberg argued 'modernist painting was engaged in a critical self-examination: each medium—painting, sculpture, music—was discovering what was unique and irreducible in itself.' This is a medium-specific, self-referential project."
+      },
+      {
+        "text": "The 'exhaustion' of modernism described in paragraph 5 refers to:",
+        "options": [
+          "The physical fatigue of painters who worked in the Abstract Expressionist manner",
+          "The logical endpoint of formal self-examination: once painting had reduced itself to its essential properties, the question 'what comes next?' produced Pop Art, Minimalism, and Conceptual Art as different answers",
+          "The declining popularity of abstract painting among the general public",
+          "The financial exhaustion of the art market after the 1960s"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'If painting had reduced itself to its essential properties—flatness, pigment, edge—what came next?' The 'exhaustion' is the logical terminus of the modernist project, which then opened space for various postmodern responses."
+      },
+      {
+        "text": "Based on the passage, Pop Art's 'ironic embrace of commercial imagery' is best understood as:",
+        "options": [
+          "A return to the realistic tradition that photography had displaced",
+          "One answer to what art could be after modernism's formal self-examination ran its course—using irony to engage with commercial culture rather than continuing the modernist reduction",
+          "A celebration of consumer capitalism without critical distance",
+          "A continuation of the Impressionist project of capturing everyday life"
+        ],
+        "correct": 1,
+        "explanation": "The passage presents Pop Art alongside Minimalism and Conceptual Art as 'different answers to the question of what art could be once the project of formal self-examination had run its course.' Pop Art specifically is characterized by its 'ironic embrace of commercial imagery,' distinguished by the irony from simple celebration of consumerism."
+      }
+    ]
+  },
+  {
+    "passageText": "The philosophy of mind has long been divided between those who believe that mental states are identical to, or wholly constituted by, physical states of the brain, and those who believe that mental life has properties that cannot be captured in purely physical terms. The contemporary debate between physicalism and its critics turns on a set of thought experiments and arguments that reveal how deeply contested our understanding of consciousness and subjective experience remains.\n\nPhysicalism, in its simplest form, holds that everything that exists is physical. Applied to mental states, this implies that thinking, feeling, and perceiving are identical to or wholly realized in brain processes. Functionalism, the dominant version of physicalism in philosophy of mind, holds that mental states are defined by their functional roles—what they do, the causal relationships they bear to inputs, outputs, and other mental states—not by their physical substrate. This implies that anything with the right functional organization could, in principle, have mental states, whether made of neurons, silicon, or something else entirely.\n\nDavid Chalmers has argued that functionalism, however sophisticated, cannot account for the 'hard problem of consciousness': the fact that there is 'something it is like' to have conscious experiences. Even if we had a complete functional description of a brain processing information and controlling behavior, this would leave unexplained why any of this processing is accompanied by subjective experience—why there is an 'inner light' of awareness at all. Chalmers' zombie argument makes this vivid: we can coherently conceive of a being physically and functionally identical to a human being but with no inner experience whatsoever. If zombies are conceivable, it seems that subjective experience is not reducible to physical or functional properties.\n\nPhysicalists have responded in several ways. Some deny that zombie scenarios are genuinely conceivable, arguing that we confuse what we can imagine with what is metaphysically possible. Others—'illusionists' like Daniel Dennett—argue that the hard problem rests on a mistake: there is no special inner light of consciousness over and above the functional processes that constitute cognition and behavior. What seems like irreducible subjective experience is itself a representation the brain makes about its own states—a kind of introspective illusion.\n\nThe debate has practical implications for medicine and ethics. If consciousness is functional, then systems with the right functional organization—including some artificial systems and some nonhuman animals—may have morally relevant experiences. If the hard problem is genuine and not functionally reducible, then we need new conceptual tools to understand disorders of consciousness, to assess awareness in patients in vegetative states, and to evaluate the moral status of entities whose inner lives we cannot observe directly.",
+    "questions": [
+      {
+        "text": "Functionalism, as described in the passage, holds that mental states are:",
+        "options": [
+          "Identical to specific brain structures",
+          "Defined by their functional roles—causal relationships to inputs, outputs, and other mental states—not by physical substrate, implying any system with the right functional organization could have mental states",
+          "Properties of immaterial souls that interact with the brain",
+          "Reducible to behavior without any inner component"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Functionalism...holds that mental states are defined by their functional roles—what they do, the causal relationships they bear to inputs, outputs, and other mental states—not by their physical substrate.'"
+      },
+      {
+        "text": "Chalmers' 'hard problem of consciousness' is the problem of explaining:",
+        "options": [
+          "How the brain processes sensory information and controls behavior",
+          "Why physical and functional brain processes are accompanied by subjective experience—why there is 'something it is like' to be conscious, an 'inner light' that functional description leaves unexplained",
+          "How consciousness evolved in humans and not other animals",
+          "Why some people have richer inner lives than others"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'the hard problem of consciousness: the fact that there is something it is like to have conscious experiences...why any of this processing is accompanied by subjective experience—why there is an inner light of awareness at all.'"
+      },
+      {
+        "text": "The 'zombie argument' is used in the passage to:",
+        "options": [
+          "Demonstrate that physicalism is obviously correct",
+          "Argue that subjective experience is not reducible to physical or functional properties, since a functionally identical being without inner experience is conceivable",
+          "Show that consciousness cannot survive death",
+          "Suggest that artificial intelligence will never be conscious"
+        ],
+        "correct": 1,
+        "explanation": "The passage states the zombie argument 'makes this vivid: we can coherently conceive of a being physically and functionally identical to a human being but with no inner experience whatsoever. If zombies are conceivable, it seems that subjective experience is not reducible to physical or functional properties.'"
+      },
+      {
+        "text": "The 'illusionist' response to the hard problem, associated with Dennett, argues that:",
+        "options": [
+          "Consciousness is an illusion created by the unconscious mind",
+          "The hard problem rests on a mistake—there is no special inner light over and above functional processes; what seems like irreducible subjective experience is a representation the brain makes about its own states",
+          "Zombies are impossible because consciousness is physically necessary",
+          "The hard problem can be solved by neuroscience alone"
+        ],
+        "correct": 1,
+        "explanation": "The passage states illusionists 'argue that the hard problem rests on a mistake: there is no special inner light of consciousness over and above the functional processes...What seems like irreducible subjective experience is itself a representation the brain makes about its own states—a kind of introspective illusion.'"
+      },
+      {
+        "text": "The passage suggests that the hard problem of consciousness has practical medical implications because:",
+        "options": [
+          "It determines whether patients will respond to anesthesia",
+          "If consciousness is not functionally reducible, new conceptual tools are needed to assess awareness in vegetative patients and evaluate the moral status of entities whose inner lives cannot be directly observed",
+          "It proves that all patients in vegetative states are fully conscious",
+          "It implies that brain imaging is sufficient to determine all morally relevant features of patients' conditions"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'If the hard problem is genuine and not functionally reducible, then we need new conceptual tools to understand disorders of consciousness, to assess awareness in patients in vegetative states, and to evaluate the moral status of entities whose inner lives we cannot observe directly.'"
+      },
+      {
+        "text": "Based on the passage, functionalism's implication that 'anything with the right functional organization could have mental states' would be most significant for which ethical question?",
+        "options": [
+          "Whether it is ethical to study the human brain",
+          "Whether sufficiently sophisticated artificial systems or non-human animals might have morally relevant experiences warranting protection",
+          "Whether neurological disorders should be treated as physical or psychological conditions",
+          "Whether physicians should be required to explain consciousness to patients"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'If consciousness is functional, then systems with the right functional organization—including some artificial systems and some nonhuman animals—may have morally relevant experiences.' This has direct implications for moral status and ethical treatment of AI and animals."
+      }
+    ]
+  },
+  {
+    "passageText": "The anthropological concept of 'culture' has undergone significant revision since its introduction in the late nineteenth century. Edward Tylor's classic definition—'that complex whole which includes knowledge, belief, art, morals, law, custom, and any other capabilities and habits acquired by man as a member of society'—reflected the evolutionary framework of his era, which arranged cultures on a scale from 'primitive' to 'civilized.' This framework naturalized European cultural dominance and justified colonialism as a civilizing mission.\n\nThe Boasian revolution in American anthropology, associated with Franz Boas and his students Ruth Benedict, Margaret Mead, and Zora Neale Hurston, rejected evolutionary ranking and insisted on cultural relativism: each culture should be understood on its own terms, not evaluated against an external standard. The diversity of human cultures—in kinship systems, religious beliefs, economic arrangements, and moral codes—reflected the range of solutions to universal human problems, not a hierarchy of development. Benedict's Patterns of Culture (1934) described entire cultures as 'personalities writ large,' with characteristic emotional tones and values that could not be translated into universal norms without distortion.\n\nCultural relativism was a necessary corrective to ethnocentrism but raised its own difficulties. Taken to an extreme, it seemed to foreclose moral judgment: if each culture is valid on its own terms, then practices like female genital cutting, caste discrimination, or ritual violence could not be criticized from outside. The anthropologist Clifford Geertz, while rejecting cultural ranking, attempted a middle path: 'thick description,' the interpretive reconstruction of the meaning of cultural practices from within, did not require either imposing external norms or abandoning all evaluative judgment.\n\nMore recent anthropology has complicated the culture concept itself. Cultures are not the bounded, internally coherent wholes that early anthropology often assumed—they are porous, contested, internally diverse, and constantly changing through contact with other cultures. The emphasis on culture as a system of shared meaning may obscure the power relations within cultures and the ways in which dominant groups impose their interpretations as universal. Postcolonial critics have argued that the very framework of 'culture' was developed by Western scholars to manage and classify non-Western peoples.\n\nDespite these critiques, the culture concept remains indispensable in medicine, public health, and social policy. Cultural competence—the ability to understand and work with the cultural frameworks of diverse patients and communities—is widely recognized as essential to effective healthcare. The challenge is to take culture seriously as a determinant of health behavior and treatment experience without reifying it into an unchanging essence that erases individual variation and agency.",
+    "questions": [
+      {
+        "text": "Tylor's original definition of 'culture' was problematic, according to the passage, because it:",
+        "options": [
+          "Was too broad to be scientifically useful",
+          "Reflected an evolutionary framework that ranked cultures from primitive to civilized, naturalizing European dominance and justifying colonialism",
+          "Failed to include artistic and moral practices",
+          "Was based on fieldwork conducted in only one society"
+        ],
+        "correct": 1,
+        "explanation": "The passage states Tylor's definition 'reflected the evolutionary framework of his era, which arranged cultures on a scale from primitive to civilized. This framework naturalized European cultural dominance and justified colonialism as a civilizing mission.'"
+      },
+      {
+        "text": "The Boasian school's cultural relativism, as described in the passage, held that:",
+        "options": [
+          "All cultures are equally primitive and should be modernized",
+          "Each culture should be understood on its own terms without evaluation against an external standard, with cultural diversity reflecting varied solutions to universal human problems rather than a hierarchy of development",
+          "Western cultures are superior because they developed science and democracy",
+          "Cultural differences are superficial and all humans share the same fundamental values"
+        ],
+        "correct": 1,
+        "explanation": "The passage states Boasians 'insisted on cultural relativism: each culture should be understood on its own terms, not evaluated against an external standard. The diversity of human cultures...reflected the range of solutions to universal human problems, not a hierarchy of development.'"
+      },
+      {
+        "text": "The main difficulty with extreme cultural relativism, as described in the passage, is that:",
+        "options": [
+          "It makes cultural comparison scientifically impossible",
+          "It appears to foreclose moral judgment—if each culture is valid on its own terms, practices like female genital cutting or ritual violence cannot be criticized from outside",
+          "It leads to excessive moralizing about other cultures' practices",
+          "It prevents anthropologists from conducting fieldwork across cultures"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Taken to an extreme, it seemed to foreclose moral judgment: if each culture is valid on its own terms, then practices like female genital cutting, caste discrimination, or ritual violence could not be criticized from outside.'"
+      },
+      {
+        "text": "Geertz's 'thick description' attempted to resolve the dilemma of cultural relativism by:",
+        "options": [
+          "Developing a mathematical model for comparing cultures quantitatively",
+          "Reconstructing the meaning of cultural practices from within through interpretive anthropology—without imposing external norms but also without abandoning all evaluative judgment",
+          "Rejecting anthropology in favor of historical analysis",
+          "Returning to the evolutionary framework of Tylor to provide a basis for moral judgment"
+        ],
+        "correct": 1,
+        "explanation": "The passage states Geertz attempted 'a middle path: thick description, the interpretive reconstruction of the meaning of cultural practices from within, did not require either imposing external norms or abandoning all evaluative judgment.'"
+      },
+      {
+        "text": "Recent anthropological critiques have challenged the culture concept by arguing that:",
+        "options": [
+          "Cultures are more similar than early anthropology recognized",
+          "Cultures are not bounded, coherent wholes but are porous, contested, internally diverse, and constantly changing—and the culture framework itself may have been developed by Western scholars to classify non-Western peoples",
+          "Geertz's thick description was methodologically flawed",
+          "Cultural diversity is decreasing due to globalization and will eventually disappear"
+        ],
+        "correct": 1,
+        "explanation": "The passage states recent anthropology sees cultures as 'not the bounded, internally coherent wholes that early anthropology often assumed—they are porous, contested, internally diverse, and constantly changing.' Postcolonial critics also 'argued that the very framework of culture was developed by Western scholars to manage and classify non-Western peoples.'"
+      },
+      {
+        "text": "The challenge for healthcare cultural competence described in the final paragraph is to:",
+        "options": [
+          "Treat all patients identically regardless of cultural background",
+          "Take culture seriously as a determinant of health behavior without reifying it into an unchanging essence that erases individual variation and agency",
+          "Learn every cultural practice before treating patients from diverse backgrounds",
+          "Avoid any cultural assumptions by focusing exclusively on biomedical data"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'The challenge is to take culture seriously as a determinant of health behavior and treatment experience without reifying it into an unchanging essence that erases individual variation and agency.' This is the tension between cultural sensitivity and avoiding cultural essentialism."
+      }
+    ]
+  }
+]

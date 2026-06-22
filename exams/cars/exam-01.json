@@ -1,0 +1,226 @@
+[
+  {
+    "passageText": "The notion that science is a purely objective enterprise, untouched by the social conditions of its production, has come under sustained critique over the past half century. Thomas Kuhn's landmark 1962 work, The Structure of Scientific Revolutions, argued that science does not advance by the gradual accumulation of facts but rather through periodic 'paradigm shifts'—revolutionary overturnings of one conceptual framework by another. Normal science, for Kuhn, is the puzzle-solving activity that takes place within an accepted paradigm, where anomalies are initially explained away rather than allowed to accumulate into a challenge to the reigning theory.\n\nKuhn's insight raised troubling questions for the traditional image of science as a rational, progressive march toward truth. If paradigm shifts are not driven purely by evidence—since the same evidence can be interpreted differently through different paradigmatic lenses—then what drives them? Kuhn notoriously suggested that the transition from one paradigm to another bears resemblance to a conversion experience rather than to a logical argument. The new paradigm is incommensurable with the old: there is no neutral language in which to compare them directly.\n\nCritics on the realist side argued that Kuhn had opened the door to relativism. If scientific frameworks are chosen by communities rather than compelled by nature, then the history of science can tell us nothing about truth—only about social power. Kuhn himself resisted this reading, insisting that successive paradigms genuinely do better at solving puzzles, even if they cannot be compared by any overarching standard of truth. The post-Kuhnian sociology of scientific knowledge took a more radical step, arguing that the content of scientific beliefs—not just their social acceptance—is shaped by interests, institutions, and ideology.\n\nFeminist philosophers of science added a further dimension. They noted that the questions scientists ask, the populations they study, and the frameworks they apply have historically reflected the social position of those who do science—overwhelmingly male, Western, and upper-class. Sandra Harding's notion of 'standpoint epistemology' proposed that marginalized knowers, by virtue of their position outside the dominant framework, may actually have epistemic advantages in seeing what that framework conceals. Science, on this view, is not improved by eliminating social perspectives but by diversifying them.\n\nWhat remains contested is the extent to which acknowledging science's social dimensions undermines its authority. Defenders of science argue that its methods—peer review, replication, transparency of data—provide a self-correcting mechanism that distinguishes science from mere ideology, even if it does not produce perfect objectivity. Critics respond that these mechanisms are themselves socially constituted and unevenly applied. The debate touches on fundamental questions about the nature of knowledge, the role of community in inquiry, and whether 'truth' is a meaningful aspiration for collective human endeavors.",
+    "questions": [
+      {
+        "text": "The author's primary purpose in this passage is to:",
+        "options": [
+          "Argue that science is fundamentally subjective and therefore unreliable",
+          "Present competing perspectives on the relationship between science and social context",
+          "Defend Kuhn's account of paradigm shifts against his critics",
+          "Demonstrate that feminist epistemology is superior to traditional philosophy of science"
+        ],
+        "correct": 1,
+        "explanation": "The author surveys multiple perspectives—Kuhn, realists, sociologists of knowledge, feminist philosophers—without endorsing any single view, and ends with 'what remains contested.' This signals a primary purpose of presenting competing perspectives, not advocating one."
+      },
+      {
+        "text": "According to the passage, Kuhn's concept of 'normal science' refers to:",
+        "options": [
+          "The gradual accumulation of facts that leads to scientific progress",
+          "Puzzle-solving within an accepted paradigm, where anomalies are initially explained away",
+          "The revolutionary overturning of one framework by another",
+          "The social negotiation that determines which theories are accepted"
+        ],
+        "correct": 1,
+        "explanation": "The passage states directly: 'Normal science, for Kuhn, is the puzzle-solving activity that takes place within an accepted paradigm, where anomalies are initially explained away rather than allowed to accumulate into a challenge to the reigning theory.'"
+      },
+      {
+        "text": "The term 'incommensurable' as used in the passage (paragraph 2) most nearly means:",
+        "options": [
+          "Logically inconsistent",
+          "Impossible to measure accurately",
+          "Not comparable by a shared standard or common framework",
+          "Morally unacceptable"
+        ],
+        "correct": 2,
+        "explanation": "The passage says the new paradigm is 'incommensurable with the old: there is no neutral language in which to compare them directly.' This means they cannot be compared by any common standard—not that they are logically inconsistent or morally problematic."
+      },
+      {
+        "text": "The realist critics described in paragraph 3 would most likely agree with which of the following?",
+        "options": [
+          "Scientific paradigms are chosen by communities rather than compelled by evidence",
+          "The history of science provides evidence about the nature of the external world",
+          "Standpoint epistemology improves scientific objectivity",
+          "All scientific claims are equally valid depending on one's perspective"
+        ],
+        "correct": 1,
+        "explanation": "Realists worry that Kuhn 'opens the door to relativism' and that if frameworks are merely socially chosen, 'the history of science can tell us nothing about truth.' Therefore, realists believe the history of science DOES tell us about truth—they believe science tracks an external reality."
+      },
+      {
+        "text": "Sandra Harding's 'standpoint epistemology' as described in the passage differs from traditional views of scientific objectivity in that it:",
+        "options": [
+          "Argues that all social perspectives distort scientific knowledge equally",
+          "Proposes that eliminating social perspectives produces better science",
+          "Suggests that marginalized perspectives may provide epistemic advantages rather than merely introducing bias",
+          "Claims that only female scientists can produce objective knowledge"
+        ],
+        "correct": 2,
+        "explanation": "The passage states Harding proposed 'that marginalized knowers, by virtue of their position outside the dominant framework, may actually have epistemic advantages.' Science is 'not improved by eliminating social perspectives but by diversifying them'—the opposite of traditional objectivity, which sought to eliminate social perspectives."
+      },
+      {
+        "text": "Which of the following, if true, would most strengthen the view of defenders of science described in the final paragraph?",
+        "options": [
+          "Several scientific theories have been disproven through peer review and replication, leading to revised understanding",
+          "Different scientific communities have reached incompatible conclusions about the same phenomenon",
+          "Social factors have consistently determined which theories gain funding",
+          "Peer review tends to favor publications from prestigious institutions"
+        ],
+        "correct": 0,
+        "explanation": "Defenders argue that scientific methods like 'peer review, replication, transparency of data provide a self-correcting mechanism.' Evidence that theories have been disproven through these mechanisms would validate the claim that science self-corrects, supporting their argument that social dimensions do not undermine scientific authority."
+      },
+      {
+        "text": "The author's attitude toward the debate described in the passage is best characterized as:",
+        "options": [
+          "Enthusiastically defending scientific objectivity",
+          "Dismissively skeptical of all claims to scientific knowledge",
+          "Neutral and analytical, acknowledging multiple valid perspectives",
+          "Strongly committed to the feminist critique of science"
+        ],
+        "correct": 2,
+        "explanation": "The author presents multiple competing views evenhandedly and concludes with 'what remains contested'—language suggesting ongoing legitimate debate without a declared winner. The author does not advocate any of the positions presented, indicating a neutral and analytical stance."
+      }
+    ]
+  },
+  {
+    "passageText": "The history of economic thought offers a revealing window into the assumptions a civilization makes about human nature. Classical economics, rooted in the work of Adam Smith and refined by David Ricardo, conceived of the human agent as a rational calculator of self-interest. The market, on this view, was not a chaotic scramble but an orderly system in which individual self-interest, properly channeled, would redound to the benefit of all—the famous 'invisible hand.' The mathematical formalization of this insight in the late nineteenth century produced neoclassical economics, which modeled the economy as a set of markets in equilibrium, populated by perfectly rational agents maximizing well-defined utility functions.\n\nThe Great Depression forced a rethinking. John Maynard Keynes argued that the economy could become trapped in a low-employment equilibrium and that government spending could provide the demand necessary to escape it. Keynes was no opponent of markets, but he insisted that aggregate demand mattered independently of the decisions of individual firms and households. The image of the economy as a self-righting mechanism, perpetually returning to full employment, was, for Keynes, a dangerous abstraction.\n\nThe postwar decades saw Keynesian economics institutionalized in fiscal policy across the Western world, but the 1970s brought a crisis—stagflation, the simultaneous rise of inflation and unemployment that Keynesian models had not predicted. Monetarists, led by Milton Friedman, argued that government intervention distorted markets and that stable money supply growth was the appropriate macroeconomic policy. The subsequent rise of rational expectations theory went further: if economic actors anticipate government interventions and adjust accordingly, those interventions will be systematically offset and rendered impotent.\n\nBehavioral economics, drawing on cognitive psychology, mounted a different challenge—not to Keynesianism but to the foundational assumption of rational self-interest. Richard Thaler and Daniel Kahneman demonstrated that human decision-making is systematically biased: people exhibit loss aversion, hyperbolic discounting, and susceptibility to framing effects that no rational-actor model can accommodate. The behavioral critique did not reject markets but argued that institutional design must account for human irrationality. This led to the concept of 'nudges'—policy interventions that alter the choice architecture to guide people toward better decisions without restricting their freedom.\n\nEach of these schools responded to the failures of its predecessors while carrying forward hidden assumptions of its own. The dispute between them is not merely technical—it reflects deeper disagreements about whether human beings are best understood as primarily rational or primarily emotional, as autonomous individuals or as social beings whose preferences are shaped by institutions and culture. Economics is, at its core, a moral science as much as a mathematical one.",
+    "questions": [
+      {
+        "text": "The main argument of the passage is that:",
+        "options": [
+          "Government economic intervention is always counterproductive",
+          "The history of economic thought reveals changing assumptions about human nature, with each school responding to the failures of its predecessor",
+          "Behavioral economics has definitively refuted neoclassical economics",
+          "Keynes was correct that markets cannot self-correct without government intervention"
+        ],
+        "correct": 1,
+        "explanation": "The passage traces economic thought from classical through behavioral economics, explicitly framing the history as changing assumptions about human nature. The final sentence reinforces this: 'Economics is, at its core, a moral science as much as a mathematical one.' No single school is declared correct."
+      },
+      {
+        "text": "According to the passage, the 'invisible hand' concept implies that:",
+        "options": [
+          "Government must guide the market to ensure good outcomes",
+          "Individual self-interest, properly channeled in markets, tends to produce collective benefit",
+          "Markets only function well when individuals are altruistic",
+          "Economic equilibrium is impossible without central planning"
+        ],
+        "correct": 1,
+        "explanation": "The passage directly states: 'individual self-interest, properly channeled, would redound to the benefit of all—the famous invisible hand.'"
+      },
+      {
+        "text": "What challenge did stagflation pose for Keynesian economics?",
+        "options": [
+          "It showed that government spending caused inflation but not unemployment reduction",
+          "It demonstrated that Keynesian models had not predicted the simultaneous rise of inflation and unemployment",
+          "It proved that aggregate demand was irrelevant to employment levels",
+          "It revealed that government intervention always worsened economic conditions"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'the 1970s brought a crisis—stagflation, the simultaneous rise of inflation and unemployment that Keynesian models had not predicted.' The implication is that Keynesian models were unable to account for this phenomenon, which undermined their credibility."
+      },
+      {
+        "text": "The rational expectations critique of Keynesian policy, as described in the passage, holds that government interventions:",
+        "options": [
+          "Are always inflationary",
+          "Are anticipated by economic actors who adjust behavior to offset them, rendering the interventions impotent",
+          "Increase unemployment by distorting markets",
+          "Cause stagflation by increasing the money supply"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'if economic actors anticipate government interventions and adjust accordingly, those interventions will be systematically offset and rendered impotent.' This is the core rational expectations critique."
+      },
+      {
+        "text": "The behavioral economics approach described in the passage most resembles which philosophical position?",
+        "options": [
+          "That humans are fundamentally rational beings who maximize utility",
+          "That human decision-making is systematically biased, requiring institutional design to guide choices toward better outcomes without coercion",
+          "That markets are inherently self-correcting and should not be interfered with",
+          "That government central planning is the most efficient economic system"
+        ],
+        "correct": 1,
+        "explanation": "The passage describes behavioral economics as finding systematic bias in human decision-making and proposing 'nudges'—interventions that 'guide people toward better decisions without restricting their freedom.' This is not coercive central planning (option D) nor pure rational actor theory (A), but a middle path using institutional design."
+      },
+      {
+        "text": "The author's claim that 'each of these schools responded to the failures of its predecessors while carrying forward hidden assumptions of its own' suggests that:",
+        "options": [
+          "All economic theories are equally valid",
+          "Economic theories are immune to empirical critique",
+          "Progress in economic thought involves not just new knowledge but unacknowledged continuities with the past",
+          "Economists are deliberately concealing their assumptions from the public"
+        ],
+        "correct": 2,
+        "explanation": "The statement acknowledges genuine progress (responding to failures) while noting persistent blind spots (hidden assumptions). This implies that economic thought evolves but does not fully escape its foundational presuppositions—suggesting progress is real but incomplete and non-neutral."
+      }
+    ]
+  },
+  {
+    "passageText": "The question of whether artistic value is objective or subjective has occupied philosophers since antiquity. Plato expelled poets from his ideal republic on the grounds that their work appealed to the irrational parts of the soul and depicted the gods immorally—a judgment that presumed an objective standard of value. His student Aristotle offered a more sympathetic account, arguing that tragedy, by arousing pity and fear and then purging them in the audience, served a genuine psychological and social function. For Aristotle, the value of art was not merely hedonic but cathartic and educational.\n\nThe Enlightenment debate on aesthetic taste brought the question into sharper focus. David Hume argued in his essay 'Of the Standard of Taste' that while beauty is not an objective property of objects, aesthetic judgments are not arbitrary either. The standard of taste, for Hume, is established by the verdicts of qualified critics—those with delicacy of perception, broad experience, freedom from prejudice, and sound judgment. The persistence of great works across cultures and centuries ('the test of time') reflects not mere convention but the exercise of properly functioning human faculties.\n\nImmanuel Kant offered a more systematic treatment. Aesthetic judgments, for Kant, are unlike ordinary judgments of preference ('I like sweet wine') because they claim universal assent: when I say something is beautiful, I implicitly claim that others ought to agree. Yet the judgment cannot be based on a concept or rule, as moral judgments are. Beauty involves a 'free play' of imagination and understanding that produces a distinctive pleasure—the feeling of the sublime, of disinterested contemplation. Kant's solution preserved the universality of aesthetic claims while acknowledging their irreducibility to any objective property.\n\nTwentieth-century philosophy challenged both Hume and Kant. Anti-essentialism, associated with philosophers like Morris Weitz, argued that 'art' cannot be defined by any set of necessary and sufficient conditions: each new avant-garde movement breaks whatever rules were thought to be essential. George Dickie's 'institutional theory' attempted to solve this by defining art in terms of what the 'artworld'—a community of institutions, critics, and practices—confers arthood upon. On this view, Marcel Duchamp's Fountain (a urinal displayed in a gallery) was art not because of any intrinsic property but because the artworld declared it so.\n\nThe institutional theory has itself been criticized for empty circularity: art is what the artworld says it is, but the artworld is defined by its relationship to art. More productively, recent philosophers have tried to explain the persistent human investment in artistic experience without either reducing it to subjective preference or positing metaphysically suspect objective properties. Art, they suggest, is a form of communication that expands our capacity to inhabit other forms of experience—not a mirror of reality but a technology for extending the range of what can be felt and understood.",
+    "questions": [
+      {
+        "text": "Hume's account of aesthetic taste, as described in the passage, holds that:",
+        "options": [
+          "Beauty is an objective property that any observer can perceive",
+          "While beauty is not an objective property, aesthetic judgments are not arbitrary—they reflect properly functioning human faculties, validated by qualified critics and the test of time",
+          "Aesthetic judgment should be delegated to a democratic vote of all observers",
+          "Art is valuable only insofar as it serves a moral function"
+        ],
+        "correct": 1,
+        "explanation": "The passage states Hume argued 'beauty is not an objective property of objects, aesthetic judgments are not arbitrary either.' The standard is established by qualified critics, and great works persist across time because of 'properly functioning human faculties'—not pure subjectivism, but not objectivism either."
+      },
+      {
+        "text": "According to the passage, Kant distinguished aesthetic judgments from mere preferences by arguing that:",
+        "options": [
+          "Aesthetic judgments are based on concepts and rules, while preferences are not",
+          "Aesthetic judgments claim universal assent and cannot be reduced to concepts or rules, while preferences make no such claim",
+          "Preferences involve the sublime; aesthetic judgments involve disinterested contemplation",
+          "Aesthetic judgments are only valid when made by qualified critics"
+        ],
+        "correct": 1,
+        "explanation": "The passage: 'when I say something is beautiful, I implicitly claim that others ought to agree. Yet the judgment cannot be based on a concept or rule.' Kant separates beauty from both subjective preference (which claims no universality) and conceptual judgment (which can be articulated as a rule)."
+      },
+      {
+        "text": "The institutional theory of art (Dickie) as described in the passage was developed primarily in response to:",
+        "options": [
+          "Kant's insistence on the universality of aesthetic judgments",
+          "Anti-essentialism's claim that 'art' cannot be defined by necessary and sufficient conditions",
+          "Hume's reliance on qualified critics as arbiters of taste",
+          "Aristotle's view that art serves a cathartic function"
+        ],
+        "correct": 1,
+        "explanation": "The passage explains: 'Anti-essentialism...argued that 'art' cannot be defined by any set of necessary and sufficient conditions...George Dickie's institutional theory attempted to solve this.' The institutional theory was a direct response to anti-essentialism's challenge to defining art."
+      },
+      {
+        "text": "The example of Duchamp's Fountain is used in the passage primarily to:",
+        "options": [
+          "Demonstrate that modern art is inferior to classical art",
+          "Illustrate how the institutional theory defines art in terms of artworld recognition rather than intrinsic properties",
+          "Argue that avant-garde art is more valuable than traditional art",
+          "Show that aesthetic judgment is purely subjective"
+        ],
+        "correct": 1,
+        "explanation": "The passage uses Fountain as an example of the institutional theory in action: 'Marcel Duchamp's Fountain...was art not because of any intrinsic property but because the artworld declared it so.' It illustrates the theory's claim, not a judgment about modern vs. classical art."
+      },
+      {
+        "text": "The criticism of the institutional theory described in the passage (paragraph 5) is that it is:",
+        "options": [
+          "Too subjective to have practical application",
+          "Circularly defined: art is what the artworld says, but the artworld is defined by its relationship to art",
+          "Too reliant on qualified critics who may have personal biases",
+          "Unable to account for avant-garde works that break conventional rules"
+        ],
+        "correct": 1,
+        "explanation": "The passage explicitly states the criticism: 'art is what the artworld says it is, but the artworld is defined by its relationship to art'—a circular definition that provides no independent standard. This is the charge of 'empty circularity.'"
+      },
+      {
+        "text": "The final paragraph's characterization of art as 'a technology for extending the range of what can be felt and understood' is most consistent with which earlier view discussed in the passage?",
+        "options": [
+          "Plato's belief that art appeals to irrational parts of the soul and should be censored",
+          "Aristotle's view that art serves a cathartic and educational function",
+          "Kant's view that art involves disinterested contemplation independent of any purpose",
+          "The institutional theory's claim that art is whatever the artworld designates"
+        ],
+        "correct": 1,
+        "explanation": "The final paragraph describes art as expanding our capacity to inhabit other forms of experience—'a technology for extending the range of what can be felt and understood.' This is purposive and educational, most aligned with Aristotle's cathartic and educational function, not Plato's censorship, Kant's disinterested contemplation, or the institutional theory."
+      }
+    ]
+  }
+]

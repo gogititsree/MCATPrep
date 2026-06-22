@@ -1,0 +1,412 @@
+[
+  {
+    "text": "Which enzyme converts angiotensin I to angiotensin II?",
+    "options": [
+      "Renin",
+      "Angiotensin-converting enzyme (ACE)",
+      "Aldosterone synthase",
+      "Carbonic anhydrase"
+    ],
+    "correct": 1,
+    "explanation": "ACE (in pulmonary capillary endothelium) cleaves two amino acids from angiotensin I to form angiotensin II. Angiotensin II increases blood pressure by vasoconstriction, stimulating aldosterone release from adrenal cortex, and promoting ADH secretion.",
+    "tags": [
+      "physiology",
+      "renal",
+      "RAAS"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Sickle cell trait (heterozygous HbA/HbS) confers a selective advantage in regions endemic for:",
+    "options": [
+      "Tuberculosis",
+      "Malaria (Plasmodium falciparum)",
+      "HIV",
+      "Cholera"
+    ],
+    "correct": 1,
+    "explanation": "Heterozygous individuals (HbA/HbS) have a balanced polymorphism: they are largely protected from severe malaria because P. falciparum cannot efficiently survive or replicate in sickle cells, conferring a survival advantage in malarial regions despite sickle cell disease risk in HbS/HbS homozygotes.",
+    "tags": [
+      "genetics",
+      "molecular biology",
+      "evolution"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In a healthy adult at rest, what is the approximate tidal volume?",
+    "options": [
+      "150 mL",
+      "500 mL",
+      "1200 mL",
+      "3500 mL"
+    ],
+    "correct": 1,
+    "explanation": "Tidal volume (TV) ≈ 500 mL is the volume of air moved per normal breath at rest. Dead space ≈ 150 mL (anatomical). Functional residual capacity (FRC) ≈ 2500 mL; vital capacity ≈ 4600 mL; total lung capacity ≈ 6000 mL.",
+    "tags": [
+      "physiology",
+      "respiratory",
+      "lung volumes"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The enzyme carbonic anhydrase in red blood cells catalyzes:",
+    "options": [
+      "Reduction of oxyhemoglobin to deoxyhemoglobin",
+      "CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻",
+      "Release of O₂ from heme",
+      "Conversion of CO to CO₂"
+    ],
+    "correct": 1,
+    "explanation": "Carbonic anhydrase in RBCs rapidly converts CO₂ (produced by tissues) to carbonic acid, which dissociates to H⁺ + HCO₃⁻. The H⁺ is buffered by hemoglobin; HCO₃⁻ exits to plasma via the chloride shift (band 3 exchanger). This is how ~70% of CO₂ is transported in blood.",
+    "tags": [
+      "physiology",
+      "respiratory",
+      "blood"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which statement correctly describes passive transport?",
+    "options": [
+      "Requires ATP or an electrochemical gradient established by ATP",
+      "Moves molecules down their electrochemical gradient without energy input",
+      "Can move molecules against a concentration gradient",
+      "Requires a protein carrier and ATP"
+    ],
+    "correct": 1,
+    "explanation": "Passive transport (simple diffusion, facilitated diffusion via channels or carriers) moves molecules down their electrochemical gradient without direct energy input. Active transport uses ATP (primary) or ion gradients (secondary) to move solutes against their gradients.",
+    "tags": [
+      "cell biology",
+      "transport"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A liver enzyme that functions in gluconeogenesis requires NAD⁺ as a cofactor. A researcher adds excess NADH. Which is most likely true?",
+    "options": [
+      "Enzyme activity increases — NADH is converted to NAD⁺",
+      "Enzyme activity is inhibited — NADH product inhibits the reaction",
+      "NADH and NAD⁺ are interchangeable, so no effect",
+      "The enzyme denatures in the presence of excess NADH"
+    ],
+    "correct": 1,
+    "explanation": "This is product inhibition/product feedback: if NAD⁺ is required (as an oxidant) and NADH accumulates, it can inhibit the enzyme by pushing the reaction thermodynamically backward and/or directly inhibiting the enzyme. High NADH:NAD⁺ ratio suppresses gluconeogenesis (seen in alcoholics where ethanol metabolism generates excess NADH).",
+    "tags": [
+      "enzyme kinetics",
+      "metabolism",
+      "regulation"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Epigenetic modifications that activate gene expression typically include:",
+    "options": [
+      "Histone deacetylation and DNA methylation at CpG islands",
+      "Histone acetylation and DNA demethylation",
+      "Chromatin condensation and histone H1 addition",
+      "RNA interference (RNAi) degradation of mRNA"
+    ],
+    "correct": 1,
+    "explanation": "Histone acetylation neutralizes positive charges, loosening chromatin (euchromatin) and promoting transcription. DNA methylation at CpG islands in promoters silences gene expression. Thus, active genes are associated with histone acetylation and demethylated promoters.",
+    "tags": [
+      "molecular biology",
+      "epigenetics"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Phospholipase C (PLC) cleaves PIP₂ to produce two second messengers. They are:",
+    "options": [
+      "cAMP and cGMP",
+      "IP₃ and DAG",
+      "ATP and GDP",
+      "NADH and FADH₂"
+    ],
+    "correct": 1,
+    "explanation": "PLC cleaves phosphatidylinositol 4,5-bisphosphate (PIP₂) into inositol trisphosphate (IP₃) and diacylglycerol (DAG). IP₃ diffuses to the ER and releases Ca²⁺; DAG remains in the membrane and activates protein kinase C (PKC), together activating downstream signaling.",
+    "tags": [
+      "cell biology",
+      "signal transduction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Telomeres are maintained in stem cells and cancer cells by:",
+    "options": [
+      "DNA polymerase δ using Okazaki fragments",
+      "The enzyme telomerase, which uses an RNA template to extend the 3' end",
+      "Recombination at chromosome ends",
+      "Histone H3 methylation near the telomere"
+    ],
+    "correct": 1,
+    "explanation": "Telomerase (TERT catalytic subunit + TERC RNA template component) extends telomeres by adding TTAGGG repeats to the 3' end using its own RNA as a template. Cancer cells reactivate telomerase to achieve replicative immortality, making it an oncology target.",
+    "tags": [
+      "molecular biology",
+      "telomeres",
+      "cancer"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which organ is primarily responsible for the synthesis of plasma albumin?",
+    "options": [
+      "Kidneys",
+      "Spleen",
+      "Liver",
+      "Bone marrow"
+    ],
+    "correct": 2,
+    "explanation": "The liver synthesizes virtually all plasma proteins, including albumin (the most abundant, important for oncotic pressure and drug transport), coagulation factors, complement proteins, and transport proteins (transferrin, ceruloplasmin).",
+    "tags": [
+      "physiology",
+      "liver"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Apoptosis (programmed cell death) differs from necrosis in that:",
+    "options": [
+      "Apoptosis causes inflammation while necrosis does not",
+      "Necrosis requires caspase activation while apoptosis does not",
+      "Apoptosis is an ordered, energy-dependent process that does not cause inflammation",
+      "Necrosis is always genetically programmed"
+    ],
+    "correct": 2,
+    "explanation": "Apoptosis is an orderly ATP-dependent process (caspase cascade, cytochrome c release, DNA laddering, membrane blebbing, phagocytosis of apoptotic bodies) that does not trigger inflammation. Necrosis is uncontrolled, causes membrane rupture, releases cytoplasmic contents, and triggers inflammatory responses.",
+    "tags": [
+      "cell biology",
+      "apoptosis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The chaperone protein HSP70 assists in protein folding by:",
+    "options": [
+      "Providing a covalent template for the correct fold",
+      "Preventing premature folding and aggregation of newly synthesized polypeptides",
+      "Permanently bonding to the final protein structure",
+      "Degrading misfolded proteins via the ubiquitin-proteasome pathway"
+    ],
+    "correct": 1,
+    "explanation": "Molecular chaperones like HSP70 bind exposed hydrophobic regions of nascent polypeptides in an ATP-dependent manner, preventing premature or incorrect folding and aggregation. They release the protein so it can fold correctly. They do not specify the fold; the amino acid sequence determines that (Anfinsen).",
+    "tags": [
+      "protein structure",
+      "chaperones"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which regulatory molecule inhibits PFK-1 activity, signaling energy abundance?",
+    "options": [
+      "AMP",
+      "Fructose-2,6-bisphosphate",
+      "ATP",
+      "NAD⁺"
+    ],
+    "correct": 2,
+    "explanation": "PFK-1 (rate-limiting glycolytic enzyme) is allosterically inhibited by ATP (high energy charge), H⁺ (acidic pH), and citrate. It is activated by AMP, ADP, and fructose-2,6-bisphosphate (regulated by PFK-2, which is activated by insulin signaling).",
+    "tags": [
+      "glycolysis",
+      "regulation",
+      "metabolism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In which compartment of the cell does fatty acid synthesis primarily occur?",
+    "options": [
+      "Mitochondrial matrix",
+      "Peroxisome",
+      "Cytoplasm (cytosol)",
+      "Smooth endoplasmic reticulum"
+    ],
+    "correct": 2,
+    "explanation": "Fatty acid synthesis occurs in the cytoplasm using malonyl-CoA and NADPH (from the pentose phosphate pathway). The necessary acetyl-CoA is exported from the mitochondria via the citrate shuttle (citrate → acetyl-CoA via cytoplasmic citrate lyase).",
+    "tags": [
+      "fatty acid synthesis",
+      "metabolism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which amino acids serve as gluconeogenic precursors?",
+    "options": [
+      "Leucine and lysine only",
+      "All amino acids except leucine and lysine",
+      "Alanine and glutamine only",
+      "Only branched-chain amino acids"
+    ],
+    "correct": 1,
+    "explanation": "Most amino acids (18 of 20) are gluconeogenic — their carbon skeletons can be converted to pyruvate, OAA, α-ketoglutarate, succinyl-CoA, or fumarate, all of which can enter gluconeogenesis. Only leucine and lysine are purely ketogenic (converted only to acetyl-CoA or acetoacetate).",
+    "tags": [
+      "amino acid metabolism",
+      "gluconeogenesis"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The pentose phosphate pathway produces which two key products for biosynthesis?",
+    "options": [
+      "ATP and NADH",
+      "NADPH and ribose-5-phosphate",
+      "Pyruvate and OAA",
+      "cAMP and DAG"
+    ],
+    "correct": 1,
+    "explanation": "The pentose phosphate pathway (PPP) has two phases: (1) oxidative phase — glucose-6-phosphate → ribulose-5-phosphate, generating 2 NADPH; (2) nonoxidative phase — interconversion of sugars, generating ribose-5-phosphate for nucleotide synthesis. NADPH is used for reductive biosynthesis (fatty acids, cholesterol) and antioxidant defense (glutathione reduction).",
+    "tags": [
+      "pentose phosphate pathway",
+      "metabolism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "G6PD deficiency causes hemolytic anemia particularly upon exposure to oxidizing agents because:",
+    "options": [
+      "G6PD is required for hemoglobin synthesis",
+      "Without G6PD, cells cannot produce NADPH to regenerate reduced glutathione",
+      "G6PD deficiency prevents ATP synthesis in RBCs",
+      "Without G6PD, glucose cannot enter the cell"
+    ],
+    "correct": 1,
+    "explanation": "G6PD (glucose-6-phosphate dehydrogenase) catalyzes the first step of the PPP, producing NADPH. RBCs rely exclusively on this pathway for NADPH. Without NADPH, oxidized glutathione (GSSG) cannot be reduced to GSH. GSH protects RBCs from oxidative stress; without it, hemoglobin and membrane proteins are oxidized, causing hemolysis.",
+    "tags": [
+      "pentose phosphate pathway",
+      "G6PD",
+      "metabolism"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which statement about the peptide bond is correct?",
+    "options": [
+      "It is a single rotatable bond between adjacent alpha carbons",
+      "It has partial double-bond character due to resonance and is planar",
+      "It can freely rotate around its central nitrogen",
+      "It is formed by the condensation of a carboxyl group with an amine group of the side chain"
+    ],
+    "correct": 1,
+    "explanation": "Resonance delocalization of the nitrogen lone pair into the carbonyl gives the peptide bond partial double-bond character (C–N bond is shorter and stronger than a typical C–N single bond). This makes the peptide bond planar and restricts rotation. Free rotation occurs only around the N–Cα bond (φ) and Cα–C bond (ψ), described in a Ramachandran plot.",
+    "tags": [
+      "protein structure",
+      "amino acids"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The hexokinase reaction (glucose → glucose-6-phosphate) is essentially irreversible under physiological conditions because it:",
+    "options": [
+      "Uses FAD as a cofactor",
+      "Hydrolyzes ATP, releasing large amounts of free energy",
+      "Requires oxygen to proceed",
+      "Is a reversible equilibrium at physiological pH"
+    ],
+    "correct": 1,
+    "explanation": "Hexokinase phosphorylates glucose using ATP. The reaction is highly exergonic (ΔG° ≈ −16.7 kJ/mol) because ATP hydrolysis releases substantial free energy. This traps glucose in the cell (G6P cannot cross the membrane) and makes the reaction physiologically irreversible.",
+    "tags": [
+      "glycolysis",
+      "thermodynamics"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Fibrous proteins like collagen differ from globular proteins like hemoglobin in that fibrous proteins:",
+    "options": [
+      "Are water-soluble and compact",
+      "Have primarily structural roles and extended, repetitive secondary structures",
+      "Have active sites that bind small molecules",
+      "Consist of identical protein subunits only"
+    ],
+    "correct": 1,
+    "explanation": "Fibrous proteins (collagen, keratin, elastin) have repetitive amino acid sequences, extended secondary structures (collagen's triple helix, α-keratin's coiled coil, β-keratin's β-sheet), and serve primarily structural roles. They are typically insoluble. Globular proteins fold into compact shapes and include enzymes, transport proteins, and antibodies.",
+    "tags": [
+      "protein structure"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "PEPCK (phosphoenolpyruvate carboxykinase) catalyzes which reaction in gluconeogenesis?",
+    "options": [
+      "Pyruvate → OAA",
+      "OAA → PEP + CO₂",
+      "Fructose-1,6-bisphosphate → fructose-6-phosphate",
+      "Glucose-6-phosphate → glucose + phosphate"
+    ],
+    "correct": 1,
+    "explanation": "PEPCK (in the cytoplasm or mitochondria) catalyzes the decarboxylation and phosphorylation of OAA to produce PEP, using GTP. This is the second of the two steps that bypass pyruvate kinase in gluconeogenesis (working in concert with pyruvate carboxylase).",
+    "tags": [
+      "gluconeogenesis",
+      "metabolism"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which combination best describes the physiological effect of 2,3-bisphosphoglycerate (2,3-BPG) on hemoglobin?",
+    "options": [
+      "Increases O₂ affinity, shifting the dissociation curve left",
+      "Decreases O₂ affinity, shifting the dissociation curve right, enhancing O₂ delivery to tissues",
+      "Is irrelevant to O₂ transport",
+      "Increases O₂ affinity only at high altitude"
+    ],
+    "correct": 1,
+    "explanation": "2,3-BPG (produced by red blood cells from the glycolytic intermediate 1,3-BPG) binds deoxyhemoglobin preferentially, stabilizing the T (tense, low-affinity) state. This decreases O₂ affinity (right shift of dissociation curve), promoting O₂ release in peripheral tissues. 2,3-BPG levels rise at high altitude as a compensatory adaptation.",
+    "tags": [
+      "physiology",
+      "hemoglobin",
+      "oxygen transport"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following best describes the process of endocytosis?",
+    "options": [
+      "Transport of proteins from the Golgi to the plasma membrane",
+      "Inward budding of the plasma membrane to internalize extracellular material into vesicles",
+      "Exit of molecules from the cell by fusion of vesicles with the plasma membrane",
+      "Direct transport of ions through membrane channels"
+    ],
+    "correct": 1,
+    "explanation": "Endocytosis internalizes extracellular material: receptor-mediated endocytosis (clathrin-coated pits) internalizes specific ligands (e.g., LDL, transferrin); pinocytosis internalizes fluid; phagocytosis internalizes large particles. Exocytosis is the reverse (vesicle fusion with plasma membrane releases contents extracellularly).",
+    "tags": [
+      "cell biology",
+      "vesicular trafficking"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The Na⁺/glucose cotransporter (SGLT) in intestinal epithelial cells is an example of:",
+    "options": [
+      "Primary active transport",
+      "Secondary active transport (symport)",
+      "Simple diffusion",
+      "Antiport secondary active transport"
+    ],
+    "correct": 1,
+    "explanation": "SGLT uses the Na⁺ gradient established by Na⁺/K⁺-ATPase to co-transport Na⁺ and glucose in the same direction (symport) into the epithelial cell, moving glucose against its concentration gradient. This is secondary active transport because it uses a gradient generated by primary transport (ATPase).",
+    "tags": [
+      "cell biology",
+      "transport",
+      "physiology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "How many unique DNA sequences serve as promoters in bacteria, and what are their consensus sequences?",
+    "options": [
+      "Three sequences: −10, −20, and −35 boxes",
+      "Two sequences: −10 (TATAAT) and −35 (TTGACA) boxes",
+      "One sequence: the TATA box at −25",
+      "Two sequences: the Pribnow box and CAAT box"
+    ],
+    "correct": 1,
+    "explanation": "Bacterial promoters have two consensus elements recognized by σ factor: the −35 box (TTGACA) and the −10 box (TATA-AT, Pribnow box). The spacing between them (~17 bp) is critical. The TATA box at ~−25 is a eukaryotic promoter element recognized by TFIID (TBP).",
+    "tags": [
+      "transcription",
+      "molecular biology",
+      "prokaryotes"
+    ],
+    "difficulty": "hard"
+  }
+]

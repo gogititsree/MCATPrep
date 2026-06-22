@@ -1,0 +1,421 @@
+[
+  {
+    "text": "A researcher studying a newly discovered culture refuses to judge their practices as primitive or inferior, instead interpreting them within the context of that culture's own values and norms. This approach is called:",
+    "options": [
+      "Ethnocentrism",
+      "Cultural relativism",
+      "Cultural diffusion",
+      "Assimilation"
+    ],
+    "correct": 1,
+    "explanation": "Cultural relativism is the practice of evaluating a culture by its own standards rather than by the standards of the observer's culture. It is a key methodological and ethical principle in anthropology and sociology. Ethnocentrism (A) is the opposite — judging another culture by one's own cultural standards, often viewing one's own culture as superior. Cultural diffusion (C) is the spread of cultural elements from one culture to another. Assimilation (D) is when a minority group adopts the culture of the dominant group.",
+    "tags": [
+      "sociology",
+      "culture",
+      "cultural relativism"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Émile Durkheim studied suicide rates across different societies and found that social integration was a key variable. He argued that 'egoistic suicide' occurs when:",
+    "options": [
+      "Social norms provide insufficient guidance, leading to normlessness",
+      "An individual has extremely strong ties to a group that demands self-sacrifice",
+      "Individuals lack sufficient social bonds and feel disconnected from their community",
+      "Rapid social change disrupts the established social order"
+    ],
+    "correct": 2,
+    "explanation": "Durkheim identified four types of suicide based on integration and regulation. Egoistic suicide results from low social integration — individuals who lack strong bonds to social groups (family, religion, community) have higher rates. Anomic suicide (A, D) results from insufficient social regulation (normlessness), often during periods of rapid social change. Altruistic suicide (B) results from excessive integration — the individual sacrifices their life for the group. Fatalistic suicide (not listed) results from excessive regulation. This remains a foundational work in sociological research methodology.",
+    "tags": [
+      "sociology",
+      "Durkheim",
+      "social integration"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Parsons' concept of the 'sick role' includes which of the following as a right afforded to the ill person?",
+    "options": [
+      "Permanent exemption from all social obligations",
+      "Exemption from normal social responsibilities while the person is ill",
+      "The responsibility to immediately return to full function",
+      "Obligation to pursue illness as a personal identity"
+    ],
+    "correct": 1,
+    "explanation": "Talcott Parsons described the sick role as a social role with specific rights and obligations. Rights include: (1) exemption from normal social roles and responsibilities and (2) being considered not responsible for their condition. Obligations include: (1) the duty to try to get well and (2) seeking competent medical care. Option A is wrong because the exemption is temporary, not permanent. Option C is an obligation, not a right. Option D contradicts the sick role, which expects the person to want to recover.",
+    "tags": [
+      "health and medicine",
+      "sick role",
+      "Parsons"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The health belief model predicts that a person is most likely to engage in preventive health behaviors when they perceive:",
+    "options": [
+      "High susceptibility to a disease AND high perceived barriers to prevention",
+      "Low severity of the disease AND high self-efficacy",
+      "High susceptibility AND high severity AND high perceived benefits over barriers",
+      "Low susceptibility AND strong cues to action"
+    ],
+    "correct": 2,
+    "explanation": "The Health Belief Model (Rosenstock) predicts health behavior based on four perceptions: susceptibility (am I at risk?), severity (how bad is the disease?), benefits (will the action help?), and barriers (what are the costs/obstacles?). Additionally, self-efficacy and cues to action are included in later versions. The model predicts preventive action when perceived susceptibility and severity are HIGH and perceived benefits OUTWEIGH barriers. Option A has high barriers, which would deter action. Option B has low severity, reducing motivation. Option D has low susceptibility, which reduces the perception of need to act.",
+    "tags": [
+      "health and medicine",
+      "health belief model"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Hans Selye's General Adaptation Syndrome (GAS) describes the body's response to prolonged stress in three stages. During the 'resistance' stage:",
+    "options": [
+      "The body shows an initial, temporary reduction in resistance to the stressor",
+      "The body actively copes with the stressor while maintaining elevated physiological arousal",
+      "Physical resources are depleted and the body becomes vulnerable to illness",
+      "The threat is neutralized and the body returns to homeostasis"
+    ],
+    "correct": 1,
+    "explanation": "Selye's GAS has three stages: (1) Alarm: the initial fight-or-flight response; (2) Resistance: the body adapts and actively resists the stressor — physiological arousal remains elevated but the person appears to function normally; (3) Exhaustion: resources are depleted, increasing vulnerability to illness, depression, and even death. Option A describes the alarm stage. Option C describes the exhaustion stage. Option D does not correspond to any GAS stage; recovery occurs when the stressor is removed before exhaustion.",
+    "tags": [
+      "health and medicine",
+      "stress",
+      "Selye GAS"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A sociologist argues that physicians hold disproportionate power in doctor-patient relationships, defining who is 'sick' and controlling access to treatment. This is BEST associated with which concept?",
+    "options": [
+      "Cultural relativism",
+      "Medicalization",
+      "Social facilitation",
+      "The sick role"
+    ],
+    "correct": 1,
+    "explanation": "Medicalization refers to the process by which non-medical problems come to be defined and treated as medical issues, thereby expanding medical authority and social control. The concern about physician power in defining illness is central to critiques of medicalization (e.g., childbirth, ADHD, addiction, and previously homosexuality being classified as disorders). Cultural relativism (A) is about evaluating cultures on their own terms. Social facilitation (C) is a social psychology concept about performance in front of others. The sick role (D) is Parsons' functional description of patient behavior, not a power critique.",
+    "tags": [
+      "health and medicine",
+      "medicalization",
+      "sociology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Prochaska's Transtheoretical Model (stages of change) includes all of the following stages EXCEPT:",
+    "options": [
+      "Precontemplation",
+      "Contemplation",
+      "Rationalization",
+      "Maintenance"
+    ],
+    "correct": 2,
+    "explanation": "Prochaska and DiClemente's Transtheoretical Model includes: Precontemplation (not considering change), Contemplation (thinking about change within 6 months), Preparation (planning to act soon), Action (actively changing behavior), and Maintenance (sustaining changed behavior for 6+ months). Rationalization is NOT a stage in this model — it is a Freudian defense mechanism involving making excuses for unacceptable behavior.",
+    "tags": [
+      "health and medicine",
+      "stages of change",
+      "Prochaska"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Stigma, as described by Erving Goffman, refers to:",
+    "options": [
+      "A formal legal punishment for deviant behavior",
+      "A deeply discrediting attribute that reduces a person from a whole person to a tainted or discounted one",
+      "The process of learning social norms and values",
+      "A cultural ritual that reinforces group identity"
+    ],
+    "correct": 1,
+    "explanation": "Goffman defined stigma as a mark of social disgrace that discredits an individual, reducing them in others' eyes from a complete person to a 'tainted, discounted one.' Stigma can be visible (e.g., physical disability) or concealable (e.g., mental illness, HIV status). Goffman identified three types: abominations of the body, blemishes of individual character, and tribal stigmas (race, religion). Option A describes formal sanctions. Option C describes socialization. Option D describes a ritual function.",
+    "tags": [
+      "health and medicine",
+      "stigma",
+      "Goffman"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A study finds that individuals with lower socioeconomic status (SES) have higher rates of cardiovascular disease, diabetes, and depression compared to higher-SES individuals. This pattern is BEST explained by reference to:",
+    "options": [
+      "Biological determinism — lower-SES people have genetic predispositions to illness",
+      "Social determinants of health — factors like income, education, housing, and stress shape health outcomes",
+      "The sick role — lower-SES people are more willing to adopt a patient identity",
+      "Medicalization — lower-SES people are more frequently medicalized by physicians"
+    ],
+    "correct": 1,
+    "explanation": "The social determinants of health framework recognizes that health outcomes are strongly shaped by social and economic conditions: income, education, employment, housing quality, neighborhood safety, social support, and access to healthcare. These upstream factors explain health disparities across SES groups far better than individual behavior or biology alone. Biological determinism (A) is not supported and ignores social causation. The sick role (C) describes behavior once ill, not disease causation. While medicalization (D) can contribute to health disparities, it does not explain higher disease burden in lower-SES groups.",
+    "tags": [
+      "health and medicine",
+      "social determinants",
+      "health disparities"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following BEST illustrates the concept of 'social support as a buffer against stress'?",
+    "options": [
+      "A person with many friends reports higher life satisfaction than those with fewer friends",
+      "A widowed person who has strong community ties shows fewer adverse health effects after bereavement than an isolated widowed person",
+      "People are more likely to exercise when they join a group fitness class",
+      "A person with high social status experiences less stress in daily life"
+    ],
+    "correct": 1,
+    "explanation": "The 'buffering hypothesis' proposes that social support does not simply improve health generally, but specifically cushions (buffers) the negative health effects of stressors. Option B illustrates this directly: bereavement is a major stressor, and social support protects against its negative health consequences for those who have it. Option A shows a direct effect of social support on well-being, not a buffering effect. Option C illustrates social facilitation or accountability. Option D involves SES, not social support buffering stress.",
+    "tags": [
+      "health and medicine",
+      "social support",
+      "stress"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "A child watches their older sibling touch a hot stove and get burned. The child subsequently refuses to touch the stove. The child has learned through:",
+    "options": [
+      "Classical conditioning",
+      "Negative reinforcement",
+      "Observational learning",
+      "Punishment"
+    ],
+    "correct": 2,
+    "explanation": "The child learns to avoid the stove by watching the consequences experienced by another person (the sibling), without directly experiencing pain themselves. This is observational learning — learning by watching models and observing the consequences of their behavior (vicarious consequences). It is not classical conditioning (A) because there is no CS-UCS pairing for the child. The child receives no reinforcement or punishment (B, D) directly — the sibling does.",
+    "tags": [
+      "learning",
+      "observational learning"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A dog that was conditioned to salivate to a bell was later conditioned to salivate to a light that was paired with the bell (not food). The salivation to the light is an example of:",
+    "options": [
+      "Second-order (higher-order) conditioning",
+      "Stimulus generalization",
+      "Extinction",
+      "Spontaneous recovery"
+    ],
+    "correct": 0,
+    "explanation": "Higher-order (second-order) conditioning occurs when a previously conditioned stimulus (the bell, which already elicits salivation) is used to condition a new neutral stimulus (the light). The light was never paired with the food (original UCS) but acquires the ability to elicit the CR through its association with the bell (now acting as a UCS-like stimulus). Stimulus generalization (B) involves similar stimuli eliciting the CR. Extinction (C) is disappearance of the CR. Spontaneous recovery (D) is the return of an extinguished CR after a rest period.",
+    "tags": [
+      "learning",
+      "classical conditioning",
+      "higher-order conditioning"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A parent gives a child a time-out (removes the child from a fun activity) every time the child hits a sibling. This is an example of:",
+    "options": [
+      "Negative reinforcement",
+      "Positive punishment",
+      "Negative punishment",
+      "Extinction"
+    ],
+    "correct": 2,
+    "explanation": "Negative punishment involves removing a desirable stimulus (access to the fun activity) following a behavior (hitting) in order to decrease that behavior. 'Negative' refers to the removal of something; 'punishment' refers to decreasing behavior. Negative reinforcement (A) involves removing an aversive stimulus to INCREASE a behavior. Positive punishment (B) involves adding an aversive stimulus to decrease behavior. Extinction (D) involves withholding ALL reinforcement for a previously reinforced behavior, which is different from deliberately removing access to a preferred activity.",
+    "tags": [
+      "learning",
+      "operant conditioning",
+      "punishment"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A trainer teaches a dog to roll over by first reinforcing the dog for lying down, then for lying down and rolling to its side, then for completing the full roll. This technique is called:",
+    "options": [
+      "Chaining",
+      "Shaping",
+      "Secondary reinforcement",
+      "Fixed-ratio scheduling"
+    ],
+    "correct": 1,
+    "explanation": "Shaping involves reinforcing successive approximations toward a target behavior. Each step brings the animal closer to the desired final behavior. This is distinct from chaining (A), which links a sequence of already-learned behaviors together into a longer behavioral chain (e.g., a dog that sits, then shakes, then lies down in sequence). Secondary reinforcement (C) involves conditioned reinforcers (e.g., money, praise). Fixed-ratio scheduling (D) refers to delivering reinforcement after a set number of responses.",
+    "tags": [
+      "learning",
+      "operant conditioning",
+      "shaping"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following memory systems stores information for the shortest duration?",
+    "options": [
+      "Episodic memory",
+      "Short-term memory",
+      "Sensory memory",
+      "Semantic memory"
+    ],
+    "correct": 2,
+    "explanation": "Sensory memory (also called the sensory register) holds information for the briefest duration — a fraction of a second to a few seconds — before it either decays or is transferred to short-term memory. Iconic (visual) memory lasts about 0.5 seconds; echoic (auditory) memory lasts a bit longer (3-4 seconds). Short-term memory (B) holds information for about 15-30 seconds without rehearsal. Episodic (A) and semantic (D) memory are components of long-term memory, which can last a lifetime.",
+    "tags": [
+      "memory",
+      "sensory memory"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The encoding specificity principle suggests that memory retrieval is BEST when:",
+    "options": [
+      "Information is encoded using semantic processing rather than phonological processing",
+      "Retrieval cues match the context and cues present at the time of encoding",
+      "Information is retrieved immediately after encoding without any delay",
+      "Multiple encoding modalities (visual, auditory) are used simultaneously"
+    ],
+    "correct": 1,
+    "explanation": "Tulving and Thomson's encoding specificity principle states that memory retrieval is most effective when the conditions at retrieval (cues, context, emotional/physiological state) match those present at encoding. For example, if you studied material while listening to classical music, you may recall it better while listening to the same music. This is also the basis of state-dependent memory. Option A is not the encoding specificity principle (though semantic encoding typically produces better memory due to depth of processing). Options C and D are not this principle.",
+    "tags": [
+      "memory",
+      "encoding specificity",
+      "retrieval"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A student who studied Spanish in high school finds that the old Spanish memories interfere with their ability to learn Italian in college. This is an example of:",
+    "options": [
+      "Retroactive interference",
+      "Proactive interference",
+      "Source monitoring error",
+      "The misinformation effect"
+    ],
+    "correct": 1,
+    "explanation": "Proactive interference occurs when older memories (Spanish) interfere with the formation or retrieval of newer memories (Italian). 'Pro' = forward in time — old information disrupts new learning. Retroactive interference (A) is the reverse: new learning interferes with old memories (e.g., studying Italian makes it harder to remember Spanish). Source monitoring error (C) is confusing where or when information was learned. The misinformation effect (D) involves post-event information altering original memories.",
+    "tags": [
+      "memory",
+      "interference",
+      "proactive interference"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following is an example of a flashbulb memory?",
+    "options": [
+      "Remembering how to ride a bike after years of not practicing",
+      "A vivid, detailed memory of where you were when you heard about a major national tragedy",
+      "Remembering a list of vocabulary words after extensive rehearsal",
+      "Recalling the emotional feeling of a past event without specific details"
+    ],
+    "correct": 1,
+    "explanation": "Flashbulb memories are highly vivid, detailed, and long-lasting memories for the context in which one heard surprising, emotionally significant news (e.g., where you were when you heard about 9/11 or the death of a beloved figure). They involve the amygdala's role in emotional memory enhancement. Option A describes procedural memory. Option C describes explicit, rehearsal-based declarative memory. Option D resembles emotional memory without episodic detail — not specifically flashbulb.",
+    "tags": [
+      "memory",
+      "flashbulb memory"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Anterograde amnesia differs from retrograde amnesia in that:",
+    "options": [
+      "Anterograde amnesia involves the loss of memories formed before a brain injury; retrograde involves inability to form new memories after injury",
+      "Anterograde amnesia involves inability to form new memories after brain injury; retrograde involves loss of memories from before the injury",
+      "Anterograde amnesia affects only procedural memory; retrograde affects only declarative memory",
+      "Both types affect only short-term memory, not long-term memory"
+    ],
+    "correct": 1,
+    "explanation": "Anterograde amnesia (as exemplified by H.M.) is the inability to form new long-term memories after the onset of brain damage — information cannot be transferred from short-term to long-term storage. Retrograde amnesia involves loss of memories formed BEFORE the brain injury — past memories are impaired. Option A reverses the definitions. Option C is incorrect because both can affect multiple memory systems. Option D is incorrect because the key deficit in anterograde amnesia is the failure to consolidate information into long-term memory.",
+    "tags": [
+      "memory",
+      "amnesia"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "During a developmental screening, a physician notes that an infant reliably turns toward the sound of their mother's voice but not toward other women's voices. This selectivity is BEST explained by:",
+    "options": [
+      "Stimulus generalization",
+      "Classical conditioning and stimulus discrimination",
+      "Innate reflexes only",
+      "Object permanence"
+    ],
+    "correct": 1,
+    "explanation": "The infant has been classically conditioned (the mother's voice has been repeatedly paired with feeding, comfort, and warmth — all natural positive stimuli) and demonstrates stimulus discrimination — responding specifically to the mother's voice (CS) and not to similar stimuli (other women's voices). This is the opposite of generalization (A), where similar stimuli also elicit the response. Innate reflexes (C) are unlearned and would not be specific to the mother's voice. Object permanence (D) is the understanding that objects exist when out of sight, irrelevant here.",
+    "tags": [
+      "learning",
+      "classical conditioning",
+      "discrimination"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A researcher studies children who grew up in a language-rich environment versus a language-poor environment. Children who were not exposed to language before puberty never fully acquired native-level language skills, even with later intensive instruction. This finding supports:",
+    "options": [
+      "Chomsky's transformational grammar as the primary explanation for language difficulty",
+      "The existence of a critical period for language acquisition",
+      "The Sapir-Whorf hypothesis about language and thought",
+      "Vygotsky's theory that all language learning requires social scaffolding"
+    ],
+    "correct": 1,
+    "explanation": "The critical period hypothesis (supported by Lenneberg, and illustrated by cases like Genie) holds that there is a biologically determined window (roughly before puberty) during which language acquisition occurs most readily and naturally. Lack of exposure during this period results in permanent language deficits. Chomsky's transformational grammar (A) describes the rules underlying language structure (the LAD), not developmental timing. The Sapir-Whorf hypothesis (C) is about language and cognition, not acquisition timing. Vygotsky (D) emphasizes social learning but his ZPD does not predict permanent deficits from delayed exposure.",
+    "tags": [
+      "cognition",
+      "language",
+      "critical period"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A child says 'goed' instead of 'went' and 'mouses' instead of 'mice.' This error pattern suggests the child is:",
+    "options": [
+      "Showing a lack of telegraphic speech development",
+      "Applying grammatical rules overly broadly (overgeneralization)",
+      "Demonstrating holophrastic speech",
+      "Exhibiting concrete operational thought"
+    ],
+    "correct": 1,
+    "explanation": "Overgeneralization (or overregularization) is a normal stage of language development in which children apply grammatical rules (like adding -ed for past tense or -s for plural) to irregular words that don't follow those rules. This paradoxically shows that the child has internalized a grammatical rule — they are not simply imitating adult speech (since adults say 'went' and 'mice'), but applying a rule. Telegraphic speech (A) refers to two-word utterances ('more milk'). Holophrastic speech (C) is single-word speech. Concrete operational thought (D) is a Piagetian stage unrelated to this linguistic phenomenon.",
+    "tags": [
+      "cognition",
+      "language development",
+      "overgeneralization"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Erikson's stage associated with the tension between 'Generativity vs. Stagnation' occurs during which life phase, and what does successful resolution involve?",
+    "options": [
+      "Adolescence; forming a stable identity",
+      "Young adulthood; forming intimate relationships",
+      "Middle adulthood; contributing to the next generation through work, parenting, or mentorship",
+      "Late adulthood; reflecting on life with a sense of integrity"
+    ],
+    "correct": 2,
+    "explanation": "Generativity vs. Stagnation is Erikson's seventh psychosocial stage, occurring in middle adulthood (roughly ages 40-65). Generativity involves contributing to the world through raising children, mentoring, creating, or working productively — leaving a legacy. Stagnation involves self-absorption and a sense of meaninglessness. Adolescence (A) corresponds to Identity vs. Role Confusion. Young adulthood (B) corresponds to Intimacy vs. Isolation. Late adulthood (D) corresponds to Integrity vs. Despair.",
+    "tags": [
+      "developmental psychology",
+      "Erikson",
+      "middle adulthood"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Harlow's attachment experiments with infant rhesus monkeys demonstrated that attachment is primarily based on:",
+    "options": [
+      "Food provision — infants attached to the wire mother that provided milk",
+      "Contact comfort — infants preferred the cloth mother regardless of which provided food",
+      "Imprinting — infants attached to whichever mother they first saw",
+      "Classical conditioning — the wire mother's milk became a conditioned stimulus"
+    ],
+    "correct": 1,
+    "explanation": "Harlow's famous wire/cloth mother experiments showed that infant monkeys, even when fed exclusively by the wire mother, overwhelmingly preferred to spend time clinging to the soft cloth mother, especially when frightened. This demonstrated that contact comfort (warmth, softness, tactile stimulation) is the primary basis of attachment — not food provision (A), which had been the prevailing assumption of learning theory. Imprinting (C) is a concept from ethology (Lorenz), applied mainly to birds. Classical conditioning (D) was the older learning theory explanation that Harlow's study disproved.",
+    "tags": [
+      "developmental psychology",
+      "attachment",
+      "Harlow"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Authoritative parenting, which is associated with the best developmental outcomes, is characterized by:",
+    "options": [
+      "High demands and low responsiveness",
+      "Low demands and high responsiveness",
+      "High demands combined with high responsiveness and warmth",
+      "Low demands and low responsiveness"
+    ],
+    "correct": 2,
+    "explanation": "Baumrind's research on parenting styles identified authoritative parenting (high demandingness + high responsiveness) as consistently associated with positive child outcomes: high self-esteem, academic achievement, social competence, and fewer behavior problems. Authoritarian parenting (A) is high demands/low responsiveness — strict, with little warmth. Permissive parenting (B) is low demands/high responsiveness — warm but few boundaries. Uninvolved/neglectful parenting (D) is low demands/low responsiveness — associated with the worst outcomes.",
+    "tags": [
+      "developmental psychology",
+      "parenting styles"
+    ],
+    "difficulty": "easy"
+  }
+]

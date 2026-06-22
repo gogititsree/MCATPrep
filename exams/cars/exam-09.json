@@ -1,0 +1,215 @@
+[
+  {
+    "passageText": "The concept of 'justice' in political philosophy has two primary meanings that are often run together but should be distinguished. Procedural justice asks whether the rules and processes by which decisions are made are fair, regardless of their outcomes. Substantive justice asks whether the outcomes themselves—the distribution of goods, opportunities, and burdens in society—are fair. Liberal political theory has tended to prioritize procedural justice: if the rules of the game are fair, the outcomes they produce are just, whatever they are.\n\nJohn Rawls's influential theory of justice attempted to bridge this divide. Behind a 'veil of ignorance'—imagining that we do not know what position we will occupy in society—what principles of justice would we choose? Rawls argued we would choose two: first, equal basic liberties for all; second, inequalities are justified only when they benefit the least advantaged members of society (the 'difference principle'). This second principle introduced a substantive constraint: not all outcomes of fair procedures are just, only those that work to the advantage of the worst-off.\n\nRobert Nozick responded with a thoroughgoing defense of procedural justice. If a distribution arises from just acquisitions and just voluntary transfers, it is just, regardless of the pattern it produces. No redistribution is justified unless the original acquisition or subsequent transfers were themselves unjust. Nozick's 'entitlement theory' held that taxation for redistribution—taking from the productive to give to the poor—violated individual rights even if the resulting distribution was more equal.\n\nFeminist philosophers challenged both frameworks for their exclusions. The 'unencumbered self' who chooses principles behind a veil of ignorance, or who makes voluntary transfers in the free market, is abstracted from the webs of relationship and dependency that characterize actual human lives—especially the lives of women who perform the unpaid care work on which all market activity depends. Care ethicists like Carol Gilligan and Joan Tronto argued that justice must reckon with dependency, vulnerability, and the relational dimensions of human life that procedural and distributive frameworks elide.\n\nIn practice, justice debates often involve both procedural and substantive dimensions simultaneously. A healthcare system that allocates resources by market mechanisms is procedurally fair in one sense but may produce substantive outcomes—many people unable to afford necessary care—that most would regard as unjust. The challenge is to specify which procedural standards and which substantive outcomes are required by justice, and how to adjudicate conflicts between them.",
+    "questions": [
+      {
+        "text": "The distinction between procedural and substantive justice, as described in the passage, is:",
+        "options": [
+          "Procedural justice is for governments; substantive justice is for individuals",
+          "Procedural justice asks whether decision-making processes are fair; substantive justice asks whether the resulting distribution of goods and opportunities is fair—with liberal theory traditionally prioritizing the former",
+          "Procedural justice applies to criminal law; substantive justice applies to civil disputes",
+          "They are different names for the same concept in different legal traditions"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Procedural justice asks whether the rules and processes by which decisions are made are fair, regardless of their outcomes. Substantive justice asks whether the outcomes themselves—the distribution of goods, opportunities, and burdens in society—are fair.'"
+      },
+      {
+        "text": "Rawls's 'veil of ignorance' thought experiment is designed to:",
+        "options": [
+          "Test how much risk people are willing to take in their personal lives",
+          "Derive principles of justice by asking what rules we would choose if we did not know our position in society—eliminating self-interested bias from the choice of principles",
+          "Show that all social arrangements are arbitrary",
+          "Demonstrate that no distributive principles can be derived from rational choice"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Behind a veil of ignorance—imagining that we do not know what position we will occupy in society—what principles of justice would we choose?' The veil eliminates self-interest from the choice."
+      },
+      {
+        "text": "Rawls's 'difference principle' holds that:",
+        "options": [
+          "All social and economic inequalities are unjust and must be eliminated",
+          "Inequalities are justified only when they benefit the least advantaged members of society—introducing a substantive constraint that not all procedurally fair outcomes are just",
+          "Any inequality arising from voluntary choices is justified",
+          "Equal opportunity requires equal outcomes for all social groups"
+        ],
+        "correct": 1,
+        "explanation": "The passage states the difference principle holds that 'inequalities are justified only when they benefit the least advantaged members of society.' This introduces a substantive constraint on what procedurally fair outcomes count as just."
+      },
+      {
+        "text": "Nozick's 'entitlement theory' of justice holds that:",
+        "options": [
+          "Justice requires equal distribution of all social goods",
+          "If a distribution arises from just acquisitions and voluntary transfers, it is just regardless of the pattern—redistribution through taxation violates individual rights even if it produces greater equality",
+          "Market outcomes are always substantively just",
+          "Government has an obligation to ensure equal opportunity for all citizens"
+        ],
+        "correct": 1,
+        "explanation": "The passage states Nozick's theory holds: 'If a distribution arises from just acquisitions and just voluntary transfers, it is just, regardless of the pattern it produces...taxation for redistribution—taking from the productive to give to the poor—violated individual rights even if the resulting distribution was more equal.'"
+      },
+      {
+        "text": "The feminist critique of both Rawls and Nozick, as described in the passage, argues that both theories:",
+        "options": [
+          "Are too focused on outcomes rather than procedures",
+          "Abstract away from the webs of relationship, dependency, and unpaid care work—especially performed by women—that characterize actual human lives, making them inadequate for understanding justice in contexts of vulnerability and dependency",
+          "Fail to provide any basis for economic justice",
+          "Are correct but difficult to implement in practice"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'The unencumbered self who chooses principles behind a veil of ignorance, or who makes voluntary transfers in the free market, is abstracted from the webs of relationship and dependency that characterize actual human lives—especially the lives of women who perform the unpaid care work on which all market activity depends.'"
+      },
+      {
+        "text": "The healthcare example in the final paragraph illustrates which tension?",
+        "options": [
+          "Between federal and state healthcare authority",
+          "Between a market mechanism that is procedurally fair in one sense but produces substantive outcomes (inability to afford care) that may be unjust—showing that justice debates require attending to both procedural and substantive dimensions",
+          "Between the rights of physicians and the rights of patients",
+          "Between public and private healthcare funding"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'A healthcare system that allocates resources by market mechanisms is procedurally fair in one sense but may produce substantive outcomes—many people unable to afford necessary care—that most would regard as unjust.' This illustrates the passage's central theme: both procedural and substantive dimensions matter."
+      }
+    ]
+  },
+  {
+    "passageText": "The question of how scientific discoveries become established as facts is not as simple as it might appear. The history of science is littered with claims that were accepted as facts by scientific communities and later overturned—from the stability of the continents to the inheritance of acquired characteristics to the existence of the ether. It is equally littered with claims that were resisted by scientific communities before eventually being accepted—continental drift, bacterial causes of ulcers, the germ theory of disease itself. The mechanisms by which scientific claims achieve the status of 'fact'—and lose it—tell us something important about the nature of scientific knowledge.\n\nHarry Collins and Trevor Pinch, in The Golem (1993), argued that experiments alone do not determine the outcome of scientific controversies. Experimental results require interpretation; interpretation requires background assumptions; background assumptions are often shared within but contested across scientific communities. The classic problem of the 'experimenter's regress': to know if an experiment was done correctly, you need to know what result the correct experiment would give; but to know what result the correct experiment would give, you need to know if the experiment was done correctly. This circularity means that experimental evidence underdetermines theory choice.\n\nThis is not merely a philosophical puzzle—it has had real consequences in debates about cold fusion, memory transfer in flatworms, and the carcinogenicity of specific chemicals. In each case, the question of whether an experimental result was 'real' could not be settled by more experiments alone; it required judgments about laboratory competence, equipment calibration, researcher integrity, and the prior plausibility of the claim. Scientific controversies are resolved not just by evidence but by social processes of trust-building and authority allocation within scientific communities.\n\nNaomi Oreskes and Erik Conway, in Merchants of Doubt (2010), documented how these features of scientific knowledge production were exploited by well-funded interest groups seeking to manufacture uncertainty about established scientific findings. By identifying genuine anomalies, funding minority scientific voices, and emphasizing the underdetermination of theory by evidence, industry groups were able to cast doubt on the scientific consensus regarding tobacco, acid rain, ozone depletion, and climate change—even when that consensus was genuine and overwhelming.\n\nThe lesson is double-edged: acknowledging the social dimensions of scientific knowledge production does not license skepticism about all scientific claims. It requires distinguishing between manufactured uncertainty and genuine scientific uncertainty—between the exploitation of science's normal self-correcting processes for political ends and the legitimate operation of those processes themselves.",
+    "questions": [
+      {
+        "text": "The historical examples in paragraph 1 (continental drift, bacterial causes of ulcers, germ theory) are used primarily to:",
+        "options": [
+          "Show that science never makes mistakes",
+          "Illustrate that both acceptance and rejection of scientific claims by communities have been wrong, suggesting that the mechanisms by which claims achieve the status of 'fact' are more complex than simple evidence evaluation",
+          "Argue that scientific consensus should never be trusted",
+          "Demonstrate that individual scientists are often more reliable than scientific communities"
+        ],
+        "correct": 1,
+        "explanation": "The passage uses these examples to show that the scientific community has both wrongly accepted claims (ether) and wrongly resisted claims (continental drift). Both directions of error suggest the process of fact-making is complex and not reducible to simple evidence accumulation."
+      },
+      {
+        "text": "The 'experimenter's regress' described in the passage refers to:",
+        "options": [
+          "The decline in experimental quality as scientists become more experienced",
+          "The circular problem that knowing whether an experiment was done correctly requires knowing what result the correct experiment would give, which in turn requires knowing whether the experiment was done correctly",
+          "The progressive improvement of experimental technique through iteration",
+          "The tendency of experimental errors to compound over time"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'to know if an experiment was done correctly, you need to know what result the correct experiment would give; but to know what result the correct experiment would give, you need to know if the experiment was done correctly.' This circularity means experimental evidence underdetermines theory choice."
+      },
+      {
+        "text": "Collins and Pinch's argument implies that scientific controversies are resolved by:",
+        "options": [
+          "Evidence alone, since properly conducted experiments always yield unambiguous results",
+          "A combination of evidence and social processes—trust-building, authority allocation, judgments about laboratory competence and researcher integrity—not just by experimental data",
+          "Individual genius overcoming entrenched scientific orthodoxy",
+          "The democratic vote of scientific communities"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Scientific controversies are resolved not just by evidence but by social processes of trust-building and authority allocation within scientific communities.'"
+      },
+      {
+        "text": "Oreskes and Conway's documentation of 'merchants of doubt' shows that industry groups exploited which feature of scientific knowledge production?",
+        "options": [
+          "The tendency of scientists to publish false results for personal gain",
+          "The normal features of scientific knowledge—underdetermination, anomalies, minority voices—to manufacture uncertainty about genuine scientific consensus on tobacco, acid rain, ozone, and climate change",
+          "The secrecy of scientific peer review processes",
+          "The financial dependence of scientists on industrial funding"
+        ],
+        "correct": 1,
+        "explanation": "The passage states industry groups exploited underdetermination by 'identifying genuine anomalies, funding minority scientific voices, and emphasizing the underdetermination of theory by evidence...to cast doubt on the scientific consensus regarding tobacco, acid rain, ozone depletion, and climate change.'"
+      },
+      {
+        "text": "The passage's 'double-edged lesson' in the final paragraph means that:",
+        "options": [
+          "Science is both reliable and unreliable, so all scientific claims should be treated with equal skepticism",
+          "Acknowledging science's social dimensions does not license wholesale skepticism—it requires distinguishing manufactured uncertainty (politically motivated) from genuine scientific uncertainty (the normal self-correction of science)",
+          "Scientists should stop acknowledging the social dimensions of their work to protect scientific authority",
+          "Industrial funding of science should be prohibited"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'acknowledging the social dimensions of scientific knowledge production does not license skepticism about all scientific claims. It requires distinguishing between manufactured uncertainty and genuine scientific uncertainty.'"
+      },
+      {
+        "text": "Based on the passage, which feature of scientific practice makes it vulnerable to the 'merchants of doubt' strategy?",
+        "options": [
+          "Scientists' overconfidence in their experimental results",
+          "Science's normal openness to criticism, anomalies, and minority voices—features that make it self-correcting but that can be exploited to simulate uncertainty where genuine consensus exists",
+          "The secrecy surrounding proprietary research",
+          "Scientists' lack of communication skills with public audiences"
+        ],
+        "correct": 1,
+        "explanation": "The passage shows that 'manufactured doubt' works by exploiting science's genuine features: anomalies exist in any robust science, minority scientific voices exist, underdetermination is real. These are virtues of science (self-correction) that become vulnerabilities when exploited to simulate controversy. The passage implies it is science's legitimate openness that makes it exploitable."
+      }
+    ]
+  },
+  {
+    "passageText": "The relationship between the written word and democracy has long been assumed to be one of mutual reinforcement. An educated, literate citizenry, able to read news, political argument, and law, was regarded as essential to self-governance. The printing press and the subsequent explosion of cheap print in early modern Europe was associated with both the Reformation and the gradual development of political rights. The free press became a cornerstone of liberal democracy, both as a means of informing citizens and as a check on governmental power.\n\nThe digital revolution initially seemed to extend and deepen this relationship. The internet lowered the barriers to publication to near zero; citizens could not only consume information but produce it; decentralized networks could, in principle, resist state and corporate capture more effectively than print monopolies. The Arab Spring, in which social media played a role in coordinating protest, seemed for a moment to confirm the utopian vision of digital media as democratic infrastructure.\n\nThe subsequent decade has complicated this picture considerably. The same network properties that enabled democratic coordination also enabled the rapid spread of misinformation; the same algorithms that maximized engagement amplified outrage and extremism; the same platforms that allowed citizens to speak also allowed foreign powers, domestic demagogues, and algorithmic systems to shape what citizens saw and thought. The Arab Spring gave way, in most countries, to military coups, civil wars, and authoritarian consolidation—enabled in part by the same tools that had been celebrated as liberatory.\n\nScholars of 'information disorders' have distinguished between misinformation (false information shared without intent to deceive), disinformation (false information shared with intent to deceive), and malinformation (true information shared with intent to harm). This taxonomy helps clarify what is at stake: the threats to democratic discourse come not only from lies but from the strategic use of truth, the amplification of doubt, and the erosion of shared epistemic frameworks—including agreement about what kinds of evidence and reasoning are appropriate for evaluating political claims.\n\nThe philosophical question lurking behind the crisis of democratic discourse is whether democracy requires not just access to information but shared epistemic norms—agreement about what counts as evidence, what sources are reliable, and how disagreements should be resolved. If such norms are themselves contested, the information ecosystem may be unable to support self-governance regardless of the quantity of information available. Whether such shared norms can be rebuilt—through education, platform design, regulation, or cultural change—is among the most urgent questions facing democratic societies.",
+    "questions": [
+      {
+        "text": "The traditional connection between literacy and democracy, as described in paragraph 1, rested on the assumption that:",
+        "options": [
+          "All literate people will reach the same political conclusions",
+          "An informed, literate citizenry capable of reading news, political argument, and law was essential to self-governance, with the free press as both informer and governmental check",
+          "Print media was inherently democratic because it was inexpensive",
+          "Literacy rates determine the stability of democratic governments"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'An educated, literate citizenry, able to read news, political argument, and law, was regarded as essential to self-governance.' The free press was 'both a means of informing citizens and a check on governmental power.'"
+      },
+      {
+        "text": "The 'utopian vision' of digital media as democratic infrastructure was based on which features of the internet?",
+        "options": [
+          "Government control of internet infrastructure ensuring accurate information",
+          "Near-zero barriers to publication, decentralized networks resisting capture, and citizens as both producers and consumers of information—exemplified by the Arab Spring coordination role of social media",
+          "The internet's ability to store unlimited information",
+          "Commercial platforms' investment in content quality and accuracy"
+        ],
+        "correct": 1,
+        "explanation": "The passage cites: 'The internet lowered the barriers to publication to near zero; citizens could not only consume information but produce it; decentralized networks could, in principle, resist state and corporate capture.' The Arab Spring exemplified this utopian potential."
+      },
+      {
+        "text": "The 'same network properties' that enabled democratic coordination also enabled which negative outcomes?",
+        "options": [
+          "Increased government surveillance of political dissidents",
+          "Rapid spread of misinformation, amplification of outrage and extremism, and foreign and domestic manipulation of information environments—contributing to authoritarian consolidation in Arab Spring countries",
+          "Declining rates of political participation in established democracies",
+          "The erosion of intellectual property protections for journalists"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'The same network properties that enabled democratic coordination also enabled the rapid spread of misinformation; the same algorithms that maximized engagement amplified outrage and extremism...The Arab Spring gave way, in most countries, to military coups, civil wars, and authoritarian consolidation.'"
+      },
+      {
+        "text": "The taxonomy of information disorders distinguishes disinformation from misinformation by:",
+        "options": [
+          "The medium through which the false information is spread",
+          "Intent: misinformation is false information shared without intent to deceive; disinformation is false information shared with intent to deceive",
+          "The harm caused to specific individuals",
+          "The accuracy of the information rather than the intent of the sharer"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'misinformation (false information shared without intent to deceive), disinformation (false information shared with intent to deceive).' The distinction is intent, not medium or harm."
+      },
+      {
+        "text": "The concept of 'malinformation' described in the passage is significant because it:",
+        "options": [
+          "Shows that all true information should be shared freely regardless of context",
+          "Reveals that threats to democratic discourse come not only from lies but from the strategic use of truth to cause harm—such as revealing private information or sharing accurate but contextually misleading content",
+          "Proves that all information on the internet should be regulated by governments",
+          "Explains why social media platforms should fact-check all content"
+        ],
+        "correct": 1,
+        "explanation": "The passage defines malinformation as 'true information shared with intent to harm' and states: 'the threats to democratic discourse come not only from lies but from the strategic use of truth, the amplification of doubt, and the erosion of shared epistemic frameworks.'"
+      },
+      {
+        "text": "The philosophical question raised in the final paragraph—whether democracy requires shared epistemic norms—implies which challenge for contemporary democracies?",
+        "options": [
+          "Democracies must censor information to protect shared norms",
+          "If what counts as evidence and reliable sources is itself contested, the quantity of available information may be insufficient to support self-governance—suggesting the information ecosystem problem is fundamentally a problem of shared epistemic frameworks, not just information access",
+          "Citizens require more information, not more shared frameworks, to make better democratic decisions",
+          "Democracies should restrict access to information to prevent misinformation"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'If such norms are themselves contested, the information ecosystem may be unable to support self-governance regardless of the quantity of information available.' This reframes the democratic information problem from quantity/access to the underlying epistemic norms that allow citizens to evaluate information."
+      }
+    ]
+  }
+]

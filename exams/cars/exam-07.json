@@ -1,0 +1,215 @@
+[
+  {
+    "passageText": "The concept of 'the commons'—resources shared by a community and managed collectively—has experienced a remarkable intellectual rehabilitation since Garrett Hardin's influential 1968 essay 'The Tragedy of the Commons.' Hardin argued that any resource shared by multiple users would inevitably be degraded: each individual, acting in self-interest, would overuse the common resource until it was destroyed. His solution was either privatization or government regulation—but the commons itself, in his view, was doomed.\n\nHardin's argument had immediate policy implications: it was used to justify enclosures of common land, privatization of fisheries, and restrictions on shared grazing. But it rested on an assumption—that users of common resources are isolated individuals with no capacity for communication, coordination, or trust—that Elinor Ostrom showed, through meticulous empirical research, was simply wrong. Ostrom, who received the Nobel Prize in Economics in 2009, documented hundreds of cases worldwide in which communities successfully managed shared resources—fisheries, forests, irrigation systems, pasturelands—for centuries without either privatization or government control.\n\nOstrom's communities did not avoid the tragedy of the commons by behaving altruistically. They developed rules governing access and use, monitored each other's behavior, sanctioned violators, and had mechanisms for resolving disputes. These governance structures were often informal, locally adapted, and invisible to outside observers—which is precisely why Hardin and other theorists had overlooked them. The tragedy of the commons, Ostrom argued, was a tragedy only when communities lacked the institutional capacity to coordinate.\n\nThe intellectual significance of Ostrom's work extends well beyond fisheries and forests. It challenged the binary between market and state that has dominated policy debate: there is a third option—collective, community-based governance—that can be more effective than either in many contexts. It also challenged the atomistic model of human behavior that underlies much neoclassical economics: people are not merely self-interested individuals but members of communities who can develop and sustain cooperative institutions when they have the capacity to communicate and enforce agreements.\n\nThe commons framework has been applied to new domains: the internet as a global information commons, knowledge as an intellectual commons threatened by intellectual property regimes, the atmosphere as a climate commons whose governance requires unprecedented international coordination. Whether Ostrom's lessons about local institutional design can be scaled to global commons remains a central question in environmental policy and international relations.",
+    "questions": [
+      {
+        "text": "Hardin's 'Tragedy of the Commons' argued that shared resources would inevitably be destroyed because:",
+        "options": [
+          "Governments always failed to regulate them effectively",
+          "Individual users, acting in self-interest without coordination or trust, would overuse the resource until it was degraded—requiring either privatization or government regulation to prevent destruction",
+          "Communities always prioritized short-term gains over long-term sustainability",
+          "Private owners were better stewards than communities"
+        ],
+        "correct": 1,
+        "explanation": "The passage states Hardin argued 'any resource shared by multiple users would inevitably be degraded: each individual, acting in self-interest, would overuse the common resource until it was destroyed.' His assumption was isolated individuals without communication or coordination."
+      },
+      {
+        "text": "Ostrom's empirical research challenged Hardin's argument by demonstrating that:",
+        "options": [
+          "Communities always acted altruistically when sharing resources",
+          "Communities worldwide successfully managed shared resources for centuries through informal governance structures—rules, monitoring, sanctioning, and dispute resolution—without privatization or government control",
+          "Government regulation was the key to successful commons management",
+          "The tragedy of the commons was inevitable but could be delayed"
+        ],
+        "correct": 1,
+        "explanation": "The passage states Ostrom 'documented hundreds of cases worldwide in which communities successfully managed shared resources—fisheries, forests, irrigation systems, pasturelands—for centuries without either privatization or government control.' Communities had developed governance structures Hardin overlooked."
+      },
+      {
+        "text": "Ostrom's communities avoided the tragedy of the commons through:",
+        "options": [
+          "Altruistic behavior and sacrifice of individual interests",
+          "Informal governance structures: rules governing access, mutual monitoring, graduated sanctions for violators, and dispute resolution mechanisms—coordinating without needing to behave altruistically",
+          "Government-imposed regulations with external enforcement",
+          "Converting the commons to private ownership"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'They developed rules governing access and use, monitored each other's behavior, sanctioned violators, and had mechanisms for resolving disputes.' The passage explicitly notes: 'Ostrom's communities did not avoid the tragedy of the commons by behaving altruistically.'"
+      },
+      {
+        "text": "The passage claims that Ostrom's work challenged which dominant policy assumption?",
+        "options": [
+          "That environmental problems require international rather than local solutions",
+          "The binary between market (privatization) and state (government regulation) as the only options—revealing a third option of collective community governance",
+          "That economic incentives matter more than social norms in resource management",
+          "That local knowledge is superior to scientific expertise in resource management"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'It challenged the binary between market and state that has dominated policy debate: there is a third option—collective, community-based governance—that can be more effective than either in many contexts.'"
+      },
+      {
+        "text": "The application of commons theory to climate change, mentioned in the final paragraph, presents a specific challenge because:",
+        "options": [
+          "Climate change is not actually a commons problem",
+          "The atmosphere as a global commons requires unprecedented international coordination, and it is unclear whether Ostrom's lessons about local institutional design can scale to global commons",
+          "Ostrom's research showed commons governance always fails at large scales",
+          "Climate change can only be addressed through privatization of air rights"
+        ],
+        "correct": 1,
+        "explanation": "The passage states that 'Whether Ostrom's lessons about local institutional design can be scaled to global commons remains a central question.' The atmosphere as a 'climate commons' requires 'unprecedented international coordination'—a challenge of scale beyond Ostrom's documented cases."
+      },
+      {
+        "text": "The passage implies that Hardin's assumption about isolated, self-interested individuals was:",
+        "options": [
+          "Correct in principle but wrong in its empirical application to specific cases",
+          "Empirically wrong: Ostrom showed people are not merely self-interested individuals but members of communities who can develop and sustain cooperative institutions when they can communicate and enforce agreements",
+          "Correct for all types of natural resources but wrong for information commons",
+          "Right about the diagnosis but wrong about the solution"
+        ],
+        "correct": 1,
+        "explanation": "The passage states Ostrom's work 'also challenged the atomistic model of human behavior that underlies much neoclassical economics: people are not merely self-interested individuals but members of communities who can develop and sustain cooperative institutions when they have the capacity to communicate and enforce agreements.'"
+      }
+    ]
+  },
+  {
+    "passageText": "The practice of medicine has always involved power—power over patients' bodies, knowledge, and life choices. But the forms this power takes and the frameworks used to justify or critique it have changed significantly over the past century. The shift from paternalism to autonomy in medical ethics did not simply replace one set of power relations with another; it redefined what counted as legitimate authority in clinical encounters.\n\nThe classical physician of antiquity—embodied in the Hippocratic tradition—occupied a role defined by beneficence and expertise. The physician's knowledge of what was good for the patient justified overriding the patient's uninformed preferences. This was not experienced as oppression but as care: the physician who withheld a bad prognosis from a dying patient was not deceiving them but protecting them. The paternalism of ancient medicine reflected a hierarchical understanding of knowledge and an understanding of the self as embedded in community and relationship rather than as an autonomous individual.\n\nThe emergence of modern medical ethics, catalyzed by scandals like the Tuskegee syphilis study—in which Black men with syphilis were left untreated for decades so researchers could study the disease's natural progression—forced a reckoning with the ways in which medical authority could be weaponized against vulnerable populations. The Belmont Report's emphasis on respect for persons, beneficence, and justice represented an attempt to rebuild medical authority on a foundation of patient rights rather than physician expertise.\n\nYet the authority of modern medicine is not merely ethical—it is also epistemological and economic. Medical knowledge is produced within institutions and frameworks that reflect particular social interests. The diseases of the wealthy are studied and treated more than the diseases of the poor; pharmaceutical development follows market opportunity rather than need; clinical guidelines reflect the evidence produced by studies that have historically excluded women, elderly people, and racial minorities. The authority of evidence-based medicine is partly the authority of a process that has systematically excluded the experiences of those with the least power to shape it.\n\nThe patient rights movement, consumer health advocacy, and the internet's democratization of medical information have all complicated the physician's authority without necessarily empowering patients equally. Those with education and resources can use medical information to participate as genuine partners in their care; those without them may face a more bewildering and less navigable system than before. Medical authority has been redistributed but not abolished—and access to the resources needed to navigate it remains deeply unequal.",
+    "questions": [
+      {
+        "text": "The classical Hippocratic model of medical authority, as described in the passage, was justified by:",
+        "options": [
+          "The patient's explicit consent to defer to physician judgment",
+          "The physician's expertise and beneficence—knowledge of what was good for the patient justified overriding uninformed preferences, consistent with a hierarchical and communal rather than individualistic understanding of the self",
+          "Democratic selection of physicians by patient communities",
+          "Legal frameworks that granted physicians unlimited authority"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'The physician's knowledge of what was good for the patient justified overriding the patient's uninformed preferences...The paternalism of ancient medicine reflected a hierarchical understanding of knowledge and an understanding of the self as embedded in community and relationship rather than as an autonomous individual.'"
+      },
+      {
+        "text": "The Tuskegee syphilis study is cited in the passage primarily to:",
+        "options": [
+          "Demonstrate that medical research has always been conducted ethically",
+          "Illustrate how medical authority can be weaponized against vulnerable populations, catalyzing the emergence of modern medical ethics built on patient rights",
+          "Show that racial disparities in medicine are no longer present",
+          "Argue that all medical research on human subjects should be prohibited"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'scandals like the Tuskegee syphilis study...forced a reckoning with the ways in which medical authority could be weaponized against vulnerable populations.' It is cited as a catalyst for the shift to rights-based medical ethics."
+      },
+      {
+        "text": "The passage describes the authority of evidence-based medicine as 'partly the authority of a process that has systematically excluded the experiences of those with the least power.' This claim is supported in the passage by:",
+        "options": [
+          "The high cost of medical education",
+          "The historical exclusion of women, elderly people, and racial minorities from clinical studies, and the tendency of medical research to follow market opportunity and the interests of the wealthy rather than medical need",
+          "The dominance of pharmaceutical companies in medical education",
+          "The Tuskegee study's impact on Black patients' willingness to participate in clinical trials"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'The diseases of the wealthy are studied and treated more than the diseases of the poor; pharmaceutical development follows market opportunity rather than need; clinical guidelines reflect the evidence produced by studies that have historically excluded women, elderly people, and racial minorities.'"
+      },
+      {
+        "text": "The passage's conclusion about the internet and patient rights movements suggests:",
+        "options": [
+          "These movements have successfully equalized patient power in medical encounters",
+          "Medical authority has been redistributed—patients have more access to information—but unequally: those with education and resources benefit most, while those without may face a more bewildering system",
+          "The physician's authority has been completely abolished by patient empowerment",
+          "Medical information on the internet is predominantly unreliable and harmful"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Medical authority has been redistributed but not abolished—and access to the resources needed to navigate it remains deeply unequal.' Those with resources can participate as 'genuine partners'; those without may face 'a more bewildering and less navigable system than before.'"
+      },
+      {
+        "text": "The Belmont Report's three principles—respect for persons, beneficence, and justice—represent a shift from Hippocratic paternalism in that they:",
+        "options": [
+          "Eliminated physician authority entirely in favor of patient autonomy",
+          "Rebuilt medical authority on a foundation of patient rights—respect for autonomy, obligation to benefit, and fair distribution—rather than solely physician expertise",
+          "Required that all medical decisions be made by ethics committees rather than physicians",
+          "Replaced individual patient care with population health priorities"
+        ],
+        "correct": 1,
+        "explanation": "The passage states the Belmont Report 'represented an attempt to rebuild medical authority on a foundation of patient rights rather than physician expertise,' in response to scandals that showed how authority based solely on expertise could be abused."
+      },
+      {
+        "text": "Based on the passage, which scenario would best illustrate the unequal redistribution of medical authority described in the final paragraph?",
+        "options": [
+          "A physician deciding to withhold a diagnosis from an elderly patient",
+          "An educated, health-literate patient using online resources to ask informed questions about treatment options, while a low-income patient with limited literacy signs consent forms they don't fully understand for the same procedure",
+          "A hospital implementing electronic health records to improve care coordination",
+          "A pharmaceutical company developing a drug for a rare disease affecting a wealthy demographic"
+        ],
+        "correct": 1,
+        "explanation": "The passage describes how the democratization of medical information benefits 'those with education and resources' who can 'participate as genuine partners,' while 'those without' face a 'more bewildering and less navigable system.' The scenario of differential engagement with the same procedure illustrates this unequal redistribution."
+      }
+    ]
+  },
+  {
+    "passageText": "The idea that cities are laboratories of democracy and civic innovation has a long history in American political thought, from Jefferson's mixed anxieties about urban life to Jane Addams's settlement house movement to contemporary smart city initiatives. The city concentrates people, problems, and resources in ways that force practical solutions and generate political experimentation that smaller and more homogeneous communities cannot sustain.\n\nThe sociologist Robert Park, writing in the early twentieth century, saw the city as a mosaic of 'moral regions'—territories in which different groups maintained different norms, values, and ways of life, all in proximity but largely separated by invisible boundaries. This diversity, for Park, was both a resource and a challenge: it generated new ideas and social forms, but it also required the constant negotiation of difference that civic life demands. The city's characteristic social type was not the rooted, tradition-bound peasant but the marginal man—the immigrant, the bohemian, the mixed-race individual—who lived between cultures and was freed, by their in-between position, from the tyranny of custom.\n\nLater urban theorists questioned whether the city's diversity actually generated meaningful contact across difference. The sociologist William Julius Wilson documented the concentrated poverty of the post-industrial inner city, where deindustrialization, white flight, and the departure of the Black middle class had left neighborhoods with no institutional base, no economic opportunity, and profound social isolation—precisely the opposite of the dynamic civic culture Park described. The city did not automatically generate civic virtue; it required economic and institutional conditions that were far from universal.\n\nThe gentrification controversy of recent decades has brought these tensions into sharp relief. As middle-class and affluent residents moved into previously working-class or poor neighborhoods, they brought investment but also displacement: rising rents pushed long-term residents out, changing neighborhood character and severing community ties. Critics argued that gentrification was not simply market-driven renewal but the managed colonization of urban space by more powerful groups at the expense of less powerful ones. Defenders argued that investment and mixed-income neighborhoods were preferable to concentrated poverty.\n\nThe smart city initiative—deploying sensors, data analytics, and automation to optimize urban services—represents the latest vision of the city as a solution to collective problems. Critics note that the data architectures of smart cities are owned by corporations rather than communities, that optimization can encode existing inequalities in algorithmic form, and that efficiency may come at the cost of the friction, inefficiency, and public space that make cities sites of democratic encounter rather than managed consumption.",
+    "questions": [
+      {
+        "text": "Robert Park's concept of the city as a mosaic of 'moral regions' referred to:",
+        "options": [
+          "Planned zoning of cities into industrial, residential, and commercial districts",
+          "The city as containing distinct territories with different norms and ways of life in proximity—generating diversity and social innovation while requiring constant negotiation of difference",
+          "The morally superior character of urban residents compared to rural dwellers",
+          "The geographic separation of racial groups enforced by housing policy"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Park saw the city as a mosaic of moral regions—territories in which different groups maintained different norms, values, and ways of life, all in proximity but largely separated by invisible boundaries.'"
+      },
+      {
+        "text": "Park's concept of the 'marginal man' referred to:",
+        "options": [
+          "The poorest urban resident unable to participate in civic life",
+          "The immigrant, bohemian, or mixed-race individual who lived between cultures and was freed from the tyranny of custom by their in-between position",
+          "The urban professional who mediated between business and government",
+          "A person with marginal civic participation who did not vote or engage in community organizations"
+        ],
+        "correct": 1,
+        "explanation": "The passage states the 'marginal man' was 'the immigrant, the bohemian, the mixed-race individual—who lived between cultures and was freed, by their in-between position, from the tyranny of custom.' This is a positive characterization of the creative potential of in-between cultural positions."
+      },
+      {
+        "text": "William Julius Wilson's research challenged Park's optimistic view of the city by showing that:",
+        "options": [
+          "Diversity always generates conflict rather than innovation",
+          "Post-industrial concentrated poverty—produced by deindustrialization, white flight, and the departure of the Black middle class—created neighborhoods with no institutional base, no economic opportunity, and profound social isolation rather than dynamic civic culture",
+          "Cities in the late twentieth century were more diverse than in Park's era",
+          "Smart city technologies could solve the problems of concentrated poverty"
+        ],
+        "correct": 1,
+        "explanation": "The passage states Wilson 'documented the concentrated poverty of the post-industrial inner city, where deindustrialization, white flight, and the departure of the Black middle class had left neighborhoods with no institutional base, no economic opportunity, and profound social isolation—precisely the opposite of the dynamic civic culture Park described.'"
+      },
+      {
+        "text": "The critics of gentrification described in the passage argue that it:",
+        "options": [
+          "Is always economically harmful to cities as a whole",
+          "Represents the managed colonization of urban space by more powerful groups at the expense of less powerful ones—bringing investment but also displacement of long-term residents",
+          "Causes concentrated poverty by destroying institutional infrastructure",
+          "Is purely a market phenomenon without political dimensions"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Critics argued that gentrification was not simply market-driven renewal but the managed colonization of urban space by more powerful groups at the expense of less powerful ones.'"
+      },
+      {
+        "text": "The 'smart city' critique described in the final paragraph concerns primarily:",
+        "options": [
+          "The high cost of sensor and data infrastructure",
+          "Corporate ownership of data architectures, algorithmic encoding of existing inequalities, and the replacement of democratic urban encounter with managed consumption and efficiency",
+          "The technical unreliability of current sensor technologies",
+          "The fact that smart cities consume too much electricity"
+        ],
+        "correct": 1,
+        "explanation": "The passage states critics note 'the data architectures of smart cities are owned by corporations rather than communities, that optimization can encode existing inequalities in algorithmic form, and that efficiency may come at the cost of the friction, inefficiency, and public space that make cities sites of democratic encounter rather than managed consumption.'"
+      },
+      {
+        "text": "Based on the passage as a whole, the author's view of urban diversity is most accurately characterized as:",
+        "options": [
+          "Purely celebratory: diversity is the engine of all civic innovation",
+          "Purely skeptical: cities inevitably deepen inequality and displacement",
+          "Conditional: cities can be laboratories of democracy and innovation under some conditions, but concentrated poverty, inequality, and corporate control of urban space can undermine this potential",
+          "Indifferent: cities are neither better nor worse than other forms of human settlement"
+        ],
+        "correct": 2,
+        "explanation": "The passage presents urban diversity positively (Park's moral regions, marginal man) but then qualifies this with Wilson's concentrated poverty critique, gentrification displacement, and smart city concerns. The author presents conditions under which the city's potential is and is not realized, suggesting a conditional rather than categorical view."
+      }
+    ]
+  }
+]

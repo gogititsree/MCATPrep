@@ -1,0 +1,408 @@
+[
+  {
+    "text": "At constant temperature, doubling the volume of an ideal gas (Boyle's Law) will:",
+    "options": [
+      "Double the pressure",
+      "Halve the pressure",
+      "Have no effect on pressure",
+      "Double the number of moles"
+    ],
+    "correct": 1,
+    "explanation": "Boyle's Law: P₁V₁ = P₂V₂ at constant T and n. Doubling V → halving P. Molecules occupy more space, collide with walls less frequently.",
+    "tags": [
+      "gas laws",
+      "Boyle's Law"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Dalton's Law of Partial Pressures states:",
+    "options": [
+      "Total pressure equals the product of partial pressures",
+      "Total pressure equals the sum of partial pressures of each component",
+      "Each gas expands independently",
+      "Gas pressure is inversely proportional to molecular mass"
+    ],
+    "correct": 1,
+    "explanation": "P(total) = P₁ + P₂ + P₃ + ... The partial pressure Pᵢ = χᵢ × P(total) (mole fraction × total P). Used in respiratory physiology for alveolar gas calculations.",
+    "tags": [
+      "gas laws",
+      "Dalton's Law"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A ball thrown horizontally from a cliff:",
+    "options": [
+      "Has increasing horizontal velocity and constant vertical velocity",
+      "Has constant horizontal velocity and increasing vertical velocity (due to g)",
+      "Has constant total speed throughout flight",
+      "Is unaffected by gravity until it hits the ground"
+    ],
+    "correct": 1,
+    "explanation": "Projectile motion: horizontal component — constant velocity (no horizontal force in vacuum); vertical — v_y increases as g = 9.8 m/s² acts downward. Time in air: t = √(2h/g). Horizontal range = v₀·t.",
+    "tags": [
+      "kinematics",
+      "projectile motion"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Newton's Second Law: ΣF = ma means:",
+    "options": [
+      "For every action there is equal and opposite reaction",
+      "Object at rest stays at rest without net force",
+      "Net force = mass × acceleration",
+      "Momentum is conserved in all collisions"
+    ],
+    "correct": 2,
+    "explanation": "Newton's 2nd Law: ΣF = ma. The vector sum of forces = mass × acceleration. It defines force, mass, and motion relationships used in friction, tension, centripetal, and gravity problems on the MCAT.",
+    "tags": [
+      "Newton's laws",
+      "forces"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A 60 kg person in an elevator accelerating upward at 2 m/s² (g = 10 m/s²): what does the scale read?",
+    "options": [
+      "480 N",
+      "600 N",
+      "720 N",
+      "60 N"
+    ],
+    "correct": 2,
+    "explanation": "N − mg = ma → N = m(g + a) = 60(10 + 2) = 720 N. Accelerating upward → apparent weight > true weight. Decelerating downward → apparent weight < true weight. Free fall → apparent weight = 0.",
+    "tags": [
+      "Newton's laws",
+      "forces"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Work done by constant force F at angle θ over displacement d:",
+    "options": [
+      "W = Fd",
+      "W = Fd sinθ",
+      "W = Fd cosθ",
+      "W = F/d cosθ"
+    ],
+    "correct": 2,
+    "explanation": "W = F·d·cosθ. Force parallel to displacement: W = Fd (max). Force perpendicular: W = 0 (centripetal force does no work). Work-energy theorem: Wnet = ΔKE.",
+    "tags": [
+      "work",
+      "energy"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Conservation of mechanical energy (no friction) states:",
+    "options": [
+      "KE is constant throughout motion",
+      "PE is constant",
+      "KE + PE = constant",
+      "Work by friction = change in KE"
+    ],
+    "correct": 2,
+    "explanation": "KE + PE = constant in absence of non-conservative forces. Energy converts between forms: PE → KE when falling. With friction: Wfriction = ΔKE + ΔPE (energy lost as heat). MCAT: ½mv² = mgh.",
+    "tags": [
+      "energy conservation",
+      "mechanics"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Bernoulli's equation (P + ½ρv² + ρgh = constant) expresses:",
+    "options": [
+      "How viscosity decreases with velocity",
+      "Inverse relationship between speed and pressure in a fluid",
+      "Conservation of energy per unit volume in ideal fluid flow",
+      "How Reynolds number changes with diameter"
+    ],
+    "correct": 2,
+    "explanation": "Bernoulli is conservation of energy per unit volume for ideal (incompressible, inviscid, laminar) fluid. Where fluid moves faster, pressure decreases. Explains lift (airfoil), venturi effect, atomizer.",
+    "tags": [
+      "fluid dynamics",
+      "Bernoulli"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The continuity equation A₁v₁ = A₂v₂ for fluid flow expresses:",
+    "options": [
+      "Conservation of energy",
+      "Conservation of mass for incompressible fluids",
+      "Pressure-height relationship in static fluid",
+      "Viscous drag force on a sphere"
+    ],
+    "correct": 1,
+    "explanation": "Flow rate Q = A₁v₁ = A₂v₂ = constant. Where cross-section decreases, velocity increases. Combined with Bernoulli: faster fluid has lower pressure.",
+    "tags": [
+      "fluid dynamics",
+      "continuity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Buoyant force on a submerged object equals:",
+    "options": [
+      "Weight of the object",
+      "Weight of fluid displaced (Archimedes' principle)",
+      "Density of object × g × its volume",
+      "Pressure at the bottom of the object only"
+    ],
+    "correct": 1,
+    "explanation": "Archimedes: F_b = ρ_fluid × V_submerged × g = weight of fluid displaced. Object floats when F_b = object weight; sinks when F_b < weight. A ship floats because it displaces water equal to its total weight.",
+    "tags": [
+      "fluid statics",
+      "Archimedes"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "For a simple pendulum (small angle), the period depends on:",
+    "options": [
+      "Mass of the bob",
+      "Amplitude of swing",
+      "Length and gravity (T = 2π√(L/g))",
+      "Density of surrounding medium"
+    ],
+    "correct": 2,
+    "explanation": "T = 2π√(L/g). Period is independent of mass and amplitude (for small angles). Longer pendulum → longer period. Stronger gravity → shorter period. On the Moon (g/6), T is √6 times longer.",
+    "tags": [
+      "oscillations",
+      "pendulum"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Sound waves are longitudinal because:",
+    "options": [
+      "They travel in vacuum",
+      "Particle displacement is perpendicular to wave propagation",
+      "Particle displacement is parallel to wave propagation",
+      "They are always transverse"
+    ],
+    "correct": 2,
+    "explanation": "In a longitudinal wave, particles oscillate parallel to wave propagation (compressions and rarefactions). Sound is a longitudinal pressure wave. Transverse waves (light, water waves) have particle motion perpendicular to propagation.",
+    "tags": [
+      "waves",
+      "sound"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "When a sound source moves toward a stationary observer (Doppler effect):",
+    "options": [
+      "Observed frequency is lower",
+      "Observed frequency is higher",
+      "Frequency is unchanged",
+      "Frequency is zero above the speed of sound"
+    ],
+    "correct": 1,
+    "explanation": "Source approaching: wave crests bunch → shorter wavelength → higher frequency observed. Source receding → longer wavelength → lower frequency. f_obs = f_s × (v ± v_obs)/(v ∓ v_s). Red shift: receding stars.",
+    "tags": [
+      "waves",
+      "Doppler effect"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The intensity of light from a point source and the inverse square law:",
+    "options": [
+      "Intensity doubles when distance doubles",
+      "Intensity ∝ 1/d (linear decrease)",
+      "I ∝ 1/d², so doubling distance reduces intensity by factor of 4",
+      "Intensity increases with distance"
+    ],
+    "correct": 2,
+    "explanation": "I = P/(4πd²). Double the distance → I decreases to 1/4. This applies to sound, gravity, electrostatic force. Intensity level in dB: β = 10 log(I/I₀).",
+    "tags": [
+      "waves",
+      "optics",
+      "intensity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Snell's Law (n₁ sinθ₁ = n₂ sinθ₂): when light moves from air (n=1) into glass (n=1.5):",
+    "options": [
+      "Light speeds up and bends away from normal",
+      "Light slows down and bends toward normal",
+      "Light speeds up and bends toward normal",
+      "Total internal reflection occurs"
+    ],
+    "correct": 1,
+    "explanation": "Going from lower to higher n: speed decreases (v = c/n), angle decreases (bends toward normal). Snell's law: n₁sinθ₁ = n₂sinθ₂. When n₂ < n₁, at critical angle θ_c = arcsin(n₂/n₁): total internal reflection.",
+    "tags": [
+      "optics",
+      "refraction",
+      "Snell's Law"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A converging (convex) lens forms a real image when:",
+    "options": [
+      "Object is between focal point and lens",
+      "Object is at the focal point",
+      "Object is farther from the lens than one focal length",
+      "Object is at infinity only"
+    ],
+    "correct": 2,
+    "explanation": "Thin lens equation: 1/f = 1/d_o + 1/d_i. Converging lens (f > 0): d_o > f → real, inverted image (d_i > 0). d_o < f → virtual, upright, magnified image. Real images can be projected on a screen.",
+    "tags": [
+      "optics",
+      "lenses"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Coulomb's Law: the electrostatic force between two point charges:",
+    "options": [
+      "F = kq₁q₂/r (inverse proportional to distance)",
+      "F = kq₁q₂/r² (inverse square law)",
+      "F = kq₁q₂r (directly proportional)",
+      "F = k(q₁+q₂)/r²"
+    ],
+    "correct": 1,
+    "explanation": "F = kq₁q₂/r² = q₁q₂/(4πε₀r²), k ≈ 9×10⁹ N·m²/C². Like charges repel; opposite attract. Same form as gravity but far stronger and can be repulsive.",
+    "tags": [
+      "electrostatics",
+      "Coulomb's Law"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In a series circuit with resistors R₁ and R₂:",
+    "options": [
+      "R_eq = R₁R₂/(R₁+R₂)",
+      "R_eq = R₁ + R₂",
+      "R_eq = 1/(1/R₁+1/R₂)",
+      "R_eq = (R₁+R₂)/2"
+    ],
+    "correct": 1,
+    "explanation": "Series: R_eq = R₁ + R₂ + ... (same current, voltages add). Parallel: 1/R_eq = 1/R₁ + 1/R₂ ... (same voltage, currents add; R_eq < smallest R).",
+    "tags": [
+      "circuits",
+      "resistors"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Ohm's Law: V = IR means:",
+    "options": [
+      "P = IV",
+      "Voltage = current × resistance",
+      "I = V/P",
+      "R = VI"
+    ],
+    "correct": 1,
+    "explanation": "V = IR (volts = amperes × ohms). Power: P = IV = I²R = V²/R. For ohmic (linear) materials, R is constant. Non-ohmic devices (diodes, transistors) have non-linear I-V relationships.",
+    "tags": [
+      "circuits",
+      "Ohm's Law"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Nuclear radiation penetrating power in order from least to greatest:",
+    "options": [
+      "Alpha > Beta > Gamma",
+      "Gamma > Beta > Alpha",
+      "Alpha < Beta < Gamma",
+      "Beta > Alpha > Gamma"
+    ],
+    "correct": 2,
+    "explanation": "Alpha particles (He²⁺ nucleus) stopped by paper/skin. Beta particles (electrons) stopped by few mm aluminum. Gamma rays (photons) require cm of lead or meters of concrete. Penetrating power: α < β < γ.",
+    "tags": [
+      "nuclear physics",
+      "radiation"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A 100g sample of ¹⁴C (t₁/₂ = 5730 years) after 11,460 years:",
+    "options": [
+      "50 g",
+      "25 g",
+      "12.5 g",
+      "0 g"
+    ],
+    "correct": 1,
+    "explanation": "11,460/5730 = 2 half-lives. After 1 t₁/₂: 50g. After 2 t₁/₂: 25g. Remaining = initial × (½)ⁿ where n = number of half-lives. Used in radiocarbon dating.",
+    "tags": [
+      "nuclear physics",
+      "radioactive decay"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Nuclear fission releases energy because:",
+    "options": [
+      "Products have greater total mass than reactants",
+      "Products have less total mass than reactants; mass difference converts to energy (E = mc²)",
+      "Energy input is required for fission",
+      "Fission only releases energy with a moderator"
+    ],
+    "correct": 1,
+    "explanation": "Mass defect Δm → E = Δmc². For ²³⁵U fission: enormous energy release. Binding energy per nucleon peaks at Fe-56. Both fission of heavy nuclei and fusion of light nuclei release energy by moving toward this peak.",
+    "tags": [
+      "nuclear physics",
+      "fission",
+      "E=mc2"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Infrared (IR) spectroscopy identifies functional groups by:",
+    "options": [
+      "Electronic transitions",
+      "Bond stretching/bending vibrations absorbing specific IR wavelengths",
+      "Nuclear spin transitions in a magnetic field",
+      "Mass-to-charge ratios"
+    ],
+    "correct": 1,
+    "explanation": "Key IR absorptions: O-H broad ~2500-3300 cm⁻¹ (COOH) or 3200-3550 (alcohol); N-H ~3300; C=O ~1700-1750; C≡N ~2200. Used to identify functional groups. NMR identifies carbon skeleton; mass spec gives molecular weight.",
+    "tags": [
+      "spectroscopy",
+      "organic chemistry",
+      "IR"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In ¹H NMR, a peak shifted downfield (higher δ) indicates:",
+    "options": [
+      "Protons in electron-dense environment (shielded)",
+      "Protons adjacent to electronegative groups or aromatic rings (deshielded)",
+      "Equivalent protons at the same position",
+      "Protons undergoing rapid exchange"
+    ],
+    "correct": 1,
+    "explanation": "Deshielded protons resonate at higher δ (downfield). Typical shifts: alkyl ~0-2 ppm, alkene ~5-6 ppm, aromatic ~7-8 ppm, aldehyde ~9-10 ppm, carboxylic acid ~10-12 ppm. Electronegative groups and aromatic rings reduce electron density around nearby H.",
+    "tags": [
+      "spectroscopy",
+      "NMR",
+      "organic chemistry"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Markovnikov's rule predicts that in HX addition to an unsymmetrical alkene:",
+    "options": [
+      "H adds to the more substituted carbon",
+      "H adds to carbon with more H atoms; X goes to more substituted carbon (more stable carbocation)",
+      "X adds to less substituted carbon",
+      "Addition is random"
+    ],
+    "correct": 1,
+    "explanation": "The proton adds to the carbon bearing more H atoms, forming the more stable (more substituted) carbocation intermediate. X⁻ then adds to that carbocation. Exception: HBr with peroxides (radical mechanism, anti-Markovnikov).",
+    "tags": [
+      "organic chemistry",
+      "Markovnikov",
+      "alkene reactions"
+    ],
+    "difficulty": "medium"
+  }
+]

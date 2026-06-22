@@ -1,0 +1,407 @@
+[
+  {
+    "text": "Fischer esterification forms an ester from:",
+    "options": [
+      "Carboxylic acid + alcohol, with acid catalyst (reversible)",
+      "Acyl chloride + alcohol (irreversible, fast)",
+      "Anhydride + water",
+      "Ester + amine (transesterification)"
+    ],
+    "correct": 0,
+    "explanation": "RCOOH + R'OH ⇌ RCOOR' + H₂O (acid-catalyzed, reversible). Drive equilibrium right: use excess alcohol or remove water. Acyl chloride + alcohol is faster and irreversible but requires more reactive starting material.",
+    "tags": [
+      "organic chemistry",
+      "esterification"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Aromaticity in benzene results from:",
+    "options": [
+      "Three alternating double bonds with localized π electrons",
+      "Delocalization of 6 π electrons; Hückel's rule: 4n+2 π electrons in a planar cyclic conjugated system",
+      "Ring strain stabilizing the planar structure",
+      "Strong C-C σ bond resonance"
+    ],
+    "correct": 1,
+    "explanation": "Hückel's rule: 4n+2 π electrons (n=0,1,2...) in a planar, fully conjugated ring → aromatic (very stable). Benzene: 6π electrons (n=1). Cyclooctatetraene: 8π (4n → antiaromatic). Aromatic compounds prefer EAS over addition.",
+    "tags": [
+      "organic chemistry",
+      "aromaticity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The photoelectric effect demonstrates that:",
+    "options": [
+      "Light intensity determines whether electrons are ejected",
+      "Light energy comes in discrete photons; ejection requires hf ≥ work function (φ)",
+      "Electrons are ejected from any metal regardless of light frequency",
+      "Electrons are emitted at frequencies below a threshold"
+    ],
+    "correct": 1,
+    "explanation": "E = hf. Electrons are ejected only if photon energy ≥ work function (hf ≥ φ). Increasing intensity increases number of ejected electrons but NOT their max KE (= hf − φ). Classical wave theory cannot explain this. Einstein won Nobel Prize for this work (1905).",
+    "tags": [
+      "modern physics",
+      "photoelectric effect"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Osmotic pressure of a dilute solution is given by:",
+    "options": [
+      "Π = MRT",
+      "Π = iMRT",
+      "Π = nRT/V",
+      "Both B and C are equivalent (iM = iN/V)"
+    ],
+    "correct": 3,
+    "explanation": "Π = iMRT = i(n/V)RT. For non-electrolytes (glucose): i=1. For NaCl: i≈2. Water moves from low to high Π (from dilute to concentrated side) across semipermeable membrane (osmosis).",
+    "tags": [
+      "solutions",
+      "osmotic pressure"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which is NOT a colligative property?",
+    "options": [
+      "Freezing point depression",
+      "Vapor pressure lowering",
+      "Boiling point elevation",
+      "The color of the solution"
+    ],
+    "correct": 3,
+    "explanation": "Colligative properties depend only on the number of dissolved particles, not their identity: vapor pressure lowering, boiling point elevation (ΔTb = Kb·m·i), freezing point depression, osmotic pressure. Color depends on the specific solute identity.",
+    "tags": [
+      "solutions",
+      "colligative properties"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Saponification is:",
+    "options": [
+      "Acid-catalyzed ester hydrolysis to alcohol + carboxylic acid",
+      "Base-catalyzed ester hydrolysis to alcohol + carboxylate salt (soap formation)",
+      "Dehydration of carboxylic acid to anhydride",
+      "Oxidation of primary alcohol to carboxylic acid"
+    ],
+    "correct": 1,
+    "explanation": "Saponification: ester + NaOH → alcohol + carboxylate salt (irreversible). Fat (triglyceride) + strong base → glycerol + fatty acid salts (soap). Unlike acid hydrolysis, base hydrolysis is irreversible because the carboxylate product cannot attack back.",
+    "tags": [
+      "organic chemistry",
+      "ester hydrolysis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Resonance structures in organic chemistry are:",
+    "options": [
+      "Real structures that interconvert rapidly",
+      "Different constitutional isomers of a molecule",
+      "Hypothetical Lewis structure contributors to a resonance hybrid; molecule is a weighted average",
+      "Excited-state structures of the molecule"
+    ],
+    "correct": 2,
+    "explanation": "Resonance structures share the same atom connectivity but differ in electron placement. The actual molecule (resonance hybrid) has intermediate bond lengths and charge distribution — electrons are delocalized. The more stable contributors have more bonds, more octets, negative charges on electronegative atoms.",
+    "tags": [
+      "organic chemistry",
+      "resonance"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The solubility product Ksp for AgCl: AgCl(s) ⇌ Ag⁺(aq) + Cl⁻(aq) equals:",
+    "options": [
+      "Ksp = [AgCl]",
+      "Ksp = [Ag⁺][Cl⁻]",
+      "Ksp = [Ag⁺]²[Cl⁻]",
+      "Ksp = [Ag⁺] + [Cl⁻]"
+    ],
+    "correct": 1,
+    "explanation": "Ksp = [Ag⁺][Cl⁻] (pure solid excluded). Q < Ksp: more dissolves; Q = Ksp: saturated; Q > Ksp: precipitates. Common ion effect: adding NaCl (Cl⁻) shifts equilibrium left, decreasing Ag⁺ solubility.",
+    "tags": [
+      "equilibrium",
+      "solubility",
+      "Ksp"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "An oxidation-reduction reaction is identified by:",
+    "options": [
+      "Formation of acids and bases",
+      "Change in oxidation state of at least one element",
+      "Formation of ions",
+      "Gas-phase reaction conditions"
+    ],
+    "correct": 1,
+    "explanation": "In redox, electrons are transferred: oxidizing agent is reduced (gains electrons, oxidation state decreases); reducing agent is oxidized (loses electrons, oxidation state increases). Combustion, rusting, and cellular respiration are all redox reactions.",
+    "tags": [
+      "redox",
+      "oxidation states"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Colligative properties depend on:",
+    "options": [
+      "The identity and size of solute particles",
+      "The number of dissolved particles (mol fraction/molality), not their identity",
+      "The polarity of solute relative to solvent",
+      "The molecular weight of solute only"
+    ],
+    "correct": 1,
+    "explanation": "Colligative properties (VP lowering, BP elevation, FP depression, osmotic pressure) depend only on particle count. van't Hoff factor i accounts for dissociation: NaCl (i≈2) has twice the effect of glucose (i=1) at equal molality.",
+    "tags": [
+      "solutions",
+      "colligative properties"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Entropy (S) is a measure of:",
+    "options": [
+      "Total energy content of a system",
+      "Degree of disorder or number of available microstates",
+      "Enthalpy change per unit temperature",
+      "Free energy available to do work"
+    ],
+    "correct": 1,
+    "explanation": "S = k·ln(W) (Boltzmann equation). Entropy increases with temperature, volume, mixing, phase transitions (solid→liquid→gas). The second law: ΔS(universe) > 0 for spontaneous processes.",
+    "tags": [
+      "thermodynamics",
+      "entropy"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Photoelectric effect: maximum kinetic energy of ejected electrons is:",
+    "options": [
+      "Proportional to light intensity",
+      "KE_max = hf − φ (depends on frequency, not intensity)",
+      "Independent of light frequency",
+      "Equal to the work function φ"
+    ],
+    "correct": 1,
+    "explanation": "KE_max = hf − φ. Increasing intensity increases the number of electrons but NOT their max KE. This showed light consists of photons with E = hf. Above threshold frequency: electrons are ejected; below threshold: no ejection regardless of intensity.",
+    "tags": [
+      "modern physics",
+      "photoelectric effect"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "At constant volume, for an ideal gas (Gay-Lussac's Law):",
+    "options": [
+      "P ∝ 1/T",
+      "P ∝ T (absolute temperature)",
+      "V ∝ T",
+      "PV = constant"
+    ],
+    "correct": 1,
+    "explanation": "Gay-Lussac's Law: P/T = constant at constant V and n. As T (Kelvin) increases, kinetic energy increases, pressure increases. P₁/T₁ = P₂/T₂. Always use absolute temperature (Kelvin).",
+    "tags": [
+      "gas laws",
+      "Gay-Lussac"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Centripetal acceleration for circular motion is directed:",
+    "options": [
+      "Tangentially (direction of velocity)",
+      "Outward (centrifugal)",
+      "Inward toward the center",
+      "Perpendicular to the circular plane"
+    ],
+    "correct": 2,
+    "explanation": "Centripetal acceleration a_c = v²/r = ω²r, directed toward the center. Centripetal force F_c = mv²/r is provided by: gravity (orbits), tension (pendulum), friction (car on curve), normal force (banked curve). 'Centrifugal force' is fictitious in the rotating reference frame.",
+    "tags": [
+      "circular motion",
+      "forces"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Conservation of angular momentum: a figure skater pulls arms inward and spins faster because:",
+    "options": [
+      "Moment of inertia increases, so angular velocity increases",
+      "Moment of inertia decreases (I ∝ mr²), so angular velocity ω increases (L = Iω = constant)",
+      "External torque causes the speed increase",
+      "Linear momentum increases"
+    ],
+    "correct": 1,
+    "explanation": "L = Iω = constant (no external torques). Pulling arms in reduces r, decreasing I. To conserve L: ω increases. Same principle explains why contracting stars rotate faster.",
+    "tags": [
+      "rotational motion",
+      "angular momentum"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Power in electrical circuits:",
+    "options": [
+      "P = IV = I²R = V²/R",
+      "P = IV only",
+      "P = I/V",
+      "P = V/R only"
+    ],
+    "correct": 0,
+    "explanation": "From Ohm's law (V = IR) and P = IV: P = IV = I(IR) = I²R = (V/R)V = V²/R. Units: watts (W) = J/s. All three forms are useful depending on which quantities are given.",
+    "tags": [
+      "circuits",
+      "power",
+      "physics"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The de Broglie wavelength of a particle is:",
+    "options": [
+      "λ = hf (Planck relationship for photons)",
+      "λ = h/mv = h/p (particle wavelength inversely proportional to momentum)",
+      "λ = E/hc",
+      "λ = mc²/h"
+    ],
+    "correct": 1,
+    "explanation": "de Broglie wavelength: λ = h/p = h/(mv). All particles with momentum p have an associated wavelength. This explains electron diffraction and is the basis of quantum mechanics. For macroscopic objects, λ is immeasurably small; for electrons, λ is comparable to atomic dimensions.",
+    "tags": [
+      "modern physics",
+      "quantum mechanics",
+      "de Broglie"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A capacitor's capacitance C is defined as:",
+    "options": [
+      "C = QV",
+      "C = Q/V",
+      "C = V/Q",
+      "C = ε₀ × A × d (wrong form)"
+    ],
+    "correct": 1,
+    "explanation": "C = Q/V (farads = coulombs/volt). Parallel plate: C = ε₀A/d. Dielectric increases C by factor κ: C = κε₀A/d. Energy stored: U = ½CV² = Q²/(2C). Capacitors in series: 1/C_eq = 1/C₁ + 1/C₂; in parallel: C_eq = C₁ + C₂.",
+    "tags": [
+      "electrostatics",
+      "capacitors"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Faraday's Law of electromagnetic induction:",
+    "options": [
+      "A moving charge in magnetic field feels F = qvB",
+      "Induced EMF = −dΦ/dt (rate of change of magnetic flux)",
+      "Magnetic field lines are always straight",
+      "Current produces a magnetic field"
+    ],
+    "correct": 1,
+    "explanation": "Faraday: ε = −dΦ/dt. EMF is induced when flux changes (changing B, area, or angle). Lenz's Law (negative sign): induced current opposes the change causing it (energy conservation). Basis of generators and transformers.",
+    "tags": [
+      "electromagnetism",
+      "Faraday's Law"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The wave speed relates frequency and wavelength by:",
+    "options": [
+      "f = λ/v",
+      "f = v/λ",
+      "v = f/λ",
+      "λ = v × f"
+    ],
+    "correct": 1,
+    "explanation": "v = fλ → f = v/λ. For electromagnetic waves in vacuum: c = fλ, f = c/λ. Higher frequency = shorter wavelength = higher energy (E = hf). EM spectrum: radio → microwave → IR → visible → UV → X-ray → gamma.",
+    "tags": [
+      "waves",
+      "physics"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Standing waves on a string fixed at both ends — fundamental frequency (first harmonic):",
+    "options": [
+      "L = λ (full wavelength)",
+      "L = λ/2 (half wavelength in fundamental mode)",
+      "L = 2λ",
+      "L = λ/4"
+    ],
+    "correct": 1,
+    "explanation": "Fixed at both ends: nodes at both ends. Fundamental: L = λ/2, so λ = 2L, f = v/(2L). For pipe open at both ends: same formula. For pipe closed at one end (node at closed, antinode at open): L = λ/4, f = v/(4L).",
+    "tags": [
+      "waves",
+      "standing waves"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The triple point of a substance in a phase diagram:",
+    "options": [
+      "Is the maximum temperature/pressure at which gas and liquid coexist",
+      "Is the unique T and P at which solid, liquid, and gas all coexist",
+      "Is the normal boiling point at 1 atm",
+      "Is the sublimation curve minimum"
+    ],
+    "correct": 1,
+    "explanation": "Triple point: unique T and P where all three phases coexist at equilibrium. For water: T = 273.16 K, P = 611.73 Pa. Above the critical point (T_c, P_c): supercritical fluid (no distinct liquid-gas boundary).",
+    "tags": [
+      "thermodynamics",
+      "phase diagrams"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The speed of sound in air is approximately 343 m/s at 20°C. The wavelength of a 440 Hz (A note) sound wave is:",
+    "options": [
+      "0.78 m",
+      "7.8 m",
+      "0.078 m",
+      "78 m"
+    ],
+    "correct": 0,
+    "explanation": "v = fλ → λ = v/f = 343/440 ≈ 0.78 m. Longer wavelengths = lower frequency (bass notes); shorter wavelengths = higher frequency (treble notes). The human ear hears 20 Hz to 20,000 Hz (λ = 17m down to 1.7 cm).",
+    "tags": [
+      "waves",
+      "sound",
+      "wavelength"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Gravitational potential energy near Earth's surface is:",
+    "options": [
+      "PE = −GMm/r",
+      "PE = mgh (where g = 9.8 m/s², h = height above reference)",
+      "PE = ½mv²",
+      "PE = Gm₁m₂"
+    ],
+    "correct": 1,
+    "explanation": "Near Earth's surface: PE = mgh (g is approximately constant). For large distances: PE = −GMm/r. At height h above reference point: PE increases by mgh as object rises. Total mechanical energy E = KE + PE = ½mv² + mgh = constant (no friction).",
+    "tags": [
+      "energy",
+      "gravity",
+      "mechanics"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Magnetic force on a moving charge (Lorentz force):",
+    "options": [
+      "F = qE (in electric field only)",
+      "F = qv × B (perpendicular to both v and B)",
+      "F = qvB (in same direction as v)",
+      "F = mv²/r (centripetal only)"
+    ],
+    "correct": 1,
+    "explanation": "Lorentz force: F = qv × B (cross product). Magnitude: F = qvB sinθ. Direction: perpendicular to both velocity and magnetic field (right-hand rule). The magnetic force does no work (always perpendicular to displacement). This causes circular motion of charges in magnetic fields.",
+    "tags": [
+      "electromagnetism",
+      "Lorentz force"
+    ],
+    "difficulty": "medium"
+  }
+]

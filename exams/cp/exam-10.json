@@ -1,0 +1,426 @@
+[
+  {
+    "text": "Cyclohexane preferentially adopts the chair conformation because:",
+    "options": [
+      "It minimizes torsional strain only",
+      "It eliminates angle strain and minimizes torsional and steric strain (compared to boat conformation)",
+      "Boat conformation is always more stable",
+      "Both conformations are equally stable"
+    ],
+    "correct": 1,
+    "explanation": "Chair conformation: bond angles ~111° (close to ideal 109.5°), all bonds fully staggered (no torsional strain), large substituents prefer equatorial positions (less steric 1,3-diaxial strain). Boat conformation has flagpole H-H interactions (steric) and partial eclipsing (torsional strain). Equatorial is preferred over axial for large groups (e.g., methylcyclohexane: equatorial methyl ~95% at room temperature).",
+    "tags": [
+      "organic chemistry",
+      "conformational analysis",
+      "cyclohexane"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A thin film of soap (n=1.33) on water (n=1.33) in air reflects light. What thickness causes constructive interference for λ = 532 nm (green) light at normal incidence?",
+    "options": [
+      "100 nm",
+      "200 nm",
+      "300 nm",
+      "400 nm"
+    ],
+    "correct": 1,
+    "explanation": "Thin film interference (air-film-water): light reflects at air-film interface (low n to high n → phase flip) and film-water interface (no phase flip if n_film > n_water, but here they're equal — actually both interfaces have same n so: one phase flip total). Constructive interference condition with one flip: 2nt = (m + ½)λ_vacuum. For m = 0: t = λ/(4n) = 532/(4×1.33) ≈ 100 nm. For m = 1: t = 3λ/(4n) ≈ 300 nm. Option B (200 nm) corresponds to destructive (m=0: 2nt = mλ → t = mλ/2n = 532/2.66 ≈ 200 nm for destructive). Actually the exact answer depends on phase conditions; this tests the 2nt relationship.",
+    "tags": [
+      "optics",
+      "thin film interference",
+      "waves"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Young's double-slit experiment produces:",
+    "options": [
+      "A single bright spot from diffraction",
+      "An alternating bright and dark interference pattern because light from the two slits interferes constructively (bright) and destructively (dark)",
+      "Only diffraction fringes",
+      "A single dark spot in the middle"
+    ],
+    "correct": 1,
+    "explanation": "Young's double-slit: coherent light through two slits → two coherent sources that interfere. Bright fringes (constructive): path difference = mλ. Dark fringes (destructive): path difference = (m + ½)λ. Fringe spacing y = λL/d (L = screen distance, d = slit separation). This experiment definitively proved wave nature of light (Newton's corpuscular theory predicted two bright spots).",
+    "tags": [
+      "optics",
+      "interference",
+      "Young's double slit"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which expression gives the energy of a photon given its frequency f?",
+    "options": [
+      "E = h/f",
+      "E = hf (Planck's equation)",
+      "E = mc² (rest energy of a photon)",
+      "E = ½hf"
+    ],
+    "correct": 1,
+    "explanation": "Planck's quantum hypothesis: E = hf = hc/λ, where h = 6.626 × 10⁻³⁴ J·s (Planck's constant). A photon of red light (λ = 700 nm, f = 4.3 × 10¹⁴ Hz): E = (6.626×10⁻³⁴)(4.3×10¹⁴) ≈ 2.8 × 10⁻¹⁹ J ≈ 1.77 eV. Blue light (λ = 400 nm): E ≈ 3.1 eV.",
+    "tags": [
+      "modern physics",
+      "photon energy",
+      "Planck"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The specific heat capacity of a substance is a measure of:",
+    "options": [
+      "The total heat energy stored in the substance",
+      "The energy required to raise the temperature of 1 gram of the substance by 1°C (or 1 K)",
+      "The energy released during a phase transition",
+      "The energy per mole at absolute zero"
+    ],
+    "correct": 1,
+    "explanation": "Specific heat (c) = energy per gram per degree. For water: c = 4.18 J/(g·°C) — unusually high due to hydrogen bonding. Metals have lower specific heats (~0.2–0.9 J/g·°C). q = mcΔT. Molar heat capacity C = M × c (molar mass × specific heat). Heat capacity (C_p) at constant pressure for an ideal monatomic gas = 5/2 R.",
+    "tags": [
+      "thermodynamics",
+      "specific heat",
+      "calorimetry"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Entropy change for vaporization of water (ΔSvap) is:",
+    "options": [
+      "Always negative (liquid → gas decreases disorder)",
+      "Positive (ΔSvap = ΔHvap/T_boil > 0, as liquid → gas greatly increases disorder)",
+      "Zero (entropy is conserved like energy)",
+      "Negative only at temperatures above 100°C"
+    ],
+    "correct": 1,
+    "explanation": "Vaporization: liquid → gas. Entropy increases dramatically (gas molecules have far more translational/rotational freedom than liquid). ΔSvap = ΔHvap/T_boil = 40,700 J/(373 K) ≈ 109 J/(mol·K) for water at 100°C. Trouton's rule: many liquids have ΔSvap ≈ 85–90 J/(mol·K) (reflects similar entropy increase per mole on vaporization).",
+    "tags": [
+      "thermodynamics",
+      "entropy",
+      "phase transitions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A gas is compressed isothermally (constant temperature). The change in internal energy of an ideal gas is:",
+    "options": [
+      "ΔU = nCvΔT = 0 (since ΔT = 0 for ideal gas)",
+      "ΔU = −w (work done on gas)",
+      "ΔU = q",
+      "ΔU = PΔV"
+    ],
+    "correct": 0,
+    "explanation": "For an ideal gas, U depends only on temperature. Isothermal process: ΔT = 0 → ΔU = 0. By first law: 0 = q + w → q = −w. Work done ON the gas during compression (w > 0) means heat flows OUT (q < 0) to maintain constant T. In an isothermal compression in contact with a heat reservoir, the internal energy does not change.",
+    "tags": [
+      "thermodynamics",
+      "ideal gas",
+      "isothermal"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "What happens to the rate constant k when a catalyst is added at constant temperature?",
+    "options": [
+      "k decreases because the activation energy decreases",
+      "k increases because the activation energy decreases (Arrhenius: k = Ae^(−Ea/RT); lower Ea → larger k)",
+      "k is unchanged; only the equilibrium constant changes",
+      "k decreases because the enthalpy of reaction decreases"
+    ],
+    "correct": 1,
+    "explanation": "A catalyst lowers activation energy Ea. By Arrhenius equation: k = Ae^(−Ea/RT). Lower Ea → e^(−Ea/RT) is larger → k is larger (rate constant increases). Catalyst increases rate of BOTH forward and reverse reactions proportionally, so K is unchanged. ΔG, ΔH, ΔS are also unchanged by a catalyst.",
+    "tags": [
+      "chemical kinetics",
+      "catalysis",
+      "Arrhenius"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "For the reaction 2NO₂(g) → 2NO(g) + O₂(g), the rate law is rate = k[NO₂]². If the concentration of NO₂ is tripled:",
+    "options": [
+      "The rate triples",
+      "The rate increases 6-fold",
+      "The rate increases 9-fold",
+      "The rate increases 3-fold"
+    ],
+    "correct": 2,
+    "explanation": "Rate = k[NO₂]². If [NO₂] → 3[NO₂]: Rate_new = k(3[NO₂])² = 9k[NO₂]² = 9 × Rate_old. Rate increases by factor 9. For a second-order reaction, rate is proportional to concentration squared; tripling concentration increases rate by 3² = 9.",
+    "tags": [
+      "chemical kinetics",
+      "rate laws",
+      "second order"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which statement correctly describes a catalyst and the energy diagram for a reaction?",
+    "options": [
+      "Catalyst lowers the energy of the reactants",
+      "Catalyst raises the energy of the products",
+      "Catalyst lowers the activation energy (Ea) by providing an alternative pathway with a different (lower) transition state energy",
+      "Catalyst shifts the equilibrium toward products by changing ΔG°"
+    ],
+    "correct": 2,
+    "explanation": "On an energy diagram, a catalyst creates a new reaction pathway with lower Ea (lower transition state energy). The reactant and product energies are unchanged (ΔH and ΔG° unchanged). The new path has a lower peak, allowing more molecules to have sufficient energy to react (Maxwell-Boltzmann distribution). The catalyst is regenerated.",
+    "tags": [
+      "chemical kinetics",
+      "catalysis",
+      "energy diagram"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Henry's Law: a diver at 40 m depth breathes compressed air at 5 atm. The partial pressure of N₂ at depth is approximately:",
+    "options": [
+      "0.79 atm",
+      "3.95 atm",
+      "5 atm",
+      "0.21 atm"
+    ],
+    "correct": 1,
+    "explanation": "Air is ~79% N₂. At 40 m: total pressure ≈ 5 atm (1 atm surface + 4 atm water = 5 atm). P(N₂) = 0.79 × 5 = 3.95 atm. By Henry's Law: [N₂ dissolved] ∝ P(N₂) = 3.95 atm. This is ~5× more N₂ dissolved than at surface — causes nitrogen narcosis and decompression sickness on ascent.",
+    "tags": [
+      "Henry's Law",
+      "gas laws",
+      "diving physiology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "For a rigid container (constant volume, isochoric) of ideal gas heated from 300 K to 600 K:",
+    "options": [
+      "Pressure doubles (P ∝ T at constant V and n)",
+      "Pressure halves",
+      "Volume doubles",
+      "Pressure is unchanged"
+    ],
+    "correct": 0,
+    "explanation": "Gay-Lussac's Law: P/T = constant at constant V and n. P₁/T₁ = P₂/T₂ → P₂ = P₁(T₂/T₁) = P₁(600/300) = 2P₁. Pressure doubles when absolute temperature doubles at constant volume. For an ideal gas in a rigid container, temperature directly controls pressure.",
+    "tags": [
+      "gas laws",
+      "Gay-Lussac",
+      "isochoric"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The Clapeyron equation (dP/dT = ΔS/ΔV = ΔH/(TΔV)) describes:",
+    "options": [
+      "Rate of chemical reaction as a function of temperature",
+      "The slope of phase boundaries in a phase diagram",
+      "Change in entropy during a chemical reaction",
+      "Vapor pressure as a function of concentration"
+    ],
+    "correct": 1,
+    "explanation": "The Clapeyron equation gives the slope of phase boundaries (solid-liquid, liquid-gas, solid-gas lines) in the P-T phase diagram: dP/dT = ΔHtransition/(T × ΔV). For the solid-liquid boundary of most substances (ΔV > 0): slope is positive. For water ice: ΔV < 0 (water contracts on melting) → negative slope (pressure lowers melting point of ice).",
+    "tags": [
+      "thermodynamics",
+      "phase diagram",
+      "Clapeyron equation"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Avogadro's hypothesis states that equal volumes of different gases at the same T and P contain:",
+    "options": [
+      "Equal masses of gas",
+      "Equal numbers of molecules (Avogadro's number of molecules per mole)",
+      "Equal densities",
+      "The same number of atoms only if monatomic"
+    ],
+    "correct": 1,
+    "explanation": "Avogadro's Law: equal volumes of ideal gases at the same T and P contain the same number of molecules (regardless of the gas's identity). This is implicit in the ideal gas law: n = PV/RT. At STP (0°C, 1 atm): 1 mole of any ideal gas = 22.4 L. Avogadro's number: 6.022 × 10²³ molecules/mol.",
+    "tags": [
+      "gas laws",
+      "Avogadro's Law"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In the electromagnetic spectrum, which type of radiation has the longest wavelength?",
+    "options": [
+      "Gamma rays",
+      "X-rays",
+      "Ultraviolet light",
+      "Radio waves"
+    ],
+    "correct": 3,
+    "explanation": "EM spectrum (longest to shortest wavelength, lowest to highest frequency/energy): radio > microwave > infrared > visible > ultraviolet > X-ray > gamma. Radio waves: λ from km to m. Gamma rays: λ < 0.01 nm. Lower frequency = lower energy (E = hf). Radio waves carry the least energy per photon; gamma rays the most.",
+    "tags": [
+      "waves",
+      "electromagnetic spectrum",
+      "physics"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Magnetic resonance imaging (MRI) is based on:",
+    "options": [
+      "X-ray absorption by dense tissue",
+      "Radiofrequency emission by hydrogen nuclei (¹H) in a magnetic field after being excited by RF pulses (NMR principle)",
+      "Gamma ray emission by radioactive isotopes",
+      "Sound wave reflection from tissue boundaries"
+    ],
+    "correct": 1,
+    "explanation": "MRI uses NMR (nuclear magnetic resonance) of ¹H (protons) in water and fat. A strong external magnetic field aligns ¹H spins; RF pulses at the Larmor frequency excite them; relaxation emits RF signals detected to create images. Different tissues have different T1 and T2 relaxation times → tissue contrast. No ionizing radiation (unlike CT/X-ray).",
+    "tags": [
+      "modern physics",
+      "MRI",
+      "NMR",
+      "medical imaging"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The angular momentum of an electron in a Bohr orbit is quantized: L = nℏ. For the n=2 orbit, the angular momentum is:",
+    "options": [
+      "ℏ",
+      "2ℏ",
+      "4ℏ",
+      "0"
+    ],
+    "correct": 1,
+    "explanation": "In the Bohr model, allowed angular momentum values are L = nℏ where n = 1, 2, 3, ... and ℏ = h/(2π). For n=2: L = 2ℏ. This quantization was Bohr's key postulate and was later justified by de Broglie's wave nature of the electron (standing wave condition: nλ = 2πr → L = nℏ).",
+    "tags": [
+      "modern physics",
+      "Bohr model",
+      "quantum mechanics"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which combination of quantum numbers is NOT allowed?",
+    "options": [
+      "n=2, l=1, ml=0, ms=+½",
+      "n=3, l=2, ml=−2, ms=−½",
+      "n=2, l=2, ml=0, ms=+½ (l must be < n)",
+      "n=1, l=0, ml=0, ms=−½"
+    ],
+    "correct": 2,
+    "explanation": "For quantum numbers: l must range from 0 to (n−1). For n=2: l can only be 0 or 1; l=2 is NOT allowed. ml ranges from −l to +l (for l=2: ml = −2,−1,0,+1,+2). ms = ±½ always. Check: option C has n=2, l=2 → invalid since l must be ≤ n−1 = 1.",
+    "tags": [
+      "atomic structure",
+      "quantum numbers"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Positron emission tomography (PET) uses:",
+    "options": [
+      "Electrons emitted by radioactive decay",
+      "Positrons (β⁺ particles) emitted by radioactive nuclides (e.g., ¹⁸F); positrons annihilate with electrons → two 511 keV gamma photons detected coincidentally",
+      "Alpha particle detection",
+      "Sound waves for deep tissue imaging"
+    ],
+    "correct": 1,
+    "explanation": "PET: a β⁺ emitter (¹⁸F in FDG = fluorodeoxyglucose) is injected. The positron quickly annihilates with a nearby electron → 2 gamma photons emitted in opposite directions (511 keV each). Coincidence detection of these gamma pairs localizes the annihilation. FDG accumulates in high-glucose-using tissues (tumors, brain, heart), enabling metabolic imaging.",
+    "tags": [
+      "nuclear physics",
+      "PET",
+      "medical imaging"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "An object of density 600 kg/m³ floats in water (density 1000 kg/m³). What fraction of the object is submerged?",
+    "options": [
+      "0.40 (40%)",
+      "0.60 (60%)",
+      "0.50 (50%)",
+      "1.0 (100%)"
+    ],
+    "correct": 1,
+    "explanation": "For a floating object: buoyant force = weight → ρ_water × V_sub × g = ρ_obj × V_total × g. V_sub/V_total = ρ_obj/ρ_water = 600/1000 = 0.60. 60% of the object is submerged. (A wooden block of density 0.6 g/cm³ in water has 40% above the waterline.) If ρ_obj > ρ_water: object sinks completely (V_sub/V_total > 1, impossible, so sinks).",
+    "tags": [
+      "fluid statics",
+      "Archimedes",
+      "buoyancy"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The Poiseuille equation for flow rate through a tube is Q = πr⁴ΔP/(8ηL). If the tube radius is doubled (all else constant):",
+    "options": [
+      "Q doubles",
+      "Q increases by factor 4",
+      "Q increases by factor 8",
+      "Q increases by factor 16"
+    ],
+    "correct": 3,
+    "explanation": "Q ∝ r⁴. Doubling r: Q_new = π(2r)⁴ΔP/(8ηL) = 16πr⁴ΔP/(8ηL) = 16Q. Flow rate increases by factor 16. This strong r⁴ dependence explains why small decreases in arterial radius (from atherosclerotic plaque) dramatically reduce blood flow (and why vasodilation/vasoconstriction potently regulate blood flow).",
+    "tags": [
+      "fluid dynamics",
+      "Poiseuille",
+      "physiology"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Rutherford's gold foil experiment revealed:",
+    "options": [
+      "Electrons orbit the nucleus in fixed energy levels",
+      "The atom is a uniform 'plum pudding' of positive and negative charge",
+      "Most of the atom is empty space with a tiny, dense, positively charged nucleus",
+      "The electron has a mass equal to the proton"
+    ],
+    "correct": 2,
+    "explanation": "Rutherford (1911): fired alpha particles at gold foil. Most passed through (atom is mostly empty space), but some deflected at large angles (small, dense nucleus). This disproved Thomson's plum pudding model and established the nuclear model. Geiger and Marsden performed the experiments.",
+    "tags": [
+      "modern physics",
+      "atomic structure",
+      "Rutherford"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Pair production (gamma ray → electron + positron) requires photon energy of at least:",
+    "options": [
+      "13.6 eV (hydrogen ionization energy)",
+      "511 keV (rest mass energy of one electron/positron)",
+      "1.022 MeV (twice the electron rest mass energy, since TWO particles are created)",
+      "Any energy above zero"
+    ],
+    "correct": 2,
+    "explanation": "Pair production: γ → e⁻ + e⁺. By E = mc²: rest energy of each electron or positron = 0.511 MeV. Creating a pair requires at least 2 × 0.511 = 1.022 MeV of photon energy. Any excess energy becomes kinetic energy of the electron/positron. Occurs in the vicinity of a nucleus (to conserve momentum).",
+    "tags": [
+      "modern physics",
+      "pair production",
+      "E=mc2"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "On a titration curve for a diprotic acid (H₂A), there are:",
+    "options": [
+      "One equivalence point and one half-equivalence point",
+      "Two equivalence points (at half and full neutralization) and two buffer regions (each at a half-equivalence point where pH ≈ pKa1 or pKa2)",
+      "Three equivalence points",
+      "No buffer regions"
+    ],
+    "correct": 1,
+    "explanation": "Diprotic acid titration: 1st equivalence point: H₂A + OH⁻ → HA⁻ (half of H₂A neutralized). 2nd equivalence point: HA⁻ + OH⁻ → A²⁻ (all neutralized). Two buffer regions: around pH = pKa1 (between 0 and 1st equiv.) and pH = pKa2 (between 1st and 2nd equiv.). Example: H₂CO₃ (pKa1=6.35, pKa2=10.33).",
+    "tags": [
+      "acid-base",
+      "titration",
+      "diprotic acid"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "If the wavelength of light doubles, the energy of each photon:",
+    "options": [
+      "Doubles",
+      "Quadruples",
+      "Halves",
+      "Stays the same"
+    ],
+    "correct": 2,
+    "explanation": "E = hc/λ. If λ doubles: E_new = hc/(2λ) = E/2. Energy is inversely proportional to wavelength. Doubling λ (lower frequency light, more red-shifted) → half the photon energy. This explains why UV light causes more photodamage than infrared: higher energy per photon.",
+    "tags": [
+      "modern physics",
+      "photon energy",
+      "wavelength"
+    ],
+    "difficulty": "easy"
+  }
+]

@@ -1,0 +1,427 @@
+[
+  {
+    "text": "Which psychological perspective emphasizes examining how evolutionary history shapes current mental processes and behaviors?",
+    "options": [
+      "Psychodynamic perspective",
+      "Evolutionary psychology perspective: behavior is influenced by genetic inheritance from ancestors because adaptive behaviors increased reproductive fitness",
+      "Humanistic perspective",
+      "Structuralist perspective"
+    ],
+    "correct": 1,
+    "explanation": "Evolutionary psychology: applies Darwinian natural selection to psychological traits. Behaviors that increased survival and reproduction would be selected for. E.g., fear of snakes (ancestral predator), preferences for sweet/fatty foods (scarce ancestral environment), cheater detection mechanisms (social exchange). Limitations: difficult to test evolutionary hypotheses, risk of 'just-so stories,' sociobiology critiques.",
+    "tags": [
+      "psychology",
+      "evolutionary psychology",
+      "perspectives"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The biomedical model of mental illness focuses on:",
+    "options": [
+      "Social and environmental factors causing mental illness",
+      "Mental illness as a disease of the brain — caused by neurochemical imbalances, genetic factors, and brain structure abnormalities",
+      "Unconscious conflicts",
+      "Learning and conditioning"
+    ],
+    "correct": 1,
+    "explanation": "Biomedical model: mental disorders have biological causes — neurotransmitter imbalances (dopamine in schizophrenia, serotonin in depression), genetic vulnerabilities, structural brain abnormalities. Treatment: pharmacotherapy. Criticism: reductionistic, ignores psychosocial factors, overemphasizes medication. Biopsychosocial model (Engel, 1977): integrates biological, psychological (cognition, emotion), and social factors — more comprehensive and currently dominant in psychiatry.",
+    "tags": [
+      "psychology",
+      "biomedical model",
+      "mental illness"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Sensory adaptation refers to:",
+    "options": [
+      "The increase in sensitivity to a repeated stimulus",
+      "The decrease in response to a constant stimulus over time (receptors stop firing as frequently when stimulation is unchanging, e.g., not noticing a constant smell after a few minutes)",
+      "Learning to prefer one sensory modality over another",
+      "The brain's ability to process multiple sensory inputs simultaneously"
+    ],
+    "correct": 1,
+    "explanation": "Sensory adaptation: diminished sensitivity to an unchanging stimulus. Examples: you stop noticing background noise in a room; you adapt to the temperature of a pool once immersed; habituating to your own perfume. Survival value: allows attention to NEW stimuli (changes in the environment). Weber's Law: just noticeable difference (JND) is a constant proportion of the stimulus magnitude (ΔI/I = k).",
+    "tags": [
+      "sensation",
+      "sensory adaptation",
+      "psychophysics"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Gate control theory of pain (Melzack and Wall) proposes that:",
+    "options": [
+      "Pain signals travel unimpeded from periphery to brain",
+      "Pain perception is modulated in the spinal cord — non-pain stimuli (touch, pressure) can 'close the gate' and reduce pain transmission; the brain can also modulate pain signals downward",
+      "Pain is entirely psychological",
+      "Pain is proportional to tissue damage"
+    ],
+    "correct": 1,
+    "explanation": "Gate control theory (1965): substantia gelatinosa of the dorsal horn of spinal cord acts as a 'gate.' Large-diameter A-β fibers (touch) activate inhibitory interneurons → close gate for small-diameter C fibers (pain) → reduces pain. Explains: rubbing a wound hurts less; distraction reduces pain. Descending control from brain (opioid system, mood, attention) also modulates pain. Basis for transcutaneous electrical nerve stimulation (TENS) for pain management.",
+    "tags": [
+      "sensation",
+      "pain",
+      "gate control theory"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Signal detection theory (SDT) proposes that detecting stimuli involves:",
+    "options": [
+      "A fixed sensory threshold that is the same for all people and all conditions",
+      "Two components: sensitivity (d', ability to detect signal from noise) and response bias/criterion (β, willingness to say 'yes') — threshold varies with context and motivations",
+      "Only the physical intensity of stimuli",
+      "Only the observer's motivation, not sensory sensitivity"
+    ],
+    "correct": 1,
+    "explanation": "SDT: stimulus detection is not all-or-nothing. It depends on (1) sensitivity (d'): how well a person can distinguish signal from noise; (2) criterion (β): how much evidence is needed before responding 'yes.' Outcomes: hit (signal present, say yes), miss (signal present, say no), false alarm (signal absent, say yes), correct rejection (signal absent, say no). Motivated by medical diagnosis, radar operation, eyewitness identification contexts. Replaces classical threshold theory.",
+    "tags": [
+      "sensation",
+      "signal detection theory",
+      "psychophysics"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In vision, the fovea is specialized for:",
+    "options": [
+      "Peripheral vision and low-light conditions",
+      "High-acuity color vision in the center of the visual field — densely packed with cones (no rods), responsible for fine detail detection",
+      "Night vision due to high rod density",
+      "Motion detection"
+    ],
+    "correct": 1,
+    "explanation": "Fovea (fovea centralis): pit in the center of the retina. Contains only cones (~6 million), maximally packed (~150,000/mm²). Produces sharpest, most color-accurate central vision. Surrounded by rods (~120 million): sensitive to low light, motion, and peripheral vision; not in fovea; peak sensitivity ~20° from fovea. Nocturnal animals have more rods. Scotopic (low light) vision = rod-mediated; photopic (bright light) vision = cone-mediated.",
+    "tags": [
+      "sensation",
+      "vision",
+      "retina"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Monocular depth cues include all EXCEPT:",
+    "options": [
+      "Linear perspective (parallel lines converge in the distance)",
+      "Relative size (closer objects appear larger)",
+      "Interposition (closer objects partially block farther objects)",
+      "Retinal disparity (each eye gets a slightly different image due to separation — this is a BINOCULAR cue)"
+    ],
+    "correct": 3,
+    "explanation": "Monocular cues (one eye needed): linear perspective, relative size, interposition/occlusion, texture gradient (finer = farther), atmospheric perspective (hazy = farther), motion parallax (nearby objects move faster in opposite direction as you move), shading. Binocular cues (both eyes): retinal disparity (basis of stereopsis), convergence (muscle feedback from eye rotation inward for close objects). Depth perception in flat art uses monocular cues.",
+    "tags": [
+      "perception",
+      "depth perception",
+      "visual cues"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Gestalt principle of similarity states that:",
+    "options": [
+      "Objects close together are perceived as a group (proximity)",
+      "Objects that look similar to each other are grouped together perceptually",
+      "The mind prefers to see complete figures even when parts are missing (closure)",
+      "Figures are perceived against a background (figure-ground)"
+    ],
+    "correct": 1,
+    "explanation": "Gestalt principles of perceptual organization: Similarity — similar elements grouped together; Proximity — nearby elements grouped; Closure — gaps filled in to create complete figure; Continuity — smooth, continuous patterns preferred over abrupt changes; Figure-ground — perception of objects (figure) against background; Common fate — elements moving together are grouped. These show that perception is not just summation of sensations but organized wholes.",
+    "tags": [
+      "perception",
+      "Gestalt psychology",
+      "perceptual organization"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The Weber-Fechner Law states that:",
+    "options": [
+      "The minimum detectable stimulus (absolute threshold) is constant for all individuals",
+      "The perceived magnitude of a sensation grows as the logarithm of the stimulus intensity (equal ratios of stimulus produce equal intervals of sensation)",
+      "The just noticeable difference (JND) decreases as baseline intensity increases",
+      "Sensory adaptation is immediate and complete"
+    ],
+    "correct": 1,
+    "explanation": "Weber's Law: JND = k × I (JND is a constant fraction of baseline stimulus intensity k). Fechner extended this: subjective sensation magnitude S = k × log(I). E.g., to notice a change in loudness, you need to add ~10% more sound regardless of starting level. Stevens' Power Law (more accurate): S = k × I^n (some modalities grow faster or slower than log function). These describe why decibel and Richter scales are logarithmic.",
+    "tags": [
+      "sensation",
+      "psychophysics",
+      "Weber-Fechner"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The James-Lange theory of emotion proposes:",
+    "options": [
+      "We first experience an emotion, then our body physiologically responds",
+      "We perceive a stimulus → physiological change occurs FIRST → we experience the emotion as a consequence of interpreting those physical changes ('I see the bear, I run, I feel fear because I'm running')",
+      "Cognitive appraisal determines emotions, not physiology",
+      "Emotions are universal and biologically hardwired with no cognitive interpretation needed"
+    ],
+    "correct": 1,
+    "explanation": "James-Lange theory: stimulus → physiological arousal → emotion is the perception of that arousal. Cannon-Bard theory: stimulus → simultaneous arousal AND emotion (challenges James-Lange: visceral responses are too slow and non-specific for all emotions). Schachter-Singer (two-factor) theory: stimulus → physiological arousal → cognitive label for the arousal (based on context) → emotion. Most influential for MCAT: appraisal theories and Schachter-Singer.",
+    "tags": [
+      "emotion",
+      "James-Lange theory",
+      "theories of emotion"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Schachter-Singer two-factor theory of emotion emphasizes:",
+    "options": [
+      "Emotion equals physiological arousal alone",
+      "Emotion results from two factors: physiological arousal AND cognitive appraisal/labeling of that arousal (the same arousal can produce different emotions based on situational context)",
+      "Emotions are purely cognitive with no physiological component",
+      "Physiological states are emotion-specific (each emotion has a unique bodily state)"
+    ],
+    "correct": 1,
+    "explanation": "Schachter-Singer (1962): participants injected with epinephrine (arousal) placed with euphoric or angry confederate. Uninformed group felt the confederate's emotion — same arousal, different label based on social context. Cognitive label + arousal = emotion. Misattribution of arousal: people can be aroused by one thing and attribute it to another (Dutton & Aron bridge study: men on shaky bridge rated interviewer as more attractive).",
+    "tags": [
+      "emotion",
+      "Schachter-Singer",
+      "two-factor theory"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following correctly distinguishes primary from secondary appraisal (Lazarus)?",
+    "options": [
+      "Primary = evaluating how to cope; secondary = evaluating initial harm",
+      "Primary appraisal: evaluating whether the situation is threatening, harmful, or challenging; secondary appraisal: evaluating one's resources and ability to cope with the stressor",
+      "Primary = biological; secondary = psychological",
+      "Primary involves emotions; secondary does not"
+    ],
+    "correct": 1,
+    "explanation": "Lazarus's transactional model of stress: (1) Primary appraisal: is this relevant to my well-being? Is it threatening/harmful/challenging/benign? (2) Secondary appraisal: what can I do? Do I have resources to cope? Coping strategies: problem-focused (changing the stressor) vs. emotion-focused (managing emotional response). Cognitive appraisal determines stress experience — same event can be stressful or not depending on individual's appraisal.",
+    "tags": [
+      "stress",
+      "cognitive appraisal",
+      "Lazarus"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The general adaptation syndrome (GAS) model (Selye) describes the body's response to prolonged stress in three stages:",
+    "options": [
+      "Fear → fight/flight → recovery",
+      "Alarm reaction → resistance → exhaustion (chronic stress depletes resources and leads to vulnerability to disease)",
+      "Stress → coping → adaptation",
+      "Threat → anxiety → avoidance"
+    ],
+    "correct": 1,
+    "explanation": "Selye's GAS: (1) Alarm reaction: HPA axis and sympathetic NS activated (cortisol, adrenaline surge, fight-or-flight); (2) Resistance: body maintains heightened arousal and adapts to sustained stressor; (3) Exhaustion: sustained stress depletes adaptive resources → vulnerability to illness, burnout, and death. Chronic stress → elevated cortisol → immunosuppression, hippocampal damage, cardiovascular disease, metabolic disorders.",
+    "tags": [
+      "stress",
+      "general adaptation syndrome",
+      "Selye"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Psychoneuroimmunology studies the:",
+    "options": [
+      "Effect of vitamins on nerve transmission",
+      "Bidirectional relationship between psychological states (stress, mood), the nervous system, and immune function",
+      "The use of psychotropic drugs to modulate immune responses",
+      "Genetic basis of personality traits"
+    ],
+    "correct": 1,
+    "explanation": "Psychoneuroimmunology (PNI): psychological factors (stress, depression, social support) affect immune function via neuroendocrine pathways. Mechanisms: cortisol (from HPA axis) suppresses immune function; sympathetic NS innervates lymphoid tissue; cytokines have receptors in brain (cytokine-induced 'sickness behavior': fatigue, withdrawal, fever, which overlap with depression symptoms). Evidence: stressed students have reduced vaccine response, slower wound healing, higher infection rates.",
+    "tags": [
+      "stress",
+      "psychoneuroimmunology",
+      "health psychology"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Social facilitation vs. social loafing — which is correct?",
+    "options": [
+      "Both occur in groups and produce the same effect",
+      "Social facilitation: improved performance on well-learned tasks in the presence of others; social loafing: decreased individual effort in group tasks when individual contribution is not identifiable",
+      "Social facilitation occurs only in competitive settings; social loafing only in cooperative settings",
+      "Both result in improved group performance"
+    ],
+    "correct": 1,
+    "explanation": "Social facilitation (Zajonc): others' presence → arousal → enhances dominant response (better at easy tasks, worse at hard ones). Social loafing (Latané): in groups, individual effort decreases when individual outputs are merged (collective tasks). Reduction strategies: make individual contributions identifiable, increase group cohesion, increase task importance, decrease group size. Cultural note: social loafing less common in collectivist cultures.",
+    "tags": [
+      "social psychology",
+      "social facilitation",
+      "social loafing"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Altruism and prosocial behavior are influenced by:",
+    "options": [
+      "Only genetic factors (kin selection)",
+      "Multiple factors: kin selection (helping genetic relatives), reciprocal altruism (future benefit), empathy, social norms, and situational factors (bystander effect, helping when others are not present)",
+      "Only by social norms and peer pressure",
+      "Solely by mood — happy people always help, sad people never do"
+    ],
+    "correct": 1,
+    "explanation": "Prosocial behavior is promoted by: empathy (perspective-taking), good mood, similarity to person in need, perceiving need as real/legitimate, small group/individual presence (not bystander effect), low cost. Evolutionary explanations: kin selection (Hamilton's inclusive fitness — helping relatives helps pass on your genes) and reciprocal altruism (Trivers — help strangers expecting future help in return). Empathy-altruism hypothesis (Batson): true altruistic motivation exists when perspective-taking induces empathy.",
+    "tags": [
+      "social psychology",
+      "altruism",
+      "prosocial behavior"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Stereotype threat (Steele & Aronson) is:",
+    "options": [
+      "The positive effect of positive stereotypes on performance",
+      "The risk of confirming a negative stereotype about one's group as a self-characteristic — anxiety from this threat can impair performance (e.g., women told 'women are worse at math' perform worse on math tests)",
+      "The tendency to stereotype others when threatened",
+      "The same as the Pygmalion effect"
+    ],
+    "correct": 1,
+    "explanation": "Stereotype threat: when aware of a negative group stereotype, members of that group experience anxiety about confirming the stereotype → impairs working memory, increases self-monitoring → worse performance. Evidence: Black college students underperformed on verbal tasks when race was made salient. Interventions: reframing tasks, values affirmation, emphasizing growth mindset, positive role models from one's group.",
+    "tags": [
+      "social psychology",
+      "stereotype threat",
+      "prejudice"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Attribution theory distinguishes between:",
+    "options": [
+      "Internal (dispositional) attributions — behavior is caused by personal traits/ability/effort — and external (situational) attributions — behavior is caused by circumstances, luck, or other people",
+      "Implicit and explicit attitudes only",
+      "Positive and negative behaviors only",
+      "Past and future behaviors only"
+    ],
+    "correct": 0,
+    "explanation": "Attribution theory (Heider, Weiner): Internal attributions: ability, effort, personality (stable or unstable). External attributions: task difficulty, luck, environment. Locus of control (Rotter): internal (control one's outcomes) vs. external (outcomes controlled by chance/others). Stability dimension: stable (ability, task difficulty) vs. unstable (effort, luck). Controllability: controllable (effort) vs. uncontrollable (ability, luck).",
+    "tags": [
+      "social psychology",
+      "attribution theory",
+      "locus of control"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The contact hypothesis (Allport) proposes that prejudice can be reduced by:",
+    "options": [
+      "Minimizing contact between groups",
+      "Contact between groups under conditions of equal status, cooperative goals, institutional support, and personal interaction — leads to reduced prejudice and stereotyping",
+      "Competitive contact between equal-status groups",
+      "Simply increasing physical proximity between groups"
+    ],
+    "correct": 1,
+    "explanation": "Allport's contact hypothesis (1954): prejudice decreases when intergroup contact involves: (1) equal status between groups; (2) common/cooperative goals; (3) interdependence (jigsaw classroom); (4) institutional support (laws, authority figures). Without these conditions, contact can increase prejudice. Jigsaw classroom (Aronson): students from different groups depend on each other for information → reduced racial prejudice in desegregated schools.",
+    "tags": [
+      "social psychology",
+      "prejudice",
+      "contact hypothesis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Socialization is defined as:",
+    "options": [
+      "The biological development of the individual",
+      "The process by which individuals learn and internalize the values, beliefs, norms, and social skills of their culture and groups",
+      "The study of social behavior in groups",
+      "The process of building social networks"
+    ],
+    "correct": 1,
+    "explanation": "Socialization: life-long process of internalization of culture. Agents of socialization: (1) Family (primary agent, earliest influence, language, basic values); (2) Peers (especially in adolescence); (3) Schools (formal rules, civic values, hidden curriculum); (4) Media (norms, consumerism, gender roles); (5) Religion (moral values, community). Anticipatory socialization: preparing for future roles. Re-socialization: total institutions (prisons, military) strip existing identity and replace with new one.",
+    "tags": [
+      "sociology",
+      "socialization",
+      "culture"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Total institutions (Goffman) are characterized by:",
+    "options": [
+      "High levels of personal freedom and autonomy",
+      "Complete control over all aspects of residents' lives — their work, sleep, and play all occur in the same place under the same authority, with the goal of resocialization (prisons, military boot camps, mental hospitals, monasteries)",
+      "Minimal social interaction",
+      "Voluntary membership and easy exit"
+    ],
+    "correct": 1,
+    "explanation": "Goffman's total institutions: a place of residence and work where a large number of like-situated individuals are cut off from the wider society for an appreciable period of time. Characteristics: all aspects of life conducted in same place and under same authority; daily activities done with large batch of others; activities scheduled; the whole system serves the official aims of the institution. Process: stripping of old identity (mortification), resocialization into new identity.",
+    "tags": [
+      "sociology",
+      "total institutions",
+      "Goffman"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The sociological imagination (C. Wright Mills) is the ability to:",
+    "options": [
+      "Memorize sociological theories and apply them to tests",
+      "See the relationship between individual experiences and broader social forces — personal troubles are connected to public issues",
+      "Use imagination to design social policies",
+      "Create new sociological theories from personal experience"
+    ],
+    "correct": 1,
+    "explanation": "Mills (1959): The Sociological Imagination allows one to see personal biography in the context of history and social structure. E.g., unemployment is not just a personal failure (lack of skills/effort) but also reflects structural issues (recession, deindustrialization, discrimination). This perspective shifts from blaming individuals to examining social structures and institutions. Core to the sociological perspective.",
+    "tags": [
+      "sociology",
+      "sociological imagination",
+      "C. Wright Mills"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Social capital is negatively affected by:",
+    "options": [
+      "Strong family ties and community organizations",
+      "Residential segregation, persistent poverty, and social exclusion, which limit networking opportunities and access to resources for marginalized groups",
+      "High educational attainment in a community",
+      "Dense social networks with bridging capital"
+    ],
+    "correct": 1,
+    "explanation": "Bridging social capital (connections across groups) is particularly valuable for socioeconomic mobility. Segregation and exclusion reduce bridging capital for disadvantaged groups — they have bonding capital (strong ingroup ties) but lack bridging capital to access jobs, education, and political power. Wilson: concentrated poverty → social isolation → reduced social capital → perpetuation of poverty. Important for understanding health disparities.",
+    "tags": [
+      "sociology",
+      "social capital",
+      "inequality"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Demographic transition theory describes:",
+    "options": [
+      "The movement of populations across geographic boundaries",
+      "The historical shift from high birth rates and high death rates (pre-industrial) to low birth rates and low death rates (industrial/post-industrial societies)",
+      "The theory that population grows exponentially (Malthus)",
+      "Random fluctuations in population size"
+    ],
+    "correct": 1,
+    "explanation": "Demographic transition: Stage 1 (pre-industrial): high birth + death rates, stable population. Stage 2 (developing): death rates fall (sanitation, medicine), birth rates remain high → population explosion. Stage 3 (industrializing): birth rates begin to fall. Stage 4 (developed/post-industrial): low birth + low death rates, stable (or declining) population. Key drivers: industrialization, urbanization, women's education, contraception, reduced child mortality. Many developed nations now have sub-replacement fertility (<2.1).",
+    "tags": [
+      "sociology",
+      "demographics",
+      "demographic transition"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Social networks in epidemiology are important because:",
+    "options": [
+      "They have no influence on health outcomes",
+      "Network structure shapes health outcomes — diseases spread through social networks; health behaviors (obesity, smoking, happiness) cluster in networks; social isolation increases mortality risk",
+      "Only biological factors affect disease spread",
+      "Social networks only matter for mental health, not physical health"
+    ],
+    "correct": 1,
+    "explanation": "Christakis & Fowler: health behaviors and states cluster in social networks: obesity, smoking cessation, happiness, and depression spread through social connections up to 3 degrees of separation. Mechanisms: peer influence/social norms, social support (buffer against stress), information spread. Social isolation increases mortality by ~50% (comparable to smoking). Network analysis used in contact tracing (COVID-19), STI transmission modeling.",
+    "tags": [
+      "sociology",
+      "social networks",
+      "health disparities"
+    ],
+    "difficulty": "medium"
+  }
+]

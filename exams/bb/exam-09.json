@@ -1,0 +1,415 @@
+[
+  {
+    "text": "In the blood coagulation cascade, the intrinsic pathway is initiated by:",
+    "options": [
+      "Tissue factor (TF) binding factor VII",
+      "Contact activation of factor XII (Hageman factor) by exposed collagen",
+      "Platelet activation by ADP",
+      "Thrombin converting fibrinogen to fibrin"
+    ],
+    "correct": 1,
+    "explanation": "The intrinsic (contact) pathway is initiated by factor XII activation upon contact with subendothelial collagen or other charged surfaces. The extrinsic pathway is faster and more physiologically important: tissue factor (released from damaged vessels) + factor VII → rapidly activates the common pathway (Xa → thrombin → fibrin).",
+    "tags": [
+      "physiology",
+      "coagulation",
+      "blood"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Hemophilia A is caused by deficiency of clotting factor:",
+    "options": [
+      "Factor IX",
+      "Factor VIII",
+      "Factor XI",
+      "Vitamin K"
+    ],
+    "correct": 1,
+    "explanation": "Hemophilia A: X-linked recessive deficiency of factor VIII. Hemophilia B (Christmas disease): X-linked deficiency of factor IX. Both cause impaired intrinsic pathway coagulation, presenting with hemarthroses (joint bleeding) and deep tissue bleeding after minor trauma. PT (extrinsic pathway) is normal; aPTT (intrinsic) is prolonged.",
+    "tags": [
+      "physiology",
+      "coagulation",
+      "genetics"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Heparin inhibits coagulation by:",
+    "options": [
+      "Inhibiting vitamin K epoxide reductase",
+      "Activating antithrombin III (ATIII) and thereby inhibiting thrombin and factor Xa",
+      "Directly blocking platelet aggregation",
+      "Competing with thrombin for fibrinogen binding"
+    ],
+    "correct": 1,
+    "explanation": "Heparin binds antithrombin III (a serine protease inhibitor), dramatically accelerating ATIII's inhibition of thrombin (IIa), Xa, IXa, XIa, and XIIa. Unfractionated heparin inhibits both thrombin and Xa; low-molecular-weight heparins (LMWHs) preferentially inhibit Xa. Warfarin works differently — inhibits vitamin K-dependent clotting factor synthesis.",
+    "tags": [
+      "pharmacology",
+      "coagulation",
+      "physiology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which lipid-soluble vitamins are important for bone metabolism?",
+    "options": [
+      "Vitamins A and B12",
+      "Vitamins D and K",
+      "Vitamins E and C",
+      "Vitamins A and E"
+    ],
+    "correct": 1,
+    "explanation": "Vitamin D (calcitriol) increases intestinal Ca²⁺ and phosphate absorption and stimulates bone remodeling. Vitamin K is essential for γ-carboxylation of bone proteins (osteocalcin) and clotting factors (II, VII, IX, X, protein C/S). Vitamin C (water-soluble) is needed for collagen hydroxylation.",
+    "tags": [
+      "vitamins",
+      "metabolism",
+      "physiology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Vitamin C (ascorbic acid) is required as a cofactor for:",
+    "options": [
+      "Pyruvate decarboxylation (PDH complex)",
+      "Proline and lysine hydroxylation during collagen synthesis",
+      "Fatty acid elongation",
+      "Methylation reactions in the folate cycle"
+    ],
+    "correct": 1,
+    "explanation": "Vitamin C keeps prolyl and lysyl hydroxylase enzymes active (Fe²⁺ maintained). These enzymes hydroxylate proline and lysine residues in procollagen, which is required for proper collagen triple helix formation and crosslinking. Vitamin C deficiency causes scurvy: impaired wound healing, perifollicular hemorrhages, bleeding gums, corkscrew hairs.",
+    "tags": [
+      "vitamins",
+      "collagen",
+      "metabolism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The terminal electron acceptor in aerobic respiration is:",
+    "options": [
+      "NAD⁺",
+      "FAD",
+      "Ubiquinone (CoQ)",
+      "Molecular oxygen (O₂)"
+    ],
+    "correct": 3,
+    "explanation": "In aerobic respiration, electrons pass from NADH → Complex I → CoQ → Complex III → cytochrome c → Complex IV (cytochrome c oxidase). At Complex IV, electrons reduce O₂ to H₂O. O₂ is the terminal electron acceptor. Without O₂, the ETC halts and cells must rely on anaerobic fermentation.",
+    "tags": [
+      "ETC",
+      "metabolism"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Photosynthesis and cellular respiration are related in that:",
+    "options": [
+      "Both produce ATP using the same enzyme complexes",
+      "Photosynthesis uses CO₂ and H₂O to produce glucose and O₂; respiration uses glucose and O₂ to produce CO₂ and H₂O — essentially the reverse",
+      "Both use NADH as the primary electron carrier",
+      "Both occur only in plant cells"
+    ],
+    "correct": 1,
+    "explanation": "Photosynthesis: 6CO₂ + 6H₂O + light → C₆H₁₂O₆ + 6O₂ (carbon fixation, endergonic). Cellular respiration: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ATP (exergonic). They are not simply the reverse because different enzymes, locations, and carriers are involved (NADPH in photosynthesis, NADH in respiration).",
+    "tags": [
+      "metabolism",
+      "photosynthesis"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In the citric acid cycle, which step is catalyzed by α-ketoglutarate dehydrogenase?",
+    "options": [
+      "Citrate → isocitrate",
+      "Isocitrate → α-ketoglutarate + CO₂",
+      "α-Ketoglutarate → succinyl-CoA + CO₂ + NADH",
+      "Succinate → fumarate + FADH₂"
+    ],
+    "correct": 2,
+    "explanation": "α-ketoglutarate dehydrogenase (a multienzyme complex similar to PDH, requiring the same 5 cofactors: TPP, lipoic acid, CoA, FAD, NAD⁺) catalyzes the oxidative decarboxylation of α-ketoglutarate to succinyl-CoA with release of CO₂ and reduction of NAD⁺ to NADH. This is the second CO₂-releasing step of the TCA cycle.",
+    "tags": [
+      "TCA cycle",
+      "metabolism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient is prescribed methotrexate (an antifolate drug). This drug's mechanism involves:",
+    "options": [
+      "Inhibiting thymidylate synthase directly",
+      "Inhibiting dihydrofolate reductase (DHFR), depleting THF and preventing purine and thymidylate synthesis",
+      "Directly intercalating into DNA strands",
+      "Inhibiting topoisomerase II in rapidly dividing cells"
+    ],
+    "correct": 1,
+    "explanation": "Methotrexate competitively inhibits DHFR, preventing regeneration of tetrahydrofolate (THF). Without THF (and its derivative N5,N10-methylene-THF), thymidylate synthase cannot methylate dUMP to dTMP, halting DNA synthesis. This selectively kills rapidly dividing cells (cancer, immune cells). Leucovorin (folinic acid) bypasses DHFR to rescue normal cells.",
+    "tags": [
+      "molecular biology",
+      "pharmacology",
+      "nucleotide metabolism"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The process by which bacteria transfer genetic material via direct cell-to-cell contact is:",
+    "options": [
+      "Transformation",
+      "Transduction",
+      "Conjugation",
+      "Transposition"
+    ],
+    "correct": 2,
+    "explanation": "Conjugation involves direct cell-cell contact via a sex pilus through which plasmid (or chromosomal) DNA is transferred from a donor (F⁺) to a recipient (F⁻). Transformation = uptake of naked DNA from the environment. Transduction = bacteriophage-mediated gene transfer. Transposition = movement of transposons within/between DNA molecules.",
+    "tags": [
+      "molecular biology",
+      "bacteria",
+      "genetics"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Restriction fragment length polymorphisms (RFLPs) arise because:",
+    "options": [
+      "Different individuals have different numbers of genes",
+      "Single nucleotide variations alter restriction enzyme recognition sites, changing the pattern of DNA fragments after digestion",
+      "All individuals have identical restriction enzyme patterns",
+      "DNA methylation blocks restriction enzyme activity uniformly"
+    ],
+    "correct": 1,
+    "explanation": "RFLPs arise when SNPs or insertions/deletions create or destroy restriction enzyme recognition sequences among individuals. Digesting DNA with a restriction enzyme produces a unique pattern of fragment sizes that can be detected by Southern blot. RFLPs are used in forensic analysis, paternity testing, and genetic disease mapping.",
+    "tags": [
+      "genetics",
+      "molecular biology",
+      "techniques"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Quantitative PCR (qPCR/real-time PCR) differs from standard PCR in that it:",
+    "options": [
+      "Amplifies RNA directly without a reverse transcription step",
+      "Monitors fluorescence in real-time to quantify the initial amount of target DNA",
+      "Only works with bacterial DNA",
+      "Produces larger fragments than conventional PCR"
+    ],
+    "correct": 1,
+    "explanation": "qPCR monitors fluorescence (from SYBR Green or TaqMan probes) after each amplification cycle. The cycle at which fluorescence exceeds background (Cq) is inversely related to initial template amount, allowing quantification. RT-qPCR first converts RNA to cDNA with reverse transcriptase, then quantifies gene expression.",
+    "tags": [
+      "molecular biology",
+      "techniques"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The 'leading strand' in DNA replication:",
+    "options": [
+      "Is replicated discontinuously in Okazaki fragments",
+      "Is synthesized continuously in the 5'→3' direction toward the replication fork",
+      "Requires more RNA primers than the lagging strand",
+      "Is synthesized using DNA pol I in eukaryotes"
+    ],
+    "correct": 1,
+    "explanation": "The leading strand template runs 3'→5' in the direction of fork movement, allowing continuous 5'→3' synthesis by DNA polymerase in the same direction. It requires only one RNA primer. The lagging strand template runs 5'→3' opposite to fork movement, requiring discontinuous synthesis (many Okazaki fragments, each with its own primer).",
+    "tags": [
+      "DNA replication",
+      "molecular biology"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which codon signals the beginning of translation in both prokaryotes and eukaryotes?",
+    "options": [
+      "UAA",
+      "AUG",
+      "UGA",
+      "UAG"
+    ],
+    "correct": 1,
+    "explanation": "AUG (methionine/formylmethionine) is the universal start codon. In prokaryotes, the ribosome is directed to AUG by the Shine-Dalgarno sequence complementary to 16S rRNA. In eukaryotes, the 40S subunit scans from the 5' cap until it encounters AUG in an appropriate Kozak consensus context. AUG also encodes internal methionine residues during elongation.",
+    "tags": [
+      "translation",
+      "molecular biology"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Transcription factors such as the zinc finger, leucine zipper, and helix-turn-helix all contain:",
+    "options": [
+      "A nuclear export sequence",
+      "DNA-binding domains that interact with specific DNA sequences in promoters or enhancers",
+      "Kinase activity for signal transduction",
+      "Nucleosome-remodeling ATPase activity"
+    ],
+    "correct": 1,
+    "explanation": "Zinc fingers (use Zn²⁺ to form stable finger-loop structures), leucine zippers (coiled-coil dimerization + basic DNA-binding region), and helix-turn-helix (HTH) motifs are all structural domains that allow transcription factors to make specific contacts with DNA in the major groove. They also typically contain activation or repression domains that interact with coactivators or the basal transcription machinery.",
+    "tags": [
+      "gene regulation",
+      "molecular biology",
+      "transcription factors"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Inherited mutations in BRCA1 or BRCA2 confer a high lifetime risk of breast and ovarian cancer because these genes normally:",
+    "options": [
+      "Produce checkpoint kinases that arrest the cell cycle at G2/M",
+      "Encode proteins essential for homologous recombination repair of double-strand DNA breaks",
+      "Produce the retinoblastoma (Rb) protein regulating G1/S transition",
+      "Code for p53, the guardian of the genome"
+    ],
+    "correct": 1,
+    "explanation": "BRCA1 and BRCA2 are tumor suppressor genes encoding proteins critical for homologous recombination (HR) repair of double-strand DNA breaks. Without HR, DSBs are repaired error-pronely (NHEJ), accumulating mutations. Loss of BRCA1/2 (two-hit model: inherited one mutation, acquire second somatically) leads to genomic instability and cancer.",
+    "tags": [
+      "genetics",
+      "DNA repair",
+      "cancer"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A researcher treats cells with actinomycin D, which intercalates into DNA and blocks RNA polymerase. Cells treated with actinomycin D will fail to:",
+    "options": [
+      "Replicate DNA",
+      "Translate existing mRNAs on ribosomes",
+      "Produce new mRNA transcripts (transcription is blocked)",
+      "Import proteins from the cytoplasm into the nucleus"
+    ],
+    "correct": 2,
+    "explanation": "Actinomycin D intercalates into the DNA double helix (preferentially at GC-rich sequences) and sterically blocks RNA polymerase progression. It therefore inhibits ALL transcription (mRNA, rRNA, tRNA). Note: existing mRNA can still be translated; new mRNA cannot be made. It does not inhibit DNA replication directly (used to distinguish transcription from replication in experiments).",
+    "tags": [
+      "molecular biology",
+      "transcription",
+      "pharmacology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In a diploid organism with 2n = 46, how many chromosomes are present in a cell at the end of meiosis II?",
+    "options": [
+      "46 chromosomes (diploid)",
+      "23 chromosomes (haploid)",
+      "92 chromosomes",
+      "48 chromosomes"
+    ],
+    "correct": 1,
+    "explanation": "Meiosis starts with 2n = 46 diploid cell. After meiosis I: 2 cells each with 23 chromosomes (each a bivalent separated, but still as replicated chromatid pairs, so 23 dyads). After meiosis II: sister chromatids separate → 4 cells each with 23 single chromosomes (haploid). These become gametes.",
+    "tags": [
+      "genetics",
+      "meiosis"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following correctly describes X-inactivation (Lyon hypothesis) in female mammals?",
+    "options": [
+      "Both X chromosomes are always active in somatic cells",
+      "One X chromosome is randomly inactivated in each somatic cell early in development, forming a Barr body",
+      "The paternal X is always inactivated",
+      "X-inactivation affects the germ cells as well as somatic cells"
+    ],
+    "correct": 1,
+    "explanation": "In female somatic cells, one X chromosome is randomly inactivated early in embryogenesis (XIST RNA coats the inactivated X, leading to heterochromatinization). The choice is random per cell but clonal in daughter cells. Inactivated X condenses into a Barr body. Females are mosaics for X-linked traits. Germ cells reactivate the inactivated X before meiosis.",
+    "tags": [
+      "genetics",
+      "X-inactivation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which ion's electrochemical gradient primarily drives the resting potential of neurons toward a negative value?",
+    "options": [
+      "Na⁺ (trying to enter the cell)",
+      "K⁺ (trying to exit the cell)",
+      "Cl⁻ (trying to enter the cell)",
+      "Ca²⁺ (intracellular stores)"
+    ],
+    "correct": 1,
+    "explanation": "At rest, neuronal membranes are highly permeable to K⁺ via inward-rectifier K⁺ channels. K⁺ diffuses out of the cell down its concentration gradient (high inside [~140 mM] vs. outside [~4 mM]), making the inside more negative. Equilibrium is reached when the negative charge inside electrically opposes further K⁺ exit (Nernst equation gives EK ≈ −90 mV). Resting Em ≈ −70 mV (slightly depolarized by Na⁺ leak).",
+    "tags": [
+      "physiology",
+      "neuroscience",
+      "electrophysiology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Enzyme-linked immunosorbent assay (ELISA) is most directly analogous to:",
+    "options": [
+      "Southern blot (detecting DNA)",
+      "Western blot (detecting proteins by size + antibody) but without size separation",
+      "Flow cytometry (detecting cell surface markers)",
+      "PCR (amplifying nucleic acid sequences)"
+    ],
+    "correct": 1,
+    "explanation": "ELISA detects and quantifies a specific antigen (or antibody) using antibody-antigen binding + enzyme-linked reporter. Unlike Western blot, there is no size separation; it is done in a microplate format. ELISA comes in direct, indirect, sandwich, and competitive formats. Used clinically for HIV antibody testing, pregnancy tests (hCG ELISA), etc.",
+    "tags": [
+      "immunology",
+      "techniques"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following accurately describes the central dogma of molecular biology?",
+    "options": [
+      "RNA → DNA → Protein → DNA (reverse information flow)",
+      "DNA → RNA → Protein (normal information flow) with additional reverse transcription pathway (RNA → DNA) in retroviruses",
+      "Protein → RNA → DNA (protein drives gene expression)",
+      "DNA → DNA → Protein (DNA is replicated before translation)"
+    ],
+    "correct": 1,
+    "explanation": "Crick's central dogma: DNA is replicated (DNA → DNA), transcribed (DNA → RNA), and translated (RNA → protein). Information generally flows one-way. Exceptions: retroviruses use reverse transcriptase (RNA → DNA); prions are proteins that propagate by templating protein misfolding (protein → protein). RNA can be self-replicating in some RNA viruses.",
+    "tags": [
+      "molecular biology",
+      "central dogma"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A researcher discovers that a certain protein is synthesized in the cytoplasm but must be transported into the mitochondria. Which signal directs it there?",
+    "options": [
+      "A glycosylphosphatidylinositol (GPI) anchor",
+      "An N-terminal mitochondrial targeting sequence (amphipathic helix) recognized by TOM complex",
+      "A C-terminal KDEL sequence",
+      "A nuclear localization signal (NLS)"
+    ],
+    "correct": 1,
+    "explanation": "Mitochondrially targeted proteins are synthesized in the cytoplasm with an N-terminal presequence (matrix targeting sequence / MTS) that forms an amphipathic helix. The TOM complex (translocase of outer membrane) and TIM complex (inner membrane) mediate import. The presequence is cleaved by matrix processing peptidase upon import. KDEL = ER retention; NLS = nucleus.",
+    "tags": [
+      "cell biology",
+      "protein targeting"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Vitamin A (retinol) derivatives are important for:",
+    "options": [
+      "Ca²⁺ absorption in the intestine",
+      "Night vision (retinal as a photosensitive chromophore in rhodopsin) and gene expression regulation (retinoic acid)",
+      "Cofactor for carboxylase enzymes",
+      "Collagen hydroxylation"
+    ],
+    "correct": 1,
+    "explanation": "Vitamin A has two main roles: (1) retinal is the chromophore in rhodopsin (rod cells) — deficiency causes night blindness; (2) retinoic acid is a ligand for nuclear RAR/RXR receptors regulating development and differentiation. Deficiency also impairs epithelial integrity (squamous metaplasia) and immune function.",
+    "tags": [
+      "vitamins",
+      "physiology",
+      "biochemistry"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Niacin (vitamin B3) is a precursor to:",
+    "options": [
+      "CoA (coenzyme A)",
+      "NAD⁺ and NADP⁺ (key electron carriers in metabolism)",
+      "FAD (flavin adenine dinucleotide)",
+      "Acetyl-CoA"
+    ],
+    "correct": 1,
+    "explanation": "Niacin (nicotinic acid/nicotinamide) is incorporated into NAD⁺ and NADP⁺, which are essential electron carriers in glycolysis, TCA cycle, ETC, and anabolic reactions. Niacin deficiency causes pellagra (Dermatitis, Diarrhea, Dementia, Death — 4 Ds). Niacin can be synthesized from tryptophan (60 mg Trp → 1 mg niacin).",
+    "tags": [
+      "vitamins",
+      "metabolism"
+    ],
+    "difficulty": "medium"
+  }
+]

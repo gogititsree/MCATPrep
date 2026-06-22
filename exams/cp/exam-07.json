@@ -1,0 +1,422 @@
+[
+  {
+    "text": "The Bohr model of the hydrogen atom predicts that electrons:",
+    "options": [
+      "Exist in probability clouds (orbitals)",
+      "Orbit the nucleus in any position, continuously emitting radiation",
+      "Occupy fixed energy levels (quantized) and emit photons only when transitioning between levels",
+      "Spiral into the nucleus due to electrostatic attraction"
+    ],
+    "correct": 2,
+    "explanation": "Bohr model (1913): electrons orbit in discrete allowed circular orbits with quantized angular momentum (L = nℏ). Moving between orbits: photon absorbed (lower to higher) or emitted (higher to lower), E = hf = |E_initial − E_final|. The model correctly predicts hydrogen's line spectra but fails for multi-electron atoms.",
+    "tags": [
+      "modern physics",
+      "Bohr model",
+      "atomic structure"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In a first-order reaction A → B, after 3 half-lives, what fraction of A remains?",
+    "options": [
+      "1/4",
+      "1/8",
+      "1/6",
+      "3/4"
+    ],
+    "correct": 1,
+    "explanation": "After each half-life, [A] reduces to half. After 1 t₁/₂: 1/2. After 2 t₁/₂: 1/4. After 3 t₁/₂: 1/8. Fraction remaining = (1/2)ⁿ where n = number of half-lives. 1/8 × 100% = 12.5% remains.",
+    "tags": [
+      "chemical kinetics",
+      "half-life",
+      "first order"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Two resistors R₁ = 6 Ω and R₂ = 3 Ω in parallel. Their equivalent resistance is:",
+    "options": [
+      "9 Ω",
+      "4.5 Ω",
+      "2 Ω",
+      "18 Ω"
+    ],
+    "correct": 2,
+    "explanation": "Parallel: 1/R_eq = 1/R₁ + 1/R₂ = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2. R_eq = 2 Ω. Note: R_eq < smallest R (3 Ω). Alternative: for two resistors in parallel, R_eq = R₁R₂/(R₁+R₂) = (6×3)/(6+3) = 18/9 = 2 Ω.",
+    "tags": [
+      "circuits",
+      "parallel resistors"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A 100 W light bulb is connected to 120 V. Its resistance is:",
+    "options": [
+      "1.2 Ω",
+      "12 Ω",
+      "144 Ω",
+      "0.83 Ω"
+    ],
+    "correct": 2,
+    "explanation": "P = V²/R → R = V²/P = (120)²/100 = 14400/100 = 144 Ω. Check: I = P/V = 100/120 = 0.83 A; R = V/I = 120/0.83 ≈ 144 Ω ✓. A 60 W bulb: R = (120)²/60 = 240 Ω (higher resistance → lower current → lower power).",
+    "tags": [
+      "circuits",
+      "power",
+      "Ohm's Law"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Snell's Law: light travels from water (n=1.33) to glass (n=1.5) at 30° to the normal. The refracted angle is:",
+    "options": [
+      "~26.3° (bends toward normal since n₂ > n₁, but not as much as from air)",
+      "~34° (bends away from normal)",
+      "30° (no change)",
+      "15° (halved)"
+    ],
+    "correct": 0,
+    "explanation": "Snell: n₁sinθ₁ = n₂sinθ₂ → 1.33 × sin30° = 1.5 × sinθ₂ → 1.33 × 0.5 = 1.5 × sinθ₂ → sinθ₂ = 0.665/1.5 = 0.443 → θ₂ ≈ 26.3°. Going from lower n (water) to higher n (glass): light bends toward normal (angle decreases).",
+    "tags": [
+      "optics",
+      "refraction",
+      "Snell's Law"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "A thin concave (diverging) lens always produces:",
+    "options": [
+      "Real, inverted images only",
+      "Virtual, upright, reduced images (regardless of object position)",
+      "Virtual, upright, magnified images",
+      "Real or virtual images depending on object position"
+    ],
+    "correct": 1,
+    "explanation": "A concave (diverging) lens has negative focal length. 1/f = 1/d_o + 1/d_i → d_i is always negative (virtual image, same side as object). Virtual images from diverging lenses are always upright and smaller than the object. The image moves farther from the lens (but still virtual) as the object moves toward the lens.",
+    "tags": [
+      "optics",
+      "lenses",
+      "concave lens"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The index of refraction of a medium is n = 2.0. The critical angle for total internal reflection going from this medium to vacuum is:",
+    "options": [
+      "sin θ_c = 1/n = 0.5, so θ_c = 30°",
+      "sin θ_c = n/1 = 2 (impossible)",
+      "θ_c = 45°",
+      "θ_c = 60°"
+    ],
+    "correct": 0,
+    "explanation": "Critical angle formula: sinθ_c = n₂/n₁ = 1.0/2.0 = 0.5, so θ_c = 30°. For angles of incidence > 30° (from within the medium), total internal reflection occurs — no refracted ray emerges. Optical fibers use n_glass ≈ 1.5 (θ_c ≈ 42°) to guide light by TIR.",
+    "tags": [
+      "optics",
+      "total internal reflection"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "An object is 30 cm from a converging lens with focal length 10 cm. The image distance is:",
+    "options": [
+      "15 cm on the same side as object (virtual)",
+      "15 cm on the opposite side (real)",
+      "30 cm on opposite side (real)",
+      "10 cm (at focal point)"
+    ],
+    "correct": 1,
+    "explanation": "1/f = 1/d_o + 1/d_i → 1/10 = 1/30 + 1/d_i → 1/d_i = 1/10 − 1/30 = 3/30 − 1/30 = 2/30 → d_i = 15 cm. Since d_i > 0, image is real, on the opposite side. Magnification: m = −d_i/d_o = −15/30 = −0.5 (inverted, reduced).",
+    "tags": [
+      "optics",
+      "lenses",
+      "calculations"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The magnetic field of a long straight current-carrying wire at distance r is:",
+    "options": [
+      "B = μ₀I/(2πr) (encircling the wire, by Ampere's Law)",
+      "B = μ₀I/r²",
+      "B = ε₀μ₀Ir",
+      "B = kI/r²"
+    ],
+    "correct": 0,
+    "explanation": "By Ampere's Law: B × (2πr) = μ₀I → B = μ₀I/(2πr), where μ₀ = 4π × 10⁻⁷ T·m/A. The field circles the wire (right-hand rule: thumb in direction of current, fingers curl in direction of B). Two parallel wires carrying current in same direction attract; opposite currents repel.",
+    "tags": [
+      "electromagnetism",
+      "magnetic field",
+      "Ampere's Law"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In uniform circular motion, the work done by the centripetal force is:",
+    "options": [
+      "Positive (in direction of motion)",
+      "Negative (opposing motion)",
+      "Zero (centripetal force is always perpendicular to displacement)",
+      "Equal to the centripetal acceleration times mass"
+    ],
+    "correct": 2,
+    "explanation": "The centripetal force always points toward the center, perpendicular to the velocity (tangential). W = F·d·cosθ where θ = 90° → cosθ = 0 → W = 0. The speed remains constant in uniform circular motion; only direction changes. Thus, centripetal force does no work and KE remains constant.",
+    "tags": [
+      "circular motion",
+      "work",
+      "energy"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "If an object's velocity doubles, its kinetic energy:",
+    "options": [
+      "Doubles",
+      "Triples",
+      "Quadruples (KE = ½mv²; if v doubles, v² quadruples)",
+      "Increases by a factor of 8"
+    ],
+    "correct": 2,
+    "explanation": "KE = ½mv². If v → 2v: KE_new = ½m(2v)² = ½m(4v²) = 4 × ½mv² = 4 KE. Quadruples. This is why car crashes at 60 mph (120 km/h) are far more devastating than at 30 mph: 4× more kinetic energy to dissipate. Braking distance also scales as v².",
+    "tags": [
+      "kinetic energy",
+      "mechanics"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "For a ball rolling without slipping down a ramp, the total kinetic energy includes:",
+    "options": [
+      "Only translational KE (½mv²)",
+      "Only rotational KE (½Iω²)",
+      "Both translational (½mv²) and rotational (½Iω²) kinetic energy",
+      "Neither, because potential energy converts to thermal energy"
+    ],
+    "correct": 2,
+    "explanation": "Rolling without slipping: object has both translational motion of center of mass (½mv²) and rotation about center (½Iω²). For a solid sphere (I = 2/5mr², ω = v/r): KE_total = ½mv² + ½(2/5mr²)(v/r)² = ½mv² + 1/5mv² = 7/10mv². More than a sliding block (½mv²) — takes longer to reach bottom of ramp.",
+    "tags": [
+      "rotational motion",
+      "rolling",
+      "kinetic energy"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Impulse-momentum theorem: impulse J = FΔt equals:",
+    "options": [
+      "Change in kinetic energy",
+      "Change in momentum (Δp = mΔv)",
+      "Work done by the force",
+      "Change in potential energy"
+    ],
+    "correct": 1,
+    "explanation": "Impulse J = FΔt = Δp = m·Δv. The impulse-momentum theorem is a restatement of Newton's 2nd Law integrated over time. A large force over short time (collision) or small force over long time can produce the same change in momentum. Car airbags increase collision time Δt, reducing average force F = Δp/Δt.",
+    "tags": [
+      "momentum",
+      "impulse",
+      "forces"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In an elastic collision between equal masses where one mass is initially at rest:",
+    "options": [
+      "Both masses move forward at the same speed",
+      "The first mass stops; the second mass moves forward at the initial speed of the first mass",
+      "Both masses move backward",
+      "The first mass continues forward; the second moves backward"
+    ],
+    "correct": 1,
+    "explanation": "For elastic collision between equal masses (m = m): m₁v₁ + m₂(0) = m₁v₁' + m₂v₂' AND ½m₁v₁² = ½m₁v₁'² + ½m₂v₂'. Solving: v₁' = 0, v₂' = v₁. Complete momentum transfer — the classic Newton's cradle demonstration. The first mass stops dead; the second moves forward at the original speed.",
+    "tags": [
+      "collisions",
+      "elastic collision",
+      "momentum"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The pressure at depth h below the surface of a static fluid (density ρ) is:",
+    "options": [
+      "P = ρgh (gauge pressure below surface)",
+      "P = ρgh + P_atm (absolute pressure)",
+      "P = ρg/h",
+      "P = P_atm × ρgh"
+    ],
+    "correct": 1,
+    "explanation": "Absolute pressure at depth h: P = P_atm + ρgh, where ρgh is the gauge pressure. Pressure increases linearly with depth. At depth 10 m in water (ρ = 1000 kg/m³, g ≈ 10 m/s²): P_gauge = (1000)(10)(10) = 100,000 Pa ≈ 1 atm. So every 10 m of water adds ~1 atm of pressure.",
+    "tags": [
+      "fluid statics",
+      "pressure",
+      "depth"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Blood pressure of 120/80 mmHg means:",
+    "options": [
+      "Systolic 120 mmHg / diastolic 80 mmHg (gauge pressure; systolic during ventricular contraction, diastolic during relaxation)",
+      "Systolic 80 mmHg / diastolic 120 mmHg",
+      "120 beats per minute / 80 mL stroke volume",
+      "120 mmHg absolute / 80 mmHg gauge"
+    ],
+    "correct": 0,
+    "explanation": "Blood pressure is reported as systolic/diastolic in mmHg gauge pressure. Systolic (120 mmHg): peak arterial pressure during ventricular contraction. Diastolic (80 mmHg): minimum pressure during ventricular relaxation. Normal: 120/80. Hypertension: ≥130/80. Pulse pressure = 120 − 80 = 40 mmHg. Mean arterial pressure ≈ 93 mmHg.",
+    "tags": [
+      "physiology",
+      "fluid statics",
+      "blood pressure"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following processes occurs at constant pressure (isobaric)?",
+    "options": [
+      "An explosion in a closed bomb calorimeter",
+      "Boiling water in an open pot at sea level",
+      "Compression of gas in an insulated cylinder",
+      "Isothermal expansion of ideal gas"
+    ],
+    "correct": 1,
+    "explanation": "Isobaric = constant pressure. Boiling water in an open pot occurs at constant atmospheric pressure (1 atm). A bomb calorimeter is constant volume (isochoric). Insulated cylinder = adiabatic. Isothermal = constant temperature. At constant pressure: q_p = ΔH (heat equals enthalpy change).",
+    "tags": [
+      "thermodynamics",
+      "isobaric processes"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A pH meter measures the voltage produced by a hydrogen-ion-sensitive glass electrode. This is an example of:",
+    "options": [
+      "Potentiometry — measuring equilibrium voltage related to H⁺ concentration",
+      "Amperometry — measuring current",
+      "Coulometry — measuring total charge",
+      "Spectrophotometry — measuring light absorption"
+    ],
+    "correct": 0,
+    "explanation": "Potentiometry measures the equilibrium (open circuit) voltage between a reference electrode and an indicator electrode (here, the glass membrane electrode selective for H⁺). By the Nernst equation, voltage changes by 0.0592 V per decade of [H⁺] at 25°C. This is the principle behind pH meters.",
+    "tags": [
+      "electrochemistry",
+      "pH",
+      "potentiometry"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which type of reaction does NOT change the molecular formula of a compound, but changes how atoms are connected (constitutional isomers)?",
+    "options": [
+      "Rearrangement reactions (e.g., carbocation rearrangements, sigmatropic shifts)",
+      "Elimination reactions",
+      "Nucleophilic substitution reactions",
+      "Condensation reactions"
+    ],
+    "correct": 0,
+    "explanation": "Rearrangement reactions (isomerization): same molecular formula, different connectivity. Examples: carbocation 1,2-hydride or 1,2-methyl shifts in SN1/E1 reactions; Claisen rearrangement; Beckmann rearrangement. In substitution: the formula changes (nucleophile replaces leaving group). In elimination: formula changes (HX lost). In condensation: two molecules combine + small molecule lost.",
+    "tags": [
+      "organic chemistry",
+      "rearrangement reactions",
+      "isomers"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The reaction of a Grignard reagent with CO₂ followed by aqueous workup gives:",
+    "options": [
+      "A ketone",
+      "A carboxylic acid (one carbon longer than the Grignard R group)",
+      "An ester",
+      "A tertiary alcohol"
+    ],
+    "correct": 1,
+    "explanation": "RMgX + CO₂ → RCO₂⁻MgX⁺ → (H₃O⁺) → RCOOH. This is an excellent method to synthesize carboxylic acids. The Grignard adds to the electrophilic carbon of CO₂. The product carboxylic acid has one more carbon than the original alkyl halide used to make the Grignard reagent.",
+    "tags": [
+      "organic chemistry",
+      "Grignard",
+      "carboxylic acid synthesis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which statement about nuclear fusion is correct?",
+    "options": [
+      "Fusion splits heavy nuclei",
+      "Fusion requires heavy nuclei such as uranium",
+      "Fusion joins light nuclei (e.g., ²H + ³H → ⁴He + n), releasing enormous energy",
+      "Fusion is used in current commercial nuclear power plants"
+    ],
+    "correct": 2,
+    "explanation": "Fusion joins light nuclei (typically hydrogen isotopes: deuterium ²H and tritium ³H) → helium + neutron. The products have less total mass → mass defect converted to energy (E=mc²). Fusion releases far more energy per nucleon than fission. It powers the Sun. Commercial fusion power (tokamak, inertial confinement) is still under development (ITER).",
+    "tags": [
+      "nuclear physics",
+      "fusion"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Q factor (Q value) of a nuclear reaction is:",
+    "options": [
+      "The charge of the product nucleus",
+      "Energy released (Q > 0 exothermic; Q < 0 endothermic): Q = (mass_reactants − mass_products) × c²",
+      "The ratio of product to reactant mass numbers",
+      "The activation energy of the nuclear reaction"
+    ],
+    "correct": 1,
+    "explanation": "Q = (Σm_reactants − Σm_products)c². If Q > 0: energy released (exothermic, e.g., fusion and fission of appropriate nuclei). If Q < 0: energy must be supplied (endothermic, e.g., some exotic nuclear reactions). Q values are calculated from atomic mass data (1 u = 931.5 MeV/c²).",
+    "tags": [
+      "nuclear physics",
+      "Q value",
+      "energy"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In an absorption spectrum of hydrogen, dark lines appear at wavelengths corresponding to:",
+    "options": [
+      "Electron transitions from higher to lower energy levels (emission)",
+      "Photon energies that exactly match electron transition energies — those photons are absorbed moving electrons to higher energy states",
+      "Wavelengths of light not produced by hydrogen",
+      "Thermal bremsstrahlung radiation"
+    ],
+    "correct": 1,
+    "explanation": "Absorption spectrum: white light passes through hydrogen gas. Photons with exactly the right energy (hf = ΔE for a transition) are absorbed, exciting electrons to higher levels. These wavelengths are missing from the transmitted light → dark lines. Emission spectrum (hot hydrogen gas): electrons fall to lower levels, emitting photons → bright lines at same wavelengths.",
+    "tags": [
+      "modern physics",
+      "atomic spectra",
+      "absorption"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Bohr radius (a₀) represents:",
+    "options": [
+      "The maximum radius of the hydrogen atom",
+      "The most probable distance of the electron from the nucleus in the n=1 state of hydrogen",
+      "The average radius of all hydrogen electron orbitals",
+      "The distance at which the electron's kinetic and potential energies are equal"
+    ],
+    "correct": 1,
+    "explanation": "Bohr radius a₀ = 0.529 Å (5.29×10⁻¹¹ m). In the quantum mechanical model, a₀ is the distance at which the radial probability distribution (4πr²|ψ|²) for the 1s orbital of hydrogen peaks — the most probable electron-nucleus distance. For n-th shell: most probable radius ≈ n² × a₀.",
+    "tags": [
+      "modern physics",
+      "Bohr model",
+      "atomic structure"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Fick's first law of diffusion states that flux J (moles per area per time) is:",
+    "options": [
+      "Proportional to concentration (not gradient)",
+      "Proportional to the negative concentration gradient: J = −D(dC/dx)",
+      "Independent of the diffusion coefficient",
+      "Inversely proportional to concentration gradient"
+    ],
+    "correct": 1,
+    "explanation": "Fick's 1st Law: J = −D(dC/dx). Flux is proportional to the concentration gradient (steeper gradient → faster diffusion) and diffusion coefficient D (larger molecules diffuse slower). The negative sign indicates diffusion from high to low concentration. This governs O₂/CO₂ exchange across alveolar membranes (thin membrane, large area, large ΔC → high flux).",
+    "tags": [
+      "physics",
+      "diffusion",
+      "Fick's law"
+    ],
+    "difficulty": "medium"
+  }
+]

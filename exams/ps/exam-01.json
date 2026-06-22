@@ -1,0 +1,416 @@
+[
+  {
+    "text": "A patient suffers damage to the hippocampus following a stroke. Which deficit is MOST likely to result?",
+    "options": [
+      "Inability to form new long-term memories",
+      "Loss of previously learned motor skills",
+      "Inability to feel fear or anxiety",
+      "Loss of language production ability"
+    ],
+    "correct": 0,
+    "explanation": "The hippocampus is critical for consolidating new declarative (explicit) memories — converting short-term memories into long-term ones. This is illustrated by the famous case of H.M., who had his hippocampus removed and lost the ability to form new long-term memories (anterograde amnesia) while retaining older memories and procedural skills. Option B is wrong because motor skills are stored via the cerebellum and basal ganglia. Option C is wrong because fear processing is associated with the amygdala. Option D is wrong because language production involves Broca's area in the frontal lobe.",
+    "tags": [
+      "neuroscience",
+      "memory",
+      "hippocampus"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A researcher finds that people who score high on extraversion also tend to seek out stimulating environments. According to Eysenck's biological theory of personality, why might this be?",
+    "options": [
+      "Extraverts have higher baseline cortical arousal and seek stimulation to maintain it",
+      "Extraverts have lower baseline cortical arousal and seek stimulation to reach an optimal level",
+      "Extraverts have overactive amygdalae that drive them toward social interaction",
+      "Extraverts have higher dopamine sensitivity, making rewards more salient"
+    ],
+    "correct": 1,
+    "explanation": "Eysenck proposed that extraverts have chronically low cortical arousal. To reach an optimal arousal level, they seek out external stimulation (social interaction, excitement, novelty). Introverts, by contrast, have higher baseline arousal and prefer quieter environments. Option A describes the opposite of Eysenck's theory. Options C and D are not components of Eysenck's biological model, which centers on the ascending reticular activating system (ARAS) rather than amygdala activity or dopamine sensitivity specifically.",
+    "tags": [
+      "personality",
+      "Eysenck"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "During an experiment, a tone is paired with an air puff to the eye, causing a blink. After many pairings, the tone alone elicits a blink. The tone in this scenario is the:",
+    "options": [
+      "Unconditioned stimulus",
+      "Conditioned stimulus",
+      "Unconditioned response",
+      "Conditioned response"
+    ],
+    "correct": 1,
+    "explanation": "In classical conditioning, the tone is a neutral stimulus that becomes a conditioned stimulus (CS) after being repeatedly paired with the unconditioned stimulus (air puff). The air puff is the UCS because it naturally and automatically triggers the blink (UCR). Once the tone alone produces a blink, that blink is the conditioned response (CR). The tone is not an unconditioned stimulus (Option A) because it did not naturally cause blinking before conditioning.",
+    "tags": [
+      "learning",
+      "classical conditioning"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A child who was classically conditioned to fear a white rat also shows fear toward white rabbits and cotton balls. This demonstrates:",
+    "options": [
+      "Extinction",
+      "Stimulus discrimination",
+      "Stimulus generalization",
+      "Higher-order conditioning"
+    ],
+    "correct": 2,
+    "explanation": "Stimulus generalization occurs when a conditioned response is elicited by stimuli similar to the original conditioned stimulus. The child's fear spreading from the white rat (original CS) to other white, fluffy objects illustrates this principle — famously demonstrated in Watson and Raynor's 'Little Albert' experiment. Extinction (A) is the disappearance of a CR after the CS is repeatedly presented without the UCS. Discrimination (B) is the ability to distinguish between similar stimuli and respond only to the conditioned one. Higher-order conditioning (D) involves using an established CS to condition a new neutral stimulus.",
+    "tags": [
+      "learning",
+      "classical conditioning"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A gambler keeps playing slot machines despite rarely winning because an occasional, unpredictable win keeps them coming back. Which reinforcement schedule best explains this behavior?",
+    "options": [
+      "Fixed-ratio schedule",
+      "Variable-ratio schedule",
+      "Fixed-interval schedule",
+      "Variable-interval schedule"
+    ],
+    "correct": 1,
+    "explanation": "Variable-ratio (VR) schedules deliver reinforcement after an unpredictable number of responses. This schedule produces the highest and most consistent rates of responding and is highly resistant to extinction — exactly what is observed in gambling behavior. Fixed-ratio (A) schedules produce high response rates but with a post-reinforcement pause. Fixed-interval (C) produces a scalloped pattern with responding increasing near the end of each interval. Variable-interval (D) produces slow, steady responding but is tied to time, not the number of responses.",
+    "tags": [
+      "learning",
+      "operant conditioning"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In Bandura's Bobo doll experiments, children who watched an adult model punch and kick an inflatable doll were more likely to do the same when given the opportunity. This finding BEST supports which theory?",
+    "options": [
+      "Classical conditioning",
+      "Operant conditioning via positive reinforcement",
+      "Observational learning",
+      "Latent learning"
+    ],
+    "correct": 2,
+    "explanation": "Bandura's Bobo doll studies demonstrated observational learning (also called social learning or modeling) — children acquired aggressive behaviors simply by watching a model, without any direct reinforcement. This challenged strict behaviorist views that required direct reinforcement for learning. Classical conditioning (A) involves learning stimulus-response associations through pairing. Operant conditioning (B) requires the learner to emit a behavior and receive reinforcement directly. Latent learning (D) refers to learning that occurs without reinforcement and is not demonstrated until motivation exists — Tolman's maze rats are the classic example.",
+    "tags": [
+      "learning",
+      "observational learning",
+      "Bandura"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A student studies a list of 20 words and later recalls the first five and last five words most accurately but struggles with the middle words. This pattern is called the:",
+    "options": [
+      "Misinformation effect",
+      "Serial position effect",
+      "Encoding specificity principle",
+      "Spacing effect"
+    ],
+    "correct": 1,
+    "explanation": "The serial position effect describes the tendency to recall items at the beginning (primacy effect) and end (recency effect) of a list better than items in the middle. Primacy is explained by those items having had more rehearsal time and thus being transferred to long-term memory; recency is explained by those items still being in short-term/working memory at the time of recall. The misinformation effect (A) refers to post-event information altering memory. The encoding specificity principle (C) refers to retrieval being better when cues at retrieval match those at encoding. The spacing effect (D) refers to distributed practice leading to better retention than massed practice.",
+    "tags": [
+      "memory",
+      "serial position effect"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Patient H.M. could still learn to trace a figure while looking at a mirror image of it, even though he had no memory of ever doing it before. This finding demonstrates that:",
+    "options": [
+      "The hippocampus is responsible for all types of long-term memory",
+      "Procedural memory can be intact even when declarative memory is severely impaired",
+      "Semantic memory is stored independently of episodic memory",
+      "The amygdala is critical for skill acquisition"
+    ],
+    "correct": 1,
+    "explanation": "H.M.'s case revealed a crucial distinction between memory systems. Despite bilateral hippocampal removal causing profound anterograde amnesia (inability to form new explicit/declarative memories), H.M. could still learn and improve on procedural tasks (like mirror tracing) — demonstrating that procedural (implicit) memory is stored independently of declarative memory, likely in the basal ganglia and cerebellum. Option A is wrong because the hippocampus is specifically tied to declarative memory. Option C, while true, is not what H.M.'s mirror tracing demonstrates. Option D is incorrect; the amygdala is associated with emotional learning, not motor skill acquisition.",
+    "tags": [
+      "memory",
+      "procedural memory",
+      "H.M."
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which neurotransmitter is most directly implicated in the reward pathway, and what disorder is associated with its excess activity in the mesolimbic pathway?",
+    "options": [
+      "Serotonin; major depressive disorder",
+      "Dopamine; schizophrenia",
+      "Norepinephrine; bipolar disorder",
+      "GABA; generalized anxiety disorder"
+    ],
+    "correct": 1,
+    "explanation": "Dopamine is the primary neurotransmitter of the mesolimbic reward pathway (from the ventral tegmental area to the nucleus accumbens). The dopamine hypothesis of schizophrenia proposes that excess dopaminergic activity in this pathway underlies the positive symptoms of schizophrenia (hallucinations, delusions). Serotonin (A) is linked to mood regulation and depression. Norepinephrine (C) is linked to arousal and anxiety and is relevant to bipolar disorder in some models, but not primarily via the mesolimbic pathway. GABA (D) is the main inhibitory neurotransmitter and its reduction is linked to anxiety, not schizophrenia.",
+    "tags": [
+      "neuroscience",
+      "neurotransmitters",
+      "dopamine"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A person is hiking and suddenly encounters a bear. Their heart rate increases, digestion slows, and pupils dilate. Which branch of the nervous system is primarily responsible, and which neurotransmitter mediates these effects at the target organs?",
+    "options": [
+      "Parasympathetic; acetylcholine",
+      "Sympathetic; norepinephrine",
+      "Somatic; acetylcholine",
+      "Sympathetic; dopamine"
+    ],
+    "correct": 1,
+    "explanation": "The fight-or-flight response is mediated by the sympathetic division of the autonomic nervous system. Postganglionic sympathetic neurons release norepinephrine at target organs, causing increased heart rate, bronchodilation, pupil dilation, and decreased digestive activity. The parasympathetic system (A) uses acetylcholine at postganglionic synapses and mediates 'rest and digest' functions — opposite of what is described. The somatic nervous system (C) controls voluntary skeletal muscle movement. Dopamine (D) is not the primary neurotransmitter at sympathetic target organs.",
+    "tags": [
+      "neuroscience",
+      "autonomic nervous system",
+      "sympathetic"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A researcher measures the minimum intensity of light a subject can detect 50% of the time. This measure corresponds to:",
+    "options": [
+      "The difference threshold",
+      "The absolute threshold",
+      "The just noticeable difference",
+      "Signal-to-noise ratio"
+    ],
+    "correct": 1,
+    "explanation": "The absolute threshold is defined as the minimum stimulus intensity that can be detected 50% of the time. This operational definition accounts for natural variability in perception. The difference threshold (A), also called the just noticeable difference (JND) (C) — which are the same thing — refers to the minimum detectable change between two stimuli. Signal-to-noise ratio (D) is a concept from signal detection theory referring to how strong a signal is relative to background noise, not a direct measure of detection threshold.",
+    "tags": [
+      "sensation and perception",
+      "absolute threshold"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Weber's law states that the just noticeable difference (JND) between two stimuli is:",
+    "options": [
+      "Constant regardless of the magnitude of the original stimulus",
+      "A constant fraction of the original stimulus intensity",
+      "Determined solely by sensory adaptation",
+      "Inversely proportional to the absolute threshold"
+    ],
+    "correct": 1,
+    "explanation": "Weber's law holds that the JND is a constant proportion (Weber's fraction, k) of the original stimulus intensity (ΔI/I = k). For example, if you can just detect a 1 kg difference when holding 10 kg, you would need a 10 kg difference when holding 100 kg. This means the JND is NOT constant in absolute terms (A). Sensory adaptation (C) refers to diminished sensitivity after prolonged exposure, which is a separate concept. The absolute threshold (D) is the minimum detectable intensity, unrelated to the JND ratio.",
+    "tags": [
+      "sensation and perception",
+      "Weber's law"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A radiologist trained to detect tumors in X-rays correctly identifies many true positives but also generates many false positives. A colleague detects fewer true positives but almost no false positives. Which concept from signal detection theory explains this difference?",
+    "options": [
+      "Difference in absolute thresholds between the two radiologists",
+      "Different response criteria (decision thresholds)",
+      "Different levels of sensory adaptation",
+      "Different Weber fractions for visual stimuli"
+    ],
+    "correct": 1,
+    "explanation": "Signal detection theory separates sensitivity (d-prime, the ability to distinguish signal from noise) from response criterion (beta, the threshold for saying 'yes'). The first radiologist uses a liberal criterion — they say 'yes' more readily, increasing hits but also false alarms. The second uses a conservative criterion, reducing false alarms but also missing some true signals. This difference is not about sensory capability (A, C, D) but about the decision-making strategy each person applies to the same sensory information.",
+    "tags": [
+      "sensation and perception",
+      "signal detection theory"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "A person entering a dark movie theater from sunlight cannot see clearly at first, but vision gradually improves. This phenomenon is best explained by:",
+    "options": [
+      "Perceptual set",
+      "Sensory adaptation",
+      "Top-down processing",
+      "The absolute threshold decreasing"
+    ],
+    "correct": 1,
+    "explanation": "Sensory adaptation refers to the diminished sensitivity to a constant, unchanging stimulus over time — or in this case, dark adaptation, where the visual system becomes more sensitive in reduced light. Rods regenerate rhodopsin in darkness, increasing sensitivity. Perceptual set (A) refers to the tendency to perceive stimuli based on expectations. Top-down processing (C) involves using prior knowledge to interpret sensory input. The absolute threshold (D) does decrease during dark adaptation, but the broader mechanism is called sensory adaptation — making B the most accurate conceptual label.",
+    "tags": [
+      "sensation and perception",
+      "sensory adaptation"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Gestalt psychologists described the tendency to perceive a broken circle as a complete circle. This principle is called:",
+    "options": [
+      "Proximity",
+      "Similarity",
+      "Closure",
+      "Figure-ground"
+    ],
+    "correct": 2,
+    "explanation": "The Gestalt principle of closure describes the tendency to perceive incomplete figures as complete, filling in gaps to see a whole object. Proximity (A) is the tendency to group objects that are near each other. Similarity (B) is the tendency to group objects that look alike. Figure-ground (D) is the tendency to separate visual scenes into a prominent figure and a background — not specifically about completing incomplete shapes.",
+    "tags": [
+      "sensation and perception",
+      "Gestalt"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A study finds that people who already believe a suspect is guilty interpret ambiguous facial expressions as hostile. This best illustrates:",
+    "options": [
+      "Bottom-up processing",
+      "Sensory adaptation",
+      "Perceptual set",
+      "Signal detection criterion shift"
+    ],
+    "correct": 2,
+    "explanation": "Perceptual set (or perceptual expectancy) is the tendency to perceive stimuli in a way that is influenced by prior expectations, context, or beliefs. People's belief in guilt acts as a mental predisposition that shapes how they interpret ambiguous sensory information. Bottom-up processing (A) refers to perception built solely from raw sensory data without prior knowledge influencing interpretation. Sensory adaptation (B) is about diminishing response to constant stimuli. Signal detection criterion shift (D) specifically involves adjusting the threshold for saying 'yes,' not the interpretation of ambiguous content.",
+    "tags": [
+      "sensation and perception",
+      "perceptual set"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A child watches an adult get praised for sharing toys and subsequently begins sharing toys herself without ever being directly reinforced for doing so. Which learning mechanism best explains this?",
+    "options": [
+      "Latent learning",
+      "Vicarious reinforcement",
+      "Positive reinforcement",
+      "Classical conditioning"
+    ],
+    "correct": 1,
+    "explanation": "Vicarious reinforcement, a concept from Bandura's social learning theory, occurs when an observer increases their own behavior after watching a model receive reinforcement. The child learns that sharing leads to positive outcomes by watching another person being rewarded, not by experiencing reinforcement directly. Latent learning (A) involves acquiring knowledge without any reinforcement and without it being demonstrated until there is motivation — Tolman's classic demonstration with maze rats. Positive reinforcement (C) requires the learner to directly receive a reward. Classical conditioning (D) is not applicable here.",
+    "tags": [
+      "learning",
+      "observational learning",
+      "vicarious reinforcement"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A rat is trained to press a lever for food pellets. When the pellets are discontinued, the rat initially presses the lever more frantically before the behavior diminishes. The initial increase in responding is called:",
+    "options": [
+      "Spontaneous recovery",
+      "Extinction burst",
+      "Negative punishment",
+      "Shaping"
+    ],
+    "correct": 1,
+    "explanation": "An extinction burst refers to the temporary increase in the frequency or intensity of a previously reinforced behavior when reinforcement is suddenly withheld. This phenomenon is seen in both operant and classical conditioning paradigms. It represents the organism 'trying harder' before learning that the response is no longer effective. Spontaneous recovery (A) is the reappearance of an extinguished response after a rest period. Negative punishment (C) is the removal of a pleasant stimulus to decrease a behavior. Shaping (D) involves reinforcing successive approximations of a desired behavior.",
+    "tags": [
+      "learning",
+      "operant conditioning",
+      "extinction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A teacher gives students a star sticker every time they complete their homework. Over time, students stop completing homework when stickers are discontinued. Compared to a student who received stickers unpredictably, who will extinguish faster?",
+    "options": [
+      "The student who received stickers every time (continuous reinforcement)",
+      "The student who received stickers unpredictably (partial reinforcement)",
+      "Both students will extinguish at the same rate",
+      "The student who received stickers unpredictably, because they are confused"
+    ],
+    "correct": 0,
+    "explanation": "This is the partial reinforcement extinction effect (PREE): behaviors reinforced on a continuous (every-time) schedule extinguish faster than those reinforced on a partial (intermittent) schedule. With continuous reinforcement, organisms quickly notice when reinforcement stops; with partial reinforcement, organisms have learned to persist through non-reinforced trials and thus continue responding longer after reinforcement is removed. The student with unpredictable stickers (B) will actually show greater resistance to extinction.",
+    "tags": [
+      "learning",
+      "operant conditioning",
+      "extinction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Edward Tolman ran rats through a maze for several trials without any reward. Later, when food was placed at the goal box, the rats navigated the maze as efficiently as rats that had been rewarded from the start. This experiment demonstrated:",
+    "options": [
+      "Operant conditioning with delayed reinforcement",
+      "Insight learning",
+      "Latent learning",
+      "Observational learning"
+    ],
+    "correct": 2,
+    "explanation": "Tolman's maze experiments with rats demonstrated latent learning — learning that occurs in the absence of any obvious reinforcement and is not immediately reflected in behavior. The rats formed a cognitive map of the maze, but the learning was 'latent' (hidden) until they were motivated by food to demonstrate it. This challenged strict behaviorist views that all learning requires reinforcement. Insight learning (B) refers to the sudden solution of a problem (Köhler's chimps). Observational learning (D) requires watching another organism. Operant conditioning with delayed reinforcement (A) still requires reinforcement to drive learning.",
+    "tags": [
+      "learning",
+      "latent learning",
+      "Tolman"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A musician can remember the notes of a song as a single unit rather than individual notes. This memory strategy is known as:",
+    "options": [
+      "Elaborative encoding",
+      "Chunking",
+      "Priming",
+      "The method of loci"
+    ],
+    "correct": 1,
+    "explanation": "Chunking involves organizing information into meaningful units (chunks), effectively increasing the functional capacity of short-term/working memory. George Miller's research showed that working memory holds approximately 7±2 items, but chunking can greatly expand the amount of information within each 'item.' A song remembered as a melody rather than individual notes is a classic example. Elaborative encoding (A) involves connecting new information to existing knowledge to improve retention. Priming (C) is improved recall of a stimulus due to prior exposure. The method of loci (D) is a mnemonic technique that associates information with spatial locations.",
+    "tags": [
+      "memory",
+      "chunking",
+      "working memory"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A witness to a car accident is later asked 'How fast were the cars going when they smashed into each other?' compared to another witness asked 'How fast were the cars going when they hit each other?' The first witness estimates a higher speed. This illustrates:",
+    "options": [
+      "The serial position effect",
+      "Source monitoring error",
+      "The misinformation effect",
+      "Proactive interference"
+    ],
+    "correct": 2,
+    "explanation": "The misinformation effect, extensively studied by Elizabeth Loftus, occurs when post-event information (such as the loaded word 'smashed') alters a person's memory of the original event. The leading question with 'smashed' implies greater force, causing witnesses to reconstruct memories with higher speed estimates. This demonstrates that memory is reconstructive, not a perfect recording. Source monitoring error (B) is confusing the origin of a memory. Proactive interference (D) is when old memories disrupt the formation of new ones. The serial position effect (A) concerns recall based on position in a list.",
+    "tags": [
+      "memory",
+      "misinformation effect",
+      "Loftus"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which brain structure is most directly associated with processing fear and attaching emotional significance to stimuli?",
+    "options": [
+      "Hippocampus",
+      "Amygdala",
+      "Hypothalamus",
+      "Prefrontal cortex"
+    ],
+    "correct": 1,
+    "explanation": "The amygdala is a key structure in the limbic system responsible for processing emotional responses, especially fear. It receives sensory input and triggers fear responses, including activation of the HPA axis and sympathetic nervous system. It also plays a role in emotional memory (e.g., flashbulb memories). The hippocampus (A) is critical for forming declarative memories. The hypothalamus (C) regulates homeostasis, the endocrine system, and basic drives. The prefrontal cortex (D) is involved in executive function, decision-making, and impulse control.",
+    "tags": [
+      "neuroscience",
+      "amygdala",
+      "emotion"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A person chronically under stress shows elevated cortisol levels, suppressed immune function, and increased blood pressure. These effects are most directly explained by activation of:",
+    "options": [
+      "The parasympathetic nervous system and the hippocampus",
+      "The HPA axis and the sympathetic nervous system",
+      "The basal ganglia and the cerebellum",
+      "The prefrontal cortex and the thalamus"
+    ],
+    "correct": 1,
+    "explanation": "Stress activates two major biological systems: (1) the HPA (hypothalamic-pituitary-adrenal) axis, which releases CRH → ACTH → cortisol, suppressing the immune system and elevating blood sugar; and (2) the sympathetic nervous system (fight-or-flight), which raises heart rate and blood pressure via epinephrine/norepinephrine. Chronic activation of these systems causes health damage (Selye's General Adaptation Syndrome). The parasympathetic system (A) is active during rest. The basal ganglia and cerebellum (C) govern motor control. The prefrontal cortex and thalamus (D) are involved in cognition and sensory relay, not the primary stress response.",
+    "tags": [
+      "neuroscience",
+      "HPA axis",
+      "stress"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "During REM sleep, the brain shows activity similar to waking, yet the person is paralyzed and experiencing vivid dreams. Which brain region is most responsible for the muscle atonia (paralysis) during REM?",
+    "options": [
+      "Hypothalamus",
+      "Amygdala",
+      "Brainstem (pons)",
+      "Cerebellum"
+    ],
+    "correct": 2,
+    "explanation": "REM sleep is initiated and regulated primarily by the brainstem, specifically structures in the pons. The pons sends signals that activate the cortex (producing the EEG pattern resembling wakefulness and supporting dreaming) and also send inhibitory signals down the spinal cord that cause the skeletal muscles to become atonic (paralyzed), preventing the dreamer from physically acting out their dreams. The hypothalamus (A) regulates circadian rhythms and the sleep-wake cycle via the SCN. The amygdala (B) is involved in emotional processing and is active during dreams. The cerebellum (D) coordinates motor movement but does not control REM atonia.",
+    "tags": [
+      "neuroscience",
+      "sleep",
+      "REM"
+    ],
+    "difficulty": "hard"
+  }
+]

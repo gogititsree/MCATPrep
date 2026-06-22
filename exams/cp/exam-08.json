@@ -1,0 +1,415 @@
+[
+  {
+    "text": "According to the ideal gas law, at STP (0°C = 273.15 K, 1 atm), 1 mole of ideal gas occupies:",
+    "options": [
+      "22.4 L",
+      "24.0 L",
+      "1 L",
+      "11.2 L"
+    ],
+    "correct": 0,
+    "explanation": "PV = nRT → V = nRT/P = (1 mol)(0.0821 L·atm/mol·K)(273.15 K)/(1 atm) = 22.4 L. This is the molar volume at STP. Note: at SATP (25°C, 1 bar), molar volume ≈ 24.8 L. MCAT uses 22.4 L/mol at STP (0°C, 1 atm).",
+    "tags": [
+      "gas laws",
+      "molar volume",
+      "STP"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The pressure of an ideal gas in a rigid container is doubled. Which changes? (Assume constant n and T is maintained by a thermostat)",
+    "options": [
+      "Volume decreases by half",
+      "Number of moles doubles",
+      "Temperature remains constant as specified; this requires the volume to halve if T is constant",
+      "The gas becomes non-ideal"
+    ],
+    "correct": 2,
+    "explanation": "In a rigid container at constant T: V is fixed. By PV = nRT, P ∝ n (at constant V and T). To double P in a rigid container at constant T: you would need to add more gas (double n). However, if the question implies constant n and T with volume change: V halves (Boyle's Law). The problem states rigid container and thermostat, implying n doubles.",
+    "tags": [
+      "gas laws",
+      "ideal gas"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which statement accurately describes the enthalpy of formation (ΔHf°) convention?",
+    "options": [
+      "ΔHf° of any pure element in its standard state = some nonzero value",
+      "ΔHf° of any pure element in its most stable allotrope at 25°C and 1 bar = 0 by convention",
+      "ΔHf° is always negative (exothermic formation)",
+      "ΔHf° is the same as the enthalpy of combustion"
+    ],
+    "correct": 1,
+    "explanation": "By convention: ΔHf° of any element in its standard state (most stable allotrope at 25°C, 1 bar) = 0. Standard states: C(graphite), H₂(g), O₂(g), N₂(g), Cl₂(g), Br₂(l), I₂(s), S(rhombic), P₄(white). ΔHf° can be positive (endothermic, e.g., NO) or negative (exothermic, e.g., H₂O).",
+    "tags": [
+      "thermochemistry",
+      "enthalpy",
+      "standard state"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A student measures the heat of neutralization by mixing 50 mL of 1.0 M HCl and 50 mL of 1.0 M NaOH in a coffee-cup calorimeter. The temperature rises from 22°C to 29°C. Assuming density = 1.0 g/mL and specific heat = 4.18 J/g°C, the heat released per mole of H₂O formed is:",
+    "options": [
+      "−5.85 kJ/mol",
+      "−58.5 kJ/mol",
+      "−2.93 kJ/mol",
+      "−29.3 kJ/mol"
+    ],
+    "correct": 1,
+    "explanation": "Total mass = 100 g. q = mcΔT = (100)(4.18)(7) = 2926 J = 2.926 kJ. Moles H₂O = (0.050 L)(1.0 mol/L) = 0.05 mol. Heat per mole = 2.926/0.05 = 58.5 kJ/mol; q = −58.5 kJ/mol (exothermic). Literature value for strong acid/base neutralization: −57.1 kJ/mol. This matches well given approximations.",
+    "tags": [
+      "thermochemistry",
+      "calorimetry",
+      "acid-base"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Radioactive iodine-131 (t₁/₂ = 8 days) is used to treat thyroid cancer. After 24 days, what fraction of the original dose remains?",
+    "options": [
+      "1/4",
+      "1/8",
+      "1/16",
+      "1/3"
+    ],
+    "correct": 1,
+    "explanation": "Number of half-lives = 24/8 = 3. Fraction remaining = (1/2)³ = 1/8. After 24 days, 12.5% of ¹³¹I remains. This is used clinically: thyroid tissue avidly takes up iodine; ¹³¹I delivers β radiation to destroy thyroid cells. After 10 half-lives (80 days), only 1/1024 remains.",
+    "tags": [
+      "nuclear physics",
+      "radioactive decay",
+      "medical applications"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Clausius-Clapeyron equation relates:",
+    "options": [
+      "Vapor pressure and boiling point of a liquid",
+      "Vapor pressure of a liquid to temperature: ln(P₂/P₁) = −ΔHvap/R × (1/T₂ − 1/T₁)",
+      "Osmotic pressure to solute concentration",
+      "Surface tension to temperature"
+    ],
+    "correct": 1,
+    "explanation": "Clausius-Clapeyron: ln(P₂/P₁) = −ΔHvap/R × (1/T₂ − 1/T₁). As T increases, vapor pressure increases. Used to predict boiling points at different pressures (e.g., water boils at <100°C at altitude due to lower P) and to calculate enthalpy of vaporization from vapor pressure-temperature data.",
+    "tags": [
+      "thermodynamics",
+      "vapor pressure",
+      "phase transitions"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Raoult's Law (P_A = X_A × P°_A) is used for:",
+    "options": [
+      "Calculating osmotic pressure of electrolyte solutions",
+      "Calculating the partial vapor pressure of a solvent in an ideal solution based on its mole fraction",
+      "Determining the solubility of gases in liquids (Henry's Law applies here)",
+      "Calculating boiling point elevation"
+    ],
+    "correct": 1,
+    "explanation": "Raoult's Law: P_A = X_A × P°_A (partial vapor pressure of solvent A = mole fraction of A × vapor pressure of pure A). This describes ideal solutions. Positive deviations (P > Raoult's): interactions between unlike molecules weaker than like molecules (e.g., ethanol-water). Negative deviations (P < Raoult's): stronger interactions (e.g., acetone-chloroform).",
+    "tags": [
+      "solutions",
+      "vapor pressure",
+      "Raoult's Law"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Henry's Law (P = kH × C) relates:",
+    "options": [
+      "Partial pressure of a gas to its solubility in a liquid: higher partial pressure → greater dissolved gas concentration",
+      "Vapor pressure of a solvent to the mole fraction of solute",
+      "Boiling point to solute concentration",
+      "Gas pressure to temperature at constant volume"
+    ],
+    "correct": 0,
+    "explanation": "Henry's Law: P_gas = k_H × [gas]dissolved. More gas pressure above solution → more dissolved gas. Explains: CO₂ dissolved in soda (pressurized); O₂ uptake in blood (proportional to pO₂ in alveoli); nitrogen narcosis in deep diving (high partial pressure → excess N₂ dissolved in blood).",
+    "tags": [
+      "solutions",
+      "gas solubility",
+      "Henry's Law"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The oxidation state of Mn in KMnO₄ is:",
+    "options": [
+      "+4",
+      "+6",
+      "+7",
+      "+5"
+    ],
+    "correct": 2,
+    "explanation": "KMnO₄: K = +1, O = −2 (×4 = −8), so Mn + (−8) + 1 = 0 → Mn = +7. KMnO₄ (potassium permanganate) is a strong oxidizing agent (purple in basic/neutral, colorless/brown in acidic after reduction). It oxidizes alkenes (KMnO₄, cold: diols; hot: cleaved to carboxylic acids), alcohols, and many organics.",
+    "tags": [
+      "redox",
+      "oxidation states",
+      "inorganic chemistry"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following has the shortest bond length?",
+    "options": [
+      "C–C single bond (~1.54 Å)",
+      "C=C double bond (~1.34 Å)",
+      "C≡C triple bond (~1.20 Å)",
+      "C–H bond (~1.09 Å)"
+    ],
+    "correct": 2,
+    "explanation": "Bond length decreases as bond order increases: C–C (single, 1.54 Å) > C=C (double, 1.34 Å) > C≡C (triple, 1.20 Å). Triple bonds are shorter and stronger than double bonds, which are shorter and stronger than single bonds. The more electron pairs shared, the closer nuclei can approach.",
+    "tags": [
+      "chemical bonding",
+      "bond length",
+      "organic chemistry"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A solution of NaCl in water freezes at −3.72°C instead of 0°C (pure water). Kf (water) = 1.86°C/m. The molality of NaCl is:",
+    "options": [
+      "2.0 m",
+      "1.0 m",
+      "4.0 m",
+      "0.5 m"
+    ],
+    "correct": 1,
+    "explanation": "ΔTf = i × Kf × m. For NaCl: i = 2 (dissociates into Na⁺ and Cl⁻). 3.72 = 2 × 1.86 × m → m = 3.72/3.72 = 1.0 m. So 1.0 mol NaCl per kg water gives a freezing point depression of 3.72°C. This is why salt is spread on icy roads.",
+    "tags": [
+      "solutions",
+      "freezing point depression",
+      "colligative properties"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A 5 kg block accelerates from rest to 10 m/s over 2 seconds. The net force applied is:",
+    "options": [
+      "5 N",
+      "25 N",
+      "50 N",
+      "10 N"
+    ],
+    "correct": 1,
+    "explanation": "a = Δv/Δt = 10/2 = 5 m/s². F = ma = 5 × 5 = 25 N. (Net force = 25 N in the direction of motion; any friction forces would be in addition to this net force.)",
+    "tags": [
+      "Newton's laws",
+      "kinematics"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A 10 kg box sits on a surface with μs = 0.4 and μk = 0.3 (g = 10 m/s²). The minimum force to start it moving is:",
+    "options": [
+      "30 N",
+      "40 N",
+      "3 N",
+      "4 N"
+    ],
+    "correct": 1,
+    "explanation": "Maximum static friction: fs_max = μs × N = 0.4 × (10 × 10) = 40 N. Any horizontal force less than 40 N will be balanced by static friction. The minimum force to start moving is just above 40 N. Once moving, kinetic friction = μk × N = 0.3 × 100 = 30 N (less than starting force).",
+    "tags": [
+      "friction",
+      "forces"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A ball is dropped from 20 m height (g = 10 m/s²). The time to reach the ground is:",
+    "options": [
+      "2 s",
+      "4 s",
+      "1 s",
+      "√2 s"
+    ],
+    "correct": 0,
+    "explanation": "h = ½gt² → 20 = ½(10)t² → 20 = 5t² → t² = 4 → t = 2 s. Final speed: v = gt = 10 × 2 = 20 m/s (or v² = 2gh = 2×10×20 = 400 → v = 20 m/s). ✓",
+    "tags": [
+      "kinematics",
+      "free fall"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The slope of a velocity-time graph represents:",
+    "options": [
+      "Displacement",
+      "Speed",
+      "Acceleration",
+      "Distance traveled"
+    ],
+    "correct": 2,
+    "explanation": "On a velocity-time (v-t) graph, the slope = Δv/Δt = acceleration. Area under the curve = displacement. For constant acceleration (straight line on v-t), slope = a = constant. For uniform motion (horizontal line), slope = 0 = zero acceleration.",
+    "tags": [
+      "kinematics",
+      "graphs"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "An object is launched at 45° above horizontal at speed v₀. Its maximum range (horizontal distance) is:",
+    "options": [
+      "v₀²/g",
+      "v₀²/(2g)",
+      "2v₀²/g",
+      "v₀/g"
+    ],
+    "correct": 0,
+    "explanation": "Range R = v₀² sin(2θ)/g. Maximum range when sin(2θ) = 1 (θ = 45°): R_max = v₀²/g. At any angle θ, complementary angles (e.g., 30° and 60°) give equal range. Maximum height: H = v₀²sin²θ/(2g) = v₀²/(4g) at 45°.",
+    "tags": [
+      "kinematics",
+      "projectile motion"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Two objects of masses m and 4m are connected by a string over a frictionless pulley (one hangs freely; the other is on a frictionless horizontal surface). The acceleration is:",
+    "options": [
+      "g",
+      "g/5",
+      "g/2",
+      "4g/5"
+    ],
+    "correct": 1,
+    "explanation": "Hanging mass (4m) drives system; 4mg − T = 4m·a. Mass on surface: T = m·a. Adding: 4mg = 5m·a → a = 4g/5. Wait: hanging mass drives it: net force = 4mg (weight of hanging mass, if 4m hangs). a = 4mg/(m + 4m) = 4g/5. If m hangs and 4m is on surface: a = mg/5m = g/5.",
+    "tags": [
+      "Newton's laws",
+      "Atwood machine"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "A car moving at 20 m/s applies brakes with a = −5 m/s². The stopping distance is:",
+    "options": [
+      "40 m",
+      "4 m",
+      "80 m",
+      "20 m"
+    ],
+    "correct": 0,
+    "explanation": "v² = v₀² + 2aΔx → 0 = (20)² + 2(−5)Δx → 0 = 400 − 10Δx → Δx = 40 m. Alternatively: t_stop = v₀/|a| = 20/5 = 4 s; Δx = v₀t + ½at² = 20(4) + ½(−5)(16) = 80 − 40 = 40 m. ✓",
+    "tags": [
+      "kinematics",
+      "deceleration"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A roller coaster starts from rest at height h₁ = 30 m and reaches height h₂ = 10 m (g = 10 m/s²). Ignoring friction, its speed at h₂ is:",
+    "options": [
+      "10 m/s",
+      "20 m/s",
+      "14.1 m/s",
+      "40 m/s"
+    ],
+    "correct": 1,
+    "explanation": "Energy conservation: mgh₁ = ½mv² + mgh₂ → v² = 2g(h₁−h₂) = 2(10)(30−10) = 400 → v = 20 m/s. The change in height of 20 m is what matters. (Note: 14.1 m/s would correspond to 10 m drop from rest; 10 m/s to 5 m drop.)",
+    "tags": [
+      "energy conservation",
+      "roller coaster"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which quantity is conserved in all collisions (elastic and inelastic)?",
+    "options": [
+      "Kinetic energy",
+      "Total mechanical energy",
+      "Momentum",
+      "Gravitational potential energy"
+    ],
+    "correct": 2,
+    "explanation": "Momentum is always conserved in collisions (isolated system, no external forces) — it follows directly from Newton's 3rd Law. Kinetic energy is conserved only in elastic collisions. Total mechanical energy is not conserved if friction or inelastic deformation occurs.",
+    "tags": [
+      "momentum",
+      "collisions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The torque produced by a force F acting at distance r from the pivot at angle θ is:",
+    "options": [
+      "τ = Fr",
+      "τ = Fr sinθ",
+      "τ = Fr cosθ",
+      "τ = F/r"
+    ],
+    "correct": 1,
+    "explanation": "Torque τ = r × F = rF sinθ (where θ is angle between r and F vectors). Maximum torque when F is perpendicular to r (θ = 90°): τ = rF. Zero torque when F is parallel to r. Units: N·m. For static equilibrium: Στ = 0 and ΣF = 0.",
+    "tags": [
+      "rotational motion",
+      "torque"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "For a solid cylinder rolling down an incline, compared to a sphere rolling down the same incline:",
+    "options": [
+      "The cylinder reaches the bottom faster",
+      "The sphere reaches the bottom faster (less rotational inertia)",
+      "They reach simultaneously",
+      "It depends on their masses"
+    ],
+    "correct": 1,
+    "explanation": "For a sphere (I = 2/5 mr²), acceleration a_sphere = g sinθ/(1 + 2/5) = 5gsinθ/7. For cylinder (I = ½ mr²), a_cylinder = g sinθ/(1 + 1/2) = 2gsinθ/3. Since 5/7 > 2/3, the sphere accelerates faster and reaches the bottom first. Hollow cylinder has I = mr² (slowest).",
+    "tags": [
+      "rotational motion",
+      "rolling",
+      "incline"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "A pump lifts water at flow rate Q = 0.02 m³/s through height h = 5 m (ρ_water = 1000 kg/m³, g = 10 m/s²). The minimum power of the pump is:",
+    "options": [
+      "100 W",
+      "1000 W",
+      "10 W",
+      "10,000 W"
+    ],
+    "correct": 1,
+    "explanation": "Power = rate of doing work against gravity = ρQgh = (1000)(0.02)(10)(5) = 1000 W = 1 kW. P = mgh/t = (ρ × Q × t × g × h)/t = ρQgh. This is the minimum ideal power (no friction losses in real pumps).",
+    "tags": [
+      "fluid dynamics",
+      "power",
+      "energy"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The rate of heat conduction through a wall is greatest when:",
+    "options": [
+      "Wall thickness is large and ΔT is small",
+      "Wall thickness is small, thermal conductivity is high, and ΔT is large",
+      "Area is small and ΔT is large",
+      "Temperature is uniform throughout the wall"
+    ],
+    "correct": 1,
+    "explanation": "Fourier's Law: Q/t = kA(ΔT/L). To maximize heat flow: high k (thermal conductivity), large A (cross-section), large ΔT (temperature difference), small L (thin wall). Insulation works by having small k (e.g., fiberglass, air gaps) and increased effective L.",
+    "tags": [
+      "thermodynamics",
+      "heat conduction"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The first law of thermodynamics, ΔU = q + w, where w = −PΔV (work done BY the system). For an adiabatic process:",
+    "options": [
+      "q = 0, so ΔU = w = −PΔV",
+      "ΔU = 0 and q = PΔV",
+      "w = 0 and ΔU = q",
+      "Temperature is constant"
+    ],
+    "correct": 0,
+    "explanation": "Adiabatic: no heat exchange with surroundings (q = 0). By first law: ΔU = 0 + w = w. For expansion against external pressure: w = −PΔV (work done by system is negative for expansion if convention w = work done ON system). Adiabatic expansion cools the gas (ΔU < 0, T decreases).",
+    "tags": [
+      "thermodynamics",
+      "first law",
+      "adiabatic"
+    ],
+    "difficulty": "medium"
+  }
+]

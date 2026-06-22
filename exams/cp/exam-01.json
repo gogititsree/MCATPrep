@@ -1,0 +1,407 @@
+[
+  {
+    "text": "The atomic number of an element is defined as:",
+    "options": [
+      "The number of neutrons in the nucleus",
+      "The number of protons in the nucleus",
+      "The mass number minus the number of electrons",
+      "The total number of nucleons (protons + neutrons)"
+    ],
+    "correct": 1,
+    "explanation": "The atomic number (Z) equals the number of protons in the nucleus, which determines the element's chemical identity. The mass number (A) = protons + neutrons. Isotopes have the same Z but different numbers of neutrons (different A).",
+    "tags": [
+      "atomic structure",
+      "general chemistry"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which quantum number defines the shape of an atomic orbital?",
+    "options": [
+      "Principal quantum number (n)",
+      "Angular momentum quantum number (l)",
+      "Magnetic quantum number (ml)",
+      "Spin quantum number (ms)"
+    ],
+    "correct": 1,
+    "explanation": "The angular momentum (azimuthal) quantum number l defines orbital shape: l=0 (s, spherical), l=1 (p, dumbbell), l=2 (d, cloverleaf), l=3 (f). The principal quantum number n defines energy/size; ml defines orientation in space; ms is electron spin.",
+    "tags": [
+      "atomic structure",
+      "quantum mechanics"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Electronegativity increases across a period (left to right) and decreases down a group because:",
+    "options": [
+      "Atomic radius increases and nuclear charge decreases",
+      "Nuclear charge increases and atomic radius decreases (electrons held closer)",
+      "Valence electron energy increases and orbital size decreases",
+      "Ionization energy decreases and electron affinity increases"
+    ],
+    "correct": 1,
+    "explanation": "Across a period, effective nuclear charge (Zeff) increases and atomic radius decreases, so the nucleus attracts shared electrons more strongly. Down a group, outer electrons are more shielded, decreasing electronegativity. F is the most electronegative element.",
+    "tags": [
+      "periodic trends",
+      "electronegativity"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "VSEPR theory predicts that a molecule with 4 bonding pairs and 1 lone pair (like SF₄) has which molecular geometry?",
+    "options": [
+      "Tetrahedral",
+      "Seesaw",
+      "Trigonal bipyramidal",
+      "Square planar"
+    ],
+    "correct": 1,
+    "explanation": "VSEPR: 5 electron domains (4 bonding + 1 lone pair) → electron geometry = trigonal bipyramidal. Lone pairs prefer equatorial positions. The molecular geometry (ignoring the lone pair) is seesaw (sawhorse shape). Example: SF₄.",
+    "tags": [
+      "VSEPR",
+      "molecular geometry"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "For an exothermic reaction, the enthalpy change (ΔH) is:",
+    "options": [
+      "Positive (products at higher energy)",
+      "Negative (products at lower energy than reactants)",
+      "Zero since energy is conserved",
+      "Positive only when entropy increases"
+    ],
+    "correct": 1,
+    "explanation": "In an exothermic reaction, energy is released as heat. Products are at lower energy → ΔH = H(products) − H(reactants) < 0. Examples: combustion, neutralization of strong acid/base.",
+    "tags": [
+      "thermochemistry",
+      "thermodynamics"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Hess's Law states that:",
+    "options": [
+      "ΔH for a reaction equals the sum of ΔH for each step, regardless of pathway",
+      "ΔG = ΔH − TΔS for all reactions",
+      "Enthalpy of solution always equals enthalpy of combustion",
+      "Rate of reaction is independent of enthalpy change"
+    ],
+    "correct": 0,
+    "explanation": "Because enthalpy is a state function (depends only on initial and final states), the total ΔH equals the sum of ΔH values for individual steps. This allows ΔH calculation for reactions not easily measured directly by algebraically combining thermochemical equations.",
+    "tags": [
+      "thermochemistry",
+      "Hess's Law"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Gibbs free energy change (ΔG) determines spontaneity. A reaction is spontaneous when:",
+    "options": [
+      "ΔG > 0",
+      "ΔH < 0 only",
+      "ΔG < 0",
+      "ΔS = 0"
+    ],
+    "correct": 2,
+    "explanation": "ΔG = ΔH − TΔS. When ΔG < 0: spontaneous (exergonic). When ΔG > 0: nonspontaneous. When ΔG = 0: equilibrium. Reactions can be spontaneous even if endothermic (ΔH > 0) if entropy gain (TΔS) overcomes it.",
+    "tags": [
+      "thermodynamics",
+      "Gibbs free energy"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "For the reaction A + B ⇌ C + D, the equilibrium constant K equals:",
+    "options": [
+      "K = [A][B]/[C][D]",
+      "K = [C][D]/[A][B]",
+      "K = [C]+[D]/[A]+[B]",
+      "K = Rate(forward)/Rate(reverse)"
+    ],
+    "correct": 1,
+    "explanation": "K = [products]/[reactants] = [C][D]/[A][B] at equilibrium. Each concentration is raised to its stoichiometric coefficient. K depends only on temperature. Pure solids and liquids are not included.",
+    "tags": [
+      "equilibrium",
+      "general chemistry"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Le Chatelier's principle: for N₂(g) + 3H₂(g) ⇌ 2NH₃(g), increasing pressure will:",
+    "options": [
+      "Shift equilibrium left (toward more moles of gas)",
+      "Shift equilibrium right (toward fewer moles of gas)",
+      "Have no effect",
+      "Increase only the reverse rate"
+    ],
+    "correct": 1,
+    "explanation": "Le Chatelier: increasing pressure favors the side with fewer moles of gas. Left: 4 moles; right: 2 moles. Therefore higher pressure shifts equilibrium right (→ more NH₃). This is exploited industrially in the Haber-Bosch process.",
+    "tags": [
+      "equilibrium",
+      "Le Chatelier"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "For weak acid HA (Ka = 1.8 × 10⁻⁵), the pKa is approximately:",
+    "options": [
+      "4.74",
+      "5.74",
+      "3.74",
+      "6.74"
+    ],
+    "correct": 0,
+    "explanation": "pKa = −log(Ka) = −log(1.8 × 10⁻⁵) = 5 − 0.26 = 4.74. This is the pKa of acetic acid. Buffers made from acetic acid/acetate are most effective at pH 4.74.",
+    "tags": [
+      "acid-base",
+      "Ka",
+      "pKa"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Henderson-Hasselbalch equation for a buffer is:",
+    "options": [
+      "pH = pKa − log([A⁻]/[HA])",
+      "pH = pKa + log([A⁻]/[HA])",
+      "pH = Ka × [HA]/[A⁻]",
+      "pH = pKa + [A⁻]/[HA]"
+    ],
+    "correct": 1,
+    "explanation": "pH = pKa + log([A⁻]/[HA]). When [A⁻] = [HA], pH = pKa (midpoint). A buffer is most effective within ±1 pH unit of pKa (ratio between 0.1 and 10).",
+    "tags": [
+      "acid-base",
+      "Henderson-Hasselbalch"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following is a Lewis acid?",
+    "options": [
+      "NH₃ (donates an electron pair)",
+      "H₂O (can donate a proton)",
+      "BF₃ (accepts an electron pair)",
+      "Cl⁻ (electron-rich anion)"
+    ],
+    "correct": 2,
+    "explanation": "Lewis acid = electron pair acceptor. Lewis base = electron pair donor. BF₃ has an empty p orbital on boron and accepts electron pairs. Lewis acid-base theory is broader than Brønsted-Lowry.",
+    "tags": [
+      "acid-base",
+      "Lewis acid-base"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Arrhenius equation k = A·e^(−Ea/RT) shows that:",
+    "options": [
+      "Rate is proportional to temperature linearly",
+      "Rate increases exponentially with temperature; Ea determines sensitivity to temperature",
+      "Concentration controls rate constant",
+      "Equilibrium constant and rate constant are equal"
+    ],
+    "correct": 1,
+    "explanation": "As T increases, e^(−Ea/RT) increases exponentially → k increases → rate increases. A catalyst lowers Ea, increasing k without affecting ΔG or K. Higher Ea means greater temperature sensitivity.",
+    "tags": [
+      "chemical kinetics",
+      "Arrhenius"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "For a first-order reaction, the half-life is:",
+    "options": [
+      "Proportional to initial concentration [A]₀",
+      "Equal to 0.693/k (independent of concentration)",
+      "Equal to 1/(k[A]₀)",
+      "Proportional to the square of [A]₀"
+    ],
+    "correct": 1,
+    "explanation": "t₁/₂ = 0.693/k for first-order reactions — independent of concentration. This is why radioactive decay has a constant half-life. Second-order t₁/₂ = 1/(k[A]₀), which depends on initial concentration.",
+    "tags": [
+      "chemical kinetics",
+      "half-life",
+      "rate laws"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In an electrochemical cell, oxidation occurs at the:",
+    "options": [
+      "Cathode (electrons gained)",
+      "Anode (electrons lost)",
+      "Cathode (electrons lost)",
+      "Anode (electrons gained)"
+    ],
+    "correct": 1,
+    "explanation": "Mnemonic: 'An Ox, Red Cat' — Anode = Oxidation (electrons lost), Cathode = Reduction (electrons gained). In a galvanic (voltaic) cell, electrons flow through external circuit from anode to cathode.",
+    "tags": [
+      "electrochemistry",
+      "redox"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Standard cell potential is calculated as:",
+    "options": [
+      "E°cell = E°cathode − E°anode (using standard reduction potentials)",
+      "E°cell = E°anode − E°cathode",
+      "E°cell = ΔH°/nF",
+      "E°cell = (E°cathode + E°anode)/2"
+    ],
+    "correct": 0,
+    "explanation": "E°cell = E°(cathode) − E°(anode), using standard reduction potentials. Positive E°cell means spontaneous (ΔG° = −nFE° < 0). The half-reaction with higher reduction potential is the cathode.",
+    "tags": [
+      "electrochemistry",
+      "cell potential"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Nernst equation corrects cell potential for non-standard conditions:",
+    "options": [
+      "E = E° − (RT/nF)·ln Q",
+      "E = E° + (RT/nF)·ln Q",
+      "E = E° + ΔG°/nF",
+      "E = E° × Q/n"
+    ],
+    "correct": 0,
+    "explanation": "Nernst: E = E° − (RT/nF)·ln Q ≈ E° − (0.0592/n)·log Q at 25°C. As Q increases (more products), E decreases. At equilibrium Q = K and E = 0. Connects electrochemistry to thermodynamics.",
+    "tags": [
+      "electrochemistry",
+      "Nernst equation"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Faraday's law of electrolysis: amount deposited at electrode is proportional to:",
+    "options": [
+      "Voltage applied and temperature",
+      "Charge passed (Q = It) and inversely proportional to the ion charge",
+      "Only current, not time",
+      "Electrode surface area"
+    ],
+    "correct": 1,
+    "explanation": "Mass = (M × Q)/(z × F), where M = molar mass, Q = charge (= I × t), z = ion charge, F = 96,485 C/mol. One Faraday deposits one mole of equivalents. Example: 2 F deposits 1 mole Cu from Cu²⁺.",
+    "tags": [
+      "electrochemistry",
+      "electrolysis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A chiral (stereogenic) carbon requires:",
+    "options": [
+      "A double bond",
+      "Four different substituents on the carbon",
+      "A ring structure",
+      "At least one oxygen substituent"
+    ],
+    "correct": 1,
+    "explanation": "A stereocenter (chiral center) has four different groups on a carbon. Chiral molecules are non-superimposable on their mirror images (enantiomers). R/S assignment uses Cahn-Ingold-Prelog priority rules (atomic number).",
+    "tags": [
+      "stereochemistry",
+      "organic chemistry"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Enantiomers differ from diastereomers in that:",
+    "options": [
+      "Enantiomers have identical physical properties in achiral environments; diastereomers have different physical properties",
+      "Enantiomers are structural isomers; diastereomers are conformational isomers",
+      "Enantiomers have a meso form; diastereomers do not",
+      "Enantiomers can be separated by distillation"
+    ],
+    "correct": 0,
+    "explanation": "Enantiomers are non-superimposable mirror images — identical physical properties (mp, bp) except optical rotation. Diastereomers are non-mirror-image stereoisomers (e.g., cis/trans or multiple stereocenters with R,S and S,S); they have different physical and chemical properties.",
+    "tags": [
+      "stereochemistry",
+      "organic chemistry"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "An SN2 reaction is characterized by:",
+    "options": [
+      "First-order kinetics, carbocation intermediate, racemization",
+      "Second-order kinetics, backside attack, inversion of configuration, primary substrates in polar aprotic solvents",
+      "Two-step mechanism with stable intermediate",
+      "Second-order, front-side attack, retention of configuration"
+    ],
+    "correct": 1,
+    "explanation": "SN2: one-step concerted. Rate = k[substrate][nucleophile]. Backside attack → inversion (Walden). Favored by: primary substrates, strong nucleophiles, polar aprotic solvents (DMSO, DMF), good leaving groups.",
+    "tags": [
+      "substitution",
+      "organic chemistry",
+      "SN2"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "An SN1 reaction:",
+    "options": [
+      "Proceeds by backside attack with inversion",
+      "Proceeds through a carbocation intermediate, gives racemization, favors tertiary substrates in polar protic solvents",
+      "Requires a strong bulky base",
+      "Shows rate dependence on nucleophile concentration"
+    ],
+    "correct": 1,
+    "explanation": "SN1: two steps. Rate = k[substrate]. Planar carbocation intermediate → nucleophile attacks either face → racemization. Favored by: tertiary > secondary substrates, weak nucleophiles, polar protic solvents.",
+    "tags": [
+      "substitution",
+      "organic chemistry",
+      "SN1"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "E2 elimination requires:",
+    "options": [
+      "Polar protic solvents and weak bases",
+      "Strong base (e.g., t-BuO⁻), high temperature, anti-periplanar H and leaving group",
+      "Carbocation formation then proton loss",
+      "Aqueous conditions and tertiary substrate at low temperature"
+    ],
+    "correct": 1,
+    "explanation": "E2 is concerted: base abstracts β-H simultaneously as leaving group departs. Requires anti-periplanar geometry. Strong bulky bases (t-BuOK), high temperature, polar aprotic solvents favor E2. Zaitsev's rule: major product is the more substituted alkene.",
+    "tags": [
+      "elimination",
+      "organic chemistry",
+      "E2"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Reaction of an aldehyde with a primary amine gives:",
+    "options": [
+      "An ester",
+      "An amide",
+      "An imine (Schiff base)",
+      "A hemiacetal"
+    ],
+    "correct": 2,
+    "explanation": "Primary amines (R-NH₂) add to carbonyls to form a carbinolamine, which dehydrates to an imine (C=N, Schiff base). Important in biology: PLP forms imines with amino acids in transamination reactions; lysine forms imines with aldehydes.",
+    "tags": [
+      "carbonyl chemistry",
+      "organic chemistry"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The ideal gas law PV = nRT applies to a gas with:",
+    "options": [
+      "Strong intermolecular attractions",
+      "Negligible molecular volume and negligible intermolecular forces",
+      "Van der Waals behavior at high pressure",
+      "Liquefied at low temperature behavior"
+    ],
+    "correct": 1,
+    "explanation": "Ideal gas: molecules have negligible volume, no intermolecular forces, elastic collisions. Real gases deviate at high pressure (volume effect) and low temperature (intermolecular attractions). Van der Waals equation: (P + a/V²)(V − b) = nRT.",
+    "tags": [
+      "gas laws",
+      "ideal gas"
+    ],
+    "difficulty": "easy"
+  }
+]

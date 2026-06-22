@@ -6,7 +6,7 @@ const glob = require('glob');
 const SCHEMA_PATH = path.join(__dirname, '..', 'data', 'schema', 'question-schema.json');
 const DATA_DIR = path.join(__dirname, '..', 'data', 'questions');
 const CARS_DIR = path.join(__dirname, '..', 'data', 'cars');
-const OUT_DIR = path.join(__dirname, '..', 'public', 'exams');
+const OUT_DIR = path.join(__dirname, '..', 'exams');
 
 function readJSON(file) {
   return JSON.parse(fs.readFileSync(file, 'utf8'));
@@ -59,8 +59,8 @@ function build() {
       all = all.concat(data);
     });
 
-    // Create at most 10 exams, 59 items each
-    const perExam = 59;
+    // Create at most 10 exams, 25 items each
+    const perExam = 25;
     ensure(path.join(OUT_DIR, section));
     for (let i = 0; i < Math.min(10, Math.ceil(all.length / perExam) || 1); i++) {
       const start = i * perExam;
@@ -75,7 +75,12 @@ function build() {
   if (fs.existsSync(CARS_DIR)) {
     ensure(path.join(OUT_DIR, 'cars'));
     const carsFiles = glob.sync('**/*.json', { cwd: CARS_DIR, absolute: true });
-    const allPassages = carsFiles.map(f => readJSON(f));
+    let allPassages = [];
+    carsFiles.forEach(f => {
+      const data = readJSON(f);
+      if (Array.isArray(data)) allPassages = allPassages.concat(data);
+      else if (data && data.passageText) allPassages.push(data);
+    });
     // group 3 passages per exam
     for (let i = 0; i < Math.min(10, Math.ceil(allPassages.length / 3) || 1); i++) {
       const start = i * 3;

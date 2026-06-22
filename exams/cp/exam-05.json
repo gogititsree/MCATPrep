@@ -1,0 +1,423 @@
+[
+  {
+    "text": "Electrolysis of molten NaCl produces:",
+    "options": [
+      "Na₂O and Cl₂",
+      "Na(l) at cathode, Cl₂(g) at anode",
+      "NaOH and HCl",
+      "Cl₂ at cathode, Na at anode"
+    ],
+    "correct": 1,
+    "explanation": "Electrolysis of molten NaCl (Downs process): At cathode (reduction): Na⁺ + e⁻ → Na(l). At anode (oxidation): 2Cl⁻ → Cl₂(g) + 2e⁻. Products are liquid sodium metal and chlorine gas — commercially important for sodium production.",
+    "tags": [
+      "electrochemistry",
+      "electrolysis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "According to the aufbau principle and Hund's rule, the electron configuration of nitrogen (Z=7) is:",
+    "options": [
+      "1s²2s²2p⁶",
+      "1s²2s²2p³ (with one electron in each 2p orbital, all same spin)",
+      "1s²2s¹2p⁴",
+      "1s²2p⁵"
+    ],
+    "correct": 1,
+    "explanation": "Nitrogen: 7 electrons. Aufbau fills lowest energy first: 1s² (2e), 2s² (2e), 2p³ (3e). Hund's rule: the 3 degenerate 2p orbitals each receive one electron with parallel spins before pairing. Configuration: 1s²2s²2p₁¹2p_y¹2p_z¹. This half-filled configuration gives N extra stability.",
+    "tags": [
+      "atomic structure",
+      "electron configuration"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which orbital notation represents the paramagnetic element with electron configuration [Ar]3d¹⁰4s²?",
+    "options": [
+      "Zinc (Zn) — diamagnetic because all electrons are paired",
+      "Chromium (Cr) — paramagnetic due to unpaired 3d electrons",
+      "Copper (Cu) — paramagnetic",
+      "Iron (Fe) — paramagnetic"
+    ],
+    "correct": 0,
+    "explanation": "[Ar]3d¹⁰4s²: all electrons are paired (3d is full, 4s has 2 paired electrons) → diamagnetic. This is zinc (Z=30). Paramagnetic elements have unpaired electrons: Fe ([Ar]3d⁶4s²), Cu ([Ar]3d¹⁰4s¹), Cr ([Ar]3d⁵4s¹).",
+    "tags": [
+      "atomic structure",
+      "electron configuration",
+      "magnetic properties"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The van der Waals equation corrects the ideal gas law for:",
+    "options": [
+      "Only molecular volume (constant b)",
+      "Only intermolecular attractions (constant a)",
+      "Both intermolecular attractions (a/V² correction to P) and finite molecular volume (b correction to V)",
+      "Temperature-dependent corrections only"
+    ],
+    "correct": 2,
+    "explanation": "Van der Waals: (P + an²/V²)(V − nb) = nRT. The an²/V² term corrects for intermolecular attractions (reduces effective pressure). The nb term corrects for finite molecular volume (reduces available volume). At low temperature and high pressure, real gases deviate most from ideal behavior.",
+    "tags": [
+      "gas laws",
+      "van der Waals",
+      "real gases"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Graham's Law of Effusion states that the rate of effusion is proportional to:",
+    "options": [
+      "Square root of molecular mass",
+      "Inverse of molecular mass",
+      "Square root of 1/molecular mass (1/√M)",
+      "Directly proportional to molecular mass"
+    ],
+    "correct": 2,
+    "explanation": "Graham's Law: rate₁/rate₂ = √(M₂/M₁). Lighter molecules effuse faster. Example: H₂ (2 g/mol) effuses √(32/2) = 4 times faster than O₂ (32 g/mol). Also applies to diffusion. Used to separate uranium isotopes (²³⁵UF₆ vs ²³⁸UF₆) in early nuclear programs.",
+    "tags": [
+      "gas laws",
+      "Graham's Law",
+      "effusion"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The aldol condensation reaction involves:",
+    "options": [
+      "Oxidation of an aldehyde to a carboxylic acid",
+      "Nucleophilic addition of an enolate to a carbonyl (aldehyde or ketone), forming a β-hydroxy carbonyl compound",
+      "Reduction of a ketone to an alcohol",
+      "Formation of a hemiacetal from alcohol + aldehyde"
+    ],
+    "correct": 1,
+    "explanation": "Aldol condensation: an enolate (from α-carbon of one carbonyl compound) acts as a nucleophile and attacks the carbonyl of another carbonyl compound → aldol product (β-hydroxy carbonyl). Under acidic or basic conditions. Elimination gives an α,β-unsaturated carbonyl (aldol condensation product, dehydrated).",
+    "tags": [
+      "organic chemistry",
+      "carbonyl reactions",
+      "aldol"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Grignard reagent (RMgX) acts as:",
+    "options": [
+      "An electrophile that attacks nucleophilic carbonyl oxygen",
+      "A nucleophile (carbanion equivalent, R⁻) that attacks the electrophilic carbonyl carbon",
+      "An acid that protonates carbonyl compounds",
+      "An oxidizing agent"
+    ],
+    "correct": 1,
+    "explanation": "Grignard reagent: R-MgX. The C-Mg bond is highly polarized (C is δ⁻), making R essentially a carbanion (strong nucleophile/strong base). R⁻ attacks the carbonyl carbon → after workup with H₂O: addition product. Reactions: HCHO → primary alcohol, other aldehydes → secondary alcohol, ketones → tertiary alcohol.",
+    "tags": [
+      "organic chemistry",
+      "Grignard reagent",
+      "reactions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Diels-Alder reaction requires:",
+    "options": [
+      "A diene and a dienophile; the diene must be in the s-cis conformation",
+      "A triene and an alkyne",
+      "Acid catalyst and an aldehyde",
+      "Peroxide initiator and an alkene"
+    ],
+    "correct": 0,
+    "explanation": "Diels-Alder: [4+2] cycloaddition. The diene (4π) must be conjugated and in the s-cis conformation (can rotate around single bond); reacts with a dienophile (alkene/alkyne, often electron-poor with EWGs). Product: cyclohexene (or cyclohexadiene). The reaction is concerted (no radicals/ions), endo selective, stereospecific (cis → cis, trans → trans).",
+    "tags": [
+      "organic chemistry",
+      "Diels-Alder",
+      "cycloaddition"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In nucleophilic acyl substitution, which is the most reactive acyl compound?",
+    "options": [
+      "Amide (least reactive to substitution)",
+      "Ester",
+      "Anhydride",
+      "Acyl chloride (most reactive to substitution)"
+    ],
+    "correct": 3,
+    "explanation": "Reactivity toward nucleophilic acyl substitution: acyl chloride > anhydride > ester > carboxylic acid > amide. Acyl chlorides are most reactive because Cl⁻ is an excellent leaving group (weak base). Amides are least reactive because the nitrogen lone pair stabilizes the carbonyl (nitrogen is part of the resonance delocalization).",
+    "tags": [
+      "organic chemistry",
+      "acyl substitution",
+      "carbonyl"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Ozonolysis of an alkene (O₃, then Zn/H₂O workup) produces:",
+    "options": [
+      "A diol (two OH groups added)",
+      "Cleavage of the double bond to give two carbonyl compounds (aldehydes from CH=, ketones from C= with substituents)",
+      "Epoxidation of the double bond",
+      "Hydrogenation of the double bond"
+    ],
+    "correct": 1,
+    "explanation": "Reductive ozonolysis (O₃, then Zn/H₂O or DMS): breaks C=C to form aldehydes (from =CH) or ketones (from =CR₂). Oxidative workup (O₃, then H₂O₂): aldehydes are further oxidized to carboxylic acids. Ozonolysis is used to identify the location of double bonds in unknown structures.",
+    "tags": [
+      "organic chemistry",
+      "ozonolysis",
+      "alkene reactions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The E/Z nomenclature assigns configuration to geometric isomers of double bonds using:",
+    "options": [
+      "Which substituent is on the left or right in the structural formula",
+      "Cahn-Ingold-Prelog priority rules at each doubly bonded carbon (E = entgegen = opposite; Z = zusammen = same side)",
+      "Whether the substituents are identical or different",
+      "Whether the molecule can rotate freely"
+    ],
+    "correct": 1,
+    "explanation": "E/Z assigns priorities to the two substituents on each sp² carbon using CIP rules (atomic number). Z (zusammen, together): higher-priority groups on the same side; E (entgegen, against): higher-priority groups on opposite sides. E/Z is more systematic than cis/trans and applies when the substituents on each carbon are different.",
+    "tags": [
+      "stereochemistry",
+      "E/Z nomenclature",
+      "organic chemistry"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Infrared absorption of an N-H bond in a primary amine appears at approximately:",
+    "options": [
+      "2500-3300 cm⁻¹ (broad, hydrogen bonded)",
+      "3300-3500 cm⁻¹ with two peaks (N-H stretch, primary amine has two N-H)",
+      "1700 cm⁻¹ (characteristic C=O region)",
+      "600-900 cm⁻¹ (fingerprint region)"
+    ],
+    "correct": 1,
+    "explanation": "Primary amines (R-NH₂) show two N-H stretching peaks at ~3300-3500 cm⁻¹ (symmetric and antisymmetric). Secondary amines (R₂NH) show one N-H peak. Tertiary amines (R₃N) show no N-H peak. Amines are broader but not as broad as alcohols; N-H is shorter-wavelength than O-H...O (hydrogen bonded). C=O appears ~1700 cm⁻¹.",
+    "tags": [
+      "spectroscopy",
+      "IR",
+      "organic chemistry",
+      "amines"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In a mass spectrum, the M+2 peak is twice as tall as the M peak. This indicates the molecule contains:",
+    "options": [
+      "One chlorine atom (³⁵Cl/³⁷Cl ratio ≈ 3:1, so M/M+2 ≈ 3:1)",
+      "One bromine atom (⁷⁹Br/⁸¹Br ratio ≈ 1:1, so M/M+2 ≈ 1:1)",
+      "Two carbon-13 atoms",
+      "One sulfur atom"
+    ],
+    "correct": 1,
+    "explanation": "Bromine has two naturally abundant isotopes: ⁷⁹Br (~50%) and ⁸¹Br (~50%). This gives M and M+2 peaks of nearly equal intensity (≈1:1). Chlorine isotopes (³⁵Cl:³⁷Cl ≈ 3:1) give M:M+2 ≈ 3:1. Two Cl atoms give M:M+2:M+4 ≈ 9:6:1. This isotope pattern is a diagnostic tool.",
+    "tags": [
+      "spectroscopy",
+      "mass spectrometry",
+      "halogens"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "A racemic mixture:",
+    "options": [
+      "Is a single enantiomer with no optical rotation",
+      "Is a 50:50 mixture of two enantiomers that cancel each other's optical rotation (net rotation = 0)",
+      "Rotates polarized light in the positive direction",
+      "Contains only meso compounds"
+    ],
+    "correct": 1,
+    "explanation": "A racemic mixture (racemate) contains equal amounts of both enantiomers (+) and (−). Since they rotate plane-polarized light equally but in opposite directions, the net rotation is zero (optically inactive). Racemic mixtures can be separated (resolved) into pure enantiomers by chiral chromatography or reaction with a chiral resolving agent.",
+    "tags": [
+      "stereochemistry",
+      "optical activity",
+      "racemic mixture"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A meso compound is:",
+    "options": [
+      "A compound with no chiral centers",
+      "A compound with two or more chiral centers that is achiral overall due to an internal plane of symmetry",
+      "A compound with opposite configuration at every chiral center",
+      "The same as a racemic mixture"
+    ],
+    "correct": 1,
+    "explanation": "A meso compound has two or more stereocenters but is achiral overall because it has an internal plane of symmetry (the two halves are mirror images of each other). Example: meso-tartaric acid (2R,3S configuration). A meso compound is a single compound (not a mixture) with zero optical rotation.",
+    "tags": [
+      "stereochemistry",
+      "meso compounds"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In organic naming (IUPAC), the suffix for an aldehyde is:",
+    "options": [
+      "-ol",
+      "-one",
+      "-al",
+      "-oic acid"
+    ],
+    "correct": 2,
+    "explanation": "IUPAC suffixes: alcohol = -ol; ketone = -one; aldehyde = -al; carboxylic acid = -oic acid; amine = -amine; ester = -anoate; amide = -amide; alkene = -ene; alkyne = -yne. Aldehydes: the carbonyl carbon is C-1, and the 'H' is explicit in the name (e.g., methanal = formaldehyde, ethanal = acetaldehyde).",
+    "tags": [
+      "organic chemistry",
+      "IUPAC nomenclature"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Reduction of a ketone by NaBH₄ (sodium borohydride) gives:",
+    "options": [
+      "A carboxylic acid",
+      "A primary alcohol",
+      "A secondary alcohol",
+      "An aldehyde"
+    ],
+    "correct": 2,
+    "explanation": "NaBH₄ (mild reducing agent) reduces aldehydes to primary alcohols and ketones to secondary alcohols. LiAlH₄ (LAH, stronger) reduces esters, amides, and carboxylic acids in addition. Acetone (ketone) + NaBH₄ → isopropanol (secondary alcohol). The hydride H⁻ adds to the carbonyl carbon (electrophile).",
+    "tags": [
+      "organic chemistry",
+      "reduction",
+      "reactions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which reagent will convert a primary alcohol to an aldehyde without over-oxidizing to a carboxylic acid?",
+    "options": [
+      "KMnO₄ (strong oxidant)",
+      "K₂Cr₂O₇/H₂SO₄ (strong oxidant)",
+      "PCC (pyridinium chlorochromate) in CH₂Cl₂ (mild oxidant)",
+      "Ozone followed by DMS workup"
+    ],
+    "correct": 2,
+    "explanation": "PCC (pyridinium chlorochromate) is a mild, selective oxidant for converting primary alcohols to aldehydes (stops at aldehyde) and secondary alcohols to ketones. Strong oxidants like KMnO₄ or acidic dichromate over-oxidize primary alcohols to carboxylic acids. Tertiary alcohols cannot be oxidized (no H on the carbon).",
+    "tags": [
+      "organic chemistry",
+      "oxidation",
+      "reactions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following tests is used to distinguish between aldehydes and ketones?",
+    "options": [
+      "Tollens' test (silver mirror test — positive only for aldehydes)",
+      "Ferric chloride test (positive for phenols)",
+      "Lucas test (distinguishes primary/secondary/tertiary alcohols)",
+      "Baeyer test (KMnO₄, positive for alkenes)"
+    ],
+    "correct": 0,
+    "explanation": "Tollens' test: [Ag(NH₃)₂]⁺ is reduced by aldehydes (mild reducing agents) → silver mirror on glass. Ketones do not reduce Tollens' reagent. Benedict's test (Cu²⁺) similarly distinguishes reducing sugars (aldehydes) from non-reducing sugars. Fehling's test is analogous. Ketones are not oxidized under mild conditions.",
+    "tags": [
+      "organic chemistry",
+      "aldehydes vs ketones",
+      "tests"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The SN1 reaction at a chiral center produces:",
+    "options": [
+      "100% inversion of configuration",
+      "50/50 R and S (racemization) due to planar carbocation attacked from either face",
+      "Retention of configuration",
+      "Only the more stable product"
+    ],
+    "correct": 1,
+    "explanation": "SN1 proceeds via a planar (sp²) carbocation. The nucleophile can attack from either face with ~equal probability → racemization. In practice, some inversion may predominate (due to ion pairing with leaving group shielding one face), but perfect racemization is the theoretical prediction.",
+    "tags": [
+      "organic chemistry",
+      "SN1",
+      "stereochemistry"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The principle of microscopic reversibility states that:",
+    "options": [
+      "All reactions are reversible at sufficiently high temperature",
+      "A catalyst increases the rate of the forward and reverse reactions equally (ratio K unchanged)",
+      "Every elementary step in a reaction mechanism proceeds through the same transition state in both directions",
+      "Both B and C are applications of this principle"
+    ],
+    "correct": 3,
+    "explanation": "Microscopic reversibility: the microscopic mechanism of the reverse reaction follows the reverse pathway of the forward reaction through the same transition states. Corollary: a catalyst increases rate of forward and reverse reactions proportionally (Ea lowered equally), so K is unchanged. Only relative rates change, not equilibrium.",
+    "tags": [
+      "chemical kinetics",
+      "catalysis",
+      "reversibility"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The critical angle for total internal reflection of a ray going from glass (n=1.5) to air (n=1.0) is:",
+    "options": [
+      "sin θ_c = n_air/n_glass = 1/1.5 → θ_c ≈ 41.8°",
+      "sin θ_c = n_glass/n_air = 1.5/1 → impossible (>1)",
+      "θ_c = 60°",
+      "θ_c = 45°"
+    ],
+    "correct": 0,
+    "explanation": "Critical angle formula: sin θ_c = n₂/n₁ where n₁ > n₂. Here n₁ = 1.5 (glass, denser), n₂ = 1.0 (air). sin θ_c = 1.0/1.5 = 0.667 → θ_c = arcsin(0.667) ≈ 41.8°. When incident angle > θ_c, no refracted ray — total internal reflection. Used in optical fibers.",
+    "tags": [
+      "optics",
+      "total internal reflection",
+      "Snell's Law"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "For a mirror, the mirror equation relates object distance (d_o), image distance (d_i), and focal length (f):",
+    "options": [
+      "1/f = d_o × d_i",
+      "1/f = 1/d_o + 1/d_i",
+      "f = d_o + d_i",
+      "1/f = d_o − d_i"
+    ],
+    "correct": 1,
+    "explanation": "Mirror equation: 1/f = 1/d_o + 1/d_i (same as thin lens equation). For a concave (converging) mirror: f > 0. For a convex (diverging) mirror: f < 0 (f = R/2 where R = radius of curvature). Magnification: m = −d_i/d_o. Real image (d_i > 0): inverted. Virtual image (d_i < 0): upright.",
+    "tags": [
+      "optics",
+      "mirrors"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The energy stored in a spring compressed by distance x from equilibrium is:",
+    "options": [
+      "PE = kx",
+      "PE = ½kx²",
+      "PE = mgx",
+      "PE = kx²"
+    ],
+    "correct": 1,
+    "explanation": "Elastic potential energy: PE = ½kx², where k = spring constant (N/m) and x = displacement from equilibrium. Hooke's Law: F = −kx (restoring force). In SHM: at maximum compression/extension (x = A), KE = 0, PE = ½kA² = total energy. At equilibrium (x = 0), KE = ½kA², PE = 0.",
+    "tags": [
+      "oscillations",
+      "springs",
+      "energy"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Work done by gravity when an object falls height h:",
+    "options": [
+      "W = −mgh (negative, since gravity acts against upward displacement)",
+      "W = mgh (positive, force and displacement in same direction)",
+      "W = 0 (gravity is always perpendicular to motion)",
+      "W = mg (independent of h)"
+    ],
+    "correct": 1,
+    "explanation": "Work done by gravity: W = mgh when object falls height h (force mg downward, displacement h downward → same direction → cosθ = 1). W is positive. This equals the decrease in gravitational PE: W_gravity = −ΔPE = −(mgh_final − mgh_initial) = mgh when falling a height h.",
+    "tags": [
+      "work",
+      "energy",
+      "gravity"
+    ],
+    "difficulty": "medium"
+  }
+]

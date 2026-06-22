@@ -1,0 +1,420 @@
+[
+  {
+    "text": "Hess's Law calculation: Given ΔH for 2H₂ + O₂ → 2H₂O = −484 kJ, what is ΔH for H₂O → H₂ + ½O₂?",
+    "options": [
+      "−484 kJ",
+      "−242 kJ",
+      "+242 kJ",
+      "+484 kJ"
+    ],
+    "correct": 2,
+    "explanation": "Reverse the original reaction AND divide by 2: ΔH for 2H₂O → 2H₂ + O₂ = +484 kJ (reverse = same magnitude, opposite sign). For H₂O → H₂ + ½O₂ (half the coefficients): ΔH = +484/2 = +242 kJ. Endothermic (makes sense: decomposing water requires energy input).",
+    "tags": [
+      "thermochemistry",
+      "Hess's Law"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The standard enthalpy of formation of CO₂ (ΔHf° = −393.5 kJ/mol) means:",
+    "options": [
+      "C(graphite) + O₂(g) → CO₂(g), ΔH° = −393.5 kJ",
+      "CO₂ releases 393.5 kJ when combusted",
+      "CO₂ has 393.5 kJ of internal energy",
+      "The reverse reaction has ΔH° = −393.5 kJ"
+    ],
+    "correct": 0,
+    "explanation": "ΔHf° is the enthalpy change for forming 1 mole of compound from its constituent elements in their standard states. C(graphite) + O₂(g) → CO₂(g), ΔH°f = −393.5 kJ/mol. This reaction is exothermic (combustion of carbon). Used with Hess's Law: ΔH°rxn = Σ ΔHf°(products) − Σ ΔHf°(reactants).",
+    "tags": [
+      "thermochemistry",
+      "enthalpy of formation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Bond enthalpy (bond energy) is used to estimate ΔH for a reaction. The equation is:",
+    "options": [
+      "ΔH ≈ Σ (bonds formed) − Σ (bonds broken)",
+      "ΔH ≈ Σ (bonds broken) − Σ (bonds formed)",
+      "ΔH ≈ Σ (bonds formed) + Σ (bonds broken)",
+      "ΔH ≈ Σ (bonds broken) / Σ (bonds formed)"
+    ],
+    "correct": 1,
+    "explanation": "ΔH ≈ Σ D(bonds broken, reactants) − Σ D(bonds formed, products). Breaking bonds requires energy (endothermic, +); forming bonds releases energy (exothermic, −). Net: if bonds formed are stronger than bonds broken → ΔH < 0 (exothermic overall). Average bond enthalpies give approximate answers.",
+    "tags": [
+      "thermochemistry",
+      "bond energy"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which molecule has the highest dipole moment?",
+    "options": [
+      "CO₂ (linear, symmetric, net dipole = 0)",
+      "CCl₄ (tetrahedral, symmetric, net dipole = 0)",
+      "H₂O (bent, asymmetric, net dipole ≠ 0)",
+      "CH₄ (tetrahedral, symmetric, net dipole = 0)"
+    ],
+    "correct": 2,
+    "explanation": "Dipole moment depends on both bond polarity and molecular geometry. H₂O: O-H bonds are very polar (O is highly electronegative), and the bent geometry means the bond dipoles don't cancel → large net dipole moment (μ = 1.85 D). Symmetric molecules (CO₂, CCl₄, CH₄) have bond dipoles that cancel.",
+    "tags": [
+      "polarity",
+      "molecular geometry",
+      "intermolecular forces"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Electronegativity difference determines bond type: Δ EN > 2.0 = ionic; 0.5–2.0 = polar covalent; < 0.5 = nonpolar covalent. The C-F bond (EN: C=2.5, F=4.0, Δ EN=1.5) is:",
+    "options": [
+      "Ionic",
+      "Polar covalent",
+      "Nonpolar covalent",
+      "Metallic"
+    ],
+    "correct": 1,
+    "explanation": "Δ EN = 4.0 − 2.5 = 1.5, which falls in the polar covalent range (0.5 to 2.0). The C-F bond is strongly polar (F pulls electron density), making organofluorine compounds useful in pharmaceuticals (metabolic stability) and nonstick surfaces (PTFE/Teflon).",
+    "tags": [
+      "electronegativity",
+      "bond polarity",
+      "bonding"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which process in the nitrogen cycle converts N₂ gas into ammonia (NH₃)?",
+    "options": [
+      "Nitrification",
+      "Denitrification",
+      "Nitrogen fixation",
+      "Ammonification"
+    ],
+    "correct": 2,
+    "explanation": "Nitrogen fixation: N₂(g) → NH₃ (done by nitrogen-fixing bacteria such as Rhizobium and Azotobacter, which have nitrogenase enzyme, or industrially by Haber-Bosch process). Nitrification: NH₃ → NO₂⁻ → NO₃⁻. Denitrification: NO₃⁻ → N₂. Ammonification: organic N → NH₃.",
+    "tags": [
+      "biochemistry",
+      "nitrogen cycle"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A voltaic cell has E°cell = 1.10 V for the Zn/Cu cell: Zn → Zn²⁺ + 2e⁻ (anode) and Cu²⁺ + 2e⁻ → Cu (cathode). The ΔG° for the reaction is (n = 2, F = 96,485 C/mol):",
+    "options": [
+      "−212 kJ/mol",
+      "−106 kJ/mol",
+      "−424 kJ/mol",
+      "+212 kJ/mol"
+    ],
+    "correct": 0,
+    "explanation": "ΔG° = −nFE° = −(2)(96,485 C/mol)(1.10 V) = −212,267 J/mol ≈ −212 kJ/mol. The negative value confirms the reaction is spontaneous (as expected for a galvanic cell). This is the Daniel cell (1836), the classic galvanic cell.",
+    "tags": [
+      "electrochemistry",
+      "Gibbs free energy",
+      "cell potential"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which is the correct hierarchy of acid strength for these carboxylic acids: acetic acid (CH₃COOH), chloroacetic acid (ClCH₂COOH), dichloroacetic acid (Cl₂CHCOOH)?",
+    "options": [
+      "CH₃COOH > ClCH₂COOH > Cl₂CHCOOH",
+      "ClCH₂COOH > Cl₂CHCOOH > CH₃COOH",
+      "Cl₂CHCOOH > ClCH₂COOH > CH₃COOH (more Cl = stronger EWG = stronger acid)",
+      "All three have equal strength"
+    ],
+    "correct": 2,
+    "explanation": "Electronegative Cl atoms are electron-withdrawing groups (EWGs) that stabilize the conjugate base (carboxylate anion) by inductive effect, increasing acid strength. More Cl = stronger EWG = more stable carboxylate = stronger acid. pKa: acetic (4.74) > chloroacetic (2.86) > dichloroacetic (1.48). EWGs increase acid strength; EDGs decrease it.",
+    "tags": [
+      "organic chemistry",
+      "acid strength",
+      "inductive effect"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The pH of a 0.10 M acetic acid solution (Ka = 1.8 × 10⁻⁵) is approximately:",
+    "options": [
+      "2.87",
+      "4.74",
+      "3.37",
+      "1.0"
+    ],
+    "correct": 0,
+    "explanation": "CH₃COOH ⇌ H⁺ + CH₃COO⁻. Ka = x²/(0.10 − x) ≈ x²/0.10 (weak acid approx: x << 0.10). x² = Ka × 0.10 = 1.8 × 10⁻⁶. x = [H⁺] = 1.34 × 10⁻³ M. pH = −log(1.34 × 10⁻³) ≈ 2.87. Check: x/C = 1.34×10⁻³/0.10 = 1.34% << 5%, approximation valid.",
+    "tags": [
+      "acid-base",
+      "weak acid pH calculation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In a galvanic cell with E°cell = 0.76 V (Zn/H₂ cell) and n = 2, the equilibrium constant K at 25°C is:",
+    "options": [
+      "K = 10^(2×0.76/0.0592) ≈ 10^25.7",
+      "K = 10^(−0.76/0.0592)",
+      "K = 1",
+      "K = e^(−76.8)"
+    ],
+    "correct": 0,
+    "explanation": "ΔG° = −RT ln K = −nFE°. So ln K = nFE°/(RT) = nE°/(0.02569 V) at 25°C; or log K = nE°/(0.0592 V) = 2(0.76)/0.0592 = 25.7. K = 10^25.7 ≈ 5 × 10^25. Extremely large K → essentially complete reaction at equilibrium.",
+    "tags": [
+      "electrochemistry",
+      "equilibrium constant",
+      "Nernst"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The conductivity of a strong electrolyte solution compared to a weak electrolyte at equal concentration is:",
+    "options": [
+      "Lower because strong electrolytes have larger ions",
+      "Higher because strong electrolytes fully dissociate → more ions to carry charge",
+      "Equal, since number of ions doesn't affect conductivity",
+      "Lower because the solution is too concentrated"
+    ],
+    "correct": 1,
+    "explanation": "Electrical conductivity of a solution depends on the number and mobility of ions. Strong electrolytes (e.g., NaCl, HCl) fully dissociate → maximum ion concentration → high conductivity. Weak electrolytes (e.g., acetic acid, NH₃) partially dissociate → fewer ions → lower conductivity. At infinite dilution, weak electrolytes approach full dissociation.",
+    "tags": [
+      "electrochemistry",
+      "electrolytes",
+      "conductivity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The percent ionization of a weak acid INCREASES as:",
+    "options": [
+      "Concentration of weak acid increases",
+      "Temperature decreases",
+      "Concentration of weak acid decreases (Ka stays constant, so lower C → more dissociation fraction)",
+      "Conjugate base is added to the solution"
+    ],
+    "correct": 2,
+    "explanation": "For HA ⇌ H⁺ + A⁻: Ka = [H⁺][A⁻]/[HA] ≈ x²/(C−x). Percent ionization = (x/C) × 100%. Solving: x = √(Ka × C) (approximately), so x/C = √(Ka/C). As C decreases, x/C (percent ionization) increases. More dilute weak acid = greater percent dissociation (Le Chatelier: dilution shifts equilibrium right).",
+    "tags": [
+      "acid-base",
+      "weak acid",
+      "percent ionization"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The reduction half-reaction for O₂ in acidic solution is: O₂ + 4H⁺ + 4e⁻ → 2H₂O, E° = +1.23 V. The oxidation half-reaction for H₂ is: H₂ → 2H⁺ + 2e⁻, E° = 0 V (by definition). The overall E° for the hydrogen fuel cell is:",
+    "options": [
+      "1.23 V",
+      "2.46 V",
+      "0 V",
+      "0.615 V"
+    ],
+    "correct": 0,
+    "explanation": "Fuel cell: H₂ is oxidized at anode (E° = 0 V), O₂ is reduced at cathode (E° = +1.23 V). E°cell = E°cathode − E°anode = 1.23 − 0 = 1.23 V. Note: multiplying half-reactions to balance electrons does NOT change E° (intensive property). Overall: 2H₂ + O₂ → 2H₂O, ΔG° = −nFE° = −4(96485)(1.23) = −474 kJ.",
+    "tags": [
+      "electrochemistry",
+      "fuel cell",
+      "half-reactions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In which order do signals appear in ¹H NMR for the compound CH₃-C(=O)-CH₂-OH (hydroxyacetone)?",
+    "options": [
+      "Three signals: CH₃ (δ~2.1), CH₂ (δ~4.3), OH (δ~3-5, variable)",
+      "Two signals (CH₃ and CH₂ are equivalent)",
+      "One signal (all H equivalent)",
+      "Four signals (each H is unique)"
+    ],
+    "correct": 0,
+    "explanation": "Hydroxyacetone has 3 types of H: (1) CH₃ next to carbonyl (δ~2.1, 3H, singlet — no adjacent H for coupling); (2) CH₂ next to carbonyl and OH (δ~4.3, 2H); (3) OH (broad singlet, variable δ, 1H). Three ¹H NMR signals total. Integration ratio = 3:2:1.",
+    "tags": [
+      "spectroscopy",
+      "NMR",
+      "organic chemistry"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The melting point of a compound is a characteristic physical property used for identification. A sharp melting point indicates:",
+    "options": [
+      "The compound is a polymer",
+      "The compound is a pure substance (pure compounds melt sharply; impurities broaden and lower the melting range)",
+      "The compound has high molecular weight",
+      "The compound has strong covalent bonds only"
+    ],
+    "correct": 1,
+    "explanation": "Pure crystalline compounds have sharp, characteristic melting points (narrow range, <1°C). Impurities disrupt the crystal lattice, depressing and broadening the melting point. Mixture melting point depression is also used to confirm identity: mix known with unknown — if mp is unaffected, they're the same compound; if depressed, they're different.",
+    "tags": [
+      "organic chemistry",
+      "physical properties",
+      "melting point"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Boiling point of organic compounds is influenced primarily by:",
+    "options": [
+      "Molecular weight alone",
+      "Intermolecular forces: London dispersion (all molecules), dipole-dipole (polar molecules), and hydrogen bonding (N-H, O-H, or F-H donors)",
+      "Molecular shape only",
+      "Bond length and bond angle"
+    ],
+    "correct": 1,
+    "explanation": "Boiling point hierarchy (same molecular weight): H-bonding compounds > polar (dipole-dipole) > nonpolar (London dispersion only). Among nonpolar compounds: higher MW or more elongated (greater surface area) → stronger London dispersion → higher bp. Branching decreases surface area → lower bp than unbranched isomer.",
+    "tags": [
+      "intermolecular forces",
+      "boiling point",
+      "organic chemistry"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In electrophoresis, proteins migrate toward:",
+    "options": [
+      "The cathode (negative electrode) if they carry net positive charge at the buffer pH",
+      "The anode (positive electrode) if they carry net positive charge",
+      "The cathode regardless of charge",
+      "The anode regardless of charge"
+    ],
+    "correct": 0,
+    "explanation": "In electrophoresis, positive charges migrate toward the cathode (negative electrode) and negative charges toward the anode (positive electrode). At pH below the protein's pI (isoelectric point), protein carries net positive charge → migrates toward cathode. At pH above pI, net negative charge → migrates toward anode. At pH = pI, no migration.",
+    "tags": [
+      "biochemistry",
+      "electrophoresis",
+      "protein chemistry"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Bragg equation (nλ = 2d sinθ) describes:",
+    "options": [
+      "Refraction of light through a prism",
+      "Diffraction of X-rays by crystal lattice planes (determines crystal structure)",
+      "Reflection of sound in a room",
+      "Emission of electrons from a metal surface"
+    ],
+    "correct": 1,
+    "explanation": "Bragg's Law: nλ = 2d sinθ, where n = integer, λ = X-ray wavelength, d = lattice plane spacing, θ = angle of incidence. Constructive interference of X-rays reflected from parallel crystal planes allows determination of d-spacings and crystal structure (X-ray crystallography). Used to determine structures of DNA (Watson/Crick/Franklin), proteins, and inorganic materials.",
+    "tags": [
+      "modern physics",
+      "X-ray diffraction",
+      "Bragg's Law"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "An α particle has: ",
+    "options": [
+      "Mass number 4, charge +2 (helium-4 nucleus)",
+      "Mass number 1, charge −1 (electron)",
+      "Mass number 0, no charge (gamma photon)",
+      "Mass number 2, charge +1"
+    ],
+    "correct": 0,
+    "explanation": "Alpha particle = helium-4 nucleus = 2 protons + 2 neutrons. Symbol: ⁴He²⁺ or α. Charge = +2, mass number = 4. α decay: parent nucleus loses 4 in mass number and 2 in atomic number. E.g., ²³⁸U → ²³⁴Th + ⁴He (alpha). Alpha particles are stopped by paper or a few cm of air.",
+    "tags": [
+      "nuclear physics",
+      "alpha decay"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In gamma decay, the nucleus:",
+    "options": [
+      "Loses a proton",
+      "Loses a neutron",
+      "Emits a high-energy photon (γ ray) without changing Z or A",
+      "Gains an electron from an inner shell"
+    ],
+    "correct": 2,
+    "explanation": "Gamma decay: excited nucleus (indicated by * or m for metastable) releases a high-energy photon (γ ray, ≥ 100 keV) to reach lower energy state. Z and A are unchanged (no change in nuclear composition). Often follows alpha or beta decay (daughter in excited state). Example: ⁶⁰Co (used in cancer radiotherapy).",
+    "tags": [
+      "nuclear physics",
+      "gamma decay"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The Henderson-Hasselbalch equation. A phosphate buffer: H₂PO₄⁻ ⇌ H⁺ + HPO₄²⁻ (pKa = 7.2) at pH 7.4. The ratio [HPO₄²⁻]/[H₂PO₄⁻] is:",
+    "options": [
+      "10^(7.4−7.2) = 10^0.2 ≈ 1.58",
+      "10^(7.2−7.4) = 10^−0.2 ≈ 0.63",
+      "1 (equal amounts)",
+      "10 (10:1 ratio)"
+    ],
+    "correct": 0,
+    "explanation": "H-H: pH = pKa + log([A⁻]/[HA]) → 7.4 = 7.2 + log([HPO₄²⁻]/[H₂PO₄⁻]) → log([HPO₄²⁻]/[H₂PO₄⁻]) = 0.2 → [HPO₄²⁻]/[H₂PO₄⁻] = 10^0.2 ≈ 1.58. At pH 7.4 (slightly above pKa 7.2), more conjugate base (HPO₄²⁻) than acid (H₂PO₄⁻). This is the physiological intracellular phosphate buffer.",
+    "tags": [
+      "acid-base",
+      "Henderson-Hasselbalch",
+      "buffer calculations"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Oxidation of a primary alcohol by acidic dichromate (K₂Cr₂O₇/H₂SO₄) gives:",
+    "options": [
+      "An aldehyde only (stops at aldehyde)",
+      "A ketone",
+      "A carboxylic acid (primary alcohols are over-oxidized to carboxylic acids by strong oxidants)",
+      "An alkene (dehydration)"
+    ],
+    "correct": 2,
+    "explanation": "Strong oxidizing agents (K₂Cr₂O₇/H₂SO₄, KMnO₄) convert: primary alcohols → carboxylic acids (via aldehyde intermediate that doesn't accumulate under these conditions); secondary alcohols → ketones; tertiary alcohols → no oxidation (no α-H on the carbon bearing OH). Use PCC to stop at aldehyde stage.",
+    "tags": [
+      "organic chemistry",
+      "oxidation",
+      "alcohol chemistry"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "What is the product of the reaction between HBr and propene (CH₃CH=CH₂) following Markovnikov's rule?",
+    "options": [
+      "1-bromopropane (Br on C1)",
+      "2-bromopropane (Br on C2 — more substituted carbon, more stable carbocation at C2)",
+      "1,2-dibromopropane",
+      "Propene oxide"
+    ],
+    "correct": 1,
+    "explanation": "Markovnikov: H⁺ adds to C1 (more H atoms), forming a secondary carbocation at C2 (more stable than primary at C1). Br⁻ attacks C2 → 2-bromopropane (CH₃CHBrCH₃). Anti-Markovnikov (HBr + peroxides → radical mechanism): Br adds to C1 → 1-bromopropane.",
+    "tags": [
+      "organic chemistry",
+      "electrophilic addition",
+      "Markovnikov"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The mechanism of nucleophilic addition to an aldehyde involves:",
+    "options": [
+      "The nucleophile attacks the carbonyl oxygen",
+      "The nucleophile attacks the electrophilic carbonyl carbon (δ+), followed by protonation of the resulting alkoxide",
+      "An E2-type concerted mechanism",
+      "Radical chain mechanism initiated by light"
+    ],
+    "correct": 1,
+    "explanation": "The carbonyl carbon is electrophilic (δ+) due to the electronegative oxygen. Nucleophile attacks carbonyl carbon → tetrahedral alkoxide intermediate → protonation → product. Aldehydes are more reactive than ketones (less steric hindrance, less electron-donating R groups). Examples: cyanohydrin formation (HCN + RCHO), hemiacetal (alcohol + RCHO).",
+    "tags": [
+      "organic chemistry",
+      "nucleophilic addition",
+      "carbonyl"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following carboxylic acid derivatives is most susceptible to nucleophilic acyl substitution?",
+    "options": [
+      "Amide",
+      "Ester",
+      "Carboxylic acid",
+      "Acid anhydride"
+    ],
+    "correct": 3,
+    "explanation": "Reactivity order: acyl halide > anhydride > ester ≈ carboxylic acid > amide. An acid anhydride (RC(=O)O(O=)CR') has a moderately good leaving group (carboxylate, pKa ~5), making it more reactive than esters (pKa ~16 for alkoxide) but less reactive than acyl halides (halide, pKa ~−7 for HCl). Among the choices, anhydride > ester > carboxylic acid > amide.",
+    "tags": [
+      "organic chemistry",
+      "carbonyl chemistry",
+      "reactivity"
+    ],
+    "difficulty": "medium"
+  }
+]

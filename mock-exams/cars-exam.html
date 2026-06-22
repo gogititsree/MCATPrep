@@ -50,10 +50,6 @@
 
 
 
-      <span style="color:var(--text-muted);font-size:0.875rem;">Timer: <span id="exam-timer" class="exam-timer" style="font-size:0.875rem;">00:00</span></span>
-
-
-
     </div>
 
 
@@ -283,14 +279,16 @@
 
 
 
-    function loadMockExam(examNumber) {
-      if (exam?.timerInterval) clearInterval(exam.timerInterval);
+    async function loadMockExam(examNumber) {
+      try {
+        if (exam?.timerInterval) clearInterval(exam.timerInterval);
 
 
 
       const pad = String(examNumber).padStart(2, '0');
       const url = `../exams/cars/exam-${pad}.json`;
       const res = await fetch(url);
+      if (!res.ok) throw new Error(`Failed to load exam data (${res.status})`);
       const passages = await res.json();
 
 
@@ -316,6 +314,10 @@
 
 
       exam = new CARSExam(passages, 'score-panel');
+      } catch (err) {
+        console.error('Unable to load CARS exam:', err);
+        alert('Unable to load the selected CARS exam. Please refresh the page and try again.');
+      }
 
 
 

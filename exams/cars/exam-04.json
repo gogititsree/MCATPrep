@@ -1,0 +1,215 @@
+[
+  {
+    "passageText": "The history of public health offers a complex lesson about the relationship between individual behavior and structural determinants of health. The germ theory revolution of the late nineteenth century, associated with Pasteur and Koch, seemed to promise that the cause of each infectious disease was a specific microorganism that could be identified, and that the cure or prevention lay in targeting that organism. The apparent simplicity of this model—one germ, one disease, one cure—was enormously productive in the short term. Vaccines for smallpox, rabies, and cholera were developed, and death rates from infectious disease fell dramatically.\n\nYet even within the germ theory framework, anomalies appeared. Robert Koch himself noted that not everyone exposed to the tubercle bacillus developed tuberculosis. The disease was associated with poverty, overcrowding, and poor nutrition in ways that could not be explained by microbial exposure alone. Thomas McKeown's controversial thesis, advanced in the 1970s, argued that most of the decline in mortality from infectious disease in England and Wales since the eighteenth century had occurred before the introduction of vaccines and antibiotics—and must therefore have been due to improved nutrition, rising living standards, and better sanitation rather than to medical intervention.\n\nMcKeown's thesis has been criticized on both empirical and conceptual grounds. The timing of mortality declines for specific diseases does not always match his account, and his dismissal of medical intervention may have been overstated. But the broader point—that social and economic conditions shape health outcomes independently of (and often more powerfully than) individual behavior or medical technology—has been widely accepted. The concept of the 'social determinants of health' now anchors much of public health research and policy.\n\nThe practical implication of the social determinants framework is that improving population health requires addressing conditions like housing, food security, education, employment, and discrimination, not just providing medical services to sick individuals. This framing creates political tensions, since it implicates structures of economic and political power in health outcomes. Attributing poor health to individual behavior (smoking, diet, inactivity) places responsibility on individuals and leaves existing power structures intact; attributing it to social conditions implies that those conditions—and those who benefit from them—bear responsibility.\n\nThe individualist and structuralist framings are not mutually exclusive. Individuals do make choices, and those choices have health consequences; but the choices available to individuals are themselves shaped by social conditions. A person living in a food desert with limited income, working two jobs, and experiencing chronic stress from neighborhood violence has fewer healthy choices available than someone in a well-resourced neighborhood. The debate is ultimately about where to place the emphasis—and where to direct intervention.",
+    "questions": [
+      {
+        "text": "The 'germ theory' model described in paragraph 1 was productive initially because it:",
+        "options": [
+          "Proved that all diseases are caused by microorganisms",
+          "Provided a simple, actionable causal model—one germ, one disease, one cure—that guided development of vaccines and led to declines in infectious disease mortality",
+          "Demonstrated that social conditions were irrelevant to health",
+          "Replaced all prior medical knowledge overnight"
+        ],
+        "correct": 1,
+        "explanation": "The passage states the model 'was enormously productive in the short term': vaccines were developed 'and death rates from infectious disease fell dramatically.' The model's productivity came from its simplicity and actionability, not from being entirely correct."
+      },
+      {
+        "text": "McKeown's thesis, as described in the passage, argued that:",
+        "options": [
+          "Vaccines and antibiotics were solely responsible for the decline in infectious disease mortality",
+          "Most of the decline in mortality in England and Wales preceded vaccines and antibiotics, suggesting nutrition, living standards, and sanitation were the primary drivers",
+          "Germ theory was entirely wrong and should be replaced by social medicine",
+          "Medical intervention is more important than social conditions in determining health outcomes"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'McKeown's thesis...argued that most of the decline in mortality from infectious disease in England and Wales since the eighteenth century had occurred before the introduction of vaccines and antibiotics—and must therefore have been due to improved nutrition, rising living standards, and better sanitation.'"
+      },
+      {
+        "text": "The passage describes McKeown's thesis as 'controversial.' Based on the passage, the grounds for this controversy are:",
+        "options": [
+          "His argument was politically unpopular among public health officials",
+          "The thesis has been criticized on empirical grounds (timing of mortality declines doesn't always match) and for potentially overstating the dismissal of medical intervention",
+          "He proposed that vaccines were ineffective for all diseases",
+          "He ignored the role of individual behavior in health outcomes"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'The timing of mortality declines for specific diseases does not always match his account, and his dismissal of medical intervention may have been overstated.' These are empirical and conceptual critiques."
+      },
+      {
+        "text": "The political tension created by the 'social determinants of health' framework, as described in the passage, arises because:",
+        "options": [
+          "Politicians prefer evidence-based medicine to social intervention",
+          "Attributing poor health to social conditions implies that those conditions and those who benefit from them bear responsibility—implicating economic and political power structures",
+          "The framework makes medical interventions more expensive",
+          "Social determinants research is methodologically weaker than clinical research"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Attributing poor health to individual behavior...places responsibility on individuals and leaves existing power structures intact; attributing it to social conditions implies that those conditions—and those who benefit from them—bear responsibility.' This is the political tension: structural explanations challenge power."
+      },
+      {
+        "text": "The passage's final paragraph suggests that the relationship between individual behavior and social conditions in determining health is:",
+        "options": [
+          "Entirely determined by social conditions with no role for individual choice",
+          "Entirely determined by individual choices with no structural constraints",
+          "Interactional: individuals make choices, but the range of available choices is shaped by social conditions",
+          "Equally weighted, with social and individual factors contributing 50% each"
+        ],
+        "correct": 2,
+        "explanation": "The passage concludes: 'individuals do make choices, and those choices have health consequences; but the choices available to individuals are themselves shaped by social conditions.' This is an interactional model, not pure structuralism or pure individualism."
+      },
+      {
+        "text": "Based on the passage, a public health intervention focused solely on providing smoking cessation counseling to individuals would be criticized by proponents of the social determinants framework for:",
+        "options": [
+          "Being based on inaccurate epidemiological data",
+          "Placing responsibility on individuals while ignoring the social and economic conditions that shape smoking behaviors and the limited choices available to many smokers",
+          "Ignoring germ theory",
+          "Being too expensive to implement at population scale"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Attributing poor health to individual behavior...places responsibility on individuals and leaves existing power structures intact.' An individualist intervention like smoking cessation counseling targets behavior without addressing underlying social conditions, which the social determinants framework would critique as incomplete."
+      }
+    ]
+  },
+  {
+    "passageText": "The feminist movement has never been monolithic, and its internal disagreements have been as illuminating as its external confrontations. First-wave feminism, associated with the suffrage movement of the late nineteenth and early twentieth centuries, focused on formal legal equality—the right to vote, to own property, and to participate in civic life on the same terms as men. Its victories were genuine but limited: they did not automatically address the informal practices, economic structures, and cultural assumptions that continued to disadvantage women.\n\nSecond-wave feminism, emerging in the 1960s and 1970s, took on these informal structures under the slogan 'the personal is political.' Reproductive rights, workplace discrimination, sexual violence, and the unequal division of domestic labor were reframed not as private matters but as political issues requiring collective action and legal remedy. Consciousness-raising groups made the connections between individual women's experiences and systemic patterns visible. Landmark legislation—the Equal Pay Act, Title IX, Roe v. Wade—marked institutional victories, though critics noted that these benefits accrued disproportionately to white, middle-class women.\n\nThird-wave feminism, arising in the 1990s, responded to this critique by embracing intersectionality and rejecting singular narratives of women's experience. Drawing on the work of Patricia Hill Collins, bell hooks, and Kimberlé Crenshaw, third-wave feminism insisted that gender could not be understood in isolation from race, class, sexuality, and other axes of identity and power. A framework that centered the experience of white middle-class women as normative was not merely incomplete—it was actively harmful to women who did not fit that norm.\n\nThe most recent feminist scholarship has engaged with poststructuralist theory, particularly the work of Judith Butler, who argued that gender itself is not a natural or pre-political fact but a 'performance'—a set of repeated acts and practices through which the appearance of a stable gendered self is constructed. Butler's concept of performativity challenged the assumption, held by earlier feminists and their opponents alike, that there was a natural female identity that patriarchy distorted or that politics should liberate. If gender is constructed through performance, then the target of feminist politics must include the norms that govern performance itself.\n\nThe internal disagreements among these waves—about universality vs. particularity, nature vs. construction, reform vs. transformation—reflect genuine philosophical tensions. They also reflect the movement's engagement with changing social conditions and with the theoretical resources available at different historical moments.",
+    "questions": [
+      {
+        "text": "The primary limitation of first-wave feminism, as described in the passage, was that:",
+        "options": [
+          "It failed to achieve its goals of voting rights and property rights",
+          "Its legal victories did not automatically address informal practices, economic structures, and cultural assumptions that continued to disadvantage women",
+          "It was dominated by radical activists who alienated mainstream society",
+          "It ignored the importance of reproductive rights"
+        ],
+        "correct": 1,
+        "explanation": "The passage states first-wave victories 'were genuine but limited: they did not automatically address the informal practices, economic structures, and cultural assumptions that continued to disadvantage women.' The limitation was the gap between formal legal equality and substantive equality."
+      },
+      {
+        "text": "The slogan 'the personal is political,' associated with second-wave feminism, was used to:",
+        "options": [
+          "Encourage women to enter electoral politics",
+          "Reframe issues like domestic labor, sexual violence, and reproductive rights from private matters to political issues requiring collective action",
+          "Argue that feminism should focus only on political rather than economic rights",
+          "Suggest that personal relationships should be regulated by the state"
+        ],
+        "correct": 1,
+        "explanation": "The passage states second-wave feminism 'reframed not as private matters but as political issues requiring collective action and legal remedy' issues including 'reproductive rights, workplace discrimination, sexual violence, and the unequal division of domestic labor.'"
+      },
+      {
+        "text": "Third-wave feminism's critique of second-wave feminism centered on:",
+        "options": [
+          "Second-wave feminism's focus on reproductive rights rather than workplace discrimination",
+          "Second-wave feminism's implicit centering of white, middle-class women's experience as normative, which was incomplete and harmful to women with intersecting disadvantages",
+          "Second-wave feminism's excessive radicalism",
+          "Second-wave feminism's rejection of formal legal equality"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'critics noted that these benefits accrued disproportionately to white, middle-class women.' Third-wave feminism 'insisted that gender could not be understood in isolation from race, class, sexuality' and that 'a framework that centered the experience of white middle-class women as normative was not merely incomplete—it was actively harmful.'"
+      },
+      {
+        "text": "Judith Butler's concept of gender 'performativity' as described in the passage holds that:",
+        "options": [
+          "Gender is a fixed biological fact that politics should liberate from cultural distortion",
+          "Gender is constructed through repeated acts and practices—it is a performance, not a pre-political natural fact, and feminist politics must target the norms governing performance",
+          "Gender performance is a free individual choice with no social constraints",
+          "Butler agreed with earlier feminists that there is a natural female identity to be liberated"
+        ],
+        "correct": 1,
+        "explanation": "The passage states Butler 'argued that gender itself is not a natural or pre-political fact but a performance—a set of repeated acts and practices through which the appearance of a stable gendered self is constructed.' This 'challenged the assumption...that there was a natural female identity.'"
+      },
+      {
+        "text": "Based on the passage, which statement best captures the philosophical significance of the tensions among the waves of feminism?",
+        "options": [
+          "The tensions demonstrate that feminism has no coherent intellectual framework",
+          "The internal disagreements reflect genuine philosophical tensions about universality vs. particularity, nature vs. construction, and reform vs. transformation—tensions that also reflect changing social conditions and available theoretical resources",
+          "The tensions show that only one wave was truly feminist",
+          "The debates are primarily strategic rather than philosophical"
+        ],
+        "correct": 1,
+        "explanation": "The final paragraph explicitly states: 'The internal disagreements among these waves—about universality vs. particularity, nature vs. construction, reform vs. transformation—reflect genuine philosophical tensions. They also reflect the movement's engagement with changing social conditions and with the theoretical resources available at different historical moments.'"
+      },
+      {
+        "text": "A critique of Butler's performativity theory, not stated in the passage but consistent with the framework it describes, might argue that:",
+        "options": [
+          "Butler's theory is too simple because it ignores cultural variation",
+          "If gender is entirely constructed through performance with no natural basis, it becomes difficult to explain the near-universal cross-cultural patterns in gender organization, or to ground feminist political claims in anything other than chosen norms",
+          "Butler's theory agrees too closely with biological essentialism",
+          "The theory only applies to contemporary Western societies"
+        ],
+        "correct": 1,
+        "explanation": "The passage contrasts Butler with those who believe in a 'natural female identity.' A logical critique of constructivism/performativity from outside the passage's framework would press on the denial of any biological or pre-social basis: if gender is pure performance, what explains cross-cultural patterns, and on what grounds can feminists claim that current performances are unjust?"
+      }
+    ]
+  },
+  {
+    "passageText": "The concept of 'informed consent' in medical practice is often presented as a simple application of patient autonomy: patients should be able to make their own medical decisions, and doing so requires information. But this seemingly straightforward principle conceals a host of philosophical and practical complications that reveal how contested our understanding of autonomous decision-making really is.\n\nThe historical context matters. Prior to the mid-twentieth century, medical paternalism was the dominant paradigm: doctors made decisions for patients on the basis of what they judged to be in the patient's best interest, without necessarily disclosing diagnoses, prognoses, or treatment alternatives. The physician's expertise and authority were held to justify this arrangement. The movement toward informed consent in the 1960s and 1970s was driven partly by legal developments—courts began to hold that patients had the right to information—and partly by growing unease with paternalistic authority in medicine as in other domains.\n\nThe legal standard for informed consent has evolved. An early standard—what the 'reasonable physician' would disclose—placed the locus of authority with the medical profession. A later standard—what the 'reasonable patient' would want to know—shifted it toward the patient. Some courts and ethicists have pushed further toward a 'subjective patient' standard: what this particular patient, with their particular values and circumstances, would want to know. The movement along this axis reflects deepening commitment to individual autonomy, but raises practical questions about how physicians can possibly know what each patient specifically needs.\n\nCritics of the current doctrine argue that consent is often formal rather than substantive. Patients routinely sign consent forms they do not understand, in contexts—frightened, in pain, dependent on the physician who is also seeking consent—where genuine voluntariness is compromised. The information provided is typically shaped by what physicians choose to emphasize, by institutional pressures, and by the framing effects that cognitive psychology has shown to affect all human decision-making. Consent, under these conditions, may ratify physician choices rather than express patient autonomy.\n\nDeeply contested are cases involving patients whose decision-making capacity is impaired—by cognitive decline, psychiatric illness, or the acute crisis of medical emergency—or who hold values that their healthcare team regards as self-destructive. Here the philosophical debate between autonomy and beneficence, between the patient's right to determine their own treatment and the physician's duty to promote the patient's well-being, takes on its sharpest practical form.",
+    "questions": [
+      {
+        "text": "The author argues that informed consent 'conceals philosophical and practical complications' because:",
+        "options": [
+          "Patients are rarely capable of understanding medical information",
+          "The principle seems simple—patients need information to make autonomous decisions—but in practice it is contested because our understanding of autonomous decision-making is genuinely disputed",
+          "Physicians resist sharing information with patients",
+          "Legal standards for consent are universally agreed upon and should not be questioned"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'this seemingly straightforward principle conceals a host of philosophical and practical complications that reveal how contested our understanding of autonomous decision-making really is.' The complications reveal deeper uncertainty about what autonomy means and requires."
+      },
+      {
+        "text": "The shift in legal standards from 'reasonable physician' to 'reasonable patient' to 'subjective patient' disclosure reflects:",
+        "options": [
+          "Decreasing interest in patient autonomy over time",
+          "A progressive deepening of commitment to individual autonomy as the locus of authority shifts from the medical profession to the individual patient",
+          "The medical profession's increasing power over legal standards",
+          "A regression toward paternalism in medical ethics"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'The movement along this axis reflects deepening commitment to individual autonomy'—moving from physician-centered to patient-centered to individual-specific standards of disclosure."
+      },
+      {
+        "text": "Critics of current informed consent doctrine, as described in paragraph 4, argue that consent is often:",
+        "options": [
+          "Too demanding for physicians to administer efficiently",
+          "Formal rather than substantive: patients sign forms they don't understand, under conditions of fear and dependence, with information framed to influence their choices—ratifying physician decisions rather than expressing genuine autonomy",
+          "Overly focused on patient preferences at the expense of clinical judgment",
+          "Legally sufficient but ethically insufficient only in rare cases"
+        ],
+        "correct": 1,
+        "explanation": "The passage states critics argue 'consent is often formal rather than substantive'—patients 'sign consent forms they do not understand, in contexts...where genuine voluntariness is compromised.' Consent under these conditions 'may ratify physician choices rather than express patient autonomy.'"
+      },
+      {
+        "text": "Medical paternalism, as described in the passage, justified physician authority by:",
+        "options": [
+          "The legal right of physicians to make all medical decisions",
+          "The physician's expertise and judgment about the patient's best interest, without necessarily disclosing diagnoses or treatment alternatives",
+          "The patient's explicit consent to defer to physician judgment",
+          "The principle that patients should not be burdened with complex medical information"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'doctors made decisions for patients on the basis of what they judged to be in the patient's best interest, without necessarily disclosing diagnoses, prognoses, or treatment alternatives. The physician's expertise and authority were held to justify this arrangement.'"
+      },
+      {
+        "text": "The final paragraph describes cases that reveal 'the sharpest practical form' of the autonomy-beneficence tension. These cases involve:",
+        "options": [
+          "Well-informed patients who want experimental treatments",
+          "Patients with impaired decision-making capacity or values the healthcare team regards as self-destructive—where the conflict between patient autonomy and physician duty to promote well-being is most acute",
+          "Patients who refuse all medical treatment on religious grounds",
+          "Patients from different cultural backgrounds who have different expectations of physician authority"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Deeply contested are cases involving patients whose decision-making capacity is impaired...or who hold values that their healthcare team regards as self-destructive.' These are where 'the philosophical debate between autonomy and beneficence...takes on its sharpest practical form.'"
+      },
+      {
+        "text": "The passage's treatment of the history of informed consent suggests that the shift from paternalism to autonomy was driven by:",
+        "options": [
+          "Pure philosophical argument within academic bioethics",
+          "A combination of legal developments and broader cultural shifts (growing unease with paternalistic authority) in the 1960s and 1970s",
+          "Individual physician decisions to be more transparent",
+          "Patient activism demanding legal rights to medical information"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'The movement toward informed consent in the 1960s and 1970s was driven partly by legal developments—courts began to hold that patients had the right to information—and partly by growing unease with paternalistic authority in medicine as in other domains.' Both legal and cultural factors are identified."
+      }
+    ]
+  }
+]

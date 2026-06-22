@@ -1,0 +1,390 @@
+[
+  {
+    "text": "Which amino acid is the only one that is achiral?",
+    "options": [
+      "Glycine",
+      "Alanine",
+      "Serine",
+      "Cysteine"
+    ],
+    "correct": 0,
+    "explanation": "Glycine has two hydrogen atoms as its R-group, making its α-carbon lack four distinct substituents and therefore achiral. All other amino acids have a distinct R-group giving the α-carbon four different groups.",
+    "tags": [
+      "amino acids"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "At physiological pH (7.4), which amino acid carries a positive charge on its side chain?",
+    "options": [
+      "Aspartate",
+      "Glutamate",
+      "Lysine",
+      "Serine"
+    ],
+    "correct": 2,
+    "explanation": "Lysine has an ε-amino group with pKa ~10.5, so it is protonated (–NH₃⁺) and positively charged at pH 7.4. Aspartate and glutamate carry negative charges; serine is neutral.",
+    "tags": [
+      "amino acids"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which amino acid's side chain contains a thiol group capable of forming disulfide bonds?",
+    "options": [
+      "Methionine",
+      "Cysteine",
+      "Serine",
+      "Threonine"
+    ],
+    "correct": 1,
+    "explanation": "Cysteine (–CH₂SH) forms disulfide bonds (–S–S–) with other cysteine residues, stabilizing tertiary/quaternary protein structure. Methionine also contains sulfur but as a thioether that does not form disulfide bonds.",
+    "tags": [
+      "amino acids",
+      "protein structure"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The isoelectric point (pI) of an amino acid with only one pKa1 (α-COOH) and one pKa2 (α-NH₃⁺) is:",
+    "options": [
+      "Equal to pKa1",
+      "Equal to pKa2",
+      "The average of pKa1 and pKa2",
+      "The average of pKa2 and pKa of the side chain"
+    ],
+    "correct": 2,
+    "explanation": "For a simple amino acid with no ionizable side chain, pI = (pKa1 + pKa2)/2. This is the pH at which the molecule carries no net charge (zwitterion form).",
+    "tags": [
+      "amino acids"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which pair of amino acids has aromatic side chains that absorb UV light at ~280 nm?",
+    "options": [
+      "Phenylalanine and Leucine",
+      "Tryptophan and Tyrosine",
+      "Histidine and Proline",
+      "Valine and Isoleucine"
+    ],
+    "correct": 1,
+    "explanation": "Tryptophan and tyrosine have aromatic rings with π electrons that absorb UV at ~280 nm. This property is used to estimate protein concentration by UV spectroscopy.",
+    "tags": [
+      "amino acids"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Proline is unusual among the 20 standard amino acids because:",
+    "options": [
+      "It contains a sulfur atom in the ring",
+      "Its side chain forms a covalent bond with the backbone nitrogen",
+      "It has two chiral centers",
+      "Its pI is above 10"
+    ],
+    "correct": 1,
+    "explanation": "Proline's side chain cyclizes back to bond the backbone nitrogen, making it a secondary (imino) amine. This rigid ring disrupts α-helices and introduces kinks in polypeptide chains.",
+    "tags": [
+      "amino acids",
+      "protein structure"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which amino acid has an imidazole side chain that acts as a buffer at physiological pH?",
+    "options": [
+      "Arginine",
+      "Histidine",
+      "Lysine",
+      "Glutamine"
+    ],
+    "correct": 1,
+    "explanation": "Histidine's imidazole ring has pKa ~6.0, close to physiological pH, allowing it to accept or donate protons near pH 7.4. This makes it critical for enzyme active sites and hemoglobin's Bohr effect.",
+    "tags": [
+      "amino acids"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A peptide contains a cysteine, an aspartate, a lysine, and a glutamate. Which statement best describes its net charge at pH 7?",
+    "options": [
+      "Net positive because lysine dominates",
+      "Net negative because there are two acidic residues and one basic",
+      "Net zero because charges balance",
+      "Cannot determine without pKa values"
+    ],
+    "correct": 1,
+    "explanation": "At pH 7, lysine (+1) is the only charged basic residue. Aspartate (−1) and glutamate (−1) are both deprotonated. Cysteine (pKa ~8.3) is uncharged at pH 7. Net = +1 − 1 − 1 = −1. Net negative.",
+    "tags": [
+      "amino acids"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The primary structure of a protein refers to:",
+    "options": [
+      "The α-helices and β-sheets formed by hydrogen bonding",
+      "The overall 3D shape of a single polypeptide chain",
+      "The sequence of amino acids held together by peptide bonds",
+      "The arrangement of multiple subunits"
+    ],
+    "correct": 2,
+    "explanation": "Primary structure is the linear sequence of amino acids connected by covalent peptide bonds (formed between the α-carboxyl of one residue and the α-amino of the next with loss of water).",
+    "tags": [
+      "protein structure"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "α-helices are stabilized primarily by:",
+    "options": [
+      "Disulfide bonds between cysteine residues",
+      "Hydrogen bonds between backbone N–H and C=O groups 4 residues apart",
+      "Hydrophobic interactions between side chains",
+      "Ionic interactions between R-groups"
+    ],
+    "correct": 1,
+    "explanation": "In an α-helix, the N–H of residue n hydrogen bonds to the C=O of residue n−4 (or equivalently n+4). These backbone hydrogen bonds coil the chain into a right-handed helix with 3.6 residues per turn.",
+    "tags": [
+      "protein structure"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which interaction is primarily responsible for the formation of β-sheets?",
+    "options": [
+      "Covalent disulfide bonds",
+      "Hydrogen bonds between backbone groups of adjacent strands",
+      "Hydrophobic core formation",
+      "Van der Waals interactions between side chains"
+    ],
+    "correct": 1,
+    "explanation": "β-sheets form when backbone C=O and N–H groups of adjacent strands hydrogen bond with each other. Strands can be parallel or antiparallel; antiparallel β-sheets have stronger, more linear hydrogen bonds.",
+    "tags": [
+      "protein structure"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Quaternary protein structure refers to:",
+    "options": [
+      "The pattern of secondary structure elements within one polypeptide",
+      "The specific folding pattern of a single polypeptide",
+      "The interaction and assembly of multiple polypeptide subunits",
+      "The post-translational modifications of a protein"
+    ],
+    "correct": 2,
+    "explanation": "Quaternary structure describes how two or more polypeptide chains (subunits) associate to form a functional protein complex. Hemoglobin (α2β2 tetramer) is a classic example.",
+    "tags": [
+      "protein structure"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which denaturant works by breaking hydrophobic interactions rather than disulfide bonds?",
+    "options": [
+      "β-mercaptoethanol",
+      "Urea",
+      "HCl",
+      "NaOH"
+    ],
+    "correct": 1,
+    "explanation": "Urea (and guanidinium hydrochloride) disrupt hydrophobic interactions and hydrogen bonds, unfolding proteins. β-mercaptoethanol specifically reduces disulfide bonds. Acids/bases affect ionization states but are not classical denaturants used experimentally.",
+    "tags": [
+      "protein structure"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "An enzyme has Km = 4 mM. At [S] = 4 mM, what fraction of Vmax is the reaction rate?",
+    "options": [
+      "0.25 Vmax",
+      "0.50 Vmax",
+      "0.75 Vmax",
+      "1.0 Vmax"
+    ],
+    "correct": 1,
+    "explanation": "By Michaelis-Menten: v = Vmax·[S]/(Km + [S]) = Vmax·4/(4+4) = Vmax/2. By definition, Km is the substrate concentration at which v = ½ Vmax.",
+    "tags": [
+      "enzyme kinetics"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "On a Lineweaver-Burk (double-reciprocal) plot, the x-intercept equals:",
+    "options": [
+      "−1/Km",
+      "1/Vmax",
+      "Km",
+      "Vmax"
+    ],
+    "correct": 0,
+    "explanation": "The Lineweaver-Burk plot graphs 1/v vs 1/[S]. The y-intercept is 1/Vmax; the x-intercept is −1/Km; the slope is Km/Vmax.",
+    "tags": [
+      "enzyme kinetics"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Competitive inhibition is characterized by:",
+    "options": [
+      "Decreased Vmax, unchanged Km",
+      "Unchanged Vmax, increased Km",
+      "Decreased Vmax, decreased Km",
+      "Unchanged Vmax, unchanged Km"
+    ],
+    "correct": 1,
+    "explanation": "A competitive inhibitor competes with substrate for the active site. Adding more substrate can outcompete the inhibitor, so Vmax is unchanged but Km (apparent) is increased because more substrate is needed to reach half Vmax.",
+    "tags": [
+      "enzyme kinetics",
+      "inhibition"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Noncompetitive inhibition results in:",
+    "options": [
+      "Increased Km, unchanged Vmax",
+      "Unchanged Km, decreased Vmax",
+      "Increased Km, decreased Vmax",
+      "Unchanged Km, unchanged Vmax"
+    ],
+    "correct": 1,
+    "explanation": "A noncompetitive inhibitor binds an allosteric site on both free enzyme and enzyme-substrate complex. It does not affect substrate binding (Km unchanged) but reduces catalytic efficiency (Vmax decreases).",
+    "tags": [
+      "enzyme kinetics",
+      "inhibition"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "On a Lineweaver-Burk plot, uncompetitive inhibition produces lines that are:",
+    "options": [
+      "Intersecting at the y-axis (same y-intercept, different slopes)",
+      "Parallel (same slope, different y-intercepts)",
+      "Intersecting at the x-axis (same x-intercept, different slopes)",
+      "Intersecting in the third quadrant"
+    ],
+    "correct": 1,
+    "explanation": "Uncompetitive inhibitors bind only E·S, decreasing both Km (apparent) and Vmax proportionally. Km/Vmax (the slope) is unchanged, so Lineweaver-Burk lines are parallel.",
+    "tags": [
+      "enzyme kinetics",
+      "inhibition"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which enzyme characteristic distinguishes allosteric enzymes from simple Michaelis-Menten enzymes?",
+    "options": [
+      "They require cofactors for activity",
+      "Their velocity-substrate curve is sigmoidal rather than hyperbolic",
+      "They are inhibited only by competitive inhibitors",
+      "They do not follow any kinetic model"
+    ],
+    "correct": 1,
+    "explanation": "Allosteric enzymes show cooperative binding: binding of one substrate molecule increases affinity for subsequent substrate. This produces a sigmoidal v-vs-[S] curve rather than the hyperbolic curve predicted by Michaelis-Menten kinetics.",
+    "tags": [
+      "enzyme kinetics",
+      "allostery"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Feedback inhibition in a metabolic pathway most commonly involves:",
+    "options": [
+      "The end product activating the first committed enzyme",
+      "The end product inhibiting the first committed enzyme",
+      "The substrate inhibiting the last enzyme",
+      "An intermediate activating the last enzyme"
+    ],
+    "correct": 1,
+    "explanation": "In feedback inhibition, the end product of a pathway allosterically inhibits the first committed (rate-limiting) enzyme. This is an efficient regulatory mechanism that prevents overproduction of the end product.",
+    "tags": [
+      "enzyme kinetics",
+      "allostery"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Net ATP production from one molecule of glucose in glycolysis (anaerobic) is:",
+    "options": [
+      "1 ATP",
+      "2 ATP",
+      "4 ATP",
+      "8 ATP"
+    ],
+    "correct": 1,
+    "explanation": "Glycolysis yields 4 ATP (substrate-level phosphorylation) but invests 2 ATP in the preparatory phase (hexokinase and PFK-1 reactions), giving a net of 2 ATP per glucose.",
+    "tags": [
+      "glycolysis",
+      "metabolism"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which enzyme is the rate-limiting (committed) step of glycolysis?",
+    "options": [
+      "Hexokinase",
+      "Phosphoglucose isomerase",
+      "Phosphofructokinase-1 (PFK-1)",
+      "Pyruvate kinase"
+    ],
+    "correct": 2,
+    "explanation": "PFK-1 catalyzes the conversion of fructose-6-phosphate to fructose-1,6-bisphosphate, the committed step of glycolysis. It is allosterically inhibited by ATP and citrate and activated by AMP and fructose-2,6-bisphosphate.",
+    "tags": [
+      "glycolysis",
+      "metabolism"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Glycolysis produces a net of 2 NADH per glucose. In aerobic conditions, these cytoplasmic NADH most efficiently yield approximately:",
+    "options": [
+      "1 ATP each (2 total)",
+      "2 ATP each (4 total)",
+      "2.5 ATP each (5 total)",
+      "3 ATP each (6 total)"
+    ],
+    "correct": 2,
+    "explanation": "Cytoplasmic NADH uses the malate-aspartate shuttle to enter the mitochondrial matrix, yielding ~2.5 ATP per NADH via oxidative phosphorylation. (The glycerol-3-phosphate shuttle yields only ~1.5 ATP per cytoplasmic NADH.)",
+    "tags": [
+      "glycolysis",
+      "metabolism",
+      "ETC"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Pyruvate dehydrogenase complex converts pyruvate to acetyl-CoA. Which cofactors are required? (Select the most complete answer)",
+    "options": [
+      "NAD⁺ only",
+      "CoA and NAD⁺ only",
+      "Thiamine pyrophosphate (TPP), lipoic acid, CoA, FAD, and NAD⁺",
+      "ATP and CoA"
+    ],
+    "correct": 2,
+    "explanation": "The pyruvate dehydrogenase complex requires five cofactors: TPP (E1), lipoic acid (E2), CoA (E2), FAD (E3), and NAD⁺ (E3). It is irreversibly inhibited by arsenic (arsenite) and its product acetyl-CoA and NADH.",
+    "tags": [
+      "metabolism",
+      "pyruvate dehydrogenase"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "How many carbon atoms enter the TCA cycle per turn via acetyl-CoA, and how many leave as CO₂?",
+    "options": [
+      "2 enter, 1 leaves as CO₂",
+      "2 enter, 2 leave as CO₂",
+      "4 enter, 2 leave as CO₂",
+      "6 enter, 2 leave as CO₂"
+    ],
+    "correct": 1,
+    "explanation": "Acetyl-CoA contributes 2 carbons when it condenses with oxaloacetate (4C) to form citrate (6C). Two carbons are released as CO₂ (at isocitrate dehydrogenase and α-ketoglutarate dehydrogenase steps) per turn, regenerating oxaloacetate.",
+    "tags": [
+      "TCA cycle",
+      "metabolism"
+    ],
+    "difficulty": "medium"
+  }
+]

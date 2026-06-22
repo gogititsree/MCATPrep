@@ -1,0 +1,403 @@
+[
+  {
+    "text": "Which TCA cycle step produces FADH₂?",
+    "options": [
+      "Isocitrate → α-ketoglutarate",
+      "α-ketoglutarate → succinyl-CoA",
+      "Succinate → fumarate",
+      "Malate → oxaloacetate"
+    ],
+    "correct": 2,
+    "explanation": "Succinate dehydrogenase (Complex II of the ETC) oxidizes succinate to fumarate, reducing FAD to FADH₂. All other oxidation steps in the TCA cycle use NAD⁺ as the electron acceptor.",
+    "tags": [
+      "TCA cycle",
+      "metabolism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The TCA cycle produces per turn of acetyl-CoA: ",
+    "options": [
+      "1 NADH, 1 FADH₂, 1 GTP",
+      "2 NADH, 1 FADH₂, 1 GTP",
+      "3 NADH, 1 FADH₂, 1 GTP",
+      "3 NADH, 2 FADH₂, 1 GTP"
+    ],
+    "correct": 2,
+    "explanation": "Per acetyl-CoA turn: NADH is produced at isocitrate DH, α-ketoglutarate DH, and malate DH (3 NADH); FADH₂ at succinate DH (1 FADH₂); GTP at succinyl-CoA synthetase (1 GTP). Net: 3 NADH, 1 FADH₂, 1 GTP, 2 CO₂.",
+    "tags": [
+      "TCA cycle",
+      "metabolism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which molecule replenishes oxaloacetate (OAA) when TCA cycle intermediates are drained for biosynthesis (anaplerosis)?",
+    "options": [
+      "Acetyl-CoA",
+      "Pyruvate (via pyruvate carboxylase)",
+      "Glucose-6-phosphate",
+      "NADH"
+    ],
+    "correct": 1,
+    "explanation": "Pyruvate carboxylase (requiring biotin and ATP) converts pyruvate + CO₂ to OAA, replenishing TCA cycle intermediates. This is an anaplerotic reaction important in the liver and kidney.",
+    "tags": [
+      "TCA cycle",
+      "metabolism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In the electron transport chain, electrons from NADH first enter at:",
+    "options": [
+      "Complex II",
+      "Complex I",
+      "Complex III",
+      "Complex IV"
+    ],
+    "correct": 1,
+    "explanation": "Complex I (NADH dehydrogenase) accepts electrons from NADH and passes them to ubiquinone (CoQ). Complex II accepts electrons from FADH₂. Both pass electrons to Complex III and then IV.",
+    "tags": [
+      "ETC",
+      "metabolism"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which Complex of the ETC directly reduces O₂ to H₂O?",
+    "options": [
+      "Complex I",
+      "Complex II",
+      "Complex III",
+      "Complex IV"
+    ],
+    "correct": 3,
+    "explanation": "Complex IV (cytochrome c oxidase) is the terminal electron acceptor. It accepts electrons from cytochrome c and reduces molecular oxygen (O₂) to water (H₂O), the final step of oxidative phosphorylation.",
+    "tags": [
+      "ETC",
+      "metabolism"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Approximately how many ATP are produced from one FADH₂ via oxidative phosphorylation?",
+    "options": [
+      "1.5 ATP",
+      "2.5 ATP",
+      "3 ATP",
+      "38 ATP"
+    ],
+    "correct": 0,
+    "explanation": "FADH₂ donates electrons to Complex II (bypassing Complex I), pumping fewer protons across the inner mitochondrial membrane. The resulting proton gradient yields approximately 1.5 ATP per FADH₂, compared to ~2.5 ATP per NADH.",
+    "tags": [
+      "ETC",
+      "metabolism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Dinitrophenol (DNP) is a classic uncoupler of oxidative phosphorylation. It causes:",
+    "options": [
+      "Inhibition of Complex IV",
+      "Transfer of protons across the inner mitochondrial membrane without ATP synthesis",
+      "Inhibition of the ATP synthase directly",
+      "Increased NADH production"
+    ],
+    "correct": 1,
+    "explanation": "DNP is a lipid-soluble proton carrier that dissipates the proton gradient by carrying H⁺ across the inner mitochondrial membrane independent of ATP synthase. This converts the energy to heat rather than ATP and increases O₂ consumption.",
+    "tags": [
+      "ETC",
+      "oxidative phosphorylation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which is the unique gluconeogenic enzyme that bypasses the irreversible pyruvate kinase step?",
+    "options": [
+      "Glucose-6-phosphatase",
+      "Fructose-1,6-bisphosphatase",
+      "Pyruvate carboxylase and PEPCK together",
+      "Phosphoglucose isomerase"
+    ],
+    "correct": 2,
+    "explanation": "Pyruvate kinase (PEP → pyruvate) is irreversible in glycolysis. Gluconeogenesis bypasses it using pyruvate carboxylase (pyruvate → OAA, in mitochondria) followed by PEPCK (OAA → PEP), a two-step detour.",
+    "tags": [
+      "gluconeogenesis",
+      "metabolism"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The unique enzymes of gluconeogenesis not found in glycolysis are:",
+    "options": [
+      "Hexokinase, PFK-1, pyruvate kinase",
+      "Glucose-6-phosphatase, fructose-1,6-bisphosphatase, PEPCK, pyruvate carboxylase",
+      "Aldolase, enolase, phosphoglycerate mutase",
+      "Pyruvate dehydrogenase and pyruvate carboxylase"
+    ],
+    "correct": 1,
+    "explanation": "Gluconeogenesis uses the four enzymes that bypass glycolysis's three irreversible steps: glucose-6-phosphatase (bypasses hexokinase), fructose-1,6-bisphosphatase (bypasses PFK-1), PEPCK and pyruvate carboxylase together (bypass pyruvate kinase).",
+    "tags": [
+      "gluconeogenesis",
+      "metabolism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Fatty acids are transported into the mitochondrial matrix for β-oxidation by:",
+    "options": [
+      "Passive diffusion",
+      "The carnitine shuttle",
+      "The malate-aspartate shuttle",
+      "Active transport via GLUT4"
+    ],
+    "correct": 1,
+    "explanation": "Long-chain fatty acyl-CoA cannot directly cross the inner mitochondrial membrane. The carnitine shuttle transfers the acyl group to carnitine (via carnitine acyltransferase I on the outer membrane), transports it in, and re-forms acyl-CoA inside.",
+    "tags": [
+      "fatty acid oxidation",
+      "metabolism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Each round of β-oxidation of a saturated fatty acid produces:",
+    "options": [
+      "1 NADH, 1 FADH₂, 1 acetyl-CoA",
+      "1 NADH, 1 FADH₂, 2 acetyl-CoA",
+      "2 NADH, 1 FADH₂, 1 acetyl-CoA",
+      "1 NADH, 2 FADH₂, 1 acetyl-CoA"
+    ],
+    "correct": 0,
+    "explanation": "Each cycle of β-oxidation produces one FADH₂ (acyl-CoA dehydrogenase step), one NADH (hydroxyacyl-CoA dehydrogenase step), and one acetyl-CoA (thiolase step), shortening the chain by two carbons.",
+    "tags": [
+      "fatty acid oxidation",
+      "metabolism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Odd-chain fatty acid oxidation produces propionyl-CoA in the last round. Propionyl-CoA is converted to which TCA intermediate?",
+    "options": [
+      "Acetyl-CoA",
+      "Oxaloacetate",
+      "Succinyl-CoA",
+      "Fumarate"
+    ],
+    "correct": 2,
+    "explanation": "Propionyl-CoA is carboxylated (propionyl-CoA carboxylase, biotin) to methylmalonyl-CoA, then isomerized (methylmalonyl-CoA mutase, vitamin B12) to succinyl-CoA, which enters the TCA cycle directly.",
+    "tags": [
+      "fatty acid oxidation",
+      "metabolism"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In fatty acid synthesis, malonyl-CoA is formed from acetyl-CoA by which enzyme?",
+    "options": [
+      "Fatty acid synthase",
+      "Acetyl-CoA carboxylase (ACC)",
+      "Citrate synthase",
+      "HMG-CoA synthase"
+    ],
+    "correct": 1,
+    "explanation": "Acetyl-CoA carboxylase (ACC) is the rate-limiting enzyme of fatty acid synthesis. It carboxylates acetyl-CoA to malonyl-CoA using CO₂ and ATP. It is activated by citrate and inhibited by palmitoyl-CoA and glucagon-induced phosphorylation.",
+    "tags": [
+      "fatty acid synthesis",
+      "metabolism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Ketone body synthesis (ketogenesis) primarily occurs in:",
+    "options": [
+      "Skeletal muscle",
+      "Adipose tissue",
+      "Liver mitochondria",
+      "Brain"
+    ],
+    "correct": 2,
+    "explanation": "Ketogenesis occurs in liver mitochondria when acetyl-CoA accumulates (e.g., during fasting, diabetes, or high-fat diet). HMG-CoA synthase and HMG-CoA lyase produce acetoacetate, which can be reduced to β-hydroxybutyrate or spontaneously decarboxylated to acetone.",
+    "tags": [
+      "ketone bodies",
+      "metabolism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "During DNA replication, which enzyme synthesizes the RNA primer?",
+    "options": [
+      "DNA polymerase I",
+      "Helicase",
+      "Primase",
+      "DNA ligase"
+    ],
+    "correct": 2,
+    "explanation": "Primase (a type of RNA polymerase) synthesizes a short RNA primer complementary to the template strand, providing a free 3'-OH group for DNA polymerase to extend. DNA polymerases cannot initiate new strands de novo.",
+    "tags": [
+      "DNA replication",
+      "molecular biology"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "DNA replication is described as semiconservative because:",
+    "options": [
+      "Each new DNA molecule contains one entirely new strand and one entirely old strand",
+      "Each new DNA molecule is entirely new",
+      "The original DNA is completely degraded and new strands are built",
+      "Replication occurs at only half the original DNA at a time"
+    ],
+    "correct": 0,
+    "explanation": "In semiconservative replication (demonstrated by Meselson and Stahl using ¹⁵N/¹⁴N density gradient centrifugation), each daughter DNA duplex contains one parental (template) strand and one newly synthesized strand.",
+    "tags": [
+      "DNA replication",
+      "molecular biology"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The enzyme that relieves torsional strain ahead of the replication fork by cutting and rejoining DNA strands is:",
+    "options": [
+      "Helicase",
+      "Topoisomerase",
+      "DNA pol I",
+      "Primase"
+    ],
+    "correct": 1,
+    "explanation": "As helicase unwinds DNA, positive supercoils accumulate ahead of the fork. Topoisomerase I (nick-rotation) and topoisomerase II (double-strand breaks) relieve this tension. Many antibiotics (fluoroquinolones) and anti-cancer drugs target topoisomerases.",
+    "tags": [
+      "DNA replication",
+      "molecular biology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Okazaki fragments are associated with which aspect of DNA replication?",
+    "options": [
+      "Leading strand synthesis",
+      "Lagging strand synthesis",
+      "Primer removal only",
+      "Origin recognition"
+    ],
+    "correct": 1,
+    "explanation": "DNA polymerase can only synthesize in the 5'→3' direction. The lagging strand template runs 3'→5' relative to fork movement, so it is replicated discontinuously in short Okazaki fragments. DNA polymerase I removes RNA primers, DNA pol fills gaps, and ligase seals nicks.",
+    "tags": [
+      "DNA replication",
+      "molecular biology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Nucleotide excision repair (NER) is responsible for removing:",
+    "options": [
+      "Single mismatched bases",
+      "Bulky adducts and UV-induced pyrimidine dimers",
+      "Double-strand breaks",
+      "Oxidized guanine (8-oxoguanine)"
+    ],
+    "correct": 1,
+    "explanation": "NER recognizes bulky lesions that distort the DNA helix — including cyclobutane pyrimidine dimers from UV radiation and adducts from carcinogens. Defective NER causes xeroderma pigmentosum. Base excision repair (BER) handles small oxidative lesions.",
+    "tags": [
+      "DNA repair",
+      "molecular biology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which RNA polymerase transcribes mRNA in eukaryotes?",
+    "options": [
+      "RNA polymerase I",
+      "RNA polymerase II",
+      "RNA polymerase III",
+      "RNA polymerase IV"
+    ],
+    "correct": 1,
+    "explanation": "Eukaryotic RNA polymerase II transcribes all protein-coding genes (pre-mRNA). RNA pol I transcribes rRNA (5.8S, 18S, 28S); RNA pol III transcribes tRNA and 5S rRNA. Prokaryotes have one RNA polymerase for all RNA types.",
+    "tags": [
+      "transcription",
+      "molecular biology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The 5' cap added to eukaryotic mRNA consists of:",
+    "options": [
+      "A poly-A tail of ~200 adenosines",
+      "7-methylguanosine (m7G) connected by a 5'–5' triphosphate linkage",
+      "An IRES sequence",
+      "A Shine-Dalgarno sequence"
+    ],
+    "correct": 1,
+    "explanation": "The 5' cap is a 7-methylguanosine nucleotide linked by an unusual 5'–5' triphosphate bridge. It is added co-transcriptionally and protects mRNA from exonuclease degradation and facilitates ribosome recruitment.",
+    "tags": [
+      "RNA processing",
+      "molecular biology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Splicing of pre-mRNA involves which complex?",
+    "options": [
+      "Ribosome",
+      "Spliceosome (snRNPs)",
+      "Proteasome",
+      "Signal recognition particle"
+    ],
+    "correct": 1,
+    "explanation": "The spliceosome, assembled from snRNPs (U1, U2, U4, U5, U6) and associated proteins, catalyzes two transesterification reactions to remove introns and join exons. Mutations in splice sites cause diseases such as some forms of β-thalassemia.",
+    "tags": [
+      "RNA processing",
+      "molecular biology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "What does the wobble hypothesis explain?",
+    "options": [
+      "Why some codons code for the same amino acid (degeneracy)",
+      "Why certain mRNA sequences are untranslated",
+      "How tRNA anticodons can recognize multiple codons through non-Watson-Crick base pairing at the third codon position",
+      "Why start codons always code for methionine"
+    ],
+    "correct": 2,
+    "explanation": "The wobble hypothesis (Crick) states that the third base of a codon (wobble position) can form non-standard base pairs with the first base of the anticodon. This allows one tRNA to recognize multiple synonymous codons, explaining how 64 codons map to 20 amino acids using fewer tRNAs.",
+    "tags": [
+      "translation",
+      "molecular biology"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which antibiotic inhibits prokaryotic translation by binding the 30S ribosomal subunit and causing misreading of mRNA?",
+    "options": [
+      "Rifampin",
+      "Chloramphenicol",
+      "Streptomycin",
+      "Erythromycin"
+    ],
+    "correct": 2,
+    "explanation": "Streptomycin (an aminoglycoside) binds the 30S subunit and causes misreading of codons during translation initiation. Rifampin inhibits bacterial RNA polymerase. Chloramphenicol blocks peptidyl transferase on the 50S subunit. Erythromycin blocks translocation on the 50S.",
+    "tags": [
+      "translation",
+      "molecular biology",
+      "antibiotics"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "A missense mutation changes a codon from GAG (Glu) to GTG (Val). This is responsible for:",
+    "options": [
+      "Cystic fibrosis",
+      "Sickle cell anemia",
+      "Phenylketonuria",
+      "Huntington's disease"
+    ],
+    "correct": 1,
+    "explanation": "The classic sickle cell anemia mutation changes codon 6 of β-globin from GAG (glutamic acid, charged) to GTG (valine, nonpolar). The resulting HbS polymerizes under low O₂ conditions, distorting red blood cells into a sickle shape.",
+    "tags": [
+      "molecular biology",
+      "mutations"
+    ],
+    "difficulty": "medium"
+  }
+]

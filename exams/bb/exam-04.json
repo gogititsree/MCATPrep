@@ -1,0 +1,406 @@
+[
+  {
+    "text": "Which hormone stimulates the adrenal cortex to produce cortisol?",
+    "options": [
+      "TSH",
+      "ACTH",
+      "GH",
+      "FSH"
+    ],
+    "correct": 1,
+    "explanation": "The HPA axis: CRH (hypothalamus) → ACTH (anterior pituitary) → cortisol (adrenal cortex). Cortisol (a glucocorticoid) promotes gluconeogenesis, suppresses immunity, and negatively feeds back on the hypothalamus and pituitary.",
+    "tags": [
+      "physiology",
+      "endocrine"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Thyroid hormone (T3) binds to:",
+    "options": [
+      "Cell surface G-protein coupled receptors",
+      "Intracellular nuclear receptors that regulate gene transcription",
+      "Tyrosine kinase receptors on the cell surface",
+      "Ligand-gated ion channels"
+    ],
+    "correct": 1,
+    "explanation": "Thyroid hormones (T3, T4) are lipophilic and cross the plasma membrane, binding intracellular (nuclear) receptors. The thyroid hormone-receptor complex acts as a transcription factor, regulating genes for basal metabolic rate, development, and heart rate.",
+    "tags": [
+      "physiology",
+      "endocrine",
+      "hormones"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A student doing a Lineweaver-Burk analysis adds an inhibitor and observes that the y-intercept changes while the x-intercept remains the same. What type of inhibitor is this?",
+    "options": [
+      "Competitive inhibitor",
+      "Noncompetitive inhibitor",
+      "Uncompetitive inhibitor",
+      "Mixed inhibitor"
+    ],
+    "correct": 1,
+    "explanation": "On the Lineweaver-Burk plot, the x-intercept = −1/Km and the y-intercept = 1/Vmax. If the x-intercept (−1/Km) stays the same, Km is unchanged. If the y-intercept (1/Vmax) changes, Vmax is altered. Unchanged Km + decreased Vmax = noncompetitive inhibition.",
+    "tags": [
+      "enzyme kinetics",
+      "inhibition"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In protein synthesis, the ribosome moves along the mRNA in which direction?",
+    "options": [
+      "3' to 5'",
+      "5' to 3'",
+      "Either direction depending on the codon",
+      "From the 3' poly-A tail toward the 5' cap"
+    ],
+    "correct": 1,
+    "explanation": "The ribosome moves 5'→3' along the mRNA, reading codons and extending the polypeptide from its N-terminus toward the C-terminus (N to C). The peptide chain grows with each new aminoacyl-tRNA in the A site.",
+    "tags": [
+      "translation",
+      "molecular biology"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Glycogen phosphorylase catalyzes which reaction?",
+    "options": [
+      "Addition of glucose to glycogen using UDP-glucose",
+      "Removal of glucose-1-phosphate from glycogen",
+      "Synthesis of glycogen from glucose-6-phosphate",
+      "Transfer of glucose from glycogen to fructose"
+    ],
+    "correct": 1,
+    "explanation": "Glycogen phosphorylase catalyzes phosphorolytic cleavage of α(1→4) glycosidic bonds in glycogen, releasing glucose-1-phosphate (G1P). G1P is converted to G6P by phosphoglucomutase for entry into glycolysis or gluconeogenesis.",
+    "tags": [
+      "glycogen",
+      "metabolism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which mutation type results in a premature stop codon?",
+    "options": [
+      "Silent mutation",
+      "Missense mutation",
+      "Nonsense mutation",
+      "Frameshift mutation"
+    ],
+    "correct": 2,
+    "explanation": "A nonsense mutation converts a sense codon (coding for an amino acid) to a stop codon (UAA, UAG, or UGA), leading to premature translation termination and usually a truncated, nonfunctional protein. Duchenne muscular dystrophy is often caused by nonsense mutations in dystrophin.",
+    "tags": [
+      "molecular biology",
+      "mutations"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A frameshift mutation typically has more severe consequences than a missense mutation because:",
+    "options": [
+      "It always introduces a stop codon at the same position",
+      "It changes all downstream amino acids by shifting the reading frame",
+      "It affects only one amino acid",
+      "It prevents DNA replication entirely"
+    ],
+    "correct": 1,
+    "explanation": "Frameshift mutations (insertions or deletions of nucleotides not in multiples of 3) shift the reading frame, altering every amino acid downstream of the mutation and often introducing a premature stop codon. They typically abolish protein function.",
+    "tags": [
+      "molecular biology",
+      "mutations"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The sodium-potassium ATPase (Na⁺/K⁺-ATPase) is classified as:",
+    "options": [
+      "Facilitated diffusion",
+      "Secondary active transport",
+      "Primary active transport",
+      "Osmosis"
+    ],
+    "correct": 2,
+    "explanation": "Na⁺/K⁺-ATPase directly uses ATP hydrolysis to pump 3 Na⁺ out and 2 K⁺ in against their electrochemical gradients (primary active transport). This is the defining feature distinguishing primary from secondary active transport, which uses the gradient generated by primary transport.",
+    "tags": [
+      "cell biology",
+      "transport",
+      "membrane"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Aquaporins allow water to cross the plasma membrane via:",
+    "options": [
+      "Active transport",
+      "Simple diffusion through the lipid bilayer",
+      "Facilitated diffusion through protein channels",
+      "Pinocytosis"
+    ],
+    "correct": 2,
+    "explanation": "Aquaporins are integral membrane proteins that form channels for rapid, selective water movement down osmotic gradients (facilitated diffusion). They do not transport solutes and do not require energy. AQP2 in kidney collecting ducts is regulated by ADH.",
+    "tags": [
+      "cell biology",
+      "transport"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Signal transduction via receptor tyrosine kinases (RTKs) involves:",
+    "options": [
+      "Direct binding to DNA to regulate transcription",
+      "Dimerization and autophosphorylation of tyrosine residues upon ligand binding",
+      "Activation of adenylyl cyclase to increase cAMP",
+      "Binding of a second messenger to open an ion channel"
+    ],
+    "correct": 1,
+    "explanation": "RTKs (e.g., EGF receptor, insulin receptor) are transmembrane receptors. Ligand binding causes receptor dimerization, which activates intrinsic kinase activity, leading to transphosphorylation of tyrosine residues. Phosphotyrosines serve as docking sites for downstream signaling proteins (e.g., Ras, PI3K).",
+    "tags": [
+      "cell biology",
+      "signal transduction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "During G-protein coupled receptor (GPCR) signaling via Gs, the ultimate second messenger produced is:",
+    "options": [
+      "IP₃",
+      "DAG",
+      "cAMP",
+      "Ca²⁺"
+    ],
+    "correct": 2,
+    "explanation": "Gs-coupled GPCRs activate adenylyl cyclase via the Gα subunit, converting ATP to cAMP. cAMP activates PKA, which phosphorylates target proteins. Gq-coupled receptors activate PLC, producing IP₃ (releases Ca²⁺) and DAG (activates PKC).",
+    "tags": [
+      "cell biology",
+      "signal transduction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "What event triggers the spindle assembly checkpoint (SAC) to arrest the cell cycle?",
+    "options": [
+      "DNA strand breaks detected in S phase",
+      "Unattached or improperly tensioned kinetochores during mitosis",
+      "Loss of centrosomes",
+      "Failure to complete cytokinesis"
+    ],
+    "correct": 1,
+    "explanation": "The SAC delays anaphase onset until all kinetochores are properly attached to spindle microtubules with appropriate tension. Unattached kinetochores produce a diffusible 'wait signal' (MCC) that inhibits APC/C and the metaphase-to-anaphase transition.",
+    "tags": [
+      "cell cycle",
+      "checkpoints"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which of the following best describes codominance?",
+    "options": [
+      "Both alleles are expressed equally and simultaneously in the heterozygote",
+      "One allele masks the expression of another",
+      "The heterozygote shows a phenotype intermediate between the two homozygotes",
+      "One allele is expressed more than the other"
+    ],
+    "correct": 0,
+    "explanation": "In codominance, both alleles are fully expressed in the heterozygote. The ABO blood type system is the classic example: the I^A and I^B alleles are codominant, producing both A and B antigens in type AB individuals.",
+    "tags": [
+      "genetics",
+      "Mendelian"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A man with blood type AB and a woman with blood type O have children. What blood types can their children have?",
+    "options": [
+      "Only AB",
+      "A or B only",
+      "A, B, or AB",
+      "A, B, AB, or O"
+    ],
+    "correct": 1,
+    "explanation": "AB parent genotype is I^A I^B; O parent is ii. Offspring receive one allele from each parent: I^A i (type A) or I^B i (type B). Neither AB nor O offspring are possible.",
+    "tags": [
+      "genetics",
+      "ABO blood type"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Epistasis differs from simple Mendelian dominance in that:",
+    "options": [
+      "It involves alleles at the same locus masking each other",
+      "It involves one gene locus masking or modifying the expression of a different gene locus",
+      "It requires three or more alleles at one locus",
+      "It only occurs in polyploid organisms"
+    ],
+    "correct": 1,
+    "explanation": "Epistasis is a gene-gene interaction where one gene (epistatic gene) masks or modifies phenotypic expression of another gene at a different locus (hypostatic gene). This modifies expected 9:3:3:1 dihybrid ratios to patterns like 9:3:4, 12:3:1, or 15:1.",
+    "tags": [
+      "genetics",
+      "epistasis"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The recombination frequency between two genes is 20 cM (centimorgans). This means:",
+    "options": [
+      "The genes are on different chromosomes",
+      "20% of meiotic products show crossing over between the two loci",
+      "The genes are physically 20 nm apart",
+      "The two genes always assort independently"
+    ],
+    "correct": 1,
+    "explanation": "One centimorgan = 1% recombination frequency. A 20 cM distance means 20% of offspring from a test cross show recombinant phenotypes due to crossing over between the two loci. Genes >50 cM apart assort independently; 20 cM indicates linkage.",
+    "tags": [
+      "genetics",
+      "linkage"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "During DNA replication, what ensures high fidelity by removing incorrectly incorporated nucleotides?",
+    "options": [
+      "Primase",
+      "Helicase",
+      "3' to 5' exonuclease (proofreading) activity of DNA polymerase",
+      "RNA polymerase"
+    ],
+    "correct": 2,
+    "explanation": "DNA polymerase III (in prokaryotes) and DNA polymerases δ and ε (in eukaryotes) have 3'→5' exonuclease (proofreading) activity. When a mismatch is incorporated, the polymerase pauses, excises the incorrect nucleotide, and reinserts the correct one, reducing error rate to ~1 in 10^9.",
+    "tags": [
+      "DNA replication",
+      "molecular biology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Imprinting in genetics refers to:",
+    "options": [
+      "Permanent copying of DNA into the genome",
+      "Differential gene expression depending on whether an allele was inherited from the mother or the father",
+      "A type of X-linked inheritance pattern",
+      "Learned behavior that alters gene expression"
+    ],
+    "correct": 1,
+    "explanation": "Genomic imprinting involves epigenetic marks (DNA methylation) that silence one allele based on parental origin. The H19/IGF2 region is a classic example. Prader-Willi syndrome (paternal deletion) and Angelman syndrome (maternal deletion) affect the same chromosomal region but present differently due to imprinting.",
+    "tags": [
+      "genetics",
+      "epigenetics"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Telomerase adds repetitive DNA sequences to chromosome ends (telomeres). Without telomerase activity in somatic cells, each round of replication leads to:",
+    "options": [
+      "Insertion of random nucleotides",
+      "Progressive shortening of telomeres",
+      "Increased recombination at chromosome ends",
+      "Synthesis of extra-long chromosomes"
+    ],
+    "correct": 1,
+    "explanation": "The 'end replication problem' arises because DNA pol cannot fully replicate the 5' end of the lagging strand after primer removal. Without telomerase, telomeres shorten with each division, eventually triggering senescence or apoptosis. Telomerase is active in germ cells, stem cells, and most cancer cells.",
+    "tags": [
+      "molecular biology",
+      "telomeres"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Protein folding is primarily driven by:",
+    "options": [
+      "Covalent disulfide bonds in the hydrophobic core",
+      "Hydrophobic collapse — burying nonpolar side chains away from water",
+      "Electrostatic interactions on the protein surface",
+      "Hydrogen bonds between charged residues"
+    ],
+    "correct": 1,
+    "explanation": "The primary thermodynamic driving force for protein folding is the hydrophobic effect: nonpolar side chains are buried in the protein interior away from water, driven by the increase in entropy of surrounding water molecules when they no longer need to cage hydrophobic groups.",
+    "tags": [
+      "protein structure",
+      "thermodynamics"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which vitamin is required as a cofactor by pyruvate carboxylase and acetyl-CoA carboxylase?",
+    "options": [
+      "Thiamine (B1)",
+      "Riboflavin (B2)",
+      "Biotin (B7)",
+      "Cobalamin (B12)"
+    ],
+    "correct": 2,
+    "explanation": "Biotin is covalently attached to carboxylase enzymes (pyruvate carboxylase, acetyl-CoA carboxylase, propionyl-CoA carboxylase) and serves as a CO₂ carrier. Biotin deficiency causes metabolic acidosis and impaired gluconeogenesis and fatty acid synthesis.",
+    "tags": [
+      "metabolism",
+      "vitamins",
+      "cofactors"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which vitamin deficiency causes megaloblastic anemia and subacute combined degeneration of the spinal cord?",
+    "options": [
+      "Vitamin B6 (pyridoxine)",
+      "Vitamin B12 (cobalamin)",
+      "Vitamin C (ascorbic acid)",
+      "Folate (B9)"
+    ],
+    "correct": 1,
+    "explanation": "Vitamin B12 is required for methylmalonyl-CoA mutase and methionine synthase. Deficiency (from pernicious anemia or strict vegan diet) causes megaloblastic anemia (from impaired thymidylate synthesis via folate pathway) AND neurological damage (demyelination of posterior and lateral spinal columns) — unlike folate deficiency, which only causes anemia.",
+    "tags": [
+      "vitamins",
+      "deficiency"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which of the following is a key difference between aerobic and anaerobic glycolysis?",
+    "options": [
+      "Anaerobic glycolysis produces more ATP per glucose",
+      "Aerobic glycolysis uses oxygen to regenerate NAD⁺ from NADH",
+      "Anaerobic glycolysis regenerates NAD⁺ by reducing pyruvate to lactate",
+      "Aerobic glycolysis occurs only in mitochondria"
+    ],
+    "correct": 2,
+    "explanation": "In anaerobic conditions, cells regenerate NAD⁺ (needed to continue glycolysis) by reducing pyruvate to lactate (animals/fungi) or ethanol + CO₂ (yeast). In aerobic conditions, NADH is reoxidized via the ETC. Net ATP yield is 2 in both cases for glycolysis itself.",
+    "tags": [
+      "glycolysis",
+      "metabolism",
+      "anaerobic"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Heme is a prosthetic group found in hemoglobin and cytochrome c. It is synthesized from:",
+    "options": [
+      "Porphyrin and Fe²⁺",
+      "Purine and Fe³⁺",
+      "Cholesterol and iron",
+      "Glucose and glycine"
+    ],
+    "correct": 0,
+    "explanation": "Heme consists of a porphyrin ring (synthesized from glycine and succinyl-CoA via ALA synthase in the first committed step) coordinated with a ferrous iron (Fe²⁺). When Fe²⁺ is oxidized to Fe³⁺, hemoglobin becomes methemoglobin, which cannot carry O₂.",
+    "tags": [
+      "biochemistry",
+      "heme"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The Cori cycle describes:",
+    "options": [
+      "The interconversion of amino acids and keto acids",
+      "The export of lactate from muscle to the liver, and its conversion back to glucose",
+      "The recycling of urea in the kidneys",
+      "The enterohepatic circulation of bile salts"
+    ],
+    "correct": 1,
+    "explanation": "In the Cori cycle, actively contracting muscle exports lactate (from anaerobic glycolysis) into the blood. The liver takes up lactate, converts it to pyruvate, and uses gluconeogenesis to make glucose, which is returned to muscle via blood. This shifts the metabolic burden to the liver.",
+    "tags": [
+      "metabolism",
+      "gluconeogenesis"
+    ],
+    "difficulty": "medium"
+  }
+]

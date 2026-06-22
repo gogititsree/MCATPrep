@@ -1,0 +1,410 @@
+[
+  {
+    "text": "The urea cycle converts toxic ammonia (from amino acid catabolism) into urea for excretion. Where does the urea cycle primarily occur?",
+    "options": [
+      "Kidney cortex",
+      "Small intestinal mucosa",
+      "Hepatocytes (liver)",
+      "Skeletal muscle"
+    ],
+    "correct": 2,
+    "explanation": "The urea cycle occurs primarily in liver hepatocytes (partly in mitochondria, partly in cytoplasm). Ammonia is toxic to the brain at high concentrations. The liver produces urea (2 N atoms per molecule, from NH₃ and aspartate) for excretion by the kidneys.",
+    "tags": [
+      "amino acid metabolism",
+      "urea cycle",
+      "metabolism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Collagen's unique structure is a triple helix. Which amino acid is found at every third position in collagen and is essential for triple-helix formation?",
+    "options": [
+      "Proline",
+      "Hydroxyproline",
+      "Glycine",
+      "Lysine"
+    ],
+    "correct": 2,
+    "explanation": "Collagen's primary sequence has a Gly-X-Y repeating pattern where glycine (the smallest amino acid) must occupy every third position. This allows the three chains to coil tightly. Vitamin C (ascorbic acid) is required for hydroxylation of proline and lysine, cross-linking collagen fibers.",
+    "tags": [
+      "protein structure",
+      "collagen"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "A cell is treated with colchicine, which depolymerizes microtubules. Which process would be MOST directly affected?",
+    "options": [
+      "DNA replication",
+      "Formation of the mitotic spindle during M phase",
+      "mRNA translation",
+      "Membrane lipid synthesis"
+    ],
+    "correct": 1,
+    "explanation": "The mitotic spindle is made of microtubules (α/β-tubulin dimers). Colchicine (and vinblastine) binds tubulin and prevents polymerization, arresting cells in metaphase. This is the same mechanism exploited by anti-cancer drugs like paclitaxel (stabilizes microtubules instead).",
+    "tags": [
+      "cell biology",
+      "cytoskeleton",
+      "cell cycle"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Competitive inhibitors and the substrate compete for the same enzyme active site. To distinguish competitive from noncompetitive inhibition experimentally, a researcher should:",
+    "options": [
+      "Compare Vmax values at low substrate concentrations only",
+      "Plot 1/v vs 1/[S] (Lineweaver-Burk) and compare slopes and intercepts",
+      "Measure enzyme turnover number (kcat) in the absence of inhibitor",
+      "Determine the molecular weight of the inhibitor"
+    ],
+    "correct": 1,
+    "explanation": "A Lineweaver-Burk plot clearly distinguishes inhibition types: competitive inhibition changes the slope (apparent Km increases) but not the y-intercept (Vmax unchanged); noncompetitive changes the y-intercept (apparent Vmax decreases) but not the x-intercept (Km unchanged).",
+    "tags": [
+      "enzyme kinetics",
+      "inhibition"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The enzyme succinate dehydrogenase is found in the inner mitochondrial membrane and participates in both the TCA cycle and the ETC. Which statement best describes its function?",
+    "options": [
+      "It reduces NAD⁺ to NADH using succinate as the electron donor",
+      "It oxidizes succinate to fumarate, reducing FAD to FADH₂, and donates electrons directly to ubiquinone",
+      "It converts fumarate to malate using FADH₂",
+      "It catalyzes substrate-level phosphorylation to produce GTP"
+    ],
+    "correct": 1,
+    "explanation": "Succinate dehydrogenase (Complex II) oxidizes succinate → fumarate, transferring electrons to FAD embedded in the protein (forming FADH₂). These electrons are then passed to ubiquinone (CoQ). It is the only TCA cycle enzyme that is an integral membrane protein.",
+    "tags": [
+      "TCA cycle",
+      "ETC",
+      "metabolism"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In the electron transport chain, the proton gradient across the inner mitochondrial membrane drives ATP synthesis. The ratio of protons pumped per NADH oxidized is approximately:",
+    "options": [
+      "3 H⁺ total (1 at each complex I, III, IV)",
+      "10 H⁺ total (4 at Complex I, 4 at Complex III, 2 at Complex IV)",
+      "6 H⁺ total (2 at each complex)",
+      "2 H⁺ total (1 at each site)"
+    ],
+    "correct": 1,
+    "explanation": "Per NADH: Complex I pumps ~4 H⁺, Complex III ~4 H⁺ (Q cycle), and Complex IV ~2 H⁺ (10 total per NADH). FADH₂ bypasses Complex I (6 H⁺ total). Approximately 4 H⁺ return through ATP synthase to produce 1 ATP, yielding ~2.5 ATP/NADH.",
+    "tags": [
+      "ETC",
+      "oxidative phosphorylation"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "A mutation abolishing glucokinase (hexokinase IV) in pancreatic β-cells would most likely result in:",
+    "options": [
+      "Failure to store glucose as glycogen in the liver",
+      "Impaired glucose-stimulated insulin secretion because β-cells cannot sense elevated glucose",
+      "Increased gluconeogenesis in the liver",
+      "Constitutive activation of glycolysis in red blood cells"
+    ],
+    "correct": 1,
+    "explanation": "In pancreatic β-cells, glucokinase serves as a glucose sensor. Its high Km (~10 mM) means it is only significantly active at elevated blood glucose. Loss of glucokinase impairs glucose uptake and metabolism in β-cells, reducing ATP generation, failing to close KATP channels, and abolishing glucose-stimulated insulin secretion. MODY2 is caused by glucokinase mutations.",
+    "tags": [
+      "glycolysis",
+      "endocrine",
+      "diabetes"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which metabolic condition is associated with a very high NADH:NAD⁺ ratio in the liver?",
+    "options": [
+      "Prolonged fasting",
+      "Chronic alcohol consumption",
+      "Vigorous aerobic exercise",
+      "High-protein diet"
+    ],
+    "correct": 1,
+    "explanation": "Ethanol metabolism by alcohol dehydrogenase and aldehyde dehydrogenase generates large amounts of NADH, shifting the hepatic NADH:NAD⁺ ratio dramatically. This inhibits gluconeogenesis (NAD⁺ is needed for several steps), fatty acid oxidation, and promotes fatty acid synthesis, leading to alcoholic fatty liver.",
+    "tags": [
+      "metabolism",
+      "regulation",
+      "liver"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which enzyme is uniquely required for gluconeogenesis in the conversion of fructose-1,6-bisphosphate to fructose-6-phosphate?",
+    "options": [
+      "PFK-1",
+      "Aldolase",
+      "Fructose-1,6-bisphosphatase (FBPase-1)",
+      "Glucose-6-phosphatase"
+    ],
+    "correct": 2,
+    "explanation": "Fructose-1,6-bisphosphatase (FBPase-1) catalyzes the irreversible hydrolysis of fructose-1,6-bisphosphate → fructose-6-phosphate + Pi. This bypasses the PFK-1 step of glycolysis. It is inhibited by AMP and fructose-2,6-bisphosphate, ensuring that gluconeogenesis is suppressed when cellular energy is low or insulin signals are high.",
+    "tags": [
+      "gluconeogenesis",
+      "metabolism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The catecholamines (epinephrine, norepinephrine) are synthesized from which amino acid?",
+    "options": [
+      "Tryptophan",
+      "Tyrosine",
+      "Phenylalanine",
+      "Histidine"
+    ],
+    "correct": 1,
+    "explanation": "Tyrosine is the precursor to catecholamines. The pathway is: Tyrosine → DOPA (tyrosine hydroxylase, rate-limiting) → Dopamine → Norepinephrine → Epinephrine. Tyrosine itself is synthesized from phenylalanine (phenylalanine hydroxylase, defective in PKU).",
+    "tags": [
+      "amino acid metabolism",
+      "neurotransmitters"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Phenylketonuria (PKU) results from deficiency of which enzyme?",
+    "options": [
+      "Tyrosine transaminase",
+      "Phenylalanine hydroxylase",
+      "Homogentisate oxidase",
+      "DOPA decarboxylase"
+    ],
+    "correct": 1,
+    "explanation": "PKU is caused by deficient phenylalanine hydroxylase (PAH), which converts phenylalanine to tyrosine. Phenylalanine accumulates and is transaminated to phenylpyruvate, which is toxic to developing brain. Treatment is a low-phenylalanine diet begun at birth.",
+    "tags": [
+      "amino acid metabolism",
+      "genetic disorders"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Maple syrup urine disease (MSUD) is caused by a defect in metabolism of:",
+    "options": [
+      "Sulfur-containing amino acids (Met, Cys)",
+      "Branched-chain amino acids (Leu, Ile, Val)",
+      "Aromatic amino acids (Phe, Tyr, Trp)",
+      "Basic amino acids (Lys, Arg, His)"
+    ],
+    "correct": 1,
+    "explanation": "MSUD results from deficiency of branched-chain α-keto acid dehydrogenase (analogous to PDH), which decarboxylates the keto acid derivatives of Leu, Ile, and Val. These accumulate, causing sweet-smelling urine, neurological damage, and death if untreated.",
+    "tags": [
+      "amino acid metabolism",
+      "genetic disorders"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Homocystinuria is most commonly caused by a deficiency of which enzyme?",
+    "options": [
+      "Methionine adenosyltransferase",
+      "Cystathionine β-synthase (CBS)",
+      "Methylmalonyl-CoA mutase",
+      "Propionyl-CoA carboxylase"
+    ],
+    "correct": 1,
+    "explanation": "CBS catalyzes the condensation of homocysteine with serine to form cystathionine (requires B6). Deficiency causes homocysteine accumulation: cardiovascular disease (homocysteine damages endothelium), lens dislocation (ectopia lentis), osteoporosis, and intellectual disability.",
+    "tags": [
+      "amino acid metabolism",
+      "genetic disorders"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The first-pass effect refers to:",
+    "options": [
+      "Absorption of drugs through the skin",
+      "Metabolism of orally administered drugs in the intestinal wall and liver before reaching systemic circulation",
+      "The renal filtration of drugs before they reach their target",
+      "Plasma protein binding of drugs reducing free drug concentration"
+    ],
+    "correct": 1,
+    "explanation": "The first-pass effect occurs when an orally ingested drug is absorbed from the GI tract via the portal vein and partially metabolized by the liver (and sometimes intestinal mucosa) before reaching systemic circulation. This reduces bioavailability of many drugs (e.g., nitroglycerin, propranolol).",
+    "tags": [
+      "pharmacology",
+      "metabolism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A nucleoside differs from a nucleotide in that a nucleoside:",
+    "options": [
+      "Lacks a sugar",
+      "Contains a phosphate group",
+      "Lacks a phosphate group (contains only base + sugar)",
+      "Contains an extra methyl group on the base"
+    ],
+    "correct": 2,
+    "explanation": "Nucleoside = nitrogenous base + ribose or deoxyribose sugar. Nucleotide = nucleoside + one or more phosphate groups. For example, adenosine is a nucleoside (adenine + ribose); AMP is a nucleotide (adenosine + one phosphate).",
+    "tags": [
+      "molecular biology",
+      "nucleotides"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Purines (adenine, guanine) and pyrimidines (cytosine, thymine, uracil) differ structurally in that:",
+    "options": [
+      "Purines contain one ring; pyrimidines contain two fused rings",
+      "Purines contain two fused rings; pyrimidines contain one ring",
+      "Both contain the same ring system but differ in side chains",
+      "Purines are only found in DNA; pyrimidines are only in RNA"
+    ],
+    "correct": 1,
+    "explanation": "Purines (A, G) have a bicyclic structure: a pyrimidine ring fused with an imidazole ring. Pyrimidines (C, T, U) have a single six-membered ring. In Watson-Crick base pairs, one purine pairs with one pyrimidine (A=T/U, G≡C), maintaining a uniform helix width.",
+    "tags": [
+      "molecular biology",
+      "nucleotides"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Purine nucleotides can be synthesized de novo or via the salvage pathway. In which organ is the salvage pathway most critical?",
+    "options": [
+      "Liver",
+      "Brain and red blood cells",
+      "Skeletal muscle",
+      "Kidney"
+    ],
+    "correct": 1,
+    "explanation": "Many tissues (especially RBCs and the brain) preferentially use the purine salvage pathway (HGPRT and APRT) to recycle free purines rather than synthesizing them de novo. HGPRT deficiency causes Lesch-Nyhan syndrome (gout, neurological dysfunction, self-mutilation).",
+    "tags": [
+      "molecular biology",
+      "nucleotide metabolism"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In DNA, guanine pairs with cytosine with three hydrogen bonds, while adenine pairs with thymine with two. How does this affect melting temperature?",
+    "options": [
+      "High G-C content lowers the melting temperature due to the extra bond strain",
+      "High G-C content raises the melting temperature because more energy is needed to separate three hydrogen bonds",
+      "A-T and G-C pairs have identical stability",
+      "G-C content has no effect on melting temperature"
+    ],
+    "correct": 1,
+    "explanation": "G-C base pairs form 3 hydrogen bonds vs. 2 for A-T. DNA strands with higher G-C content require more thermal energy to denature (separate), giving a higher melting temperature (Tm). This is exploited in PCR primer design — high G-C content primers have higher Tm and require higher annealing temperatures.",
+    "tags": [
+      "molecular biology",
+      "DNA structure"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which feature of the ribosome is responsible for peptide bond formation?",
+    "options": [
+      "The 16S rRNA of the 30S subunit (prokaryotes)",
+      "The peptidyl transferase activity of the 23S rRNA (prokaryotes) / 28S rRNA (eukaryotes) in the 50S/60S subunit",
+      "Elongation factor EF-Tu/EF-1α",
+      "The 5S rRNA of the large subunit"
+    ],
+    "correct": 1,
+    "explanation": "Peptide bond formation is catalyzed by the peptidyl transferase center located in the 23S rRNA (prokaryotes) / 28S rRNA (eukaryotes) of the large ribosomal subunit — demonstrating that the ribosome is a ribozyme. EF-Tu/EF-1α delivers aminoacyl-tRNA to the A site.",
+    "tags": [
+      "translation",
+      "molecular biology"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Chloramphenicol inhibits bacterial protein synthesis by:",
+    "options": [
+      "Binding 30S subunit and causing codon misreading",
+      "Inhibiting 50S peptidyl transferase activity",
+      "Preventing translocation from A to P site",
+      "Binding RNA polymerase and blocking transcription"
+    ],
+    "correct": 1,
+    "explanation": "Chloramphenicol binds the 50S subunit and inhibits peptidyl transferase, blocking peptide bond formation. It is bacteriostatic. It does NOT affect eukaryotic cytoplasmic ribosomes but DOES inhibit mitochondrial ribosomes (70S), which is why it can cause aplastic anemia.",
+    "tags": [
+      "molecular biology",
+      "antibiotics",
+      "translation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "What are the three sites on the ribosome involved in translation?",
+    "options": [
+      "A (aminoacyl), P (peptidyl), E (exit) sites",
+      "Start, elongation, stop sites",
+      "5' cap, coding, poly-A sites",
+      "Initiation, elongation, termination factors"
+    ],
+    "correct": 0,
+    "explanation": "The ribosome has three tRNA binding sites: A (aminoacyl) site — incoming aminoacyl-tRNA; P (peptidyl) site — growing peptide chain (peptidyl-tRNA); E (exit) site — discharged tRNA exits the ribosome. Elongation proceeds: A→P via translocation, P→E displacement.",
+    "tags": [
+      "translation",
+      "molecular biology"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Post-translational modification that adds a fatty acid to a protein to anchor it to membranes is called:",
+    "options": [
+      "Glycosylation",
+      "Myristoylation or palmitoylation (lipid modification)",
+      "Phosphorylation",
+      "Ubiquitination"
+    ],
+    "correct": 1,
+    "explanation": "Lipid modifications like myristoylation (myristic acid, N-terminal Gly, cotranslational, irreversible), palmitoylation (palmitate on Cys, reversible), and GPI anchors attach proteins to the cytoplasmic leaflet or outer leaflet of the plasma membrane. Src family kinases use myristoylation for membrane targeting.",
+    "tags": [
+      "protein structure",
+      "post-translational modification"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which process degrades intracellular proteins tagged with ubiquitin?",
+    "options": [
+      "Lysosomes via autophagy",
+      "The proteasome (26S)",
+      "Caspases during apoptosis",
+      "Signal peptidase in the ER"
+    ],
+    "correct": 1,
+    "explanation": "Proteins tagged with a polyubiquitin chain are recognized and degraded by the 26S proteasome, a large ATP-dependent protease complex. The ubiquitin is recycled. This pathway regulates cell cycle proteins (cyclins), misfolded proteins, and transcription factors.",
+    "tags": [
+      "protein degradation",
+      "cell biology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The sarcomere is the basic contractile unit of skeletal muscle. Which statement about sarcomere structure is correct?",
+    "options": [
+      "Z discs are composed of myosin; I bands contain actin only",
+      "The H zone contains only myosin; I bands contain only actin; Z discs anchor thin filaments",
+      "Troponin is found on myosin thick filaments",
+      "The A band contains only thin filaments (actin)"
+    ],
+    "correct": 1,
+    "explanation": "Sarcomere structure: Z disc anchors thin filaments (actin); I band = actin only (between Z disc and A band overlap); A band = full length of thick filaments (myosin), including the overlap with actin; H zone = myosin only (no actin overlap); M line = center, myosin cross-links. During contraction, I band and H zone shorten; A band length is constant.",
+    "tags": [
+      "physiology",
+      "muscle",
+      "cell biology"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In muscle contraction, calcium binds troponin C, which causes:",
+    "options": [
+      "Direct activation of myosin ATPase",
+      "Conformational change in tropomyosin, exposing myosin-binding sites on actin",
+      "Phosphorylation of myosin light chain kinase",
+      "Release of ATP from myosin head"
+    ],
+    "correct": 1,
+    "explanation": "Ca²⁺ released from sarcoplasmic reticulum binds troponin C → moves tropomyosin → exposes myosin-binding sites on actin. Myosin ATPase hydrolyzes ATP to cock the cross-bridge; myosin binds actin; Pi release triggers the power stroke; ADP release; new ATP detaches myosin.",
+    "tags": [
+      "physiology",
+      "muscle",
+      "cell biology"
+    ],
+    "difficulty": "medium"
+  }
+]

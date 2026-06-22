@@ -1,0 +1,417 @@
+[
+  {
+    "text": "A spring-mass system oscillates with period T = 2π√(m/k). Doubling the mass:",
+    "options": [
+      "Doubles the period",
+      "Increases the period by factor √2",
+      "Halves the period",
+      "Has no effect on period"
+    ],
+    "correct": 1,
+    "explanation": "T = 2π√(m/k). Doubling m → T_new = 2π√(2m/k) = √2 × 2π√(m/k) = √2 × T. Period increases by √2 ≈ 1.41. (Compare pendulum T = 2π√(L/g) — independent of mass. Spring-mass T does depend on mass.)",
+    "tags": [
+      "oscillations",
+      "SHM",
+      "springs"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The phenomenon of diffraction is characteristic of:",
+    "options": [
+      "Particles only",
+      "Waves only (both matter waves and electromagnetic waves)",
+      "Only longitudinal waves",
+      "Only transverse waves"
+    ],
+    "correct": 1,
+    "explanation": "Diffraction — bending of waves around obstacles or through narrow openings — is a purely wave phenomenon. Both electromagnetic waves (light through a single slit) and matter waves (electrons through a crystal lattice) diffract. The width of the diffraction pattern increases as wavelength/opening size increases.",
+    "tags": [
+      "waves",
+      "diffraction"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Constructive interference between two waves requires:",
+    "options": [
+      "Path difference equal to a half-integer multiple of wavelength (e.g., λ/2, 3λ/2)",
+      "Path difference equal to a whole number multiple of wavelength (0, λ, 2λ)",
+      "Both waves having different frequencies",
+      "The waves to be 180° out of phase"
+    ],
+    "correct": 1,
+    "explanation": "Constructive interference: waves arrive in phase (path difference = mλ, where m = 0, 1, 2...). The amplitudes add: A_total = A₁ + A₂. Destructive interference: path difference = (m + ½)λ (waves are 180° out of phase, amplitudes cancel). This principle underlies Young's double-slit experiment, thin film interference, and AR coatings.",
+    "tags": [
+      "waves",
+      "interference"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The beat frequency between two tuning forks vibrating at 440 Hz and 436 Hz is:",
+    "options": [
+      "438 Hz",
+      "4 Hz",
+      "876 Hz",
+      "0 Hz"
+    ],
+    "correct": 1,
+    "explanation": "Beat frequency = |f₁ − f₂| = |440 − 436| = 4 Hz. Beats arise from constructive and destructive interference alternating at the difference frequency. The perceived amplitude pulsates 4 times per second. This is used to tune instruments.",
+    "tags": [
+      "waves",
+      "beats",
+      "sound"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "An object is moving on a frictionless horizontal surface at constant velocity. The net force is:",
+    "options": [
+      "Mass × velocity",
+      "Non-zero because motion requires force",
+      "Zero (Newton's first law — no net force needed to maintain constant velocity)",
+      "Equal to kinetic friction"
+    ],
+    "correct": 2,
+    "explanation": "Newton's first law (inertia): an object continues in uniform motion unless acted on by a net external force. On a frictionless surface, with no net horizontal force, velocity remains constant. Net force ≠ 0 only when acceleration ≠ 0 (velocity changing).",
+    "tags": [
+      "Newton's laws",
+      "inertia"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A 2 kg ball moving at 5 m/s east collides with a 3 kg ball at rest. After a perfectly inelastic collision, the combined mass moves at:",
+    "options": [
+      "5 m/s east",
+      "2 m/s east",
+      "3.5 m/s east",
+      "1 m/s west"
+    ],
+    "correct": 1,
+    "explanation": "Conservation of momentum: p_initial = p_final. m₁v₁ + m₂v₂ = (m₁ + m₂)v_f. (2)(5) + (3)(0) = (2+3)v_f → 10 = 5v_f → v_f = 2 m/s east. KE_initial = ½(2)(25) = 25 J; KE_final = ½(5)(4) = 10 J. KE lost = 15 J (dissipated as heat/deformation in inelastic collision).",
+    "tags": [
+      "momentum",
+      "collisions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The gravitational acceleration on a planet of mass M and radius R is:",
+    "options": [
+      "g = GM/R",
+      "g = GM/R²",
+      "g = GR²/M",
+      "g = 4GM/(3πR²)"
+    ],
+    "correct": 1,
+    "explanation": "From Newton's law of gravitation and F = mg: mg = GMm/R² → g = GM/R². For Earth: g ≈ 9.8 m/s². On the Moon (M_moon ≈ M_earth/80, R_moon ≈ R_earth/3.7): g_moon ≈ 1.6 m/s² ≈ g_earth/6.",
+    "tags": [
+      "gravity",
+      "Newton's law",
+      "forces"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The escape velocity from a planet of mass M and radius R is:",
+    "options": [
+      "v_esc = √(GM/R)",
+      "v_esc = √(2GM/R)",
+      "v_esc = 2GM/R²",
+      "v_esc = GM/R²"
+    ],
+    "correct": 1,
+    "explanation": "Setting KE = PE at surface: ½mv² = GMm/R → v = √(2GM/R). For Earth: v_esc ≈ 11.2 km/s. This is the minimum speed needed to escape the planet's gravity well. For a black hole, the escape velocity exceeds c (speed of light).",
+    "tags": [
+      "gravity",
+      "escape velocity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following is the correct form of Kepler's Third Law?",
+    "options": [
+      "T² ∝ r³ (period squared proportional to orbital radius cubed)",
+      "T ∝ r² (period proportional to orbital radius squared)",
+      "T ∝ r³ (period proportional to orbital radius cubed)",
+      "T² ∝ r (period squared proportional to orbital radius)"
+    ],
+    "correct": 0,
+    "explanation": "Kepler's Third Law: T² = (4π²/GM)r³, so T² ∝ r³. The square of the orbital period is proportional to the cube of the semi-major axis of the orbit. This allows calculation of orbital periods from orbital radii and vice versa for planets orbiting the sun.",
+    "tags": [
+      "gravity",
+      "Kepler's laws",
+      "orbital mechanics"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "For Ohm's law: a wire has resistance R = ρL/A, where ρ is resistivity, L is length, and A is cross-sectional area. Doubling the length and doubling the diameter will:",
+    "options": [
+      "Double the resistance",
+      "Quadruple the resistance",
+      "Halve the resistance",
+      "Keep resistance the same"
+    ],
+    "correct": 2,
+    "explanation": "R = ρL/A. A = πr² = π(d/2)². Doubling L → R doubles. Doubling d → A increases by factor 4 (r² increases by 4). Net: R_new = ρ(2L)/(4A) = ½(ρL/A) = R/2. Resistance halves. Thicker wire with same material — lower resistance.",
+    "tags": [
+      "circuits",
+      "resistance"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In a parallel circuit, if one light bulb burns out (open circuit):",
+    "options": [
+      "All other bulbs go dark (series effect)",
+      "The other bulbs continue to glow (each has its own path to ground)",
+      "The remaining bulbs become dimmer by an equal amount",
+      "The source voltage decreases"
+    ],
+    "correct": 1,
+    "explanation": "In a parallel circuit, each component has the same voltage across it and its own current path. If one branch opens (bulb burns out), current through that branch = 0, but other branches are unaffected. Total resistance increases slightly (one fewer parallel path), so total current from source decreases slightly, but individual branch currents are unchanged.",
+    "tags": [
+      "circuits",
+      "parallel circuit"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "When a proton moves from a region of high electric potential to low electric potential:",
+    "options": [
+      "It moves against the electric force (gains potential energy)",
+      "It moves with the electric force (loses potential energy, gains kinetic energy)",
+      "The electric potential energy stays constant",
+      "The proton decelerates"
+    ],
+    "correct": 1,
+    "explanation": "Electric potential V: positive charges move naturally from high V to low V (like water flowing downhill). The electric force does positive work on positive charges moving with the field. PE decreases (ΔPE = q ΔV = q(V_low − V_high) < 0), KE increases (conservation of energy). Electrons move from low to high V.",
+    "tags": [
+      "electrostatics",
+      "electric potential",
+      "energy"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A transformer with 100 turns in the primary coil and 500 turns in the secondary coil, supplied with 120 V, will output:",
+    "options": [
+      "24 V (step-down)",
+      "600 V (step-up)",
+      "120 V (unchanged)",
+      "60 V (halved)"
+    ],
+    "correct": 1,
+    "explanation": "Transformer equation: V_s/V_p = N_s/N_p. V_s = 120 × (500/100) = 600 V (step-up transformer). Current: I_s/I_p = N_p/N_s = 1/5 (current decreases proportionally). Power is conserved: P = V_p I_p = V_s I_s (ideal transformer). High voltage, low current = efficient long-distance power transmission.",
+    "tags": [
+      "electromagnetism",
+      "transformer"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The half-life of a radioactive isotope is independent of:",
+    "options": [
+      "The number of radioactive nuclei present",
+      "Temperature, pressure, or chemical state",
+      "The type of decay (α, β, γ)",
+      "The identity of the element"
+    ],
+    "correct": 1,
+    "explanation": "Radioactive decay is a nuclear process and is independent of chemical state, temperature, or pressure. This makes radioactive decay rates extremely stable and reliable as time standards. t₁/₂ = 0.693/λ (λ = decay constant), which is characteristic of each nuclide but invariant with environment.",
+    "tags": [
+      "nuclear physics",
+      "radioactive decay"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Beta-minus decay converts a neutron to:",
+    "options": [
+      "A proton + positron + neutrino",
+      "A proton + electron + antineutrino (β⁻ = electron emitted)",
+      "Two protons + a gamma ray",
+      "A neutron + a gamma photon"
+    ],
+    "correct": 1,
+    "explanation": "β⁻ decay: n → p + e⁻ + ν̄_e. The daughter nucleus has Z+1 (one more proton) and the same mass number A (nucleon count unchanged). Beta-minus decay is common in neutron-rich nuclei. Beta-plus (positron emission): p → n + e⁺ + ν_e. Electron capture: p + e⁻ → n + ν_e.",
+    "tags": [
+      "nuclear physics",
+      "beta decay"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which organ in the body has the highest effective atomic number and thus appears brightest on X-ray imaging?",
+    "options": [
+      "Lungs (air-filled, low density)",
+      "Soft tissue (mostly water and carbon)",
+      "Bone (contains calcium phosphate, high Z elements)",
+      "Fat (low effective Z)"
+    ],
+    "correct": 2,
+    "explanation": "X-ray attenuation depends on electron density and atomic number (Z). Bone contains calcium (Z=20) and phosphorus (Z=15) in hydroxyapatite, giving it high effective Z and density → bone strongly attenuates X-rays → appears bright (radiopaque). Lungs (air) appear darkest. Soft tissue is intermediate. Lead (Z=82) is used as shielding.",
+    "tags": [
+      "nuclear physics",
+      "medical imaging",
+      "X-rays"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In an Atwood machine (two masses m₁ > m₂ connected over a frictionless, massless pulley), the acceleration is:",
+    "options": [
+      "a = (m₁ + m₂)g/(m₁ − m₂)",
+      "a = (m₁ − m₂)g/(m₁ + m₂)",
+      "a = g",
+      "a = 2m₂g/(m₁ + m₂)"
+    ],
+    "correct": 1,
+    "explanation": "Atwood machine: net force = (m₁ − m₂)g; total mass = m₁ + m₂. By Newton's 2nd: a = (m₁ − m₂)g/(m₁ + m₂). If m₁ = m₂: a = 0 (balanced). Tension: T = 2m₁m₂g/(m₁ + m₂). This is a common MCAT problem testing force analysis over a pulley.",
+    "tags": [
+      "mechanics",
+      "Atwood machine",
+      "forces"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A fluid flows through a horizontal pipe that narrows. At the narrow section:",
+    "options": [
+      "Pressure increases, velocity increases",
+      "Pressure decreases, velocity increases (Bernoulli + continuity)",
+      "Pressure increases, velocity decreases",
+      "Both pressure and velocity decrease"
+    ],
+    "correct": 1,
+    "explanation": "Continuity: A₁v₁ = A₂v₂. Narrower cross-section → higher velocity. Bernoulli: P₁ + ½ρv₁² = P₂ + ½ρv₂². Higher v₂ → lower P₂. So: narrow section has higher speed and lower pressure. This is the venturi effect — used in carburetors, aspirators, and pitot tubes.",
+    "tags": [
+      "fluid dynamics",
+      "Bernoulli",
+      "venturi"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Reynolds number (Re) determines whether fluid flow is laminar or turbulent. Re = ρvL/μ. Turbulent flow occurs when:",
+    "options": [
+      "Re < 2000 (viscous forces dominate)",
+      "Re > 4000 (inertial forces dominate over viscous)",
+      "Re = 1 (critical value)",
+      "Re > 1 for all real fluids"
+    ],
+    "correct": 1,
+    "explanation": "Laminar flow: Re < 2000 (smooth, ordered layers). Transition: 2000-4000. Turbulent flow: Re > 4000 (chaotic, mixing). Re = ρvL/μ (inertial/viscous). High velocity (v), low viscosity (μ), large diameter (L) → higher Re → more likely turbulent. Poiseuille's Law for laminar flow: Q = πr⁴ΔP/(8ηL).",
+    "tags": [
+      "fluid dynamics",
+      "Reynolds number",
+      "viscosity"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Stokes' Law gives the drag force on a sphere in viscous fluid: F = 6πηrv. This is valid for:",
+    "options": [
+      "Turbulent flow at high Reynolds numbers",
+      "Low Reynolds number (Re << 1) laminar flow",
+      "Only flow of water",
+      "Compressible fluids only"
+    ],
+    "correct": 1,
+    "explanation": "Stokes' Law: F_drag = 6πηrv, where η = viscosity, r = sphere radius, v = velocity. Valid only for small Re (very slow motion, very viscous fluid, or very small particles). Used in sedimentation analysis (Stokes radius of proteins), falling ball viscometry, and atmospheric particle settling.",
+    "tags": [
+      "fluid dynamics",
+      "Stokes' Law",
+      "viscosity"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The heat transferred by conduction between two surfaces (Fourier's Law) is:",
+    "options": [
+      "Q/t = kA(ΔT)/L",
+      "Q/t = σεAT⁴",
+      "Q/t = hA(ΔT)",
+      "Q/t = mcΔT/t"
+    ],
+    "correct": 0,
+    "explanation": "Fourier's Law: Q/t = kA(ΔT)/L, where k = thermal conductivity (W/m·K), A = cross-sectional area, ΔT = temperature difference, L = thickness. Good thermal conductors have high k (copper: k ≈ 400 W/m·K; still air: k ≈ 0.025 W/m·K — air is an excellent insulator).",
+    "tags": [
+      "thermodynamics",
+      "heat transfer",
+      "conduction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Stefan-Boltzmann Law for thermal radiation states:",
+    "options": [
+      "Power radiated ∝ T (linear)",
+      "Power radiated ∝ T⁴ (P = σεAT⁴)",
+      "Power radiated ∝ T² (quadratic)",
+      "Power radiated is independent of temperature for blackbodies"
+    ],
+    "correct": 1,
+    "explanation": "Stefan-Boltzmann: P = σεAT⁴, where σ = 5.67×10⁻⁸ W/(m²·K⁴) (Stefan-Boltzmann constant), ε = emissivity (0 to 1; 1 = perfect blackbody), A = surface area, T = absolute temperature (K). The strong T⁴ dependence means small increases in temperature lead to large increases in radiation (e.g., red hot vs. white hot stars).",
+    "tags": [
+      "thermodynamics",
+      "radiation",
+      "Stefan-Boltzmann"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Wien's displacement law relates the wavelength of peak emission (λ_max) to temperature:",
+    "options": [
+      "λ_max × T = constant (λ_max T = 2.898 × 10⁻³ m·K)",
+      "λ_max = constant/T²",
+      "λ_max = T × constant",
+      "λ_max is independent of temperature"
+    ],
+    "correct": 0,
+    "explanation": "Wien's law: λ_max × T = 2.898 × 10⁻³ m·K. As T increases, λ_max decreases (peak shifts to shorter wavelengths, higher frequency). The Sun (T ≈ 5800 K) peaks in visible light (λ ≈ 500 nm). A cooler object (3000 K) peaks in near-infrared. This explains why hotter objects glow blue-white; cooler ones red.",
+    "tags": [
+      "modern physics",
+      "radiation",
+      "Wien's law"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "For a hydrogen atom, the energy of the nth level is E_n = −13.6 eV/n². The energy required to ionize a hydrogen atom from its ground state is:",
+    "options": [
+      "13.6 eV",
+      "27.2 eV",
+      "6.8 eV",
+      "3.4 eV"
+    ],
+    "correct": 0,
+    "explanation": "Ground state: n=1, E_1 = −13.6 eV. Ionization = moving electron from n=1 to n=∞ (E=0). Energy required = 0 − (−13.6) = 13.6 eV. The negative sign convention: bound states have negative energy (energy needed to remove electron). Lyα photon (n=2→1): ΔE = 13.6 − 3.4 = 10.2 eV.",
+    "tags": [
+      "modern physics",
+      "atomic spectra",
+      "hydrogen atom"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Compton scattering demonstrates:",
+    "options": [
+      "The wave nature of electrons",
+      "The particle nature of X-rays: X-ray photons collide with electrons, transferring momentum and increasing wavelength (Δλ = h(1-cosθ)/mc)",
+      "Electrons are deflected but photons are not",
+      "X-rays are not absorbed by matter"
+    ],
+    "correct": 1,
+    "explanation": "Compton scattering: X-ray photon collides with free electron, transfers some energy/momentum to electron → scattered photon has lower frequency (longer wavelength). Δλ = h(1−cosθ)/(m_e c) (Compton formula). Proves photons carry momentum p = h/λ = E/c. Both photoelectric effect and Compton scattering demonstrate particle nature of light.",
+    "tags": [
+      "modern physics",
+      "Compton scattering",
+      "photon"
+    ],
+    "difficulty": "hard"
+  }
+]

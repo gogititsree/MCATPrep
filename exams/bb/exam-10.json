@@ -1,0 +1,433 @@
+[
+  {
+    "text": "Thiamine (vitamin B1) acts as a cofactor for decarboxylation reactions. Thiamine deficiency impairs all of the following EXCEPT:",
+    "options": [
+      "Pyruvate dehydrogenase (PDH)",
+      "α-Ketoglutarate dehydrogenase (TCA cycle)",
+      "Transketolase (pentose phosphate pathway)",
+      "Glycogen synthase (glycogen synthesis)"
+    ],
+    "correct": 3,
+    "explanation": "Thiamine pyrophosphate (TPP) is required by: PDH, α-ketoglutarate DH, branched-chain α-keto acid DH, and transketolase (PPP). Glycogen synthase is a glycosyltransferase not requiring thiamine. Thiamine deficiency causes Wernicke's encephalopathy (confusion, ataxia, ophthalmoplegia), dry/wet beriberi, and elevated pyruvate and lactate.",
+    "tags": [
+      "vitamins",
+      "metabolism"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Insulin promotes glycogen synthesis in the liver by:",
+    "options": [
+      "Activating glycogen phosphorylase via phosphorylation",
+      "Inhibiting protein phosphatase 1 (PP1)",
+      "Activating protein phosphatase 1 (PP1), which dephosphorylates and activates glycogen synthase",
+      "Directly phosphorylating and activating glycogen synthase"
+    ],
+    "correct": 2,
+    "explanation": "Insulin signaling (PKB/Akt pathway) inhibits GSK-3 (glycogen synthase kinase-3), preventing phosphorylation/inactivation of glycogen synthase. Additionally, insulin promotes activation of protein phosphatase 1, which dephosphorylates glycogen synthase (activating it) and glycogen phosphorylase (inactivating it), net effect: promotes glycogen synthesis.",
+    "tags": [
+      "glycogen",
+      "metabolism",
+      "insulin signaling"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which enzyme is activated by a rise in AMP (indicating low energy) and phosphorylates multiple metabolic enzymes to shift metabolism toward ATP production?",
+    "options": [
+      "Protein kinase A (PKA)",
+      "Protein kinase C (PKC)",
+      "AMP-activated protein kinase (AMPK)",
+      "Ca²⁺/calmodulin-dependent kinase (CaMK)"
+    ],
+    "correct": 2,
+    "explanation": "AMPK is the cellular energy sensor. High AMP:ATP ratio activates AMPK, which phosphorylates and inhibits ACC (stopping fatty acid synthesis), activates fatty acid oxidation, and promotes glucose uptake (GLUT4 translocation). Metformin activates AMPK. AMPK activation = catabolism ON, anabolism OFF.",
+    "tags": [
+      "metabolism",
+      "regulation",
+      "signal transduction"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Fructose metabolism differs from glucose metabolism because:",
+    "options": [
+      "Fructose must be phosphorylated by glucokinase before entering the cell",
+      "Fructose bypasses PFK-1 regulation (the major control point of glycolysis) and enters glycolysis as DHAP and glyceraldehyde",
+      "Fructose is only metabolized in skeletal muscle",
+      "Fructose cannot be converted to fat under any conditions"
+    ],
+    "correct": 1,
+    "explanation": "In the liver, fructose is phosphorylated by fructokinase to fructose-1-phosphate, then split by aldolase B into DHAP and glyceraldehyde. These enter glycolysis downstream of PFK-1 (bypassing the key regulatory step), allowing uncontrolled metabolism of fructose → excess acetyl-CoA → fatty acid synthesis → hypertriglyceridemia. High fructose intake is linked to NAFLD and metabolic syndrome.",
+    "tags": [
+      "metabolism",
+      "fructose",
+      "glycolysis"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which mutation would most likely be found in both hereditary nonpolyposis colorectal cancer (HNPCC / Lynch syndrome) and microsatellite instability-high (MSI-H) tumors?",
+    "options": [
+      "APC tumor suppressor deletion",
+      "Mismatch repair (MMR) gene mutations (MLH1, MSH2, MSH6, PMS2)",
+      "KRAS proto-oncogene activation",
+      "p53 mutation"
+    ],
+    "correct": 1,
+    "explanation": "HNPCC/Lynch syndrome results from germline mutations in mismatch repair (MMR) genes. MMR corrects insertion/deletion loops at microsatellites (short tandem repeat sequences). Without MMR, microsatellites accumulate errors and become unstable (MSI). MMR-deficient tumors are MSI-H and are immunogenic (many neoantigens), explaining why they respond to immune checkpoint inhibitors.",
+    "tags": [
+      "genetics",
+      "DNA repair",
+      "cancer"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "During mRNA splicing, a mutation at the 5' splice site of an intron most likely leads to:",
+    "options": [
+      "Exon skipping or intron retention, producing an aberrant protein or triggering nonsense-mediated decay",
+      "Increased transcription of the gene",
+      "Polyadenylation failure at the 3' end",
+      "Loss of the 5' cap from the mRNA"
+    ],
+    "correct": 0,
+    "explanation": "The 5' splice site (GT in the intron) is recognized by U1 snRNA. Mutations at this site prevent spliceosome assembly, leading to: (1) intron retention — the intron remains in the mRNA, often introducing a premature stop codon; (2) exon skipping — the spliceosome skips to the next available splice site. Both typically result in truncated or misfolded protein. Nonsense-mediated decay (NMD) may destroy the aberrant mRNA. Transcription, capping, and polyadenylation are independent processes.",
+    "tags": [
+      "molecular biology",
+      "splicing",
+      "RNA processing"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The enzyme telomerase uses which template to synthesize telomeric DNA repeats?",
+    "options": [
+      "The lagging strand of the chromosome",
+      "Its own internal RNA component complementary to the telomeric repeat sequence",
+      "A free deoxyribonucleotide primer",
+      "The leading strand of the chromosome"
+    ],
+    "correct": 1,
+    "explanation": "Telomerase is a ribonucleoprotein — it contains an internal RNA template (TERC) with sequence 3'-AAUCCC-5' complementary to the human telomeric repeat (TTAGGG). The TERT reverse transcriptase subunit uses this internal RNA to synthesize new TTAGGG repeats onto the 3' overhang of the chromosome end, solving the end-replication problem. After extension, primase and DNA pol α fill in the complementary strand. Cancer cells and stem cells upregulate telomerase to maintain replication potential.",
+    "tags": [
+      "molecular biology",
+      "DNA replication",
+      "telomeres"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A substrate that has a Km of 0.1 mM for enzyme A and a Km of 10 mM for enzyme B binds which enzyme with greater affinity?",
+    "options": [
+      "Enzyme B, because higher Km means higher affinity",
+      "Enzyme A, because lower Km means greater affinity (enzyme reaches half-Vmax at a lower substrate concentration)",
+      "Both enzymes have equal affinity since Vmax determines binding",
+      "Cannot determine from Km alone"
+    ],
+    "correct": 1,
+    "explanation": "Km is the substrate concentration at which reaction velocity = Vmax/2. A lower Km means the enzyme achieves half-maximal velocity at a lower substrate concentration, indicating tighter substrate binding (higher affinity). Enzyme A (Km = 0.1 mM) binds the substrate 100-fold more tightly than Enzyme B (Km = 10 mM). Km approximates the dissociation constant (Kd) for substrate when k2 << k−1. Vmax reflects catalytic capacity (kcat × [E]total), not binding affinity.",
+    "tags": [
+      "biochemistry",
+      "enzyme kinetics",
+      "Michaelis-Menten"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which lipoprotein particle is primarily responsible for delivering dietary (exogenous) fat from the intestine to peripheral tissues?",
+    "options": [
+      "VLDL",
+      "Chylomicrons",
+      "LDL",
+      "HDL"
+    ],
+    "correct": 1,
+    "explanation": "Chylomicrons are assembled in intestinal epithelial cells from dietary fat (triglycerides, cholesterol, fat-soluble vitamins) and apolipoprotein B-48. They enter the lymph via lacteals, then the bloodstream. Lipoprotein lipase (LPL) on capillary endothelia — activated by apoC-II on chylomicrons — hydrolyzes their triglycerides, releasing free fatty acids to muscle and adipose tissue. Chylomicron remnants (enriched in cholesterol esters) are taken up by liver via apoE receptors. VLDL carries endogenous (hepatic) fat to periphery; LDL delivers cholesterol; HDL performs reverse cholesterol transport.",
+    "tags": [
+      "biochemistry",
+      "lipid metabolism",
+      "lipoproteins"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient with ornithine transcarbamylase (OTC) deficiency presents with hyperammonemia after a high-protein meal. Which metabolite accumulates most directly because of this enzyme deficiency?",
+    "options": [
+      "Urea",
+      "Orotic acid and carbamoyl phosphate",
+      "Fumarate",
+      "N-acetylglutamate"
+    ],
+    "correct": 1,
+    "explanation": "OTC catalyzes the combination of ornithine + carbamoyl phosphate → citrulline in the mitochondria. Without OTC, carbamoyl phosphate accumulates in the mitochondria and overflows into the cytoplasm, where it enters pyrimidine synthesis, producing orotic acid (and ultimately orotate). This is why OTC deficiency (the most common urea cycle defect, X-linked) shows elevated urinary orotic acid — distinguishing it from other urea cycle defects (CPS-I deficiency also shows hyperammonemia but without elevated orotic acid). Ammonia is not detoxified, causing hyperammonemia.",
+    "tags": [
+      "biochemistry",
+      "urea cycle",
+      "metabolism"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In oxidative phosphorylation, the P/O ratio (ATP produced per oxygen atom reduced) for NADH entering at Complex I is approximately:",
+    "options": [
+      "1.0",
+      "1.5",
+      "2.5",
+      "4.0"
+    ],
+    "correct": 2,
+    "explanation": "The revised P/O ratio for mitochondrial NADH is approximately 2.5 ATP per NADH (per oxygen atom reduced, i.e., per ½ O2). NADH donates electrons at Complex I, pumping 10 H+ across the inner membrane (4 at Complex I, 4 at Complex III, 2 at Complex IV) per 2 electrons. ATP synthase requires ~4 H+ per ATP; 10 H+ ÷ 4 = 2.5 ATP. The older textbook value of 3.0 (or 2.5 for FADH2) is less accurate. FADH2 enters at Complex II (bypasses Complex I), pumping only 6 H+ → ~1.5 ATP per FADH2.",
+    "tags": [
+      "biochemistry",
+      "oxidative phosphorylation",
+      "bioenergetics"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which of the following best describes the role of ubiquitin in protein degradation?",
+    "options": [
+      "Ubiquitin is a protease that cleaves peptide bonds in misfolded proteins",
+      "Ubiquitin is covalently attached to lysine residues on target proteins, marking them for degradation by the 26S proteasome",
+      "Ubiquitin activates lysosomal cathepsins",
+      "Ubiquitin unfolds proteins by consuming GTP"
+    ],
+    "correct": 1,
+    "explanation": "Ubiquitin is a 76-amino-acid protein that is activated by E1 (ubiquitin-activating enzyme, uses ATP), transferred to E2 (ubiquitin-conjugating enzyme), then ligated to a lysine on the target protein by E3 (ubiquitin ligase, which confers specificity). A polyubiquitin chain (≥4 ubiquitins linked through K48) signals the substrate to the 26S proteasome, which unfolds and degrades it using ATP. K63-linked chains signal DNA repair and endocytosis. This pathway degrades short-lived, regulatory, and misfolded cytosolic proteins. Lysosomal degradation handles extracellular proteins, autophagy substrates, and receptors internalized by endocytosis.",
+    "tags": [
+      "biochemistry",
+      "protein degradation",
+      "ubiquitin-proteasome"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In the lac operon, the CAP-cAMP complex enhances transcription. When would this complex be most active?",
+    "options": [
+      "When glucose is high and lactose is absent",
+      "When glucose is low and lactose is present — cAMP levels rise when glucose is low, activating CAP, and lactose induces removal of the lac repressor",
+      "When both glucose and lactose are high",
+      "When ATP levels are very high"
+    ],
+    "correct": 1,
+    "explanation": "The lac operon has two levels of control: (1) Negative control: the lac repressor blocks transcription unless allolactose (a lactose metabolite) is present as an inducer. (2) Positive control (catabolite repression): when glucose is abundant, adenylyl cyclase is inhibited → low cAMP → CAP (catabolite activator protein) cannot bind → weak transcription even if lactose is present. When glucose is low, cAMP rises → CAP-cAMP binds upstream of the promoter → enhances RNA polymerase binding → strong transcription. Maximum transcription occurs when lactose is present (repressor off) AND glucose is absent (CAP-cAMP on).",
+    "tags": [
+      "molecular biology",
+      "gene regulation",
+      "lac operon"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A cell biologist treats cells with colchicine, which depolymerizes microtubules. Which process would be most directly impaired?",
+    "options": [
+      "Actin-based cell crawling and lamellipodia formation",
+      "Chromosome segregation during mitosis — spindle fibers are microtubules required to pull sister chromatids to opposite poles",
+      "Clathrin-coated vesicle endocytosis",
+      "ATP synthesis in mitochondria"
+    ],
+    "correct": 1,
+    "explanation": "Microtubules (α/β-tubulin polymers) form the mitotic spindle — kinetochore microtubules attach to centromeres and pull sister chromatids apart during anaphase. Colchicine binds free tubulin and prevents polymerization, collapsing the spindle → cells arrest in metaphase (mitotic arrest). This is exploited therapeutically (gout: colchicine inhibits neutrophil migration; anticancer: taxol stabilizes microtubules, vinblastine/vincristine depolymerize them). Actin drives cell crawling and lamellipodia. Clathrin-mediated endocytosis uses actin and dynamin. ATP synthesis is unrelated to microtubules.",
+    "tags": [
+      "cell biology",
+      "cytoskeleton",
+      "mitosis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "During signal transduction via a G-protein coupled receptor (GPCR), activation of Gs leads to which downstream effect?",
+    "options": [
+      "Activation of phospholipase C → IP3 and DAG production",
+      "Activation of adenylyl cyclase → increased cAMP → activation of protein kinase A (PKA)",
+      "Inhibition of adenylyl cyclase → decreased cAMP",
+      "Opening of receptor-operated calcium channels directly"
+    ],
+    "correct": 1,
+    "explanation": "GPCRs couple to different G-protein alpha subunits. Gs (stimulatory): activates adenylyl cyclase → converts ATP to cAMP → activates PKA → phosphorylates serine/threonine residues on target proteins. Example: β-adrenergic receptors, glucagon receptors. Gi (inhibitory): inhibits adenylyl cyclase (e.g., α2-adrenergic). Gq: activates phospholipase C-β → cleaves PIP2 → IP3 (releases ER Ca²⁺) + DAG (activates PKC). G12/13: activates Rho GTPase. PKA substrates include glycogen phosphorylase kinase, hormone-sensitive lipase, and CREB (transcription factor).",
+    "tags": [
+      "cell biology",
+      "signal transduction",
+      "GPCR"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The enzyme pyruvate carboxylase converts pyruvate to oxaloacetate. This reaction requires which vitamin-derived cofactor?",
+    "options": [
+      "Thiamine (B1)",
+      "Niacin (B3)",
+      "Biotin (B7)",
+      "Pyridoxine (B6)"
+    ],
+    "correct": 2,
+    "explanation": "Pyruvate carboxylase (in the mitochondrial matrix) catalyzes: pyruvate + CO2 + ATP → oxaloacetate. It uses biotin (vitamin B7) as a covalently attached cofactor that carries the activated CO2 (carboxybiotin intermediate). This is a two-step reaction: (1) ATP drives carboxylation of biotin; (2) biotin transfers the carboxyl group to pyruvate. Pyruvate carboxylase is activated by acetyl-CoA (signals that the TCA cycle needs more oxaloacetate). This reaction is the entry point for gluconeogenesis from pyruvate (and anaplerosis). Biotin is also required by acetyl-CoA carboxylase and propionyl-CoA carboxylase.",
+    "tags": [
+      "biochemistry",
+      "metabolism",
+      "vitamins",
+      "gluconeogenesis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient lacks functional CD8+ cytotoxic T cells. Which immune function would be most severely compromised?",
+    "options": [
+      "Production of IgG antibodies against bacterial pathogens",
+      "Killing of virus-infected cells and tumor cells presenting foreign peptides on MHC class I",
+      "Activation of B cells through CD40L-CD40 signaling",
+      "Opsonization of extracellular bacteria"
+    ],
+    "correct": 1,
+    "explanation": "CD8+ cytotoxic T lymphocytes (CTLs) recognize peptides (8-10 amino acids) presented on MHC class I molecules, which are expressed on virtually all nucleated cells. When a cell is infected with a virus, it presents viral peptides on MHC I → CTLs recognize and kill it via perforins (create pores) and granzymes (activate caspases → apoptosis). CTLs are also essential for killing tumor cells displaying altered self-peptides. Antibody production (IgG class switching) requires CD4+ T helper cells (Th2 cytokines: IL-4, IL-5, IL-13). CD40L-CD40 interaction is between CD4+ T cells and B cells. Opsonization uses antibodies and complement.",
+    "tags": [
+      "immunology",
+      "T cells",
+      "MHC",
+      "cell-mediated immunity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The lac repressor protein in E. coli binds DNA as a helix-turn-helix motif protein. When allolactose is absent, the repressor:",
+    "options": [
+      "Is degraded by cellular proteases",
+      "Binds the operator sequence and physically blocks RNA polymerase from transcribing the lac genes",
+      "Recruits histone deacetylases to condense the DNA",
+      "Methylates the lac operon promoter"
+    ],
+    "correct": 1,
+    "explanation": "The lac repressor (lacI gene product) is a homotetramer with a helix-turn-helix DNA-binding domain. In the absence of lactose (or allolactose), the repressor binds three operator sequences (O1, O2, O3) with high affinity, forming a DNA loop that blocks RNA polymerase access to the promoter. When allolactose (a lactose isomer) binds the repressor, it undergoes allosteric conformational change → reduces DNA affinity → repressor dissociates → transcription proceeds. Note: prokaryotes do not use histone modifications or DNA methylation for gene regulation the way eukaryotes do.",
+    "tags": [
+      "molecular biology",
+      "gene regulation",
+      "lac operon",
+      "prokaryotes"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which statement correctly describes the difference between necrosis and apoptosis?",
+    "options": [
+      "Apoptosis is always pathological; necrosis is physiological",
+      "Necrosis causes cell swelling, membrane rupture, and inflammation; apoptosis is an ordered, energy-dependent process with membrane blebbing, chromatin condensation, and apoptotic bodies that are phagocytosed without inflammation",
+      "Apoptosis always requires external death signals; necrosis requires caspases",
+      "Both processes require the same energy input"
+    ],
+    "correct": 1,
+    "explanation": "Necrosis (pathological): caused by ischemia, toxins, trauma → loss of ion homeostasis → cell swelling → membrane rupture → release of intracellular contents → inflammatory response. Apoptosis (programmed cell death): can be physiological (development: digit webbing removal; thymic negative selection; tissue homeostasis) or pathological. Apoptosis involves: intrinsic pathway (mitochondrial: Bcl-2 family, cytochrome c release, apoptosome, caspase-9 → caspase-3) and extrinsic pathway (death receptors: FasL/Fas, TNF → caspase-8). Features: chromatin condensation, membrane blebbing, apoptotic bodies phagocytosed by macrophages → NO inflammation. Caspases are cysteine proteases central to apoptosis, not necrosis.",
+    "tags": [
+      "cell biology",
+      "cell death",
+      "apoptosis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "β-oxidation of a fully saturated 16-carbon fatty acid (palmitate) yields how many acetyl-CoA molecules?",
+    "options": [
+      "7",
+      "8",
+      "14",
+      "16"
+    ],
+    "correct": 1,
+    "explanation": "β-oxidation cleaves 2-carbon acetyl-CoA units from the carboxyl end. A C16 fatty acid requires 7 rounds of β-oxidation to yield 8 acetyl-CoA. Each round produces: 1 FADH2, 1 NADH, 1 acetyl-CoA. For palmitate (C16:0): 7 cycles × (1 FADH2 + 1 NADH) = 7 FADH2 + 7 NADH, plus 8 acetyl-CoA. Each acetyl-CoA → TCA → 10 ATP (×8 = 80); each NADH → 2.5 ATP (×7 = 17.5); each FADH2 → 1.5 ATP (×7 = 10.5); minus 2 ATP equivalents for activation (palmitoyl-CoA synthesis). Total ≈ 106 ATP net.",
+    "tags": [
+      "biochemistry",
+      "fatty acid metabolism",
+      "beta-oxidation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following correctly pairs a human genetic disease with its mode of inheritance?",
+    "options": [
+      "Cystic fibrosis — X-linked recessive",
+      "Huntington's disease — autosomal dominant with anticipation (expanding CAG trinucleotide repeat)",
+      "Phenylketonuria (PKU) — autosomal dominant",
+      "Duchenne muscular dystrophy — autosomal recessive"
+    ],
+    "correct": 1,
+    "explanation": "Huntington's disease: autosomal dominant, CAG trinucleotide repeat in the HTT gene. Expansion of the repeat (>36 repeats) with each successive generation (anticipation — repeat expands during meiosis, especially paternal transmission) → onset at younger ages in successive generations. CF: autosomal recessive (CFTR gene, most common mutation ΔF508). PKU: autosomal recessive (phenylalanine hydroxylase deficiency). DMD: X-linked recessive (dystrophin gene, largest human gene; affects males; carried by females). Anticipation also occurs in myotonic dystrophy (CTG repeat) and fragile X (CGG repeat).",
+    "tags": [
+      "genetics",
+      "inheritance",
+      "genetic diseases"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A protein destined for secretion from a eukaryotic cell is synthesized on which type of ribosome, and what signal directs it to this location?",
+    "options": [
+      "Free cytoplasmic ribosomes; directed by a nuclear localization signal",
+      "Ribosomes on the rough ER membrane; directed by an N-terminal signal peptide recognized by the signal recognition particle (SRP)",
+      "Mitochondrial ribosomes; directed by a mitochondrial targeting sequence",
+      "Ribosomes in the nucleus; directed by a signal anchor sequence"
+    ],
+    "correct": 1,
+    "explanation": "Secretory proteins contain an N-terminal signal peptide (hydrophobic core of ~8-12 residues). As the signal peptide emerges from the ribosome, it is recognized by the signal recognition particle (SRP), which halts translation and docks the ribosome-mRNA-peptide complex to the SRP receptor on the ER membrane. Translation resumes co-translationally, threading the protein into the ER lumen. The signal peptide is cleaved by signal peptidase. The protein then travels: rough ER → Golgi (glycosylation, sorting) → secretory vesicles → plasma membrane → exocytosis. Free ribosomes synthesize cytosolic, nuclear, mitochondrial (those encoded by nuclear DNA), and peroxisomal proteins.",
+    "tags": [
+      "cell biology",
+      "protein trafficking",
+      "signal peptide",
+      "secretory pathway"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "During aerobic glycolysis in the cytoplasm, the NADH produced cannot directly enter the mitochondrial matrix because the inner mitochondrial membrane is impermeable to NADH. Which shuttle system transfers reducing equivalents and yields FADH2 (rather than NADH) in the matrix?",
+    "options": [
+      "Malate-aspartate shuttle",
+      "Glycerol-3-phosphate shuttle",
+      "Citrate shuttle",
+      "Carnitine shuttle"
+    ],
+    "correct": 1,
+    "explanation": "Two shuttles transfer cytoplasmic NADH reducing equivalents across the inner mitochondrial membrane: (1) Malate-aspartate shuttle (liver, heart, brain): transfers electrons as malate → regenerates NADH in matrix → 2.5 ATP per cytoplasmic NADH. (2) Glycerol-3-phosphate shuttle (muscle, brain): cytoplasmic NADH reduces DHAP → glycerol-3-phosphate, which is reoxidized by mitochondrial FAD-linked glycerol-3-phosphate dehydrogenase → FADH2 in the matrix → 1.5 ATP. So the glycerol-3-phosphate shuttle is less efficient. The citrate shuttle exports acetyl-CoA for fatty acid synthesis. The carnitine shuttle transports fatty acyl-CoA into the mitochondria.",
+    "tags": [
+      "biochemistry",
+      "metabolism",
+      "oxidative phosphorylation",
+      "glycolysis"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which enzyme is rate-limiting in cholesterol biosynthesis and is the target of statin drugs?",
+    "options": [
+      "Acetyl-CoA carboxylase",
+      "HMG-CoA reductase (converts HMG-CoA → mevalonate in the endoplasmic reticulum)",
+      "Squalene synthase",
+      "Lanosterol synthase"
+    ],
+    "correct": 1,
+    "explanation": "The mevalonate pathway synthesizes cholesterol: acetyl-CoA → HMG-CoA → mevalonate (rate-limiting step, catalyzed by HMG-CoA reductase) → farnesyl-PP → squalene → lanosterol → cholesterol. HMG-CoA reductase is regulated by: (1) Feedback inhibition by cholesterol; (2) Phosphorylation by AMPK (inactivates it) — energy status regulation; (3) Insulin activates, glucagon inactivates. Statins (lovastatin, simvastatin, atorvastatin) are competitive inhibitors of HMG-CoA reductase → lower intracellular cholesterol → upregulate LDL receptors → lower serum LDL. The rate-limiting step in fatty acid synthesis is acetyl-CoA carboxylase.",
+    "tags": [
+      "biochemistry",
+      "lipid metabolism",
+      "cholesterol synthesis",
+      "pharmacology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A somatic mutation converts a single base in the p53 gene from G to A, changing codon 248 from Arg (CGG) to Trp (TGG). This is an example of which mutation type, and what is the expected functional consequence?",
+    "options": [
+      "Silent mutation; no change in p53 function",
+      "Conservative missense mutation; p53 function is preserved",
+      "Nonconservative missense mutation at a hotspot residue in the DNA-binding domain; p53 loses tumor suppressor function and may gain oncogenic activity (dominant-negative effect)",
+      "Frameshift mutation; all downstream amino acids are altered"
+    ],
+    "correct": 2,
+    "explanation": "R248W (Arg→Trp at codon 248) is one of the most common p53 hotspot mutations in human cancer. It is a nonconservative missense mutation (charged basic → large nonpolar hydrophobic): changes the DNA-binding domain residue that directly contacts DNA in the major groove. Consequences: (1) Loss of tumor suppressor function (cannot transactivate p21, PUMA, MDM2, etc.); (2) Dominant-negative effect — mutant p53 tetramerizes with wild-type p53, impairing it; (3) Gain-of-function oncogenic activity — some mutant p53 proteins actively promote cancer. A G→A transversion at a single codon does not alter the reading frame — it's a missense, not frameshift, mutation.",
+    "tags": [
+      "genetics",
+      "molecular biology",
+      "cancer biology",
+      "p53"
+    ],
+    "difficulty": "hard"
+  }
+]

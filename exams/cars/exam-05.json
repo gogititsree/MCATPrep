@@ -1,0 +1,215 @@
+[
+  {
+    "passageText": "The concept of historical memory—how societies remember and represent their pasts—is inseparable from questions of power and identity. Every commemoration involves a selection: some events are elevated to national significance, others are forgotten or suppressed, and the interpretive frame in which they are presented shapes how present communities understand themselves and their obligations. The monuments, museums, curricula, and public holidays through which communities transmit memory are not innocent archives but politically charged constructions.\n\nThe sociologist Maurice Halbwachs distinguished individual memory from collective memory. Individual memory, he argued, is always already social—we recall the past through frameworks provided by our social groups. Collective memory is not merely the sum of individual recollections but a social institution: maintained through rituals, symbols, and commemorations that preserve a community's understanding of its past. Because collective memory serves present social functions—cohesion, identity, moral orientation—it is continually revised in the light of present concerns rather than past facts.\n\nThis revisability has both democratic and dangerous dimensions. On the one hand, the expansion of collective memory to include voices and experiences previously excluded—the history of enslaved people, indigenous populations, women—represents a genuine democratization of historical consciousness. On the other hand, the same plasticity of memory makes it available for manipulation: authoritarian regimes have consistently sought to control the past as a means of controlling the present, a dynamic captured in Orwell's slogan 'who controls the past controls the future.'\n\nCommemorational controversies—over Confederate monuments in the American South, colonial statues in Europe, Holocaust memorials in Germany—reveal the stakes of collective memory. Those who defend contested monuments often argue that removal is an erasure of history; those who oppose them argue that commemoration is not the same as historical record, and that a monument in a public square is a celebration rather than simply an acknowledgment. The debate turns on whether memory can or should be distinguished from honor.\n\nThe philosopher Paul Ricœur argued that collective memory carries both a 'duty to remember'—an ethical obligation not to let the suffering of victims disappear from consciousness—and a risk: that memory can become an obsession that prevents the work of mourning and the possibility of reconciliation. The challenge for communities dealing with difficult pasts is neither amnesia nor paralysis but what Ricœur called 'just memory'—a memory that acknowledges the past honestly without being imprisoned by it.",
+    "questions": [
+      {
+        "text": "The author's central claim about commemorations and monuments is that:",
+        "options": [
+          "They provide neutral, accurate records of historical events",
+          "They are politically charged constructions that reflect choices about which events and interpretations to elevate—serving present social functions rather than simply preserving the past",
+          "They are irrelevant to contemporary political debates",
+          "They should always be preserved to maintain historical continuity"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'The monuments, museums, curricula, and public holidays through which communities transmit memory are not innocent archives but politically charged constructions.' The entire passage develops this claim."
+      },
+      {
+        "text": "Halbwachs' concept of 'collective memory' differs from individual memory in that:",
+        "options": [
+          "Collective memory is more accurate than individual memory",
+          "Collective memory is maintained through social institutions—rituals, symbols, commemorations—and serves present social functions of cohesion and identity, continually revised in light of present concerns",
+          "Individual memory is always distorted; collective memory is not",
+          "Collective memory is simply the sum of all individual recollections"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Collective memory is not merely the sum of individual recollections but a social institution: maintained through rituals, symbols, and commemorations...continually revised in the light of present concerns rather than past facts.'"
+      },
+      {
+        "text": "The passage describes the 'plasticity' of collective memory as having:",
+        "options": [
+          "Only negative consequences since it allows historical distortion",
+          "Both democratic dimensions (including excluded voices) and dangerous ones (enabling authoritarian manipulation of the past)",
+          "Only positive consequences since it allows updating of historical understanding",
+          "No political significance"
+        ],
+        "correct": 1,
+        "explanation": "The passage explicitly states: 'This revisability has both democratic and dangerous dimensions.' On one hand, it allows inclusion of previously excluded voices; on the other, 'the same plasticity of memory makes it available for manipulation.'"
+      },
+      {
+        "text": "Those who oppose the removal of contested monuments, as described in paragraph 4, argue that:",
+        "options": [
+          "Monuments should honor only unambiguously positive historical figures",
+          "Removal constitutes an erasure of history",
+          "All monuments to historical figures should be replaced with museums",
+          "Public spaces should not commemorate individuals at all"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Those who defend contested monuments often argue that removal is an erasure of history.' This is the argument being made by defenders of keeping contested monuments."
+      },
+      {
+        "text": "The philosophical distinction at the center of the commemorational controversies described in paragraph 4 is between:",
+        "options": [
+          "History and fiction",
+          "Remembering and honoring—whether a monument in a public square is merely acknowledging a historical fact or actually celebrating a figure",
+          "Public and private memory",
+          "Official and unofficial histories"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'The debate turns on whether memory can or should be distinguished from honor...a monument in a public square is a celebration rather than simply an acknowledgment.' The key distinction is acknowledgment vs. celebration/honor."
+      },
+      {
+        "text": "Ricœur's concept of 'just memory' as described in the passage implies that communities should:",
+        "options": [
+          "Forget difficult pasts to enable social harmony",
+          "Remember the suffering of victims but not allow memory to become paralysing obsession—finding a path between amnesia and fixation that acknowledges the past honestly without being imprisoned by it",
+          "Permanently commemorate all historical injustices without any possibility of reconciliation",
+          "Subordinate historical memory entirely to present political needs"
+        ],
+        "correct": 1,
+        "explanation": "The passage states Ricœur argued for 'just memory—a memory that acknowledges the past honestly without being imprisoned by it.' The challenge is between 'amnesia nor paralysis'—neither forgetting nor obsessive fixation, but honest acknowledgment that allows for mourning and reconciliation."
+      }
+    ]
+  },
+  {
+    "passageText": "The concept of 'civil society' occupies an ambiguous position in political thought. In its origins—particularly in the work of Hegel—civil society referred to the sphere of economic activity and association that lies between the family and the state. Hegel was ambivalent about it: it was the site of freedom and self-development, but also of conflict, competition, and fragmentation. The state, for Hegel, was not merely the instrument of particular interests but the realization of ethical life at a higher level.\n\nIn contemporary usage, civil society typically refers to the voluntary associations and organizations—nonprofits, religious bodies, advocacy groups, community organizations, labor unions—that exist between the individual and the state and are distinct from the market. The theorist Jürgen Habermas influentially described a 'public sphere' as the arena in which private citizens gather to deliberate about public affairs, forming public opinion that could in turn hold state power accountable. Civil society organizations were the institutional embodiment of this public sphere.\n\nThe optimistic view of civil society sees it as the nursery of democratic virtues. Voluntary associations teach civic skills—negotiating, deliberating, taking turns, respecting disagreement—that are essential to democratic participation. Robert Putnam's influential work on social capital showed that regions with denser networks of civic associations had higher levels of trust and governmental effectiveness. The cure for democratic decline, on this account, was more civil society: more engagement, more association, more 'doing it yourself.'\n\nThe more skeptical view notes that civil society is not inherently democratic or progressive. It includes organizations with antidemocratic aims—militias, hate groups, cults—as well as organizations that reflect and reinforce existing inequalities. Who can participate in civil society is heavily shaped by time, money, and social capital; those most marginalized by existing inequalities often have the least access to the voluntary associations that could amplify their voices. The civil society that serves the affluent may simply be another mechanism for their advantage.\n\nA related concern involves the displacement of political responsibility. When governments retreat from providing public goods—housing, childcare, healthcare—civil society organizations often fill the gap. This is sometimes celebrated as efficiency or innovation; critics argue that it normalizes the withdrawal of state responsibility and depoliticizes questions that should be subjects of democratic contestation. The 'nonprofit industrial complex,' as critics have called it, may channel dissent into service provision, managing the symptoms of injustice rather than challenging its causes.",
+    "questions": [
+      {
+        "text": "In Hegel's original usage, 'civil society' referred to:",
+        "options": [
+          "Voluntary associations that promote democratic participation",
+          "The sphere of economic activity and association between the family and the state—a site of freedom but also conflict and fragmentation",
+          "The ideal of an ethically organized democratic state",
+          "The totality of civic institutions including the family, market, and government"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'In its origins—particularly in the work of Hegel—civil society referred to the sphere of economic activity and association that lies between the family and the state.' It was 'the site of freedom and self-development, but also of conflict, competition, and fragmentation.'"
+      },
+      {
+        "text": "Habermas' concept of the 'public sphere,' as described in the passage, refers to:",
+        "options": [
+          "Government-owned media and public broadcasting",
+          "The arena in which private citizens deliberate about public affairs, forming public opinion that can hold state power accountable, with civil society as its institutional embodiment",
+          "The physical public spaces (parks, plazas) of democratic cities",
+          "The market in which public goods are traded"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'the arena in which private citizens gather to deliberate about public affairs, forming public opinion that could in turn hold state power accountable. Civil society organizations were the institutional embodiment of this public sphere.'"
+      },
+      {
+        "text": "Putnam's work on social capital, as described in the passage, claimed that:",
+        "options": [
+          "Trust in government is always higher in rural areas",
+          "Denser networks of civic associations correlated with higher trust and more effective government—suggesting civil society promoted democratic health",
+          "Civil society organizations were inefficient providers of public goods",
+          "Religious organizations were the most important component of civil society"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Robert Putnam's influential work on social capital showed that regions with denser networks of civic associations had higher levels of trust and governmental effectiveness.'"
+      },
+      {
+        "text": "The skeptical view of civil society, as described in paragraph 4, argues that:",
+        "options": [
+          "Civil society should be abolished in favor of direct state provision of services",
+          "Civil society is not inherently democratic—it includes antidemocratic organizations, reflects existing inequalities, and is most accessible to the already advantaged",
+          "All voluntary associations promote democratic values equally",
+          "The nonprofit sector is too small to have political significance"
+        ],
+        "correct": 1,
+        "explanation": "The passage states the skeptical view 'notes that civil society is not inherently democratic or progressive. It includes organizations with antidemocratic aims...as well as organizations that reflect and reinforce existing inequalities. Who can participate...is heavily shaped by time, money, and social capital.'"
+      },
+      {
+        "text": "The 'nonprofit industrial complex' critique described in the final paragraph argues that:",
+        "options": [
+          "Nonprofits are poorly managed and financially irresponsible",
+          "Civil society organizations filling the gap left by government retreat may normalize state withdrawal from public goods and channel dissent into service provision rather than political challenge",
+          "Nonprofits should be converted to for-profit organizations for greater efficiency",
+          "Government should provide all social services directly"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: critics argue that when civil society fills gaps left by government, 'it normalizes the withdrawal of state responsibility and depoliticizes questions that should be subjects of democratic contestation.' The 'nonprofit industrial complex' 'may channel dissent into service provision, managing the symptoms of injustice rather than challenging its causes.'"
+      },
+      {
+        "text": "The tension between the optimistic and skeptical views of civil society is fundamentally about:",
+        "options": [
+          "Whether taxes should fund civil society organizations",
+          "Whether voluntary association inherently promotes democracy and equity, or whether it can equally serve to reinforce existing power inequalities and depoliticize public questions",
+          "Whether religious organizations should be considered part of civil society",
+          "Whether Habermas or Putnam's model is more empirically accurate"
+        ],
+        "correct": 1,
+        "explanation": "The passage presents an optimistic view (civil society teaches democratic virtues, builds social capital) and a skeptical view (civil society is not inherently democratic, reflects inequalities, may depoliticize). The core tension is whether voluntary association is inherently democratizing or whether it can equally entrench privilege."
+      }
+    ]
+  },
+  {
+    "passageText": "The role of narrative in medicine—specifically, the stories that patients tell about their illnesses and that clinicians construct in response—has become an increasingly important topic in medical education and practice. The term 'narrative medicine,' associated particularly with Columbia University physician Rita Charon, refers to medicine practiced with the skills of recognizing, absorbing, interpreting, and being moved by the stories of illness.\n\nThe biomedical model that has dominated medicine since the late nineteenth century tends to translate the patient's narrative into objective data: symptoms become signs, complaints become diagnoses, and the story is reconstructed in the standardized language of the medical record. This process of translation has undoubted clinical value—it allows information to be shared precisely across clinical contexts—but it also involves a loss. The patient's experience of illness, the meaning they attach to it, and the social context in which it occurs are typically not captured in the medical record.\n\nPatients, psychologists have shown, naturally construct illness narratives that follow recognizable patterns—narratives of disruption, quest, or chaos, in the terminology developed by sociologist Arthur Frank. In the disruption narrative, illness interrupts a normal life that the sufferer hopes to resume; in the quest narrative, illness is reinterpreted as a journey from which the patient emerges transformed and wiser; in the chaos narrative, illness overwhelms all narrative structure, leaving the patient unable to impose meaning on their experience. These narrative forms are not merely aesthetic—they shape how patients understand their prognosis, adhere to treatment, and relate to their physicians.\n\nProponents of narrative medicine argue that attending to these stories improves diagnostic accuracy, patient satisfaction, and treatment outcomes. A physician who understands the patient's illness narrative—including their fears, their social circumstances, and the meaning they attach to symptoms—can tailor explanations, anticipate nonadherence, and address the patient's actual concerns rather than just the presenting symptom. Close reading and creative writing exercises, advocates argue, can cultivate the imaginative empathy that this requires.\n\nCritics raise several concerns. First, time constraints in contemporary medicine make sustained narrative engagement aspirational at best. Second, the emphasis on narrative may reflect the interests and values of particular cultural groups (educated, reflective, narrative-oriented) and may be less appropriate for patients from different backgrounds. Third, narrative competence cannot substitute for clinical competence: a physician who listens beautifully but misses a diagnosis has failed their patient in a fundamental way.",
+    "questions": [
+      {
+        "text": "The central purpose of 'narrative medicine' as described in the passage is to:",
+        "options": [
+          "Replace the biomedical model with a purely humanistic approach",
+          "Practice medicine with the skills of recognizing, absorbing, interpreting, and being moved by the stories of illness, recovering what the biomedical model's translation of symptoms loses",
+          "Train physicians to write literary accounts of their clinical experiences",
+          "Focus medical attention exclusively on the psychosocial dimensions of illness rather than biological ones"
+        ],
+        "correct": 1,
+        "explanation": "The passage defines narrative medicine as 'medicine practiced with the skills of recognizing, absorbing, interpreting, and being moved by the stories of illness.' It is positioned as recovering what is lost when the biomedical model translates patient narrative into objective data."
+      },
+      {
+        "text": "The 'translation' involved in the biomedical model, as described in the passage, refers to:",
+        "options": [
+          "Interpreting patients' stories in the context of their cultural background",
+          "The process by which the patient's narrative is converted into objective clinical data—symptoms become signs, complaints become diagnoses—losing the patient's experience and meaning in the process",
+          "Communicating clinical information to patients in accessible language",
+          "The conversion of qualitative research data into quantitative measurements"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'The biomedical model...tends to translate the patient's narrative into objective data: symptoms become signs, complaints become diagnoses, and the story is reconstructed in the standardized language of the medical record.' The loss is the patient's experience, meaning, and social context."
+      },
+      {
+        "text": "Arthur Frank's three illness narrative types—disruption, quest, and chaos—are described in the passage as clinically significant because:",
+        "options": [
+          "They allow physicians to categorize patients for efficient treatment",
+          "They shape how patients understand their prognosis, adhere to treatment, and relate to their physicians—affecting clinical outcomes, not just aesthetic satisfaction",
+          "They demonstrate the literary sophistication of patients with chronic illness",
+          "They provide a standardized assessment tool for psychiatric evaluation"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'These narrative forms are not merely aesthetic—they shape how patients understand their prognosis, adhere to treatment, and relate to their physicians.' They have practical clinical significance, not just descriptive value."
+      },
+      {
+        "text": "Proponents of narrative medicine argue that attending to patient stories improves clinical outcomes through which mechanism?",
+        "options": [
+          "It reduces the need for laboratory testing",
+          "Understanding the patient's narrative allows the physician to tailor explanations, anticipate nonadherence, and address actual concerns rather than just presenting symptoms—improving diagnostic accuracy, satisfaction, and outcomes",
+          "It replaces evidence-based medicine with patient-centered anecdote",
+          "It exclusively benefits patients with chronic illness"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'A physician who understands the patient's illness narrative...can tailor explanations, anticipate nonadherence, and address the patient's actual concerns rather than just the presenting symptom.' These are the mechanisms for improved diagnostic accuracy, satisfaction, and outcomes."
+      },
+      {
+        "text": "The criticism that narrative medicine 'may reflect the interests and values of particular cultural groups' suggests:",
+        "options": [
+          "Narrative medicine is only valuable in non-Western healthcare systems",
+          "The emphasis on narrative as a mode of making meaning may not be equally appropriate for all patients, potentially introducing cultural bias into what is presented as a universal approach",
+          "All cultures use identical narrative structures to make sense of illness",
+          "Narrative medicine is politically biased in favor of progressive healthcare reform"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'the emphasis on narrative may reflect the interests and values of particular cultural groups (educated, reflective, narrative-oriented) and may be less appropriate for patients from different backgrounds.' This critiques narrative medicine's potential cultural assumptions."
+      },
+      {
+        "text": "Based on the passage, the most fundamental criticism of narrative medicine is that:",
+        "options": [
+          "It is incompatible with the biomedical model",
+          "Narrative competence cannot substitute for clinical competence—a physician who listens well but misses a diagnosis has failed the patient in a fundamental way",
+          "It takes too long to implement in clinical practice",
+          "It has never been empirically validated"
+        ],
+        "correct": 1,
+        "explanation": "The passage concludes: 'narrative competence cannot substitute for clinical competence: a physician who listens beautifully but misses a diagnosis has failed their patient in a fundamental way.' This is positioned as the most fundamental concern—prioritizing humanistic engagement over diagnostic accuracy would harm patients."
+      }
+    ]
+  }
+]

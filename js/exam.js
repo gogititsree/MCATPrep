@@ -29,24 +29,63 @@ class MCATExam {
       block.className = 'question-block';
       block.id = 'q-' + qi;
 
-      const opts = q.options.map((opt, oi) => {
-        const letters = ['A','B','C','D'];
-        return `<div class="option" data-qi="${qi}" data-oi="${oi}" onclick="exam.select(${qi},${oi})">
-          <span class="option-letter">${letters[oi]}</span>
-          <span>${opt}</span>
-        </div>`;
-      }).join('');
+      const questionNumber = document.createElement('div');
+      questionNumber.className = 'question-number';
+      questionNumber.textContent = `Question ${qi + 1} of ${this.questions.length}`;
 
-      block.innerHTML = `
-        <div class="question-number">Question ${qi + 1} of ${this.questions.length}</div>
-        <div class="question-text">${q.text}</div>
-        <div class="options" id="opts-${qi}">${opts}</div>
-        <div class="explanation" id="exp-${qi}">
-          <strong>✅ Correct Answer: ${['A','B','C','D'][q.correct]}</strong><br>
-          ${q.explanation}
-          ${q.source ? '<div class="source">Source: <a href="' + (q.source.url || '#') + '" target="_blank" rel="noopener">' + (q.source.name || 'source') + '</a></div>' : ''}
-        </div>
-      `;
+      const questionText = document.createElement('div');
+      questionText.className = 'question-text';
+      questionText.textContent = q.text;
+
+      const optionsContainer = document.createElement('div');
+      optionsContainer.className = 'options';
+      optionsContainer.id = `opts-${qi}`;
+
+      const letters = ['A','B','C','D'];
+      q.options.forEach((opt, oi) => {
+        const option = document.createElement('div');
+        option.className = 'option';
+        option.dataset.qi = qi;
+        option.dataset.oi = oi;
+        option.addEventListener('click', () => this.select(qi, oi));
+
+        const letterSpan = document.createElement('span');
+        letterSpan.className = 'option-letter';
+        letterSpan.textContent = letters[oi];
+
+        const labelSpan = document.createElement('span');
+        labelSpan.textContent = opt;
+
+        option.append(letterSpan, labelSpan);
+        optionsContainer.appendChild(option);
+      });
+
+      const explanation = document.createElement('div');
+      explanation.className = 'explanation';
+      explanation.id = `exp-${qi}`;
+
+      const correctStrong = document.createElement('strong');
+      correctStrong.textContent = `✅ Correct Answer: ${letters[q.correct]}`;
+      explanation.appendChild(correctStrong);
+      explanation.appendChild(document.createElement('br'));
+      explanation.appendChild(document.createTextNode(q.explanation || ''));
+
+      if (q.source) {
+        const sourceDiv = document.createElement('div');
+        sourceDiv.className = 'source';
+        sourceDiv.textContent = 'Source: ';
+
+        const sourceLink = document.createElement('a');
+        sourceLink.href = q.source.url || '#';
+        sourceLink.target = '_blank';
+        sourceLink.rel = 'noopener';
+        sourceLink.textContent = q.source.name || 'source';
+
+        sourceDiv.appendChild(sourceLink);
+        explanation.appendChild(sourceDiv);
+      }
+
+      block.append(questionNumber, questionText, optionsContainer, explanation);
       this.container.appendChild(block);
     });
   }
@@ -95,7 +134,9 @@ class MCATExam {
       detailEl.textContent = msg;
     }
 
-    if (this.scorePanel) this.scorePanel.classList.add('show');
-    this.scorePanel.scrollIntoView({ behavior: 'smooth' });
+    if (this.scorePanel) {
+      this.scorePanel.classList.add('show');
+      this.scorePanel.scrollIntoView({ behavior: 'smooth' });
+    }
   }
 }

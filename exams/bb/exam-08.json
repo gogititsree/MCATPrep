@@ -1,0 +1,414 @@
+[
+  {
+    "text": "Cholesterol biosynthesis occurs primarily in the liver. The rate-limiting enzyme is:",
+    "options": [
+      "ACAT (acyl-CoA:cholesterol acyltransferase)",
+      "HMG-CoA reductase",
+      "HMG-CoA synthase",
+      "LDL receptor"
+    ],
+    "correct": 1,
+    "explanation": "HMG-CoA reductase catalyzes the conversion of HMG-CoA to mevalonate, the rate-limiting step of cholesterol synthesis. It is competitively inhibited by statins (lovastatin, atorvastatin), the most widely prescribed cholesterol-lowering drugs. Sterol-regulatory element binding proteins (SREBPs) regulate its expression.",
+    "tags": [
+      "cholesterol synthesis",
+      "metabolism"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Low-density lipoprotein (LDL) delivers cholesterol to peripheral tissues. Which receptor mediates LDL uptake?",
+    "options": [
+      "Scavenger receptor",
+      "LDL receptor (ApoB/E receptor) — endocytosis via clathrin-coated pits",
+      "HDL receptor (SR-BI)",
+      "Insulin receptor"
+    ],
+    "correct": 1,
+    "explanation": "LDL particles bind the LDL receptor (recognizing ApoB-100) on cell surfaces; receptor-ligand complexes cluster in clathrin-coated pits and are internalized by receptor-mediated endocytosis. In the endosome, LDL is released and degraded in lysosomes; cholesterol is released; the receptor is recycled. Familial hypercholesterolemia results from LDL receptor mutations.",
+    "tags": [
+      "lipid transport",
+      "cell biology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which apolipoprotein is uniquely associated with HDL and mediates reverse cholesterol transport?",
+    "options": [
+      "ApoB-100 (LDL)",
+      "ApoC-II (activates LPL)",
+      "ApoE (receptor binding)",
+      "ApoA-I (HDL structural/functional protein, activates LCAT)"
+    ],
+    "correct": 3,
+    "explanation": "ApoA-I is the major structural and functional protein of HDL. It activates LCAT (lecithin-cholesterol acyltransferase), which esterifies free cholesterol on HDL particles during reverse cholesterol transport. HDL takes up excess cholesterol from peripheral tissues and delivers it to the liver.",
+    "tags": [
+      "lipid transport",
+      "metabolism"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The complement system's membrane attack complex (MAC) kills bacteria by:",
+    "options": [
+      "Opsonizing bacteria for phagocytosis",
+      "Forming a transmembrane pore in bacterial cell membranes, causing osmotic lysis",
+      "Activating Toll-like receptors to signal for apoptosis",
+      "Generating reactive oxygen species inside the bacteria"
+    ],
+    "correct": 1,
+    "explanation": "The terminal complement proteins C5b-9 assemble into the membrane attack complex (MAC), inserting into bacterial (or target cell) membranes and forming transmembrane pores. Water and ions flow in, causing osmotic lysis. Gram-negative bacteria are especially susceptible; Gram-positive bacteria are resistant due to thick peptidoglycan.",
+    "tags": [
+      "immunology",
+      "complement"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "MHC class I molecules present antigens to:",
+    "options": [
+      "CD4⁺ helper T cells",
+      "CD8⁺ cytotoxic T cells (CTLs)",
+      "B cells for antibody production",
+      "Natural killer cells exclusively"
+    ],
+    "correct": 1,
+    "explanation": "MHC class I (on all nucleated cells) presents endogenous peptides (8-10 aa, from cytoplasmic proteins including viral proteins) to CD8⁺ cytotoxic T cells. MHC class II (on APCs) presents exogenous peptides (13-25 aa) to CD4⁺ helper T cells. Rule of 8: MHC I × CD8; rule of 4: MHC II × CD4.",
+    "tags": [
+      "immunology",
+      "MHC",
+      "T cells"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which antibody class is the most abundant in serum and is the primary antibody mediating secondary immune responses?",
+    "options": [
+      "IgM",
+      "IgG",
+      "IgA",
+      "IgE"
+    ],
+    "correct": 1,
+    "explanation": "IgG is the most abundant serum antibody (~75% of total). It is the principal antibody of secondary (memory) immune responses, crosses the placenta (providing passive immunity to newborns), activates complement (classical pathway), and mediates ADCC. IgM is the first antibody produced (primary response) and is a pentamer.",
+    "tags": [
+      "immunology",
+      "antibodies"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The Henderson-Hasselbalch equation relates pH to pKa. For a buffer at pH = pKa, the ratio of conjugate base to acid is:",
+    "options": [
+      "2:1",
+      "1:1",
+      "10:1",
+      "0:1"
+    ],
+    "correct": 1,
+    "explanation": "Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA]). When pH = pKa, log([A⁻]/[HA]) = 0, so [A⁻]/[HA] = 1 (1:1 ratio). This is the midpoint of a titration curve where the buffer is most effective (maximally resistant to pH changes). Buffers are effective within ~1 pH unit of their pKa.",
+    "tags": [
+      "acid-base",
+      "chemistry"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The bicarbonate buffer system in blood: CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻. During respiratory alkalosis (hyperventilation), which change occurs?",
+    "options": [
+      "CO₂ increases, pH falls",
+      "CO₂ decreases, [HCO₃⁻] increases proportionally, pH rises",
+      "CO₂ decreases, reaction shifts left, [H⁺] decreases, pH rises",
+      "HCO₃⁻ is actively excreted to correct the pH change immediately"
+    ],
+    "correct": 2,
+    "explanation": "Hyperventilation blows off CO₂ → [CO₂] decreases → equilibrium shifts left (Le Chatelier's) → [H₂CO₃] ↓ → [H⁺] ↓ → pH rises (alkalosis). Respiratory alkalosis is compensated by renal HCO₃⁻ excretion over hours-to-days (renal compensation is slower than respiratory compensation).",
+    "tags": [
+      "acid-base",
+      "physiology",
+      "respiratory"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Metabolic acidosis with a normal anion gap is typically associated with:",
+    "options": [
+      "Diabetic ketoacidosis",
+      "Lactic acidosis",
+      "Diarrhea (HCO₃⁻ loss) or renal tubular acidosis",
+      "Methanol or ethylene glycol ingestion"
+    ],
+    "correct": 2,
+    "explanation": "Normal anion gap metabolic acidosis (AG = Na⁺ − (Cl⁻ + HCO₃⁻) = 8-12 mEq/L) occurs when HCO₃⁻ is lost and replaced by Cl⁻ (no unmeasured anion). Causes: diarrhea, renal tubular acidosis, ureterosigmoidostomy (HARDUP mnemonic). High-AG acidosis is caused by organic acids (ketones, lactate, methanol, ethylene glycol, uremia, salicylate).",
+    "tags": [
+      "acid-base",
+      "physiology",
+      "renal"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which hormone acts via a cAMP-independent pathway, binding intracellular receptors?",
+    "options": [
+      "Glucagon",
+      "Epinephrine",
+      "Cortisol (glucocorticoid)",
+      "TSH"
+    ],
+    "correct": 2,
+    "explanation": "Steroid hormones (cortisol, aldosterone, estrogen, testosterone, vitamin D) are lipophilic and cross the cell membrane. They bind intracellular receptors that function as ligand-activated transcription factors, directly regulating gene expression. This contrasts with peptide/amine hormones that bind cell surface receptors and use second messengers.",
+    "tags": [
+      "endocrine",
+      "hormones",
+      "signal transduction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The anterior pituitary secretes all of the following EXCEPT:",
+    "options": [
+      "ACTH",
+      "TSH",
+      "GH",
+      "ADH (vasopressin)"
+    ],
+    "correct": 3,
+    "explanation": "ADH (antidiuretic hormone / vasopressin) and oxytocin are synthesized in hypothalamic nuclei (supraoptic and paraventricular) and stored/released from the POSTERIOR pituitary. The anterior pituitary secretes: ACTH, TSH, FSH, LH, GH, prolactin (FLAT PiG mnemonic).",
+    "tags": [
+      "endocrine",
+      "pituitary",
+      "hypothalamus"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Antidiuretic hormone (ADH) increases water reabsorption in the kidney by:",
+    "options": [
+      "Increasing NaCl transport in the thick ascending limb",
+      "Inserting aquaporin-2 (AQP2) channels into the apical membrane of principal cells in the collecting duct",
+      "Decreasing aldosterone synthesis in the adrenal cortex",
+      "Activating ROMK K⁺ channels in the distal tubule"
+    ],
+    "correct": 1,
+    "explanation": "ADH (vasopressin) binds V2 receptors (Gs-coupled) on collecting duct principal cells → cAMP → PKA → phosphorylation → exocytosis of AQP2-containing vesicles into the apical membrane → increased water permeability → water reabsorption. Without ADH, AQP2 is endocytosed and the collecting duct becomes water-impermeable (as in diabetes insipidus).",
+    "tags": [
+      "physiology",
+      "renal",
+      "endocrine",
+      "ADH"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The GFR (glomerular filtration rate) can be estimated using which substance that is freely filtered but neither secreted nor reabsorbed by the nephron?",
+    "options": [
+      "Urea",
+      "PAH (para-aminohippuric acid)",
+      "Creatinine (close estimate) or inulin (gold standard)",
+      "Glucose"
+    ],
+    "correct": 2,
+    "explanation": "An ideal GFR marker must be freely filtered and neither secreted nor reabsorbed. Inulin (exogenous) is the gold standard. Creatinine (endogenous, from muscle) is slightly secreted so slightly overestimates GFR, but is clinically used (serum creatinine correlates inversely with GFR). PAH is used to estimate renal plasma flow (RPF) — it is filtered + secreted (secretion fraction ~90%).",
+    "tags": [
+      "physiology",
+      "renal"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In the kidney, the counter-current multiplier system in the loop of Henle creates a medullary osmotic gradient. Which segment is impermeable to water but actively transports NaCl?",
+    "options": [
+      "Thin descending limb",
+      "Thin ascending limb",
+      "Thick ascending limb",
+      "Collecting duct (without ADH)"
+    ],
+    "correct": 2,
+    "explanation": "The thick ascending limb (TAL) of the loop of Henle: water-impermeable (no aquaporins) + actively transports NaCl (via NKCC2 cotransporter, which furosemide inhibits) into the medullary interstitium. This concentrates the medulla (hyperosmotic) without allowing water out, 'multiplying' the gradient that concentrates urine.",
+    "tags": [
+      "physiology",
+      "renal"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which change is characteristic of emphysema (a COPD)?",
+    "options": [
+      "Increased lung elastic recoil and decreased lung compliance",
+      "Decreased lung compliance and reduced TLC",
+      "Destruction of alveolar walls, loss of elastic recoil, air trapping (increased RV and TLC), and decreased FEV1/FVC",
+      "Reversible bronchoconstriction causing decreased FEV1/FVC that improves with bronchodilator"
+    ],
+    "correct": 2,
+    "explanation": "Emphysema: chronic destruction of alveolar walls (usually by neutrophil elastase in smokers) → loss of elastic recoil → air trapping (barrel chest, increased TLC and RV) → reduced surface area for gas exchange. FEV1/FVC <0.7 indicates airflow obstruction. Asthma (option D) features reversible bronchoconstriction.",
+    "tags": [
+      "physiology",
+      "respiratory",
+      "pulmonary"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Surfactant is produced by which cells in the lung?",
+    "options": [
+      "Alveolar macrophages (type I pneumocytes)",
+      "Type II pneumocytes (septal cells)",
+      "Goblet cells in the bronchioles",
+      "Clara (club) cells in the bronchioles"
+    ],
+    "correct": 1,
+    "explanation": "Type II pneumocytes synthesize and secrete surfactant (dipalmitoylphosphatidylcholine, DPPC) into the alveolar space. Surfactant reduces surface tension, preventing alveolar collapse (atelectasis) at low lung volumes. Surfactant deficiency causes neonatal respiratory distress syndrome (RDS) in premature infants.",
+    "tags": [
+      "physiology",
+      "respiratory"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following findings is consistent with right heart failure?",
+    "options": [
+      "Pulmonary edema and pink frothy sputum",
+      "Jugular venous distension, peripheral edema, hepatomegaly, and ascites",
+      "Orthopnea and paroxysmal nocturnal dyspnea",
+      "Left ventricular hypertrophy and S3 gallop"
+    ],
+    "correct": 1,
+    "explanation": "Right heart failure (cor pulmonale or RV failure from LV failure) causes backup into the systemic venous system: JVD, peripheral pitting edema, hepatomegaly (congestive hepatopathy), ascites, and elevated central venous pressure (CVP). Left heart failure causes pulmonary congestion (edema, dyspnea, orthopnea).",
+    "tags": [
+      "physiology",
+      "cardiovascular",
+      "heart failure"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The mean arterial pressure (MAP) is calculated as:",
+    "options": [
+      "(Systolic BP + Diastolic BP) / 2",
+      "Diastolic BP + 1/3 × pulse pressure",
+      "Systolic BP × Heart Rate",
+      "Cardiac output × systemic vascular resistance (indirectly)"
+    ],
+    "correct": 1,
+    "explanation": "MAP ≈ Diastolic BP + (1/3)(Systolic − Diastolic) = Diastolic + 1/3 × pulse pressure. For 120/80: MAP = 80 + 1/3(40) = 93 mmHg. The 1/3 factor reflects that diastole is ~2/3 of the cardiac cycle at rest. MAP also equals CO × SVR (from the hydraulic analogy to Ohm's law).",
+    "tags": [
+      "physiology",
+      "cardiovascular"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Preload is defined as:",
+    "options": [
+      "The pressure the ventricle must overcome to eject blood (afterload)",
+      "The ventricular volume at end-diastole (EDV), reflecting the degree of stretch of cardiac myocytes",
+      "The force of myocardial contraction independent of preload and afterload",
+      "The heart rate in beats per minute"
+    ],
+    "correct": 1,
+    "explanation": "Preload = end-diastolic volume (EDV) or end-diastolic pressure — the degree of stretch of ventricular muscle fibers before contraction. By Frank-Starling law, increased preload → increased stretch → increased force of contraction → increased stroke volume (up to a physiological limit). Afterload is the resistance against which the heart pumps (SVR or aortic pressure).",
+    "tags": [
+      "physiology",
+      "cardiovascular"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which chromosomal sex determination mechanism is found in humans?",
+    "options": [
+      "ZW sex determination (female ZW, male ZZ)",
+      "XY sex determination (female XX, male XY) with the SRY gene on Y determining maleness",
+      "Haplodiploidy (males haploid, females diploid)",
+      "Environmental sex determination based on temperature"
+    ],
+    "correct": 1,
+    "explanation": "Humans have XX/XY sex determination. The SRY gene (sex-determining region of Y) on the short arm of the Y chromosome encodes a transcription factor that initiates male development of the gonadal ridge. XX individuals develop ovaries; XY + SRY develop testes. Absence of SRY (XX or XY without SRY) leads to default female development.",
+    "tags": [
+      "genetics",
+      "sex determination"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Turner syndrome (45,X) causes which clinical findings?",
+    "options": [
+      "Tall stature, learning disabilities, male infertility",
+      "Short stature, ovarian dysgenesis (streak ovaries), webbed neck, coarctation of the aorta, shield chest — in a female phenotype",
+      "Klinefelter syndrome features (small testes, gynecomastia)",
+      "Intellectual disability with Brushfield spots and single palmar crease"
+    ],
+    "correct": 1,
+    "explanation": "Turner syndrome (45,X) affects females: short stature, primary amenorrhea, streak gonads → infertility, webbed neck (pterygium colli), low hairline, shield chest, coarctation of aorta. IQ is typically normal. The single X is usually maternal (error in paternal meiosis). Not to be confused with Klinefelter (47,XXY).",
+    "tags": [
+      "genetics",
+      "chromosomal abnormalities"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which enzyme catalyzes the final step of the urea cycle, converting arginine to urea + ornithine?",
+    "options": [
+      "Argininosuccinate lyase",
+      "Arginase",
+      "Carbamoyl phosphate synthetase I",
+      "Ornithine transcarbamylase"
+    ],
+    "correct": 1,
+    "explanation": "Arginase (cytoplasmic) hydrolyzes arginine → urea + ornithine. Ornithine re-enters the mitochondria to continue the cycle. Arginase deficiency is the least severe urea cycle disorder (hyperargininemia). The complete cycle: NH₃ + bicarbonate → carbamoyl phosphate → citrulline → argininosuccinate → arginine → urea + ornithine.",
+    "tags": [
+      "amino acid metabolism",
+      "urea cycle"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient with a defect in carbamoyl phosphate synthetase I (CPSI) would present with:",
+    "options": [
+      "Hypoglycemia and ketoacidosis",
+      "Hyperammonemia and symptoms of ammonia toxicity (encephalopathy, vomiting)",
+      "Elevated homocysteine levels",
+      "Phenylketonuria-type symptoms"
+    ],
+    "correct": 1,
+    "explanation": "CPSI is the rate-limiting enzyme of the urea cycle (mitochondrial). CPSI deficiency → failure to detoxify ammonia → severe hyperammonemia → encephalopathy, lethargy, vomiting, and hyperventilation (ammonia is a CNS toxin). Diagnosed in neonates; treated with low-protein diet, arginine supplementation, and nitrogen scavengers.",
+    "tags": [
+      "amino acid metabolism",
+      "urea cycle",
+      "genetic disorders"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Serotonin (5-HT) is synthesized from which amino acid?",
+    "options": [
+      "Tyrosine",
+      "Glutamate",
+      "Tryptophan",
+      "Histidine"
+    ],
+    "correct": 2,
+    "explanation": "Serotonin synthesis: Tryptophan → 5-hydroxytryptophan (by tryptophan hydroxylase, rate-limiting; requires BH4) → 5-HT (by aromatic L-amino acid decarboxylase, B6). In the pineal gland, serotonin → melatonin (requires acetylation then methylation). SSRIs prevent serotonin reuptake.",
+    "tags": [
+      "amino acid metabolism",
+      "neurotransmitters",
+      "biochemistry"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "GABA (γ-aminobutyric acid) is synthesized from:",
+    "options": [
+      "Glutamate (via glutamate decarboxylase, B6-dependent)",
+      "Glycine (via glycine decarboxylase)",
+      "Aspartate (via transamination)",
+      "Tryptophan (via the same pathway as serotonin)"
+    ],
+    "correct": 0,
+    "explanation": "GABA is synthesized from glutamate by glutamate decarboxylase (GAD), a B6 (PLP)-dependent enzyme. GAD is present in GABAergic neurons and in pancreatic β-cells. GABA is the principal inhibitory neurotransmitter of the CNS. Benzodiazepines and barbiturates enhance GABA-A receptor activity.",
+    "tags": [
+      "amino acid metabolism",
+      "neurotransmitters",
+      "biochemistry"
+    ],
+    "difficulty": "medium"
+  }
+]

@@ -1,0 +1,215 @@
+[
+  {
+    "passageText": "The philosophical tradition of pragmatism, associated with William James, John Dewey, and Charles Sanders Peirce, offered a distinctively American response to the problems of modern philosophy. Against the European tradition's tendency to seek foundations—bedrock certainties from which all other knowledge could be derived—the pragmatists insisted that ideas should be evaluated by their practical consequences, their effects on human experience and conduct.\n\nPeirce's version of pragmatism was primarily a theory of meaning: the meaning of any concept consists in its conceivable practical effects. If two proposed explanations of a phenomenon have identical practical consequences, they differ only verbally, not in substance. This 'pragmatic maxim' was intended to dissolve pseudo-problems: if a philosophical dispute makes no practical difference whatsoever, it is not a genuine dispute. Many traditional philosophical controversies, Peirce thought, would evaporate once subjected to this test.\n\nJames extended pragmatism from a theory of meaning into a theory of truth. An idea is true, for James, insofar as it helps us to cope with experience—to act successfully, to navigate the world, to satisfy our needs. Truth is not a static correspondence between idea and reality but a process, an event: an idea becomes true by 'working.' This account was immediately controversial. Critics charged that it made truth relative to the interests of the believer and would make any belief true that made its holder feel good—including falsehoods that were psychologically comforting.\n\nDewey's pragmatism, which he called 'instrumentalism,' located truth and knowledge in their social context. Inquiry, for Dewey, was not the solitary contemplation of a philosopher in their study but a social activity undertaken in response to genuinely felt problems. The goal of inquiry was not the correspondence of thought to an independent reality but the reconstruction of a problematic situation into a resolved one. Science was continuous with common sense in this respect: both were forms of organized problem-solving.\n\nThe pragmatist tradition has been criticized for its apparent complacency about existing social arrangements. If truth is what works, and if what works is partly determined by existing power relations, then pragmatism may simply ratify the interests of the dominant. Richard Rorty, a neo-pragmatist, responded by embracing the radical contingency of all frameworks: our current frameworks are not the culmination of rational inquiry but historical accidents that could be otherwise—a claim that opens rather than forecloses the possibility of critique and transformation.",
+    "questions": [
+      {
+        "text": "Peirce's 'pragmatic maxim' holds that:",
+        "options": [
+          "All philosophical problems can be solved by practical experimentation",
+          "The meaning of a concept consists in its conceivable practical effects—if two explanations have identical practical consequences, the dispute between them is merely verbal, not substantive",
+          "Truth is whatever works in practical experience",
+          "Scientific knowledge is more reliable than philosophical knowledge"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Peirce's version of pragmatism was primarily a theory of meaning: the meaning of any concept consists in its conceivable practical effects. If two proposed explanations of a phenomenon have identical practical consequences, they differ only verbally, not in substance.'"
+      },
+      {
+        "text": "James's theory of truth, as described in the passage, holds that:",
+        "options": [
+          "Truth is a static correspondence between ideas and an independent reality",
+          "An idea is true insofar as it works—helps us cope with experience, act successfully, and satisfy our needs—so truth is a process rather than a static correspondence",
+          "All beliefs are equally true as long as they are held sincerely",
+          "Scientific consensus determines truth for all domains of inquiry"
+        ],
+        "correct": 1,
+        "explanation": "The passage states James held: 'An idea is true, for James, insofar as it helps us to cope with experience—to act successfully, to navigate the world, to satisfy our needs. Truth is not a static correspondence between idea and reality but a process, an event: an idea becomes true by working.'"
+      },
+      {
+        "text": "The main criticism of James's theory of truth, as described in the passage, was that it:",
+        "options": [
+          "Relied too heavily on scientific evidence",
+          "Made truth relative to the believer's interests and would imply that any belief is true if it is psychologically comforting—including falsehoods",
+          "Was too similar to European rationalism",
+          "Failed to account for mathematical truths that have no practical consequences"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Critics charged that it made truth relative to the interests of the believer and would make any belief true that made its holder feel good—including falsehoods that were psychologically comforting.'"
+      },
+      {
+        "text": "Dewey's 'instrumentalism' differs from traditional epistemology in that it:",
+        "options": [
+          "Treats knowledge as individual rather than social",
+          "Defines inquiry as social problem-solving aimed at resolving genuinely felt problems rather than the solitary contemplation aimed at correspondence with independent reality—making science continuous with common sense",
+          "Rejects the possibility of scientific knowledge",
+          "Treats all knowledge as purely instrumental with no intrinsic value"
+        ],
+        "correct": 1,
+        "explanation": "The passage states Dewey held 'Inquiry...was not the solitary contemplation of a philosopher in their study but a social activity undertaken in response to genuinely felt problems. The goal of inquiry was not the correspondence of thought to an independent reality but the reconstruction of a problematic situation into a resolved one.'"
+      },
+      {
+        "text": "The criticism that pragmatism is 'complacent about existing social arrangements' rests on which inference?",
+        "options": [
+          "Pragmatists have always supported conservative political views",
+          "If truth is what works, and what works is shaped by existing power relations, then pragmatism ratifies dominant interests rather than providing a basis for critique",
+          "Dewey failed to apply pragmatism to social problems",
+          "James believed philosophical problems should not be solved through political action"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'If truth is what works, and if what works is partly determined by existing power relations, then pragmatism may simply ratify the interests of the dominant.' The concern is that the standard of 'working' is itself power-laden."
+      },
+      {
+        "text": "Rorty's neo-pragmatist response to the complacency critique was to argue that:",
+        "options": [
+          "Our current frameworks are the culmination of rational progress and should be defended",
+          "All current frameworks are historical contingencies that could be otherwise—not the result of rational necessity—which opens rather than forecloses critical transformation",
+          "Social critique requires abandoning pragmatism for a more foundationalist philosophy",
+          "Pragmatism should be limited to questions of natural science"
+        ],
+        "correct": 1,
+        "explanation": "The passage states Rorty 'embracing the radical contingency of all frameworks: our current frameworks are not the culmination of rational inquiry but historical accidents that could be otherwise—a claim that opens rather than forecloses the possibility of critique and transformation.'"
+      }
+    ]
+  },
+  {
+    "passageText": "Among the most contested concepts in contemporary bioethics is that of 'human dignity.' The term appears in foundational documents—the Universal Declaration of Human Rights, the Nuremberg Code, the Declaration of Helsinki—as a ground for human rights and research protections. Yet philosophers have noted that dignity is invoked in mutually contradictory arguments: those who oppose physician-assisted dying appeal to the dignity of the patient; those who support it do the same. This rhetorical promiscuity has led some philosophers to conclude that dignity is an 'unhelpful' concept that should be abandoned in favor of more precise alternatives like autonomy, welfare, or rights.\n\nDefenders of dignity respond that something real is at stake in dignity talk that cannot be fully captured by autonomy or welfare. Ruth Macklin, who famously called dignity 'useless,' argued that every appearance of dignity in bioethical argument could be replaced by autonomy without loss. But critics have argued that this substitution fails in cases involving patients who lack autonomous capacity—infants, individuals with severe cognitive disabilities, patients in persistent vegetative states. In these cases, appeals to dignity capture something that the autonomous-self model cannot: the moral significance of human embodiment and vulnerability independent of rational capacity.\n\nKant's account of dignity—as grounded in the rational nature of persons, their capacity for autonomous self-legislation—has been enormously influential. For Kant, persons have dignity, not price: they cannot be treated as mere means to others' ends. Yet the Kantian account faces difficulties at the margins. If dignity is grounded in rational capacity, what follows for those who lack it temporarily or permanently? Some neo-Kantians extend dignity to all members of the human species by virtue of their shared nature, even if they lack the relevant capacities individually.\n\nA different approach draws on the idea of human flourishing—from Aristotle and the natural law tradition—to ground dignity in the conditions under which human beings live characteristically human lives. Martha Nussbaum's capabilities approach holds that there is a threshold of capabilities—the ability to use one's senses, to affiliate with others, to play, to exercise practical reason—below which genuine human dignity is not possible. This approach is more sensitive to bodily and social conditions than Kantian rationalism, but it must specify whose vision of human flourishing counts and how to adjudicate disagreements.\n\nThe concept of dignity, despite its philosophical difficulties, continues to do indispensable work in medicine and law. It provides a vocabulary for moral intuitions that resist formulation in terms of individual rights or welfare calculations—intuitions about the treatment of corpses, the prohibition on degrading treatment, the wrong of reducing persons to experimental objects—that are nonetheless genuine and widely shared.",
+    "questions": [
+      {
+        "text": "The 'rhetorical promiscuity' of dignity appeals, as described in paragraph 1, refers to:",
+        "options": [
+          "The use of dignity in political speeches rather than philosophical arguments",
+          "The fact that dignity is invoked in contradictory arguments—both opponents and proponents of physician-assisted dying appeal to dignity—suggesting the concept may lack determinate content",
+          "The linguistic difficulty of translating dignity across different languages",
+          "The historical association of dignity with religious rather than secular frameworks"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'dignity is invoked in mutually contradictory arguments: those who oppose physician-assisted dying appeal to the dignity of the patient; those who support it do the same.' This is why some philosophers have called it 'unhelpful.'"
+      },
+      {
+        "text": "Macklin's argument that dignity is 'useless' rests on which claim?",
+        "options": [
+          "Dignity is a religious concept with no place in secular bioethics",
+          "Every appearance of dignity in bioethical argument could be replaced by autonomy without loss of moral content",
+          "Dignity is too vague to be defined precisely",
+          "Dignity is culturally specific and cannot apply universally"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Ruth Macklin, who famously called dignity useless, argued that every appearance of dignity in bioethical argument could be replaced by autonomy without loss.'"
+      },
+      {
+        "text": "The defense of dignity against Macklin's critique, as described in paragraph 2, argues that:",
+        "options": [
+          "Dignity and autonomy are identical concepts",
+          "Dignity captures something autonomy cannot in cases of patients lacking autonomous capacity—the moral significance of human embodiment and vulnerability independent of rational capacity",
+          "All patients have full autonomous capacity",
+          "Dignity appeals are only appropriate in legal rather than medical contexts"
+        ],
+        "correct": 1,
+        "explanation": "The passage states critics 'argued that this substitution fails in cases involving patients who lack autonomous capacity—infants, individuals with severe cognitive disabilities, patients in persistent vegetative states. In these cases, appeals to dignity capture something that the autonomous-self model cannot: the moral significance of human embodiment and vulnerability independent of rational capacity.'"
+      },
+      {
+        "text": "The main difficulty with the Kantian account of dignity based on rational capacity, as described in the passage, is that:",
+        "options": [
+          "Kant did not actually hold this view",
+          "It fails to account for the dignity of those who temporarily or permanently lack rational capacity—raising questions about infants, those with severe cognitive disabilities, and others at the margins",
+          "It is too abstract to apply to clinical cases",
+          "It cannot be reconciled with legal frameworks for human rights"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Yet the Kantian account faces difficulties at the margins. If dignity is grounded in rational capacity, what follows for those who lack it temporarily or permanently?'"
+      },
+      {
+        "text": "Nussbaum's capabilities approach grounds dignity in:",
+        "options": [
+          "Kantian rational autonomy extended to all humans",
+          "The conditions enabling human flourishing—a threshold of capabilities (sensory, affiliative, practical reasoning) below which genuine human dignity is not possible—more sensitive to bodily and social conditions than Kantian rationalism",
+          "The legal framework of human rights established by international treaties",
+          "Religious accounts of the sanctity of human life"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Nussbaum's capabilities approach holds that there is a threshold of capabilities—the ability to use one's senses, to affiliate with others, to play, to exercise practical reason—below which genuine human dignity is not possible. This approach is more sensitive to bodily and social conditions than Kantian rationalism.'"
+      },
+      {
+        "text": "The final paragraph's claim that dignity 'does indispensable work' in medicine and law suggests that:",
+        "options": [
+          "Dignity should replace autonomy and welfare as the sole foundation of bioethics",
+          "Despite its philosophical difficulties, dignity provides a vocabulary for genuine, widely shared moral intuitions about treatment of persons that cannot be reduced to rights calculations or welfare maximization",
+          "Dignity concepts should be removed from legal documents and replaced with more precise terms",
+          "The philosophical problems with dignity have been resolved by recent scholarship"
+        ],
+        "correct": 1,
+        "explanation": "The passage states dignity 'provides a vocabulary for moral intuitions that resist formulation in terms of individual rights or welfare calculations—intuitions about the treatment of corpses, the prohibition on degrading treatment, the wrong of reducing persons to experimental objects—that are nonetheless genuine and widely shared.' The concept persists because it captures something real that other terms miss."
+      }
+    ]
+  },
+  {
+    "passageText": "The question of what distinguishes genuine expertise from mere credentialism has become increasingly urgent in an era when the authority of experts is simultaneously amplified by media and contested by publics who distrust institutional knowledge. The philosopher Harry Collins has proposed a taxonomy of expertise that attempts to capture the difference between different kinds of knowing—not to reassert expert authority but to clarify what is and is not at stake when experts and non-experts disagree.\n\nCollins distinguishes 'interactional expertise'—the ability to converse meaningfully with practitioners of a field without being able to practice it—from 'contributory expertise,' the mastery that allows one to actually advance a field. A science journalist may develop interactional expertise with physicists: enough to ask probing questions, recognize significant claims, and communicate findings accurately, without being able to do physics. A physicist has contributory expertise: they can run experiments, extend theory, and produce new knowledge.\n\nCollins also distinguishes 'specialist expertise' from what he calls 'experience-based expertise'—the expertise that comes from living with a condition or situation rather than studying it from outside. Patients with chronic illness may develop deep expertise about their own bodies, about symptom patterns, drug interactions, and the limits of standard treatments, that their physicians lack. This expertise is not acquired through credentialed training but through sustained experience of the phenomenon. Collins and Evans call this 'experience-based expertise' and argue that it is a legitimate form of expertise that medicine and policy should take seriously.\n\nThe distinction has practical implications for debates about evidence in medicine and policy. Proponents of evidence-based medicine have sometimes been accused of dismissing patient experience in favor of aggregate clinical trial data. If experience-based expertise is genuine expertise, then the challenge is to integrate it with credentialed expert knowledge rather than subordinating one to the other. Similarly, in environmental policy, local communities often have detailed knowledge of ecosystems and pollution effects that scientific studies have missed.\n\nCritics worry about the political uses of expertise skepticism. If the public routinely demands that credentialed expertise be balanced against lay opinion, scientific consensus on matters like vaccine safety or climate change can be made to appear contested when it is not. Collins himself has insisted that his taxonomy does not imply that all perspectives are equally valid: distinguishing types of expertise allows us to identify both the genuine contributions and the genuine limits of each type, rather than collapsing all authority claims into a single undifferentiated category that must be either accepted wholesale or rejected.",
+    "questions": [
+      {
+        "text": "Collins distinguishes 'interactional expertise' from 'contributory expertise' primarily by:",
+        "options": [
+          "The amount of formal training each requires",
+          "Whether the expertise allows one to converse with practitioners (interactional) or to actually advance a field (contributory)—with the science journalist and the physicist as respective examples",
+          "The social prestige associated with each type",
+          "Whether the expertise is acquired through experience or through formal study"
+        ],
+        "correct": 1,
+        "explanation": "The passage states Collins distinguishes 'the ability to converse meaningfully with practitioners of a field without being able to practice it' (interactional) from 'the mastery that allows one to actually advance a field' (contributory), with science journalist vs. physicist as examples."
+      },
+      {
+        "text": "Collins's category of 'experience-based expertise' is significant for medicine because it:",
+        "options": [
+          "Provides a credential equivalent to medical school training",
+          "Recognizes that patients with chronic illness may have deep expertise about their own bodies and conditions that their physicians lack—acquired through sustained experience rather than credentialed training",
+          "Suggests that patient experience should always override clinical trial evidence",
+          "Allows patients to prescribe their own treatments without physician oversight"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Patients with chronic illness may develop deep expertise about their own bodies, about symptom patterns, drug interactions, and the limits of standard treatments, that their physicians lack. This expertise is not acquired through credentialed training but through sustained experience of the phenomenon.'"
+      },
+      {
+        "text": "The critique that evidence-based medicine sometimes 'dismisses patient experience' is addressed in the passage by suggesting that:",
+        "options": [
+          "Patient experience is unreliable and should be subordinated to clinical trial data",
+          "The challenge is to integrate experience-based expertise with credentialed expert knowledge rather than subordinating one to the other—treating patient experience as a legitimate form of expertise",
+          "Clinical trial data should be replaced by patient self-report",
+          "Experience-based expertise is only valid for chronic conditions, not acute illness"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'If experience-based expertise is genuine expertise, then the challenge is to integrate it with credentialed expert knowledge rather than subordinating one to the other.'"
+      },
+      {
+        "text": "Collins's own position on the political uses of expertise skepticism, as described in the final paragraph, is that:",
+        "options": [
+          "All forms of expertise should be treated as equally valid in democratic deliberation",
+          "His taxonomy does not imply all perspectives are equally valid—distinguishing types of expertise identifies both the contributions and the limits of each, rather than collapsing all authority claims into undifferentiated acceptance or rejection",
+          "Public opinion should always override expert consensus on policy matters",
+          "Credentialed expertise should be accepted without question in all domains"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Collins himself has insisted that his taxonomy does not imply that all perspectives are equally valid: distinguishing types of expertise allows us to identify both the genuine contributions and the genuine limits of each type, rather than collapsing all authority claims into a single undifferentiated category.'"
+      },
+      {
+        "text": "Which example, if added to the passage, would best illustrate Collins's concept of 'experience-based expertise'?",
+        "options": [
+          "A radiologist who can read CT scans with higher accuracy than general practitioners",
+          "HIV-positive activists in the 1980s who developed expertise about their disease through living with it, challenging pharmaceutical researchers' assumptions about acceptable side effects and trial design",
+          "A medical student who has read extensively about a condition but has never treated patients with it",
+          "A public health official who develops policy based on aggregate epidemiological data"
+        ],
+        "correct": 1,
+        "explanation": "'Experience-based expertise' comes from 'living with a condition or situation rather than studying it from outside.' HIV-positive activists who gained expertise through lived experience with their disease—sufficient to challenge professional assumptions—directly illustrates this category, unlike the other examples which involve credentialed or study-based knowledge."
+      },
+      {
+        "text": "Based on the passage, the concern that expertise skepticism can make scientific consensus 'appear contested when it is not' is most relevant to:",
+        "options": [
+          "Debates between two competing expert groups within a scientific field",
+          "Public debates where lay opinion is treated as an equally valid 'expert perspective' on matters like vaccine safety or climate change where genuine scientific consensus exists",
+          "Disagreements between experience-based and contributory experts on treatment protocols",
+          "Academic debates about the nature of expertise itself"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'If the public routinely demands that credentialed expertise be balanced against lay opinion, scientific consensus on matters like vaccine safety or climate change can be made to appear contested when it is not.' This is the concern—treating lay opinion as equivalent to scientific consensus creates a false appearance of dispute."
+      }
+    ]
+  }
+]

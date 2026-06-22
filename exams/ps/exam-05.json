@@ -1,0 +1,427 @@
+[
+  {
+    "text": "In classical conditioning, a conditioned response (CR) will undergo extinction when:",
+    "options": [
+      "The unconditioned stimulus (US) is presented more frequently",
+      "The conditioned stimulus (CS) is repeatedly presented without the unconditioned stimulus",
+      "The conditioned stimulus and unconditioned stimulus are presented simultaneously many times",
+      "The unconditioned response (UR) is reinforced"
+    ],
+    "correct": 1,
+    "explanation": "Extinction: present CS alone (without US) repeatedly → CR weakens and disappears. The learned association is suppressed, not erased (spontaneous recovery — CR reappears after rest — proves the original memory is not destroyed). Acquisition: CS paired with US builds the CR. Counter-conditioning: pair CS with opposite US to replace response.",
+    "tags": [
+      "learning",
+      "classical conditioning",
+      "extinction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Negative reinforcement in operant conditioning:",
+    "options": [
+      "Means punishing undesired behavior",
+      "Involves removing an aversive stimulus to increase the likelihood of a behavior (not punishment)",
+      "Means providing a negative stimulus after a behavior",
+      "Decreases behavior by removing a reward"
+    ],
+    "correct": 1,
+    "explanation": "Negative reinforcement: remove/avoid aversive stimulus → behavior INCREASES. Example: taking ibuprofen removes pain (negative reinforcer) → increases likelihood of taking ibuprofen again. NOT punishment. Positive reinforcement: add pleasant stimulus → behavior increases. Punishment (positive): add aversive stimulus → behavior decreases. Punishment (negative): remove pleasant stimulus → behavior decreases.",
+    "tags": [
+      "learning",
+      "operant conditioning",
+      "reinforcement"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Observational learning (social learning theory, Bandura) suggests that learning occurs by:",
+    "options": [
+      "Classical conditioning only",
+      "Watching others and observing consequences of their behavior (modeling, vicarious learning) — demonstrated by Bobo doll experiments",
+      "Direct experience and trial-and-error only",
+      "Reinforcement schedules alone"
+    ],
+    "correct": 1,
+    "explanation": "Bandura's social learning theory: learning occurs through observation of models, not just direct reinforcement. Bobo doll study: children who watched an adult model aggressively hit the doll reproduced those behaviors (even without reinforcement). Key processes: attention, retention, reproduction, motivation. Social cognitive theory extends this to include self-efficacy (belief in one's ability to perform).",
+    "tags": [
+      "learning",
+      "social learning theory",
+      "Bandura"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Variable ratio (VR) reinforcement schedules produce:",
+    "options": [
+      "Low, steady response rates with pauses after reinforcement",
+      "High, steady response rates that are most resistant to extinction (e.g., slot machines, fishing)",
+      "Rapid responding only right before the reinforcement is due",
+      "Slow, irregular responding"
+    ],
+    "correct": 1,
+    "explanation": "Reinforcement schedules: Fixed Ratio (FR): high rate, pause after each reinforcement; Variable Ratio (VR): highest rate, most resistant to extinction (gambling); Fixed Interval (FI): scalloping — increasing rate near the end of each interval; Variable Interval (VI): moderate, steady rate. VR schedules work because the organism never knows when the next reward will come, so it keeps responding.",
+    "tags": [
+      "learning",
+      "operant conditioning",
+      "reinforcement schedules"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Latent learning (Tolman) refers to:",
+    "options": [
+      "Learning that occurs through conditioning with food rewards",
+      "Learning that occurs without obvious reinforcement and is demonstrated only when incentive is provided — cognitive maps in rats",
+      "Learning that happens only during sleep (sleep learning)",
+      "Implicit learning of motor skills"
+    ],
+    "correct": 1,
+    "explanation": "Tolman's latent learning: rats exploring a maze without reward develop a cognitive map (mental representation of the environment). When food is placed in the maze, rats find it as well as trained rats, showing the prior learning was latent until there was incentive to demonstrate it. Challenged strict behaviorism by invoking cognitive representations (cognitive maps) in animals.",
+    "tags": [
+      "learning",
+      "cognitive psychology",
+      "Tolman"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The difference between declarative and procedural memory:",
+    "options": [
+      "Declarative = emotional memories; procedural = factual",
+      "Declarative (explicit) = conscious recall of facts (semantic) and events (episodic); procedural (implicit) = skills and habits (not consciously recalled)",
+      "Declarative = short-term; procedural = long-term",
+      "No difference; both are stored in the hippocampus"
+    ],
+    "correct": 1,
+    "explanation": "Declarative (explicit) memory: semantic (facts, concepts — 'Paris is the capital of France') and episodic (personal experiences — 'my first day of school'). Requires hippocampus for formation. Procedural (implicit) memory: skills (riding a bike), habits, priming. Uses basal ganglia, cerebellum. H.M. (hippocampal resection): lost declarative memory formation but could still learn new motor skills (procedural intact).",
+    "tags": [
+      "memory",
+      "declarative vs procedural",
+      "cognitive psychology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Working memory (Baddeley model) consists of:",
+    "options": [
+      "One system with unlimited capacity",
+      "A central executive, phonological loop (verbal information), visuospatial sketchpad (visual-spatial information), and episodic buffer",
+      "Short-term memory of 7±2 items only",
+      "Only visual information storage"
+    ],
+    "correct": 1,
+    "explanation": "Baddeley's working memory model: (1) Central executive: attentional control, coordinates subsystems; (2) Phonological loop: holds verbal/auditory info (e.g., repeating a phone number in your head); (3) Visuospatial sketchpad: holds visual/spatial info; (4) Episodic buffer: integrates information across modalities with long-term memory. Capacity: ~4 chunks of information.",
+    "tags": [
+      "memory",
+      "working memory",
+      "Baddeley"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The spacing effect in memory refers to:",
+    "options": [
+      "Learning is better when practice is massed (all at once)",
+      "Distributing practice over time (spaced repetition) leads to better long-term retention than massed practice",
+      "Memory is best when there are no pauses between learning episodes",
+      "Spacing increases short-term memory but decreases long-term memory"
+    ],
+    "correct": 1,
+    "explanation": "Spacing effect (Ebbinghaus): distributed practice > massed practice for long-term retention. Spaced repetition: reviewing material at increasing intervals (e.g., flashcard apps like Anki use this algorithm). Related: testing effect — actively retrieving information (practice tests) is more effective than passive re-reading. Forgetting curve: Ebbinghaus showed retention decreases sharply without review.",
+    "tags": [
+      "memory",
+      "spacing effect",
+      "learning strategies"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Retrograde amnesia is the inability to:",
+    "options": [
+      "Form new memories after brain injury",
+      "Recall memories from before a brain injury or event (while new learning may be intact)",
+      "Recall procedural skills",
+      "Learn new vocabulary"
+    ],
+    "correct": 1,
+    "explanation": "Retrograde amnesia: loss of memories formed BEFORE the injury. Anterograde amnesia: inability to form NEW memories AFTER injury (H.M. had severe anterograde). Both can co-occur. Temporal gradient: in retrograde amnesia, older memories are often better preserved (more deeply consolidated, cortically stored) than recent memories (still hippocampus-dependent). Korsakoff syndrome: chronic retrograde + anterograde amnesia from thiamine deficiency (alcoholism).",
+    "tags": [
+      "memory",
+      "amnesia",
+      "neuropsychology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "According to Piaget, formal operational stage (age 12+) is characterized by:",
+    "options": [
+      "Object permanence and sensorimotor learning",
+      "Symbolic/language use, egocentrism, and magical thinking",
+      "Logical thinking about concrete events only",
+      "Abstract reasoning, hypothetical thinking, and systematic problem-solving"
+    ],
+    "correct": 3,
+    "explanation": "Piaget's stages: (1) Sensorimotor (0-2): object permanence at ~8 months; (2) Preoperational (2-7): symbolic thought, egocentrism, animism, lack of conservation; (3) Concrete operational (7-12): conservation, logical thinking about concrete objects; (4) Formal operational (12+): abstract reasoning, systematic hypothesis testing, propositional logic. Criticisms: underestimated children's abilities, cultural variation, stages not as discrete.",
+    "tags": [
+      "developmental psychology",
+      "Piaget",
+      "cognitive development"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Kohlberg's post-conventional morality (Level 3) is characterized by:",
+    "options": [
+      "Obeying rules to avoid punishment (Level 1)",
+      "Following rules to gain approval from others (Level 2)",
+      "Moral reasoning based on universal ethical principles and social contract beyond specific laws",
+      "Inability to reason about morality"
+    ],
+    "correct": 2,
+    "explanation": "Kohlberg's moral development: (1) Pre-conventional: Stage 1 = obedience/punishment; Stage 2 = self-interest/exchange; (2) Conventional: Stage 3 = good boy/girl, social approval; Stage 4 = law and order, authority; (3) Post-conventional: Stage 5 = social contract, rule utility; Stage 6 = universal ethical principles (Kant's categorical imperative). Gilligan criticized Kohlberg for male bias; women more often used care-based ethics.",
+    "tags": [
+      "developmental psychology",
+      "Kohlberg",
+      "moral development"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Ainsworth's Strange Situation revealed that securely attached infants:",
+    "options": [
+      "Show no distress when caregiver leaves",
+      "Show moderate distress when caregiver leaves and are easily comforted upon return (balance of exploration and security)",
+      "Show extreme distress and cannot be comforted",
+      "Avoid the caregiver upon return"
+    ],
+    "correct": 1,
+    "explanation": "Ainsworth's attachment styles: (1) Secure: moderate distress at separation, easily comforted at reunion, use caregiver as safe base (best predictor of positive outcomes); (2) Anxious/ambivalent (insecure): high distress at separation, difficult to comfort at reunion, clingy; (3) Avoidant (insecure): little distress at separation, ignore caregiver at reunion; (4) Disorganized: chaotic, fearful response.",
+    "tags": [
+      "developmental psychology",
+      "attachment",
+      "Ainsworth"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Erikson's stage of 'Initiative vs. Guilt' occurs during:",
+    "options": [
+      "Infancy (trust vs. mistrust)",
+      "Toddlerhood (autonomy vs. shame)",
+      "Preschool years (3-6): children develop initiative through play and may feel guilt when overstepping",
+      "Early school age (industry vs. inferiority)"
+    ],
+    "correct": 2,
+    "explanation": "Erikson's 8 psychosocial stages: (1) Trust vs. Mistrust (infancy); (2) Autonomy vs. Shame/Doubt (toddler); (3) Initiative vs. Guilt (preschool 3-6): children explore and initiate activities — success builds sense of purpose; over-criticism → guilt; (4) Industry vs. Inferiority (school age 6-12); (5) Identity vs. Role Confusion (adolescence); (6) Intimacy vs. Isolation (young adult); (7) Generativity vs. Stagnation (middle adult); (8) Integrity vs. Despair (old age).",
+    "tags": [
+      "developmental psychology",
+      "Erikson",
+      "psychosocial development"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Vygotsky's Zone of Proximal Development (ZPD) is:",
+    "options": [
+      "What a child can do independently, without any guidance",
+      "The gap between what a child can do alone and what a child can do with guidance from a more skilled partner",
+      "Piaget's concrete operational stage",
+      "The range of tasks that are too difficult for anyone"
+    ],
+    "correct": 1,
+    "explanation": "ZPD: the distance between actual developmental level (independent problem solving) and potential level (what they can do with expert guidance). Scaffolding: temporary support provided by a more knowledgeable other (teacher, parent, peer) that is gradually withdrawn as competence increases. Vygotsky emphasized social context and language in cognitive development — contrasts with Piaget's more individualistic view.",
+    "tags": [
+      "developmental psychology",
+      "Vygotsky",
+      "ZPD"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The Big Five personality traits (OCEAN) include:",
+    "options": [
+      "Openness, Creativity, Extraversion, Agreeableness, Neuroticism",
+      "Openness to experience, Conscientiousness, Extraversion, Agreeableness, Neuroticism",
+      "Optimism, Confidence, Extraversion, Adaptability, Nurturance",
+      "Intelligence, Conscientiousness, Extraversion, Autonomy, Neuroticism"
+    ],
+    "correct": 1,
+    "explanation": "OCEAN: Openness (curiosity, creativity), Conscientiousness (organization, discipline), Extraversion (sociability, assertiveness), Agreeableness (cooperation, empathy), Neuroticism (emotional instability, anxiety). Most empirically supported personality model. Measured across cultures. Conscientiousness best predicts job performance; neuroticism predicts mental health issues.",
+    "tags": [
+      "personality",
+      "Big Five",
+      "OCEAN"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Freud's concept of the 'id' refers to:",
+    "options": [
+      "The rational, executive part of personality",
+      "The primitive, instinctual part operating on the pleasure principle, seeking immediate gratification",
+      "The moral, self-critical part of personality",
+      "The observing part of the mind"
+    ],
+    "correct": 1,
+    "explanation": "Freud's structural model: (1) Id: unconscious, operates on pleasure principle, contains instinctual drives (Eros/life, Thanatos/death), demands immediate gratification; (2) Ego: conscious/preconscious, operates on reality principle, mediates between id and reality; (3) Superego: internalized moral standards (from parents/society), includes ideal self and conscience. Psychopathology = id/ego/superego conflicts.",
+    "tags": [
+      "personality",
+      "Freud",
+      "psychoanalytic theory"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The defense mechanism of 'reaction formation' involves:",
+    "options": [
+      "Pushing unconscious thoughts deeper into unconsciousness (repression)",
+      "Behaving in the opposite way to your unconscious impulse (e.g., treating someone you hate with extreme kindness)",
+      "Attributing your own feelings to others (projection)",
+      "Reverting to childlike behaviors (regression)"
+    ],
+    "correct": 1,
+    "explanation": "Defense mechanisms (Freud): Repression (blocking thoughts), Projection (attributing own feelings to others), Reaction formation (opposite behavior), Rationalization (logical justification for unacceptable impulse), Displacement (redirecting feelings to safer target), Sublimation (channeling impulse into socially acceptable outlet), Regression (returning to earlier developmental behavior), Denial (refusing to accept reality).",
+    "tags": [
+      "personality",
+      "defense mechanisms",
+      "Freud"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Self-actualization in Maslow's hierarchy of needs:",
+    "options": [
+      "Refers to safety and security needs",
+      "Is the third level (love/belonging)",
+      "Represents the highest level: achieving one's full potential and becoming everything one is capable of becoming",
+      "Is the same as self-esteem needs"
+    ],
+    "correct": 2,
+    "explanation": "Maslow's hierarchy (bottom to top): (1) Physiological (food, water, shelter); (2) Safety (security, stability); (3) Love/Belonging (social connection, relationships); (4) Esteem (self-esteem, recognition); (5) Self-actualization (realizing full potential). The hierarchy is often depicted as a pyramid. Criticism: needs don't always follow this order; self-actualization is culturally variable. Later Maslow added 'transcendence' above self-actualization.",
+    "tags": [
+      "motivation",
+      "Maslow",
+      "humanistic psychology"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Intrinsic motivation refers to:",
+    "options": [
+      "Motivation driven by external rewards or punishments",
+      "Motivation that comes from internal sources — interest, enjoyment, or the inherent satisfaction of the activity itself",
+      "Motivation that requires continuous reinforcement",
+      "Motivation that is primarily biological (drive reduction)"
+    ],
+    "correct": 1,
+    "explanation": "Intrinsic motivation (self-determination theory, Deci & Ryan): doing something because it's inherently interesting or enjoyable. Extrinsic motivation: external rewards or pressures. Overjustification effect: providing external rewards for intrinsically motivated behaviors reduces intrinsic motivation (external reward 'crowds out' internal interest). Self-determination theory: needs for autonomy, competence, and relatedness foster intrinsic motivation.",
+    "tags": [
+      "motivation",
+      "intrinsic vs extrinsic",
+      "self-determination theory"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The Yerkes-Dodson law describes the relationship between arousal and performance:",
+    "options": [
+      "Performance increases linearly with arousal up to very high levels",
+      "Performance is best at very low arousal (calm state)",
+      "Performance is best at moderate arousal levels (inverted U-shaped relationship); for complex tasks, optimal arousal is lower",
+      "Arousal has no effect on performance"
+    ],
+    "correct": 2,
+    "explanation": "Yerkes-Dodson law (1908): inverted-U relationship between arousal and performance. Too little arousal: low alertness, poor performance. Too much arousal: anxiety impairs performance. Optimal arousal is in the middle. Key nuance: for simple tasks, higher arousal is optimal; for complex tasks, lower arousal is optimal (arousal interferes with complex processing).",
+    "tags": [
+      "motivation",
+      "arousal",
+      "Yerkes-Dodson"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The fundamental attribution error (FAE) is the tendency to:",
+    "options": [
+      "Overestimate situational factors and underestimate dispositional factors when explaining OTHER people's behavior",
+      "Overestimate dispositional (character) factors and underestimate situational factors when explaining OTHER people's behavior",
+      "Apply the same attribution error to oneself and others equally",
+      "Attribute one's own failures to bad luck"
+    ],
+    "correct": 1,
+    "explanation": "Fundamental attribution error (FAE/correspondence bias): overweighting dispositional (personality) factors and underweighting situational factors when explaining others' behavior. E.g., someone cuts you off in traffic → 'they're a reckless person' (not 'they're rushing to the hospital'). Actor-Observer Bias: we attribute OUR OWN behavior to situations, others' behavior to disposition. Self-Serving Bias: attribute own successes to disposition, failures to situation.",
+    "tags": [
+      "social psychology",
+      "attribution",
+      "fundamental attribution error"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Milgram's obedience experiment found that:",
+    "options": [
+      "Almost no participants (less than 1%) obeyed commands to deliver dangerous electric shocks",
+      "About 65% of participants delivered what they believed were dangerous levels of shock when ordered by an authority figure",
+      "Most people refused to harm others under any circumstances",
+      "Only sociopaths obeyed the authority figure"
+    ],
+    "correct": 1,
+    "explanation": "Milgram (1963): ~65% of participants fully obeyed the authority figure (experimenter in lab coat) and delivered all shocks up to 450V (labeled 'XXX') to a confederate who screamed and went silent. Key factors: proximity to authority (face-to-face), institutional legitimacy, gradual escalation of commitment, distance from victim. Showed that ordinary people can commit harmful acts under authority pressure (relevance to Holocaust).",
+    "tags": [
+      "social psychology",
+      "Milgram",
+      "obedience"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Asch's line experiments demonstrated:",
+    "options": [
+      "That people are immune to group pressure when the task is unambiguous",
+      "That approximately 75% of participants conformed at least once to clearly incorrect group answers — even on unambiguous perceptual tasks",
+      "That conformity only occurs in ambiguous situations (Sherif's autokinetic effect)",
+      "That social pressure has no effect on perception"
+    ],
+    "correct": 1,
+    "explanation": "Asch (1951): confederates unanimously gave obviously wrong answers (which line matches?) — ~75% of participants conformed at least once; only ~25% never conformed. Conformity decreased when ONE other person dissented (social support), when the group was smaller (<3), or when responses were private. Informational vs. normative influence: people conform to get information (ambiguous) OR to fit in (unambiguous — Asch).",
+    "tags": [
+      "social psychology",
+      "conformity",
+      "Asch"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The bystander effect states that:",
+    "options": [
+      "People are more likely to help in emergencies if more bystanders are present",
+      "The presence of more bystanders DECREASES the probability that any individual will intervene (diffusion of responsibility, pluralistic ignorance)",
+      "Bystanders always intervene regardless of group size",
+      "More bystanders increase the quality, not quantity, of helping"
+    ],
+    "correct": 1,
+    "explanation": "Bystander effect (Darley & Latané, 1968): as group size increases, each person is LESS likely to help. Mechanisms: (1) Diffusion of responsibility — 'someone else will help'; (2) Pluralistic ignorance — looking at others' calm reactions to define the situation as non-emergency. Kitty Genovese murder (1964) motivated this research. To counter: make eye contact, single someone out ('YOU in the red jacket, call 911').",
+    "tags": [
+      "social psychology",
+      "bystander effect",
+      "prosocial behavior"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Cognitive dissonance (Festinger) is reduced by:",
+    "options": [
+      "Holding two consistent cognitions simultaneously",
+      "Changing one of the conflicting cognitions, adding a new cognition to reconcile them, or trivializing the importance of the conflict",
+      "Increasing the number of inconsistent beliefs",
+      "External validation of the dissonant beliefs"
+    ],
+    "correct": 1,
+    "explanation": "Cognitive dissonance: the discomfort of holding two conflicting beliefs, values, or behaviors. People are motivated to reduce it. Example: 'I smoke' + 'smoking causes cancer' → dissonance → resolve by: 'I'll quit soon,' 'I know a smoker who lived to 100,' or 'cancer research is overstated.' Classic study: paid $1 vs. $20 to say boring task was fun — $1 group internalized the belief more (less external justification → more need to change attitude).",
+    "tags": [
+      "social psychology",
+      "cognitive dissonance",
+      "attitude change"
+    ],
+    "difficulty": "medium"
+  }
+]

@@ -1,0 +1,404 @@
+[
+  {
+    "text": "The plasma membrane is primarily composed of:",
+    "options": [
+      "Cholesterol and triglycerides",
+      "A phospholipid bilayer with embedded proteins",
+      "A single layer of glycoproteins",
+      "Cellulose and pectin"
+    ],
+    "correct": 1,
+    "explanation": "The plasma membrane consists of a fluid phospholipid bilayer (fluid mosaic model, Singer and Nicolson). Integral proteins span the bilayer; peripheral proteins associate with its surfaces. Cholesterol modulates fluidity but is not the primary component.",
+    "tags": [
+      "cell biology",
+      "membrane"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Cholesterol in the plasma membrane primarily functions to:",
+    "options": [
+      "Provide a source of energy during starvation",
+      "Modulate membrane fluidity, making it less fluid at high temperatures and less rigid at low temperatures",
+      "Serve as a receptor for hydrophilic hormones",
+      "Anchor the cytoskeleton to the membrane"
+    ],
+    "correct": 1,
+    "explanation": "Cholesterol's rigid steroid ring interdigitates among phospholipid tails. At high temperatures it restricts phospholipid movement (decreasing excess fluidity); at low temperatures it prevents packing (preventing gelling). This provides a physiological range of fluidity.",
+    "tags": [
+      "cell biology",
+      "membrane"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The rough endoplasmic reticulum (RER) is structurally distinguished from smooth ER by:",
+    "options": [
+      "Its location adjacent to the plasma membrane",
+      "The presence of ribosomes on its cytoplasmic surface",
+      "Its lack of a lipid bilayer",
+      "Its direct connection to the nucleus"
+    ],
+    "correct": 1,
+    "explanation": "The RER is studded with ribosomes that co-translationally insert newly synthesized secretory and membrane proteins into the ER lumen. Smooth ER (SER) lacks ribosomes and is involved in lipid synthesis, calcium storage, and drug metabolism.",
+    "tags": [
+      "cell biology",
+      "organelles"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Proteins destined for lysosomes are tagged in the Golgi apparatus with:",
+    "options": [
+      "A signal peptide (N-terminal)",
+      "Mannose-6-phosphate (M6P)",
+      "Ubiquitin",
+      "A KDEL retention signal"
+    ],
+    "correct": 1,
+    "explanation": "In the cis-Golgi, N-acetylglucosamine phosphotransferase adds M6P to lysosomal hydrolases. M6P receptors in the trans-Golgi network sort these enzymes into vesicles that bud off and fuse with lysosomes. KDEL retains ER-resident proteins.",
+    "tags": [
+      "cell biology",
+      "vesicular trafficking"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Primary lysosomes are formed by budding from:",
+    "options": [
+      "The nucleus",
+      "The rough ER",
+      "The Golgi apparatus",
+      "Mitochondria"
+    ],
+    "correct": 2,
+    "explanation": "Lysosomal enzymes are synthesized on the RER, processed through the Golgi, and sorted by M6P receptors in the trans-Golgi network. Vesicles bud from the TGN to form primary lysosomes, which then fuse with endosomes or phagosomes.",
+    "tags": [
+      "cell biology",
+      "organelles"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The mitochondrial matrix is enclosed by:",
+    "options": [
+      "The outer mitochondrial membrane only",
+      "Both the outer and inner mitochondrial membranes",
+      "The inner mitochondrial membrane only",
+      "A single phospholipid bilayer"
+    ],
+    "correct": 1,
+    "explanation": "Mitochondria have two membranes. The inner mitochondrial membrane (IMM) is the site of the ETC and is highly impermeable. The matrix is the space enclosed by the IMM and contains the enzymes for pyruvate oxidation and TCA cycle.",
+    "tags": [
+      "cell biology",
+      "mitochondria"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In the cell cycle, the S phase is defined by:",
+    "options": [
+      "Cell growth and protein synthesis",
+      "DNA replication",
+      "Nuclear division (mitosis)",
+      "Cytokinesis"
+    ],
+    "correct": 1,
+    "explanation": "S (synthesis) phase is when DNA replication occurs, duplicating the genome from 2N to 4N DNA content. G1 is pre-synthesis growth; G2 is post-synthesis growth/preparation; M is mitosis.",
+    "tags": [
+      "cell cycle"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Cyclins regulate the cell cycle by:",
+    "options": [
+      "Directly replicating DNA",
+      "Activating cyclin-dependent kinases (CDKs) by binding them",
+      "Inhibiting CDKs throughout the cycle",
+      "Forming the spindle checkpoint proteins"
+    ],
+    "correct": 1,
+    "explanation": "Cyclins are regulatory proteins that bind and activate CDKs. Different cyclin-CDK complexes (e.g., cyclin D/CDK4 in G1, cyclin B/CDK1 at G2/M) phosphorylate targets like Rb to advance the cell cycle. Cyclin levels oscillate; CDKs are constitutively present.",
+    "tags": [
+      "cell cycle"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The G1/S checkpoint (restriction point) primarily monitors:",
+    "options": [
+      "Proper spindle attachment to chromosomes",
+      "Whether the cell has sufficient size and nutrients to commit to DNA replication",
+      "Completion of DNA replication before mitosis",
+      "Centrosome duplication"
+    ],
+    "correct": 1,
+    "explanation": "The G1/S (restriction) checkpoint ensures the cell is large enough, has adequate nutrients, and has received growth signals before committing irreversibly to S phase. Rb acts as the gatekeeper; when hyperphosphorylated by cyclin D/CDK4 complexes, it releases E2F transcription factors that activate S phase genes.",
+    "tags": [
+      "cell cycle",
+      "checkpoints"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "During meiosis I, crossing over (recombination) occurs between:",
+    "options": [
+      "Sister chromatids of the same chromosome",
+      "Non-sister chromatids of homologous chromosomes",
+      "Non-homologous chromosomes",
+      "Chromatids of any chromosome randomly"
+    ],
+    "correct": 1,
+    "explanation": "Crossing over in prophase I of meiosis occurs between non-sister chromatids of homologous chromosome pairs (bivalents) at chiasmata. This generates genetic diversity by mixing alleles between maternal and paternal homologs.",
+    "tags": [
+      "meiosis",
+      "genetics"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "What is the genotypic ratio expected from a cross between two individuals heterozygous for a single gene (Aa × Aa)?",
+    "options": [
+      "1:2:1 (AA:Aa:aa)",
+      "3:1 (AA+Aa:aa)",
+      "1:1 (Aa:aa)",
+      "All offspring Aa"
+    ],
+    "correct": 0,
+    "explanation": "The Punnett square for Aa × Aa gives: ¼ AA : ½ Aa : ¼ aa, which is the 1:2:1 genotypic ratio. The phenotypic ratio (for dominant A) is 3:1 (dominant:recessive).",
+    "tags": [
+      "genetics",
+      "Mendelian"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Red-green color blindness is X-linked recessive. A color-blind woman has a child with a man who has normal color vision. What is the probability their son will be color blind?",
+    "options": [
+      "0%",
+      "25%",
+      "50%",
+      "100%"
+    ],
+    "correct": 3,
+    "explanation": "A color-blind woman is X^b X^b (both X chromosomes carry the recessive allele). Her sons receive the Y chromosome from their father and one X^b from their mother. Therefore ALL sons (X^b Y) will be color blind — 100%.",
+    "tags": [
+      "genetics",
+      "X-linked"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which population genetics formula states that allele frequencies remain constant across generations in a large, randomly mating population with no selection, mutation, migration, or genetic drift?",
+    "options": [
+      "Michaelis-Menten equation",
+      "Hardy-Weinberg equilibrium",
+      "Henderson-Hasselbalch equation",
+      "The Nernst equation"
+    ],
+    "correct": 1,
+    "explanation": "Hardy-Weinberg equilibrium: p² + 2pq + q² = 1 (genotype frequencies), where p and q are allele frequencies. It predicts no evolutionary change occurs absent the five Hardy-Weinberg violations (selection, mutation, migration, genetic drift, non-random mating).",
+    "tags": [
+      "genetics",
+      "Hardy-Weinberg"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In a Hardy-Weinberg population, the frequency of a recessive allele (q) is 0.2. What fraction of the population is a heterozygous carrier?",
+    "options": [
+      "0.04",
+      "0.16",
+      "0.32",
+      "0.64"
+    ],
+    "correct": 2,
+    "explanation": "p = 1 − q = 0.8; 2pq = 2 × 0.8 × 0.2 = 0.32. Note that q² = 0.04 (homozygous recessive) and p² = 0.64 (homozygous dominant). Carriers (2pq) are the most common class when q is low.",
+    "tags": [
+      "genetics",
+      "Hardy-Weinberg"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The lac operon in E. coli is induced (transcribed) when:",
+    "options": [
+      "Lactose is absent and glucose is present",
+      "Lactose is present and glucose is absent",
+      "Both lactose and glucose are present at high levels",
+      "Neither lactose nor glucose is present"
+    ],
+    "correct": 1,
+    "explanation": "Maximum lac operon expression requires lactose (allolactose removes the lac repressor) AND low glucose (high cAMP allows CAP/CRP to bind the promoter). When glucose is present, cAMP is low and CAP does not activate transcription — this is catabolite repression.",
+    "tags": [
+      "genetics",
+      "gene regulation"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The cardiac output (CO) is defined as:",
+    "options": [
+      "End-diastolic volume minus end-systolic volume",
+      "Heart rate × stroke volume",
+      "Blood pressure divided by vascular resistance",
+      "The total blood volume per minute"
+    ],
+    "correct": 1,
+    "explanation": "CO = HR × SV. Normal resting values: HR ≈ 70 bpm, SV ≈ 70 mL/beat, CO ≈ 4.9 L/min. Stroke volume is determined by preload (EDV), afterload, and contractility (Frank-Starling law).",
+    "tags": [
+      "physiology",
+      "cardiovascular"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "According to the Frank-Starling law, increasing venous return (preload) causes:",
+    "options": [
+      "Decreased stroke volume",
+      "Decreased heart rate",
+      "Increased stroke volume due to greater myocardial stretch",
+      "Decreased cardiac output by feedback"
+    ],
+    "correct": 2,
+    "explanation": "Frank-Starling law: within physiological limits, increased preload (end-diastolic volume) stretches ventricular myocytes, optimizing actin-myosin overlap, and increases the force of contraction, thereby increasing stroke volume and cardiac output.",
+    "tags": [
+      "physiology",
+      "cardiovascular"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The P wave of an ECG represents:",
+    "options": [
+      "Ventricular depolarization",
+      "Atrial repolarization",
+      "Atrial depolarization",
+      "Ventricular repolarization"
+    ],
+    "correct": 2,
+    "explanation": "ECG waveforms: P wave = atrial depolarization (SA node impulse spreading through atria); QRS complex = ventricular depolarization (atrial repolarization is hidden within QRS); T wave = ventricular repolarization.",
+    "tags": [
+      "physiology",
+      "cardiovascular",
+      "ECG"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The oxygen-hemoglobin dissociation curve shifts to the right (decreased O₂ affinity) due to:",
+    "options": [
+      "Decreased temperature",
+      "Decreased PCO₂",
+      "Increased pH",
+      "Increased PCO₂ (Bohr effect)"
+    ],
+    "correct": 3,
+    "explanation": "Increased PCO₂ (or decreased pH, increased temperature, or increased 2,3-BPG) shifts the O₂-Hb curve rightward (Bohr effect), promoting O₂ unloading in metabolically active tissues. The opposite occurs in the lungs (low PCO₂, higher pH).",
+    "tags": [
+      "physiology",
+      "respiratory"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "V/Q mismatch refers to:",
+    "options": [
+      "Mismatch between heart rate and stroke volume",
+      "Inequality of ventilation and perfusion in lung regions, impairing gas exchange",
+      "Difference between arterial and venous O₂ content",
+      "Mismatch between tidal volume and residual volume"
+    ],
+    "correct": 1,
+    "explanation": "Normal V/Q ≈ 0.8. V/Q = 0 (shunt, perfusion without ventilation) causes hypoxemia unresponsive to supplemental O₂. V/Q = ∞ (dead space, ventilation without perfusion) wastes breathing effort. Gravity makes V/Q highest at the apex and lowest at the base.",
+    "tags": [
+      "physiology",
+      "respiratory"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The primary buffer of the blood is the:",
+    "options": [
+      "Phosphate buffer system",
+      "Protein buffer system",
+      "Bicarbonate (HCO₃⁻/H₂CO₃) buffer system",
+      "Hemoglobin buffer system"
+    ],
+    "correct": 2,
+    "explanation": "The bicarbonate buffer system (H₂CO₃ ⇌ H⁺ + HCO₃⁻) is the most important extracellular blood buffer. It is physiologically regulated: the lungs control CO₂ (and thus H₂CO₃) and the kidneys control HCO₃⁻ reabsorption/secretion.",
+    "tags": [
+      "physiology",
+      "acid-base"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In the nephron, which segment is responsible for reabsorbing the majority of filtered Na⁺, glucose, and amino acids?",
+    "options": [
+      "Loop of Henle",
+      "Proximal convoluted tubule",
+      "Distal convoluted tubule",
+      "Collecting duct"
+    ],
+    "correct": 1,
+    "explanation": "The proximal convoluted tubule (PCT) reabsorbs ~67% of filtered Na⁺ (via Na⁺/K⁺-ATPase and cotransporters), nearly all glucose and amino acids (via SGLT2 and others), and ~70% of filtered water. SGLT2 inhibitors (gliflozins) block glucose reabsorption here.",
+    "tags": [
+      "physiology",
+      "renal"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Aldosterone acts on the distal nephron to:",
+    "options": [
+      "Increase sodium excretion and decrease potassium excretion",
+      "Decrease sodium reabsorption and increase water excretion",
+      "Increase sodium reabsorption and increase potassium secretion",
+      "Decrease blood pressure by dilating renal arterioles"
+    ],
+    "correct": 2,
+    "explanation": "Aldosterone (a mineralocorticoid from the adrenal cortex) stimulates Na⁺/K⁺-ATPase and ENaC channels in principal cells of the collecting duct, increasing Na⁺ reabsorption (and water follows) and K⁺/H⁺ secretion. Net effect: elevated blood volume and pressure.",
+    "tags": [
+      "physiology",
+      "renal",
+      "endocrine"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Insulin promotes glucose uptake primarily in which tissues?",
+    "options": [
+      "Brain and red blood cells",
+      "Skeletal muscle and adipose tissue",
+      "Liver and kidney",
+      "All cells equally"
+    ],
+    "correct": 1,
+    "explanation": "Insulin stimulates translocation of GLUT4 transporters to the plasma membrane in skeletal muscle and adipose tissue, dramatically increasing glucose uptake. Brain and RBCs use GLUT1/GLUT3, which are insulin-independent. Liver uses GLUT2, also insulin-independent.",
+    "tags": [
+      "physiology",
+      "endocrine",
+      "metabolism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Glucagon's primary metabolic effect in the liver is to:",
+    "options": [
+      "Promote glycogen synthesis and inhibit gluconeogenesis",
+      "Inhibit glycogen breakdown",
+      "Stimulate glycogen breakdown and gluconeogenesis",
+      "Increase glucose uptake via GLUT4"
+    ],
+    "correct": 2,
+    "explanation": "Glucagon (from α cells of the pancreas) binds liver Gs-coupled receptors, raising cAMP, which activates PKA. PKA phosphorylates glycogen phosphorylase (activating it) and inhibits glycogen synthase, promoting glycogenolysis and gluconeogenesis to raise blood glucose.",
+    "tags": [
+      "physiology",
+      "endocrine",
+      "metabolism"
+    ],
+    "difficulty": "medium"
+  }
+]

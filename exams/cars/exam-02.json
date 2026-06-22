@@ -1,0 +1,215 @@
+[
+  {
+    "passageText": "The emergence of the modern prison as the dominant form of criminal punishment represents one of the most dramatic transformations in the history of social control. Prior to the late eighteenth century, punishment was largely public, corporeal, and theatrical: offenders were flogged, branded, pilloried, or executed in town squares as a spectacle of sovereign power. The logic was one of deterrence through display—crime was answered by a visible demonstration of the consequences.\n\nThe reformers who designed the modern penitentiary—Bentham, Howard, and their successors—believed this system was both cruel and ineffective. Public spectacle degraded the audience as much as the offender; torture was an unreliable method of extracting truth; and the uncertainty of punishment (which depended on the mood of judges and the capacity of executioners) undermined its deterrent function. What was needed, they argued, was a rational, systematic, and humane alternative. The penitentiary would reform the criminal rather than simply punish the crime.\n\nJeremy Bentham's Panopticon—a design in which a central tower allowed a single guard to observe any prisoner at any moment without the prisoner knowing when they were being watched—captured the logic of the new penology. Discipline would be internalized rather than imposed from without. The prisoner, uncertain whether they were being observed, would behave as if they were always watched. The soul, not the body, was the target of punishment.\n\nMichel Foucault, writing in Discipline and Punish (1975), argued that the shift from spectacular punishment to the penitentiary was not straightforwardly a humanitarian advance. The new system extended the reach of power: where the scaffold punished only the condemned, the penitentiary spread surveillance and normalization throughout society. The 'carceral continuum,' as Foucault called it, extended from prisons to schools, hospitals, factories, and barracks—any institution that observed, classified, and trained individuals according to norms. Power, on this account, was not simply repressive but productive: it created docile, useful bodies.\n\nFoucault's analysis has been criticized for its historical overstatement—the prison did not, in fact, displace the public spectacle overnight—and for its apparent political pessimism. If power is everywhere, resistance seems futile. Defenders respond that Foucault's account opens space for resistance by revealing what presents itself as natural or neutral as actually being a historical contingency that could be otherwise. The prison seems inevitable only because we have forgotten that it was once a reform.",
+    "questions": [
+      {
+        "text": "The passage argues that reformers in the late eighteenth century replaced public corporal punishment with the penitentiary because they believed:",
+        "options": [
+          "Public punishment was too expensive to administer",
+          "The spectacle of public punishment was both cruel and an ineffective deterrent, while the penitentiary would reform rather than simply punish",
+          "Imprisonment was a harsher punishment that would increase deterrence",
+          "The public enjoyed watching executions and this had to be stopped"
+        ],
+        "correct": 1,
+        "explanation": "The passage states reformers believed public spectacle 'degraded the audience as much as the offender,' torture was unreliable, and uncertainty undermined deterrence. They sought 'a rational, systematic, and humane alternative' that would 'reform the criminal rather than simply punish the crime.'"
+      },
+      {
+        "text": "Bentham's Panopticon relied on what psychological principle to discipline prisoners?",
+        "options": [
+          "Physical pain sufficient to deter future crime",
+          "The prisoner's certain knowledge of being observed at all times",
+          "Uncertainty about when one is being watched, leading to constant self-regulation",
+          "Group punishment to create social pressure toward conformity"
+        ],
+        "correct": 2,
+        "explanation": "The passage states: 'The prisoner, uncertain whether they were being observed, would behave as if they were always watched.' The key is uncertainty—not certainty of observation, but not knowing when one is watched, which leads to self-regulation."
+      },
+      {
+        "text": "Foucault's concept of the 'carceral continuum' refers to:",
+        "options": [
+          "The physical infrastructure connecting prisons across a country",
+          "The extension of surveillance and normalization from prisons into other social institutions like schools, hospitals, and factories",
+          "The continuum of punishments from minor to severe within the prison system",
+          "The historical continuity between pre-modern and modern punishment"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'The 'carceral continuum'...extended from prisons to schools, hospitals, factories, and barracks—any institution that observed, classified, and trained individuals according to norms.' It is an extension of disciplinary logic across society, not a physical or historical continuum."
+      },
+      {
+        "text": "Foucault's claim that power is 'productive' rather than merely 'repressive' means that:",
+        "options": [
+          "Power produces economic wealth for the ruling class",
+          "Power creates norms, docile bodies, and subjects, rather than merely prohibiting or punishing behavior",
+          "Power is generally beneficial for social stability",
+          "Power can be replaced by market mechanisms"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Power, on this account, was not simply repressive but productive: it created docile, useful bodies.' Productive power generates subjects, norms, and behaviors rather than only constraining or punishing existing ones—a key Foucauldian concept."
+      },
+      {
+        "text": "The criticism that Foucault's account leads to 'political pessimism' is based on which inference?",
+        "options": [
+          "Foucault denied that prisons reformed criminals",
+          "If power is everywhere and totalizing, then resistance to power seems impossible or futile",
+          "Foucault failed to acknowledge the genuine humanity of prison reform",
+          "Foucault's account was historically inaccurate about the timing of the shift to prisons"
+        ],
+        "correct": 1,
+        "explanation": "The passage states the criticism is 'apparent political pessimism' and explains: 'If power is everywhere, resistance seems futile.' The inference is that a totalizing account of power forecloses the possibility of meaningful opposition or change."
+      },
+      {
+        "text": "The final sentence—'The prison seems inevitable only because we have forgotten that it was once a reform'—serves primarily to:",
+        "options": [
+          "Endorse the prison as a genuine humanitarian advance over earlier punishments",
+          "Argue that prisons should be abolished immediately",
+          "Suggest that revealing the historical contingency of current institutions opens the possibility of imagining alternatives",
+          "Criticize Bentham and Howard for naive idealism"
+        ],
+        "correct": 2,
+        "explanation": "The sentence argues that what appears natural and inevitable (the prison) is actually a historical product. By showing this, Foucault's defenders argue his analysis 'opens space for resistance by revealing what presents itself as natural or neutral as actually being a historical contingency that could be otherwise.' Historical denaturalization is the purpose."
+      }
+    ]
+  },
+  {
+    "passageText": "The relationship between language and thought is one of the most contested questions in cognitive science and philosophy. The strong version of the Sapir-Whorf hypothesis—known as linguistic determinism—held that the language one speaks determines the concepts one can think. Language, on this account, is not merely a vehicle for pre-formed thoughts but the very structure within which thought is possible. Accordingly, speakers of different languages would inhabit fundamentally different cognitive worlds, incapable of translating not just words but thoughts between them.\n\nThe evidence for the strong hypothesis is thin. People with no developed language—infants and some patients with severe aphasia—demonstrably can think, plan, and recognize objects. Translation across languages, while imperfect, is possible. And the history of science offers many cases of concepts developed before the words for them existed. The strong hypothesis, most linguists and cognitive scientists now agree, is false.\n\nThe weaker version—linguistic relativity—is more defensible and more interesting. It holds that language influences, rather than determines, cognition. The classic evidence comes from color perception: languages divide the spectrum differently (some have many distinct color terms; some have very few), and speakers of languages with more color distinctions tend to perform better at rapid color discrimination tasks. Russian, which mandates a distinction between light blue (goluboy) and dark blue (siniy), leads Russian speakers to distinguish these shades faster than English speakers, for whom 'blue' covers both.\n\nMore recent research has extended the relativity hypothesis to spatial reasoning, number concepts, and time. The Pirahã, a small Amazonian society studied by linguist Daniel Everett, appear to lack recursive syntax and number words beyond approximate quantity—and show limited performance on counting tasks. The Aymara of the Andes conceptualize the future as behind them and the past ahead (since the past is visible in memory and the future is not)—a metaphor reflected in their language and in their gesture patterns when discussing time.\n\nThe philosophical implications are significant. If thought is not entirely independent of language, then the project of translating across linguistic communities—and the associated project of finding a 'neutral' standpoint for cross-cultural understanding—faces genuine difficulties. But the failure of the strong hypothesis suggests that these difficulties are not insurmountable. Human cognition appears to be shaped by language without being imprisoned by it: languages can be learned, concepts can be extended, and communication across difference, though never perfect, is genuinely possible.",
+    "questions": [
+      {
+        "text": "The strong version of the Sapir-Whorf hypothesis, as described in the passage, claims that:",
+        "options": [
+          "Language influences but does not determine thought",
+          "The language one speaks determines the concepts one can think, making thought across languages impossible",
+          "All languages have the same underlying conceptual structure",
+          "Translation between languages is possible but difficult"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'linguistic determinism—held that the language one speaks determines the concepts one can think.' Speakers of different languages would be 'incapable of translating not just words but thoughts between them.'"
+      },
+      {
+        "text": "Which of the following pieces of evidence cited in the passage most directly refutes the strong Sapir-Whorf hypothesis?",
+        "options": [
+          "Russian speakers distinguish light blue and dark blue faster than English speakers",
+          "The Pirahã lack recursive syntax and show limited counting ability",
+          "Infants and patients with aphasia can think, plan, and recognize objects despite having no developed language",
+          "The Aymara conceptualize the future as behind them"
+        ],
+        "correct": 2,
+        "explanation": "The passage uses the example of 'infants and some patients with severe aphasia' who 'demonstrably can think, plan, and recognize objects' as evidence that language does not determine thought. This directly contradicts determinism. The other examples support linguistic relativity (the weak hypothesis), not refutations of the strong one."
+      },
+      {
+        "text": "The color perception research described in the passage supports:",
+        "options": [
+          "Linguistic determinism: language determines what colors can be perceived",
+          "Linguistic relativity: language influences the speed and ease of color discrimination tasks",
+          "The view that color perception is universal and independent of language",
+          "The claim that Russian is a cognitively superior language to English"
+        ],
+        "correct": 1,
+        "explanation": "The passage states that speakers of languages with more color distinctions 'tend to perform better at rapid color discrimination tasks'—an influence on cognitive performance, not a determination of what can be perceived. This is linguistic relativity (influence) not determinism (determination)."
+      },
+      {
+        "text": "The example of the Aymara people's time metaphor is used in the passage to:",
+        "options": [
+          "Prove that all cultures understand time identically",
+          "Illustrate how linguistic and cultural metaphors can shape spatial-temporal cognition",
+          "Show that the Aymara have a superior understanding of time",
+          "Argue that gesture is more important than language in shaping thought"
+        ],
+        "correct": 1,
+        "explanation": "The passage uses the Aymara example to show that time conceptualization (future behind, past ahead) is reflected in both their language and gesture patterns—illustrating that linguistic and cultural frameworks influence cognition, consistent with linguistic relativity."
+      },
+      {
+        "text": "The author's conclusion in the final paragraph about cross-cultural understanding implies that:",
+        "options": [
+          "Perfect translation between languages is achievable with sufficient effort",
+          "Translation is impossible due to linguistic barriers",
+          "Cross-cultural communication faces genuine difficulties but is not insurmountable, since language shapes but does not imprison thought",
+          "Only languages without recursive syntax pose real challenges to translation"
+        ],
+        "correct": 2,
+        "explanation": "The passage concludes: 'communication across difference, though never perfect, is genuinely possible'—and 'Human cognition appears to be shaped by language without being imprisoned by it.' This is a middle position: genuine difficulty but not impossibility."
+      },
+      {
+        "text": "Based on the passage, the philosophical significance of the debate between linguistic determinism and relativity is that:",
+        "options": [
+          "It determines whether we should have a universal language",
+          "It has implications for whether cross-cultural understanding and neutral standpoints are possible, and whether human communication can transcend linguistic difference",
+          "It settles the question of whether thought is entirely computational",
+          "It proves that non-Western languages are cognitively limited"
+        ],
+        "correct": 1,
+        "explanation": "The passage explicitly states: 'If thought is not entirely independent of language, then the project of translating across linguistic communities—and the associated project of finding a 'neutral' standpoint for cross-cultural understanding—faces genuine difficulties.' This is the philosophical implication the author identifies."
+      }
+    ]
+  },
+  {
+    "passageText": "The contemporary debate about the ethics of artificial intelligence centers on a tension that is not new to technology but is sharper in this domain: the tension between efficiency and accountability. Early industrial machinery raised similar concerns—the power loom threw weavers out of work; the assembly line fragmented skilled craft into mindless repetition—but the scope and speed of AI transformation exceeds previous transitions in at least one respect. Algorithmic systems now make consequential decisions—about loan approvals, parole recommendations, medical diagnoses, and hiring—in ways that are often opaque to those affected by them.\n\nThe opacity problem takes two forms. First, some AI systems are technically opaque: the neural networks that power modern machine learning are 'black boxes' in which no human-readable explanation of a given output exists. Second, systems that are technically transparent may be organizationally opaque: corporations protect their algorithms as trade secrets, and individuals rarely have access to the reasoning behind decisions that affect them. Both forms of opacity undermine accountability—if you cannot understand why a decision was made, you cannot challenge it.\n\nProponents of algorithmic decision-making argue that these systems can actually reduce certain forms of bias. A consistent algorithm does not have bad days, is not susceptible to in-group favoritism, and can be audited in ways that a human decision-maker cannot. Evidence from criminal sentencing suggests that human judges show marked variation in their decisions based on time of day, ethnicity of the defendant, and other extraneous factors. A well-calibrated algorithm could, in principle, produce more consistent and less discriminatory outcomes.\n\nCritics argue, however, that algorithms inherit the biases of the data on which they are trained. If historical lending data reflects patterns of discrimination against minority communities, then a model trained on that data will reproduce and entrench those patterns—at scale and with the veneer of objectivity. The appearance of neutrality may actually make algorithmic bias more difficult to challenge than human bias, which can at least be interrogated and attributed to individuals.\n\nA further concern involves the commodification of attention and the manipulation of preferences. Recommendation algorithms that maximize engagement are, in practice, algorithms for amplifying outrage, since outrage keeps users on platforms longer. The social consequences of this design choice—political polarization, radicalization, erosion of shared epistemic frameworks—are externalized onto society while the platform captures the profit. Critics call this an 'attention economy' in which the costs of optimization are borne by the public while the benefits accrue to shareholders.",
+    "questions": [
+      {
+        "text": "The central tension the author identifies in the ethics of AI is between:",
+        "options": [
+          "Artificial and human intelligence",
+          "Efficiency (of algorithmic decision-making) and accountability (which requires transparency and the ability to challenge decisions)",
+          "Corporations and governments",
+          "Technical complexity and public understanding"
+        ],
+        "correct": 1,
+        "explanation": "The passage opens: 'the tension between efficiency and accountability.' The rest of the passage explores how algorithmic systems can be efficient but undermine accountability through opacity, bias inheritance, and market incentives."
+      },
+      {
+        "text": "The two forms of opacity described in the passage are:",
+        "options": [
+          "Technical opacity (black-box neural networks) and organizational opacity (corporate secrecy about algorithms)",
+          "Opacity in inputs and opacity in outputs",
+          "Opacity in hiring and opacity in lending",
+          "Unintentional opacity and deliberate opacity"
+        ],
+        "correct": 0,
+        "explanation": "The passage explicitly states: 'The opacity problem takes two forms. First, some AI systems are technically opaque...Second, systems that are technically transparent may be organizationally opaque: corporations protect their algorithms as trade secrets.'"
+      },
+      {
+        "text": "Proponents of algorithmic decision-making would most likely argue that algorithms:",
+        "options": [
+          "Are free from all forms of bias",
+          "Can reduce certain forms of human bias and produce more consistent, auditable decisions",
+          "Should replace human judgment in all domains",
+          "Are always preferable to human decision-making regardless of context"
+        ],
+        "correct": 1,
+        "explanation": "The passage states proponents argue algorithms 'can actually reduce certain forms of bias'—they 'do not have bad days, is not susceptible to in-group favoritism, and can be audited in ways that a human decision-maker cannot.' They do not claim algorithms are perfect or free from all bias."
+      },
+      {
+        "text": "The critic's argument that 'algorithms inherit the biases of the data on which they are trained' most directly addresses:",
+        "options": [
+          "The technical opacity of neural networks",
+          "The organizational opacity of corporate trade secrets",
+          "The proponent's claim that algorithms can reduce bias, by showing they may reproduce and entrench historical discrimination at scale",
+          "The attention economy's effects on political polarization"
+        ],
+        "correct": 2,
+        "explanation": "The proponents argued algorithms could reduce bias. The critics directly respond to this by arguing that 'algorithms inherit the biases of the data on which they are trained'—specifically countering the claim of reduced bias by showing discrimination can be reproduced and entrenched."
+      },
+      {
+        "text": "The 'attention economy' critique described in the final paragraph is concerned primarily with:",
+        "options": [
+          "The technical limitations of recommendation algorithms",
+          "The externalization of social costs (polarization, radicalization) from platform optimization onto the public, while private profits accrue to corporations",
+          "Government regulation of social media",
+          "The technical opacity of algorithmic recommendation systems"
+        ],
+        "correct": 1,
+        "explanation": "The passage describes 'social consequences of this design choice—political polarization, radicalization, erosion of shared epistemic frameworks—are externalized onto society while the platform captures the profit.' This is a critique about who bears the costs and who receives the benefits—an externalization/public goods problem."
+      },
+      {
+        "text": "Based on the passage, which of the following would best address both forms of opacity described in paragraph 2?",
+        "options": [
+          "Replacing all algorithmic decision-making with human judgment",
+          "Requiring corporations to use only simple, human-readable algorithms and to make their decision logic accessible to those affected",
+          "Allowing individuals to sue corporations for discriminatory outcomes after the fact",
+          "Training algorithms exclusively on unbiased data"
+        ],
+        "correct": 1,
+        "explanation": "The passage describes technical opacity (black boxes) and organizational opacity (trade secrets). A policy requiring human-readable algorithms AND disclosure to affected parties would address both: technical opacity (by requiring interpretability) and organizational opacity (by requiring disclosure). The other options address only one dimension or are impractical."
+      }
+    ]
+  }
+]

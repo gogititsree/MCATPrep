@@ -1,0 +1,408 @@
+[
+  {
+    "text": "A zero-order reaction shows:",
+    "options": [
+      "Rate doubles when [A] doubles",
+      "Rate quadruples when [A] doubles",
+      "Rate = k (independent of [A])",
+      "Rate increases exponentially with [A]"
+    ],
+    "correct": 2,
+    "explanation": "Zero-order: rate = k[A]⁰ = k. Rate is constant, independent of concentration. [A]-vs-time plot is linear with slope −k. Half-life = [A]₀/(2k) (depends on concentration). Occurs when catalyst is saturated (e.g., alcohol metabolism at high BAC).",
+    "tags": [
+      "chemical kinetics",
+      "rate laws"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Gibbs free energy at non-standard conditions: ΔG = ΔG° + RT ln Q means:",
+    "options": [
+      "ΔG is always equal to ΔG° regardless of conditions",
+      "When Q < K: ΔG < 0 (reaction spontaneous in forward direction)",
+      "When Q = K: ΔG° = 0",
+      "Concentration has no effect on spontaneity"
+    ],
+    "correct": 1,
+    "explanation": "ΔG = ΔG° + RT ln Q. When Q < K: ln Q < ln K, so ΔG < ΔG° − RT ln K = 0 (since ΔG° = −RT ln K). Forward reaction is spontaneous. When Q = K: ΔG = 0 (equilibrium). When Q > K: ΔG > 0 (reverse is spontaneous).",
+    "tags": [
+      "thermodynamics",
+      "Gibbs free energy",
+      "equilibrium"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Hybridization of the carbon atoms in acetylene (H-C≡C-H):",
+    "options": [
+      "sp³ (all single bonds)",
+      "sp² (one double bond)",
+      "sp (two bonds to two different atoms = one triple bond)",
+      "sp³d (expanded octet)"
+    ],
+    "correct": 2,
+    "explanation": "Acetylene: each carbon forms 1 bond to H and 1 triple bond to the other C → 2 groups around each C → sp hybridization. sp carbons have 2 unhybridized p orbitals forming 2 perpendicular π bonds. Geometry: linear (180°). sp² = trigonal planar; sp³ = tetrahedral.",
+    "tags": [
+      "bonding",
+      "hybridization",
+      "organic chemistry"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Intermolecular forces from weakest to strongest:",
+    "options": [
+      "Hydrogen bonds < dipole-dipole < London dispersion",
+      "London dispersion < dipole-dipole < hydrogen bonds < ion-dipole",
+      "Dipole-dipole < London dispersion < ion-ion",
+      "Ion-ion < London dispersion < hydrogen bonds"
+    ],
+    "correct": 1,
+    "explanation": "Roughly: London dispersion (0.1-10 kJ/mol) < dipole-dipole (3-20 kJ/mol) < hydrogen bonds (10-40 kJ/mol) < ion-dipole (50-200 kJ/mol) < ion-ion (400-4000 kJ/mol). London dispersion forces increase with molecular size/polarizability and can be quite strong for large molecules.",
+    "tags": [
+      "intermolecular forces",
+      "chemistry"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The mole fraction of solute A (X_A) in a solution:",
+    "options": [
+      "X_A = moles of A / total moles of solution",
+      "X_A = mass of A / total mass",
+      "X_A = moles of A / volume of solution",
+      "X_A = moles of A × molar mass"
+    ],
+    "correct": 0,
+    "explanation": "Mole fraction: X_A = n_A / (n_A + n_B + ...) = moles of A / total moles. Raoult's law: P_A = X_A × P°_A (partial pressure of solvent equals mole fraction × pure vapor pressure). In an ideal solution, vapor pressure lowering = X_solute × P°_solvent.",
+    "tags": [
+      "solutions",
+      "mole fraction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In mass spectrometry, the molecular ion peak (M⁺) represents:",
+    "options": [
+      "The most abundant fragment",
+      "The molecule minus one electron (radical cation at m/z = molecular weight)",
+      "The base peak at m/z = 1",
+      "The peak formed by M + H (proton adduct)"
+    ],
+    "correct": 1,
+    "explanation": "The molecular ion (M⁺, or M+H⁺ in ESI-MS) appears at m/z = molecular weight (or MW + 1 for proton adducts). It represents the intact molecule with one electron removed. The base peak is the most abundant fragment and equals 100% relative intensity. M+1 and M+2 isotope peaks indicate ¹³C content and halogens.",
+    "tags": [
+      "spectroscopy",
+      "mass spectrometry"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which phenomenon explains why oil droplets on water are roughly spherical?",
+    "options": [
+      "Density difference between oil and water",
+      "Oil's surface tension is lower than water's — oil minimizes surface area to minimize surface energy",
+      "Adhesive forces between oil and water molecules",
+      "Van der Waals attraction between oil molecules and the air above"
+    ],
+    "correct": 1,
+    "explanation": "Surface tension causes liquids to minimize their surface area (minimizing surface energy). A sphere has the minimum surface area for a given volume. Oil droplets on water (or water droplets in air) adopt spherical shapes due to cohesive forces among oil molecules overwhelming adhesion to water. The surface tension of oil is ~30 mN/m vs water ~72 mN/m.",
+    "tags": [
+      "fluid statics",
+      "surface tension"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The bond angle in a tetrahedral molecule like methane (CH₄) is:",
+    "options": [
+      "90°",
+      "109.5°",
+      "120°",
+      "180°"
+    ],
+    "correct": 1,
+    "explanation": "A tetrahedral arrangement of 4 bonding pairs around a central atom gives bond angles of 109.5°. This minimizes electron-pair repulsion (VSEPR). Lone pairs compress bond angles: NH₃ ≈107.3° (one lone pair), H₂O ≈104.5° (two lone pairs).",
+    "tags": [
+      "VSEPR",
+      "molecular geometry"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Water has an unusually high boiling point for its molecular weight because:",
+    "options": [
+      "Water molecules are very large",
+      "Water forms extensive hydrogen bond networks (each H₂O can donate 2 H-bonds and accept 2)",
+      "Water has strong London dispersion forces",
+      "Water has an ionic structure"
+    ],
+    "correct": 1,
+    "explanation": "Water (MW=18) boils at 100°C while similarly-sized molecules (CH₄, MW=16) boil at −161°C. The exceptionally high bp results from strong hydrogen bonding: each water molecule can form up to 4 hydrogen bonds (2 donor O-H...O, 2 acceptor O...H-O), creating a highly cohesive network.",
+    "tags": [
+      "intermolecular forces",
+      "hydrogen bonding",
+      "water"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The lattice energy of an ionic compound (e.g., NaCl) is defined as:",
+    "options": [
+      "Energy required to dissolve the ionic solid in water",
+      "Energy required to separate 1 mole of an ionic solid into its gaseous ions",
+      "Energy released when gaseous ions combine into a crystal lattice",
+      "Enthalpy of formation of the compound from elements"
+    ],
+    "correct": 1,
+    "explanation": "Lattice energy = energy required to dissociate 1 mol of ionic solid into its isolated gaseous ions (endothermic as defined by IUPAC; sometimes defined as the exothermic process of forming the lattice). By Born-Haber cycle: lattice energy can be calculated from ionization energy, electron affinity, sublimation energy, bond energy, and ΔHf°.",
+    "tags": [
+      "ionic bonding",
+      "thermochemistry"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "First ionization energy is the energy required to remove:",
+    "options": [
+      "The last electron from a neutral atom",
+      "One electron from a +1 cation",
+      "The outermost electron from a neutral gaseous atom",
+      "One electron from a molecule"
+    ],
+    "correct": 2,
+    "explanation": "First ionization energy (IE₁): X(g) → X⁺(g) + e⁻. IE increases across a period (increasing Zeff) and decreases down a group (electrons farther from nucleus, more shielded). Exceptions: Group 2 > Group 13 (B's 2p electron is higher energy than Be's 2s), and Group 15 > Group 16 (half-filled p subshell stability).",
+    "tags": [
+      "periodic trends",
+      "ionization energy"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which type of bonding results from the delocalization of electrons across a metallic lattice?",
+    "options": [
+      "Covalent bonding",
+      "Ionic bonding",
+      "Metallic bonding (electron sea model)",
+      "Hydrogen bonding"
+    ],
+    "correct": 2,
+    "explanation": "In metallic bonding, metal cations are embedded in a 'sea' of delocalized valence electrons. This explains: high electrical and thermal conductivity (electrons move freely), malleability/ductility (layers slide without breaking), metallic luster (free electrons absorb/re-emit light).",
+    "tags": [
+      "metallic bonding",
+      "chemistry"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The second law of thermodynamics states that:",
+    "options": [
+      "Energy is conserved in all processes",
+      "The entropy of the universe always increases in spontaneous processes (ΔS_universe > 0)",
+      "All spontaneous processes are exothermic",
+      "Heat flows from cold to hot bodies"
+    ],
+    "correct": 1,
+    "explanation": "Second law: ΔS_universe = ΔS_system + ΔS_surroundings ≥ 0 for any real process (= for reversible; > for irreversible/spontaneous). This defines the direction of natural processes: heat flows from hot to cold, gases expand, objects fall — all increasing total entropy.",
+    "tags": [
+      "thermodynamics",
+      "entropy",
+      "second law"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "At constant temperature, for an isothermal expansion of an ideal gas:",
+    "options": [
+      "ΔU > 0 (temperature increases)",
+      "ΔU = 0 (internal energy depends only on T for ideal gas), so q = −w",
+      "ΔH < 0",
+      "Entropy decreases"
+    ],
+    "correct": 1,
+    "explanation": "For an ideal gas (no intermolecular forces), internal energy U depends only on temperature. Isothermal process: ΔT = 0 → ΔU = 0. By first law: ΔU = q + w = 0 → q = −w. The gas does work (w < 0) and absorbs heat (q > 0) to maintain constant T during expansion.",
+    "tags": [
+      "thermodynamics",
+      "first law",
+      "ideal gas"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Calorimetry measures heat flow using q = mcΔT. A 50 g sample of water is heated from 20°C to 70°C (c_water = 4.18 J/g·°C). The heat absorbed is:",
+    "options": [
+      "10,450 J",
+      "2,090 J",
+      "1,045 J",
+      "209,000 J"
+    ],
+    "correct": 0,
+    "explanation": "q = mcΔT = 50 g × 4.18 J/g·°C × (70 − 20)°C = 50 × 4.18 × 50 = 10,450 J = 10.45 kJ. Note: water's high specific heat (4.18 J/g·°C) compared to metals (~0.5 J/g·°C) is due to hydrogen bonding — it takes more energy to raise water's temperature.",
+    "tags": [
+      "thermochemistry",
+      "calorimetry"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The reaction rate for aA + bB → products is: rate = k[A]ᵐ[B]ⁿ. The overall reaction order is:",
+    "options": [
+      "a + b",
+      "m + n",
+      "m × n",
+      "k + m + n"
+    ],
+    "correct": 1,
+    "explanation": "Overall reaction order = sum of the exponents in the rate law = m + n. These exponents (m, n) must be determined experimentally — they do NOT necessarily equal the stoichiometric coefficients (a, b). Only for elementary reactions (single-step) do the stoichiometric coefficients equal the rate law exponents.",
+    "tags": [
+      "chemical kinetics",
+      "rate laws"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A catalyst increases reaction rate by:",
+    "options": [
+      "Increasing the temperature of the reaction",
+      "Lowering the activation energy (Ea) for both forward and reverse reactions",
+      "Shifting the equilibrium toward products",
+      "Increasing the concentration of reactants"
+    ],
+    "correct": 1,
+    "explanation": "A catalyst provides an alternative reaction pathway with a lower activation energy. By Arrhenius (k = Ae^(−Ea/RT)), lower Ea → larger k → faster rate for both forward and reverse reactions. The catalyst does not change ΔG, K, or the position of equilibrium. It is regenerated at the end of the reaction.",
+    "tags": [
+      "chemical kinetics",
+      "catalysis"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The rate-determining step (RDS) in a reaction mechanism:",
+    "options": [
+      "Is always the last step",
+      "Is the fastest step",
+      "Is the slowest step that determines the overall reaction rate and rate law",
+      "Is always bimolecular"
+    ],
+    "correct": 2,
+    "explanation": "The RDS is the slowest elementary step. The rate law for the overall reaction reflects the rate law of the RDS (and prior equilibria). If the RDS is unimolecular (A → products, rate = k[A]), the reaction is first order; bimolecular (A + B → products, rate = k[A][B]) = second order.",
+    "tags": [
+      "chemical kinetics",
+      "reaction mechanisms"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Spontaneous electrochemical cell reaction has:",
+    "options": [
+      "ΔG > 0, E° < 0, K < 1",
+      "ΔG < 0, E° > 0, K > 1",
+      "ΔG < 0, E° < 0, K > 1",
+      "ΔG > 0, E° > 0, K > 1"
+    ],
+    "correct": 1,
+    "explanation": "Relationships: ΔG° = −nFE° = −RT ln K. For a spontaneous reaction: ΔG° < 0 → E° > 0 → K > 1 (products favored at equilibrium). For electrolysis (non-spontaneous): ΔG° > 0, E° < 0, K < 1 — requires external electrical energy.",
+    "tags": [
+      "electrochemistry",
+      "thermodynamics"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In a buffer solution, adding a small amount of strong base causes:",
+    "options": [
+      "A large pH increase (> 2 pH units)",
+      "A small pH increase because the weak acid component neutralizes the added OH⁻",
+      "No pH change at all",
+      "A decrease in pH due to Le Chatelier shifts"
+    ],
+    "correct": 1,
+    "explanation": "Buffer + strong base: HA + OH⁻ → A⁻ + H₂O. The weak acid neutralizes the added OH⁻, converting HA to A⁻. The ratio [A⁻]/[HA] increases slightly, so pH increases slightly. The buffer maintains near-constant pH as long as the amount of added base doesn't exceed the buffer capacity.",
+    "tags": [
+      "acid-base",
+      "buffers"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The autoionization of water gives Kw = [H⁺][OH⁻] = 10⁻¹⁴ at 25°C. At pH 9:",
+    "options": [
+      "[H⁺] = 10⁻⁹ M, [OH⁻] = 10⁻⁵ M (basic solution)",
+      "[H⁺] = 10⁻⁹ M, [OH⁻] = 10⁻⁹ M",
+      "[H⁺] = 10⁻⁵ M, [OH⁻] = 10⁻⁹ M",
+      "pOH = 9 (acidic solution)"
+    ],
+    "correct": 0,
+    "explanation": "pH + pOH = 14 at 25°C. pH = 9 → pOH = 5 → [OH⁻] = 10⁻⁵ M; [H⁺] = 10⁻⁹ M. Since [OH⁻] > [H⁺], the solution is basic. Check: Kw = (10⁻⁹)(10⁻⁵) = 10⁻¹⁴ ✓.",
+    "tags": [
+      "acid-base",
+      "water autoionization"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Neutralization of a strong acid with a strong base (e.g., HCl + NaOH → NaCl + H₂O) produces:",
+    "options": [
+      "An acidic solution (pH < 7) because the salt hydrolyzes",
+      "A basic solution (pH > 7)",
+      "A neutral solution (pH = 7) because NaCl is the salt of a strong acid and strong base",
+      "A buffer solution"
+    ],
+    "correct": 2,
+    "explanation": "Strong acid + strong base → neutral salt + water. NaCl is the salt of strong acid (HCl) and strong base (NaOH); neither Na⁺ nor Cl⁻ hydrolyzes water. pH = 7 at equivalence point. Contrast: weak acid + strong base → pH > 7 at equivalence point (conjugate base of weak acid hydrolyzes to give OH⁻).",
+    "tags": [
+      "acid-base",
+      "neutralization"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Titrating a weak acid with a strong base, at the half-equivalence point:",
+    "options": [
+      "All weak acid has been neutralized; pH = pKw − pKb",
+      "pH = pKa of the weak acid (Henderson-Hasselbalch with [A⁻] = [HA])",
+      "pH = 7 (neutral point)",
+      "pH depends only on the concentration of the strong base"
+    ],
+    "correct": 1,
+    "explanation": "At the half-equivalence point (half the acid has been neutralized), [A⁻] = [HA]. By H-H equation: pH = pKa + log(1) = pKa. This provides a convenient way to experimentally determine the pKa of an unknown weak acid: find the pH at the half-equivalence point.",
+    "tags": [
+      "acid-base",
+      "titration"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The relationship between ΔG°, K, and temperature (at 25°C = 298 K):",
+    "options": [
+      "ΔG° = RT ln K",
+      "ΔG° = −RT ln K",
+      "ΔG° = RT/ln K",
+      "K = −ΔG°/RT"
+    ],
+    "correct": 1,
+    "explanation": "ΔG° = −RT ln K. When K > 1: ln K > 0 → ΔG° < 0 (thermodynamically favorable). When K = 1: ΔG° = 0. When K < 1: ΔG° > 0. At 25°C: ΔG° = −(8.314)(298)ln K = −2478 ln K ≈ −5706 log K (J/mol).",
+    "tags": [
+      "thermodynamics",
+      "equilibrium",
+      "Gibbs free energy"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In a galvanic cell, the salt bridge serves to:",
+    "options": [
+      "Provide electrons to drive the reaction",
+      "Allow electrolyte ions to flow between half-cells, maintaining electrical neutrality",
+      "Increase the cell potential",
+      "Prevent oxidation at the cathode"
+    ],
+    "correct": 1,
+    "explanation": "As the galvanic cell operates, cations are consumed and anions build up in one half-cell, and vice versa. The salt bridge (containing an inert electrolyte like KCl or KNO₃) allows ion migration between half-cells, maintaining electrical neutrality and allowing sustained current flow.",
+    "tags": [
+      "electrochemistry",
+      "galvanic cell"
+    ],
+    "difficulty": "medium"
+  }
+]

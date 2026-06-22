@@ -1,0 +1,215 @@
+[
+  {
+    "passageText": "The moral status of animals has been debated by philosophers since antiquity, but the contemporary debate was transformed by Peter Singer's Animal Liberation (1975), which applied utilitarian principles to argue that the exclusion of animal suffering from our moral calculations reflected an arbitrary and unjustifiable speciesism analogous to racism and sexism. Singer did not argue that animals were equal to humans in all respects but that their capacity to suffer gave them an equal claim to having their suffering taken into account in our moral reasoning. The practical implications were radical: the factory farming practices standard in industrial agriculture caused immense suffering to billions of sentient creatures and could not be justified.\n\nRights theorists like Tom Regan offered a different philosophical basis for animal protection. For Regan, animals that are 'subjects of a life'—with beliefs, desires, memory, and a welfare that matters to them—have inherent value that cannot be traded off against aggregate utility. A utilitarian calculus that allows torturing one animal to produce great pleasure for many others treats the tortured animal as a mere vessel for utility rather than as an individual with rights. Regan's approach was more absolutist: it was wrong to use animals as mere means regardless of the benefits.\n\nBoth Singer and Regan have been criticized from multiple directions. Some philosophers, emphasizing the significance of species membership and social relationships, argue that the interests of creatures capable of moral agency—reciprocal relationships of rights and responsibilities—deserve priority over the interests of creatures that are not. Others argue that our obligations to animals are real but that they are grounded in virtue rather than rights or utility: a person of good character does not cause unnecessary suffering to any creature, but this does not require treating animal and human suffering as morally equivalent.\n\nThe debate has significant medical implications. Animal testing has been central to biomedical research and drug development—the knowledge that saved millions of human lives was often purchased at the cost of animal suffering. The question is not whether this trade-off was justified in the past, but whether it is justified now, when alternatives—cell cultures, organ-on-a-chip technologies, computational modeling—are increasingly available and in some cases more predictive of human outcomes than animal models.\n\nThe emergence of cultured meat—animal flesh grown in bioreactors from cell cultures, without the raising or slaughter of whole animals—represents a potential technological resolution of one dimension of the ethical problem. Whether it will be widely adopted depends not only on its production cost but on whether cultural attitudes toward the provenance of food can be changed—a question as much sociological as technological.",
+    "questions": [
+      {
+        "text": "Singer's argument that the exclusion of animal suffering from moral calculations reflects 'speciesism' claims that:",
+        "options": [
+          "Animals should be given equal voting rights to humans",
+          "Like racism and sexism, prioritizing human suffering over animal suffering purely on the basis of species membership is arbitrary and unjustifiable—the capacity to suffer, not species, should determine moral standing",
+          "All animal products should be legally banned",
+          "Humans and animals are identical in morally relevant respects"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Singer...applied utilitarian principles to argue that the exclusion of animal suffering from our moral calculations reflected an arbitrary and unjustifiable speciesism analogous to racism and sexism.' The capacity to suffer, not species, determines moral standing."
+      },
+      {
+        "text": "Tom Regan's rights-based argument differs from Singer's utilitarian approach in that:",
+        "options": [
+          "Regan only cares about animals that are pets, not farm animals",
+          "Regan holds that 'subjects of a life' have inherent value that cannot be traded off in utilitarian calculations—making it wrong to use animals as mere means regardless of aggregate benefits, while Singer allows trade-offs based on utility calculations",
+          "Regan believes only human-like primates deserve protection",
+          "Singer's approach is more absolutist than Regan's"
+        ],
+        "correct": 1,
+        "explanation": "The passage states Regan's approach was 'more absolutist: it was wrong to use animals as mere means regardless of the benefits.' Regan criticized utilitarian approaches (like Singer's) that 'treats the tortured animal as a mere vessel for utility rather than as an individual with rights.'"
+      },
+      {
+        "text": "The 'virtue ethics' critique of both Singer and Regan, as described in paragraph 3, holds that:",
+        "options": [
+          "Animal suffering is morally irrelevant to ethics",
+          "Obligations to animals are real but grounded in character—a good person avoids causing unnecessary suffering to any creature—without requiring that animal and human suffering be treated as morally equivalent",
+          "Animals should be treated exactly like humans in all moral respects",
+          "Only mammals have morally relevant interests"
+        ],
+        "correct": 1,
+        "explanation": "The passage states virtue ethicists argue 'a person of good character does not cause unnecessary suffering to any creature, but this does not require treating animal and human suffering as morally equivalent.' This is a middle position—real obligations, grounded in virtue, without full moral equivalence."
+      },
+      {
+        "text": "The passage's discussion of animal testing in biomedical research raises which ethical question for the present?",
+        "options": [
+          "Whether animal testing was ever justifiable in the past",
+          "Whether animal testing is now justified given that alternatives—cell cultures, organ-on-a-chip technologies, computational modeling—are increasingly available and in some cases more predictive of human outcomes",
+          "Whether pharmaceutical companies should fund animal welfare research",
+          "Whether researchers who use animal models should be prosecuted"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'The question is not whether this trade-off was justified in the past, but whether it is justified now, when alternatives...are increasingly available and in some cases more predictive of human outcomes than animal models.'"
+      },
+      {
+        "text": "The example of cultured meat in the final paragraph suggests that the ethical question of animal agriculture:",
+        "options": [
+          "Can only be resolved through political legislation banning meat consumption",
+          "May be partially resolved through technology, but cultural attitudes about food provenance also matter—making widespread adoption as much a sociological question as a technological one",
+          "Has already been resolved by the existence of cultured meat",
+          "Is irrelevant since most people will continue eating conventionally produced meat regardless of alternatives"
+        ],
+        "correct": 1,
+        "explanation": "The passage states that whether cultured meat is widely adopted 'depends not only on its production cost but on whether cultural attitudes toward the provenance of food can be changed—a question as much sociological as technological.'"
+      },
+      {
+        "text": "Based on the passage, the core disagreement between the 'species membership/moral agency' view and Singer's view is about:",
+        "options": [
+          "Whether animal suffering is real and measurable",
+          "Whether the basis for moral consideration is capacity to suffer (Singer: morally relevant) or membership in a community of moral agents capable of reciprocal rights and responsibilities (critics: morally relevant for prioritization)",
+          "Whether factory farming is economically efficient",
+          "Whether animals should receive legal personhood"
+        ],
+        "correct": 1,
+        "explanation": "The passage presents: Singer holds capacity to suffer grounds moral consideration. Critics argue 'the interests of creatures capable of moral agency—reciprocal relationships of rights and responsibilities—deserve priority over the interests of creatures that are not.' The disagreement is about what grounds moral consideration: sentience vs. moral agency."
+      }
+    ]
+  },
+  {
+    "passageText": "The history of psychiatry is inseparable from the history of the institutions it created—the asylum, the mental hospital, the psychiatric clinic—and from the power relations those institutions embodied. Michel Foucault's Madness and Civilization (1961) traced the 'Great Confinement' of the seventeenth century, when vagrants, criminals, the indigent, and the mad were all swept into houses of confinement, not because their conditions were understood as mental illness, but because they violated the norms of emerging bourgeois rationality. The category of 'mental illness' was, for Foucault, a later rationalization of practices of exclusion that were fundamentally social rather than medical.\n\nThe antipsychiatry movement of the 1960s and 1970s drew on these insights to argue that psychiatric diagnosis was a mechanism of social control rather than a medical practice. R.D. Laing argued that 'schizophrenia' was not a disease but a label applied to people whose experience of reality was simply different from the norm—and that the experience called schizophrenic was often a comprehensible response to unbearable family and social circumstances. Thomas Szasz went further: there were no such things as mental illnesses, because illness was a physical phenomenon and mental states were not physical. 'Mental illness' was a myth that served to justify coercive psychiatric treatment.\n\nThese arguments produced useful critiques but were also overstated. The claim that there is no biological component to conditions like schizophrenia, bipolar disorder, or severe depression is contradicted by genetics, neuroimaging, and pharmacology. The therapeutic benefits of medication for many patients with serious mental illness are real. The rejection of the medical model risked leaving people with serious illnesses without treatment and without legal protection for their vulnerability.\n\nDeinstitutionalization—the large-scale closure of psychiatric hospitals beginning in the 1960s, driven partly by antipsychiatry arguments and partly by the development of antipsychotic medication and civil liberties concerns—produced its own crisis. Many people with serious mental illness were discharged to communities that lacked the resources to support them, ending up homeless, incarcerated, or cycling through emergency rooms. The failure of community mental health infrastructure to replace institutional care was a policy disaster whose consequences are still visible.\n\nContemporary psychiatric practice attempts to hold together the genuine insights of the critical tradition—about diagnosis, coercion, stigma, and social determinants—with the genuine clinical value of pharmacological and psychological treatments. The challenge is to practice medicine that takes the biological reality of mental illness seriously without reducing persons to their diagnoses or ignoring the social contexts in which illness develops and is experienced.",
+    "questions": [
+      {
+        "text": "Foucault's argument in Madness and Civilization, as described in the passage, held that the category of 'mental illness' was:",
+        "options": [
+          "A scientific discovery that correctly identified biological conditions of the brain",
+          "A later rationalization of practices of social exclusion that preceded the medical category—the 'Great Confinement' excluded people who violated norms of bourgeois rationality, not people who were medically ill",
+          "An accurate description of the conditions treated in early modern asylums",
+          "Developed independently of institutions of confinement"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'The category of mental illness was, for Foucault, a later rationalization of practices of exclusion that were fundamentally social rather than medical.' The confinement preceded and was not driven by the medical category."
+      },
+      {
+        "text": "R.D. Laing's view of 'schizophrenia,' as described in the passage, was that it was:",
+        "options": [
+          "A clear biological disease requiring pharmacological treatment",
+          "Not a disease but a label applied to those whose experience of reality differed from the norm—often a comprehensible response to unbearable family and social circumstances",
+          "A permanent and inevitably deteriorating condition",
+          "Caused by childhood trauma that could be treated with psychoanalysis"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Laing argued that schizophrenia was not a disease but a label applied to people whose experience of reality was simply different from the norm—and that the experience called schizophrenic was often a comprehensible response to unbearable family and social circumstances.'"
+      },
+      {
+        "text": "The passage identifies which evidence as contradicting the antipsychiatry claim that mental illness has no biological component?",
+        "options": [
+          "Statistical data on the effectiveness of psychotherapy",
+          "Genetics, neuroimaging, and pharmacology, which demonstrate biological components to conditions like schizophrenia, bipolar disorder, and severe depression",
+          "Patient satisfaction surveys with psychiatric treatment",
+          "The prevalence of mental illness across all social classes"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'The claim that there is no biological component to conditions like schizophrenia, bipolar disorder, or severe depression is contradicted by genetics, neuroimaging, and pharmacology.'"
+      },
+      {
+        "text": "The 'policy disaster' of deinstitutionalization, as described in the passage, resulted from:",
+        "options": [
+          "The excessive cost of psychiatric medication",
+          "Discharge of people with serious mental illness to communities lacking resources to support them, leading to homelessness, incarceration, and emergency room cycling—a failure to build community mental health infrastructure to replace hospitals",
+          "Resistance by psychiatrists to releasing institutionalized patients",
+          "Legal challenges to all forms of community-based mental health care"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Many people with serious mental illness were discharged to communities that lacked the resources to support them, ending up homeless, incarcerated, or cycling through emergency rooms. The failure of community mental health infrastructure to replace institutional care was a policy disaster.'"
+      },
+      {
+        "text": "Contemporary psychiatric practice, as described in the final paragraph, attempts to:",
+        "options": [
+          "Return to the institutional model of care that existed before deinstitutionalization",
+          "Integrate the critical tradition's insights about diagnosis, coercion, stigma, and social determinants with genuine clinical value of pharmacological and psychological treatments—taking biological reality seriously without reducing persons to diagnoses or ignoring social context",
+          "Abandon the medical model entirely in favor of social and psychological approaches",
+          "Prioritize pharmacological treatment over all other approaches to mental illness"
+        ],
+        "correct": 1,
+        "explanation": "The passage states contemporary practice 'attempts to hold together the genuine insights of the critical tradition—about diagnosis, coercion, stigma, and social determinants—with the genuine clinical value of pharmacological and psychological treatments.'"
+      },
+      {
+        "text": "Based on the passage, which would be most consistent with Szasz's argument that 'mental illness is a myth'?",
+        "options": [
+          "Developing better diagnostic tests for schizophrenia using neuroimaging",
+          "Arguing that what is called depression is a normal human response to difficult circumstances that should be addressed through social change rather than medical treatment",
+          "Funding more research into the genetic basis of bipolar disorder",
+          "Expanding access to psychiatric medications for underserved populations"
+        ],
+        "correct": 1,
+        "explanation": "Szasz held 'there were no such things as mental illnesses, because illness was a physical phenomenon and mental states were not physical.' This would support the view that conditions like depression are not medical diseases but responses to circumstances requiring social rather than medical responses—reframing the 'illness' as a social/existential phenomenon."
+      }
+    ]
+  },
+  {
+    "passageText": "The economics of healthcare present a set of problems that distinguish the market for medical services from most other markets in ways that have profound policy implications. Kenneth Arrow's foundational 1963 paper, 'Uncertainty and the Welfare Economics of Medical Care,' identified the features of medical markets that prevent them from achieving efficient outcomes through ordinary price mechanisms.\n\nFirst, demand for medical care is unpredictable and often involuntary—patients do not choose to get sick. Second, the product is heterogeneous and quality is difficult to assess: unlike buying a refrigerator, the patient typically cannot judge the quality of the physician's diagnosis or treatment. Third, there is massive information asymmetry: the physician knows far more than the patient about both diagnosis and treatment options. This asymmetry creates what economists call the 'agency problem': the physician is supposed to act as the patient's agent, but also has interests—income, convenience, liability avoidance—that may diverge from the patient's interest.\n\nFourth, medical care involves significant externalities: an unvaccinated individual imposes risks on others; epidemics affect everyone regardless of their own health behaviors. Fifth, and most importantly, health insurance creates moral hazard: when a third party pays for medical care, patients have less incentive to limit their consumption of it, and providers have incentives to recommend more care than is strictly necessary. The combination of fee-for-service payment, comprehensive insurance, and induced demand produces systematic cost inflation that market mechanisms cannot control.\n\nThese market failures have been used to justify various forms of government intervention in healthcare: public provision, mandatory insurance, price regulation, licensure requirements, and technology assessment. But government intervention creates its own problems—political capture by provider interests, bureaucratic inefficiency, and incentive structures that may not align provider rewards with patient outcomes. The healthcare systems of different countries represent different attempted solutions to this problem, none of which has fully resolved the trade-off between access, quality, and cost.\n\nThe emergence of value-based care models—which attempt to pay providers for outcomes rather than services—represents one attempt to address the incentive problems at the heart of healthcare economics. If providers are rewarded for keeping patients healthy rather than for performing procedures, the misalignment between provider and patient interests can be reduced. Critics note that 'outcomes' are difficult to measure, that risk-adjustment models are imperfect, and that providers may respond to outcome incentives by avoiding patients who are unlikely to achieve good outcomes—a phenomenon called 'cream-skimming.'",
+    "questions": [
+      {
+        "text": "Arrow's 1963 paper is described as foundational because it:",
+        "options": [
+          "Proposed a universal healthcare system for the United States",
+          "Identified specific features of medical markets that prevent efficient outcomes through ordinary price mechanisms, explaining why healthcare markets behave differently from typical consumer markets",
+          "Proved that government intervention in healthcare always increases efficiency",
+          "Demonstrated that health insurance was the primary cause of medical cost inflation"
+        ],
+        "correct": 1,
+        "explanation": "The passage states Arrow 'identified the features of medical markets that prevent them from achieving efficient outcomes through ordinary price mechanisms.' The paper is foundational because it provided an economic framework explaining healthcare market failure."
+      },
+      {
+        "text": "The 'agency problem' in healthcare, as described in the passage, arises because:",
+        "options": [
+          "Patients often refuse medical advice",
+          "Physicians, acting as patients' agents, have their own interests (income, convenience, liability avoidance) that may diverge from patients' interests—combined with information asymmetry that prevents patients from evaluating physician decisions",
+          "Health insurance companies interfere with physician-patient relationships",
+          "Government regulations prevent physicians from acting in patients' best interests"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'the physician is supposed to act as the patient's agent, but also has interests—income, convenience, liability avoidance—that may diverge from the patient's interest.' This is the agency problem, exacerbated by the information asymmetry that prevents patients from evaluating it."
+      },
+      {
+        "text": "Moral hazard in health insurance refers to:",
+        "options": [
+          "The ethical problems created by rationing healthcare",
+          "When insurance pays for care, patients have reduced incentive to limit consumption and providers have incentives to recommend more care than necessary—producing systematic cost inflation that market mechanisms cannot control",
+          "The risk that uninsured individuals will use emergency rooms",
+          "The tendency of insurance companies to deny necessary care to increase profits"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'health insurance creates moral hazard: when a third party pays for medical care, patients have less incentive to limit their consumption of it, and providers have incentives to recommend more care than is strictly necessary. The combination of fee-for-service payment, comprehensive insurance, and induced demand produces systematic cost inflation.'"
+      },
+      {
+        "text": "The passage describes government intervention in healthcare as:",
+        "options": [
+          "Always preferable to market mechanisms for healthcare allocation",
+          "Justified by market failures but creating its own problems—political capture, bureaucratic inefficiency, and misaligned incentives—so that no country has fully resolved the trade-off between access, quality, and cost",
+          "Universally inferior to market-based healthcare systems",
+          "The only effective solution to healthcare cost inflation"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'government intervention creates its own problems—political capture by provider interests, bureaucratic inefficiency, and incentive structures that may not align provider rewards with patient outcomes.' No system has 'fully resolved the trade-off between access, quality, and cost.'"
+      },
+      {
+        "text": "Value-based care models attempt to address healthcare incentive problems by:",
+        "options": [
+          "Eliminating health insurance and returning to direct payment",
+          "Paying providers for patient outcomes rather than services performed—reducing the misalignment between provider financial incentives and patient health interests",
+          "Reducing the number of medical procedures performed regardless of outcome",
+          "Requiring patients to pay a greater share of healthcare costs at the point of service"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'If providers are rewarded for keeping patients healthy rather than for performing procedures, the misalignment between provider and patient interests can be reduced.'"
+      },
+      {
+        "text": "'Cream-skimming' as described in the passage refers to:",
+        "options": [
+          "Selecting only profitable insurance customers while excluding high-cost ones",
+          "Provider response to outcome-based incentives by avoiding patients unlikely to achieve good outcomes—undermining the value-based care model by making those most in need of care least attractive to providers",
+          "A dietary practice that improves patient health outcomes",
+          "The tendency of high-income patients to receive better care than low-income patients"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'providers may respond to outcome incentives by avoiding patients who are unlikely to achieve good outcomes—a phenomenon called cream-skimming.' This is a perverse incentive created by outcome-based payment: since patients with complex conditions make good outcomes harder to achieve, providers may preferentially treat healthier patients."
+      }
+    ]
+  }
+]

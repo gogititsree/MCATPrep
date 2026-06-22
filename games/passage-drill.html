@@ -49,8 +49,8 @@
 
     <div class="exam-header">
       <div>
-        <div class="exam-timer" id="exam-timer">03:00</div>
-        <div class="exam-progress" id="answered-count">0 / 4 answered</div>
+        <div class="exam-timer" id="exam-timer">00:00</div>
+        <div class="exam-progress">Answered: <span id="answered-count">0</span> / 4</div>
       </div>
     </div>
     <div id="questions-container"></div>
@@ -143,8 +143,7 @@
       document.getElementById('score-panel').classList.remove('show');
       exam = new MCATExam(passageQuestions, 'questions-container', 'score-panel');
       window.exam = exam;
-      document.getElementById('exam-timer').textContent = '03:00';
-      document.getElementById('answered-count').textContent = '0 / 4 answered';
+      document.getElementById('answered-count').textContent = '0';
       incrementPassageStat(PASSAGE_TAKEN_KEY);
     }
 
@@ -158,7 +157,8 @@
         if (correct === passageQuestions.length) {
           incrementPassageStat(PASSAGE_PERFECT_KEY);
         }
-        const elapsed = 180 - Number(document.getElementById('exam-timer').textContent.split(':')[0]) * 60 - Number(document.getElementById('exam-timer').textContent.split(':')[1]);
+        const [mm, ss] = document.getElementById('exam-timer').textContent.split(':');
+        const elapsed = Number(mm) * 60 + Number(ss);
         updatePassageBest(elapsed);
       }
     }

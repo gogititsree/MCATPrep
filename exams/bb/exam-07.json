@@ -1,0 +1,417 @@
+[
+  {
+    "text": "Why can rigor mortis occur after death?",
+    "options": [
+      "ATP accumulates and locks actin-myosin bonds",
+      "No ATP to detach myosin from actin, causing sustained cross-bridge binding",
+      "Ca²⁺ is sequestered in the sarcoplasmic reticulum, permanently relaxing muscle",
+      "ATP activates cross-bridges postmortem"
+    ],
+    "correct": 1,
+    "explanation": "ATP is needed to detach myosin from actin (myosin ATPase hydrolyzes ATP to break the actin-myosin cross-bridge). After death, ATP production ceases; myosin remains bound to actin, causing rigor mortis. It resolves as proteins degrade.",
+    "tags": [
+      "physiology",
+      "muscle"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Smooth muscle differs from skeletal muscle in that smooth muscle:",
+    "options": [
+      "Contains troponin instead of calmodulin",
+      "Lacks actin and myosin",
+      "Is involuntary, regulated by calmodulin and myosin light chain kinase (MLCK), and lacks troponin",
+      "Requires a motor neuron for every contraction"
+    ],
+    "correct": 2,
+    "explanation": "Smooth muscle is involuntary (autonomic/hormonal control), lacks troponin (uses calmodulin-MLCK pathway instead), has no sarcomeres, and contracts more slowly but maintains tension economically (latch state). It is found in blood vessels, gut, and uterus.",
+    "tags": [
+      "physiology",
+      "muscle",
+      "cell biology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The resting membrane potential of most neurons is approximately:",
+    "options": [
+      "0 mV",
+      "−70 mV",
+      "+70 mV",
+      "+40 mV"
+    ],
+    "correct": 1,
+    "explanation": "The resting membrane potential (~−70 mV) is primarily determined by the K⁺ equilibrium potential (cells are very permeable to K⁺ at rest via Kir channels) and the Na⁺/K⁺-ATPase pump (3 Na⁺ out, 2 K⁺ in). Na⁺ permeability is low at rest.",
+    "tags": [
+      "physiology",
+      "neuroscience",
+      "action potential"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "During an action potential, the initial rapid depolarization is due to:",
+    "options": [
+      "Opening of voltage-gated K⁺ channels",
+      "Opening of voltage-gated Na⁺ channels",
+      "Closing of ligand-gated Cl⁻ channels",
+      "Activation of the Na⁺/K⁺-ATPase pump"
+    ],
+    "correct": 1,
+    "explanation": "Membrane depolarization above threshold (~−55 mV) opens voltage-gated Na⁺ channels (activation), allowing rapid Na⁺ influx down its electrochemical gradient (driving Em toward +40 mV, the Na⁺ equilibrium potential). Delayed opening of K⁺ channels (and Na⁺ channel inactivation) causes repolarization.",
+    "tags": [
+      "physiology",
+      "neuroscience",
+      "action potential"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The absolute refractory period of a neuron is caused by:",
+    "options": [
+      "Complete inactivation of voltage-gated Na⁺ channels (h-gate closed)",
+      "Hyperpolarization due to K⁺ channel opening",
+      "Depletion of neurotransmitter from presynaptic vesicles",
+      "Closure of all K⁺ channels"
+    ],
+    "correct": 0,
+    "explanation": "During the absolute refractory period, Na⁺ channels are inactivated (h-gate closed; cannot be opened regardless of stimulus strength). This limits action potential frequency and enforces unidirectional propagation. The relative refractory period follows (Na⁺ channels recovering + K⁺ channels open = hyperpolarization; a larger-than-normal stimulus can fire).",
+    "tags": [
+      "physiology",
+      "neuroscience",
+      "action potential"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Saltatory conduction in myelinated neurons refers to:",
+    "options": [
+      "Slowing of action potentials at the myelin sheath",
+      "Faster action potential propagation because current jumps between nodes of Ranvier",
+      "Conduction that occurs only in retrograde direction",
+      "Conduction in unmyelinated C-fibers only"
+    ],
+    "correct": 1,
+    "explanation": "Myelin (produced by oligodendrocytes in CNS, Schwann cells in PNS) insulates the axon, preventing ion leak. Action potentials are generated only at nodes of Ranvier (gaps in myelin where Na⁺ channels are concentrated), 'jumping' between nodes — saltatory conduction — which is much faster than continuous conduction.",
+    "tags": [
+      "physiology",
+      "neuroscience"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which type of RNA acts as the amino acid adapter molecule during translation?",
+    "options": [
+      "mRNA",
+      "rRNA",
+      "tRNA",
+      "hnRNA"
+    ],
+    "correct": 2,
+    "explanation": "tRNA (transfer RNA) has an anticodon that base-pairs with the mRNA codon and a 3' CCA-OH end that is charged with a specific amino acid by aminoacyl-tRNA synthetase. Each tRNA links a specific codon to its cognate amino acid, serving as the physical adapter between nucleic acid language and protein language.",
+    "tags": [
+      "translation",
+      "molecular biology"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A mutation in the promoter region of a gene would most directly affect:",
+    "options": [
+      "The amino acid sequence of the protein",
+      "The rate of transcription initiation for that gene",
+      "Post-translational modification of the protein",
+      "mRNA splicing efficiency"
+    ],
+    "correct": 1,
+    "explanation": "Promoter sequences (like the TATA box) are recognized by transcription factors and RNA polymerase. Mutations in the promoter alter transcription factor binding, changing the rate of transcription initiation — producing more or less mRNA without affecting the protein sequence (which is encoded in exons/coding sequence).",
+    "tags": [
+      "transcription",
+      "molecular biology",
+      "gene regulation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following is a characteristic of cancer cells that allows them to proliferate indefinitely?",
+    "options": [
+      "Increased p53 activity and cell cycle arrest",
+      "Loss of contact inhibition, bypass of senescence, and often reactivation of telomerase",
+      "Decreased nutrient uptake compared to normal cells",
+      "Constitutively active Rb protein maintaining G1 arrest"
+    ],
+    "correct": 1,
+    "explanation": "Cancer cells typically: ignore growth signals, evade apoptosis, lose contact inhibition (Rb/p53 loss), reactivate telomerase to maintain telomere length for immortalization, and undergo metabolic reprogramming. p53 is the most commonly mutated tumor suppressor; Rb loss allows uncontrolled G1/S progression.",
+    "tags": [
+      "cell biology",
+      "cancer",
+      "cell cycle"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Warburg effect describes the metabolic reprogramming of cancer cells in which:",
+    "options": [
+      "Cancer cells preferentially use oxidative phosphorylation even in the presence of oxygen",
+      "Cancer cells rely on aerobic glycolysis (glycolysis + lactic acid fermentation even with O₂) and produce excess lactate",
+      "Cancer cells upregulate the TCA cycle to double their energy output",
+      "Cancer cells switch exclusively to fatty acid oxidation for energy"
+    ],
+    "correct": 1,
+    "explanation": "The Warburg effect: cancer cells upregulate glycolysis and produce lactate even in the presence of oxygen (aerobic glycolysis). Although less ATP-efficient, this provides biosynthetic precursors (for nucleotides, lipids, amino acids) needed for rapid cell growth. FDG-PET scans detect cancer by imaging this elevated glucose uptake.",
+    "tags": [
+      "metabolism",
+      "cancer",
+      "cell biology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "During meiosis II, what happens at the centromeres?",
+    "options": [
+      "Homologous chromosomes separate",
+      "Sister chromatids separate",
+      "Crossing over occurs between non-sister chromatids",
+      "DNA replication occurs before centromere separation"
+    ],
+    "correct": 1,
+    "explanation": "Meiosis I separates homologous chromosomes. Meiosis II (without DNA replication) separates sister chromatids — the centromeres split and sister chromatids are pulled to opposite poles, similar to mitosis but starting with haploid cells.",
+    "tags": [
+      "meiosis",
+      "genetics"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Nondisjunction during meiosis I (first meiotic division) produces gametes with:",
+    "options": [
+      "Two copies of one homolog and zero copies of the other (n+1 and n-1 gametes)",
+      "One copy of each homolog plus one sister chromatid (n+1 gametes only)",
+      "Normal chromosome numbers in all gametes",
+      "Identical duplications of all chromosomes"
+    ],
+    "correct": 0,
+    "explanation": "Nondisjunction in meiosis I means homologs fail to separate: two gametes receive both homologs (+1) and two receive neither (−1) for that chromosome pair. Fertilization then produces trisomy or monosomy. (Nondisjunction in meiosis II also produces n+1 and n-1 gametes, but through a different mechanism.)",
+    "tags": [
+      "meiosis",
+      "genetics",
+      "chromosomal abnormalities"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Down syndrome (trisomy 21) is most commonly caused by:",
+    "options": [
+      "A point mutation in chromosome 21",
+      "Nondisjunction of chromosome 21 during meiosis (usually maternal meiosis I)",
+      "Deletion of part of chromosome 21",
+      "A reciprocal translocation affecting chromosome 21 only"
+    ],
+    "correct": 1,
+    "explanation": "~95% of Down syndrome cases result from nondisjunction of chromosome 21 in maternal meiosis I (risk increases with maternal age). About 4% are due to Robertsonian translocation; ~1% are mosaic. The extra chromosome 21 leads to characteristic facial features, intellectual disability, and increased risk of cardiac defects and leukemia.",
+    "tags": [
+      "genetics",
+      "chromosomal abnormalities"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which type of genetic mutation leads to the production of an altered mRNA that contains the original intron sequences?",
+    "options": [
+      "Missense mutation in an exon",
+      "Frameshift mutation in an exon",
+      "Splice-site mutation disrupting a donor or acceptor sequence",
+      "Nonsense mutation creating a premature stop codon"
+    ],
+    "correct": 2,
+    "explanation": "Splice-site mutations alter the consensus sequences at intron-exon boundaries (GU...AG rule in eukaryotes). The spliceosome fails to recognize the splice site, causing intron retention in the mRNA or exon skipping. Many forms of β-thalassemia and spinal muscular atrophy (SMA) are caused by splice-site mutations.",
+    "tags": [
+      "molecular biology",
+      "mutations",
+      "RNA processing"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Restriction enzymes (restriction endonucleases) cut DNA at:",
+    "options": [
+      "Any single-stranded region",
+      "Specific recognition sequences (typically 4-8 bp palindromes)",
+      "Random locations with equal probability",
+      "Methylated cytosine residues only"
+    ],
+    "correct": 1,
+    "explanation": "Type II restriction enzymes recognize specific palindromic DNA sequences (e.g., EcoRI cuts G↓AATTC) and cleave both strands, leaving blunt or sticky ends. They are used in cloning, Southern blots, and RFLP analysis. Bacteria use them to destroy foreign (viral) DNA; their own DNA is protected by methylation.",
+    "tags": [
+      "molecular biology",
+      "techniques"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In a Southern blot, DNA fragments are separated by size using:",
+    "options": [
+      "SDS-PAGE (polyacrylamide gel)",
+      "Agarose gel electrophoresis",
+      "Density gradient centrifugation",
+      "Ion exchange chromatography"
+    ],
+    "correct": 1,
+    "explanation": "Southern blot procedure: (1) DNA is digested with restriction enzymes; (2) fragments separated by agarose gel electrophoresis (smaller fragments migrate faster); (3) DNA transferred to nitrocellulose membrane; (4) hybridized with labeled probe to detect specific sequences. Western = protein; Northern = RNA; Eastern = lipids.",
+    "tags": [
+      "molecular biology",
+      "techniques"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "PCR (polymerase chain reaction) amplifies a specific DNA sequence using:",
+    "options": [
+      "RNA primers, thermostable RNA polymerase, and template RNA",
+      "DNA primers, heat-stable DNA polymerase (Taq), and repeated temperature cycles of denaturation, annealing, and extension",
+      "RNA polymerase and ribosomes in a cell-free system",
+      "Site-directed mutagenesis followed by cloning"
+    ],
+    "correct": 1,
+    "explanation": "PCR requires: (1) template DNA, (2) two specific oligonucleotide primers flanking the target, (3) Taq polymerase (thermostable, from Thermus aquaticus), (4) dNTPs, and (5) thermal cycler. Cycles: 95°C (denaturation), 55-65°C (annealing), 72°C (extension). ~30 cycles → 2³⁰ = ~10⁹ copies.",
+    "tags": [
+      "molecular biology",
+      "techniques"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A western blot is used to:",
+    "options": [
+      "Detect and quantify specific DNA sequences",
+      "Detect and identify specific proteins by size and antibody reactivity",
+      "Separate RNA by size using denaturing gel",
+      "Amplify specific sequences from cDNA"
+    ],
+    "correct": 1,
+    "explanation": "Western blot: (1) proteins denatured and separated by SDS-PAGE (by molecular weight); (2) transferred to nitrocellulose; (3) probed with primary antibody specific to target protein; (4) secondary antibody with reporter (enzyme or fluorophore) detects primary antibody. Identifies protein size and expression level.",
+    "tags": [
+      "molecular biology",
+      "techniques"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which technique is used to determine the complete nucleotide sequence of a gene?",
+    "options": [
+      "ELISA",
+      "Western blot",
+      "Sanger sequencing (or next-generation sequencing)",
+      "FISH (fluorescence in situ hybridization)"
+    ],
+    "correct": 2,
+    "explanation": "Sanger (dideoxy chain termination) sequencing uses ddNTPs to randomly terminate extension at each nucleotide position, producing fragments of all lengths that are separated by size. Modern NGS (next-generation sequencing) sequences millions of fragments in parallel. FISH visualizes chromosomal locations of specific DNA sequences.",
+    "tags": [
+      "molecular biology",
+      "techniques"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The lac repressor protein binds the operator sequence of the lac operon to prevent transcription. When lactose is present:",
+    "options": [
+      "The lac repressor is destroyed",
+      "Allolactose (an isomer of lactose) binds the lac repressor, causing an allosteric change that releases it from the operator",
+      "The CAP-cAMP complex directly removes the repressor",
+      "Glucose is converted to cAMP, which binds the repressor"
+    ],
+    "correct": 1,
+    "explanation": "When lactose is available, β-galactosidase converts some lactose to allolactose (the true inducer). Allolactose binds the lac repressor allosterically, causing a conformational change that reduces its DNA-binding affinity and releases it from the operator. RNA polymerase can then transcribe the structural genes.",
+    "tags": [
+      "gene regulation",
+      "molecular biology",
+      "prokaryotes"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following BEST describes the role of cAMP in the regulation of the lac operon?",
+    "options": [
+      "High cAMP directly inhibits transcription of lac genes",
+      "When glucose is low, cAMP levels rise, allowing CAP (catabolite activator protein) to bind the promoter and enhance transcription",
+      "cAMP acts as the lac repressor when allolactose is absent",
+      "High glucose causes high cAMP, maximally activating the operon"
+    ],
+    "correct": 1,
+    "explanation": "When glucose is low, adenylyl cyclase is active and cAMP rises. cAMP binds CAP (CRP), causing CAP to bind the lac promoter and strongly stimulate transcription (positive control). When glucose is high, cAMP is low and CAP cannot bind — catabolite repression ensures glucose is preferred over lactose.",
+    "tags": [
+      "gene regulation",
+      "molecular biology",
+      "prokaryotes"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In eukaryotes, enhancers differ from promoters in that enhancers:",
+    "options": [
+      "Are always located immediately upstream (5') of the transcription start site",
+      "Can activate transcription from a distance and in either orientation",
+      "Recruit σ factor to initiate transcription",
+      "Only function when located within introns"
+    ],
+    "correct": 1,
+    "explanation": "Enhancers are cis-regulatory elements that can be thousands of base pairs from the gene, upstream or downstream, in either orientation. They bind transcriptional activators that interact with the basal transcription machinery at the promoter via DNA looping. Silencers work analogously to repress transcription.",
+    "tags": [
+      "gene regulation",
+      "molecular biology",
+      "eukaryotes"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following is an example of post-transcriptional gene regulation?",
+    "options": [
+      "Histone acetylation opening chromatin",
+      "microRNA (miRNA) binding to mRNA and suppressing translation",
+      "Methylation of CpG islands at the promoter silencing the gene",
+      "Transcription factor binding to the TATA box"
+    ],
+    "correct": 1,
+    "explanation": "miRNAs are small (~22 nt) noncoding RNAs that base-pair with complementary sequences in the 3' UTR of target mRNAs, causing translational repression or mRNA degradation via the RISC complex. This is a major post-transcriptional regulatory mechanism in eukaryotes.",
+    "tags": [
+      "gene regulation",
+      "molecular biology",
+      "RNA"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A 3-year-old child shows progressive neurological deterioration, cherry-red spot on the macula, and foamy macrophages in bone marrow. Enzyme analysis shows absent hexosaminidase A. This describes:",
+    "options": [
+      "Gaucher disease",
+      "Niemann-Pick disease",
+      "Tay-Sachs disease",
+      "Fabry disease"
+    ],
+    "correct": 2,
+    "explanation": "Tay-Sachs disease is caused by deficiency of hexosaminidase A (lysosomal), leading to GM2 ganglioside accumulation in neurons. Features: developmental regression after 6 months, cherry-red macula, macrocephaly, no hepatosplenomegaly (unlike Niemann-Pick). Autosomal recessive; high carrier frequency in Ashkenazi Jews.",
+    "tags": [
+      "metabolism",
+      "lysosomal storage disease",
+      "genetics"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Gaucher disease is the most common lysosomal storage disease. It results from deficiency of:",
+    "options": [
+      "Sphingomyelinase",
+      "α-Galactosidase A",
+      "Glucocerebrosidase (acid β-glucosidase)",
+      "Arylsulfatase A"
+    ],
+    "correct": 2,
+    "explanation": "Gaucher disease: deficiency of glucocerebrosidase → glucocerebroside accumulation in macrophages/monocytes. Features: hepatosplenomegaly, bone marrow infiltration, Gaucher cells (wrinkled-paper cytoplasm), anemia, thrombocytopenia. Type I (non-neuronopathic) is most common and treatable with enzyme replacement therapy.",
+    "tags": [
+      "metabolism",
+      "lysosomal storage disease",
+      "genetics"
+    ],
+    "difficulty": "hard"
+  }
+]

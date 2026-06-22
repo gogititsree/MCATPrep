@@ -1,0 +1,426 @@
+[
+  {
+    "text": "The bystander effect refers to the finding that:",
+    "options": [
+      "People are more likely to help in emergencies when they are alone than when others are present",
+      "People in groups work harder than those working alone",
+      "People are more aggressive in crowds than individually",
+      "People in groups make riskier decisions than individuals"
+    ],
+    "correct": 0,
+    "explanation": "The bystander effect (Latané and Darley) is the well-documented phenomenon that people are LESS likely to help in emergencies when other people are present. Two key mechanisms are: diffusion of responsibility (each person feels less personally responsible when others are present) and pluralistic ignorance (each person looks to others for cues and interprets their inaction as evidence that no emergency exists). Option B describes the opposite of social loafing. Option C describes deindividuation/mob behavior. Option D describes risky shift or group polarization.",
+    "tags": [
+      "social psychology",
+      "bystander effect",
+      "diffusion of responsibility"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A person believes their car salesman is dishonest because they are a salesperson. Later they discover the salesman was completely honest. However, they still distrust them because the category ('salesperson') activated a negative stereotype. This illustrates:",
+    "options": [
+      "In-group bias",
+      "Stereotyping and its resistance to disconfirmation",
+      "The contact hypothesis",
+      "Scapegoating"
+    ],
+    "correct": 1,
+    "explanation": "Stereotyping involves applying generalized beliefs about a group to an individual member of that group. Research shows that stereotypes are resistant to change even when disconfirming evidence exists — people often explain away exceptions (e.g., 'this salesman is dishonest in ways I can't detect'). In-group bias (A) is preferential treatment toward one's own group. The contact hypothesis (C) predicts that intergroup contact reduces prejudice. Scapegoating (D) is blaming an outgroup for one's problems.",
+    "tags": [
+      "social psychology",
+      "stereotyping",
+      "prejudice"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Social identity theory, developed by Henri Tajfel, proposes that:",
+    "options": [
+      "People derive their sense of self purely from personal achievements and traits",
+      "Part of one's self-concept derives from membership in social groups, leading to in-group favoritism",
+      "Prejudice arises primarily from competition over scarce resources",
+      "Intergroup contact always reduces prejudice and discrimination"
+    ],
+    "correct": 1,
+    "explanation": "Tajfel and Turner's social identity theory proposes that people categorize themselves and others into groups (social categorization), identify with particular groups (social identification), and compare their group favorably to others (social comparison), leading to in-group favoritism and out-group derogation — even in minimal group paradigms with arbitrary groupings. Option A describes personal identity, not social identity. Option C describes Sherif's realistic group conflict theory (Robbers Cave). Option D is the contact hypothesis, a separate theory.",
+    "tags": [
+      "social psychology",
+      "social identity theory",
+      "Tajfel"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A manager notices that employees perform faster when their supervisor watches them, but make more errors. Which social psychology concept explains this?",
+    "options": [
+      "Social loafing",
+      "Deindividuation",
+      "Social facilitation",
+      "Conformity"
+    ],
+    "correct": 2,
+    "explanation": "Social facilitation (Zajonc) is the tendency for the presence of others to enhance performance on simple or well-learned tasks and impair performance on complex or novel tasks. The dominant (most practiced) response is strengthened by arousal from audience presence. Typing speed (well-learned) improves; accuracy on complex tasks decreases. Social loafing (A) is reduced effort in group tasks when individual contributions are pooled. Deindividuation (B) is loss of identity in groups. Conformity (D) involves changing behavior to match group norms.",
+    "tags": [
+      "social psychology",
+      "social facilitation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Cognitive dissonance theory (Festinger) predicts that when a person holds two inconsistent cognitions, they will:",
+    "options": [
+      "Simply ignore the inconsistency",
+      "Experience psychological discomfort and be motivated to reduce it",
+      "Seek additional information to support their original belief only",
+      "Change their behavior before changing their attitude"
+    ],
+    "correct": 1,
+    "explanation": "Festinger's cognitive dissonance theory holds that holding simultaneously inconsistent cognitions (e.g., 'I smoke' and 'smoking causes cancer') creates an uncomfortable psychological tension (dissonance) that motivates the person to reduce it. Reduction strategies include: changing one cognition ('I'll quit'), adding a new cognition ('I exercise, so it balances out'), or downplaying the importance of the inconsistency. Option A is wrong because dissonance is uncomfortable and not easily ignored. Option C describes confirmation bias, not dissonance reduction. Option D reverses the typical pattern — attitude change usually follows behavior change (e.g., after being induced to argue a position one doesn't hold).",
+    "tags": [
+      "social psychology",
+      "cognitive dissonance",
+      "Festinger"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A person who was born into a high-status family, attended elite schools, and holds a prestigious job has achieved their position through a combination of:",
+    "options": [
+      "Achieved status only",
+      "Ascribed status only",
+      "Both ascribed and achieved status",
+      "Neither — status is entirely determined by social networks"
+    ],
+    "correct": 2,
+    "explanation": "Ascribed status is assigned at birth based on characteristics one cannot control (e.g., race, sex, family of origin). Achieved status is earned through one's own efforts and actions (e.g., educational attainment, occupation). Being born into a high-status family is an ascribed characteristic; attending elite schools and holding a prestigious job are achieved statuses. Most real-world status involves a combination of both — ascribed advantages often facilitate achieved status.",
+    "tags": [
+      "sociology",
+      "social stratification",
+      "status"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Davis and Moore's functionalist theory of social stratification argues that inequality is:",
+    "options": [
+      "An inherently unjust result of class conflict and should be eliminated",
+      "A necessary and universal feature of society because important positions must be filled by talented people who require rewards",
+      "Entirely determined by ascribed characteristics like race and gender",
+      "A product of symbolic interactions that define who is valuable"
+    ],
+    "correct": 1,
+    "explanation": "Davis and Moore (1945) argued from a functionalist perspective that social stratification is universal and necessary because: (1) some positions are more functionally important than others, (2) these positions require talented, trained individuals, and (3) unequal rewards (income, prestige) motivate individuals to fill these roles. Critics (conflict theorists) argue this theory ignores inherited privilege and justifies inequality. Option A is the conflict theory critique. Option C describes a focus on ascription, not the Davis-Moore thesis. Option D is a symbolic interactionist framing.",
+    "tags": [
+      "sociology",
+      "social stratification",
+      "Davis-Moore"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which sociological concept describes the unwritten, informal norms that govern everyday behavior (like table manners) whose violation causes mild social disapproval rather than moral outrage?",
+    "options": [
+      "Mores",
+      "Folkways",
+      "Taboos",
+      "Laws"
+    ],
+    "correct": 1,
+    "explanation": "Folkways (Sumner) are informal social norms governing routine, everyday conduct (e.g., saying 'please' and 'thank you,' appropriate dress, table manners). Violating them brings mild social sanctions like disapproval or rudeness labels. Mores (A) are stronger moral norms whose violation provokes more serious social condemnation (e.g., cheating on exams, promiscuity in some cultures). Taboos are the strongest cultural prohibitions, often considered reprehensible (e.g., incest, cannibalism). Laws (D) are formal, codified norms enforced by the state.",
+    "tags": [
+      "sociology",
+      "culture",
+      "norms"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A researcher studying social mobility finds that the United States has lower rates of intergenerational income mobility than many other wealthy nations. This finding challenges which theoretical perspective MOST directly?",
+    "options": [
+      "Conflict theory, which predicts class boundaries are rigid",
+      "Functionalism, which assumes meritocratic systems produce mobility for talented individuals",
+      "Symbolic interactionism, which focuses on micro-level meaning-making",
+      "Feminist theory, which focuses on gender inequality"
+    ],
+    "correct": 1,
+    "explanation": "The Davis-Moore thesis and functionalist ideology argue that stratification systems, especially meritocratic ones, allow talented individuals to rise to the top through hard work. Low intergenerational mobility — where children largely remain in the same economic class as parents — directly challenges the meritocratic assumption underlying functionalist justifications of inequality. Conflict theory (A) already predicts low mobility due to class reproduction, so this finding confirms rather than challenges it. Symbolic interactionism (C) doesn't make macro-level predictions about mobility. Feminist theory (D) focuses on gender, not class mobility specifically.",
+    "tags": [
+      "sociology",
+      "social mobility",
+      "stratification"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "A woman who grew up in poverty uses education to move into the professional middle class. This is an example of:",
+    "options": [
+      "Horizontal social mobility",
+      "Downward social mobility",
+      "Intragenerational vertical social mobility",
+      "Intergenerational social mobility"
+    ],
+    "correct": 2,
+    "explanation": "Vertical social mobility refers to movement up or down the social hierarchy. Intragenerational mobility refers to changes in one's own social position within their lifetime (as opposed to intergenerational, which compares a person's position to their parents'). Since this woman moved from poverty to the professional class within her own lifetime, this is intragenerational upward vertical mobility. Horizontal mobility (A) is movement between positions at the same social level. Intergenerational mobility (D) would compare her position to that of her parents — relevant here, but the question describes her own life trajectory.",
+    "tags": [
+      "sociology",
+      "social mobility"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "George Herbert Mead's concept of the 'generalized other' refers to:",
+    "options": [
+      "The specific significant people (parents, peers) who influence an individual's socialization",
+      "The internalized sense of the norms, attitudes, and expectations of society as a whole",
+      "The stage of child development before symbolic thinking develops",
+      "The tendency to generalize from specific social interactions to broad social theories"
+    ],
+    "correct": 1,
+    "explanation": "Mead's theory of the social self distinguishes between the 'I' (the spontaneous, subjective self) and the 'me' (the socialized self that internalizes others' expectations). The 'generalized other' is the internalized perspective of the broader community or society — understanding what 'people in general' expect. This develops after children learn to take the role of specific 'significant others' (parents, playmates). Option A describes significant others. Option C is not a Meadian concept. Option D is a methodological description, not a Meadian concept.",
+    "tags": [
+      "sociology",
+      "symbolic interactionism",
+      "Mead"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The prefrontal cortex is most critical for which of the following functions?",
+    "options": [
+      "Processing visual information from the retina",
+      "Regulating circadian rhythms and hunger",
+      "Executive functions including planning, impulse control, and working memory",
+      "Coordinating fine motor movements and balance"
+    ],
+    "correct": 2,
+    "explanation": "The prefrontal cortex (PFC), the most anterior part of the frontal lobe, is the seat of executive function — a collection of higher-order cognitive abilities including planning, working memory, impulse control, decision-making, and social behavior. The famous case of Phineas Gage (who suffered PFC damage from a tamping iron) illustrates the role of the PFC in personality and impulse control. Option A is the function of the occipital lobe (visual cortex). Option B is the hypothalamus (regulates homeostasis, hunger, and the SCN regulates circadian rhythms). Option D is the cerebellum.",
+    "tags": [
+      "neuroscience",
+      "prefrontal cortex",
+      "brain regions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Damage to Broca's area results in which type of language impairment?",
+    "options": [
+      "Wernicke's aphasia — fluent but meaningless speech",
+      "Broca's aphasia — halting, non-fluent speech with preserved comprehension",
+      "Complete loss of all language abilities (global aphasia)",
+      "Inability to understand written language only (alexia)"
+    ],
+    "correct": 1,
+    "explanation": "Broca's area (left inferior frontal gyrus) is responsible for speech production and grammatical processing. Damage produces Broca's aphasia: slow, effortful, non-fluent speech with intact comprehension. Patients know what they want to say but cannot produce it smoothly. Wernicke's aphasia (A) results from damage to Wernicke's area (left superior temporal gyrus) and involves fluent but nonsensical speech with poor comprehension. Global aphasia (C) involves both production and comprehension deficits. Alexia (D) is specifically reading impairment, typically involving different posterior regions.",
+    "tags": [
+      "neuroscience",
+      "language",
+      "brain regions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The reticular formation, a network of neurons in the brainstem, is MOST associated with:",
+    "options": [
+      "Storing emotional memories",
+      "Regulating arousal, alertness, and the sleep-wake cycle",
+      "Processing sensory information from the skin",
+      "Coordinating the endocrine system's hormonal responses"
+    ],
+    "correct": 1,
+    "explanation": "The reticular formation (RF) is a network of nuclei in the brainstem (extending from medulla to midbrain) that plays a central role in regulating consciousness, arousal, and the sleep-wake cycle. The ascending reticular activating system (ARAS) sends signals to the cortex to maintain wakefulness. Damage to the RF can cause coma. Emotional memory storage (A) is the amygdala and hippocampus. Somatosensory processing (C) involves the thalamus and somatosensory cortex. Endocrine coordination (D) is primarily the hypothalamus.",
+    "tags": [
+      "neuroscience",
+      "reticular formation",
+      "arousal"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Glutamate is to excitation as GABA is to:",
+    "options": [
+      "Modulation",
+      "Inhibition",
+      "Reuptake",
+      "Depolarization"
+    ],
+    "correct": 1,
+    "explanation": "Glutamate is the primary excitatory neurotransmitter in the CNS — it depolarizes postsynaptic neurons, making them more likely to fire. GABA (gamma-aminobutyric acid) is the primary inhibitory neurotransmitter — it hyperpolarizes postsynaptic neurons, making them less likely to fire. Reduced GABAergic activity is associated with anxiety (hence benzodiazepines, which enhance GABA, treat anxiety). Excessive glutamate activity (excitotoxicity) is implicated in stroke and traumatic brain injury. Options A, C, and D do not capture GABA's primary functional role.",
+    "tags": [
+      "neuroscience",
+      "neurotransmitters",
+      "GABA",
+      "glutamate"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A person with a specific type of color blindness cannot distinguish between red and green. This deficit is most likely due to:",
+    "options": [
+      "Damage to the visual cortex in the occipital lobe",
+      "Absence or malfunction of specific cone photoreceptors in the retina",
+      "Damage to the optic chiasm disrupting color signals",
+      "Failure of the thalamus to relay color information to the cortex"
+    ],
+    "correct": 1,
+    "explanation": "Color vision depends on three types of cone photoreceptors (S, M, L cones) sensitive to short, medium, and long wavelengths. Red-green color blindness (the most common type, affecting ~8% of males) results from the absence or dysfunction of the L (long-wave/red) or M (medium-wave/green) cones — a genetic X-linked condition. This is a peripheral retinal deficit, not a central one. Cortical damage (A), optic chiasm damage (C), and thalamic lesions (D) can cause other visual deficits but not the specific inherited X-linked color blindness described.",
+    "tags": [
+      "sensation and perception",
+      "vision",
+      "color vision"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The suprachiasmatic nucleus (SCN), which regulates circadian rhythms, is located in the:",
+    "options": [
+      "Cerebellum",
+      "Brainstem",
+      "Hypothalamus",
+      "Thalamus"
+    ],
+    "correct": 2,
+    "explanation": "The suprachiasmatic nucleus (SCN) is a tiny region in the anterior hypothalamus that serves as the master circadian clock. It receives direct light input from the retina via the retinohypothalamic tract and uses this information to synchronize biological rhythms (sleep-wake, hormone release, body temperature) to a ~24-hour cycle. Melatonin from the pineal gland is regulated by the SCN. The cerebellum (A) coordinates movement. The brainstem (B) contains the reticular formation and basic vital functions. The thalamus (D) relays sensory information.",
+    "tags": [
+      "neuroscience",
+      "circadian rhythm",
+      "hypothalamus"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The limbic system is primarily involved in:",
+    "options": [
+      "Motor coordination and balance",
+      "Emotional processing and memory formation (hippocampus, amygdala, cingulate cortex)",
+      "Voluntary movement control",
+      "Language comprehension"
+    ],
+    "correct": 1,
+    "explanation": "The limbic system includes the hippocampus (explicit memory formation), amygdala (fear, emotional learning, threat detection), cingulate cortex (emotion regulation, conflict monitoring), and hypothalamus (homeostasis). The hypothalamus links the nervous system to the endocrine system via the pituitary gland. Damage to the hippocampus causes anterograde amnesia (H.M. case study).",
+    "tags": [
+      "neuroscience",
+      "brain structures",
+      "limbic system"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Broca's area is located in the:",
+    "options": [
+      "Right hemisphere, temporal lobe",
+      "Left frontal lobe and is essential for speech production (Broca's aphasia: non-fluent, halting speech)",
+      "Right parietal lobe",
+      "Left occipital lobe"
+    ],
+    "correct": 1,
+    "explanation": "Broca's area (left inferior frontal gyrus, Brodmann areas 44-45): produces fluent speech. Broca's aphasia: speech is non-fluent, telegraphic, effortful, but comprehension is relatively intact. Wernicke's area (left superior temporal gyrus): speech comprehension. Wernicke's aphasia: fluent but meaningless speech (word salad), poor comprehension.",
+    "tags": [
+      "neuroscience",
+      "brain areas",
+      "language"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Long-term potentiation (LTP) in the hippocampus requires:",
+    "options": [
+      "Inhibition of GABA receptors only",
+      "Activation of NMDA receptors by coincident pre- and postsynaptic activity (Hebbian rule: neurons that fire together wire together)",
+      "Activation of AMPA receptors alone",
+      "Decreased glutamate release"
+    ],
+    "correct": 1,
+    "explanation": "LTP: NMDA receptors are 'coincidence detectors' — they require both glutamate binding AND postsynaptic depolarization (to remove Mg²⁺ block). When both conditions are met, Ca²⁺ enters, activating kinases that increase AMPA receptor number/conductance. LTP is the leading cellular mechanism for synaptic plasticity underlying learning and memory.",
+    "tags": [
+      "neuroscience",
+      "LTP",
+      "synaptic plasticity"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Wernicke's aphasia is characterized by:",
+    "options": [
+      "Non-fluent, telegraphic speech with intact comprehension",
+      "Fluent speech that lacks meaningful content; impaired comprehension (left temporal lobe damage)",
+      "Complete inability to speak or comprehend",
+      "Impaired reading only"
+    ],
+    "correct": 1,
+    "explanation": "Wernicke's aphasia: fluent, grammatically intact but semantically empty speech (paraphasias, neologisms, word salad). Comprehension severely impaired. Lesion: left superior temporal gyrus. Conduction aphasia: fluent speech, intact comprehension, but impaired repetition (arcuate fasciculus lesion). Global aphasia: all language modalities affected.",
+    "tags": [
+      "neuroscience",
+      "aphasia",
+      "language"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The reticular activating system (RAS) is primarily responsible for:",
+    "options": [
+      "Visual processing",
+      "Arousal, wakefulness, and sleep-wake cycles",
+      "Balance and coordination",
+      "Emotional regulation"
+    ],
+    "correct": 1,
+    "explanation": "The RAS (reticular formation, brainstem) controls arousal, attention, and sleep-wake transitions. It receives input from all sensory systems and projects to the cortex via the thalamus. Damage → coma. General anesthetics work partly by suppressing the RAS. Caffeine → blocks adenosine (promotes sleep) → indirectly keeps RAS active.",
+    "tags": [
+      "neuroscience",
+      "reticular formation",
+      "arousal"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Dopamine is most closely associated with:",
+    "options": [
+      "Pain perception",
+      "Reward, motivation, and reinforcement (mesolimbic pathway); also motor control (nigrostriatal) and executive function (mesocortical)",
+      "Sleep regulation",
+      "Primary stress response"
+    ],
+    "correct": 1,
+    "explanation": "Dopamine pathways: (1) Mesolimbic (VTA → nucleus accumbens): reward, addiction; (2) Mesocortical (VTA → prefrontal cortex): cognition, motivation; (3) Nigrostriatal (substantia nigra → striatum): motor control (degeneration in Parkinson's); (4) Tuberoinfundibular (hypothalamus → pituitary): prolactin regulation. Drugs of abuse increase dopamine in the nucleus accumbens.",
+    "tags": [
+      "neuroscience",
+      "dopamine",
+      "neurotransmitters"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Serotonin (5-HT) is associated with all EXCEPT:",
+    "options": [
+      "Mood regulation (deficiency linked to depression)",
+      "Sleep, appetite, and impulsive behavior",
+      "Acetylcholine-mediated neuromuscular transmission",
+      "Platelet aggregation and gut motility (most serotonin is in the GI tract)"
+    ],
+    "correct": 2,
+    "explanation": "Serotonin (synthesized from tryptophan in raphe nuclei): regulates mood, sleep, appetite, cognition, and impulsivity. ~90% of the body's serotonin is in the GI tract (regulates peristalsis). Platelets also contain and release serotonin for vasoconstriction. SSRIs (selective serotonin reuptake inhibitors) treat depression. Neuromuscular transmission uses acetylcholine (nicotinic receptors at NMJ), not serotonin.",
+    "tags": [
+      "neuroscience",
+      "serotonin",
+      "neurotransmitters"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The concept of neuroplasticity refers to:",
+    "options": [
+      "The brain's fixed structure after adolescence",
+      "The ability of the brain to reorganize itself by forming new neural connections throughout life in response to learning, experience, or injury",
+      "The brittleness of myelin sheaths",
+      "The speed of action potential propagation"
+    ],
+    "correct": 1,
+    "explanation": "Neuroplasticity enables the brain to rewire itself in response to experience (learning-induced), injury (compensatory reorganization), or development. Evidence: (1) London taxi drivers have larger hippocampus; (2) stroke victims can regain function through rehabilitation; (3) sensory cortex reorganizes after limb amputation (phantom limb, cortical remapping). Critical periods have heightened plasticity (e.g., language acquisition before puberty).",
+    "tags": [
+      "neuroscience",
+      "neuroplasticity",
+      "brain development"
+    ],
+    "difficulty": "easy"
+  }
+]

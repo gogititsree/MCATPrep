@@ -1,0 +1,430 @@
+[
+  {
+    "text": "The difference between reliability and validity in psychological measurement:",
+    "options": [
+      "Reliability = accuracy; validity = consistency",
+      "Reliability = consistency of measurement (same results on repeated administrations); validity = the test actually measures what it claims to measure",
+      "They are the same concept",
+      "Validity = consistency; reliability = accuracy"
+    ],
+    "correct": 1,
+    "explanation": "Reliability: test-retest (same results over time), inter-rater (different raters agree), internal consistency (items correlate with each other). Validity: construct validity (measures theoretical construct), content validity (covers the domain), criterion validity (predictive: predicts outcome; concurrent: correlates with existing measure). A test can be reliable without being valid (consistently measuring the wrong thing), but cannot be valid without being reliable.",
+    "tags": [
+      "research methods",
+      "reliability",
+      "validity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Placebo effect and double-blind studies are related in that:",
+    "options": [
+      "Placebo effect proves that treatments have no biological effect",
+      "The double-blind design controls for the placebo effect — neither participants nor researchers know who received the real treatment vs. placebo, preventing expectations from influencing outcomes",
+      "Placebos are used only in surgery, not medication trials",
+      "Double-blind studies are used only to test psychotropic drugs"
+    ],
+    "correct": 1,
+    "explanation": "Placebo effect: real physiological and psychological changes from inert treatment due to expectation. Single-blind: participants don't know their condition. Double-blind: neither participants NOR researchers know (prevents researcher expectancy bias, which can subtly influence data collection and interpretation). Nocebo effect: negative outcomes from expectations of harm. Meta-analyses show strong placebo effects in pain, depression, and IBS trials.",
+    "tags": [
+      "research methods",
+      "placebo",
+      "double-blind"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Operationalization in research refers to:",
+    "options": [
+      "Computerizing data collection methods",
+      "Defining variables in terms of specific, measurable procedures or operations used to measure them (e.g., 'anxiety' operationalized as score on the GAD-7 questionnaire)",
+      "Conducting mathematical operations on data",
+      "The statistical analysis of survey data"
+    ],
+    "correct": 1,
+    "explanation": "Operationalization: converting abstract conceptual variables into measurable, observable indicators. E.g., 'depression' operationalized as BDI-II score >14; 'social class' operationalized as household income, education level, or occupation. Good operationalization is crucial for replicability. Allows different researchers to use the same definition and compare results. Poor operationalization → construct validity problems.",
+    "tags": [
+      "research methods",
+      "operationalization",
+      "measurement"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Null hypothesis significance testing (NHST) — what does p < 0.05 mean?",
+    "options": [
+      "The probability that the alternative hypothesis is true is 95%",
+      "The probability of obtaining results at least as extreme as observed, IF the null hypothesis were true, is less than 5% — typically interpreted as 'statistically significant' and warrants rejection of the null hypothesis",
+      "There is a 95% chance the results are due to the treatment effect",
+      "The effect size is large"
+    ],
+    "correct": 1,
+    "explanation": "p-value: probability of observing the data (or more extreme) given H₀ is true. p < 0.05: less than 5% chance of such results by chance alone IF null were true → reject null. NOT the probability that H₀ is false. Type I error (α): rejecting true null hypothesis (false positive). Type II error (β): failing to reject false null hypothesis (false negative). Power = 1 − β. Statistical significance ≠ clinical/practical significance (need effect size: Cohen's d, r, etc.).",
+    "tags": [
+      "research methods",
+      "statistics",
+      "p-value"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Institutional Review Board (IRB) oversight in research requires all of the following EXCEPT:",
+    "options": [
+      "Informed consent from participants",
+      "Minimization of risks to participants",
+      "Guarantee that all participants will benefit from the research (research can have societal benefit without direct benefit to all participants)",
+      "Protection of vulnerable populations"
+    ],
+    "correct": 2,
+    "explanation": "IRB principles (Belmont Report, 1979): (1) Respect for persons: informed consent, autonomy, protection of those with diminished autonomy; (2) Beneficence: maximize benefits, minimize harm — NOT requiring all participants to benefit directly; (3) Justice: fair distribution of research benefits and burdens. Deception: allowed only if no alternative, participants must be debriefed afterward. Research cannot directly harm participants even if they consent.",
+    "tags": [
+      "research methods",
+      "ethics",
+      "IRB"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Regarding the nature-nurture debate in psychology, the current consensus is:",
+    "options": [
+      "Nature (genetics) determines all psychological traits",
+      "Nurture (environment) determines all psychological traits",
+      "Both nature and nurture interact to shape psychological traits — gene-environment interactions, epigenetics, and developmental context all matter",
+      "The debate is irrelevant to modern psychology"
+    ],
+    "correct": 2,
+    "explanation": "Modern view: interactionist position. Genes establish a reaction range (potential) that environment then actualizes. Gene-environment interaction: some genotypes are more sensitive to environmental influences (differential susceptibility). Epigenetics: environmental factors alter gene expression (DNA methylation, histone modification) without changing DNA sequence. Twin studies: MZ twins more similar than DZ for many traits but not identical (proving nurture matters too).",
+    "tags": [
+      "psychology",
+      "nature vs nurture",
+      "genetics and environment"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The concept of 'self-concept' includes:",
+    "options": [
+      "Only a person's physical attributes",
+      "One's beliefs about oneself across multiple domains — abilities, personality, relationships, roles, and values. Influenced by culture, social feedback, and social comparisons",
+      "Objective assessment of one's true abilities",
+      "Only one's academic self-perception"
+    ],
+    "correct": 1,
+    "explanation": "Self-concept: the totality of one's thoughts and feelings about oneself. Self-esteem: evaluative component (how positively you feel about your self-concept). Looking-glass self (Cooley): self-concept influenced by how we imagine others see us. Social comparison (Festinger): we evaluate ourselves by comparing to others. Cultural variation: Western cultures (individualist) emphasize unique traits; East Asian cultures (collectivist) emphasize relational roles and group membership in self-concept.",
+    "tags": [
+      "social psychology",
+      "self-concept",
+      "identity"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Impression management (Goffman's dramaturgical model) describes how people:",
+    "options": [
+      "Passively respond to social stimuli without conscious effort",
+      "Actively manage the impressions others form of them through 'performances' — using front stage (public, formal) and back stage (private, informal) presentations",
+      "Form impressions of others based on their body language only",
+      "Process social information during face-to-face interactions in one fixed way"
+    ],
+    "correct": 1,
+    "explanation": "Goffman's dramaturgical model (The Presentation of Self in Everyday Life, 1959): social life is like theater — people are actors who manage their performances for different audiences. Front stage: public performances aligned with social expectations (formal scripts, costumes/clothing, props). Back stage: private spaces where people drop the performance (home, with close friends). Teams: people cooperate to maintain consistent front-stage performances. Relevant to: doctor-patient interaction, social media self-presentation.",
+    "tags": [
+      "sociology",
+      "Goffman",
+      "impression management"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The 'looking-glass self' concept (Charles Cooley) describes:",
+    "options": [
+      "How mirrors change self-perception",
+      "Self-concept as a reflection of how we imagine others see and judge us — our self-image is built from imagining others' perceptions of us",
+      "Self-perception as inherently accurate and objective",
+      "The use of social media to observe others"
+    ],
+    "correct": 1,
+    "explanation": "Cooley's looking-glass self (1902): three elements: (1) We imagine how we appear to others; (2) We imagine others' judgment of our appearance; (3) We develop our self-feeling (pride or shame) based on our imagined judgment. Our self-concept is fundamentally social — built through social interaction and reflection. Contrasts with modern 'authentic self' views. Relevant to identity development, social media effects on self-esteem.",
+    "tags": [
+      "sociology",
+      "self-concept",
+      "Cooley",
+      "symbolic interactionism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which is a key difference between prejudice, stereotyping, and discrimination?",
+    "options": [
+      "All three are identical concepts referring to the same phenomenon",
+      "Stereotyping = cognitive (generalized beliefs about groups); Prejudice = affective (negative attitudes and feelings about groups); Discrimination = behavioral (differential treatment based on group membership)",
+      "Prejudice is always conscious; stereotyping is always unconscious",
+      "Discrimination can only occur at the individual, not institutional, level"
+    ],
+    "correct": 1,
+    "explanation": "Three components of racism/sexism/etc.: Cognitive: stereotypes (often automatic, implicit); Affective: prejudice (negative feelings/attitudes); Behavioral: discrimination (actions). Implicit bias: automatic, unconscious associations — measured by IAT (Implicit Association Test). Institutional discrimination: policies and practices that systematically disadvantage groups (e.g., redlining, stop-and-frisk). Microaggressions: subtle, often unconscious, daily indignities experienced by marginalized groups.",
+    "tags": [
+      "social psychology",
+      "prejudice",
+      "discrimination",
+      "stereotyping"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Thomas theorem states that:",
+    "options": [
+      "Social reality exists only at the macrosociological level",
+      "If people define situations as real, they are real in their consequences — beliefs and perceptions shape behavior and outcomes, regardless of objective reality",
+      "Economic factors alone determine social behavior",
+      "Groups always conform to the majority perception"
+    ],
+    "correct": 1,
+    "explanation": "Thomas theorem (W.I. Thomas & D.S. Thomas, 1928): 'If men define situations as real, they are real in their consequences.' Connects to symbolic interactionism. Application: if a bank is perceived as about to fail (bank run), people withdraw money and it fails — the belief created the reality. Stereotype threat: defining a test as diagnostic of racial ability → performance consequences. Placebo effect. Medicalization: defining behaviors as diseases creates patients.",
+    "tags": [
+      "sociology",
+      "Thomas theorem",
+      "symbolic interactionism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Social networks and their role in social support affect health because:",
+    "options": [
+      "Social support only prevents mental illness, not physical illness",
+      "Social support buffers the effects of stress (stress-buffering hypothesis) and has direct beneficial effects on health (main effect hypothesis) — isolation increases mortality risk comparably to smoking 15 cigarettes per day",
+      "Social networks only matter for young adults",
+      "More friends always leads to better health outcomes regardless of the quality of relationships"
+    ],
+    "correct": 1,
+    "explanation": "Social support dimensions: informational (advice/information), emotional (empathy, care), instrumental (tangible aid), appraisal (feedback). Stress-buffering hypothesis: social support protects against stress-induced illness. Main effect hypothesis: social integration directly benefits health regardless of stress. Mechanisms: neuroendocrine (oxytocin, reduced cortisol), behavioral (compliance with health behaviors), cognitive (positive appraisal), direct physiological. Quality > quantity of social relationships.",
+    "tags": [
+      "social psychology",
+      "social support",
+      "health"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which sociological perspective would most likely analyze how the mass media shapes perceptions of health and illness?",
+    "options": [
+      "Structural functionalism only",
+      "All three: functionalism (media functions to inform public), conflict theory (media owned by elites, may serve pharmaceutical industry interests), and symbolic interactionism (media creates symbols and meanings around health and bodies)",
+      "Symbolic interactionism only",
+      "Conflict theory only"
+    ],
+    "correct": 1,
+    "explanation": "Each sociological perspective offers insight: Functionalism: media serves function of public health communication, can promote healthy behaviors (e.g., anti-smoking campaigns). Conflict: media concentration in few corporations; pharmaceutical advertising shapes disease awareness and treatment seeking; creates profitable definitions of health and normalcy. Symbolic interactionism: media constructs body ideals, shapes illness experience (what symptoms 'mean'), and creates stigma around conditions.",
+    "tags": [
+      "sociology",
+      "media",
+      "health",
+      "perspectives"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The concept of 'flow' (Csikszentmihalyi) describes a state of:",
+    "options": [
+      "Extreme boredom during repetitive tasks",
+      "Complete absorption in an intrinsically rewarding challenge that exactly matches one's skill level — characterized by effortless concentration and enjoyment",
+      "Dissociation from one's surroundings",
+      "Hyperfocused anxiety during high-stakes performance"
+    ],
+    "correct": 1,
+    "explanation": "Flow (optimal experience): total immersion in an activity where challenge matches skill level. Features: clear goals, immediate feedback, loss of self-consciousness, distorted time perception. If challenge >> skill → anxiety; skill >> challenge → boredom. Flow promotes intrinsic motivation and well-being. Csikszentmihalyi's work extends positive psychology (Seligman) — focus on human flourishing rather than pathology.",
+    "tags": [
+      "motivation",
+      "positive psychology",
+      "flow"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The door-in-the-face technique (compliance) works by:",
+    "options": [
+      "Making a very small request first, then escalating to a larger request (that's the foot-in-the-door technique)",
+      "First making an unreasonably large request (which is rejected), then making the real (smaller) request — reciprocal concession induces compliance",
+      "Offering a reward contingent on compliance",
+      "Repeating requests until compliance is achieved"
+    ],
+    "correct": 1,
+    "explanation": "Door-in-the-face: large request first → refusal → small request looks like a concession → target feels obligation to reciprocate concession → complies. E.g., asking for $500 donation first, then asking for $50. Foot-in-the-door: small request first builds compliance habit → larger request later (e.g., signing a petition → then yard sign → then campaign donation). Both exploit commitment/consistency and reciprocity norms.",
+    "tags": [
+      "social psychology",
+      "compliance",
+      "persuasion"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The social comparison theory (Festinger) explains why people:",
+    "options": [
+      "Always compare themselves to those worse off (downward comparison only)",
+      "Evaluate their opinions and abilities by comparing themselves to others — upward comparisons (with superior others) can motivate or threaten; downward comparisons can boost self-esteem or be benevolent",
+      "Never compare themselves to others when objective standards are available",
+      "Derive self-esteem entirely from internal standards"
+    ],
+    "correct": 1,
+    "explanation": "Festinger's social comparison (1954): we compare ourselves to similar others when objective standards are unavailable. Upward comparison: with those who are better → can inspire motivation OR threaten self-esteem. Downward comparison: with those who are worse off → boosts self-esteem. Social media amplifies upward social comparison → negative self-image. Similar-ability comparisons are most informative; we avoid comparing when gap is too large.",
+    "tags": [
+      "social psychology",
+      "social comparison",
+      "self-esteem"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The concept of 'ego depletion' (Baumeister) proposes that:",
+    "options": [
+      "Self-control is unlimited and does not diminish with use",
+      "Self-control is a limited resource — using willpower in one task depletes ability to exert it in subsequent tasks (like a muscle that fatigues)",
+      "Depletion occurs only in very high-stress situations",
+      "The ego is depleted by too many rewards, not too many demands"
+    ],
+    "correct": 1,
+    "explanation": "Ego depletion: self-regulation capacity is finite; using it for one task impairs later self-control. E.g., resisting temptation in the morning → more likely to cheat on diet at night. Glucose restoration (eating) may restore self-control. Note: recent replication attempts have questioned the strength of this effect, but the MCAT still includes it as a recognized phenomenon. Strategies: habit formation (automates behavior, reducing regulatory demands).",
+    "tags": [
+      "psychology",
+      "self-regulation",
+      "ego depletion"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Terror management theory (Greenberg, Pyszczynski, Solomon) proposes that:",
+    "options": [
+      "People avoid thinking about death in all circumstances",
+      "Much of human behavior is motivated by the management of death anxiety — cultural worldviews provide symbolic immortality and self-esteem acts as a buffer against death anxiety; reminders of death (mortality salience) intensify defense of one's worldview and in-group",
+      "People are never affected by awareness of their mortality",
+      "People accept death without anxiety because of religious beliefs"
+    ],
+    "correct": 1,
+    "explanation": "Terror management theory (TMT): humans are unique in awareness of their own inevitable death → existential terror. Cultural worldviews (religion, nationalism, achievements) provide meaning and symbolic immortality. Self-esteem buffers death anxiety. Mortality salience: reminding people of death → increased prejudice against out-groups, stronger defense of in-group worldview, increased materialism (compensatory mechanisms). Draws on Becker's 'Denial of Death.'",
+    "tags": [
+      "social psychology",
+      "terror management theory",
+      "mortality"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The 'dual-process' theories of social cognition (System 1 and System 2 thinking) propose that:",
+    "options": [
+      "People always use careful, deliberate reasoning in social judgments",
+      "Two systems operate: System 1 (fast, automatic, intuitive, associative, uses heuristics and stereotypes) and System 2 (slow, deliberate, effortful, rule-based, controlled) — most social judgments use System 1",
+      "System 1 is always more accurate than System 2",
+      "System 2 is unconscious; System 1 is conscious"
+    ],
+    "correct": 1,
+    "explanation": "Dual-process theory (Kahneman, Epstein): System 1 handles most everyday cognition — quick pattern recognition, automatic associations, stereotyping, and heuristic shortcuts. System 2 is engaged for complex analysis, logic, and overriding automatic responses. Cognitive biases arise from System 1 errors not corrected by System 2. Relevant: availability heuristic, representativeness heuristic (base rate neglect), anchoring. MCAT tests familiarity with heuristics vs. systematic thinking.",
+    "tags": [
+      "cognitive psychology",
+      "dual-process theory",
+      "heuristics"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The availability heuristic explains why people:",
+    "options": [
+      "Make decisions based on careful analysis of statistical frequencies",
+      "Estimate the likelihood of events based on how easily examples come to mind — vivid, recent, or emotionally resonant events are judged as more probable",
+      "Always overestimate the probability of rare events",
+      "Make systematic errors in statistical reasoning only when the stakes are high"
+    ],
+    "correct": 1,
+    "explanation": "Availability heuristic (Tversky & Kahneman, 1973): probability estimated by ease of retrieval of examples. Leads to biases: overestimating plane crash risk (vivid media coverage) vs. car accident risk; fear of sharks > fear of cows despite cows killing far more people yearly. Representativeness heuristic: probability assessed by how typical a case is of a category (ignores base rates). Anchoring: over-reliance on first piece of information.",
+    "tags": [
+      "cognitive psychology",
+      "heuristics",
+      "availability"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Reciprocity as a social influence principle states that:",
+    "options": [
+      "People tend to dislike those who give them gifts",
+      "People feel obligated to return favors, concessions, or gifts — violating reciprocity creates discomfort (social debt)",
+      "Reciprocity applies only in economic exchanges",
+      "Social norms require always accepting help from others without obligation"
+    ],
+    "correct": 1,
+    "explanation": "Reciprocity norm: deeply embedded in all human cultures — feel obligated to repay gifts/favors. Exploited in: supermarket samples (create obligation to purchase), door-in-the-face technique, concession-reciprocity in negotiation. Cialdini identified reciprocity as one of six principles of persuasion (along with commitment/consistency, social proof, authority, liking, scarcity). Health relevance: pharmaceutical companies giving gifts to physicians → increased prescription rates.",
+    "tags": [
+      "social psychology",
+      "reciprocity",
+      "social influence"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The fundamental attribution error is less common in which cultural context?",
+    "options": [
+      "Individualist cultures (emphasis on personal traits → more dispositional attribution)",
+      "Collectivist cultures (emphasis on social context and relationships → more situational attribution)",
+      "Cultures with strong hierarchical social structures",
+      "All cultures show exactly the same FAE rates"
+    ],
+    "correct": 1,
+    "explanation": "Cross-cultural research: FAE is more pronounced in Western (individualist) cultures (US, Western Europe) than in East Asian (collectivist) cultures (Japan, China, Korea). Collectivist cultures emphasize social context and relationships → more likely to attribute behavior to situational factors. Evidence: Norenzayan & Nisbett — Japanese students gave more situational explanations for behavior in fish tank study. Cultural variation in cognition challenges universality of cognitive biases.",
+    "tags": [
+      "social psychology",
+      "fundamental attribution error",
+      "cross-cultural"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Obedience to authority (following the Milgram paradigm) is REDUCED when:",
+    "options": [
+      "The authority figure is physically present and the experiment takes place at a prestigious institution",
+      "The authority figure is removed from the scene (gives orders by phone), when the victim's suffering is made visible, and when other participants rebel first (social support for disobedience)",
+      "The subject has less education",
+      "The stakes are higher"
+    ],
+    "correct": 1,
+    "explanation": "Milgram's variations: Obedience REDUCED when: (1) Physical distance from authority (phone orders → ~20% compliance vs. 65% in-person); (2) Victim made visible/proximity (heard, saw, touched victim → ~30%→20% compliance); (3) Social support: two confederates rebel first → compliance drops to ~10%; (4) Institutional legitimacy removed (seedy commercial building vs. Yale). INCREASED when: victim is farther away, institutional legitimacy is high, experimenter is physically present.",
+    "tags": [
+      "social psychology",
+      "Milgram",
+      "obedience"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The halo effect in person perception refers to:",
+    "options": [
+      "People wearing halos being perceived as more ethical",
+      "The tendency for an initial positive impression (or a single positive trait) to influence the overall evaluation of a person — one good trait leads to assuming other positive qualities",
+      "Physical attractiveness never affecting social judgments",
+      "The halo effect applies only in job interview contexts"
+    ],
+    "correct": 1,
+    "explanation": "Halo effect (Thorndike, 1920): one prominent characteristic influences overall judgment. 'What is beautiful is good' — attractive people are perceived as more competent, intelligent, and moral. Also works in reverse (negative trait → negative overall impression = horn effect). In medicine: likeable patients may receive better care; attribution errors in psychiatric diagnosis (halo from appearance). Structured interviews reduce halo effect by standardizing questions and scoring.",
+    "tags": [
+      "social psychology",
+      "halo effect",
+      "person perception"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Learned helplessness (Seligman) is demonstrated when:",
+    "options": [
+      "Animals or humans learn that actions effectively control outcomes and show increased persistence",
+      "Animals or humans experience repeated uncontrollable negative events, leading to passive acceptance of aversive situations even when control becomes possible — linked to depression",
+      "Organisms learn coping strategies to deal with inescapable shocks",
+      "The organism shows immediate adaptation to a stressor"
+    ],
+    "correct": 1,
+    "explanation": "Seligman's learned helplessness (1967): dogs given inescapable shocks → later failed to escape even when they could (shuttle box). Applied to humans: repeated uncontrollable events → cognitive, motivational, and emotional deficits (depression analogue). Depressive cognitive triad (Beck): negative views of self, world, and future. Attributional reformulation: global, stable, internal attributions for failure → helplessness. Treatment: regaining sense of control, cognitive restructuring.",
+    "tags": [
+      "learning",
+      "learned helplessness",
+      "depression"
+    ],
+    "difficulty": "medium"
+  }
+]

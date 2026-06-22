@@ -1,430 +1,431 @@
 [
   {
-    "text": "The concept of 'depersonalization' in dissociative disorders involves:",
+    "text": "Psychoneuroimmunology studies the:",
     "options": [
-      "Amnesia for personal identity",
-      "A sense of unreality or detachment from one's own body or mental processes — feeling like an outside observer of one's own thoughts, feelings, body, or actions; distinct from derealization (surroundings seem unreal)",
-      "Assuming a false identity",
-      "Complete loss of autobiographical memory"
+      "Effect of vitamins on nerve transmission",
+      "Bidirectional relationship between psychological states (stress, mood), the nervous system, and immune function",
+      "The use of psychotropic drugs to modulate immune responses",
+      "Genetic basis of personality traits"
     ],
     "correct": 1,
-    "explanation": "Depersonalization: dissociative symptom — detachment from self (feeling like a robot or watching oneself from outside). Derealization: environment seems unreal, dreamlike, foggy. Both are common in panic attacks, sleep deprivation, cannabis use, and trauma. Depersonalization/derealization disorder (DSM-5): persistent/recurrent episodes with intact reality testing (not psychosis). Distinguish from dissociative identity disorder (multiple distinct personality states) and dissociative amnesia.",
+    "explanation": "Psychoneuroimmunology (PNI): psychological factors (stress, depression, social support) affect immune function via neuroendocrine pathways. Mechanisms: cortisol (from HPA axis) suppresses immune function; sympathetic NS innervates lymphoid tissue; cytokines have receptors in brain (cytokine-induced 'sickness behavior': fatigue, withdrawal, fever, which overlap with depression symptoms). Evidence: stressed students have reduced vaccine response, slower wound healing, higher infection rates.",
     "tags": [
-      "abnormal psychology",
-      "dissociation",
-      "depersonalization"
+      "stress",
+      "psychoneuroimmunology",
+      "health psychology"
     ],
     "difficulty": "hard"
   },
   {
-    "text": "The 'overjustification effect' demonstrates that:",
+    "text": "Social facilitation vs. social loafing — which is correct?",
     "options": [
-      "External rewards always increase intrinsic motivation",
-      "Adding external rewards to intrinsically motivated behaviors CAN reduce intrinsic motivation — people attribute their behavior to the external reward rather than internal interest",
-      "Intrinsic motivation cannot be reduced under any circumstances",
-      "Children require external rewards to learn to enjoy activities"
+      "Both occur in groups and produce the same effect",
+      "Social facilitation: improved performance on well-learned tasks in the presence of others; social loafing: decreased individual effort in group tasks when individual contribution is not identifiable",
+      "Social facilitation occurs only in competitive settings; social loafing only in cooperative settings",
+      "Both result in improved group performance"
     ],
     "correct": 1,
-    "explanation": "Overjustification effect (Lepper, Greene, Nisbett, 1973): children who received expected tangible rewards for drawing (intrinsically enjoyed) showed decreased interest afterward vs. unexpected reward or no reward group. Perception shift: 'I draw to get stickers' (external) replaces 'I draw because I enjoy it' (internal). Applications: avoid using expected, contingent material rewards for activities children already enjoy; praise effort/engagement rather than outcomes for tasks they love.",
-    "tags": [
-      "motivation",
-      "intrinsic motivation",
-      "overjustification effect"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The 'inoculation theory' of attitude change proposes:",
-    "options": [
-      "Exposing people to a weakened form of counterarguments (like a vaccine) makes them more resistant to future persuasive attacks on their beliefs",
-      "Strong counterarguments always change attitudes",
-      "Attitudes formed early in life cannot change",
-      "Persuasion always reduces attitude strength"
-    ],
-    "correct": 0,
-    "explanation": "McGuire's inoculation theory (1964): expose people to weak counterarguments paired with refutations → builds resistance to stronger persuasive attacks. Medical analogy: like a vaccine exposing you to weakened antigen → immune system mounts defense. Applications: media literacy programs, anti-smoking campaigns for adolescents, prebunking misinformation. More effective than simply providing positive arguments for the existing belief.",
+    "explanation": "Social facilitation (Zajonc): others' presence → arousal → enhances dominant response (better at easy tasks, worse at hard ones). Social loafing (Latané): in groups, individual effort decreases when individual outputs are merged (collective tasks). Reduction strategies: make individual contributions identifiable, increase group cohesion, increase task importance, decrease group size. Cultural note: social loafing less common in collectivist cultures.",
     "tags": [
       "social psychology",
-      "attitude change",
-      "inoculation theory"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "In social psychology, 'deindividuation' refers to:",
-    "options": [
-      "Strengthening of individual identity in group contexts",
-      "Loss of self-awareness and personal responsibility in a crowd or anonymous group context → often leads to increased antisocial or impulsive behavior (e.g., mob violence, online trolling)",
-      "The process of leaving a social group",
-      "Positive anonymity that reduces discrimination"
-    ],
-    "correct": 1,
-    "explanation": "Deindividuation (Festinger, Zimbardo): reduced self-awareness in crowds or when anonymous → weakened internal constraints → more extreme behavior. Zimbardo prison experiment: participants assigned roles (guards, prisoners) showed escalating behavior attributed to deindividuation and role demands. Online disinhibition effect: internet anonymity increases deindividuation → cyberbullying, extreme statements. NOT always negative: deindividuation in positive crowd contexts can increase prosocial behavior.",
-    "tags": [
-      "social psychology",
-      "deindividuation",
-      "group behavior"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The difference between primary and secondary deviance (Lemert):",
-    "options": [
-      "Primary deviance = deliberate law-breaking; secondary deviance = accidental norm violation",
-      "Primary deviance = initial acts of norm violation (without internalizing a deviant identity); secondary deviance = deviant behavior that occurs in response to being labeled deviant (person adopts a deviant identity)",
-      "Primary = mild; secondary = serious",
-      "Primary is always more harmful than secondary"
-    ],
-    "correct": 1,
-    "explanation": "Lemert's labeling theory: primary deviance (first offense, occasional norm violation) → society labels the person as deviant → stigma, social rejection → person internalizes the label → secondary deviance (embracing the deviant identity and engaging in more deviance). Master status of deviance overrides other identities. Policy implication: diversion programs for first-time offenders to prevent labeling and reduce secondary deviance.",
-    "tags": [
-      "sociology",
-      "deviance",
-      "labeling theory",
-      "Lemert"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Boomerang effect in persuasion refers to:",
-    "options": [
-      "The increased effectiveness of messages that are repeated multiple times",
-      "When a persuasive message causes the attitude to change in the OPPOSITE direction from the one intended — can occur from perceived manipulation, reactance, or message that is too extreme",
-      "The way persuasion is more effective when coming from a liked source",
-      "The tendency to return to pre-persuasion attitudes after time passes"
-    ],
-    "correct": 1,
-    "explanation": "Boomerang effect: some persuasion attempts backfire. Mechanisms: (1) Psychological reactance (Brehm): people resist when they feel their freedom is threatened — forbidden fruit effect; (2) Perceived manipulation: if persuasion attempts are too obvious, people reject both the message and change attitude away from it; (3) Extreme counterarguments: may make own position more extreme. Also: inoculation strategy itself can produce reactance. Relevant to health messaging (e.g., threatening anti-drug messages sometimes increase drug appeal).",
-    "tags": [
-      "social psychology",
-      "persuasion",
-      "attitude change",
-      "reactance"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Erik Erikson's stage of 'Identity vs. Role Confusion' occurs during:",
-    "options": [
-      "Early childhood (ages 1-3)",
-      "Adolescence (approximately 12-18 years): the central task is forming a coherent sense of personal identity — includes exploring roles, values, and beliefs; failure leads to role confusion or diffusion",
-      "Young adulthood (20s-30s)",
-      "Middle adulthood (40s-50s)"
-    ],
-    "correct": 1,
-    "explanation": "Erikson's Identity vs. Role Confusion (adolescence): psychosocial task is forming an integrated sense of self. Marcia's identity statuses: Identity Achievement (explored and committed), Moratorium (exploring, no commitment yet), Foreclosure (committed without exploration — adopted parents' values), Identity Diffusion (neither exploring nor committed — most maladaptive). Identity exploration in adolescence is normal and healthy; premature closure (foreclosure) can be problematic.",
-    "tags": [
-      "developmental psychology",
-      "Erikson",
-      "identity development"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Fluid intelligence vs. crystallized intelligence (Cattell):",
-    "options": [
-      "Fluid = knowledge stored in memory; crystallized = reasoning speed",
-      "Fluid intelligence = the ability to reason and solve novel problems (peaks in young adulthood, declines with age); crystallized intelligence = accumulated knowledge and vocabulary (remains stable or increases with age through the 60s-70s)",
-      "Both types decline equally with normal aging",
-      "Crystallized intelligence develops in childhood; fluid intelligence only in adulthood"
-    ],
-    "correct": 1,
-    "explanation": "Cattell's two-factor model: Fluid intelligence (Gf): abstract reasoning, pattern recognition, working memory — peaks ~25-30 years, then declines (especially in normal aging and Alzheimer's). Crystallized intelligence (Gc): accumulated knowledge, word knowledge, application of learned skills — remains stable or increases through late adulthood. Practical implication: older adults compensate for fluid decline with crystallized knowledge (expertise). Tests: Raven's Progressive Matrices (fluid); vocabulary tests (crystallized).",
-    "tags": [
-      "cognitive psychology",
-      "intelligence",
-      "aging"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The concept of 'social role' in sociology refers to:",
-    "options": [
-      "A person's innate personality",
-      "The expected behaviors, obligations, and norms associated with a particular social position (status) — e.g., the doctor role carries expectations of competence, confidentiality, and care",
-      "The formal legal title associated with a profession",
-      "A random set of behaviors unrelated to social position"
-    ],
-    "correct": 1,
-    "explanation": "Role: expected behaviors associated with a social status/position. Role conflict: two or more roles have incompatible demands (e.g., parent role conflicts with physician's on-call demands). Role strain: difficulty fulfilling obligations of a single role. Role exit: leaving a major role (retirement, divorce). Role theory is foundational to medical sociology — doctor-patient relationship involves role complementarity, and Parsons' sick role defined patient's role obligations.",
-    "tags": [
-      "sociology",
-      "social roles",
-      "role theory"
+      "social facilitation",
+      "social loafing"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "The phenomenon of 'stereotype threat' (Steele) is best described as a situation where:",
+    "text": "Altruism and prosocial behavior are influenced by:",
     "options": [
-      "Stereotypes are formed about new groups upon first contact",
-      "A member of a stigmatized group performs in a domain where a negative stereotype exists about their group — awareness of the stereotype creates anxiety that can impair performance on the stereotyped task, becoming a self-fulfilling prophecy",
-      "A person is unaware of any stereotype about their group",
-      "Only majority group members feel threatened by stereotypes"
+      "Only genetic factors (kin selection)",
+      "Multiple factors: kin selection (helping genetic relatives), reciprocal altruism (future benefit), empathy, social norms, and situational factors (bystander effect, helping when others are not present)",
+      "Only by social norms and peer pressure",
+      "Solely by mood — happy people always help, sad people never do"
     ],
     "correct": 1,
-    "explanation": "Steele & Aronson (1995): Black students underperformed on verbal tasks when race was made salient (framed as a 'test of verbal ability' vs. 'problem-solving exercise'). Mechanism: stereotype threat → increased self-monitoring, rumination, working memory load → impaired performance. Not limited to race: women in math (Shih), elderly on memory tasks, white men in athletic competitions. Interventions: values affirmation, growth mindset, identity safety.",
+    "explanation": "Prosocial behavior is promoted by: empathy (perspective-taking), good mood, similarity to person in need, perceiving need as real/legitimate, small group/individual presence (not bystander effect), low cost. Evolutionary explanations: kin selection (Hamilton's inclusive fitness — helping relatives helps pass on your genes) and reciprocal altruism (Trivers — help strangers expecting future help in return). Empathy-altruism hypothesis (Batson): true altruistic motivation exists when perspective-taking induces empathy.",
+    "tags": [
+      "social psychology",
+      "altruism",
+      "prosocial behavior"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Stereotype threat (Steele & Aronson) is:",
+    "options": [
+      "The positive effect of positive stereotypes on performance",
+      "The risk of confirming a negative stereotype about one's group as a self-characteristic — anxiety from this threat can impair performance (e.g., women told 'women are worse at math' perform worse on math tests)",
+      "The tendency to stereotype others when threatened",
+      "The same as the Pygmalion effect"
+    ],
+    "correct": 1,
+    "explanation": "Stereotype threat: when aware of a negative group stereotype, members of that group experience anxiety about confirming the stereotype → impairs working memory, increases self-monitoring → worse performance. Evidence: Black college students underperformed on verbal tasks when race was made salient. Interventions: reframing tasks, values affirmation, emphasizing growth mindset, positive role models from one's group.",
     "tags": [
       "social psychology",
       "stereotype threat",
-      "performance"
+      "prejudice"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "In sociology, a 'social institution' refers to:",
+    "text": "Attribution theory distinguishes between:",
     "options": [
-      "Any formal government organization",
-      "A complex, integrated set of social norms organized around the preservation of a basic societal value — examples: family (reproduction, socialization), education (transmit knowledge), religion (meaning, solidarity), economy (resource distribution), government (regulation, protection)",
-      "Only religious organizations",
-      "A temporary organization formed for a specific purpose"
+      "Internal (dispositional) attributions — behavior is caused by personal traits/ability/effort — and external (situational) attributions — behavior is caused by circumstances, luck, or other people",
+      "Implicit and explicit attitudes only",
+      "Positive and negative behaviors only",
+      "Past and future behaviors only"
     ],
-    "correct": 1,
-    "explanation": "Social institutions: relatively stable, recognized patterns of behavior and social structures organized around important social functions. Five core institutions: family, education, religion, economy, government. Each has manifest functions (intended) and latent functions (unintended side effects). Functionalist view: institutions maintain social order. Conflict view: institutions often serve the interests of powerful groups. Examples: medicine as an institution (norms of doctor-patient interaction, medical authority).",
+    "correct": 0,
+    "explanation": "Attribution theory (Heider, Weiner): Internal attributions: ability, effort, personality (stable or unstable). External attributions: task difficulty, luck, environment. Locus of control (Rotter): internal (control one's outcomes) vs. external (outcomes controlled by chance/others). Stability dimension: stable (ability, task difficulty) vs. unstable (effort, luck). Controllability: controllable (effort) vs. uncontrollable (ability, luck).",
     "tags": [
-      "sociology",
-      "social institutions",
-      "functionalism"
+      "social psychology",
+      "attribution theory",
+      "locus of control"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "The social gradient in health refers to:",
+    "text": "The contact hypothesis (Allport) proposes that prejudice can be reduced by:",
     "options": [
-      "The observation that only the very poor have worse health outcomes than the wealthy",
-      "A stepwise relationship between socioeconomic position and health — at every step up the social hierarchy, health outcomes are better (not just a threshold effect for the very poor)",
-      "The geographic variation in health across regions",
-      "The effect of diet and exercise on health across social classes"
+      "Minimizing contact between groups",
+      "Contact between groups under conditions of equal status, cooperative goals, institutional support, and personal interaction — leads to reduced prejudice and stereotyping",
+      "Competitive contact between equal-status groups",
+      "Simply increasing physical proximity between groups"
     ],
     "correct": 1,
-    "explanation": "Whitehall Studies (Marmot): British civil servants at every occupational grade had worse health than those directly above them, even those in secure, above-poverty jobs. The social gradient suggests psychosocial mechanisms beyond just poverty (relative deprivation, control over one's life, status stress). Absolute vs. relative income: income inequality (Gini coefficient) predicts average population health beyond absolute income levels. Implications for health policy: address gradient, not just poverty.",
-    "tags": [
-      "sociology",
-      "social gradient",
-      "health disparities",
-      "Marmot"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Which best describes the 'medically unexplained symptoms' concept and its evolution?",
-    "options": [
-      "Previously called conversion disorder; now somatic symptom disorder in DSM-5; the emphasis shifted from unexplained symptoms to the patient's distress and maladaptive health behaviors",
-      "All medically unexplained symptoms are feigned (malingering)",
-      "Medically unexplained symptoms never have a psychological basis",
-      "Patients with medically unexplained symptoms should receive no medical treatment"
-    ],
-    "correct": 0,
-    "explanation": "DSM-5 shift: eliminated 'not explained by medical condition' criterion (which required ruling out all physical causes — often impossible, and stigmatizing). New focus: excessive health-related thoughts, feelings, and behaviors regardless of medical etiology. Somatic symptom disorder (SSD) + illness anxiety disorder replaced somatization, hypochondriasis, conversion, pain disorder. Functional neurological symptom disorder (conversion): neurological symptoms (paralysis, seizures) inconsistent with known neurological disease, often associated with trauma/stress.",
-    "tags": [
-      "abnormal psychology",
-      "somatic symptoms",
-      "DSM-5 changes"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "In a research context, informed consent requires:",
-    "options": [
-      "Only the researcher's ethical intentions, not formal documentation",
-      "Disclosure of study purpose, risks, benefits, alternatives, and right to withdraw; voluntary agreement by participants with capacity to consent; documentation — ongoing (can be withdrawn)",
-      "A one-time signature and no further obligation to participants",
-      "That participants are never deceived under any circumstances"
-    ],
-    "correct": 1,
-    "explanation": "Informed consent elements (Belmont Report): (1) Disclosure: full information about study procedures, risks, benefits, alternatives to participation; (2) Comprehension: information must be understandable to the participant; (3) Voluntariness: free from coercion or undue influence; (4) Capacity: participants must have decision-making ability. Exceptions: deception allowed if no alternative and debriefing occurs. Vulnerable populations: additional protections (minors need parental consent + child assent, prisoners, pregnant women, cognitively impaired).",
-    "tags": [
-      "research methods",
-      "ethics",
-      "informed consent"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Selection bias in research occurs when:",
-    "options": [
-      "Participants are randomly assigned to treatment conditions",
-      "The sample is not representative of the target population because of systematic differences between those who participate and those who don't — limits external validity (generalizability)",
-      "The researcher measures the wrong variable",
-      "The statistical analysis is incorrectly performed"
-    ],
-    "correct": 1,
-    "explanation": "Selection bias: people who volunteer for studies differ from those who don't (volunteers tend to be healthier, more educated, more motivated). Healthy worker effect: employed workers healthier than general population. Survival bias: only survivors are studied (overestimates treatment success). Berkson's bias: hospital patients differ from community population (bias in hospital-based case-control studies). Minimize with: random sampling, high response rates, comparing early vs. late responders.",
-    "tags": [
-      "research methods",
-      "bias",
-      "external validity"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "A cross-sectional study vs. a longitudinal study:",
-    "options": [
-      "Both measure the same participants over time",
-      "Cross-sectional: measures multiple groups at ONE point in time (efficient but confounds age and cohort effects); longitudinal: follows the same individuals over time (can establish temporal sequence but expensive, attrition)",
-      "Cross-sectional studies require random assignment; longitudinal do not",
-      "Longitudinal studies cannot establish causal relationships"
-    ],
-    "correct": 1,
-    "explanation": "Cross-sectional (one snapshot): compares people of different ages at the same time — efficient and cheap but conflates age effects with cohort effects (e.g., older adults having less education may reflect cohort, not aging). Longitudinal (follows same people over time): can track development and establish temporal sequence; but attrition (dropout), practice effects, historical events affect results. Sequential design: combines both, separates age, cohort, and time-of-measurement effects.",
-    "tags": [
-      "research methods",
-      "study design",
-      "developmental psychology"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which psychological disorder is most associated with ego-syntonic thinking?",
-    "options": [
-      "Major depressive disorder",
-      "Anorexia nervosa — patients often do not recognize their restriction behaviors as problematic (ego-syntonic: behavior is consistent with self-concept and values); contrasts with ego-dystonic disorders where symptoms are experienced as alien to self (e.g., OCD obsessions)",
-      "Obsessive-compulsive disorder (OCD)",
-      "Generalized anxiety disorder (GAD)"
-    ],
-    "correct": 1,
-    "explanation": "Ego-syntonic: behavior/thoughts align with one's self-image and values (patient doesn't see it as a problem). Anorexia nervosa: restrictive eating and distorted body image are often ego-syntonic → reduced treatment motivation, high treatment resistance. Ego-dystonic: behavior/thoughts conflict with self-image (patient experiences them as alien and unwanted). OCD: obsessions are typically ego-dystonic (patient knows intrusive thoughts are irrational). Important distinction for understanding motivation and treatment engagement.",
-    "tags": [
-      "abnormal psychology",
-      "ego-syntonic",
-      "eating disorders"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "The Cannon-Bard theory of emotion differs from James-Lange in that:",
-    "options": [
-      "Cannon-Bard proposes that physiological arousal precedes emotion",
-      "Cannon-Bard proposes that the thalamus simultaneously sends signals to both the cortex (producing subjective emotion) AND the body (producing physiological arousal) — emotion and arousal are simultaneous and independent, not sequential",
-      "Cannon-Bard proposes no physiological component to emotion",
-      "Both theories are identical but use different terminology"
-    ],
-    "correct": 1,
-    "explanation": "Cannon-Bard: thalamus acts as relay — splits input to cortex (emotion experience) and hypothalamus/body (physiological arousal) simultaneously. Critiques James-Lange: (1) Visceral responses are too slow for fast emotions; (2) Artificially induced arousal doesn't always produce emotion; (3) Same physiological arousal for different emotions. Evidence for James-Lange: facial feedback hypothesis (Strack: holding pencil in teeth → better mood from smile muscles). Two-factor theory: combines both, adds cognitive labeling.",
-    "tags": [
-      "emotion",
-      "Cannon-Bard theory",
-      "theories of emotion"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Ecological validity in research refers to:",
-    "options": [
-      "The degree to which results can be applied to real-world settings and everyday behavior — lab findings may not generalize if the controlled experimental environment differs too much from natural contexts",
-      "The use of environmentally friendly research methods",
-      "The accuracy of measurements of biological variables",
-      "The accuracy of statistical analysis"
-    ],
-    "correct": 0,
-    "explanation": "Ecological validity: a component of external validity — whether experimental conditions reflect real-world conditions. Laboratory experiments: high internal validity (control confounds), but low ecological validity. Naturalistic observation/field studies: higher ecological validity but lower internal validity (can't control extraneous variables). Example: Milgram's laboratory obedience paradigm — ecological validity questioned (real authority situations differ). Trade-off between internal and ecological validity is fundamental in research design.",
-    "tags": [
-      "research methods",
-      "ecological validity",
-      "external validity"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The five-factor model (Big Five) has been shown in cross-cultural research to:",
-    "options": [
-      "Apply only to Western cultures (individualistic societies)",
-      "Show a high degree of cross-cultural consistency, suggesting some biological basis, though factor scores differ across cultures",
-      "Show completely different factor structures in different cultures",
-      "Apply only to adults and not children or adolescents"
-    ],
-    "correct": 1,
-    "explanation": "Cross-cultural Big Five research: (1) The five-factor structure replicates across dozens of cultures (supporting universality); (2) Mean levels of traits differ across cultures (e.g., some cultures score higher on Agreeableness); (3) Evolutionary explanations suggest adaptive significance of personality variation; (4) Heritability studies (twins) suggest ~40-60% heritability for each factor. Critiques: most research uses WEIRD samples (Western, Educated, Industrialized, Rich, Democratic).",
-    "tags": [
-      "personality",
-      "Big Five",
-      "cross-cultural"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Social norms theory in health promotion suggests that:",
-    "options": [
-      "People always overestimate healthy behaviors in their peers",
-      "People often misperceive the norm (e.g., overestimating how much peers drink), and this misperception itself leads to unhealthy behavior — correcting misperceptions can reduce unhealthy behavior",
-      "Norms have no effect on health behaviors",
-      "Peer pressure is the only mechanism by which norms affect behavior"
-    ],
-    "correct": 1,
-    "explanation": "Social norms approach (Perkins & Berkowitz): most people perceive peers as engaging in unhealthy behaviors more than they actually do. This misperception → normative influence → people adopt or maintain unhealthy behaviors to 'fit in.' E.g., college students overestimate peers' alcohol consumption → drink more to match perceived norm. Intervention: provide accurate statistics about actual (typically moderate) peer behavior → reduces misperceived pressure. Used in campus health programs.",
+    "explanation": "Allport's contact hypothesis (1954): prejudice decreases when intergroup contact involves: (1) equal status between groups; (2) common/cooperative goals; (3) interdependence (jigsaw classroom); (4) institutional support (laws, authority figures). Without these conditions, contact can increase prejudice. Jigsaw classroom (Aronson): students from different groups depend on each other for information → reduced racial prejudice in desegregated schools.",
     "tags": [
       "social psychology",
-      "health behavior",
-      "social norms"
+      "prejudice",
+      "contact hypothesis"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "The distinction between incidence and prevalence in epidemiology:",
+    "text": "Socialization is defined as:",
     "options": [
-      "Incidence = all current cases; prevalence = new cases only",
-      "Incidence = number of NEW cases of a condition in a population during a specified time period; prevalence = total number of EXISTING cases (new + old) at a given time or during a period",
-      "Both terms mean the same thing in epidemiology",
-      "Incidence is used for chronic diseases; prevalence for acute diseases"
+      "The biological development of the individual",
+      "The process by which individuals learn and internalize the values, beliefs, norms, and social skills of their culture and groups",
+      "The study of social behavior in groups",
+      "The process of building social networks"
     ],
     "correct": 1,
-    "explanation": "Incidence: rate of new case development (numerator = new cases only). Prevalence: proportion of population currently affected (numerator = all existing cases). Relationship: prevalence ≈ incidence × duration of illness. High incidence with short duration → low prevalence (e.g., influenza). Low incidence with long duration → high prevalence (e.g., diabetes, HIV in treatment era). Relevant to MCAT: understanding disease burden, screening program design, resource allocation.",
-    "tags": [
-      "research methods",
-      "epidemiology",
-      "incidence vs prevalence"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which type of memory is most impaired in Alzheimer's disease in the early stages?",
-    "options": [
-      "Procedural memory (motor skills — relatively preserved in early AD)",
-      "Episodic memory — memory for recent personal experiences and events (hippocampus-dependent, affected earliest in AD due to hippocampal atrophy); semantic and procedural memory are relatively preserved longer",
-      "Semantic memory for facts (affected before episodic in AD)",
-      "Working memory for numbers (primarily affected in frontal lobe disorders)"
-    ],
-    "correct": 1,
-    "explanation": "Early Alzheimer's disease: episodic memory impairment most prominent (can't form new memories, forget recent events), due to hippocampal neurodegeneration (tau tangles, amyloid plaques). Semantic memory (general knowledge) affected later. Procedural memory (how to ride a bike) relatively preserved until late stages. Language: early aphasia can occur (anomia). Executive function: impaired in frontal lobe involvement. Imaging: PET shows reduced metabolic activity in temporal-parietal regions.",
-    "tags": [
-      "memory",
-      "neuroscience",
-      "Alzheimer's disease"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Weber's three components of social class (as opposed to Marx's two-class model) include:",
-    "options": [
-      "Race, gender, and age",
-      "Class (economic: wealth and income), Status (social prestige and honor), and Party (power: ability to achieve goals despite opposition)",
-      "Bourgeoisie, proletariat, and lumpenproletariat",
-      "Education, occupation, and religion only"
-    ],
-    "correct": 1,
-    "explanation": "Max Weber's multidimensional stratification: (1) Class: economic position — ownership of property and market situation; (2) Status: social honor or prestige — not always aligned with economic class (e.g., a poor college professor may have high status); (3) Party: power — ability to achieve goals in competitive situations (political parties, organizations). Marx focused on economic class (means of production) as primary; Weber showed stratification is more complex and multidimensional.",
+    "explanation": "Socialization: life-long process of internalization of culture. Agents of socialization: (1) Family (primary agent, earliest influence, language, basic values); (2) Peers (especially in adolescence); (3) Schools (formal rules, civic values, hidden curriculum); (4) Media (norms, consumerism, gender roles); (5) Religion (moral values, community). Anticipatory socialization: preparing for future roles. Re-socialization: total institutions (prisons, military) strip existing identity and replace with new one.",
     "tags": [
       "sociology",
-      "social stratification",
-      "Weber"
+      "socialization",
+      "culture"
     ],
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
-    "text": "The concept of 'resocialization' in total institutions occurs when:",
+    "text": "Total institutions (Goffman) are characterized by:",
     "options": [
-      "Individuals reinforce their existing social identities",
-      "Previous identity is systematically stripped away (mortification of self) and replaced with a new institutional identity — occurs in military boot camps, prisons, residential psychiatric facilities, and cults",
-      "Individuals freely choose to adopt new social roles",
-      "Cultural transmission occurs through informal learning"
+      "High levels of personal freedom and autonomy",
+      "Complete control over all aspects of residents' lives — their work, sleep, and play all occur in the same place under the same authority, with the goal of resocialization (prisons, military boot camps, mental hospitals, monasteries)",
+      "Minimal social interaction",
+      "Voluntary membership and easy exit"
     ],
     "correct": 1,
-    "explanation": "Goffman (Asylums, 1961): total institutions resocialize through mortification — degradation ceremonies, stripping personal identity markers (civilian clothing replaced with uniform, name replaced with number), loss of autonomy over daily schedule. Purpose: create conformity to institutional demands. Analogous processes in medical education (medical students learning to depersonalize to cope) and religious conversion experiences.",
+    "explanation": "Goffman's total institutions: a place of residence and work where a large number of like-situated individuals are cut off from the wider society for an appreciable period of time. Characteristics: all aspects of life conducted in same place and under same authority; daily activities done with large batch of others; activities scheduled; the whole system serves the official aims of the institution. Process: stripping of old identity (mortification), resocialization into new identity.",
     "tags": [
       "sociology",
-      "resocialization",
+      "total institutions",
       "Goffman"
     ],
     "difficulty": "medium"
+  },
+  {
+    "text": "The sociological imagination (C. Wright Mills) is the ability to:",
+    "options": [
+      "Memorize sociological theories and apply them to tests",
+      "See the relationship between individual experiences and broader social forces — personal troubles are connected to public issues",
+      "Use imagination to design social policies",
+      "Create new sociological theories from personal experience"
+    ],
+    "correct": 1,
+    "explanation": "Mills (1959): The Sociological Imagination allows one to see personal biography in the context of history and social structure. E.g., unemployment is not just a personal failure (lack of skills/effort) but also reflects structural issues (recession, deindustrialization, discrimination). This perspective shifts from blaming individuals to examining social structures and institutions. Core to the sociological perspective.",
+    "tags": [
+      "sociology",
+      "sociological imagination",
+      "C. Wright Mills"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Social capital is negatively affected by:",
+    "options": [
+      "Strong family ties and community organizations",
+      "Residential segregation, persistent poverty, and social exclusion, which limit networking opportunities and access to resources for marginalized groups",
+      "High educational attainment in a community",
+      "Dense social networks with bridging capital"
+    ],
+    "correct": 1,
+    "explanation": "Bridging social capital (connections across groups) is particularly valuable for socioeconomic mobility. Segregation and exclusion reduce bridging capital for disadvantaged groups — they have bonding capital (strong ingroup ties) but lack bridging capital to access jobs, education, and political power. Wilson: concentrated poverty → social isolation → reduced social capital → perpetuation of poverty. Important for understanding health disparities.",
+    "tags": [
+      "sociology",
+      "social capital",
+      "inequality"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Demographic transition theory describes:",
+    "options": [
+      "The movement of populations across geographic boundaries",
+      "The historical shift from high birth rates and high death rates (pre-industrial) to low birth rates and low death rates (industrial/post-industrial societies)",
+      "The theory that population grows exponentially (Malthus)",
+      "Random fluctuations in population size"
+    ],
+    "correct": 1,
+    "explanation": "Demographic transition: Stage 1 (pre-industrial): high birth + death rates, stable population. Stage 2 (developing): death rates fall (sanitation, medicine), birth rates remain high → population explosion. Stage 3 (industrializing): birth rates begin to fall. Stage 4 (developed/post-industrial): low birth + low death rates, stable (or declining) population. Key drivers: industrialization, urbanization, women's education, contraception, reduced child mortality. Many developed nations now have sub-replacement fertility (<2.1).",
+    "tags": [
+      "sociology",
+      "demographics",
+      "demographic transition"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Social networks in epidemiology are important because:",
+    "options": [
+      "They have no influence on health outcomes",
+      "Network structure shapes health outcomes — diseases spread through social networks; health behaviors (obesity, smoking, happiness) cluster in networks; social isolation increases mortality risk",
+      "Only biological factors affect disease spread",
+      "Social networks only matter for mental health, not physical health"
+    ],
+    "correct": 1,
+    "explanation": "Christakis & Fowler: health behaviors and states cluster in social networks: obesity, smoking cessation, happiness, and depression spread through social connections up to 3 degrees of separation. Mechanisms: peer influence/social norms, social support (buffer against stress), information spread. Social isolation increases mortality by ~50% (comparable to smoking). Network analysis used in contact tracing (COVID-19), STI transmission modeling.",
+    "tags": [
+      "sociology",
+      "social networks",
+      "health disparities"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Relative deprivation theory explains:",
+    "options": [
+      "Absolute poverty is the main driver of discontent",
+      "People feel deprived not based on absolute conditions but by comparing themselves to a reference group — feeling worse off than peers leads to dissatisfaction and social unrest",
+      "Deprivation only affects material resources, not psychological well-being",
+      "Wealthy people are never dissatisfied"
+    ],
+    "correct": 1,
+    "explanation": "Relative deprivation: comparison with a reference group that makes one feel disadvantaged. E.g., a factory worker may feel fine earning $50,000 until coworkers earn $80,000 — relative income matters more than absolute. Ted Gurr: relative deprivation drives political violence and social movements (people revolt not from absolute misery but from gap between expectations and reality). Also relevant to mental health: income inequality (not just poverty) predicts worse health outcomes (Wilkinson & Pickett).",
+    "tags": [
+      "sociology",
+      "relative deprivation",
+      "inequality"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Immigration's effect on health — the 'healthy immigrant effect' refers to:",
+    "options": [
+      "Immigrants always have worse health than native-born populations",
+      "Recent immigrants often have better health than comparable native-born individuals of similar SES — health advantage erodes over time as immigrants adopt host country behaviors/diet/lifestyle",
+      "Immigrants have identical health outcomes to native populations",
+      "Immigration increases disease transmission to native populations"
+    ],
+    "correct": 1,
+    "explanation": "Healthy immigrant effect (Latino paradox): recent Latino immigrants have better health outcomes (especially infant mortality, cardiovascular disease) than non-Hispanic whites, despite lower SES. Explanations: selection (healthy people are more likely to immigrate), cultural protective factors (family cohesion, dietary habits, low smoking rates in country of origin). Assimilation paradox: as immigrants acculturate, they adopt less healthy American behaviors → health advantage disappears.",
+    "tags": [
+      "sociology",
+      "immigration",
+      "health disparities"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Structural factors contributing to health disparities include all EXCEPT:",
+    "options": [
+      "Residential segregation limiting access to healthy food (food deserts)",
+      "Wealth disparities affecting ability to afford health insurance",
+      "Implicit bias among healthcare providers",
+      "Genetic differences causing all differences in disease rates between racial groups"
+    ],
+    "correct": 3,
+    "explanation": "Health disparities are primarily structural and social, not genetic. Structural factors: residential segregation (limits neighborhood resources), wealth gaps (affect insurance, food access, housing quality), environmental exposures (proximity to pollution), healthcare access, discrimination (chronic stress via allostatic load), implicit bias by providers (less pain medication prescribed to Black patients). Genetic differences explain very little variance in health disparities — 99.9% of DNA is identical across all humans.",
+    "tags": [
+      "sociology",
+      "health disparities",
+      "structural factors"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The 'hidden curriculum' in education refers to:",
+    "options": [
+      "The official academic curriculum taught in classrooms",
+      "The implicit social norms, values, and behaviors taught in schools beyond the official academic content (e.g., obedience to authority, gender roles, class-appropriate aspirations)",
+      "Secret materials not available to all students",
+      "The curriculum used in private schools"
+    ],
+    "correct": 1,
+    "explanation": "Hidden curriculum (Bowles & Gintis, Illich): schools teach more than academics — they instill values and behaviors that prepare students for their position in the social hierarchy. Working-class schools emphasize obedience and rule-following; elite schools emphasize initiative and creativity. Schools reproduce social class by providing different cultural capital and connecting students to different social networks. Tracking (placing students in academic vs. vocational tracks) also reproduces inequality.",
+    "tags": [
+      "sociology",
+      "education",
+      "hidden curriculum"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which best describes the 'sick role' critique offered by conflict theorists?",
+    "options": [
+      "They fully agree with Parsons' sick role concept",
+      "Conflict theorists argue that who gets to claim the sick role (and receive its benefits/exemptions) is shaped by power and social position — wealthy patients can more easily claim and maintain the sick role than poor workers or marginalized groups",
+      "The sick role gives too many rights to patients",
+      "The sick role is only applicable in developed countries"
+    ],
+    "correct": 1,
+    "explanation": "Parsons' sick role assumes equal access to the designation of legitimately 'ill' and equal ability to rest and seek care. Conflict critique: (1) Power shapes who is believed when claiming illness; (2) Workers with no paid sick leave cannot take sick role; (3) Race and gender affect how seriously symptoms are taken by providers; (4) Medicalization can be a form of social control. Women's pain historically dismissed as psychological; similar biases for patients of color (e.g., pain management disparities).",
+    "tags": [
+      "sociology",
+      "sick role",
+      "conflict theory",
+      "medical sociology"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Population aging (demographic trend in developed nations) has consequences including:",
+    "options": [
+      "Decreased healthcare spending",
+      "Increased burden on social welfare systems (pensions, healthcare for elderly), potential workforce shortages, and intergenerational equity concerns",
+      "Decrease in chronic disease prevalence",
+      "Uniform increase in fertility rates"
+    ],
+    "correct": 1,
+    "explanation": "Population aging (increased proportion of elderly) results from: declining fertility + increased longevity. Consequences: (1) Increased demand for healthcare (chronic disease management, long-term care); (2) Strain on pension systems (fewer workers per retiree); (3) Potential workforce shortages; (4) Political consequences (older voters have different priorities); (5) 'Silver economy' opportunities. Many solutions proposed: immigration to bolster workforce, delayed retirement age, improved elder care systems.",
+    "tags": [
+      "sociology",
+      "demographics",
+      "population aging"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Cultural capital (Bourdieu) includes:",
+    "options": [
+      "Financial assets and investments",
+      "Knowledge, skills, behaviors, tastes, and credentials — especially middle/upper-class cultural knowledge — that confer status and access to social opportunities",
+      "Social networks and relationships",
+      "Physical attributes valued in a culture"
+    ],
+    "correct": 1,
+    "explanation": "Bourdieu's forms of capital: (1) Economic capital: financial resources; (2) Social capital: network of relationships; (3) Cultural capital: cultural knowledge, education, tastes, and credentials. Cultural capital exists in three forms: embodied (dispositions, ways of speaking), objectified (cultural goods), institutionalized (academic credentials). Schools reward middle/upper-class cultural capital → reproduce class advantage under appearance of meritocracy.",
+    "tags": [
+      "sociology",
+      "cultural capital",
+      "Bourdieu"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Social control theory (Hirschi) suggests that people conform because of:",
+    "options": [
+      "Fear of legal punishment alone",
+      "Social bonds to conventional society: attachment (to people and institutions), commitment (investment in conventional activities), involvement (in conventional activities), and belief (in moral validity of law)",
+      "Inherent goodness in human nature",
+      "Successful socialization removing all criminal impulses"
+    ],
+    "correct": 1,
+    "explanation": "Hirschi's social bond theory (1969): deviance is the DEFAULT — people refrain from it because of bonds. The four bonds: Attachment (caring about others' opinions); Commitment (stake in conformity — education, career investments); Involvement (time spent in conventional activities leaves less time for deviance); Belief (respect for the law and moral norms). Weak bonds → higher likelihood of deviance. Explains why well-bonded teens commit less crime.",
+    "tags": [
+      "sociology",
+      "social control theory",
+      "Hirschi"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The sociological concept of 'anomie' (Durkheim, Merton) refers to:",
+    "options": [
+      "Strong social integration and norm adherence",
+      "A breakdown of social norms and values, leaving individuals without moral guidance — associated with rapid social change, inequality, and increased suicide rates (Durkheim) or deviance (Merton)",
+      "Excessive social regulation",
+      "A state of total social harmony"
+    ],
+    "correct": 1,
+    "explanation": "Durkheim's anomie: normlessness resulting from rapid social change (e.g., during economic crises) → increased suicide rates (anomic suicide). Merton's anomie: gap between culturally prescribed goals and the means to achieve them → various forms of deviance (innovation, retreatism, rebellion). Contemporary application: rapid globalization and economic disruption create anomic conditions. Social integration is protective against anomic suicide.",
+    "tags": [
+      "sociology",
+      "anomie",
+      "Durkheim",
+      "Merton"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which best describes Foucault's concept of biopower?",
+    "options": [
+      "The biological power of immune systems to fight disease",
+      "The mechanisms by which modern states regulate populations through control over biological life — health, sexuality, fertility, and populations through medicine, surveillance, public health, and statistics",
+      "The power of religious institutions over individual health decisions",
+      "Political power derived from military strength"
+    ],
+    "correct": 1,
+    "explanation": "Foucault's biopower: modern governance operates through disciplining individual bodies (anatomo-politics: clinical medicine, individual health behaviors) and regulating populations (biopolitics: public health, demography, reproduction). Medicine functions as a form of social control by pathologizing certain behaviors and bodies. Relevant to MCAT P/S: medicalization, surveillance in healthcare, health policy, and how medical authority shapes social norms.",
+    "tags": [
+      "sociology",
+      "Foucault",
+      "biopower",
+      "medical sociology"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Assimilation vs. multiculturalism as approaches to immigrant integration:",
+    "options": [
+      "Both require immigrants to abandon their cultural practices completely",
+      "Assimilation: immigrants adopt the dominant culture's norms, language, and values; multiculturalism (cultural pluralism): different groups maintain their distinct cultures within a shared society — debate about which better promotes social cohesion and immigrant well-being",
+      "They are identical approaches with different names",
+      "Multiculturalism requires immigrants to assimilate rapidly"
+    ],
+    "correct": 1,
+    "explanation": "Cultural assimilation: 'melting pot' metaphor — immigrants merge into dominant culture over generations. Segmented assimilation: different immigrant groups assimilate into different segments of society (some into middle class, some into urban underclass). Multiculturalism: 'salad bowl' — cultural differences maintained and celebrated alongside civic participation. Evidence on immigrant health: acculturation (assimilation) often worsens health outcomes (healthy immigrant effect).",
+    "tags": [
+      "sociology",
+      "immigration",
+      "assimilation",
+      "multiculturalism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In research methods, the independent variable (IV) and dependent variable (DV) are:",
+    "options": [
+      "IV = the measured outcome; DV = the manipulated factor",
+      "IV = the factor manipulated by the researcher; DV = the outcome measured to assess the effect of the IV",
+      "Both are measured but neither is manipulated",
+      "IV and DV are identical in observational studies"
+    ],
+    "correct": 1,
+    "explanation": "Experimental design: IV (cause) is manipulated/controlled by researcher. DV (effect) is measured to assess impact of IV. Control group: not exposed to IV (allows comparison). Random assignment: participants randomly assigned to conditions (controls for confounding variables). Internal validity: confidence that IV caused DV. External validity: generalizability to real world. Confounding variable: third variable that correlates with both IV and DV.",
+    "tags": [
+      "research methods",
+      "experimental design",
+      "variables"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A correlation coefficient of r = −0.85 indicates:",
+    "options": [
+      "A weak positive relationship",
+      "A strong negative relationship (as one variable increases, the other strongly tends to decrease)",
+      "No relationship",
+      "A perfect negative relationship"
+    ],
+    "correct": 1,
+    "explanation": "Correlation coefficient r ranges from −1 to +1. r = +1: perfect positive correlation; r = 0: no linear relationship; r = −1: perfect negative correlation. r = −0.85: strong negative correlation. Note: correlation does NOT imply causation. Third variable problem: a lurking variable may cause both. Reverse causation: direction of causality may be opposite to assumption. r² = coefficient of determination (proportion of variance explained).",
+    "tags": [
+      "research methods",
+      "statistics",
+      "correlation"
+    ],
+    "difficulty": "easy"
   }
 ]

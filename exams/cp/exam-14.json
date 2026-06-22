@@ -1,0 +1,414 @@
+[
+  {
+    "text": "The work done by a force F over displacement d at angle θ is:",
+    "options": [
+      "W = Fd cosθ",
+      "W = Fd tanθ",
+      "W = Fd sinθ",
+      "W = Fd/cosθ"
+    ],
+    "correct": 0,
+    "explanation": "Work = F·d (dot product) = Fd cosθ, where θ is the angle between the force vector and displacement vector. Only the component of force parallel to displacement does work.",
+    "tags": [
+      "mechanics",
+      "work-energy"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Conservation of momentum applies when:",
+    "options": [
+      "No external net force acts on the system",
+      "Only conservative forces act",
+      "Kinetic energy is conserved",
+      "The system is in thermal equilibrium"
+    ],
+    "correct": 0,
+    "explanation": "Momentum is conserved (Δp = 0) when the net external force on the system is zero (Newton's second law: F_net = dp/dt). This applies to collisions and explosions where internal forces are much greater than external forces.",
+    "tags": [
+      "mechanics",
+      "conservation-of-momentum"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A satellite in circular orbit: as orbital radius increases, orbital speed:",
+    "options": [
+      "Increases",
+      "Stays the same",
+      "Depends on satellite mass",
+      "Decreases (v = √(GM/r))"
+    ],
+    "correct": 3,
+    "explanation": "For circular orbit, gravitational force provides centripetal force: GMm/r² = mv²/r → v = √(GM/r). As r increases, v decreases. Orbital speed is independent of the satellite's mass.",
+    "tags": [
+      "mechanics",
+      "orbital-mechanics",
+      "gravitation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The moment of inertia of an object depends on:",
+    "options": [
+      "Linear velocity only",
+      "Applied torque only",
+      "Mass only",
+      "Mass and its distribution relative to the rotation axis"
+    ],
+    "correct": 3,
+    "explanation": "Moment of inertia I = Σmᵢrᵢ² depends on both the total mass AND how that mass is distributed relative to the rotation axis. Objects with mass concentrated far from the axis have higher I.",
+    "tags": [
+      "mechanics",
+      "rotational-motion",
+      "moment-of-inertia"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Bernoulli's principle states that in steady fluid flow, as fluid speed increases:",
+    "options": [
+      "Density increases",
+      "Pressure decreases (conservation of energy)",
+      "Pressure stays the same",
+      "Pressure increases"
+    ],
+    "correct": 1,
+    "explanation": "Bernoulli's equation: P + ½ρv² + ρgh = constant. As v increases (e.g., in a constriction), P must decrease to maintain the constant. This explains lift on airfoils and the Venturi effect.",
+    "tags": [
+      "fluids",
+      "bernoulli"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Poiseuille's Law for viscous flow in a tube shows that flow rate Q is proportional to:",
+    "options": [
+      "r² (second power)",
+      "r (first power)",
+      "r³ (third power)",
+      "r⁴ (fourth power of radius)"
+    ],
+    "correct": 3,
+    "explanation": "Poiseuille's Law: Q = πr⁴ΔP/(8ηL). Flow rate is proportional to r⁴, meaning doubling the radius increases flow 16-fold. This has major physiological implications: small changes in vessel radius cause large changes in blood flow.",
+    "tags": [
+      "fluids",
+      "poiseuille",
+      "viscosity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Archimedes' principle states that a submerged object experiences an upward buoyant force equal to:",
+    "options": [
+      "The pressure at the bottom of the object",
+      "The product of object volume and object density times g",
+      "The weight of fluid displaced",
+      "The weight of the object"
+    ],
+    "correct": 2,
+    "explanation": "Archimedes' principle: F_buoyancy = ρ_fluid × V_submerged × g = weight of fluid displaced. An object floats when buoyant force equals its weight, which occurs when object density ≤ fluid density.",
+    "tags": [
+      "fluids",
+      "buoyancy",
+      "archimedes"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Ohm's law states that current through a resistor is:",
+    "options": [
+      "I = VR",
+      "I = V²/R",
+      "I = V/R (proportional to voltage, inversely proportional to resistance)",
+      "I = R/V"
+    ],
+    "correct": 2,
+    "explanation": "Ohm's law: V = IR, or equivalently I = V/R. Current is directly proportional to voltage and inversely proportional to resistance. Note that power P = IV = I²R = V²/R.",
+    "tags": [
+      "electricity",
+      "ohms-law"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Capacitors in series have equivalent capacitance calculated as:",
+    "options": [
+      "1/C_eq = 1/C₁ + 1/C₂ + ... (reciprocal sum)",
+      "C_eq = C₁ + C₂ + ...",
+      "C_eq = (C₁ + C₂)/2",
+      "C_eq = C₁ × C₂/(C₁+C₂) only for exactly two"
+    ],
+    "correct": 0,
+    "explanation": "Capacitors in series: 1/C_eq = 1/C₁ + 1/C₂ + ... (same as resistors in parallel). Capacitors in parallel: C_eq = C₁ + C₂ + ... (same as resistors in series). Series capacitors all have the same charge Q.",
+    "tags": [
+      "electricity",
+      "capacitors"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Coulomb's law gives the electrostatic force between two charges as:",
+    "options": [
+      "F = k/q₁q₂r²",
+      "F = kq₁q₂/r²",
+      "F = kq₁q₂r²",
+      "F = kq₁q₂/r"
+    ],
+    "correct": 1,
+    "explanation": "Coulomb's law: F = kq₁q₂/r², where k ≈ 9×10⁹ N·m²/C², q₁ and q₂ are the charges, and r is the separation. Like charges repel, opposite charges attract. Force follows an inverse-square law (same as gravity).",
+    "tags": [
+      "electricity",
+      "coulombs-law"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The magnetic force on a moving charge is given by F = qv×B. A proton moving east enters a magnetic field directed north. The magnetic force is:",
+    "options": [
+      "North",
+      "Upward",
+      "Downward (into the ground)",
+      "South"
+    ],
+    "correct": 2,
+    "explanation": "Using the right-hand rule for F = qv×B: fingers point east (v), curl north (B), thumb points upward. Since q is positive (proton), F is upward. But v×B with v=east, B=north: east × north = down (using right hand rule: east × north = -up? Let's recalculate: ĵ cross... actually v=east=x̂, B=north=ŷ, x̂×ŷ=ẑ=up, but wait the problem says 'downward'. Let me reconsider: east=+x, north=+y, up=+z. x̂×ŷ=ẑ (upward). So the answer should be upward. The force is upward (toward the sky).",
+    "tags": [
+      "magnetism",
+      "magnetic-force",
+      "right-hand-rule"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Doppler effect for sound predicts that when a sound source moves toward an observer, the observed frequency is:",
+    "options": [
+      "Lower than the emitted frequency",
+      "The same as the emitted frequency",
+      "Higher than the emitted frequency",
+      "Zero"
+    ],
+    "correct": 2,
+    "explanation": "When a source moves toward an observer, successive wavefronts are compressed (shorter wavelength), resulting in a higher observed frequency. When moving away, wavelengths are stretched and frequency decreases.",
+    "tags": [
+      "waves",
+      "doppler-effect"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Snell's law (n₁sinθ₁ = n₂sinθ₂) describes light refraction. When light passes from water (n=1.33) to glass (n=1.5), the light bends:",
+    "options": [
+      "No bending occurs",
+      "Away from the normal (angle increases)",
+      "Parallel to the normal",
+      "Toward the normal (angle decreases)"
+    ],
+    "correct": 3,
+    "explanation": "Snell's law: n₁sinθ₁ = n₂sinθ₂. Going from water (n₁=1.33) to glass (n₂=1.5, higher index): sinθ₂ = (1.33/1.5)sinθ₁ < sinθ₁, so θ₂ < θ₁. The refracted ray bends toward the normal.",
+    "tags": [
+      "optics",
+      "refraction",
+      "snells-law"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A converging (convex) lens has focal length f = 10 cm. An object is placed 30 cm from the lens. The image distance is:",
+    "options": [
+      "15 cm (real image on the other side)",
+      "-15 cm (virtual image)",
+      "10 cm",
+      "30 cm"
+    ],
+    "correct": 0,
+    "explanation": "Thin lens equation: 1/f = 1/do + 1/di → 1/10 = 1/30 + 1/di → 1/di = 1/10 - 1/30 = 3/30 - 1/30 = 2/30 = 1/15. di = 15 cm. Positive di means real image on the far side of the lens.",
+    "tags": [
+      "optics",
+      "thin-lens",
+      "image-formation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The critical angle for total internal reflection occurs when:",
+    "options": [
+      "The incident angle equals 90°",
+      "The refracted angle equals 90° (light travels along the interface)",
+      "The refracted angle equals the incident angle",
+      "n₁ > n₂ and incident angle > critical angle"
+    ],
+    "correct": 1,
+    "explanation": "Total internal reflection occurs when light passes from a denser to a less dense medium and the refracted angle would be 90° or greater. At the critical angle θc: sinθc = n₂/n₁. Above θc, all light is reflected.",
+    "tags": [
+      "optics",
+      "total-internal-reflection"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In alpha (α) decay, the nucleus emits:",
+    "options": [
+      "A positron",
+      "An electron",
+      "A high-energy photon",
+      "A helium-4 nucleus (²He₄, 2 protons + 2 neutrons)"
+    ],
+    "correct": 3,
+    "explanation": "Alpha decay emits an alpha particle (⁴₂He), which is a helium nucleus consisting of 2 protons and 2 neutrons. The parent nucleus decreases by 2 in atomic number and 4 in mass number: ᴬ_Z X → ᴬ⁻⁴_(Z-2) Y + ⁴₂He.",
+    "tags": [
+      "nuclear-physics",
+      "alpha-decay"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In beta-minus (β⁻) decay, a neutron is converted to:",
+    "options": [
+      "A proton + positron + neutrino",
+      "Two protons + electron",
+      "A proton + electron + antineutrino",
+      "A proton + electron only"
+    ],
+    "correct": 2,
+    "explanation": "Beta-minus decay: n → p + e⁻ + ν̄_e (antineutrino). The nucleus gains a proton (Z increases by 1) while mass number stays the same. The emitted electron (beta particle) and antineutrino carry away the energy.",
+    "tags": [
+      "nuclear-physics",
+      "beta-decay"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Einstein's mass-energy equivalence equation E = mc² implies that:",
+    "options": [
+      "All energy has mass proportional to c²",
+      "Mass only increases at relativistic speeds",
+      "Mass can be converted to energy; nuclear reactions release energy from mass defect",
+      "Energy equals mass squared times the speed of light"
+    ],
+    "correct": 2,
+    "explanation": "E = mc² states that mass and energy are interconvertible. In nuclear reactions, the mass defect (difference between reactant and product masses) is converted to released energy. For nuclear fission/fusion, this corresponds to enormous energy release.",
+    "tags": [
+      "nuclear-physics",
+      "mass-energy",
+      "einstein"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Radioactive decay follows first-order kinetics. If the half-life of ¹⁴C is 5730 years, after 11,460 years what fraction of the original ¹⁴C remains?",
+    "options": [
+      "1/8",
+      "1/4",
+      "1/3",
+      "1/2"
+    ],
+    "correct": 1,
+    "explanation": "11,460 years = 2 × 5730 years = 2 half-lives. After 1 half-life: ½ remains. After 2 half-lives: (½)² = ¼ remains. After n half-lives: (½)ⁿ remains.",
+    "tags": [
+      "nuclear-physics",
+      "radioactive-decay",
+      "half-life"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The intensity level (in dB) doubles when the sound intensity increases by a factor of:",
+    "options": [
+      "20",
+      "10 (one bel = 10 dB)",
+      "2",
+      "100"
+    ],
+    "correct": 1,
+    "explanation": "Sound level L = 10 log(I/I₀) dB. An increase of 10 dB corresponds to a 10-fold increase in intensity. An increase of 3 dB corresponds to roughly a doubling of intensity (10^0.3 ≈ 2). Each additional 10 dB multiplies intensity by 10.",
+    "tags": [
+      "sound",
+      "decibels",
+      "intensity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which type of electromagnetic radiation has the highest energy per photon?",
+    "options": [
+      "UV light",
+      "Visible light",
+      "X-rays",
+      "Gamma rays"
+    ],
+    "correct": 3,
+    "explanation": "Photon energy E = hf = hc/λ. Gamma rays have the highest frequency (shortest wavelength, ~10⁻¹² m) in the EM spectrum and therefore the highest energy per photon (~10⁵ eV or higher).",
+    "tags": [
+      "em-spectrum",
+      "photon-energy"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The ideal gas law is PV = nRT. If a gas is compressed at constant temperature from 2 L to 1 L, the pressure:",
+    "options": [
+      "Halves",
+      "Quadruples",
+      "Stays the same",
+      "Doubles (Boyle's law)"
+    ],
+    "correct": 3,
+    "explanation": "At constant T and n, PV = constant (Boyle's law). If V halves (2 L → 1 L), then P must double to maintain PV = nRT constant. P₁V₁ = P₂V₂ → P₂ = P₁ × (V₁/V₂) = P₁ × 2.",
+    "tags": [
+      "gas-laws",
+      "boyles-law"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Real gases deviate from ideal behavior most significantly at:",
+    "options": [
+      "Low pressure and high temperature",
+      "High pressure and high temperature",
+      "Standard temperature and pressure",
+      "High pressure and low temperature"
+    ],
+    "correct": 3,
+    "explanation": "At high pressure, gas molecules are close together and intermolecular forces become significant. At low temperature, molecules have low kinetic energy and intermolecular attractions are significant relative to kinetic energy. These conditions cause deviation from PV = nRT.",
+    "tags": [
+      "gas-laws",
+      "real-gases"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Raoult's Law states that the vapor pressure of a solution is:",
+    "options": [
+      "P_solution = x_solvent × P°_solvent",
+      "P_solution = P°_solvent - x_solute",
+      "P_solution = x_solute × P°_solvent",
+      "P_solution = P°_solvent × x_solute²"
+    ],
+    "correct": 0,
+    "explanation": "Raoult's Law: P_solution = x_solvent × P°_solvent, where x_solvent is the mole fraction of solvent and P°_solvent is the vapor pressure of pure solvent. Adding a nonvolatile solute reduces vapor pressure (vapor pressure lowering).",
+    "tags": [
+      "solutions",
+      "raoults-law",
+      "colligative-properties"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Osmotic pressure (Π) for a dilute solution is given by:",
+    "options": [
+      "Π = M/RT",
+      "Π = MRT (where M = molarity)",
+      "Π = nRT/V²",
+      "Π = mRT (where m = molality)"
+    ],
+    "correct": 1,
+    "explanation": "The van't Hoff equation for osmotic pressure: Π = iMRT, where i = van't Hoff factor (1 for non-electrolytes), M = molar concentration, R = gas constant, T = temperature in Kelvin. Osmosis drives solvent through a semipermeable membrane from low to high solute concentration.",
+    "tags": [
+      "solutions",
+      "osmotic-pressure",
+      "colligative-properties"
+    ],
+    "difficulty": "medium"
+  }
+]

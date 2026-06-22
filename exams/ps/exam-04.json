@@ -288,138 +288,136 @@
     "difficulty": "medium"
   },
   {
-    "text": "The limbic system is primarily involved in:",
+    "text": "In classical conditioning, an unconditioned stimulus (US) is one that:",
     "options": [
-      "Motor coordination and balance",
-      "Emotional processing and memory formation (hippocampus, amygdala, cingulate cortex)",
-      "Voluntary movement control",
-      "Language comprehension"
+      "Was previously neutral before conditioning",
+      "Requires training to produce a response",
+      "Only works after extinction",
+      "Naturally and automatically triggers a response without prior learning"
     ],
-    "correct": 1,
-    "explanation": "The limbic system includes the hippocampus (explicit memory formation), amygdala (fear, emotional learning, threat detection), cingulate cortex (emotion regulation, conflict monitoring), and hypothalamus (homeostasis). The hypothalamus links the nervous system to the endocrine system via the pituitary gland. Damage to the hippocampus causes anterograde amnesia (H.M. case study).",
+    "correct": 3,
+    "explanation": "An unconditioned stimulus (US) is a stimulus that naturally evokes a response (unconditioned response, UR) without any prior learning. Example: food (US) naturally causes salivation (UR) in Pavlov's experiments.",
     "tags": [
-      "neuroscience",
-      "brain structures",
-      "limbic system"
+      "learning",
+      "classical-conditioning"
     ],
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
-    "text": "Broca's area is located in the:",
+    "text": "Extinction in classical conditioning occurs when:",
     "options": [
-      "Right hemisphere, temporal lobe",
-      "Left frontal lobe and is essential for speech production (Broca's aphasia: non-fluent, halting speech)",
-      "Right parietal lobe",
-      "Left occipital lobe"
-    ],
-    "correct": 1,
-    "explanation": "Broca's area (left inferior frontal gyrus, Brodmann areas 44-45): produces fluent speech. Broca's aphasia: speech is non-fluent, telegraphic, effortful, but comprehension is relatively intact. Wernicke's area (left superior temporal gyrus): speech comprehension. Wernicke's aphasia: fluent but meaningless speech (word salad), poor comprehension.",
-    "tags": [
-      "neuroscience",
-      "brain areas",
-      "language"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Long-term potentiation (LTP) in the hippocampus requires:",
-    "options": [
-      "Inhibition of GABA receptors only",
-      "Activation of NMDA receptors by coincident pre- and postsynaptic activity (Hebbian rule: neurons that fire together wire together)",
-      "Activation of AMPA receptors alone",
-      "Decreased glutamate release"
-    ],
-    "correct": 1,
-    "explanation": "LTP: NMDA receptors are 'coincidence detectors' — they require both glutamate binding AND postsynaptic depolarization (to remove Mg²⁺ block). When both conditions are met, Ca²⁺ enters, activating kinases that increase AMPA receptor number/conductance. LTP is the leading cellular mechanism for synaptic plasticity underlying learning and memory.",
-    "tags": [
-      "neuroscience",
-      "LTP",
-      "synaptic plasticity"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Wernicke's aphasia is characterized by:",
-    "options": [
-      "Non-fluent, telegraphic speech with intact comprehension",
-      "Fluent speech that lacks meaningful content; impaired comprehension (left temporal lobe damage)",
-      "Complete inability to speak or comprehend",
-      "Impaired reading only"
-    ],
-    "correct": 1,
-    "explanation": "Wernicke's aphasia: fluent, grammatically intact but semantically empty speech (paraphasias, neologisms, word salad). Comprehension severely impaired. Lesion: left superior temporal gyrus. Conduction aphasia: fluent speech, intact comprehension, but impaired repetition (arcuate fasciculus lesion). Global aphasia: all language modalities affected.",
-    "tags": [
-      "neuroscience",
-      "aphasia",
-      "language"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The reticular activating system (RAS) is primarily responsible for:",
-    "options": [
-      "Visual processing",
-      "Arousal, wakefulness, and sleep-wake cycles",
-      "Balance and coordination",
-      "Emotional regulation"
-    ],
-    "correct": 1,
-    "explanation": "The RAS (reticular formation, brainstem) controls arousal, attention, and sleep-wake transitions. It receives input from all sensory systems and projects to the cortex via the thalamus. Damage → coma. General anesthetics work partly by suppressing the RAS. Caffeine → blocks adenosine (promotes sleep) → indirectly keeps RAS active.",
-    "tags": [
-      "neuroscience",
-      "reticular formation",
-      "arousal"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Dopamine is most closely associated with:",
-    "options": [
-      "Pain perception",
-      "Reward, motivation, and reinforcement (mesolimbic pathway); also motor control (nigrostriatal) and executive function (mesocortical)",
-      "Sleep regulation",
-      "Primary stress response"
-    ],
-    "correct": 1,
-    "explanation": "Dopamine pathways: (1) Mesolimbic (VTA → nucleus accumbens): reward, addiction; (2) Mesocortical (VTA → prefrontal cortex): cognition, motivation; (3) Nigrostriatal (substantia nigra → striatum): motor control (degeneration in Parkinson's); (4) Tuberoinfundibular (hypothalamus → pituitary): prolactin regulation. Drugs of abuse increase dopamine in the nucleus accumbens.",
-    "tags": [
-      "neuroscience",
-      "dopamine",
-      "neurotransmitters"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Serotonin (5-HT) is associated with all EXCEPT:",
-    "options": [
-      "Mood regulation (deficiency linked to depression)",
-      "Sleep, appetite, and impulsive behavior",
-      "Acetylcholine-mediated neuromuscular transmission",
-      "Platelet aggregation and gut motility (most serotonin is in the GI tract)"
+      "A new CS is substituted for the original",
+      "Spontaneous recovery is prevented permanently",
+      "The conditioned stimulus is repeatedly presented without the unconditioned stimulus",
+      "The conditioned stimulus is paired more strongly with the US"
     ],
     "correct": 2,
-    "explanation": "Serotonin (synthesized from tryptophan in raphe nuclei): regulates mood, sleep, appetite, cognition, and impulsivity. ~90% of the body's serotonin is in the GI tract (regulates peristalsis). Platelets also contain and release serotonin for vasoconstriction. SSRIs (selective serotonin reuptake inhibitors) treat depression. Neuromuscular transmission uses acetylcholine (nicotinic receptors at NMJ), not serotonin.",
+    "explanation": "Extinction involves presenting the CS without the US repeatedly. The conditioned response gradually weakens and disappears. However, spontaneous recovery (temporary return of CR after rest) shows the learning is not fully erased.",
     "tags": [
-      "neuroscience",
-      "serotonin",
-      "neurotransmitters"
+      "learning",
+      "classical-conditioning",
+      "extinction"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In operant conditioning, negative reinforcement involves:",
+    "options": [
+      "Adding an aversive stimulus to decrease a behavior",
+      "Presenting a reward to increase behavior",
+      "Removing a pleasant stimulus to decrease a behavior",
+      "Removing an aversive stimulus to increase a behavior"
+    ],
+    "correct": 3,
+    "explanation": "Negative reinforcement removes (takes away) an unpleasant/aversive stimulus following a behavior, which increases the frequency of that behavior. Example: taking aspirin to relieve a headache (pain removal reinforces pill-taking behavior).",
+    "tags": [
+      "learning",
+      "operant-conditioning",
+      "reinforcement"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "The concept of neuroplasticity refers to:",
+    "text": "A variable ratio schedule of reinforcement produces:",
     "options": [
-      "The brain's fixed structure after adolescence",
-      "The ability of the brain to reorganize itself by forming new neural connections throughout life in response to learning, experience, or injury",
-      "The brittleness of myelin sheaths",
-      "The speed of action potential propagation"
+      "Low response rates with long post-reinforcement pauses",
+      "Responses only at fixed intervals",
+      "High, steady response rates that are most resistant to extinction",
+      "Decreasing response rates over time"
     ],
-    "correct": 1,
-    "explanation": "Neuroplasticity enables the brain to rewire itself in response to experience (learning-induced), injury (compensatory reorganization), or development. Evidence: (1) London taxi drivers have larger hippocampus; (2) stroke victims can regain function through rehabilitation; (3) sensory cortex reorganizes after limb amputation (phantom limb, cortical remapping). Critical periods have heightened plasticity (e.g., language acquisition before puberty).",
+    "correct": 2,
+    "explanation": "Variable ratio (VR) schedules provide reinforcement after an unpredictable number of responses (e.g., slot machines). This produces high, consistent response rates and the greatest resistance to extinction because organisms never know when the next reinforcement will come.",
     "tags": [
-      "neuroscience",
-      "neuroplasticity",
-      "brain development"
+      "learning",
+      "operant-conditioning",
+      "reinforcement-schedules"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Observational learning (Bandura's social learning theory) requires all of the following EXCEPT:",
+    "options": [
+      "Attention to the model",
+      "Retention of what was observed",
+      "Motivation to reproduce the behavior",
+      "Direct experience with the behavior"
+    ],
+    "correct": 3,
+    "explanation": "Bandura identified four components of observational learning: attention, retention, reproduction, and motivation. Direct personal experience is NOT required — observational learning occurs by watching others, which is why it is also called vicarious learning.",
+    "tags": [
+      "learning",
+      "social-learning",
+      "bandura"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Habituation is best defined as:",
+    "options": [
+      "Increased responsiveness to a stimulus through pairing",
+      "An involuntary reflex response",
+      "Forgetting a stimulus entirely",
+      "Decreased responsiveness to a repeated, harmless stimulus"
+    ],
+    "correct": 3,
+    "explanation": "Habituation is the simplest form of learning: organisms reduce their response to stimuli that are repeatedly encountered and found to be harmless/irrelevant. Example: no longer noticing the ticking of a clock.",
+    "tags": [
+      "learning",
+      "habituation"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Working memory (Baddeley & Hitch model) includes all EXCEPT:",
+    "options": [
+      "Phonological loop",
+      "Central executive",
+      "Long-term episodic memory store",
+      "Visuospatial sketchpad"
+    ],
+    "correct": 2,
+    "explanation": "Baddeley's working memory model consists of: (1) central executive (attentional control), (2) phonological loop (verbal/auditory information), (3) visuospatial sketchpad (visual/spatial info), and (4) episodic buffer (links to long-term memory). Long-term episodic memory itself is not a component of working memory.",
+    "tags": [
+      "memory",
+      "working-memory",
+      "baddeley"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The serial position effect shows that in free recall, items are best remembered when they are at the:",
+    "options": [
+      "Middle of a list",
+      "End of a list only",
+      "Beginning (primacy) and end (recency) of a list",
+      "Beginning of a list only"
+    ],
+    "correct": 2,
+    "explanation": "The serial position effect consists of the primacy effect (better recall for early items — they transferred to long-term memory) and the recency effect (better recall for last items — still in working memory). Middle items are recalled worst.",
+    "tags": [
+      "memory",
+      "serial-position",
+      "primacy-recency"
     ],
     "difficulty": "easy"
   }

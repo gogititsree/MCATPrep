@@ -1,0 +1,430 @@
+[
+  {
+    "text": "Resilience in developmental psychology refers to:",
+    "options": [
+      "The absence of stress or adversity in development",
+      "Positive adaptation despite significant adversity — the ability to recover from stress, trauma, or hardship due to protective factors (supportive relationships, self-regulation, sense of mastery)",
+      "Being resistant to all emotional experiences",
+      "Avoiding challenges to maintain stability"
+    ],
+    "correct": 1,
+    "explanation": "Resilience: not absence of stress response, but ability to recover. Protective factors: (1) Individual: intelligence, self-regulation, positive self-concept, optimism; (2) Family: secure attachment, parental warmth, high expectations; (3) Community: quality schools, neighborhood safety, social support networks. Masten: resilience is 'ordinary magic' from ordinary human adaptive systems (not extraordinary traits). Relevant to: PTSD (who develops vs. who does not), child welfare policy.",
+    "tags": [
+      "developmental psychology",
+      "resilience",
+      "protective factors"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Adolescent brain development is characterized by:",
+    "options": [
+      "Complete maturity of the prefrontal cortex by age 15",
+      "Maturation of the limbic system (emotional/reward processing) preceding full prefrontal cortex development (which continues into mid-20s) — leads to risk-taking, reward sensitivity, and emotional reactivity during adolescence",
+      "No significant brain changes after childhood",
+      "Prefrontal cortex developing before the limbic system"
+    ],
+    "correct": 1,
+    "explanation": "Adolescent brain: limbic system (amygdala, nucleus accumbens) matures earlier → heightened emotion and reward-seeking. Prefrontal cortex (executive function, impulse control, risk assessment) continues developing into mid-20s. This developmental mismatch → typical adolescent risk-taking, impulsivity, peer influence susceptibility. Relevance: minimum driving age, juvenile justice system, substance use vulnerability (adolescent brain more sensitive to addiction). Synaptic pruning also occurs in adolescence.",
+    "tags": [
+      "neuroscience",
+      "developmental psychology",
+      "adolescent brain"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The concept of 'theory of mind' (ToM) refers to:",
+    "options": [
+      "The ability to understand mathematical theories",
+      "The ability to attribute mental states (beliefs, desires, intentions) to others and understand that others have beliefs different from one's own — develops around age 4 in typically developing children (false belief task)",
+      "The ability to form abstract theories about the world",
+      "Awareness of one's own thoughts only"
+    ],
+    "correct": 1,
+    "explanation": "Theory of Mind (Premack & Woodruff, 1978): understanding that others have mental states different from one's own. Tested by False belief task (Sally-Anne task): child who passes understands that Sally will look where SHE believes the object is (where she left it), not where it actually is. Passes at ~age 4. ToM impaired in Autism Spectrum Disorder — contributes to social communication difficulties. Precursor: joint attention (9-12 months).",
+    "tags": [
+      "developmental psychology",
+      "theory of mind",
+      "cognitive development"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Critical periods in development (sensitive periods) are periods when:",
+    "options": [
+      "The brain stops forming new connections",
+      "Specific types of experience are particularly important for normal development — absence of appropriate input during these periods can lead to permanent deficits (e.g., visual deprivation → amblyopia; language deprivation → poor language acquisition)",
+      "All learning ceases to occur",
+      "The brain is maximally resistant to environmental influences"
+    ],
+    "correct": 1,
+    "explanation": "Critical/sensitive periods: windows during development when the brain is particularly responsive to specific environmental inputs. Examples: (1) Visual system — patching one eye → amblyopia ('lazy eye'), normally treatable only until age ~8; (2) Language acquisition — optimal before puberty (Chomsky's LAD, Lenneberg's critical period hypothesis); (3) Attachment — Harlow's rhesus monkeys deprived of mother → permanent social deficits; (4) Imprinting (Lorenz) — early brief period of bonding.",
+    "tags": [
+      "developmental psychology",
+      "critical periods",
+      "brain development"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Object permanence, according to Piaget, is the understanding that:",
+    "options": [
+      "Objects have permanent properties like color and shape",
+      "Objects continue to exist even when they are out of sight — develops around 8-12 months in Piaget's sensorimotor stage",
+      "Physical laws apply to all objects equally",
+      "Objects can be moved from one location to another"
+    ],
+    "correct": 1,
+    "explanation": "Object permanence: achieved around 8-12 months (Piaget) though some evidence for earlier emergence. Before this: out of sight = out of mind (A-not-B error: infant looks where object was previously found, not where it was just hidden). Violation-of-expectation studies (Baillargeon) suggest some object permanence at 3-4 months. Object permanence is precursor to symbolic representation and language.",
+    "tags": [
+      "developmental psychology",
+      "Piaget",
+      "object permanence"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The bioecological model (Bronfenbrenner) describes child development as shaped by:",
+    "options": [
+      "Biological maturation alone",
+      "Nested layers of environmental influence: microsystem (immediate settings — family, school, peers), mesosystem (interactions between microsystems), exosystem (settings that indirectly affect child — parent's workplace), macrosystem (culture, laws, values), and chronosystem (time and historical context)",
+      "The primary caregiver relationship only",
+      "Genetic inheritance and random variation"
+    ],
+    "correct": 1,
+    "explanation": "Bronfenbrenner's ecological model: PPCT model — Process, Person, Context, Time. Microsystem (direct interactions), Mesosystem (links between microsystems), Exosystem (indirect influences), Macrosystem (cultural values, socioeconomic conditions), Chronosystem (change over time). Example: child's school performance affected by microsystem (teacher quality), mesosystem (parent-teacher communication), exosystem (parent's job stress), macrosystem (national education policy).",
+    "tags": [
+      "developmental psychology",
+      "Bronfenbrenner",
+      "ecological model"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which statement best describes the relationship between culture and mental illness?",
+    "options": [
+      "Mental illnesses are identical across all cultures (culturally universal symptoms and presentations)",
+      "Culture influences the expression, experience, interpretation, and prevalence of mental illness — some disorders are culture-bound (e.g., ataque de nervios, koro); many Western diagnoses may not apply cross-culturally",
+      "Culture is irrelevant to diagnosis and treatment of mental illness",
+      "Mental illness is purely biological and cultural context does not matter"
+    ],
+    "correct": 1,
+    "explanation": "Culture and mental illness: (1) Culture-bound syndromes: disorders that appear within specific cultural contexts (taijin kyofusho — Japan, fear of offending others; windigo — Algonquian, fear of becoming a cannibal; ataque de nervios — Latin America, episodes of trembling/crying). (2) Cultural expression of distress varies (somatization more common in some cultures for psychological distress). (3) Cultural competence in mental health care is essential. (4) DSM-5 includes cultural formulation interview.",
+    "tags": [
+      "abnormal psychology",
+      "culture",
+      "mental illness"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "An operational definition of 'stress' might be:",
+    "options": [
+      "'Stress is a feeling of pressure and strain' (subjective definition)",
+      "Score on the Perceived Stress Scale (PSS-10); or cortisol levels measured from saliva samples; or blood pressure measurements during a stressor task",
+      "'Stress occurs when demands exceed resources' (conceptual definition)",
+      "'Stress affects the immune system' (outcome definition)"
+    ],
+    "correct": 1,
+    "explanation": "Operationalization: converting the abstract concept of 'stress' into a measurable variable. Physiological measures: cortisol (saliva/blood), heart rate variability, blood pressure. Behavioral: performance on a cognitive task under time pressure. Self-report: Perceived Stress Scale, Holmes-Rahe Life Events Scale. Neuroimaging: amygdala activation during stressor. The choice of operationalization affects what is measured and conclusions drawn. MCAT often tests understanding of appropriate measures for psychological constructs.",
+    "tags": [
+      "research methods",
+      "operationalization",
+      "stress"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In Gestalt psychology, the figure-ground relationship refers to:",
+    "options": [
+      "How background noise affects figure drawing",
+      "The perceptual tendency to separate visual experiences into a focal stimulus (figure) standing out from its surroundings (ground) — the same image can yield different perceptions depending on which element is treated as figure vs. ground (e.g., Rubin's vase)",
+      "The relationship between abstract concepts and their concrete representations",
+      "The way figures in art use groundlines"
+    ],
+    "correct": 1,
+    "explanation": "Figure-ground: fundamental principle of perceptual organization. Ambiguous figures (Rubin vase/faces, young woman/old woman) demonstrate that perception is an active construction, not passive recording. Factors determining figure: surrounded area, smaller area, symmetrical, familiar, or contrasted area tends to be perceived as figure. Clinical relevance: figure-ground difficulties in visual processing disorders, autism, traumatic brain injury.",
+    "tags": [
+      "perception",
+      "Gestalt psychology",
+      "figure-ground"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Phonological awareness (important in reading acquisition) refers to:",
+    "options": [
+      "Knowledge of the rules of grammar",
+      "The ability to perceive and manipulate the sound structure of language — recognizing phonemes, syllables, and rhymes (e.g., knowing that 'cat' has 3 phonemes: /k/, /æ/, /t/)",
+      "Knowledge of the meanings of words (vocabulary)",
+      "The ability to understand written text"
+    ],
+    "correct": 1,
+    "explanation": "Phonological awareness: metalinguistic awareness of sound units in language. Strong predictor of reading success. Phoneme awareness (smaller unit): ability to blend, segment, delete phonemes. Development: rhyme awareness (age 3-4) → syllable awareness → phoneme awareness (age 5-7, coincides with literacy instruction). Children with dyslexia often have phonological processing deficits (not visual problems) — supported by neuroimaging showing different patterns in left hemisphere reading network.",
+    "tags": [
+      "cognitive psychology",
+      "language development",
+      "reading"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Sternberg's triangular theory of love proposes that complete love involves:",
+    "options": [
+      "Passion, commitment, and attractiveness",
+      "Intimacy (emotional closeness, connectedness), Passion (physical attraction, romance, sexual desire), and Commitment (decision to remain in relationship) — 'consummate love' has all three",
+      "Love and attraction only",
+      "Passion and chemistry, which naturally lead to commitment"
+    ],
+    "correct": 1,
+    "explanation": "Sternberg's triangular theory: seven types of love based on combinations of three components. Consummate love (all three) is the ideal but rare and requires active maintenance. Companionate love (intimacy + commitment, no passion) — long-term relationships. Fatuous love (passion + commitment, no intimacy) — whirlwind romances. Romantic love (intimacy + passion, no commitment). Empty love (commitment only). This research-backed model applies to patient education and couples therapy.",
+    "tags": [
+      "social psychology",
+      "love",
+      "Sternberg"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In operant conditioning, a behavior that is not followed by any consequence (neither reinforcement nor punishment) will:",
+    "options": [
+      "Increase in frequency",
+      "Remain stable",
+      "Undergo extinction (decrease in frequency — removal of reinforcement causes the behavior to extinguish)",
+      "Transfer to a new, similar behavior (stimulus generalization)"
+    ],
+    "correct": 2,
+    "explanation": "Extinction in operant conditioning: removing reinforcement → behavior decreases. During extinction, a brief extinction burst often occurs (behavior temporarily increases in frequency/intensity before decreasing — like knocking harder on a door that doesn't open). Resistance to extinction: partially (variably) reinforced behaviors extinguish more slowly than continuously reinforced ones (partial reinforcement extinction effect — explains gambling persistence).",
+    "tags": [
+      "learning",
+      "operant conditioning",
+      "extinction"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The concept of 'depersonalization' in dissociative disorders involves:",
+    "options": [
+      "Amnesia for personal identity",
+      "A sense of unreality or detachment from one's own body or mental processes — feeling like an outside observer of one's own thoughts, feelings, body, or actions; distinct from derealization (surroundings seem unreal)",
+      "Assuming a false identity",
+      "Complete loss of autobiographical memory"
+    ],
+    "correct": 1,
+    "explanation": "Depersonalization: dissociative symptom — detachment from self (feeling like a robot or watching oneself from outside). Derealization: environment seems unreal, dreamlike, foggy. Both are common in panic attacks, sleep deprivation, cannabis use, and trauma. Depersonalization/derealization disorder (DSM-5): persistent/recurrent episodes with intact reality testing (not psychosis). Distinguish from dissociative identity disorder (multiple distinct personality states) and dissociative amnesia.",
+    "tags": [
+      "abnormal psychology",
+      "dissociation",
+      "depersonalization"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The 'overjustification effect' demonstrates that:",
+    "options": [
+      "External rewards always increase intrinsic motivation",
+      "Adding external rewards to intrinsically motivated behaviors CAN reduce intrinsic motivation — people attribute their behavior to the external reward rather than internal interest",
+      "Intrinsic motivation cannot be reduced under any circumstances",
+      "Children require external rewards to learn to enjoy activities"
+    ],
+    "correct": 1,
+    "explanation": "Overjustification effect (Lepper, Greene, Nisbett, 1973): children who received expected tangible rewards for drawing (intrinsically enjoyed) showed decreased interest afterward vs. unexpected reward or no reward group. Perception shift: 'I draw to get stickers' (external) replaces 'I draw because I enjoy it' (internal). Applications: avoid using expected, contingent material rewards for activities children already enjoy; praise effort/engagement rather than outcomes for tasks they love.",
+    "tags": [
+      "motivation",
+      "intrinsic motivation",
+      "overjustification effect"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The 'inoculation theory' of attitude change proposes:",
+    "options": [
+      "Exposing people to a weakened form of counterarguments (like a vaccine) makes them more resistant to future persuasive attacks on their beliefs",
+      "Strong counterarguments always change attitudes",
+      "Attitudes formed early in life cannot change",
+      "Persuasion always reduces attitude strength"
+    ],
+    "correct": 0,
+    "explanation": "McGuire's inoculation theory (1964): expose people to weak counterarguments paired with refutations → builds resistance to stronger persuasive attacks. Medical analogy: like a vaccine exposing you to weakened antigen → immune system mounts defense. Applications: media literacy programs, anti-smoking campaigns for adolescents, prebunking misinformation. More effective than simply providing positive arguments for the existing belief.",
+    "tags": [
+      "social psychology",
+      "attitude change",
+      "inoculation theory"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In social psychology, 'deindividuation' refers to:",
+    "options": [
+      "Strengthening of individual identity in group contexts",
+      "Loss of self-awareness and personal responsibility in a crowd or anonymous group context → often leads to increased antisocial or impulsive behavior (e.g., mob violence, online trolling)",
+      "The process of leaving a social group",
+      "Positive anonymity that reduces discrimination"
+    ],
+    "correct": 1,
+    "explanation": "Deindividuation (Festinger, Zimbardo): reduced self-awareness in crowds or when anonymous → weakened internal constraints → more extreme behavior. Zimbardo prison experiment: participants assigned roles (guards, prisoners) showed escalating behavior attributed to deindividuation and role demands. Online disinhibition effect: internet anonymity increases deindividuation → cyberbullying, extreme statements. NOT always negative: deindividuation in positive crowd contexts can increase prosocial behavior.",
+    "tags": [
+      "social psychology",
+      "deindividuation",
+      "group behavior"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The difference between primary and secondary deviance (Lemert):",
+    "options": [
+      "Primary deviance = deliberate law-breaking; secondary deviance = accidental norm violation",
+      "Primary deviance = initial acts of norm violation (without internalizing a deviant identity); secondary deviance = deviant behavior that occurs in response to being labeled deviant (person adopts a deviant identity)",
+      "Primary = mild; secondary = serious",
+      "Primary is always more harmful than secondary"
+    ],
+    "correct": 1,
+    "explanation": "Lemert's labeling theory: primary deviance (first offense, occasional norm violation) → society labels the person as deviant → stigma, social rejection → person internalizes the label → secondary deviance (embracing the deviant identity and engaging in more deviance). Master status of deviance overrides other identities. Policy implication: diversion programs for first-time offenders to prevent labeling and reduce secondary deviance.",
+    "tags": [
+      "sociology",
+      "deviance",
+      "labeling theory",
+      "Lemert"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Boomerang effect in persuasion refers to:",
+    "options": [
+      "The increased effectiveness of messages that are repeated multiple times",
+      "When a persuasive message causes the attitude to change in the OPPOSITE direction from the one intended — can occur from perceived manipulation, reactance, or message that is too extreme",
+      "The way persuasion is more effective when coming from a liked source",
+      "The tendency to return to pre-persuasion attitudes after time passes"
+    ],
+    "correct": 1,
+    "explanation": "Boomerang effect: some persuasion attempts backfire. Mechanisms: (1) Psychological reactance (Brehm): people resist when they feel their freedom is threatened — forbidden fruit effect; (2) Perceived manipulation: if persuasion attempts are too obvious, people reject both the message and change attitude away from it; (3) Extreme counterarguments: may make own position more extreme. Also: inoculation strategy itself can produce reactance. Relevant to health messaging (e.g., threatening anti-drug messages sometimes increase drug appeal).",
+    "tags": [
+      "social psychology",
+      "persuasion",
+      "attitude change",
+      "reactance"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Erik Erikson's stage of 'Identity vs. Role Confusion' occurs during:",
+    "options": [
+      "Early childhood (ages 1-3)",
+      "Adolescence (approximately 12-18 years): the central task is forming a coherent sense of personal identity — includes exploring roles, values, and beliefs; failure leads to role confusion or diffusion",
+      "Young adulthood (20s-30s)",
+      "Middle adulthood (40s-50s)"
+    ],
+    "correct": 1,
+    "explanation": "Erikson's Identity vs. Role Confusion (adolescence): psychosocial task is forming an integrated sense of self. Marcia's identity statuses: Identity Achievement (explored and committed), Moratorium (exploring, no commitment yet), Foreclosure (committed without exploration — adopted parents' values), Identity Diffusion (neither exploring nor committed — most maladaptive). Identity exploration in adolescence is normal and healthy; premature closure (foreclosure) can be problematic.",
+    "tags": [
+      "developmental psychology",
+      "Erikson",
+      "identity development"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Fluid intelligence vs. crystallized intelligence (Cattell):",
+    "options": [
+      "Fluid = knowledge stored in memory; crystallized = reasoning speed",
+      "Fluid intelligence = the ability to reason and solve novel problems (peaks in young adulthood, declines with age); crystallized intelligence = accumulated knowledge and vocabulary (remains stable or increases with age through the 60s-70s)",
+      "Both types decline equally with normal aging",
+      "Crystallized intelligence develops in childhood; fluid intelligence only in adulthood"
+    ],
+    "correct": 1,
+    "explanation": "Cattell's two-factor model: Fluid intelligence (Gf): abstract reasoning, pattern recognition, working memory — peaks ~25-30 years, then declines (especially in normal aging and Alzheimer's). Crystallized intelligence (Gc): accumulated knowledge, word knowledge, application of learned skills — remains stable or increases through late adulthood. Practical implication: older adults compensate for fluid decline with crystallized knowledge (expertise). Tests: Raven's Progressive Matrices (fluid); vocabulary tests (crystallized).",
+    "tags": [
+      "cognitive psychology",
+      "intelligence",
+      "aging"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The concept of 'social role' in sociology refers to:",
+    "options": [
+      "A person's innate personality",
+      "The expected behaviors, obligations, and norms associated with a particular social position (status) — e.g., the doctor role carries expectations of competence, confidentiality, and care",
+      "The formal legal title associated with a profession",
+      "A random set of behaviors unrelated to social position"
+    ],
+    "correct": 1,
+    "explanation": "Role: expected behaviors associated with a social status/position. Role conflict: two or more roles have incompatible demands (e.g., parent role conflicts with physician's on-call demands). Role strain: difficulty fulfilling obligations of a single role. Role exit: leaving a major role (retirement, divorce). Role theory is foundational to medical sociology — doctor-patient relationship involves role complementarity, and Parsons' sick role defined patient's role obligations.",
+    "tags": [
+      "sociology",
+      "social roles",
+      "role theory"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The phenomenon of 'stereotype threat' (Steele) is best described as a situation where:",
+    "options": [
+      "Stereotypes are formed about new groups upon first contact",
+      "A member of a stigmatized group performs in a domain where a negative stereotype exists about their group — awareness of the stereotype creates anxiety that can impair performance on the stereotyped task, becoming a self-fulfilling prophecy",
+      "A person is unaware of any stereotype about their group",
+      "Only majority group members feel threatened by stereotypes"
+    ],
+    "correct": 1,
+    "explanation": "Steele & Aronson (1995): Black students underperformed on verbal tasks when race was made salient (framed as a 'test of verbal ability' vs. 'problem-solving exercise'). Mechanism: stereotype threat → increased self-monitoring, rumination, working memory load → impaired performance. Not limited to race: women in math (Shih), elderly on memory tasks, white men in athletic competitions. Interventions: values affirmation, growth mindset, identity safety.",
+    "tags": [
+      "social psychology",
+      "stereotype threat",
+      "performance"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In sociology, a 'social institution' refers to:",
+    "options": [
+      "Any formal government organization",
+      "A complex, integrated set of social norms organized around the preservation of a basic societal value — examples: family (reproduction, socialization), education (transmit knowledge), religion (meaning, solidarity), economy (resource distribution), government (regulation, protection)",
+      "Only religious organizations",
+      "A temporary organization formed for a specific purpose"
+    ],
+    "correct": 1,
+    "explanation": "Social institutions: relatively stable, recognized patterns of behavior and social structures organized around important social functions. Five core institutions: family, education, religion, economy, government. Each has manifest functions (intended) and latent functions (unintended side effects). Functionalist view: institutions maintain social order. Conflict view: institutions often serve the interests of powerful groups. Examples: medicine as an institution (norms of doctor-patient interaction, medical authority).",
+    "tags": [
+      "sociology",
+      "social institutions",
+      "functionalism"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The social gradient in health refers to:",
+    "options": [
+      "The observation that only the very poor have worse health outcomes than the wealthy",
+      "A stepwise relationship between socioeconomic position and health — at every step up the social hierarchy, health outcomes are better (not just a threshold effect for the very poor)",
+      "The geographic variation in health across regions",
+      "The effect of diet and exercise on health across social classes"
+    ],
+    "correct": 1,
+    "explanation": "Whitehall Studies (Marmot): British civil servants at every occupational grade had worse health than those directly above them, even those in secure, above-poverty jobs. The social gradient suggests psychosocial mechanisms beyond just poverty (relative deprivation, control over one's life, status stress). Absolute vs. relative income: income inequality (Gini coefficient) predicts average population health beyond absolute income levels. Implications for health policy: address gradient, not just poverty.",
+    "tags": [
+      "sociology",
+      "social gradient",
+      "health disparities",
+      "Marmot"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which best describes the 'medically unexplained symptoms' concept and its evolution?",
+    "options": [
+      "Previously called conversion disorder; now somatic symptom disorder in DSM-5; the emphasis shifted from unexplained symptoms to the patient's distress and maladaptive health behaviors",
+      "All medically unexplained symptoms are feigned (malingering)",
+      "Medically unexplained symptoms never have a psychological basis",
+      "Patients with medically unexplained symptoms should receive no medical treatment"
+    ],
+    "correct": 0,
+    "explanation": "DSM-5 shift: eliminated 'not explained by medical condition' criterion (which required ruling out all physical causes — often impossible, and stigmatizing). New focus: excessive health-related thoughts, feelings, and behaviors regardless of medical etiology. Somatic symptom disorder (SSD) + illness anxiety disorder replaced somatization, hypochondriasis, conversion, pain disorder. Functional neurological symptom disorder (conversion): neurological symptoms (paralysis, seizures) inconsistent with known neurological disease, often associated with trauma/stress.",
+    "tags": [
+      "abnormal psychology",
+      "somatic symptoms",
+      "DSM-5 changes"
+    ],
+    "difficulty": "hard"
+  }
+]

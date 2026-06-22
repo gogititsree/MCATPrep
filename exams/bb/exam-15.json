@@ -1,0 +1,422 @@
+[
+  {
+    "text": "Duchenne muscular dystrophy (DMD) is X-linked recessive. An unaffected carrier mother (XᴬXᵃ) and unaffected father (XᴬY) have children. What fraction of ALL children is expected to be affected?",
+    "options": [
+      "All daughters",
+      "1/2",
+      "1/4",
+      "1/8"
+    ],
+    "correct": 2,
+    "explanation": "Mother's gametes: 1/2 Xᴬ, 1/2 Xᵃ. Father's gametes: 1/2 Xᴬ, 1/2 Y. Possible outcomes: 1/4 XᴬXᴬ (unaffected daughter), 1/4 XᴬXᵃ (carrier daughter), 1/4 XᴬY (unaffected son), 1/4 XᵃY (affected son). Only 1/4 children are affected (all affected are male). 1/2 of sons are affected, but 1/4 of ALL children.",
+    "tags": [
+      "genetics",
+      "X-linked recessive"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Chromosomal non-disjunction during meiosis I in a female results in:",
+    "options": [
+      "Normal gametes with an extra chromosome",
+      "One secondary oocyte with an extra chromatid",
+      "Two identical oocytes",
+      "One secondary oocyte with both homologous chromosomes, one with neither"
+    ],
+    "correct": 3,
+    "explanation": "Meiosis I non-disjunction: homologous chromosomes fail to separate → one cell receives both chromosomes of a pair, the other receives neither. After meiosis II: two gametes have n+1 chromosomes (disomy), two have n-1 (nullisomy). Fertilization with normal sperm → trisomy (e.g., trisomy 21 Down syndrome) or monosomy. Meiosis II non-disjunction produces sister chromatid separation failure.",
+    "tags": [
+      "genetics",
+      "non-disjunction",
+      "meiosis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Down syndrome (trisomy 21) most commonly arises from:",
+    "options": [
+      "De novo point mutation in the DYRK1A gene",
+      "Paternal non-disjunction",
+      "Maternal non-disjunction during meiosis I (frequency increases with maternal age)",
+      "Translocation (Robertsonian) in ~4% of cases"
+    ],
+    "correct": 2,
+    "explanation": "~95% of Down syndrome cases are standard trisomy 21 from maternal non-disjunction during meiosis I (rarely meiosis II). Risk increases dramatically with maternal age (from ~1/1500 at age 20 to ~1/30 at age 45). About 4% are Robertsonian translocations (chromosome 21 fused to chromosome 14); these have a higher recurrence risk. ~1% are mosaics.",
+    "tags": [
+      "genetics",
+      "chromosomal abnormalities",
+      "Down syndrome"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Turner syndrome (45,X) results from:",
+    "options": [
+      "Trisomy X",
+      "Monosomy X (missing one sex chromosome), most commonly from paternal non-disjunction",
+      "Loss of an autosome",
+      "Klinefelter syndrome (47,XXY)"
+    ],
+    "correct": 1,
+    "explanation": "Turner syndrome: 45,X (missing one sex chromosome). Features: short stature, webbed neck, shield chest, gonadal dysgenesis (streak ovaries, primary amenorrhea), coarctation of the aorta. Most commonly arises from paternal non-disjunction (losing the Y or X from the sperm). Despite having only one X, Barr body is absent (normal: females have one Barr body per extra X above 2 total).",
+    "tags": [
+      "genetics",
+      "chromosomal abnormalities",
+      "Turner syndrome"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Genomic imprinting means that:",
+    "options": [
+      "All genes from the father are expressed over maternal genes",
+      "Some genes are expressed from only one parental allele (maternal or paternal), determined by differential methylation",
+      "Only mitochondrial genes are imprinted",
+      "Imprinted genes are deleted in the other parent"
+    ],
+    "correct": 1,
+    "explanation": "Imprinted genes have parent-of-origin-specific expression determined by epigenetic marks (DNA methylation, histone modification) established in the germ line. IGF2 (insulin-like growth factor 2) is expressed from the paternal allele; H19 from the maternal. Prader-Willi syndrome (loss of paternal 15q11-q13) and Angelman syndrome (loss of maternal 15q11-q13) are classic imprinting disorders affecting the same chromosomal region.",
+    "tags": [
+      "genetics",
+      "imprinting",
+      "epigenetics"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "What is the significance of Mendel's law of independent assortment?",
+    "options": [
+      "Dominant alleles are always inherited over recessive alleles",
+      "Alleles of different genes on different chromosomes are inherited independently of one another",
+      "Alleles are always inherited in the same combination as the parent",
+      "All alleles of a single gene are inherited together"
+    ],
+    "correct": 1,
+    "explanation": "Independent assortment (Mendel's second law): alleles at different loci (on different chromosomes or far apart on the same chromosome) are distributed to gametes independently. This is the basis for dihybrid crosses producing 9:3:3:1 ratios. Genes linked on the same chromosome violate this law unless separated by recombination.",
+    "tags": [
+      "genetics",
+      "Mendel's laws",
+      "independent assortment"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A female with X-linked red-green colorblindness (XᵃXᵃ) has children with a normal male (XᴬY). What fraction of their daughters will have colorblindness?",
+    "options": [
+      "1/4",
+      "1/2",
+      "All daughters are colorblind",
+      "0 (all daughters are carriers, none are colorblind)"
+    ],
+    "correct": 3,
+    "explanation": "Mother: XᵃXᵃ (affected). Father: XᴬY. All daughters receive Xᵃ from mother and Xᴬ from father → all daughters are XᴬXᵃ (carriers, not affected). All sons receive Xᵃ from mother and Y from father → all sons are XᵃY (affected). 0 daughters are colorblind in this cross.",
+    "tags": [
+      "genetics",
+      "X-linked",
+      "colorblindness"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Genetic linkage means that genes on the same chromosome:",
+    "options": [
+      "Have identical allele frequencies in a population",
+      "Tend to be inherited together; recombination frequency between them reflects map distance (1 cM = 1% recombination)",
+      "Cannot recombine under any circumstances",
+      "Are always co-expressed in the same cell"
+    ],
+    "correct": 1,
+    "explanation": "Linked genes violate independent assortment. Recombination (crossing over during meiosis I) creates new combinations (recombinant gametes). Recombination frequency is used to construct genetic maps: 1 centimorgan (cM) = 1% recombination frequency ≈ 1 Mb (roughly). Genes <50 cM apart are linked; genes >50 cM apart (or on different chromosomes) assort independently.",
+    "tags": [
+      "genetics",
+      "genetic linkage",
+      "recombination"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which type of membrane transport allows Na+ to move from high concentration (outside) to low concentration (inside) the cell?",
+    "options": [
+      "Endocytosis",
+      "Primary active transport",
+      "Facilitated diffusion via ion channels (passive)",
+      "Secondary active transport"
+    ],
+    "correct": 2,
+    "explanation": "Na+ has high extracellular (~145 mM) and low intracellular (~12 mM) concentration, creating a large inward driving force. Na+ flows down its concentration AND electrical gradient (inside negative) via ion channels (facilitated diffusion) — no energy required. The Na+/K+ ATPase maintains this gradient using ATP (primary active transport).",
+    "tags": [
+      "cell biology",
+      "membrane transport"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The Na+/K+ ATPase pumps per cycle:",
+    "options": [
+      "Equal amounts of Na+ and K+ in opposite directions",
+      "3 Na+ out and 2 K+ in, hydrolyzing 1 ATP",
+      "2 Na+ out and 3 K+ in",
+      "Only Na+ out, no K+ movement"
+    ],
+    "correct": 1,
+    "explanation": "Na+/K+ ATPase (P-type ATPase) per cycle: 3 Na+ exported out + 2 K+ imported in + 1 ATP hydrolyzed. Net charge movement: 3(+) out and 2(+) in = net 1(+) charge out → electrogenic (contributes slightly to negative resting membrane potential). This pump accounts for ~20-30% of basal ATP consumption in cells.",
+    "tags": [
+      "cell biology",
+      "Na/K ATPase"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Tight junctions between epithelial cells primarily function to:",
+    "options": [
+      "Anchor the cytoskeleton to the ECM",
+      "Provide mechanical adhesion between cells",
+      "Facilitate rapid communication between adjacent cells",
+      "Create a paracellular seal that prevents movement of solutes between cells, maintaining epithelial polarity"
+    ],
+    "correct": 3,
+    "explanation": "Tight junctions (zonula occludens, made of claudins, occludins, ZO proteins) seal adjacent epithelial cells, preventing paracellular diffusion of ions and molecules. They also maintain membrane polarity by preventing lateral diffusion of membrane proteins between apical and basolateral domains. The 'fence' and 'gate' functions. Desmosomes provide mechanical strength; gap junctions allow communication; integrins anchor to ECM.",
+    "tags": [
+      "cell biology",
+      "cell junctions",
+      "epithelium"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The endosome-lysosome pathway processes materials taken up by endocytosis. Which enzyme activates lysosomal hydrolases by making the lumen acidic?",
+    "options": [
+      "Na+/K+ ATPase",
+      "Cytochrome c oxidase",
+      "V-type H+ ATPase (vacuolar proton pump)",
+      "Carbonic anhydrase"
+    ],
+    "correct": 2,
+    "explanation": "Lysosomes maintain pH ~4.5–5.0 through V-type H+ ATPase (uses ATP to pump H+ into the lumen). This acidic environment is required for the activity of ~50+ lysosomal hydrolases (proteases, lipases, nucleases, glycosidases). Chloroquine/hydroxychloroquine work by raising lysosomal pH, disrupting pathogen degradation.",
+    "tags": [
+      "cell biology",
+      "lysosomes",
+      "vesicle trafficking"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Receptor tyrosine kinases (RTKs) transmit signals by:",
+    "options": [
+      "Ligand stimulates adenylyl cyclase directly",
+      "Ligand binding activates associated trimeric G proteins",
+      "Ligand binding causes dimerization and autophosphorylation of tyrosine residues, creating docking sites for SH2 domain-containing signaling proteins",
+      "Ligand-receptor complex translocates to the nucleus to act as transcription factor"
+    ],
+    "correct": 2,
+    "explanation": "RTK signaling: ligand (e.g., EGF, PDGF, insulin) binds extracellular domain → RTK dimerizes → trans-autophosphorylation of tyrosine residues in the intracellular domain → phosphotyrosines serve as docking sites for SH2-domain proteins (Grb2, PI3K, PLC-gamma, Shp2) → activate downstream cascades (Ras-MAPK, PI3K-Akt, PLC-PKC). Mutated/amplified RTKs are oncogenes in cancer.",
+    "tags": [
+      "cell biology",
+      "signal transduction",
+      "RTK"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "G-protein coupled receptors (GPCRs) signal through trimeric G proteins. In the inactive state, the G protein:",
+    "options": [
+      "Has GDP bound to the alpha subunit and the alpha-beta-gamma trimer is intact",
+      "Is constitutively active",
+      "Is free of any nucleotide",
+      "Has GTP bound to the alpha subunit and is dissociated"
+    ],
+    "correct": 0,
+    "explanation": "Inactive GPCR: trimeric G protein (alpha-beta-gamma) has GDP bound to alpha subunit. Ligand binds GPCR → conformational change → GPCR acts as GEF, causing GDP-GTP exchange in alpha subunit → alpha-GTP dissociates from beta-gamma → each activates downstream effectors (adenylyl cyclase for Gs, PLC for Gq, adenylyl cyclase inhibition for Gi). GTPase activity of alpha subunit returns to inactive GDP state.",
+    "tags": [
+      "cell biology",
+      "GPCR",
+      "signal transduction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The cell cycle checkpoint at the G1/S boundary (restriction point) monitors:",
+    "options": [
+      "DNA replication completion and accurate chromosome alignment",
+      "DNA integrity and sufficient cell size/growth factors before committing to DNA replication",
+      "Spindle assembly and chromosome attachment to kinetochores",
+      "Sister chromatid cohesion before anaphase"
+    ],
+    "correct": 1,
+    "explanation": "The G1/S checkpoint (restriction point in mammals) is the key decision point for cell division. Rb (retinoblastoma protein) inhibits E2F transcription factors (needed for S-phase entry). When growth factor signaling drives cyclin D/CDK4,6 activity → phosphorylates Rb → releases E2F → S-phase entry. DNA damage activates p53 → p21 → inhibits CDK4,6/cyclin D → cell cycle arrest.",
+    "tags": [
+      "cell biology",
+      "cell cycle",
+      "checkpoints"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Mitosis produces daughter cells that are:",
+    "options": [
+      "Haploid with half the genetic material",
+      "Cells with random chromosome number",
+      "Cells that have undergone meiotic recombination",
+      "Genetically identical to the parent cell (diploid cells producing two diploid daughters)"
+    ],
+    "correct": 3,
+    "explanation": "Mitosis is cell division for growth, repair, and asexual reproduction. It produces two genetically identical daughter cells, each with the same chromosome number as the parent cell (2n → 2n in diploid organisms). Meiosis, by contrast, produces four haploid (n) cells with genetic variation from recombination and independent assortment, for sexual reproduction.",
+    "tags": [
+      "cell biology",
+      "mitosis",
+      "cell division"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "During the S phase of interphase:",
+    "options": [
+      "Sister chromatids separate to opposite poles",
+      "Chromosomes condense and the spindle forms",
+      "The cell prepares for division by synthesizing cyclins",
+      "DNA is replicated (each chromosome is duplicated to form two sister chromatids joined at the centromere)"
+    ],
+    "correct": 3,
+    "explanation": "S (synthesis) phase: all chromosomal DNA is replicated semiconservatively, producing identical sister chromatids joined at the centromere by cohesin. DNA content doubles from 2C to 4C. After S: G2 phase (growth and preparation) → M phase (mitosis: prophase, prometaphase, metaphase, anaphase, telophase, cytokinesis).",
+    "tags": [
+      "cell biology",
+      "cell cycle",
+      "DNA replication"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The unfolded protein response (UPR) is triggered by:",
+    "options": [
+      "Misfolded proteins in the cytoplasm",
+      "Ribosome stalling during translation",
+      "Accumulation of misfolded proteins in the ER lumen, which activates sensors (IRE1, PERK, ATF6)",
+      "Depletion of ER Ca2+ stores only"
+    ],
+    "correct": 2,
+    "explanation": "ER stress: misfolded proteins accumulate in the ER → BiP (Hsp70 chaperone) is titrated away from UPR sensors IRE1, PERK, ATF6 → sensors activate → UPR responses: increased chaperone synthesis, reduced global translation, ERAD (ER-associated degradation). If UPR cannot resolve ER stress, apoptosis ensues (via CHOP transcription factor). UPR is implicated in diabetes, neurodegeneration, and cancer.",
+    "tags": [
+      "cell biology",
+      "ER stress",
+      "unfolded protein response"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The resting membrane potential of a neuron (~–70 mV) is primarily maintained by:",
+    "options": [
+      "Chloride pumps actively removing Cl-",
+      "High intracellular K+ and leak channels; Na+/K+ ATPase maintains ion gradients",
+      "High intracellular Na+ and voltage-gated Na+ channels",
+      "Equal concentrations of all ions inside and outside"
+    ],
+    "correct": 1,
+    "explanation": "The resting membrane potential is set mainly by K+ permeability (K+ leak channels) and the K+ electrochemical equilibrium (Nernst potential for K+ ≈ –90 mV). Selective permeability to K+ and impermeability to Na+ (at rest) creates the negative interior. Na+/K+ ATPase maintains the gradients over time but contributes little directly to the resting potential (~–3 mV from electrogenic pumping).",
+    "tags": [
+      "neuroscience",
+      "membrane potential"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "An action potential is propagated along an axon because:",
+    "options": [
+      "Neurotransmitter release propagates the signal",
+      "Calcium influx triggers membrane depolarization sequentially",
+      "Depolarization at one node spreads current that depolarizes adjacent membrane, triggering sodium channel opening in the next segment",
+      "Gap junctions directly connect adjacent axon segments"
+    ],
+    "correct": 2,
+    "explanation": "Local circuit currents flow from the depolarized region (inside positive) to adjacent resting regions (inside negative). This depolarizes the adjacent membrane to threshold, triggering opening of voltage-gated Na+ channels and a new action potential. In myelinated axons (Schwann cells/oligodendrocytes), APs jump between nodes of Ranvier (saltatory conduction), greatly increasing speed.",
+    "tags": [
+      "neuroscience",
+      "action potential",
+      "axon conduction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Frank-Starling mechanism describes which cardiac property?",
+    "options": [
+      "Cardiac output is fixed regardless of venous return",
+      "The heart rate increases with increased arterial pressure",
+      "Heart rate is inversely proportional to stroke volume",
+      "Stroke volume increases with increased preload (end-diastolic volume), due to increased myocardial fiber stretch and force generation"
+    ],
+    "correct": 3,
+    "explanation": "Frank-Starling law: within limits, stroke volume is proportional to EDV (preload). Greater ventricular filling → more myofibril overlap → more forceful contraction (Starling mechanism). This is why both ventricles pump equal volumes over time. Increased afterload (SVR) at constant contractility decreases stroke volume. Heart failure reduces the Frank-Starling curve.",
+    "tags": [
+      "cardiovascular physiology",
+      "Frank-Starling"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Pulmonary surfactant, produced by type II pneumocytes, reduces surface tension in alveoli. Without it (as in neonatal respiratory distress syndrome):",
+    "options": [
+      "Alveolar macrophages become hyperactive",
+      "Surfactant removal increases O2 diffusion",
+      "Alveoli collapse (atelectasis) because surface tension increases as alveoli shrink, creating positive feedback of collapse",
+      "Alveoli over-inflate because pressure is increased"
+    ],
+    "correct": 2,
+    "explanation": "By Laplace's law, P = 2T/r; smaller alveoli would collapse unless surface tension (T) decreases as radius decreases. Surfactant (DPPC, dipalmitoylphosphatidylcholine) reduces T proportionally with radius, stabilizing small alveoli. Without surfactant (prematurity, RDS): high T in small alveoli → collapse → atelectasis → hypoxia. Treated with exogenous surfactant and CPAP.",
+    "tags": [
+      "respiratory physiology",
+      "surfactant",
+      "lung mechanics"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which statement about glomerular filtration is correct?",
+    "options": [
+      "Only small molecules < 1 kDa are filtered",
+      "GFR is determined by net filtration pressure = (Pcap – Pbowman) – oncotic pressure; GFR ≈ 120 mL/min",
+      "The filtration barrier has no size selectivity",
+      "GFR is primarily regulated by hormones acting on tubular cells"
+    ],
+    "correct": 1,
+    "explanation": "GFR is driven by the net balance of Starling forces across the glomerular capillary: hydraulic pressure in capillary (Pgc, ~50 mmHg) minus Bowman's capsule pressure (~15 mmHg) minus plasma oncotic pressure (~30 mmHg) = ~5 mmHg net filtration. Normal GFR ≈ 120-125 mL/min. Regulated by afferent (dilates → increases GFR) and efferent (constricts → increases GFR) arteriolar tone.",
+    "tags": [
+      "renal physiology",
+      "GFR",
+      "filtration"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Aldosterone increases sodium reabsorption by acting on which segment of the nephron?",
+    "options": [
+      "Principal cells of the collecting duct (and late distal tubule), increasing ENaC and Na+/K+ ATPase expression",
+      "Loop of Henle via ADH-sensitive channels",
+      "Thick ascending limb via NKCC2",
+      "Proximal tubule (majority of Na+ reabsorption)"
+    ],
+    "correct": 0,
+    "explanation": "Aldosterone (from adrenal cortex, stimulated by angiotensin II, high K+) acts on principal cells in the collecting duct: binds cytosolic MR receptor → increases transcription of ENaC (epithelial Na+ channel) and Na+/K+ ATPase. Net: Na+ reabsorption, K+ secretion, water follows Na+. Spironolactone is an aldosterone receptor antagonist (K+-sparing diuretic).",
+    "tags": [
+      "renal physiology",
+      "aldosterone",
+      "RAAS"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Parathyroid hormone (PTH) is released in response to hypocalcemia. Its effects include all of the following EXCEPT:",
+    "options": [
+      "Increasing renal Ca2+ reabsorption",
+      "Decreasing bone resorption (PTH increases bone resorption via osteoclast activation)",
+      "Increasing renal phosphate excretion",
+      "Activating renal 1-alpha-hydroxylase to produce calcitriol (active vitamin D)"
+    ],
+    "correct": 1,
+    "explanation": "PTH actions on calcium homeostasis: (1) bone: stimulates osteoclast activity → Ca2+ and phosphate release from bone; (2) kidney: increases Ca2+ reabsorption in DCT, increases phosphate excretion, activates 1-alpha-hydroxylase → calcitriol production; (3) gut: indirectly increases Ca2+ absorption via calcitriol. PTH increases serum Ca2+, so answer A is false — PTH INCREASES bone resorption.",
+    "tags": [
+      "endocrine physiology",
+      "PTH",
+      "calcium homeostasis"
+    ],
+    "difficulty": "medium"
+  }
+]

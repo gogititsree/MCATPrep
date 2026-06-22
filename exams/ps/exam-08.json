@@ -1,432 +1,428 @@
 [
   {
-    "text": "Relative deprivation theory explains:",
+    "text": "Vygotsky's Zone of Proximal Development (ZPD) is:",
     "options": [
-      "Absolute poverty is the main driver of discontent",
-      "People feel deprived not based on absolute conditions but by comparing themselves to a reference group — feeling worse off than peers leads to dissatisfaction and social unrest",
-      "Deprivation only affects material resources, not psychological well-being",
-      "Wealthy people are never dissatisfied"
+      "What a child can do independently, without any guidance",
+      "The gap between what a child can do alone and what a child can do with guidance from a more skilled partner",
+      "Piaget's concrete operational stage",
+      "The range of tasks that are too difficult for anyone"
     ],
     "correct": 1,
-    "explanation": "Relative deprivation: comparison with a reference group that makes one feel disadvantaged. E.g., a factory worker may feel fine earning $50,000 until coworkers earn $80,000 — relative income matters more than absolute. Ted Gurr: relative deprivation drives political violence and social movements (people revolt not from absolute misery but from gap between expectations and reality). Also relevant to mental health: income inequality (not just poverty) predicts worse health outcomes (Wilkinson & Pickett).",
+    "explanation": "ZPD: the distance between actual developmental level (independent problem solving) and potential level (what they can do with expert guidance). Scaffolding: temporary support provided by a more knowledgeable other (teacher, parent, peer) that is gradually withdrawn as competence increases. Vygotsky emphasized social context and language in cognitive development — contrasts with Piaget's more individualistic view.",
     "tags": [
-      "sociology",
-      "relative deprivation",
-      "inequality"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Immigration's effect on health — the 'healthy immigrant effect' refers to:",
-    "options": [
-      "Immigrants always have worse health than native-born populations",
-      "Recent immigrants often have better health than comparable native-born individuals of similar SES — health advantage erodes over time as immigrants adopt host country behaviors/diet/lifestyle",
-      "Immigrants have identical health outcomes to native populations",
-      "Immigration increases disease transmission to native populations"
-    ],
-    "correct": 1,
-    "explanation": "Healthy immigrant effect (Latino paradox): recent Latino immigrants have better health outcomes (especially infant mortality, cardiovascular disease) than non-Hispanic whites, despite lower SES. Explanations: selection (healthy people are more likely to immigrate), cultural protective factors (family cohesion, dietary habits, low smoking rates in country of origin). Assimilation paradox: as immigrants acculturate, they adopt less healthy American behaviors → health advantage disappears.",
-    "tags": [
-      "sociology",
-      "immigration",
-      "health disparities"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Structural factors contributing to health disparities include all EXCEPT:",
-    "options": [
-      "Residential segregation limiting access to healthy food (food deserts)",
-      "Wealth disparities affecting ability to afford health insurance",
-      "Implicit bias among healthcare providers",
-      "Genetic differences causing all differences in disease rates between racial groups"
-    ],
-    "correct": 3,
-    "explanation": "Health disparities are primarily structural and social, not genetic. Structural factors: residential segregation (limits neighborhood resources), wealth gaps (affect insurance, food access, housing quality), environmental exposures (proximity to pollution), healthcare access, discrimination (chronic stress via allostatic load), implicit bias by providers (less pain medication prescribed to Black patients). Genetic differences explain very little variance in health disparities — 99.9% of DNA is identical across all humans.",
-    "tags": [
-      "sociology",
-      "health disparities",
-      "structural factors"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The 'hidden curriculum' in education refers to:",
-    "options": [
-      "The official academic curriculum taught in classrooms",
-      "The implicit social norms, values, and behaviors taught in schools beyond the official academic content (e.g., obedience to authority, gender roles, class-appropriate aspirations)",
-      "Secret materials not available to all students",
-      "The curriculum used in private schools"
-    ],
-    "correct": 1,
-    "explanation": "Hidden curriculum (Bowles & Gintis, Illich): schools teach more than academics — they instill values and behaviors that prepare students for their position in the social hierarchy. Working-class schools emphasize obedience and rule-following; elite schools emphasize initiative and creativity. Schools reproduce social class by providing different cultural capital and connecting students to different social networks. Tracking (placing students in academic vs. vocational tracks) also reproduces inequality.",
-    "tags": [
-      "sociology",
-      "education",
-      "hidden curriculum"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which best describes the 'sick role' critique offered by conflict theorists?",
-    "options": [
-      "They fully agree with Parsons' sick role concept",
-      "Conflict theorists argue that who gets to claim the sick role (and receive its benefits/exemptions) is shaped by power and social position — wealthy patients can more easily claim and maintain the sick role than poor workers or marginalized groups",
-      "The sick role gives too many rights to patients",
-      "The sick role is only applicable in developed countries"
-    ],
-    "correct": 1,
-    "explanation": "Parsons' sick role assumes equal access to the designation of legitimately 'ill' and equal ability to rest and seek care. Conflict critique: (1) Power shapes who is believed when claiming illness; (2) Workers with no paid sick leave cannot take sick role; (3) Race and gender affect how seriously symptoms are taken by providers; (4) Medicalization can be a form of social control. Women's pain historically dismissed as psychological; similar biases for patients of color (e.g., pain management disparities).",
-    "tags": [
-      "sociology",
-      "sick role",
-      "conflict theory",
-      "medical sociology"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Population aging (demographic trend in developed nations) has consequences including:",
-    "options": [
-      "Decreased healthcare spending",
-      "Increased burden on social welfare systems (pensions, healthcare for elderly), potential workforce shortages, and intergenerational equity concerns",
-      "Decrease in chronic disease prevalence",
-      "Uniform increase in fertility rates"
-    ],
-    "correct": 1,
-    "explanation": "Population aging (increased proportion of elderly) results from: declining fertility + increased longevity. Consequences: (1) Increased demand for healthcare (chronic disease management, long-term care); (2) Strain on pension systems (fewer workers per retiree); (3) Potential workforce shortages; (4) Political consequences (older voters have different priorities); (5) 'Silver economy' opportunities. Many solutions proposed: immigration to bolster workforce, delayed retirement age, improved elder care systems.",
-    "tags": [
-      "sociology",
-      "demographics",
-      "population aging"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Cultural capital (Bourdieu) includes:",
-    "options": [
-      "Financial assets and investments",
-      "Knowledge, skills, behaviors, tastes, and credentials — especially middle/upper-class cultural knowledge — that confer status and access to social opportunities",
-      "Social networks and relationships",
-      "Physical attributes valued in a culture"
-    ],
-    "correct": 1,
-    "explanation": "Bourdieu's forms of capital: (1) Economic capital: financial resources; (2) Social capital: network of relationships; (3) Cultural capital: cultural knowledge, education, tastes, and credentials. Cultural capital exists in three forms: embodied (dispositions, ways of speaking), objectified (cultural goods), institutionalized (academic credentials). Schools reward middle/upper-class cultural capital → reproduce class advantage under appearance of meritocracy.",
-    "tags": [
-      "sociology",
-      "cultural capital",
-      "Bourdieu"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Social control theory (Hirschi) suggests that people conform because of:",
-    "options": [
-      "Fear of legal punishment alone",
-      "Social bonds to conventional society: attachment (to people and institutions), commitment (investment in conventional activities), involvement (in conventional activities), and belief (in moral validity of law)",
-      "Inherent goodness in human nature",
-      "Successful socialization removing all criminal impulses"
-    ],
-    "correct": 1,
-    "explanation": "Hirschi's social bond theory (1969): deviance is the DEFAULT — people refrain from it because of bonds. The four bonds: Attachment (caring about others' opinions); Commitment (stake in conformity — education, career investments); Involvement (time spent in conventional activities leaves less time for deviance); Belief (respect for the law and moral norms). Weak bonds → higher likelihood of deviance. Explains why well-bonded teens commit less crime.",
-    "tags": [
-      "sociology",
-      "social control theory",
-      "Hirschi"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The sociological concept of 'anomie' (Durkheim, Merton) refers to:",
-    "options": [
-      "Strong social integration and norm adherence",
-      "A breakdown of social norms and values, leaving individuals without moral guidance — associated with rapid social change, inequality, and increased suicide rates (Durkheim) or deviance (Merton)",
-      "Excessive social regulation",
-      "A state of total social harmony"
-    ],
-    "correct": 1,
-    "explanation": "Durkheim's anomie: normlessness resulting from rapid social change (e.g., during economic crises) → increased suicide rates (anomic suicide). Merton's anomie: gap between culturally prescribed goals and the means to achieve them → various forms of deviance (innovation, retreatism, rebellion). Contemporary application: rapid globalization and economic disruption create anomic conditions. Social integration is protective against anomic suicide.",
-    "tags": [
-      "sociology",
-      "anomie",
-      "Durkheim",
-      "Merton"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which best describes Foucault's concept of biopower?",
-    "options": [
-      "The biological power of immune systems to fight disease",
-      "The mechanisms by which modern states regulate populations through control over biological life — health, sexuality, fertility, and populations through medicine, surveillance, public health, and statistics",
-      "The power of religious institutions over individual health decisions",
-      "Political power derived from military strength"
-    ],
-    "correct": 1,
-    "explanation": "Foucault's biopower: modern governance operates through disciplining individual bodies (anatomo-politics: clinical medicine, individual health behaviors) and regulating populations (biopolitics: public health, demography, reproduction). Medicine functions as a form of social control by pathologizing certain behaviors and bodies. Relevant to MCAT P/S: medicalization, surveillance in healthcare, health policy, and how medical authority shapes social norms.",
-    "tags": [
-      "sociology",
-      "Foucault",
-      "biopower",
-      "medical sociology"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Assimilation vs. multiculturalism as approaches to immigrant integration:",
-    "options": [
-      "Both require immigrants to abandon their cultural practices completely",
-      "Assimilation: immigrants adopt the dominant culture's norms, language, and values; multiculturalism (cultural pluralism): different groups maintain their distinct cultures within a shared society — debate about which better promotes social cohesion and immigrant well-being",
-      "They are identical approaches with different names",
-      "Multiculturalism requires immigrants to assimilate rapidly"
-    ],
-    "correct": 1,
-    "explanation": "Cultural assimilation: 'melting pot' metaphor — immigrants merge into dominant culture over generations. Segmented assimilation: different immigrant groups assimilate into different segments of society (some into middle class, some into urban underclass). Multiculturalism: 'salad bowl' — cultural differences maintained and celebrated alongside civic participation. Evidence on immigrant health: acculturation (assimilation) often worsens health outcomes (healthy immigrant effect).",
-    "tags": [
-      "sociology",
-      "immigration",
-      "assimilation",
-      "multiculturalism"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "In research methods, the independent variable (IV) and dependent variable (DV) are:",
-    "options": [
-      "IV = the measured outcome; DV = the manipulated factor",
-      "IV = the factor manipulated by the researcher; DV = the outcome measured to assess the effect of the IV",
-      "Both are measured but neither is manipulated",
-      "IV and DV are identical in observational studies"
-    ],
-    "correct": 1,
-    "explanation": "Experimental design: IV (cause) is manipulated/controlled by researcher. DV (effect) is measured to assess impact of IV. Control group: not exposed to IV (allows comparison). Random assignment: participants randomly assigned to conditions (controls for confounding variables). Internal validity: confidence that IV caused DV. External validity: generalizability to real world. Confounding variable: third variable that correlates with both IV and DV.",
-    "tags": [
-      "research methods",
-      "experimental design",
-      "variables"
+      "developmental psychology",
+      "Vygotsky",
+      "ZPD"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "A correlation coefficient of r = −0.85 indicates:",
+    "text": "The Big Five personality traits (OCEAN) include:",
     "options": [
-      "A weak positive relationship",
-      "A strong negative relationship (as one variable increases, the other strongly tends to decrease)",
-      "No relationship",
-      "A perfect negative relationship"
+      "Openness, Creativity, Extraversion, Agreeableness, Neuroticism",
+      "Openness to experience, Conscientiousness, Extraversion, Agreeableness, Neuroticism",
+      "Optimism, Confidence, Extraversion, Adaptability, Nurturance",
+      "Intelligence, Conscientiousness, Extraversion, Autonomy, Neuroticism"
     ],
     "correct": 1,
-    "explanation": "Correlation coefficient r ranges from −1 to +1. r = +1: perfect positive correlation; r = 0: no linear relationship; r = −1: perfect negative correlation. r = −0.85: strong negative correlation. Note: correlation does NOT imply causation. Third variable problem: a lurking variable may cause both. Reverse causation: direction of causality may be opposite to assumption. r² = coefficient of determination (proportion of variance explained).",
+    "explanation": "OCEAN: Openness (curiosity, creativity), Conscientiousness (organization, discipline), Extraversion (sociability, assertiveness), Agreeableness (cooperation, empathy), Neuroticism (emotional instability, anxiety). Most empirically supported personality model. Measured across cultures. Conscientiousness best predicts job performance; neuroticism predicts mental health issues.",
     "tags": [
-      "research methods",
-      "statistics",
-      "correlation"
+      "personality",
+      "Big Five",
+      "OCEAN"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "The difference between reliability and validity in psychological measurement:",
+    "text": "Freud's concept of the 'id' refers to:",
     "options": [
-      "Reliability = accuracy; validity = consistency",
-      "Reliability = consistency of measurement (same results on repeated administrations); validity = the test actually measures what it claims to measure",
-      "They are the same concept",
-      "Validity = consistency; reliability = accuracy"
+      "The rational, executive part of personality",
+      "The primitive, instinctual part operating on the pleasure principle, seeking immediate gratification",
+      "The moral, self-critical part of personality",
+      "The observing part of the mind"
     ],
     "correct": 1,
-    "explanation": "Reliability: test-retest (same results over time), inter-rater (different raters agree), internal consistency (items correlate with each other). Validity: construct validity (measures theoretical construct), content validity (covers the domain), criterion validity (predictive: predicts outcome; concurrent: correlates with existing measure). A test can be reliable without being valid (consistently measuring the wrong thing), but cannot be valid without being reliable.",
+    "explanation": "Freud's structural model: (1) Id: unconscious, operates on pleasure principle, contains instinctual drives (Eros/life, Thanatos/death), demands immediate gratification; (2) Ego: conscious/preconscious, operates on reality principle, mediates between id and reality; (3) Superego: internalized moral standards (from parents/society), includes ideal self and conscience. Psychopathology = id/ego/superego conflicts.",
     "tags": [
-      "research methods",
-      "reliability",
-      "validity"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Placebo effect and double-blind studies are related in that:",
-    "options": [
-      "Placebo effect proves that treatments have no biological effect",
-      "The double-blind design controls for the placebo effect — neither participants nor researchers know who received the real treatment vs. placebo, preventing expectations from influencing outcomes",
-      "Placebos are used only in surgery, not medication trials",
-      "Double-blind studies are used only to test psychotropic drugs"
-    ],
-    "correct": 1,
-    "explanation": "Placebo effect: real physiological and psychological changes from inert treatment due to expectation. Single-blind: participants don't know their condition. Double-blind: neither participants NOR researchers know (prevents researcher expectancy bias, which can subtly influence data collection and interpretation). Nocebo effect: negative outcomes from expectations of harm. Meta-analyses show strong placebo effects in pain, depression, and IBS trials.",
-    "tags": [
-      "research methods",
-      "placebo",
-      "double-blind"
+      "personality",
+      "Freud",
+      "psychoanalytic theory"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "Operationalization in research refers to:",
+    "text": "The defense mechanism of 'reaction formation' involves:",
     "options": [
-      "Computerizing data collection methods",
-      "Defining variables in terms of specific, measurable procedures or operations used to measure them (e.g., 'anxiety' operationalized as score on the GAD-7 questionnaire)",
-      "Conducting mathematical operations on data",
-      "The statistical analysis of survey data"
+      "Pushing unconscious thoughts deeper into unconsciousness (repression)",
+      "Behaving in the opposite way to your unconscious impulse (e.g., treating someone you hate with extreme kindness)",
+      "Attributing your own feelings to others (projection)",
+      "Reverting to childlike behaviors (regression)"
     ],
     "correct": 1,
-    "explanation": "Operationalization: converting abstract conceptual variables into measurable, observable indicators. E.g., 'depression' operationalized as BDI-II score >14; 'social class' operationalized as household income, education level, or occupation. Good operationalization is crucial for replicability. Allows different researchers to use the same definition and compare results. Poor operationalization → construct validity problems.",
+    "explanation": "Defense mechanisms (Freud): Repression (blocking thoughts), Projection (attributing own feelings to others), Reaction formation (opposite behavior), Rationalization (logical justification for unacceptable impulse), Displacement (redirecting feelings to safer target), Sublimation (channeling impulse into socially acceptable outlet), Regression (returning to earlier developmental behavior), Denial (refusing to accept reality).",
     "tags": [
-      "research methods",
-      "operationalization",
-      "measurement"
+      "personality",
+      "defense mechanisms",
+      "Freud"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Null hypothesis significance testing (NHST) — what does p < 0.05 mean?",
+    "text": "Self-actualization in Maslow's hierarchy of needs:",
     "options": [
-      "The probability that the alternative hypothesis is true is 95%",
-      "The probability of obtaining results at least as extreme as observed, IF the null hypothesis were true, is less than 5% — typically interpreted as 'statistically significant' and warrants rejection of the null hypothesis",
-      "There is a 95% chance the results are due to the treatment effect",
-      "The effect size is large"
-    ],
-    "correct": 1,
-    "explanation": "p-value: probability of observing the data (or more extreme) given H₀ is true. p < 0.05: less than 5% chance of such results by chance alone IF null were true → reject null. NOT the probability that H₀ is false. Type I error (α): rejecting true null hypothesis (false positive). Type II error (β): failing to reject false null hypothesis (false negative). Power = 1 − β. Statistical significance ≠ clinical/practical significance (need effect size: Cohen's d, r, etc.).",
-    "tags": [
-      "research methods",
-      "statistics",
-      "p-value"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Institutional Review Board (IRB) oversight in research requires all of the following EXCEPT:",
-    "options": [
-      "Informed consent from participants",
-      "Minimization of risks to participants",
-      "Guarantee that all participants will benefit from the research (research can have societal benefit without direct benefit to all participants)",
-      "Protection of vulnerable populations"
+      "Refers to safety and security needs",
+      "Is the third level (love/belonging)",
+      "Represents the highest level: achieving one's full potential and becoming everything one is capable of becoming",
+      "Is the same as self-esteem needs"
     ],
     "correct": 2,
-    "explanation": "IRB principles (Belmont Report, 1979): (1) Respect for persons: informed consent, autonomy, protection of those with diminished autonomy; (2) Beneficence: maximize benefits, minimize harm — NOT requiring all participants to benefit directly; (3) Justice: fair distribution of research benefits and burdens. Deception: allowed only if no alternative, participants must be debriefed afterward. Research cannot directly harm participants even if they consent.",
+    "explanation": "Maslow's hierarchy (bottom to top): (1) Physiological (food, water, shelter); (2) Safety (security, stability); (3) Love/Belonging (social connection, relationships); (4) Esteem (self-esteem, recognition); (5) Self-actualization (realizing full potential). The hierarchy is often depicted as a pyramid. Criticism: needs don't always follow this order; self-actualization is culturally variable. Later Maslow added 'transcendence' above self-actualization.",
     "tags": [
-      "research methods",
-      "ethics",
-      "IRB"
+      "motivation",
+      "Maslow",
+      "humanistic psychology"
     ],
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
-    "text": "Regarding the nature-nurture debate in psychology, the current consensus is:",
+    "text": "Intrinsic motivation refers to:",
     "options": [
-      "Nature (genetics) determines all psychological traits",
-      "Nurture (environment) determines all psychological traits",
-      "Both nature and nurture interact to shape psychological traits — gene-environment interactions, epigenetics, and developmental context all matter",
-      "The debate is irrelevant to modern psychology"
+      "Motivation driven by external rewards or punishments",
+      "Motivation that comes from internal sources — interest, enjoyment, or the inherent satisfaction of the activity itself",
+      "Motivation that requires continuous reinforcement",
+      "Motivation that is primarily biological (drive reduction)"
+    ],
+    "correct": 1,
+    "explanation": "Intrinsic motivation (self-determination theory, Deci & Ryan): doing something because it's inherently interesting or enjoyable. Extrinsic motivation: external rewards or pressures. Overjustification effect: providing external rewards for intrinsically motivated behaviors reduces intrinsic motivation (external reward 'crowds out' internal interest). Self-determination theory: needs for autonomy, competence, and relatedness foster intrinsic motivation.",
+    "tags": [
+      "motivation",
+      "intrinsic vs extrinsic",
+      "self-determination theory"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The Yerkes-Dodson law describes the relationship between arousal and performance:",
+    "options": [
+      "Performance increases linearly with arousal up to very high levels",
+      "Performance is best at very low arousal (calm state)",
+      "Performance is best at moderate arousal levels (inverted U-shaped relationship); for complex tasks, optimal arousal is lower",
+      "Arousal has no effect on performance"
     ],
     "correct": 2,
-    "explanation": "Modern view: interactionist position. Genes establish a reaction range (potential) that environment then actualizes. Gene-environment interaction: some genotypes are more sensitive to environmental influences (differential susceptibility). Epigenetics: environmental factors alter gene expression (DNA methylation, histone modification) without changing DNA sequence. Twin studies: MZ twins more similar than DZ for many traits but not identical (proving nurture matters too).",
+    "explanation": "Yerkes-Dodson law (1908): inverted-U relationship between arousal and performance. Too little arousal: low alertness, poor performance. Too much arousal: anxiety impairs performance. Optimal arousal is in the middle. Key nuance: for simple tasks, higher arousal is optimal; for complex tasks, lower arousal is optimal (arousal interferes with complex processing).",
     "tags": [
-      "psychology",
-      "nature vs nurture",
-      "genetics and environment"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "The concept of 'self-concept' includes:",
-    "options": [
-      "Only a person's physical attributes",
-      "One's beliefs about oneself across multiple domains — abilities, personality, relationships, roles, and values. Influenced by culture, social feedback, and social comparisons",
-      "Objective assessment of one's true abilities",
-      "Only one's academic self-perception"
-    ],
-    "correct": 1,
-    "explanation": "Self-concept: the totality of one's thoughts and feelings about oneself. Self-esteem: evaluative component (how positively you feel about your self-concept). Looking-glass self (Cooley): self-concept influenced by how we imagine others see us. Social comparison (Festinger): we evaluate ourselves by comparing to others. Cultural variation: Western cultures (individualist) emphasize unique traits; East Asian cultures (collectivist) emphasize relational roles and group membership in self-concept.",
-    "tags": [
-      "social psychology",
-      "self-concept",
-      "identity"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Impression management (Goffman's dramaturgical model) describes how people:",
-    "options": [
-      "Passively respond to social stimuli without conscious effort",
-      "Actively manage the impressions others form of them through 'performances' — using front stage (public, formal) and back stage (private, informal) presentations",
-      "Form impressions of others based on their body language only",
-      "Process social information during face-to-face interactions in one fixed way"
-    ],
-    "correct": 1,
-    "explanation": "Goffman's dramaturgical model (The Presentation of Self in Everyday Life, 1959): social life is like theater — people are actors who manage their performances for different audiences. Front stage: public performances aligned with social expectations (formal scripts, costumes/clothing, props). Back stage: private spaces where people drop the performance (home, with close friends). Teams: people cooperate to maintain consistent front-stage performances. Relevant to: doctor-patient interaction, social media self-presentation.",
-    "tags": [
-      "sociology",
-      "Goffman",
-      "impression management"
+      "motivation",
+      "arousal",
+      "Yerkes-Dodson"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "The 'looking-glass self' concept (Charles Cooley) describes:",
+    "text": "The fundamental attribution error (FAE) is the tendency to:",
     "options": [
-      "How mirrors change self-perception",
-      "Self-concept as a reflection of how we imagine others see and judge us — our self-image is built from imagining others' perceptions of us",
-      "Self-perception as inherently accurate and objective",
-      "The use of social media to observe others"
+      "Overestimate situational factors and underestimate dispositional factors when explaining OTHER people's behavior",
+      "Overestimate dispositional (character) factors and underestimate situational factors when explaining OTHER people's behavior",
+      "Apply the same attribution error to oneself and others equally",
+      "Attribute one's own failures to bad luck"
     ],
     "correct": 1,
-    "explanation": "Cooley's looking-glass self (1902): three elements: (1) We imagine how we appear to others; (2) We imagine others' judgment of our appearance; (3) We develop our self-feeling (pride or shame) based on our imagined judgment. Our self-concept is fundamentally social — built through social interaction and reflection. Contrasts with modern 'authentic self' views. Relevant to identity development, social media effects on self-esteem.",
+    "explanation": "Fundamental attribution error (FAE/correspondence bias): overweighting dispositional (personality) factors and underweighting situational factors when explaining others' behavior. E.g., someone cuts you off in traffic → 'they're a reckless person' (not 'they're rushing to the hospital'). Actor-Observer Bias: we attribute OUR OWN behavior to situations, others' behavior to disposition. Self-Serving Bias: attribute own successes to disposition, failures to situation.",
     "tags": [
-      "sociology",
-      "self-concept",
-      "Cooley",
-      "symbolic interactionism"
+      "social psychology",
+      "attribution",
+      "fundamental attribution error"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Which is a key difference between prejudice, stereotyping, and discrimination?",
+    "text": "Milgram's obedience experiment found that:",
     "options": [
-      "All three are identical concepts referring to the same phenomenon",
-      "Stereotyping = cognitive (generalized beliefs about groups); Prejudice = affective (negative attitudes and feelings about groups); Discrimination = behavioral (differential treatment based on group membership)",
-      "Prejudice is always conscious; stereotyping is always unconscious",
-      "Discrimination can only occur at the individual, not institutional, level"
+      "Almost no participants (less than 1%) obeyed commands to deliver dangerous electric shocks",
+      "About 65% of participants delivered what they believed were dangerous levels of shock when ordered by an authority figure",
+      "Most people refused to harm others under any circumstances",
+      "Only sociopaths obeyed the authority figure"
     ],
     "correct": 1,
-    "explanation": "Three components of racism/sexism/etc.: Cognitive: stereotypes (often automatic, implicit); Affective: prejudice (negative feelings/attitudes); Behavioral: discrimination (actions). Implicit bias: automatic, unconscious associations — measured by IAT (Implicit Association Test). Institutional discrimination: policies and practices that systematically disadvantage groups (e.g., redlining, stop-and-frisk). Microaggressions: subtle, often unconscious, daily indignities experienced by marginalized groups.",
+    "explanation": "Milgram (1963): ~65% of participants fully obeyed the authority figure (experimenter in lab coat) and delivered all shocks up to 450V (labeled 'XXX') to a confederate who screamed and went silent. Key factors: proximity to authority (face-to-face), institutional legitimacy, gradual escalation of commitment, distance from victim. Showed that ordinary people can commit harmful acts under authority pressure (relevance to Holocaust).",
     "tags": [
       "social psychology",
-      "prejudice",
-      "discrimination",
+      "Milgram",
+      "obedience"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Asch's line experiments demonstrated:",
+    "options": [
+      "That people are immune to group pressure when the task is unambiguous",
+      "That approximately 75% of participants conformed at least once to clearly incorrect group answers — even on unambiguous perceptual tasks",
+      "That conformity only occurs in ambiguous situations (Sherif's autokinetic effect)",
+      "That social pressure has no effect on perception"
+    ],
+    "correct": 1,
+    "explanation": "Asch (1951): confederates unanimously gave obviously wrong answers (which line matches?) — ~75% of participants conformed at least once; only ~25% never conformed. Conformity decreased when ONE other person dissented (social support), when the group was smaller (<3), or when responses were private. Informational vs. normative influence: people conform to get information (ambiguous) OR to fit in (unambiguous — Asch).",
+    "tags": [
+      "social psychology",
+      "conformity",
+      "Asch"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The bystander effect states that:",
+    "options": [
+      "People are more likely to help in emergencies if more bystanders are present",
+      "The presence of more bystanders DECREASES the probability that any individual will intervene (diffusion of responsibility, pluralistic ignorance)",
+      "Bystanders always intervene regardless of group size",
+      "More bystanders increase the quality, not quantity, of helping"
+    ],
+    "correct": 1,
+    "explanation": "Bystander effect (Darley & Latané, 1968): as group size increases, each person is LESS likely to help. Mechanisms: (1) Diffusion of responsibility — 'someone else will help'; (2) Pluralistic ignorance — looking at others' calm reactions to define the situation as non-emergency. Kitty Genovese murder (1964) motivated this research. To counter: make eye contact, single someone out ('YOU in the red jacket, call 911').",
+    "tags": [
+      "social psychology",
+      "bystander effect",
+      "prosocial behavior"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Cognitive dissonance (Festinger) is reduced by:",
+    "options": [
+      "Holding two consistent cognitions simultaneously",
+      "Changing one of the conflicting cognitions, adding a new cognition to reconcile them, or trivializing the importance of the conflict",
+      "Increasing the number of inconsistent beliefs",
+      "External validation of the dissonant beliefs"
+    ],
+    "correct": 1,
+    "explanation": "Cognitive dissonance: the discomfort of holding two conflicting beliefs, values, or behaviors. People are motivated to reduce it. Example: 'I smoke' + 'smoking causes cancer' → dissonance → resolve by: 'I'll quit soon,' 'I know a smoker who lived to 100,' or 'cancer research is overstated.' Classic study: paid $1 vs. $20 to say boring task was fun — $1 group internalized the belief more (less external justification → more need to change attitude).",
+    "tags": [
+      "social psychology",
+      "cognitive dissonance",
+      "attitude change"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Social facilitation refers to:",
+    "options": [
+      "The tendency to perform better at familiar tasks and worse at novel/complex tasks when others are present",
+      "The bystander effect in group settings",
+      "Increased effort in group tasks",
+      "Decreased effort when working in groups (social loafing)"
+    ],
+    "correct": 0,
+    "explanation": "Social facilitation (Zajonc, 1965): presence of others improves performance on well-learned/simple tasks (dominant response) but impairs performance on novel/complex tasks. Mechanism: arousal from evaluation apprehension. Contrasts with social loafing (decreased effort in groups because individual contributions are not identifiable). Cockroach experiments: ran simple mazes faster, complex mazes slower, with an audience.",
+    "tags": [
+      "social psychology",
+      "social facilitation",
+      "group dynamics"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Groupthink occurs when:",
+    "options": [
+      "Diverse groups make better decisions than individuals",
+      "A highly cohesive group prioritizes harmony and consensus over critical thinking, leading to poor decisions (e.g., Bay of Pigs invasion)",
+      "Groups always outperform individuals in decision-making",
+      "Individual members dominate group discussion"
+    ],
+    "correct": 1,
+    "explanation": "Groupthink (Janis): in highly cohesive groups with strong leaders and pressure for unanimity, critical thinking is suppressed. Symptoms: illusion of invulnerability, collective rationalization, belief in group's morality, out-group stereotyping, self-censorship, illusion of unanimity, mind guards. Prevention: devil's advocate, anonymous input, diverse membership, subgroup deliberations.",
+    "tags": [
+      "social psychology",
+      "groupthink",
+      "group decision-making"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The self-fulfilling prophecy in social psychology refers to:",
+    "options": [
+      "People accurately predict their own behavior",
+      "A belief or expectation that causes itself to come true (e.g., teacher expects student to fail → gives less attention → student fails)",
+      "A method of reducing cognitive dissonance",
+      "A measure of attitude-behavior consistency"
+    ],
+    "correct": 1,
+    "explanation": "Self-fulfilling prophecy: a prediction that directly or indirectly causes itself to become true. Rosenthal effect (Pygmalion effect): teachers told certain students were 'late bloomers' (randomly selected) — those students showed greater IQ gains. In stereotyping: expectation of how a group member will behave changes how you treat them, which then elicits the expected behavior. Also relevant in clinical settings (patient outcomes affected by clinician expectations).",
+    "tags": [
+      "social psychology",
+      "self-fulfilling prophecy",
       "stereotyping"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "The Thomas theorem states that:",
+    "text": "The concept of 'social stratification' refers to:",
     "options": [
-      "Social reality exists only at the macrosociological level",
-      "If people define situations as real, they are real in their consequences — beliefs and perceptions shape behavior and outcomes, regardless of objective reality",
-      "Economic factors alone determine social behavior",
-      "Groups always conform to the majority perception"
+      "Individual differences in personality",
+      "The hierarchical ranking of people or groups in society based on wealth, power, and prestige — a systematic, patterned social inequality",
+      "Random variation in income across individuals",
+      "The process of people moving between social groups freely"
     ],
     "correct": 1,
-    "explanation": "Thomas theorem (W.I. Thomas & D.S. Thomas, 1928): 'If men define situations as real, they are real in their consequences.' Connects to symbolic interactionism. Application: if a bank is perceived as about to fail (bank run), people withdraw money and it fails — the belief created the reality. Stereotype threat: defining a test as diagnostic of racial ability → performance consequences. Placebo effect. Medicalization: defining behaviors as diseases creates patients.",
+    "explanation": "Social stratification: a structured hierarchy of social inequality that is (1) social (not just individual), (2) reproduced across generations, (3) universal across societies (though forms vary), and (4) supported by cultural beliefs. Bases: socioeconomic status (income/wealth), class, race, gender, caste. Weber's 3-component model: class (economic), status (prestige), party (power).",
     "tags": [
       "sociology",
-      "Thomas theorem",
-      "symbolic interactionism"
+      "social stratification",
+      "inequality"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Conflict theory (Marx, C. Wright Mills) views society as:",
+    "options": [
+      "A harmonious system where each part functions to maintain stability (functionalism)",
+      "A system characterized by conflict between social groups (especially economic classes) competing for limited resources; institutions serve the interests of dominant groups",
+      "A collection of symbols and meanings constructed through interactions (symbolic interactionism)",
+      "A meritocracy where status is earned through ability and effort"
+    ],
+    "correct": 1,
+    "explanation": "Conflict theory: social institutions (education, law, religion, media) reflect and reinforce the interests of the ruling class. Marx: bourgeoisie (owners of means of production) vs. proletariat (workers). Application: education — hidden curriculum reproduces class status; media — owned by elites, serves elite interests. Contemporary conflict theorists extend to race (W.E.B. Du Bois), gender (feminist theory), and intersectionality (Kimberlé Crenshaw).",
+    "tags": [
+      "sociology",
+      "conflict theory",
+      "Marx"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Social networks and their role in social support affect health because:",
+    "text": "Symbolic interactionism (Mead, Blumer) focuses on:",
     "options": [
-      "Social support only prevents mental illness, not physical illness",
-      "Social support buffers the effects of stress (stress-buffering hypothesis) and has direct beneficial effects on health (main effect hypothesis) — isolation increases mortality risk comparably to smoking 15 cigarettes per day",
-      "Social networks only matter for young adults",
-      "More friends always leads to better health outcomes regardless of the quality of relationships"
+      "Macro-level analysis of social institutions",
+      "The ways individuals create meaning through symbols (language, gestures) in small-scale social interactions, and how shared meanings shape social reality",
+      "The economic basis of social inequality",
+      "The function of social institutions for maintaining order"
     ],
     "correct": 1,
-    "explanation": "Social support dimensions: informational (advice/information), emotional (empathy, care), instrumental (tangible aid), appraisal (feedback). Stress-buffering hypothesis: social support protects against stress-induced illness. Main effect hypothesis: social integration directly benefits health regardless of stress. Mechanisms: neuroendocrine (oxytocin, reduced cortisol), behavioral (compliance with health behaviors), cognitive (positive appraisal), direct physiological. Quality > quantity of social relationships.",
+    "explanation": "Symbolic interactionism (micro-level): meaning emerges from social interaction; people act based on the meaning things have for them, and those meanings are created and modified through social interaction. Key concepts: symbols (words, gestures), the looking-glass self (Cooley: we see ourselves through others' perceptions), impression management (Goffman's dramaturgical theory — life as theater). Thomas theorem: if situations are defined as real, they are real in their consequences.",
     "tags": [
-      "social psychology",
-      "social support",
-      "health"
+      "sociology",
+      "symbolic interactionism",
+      "social interaction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Structural functionalism (Durkheim, Parsons) views society as:",
+    "options": [
+      "A system of conflict between competing groups",
+      "A complex system whose parts work together to maintain social stability and order; each institution has a function",
+      "A series of individual rational choices",
+      "A product of economic base determining cultural superstructure"
+    ],
+    "correct": 1,
+    "explanation": "Structural functionalism: society is like a biological organism — each part (family, education, religion, economy, government) has manifest functions (intended, visible) and latent functions (unintended, hidden). Dysfunctions: elements that may disrupt social stability. Durkheim: religion functions to promote social solidarity; crime functions to clarify norms and promote solidarity. Criticism: ignores power imbalances, over-emphasizes stability, justifies the status quo.",
+    "tags": [
+      "sociology",
+      "structural functionalism",
+      "Durkheim"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Social mobility refers to:",
+    "options": [
+      "Physical movement between geographic locations",
+      "Movement of individuals or groups between positions in the social hierarchy — either upward, downward, or horizontal",
+      "The stability of social class across generations",
+      "The ability of societies to form new institutions"
+    ],
+    "correct": 1,
+    "explanation": "Social mobility: vertical mobility = moving up (upward) or down (downward) in SES; horizontal mobility = moving within the same level (e.g., changing jobs but same status). Intergenerational mobility: children vs. parents' class. Intragenerational mobility: individual's mobility within their lifetime. Open societies: meritocracy, high mobility. Caste systems: closed, ascribed status, no/little mobility.",
+    "tags": [
+      "sociology",
+      "social mobility",
+      "stratification"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The sociological concept of 'deviance' refers to:",
+    "options": [
+      "Any biological abnormality",
+      "Any behavior, belief, or characteristic that violates social norms of a particular group — socially defined, not inherently bad",
+      "Criminal behavior only",
+      "Mental illness only"
+    ],
+    "correct": 1,
+    "explanation": "Deviance: context-dependent violation of social norms. Not all deviance is criminal (jaywalking = minor deviance); not all crime is viewed as deviant (civil disobedience). Social control theory (Hirschi): people conform because of bonds to society (attachment, commitment, involvement, belief). Labeling theory (Becker): deviance is created by societal reaction; 'deviant' label becomes a master status that affects further behavior (primary vs. secondary deviance).",
+    "tags": [
+      "sociology",
+      "deviance",
+      "social control"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Robert Merton's strain theory explains deviance as:",
+    "options": [
+      "A result of innate criminal impulses",
+      "The gap between culturally prescribed goals (e.g., financial success) and legitimate means to achieve them — people adapt differently (conformity, innovation, ritualism, retreatism, rebellion)",
+      "Purely a result of labeling by authority figures",
+      "A function of family structure only"
+    ],
+    "correct": 1,
+    "explanation": "Merton's strain theory: when legitimate means to achieve cultural goals are blocked (especially for lower-class individuals), people adapt: (1) Conformity: accept goals and means; (2) Innovation: accept goals, reject means (e.g., crime to get rich); (3) Ritualism: reject goals, accept means (bureaucrat going through motions); (4) Retreatism: reject both (e.g., addiction, dropping out); (5) Rebellion: replace both with alternative goals/means. Most relevant for explaining property crime.",
+    "tags": [
+      "sociology",
+      "deviance",
+      "strain theory",
+      "Merton"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Race is best understood sociologically as:",
+    "options": [
+      "A biological category with clear genetic boundaries separating human groups",
+      "A socially constructed category — racial classifications are created by societies, vary historically and cross-culturally, and have real social consequences despite lacking biological basis",
+      "Determined solely by skin color",
+      "A category defined by ancestry only"
+    ],
+    "correct": 1,
+    "explanation": "Race as social construction: genomics shows more genetic variation within 'racial' groups than between them; historical racial categories have changed over time (Irish, Italians were not considered 'white' in the US early 20th century); race categories vary by country (Brazil has >100 racial categories vs. US binary). Despite lacking biological basis, race has very real social consequences (discrimination, health disparities, wealth gaps). Ethnicity: shared cultural heritage, language, religion — also socially constructed but more voluntary.",
+    "tags": [
+      "sociology",
+      "race",
+      "social construction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Health disparities across social groups are best explained by:",
+    "options": [
+      "Genetic differences between racial groups",
+      "A combination of social determinants of health: socioeconomic status (SES), race/ethnicity, access to healthcare, neighborhood conditions, stress from discrimination, and behavioral factors shaped by social conditions",
+      "Individual lifestyle choices alone",
+      "The inherent biological vulnerability of certain groups"
+    ],
+    "correct": 1,
+    "explanation": "Social determinants of health (SDH): conditions in environments where people live, work, and play that affect health outcomes. Lower SES → worse health outcomes across nearly every measure. Mechanisms: (1) Material deprivation (food, housing, healthcare access); (2) Psychosocial stress (allostatic load, cortisol dysregulation from chronic stress); (3) Behavioral differences (shaped by access and social norms); (4) Environmental exposures (pollution, food deserts). Racial health disparities persist even after controlling for SES.",
+    "tags": [
+      "sociology",
+      "health disparities",
+      "social determinants of health"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Gender vs. sex in sociological terms:",
+    "options": [
+      "Gender = biological characteristics; sex = social roles",
+      "Sex = biological characteristics (chromosomes, hormones, reproductive anatomy); gender = socially constructed roles, behaviors, and identities associated with being masculine or feminine",
+      "Both terms are interchangeable and mean the same thing",
+      "Gender is fixed; sex is fluid"
+    ],
+    "correct": 1,
+    "explanation": "Sex: biological (male/female/intersex), determined by chromosomes, hormones, and anatomy. Gender: socially constructed (masculine/feminine/non-binary), varies across cultures and history, expressed through norms, roles, and identities. Gender socialization: process by which children learn gender norms from family, peers, media, institutions. Judith Butler: gender is 'performed' through repeated acts (performativity theory). Transgender: gender identity differs from sex assigned at birth.",
+    "tags": [
+      "sociology",
+      "gender",
+      "sex",
+      "social construction"
     ],
     "difficulty": "medium"
   }

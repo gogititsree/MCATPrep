@@ -1,0 +1,411 @@
+[
+  {
+    "text": "Which statement about D-amino acids in biology is correct?",
+    "options": [
+      "D-amino acids are found in all collagen molecules",
+      "D-amino acids are toxic to all organisms",
+      "D-amino acids are found in bacterial peptidoglycan cell walls but not in typical mammalian proteins",
+      "D-amino acids are the normal configuration in all proteins"
+    ],
+    "correct": 2,
+    "explanation": "Most proteins contain exclusively L-amino acids. However, D-amino acids appear in bacterial peptidoglycan (D-Ala, D-Glu), conferring resistance to most proteases. Some antibiotics (vancomycin, penicillin) exploit this by targeting D-amino acid-containing structures. Small amounts of D-amino acids also exist in the mammalian brain (D-serine as a co-agonist of NMDA receptors).",
+    "tags": [
+      "amino acids",
+      "microbiology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Arginine is the most basic standard amino acid. Which functional group in its side chain accounts for this?",
+    "options": [
+      "Epsilon-amino group (pKa ~10.5)",
+      "Guanidinium group (pKa ~12.5)",
+      "Imidazole ring (pKa ~6)",
+      "Secondary amine in a ring"
+    ],
+    "correct": 1,
+    "explanation": "Arginine's side chain contains a guanidinium group (–NH–C(=NH)–NH2), which is positively charged at essentially all physiological and experimental pH values (pKa ~12.5). This makes arginine the most basic amino acid. It participates in the urea cycle and forms salt bridges/electrostatic interactions with negatively charged residues and DNA phosphates.",
+    "tags": [
+      "amino acids",
+      "acid-base"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which amino acid is least likely to be found in a transmembrane helix of an integral membrane protein?",
+    "options": [
+      "Leucine",
+      "Isoleucine",
+      "Lysine",
+      "Valine"
+    ],
+    "correct": 2,
+    "explanation": "Transmembrane helices span the hydrophobic lipid bilayer and require predominantly hydrophobic residues (Leu, Val, Ile, Ala, Phe, Met). Lysine is positively charged and highly hydrophilic; burying it in the membrane bilayer is thermodynamically unfavorable. Charged residues found in transmembrane segments are usually involved in ion channel gating or proton transfer.",
+    "tags": [
+      "amino acids",
+      "membrane proteins"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Histidine, lysine, and arginine are basic amino acids. At physiological pH (7.4), which of these carries a net charge of approximately zero (uncharged side chain)?",
+    "options": [
+      "None; all three are fully protonated at pH 7.4",
+      "Arginine (pKa ~12.5)",
+      "Lysine (pKa ~10.5)",
+      "Histidine (pKa ~6.0, mostly deprotonated at pH 7.4)"
+    ],
+    "correct": 3,
+    "explanation": "At pH 7.4, histidine's imidazole (pKa ~6.0) is mostly deprotonated (neutral), since pH > pKa. By Henderson-Hasselbalch, at pH 7.4: ratio = 10^(7.4–6.0) = 25:1 unprotonated:protonated. Lysine and arginine have pKa values far above 7.4 and remain fully protonated (positively charged) at physiological pH.",
+    "tags": [
+      "amino acids",
+      "acid-base"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which amino acid provides the nitrogen atoms used in urea cycle reactions?",
+    "options": [
+      "Glutamine and alanine",
+      "Histidine and arginine",
+      "Aspartate and ammonia (via carbamoyl phosphate)",
+      "Glycine and serine"
+    ],
+    "correct": 2,
+    "explanation": "The urea cycle incorporates two nitrogen atoms into urea: one from ammonia (as carbamoyl phosphate, made from NH4+ + CO2) and one from aspartate (which donates its amino group via argininosuccinate). Glutamine transports amino nitrogen from peripheral tissues to the liver as NH4+ and as aspartate precursors.",
+    "tags": [
+      "amino acids",
+      "urea cycle",
+      "nitrogen metabolism"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "A peptide bond is formed by:",
+    "options": [
+      "Reduction of a disulfide bond between two cysteines",
+      "Oxidation of two adjacent amino acid side chains",
+      "Condensation of the alpha-carboxyl group of one amino acid with the alpha-amino group of the next, releasing water",
+      "Phosphorylation of the alpha-amino group"
+    ],
+    "correct": 2,
+    "explanation": "Peptide bond formation is a condensation (dehydration) reaction: the alpha-COOH of one amino acid reacts with the alpha-NH2 of the next, releasing H2O and forming an amide bond (–CO–NH–). This occurs at the ribosome during translation. The peptide bond has partial double bond character due to resonance, making it planar and restricting rotation.",
+    "tags": [
+      "amino acids",
+      "protein structure"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Selenocysteine is sometimes called the 21st amino acid. It is encoded by which codon?",
+    "options": [
+      "UGA (normally a stop codon, recoded in context)",
+      "AUG",
+      "UAA",
+      "CGG"
+    ],
+    "correct": 0,
+    "explanation": "Selenocysteine is incorporated at UGA codons when a special stem-loop structure (SECIS element) is present in the mRNA 3' UTR. Normally UGA is a stop codon, but SECIS causes the ribosome to insert selenocysteine instead. Selenoproteins include thioredoxin reductase and glutathione peroxidase. Dietary selenium is essential for their synthesis.",
+    "tags": [
+      "amino acids",
+      "translation",
+      "molecular biology"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which pair of amino acids is important for forming salt bridges in proteins?",
+    "options": [
+      "Leucine and valine",
+      "Aspartate/glutamate (negative) with lysine/arginine/histidine (positive)",
+      "Serine and threonine",
+      "Glycine and alanine"
+    ],
+    "correct": 1,
+    "explanation": "Salt bridges form between oppositely charged side chains: anionic residues (Asp pKa ~3.9, Glu pKa ~4.1) pair with cationic residues (Lys pKa ~10.5, Arg pKa ~12.5, His pKa ~6.0). Salt bridges contribute to protein stability, especially in thermophilic proteins, and to protein-protein and protein-DNA interactions.",
+    "tags": [
+      "amino acids",
+      "protein structure"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which level of protein structure is maintained by hydrogen bonds between backbone carbonyl and amide groups?",
+    "options": [
+      "Secondary structure (alpha-helices and beta-sheets)",
+      "Quaternary structure",
+      "Tertiary structure",
+      "Primary structure"
+    ],
+    "correct": 0,
+    "explanation": "Secondary structure (alpha-helices, beta-sheets, turns) is stabilized by H-bonds between backbone C=O and N–H groups, not side chains. Primary structure is the amino acid sequence (covalent). Tertiary structure involves side chain interactions. Quaternary structure involves interactions between subunits.",
+    "tags": [
+      "protein structure"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In an alpha-helix, each residue forms a hydrogen bond with the residue how many positions later?",
+    "options": [
+      "4 positions (i+4)",
+      "2 positions (i+2)",
+      "3 positions (i+3)",
+      "7 positions (i+7)"
+    ],
+    "correct": 0,
+    "explanation": "In an alpha-helix, the N–H of residue i hydrogen bonds to the C=O of residue i+4. The helix has 3.6 residues per turn and a rise of 1.5 Å per residue (5.4 Å per turn). This geometry and the i→i+4 hydrogen bonding pattern define the alpha-helix.",
+    "tags": [
+      "protein structure",
+      "alpha-helix"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The dominant thermodynamic driving force for protein folding in aqueous solution is:",
+    "options": [
+      "Maximizing the number of hydrogen bonds",
+      "Maximizing ionic interactions",
+      "The hydrophobic effect — burying nonpolar side chains away from water",
+      "Formation of disulfide bonds"
+    ],
+    "correct": 2,
+    "explanation": "The hydrophobic effect drives folding: exposing nonpolar residues to water is entropically costly (water forms ordered cage around them). Burying them in the protein core releases water, increasing entropy. This is the dominant force, though hydrogen bonds, electrostatic interactions, and van der Waals forces also contribute.",
+    "tags": [
+      "protein structure",
+      "folding",
+      "thermodynamics"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Hemoglobin (alpha2beta2) exhibits cooperative O2 binding. This means:",
+    "options": [
+      "O2 binds to only one subunit at a time",
+      "All four subunits bind O2 simultaneously with equal affinity",
+      "Binding of O2 to one subunit increases O2 affinity in remaining subunits",
+      "Cooperativity decreases O2 binding at high PO2"
+    ],
+    "correct": 2,
+    "explanation": "Hemoglobin's cooperative binding produces a sigmoidal O2 saturation curve. O2 binding to one heme group causes a conformational change from T-state (tense, low affinity) to R-state (relaxed, high affinity), increasing affinity of the remaining hemes. This allows efficient O2 loading in lungs (high PO2) and unloading in tissues (low PO2).",
+    "tags": [
+      "protein structure",
+      "hemoglobin",
+      "cooperativity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Bohr effect describes how hemoglobin O2 affinity changes with:",
+    "options": [
+      "Increasing pH and decreasing CO2",
+      "2,3-BPG binding to the T-state",
+      "Temperature changes only",
+      "Decreasing pH and increasing CO2 (lower affinity, promotes O2 release to tissues)"
+    ],
+    "correct": 3,
+    "explanation": "CO2 from metabolizing tissues lowers blood pH (H2CO3 formation) and also carbamylates hemoglobin. Both H+ and CO2 stabilize the T-state (lower O2 affinity), promoting O2 unloading. In lungs, CO2 is expelled and pH rises, shifting to R-state for O2 loading. This is an exquisite physiological adaptation.",
+    "tags": [
+      "protein structure",
+      "hemoglobin",
+      "Bohr effect"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "2,3-bisphosphoglycerate (2,3-BPG) binds to hemoglobin and:",
+    "options": [
+      "Increases O2 affinity (left shift)",
+      "Stabilizes the T-state, decreasing O2 affinity and shifting the curve rightward",
+      "Has no effect on O2 binding",
+      "Is produced only in the lungs"
+    ],
+    "correct": 1,
+    "explanation": "2,3-BPG binds in the central cavity of deoxyhemoglobin (T-state), stabilizing it and decreasing O2 affinity (right shift of the O2-dissociation curve). High altitude → hypoxia → increased 2,3-BPG → more efficient O2 unloading. Fetal hemoglobin (HbF, gamma subunits) has lower affinity for 2,3-BPG, giving it higher O2 affinity to extract O2 from maternal blood.",
+    "tags": [
+      "protein structure",
+      "hemoglobin",
+      "2,3-BPG"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "SDS-PAGE separates proteins primarily based on:",
+    "options": [
+      "Molecular weight",
+      "Hydrophobicity",
+      "Isoelectric point",
+      "Ligand-binding affinity"
+    ],
+    "correct": 0,
+    "explanation": "SDS (sodium dodecyl sulfate) denatures proteins and coats them with negative charge proportional to their size. When run through an acrylamide gel under electric field, all proteins migrate based on size alone (smaller migrates faster). The resulting bands can be stained to reveal molecular weight distribution.",
+    "tags": [
+      "protein structure",
+      "lab techniques"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which statement about enzyme active sites is correct?",
+    "options": [
+      "Active sites are randomly distributed on the protein surface",
+      "Active sites are small pockets or clefts that are complementary in shape and charge to the substrate",
+      "Active sites are always composed of hydrophobic residues only",
+      "Active sites only function when the substrate is in excess"
+    ],
+    "correct": 1,
+    "explanation": "Enzyme active sites are specific three-dimensional pockets with precise geometries, charge distributions, and hydrophobic/hydrophilic properties complementary to the transition state (and substrate). They are formed by residues from different parts of the primary sequence that come together in the folded protein. The induced fit model proposes that substrates cause conformational changes to optimize complementarity.",
+    "tags": [
+      "protein structure",
+      "enzyme function"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Chaperone proteins (e.g., Hsp70, GroEL) assist in protein folding by:",
+    "options": [
+      "Degrading misfolded proteins exclusively",
+      "Catalyzing disulfide bond formation",
+      "Directly specifying the final folded structure",
+      "Preventing premature/incorrect aggregation by transiently binding exposed hydrophobic regions"
+    ],
+    "correct": 3,
+    "explanation": "Molecular chaperones bind to exposed hydrophobic regions of nascent or unfolded polypeptides, preventing aggregation and providing a protected environment for folding. ATP hydrolysis drives cycles of binding and release, giving the protein repeated chances to fold correctly. Chaperones do not specify the final folded structure — that information is in the primary sequence (Anfinsen's principle).",
+    "tags": [
+      "protein structure",
+      "chaperones",
+      "folding"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The proteasome degrades proteins that are tagged with:",
+    "options": [
+      "Acetyl groups",
+      "Phosphate groups",
+      "Ubiquitin chains (polyubiquitination)",
+      "Glycosyl groups"
+    ],
+    "correct": 2,
+    "explanation": "The ubiquitin-proteasome system (UPS) marks proteins for degradation: ubiquitin ligases attach ubiquitin chains (usually K48-linked polyubiquitin) to target proteins. The 26S proteasome recognizes polyubiquitin, unfolds the protein, and degrades it into short peptides. This is the main pathway for regulated protein degradation in eukaryotes.",
+    "tags": [
+      "protein structure",
+      "ubiquitin-proteasome",
+      "protein degradation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which immunoglobulin class is most abundant in serum and crosses the placenta?",
+    "options": [
+      "IgA",
+      "IgM",
+      "IgG",
+      "IgE"
+    ],
+    "correct": 2,
+    "explanation": "IgG is the most abundant immunoglobulin (~80% of serum Ig) and the only class that crosses the placenta (via FcRn receptors), providing passive immunity to the fetus and newborn for the first months of life. IgM is produced first in an immune response (pentamer, good at complement activation). IgA is the main Ig in mucosal secretions. IgE mediates allergic responses and anti-parasite immunity.",
+    "tags": [
+      "protein structure",
+      "immunology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Beta-lactam antibiotics (penicillins, cephalosporins) work by:",
+    "options": [
+      "Blocking dihydrofolate reductase",
+      "Inhibiting the bacterial 50S ribosomal subunit",
+      "Disrupting bacterial cell membranes",
+      "Irreversibly inhibiting transpeptidase (PBP) enzymes that crosslink peptidoglycan in bacterial cell walls"
+    ],
+    "correct": 3,
+    "explanation": "Beta-lactam antibiotics mimic the D-Ala-D-Ala terminus of peptidoglycan precursors and covalently acylate penicillin-binding proteins (PBPs = transpeptidases), blocking crosslinking of peptidoglycan strands. This weakens the cell wall, causing lysis. Bacteria acquire resistance via beta-lactamases (hydrolyze the beta-lactam ring) or altered PBPs (MRSA).",
+    "tags": [
+      "protein structure",
+      "antibiotics",
+      "microbiology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Collagen is unusually stable because of its unique triple helix structure. What amino acid is essential at every third position in collagen?",
+    "options": [
+      "Hydroxyproline",
+      "Glycine",
+      "Alanine",
+      "Proline"
+    ],
+    "correct": 1,
+    "explanation": "Collagen has the repeating sequence Gly-X-Y, where Gly at every third position is absolutely required. The triple helix packs three chains tightly, and only glycine (the smallest amino acid, R = H) can fit in the central space of the triple helix without steric clash. Mutations substituting even one Gly cause osteogenesis imperfecta.",
+    "tags": [
+      "protein structure",
+      "collagen"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Sickle cell anemia results from which mutation in hemoglobin?",
+    "options": [
+      "A deletion in the alpha-globin gene",
+      "Val→Glu substitution at position 6 of the beta-globin chain (HbS: glutamic acid replaced by valine)",
+      "Incorrect disulfide bond formation",
+      "Phosphorylation of histidine in the active site"
+    ],
+    "correct": 1,
+    "explanation": "HbS has a single nucleotide change (GAG→GTG) causing substitution of hydrophilic Glu with hydrophobic Val at position 6 of beta-globin. In the deoxy (T) state, this Val fits into a hydrophobic pocket on an adjacent beta-chain, causing polymerization. These long fibers distort RBCs into sickle shapes, causing hemolysis, vaso-occlusion, and pain crises. HbS provides heterozygote protection against malaria.",
+    "tags": [
+      "protein structure",
+      "hemoglobin",
+      "genetic disease"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Antibody diversity is primarily generated by which mechanism?",
+    "options": [
+      "Alternative splicing only",
+      "V(D)J recombination — somatic recombination of variable, diversity, and joining gene segments",
+      "Copy number variation in the germ line",
+      "Point mutations in germ cells"
+    ],
+    "correct": 1,
+    "explanation": "V(D)J recombination randomly joins one V, D, and J segment (heavy chain) or V and J segments (light chain) in developing B cells, creating enormous receptor diversity (~10^11 combinations). Additional diversity comes from junctional imprecision (P and N nucleotide addition) and somatic hypermutation (after antigen exposure). This process underlies the ability to recognize virtually any antigen.",
+    "tags": [
+      "protein structure",
+      "immunology",
+      "molecular biology"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The Michaelis constant (Km) reflects:",
+    "options": [
+      "The number of active sites per enzyme molecule",
+      "Maximum reaction velocity",
+      "The concentration of product that inhibits the enzyme",
+      "Substrate concentration at which v = Vmax/2; inversely related to enzyme-substrate affinity"
+    ],
+    "correct": 3,
+    "explanation": "Km is the substrate concentration at half-maximal velocity. Low Km → enzyme reaches half-saturation at low [S] → high affinity. High Km → enzyme needs more substrate to half-saturate → low affinity. Numerically, Km ≈ (k-1 + k2)/k1 for simple Michaelis-Menten kinetics.",
+    "tags": [
+      "enzyme kinetics"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A competitive inhibitor increases apparent Km but leaves Vmax unchanged because:",
+    "options": [
+      "The inhibitor binds irreversibly, so more enzyme must be synthesized",
+      "The inhibitor activates an alternative active site",
+      "High substrate concentrations can displace the competitive inhibitor from the active site",
+      "The inhibitor changes the protein's secondary structure"
+    ],
+    "correct": 2,
+    "explanation": "Competitive inhibitors bind reversibly to the active site. At high [S], substrate outcompetes the inhibitor, so Vmax (the rate when enzyme is fully saturated with substrate) is unchanged. However, more substrate is needed to achieve half-saturation in the presence of inhibitor, so apparent Km increases.",
+    "tags": [
+      "enzyme kinetics",
+      "competitive inhibition"
+    ],
+    "difficulty": "medium"
+  }
+]

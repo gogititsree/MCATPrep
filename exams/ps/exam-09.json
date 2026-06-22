@@ -1,428 +1,429 @@
 [
   {
-    "text": "Which sociological perspective would most likely analyze how the mass media shapes perceptions of health and illness?",
+    "text": "Intersectionality (Kimberlé Crenshaw) refers to:",
     "options": [
-      "Structural functionalism only",
-      "All three: functionalism (media functions to inform public), conflict theory (media owned by elites, may serve pharmaceutical industry interests), and symbolic interactionism (media creates symbols and meanings around health and bodies)",
-      "Symbolic interactionism only",
-      "Conflict theory only"
+      "The biological intersection of male and female characteristics",
+      "The interconnected nature of social categorizations such as race, class, and gender, creating overlapping systems of discrimination and privilege that cannot be examined in isolation",
+      "A specific type of traffic law",
+      "The intersection of classical and operant conditioning"
     ],
     "correct": 1,
-    "explanation": "Each sociological perspective offers insight: Functionalism: media serves function of public health communication, can promote healthy behaviors (e.g., anti-smoking campaigns). Conflict: media concentration in few corporations; pharmaceutical advertising shapes disease awareness and treatment seeking; creates profitable definitions of health and normalcy. Symbolic interactionism: media constructs body ideals, shapes illness experience (what symptoms 'mean'), and creates stigma around conditions.",
+    "explanation": "Intersectionality: multiple social identities (race, gender, class, sexuality, disability) interact to create unique modes of discrimination and privilege. A Black woman's experience of discrimination is not simply the sum of racism + sexism but a unique form of oppression. Example: pay gap for Black women vs. white women vs. Black men vs. white men. Applied in medicine: patients at intersection of multiple disadvantaged identities face compounded health disparities.",
     "tags": [
       "sociology",
-      "media",
-      "health",
-      "perspectives"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "The concept of 'flow' (Csikszentmihalyi) describes a state of:",
-    "options": [
-      "Extreme boredom during repetitive tasks",
-      "Complete absorption in an intrinsically rewarding challenge that exactly matches one's skill level — characterized by effortless concentration and enjoyment",
-      "Dissociation from one's surroundings",
-      "Hyperfocused anxiety during high-stakes performance"
-    ],
-    "correct": 1,
-    "explanation": "Flow (optimal experience): total immersion in an activity where challenge matches skill level. Features: clear goals, immediate feedback, loss of self-consciousness, distorted time perception. If challenge >> skill → anxiety; skill >> challenge → boredom. Flow promotes intrinsic motivation and well-being. Csikszentmihalyi's work extends positive psychology (Seligman) — focus on human flourishing rather than pathology.",
-    "tags": [
-      "motivation",
-      "positive psychology",
-      "flow"
+      "intersectionality",
+      "race and gender"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "The door-in-the-face technique (compliance) works by:",
+    "text": "Social capital (Bourdieu, Putnam) refers to:",
     "options": [
-      "Making a very small request first, then escalating to a larger request (that's the foot-in-the-door technique)",
-      "First making an unreasonably large request (which is rejected), then making the real (smaller) request — reciprocal concession induces compliance",
-      "Offering a reward contingent on compliance",
-      "Repeating requests until compliance is achieved"
+      "The total financial wealth of a society",
+      "Networks of social relationships and the associated norms of reciprocity and trust — these networks provide access to resources, information, and opportunities",
+      "The cultural knowledge and credentials that confer social status",
+      "The physical infrastructure of a community"
     ],
     "correct": 1,
-    "explanation": "Door-in-the-face: large request first → refusal → small request looks like a concession → target feels obligation to reciprocate concession → complies. E.g., asking for $500 donation first, then asking for $50. Foot-in-the-door: small request first builds compliance habit → larger request later (e.g., signing a petition → then yard sign → then campaign donation). Both exploit commitment/consistency and reciprocity norms.",
+    "explanation": "Social capital (Putnam): networks and relationships that enable cooperation and resource exchange. Bonding social capital: strong ties within groups (e.g., family, close friends). Bridging social capital: weak ties across groups (more important for getting jobs — 'it's not what you know, it's who you know'). Bourdieu adds cultural capital (education, cultural knowledge) and economic capital as three types of capital that reproduce class inequality.",
     "tags": [
-      "social psychology",
-      "compliance",
-      "persuasion"
+      "sociology",
+      "social capital",
+      "Bourdieu"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "The social comparison theory (Festinger) explains why people:",
+    "text": "Medicalization refers to:",
     "options": [
-      "Always compare themselves to those worse off (downward comparison only)",
-      "Evaluate their opinions and abilities by comparing themselves to others — upward comparisons (with superior others) can motivate or threaten; downward comparisons can boost self-esteem or be benevolent",
-      "Never compare themselves to others when objective standards are available",
-      "Derive self-esteem entirely from internal standards"
+      "The practice of prescribing fewer medications",
+      "The process by which human conditions and problems come to be defined and treated as medical conditions requiring medical intervention (e.g., ADHD, alcoholism, obesity defined as diseases)",
+      "The de-professionalization of medicine",
+      "The integration of alternative medicine into mainstream practice"
     ],
     "correct": 1,
-    "explanation": "Festinger's social comparison (1954): we compare ourselves to similar others when objective standards are unavailable. Upward comparison: with those who are better → can inspire motivation OR threaten self-esteem. Downward comparison: with those who are worse off → boosts self-esteem. Social media amplifies upward social comparison → negative self-image. Similar-ability comparisons are most informative; we avoid comparing when gap is too large.",
+    "explanation": "Medicalization: expanding the domain of medicine to include natural life processes (birth, aging, menopause) and behavioral conditions (ADHD, PTSD, premenstrual syndrome). Consequences: increased pharmaceutical use, pathologizing 'normal' variation, potential social control through medical labels. Conrad: medicalization driven by professionals, patients, and pharmaceutical industry. De-medicalization: reversing this (e.g., homosexuality removed from DSM in 1973).",
     "tags": [
-      "social psychology",
-      "social comparison",
-      "self-esteem"
+      "sociology",
+      "medicalization",
+      "healthcare sociology"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "The concept of 'ego depletion' (Baumeister) proposes that:",
+    "text": "The sick role (Talcott Parsons) includes:",
     "options": [
-      "Self-control is unlimited and does not diminish with use",
-      "Self-control is a limited resource — using willpower in one task depletes ability to exert it in subsequent tasks (like a muscle that fatigues)",
-      "Depletion occurs only in very high-stress situations",
-      "The ego is depleted by too many rewards, not too many demands"
+      "Sick people must work harder to prove their illness",
+      "The rights and obligations of ill people in society: exempt from normal responsibilities, expected to try to get well, must seek competent medical help",
+      "Sick people are always stigmatized",
+      "The sick are always excused from all social obligations permanently"
     ],
     "correct": 1,
-    "explanation": "Ego depletion: self-regulation capacity is finite; using it for one task impairs later self-control. E.g., resisting temptation in the morning → more likely to cheat on diet at night. Glucose restoration (eating) may restore self-control. Note: recent replication attempts have questioned the strength of this effect, but the MCAT still includes it as a recognized phenomenon. Strategies: habit formation (automates behavior, reducing regulatory demands).",
+    "explanation": "Parsons' sick role: Rights: (1) exemption from normal social roles; (2) not held responsible for the illness. Obligations: (1) must try to get better; (2) must seek and comply with competent medical help. Critiques: (1) not all illnesses are temporary or curable; (2) ignores how SES and power shape access to sick role; (3) assumes passive patient — doesn't account for chronic illness, disability rights, or patient activism.",
     "tags": [
-      "psychology",
-      "self-regulation",
-      "ego depletion"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Terror management theory (Greenberg, Pyszczynski, Solomon) proposes that:",
-    "options": [
-      "People avoid thinking about death in all circumstances",
-      "Much of human behavior is motivated by the management of death anxiety — cultural worldviews provide symbolic immortality and self-esteem acts as a buffer against death anxiety; reminders of death (mortality salience) intensify defense of one's worldview and in-group",
-      "People are never affected by awareness of their mortality",
-      "People accept death without anxiety because of religious beliefs"
-    ],
-    "correct": 1,
-    "explanation": "Terror management theory (TMT): humans are unique in awareness of their own inevitable death → existential terror. Cultural worldviews (religion, nationalism, achievements) provide meaning and symbolic immortality. Self-esteem buffers death anxiety. Mortality salience: reminding people of death → increased prejudice against out-groups, stronger defense of in-group worldview, increased materialism (compensatory mechanisms). Draws on Becker's 'Denial of Death.'",
-    "tags": [
-      "social psychology",
-      "terror management theory",
-      "mortality"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "The 'dual-process' theories of social cognition (System 1 and System 2 thinking) propose that:",
-    "options": [
-      "People always use careful, deliberate reasoning in social judgments",
-      "Two systems operate: System 1 (fast, automatic, intuitive, associative, uses heuristics and stereotypes) and System 2 (slow, deliberate, effortful, rule-based, controlled) — most social judgments use System 1",
-      "System 1 is always more accurate than System 2",
-      "System 2 is unconscious; System 1 is conscious"
-    ],
-    "correct": 1,
-    "explanation": "Dual-process theory (Kahneman, Epstein): System 1 handles most everyday cognition — quick pattern recognition, automatic associations, stereotyping, and heuristic shortcuts. System 2 is engaged for complex analysis, logic, and overriding automatic responses. Cognitive biases arise from System 1 errors not corrected by System 2. Relevant: availability heuristic, representativeness heuristic (base rate neglect), anchoring. MCAT tests familiarity with heuristics vs. systematic thinking.",
-    "tags": [
-      "cognitive psychology",
-      "dual-process theory",
-      "heuristics"
+      "sociology",
+      "sick role",
+      "Parsons",
+      "medical sociology"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "The availability heuristic explains why people:",
+    "text": "The DSM-5 uses a categorical approach to mental disorders, which means:",
     "options": [
-      "Make decisions based on careful analysis of statistical frequencies",
-      "Estimate the likelihood of events based on how easily examples come to mind — vivid, recent, or emotionally resonant events are judged as more probable",
-      "Always overestimate the probability of rare events",
-      "Make systematic errors in statistical reasoning only when the stakes are high"
+      "Disorders exist on continua of severity and no sharp boundaries exist",
+      "Mental disorders are classified into distinct categories based on symptoms, with each disorder having specific criteria for diagnosis",
+      "All mental conditions are equally severe",
+      "Diagnosis requires biological testing only"
     ],
     "correct": 1,
-    "explanation": "Availability heuristic (Tversky & Kahneman, 1973): probability estimated by ease of retrieval of examples. Leads to biases: overestimating plane crash risk (vivid media coverage) vs. car accident risk; fear of sharks > fear of cows despite cows killing far more people yearly. Representativeness heuristic: probability assessed by how typical a case is of a category (ignores base rates). Anchoring: over-reliance on first piece of information.",
-    "tags": [
-      "cognitive psychology",
-      "heuristics",
-      "availability"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Reciprocity as a social influence principle states that:",
-    "options": [
-      "People tend to dislike those who give them gifts",
-      "People feel obligated to return favors, concessions, or gifts — violating reciprocity creates discomfort (social debt)",
-      "Reciprocity applies only in economic exchanges",
-      "Social norms require always accepting help from others without obligation"
-    ],
-    "correct": 1,
-    "explanation": "Reciprocity norm: deeply embedded in all human cultures — feel obligated to repay gifts/favors. Exploited in: supermarket samples (create obligation to purchase), door-in-the-face technique, concession-reciprocity in negotiation. Cialdini identified reciprocity as one of six principles of persuasion (along with commitment/consistency, social proof, authority, liking, scarcity). Health relevance: pharmaceutical companies giving gifts to physicians → increased prescription rates.",
-    "tags": [
-      "social psychology",
-      "reciprocity",
-      "social influence"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "The fundamental attribution error is less common in which cultural context?",
-    "options": [
-      "Individualist cultures (emphasis on personal traits → more dispositional attribution)",
-      "Collectivist cultures (emphasis on social context and relationships → more situational attribution)",
-      "Cultures with strong hierarchical social structures",
-      "All cultures show exactly the same FAE rates"
-    ],
-    "correct": 1,
-    "explanation": "Cross-cultural research: FAE is more pronounced in Western (individualist) cultures (US, Western Europe) than in East Asian (collectivist) cultures (Japan, China, Korea). Collectivist cultures emphasize social context and relationships → more likely to attribute behavior to situational factors. Evidence: Norenzayan & Nisbett — Japanese students gave more situational explanations for behavior in fish tank study. Cultural variation in cognition challenges universality of cognitive biases.",
-    "tags": [
-      "social psychology",
-      "fundamental attribution error",
-      "cross-cultural"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Obedience to authority (following the Milgram paradigm) is REDUCED when:",
-    "options": [
-      "The authority figure is physically present and the experiment takes place at a prestigious institution",
-      "The authority figure is removed from the scene (gives orders by phone), when the victim's suffering is made visible, and when other participants rebel first (social support for disobedience)",
-      "The subject has less education",
-      "The stakes are higher"
-    ],
-    "correct": 1,
-    "explanation": "Milgram's variations: Obedience REDUCED when: (1) Physical distance from authority (phone orders → ~20% compliance vs. 65% in-person); (2) Victim made visible/proximity (heard, saw, touched victim → ~30%→20% compliance); (3) Social support: two confederates rebel first → compliance drops to ~10%; (4) Institutional legitimacy removed (seedy commercial building vs. Yale). INCREASED when: victim is farther away, institutional legitimacy is high, experimenter is physically present.",
-    "tags": [
-      "social psychology",
-      "Milgram",
-      "obedience"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The halo effect in person perception refers to:",
-    "options": [
-      "People wearing halos being perceived as more ethical",
-      "The tendency for an initial positive impression (or a single positive trait) to influence the overall evaluation of a person — one good trait leads to assuming other positive qualities",
-      "Physical attractiveness never affecting social judgments",
-      "The halo effect applies only in job interview contexts"
-    ],
-    "correct": 1,
-    "explanation": "Halo effect (Thorndike, 1920): one prominent characteristic influences overall judgment. 'What is beautiful is good' — attractive people are perceived as more competent, intelligent, and moral. Also works in reverse (negative trait → negative overall impression = horn effect). In medicine: likeable patients may receive better care; attribution errors in psychiatric diagnosis (halo from appearance). Structured interviews reduce halo effect by standardizing questions and scoring.",
-    "tags": [
-      "social psychology",
-      "halo effect",
-      "person perception"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Learned helplessness (Seligman) is demonstrated when:",
-    "options": [
-      "Animals or humans learn that actions effectively control outcomes and show increased persistence",
-      "Animals or humans experience repeated uncontrollable negative events, leading to passive acceptance of aversive situations even when control becomes possible — linked to depression",
-      "Organisms learn coping strategies to deal with inescapable shocks",
-      "The organism shows immediate adaptation to a stressor"
-    ],
-    "correct": 1,
-    "explanation": "Seligman's learned helplessness (1967): dogs given inescapable shocks → later failed to escape even when they could (shuttle box). Applied to humans: repeated uncontrollable events → cognitive, motivational, and emotional deficits (depression analogue). Depressive cognitive triad (Beck): negative views of self, world, and future. Attributional reformulation: global, stable, internal attributions for failure → helplessness. Treatment: regaining sense of control, cognitive restructuring.",
-    "tags": [
-      "learning",
-      "learned helplessness",
-      "depression"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Resilience in developmental psychology refers to:",
-    "options": [
-      "The absence of stress or adversity in development",
-      "Positive adaptation despite significant adversity — the ability to recover from stress, trauma, or hardship due to protective factors (supportive relationships, self-regulation, sense of mastery)",
-      "Being resistant to all emotional experiences",
-      "Avoiding challenges to maintain stability"
-    ],
-    "correct": 1,
-    "explanation": "Resilience: not absence of stress response, but ability to recover. Protective factors: (1) Individual: intelligence, self-regulation, positive self-concept, optimism; (2) Family: secure attachment, parental warmth, high expectations; (3) Community: quality schools, neighborhood safety, social support networks. Masten: resilience is 'ordinary magic' from ordinary human adaptive systems (not extraordinary traits). Relevant to: PTSD (who develops vs. who does not), child welfare policy.",
-    "tags": [
-      "developmental psychology",
-      "resilience",
-      "protective factors"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Adolescent brain development is characterized by:",
-    "options": [
-      "Complete maturity of the prefrontal cortex by age 15",
-      "Maturation of the limbic system (emotional/reward processing) preceding full prefrontal cortex development (which continues into mid-20s) — leads to risk-taking, reward sensitivity, and emotional reactivity during adolescence",
-      "No significant brain changes after childhood",
-      "Prefrontal cortex developing before the limbic system"
-    ],
-    "correct": 1,
-    "explanation": "Adolescent brain: limbic system (amygdala, nucleus accumbens) matures earlier → heightened emotion and reward-seeking. Prefrontal cortex (executive function, impulse control, risk assessment) continues developing into mid-20s. This developmental mismatch → typical adolescent risk-taking, impulsivity, peer influence susceptibility. Relevance: minimum driving age, juvenile justice system, substance use vulnerability (adolescent brain more sensitive to addiction). Synaptic pruning also occurs in adolescence.",
-    "tags": [
-      "neuroscience",
-      "developmental psychology",
-      "adolescent brain"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The concept of 'theory of mind' (ToM) refers to:",
-    "options": [
-      "The ability to understand mathematical theories",
-      "The ability to attribute mental states (beliefs, desires, intentions) to others and understand that others have beliefs different from one's own — develops around age 4 in typically developing children (false belief task)",
-      "The ability to form abstract theories about the world",
-      "Awareness of one's own thoughts only"
-    ],
-    "correct": 1,
-    "explanation": "Theory of Mind (Premack & Woodruff, 1978): understanding that others have mental states different from one's own. Tested by False belief task (Sally-Anne task): child who passes understands that Sally will look where SHE believes the object is (where she left it), not where it actually is. Passes at ~age 4. ToM impaired in Autism Spectrum Disorder — contributes to social communication difficulties. Precursor: joint attention (9-12 months).",
-    "tags": [
-      "developmental psychology",
-      "theory of mind",
-      "cognitive development"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Critical periods in development (sensitive periods) are periods when:",
-    "options": [
-      "The brain stops forming new connections",
-      "Specific types of experience are particularly important for normal development — absence of appropriate input during these periods can lead to permanent deficits (e.g., visual deprivation → amblyopia; language deprivation → poor language acquisition)",
-      "All learning ceases to occur",
-      "The brain is maximally resistant to environmental influences"
-    ],
-    "correct": 1,
-    "explanation": "Critical/sensitive periods: windows during development when the brain is particularly responsive to specific environmental inputs. Examples: (1) Visual system — patching one eye → amblyopia ('lazy eye'), normally treatable only until age ~8; (2) Language acquisition — optimal before puberty (Chomsky's LAD, Lenneberg's critical period hypothesis); (3) Attachment — Harlow's rhesus monkeys deprived of mother → permanent social deficits; (4) Imprinting (Lorenz) — early brief period of bonding.",
-    "tags": [
-      "developmental psychology",
-      "critical periods",
-      "brain development"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Object permanence, according to Piaget, is the understanding that:",
-    "options": [
-      "Objects have permanent properties like color and shape",
-      "Objects continue to exist even when they are out of sight — develops around 8-12 months in Piaget's sensorimotor stage",
-      "Physical laws apply to all objects equally",
-      "Objects can be moved from one location to another"
-    ],
-    "correct": 1,
-    "explanation": "Object permanence: achieved around 8-12 months (Piaget) though some evidence for earlier emergence. Before this: out of sight = out of mind (A-not-B error: infant looks where object was previously found, not where it was just hidden). Violation-of-expectation studies (Baillargeon) suggest some object permanence at 3-4 months. Object permanence is precursor to symbolic representation and language.",
-    "tags": [
-      "developmental psychology",
-      "Piaget",
-      "object permanence"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "The bioecological model (Bronfenbrenner) describes child development as shaped by:",
-    "options": [
-      "Biological maturation alone",
-      "Nested layers of environmental influence: microsystem (immediate settings — family, school, peers), mesosystem (interactions between microsystems), exosystem (settings that indirectly affect child — parent's workplace), macrosystem (culture, laws, values), and chronosystem (time and historical context)",
-      "The primary caregiver relationship only",
-      "Genetic inheritance and random variation"
-    ],
-    "correct": 1,
-    "explanation": "Bronfenbrenner's ecological model: PPCT model — Process, Person, Context, Time. Microsystem (direct interactions), Mesosystem (links between microsystems), Exosystem (indirect influences), Macrosystem (cultural values, socioeconomic conditions), Chronosystem (change over time). Example: child's school performance affected by microsystem (teacher quality), mesosystem (parent-teacher communication), exosystem (parent's job stress), macrosystem (national education policy).",
-    "tags": [
-      "developmental psychology",
-      "Bronfenbrenner",
-      "ecological model"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which statement best describes the relationship between culture and mental illness?",
-    "options": [
-      "Mental illnesses are identical across all cultures (culturally universal symptoms and presentations)",
-      "Culture influences the expression, experience, interpretation, and prevalence of mental illness — some disorders are culture-bound (e.g., ataque de nervios, koro); many Western diagnoses may not apply cross-culturally",
-      "Culture is irrelevant to diagnosis and treatment of mental illness",
-      "Mental illness is purely biological and cultural context does not matter"
-    ],
-    "correct": 1,
-    "explanation": "Culture and mental illness: (1) Culture-bound syndromes: disorders that appear within specific cultural contexts (taijin kyofusho — Japan, fear of offending others; windigo — Algonquian, fear of becoming a cannibal; ataque de nervios — Latin America, episodes of trembling/crying). (2) Cultural expression of distress varies (somatization more common in some cultures for psychological distress). (3) Cultural competence in mental health care is essential. (4) DSM-5 includes cultural formulation interview.",
+    "explanation": "DSM-5 (Diagnostic and Statistical Manual, 5th ed.): categorical classification — you either meet or don't meet criteria for a diagnosis. Alternative (RDoC, dimensional approach): disorders as spectrums/dimensions, not discrete categories. Criticisms of categorical approach: high comorbidity (most people with one disorder have others), arbitrary thresholds, symptom overlap between diagnoses. Benefits: clinical utility, research standardization, insurance reimbursement.",
     "tags": [
       "abnormal psychology",
-      "culture",
+      "DSM-5",
+      "diagnosis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which model of abnormality focuses on unconscious conflicts and early childhood experiences as causes of psychological disorders?",
+    "options": [
+      "Biomedical model",
+      "Cognitive-behavioral model",
+      "Psychodynamic model (Freud, neo-Freudians)",
+      "Humanistic model"
+    ],
+    "correct": 2,
+    "explanation": "Psychodynamic model: mental disorders result from unresolved unconscious conflicts, often rooted in early childhood experiences and disturbed relationships. Treatment: psychoanalysis (free association, dream analysis, transference interpretation). Cognitive-behavioral model: maladaptive thoughts and behaviors. Biomedical: biological dysfunction. Humanistic: failure to achieve self-actualization, lack of unconditional positive regard. Biopsychosocial model: integrates all three.",
+    "tags": [
+      "abnormal psychology",
+      "models of disorder",
+      "psychodynamic"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Major depressive disorder (MDD) is characterized by:",
+    "options": [
+      "Alternating episodes of depression and mania",
+      "Depressed mood or anhedonia for at least 2 weeks, plus at least 5 of: weight/appetite change, sleep disturbance, psychomotor changes, fatigue, worthlessness/guilt, concentration difficulty, suicidal ideation",
+      "Persistent low-grade depression for at least 2 years (dysthymia/persistent depressive disorder)",
+      "A single episode of sadness that lasts days"
+    ],
+    "correct": 1,
+    "explanation": "MDD diagnostic criteria (DSM-5): ≥5 symptoms for ≥2 weeks, at least one being depressed mood or anhedonia (markedly diminished interest/pleasure). Biologically: serotonin, norepinephrine, dopamine dysregulation; HPA axis hyperactivity (elevated cortisol). Treatment: CBT, SSRIs/SNRIs, ECT for severe cases. Lifetime prevalence ~16%; more common in women. Distinct from Bipolar I (manic episodes present) and Bipolar II (hypomanic episodes).",
+    "tags": [
+      "abnormal psychology",
+      "depression",
+      "MDD"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Schizophrenia is characterized by positive AND negative symptoms. Which statement is correct?",
+    "options": [
+      "Positive symptoms = good outcomes; negative symptoms = bad outcomes",
+      "Positive symptoms = ADDED experiences not normally present (hallucinations, delusions, disorganized speech); negative symptoms = DIMINISHED normal functions (flat affect, alogia, avolition, anhedonia)",
+      "Positive symptoms include depression; negative symptoms include mania",
+      "Negative symptoms respond better to typical antipsychotics than positive symptoms"
+    ],
+    "correct": 1,
+    "explanation": "Schizophrenia positive symptoms (excess): hallucinations (usually auditory — 'voices'), delusions (persecutory, grandiose, referential), disorganized thinking, disorganized behavior, catatonia. Negative symptoms (deficits): flat affect, alogia (poverty of speech), avolition (lack of motivation), anhedonia, social withdrawal (4 A's: affect, alogia, avolition, attention). Typical antipsychotics (D2 blockers): target positive symptoms. Atypical antipsychotics (D2 + serotonin): both positive and negative.",
+    "tags": [
+      "abnormal psychology",
+      "schizophrenia",
+      "positive and negative symptoms"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The cognitive model of anxiety disorders proposes that anxiety is maintained by:",
+    "options": [
+      "Solely biological factors (excess GABA)",
+      "Cognitive distortions — overestimation of threat and underestimation of one's ability to cope; avoidance maintains anxiety by preventing disconfirmation of feared outcomes",
+      "Unconscious conflicts from childhood",
+      "Social reinforcement only"
+    ],
+    "correct": 1,
+    "explanation": "Cognitive model (Aaron Beck, Clark): anxiety = maladaptive appraisal of threat (overestimating danger) + underestimating coping ability. Behaviors (avoidance, safety behaviors) maintain anxiety by: (1) preventing exposure to feared stimuli → no opportunity to learn fear is unwarranted; (2) prevent learning that one can cope. Treatment: CBT with exposure — gradually approach feared stimuli → anxiety decreases (habituation + corrective learning).",
+    "tags": [
+      "abnormal psychology",
+      "anxiety",
+      "cognitive model"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Post-traumatic stress disorder (PTSD) diagnostic criteria include:",
+    "options": [
+      "Any emotional reaction to a stressful event lasting more than 1 week",
+      "Exposure to actual/threatened death, serious injury, or sexual violence, followed by intrusion symptoms (flashbacks, nightmares), avoidance of trauma-related stimuli, negative cognitions/mood, and hyperarousal — lasting >1 month",
+      "Only flashbacks and nightmares without other symptoms",
+      "Exclusively affects combat veterans"
+    ],
+    "correct": 1,
+    "explanation": "PTSD (DSM-5) requires: (A) exposure to traumatic event; (B) intrusion (flashbacks, nightmares, distress at reminders); (C) avoidance (thoughts, reminders); (D) negative alterations in cognition/mood (guilt, distorted blame, dissociation); (E) hyperarousal (hypervigilance, exaggerated startle, sleep disturbance); duration >1 month; significant distress/impairment. Risk factors: prior trauma, female sex, lack of social support. Treatment: Prolonged Exposure, EMDR, trauma-focused CBT.",
+    "tags": [
+      "abnormal psychology",
+      "PTSD",
+      "trauma"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Somatic symptom disorder (formerly somatoform disorder) involves:",
+    "options": [
+      "Faking physical symptoms for external gain (malingering)",
+      "Physical symptoms that are real and distressing to the patient but for which no adequate medical explanation can be found, with excessive thoughts/feelings/behaviors about health",
+      "Consciously faking symptoms for internal psychological gains (factitious disorder)",
+      "Normal responses to physical illness"
+    ],
+    "correct": 1,
+    "explanation": "Somatic symptom disorder (SSD): one or more physical symptoms (real, not feigned) accompanied by excessive health anxiety, disproportionate thoughts about symptoms, or significant time/energy devoted to health concerns. Distinct from: malingering (conscious faking for external gain — disability claim), factitious disorder (conscious faking for sick role — internal gain), illness anxiety disorder (fear of having illness without significant somatic symptoms). Biopsychosocial factors involved.",
+    "tags": [
+      "abnormal psychology",
+      "somatic disorders",
+      "DSM-5"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Classical conditioning of fear (Watson's Little Albert experiment) involved:",
+    "options": [
+      "Teaching Little Albert to fear all loud noises (US) by pairing them with white rabbit (CS)",
+      "Pairing a white rat (CS) with a loud noise (US) to condition fear of the rat in an infant — demonstrated that emotional responses could be conditioned",
+      "Teaching Little Albert to love white rabbits",
+      "Using operant conditioning to reduce Albert's fear"
+    ],
+    "correct": 1,
+    "explanation": "Watson & Rayner (1920): 9-month-old 'Little Albert' was conditioned to fear a white rat (initially neutral CS) by pairing it repeatedly with a loud noise (US → fear UR). After conditioning, the white rat (now CS) alone caused fear (CR). Generalization: Albert also feared other white, furry objects. The study established that phobias can be learned (classical conditioning) but is highly criticized for ethics. Mary Cover Jones later used counterconditioning to eliminate fear (little Peter and the rabbit).",
+    "tags": [
+      "learning",
+      "classical conditioning",
+      "Watson",
+      "Little Albert"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which psychological perspective emphasizes examining how evolutionary history shapes current mental processes and behaviors?",
+    "options": [
+      "Psychodynamic perspective",
+      "Evolutionary psychology perspective: behavior is influenced by genetic inheritance from ancestors because adaptive behaviors increased reproductive fitness",
+      "Humanistic perspective",
+      "Structuralist perspective"
+    ],
+    "correct": 1,
+    "explanation": "Evolutionary psychology: applies Darwinian natural selection to psychological traits. Behaviors that increased survival and reproduction would be selected for. E.g., fear of snakes (ancestral predator), preferences for sweet/fatty foods (scarce ancestral environment), cheater detection mechanisms (social exchange). Limitations: difficult to test evolutionary hypotheses, risk of 'just-so stories,' sociobiology critiques.",
+    "tags": [
+      "psychology",
+      "evolutionary psychology",
+      "perspectives"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The biomedical model of mental illness focuses on:",
+    "options": [
+      "Social and environmental factors causing mental illness",
+      "Mental illness as a disease of the brain — caused by neurochemical imbalances, genetic factors, and brain structure abnormalities",
+      "Unconscious conflicts",
+      "Learning and conditioning"
+    ],
+    "correct": 1,
+    "explanation": "Biomedical model: mental disorders have biological causes — neurotransmitter imbalances (dopamine in schizophrenia, serotonin in depression), genetic vulnerabilities, structural brain abnormalities. Treatment: pharmacotherapy. Criticism: reductionistic, ignores psychosocial factors, overemphasizes medication. Biopsychosocial model (Engel, 1977): integrates biological, psychological (cognition, emotion), and social factors — more comprehensive and currently dominant in psychiatry.",
+    "tags": [
+      "psychology",
+      "biomedical model",
       "mental illness"
     ],
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
-    "text": "An operational definition of 'stress' might be:",
+    "text": "Sensory adaptation refers to:",
     "options": [
-      "'Stress is a feeling of pressure and strain' (subjective definition)",
-      "Score on the Perceived Stress Scale (PSS-10); or cortisol levels measured from saliva samples; or blood pressure measurements during a stressor task",
-      "'Stress occurs when demands exceed resources' (conceptual definition)",
-      "'Stress affects the immune system' (outcome definition)"
+      "The increase in sensitivity to a repeated stimulus",
+      "The decrease in response to a constant stimulus over time (receptors stop firing as frequently when stimulation is unchanging, e.g., not noticing a constant smell after a few minutes)",
+      "Learning to prefer one sensory modality over another",
+      "The brain's ability to process multiple sensory inputs simultaneously"
     ],
     "correct": 1,
-    "explanation": "Operationalization: converting the abstract concept of 'stress' into a measurable variable. Physiological measures: cortisol (saliva/blood), heart rate variability, blood pressure. Behavioral: performance on a cognitive task under time pressure. Self-report: Perceived Stress Scale, Holmes-Rahe Life Events Scale. Neuroimaging: amygdala activation during stressor. The choice of operationalization affects what is measured and conclusions drawn. MCAT often tests understanding of appropriate measures for psychological constructs.",
+    "explanation": "Sensory adaptation: diminished sensitivity to an unchanging stimulus. Examples: you stop noticing background noise in a room; you adapt to the temperature of a pool once immersed; habituating to your own perfume. Survival value: allows attention to NEW stimuli (changes in the environment). Weber's Law: just noticeable difference (JND) is a constant proportion of the stimulus magnitude (ΔI/I = k).",
     "tags": [
-      "research methods",
-      "operationalization",
-      "stress"
+      "sensation",
+      "sensory adaptation",
+      "psychophysics"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Gate control theory of pain (Melzack and Wall) proposes that:",
+    "options": [
+      "Pain signals travel unimpeded from periphery to brain",
+      "Pain perception is modulated in the spinal cord — non-pain stimuli (touch, pressure) can 'close the gate' and reduce pain transmission; the brain can also modulate pain signals downward",
+      "Pain is entirely psychological",
+      "Pain is proportional to tissue damage"
+    ],
+    "correct": 1,
+    "explanation": "Gate control theory (1965): substantia gelatinosa of the dorsal horn of spinal cord acts as a 'gate.' Large-diameter A-β fibers (touch) activate inhibitory interneurons → close gate for small-diameter C fibers (pain) → reduces pain. Explains: rubbing a wound hurts less; distraction reduces pain. Descending control from brain (opioid system, mood, attention) also modulates pain. Basis for transcutaneous electrical nerve stimulation (TENS) for pain management.",
+    "tags": [
+      "sensation",
+      "pain",
+      "gate control theory"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "In Gestalt psychology, the figure-ground relationship refers to:",
+    "text": "Signal detection theory (SDT) proposes that detecting stimuli involves:",
     "options": [
-      "How background noise affects figure drawing",
-      "The perceptual tendency to separate visual experiences into a focal stimulus (figure) standing out from its surroundings (ground) — the same image can yield different perceptions depending on which element is treated as figure vs. ground (e.g., Rubin's vase)",
-      "The relationship between abstract concepts and their concrete representations",
-      "The way figures in art use groundlines"
+      "A fixed sensory threshold that is the same for all people and all conditions",
+      "Two components: sensitivity (d', ability to detect signal from noise) and response bias/criterion (β, willingness to say 'yes') — threshold varies with context and motivations",
+      "Only the physical intensity of stimuli",
+      "Only the observer's motivation, not sensory sensitivity"
     ],
     "correct": 1,
-    "explanation": "Figure-ground: fundamental principle of perceptual organization. Ambiguous figures (Rubin vase/faces, young woman/old woman) demonstrate that perception is an active construction, not passive recording. Factors determining figure: surrounded area, smaller area, symmetrical, familiar, or contrasted area tends to be perceived as figure. Clinical relevance: figure-ground difficulties in visual processing disorders, autism, traumatic brain injury.",
+    "explanation": "SDT: stimulus detection is not all-or-nothing. It depends on (1) sensitivity (d'): how well a person can distinguish signal from noise; (2) criterion (β): how much evidence is needed before responding 'yes.' Outcomes: hit (signal present, say yes), miss (signal present, say no), false alarm (signal absent, say yes), correct rejection (signal absent, say no). Motivated by medical diagnosis, radar operation, eyewitness identification contexts. Replaces classical threshold theory.",
+    "tags": [
+      "sensation",
+      "signal detection theory",
+      "psychophysics"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In vision, the fovea is specialized for:",
+    "options": [
+      "Peripheral vision and low-light conditions",
+      "High-acuity color vision in the center of the visual field — densely packed with cones (no rods), responsible for fine detail detection",
+      "Night vision due to high rod density",
+      "Motion detection"
+    ],
+    "correct": 1,
+    "explanation": "Fovea (fovea centralis): pit in the center of the retina. Contains only cones (~6 million), maximally packed (~150,000/mm²). Produces sharpest, most color-accurate central vision. Surrounded by rods (~120 million): sensitive to low light, motion, and peripheral vision; not in fovea; peak sensitivity ~20° from fovea. Nocturnal animals have more rods. Scotopic (low light) vision = rod-mediated; photopic (bright light) vision = cone-mediated.",
+    "tags": [
+      "sensation",
+      "vision",
+      "retina"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Monocular depth cues include all EXCEPT:",
+    "options": [
+      "Linear perspective (parallel lines converge in the distance)",
+      "Relative size (closer objects appear larger)",
+      "Interposition (closer objects partially block farther objects)",
+      "Retinal disparity (each eye gets a slightly different image due to separation — this is a BINOCULAR cue)"
+    ],
+    "correct": 3,
+    "explanation": "Monocular cues (one eye needed): linear perspective, relative size, interposition/occlusion, texture gradient (finer = farther), atmospheric perspective (hazy = farther), motion parallax (nearby objects move faster in opposite direction as you move), shading. Binocular cues (both eyes): retinal disparity (basis of stereopsis), convergence (muscle feedback from eye rotation inward for close objects). Depth perception in flat art uses monocular cues.",
+    "tags": [
+      "perception",
+      "depth perception",
+      "visual cues"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Gestalt principle of similarity states that:",
+    "options": [
+      "Objects close together are perceived as a group (proximity)",
+      "Objects that look similar to each other are grouped together perceptually",
+      "The mind prefers to see complete figures even when parts are missing (closure)",
+      "Figures are perceived against a background (figure-ground)"
+    ],
+    "correct": 1,
+    "explanation": "Gestalt principles of perceptual organization: Similarity — similar elements grouped together; Proximity — nearby elements grouped; Closure — gaps filled in to create complete figure; Continuity — smooth, continuous patterns preferred over abrupt changes; Figure-ground — perception of objects (figure) against background; Common fate — elements moving together are grouped. These show that perception is not just summation of sensations but organized wholes.",
     "tags": [
       "perception",
       "Gestalt psychology",
-      "figure-ground"
+      "perceptual organization"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "Phonological awareness (important in reading acquisition) refers to:",
+    "text": "The Weber-Fechner Law states that:",
     "options": [
-      "Knowledge of the rules of grammar",
-      "The ability to perceive and manipulate the sound structure of language — recognizing phonemes, syllables, and rhymes (e.g., knowing that 'cat' has 3 phonemes: /k/, /æ/, /t/)",
-      "Knowledge of the meanings of words (vocabulary)",
-      "The ability to understand written text"
+      "The minimum detectable stimulus (absolute threshold) is constant for all individuals",
+      "The perceived magnitude of a sensation grows as the logarithm of the stimulus intensity (equal ratios of stimulus produce equal intervals of sensation)",
+      "The just noticeable difference (JND) decreases as baseline intensity increases",
+      "Sensory adaptation is immediate and complete"
     ],
     "correct": 1,
-    "explanation": "Phonological awareness: metalinguistic awareness of sound units in language. Strong predictor of reading success. Phoneme awareness (smaller unit): ability to blend, segment, delete phonemes. Development: rhyme awareness (age 3-4) → syllable awareness → phoneme awareness (age 5-7, coincides with literacy instruction). Children with dyslexia often have phonological processing deficits (not visual problems) — supported by neuroimaging showing different patterns in left hemisphere reading network.",
+    "explanation": "Weber's Law: JND = k × I (JND is a constant fraction of baseline stimulus intensity k). Fechner extended this: subjective sensation magnitude S = k × log(I). E.g., to notice a change in loudness, you need to add ~10% more sound regardless of starting level. Stevens' Power Law (more accurate): S = k × I^n (some modalities grow faster or slower than log function). These describe why decibel and Richter scales are logarithmic.",
     "tags": [
-      "cognitive psychology",
-      "language development",
-      "reading"
+      "sensation",
+      "psychophysics",
+      "Weber-Fechner"
     ],
     "difficulty": "hard"
   },
   {
-    "text": "Sternberg's triangular theory of love proposes that complete love involves:",
+    "text": "The James-Lange theory of emotion proposes:",
     "options": [
-      "Passion, commitment, and attractiveness",
-      "Intimacy (emotional closeness, connectedness), Passion (physical attraction, romance, sexual desire), and Commitment (decision to remain in relationship) — 'consummate love' has all three",
-      "Love and attraction only",
-      "Passion and chemistry, which naturally lead to commitment"
+      "We first experience an emotion, then our body physiologically responds",
+      "We perceive a stimulus → physiological change occurs FIRST → we experience the emotion as a consequence of interpreting those physical changes ('I see the bear, I run, I feel fear because I'm running')",
+      "Cognitive appraisal determines emotions, not physiology",
+      "Emotions are universal and biologically hardwired with no cognitive interpretation needed"
     ],
     "correct": 1,
-    "explanation": "Sternberg's triangular theory: seven types of love based on combinations of three components. Consummate love (all three) is the ideal but rare and requires active maintenance. Companionate love (intimacy + commitment, no passion) — long-term relationships. Fatuous love (passion + commitment, no intimacy) — whirlwind romances. Romantic love (intimacy + passion, no commitment). Empty love (commitment only). This research-backed model applies to patient education and couples therapy.",
+    "explanation": "James-Lange theory: stimulus → physiological arousal → emotion is the perception of that arousal. Cannon-Bard theory: stimulus → simultaneous arousal AND emotion (challenges James-Lange: visceral responses are too slow and non-specific for all emotions). Schachter-Singer (two-factor) theory: stimulus → physiological arousal → cognitive label for the arousal (based on context) → emotion. Most influential for MCAT: appraisal theories and Schachter-Singer.",
     "tags": [
-      "social psychology",
-      "love",
-      "Sternberg"
+      "emotion",
+      "James-Lange theory",
+      "theories of emotion"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "In operant conditioning, a behavior that is not followed by any consequence (neither reinforcement nor punishment) will:",
+    "text": "The Schachter-Singer two-factor theory of emotion emphasizes:",
     "options": [
-      "Increase in frequency",
-      "Remain stable",
-      "Undergo extinction (decrease in frequency — removal of reinforcement causes the behavior to extinguish)",
-      "Transfer to a new, similar behavior (stimulus generalization)"
+      "Emotion equals physiological arousal alone",
+      "Emotion results from two factors: physiological arousal AND cognitive appraisal/labeling of that arousal (the same arousal can produce different emotions based on situational context)",
+      "Emotions are purely cognitive with no physiological component",
+      "Physiological states are emotion-specific (each emotion has a unique bodily state)"
     ],
-    "correct": 2,
-    "explanation": "Extinction in operant conditioning: removing reinforcement → behavior decreases. During extinction, a brief extinction burst often occurs (behavior temporarily increases in frequency/intensity before decreasing — like knocking harder on a door that doesn't open). Resistance to extinction: partially (variably) reinforced behaviors extinguish more slowly than continuously reinforced ones (partial reinforcement extinction effect — explains gambling persistence).",
+    "correct": 1,
+    "explanation": "Schachter-Singer (1962): participants injected with epinephrine (arousal) placed with euphoric or angry confederate. Uninformed group felt the confederate's emotion — same arousal, different label based on social context. Cognitive label + arousal = emotion. Misattribution of arousal: people can be aroused by one thing and attribute it to another (Dutton & Aron bridge study: men on shaky bridge rated interviewer as more attractive).",
     "tags": [
-      "learning",
-      "operant conditioning",
-      "extinction"
+      "emotion",
+      "Schachter-Singer",
+      "two-factor theory"
     ],
-    "difficulty": "easy"
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following correctly distinguishes primary from secondary appraisal (Lazarus)?",
+    "options": [
+      "Primary = evaluating how to cope; secondary = evaluating initial harm",
+      "Primary appraisal: evaluating whether the situation is threatening, harmful, or challenging; secondary appraisal: evaluating one's resources and ability to cope with the stressor",
+      "Primary = biological; secondary = psychological",
+      "Primary involves emotions; secondary does not"
+    ],
+    "correct": 1,
+    "explanation": "Lazarus's transactional model of stress: (1) Primary appraisal: is this relevant to my well-being? Is it threatening/harmful/challenging/benign? (2) Secondary appraisal: what can I do? Do I have resources to cope? Coping strategies: problem-focused (changing the stressor) vs. emotion-focused (managing emotional response). Cognitive appraisal determines stress experience — same event can be stressful or not depending on individual's appraisal.",
+    "tags": [
+      "stress",
+      "cognitive appraisal",
+      "Lazarus"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The general adaptation syndrome (GAS) model (Selye) describes the body's response to prolonged stress in three stages:",
+    "options": [
+      "Fear → fight/flight → recovery",
+      "Alarm reaction → resistance → exhaustion (chronic stress depletes resources and leads to vulnerability to disease)",
+      "Stress → coping → adaptation",
+      "Threat → anxiety → avoidance"
+    ],
+    "correct": 1,
+    "explanation": "Selye's GAS: (1) Alarm reaction: HPA axis and sympathetic NS activated (cortisol, adrenaline surge, fight-or-flight); (2) Resistance: body maintains heightened arousal and adapts to sustained stressor; (3) Exhaustion: sustained stress depletes adaptive resources → vulnerability to illness, burnout, and death. Chronic stress → elevated cortisol → immunosuppression, hippocampal damage, cardiovascular disease, metabolic disorders.",
+    "tags": [
+      "stress",
+      "general adaptation syndrome",
+      "Selye"
+    ],
+    "difficulty": "medium"
   }
 ]

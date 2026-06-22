@@ -1,0 +1,405 @@
+[
+  {
+    "text": "Hund's rule states that electrons will:",
+    "options": [
+      "Pair up in the lowest-energy orbital first",
+      "Fill orbitals in order of increasing n+l",
+      "Occupy the highest available energy orbitals first",
+      "Occupy degenerate orbitals singly before pairing, with parallel spins"
+    ],
+    "correct": 3,
+    "explanation": "Hund's rule states that for degenerate orbitals, electrons occupy each orbital singly with parallel (same) spins before any orbital is doubly occupied, minimizing electron repulsion.",
+    "tags": [
+      "electron-configuration",
+      "hunds-rule"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which molecule has a trigonal bipyramidal electron geometry but a seesaw molecular geometry?",
+    "options": [
+      "ClF₃",
+      "PCl₅",
+      "SF₄",
+      "XeF₂"
+    ],
+    "correct": 2,
+    "explanation": "SF₄ has 5 electron domains around sulfur (4 bonding + 1 lone pair). The electron geometry is trigonal bipyramidal, and the lone pair in an equatorial position gives a seesaw molecular shape.",
+    "tags": [
+      "vsepr",
+      "molecular-geometry"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The bond angle in water (H₂O) is approximately 104.5°, which is less than the ideal tetrahedral angle of 109.5° because:",
+    "options": [
+      "O-H bonds are longer than expected",
+      "Water forms a linear geometry",
+      "Lone pairs exert greater repulsion than bonding pairs",
+      "Hydrogen is highly electronegative"
+    ],
+    "correct": 2,
+    "explanation": "Lone pairs occupy more space than bonding pairs because they are not constrained between two nuclei. The two lone pairs on oxygen push the bonding pairs closer together, reducing the H-O-H angle to ~104.5°.",
+    "tags": [
+      "vsepr",
+      "water"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following exhibits the strongest intermolecular forces?",
+    "options": [
+      "HF",
+      "H₂S",
+      "HCl",
+      "PH₃"
+    ],
+    "correct": 0,
+    "explanation": "HF can form hydrogen bonds (H bonded to highly electronegative F) which are the strongest intermolecular forces among these options. HCl, H₂S, and PH₃ have only dipole-dipole interactions and London dispersion forces.",
+    "tags": [
+      "intermolecular-forces",
+      "hydrogen-bonding"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In an sp³ hybridized carbon, the orbitals point towards the corners of:",
+    "options": [
+      "An octahedron",
+      "A square",
+      "A tetrahedron",
+      "A triangle"
+    ],
+    "correct": 2,
+    "explanation": "sp³ hybridization combines one s orbital and three p orbitals to create four equivalent hybrid orbitals directed toward the corners of a regular tetrahedron at 109.5° angles.",
+    "tags": [
+      "hybridization",
+      "bonding"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which bond is the shortest?",
+    "options": [
+      "C-C",
+      "C=C",
+      "C-N",
+      "C≡C"
+    ],
+    "correct": 3,
+    "explanation": "Triple bonds have the highest bond order, which results in the shortest and strongest bond. C≡C (~120 pm) < C=C (~134 pm) < C-C (~154 pm). C-N is a single bond (~147 pm) and longer than C≡C.",
+    "tags": [
+      "chemical-bonding",
+      "bond-length"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Formal charge on nitrogen in NH₄⁺ is:",
+    "options": [
+      "+2",
+      "-1",
+      "0",
+      "+1"
+    ],
+    "correct": 3,
+    "explanation": "Formal charge = valence electrons - nonbonding electrons - (½ × bonding electrons). For N in NH₄⁺: 5 - 0 - (½ × 8) = 5 - 0 - 4 = +1.",
+    "tags": [
+      "formal-charge",
+      "bonding"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A reaction has ΔH = -50 kJ/mol and ΔS = -100 J/(mol·K). At what temperature does this reaction become non-spontaneous?",
+    "options": [
+      "The reaction is always spontaneous",
+      "T > 250 K",
+      "T > 500 K",
+      "T > 750 K"
+    ],
+    "correct": 2,
+    "explanation": "ΔG = ΔH - TΔS. Reaction is spontaneous when ΔG < 0. At T = 500 K: ΔG = -50,000 - (500)(-100) = -50,000 + 50,000 = 0. Above 500 K, ΔG > 0 (non-spontaneous).",
+    "tags": [
+      "thermodynamics",
+      "gibbs-free-energy"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which statement best describes an endothermic process?",
+    "options": [
+      "No heat is exchanged; ΔH = 0",
+      "Entropy always decreases",
+      "Heat flows from system to surroundings; ΔH < 0",
+      "Heat flows from surroundings to system; ΔH > 0"
+    ],
+    "correct": 3,
+    "explanation": "In an endothermic process, the system absorbs heat from its surroundings, so the enthalpy change ΔH is positive. Examples include melting ice and dissolving NH₄NO₃.",
+    "tags": [
+      "thermodynamics",
+      "enthalpy"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Hess's Law states that the total enthalpy change for a reaction is:",
+    "options": [
+      "Independent of pathway; equal to sum of enthalpy changes of individual steps",
+      "Dependent on the rate of reaction",
+      "Equal to the activation energy",
+      "Always negative for spontaneous reactions"
+    ],
+    "correct": 0,
+    "explanation": "Hess's Law exploits the fact that enthalpy is a state function. The total ΔH for a reaction equals the sum of ΔH values for any series of steps that convert reactants to products, regardless of the pathway taken.",
+    "tags": [
+      "thermodynamics",
+      "hess-law"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The standard entropy change (ΔS°) for a reaction is expected to be positive when:",
+    "options": [
+      "Temperature decreases",
+      "Gas molecules are produced from solid reactants",
+      "A solution precipitates a solid",
+      "A gas condenses to a liquid"
+    ],
+    "correct": 1,
+    "explanation": "Entropy increases when disorder increases. Producing gaseous products from solids greatly increases the number of microstates available (gas molecules have much greater positional and kinetic freedom than solids).",
+    "tags": [
+      "thermodynamics",
+      "entropy"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "For a spontaneous process at constant temperature and pressure, the Gibbs free energy change (ΔG) must be:",
+    "options": [
+      "Positive",
+      "Equal to TΔS",
+      "Zero",
+      "Negative"
+    ],
+    "correct": 3,
+    "explanation": "At constant T and P, a process is spontaneous if ΔG < 0. When ΔG = 0, the system is at equilibrium. When ΔG > 0, the process is non-spontaneous (reverse is spontaneous).",
+    "tags": [
+      "thermodynamics",
+      "gibbs-free-energy",
+      "spontaneity"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Heat capacity at constant pressure (Cp) is greater than heat capacity at constant volume (Cv) for gases because:",
+    "options": [
+      "Gases have fewer degrees of freedom at constant pressure",
+      "Cv includes PV work while Cp does not",
+      "At constant pressure, gas must also do PΔV work when heated",
+      "Pressure increases slow molecular motion"
+    ],
+    "correct": 2,
+    "explanation": "When a gas is heated at constant pressure, it expands and does work on the surroundings (PΔV). This extra energy input beyond ΔU makes Cp = Cv + nR for ideal gases, so Cp > Cv.",
+    "tags": [
+      "thermodynamics",
+      "heat-capacity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "For the reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g), the Kc expression is:",
+    "options": [
+      "Kc = [NH₃]²/([N₂]³[H₂])",
+      "Kc = [NH₃]/([N₂][H₂])",
+      "Kc = [N₂][H₂]³/[NH₃]²",
+      "Kc = [NH₃]²/([N₂][H₂]³)"
+    ],
+    "correct": 3,
+    "explanation": "Kc = [products]^stoich / [reactants]^stoich. For N₂ + 3H₂ ⇌ 2NH₃: Kc = [NH₃]²/([N₂]¹[H₂]³). Pure solids and liquids are omitted.",
+    "tags": [
+      "equilibrium",
+      "equilibrium-constant"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "If Kp = 2.5 × 10⁻⁴ for a reaction, which statement is correct?",
+    "options": [
+      "Reactants are favored at equilibrium",
+      "Products are favored at equilibrium",
+      "The reaction goes to completion",
+      "The reaction does not proceed"
+    ],
+    "correct": 0,
+    "explanation": "A Kp value much less than 1 indicates that at equilibrium, the concentration of reactants greatly exceeds that of products, meaning the reactant side is favored.",
+    "tags": [
+      "equilibrium",
+      "equilibrium-constant"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Le Chatelier's principle predicts that for an exothermic reaction at equilibrium, increasing temperature will:",
+    "options": [
+      "Shift equilibrium toward reactants, decreasing K",
+      "Have no effect on equilibrium position",
+      "Shift equilibrium toward products without changing K",
+      "Shift equilibrium toward products, increasing K"
+    ],
+    "correct": 0,
+    "explanation": "For an exothermic reaction, heat is a product. Adding heat (increasing T) shifts equilibrium left (toward reactants) by Le Chatelier's principle. This also decreases the equilibrium constant K.",
+    "tags": [
+      "equilibrium",
+      "le-chatelier"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The relationship between Kp and Kc is:",
+    "options": [
+      "Kp = Kc(RT)^Δn",
+      "Kp = Kc regardless of Δn",
+      "Kp = Kc/Δn(RT)",
+      "Kp = Kc + Δn(RT)"
+    ],
+    "correct": 0,
+    "explanation": "Kp = Kc(RT)^Δn, where Δn = moles of gaseous products - moles of gaseous reactants, R = 0.08206 L·atm/(mol·K), and T is temperature in Kelvin.",
+    "tags": [
+      "equilibrium",
+      "kp-kc"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Adding a catalyst to a reaction at equilibrium will:",
+    "options": [
+      "Shift equilibrium to favor products",
+      "Decrease activation energy for forward reaction only",
+      "Increase the equilibrium constant",
+      "Speed up both forward and reverse reactions equally, not shifting equilibrium"
+    ],
+    "correct": 3,
+    "explanation": "A catalyst lowers the activation energy for both the forward and reverse reactions equally. It allows equilibrium to be reached faster but does not change the equilibrium constant or the equilibrium position.",
+    "tags": [
+      "equilibrium",
+      "catalysis"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The Henderson-Hasselbalch equation relates pH to pKa as:",
+    "options": [
+      "pH = pKa × log([HA]/[A⁻])",
+      "pH = pKa + log([HA]/[A⁻])",
+      "pH = pKa + log([A⁻]/[HA])",
+      "pH = pKa - log([A⁻]/[HA])"
+    ],
+    "correct": 2,
+    "explanation": "The Henderson-Hasselbalch equation is pH = pKa + log([A⁻]/[HA]), where [A⁻] is the conjugate base concentration and [HA] is the weak acid concentration. It is most useful in the buffer region.",
+    "tags": [
+      "acid-base",
+      "henderson-hasselbalch",
+      "buffers"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following is the strongest acid?",
+    "options": [
+      "HCl",
+      "HI",
+      "HF",
+      "HBr"
+    ],
+    "correct": 1,
+    "explanation": "Among the hydrohalic acids, acid strength increases down the group: HF << HCl < HBr < HI. HI is the strongest because the H-I bond is weakest (longest), making it easiest to donate a proton.",
+    "tags": [
+      "acid-base",
+      "acid-strength"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A buffer solution is most effective when:",
+    "options": [
+      "pH = 7.0",
+      "pH << pKa",
+      "pH = pKa of the weak acid",
+      "pH >> pKa"
+    ],
+    "correct": 2,
+    "explanation": "A buffer is most effective when pH = pKa, meaning [A⁻] = [HA]. At this point, the buffer has equal capacity to absorb added acid or base. The effective range is approximately pH = pKa ± 1.",
+    "tags": [
+      "acid-base",
+      "buffers"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "What is the pH of a solution with [OH⁻] = 1 × 10⁻⁴ M at 25°C?",
+    "options": [
+      "14",
+      "7",
+      "4",
+      "10"
+    ],
+    "correct": 3,
+    "explanation": "pOH = -log[OH⁻] = -log(10⁻⁴) = 4. Since pH + pOH = 14 at 25°C, pH = 14 - 4 = 10.",
+    "tags": [
+      "acid-base",
+      "ph-calculation"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following would produce a basic solution when dissolved in water?",
+    "options": [
+      "NH₄Cl (ammonium chloride)",
+      "HNO₃ (nitric acid)",
+      "NaCH₃COO (sodium acetate)",
+      "NaCl (sodium chloride)"
+    ],
+    "correct": 2,
+    "explanation": "Sodium acetate undergoes hydrolysis: CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻. The acetate ion (conjugate base of weak acid) accepts a proton from water, producing OH⁻ and making the solution basic.",
+    "tags": [
+      "acid-base",
+      "hydrolysis",
+      "salt-solutions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "According to the Brønsted-Lowry definition, an acid is:",
+    "options": [
+      "An electron pair donor",
+      "An electron pair acceptor",
+      "A proton donor",
+      "A proton acceptor"
+    ],
+    "correct": 2,
+    "explanation": "The Brønsted-Lowry theory defines an acid as a proton (H⁺) donor and a base as a proton acceptor. This definition is broader than the Arrhenius theory, encompassing reactions not in aqueous solution.",
+    "tags": [
+      "acid-base",
+      "bronsted-lowry"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In a galvanic cell, oxidation occurs at the:",
+    "options": [
+      "Anode",
+      "Cathode",
+      "Salt bridge",
+      "Both electrodes simultaneously"
+    ],
+    "correct": 0,
+    "explanation": "In a galvanic (voltaic) cell, the anode is the site of oxidation (loss of electrons). Electrons flow from the anode through the external circuit to the cathode, where reduction occurs. Memory aid: AN OX (anode = oxidation).",
+    "tags": [
+      "electrochemistry",
+      "galvanic-cell"
+    ],
+    "difficulty": "easy"
+  }
+]

@@ -1,0 +1,410 @@
+[
+  {
+    "text": "Which of the following best describes the function of the smooth endoplasmic reticulum (SER) compared to the rough ER?",
+    "options": [
+      "The SER synthesizes secretory proteins; the rough ER synthesizes membrane lipids",
+      "The SER lacks ribosomes and is specialized for lipid synthesis, drug detoxification (cytochrome P450 enzymes), and calcium storage; the rough ER is studded with ribosomes and synthesizes membrane and secretory proteins",
+      "Both are functionally identical but differ only in location within the cell",
+      "The SER contains ribosomes but they are inactive; the rough ER ribosomes actively translate"
+    ],
+    "correct": 1,
+    "explanation": "Rough ER: studded with ribosomes on its cytoplasmic face; site of synthesis of membrane proteins, secretory proteins, and lysosomal proteins; site of N-linked glycosylation and protein folding (BiP chaperone, disulfide bond formation). Smooth ER: lacks ribosomes; functions: (1) Lipid synthesis — phospholipids, cholesterol, steroid hormones (abundant in steroid-secreting cells: adrenal cortex, gonads); (2) Drug/toxin detoxification — cytochrome P450 enzymes in liver hepatocytes; (3) Ca²⁺ storage and release (muscle SER = sarcoplasmic reticulum); (4) Carbohydrate metabolism (glucose-6-phosphatase in liver). SER is abundant in hepatocytes, steroidogenic cells, and muscle.",
+    "tags": [
+      "cell biology",
+      "organelles",
+      "endoplasmic reticulum"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "During the Calvin cycle (light-independent reactions), CO2 is initially fixed by RuBisCO onto which acceptor molecule?",
+    "options": [
+      "Glyceraldehyde-3-phosphate (G3P)",
+      "Ribulose-1,5-bisphosphate (RuBP), a 5-carbon molecule, to produce two molecules of 3-phosphoglycerate (3-PGA)",
+      "ATP",
+      "Oxaloacetate (C4 pathway)"
+    ],
+    "correct": 1,
+    "explanation": "RuBisCO (ribulose-1,5-bisphosphate carboxylase/oxygenase) catalyzes the first step of carbon fixation: CO2 + RuBP (C5) → (unstable C6 intermediate) → 2 × 3-phosphoglycerate (3-PGA, C3). This is the carboxylation stage (C3 plants — first stable product is 3-PGA). Then: ATP + NADPH (from light reactions) reduce 3-PGA → G3P (reduction stage). G3P is used to regenerate RuBP (regeneration stage, uses ATP) and to synthesize glucose. To make one glucose: 6 CO2 fixed, 18 ATP and 12 NADPH consumed. In C4 plants, CO2 is first fixed onto PEP by PEP carboxylase → oxaloacetate in mesophyll cells, then decarboxylated and refixed by RuBisCO in bundle sheath cells.",
+    "tags": [
+      "biology",
+      "photosynthesis",
+      "Calvin cycle",
+      "biochemistry"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which amino acid is the only one that lacks a chiral alpha carbon?",
+    "options": [
+      "Serine",
+      "Alanine",
+      "Proline",
+      "Glycine"
+    ],
+    "correct": 3,
+    "explanation": "Glycine has two H atoms on its alpha carbon (R = H), giving it two identical substituents and no chirality. Every other standard amino acid has four distinct groups at the alpha carbon and exists as the L-enantiomer in proteins.",
+    "tags": [
+      "amino acids",
+      "chirality"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "At physiological pH (~7.4), which amino acid side chain is best positioned to donate or accept a proton and function as an acid-base catalyst?",
+    "options": [
+      "Glutamine",
+      "Aspartate",
+      "Histidine",
+      "Lysine"
+    ],
+    "correct": 2,
+    "explanation": "Histidine's imidazole side chain has pKa ≈ 6.0, closest to physiological pH of all standard amino acids. This lets it toggle between protonated and deprotonated forms under physiological conditions. Lysine (pKa ≈ 10.5) stays protonated; aspartate (pKa ≈ 3.9) stays deprotonated; glutamine has no ionizable side chain.",
+    "tags": [
+      "amino acids",
+      "enzyme catalysis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which amino acid side chain contains a thiol group (–SH) that can form disulfide bonds?",
+    "options": [
+      "Serine",
+      "Methionine",
+      "Threonine",
+      "Cysteine"
+    ],
+    "correct": 3,
+    "explanation": "Cysteine's thiol (–SH) group is oxidized to form disulfide bonds (–S–S–) with another cysteine, stabilizing tertiary/quaternary protein structure. Serine and threonine have –OH groups. Methionine contains a thioether (–S–CH3) that cannot form disulfide bonds.",
+    "tags": [
+      "amino acids",
+      "protein structure"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Why does proline disrupt alpha-helices?",
+    "options": [
+      "Its side chain is too large to fit in the helix",
+      "It carries a negative charge at physiological pH",
+      "Its side chain bonds to the backbone nitrogen, eliminating the N–H hydrogen bond donor",
+      "It forms an extra covalent bond with adjacent residues"
+    ],
+    "correct": 2,
+    "explanation": "Proline's nitrogen is locked in a pyrrolidine ring with its side chain, removing the backbone N–H needed for hydrogen bonding in a helix. This creates a rigid kink, making proline a 'helix breaker.' It can appear at the end of helices or in beta-turns.",
+    "tags": [
+      "amino acids",
+      "protein structure"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Proteins absorb strongly at 280 nm primarily because of which amino acids?",
+    "options": [
+      "Phenylalanine and alanine",
+      "Methionine and cysteine",
+      "Glycine and proline",
+      "Tryptophan and tyrosine"
+    ],
+    "correct": 3,
+    "explanation": "Tryptophan (indole ring) and tyrosine (phenol ring) absorb at 280 nm due to aromatic pi electrons. Tryptophan has the larger extinction coefficient. This is used to estimate protein concentration spectrophotometrically. Phenylalanine absorbs weakly at ~257 nm.",
+    "tags": [
+      "amino acids",
+      "spectroscopy"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which amino acid is the direct precursor for catecholamine biosynthesis (dopamine, norepinephrine, epinephrine)?",
+    "options": [
+      "Tryptophan",
+      "Histidine",
+      "Phenylalanine",
+      "Tyrosine"
+    ],
+    "correct": 3,
+    "explanation": "Tyrosine → L-DOPA (tyrosine hydroxylase) → Dopamine → Norepinephrine → Epinephrine. Phenylalanine can be converted to tyrosine by phenylalanine hydroxylase, but tyrosine is the direct precursor. Tryptophan makes serotonin. Histidine makes histamine.",
+    "tags": [
+      "amino acids",
+      "neurotransmitters"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In eukaryotes, which amino acid is delivered by the initiator tRNA at the start codon AUG?",
+    "options": [
+      "Alanine",
+      "Valine",
+      "Methionine",
+      "Leucine"
+    ],
+    "correct": 2,
+    "explanation": "AUG codes for methionine and serves as the start codon in eukaryotes (the initiator tRNA is met-tRNAi). In prokaryotes, the initiator carries N-formyl-methionine (fMet). The initiating methionine is often cleaved post-translationally.",
+    "tags": [
+      "amino acids",
+      "translation"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A patient with phenylketonuria (PKU) lacks phenylalanine hydroxylase. Which metabolite accumulates and causes neurological damage?",
+    "options": [
+      "Tyrosine",
+      "Excess dopamine",
+      "Phenylalanine and its toxic byproducts (phenylpyruvate, phenyllactate)",
+      "Tryptophan metabolites"
+    ],
+    "correct": 2,
+    "explanation": "Without phenylalanine hydroxylase, phenylalanine cannot be converted to tyrosine and accumulates. It is shunted to phenylpyruvate, phenyllactate, and phenylacetate. These metabolites inhibit brain aromatic amino acid transport, impair myelination, and cause intellectual disability if untreated.",
+    "tags": [
+      "amino acids",
+      "metabolic disorders"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Glutamic acid (pI ≈ 3.2) carries what net charge at pH 7.4?",
+    "options": [
+      "–1",
+      "+1",
+      "0",
+      "+2"
+    ],
+    "correct": 0,
+    "explanation": "At pH 7.4, well above pI 3.2: the alpha-COOH (pKa ~2.1) and side-chain COOH (pKa ~4.1) are both deprotonated (–1 each), while the alpha-NH3+ (pKa ~9.5) is protonated (+1). Net = +1 – 1 – 1 = –1.",
+    "tags": [
+      "amino acids",
+      "acid-base"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following is a complete list of the nine essential amino acids?",
+    "options": [
+      "Arg, His, Lys, Asp, Glu, Asn, Gln, Ser, Thr",
+      "Phe, Tyr, Trp, Met, Cys, Gly, Pro, Val, Ala",
+      "His, Ile, Leu, Lys, Met, Phe, Thr, Trp, Val",
+      "Ala, Gly, Pro, Ser, Thr, Asn, Gln, Cys, Tyr"
+    ],
+    "correct": 2,
+    "explanation": "The nine essential amino acids (cannot be synthesized by humans) are Histidine, Isoleucine, Leucine, Lysine, Methionine, Phenylalanine, Threonine, Tryptophan, Valine. Mnemonic: PVT TIM HaLL. They must come from the diet.",
+    "tags": [
+      "amino acids",
+      "nutrition"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Glycine appears in regions of the Ramachandran plot that are forbidden for other amino acids because:",
+    "options": [
+      "It forms the most stable hydrogen bonds",
+      "It has the most hydrophobic side chain",
+      "Its pKa is farthest from physiological pH",
+      "It lacks a side chain, minimizing steric clash at extreme phi/psi angles"
+    ],
+    "correct": 3,
+    "explanation": "Without a side chain, glycine has minimal steric restriction and can adopt phi/psi combinations (including left-handed alpha-helix conformations) inaccessible to other amino acids. This flexibility is why glycine is common at tight turns and in collagen (Gly-X-Y). Proline, conversely, is the most restricted.",
+    "tags": [
+      "amino acids",
+      "protein structure"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Collagen requires hydroxyproline for stability. Which vitamin is essential for prolyl hydroxylase, and what disease results from its deficiency?",
+    "options": [
+      "Vitamin K; coagulopathy",
+      "Vitamin B12; pernicious anemia",
+      "Vitamin D; rickets",
+      "Vitamin C (ascorbic acid); scurvy"
+    ],
+    "correct": 3,
+    "explanation": "Prolyl hydroxylase requires ascorbate (vitamin C) as a cofactor to hydroxylate proline residues in collagen. Hydroxyproline forms extra hydrogen bonds in the collagen triple helix. Without vitamin C, hydroxylation fails, collagen is unstable, and patients develop scurvy: bleeding gums, poor wound healing, perifollicular hemorrhages.",
+    "tags": [
+      "amino acids",
+      "collagen",
+      "vitamins"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "GABA (gamma-aminobutyric acid) is synthesized from which amino acid by glutamate decarboxylase?",
+    "options": [
+      "Tyrosine",
+      "Aspartate",
+      "Glutamate",
+      "Tryptophan"
+    ],
+    "correct": 2,
+    "explanation": "Glutamate decarboxylase (requires PLP/vitamin B6) converts glutamate → GABA by removing the carboxyl group. GABA is the principal inhibitory neurotransmitter in the CNS. Disruption of GABA signaling is linked to anxiety disorders, epilepsy, and the mechanism of benzodiazepines and barbiturates.",
+    "tags": [
+      "amino acids",
+      "neurotransmitters"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The branched-chain amino acids (BCAAs) are:",
+    "options": [
+      "Phenylalanine, tyrosine, tryptophan",
+      "Serine, threonine, cysteine",
+      "Lysine, arginine, histidine",
+      "Leucine, isoleucine, valine"
+    ],
+    "correct": 3,
+    "explanation": "BCAAs (Leu, Ile, Val) have branched aliphatic side chains and are metabolized primarily in skeletal muscle (not liver), making them important for muscle protein synthesis and energy during exercise. All three are essential amino acids.",
+    "tags": [
+      "amino acids",
+      "metabolism"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which amino acid pair contains sulfur in their side chains?",
+    "options": [
+      "Cysteine and methionine",
+      "Serine and threonine",
+      "Asparagine and glutamine",
+      "Aspartate and glutamate"
+    ],
+    "correct": 0,
+    "explanation": "Cysteine (thiol –SH) and methionine (thioether –S–CH3) are the two standard sulfur-containing amino acids. Cysteine's sulfur forms disulfide bonds; methionine's sulfur is used in methyl group transfer reactions (as SAM, S-adenosylmethionine).",
+    "tags": [
+      "amino acids"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Serine and threonine are common targets for phosphorylation. Which type of kinase performs this modification?",
+    "options": [
+      "RNA kinase",
+      "Serine/threonine kinase",
+      "Lipid kinase",
+      "Tyrosine kinase"
+    ],
+    "correct": 1,
+    "explanation": "Serine/threonine kinases (e.g., PKA, PKC, CDKs) phosphorylate the hydroxyl groups of serine and threonine. Tyrosine kinases (e.g., receptor tyrosine kinases, Src) phosphorylate tyrosine. Phosphorylation on any of these three residues is a key regulatory mechanism in signal transduction.",
+    "tags": [
+      "amino acids",
+      "signal transduction",
+      "phosphorylation"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "An amino acid has pI = 9.7. This is most characteristic of which amino acid?",
+    "options": [
+      "Glutamate",
+      "Tryptophan",
+      "Glycine",
+      "Lysine"
+    ],
+    "correct": 3,
+    "explanation": "Lysine (pI ≈ 9.7) has a positively charged epsilon-amino group (pKa ≈ 10.5) in addition to the alpha-amino group. Basic amino acids (Arg, Lys, His) have pI > 7.4 because they carry extra positive charges. Glutamate (pI ≈ 3.2) is acidic; glycine (pI ≈ 6.0) is near neutral.",
+    "tags": [
+      "amino acids",
+      "acid-base"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "N-linked glycosylation is added to which amino acid residue in the ER?",
+    "options": [
+      "Serine",
+      "Lysine",
+      "Asparagine",
+      "Threonine"
+    ],
+    "correct": 2,
+    "explanation": "N-linked glycosylation occurs on asparagine residues in the consensus sequence Asn-X-Ser/Thr (where X ≠ Pro) in the ER, as oligosaccharyltransferase adds a pre-assembled oligosaccharide. O-linked glycosylation occurs on serine and threonine in the Golgi. N-linked glycosylation is important for protein folding, stability, and cell-surface recognition.",
+    "tags": [
+      "amino acids",
+      "glycosylation",
+      "post-translational modification"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Tryptophan is the precursor for which neurotransmitter and hormone?",
+    "options": [
+      "Acetylcholine and histamine",
+      "GABA and glycine",
+      "Dopamine and norepinephrine",
+      "Serotonin and melatonin"
+    ],
+    "correct": 3,
+    "explanation": "Tryptophan → 5-hydroxytryptophan (tryptophan hydroxylase) → Serotonin (5-HT) by aromatic amino acid decarboxylase. Serotonin → N-acetylserotonin → Melatonin (in pineal gland). Melatonin regulates circadian rhythms. Serotonin deficiency is associated with depression; SSRI antidepressants increase synaptic serotonin.",
+    "tags": [
+      "amino acids",
+      "neurotransmitters"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which amino acids are most commonly found at the active sites of serine proteases (e.g., chymotrypsin, trypsin)?",
+    "options": [
+      "Serine, histidine, and aspartate (the catalytic triad)",
+      "Lysine, arginine, and glutamate",
+      "Cysteine, histidine, and asparagine",
+      "Glycine, alanine, and valine"
+    ],
+    "correct": 0,
+    "explanation": "Serine proteases use a catalytic triad: Ser (nucleophile), His (general base/acid), and Asp (orients and stabilizes His). Asp hydrogen bonds to His, lowering its pKa so it can abstract a proton from Ser, making Ser a better nucleophile. This triad is a classic example of convergent evolution, found in unrelated serine proteases.",
+    "tags": [
+      "amino acids",
+      "enzyme catalysis",
+      "proteases"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The epsilon-amino group of lysine participates in which important post-translational reaction in collagen?",
+    "options": [
+      "Cross-linking by lysyl oxidase to form aldehyde-derived crosslinks",
+      "Glycosylation to form N-linked oligosaccharides",
+      "Hydroxylation by prolyl hydroxylase",
+      "Phosphorylation by receptor tyrosine kinases"
+    ],
+    "correct": 0,
+    "explanation": "Lysyl oxidase (requires copper) oxidatively deaminates lysine/hydroxylysine epsilon-amino groups to aldehydes, which then condense with adjacent lysine residues to form covalent crosslinks. These crosslinks are essential for the tensile strength of collagen fibers. Defects occur in Menkes disease (copper deficiency) and lathyrism.",
+    "tags": [
+      "amino acids",
+      "collagen",
+      "post-translational modification"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which amino acid is a precursor for heme biosynthesis?",
+    "options": [
+      "Glycine",
+      "Lysine",
+      "Methionine",
+      "Histidine"
+    ],
+    "correct": 0,
+    "explanation": "Heme biosynthesis begins with glycine + succinyl-CoA (from TCA cycle) → delta-aminolevulinic acid (ALA), catalyzed by ALA synthase (rate-limiting step, requires PLP). Eight glycine residues contribute to heme. Glycine's simplicity (no side chain, small) makes it ubiquitous in metabolic biosynthesis pathways.",
+    "tags": [
+      "amino acids",
+      "heme synthesis",
+      "metabolism"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The pKa of an amino acid side chain can shift in a protein environment. The active site serine of a serine protease has a lower pKa than free serine because:",
+    "options": [
+      "The protein core is more acidic than solution",
+      "Nearby ionic residues completely neutralize the serine",
+      "The serine forms an extra disulfide bond",
+      "The neighboring histidine abstracts its proton, effectively lowering its pKa and increasing its nucleophilicity"
+    ],
+    "correct": 3,
+    "explanation": "In the catalytic triad, histidine acts as a general base, abstracting the proton from serine's hydroxyl. This lowers the effective pKa of serine (from ~13 to near 7), making it a much stronger nucleophile. The aspartate stabilizes the protonated histidine, completing the charge relay system.",
+    "tags": [
+      "amino acids",
+      "enzyme catalysis"
+    ],
+    "difficulty": "hard"
+  }
+]

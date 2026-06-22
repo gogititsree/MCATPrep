@@ -1,0 +1,415 @@
+[
+  {
+    "text": "Fructose-1,6-bisphosphatase (FBPase-1) is inhibited by which metabolite?",
+    "options": [
+      "Glucose-6-phosphate",
+      "AMP and fructose-2,6-bisphosphate",
+      "Acetyl-CoA",
+      "ATP and citrate"
+    ],
+    "correct": 1,
+    "explanation": "FBPase-1 (the gluconeogenesis enzyme) is inhibited by AMP (low energy signal) and fructose-2,6-bisphosphate (F-2,6-BP, high glycolytic signal). F-2,6-BP is produced by PFK-2 and is a powerful inhibitor of FBPase-1 while simultaneously activating PFK-1. This reciprocal regulation ensures glycolysis and gluconeogenesis don't run simultaneously at high rates.",
+    "tags": [
+      "gluconeogenesis",
+      "enzyme regulation"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Pyruvate carboxylase, an enzyme in gluconeogenesis, is activated by:",
+    "options": [
+      "NADH",
+      "Acetyl-CoA",
+      "AMP",
+      "Glucose-6-phosphate"
+    ],
+    "correct": 1,
+    "explanation": "Pyruvate carboxylase (PC) requires biotin (vitamin B7) and is allosterically activated by acetyl-CoA. High acetyl-CoA (from beta-oxidation during fasting) signals excess fuel and need for oxaloacetate replenishment for both the TCA cycle and gluconeogenesis. Acetyl-CoA cannot be converted back to pyruvate/glucose directly, so PC channels pyruvate into OAA.",
+    "tags": [
+      "gluconeogenesis",
+      "pyruvate carboxylase",
+      "enzyme regulation"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Galactosemia is caused by deficiency of galactose-1-phosphate uridyltransferase, which converts:",
+    "options": [
+      "UDP-galactose to UDP-glucose",
+      "Lactose to glucose and galactose",
+      "Galactose to glucose directly",
+      "Galactose-1-phosphate + UDP-glucose → glucose-1-phosphate + UDP-galactose"
+    ],
+    "correct": 3,
+    "explanation": "In galactose metabolism: galactose → galactose-1-phosphate (galactokinase) → glucose-1-phosphate (galactose-1-phosphate uridyltransferase). Deficiency causes accumulation of galactose-1-phosphate, which is toxic to liver, brain, and kidneys. Newborn screening detects this enzyme deficiency. Treatment is elimination of galactose (lactose) from the diet.",
+    "tags": [
+      "carbohydrate metabolism",
+      "metabolic disorders",
+      "galactose"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which metabolic process generates the majority of the NADH used by the ETC during aerobic glucose catabolism?",
+    "options": [
+      "Glycolysis exclusively",
+      "The pentose phosphate pathway",
+      "Beta-oxidation",
+      "The TCA cycle (most NADH) plus pyruvate dehydrogenase"
+    ],
+    "correct": 3,
+    "explanation": "Of the 10 NADH produced per glucose in complete aerobic catabolism: glycolysis produces 2 NADH (cytoplasmic); pyruvate dehydrogenase produces 2 NADH; the TCA cycle produces 6 NADH (3 per turn × 2 turns). Additionally 2 FADH2 come from TCA. The TCA cycle + PDC provide 8 of 10 NADH, making them the dominant source for the ETC.",
+    "tags": [
+      "TCA cycle",
+      "NADH",
+      "bioenergetics"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Type 1 diabetes results from autoimmune destruction of pancreatic beta cells. Without insulin, which metabolic pathway is inappropriately active in adipose tissue?",
+    "options": [
+      "Lipogenesis (fatty acid synthesis)",
+      "Glycogen synthesis",
+      "Glucose uptake via GLUT4",
+      "Lipolysis (HSL activated by glucagon/epinephrine, not inhibited by insulin)"
+    ],
+    "correct": 3,
+    "explanation": "Insulin normally suppresses hormone-sensitive lipase (HSL) in adipocytes. Without insulin, HSL is active → releases free fatty acids → liver converts to ketone bodies → ketoacidosis. Insulin also promotes GLUT4 insertion into adipocyte membranes for glucose uptake; without insulin, glucose uptake is impaired. This explains the metabolic crisis in untreated T1DM.",
+    "tags": [
+      "lipid metabolism",
+      "hormones",
+      "diabetes"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which enzyme is the rate-limiting step of fatty acid synthesis, and how is it regulated?",
+    "options": [
+      "Acetyl-CoA carboxylase (ACC); activated by citrate, inhibited by palmitoyl-CoA and glucagon-induced phosphorylation",
+      "HMG-CoA reductase; inhibited by statins",
+      "Fatty acid synthase; regulated by product inhibition only",
+      "Malonyl-CoA decarboxylase; activated by glucagon"
+    ],
+    "correct": 0,
+    "explanation": "ACC carboxylates acetyl-CoA to malonyl-CoA (requires biotin). It is allosterically activated by citrate (excess acetyl-CoA signal) and inhibited by palmitoyl-CoA (feedback) and by phosphorylation (AMPK or PKA, activated by fasting/glucagon). Malonyl-CoA also inhibits carnitine palmitoyltransferase-1 (CPT-1), preventing concurrent fatty acid oxidation.",
+    "tags": [
+      "fatty acid synthesis",
+      "enzyme regulation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The transport of long-chain fatty acids into the mitochondrial matrix requires:",
+    "options": [
+      "VLDL particle transport",
+      "Carnitine shuttle (carnitine palmitoyltransferase-1 on outer membrane, CPT-2 on inner membrane)",
+      "The GLUT family of transporters",
+      "Simple diffusion across the inner membrane"
+    ],
+    "correct": 1,
+    "explanation": "Long-chain fatty acyl-CoA cannot cross the inner mitochondrial membrane directly. Acyl-CoA is converted to acylcarnitine by CPT-1 (rate-limiting step of beta-oxidation; inhibited by malonyl-CoA). Acylcarnitine crosses via a translocase; CPT-2 on the inner membrane regenerates acyl-CoA in the matrix for beta-oxidation.",
+    "tags": [
+      "fatty acid oxidation",
+      "carnitine"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The net ATP yield from complete oxidation of one molecule of palmitate (C16:0) is approximately:",
+    "options": [
+      "38 ATP",
+      "106–108 ATP",
+      "15 ATP",
+      "2 ATP"
+    ],
+    "correct": 1,
+    "explanation": "Palmitoyl-CoA → 7 cycles of beta-oxidation: 7 FADH2 (×1.5=10.5 ATP) + 7 NADH (×2.5=17.5 ATP) + 8 acetyl-CoA (×10 ATP each = 80 ATP) = 108 ATP. Subtract 2 ATP for activation (palmitoyl-CoA synthesis). Net ≈ 106 ATP. This is ~3× the yield from glycolysis + TCA for glucose, reflecting fats' higher energy density.",
+    "tags": [
+      "beta-oxidation",
+      "bioenergetics"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Odd-chain fatty acid beta-oxidation produces propionyl-CoA, which is converted to succinyl-CoA by which enzymes and cofactors?",
+    "options": [
+      "Propionyl-CoA carboxylase (biotin) → methylmalonyl-CoA mutase (vitamin B12) → succinyl-CoA",
+      "Fatty acid synthase in reverse",
+      "Propionyl-CoA dehydrogenase → acetyl-CoA directly",
+      "Thiolase cleavage to two acetyl-CoA"
+    ],
+    "correct": 0,
+    "explanation": "Odd-chain fatty acid catabolism: beta-oxidation proceeds normally until 3-carbon propionyl-CoA (instead of 2-carbon acetyl-CoA). Propionyl-CoA carboxylase (biotin) → D-methylmalonyl-CoA → L-methylmalonyl-CoA → succinyl-CoA (methylmalonyl-CoA mutase, requires B12). Succinyl-CoA enters TCA cycle. Methylmalonic acidemia results from B12/mutase deficiency.",
+    "tags": [
+      "beta-oxidation",
+      "odd-chain fatty acids",
+      "vitamin B12"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "HMG-CoA reductase catalyzes the committed, rate-limiting step of cholesterol synthesis. Statins treat hypercholesterolemia by:",
+    "options": [
+      "Competitively inhibiting HMG-CoA reductase, reducing hepatic cholesterol synthesis and upregulating LDL receptors",
+      "Increasing LDL oxidation in macrophages",
+      "Activating VLDL secretion from the liver",
+      "Blocking bile acid reabsorption in the intestine"
+    ],
+    "correct": 0,
+    "explanation": "Statins (e.g., atorvastatin) are structural analogs of HMG-CoA that competitively inhibit HMG-CoA reductase. Reduced intrahepatic cholesterol triggers upregulation of hepatic LDL receptors → more LDL cleared from blood. This is the primary mechanism by which statins lower LDL-C and reduce cardiovascular risk.",
+    "tags": [
+      "cholesterol synthesis",
+      "pharmacology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In diabetic ketoacidosis (DKA), ketone bodies accumulate because:",
+    "options": [
+      "Ketone body utilization is blocked in peripheral tissues",
+      "Insulin blocks beta-oxidation, diverting all acetyl-CoA to ketones",
+      "Excess acetyl-CoA from beta-oxidation cannot enter the TCA cycle (depleted OAA), so it is channeled to ketogenesis",
+      "Cells cannot oxidize glucose, so they burn fat instead (oversimplified: technically OAA depletion is key)"
+    ],
+    "correct": 2,
+    "explanation": "In DKA (untreated T1DM), lack of insulin → lipolysis → excess fatty acids → beta-oxidation in liver → acetyl-CoA accumulates. OAA is depleted (used for gluconeogenesis, reducing TCA capacity). Excess acetyl-CoA → HMG-CoA → ketone bodies (acetoacetate, beta-hydroxybutyrate). Paradoxically, brain eventually uses ketones as fuel during prolonged starvation. Acetone gives the characteristic fruity breath.",
+    "tags": [
+      "ketone bodies",
+      "diabetes",
+      "lipid metabolism"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Adipose triglyceride lipase (ATGL) and hormone-sensitive lipase (HSL) are key lipolytic enzymes. Which hormone activates these during fasting?",
+    "options": [
+      "Cortisol via nuclear receptors only",
+      "Leptin directly activating HSL",
+      "Glucagon (and epinephrine) via cAMP-PKA cascade",
+      "Insulin via PI3K pathway"
+    ],
+    "correct": 2,
+    "explanation": "Glucagon and epinephrine activate adenylyl cyclase → cAMP → PKA → phosphorylates HSL (activating it) and perilipin (allowing access to lipid droplet). ATGL is also activated. Free fatty acids + glycerol are released. Insulin inhibits PKA effects and activates phosphodiesterase (breaks down cAMP), suppressing lipolysis. This is how insulin promotes fat storage and glucagon/epinephrine promote fat mobilization.",
+    "tags": [
+      "lipolysis",
+      "hormones",
+      "signal transduction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Eicosanoids (prostaglandins, thromboxanes, leukotrienes) are derived from which fatty acid?",
+    "options": [
+      "Linoleic acid (C18:2, omega-6)",
+      "Palmitic acid (C16:0)",
+      "Arachidonic acid (C20:4, omega-6)",
+      "Alpha-linolenic acid (C18:3, omega-3)"
+    ],
+    "correct": 2,
+    "explanation": "Arachidonic acid (AA, 20:4, omega-6), released from membrane phospholipids by phospholipase A2, is the major precursor for eicosanoids. COX (cyclooxygenase) converts AA to prostaglandins/thromboxanes; 5-LOX converts AA to leukotrienes. NSAIDs (aspirin, ibuprofen) inhibit COX. Omega-3 fatty acids (EPA, DHA) compete with AA and produce less inflammatory eicosanoids.",
+    "tags": [
+      "lipid metabolism",
+      "eicosanoids",
+      "inflammation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which strand of the double-stranded DNA serves as the template for RNA polymerase?",
+    "options": [
+      "Coding strand (non-template strand, same sequence as mRNA)",
+      "Template strand (antisense strand, read 3'→5' by RNA polymerase, producing RNA 5'→3')",
+      "Either strand is equally used",
+      "The strand with the promoter sequence"
+    ],
+    "correct": 1,
+    "explanation": "RNA polymerase reads the template (antisense) strand 3'→5' and synthesizes RNA 5'→3'. The resulting mRNA has the same sequence as the non-template (coding/sense) strand, except U replaces T. The coding strand is also called the sense strand or non-template strand.",
+    "tags": [
+      "transcription",
+      "molecular biology"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which DNA repair mechanism corrects single-base mismatches and small insertions/deletions that escape proofreading during replication?",
+    "options": [
+      "Nucleotide excision repair (NER)",
+      "Non-homologous end joining (NHEJ)",
+      "Base excision repair (BER)",
+      "Mismatch repair (MMR)"
+    ],
+    "correct": 3,
+    "explanation": "MMR detects and corrects replication errors: MSH2/MSH6 recognize mismatches, MLH1/PMS2 coordinate excision and resynthesis. MMR deficiency (Lynch syndrome/HNPCC) causes microsatellite instability and predisposes to colorectal cancer. NER handles bulky lesions (UV damage). BER handles single oxidized/deaminated bases. NHEJ joins double-strand breaks.",
+    "tags": [
+      "DNA repair",
+      "mismatch repair",
+      "molecular biology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Telomeres are maintained in stem cells and cancer cells by which enzyme?",
+    "options": [
+      "Primase",
+      "Topoisomerase II",
+      "Telomerase (an RNA-dependent DNA polymerase with its own RNA template)",
+      "DNA polymerase delta"
+    ],
+    "correct": 2,
+    "explanation": "Telomeres shorten with each replication (end replication problem). Telomerase is a reverse transcriptase (TERT) with an RNA component (TERC) that serves as the template to extend telomeric repeats (TTAGGG) de novo. Active in stem cells, germ cells, and ~85-90% of cancer cells (allowing immortalization). Absence in somatic cells contributes to cellular senescence.",
+    "tags": [
+      "DNA replication",
+      "telomeres",
+      "cancer biology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which statement about DNA helicase during replication is correct?",
+    "options": [
+      "Helicase ligates Okazaki fragments together",
+      "Helicase unwinds the double helix by breaking hydrogen bonds between base pairs, creating a replication fork",
+      "Helicase removes supercoils introduced by replication",
+      "Helicase synthesizes RNA primers at origins of replication"
+    ],
+    "correct": 1,
+    "explanation": "DNA helicase (DnaB in prokaryotes; MCM complex in eukaryotes) translocates along DNA, using ATP hydrolysis to break hydrogen bonds between complementary base pairs, unwinding the double helix at the replication fork. Single-strand binding proteins (SSBPs) stabilize the separated strands. Topoisomerases resolve the supercoiling generated ahead of the fork.",
+    "tags": [
+      "DNA replication",
+      "helicase"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The RNA primer used to initiate DNA replication is synthesized by:",
+    "options": [
+      "Helicase",
+      "Primase (a type of RNA polymerase)",
+      "DNA ligase",
+      "DNA polymerase I (for removal)"
+    ],
+    "correct": 1,
+    "explanation": "DNA polymerases cannot initiate a new strand de novo — they can only extend a pre-existing 3'-OH. Primase synthesizes a short (~5-10 nt) RNA primer, providing the 3'-OH for DNA polymerase to extend. In eukaryotes, DNA pol alpha-primase complex lays down the primer. After replication, the RNA primer is removed (RNase H/FEN1) and replaced with DNA by pol delta/epsilon.",
+    "tags": [
+      "DNA replication",
+      "primase"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Eukaryotic pre-mRNA processing includes all of the following EXCEPT:",
+    "options": [
+      "Removal of introns by the spliceosome",
+      "3' polyadenylation",
+      "5' capping with 7-methylguanosine",
+      "Removal of tRNA introns by spliceosomes (tRNA introns are removed by endonuclease/ligase, not the spliceosome)"
+    ],
+    "correct": 3,
+    "explanation": "Pre-mRNA processing: 5' cap (m7G added co-transcriptionally), 3' poly-A tail (added after cleavage at polyadenylation signal AAUAAA), and splicing by the spliceosome (snRNPs U1, U2, U4, U5, U6). tRNA introns are spliced by a different mechanism (tRNA splicing endonuclease + tRNA ligase). The spliceosome is for pre-mRNA, not tRNA.",
+    "tags": [
+      "RNA processing",
+      "splicing",
+      "molecular biology"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which RNA polymerase in eukaryotes transcribes mRNA precursors (pre-mRNA)?",
+    "options": [
+      "Primase",
+      "RNA polymerase I",
+      "RNA polymerase II",
+      "RNA polymerase III"
+    ],
+    "correct": 2,
+    "explanation": "Eukaryotes have three nuclear RNA polymerases: Pol I makes 28S, 18S, 5.8S rRNA (in nucleolus); Pol II makes mRNA, snRNA, miRNA precursors; Pol III makes 5S rRNA, tRNA, and other small RNAs. Alpha-amanitin (from death cap mushroom) selectively inhibits Pol II at low doses. Pol II requires general transcription factors (TFIID, etc.) and mediator complex.",
+    "tags": [
+      "transcription",
+      "RNA polymerase"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "During translation, the A site, P site, and E site of the ribosome perform which functions?",
+    "options": [
+      "A site: aminoacyl-tRNA entry; P site: peptidyl-tRNA (growing chain); E site: exit of deacylated tRNA",
+      "All three sites participate equally in peptide bond formation",
+      "A site: polyadenylation; P site: processing; E site: export",
+      "A site: exits the ribosome; P site: entry of new aminoacyl-tRNA; E site: elongation"
+    ],
+    "correct": 0,
+    "explanation": "Ribosome sites: Aminoacyl site (A) — incoming aminoacyl-tRNA decodes mRNA codon; Peptidyl site (P) — carries growing polypeptide chain (peptidyl-tRNA); Exit site (E) — holds deacylated tRNA before release. Peptide bond formation: peptidyl transferase (23S/28S rRNA ribozyme) transfers the polypeptide from P-site tRNA to A-site aminoacyl-tRNA.",
+    "tags": [
+      "translation",
+      "ribosome"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Aminoacyl-tRNA synthetases perform which critical function in translation?",
+    "options": [
+      "Charge tRNAs with their correct amino acid, ensuring the genetic code is accurately interpreted",
+      "Release the polypeptide from the ribosome",
+      "Catalyze peptide bond formation",
+      "Decode the mRNA codon directly"
+    ],
+    "correct": 0,
+    "explanation": "Each of the 20 aminoacyl-tRNA synthetases recognizes a specific amino acid and its cognate tRNA(s), charging the tRNA (forming aminoacyl-tRNA) in a two-step reaction (amino acid + ATP → aminoacyl-AMP + PPi; then transfer to tRNA 3'-OH). These enzymes are the true 'adaptors' of the genetic code — their fidelity determines translation accuracy.",
+    "tags": [
+      "translation",
+      "aminoacyl-tRNA synthetase",
+      "genetic code"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Stop codons (UAA, UAG, UGA) do not have corresponding tRNAs. Instead, translation terminates when:",
+    "options": [
+      "A ribonuclease cleaves the mRNA",
+      "Release factors (eRF1, eRF3) recognize stop codons and trigger peptidyl-tRNA hydrolysis",
+      "The ribosome falls off the mRNA spontaneously",
+      "The 5' cap is removed, stalling the ribosome"
+    ],
+    "correct": 1,
+    "explanation": "When a stop codon enters the A site, no aminoacyl-tRNA can decode it. Instead, eukaryotic release factors eRF1 (recognizes all three stop codons) and eRF3 (GTPase) bind the A site. eRF1 triggers peptidyl transferase to hydrolyze the ester bond linking the polypeptide to the P-site tRNA, releasing the polypeptide. Then the ribosome disassembles.",
+    "tags": [
+      "translation",
+      "termination",
+      "release factors"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In a monohybrid cross of two heterozygous individuals (Aa × Aa), the expected phenotype ratio is:",
+    "options": [
+      "1:2:1",
+      "All dominant",
+      "1:1:1:1",
+      "3 dominant : 1 recessive"
+    ],
+    "correct": 3,
+    "explanation": "Aa × Aa → 1/4 AA : 2/4 Aa : 1/4 aa (genotype 1:2:1). For a dominant trait, AA and Aa both express the dominant phenotype, giving 3/4 dominant : 1/4 recessive phenotype ratio. This is Mendel's law of segregation.",
+    "tags": [
+      "genetics",
+      "Mendelian genetics"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The probability that a child inherits an autosomal recessive disease when both parents are carriers (Aa × Aa) is:",
+    "options": [
+      "1/2",
+      "3/4",
+      "1",
+      "1/4"
+    ],
+    "correct": 3,
+    "explanation": "Carrier × carrier cross: 1/4 AA, 2/4 Aa, 1/4 aa. Only aa individuals are affected (1/4 probability). This is the basis of recessive disease genetics. With cystic fibrosis, for example, if both parents carry one CFTR mutation, each child has a 25% chance of having CF.",
+    "tags": [
+      "genetics",
+      "autosomal recessive"
+    ],
+    "difficulty": "easy"
+  }
+]

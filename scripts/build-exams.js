@@ -59,10 +59,10 @@ function build() {
       all = all.concat(data);
     });
 
-    // Create at most 10 exams, 25 items each
+    // Create at most 25 exams, 25 items each
     const perExam = 25;
     ensure(path.join(OUT_DIR, section));
-    for (let i = 0; i < Math.min(10, Math.ceil(all.length / perExam) || 1); i++) {
+    for (let i = 0; i < Math.min(25, Math.floor(all.length / perExam) || 1); i++) {
       const start = i * perExam;
       const exam = all.slice(start, start + perExam);
       const outFile = path.join(OUT_DIR, section, `exam-${String(i+1).padStart(2,'0')}.json`);
@@ -83,7 +83,7 @@ function build() {
     });
     // group 3 passages per exam
     const perCarsExam = 3;
-    for (let i = 0; i < Math.min(10, Math.ceil(allPassages.length / perCarsExam) || 1); i++) {
+    for (let i = 0; i < Math.min(25, Math.floor(allPassages.length / perCarsExam) || 1); i++) {
       const start = i * perCarsExam;
       const bundle = allPassages.slice(start, start + perCarsExam);
       const outFile = path.join(OUT_DIR, 'cars', `exam-${String(i+1).padStart(2,'0')}.json`);

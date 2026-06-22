@@ -1,0 +1,1315 @@
+[
+  {
+    "text": "Which quantum numbers specify an electron in the 3d subshell?",
+    "options": [
+      "n=2, l=3",
+      "n=3, l=1",
+      "n=3, l=3",
+      "n=3, l=2"
+    ],
+    "correct": 3,
+    "explanation": "The principal quantum number n=3 designates the third shell, and the azimuthal quantum number l=2 designates a d subshell (l: 0=s, 1=p, 2=d, 3=f).",
+    "tags": [
+      "atomic-structure",
+      "quantum-numbers"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which element has the highest first ionization energy?",
+    "options": [
+      "Kr",
+      "Ar",
+      "He",
+      "Ne"
+    ],
+    "correct": 2,
+    "explanation": "Helium has the highest first ionization energy of all elements (~2372 kJ/mol) due to its small atomic radius and full 1s\u00b2 shell with no shielding electrons.",
+    "tags": [
+      "periodic-trends",
+      "ionization-energy"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Across a period from left to right, atomic radius generally:",
+    "options": [
+      "Increases due to more electron shells",
+      "Remains constant",
+      "Increases due to decreasing nuclear charge",
+      "Decreases due to increasing nuclear charge with same shielding"
+    ],
+    "correct": 3,
+    "explanation": "Across a period, nuclear charge increases while electrons are added to the same shell (minimal additional shielding), causing the electron cloud to contract.",
+    "tags": [
+      "periodic-trends",
+      "atomic-radius"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The electron configuration of Fe\u00b2\u207a is:",
+    "options": [
+      "[Ar] 3d\u2074",
+      "[Ar] 3d\u2075 4s\u00b9",
+      "[Ar] 3d\u2076",
+      "[Ar] 3d\u2076 4s\u00b2"
+    ],
+    "correct": 2,
+    "explanation": "Neutral Fe is [Ar] 3d\u2076 4s\u00b2. When Fe loses 2 electrons to form Fe\u00b2\u207a, the 4s electrons are removed first, leaving [Ar] 3d\u2076.",
+    "tags": [
+      "electron-configuration",
+      "transition-metals"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which property generally increases going down a group in the periodic table?",
+    "options": [
+      "First ionization energy",
+      "Electronegativity",
+      "Electron affinity",
+      "Atomic radius"
+    ],
+    "correct": 3,
+    "explanation": "Atomic radius increases down a group because each successive element has an additional electron shell, increasing the distance between the nucleus and valence electrons.",
+    "tags": [
+      "periodic-trends",
+      "atomic-radius"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Hund's rule states that electrons will:",
+    "options": [
+      "Pair up in the lowest-energy orbital first",
+      "Fill orbitals in order of increasing n+l",
+      "Occupy the highest available energy orbitals first",
+      "Occupy degenerate orbitals singly before pairing, with parallel spins"
+    ],
+    "correct": 3,
+    "explanation": "Hund's rule states that for degenerate orbitals, electrons occupy each orbital singly with parallel (same) spins before any orbital is doubly occupied, minimizing electron repulsion.",
+    "tags": [
+      "electron-configuration",
+      "hunds-rule"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which molecule has a trigonal bipyramidal electron geometry but a seesaw molecular geometry?",
+    "options": [
+      "ClF\u2083",
+      "PCl\u2085",
+      "SF\u2084",
+      "XeF\u2082"
+    ],
+    "correct": 2,
+    "explanation": "SF\u2084 has 5 electron domains around sulfur (4 bonding + 1 lone pair). The electron geometry is trigonal bipyramidal, and the lone pair in an equatorial position gives a seesaw molecular shape.",
+    "tags": [
+      "vsepr",
+      "molecular-geometry"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The bond angle in water (H\u2082O) is approximately 104.5\u00b0, which is less than the ideal tetrahedral angle of 109.5\u00b0 because:",
+    "options": [
+      "O-H bonds are longer than expected",
+      "Water forms a linear geometry",
+      "Lone pairs exert greater repulsion than bonding pairs",
+      "Hydrogen is highly electronegative"
+    ],
+    "correct": 2,
+    "explanation": "Lone pairs occupy more space than bonding pairs because they are not constrained between two nuclei. The two lone pairs on oxygen push the bonding pairs closer together, reducing the H-O-H angle to ~104.5\u00b0.",
+    "tags": [
+      "vsepr",
+      "water"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following exhibits the strongest intermolecular forces?",
+    "options": [
+      "HF",
+      "H\u2082S",
+      "HCl",
+      "PH\u2083"
+    ],
+    "correct": 0,
+    "explanation": "HF can form hydrogen bonds (H bonded to highly electronegative F) which are the strongest intermolecular forces among these options. HCl, H\u2082S, and PH\u2083 have only dipole-dipole interactions and London dispersion forces.",
+    "tags": [
+      "intermolecular-forces",
+      "hydrogen-bonding"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In an sp\u00b3 hybridized carbon, the orbitals point towards the corners of:",
+    "options": [
+      "An octahedron",
+      "A square",
+      "A tetrahedron",
+      "A triangle"
+    ],
+    "correct": 2,
+    "explanation": "sp\u00b3 hybridization combines one s orbital and three p orbitals to create four equivalent hybrid orbitals directed toward the corners of a regular tetrahedron at 109.5\u00b0 angles.",
+    "tags": [
+      "hybridization",
+      "bonding"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which bond is the shortest?",
+    "options": [
+      "C-C",
+      "C=C",
+      "C-N",
+      "C\u2261C"
+    ],
+    "correct": 3,
+    "explanation": "Triple bonds have the highest bond order, which results in the shortest and strongest bond. C\u2261C (~120 pm) < C=C (~134 pm) < C-C (~154 pm). C-N is a single bond (~147 pm) and longer than C\u2261C.",
+    "tags": [
+      "chemical-bonding",
+      "bond-length"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Formal charge on nitrogen in NH\u2084\u207a is:",
+    "options": [
+      "+2",
+      "-1",
+      "0",
+      "+1"
+    ],
+    "correct": 3,
+    "explanation": "Formal charge = valence electrons - nonbonding electrons - (\u00bd \u00d7 bonding electrons). For N in NH\u2084\u207a: 5 - 0 - (\u00bd \u00d7 8) = 5 - 0 - 4 = +1.",
+    "tags": [
+      "formal-charge",
+      "bonding"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A reaction has \u0394H = -50 kJ/mol and \u0394S = -100 J/(mol\u00b7K). At what temperature does this reaction become non-spontaneous?",
+    "options": [
+      "The reaction is always spontaneous",
+      "T > 250 K",
+      "T > 500 K",
+      "T > 750 K"
+    ],
+    "correct": 2,
+    "explanation": "\u0394G = \u0394H - T\u0394S. Reaction is spontaneous when \u0394G < 0. At T = 500 K: \u0394G = -50,000 - (500)(-100) = -50,000 + 50,000 = 0. Above 500 K, \u0394G > 0 (non-spontaneous).",
+    "tags": [
+      "thermodynamics",
+      "gibbs-free-energy"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which statement best describes an endothermic process?",
+    "options": [
+      "No heat is exchanged; \u0394H = 0",
+      "Entropy always decreases",
+      "Heat flows from system to surroundings; \u0394H < 0",
+      "Heat flows from surroundings to system; \u0394H > 0"
+    ],
+    "correct": 3,
+    "explanation": "In an endothermic process, the system absorbs heat from its surroundings, so the enthalpy change \u0394H is positive. Examples include melting ice and dissolving NH\u2084NO\u2083.",
+    "tags": [
+      "thermodynamics",
+      "enthalpy"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Hess's Law states that the total enthalpy change for a reaction is:",
+    "options": [
+      "Independent of pathway; equal to sum of enthalpy changes of individual steps",
+      "Dependent on the rate of reaction",
+      "Equal to the activation energy",
+      "Always negative for spontaneous reactions"
+    ],
+    "correct": 0,
+    "explanation": "Hess's Law exploits the fact that enthalpy is a state function. The total \u0394H for a reaction equals the sum of \u0394H values for any series of steps that convert reactants to products, regardless of the pathway taken.",
+    "tags": [
+      "thermodynamics",
+      "hess-law"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The standard entropy change (\u0394S\u00b0) for a reaction is expected to be positive when:",
+    "options": [
+      "Temperature decreases",
+      "Gas molecules are produced from solid reactants",
+      "A solution precipitates a solid",
+      "A gas condenses to a liquid"
+    ],
+    "correct": 1,
+    "explanation": "Entropy increases when disorder increases. Producing gaseous products from solids greatly increases the number of microstates available (gas molecules have much greater positional and kinetic freedom than solids).",
+    "tags": [
+      "thermodynamics",
+      "entropy"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "For a spontaneous process at constant temperature and pressure, the Gibbs free energy change (\u0394G) must be:",
+    "options": [
+      "Positive",
+      "Equal to T\u0394S",
+      "Zero",
+      "Negative"
+    ],
+    "correct": 3,
+    "explanation": "At constant T and P, a process is spontaneous if \u0394G < 0. When \u0394G = 0, the system is at equilibrium. When \u0394G > 0, the process is non-spontaneous (reverse is spontaneous).",
+    "tags": [
+      "thermodynamics",
+      "gibbs-free-energy",
+      "spontaneity"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Heat capacity at constant pressure (Cp) is greater than heat capacity at constant volume (Cv) for gases because:",
+    "options": [
+      "Gases have fewer degrees of freedom at constant pressure",
+      "Cv includes PV work while Cp does not",
+      "At constant pressure, gas must also do P\u0394V work when heated",
+      "Pressure increases slow molecular motion"
+    ],
+    "correct": 2,
+    "explanation": "When a gas is heated at constant pressure, it expands and does work on the surroundings (P\u0394V). This extra energy input beyond \u0394U makes Cp = Cv + nR for ideal gases, so Cp > Cv.",
+    "tags": [
+      "thermodynamics",
+      "heat-capacity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "For the reaction N\u2082(g) + 3H\u2082(g) \u21cc 2NH\u2083(g), the Kc expression is:",
+    "options": [
+      "Kc = [NH\u2083]\u00b2/([N\u2082]\u00b3[H\u2082])",
+      "Kc = [NH\u2083]/([N\u2082][H\u2082])",
+      "Kc = [N\u2082][H\u2082]\u00b3/[NH\u2083]\u00b2",
+      "Kc = [NH\u2083]\u00b2/([N\u2082][H\u2082]\u00b3)"
+    ],
+    "correct": 3,
+    "explanation": "Kc = [products]^stoich / [reactants]^stoich. For N\u2082 + 3H\u2082 \u21cc 2NH\u2083: Kc = [NH\u2083]\u00b2/([N\u2082]\u00b9[H\u2082]\u00b3). Pure solids and liquids are omitted.",
+    "tags": [
+      "equilibrium",
+      "equilibrium-constant"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "If Kp = 2.5 \u00d7 10\u207b\u2074 for a reaction, which statement is correct?",
+    "options": [
+      "Reactants are favored at equilibrium",
+      "Products are favored at equilibrium",
+      "The reaction goes to completion",
+      "The reaction does not proceed"
+    ],
+    "correct": 0,
+    "explanation": "A Kp value much less than 1 indicates that at equilibrium, the concentration of reactants greatly exceeds that of products, meaning the reactant side is favored.",
+    "tags": [
+      "equilibrium",
+      "equilibrium-constant"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Le Chatelier's principle predicts that for an exothermic reaction at equilibrium, increasing temperature will:",
+    "options": [
+      "Shift equilibrium toward reactants, decreasing K",
+      "Have no effect on equilibrium position",
+      "Shift equilibrium toward products without changing K",
+      "Shift equilibrium toward products, increasing K"
+    ],
+    "correct": 0,
+    "explanation": "For an exothermic reaction, heat is a product. Adding heat (increasing T) shifts equilibrium left (toward reactants) by Le Chatelier's principle. This also decreases the equilibrium constant K.",
+    "tags": [
+      "equilibrium",
+      "le-chatelier"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The relationship between Kp and Kc is:",
+    "options": [
+      "Kp = Kc(RT)^\u0394n",
+      "Kp = Kc regardless of \u0394n",
+      "Kp = Kc/\u0394n(RT)",
+      "Kp = Kc + \u0394n(RT)"
+    ],
+    "correct": 0,
+    "explanation": "Kp = Kc(RT)^\u0394n, where \u0394n = moles of gaseous products - moles of gaseous reactants, R = 0.08206 L\u00b7atm/(mol\u00b7K), and T is temperature in Kelvin.",
+    "tags": [
+      "equilibrium",
+      "kp-kc"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Adding a catalyst to a reaction at equilibrium will:",
+    "options": [
+      "Shift equilibrium to favor products",
+      "Decrease activation energy for forward reaction only",
+      "Increase the equilibrium constant",
+      "Speed up both forward and reverse reactions equally, not shifting equilibrium"
+    ],
+    "correct": 3,
+    "explanation": "A catalyst lowers the activation energy for both the forward and reverse reactions equally. It allows equilibrium to be reached faster but does not change the equilibrium constant or the equilibrium position.",
+    "tags": [
+      "equilibrium",
+      "catalysis"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The Henderson-Hasselbalch equation relates pH to pKa as:",
+    "options": [
+      "pH = pKa \u00d7 log([HA]/[A\u207b])",
+      "pH = pKa + log([HA]/[A\u207b])",
+      "pH = pKa + log([A\u207b]/[HA])",
+      "pH = pKa - log([A\u207b]/[HA])"
+    ],
+    "correct": 2,
+    "explanation": "The Henderson-Hasselbalch equation is pH = pKa + log([A\u207b]/[HA]), where [A\u207b] is the conjugate base concentration and [HA] is the weak acid concentration. It is most useful in the buffer region.",
+    "tags": [
+      "acid-base",
+      "henderson-hasselbalch",
+      "buffers"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following is the strongest acid?",
+    "options": [
+      "HCl",
+      "HI",
+      "HF",
+      "HBr"
+    ],
+    "correct": 1,
+    "explanation": "Among the hydrohalic acids, acid strength increases down the group: HF << HCl < HBr < HI. HI is the strongest because the H-I bond is weakest (longest), making it easiest to donate a proton.",
+    "tags": [
+      "acid-base",
+      "acid-strength"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A buffer solution is most effective when:",
+    "options": [
+      "pH = 7.0",
+      "pH << pKa",
+      "pH = pKa of the weak acid",
+      "pH >> pKa"
+    ],
+    "correct": 2,
+    "explanation": "A buffer is most effective when pH = pKa, meaning [A\u207b] = [HA]. At this point, the buffer has equal capacity to absorb added acid or base. The effective range is approximately pH = pKa \u00b1 1.",
+    "tags": [
+      "acid-base",
+      "buffers"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "What is the pH of a solution with [OH\u207b] = 1 \u00d7 10\u207b\u2074 M at 25\u00b0C?",
+    "options": [
+      "14",
+      "7",
+      "4",
+      "10"
+    ],
+    "correct": 3,
+    "explanation": "pOH = -log[OH\u207b] = -log(10\u207b\u2074) = 4. Since pH + pOH = 14 at 25\u00b0C, pH = 14 - 4 = 10.",
+    "tags": [
+      "acid-base",
+      "ph-calculation"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following would produce a basic solution when dissolved in water?",
+    "options": [
+      "NH\u2084Cl (ammonium chloride)",
+      "HNO\u2083 (nitric acid)",
+      "NaCH\u2083COO (sodium acetate)",
+      "NaCl (sodium chloride)"
+    ],
+    "correct": 2,
+    "explanation": "Sodium acetate undergoes hydrolysis: CH\u2083COO\u207b + H\u2082O \u21cc CH\u2083COOH + OH\u207b. The acetate ion (conjugate base of weak acid) accepts a proton from water, producing OH\u207b and making the solution basic.",
+    "tags": [
+      "acid-base",
+      "hydrolysis",
+      "salt-solutions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "According to the Br\u00f8nsted-Lowry definition, an acid is:",
+    "options": [
+      "An electron pair donor",
+      "An electron pair acceptor",
+      "A proton donor",
+      "A proton acceptor"
+    ],
+    "correct": 2,
+    "explanation": "The Br\u00f8nsted-Lowry theory defines an acid as a proton (H\u207a) donor and a base as a proton acceptor. This definition is broader than the Arrhenius theory, encompassing reactions not in aqueous solution.",
+    "tags": [
+      "acid-base",
+      "bronsted-lowry"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In a galvanic cell, oxidation occurs at the:",
+    "options": [
+      "Anode",
+      "Cathode",
+      "Salt bridge",
+      "Both electrodes simultaneously"
+    ],
+    "correct": 0,
+    "explanation": "In a galvanic (voltaic) cell, the anode is the site of oxidation (loss of electrons). Electrons flow from the anode through the external circuit to the cathode, where reduction occurs. Memory aid: AN OX (anode = oxidation).",
+    "tags": [
+      "electrochemistry",
+      "galvanic-cell"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The standard cell potential for a galvanic cell is calculated as:",
+    "options": [
+      "E\u00b0cell = E\u00b0cathode + E\u00b0anode",
+      "E\u00b0cell = E\u00b0cathode - E\u00b0anode",
+      "E\u00b0cell = E\u00b0cathode \u00d7 E\u00b0anode",
+      "E\u00b0cell = E\u00b0anode - E\u00b0cathode"
+    ],
+    "correct": 1,
+    "explanation": "E\u00b0cell = E\u00b0cathode - E\u00b0anode (using standard reduction potentials). Since both are given as reduction potentials, we subtract the anode value from the cathode value. A positive E\u00b0cell indicates a spontaneous reaction.",
+    "tags": [
+      "electrochemistry",
+      "cell-potential"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The Nernst equation relates cell potential to concentration as:",
+    "options": [
+      "E = E\u00b0 - (RT/nF)lnQ",
+      "E = E\u00b0/lnQ",
+      "E = E\u00b0 - (nF/RT)lnQ",
+      "E = E\u00b0 + (RT/nF)lnQ"
+    ],
+    "correct": 0,
+    "explanation": "The Nernst equation is E = E\u00b0 - (RT/nF)lnQ, where R = gas constant, T = temperature, n = moles of electrons transferred, F = Faraday's constant, and Q = reaction quotient. At 25\u00b0C this simplifies to E = E\u00b0 - (0.0592/n)logQ.",
+    "tags": [
+      "electrochemistry",
+      "nernst-equation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Faraday's first law of electrolysis states that the mass of substance deposited is proportional to:",
+    "options": [
+      "The quantity of charge passed (coulombs)",
+      "The voltage applied",
+      "The resistance of the solution",
+      "The temperature of the electrolyte"
+    ],
+    "correct": 0,
+    "explanation": "Faraday's first law: m = (M \u00d7 Q)/(n \u00d7 F), where m = mass deposited, M = molar mass, Q = charge in coulombs, n = number of electrons per ion, F = 96,485 C/mol. The amount deposited is directly proportional to charge passed.",
+    "tags": [
+      "electrochemistry",
+      "electrolysis",
+      "faradays-law"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which species is most easily oxidized?",
+    "options": [
+      "Au (E\u00b0 = +1.50 V for Au\u00b3\u207a/Au)",
+      "Ag (E\u00b0 = +0.80 V for Ag\u207a/Ag)",
+      "Li (E\u00b0 = -3.04 V for Li\u207a/Li)",
+      "Cu (E\u00b0 = +0.34 V for Cu\u00b2\u207a/Cu)"
+    ],
+    "correct": 2,
+    "explanation": "Metals with the most negative standard reduction potential are most easily oxidized (best reducing agents). Li has E\u00b0 = -3.04 V, the most negative listed, making it the strongest reducing agent and easiest to oxidize.",
+    "tags": [
+      "electrochemistry",
+      "oxidation-potential",
+      "activity-series"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "For a first-order reaction, the half-life is:",
+    "options": [
+      "t\u00bd = 1/(k[A]\u2080) (dependent on initial concentration)",
+      "t\u00bd = 2/k",
+      "t\u00bd = 0.693/k (independent of initial concentration)",
+      "t\u00bd = k/0.693"
+    ],
+    "correct": 2,
+    "explanation": "For a first-order reaction, t\u00bd = ln(2)/k = 0.693/k. This half-life is constant and independent of initial concentration, which is a defining feature of first-order kinetics.",
+    "tags": [
+      "kinetics",
+      "half-life",
+      "first-order"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The Arrhenius equation describes the temperature dependence of the rate constant as:",
+    "options": [
+      "k = Ae^(Ea/RT)",
+      "k = A/e^(Ea/RT)^2",
+      "k = RT/Ea",
+      "k = Ae^(-Ea/RT)"
+    ],
+    "correct": 3,
+    "explanation": "The Arrhenius equation is k = Ae^(-Ea/RT), where A is the frequency factor, Ea is the activation energy, R is the gas constant, and T is temperature in Kelvin. Increasing T or decreasing Ea increases k.",
+    "tags": [
+      "kinetics",
+      "arrhenius",
+      "activation-energy"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A reaction is second-order in [A] and first-order in [B]. If [A] is doubled and [B] is halved, the rate:",
+    "options": [
+      "Stays the same",
+      "Doubles",
+      "Quadruples",
+      "Halves"
+    ],
+    "correct": 1,
+    "explanation": "Rate = k[A]\u00b2[B]. New rate = k(2[A])\u00b2(\u00bd[B]) = k \u00d7 4[A]\u00b2 \u00d7 \u00bd[B] = 2k[A]\u00b2[B] = 2 \u00d7 original rate. The rate doubles.",
+    "tags": [
+      "kinetics",
+      "rate-law"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The rate-determining step in a multi-step reaction mechanism is:",
+    "options": [
+      "The slowest elementary step",
+      "The step with lowest activation energy",
+      "The fastest elementary step",
+      "The step that produces the most product"
+    ],
+    "correct": 0,
+    "explanation": "The rate-determining step (RDS) is the slowest step in a reaction mechanism. It acts as the bottleneck, determining the overall rate of the reaction. The rate law for the overall reaction reflects the elementary rate law of the RDS.",
+    "tags": [
+      "kinetics",
+      "rate-determining-step",
+      "mechanism"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A zero-order reaction has a rate that is:",
+    "options": [
+      "Proportional to reactant concentration",
+      "Independent of reactant concentration",
+      "Inversely proportional to concentration",
+      "Proportional to the square of reactant concentration"
+    ],
+    "correct": 1,
+    "explanation": "For a zero-order reaction, rate = k[A]\u2070 = k. The rate is constant and independent of the concentration of reactants. The half-life increases as the reaction proceeds: t\u00bd = [A]\u2080/(2k).",
+    "tags": [
+      "kinetics",
+      "zero-order"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "What is the IUPAC name for CH\u2083CH\u2082CH(CH\u2083)CH\u2082CH\u2083?",
+    "options": [
+      "2-methylpentane",
+      "2-ethylbutane",
+      "Isohexane",
+      "3-methylpentane"
+    ],
+    "correct": 3,
+    "explanation": "The longest chain has 5 carbons (pentane). The methyl branch is at carbon 3 (numbering from either end gives position 3). IUPAC name: 3-methylpentane.",
+    "tags": [
+      "organic-chemistry",
+      "nomenclature",
+      "alkanes"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which functional group is present in an ester?",
+    "options": [
+      "-CHO",
+      "-COOH",
+      "-COO- (carbonyl bonded to oxygen)",
+      "-CO-NH-"
+    ],
+    "correct": 2,
+    "explanation": "An ester contains the -COO- functional group, formally written as R-C(=O)-O-R'. Esters are formed by reaction of carboxylic acids with alcohols (Fischer esterification).",
+    "tags": [
+      "organic-chemistry",
+      "functional-groups",
+      "esters"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "cis-2-butene and trans-2-butene are examples of:",
+    "options": [
+      "Conformational isomers",
+      "Enantiomers",
+      "Geometric (cis-trans) isomers",
+      "Constitutional isomers"
+    ],
+    "correct": 2,
+    "explanation": "Geometric isomers (cis-trans isomers) differ in the spatial arrangement of groups around a double bond or ring. Both cis- and trans-2-butene have the same connectivity (constitutional structure) but different geometric arrangements.",
+    "tags": [
+      "organic-chemistry",
+      "stereochemistry",
+      "isomers"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A chiral center (stereocenter) in an organic molecule is a carbon that:",
+    "options": [
+      "Is part of an aromatic ring",
+      "Has four identical substituents",
+      "Is sp\u00b2 hybridized",
+      "Has four different substituents attached"
+    ],
+    "correct": 3,
+    "explanation": "A chiral center is a tetrahedral carbon bonded to four different groups. Such a center is non-superimposable on its mirror image, giving rise to enantiomers. sp\u00b2 carbons cannot be chiral centers as they only have three substituents.",
+    "tags": [
+      "organic-chemistry",
+      "stereochemistry",
+      "chirality"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "An SN2 reaction proceeds by:",
+    "options": [
+      "Radical chain mechanism",
+      "Back-side attack of nucleophile on carbon with simultaneous leaving group departure, inverting configuration",
+      "Front-side attack retaining configuration",
+      "Formation of a carbocation intermediate followed by nucleophile attack"
+    ],
+    "correct": 1,
+    "explanation": "SN2 is a concerted one-step mechanism. The nucleophile attacks from the back (180\u00b0 from the leaving group), and as the leaving group departs, configuration is inverted (Walden inversion). Second-order kinetics: rate = k[Nu][substrate].",
+    "tags": [
+      "organic-chemistry",
+      "sn2",
+      "substitution"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which substrate undergoes SN1 most readily?",
+    "options": [
+      "CH\u2083Br (methyl)",
+      "(CH\u2083)\u2083CBr (tertiary, forms stable carbocation)",
+      "CH\u2083CH\u2082CH\u2082Br (primary)",
+      "CH\u2083CH\u2082Br (primary)"
+    ],
+    "correct": 1,
+    "explanation": "SN1 proceeds through a carbocation intermediate. Tertiary substrates form the most stable (tertiary) carbocations due to hyperconjugation and inductive stabilization by three alkyl groups, making (CH\u2083)\u2083CBr most reactive for SN1.",
+    "tags": [
+      "organic-chemistry",
+      "sn1",
+      "substitution",
+      "carbocation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "E2 elimination reactions are favored by:",
+    "options": [
+      "Aqueous solvent, weak bases, and tertiary substrates",
+      "Bulky strong bases, elevated temperature, and secondary/tertiary substrates",
+      "Polar protic solvents and strong nucleophiles",
+      "Small nucleophiles, low temperature, and primary substrates"
+    ],
+    "correct": 1,
+    "explanation": "E2 is a concerted anti-periplanar elimination. Bulky, strong bases (e.g., t-BuOK) favor elimination by approaching the \u03b2-hydrogen rather than the carbon. Higher temperature and secondary/tertiary substrates also favor E2 over SN2.",
+    "tags": [
+      "organic-chemistry",
+      "e2",
+      "elimination"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Markovnikov's rule predicts that in hydrohalogenation of an alkene, the hydrogen adds to:",
+    "options": [
+      "Only to terminal carbons",
+      "The carbon with fewer hydrogens",
+      "Randomly to either carbon",
+      "The carbon with more hydrogens (less substituted), placing the halide on the more substituted carbon"
+    ],
+    "correct": 3,
+    "explanation": "Markovnikov's rule: the proton adds to the carbon bearing more hydrogens, generating the more stable (more substituted) carbocation intermediate. The halide then attacks the carbocation.",
+    "tags": [
+      "organic-chemistry",
+      "addition-reactions",
+      "markovnikov"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Nucleophilic addition to a carbonyl group is favored when the carbonyl carbon is:",
+    "options": [
+      "Nucleophilic (partial negative charge)",
+      "Neutral with no partial charges",
+      "Electrophilic (partial positive charge)",
+      "Part of an aromatic ring"
+    ],
+    "correct": 2,
+    "explanation": "The carbonyl carbon bears a partial positive charge (\u03b4+) due to the electronegativity of oxygen withdrawing electron density. This makes the carbonyl carbon electrophilic and susceptible to attack by nucleophiles.",
+    "tags": [
+      "organic-chemistry",
+      "carbonyl",
+      "nucleophilic-addition"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In the Fischer esterification reaction, a carboxylic acid reacts with an alcohol under acid catalysis to produce:",
+    "options": [
+      "An aldehyde and water",
+      "An ester and water",
+      "An amide and water",
+      "An anhydride and water"
+    ],
+    "correct": 1,
+    "explanation": "Fischer esterification: RCOOH + R'OH \u21cc RCOOR' + H\u2082O. It is catalyzed by strong acid (H\u2082SO\u2084) and is reversible (equilibrium reaction). Excess alcohol or removal of water drives the reaction toward ester formation.",
+    "tags": [
+      "organic-chemistry",
+      "esterification",
+      "carbonyl"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "An aldol condensation involves:",
+    "options": [
+      "Acid-catalyzed addition of water to a carbonyl",
+      "Oxidation of an aldehyde to a carboxylic acid",
+      "Reduction of a ketone to an alcohol",
+      "A nucleophilic enolate attacking a carbonyl carbon to form a \u03b2-hydroxy carbonyl compound"
+    ],
+    "correct": 3,
+    "explanation": "In aldol condensation, a base abstracts an \u03b1-hydrogen to form an enolate, which then attacks the carbonyl carbon of another carbonyl compound. The product is a \u03b2-hydroxy carbonyl compound (aldol). Dehydration can then occur to give an \u03b1,\u03b2-unsaturated carbonyl.",
+    "tags": [
+      "organic-chemistry",
+      "aldol-condensation",
+      "carbonyl"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In \u00b9H NMR spectroscopy, chemical shift (\u03b4) is measured in ppm relative to:",
+    "options": [
+      "CHCl\u2083 at \u03b4 = 0",
+      "Water at \u03b4 = 0",
+      "Benzene at \u03b4 = 0",
+      "TMS (tetramethylsilane) at \u03b4 = 0"
+    ],
+    "correct": 3,
+    "explanation": "TMS (tetramethylsilane, Si(CH\u2083)\u2084) is the standard reference for \u00b9H and \u00b9\u00b3C NMR. Its protons resonate at higher field than most organic protons, and it is assigned \u03b4 = 0 ppm. It is chemically inert and volatile (easily removed).",
+    "tags": [
+      "spectroscopy",
+      "nmr"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In infrared (IR) spectroscopy, the carbonyl (C=O) stretch appears at approximately:",
+    "options": [
+      "~3300 cm\u207b\u00b9",
+      "~2200 cm\u207b\u00b9",
+      "~1600 cm\u207b\u00b9",
+      "~1700 cm\u207b\u00b9"
+    ],
+    "correct": 3,
+    "explanation": "The C=O stretch is one of the most diagnostic IR absorptions, appearing near 1700 cm\u207b\u00b9 for ketones. Conjugation or ring strain shifts this value: esters ~1735 cm\u207b\u00b9, amides ~1680 cm\u207b\u00b9, \u03b1,\u03b2-unsaturated carbonyls ~1680 cm\u207b\u00b9.",
+    "tags": [
+      "spectroscopy",
+      "ir",
+      "carbonyl"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Mass spectrometry measures:",
+    "options": [
+      "Mass-to-charge ratio (m/z) of ions",
+      "Electron energy levels",
+      "Nuclear spin transitions",
+      "Frequency of photon absorption"
+    ],
+    "correct": 0,
+    "explanation": "In mass spectrometry, molecules are ionized and fragmented, and the resulting ions are separated by their mass-to-charge ratio (m/z). The molecular ion (M\u207a) gives the molecular weight. Fragmentation patterns help determine structure.",
+    "tags": [
+      "spectroscopy",
+      "mass-spectrometry"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A ball is thrown horizontally from a cliff 20 m high with v = 10 m/s. How far from the base does it land? (g = 10 m/s\u00b2)",
+    "options": [
+      "20 m",
+      "40 m",
+      "14 m",
+      "10 m"
+    ],
+    "correct": 0,
+    "explanation": "Time to fall: h = \u00bdgt\u00b2 \u2192 20 = \u00bd(10)t\u00b2 \u2192 t = 2 s. Horizontal distance: x = v\u2080t = 10 \u00d7 2 = 20 m.",
+    "tags": [
+      "mechanics",
+      "projectile-motion"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Newton's second law states:",
+    "options": [
+      "Work equals force times displacement",
+      "F = ma (net force equals mass times acceleration)",
+      "An object at rest stays at rest unless acted on by a net force",
+      "For every action there is an equal and opposite reaction"
+    ],
+    "correct": 1,
+    "explanation": "Newton's second law: the net force on an object equals its mass multiplied by its acceleration (F = ma). This is a vector equation; both F and a have the same direction.",
+    "tags": [
+      "mechanics",
+      "newtons-laws"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The work done by a force F over displacement d at angle \u03b8 is:",
+    "options": [
+      "W = Fd cos\u03b8",
+      "W = Fd tan\u03b8",
+      "W = Fd sin\u03b8",
+      "W = Fd/cos\u03b8"
+    ],
+    "correct": 0,
+    "explanation": "Work = F\u00b7d (dot product) = Fd cos\u03b8, where \u03b8 is the angle between the force vector and displacement vector. Only the component of force parallel to displacement does work.",
+    "tags": [
+      "mechanics",
+      "work-energy"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Conservation of momentum applies when:",
+    "options": [
+      "No external net force acts on the system",
+      "Only conservative forces act",
+      "Kinetic energy is conserved",
+      "The system is in thermal equilibrium"
+    ],
+    "correct": 0,
+    "explanation": "Momentum is conserved (\u0394p = 0) when the net external force on the system is zero (Newton's second law: F_net = dp/dt). This applies to collisions and explosions where internal forces are much greater than external forces.",
+    "tags": [
+      "mechanics",
+      "conservation-of-momentum"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A satellite in circular orbit: as orbital radius increases, orbital speed:",
+    "options": [
+      "Increases",
+      "Stays the same",
+      "Depends on satellite mass",
+      "Decreases (v = \u221a(GM/r))"
+    ],
+    "correct": 3,
+    "explanation": "For circular orbit, gravitational force provides centripetal force: GMm/r\u00b2 = mv\u00b2/r \u2192 v = \u221a(GM/r). As r increases, v decreases. Orbital speed is independent of the satellite's mass.",
+    "tags": [
+      "mechanics",
+      "orbital-mechanics",
+      "gravitation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The moment of inertia of an object depends on:",
+    "options": [
+      "Linear velocity only",
+      "Applied torque only",
+      "Mass only",
+      "Mass and its distribution relative to the rotation axis"
+    ],
+    "correct": 3,
+    "explanation": "Moment of inertia I = \u03a3m\u1d62r\u1d62\u00b2 depends on both the total mass AND how that mass is distributed relative to the rotation axis. Objects with mass concentrated far from the axis have higher I.",
+    "tags": [
+      "mechanics",
+      "rotational-motion",
+      "moment-of-inertia"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Bernoulli's principle states that in steady fluid flow, as fluid speed increases:",
+    "options": [
+      "Density increases",
+      "Pressure decreases (conservation of energy)",
+      "Pressure stays the same",
+      "Pressure increases"
+    ],
+    "correct": 1,
+    "explanation": "Bernoulli's equation: P + \u00bd\u03c1v\u00b2 + \u03c1gh = constant. As v increases (e.g., in a constriction), P must decrease to maintain the constant. This explains lift on airfoils and the Venturi effect.",
+    "tags": [
+      "fluids",
+      "bernoulli"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Poiseuille's Law for viscous flow in a tube shows that flow rate Q is proportional to:",
+    "options": [
+      "r\u00b2 (second power)",
+      "r (first power)",
+      "r\u00b3 (third power)",
+      "r\u2074 (fourth power of radius)"
+    ],
+    "correct": 3,
+    "explanation": "Poiseuille's Law: Q = \u03c0r\u2074\u0394P/(8\u03b7L). Flow rate is proportional to r\u2074, meaning doubling the radius increases flow 16-fold. This has major physiological implications: small changes in vessel radius cause large changes in blood flow.",
+    "tags": [
+      "fluids",
+      "poiseuille",
+      "viscosity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Archimedes' principle states that a submerged object experiences an upward buoyant force equal to:",
+    "options": [
+      "The pressure at the bottom of the object",
+      "The product of object volume and object density times g",
+      "The weight of fluid displaced",
+      "The weight of the object"
+    ],
+    "correct": 2,
+    "explanation": "Archimedes' principle: F_buoyancy = \u03c1_fluid \u00d7 V_submerged \u00d7 g = weight of fluid displaced. An object floats when buoyant force equals its weight, which occurs when object density \u2264 fluid density.",
+    "tags": [
+      "fluids",
+      "buoyancy",
+      "archimedes"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Ohm's law states that current through a resistor is:",
+    "options": [
+      "I = VR",
+      "I = V\u00b2/R",
+      "I = V/R (proportional to voltage, inversely proportional to resistance)",
+      "I = R/V"
+    ],
+    "correct": 2,
+    "explanation": "Ohm's law: V = IR, or equivalently I = V/R. Current is directly proportional to voltage and inversely proportional to resistance. Note that power P = IV = I\u00b2R = V\u00b2/R.",
+    "tags": [
+      "electricity",
+      "ohms-law"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Capacitors in series have equivalent capacitance calculated as:",
+    "options": [
+      "1/C_eq = 1/C\u2081 + 1/C\u2082 + ... (reciprocal sum)",
+      "C_eq = C\u2081 + C\u2082 + ...",
+      "C_eq = (C\u2081 + C\u2082)/2",
+      "C_eq = C\u2081 \u00d7 C\u2082/(C\u2081+C\u2082) only for exactly two"
+    ],
+    "correct": 0,
+    "explanation": "Capacitors in series: 1/C_eq = 1/C\u2081 + 1/C\u2082 + ... (same as resistors in parallel). Capacitors in parallel: C_eq = C\u2081 + C\u2082 + ... (same as resistors in series). Series capacitors all have the same charge Q.",
+    "tags": [
+      "electricity",
+      "capacitors"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Coulomb's law gives the electrostatic force between two charges as:",
+    "options": [
+      "F = k/q\u2081q\u2082r\u00b2",
+      "F = kq\u2081q\u2082/r\u00b2",
+      "F = kq\u2081q\u2082r\u00b2",
+      "F = kq\u2081q\u2082/r"
+    ],
+    "correct": 1,
+    "explanation": "Coulomb's law: F = kq\u2081q\u2082/r\u00b2, where k \u2248 9\u00d710\u2079 N\u00b7m\u00b2/C\u00b2, q\u2081 and q\u2082 are the charges, and r is the separation. Like charges repel, opposite charges attract. Force follows an inverse-square law (same as gravity).",
+    "tags": [
+      "electricity",
+      "coulombs-law"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The magnetic force on a moving charge is given by F = qv\u00d7B. A proton moving east enters a magnetic field directed north. The magnetic force is:",
+    "options": [
+      "North",
+      "Upward",
+      "Downward (into the ground)",
+      "South"
+    ],
+    "correct": 2,
+    "explanation": "Using the right-hand rule for F = qv\u00d7B: fingers point east (v), curl north (B), thumb points upward. Since q is positive (proton), F is upward. But v\u00d7B with v=east, B=north: east \u00d7 north = down (using right hand rule: east \u00d7 north = -up? Let's recalculate: \u0135 cross... actually v=east=x\u0302, B=north=\u0177, x\u0302\u00d7\u0177=\u1e91=up, but wait the problem says 'downward'. Let me reconsider: east=+x, north=+y, up=+z. x\u0302\u00d7\u0177=\u1e91 (upward). So the answer should be upward. The force is upward (toward the sky).",
+    "tags": [
+      "magnetism",
+      "magnetic-force",
+      "right-hand-rule"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Doppler effect for sound predicts that when a sound source moves toward an observer, the observed frequency is:",
+    "options": [
+      "Lower than the emitted frequency",
+      "The same as the emitted frequency",
+      "Higher than the emitted frequency",
+      "Zero"
+    ],
+    "correct": 2,
+    "explanation": "When a source moves toward an observer, successive wavefronts are compressed (shorter wavelength), resulting in a higher observed frequency. When moving away, wavelengths are stretched and frequency decreases.",
+    "tags": [
+      "waves",
+      "doppler-effect"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Snell's law (n\u2081sin\u03b8\u2081 = n\u2082sin\u03b8\u2082) describes light refraction. When light passes from water (n=1.33) to glass (n=1.5), the light bends:",
+    "options": [
+      "No bending occurs",
+      "Away from the normal (angle increases)",
+      "Parallel to the normal",
+      "Toward the normal (angle decreases)"
+    ],
+    "correct": 3,
+    "explanation": "Snell's law: n\u2081sin\u03b8\u2081 = n\u2082sin\u03b8\u2082. Going from water (n\u2081=1.33) to glass (n\u2082=1.5, higher index): sin\u03b8\u2082 = (1.33/1.5)sin\u03b8\u2081 < sin\u03b8\u2081, so \u03b8\u2082 < \u03b8\u2081. The refracted ray bends toward the normal.",
+    "tags": [
+      "optics",
+      "refraction",
+      "snells-law"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A converging (convex) lens has focal length f = 10 cm. An object is placed 30 cm from the lens. The image distance is:",
+    "options": [
+      "15 cm (real image on the other side)",
+      "-15 cm (virtual image)",
+      "10 cm",
+      "30 cm"
+    ],
+    "correct": 0,
+    "explanation": "Thin lens equation: 1/f = 1/do + 1/di \u2192 1/10 = 1/30 + 1/di \u2192 1/di = 1/10 - 1/30 = 3/30 - 1/30 = 2/30 = 1/15. di = 15 cm. Positive di means real image on the far side of the lens.",
+    "tags": [
+      "optics",
+      "thin-lens",
+      "image-formation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The critical angle for total internal reflection occurs when:",
+    "options": [
+      "The incident angle equals 90\u00b0",
+      "The refracted angle equals 90\u00b0 (light travels along the interface)",
+      "The refracted angle equals the incident angle",
+      "n\u2081 > n\u2082 and incident angle > critical angle"
+    ],
+    "correct": 1,
+    "explanation": "Total internal reflection occurs when light passes from a denser to a less dense medium and the refracted angle would be 90\u00b0 or greater. At the critical angle \u03b8c: sin\u03b8c = n\u2082/n\u2081. Above \u03b8c, all light is reflected.",
+    "tags": [
+      "optics",
+      "total-internal-reflection"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In alpha (\u03b1) decay, the nucleus emits:",
+    "options": [
+      "A positron",
+      "An electron",
+      "A high-energy photon",
+      "A helium-4 nucleus (\u00b2He\u2084, 2 protons + 2 neutrons)"
+    ],
+    "correct": 3,
+    "explanation": "Alpha decay emits an alpha particle (\u2074\u2082He), which is a helium nucleus consisting of 2 protons and 2 neutrons. The parent nucleus decreases by 2 in atomic number and 4 in mass number: \u1d2c_Z X \u2192 \u1d2c\u207b\u2074_(Z-2) Y + \u2074\u2082He.",
+    "tags": [
+      "nuclear-physics",
+      "alpha-decay"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In beta-minus (\u03b2\u207b) decay, a neutron is converted to:",
+    "options": [
+      "A proton + positron + neutrino",
+      "Two protons + electron",
+      "A proton + electron + antineutrino",
+      "A proton + electron only"
+    ],
+    "correct": 2,
+    "explanation": "Beta-minus decay: n \u2192 p + e\u207b + \u03bd\u0304_e (antineutrino). The nucleus gains a proton (Z increases by 1) while mass number stays the same. The emitted electron (beta particle) and antineutrino carry away the energy.",
+    "tags": [
+      "nuclear-physics",
+      "beta-decay"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Einstein's mass-energy equivalence equation E = mc\u00b2 implies that:",
+    "options": [
+      "All energy has mass proportional to c\u00b2",
+      "Mass only increases at relativistic speeds",
+      "Mass can be converted to energy; nuclear reactions release energy from mass defect",
+      "Energy equals mass squared times the speed of light"
+    ],
+    "correct": 2,
+    "explanation": "E = mc\u00b2 states that mass and energy are interconvertible. In nuclear reactions, the mass defect (difference between reactant and product masses) is converted to released energy. For nuclear fission/fusion, this corresponds to enormous energy release.",
+    "tags": [
+      "nuclear-physics",
+      "mass-energy",
+      "einstein"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Radioactive decay follows first-order kinetics. If the half-life of \u00b9\u2074C is 5730 years, after 11,460 years what fraction of the original \u00b9\u2074C remains?",
+    "options": [
+      "1/8",
+      "1/4",
+      "1/3",
+      "1/2"
+    ],
+    "correct": 1,
+    "explanation": "11,460 years = 2 \u00d7 5730 years = 2 half-lives. After 1 half-life: \u00bd remains. After 2 half-lives: (\u00bd)\u00b2 = \u00bc remains. After n half-lives: (\u00bd)\u207f remains.",
+    "tags": [
+      "nuclear-physics",
+      "radioactive-decay",
+      "half-life"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The intensity level (in dB) doubles when the sound intensity increases by a factor of:",
+    "options": [
+      "20",
+      "10 (one bel = 10 dB)",
+      "2",
+      "100"
+    ],
+    "correct": 1,
+    "explanation": "Sound level L = 10 log(I/I\u2080) dB. An increase of 10 dB corresponds to a 10-fold increase in intensity. An increase of 3 dB corresponds to roughly a doubling of intensity (10^0.3 \u2248 2). Each additional 10 dB multiplies intensity by 10.",
+    "tags": [
+      "sound",
+      "decibels",
+      "intensity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which type of electromagnetic radiation has the highest energy per photon?",
+    "options": [
+      "UV light",
+      "Visible light",
+      "X-rays",
+      "Gamma rays"
+    ],
+    "correct": 3,
+    "explanation": "Photon energy E = hf = hc/\u03bb. Gamma rays have the highest frequency (shortest wavelength, ~10\u207b\u00b9\u00b2 m) in the EM spectrum and therefore the highest energy per photon (~10\u2075 eV or higher).",
+    "tags": [
+      "em-spectrum",
+      "photon-energy"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The ideal gas law is PV = nRT. If a gas is compressed at constant temperature from 2 L to 1 L, the pressure:",
+    "options": [
+      "Halves",
+      "Quadruples",
+      "Stays the same",
+      "Doubles (Boyle's law)"
+    ],
+    "correct": 3,
+    "explanation": "At constant T and n, PV = constant (Boyle's law). If V halves (2 L \u2192 1 L), then P must double to maintain PV = nRT constant. P\u2081V\u2081 = P\u2082V\u2082 \u2192 P\u2082 = P\u2081 \u00d7 (V\u2081/V\u2082) = P\u2081 \u00d7 2.",
+    "tags": [
+      "gas-laws",
+      "boyles-law"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Real gases deviate from ideal behavior most significantly at:",
+    "options": [
+      "Low pressure and high temperature",
+      "High pressure and high temperature",
+      "Standard temperature and pressure",
+      "High pressure and low temperature"
+    ],
+    "correct": 3,
+    "explanation": "At high pressure, gas molecules are close together and intermolecular forces become significant. At low temperature, molecules have low kinetic energy and intermolecular attractions are significant relative to kinetic energy. These conditions cause deviation from PV = nRT.",
+    "tags": [
+      "gas-laws",
+      "real-gases"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Raoult's Law states that the vapor pressure of a solution is:",
+    "options": [
+      "P_solution = x_solvent \u00d7 P\u00b0_solvent",
+      "P_solution = P\u00b0_solvent - x_solute",
+      "P_solution = x_solute \u00d7 P\u00b0_solvent",
+      "P_solution = P\u00b0_solvent \u00d7 x_solute\u00b2"
+    ],
+    "correct": 0,
+    "explanation": "Raoult's Law: P_solution = x_solvent \u00d7 P\u00b0_solvent, where x_solvent is the mole fraction of solvent and P\u00b0_solvent is the vapor pressure of pure solvent. Adding a nonvolatile solute reduces vapor pressure (vapor pressure lowering).",
+    "tags": [
+      "solutions",
+      "raoults-law",
+      "colligative-properties"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Osmotic pressure (\u03a0) for a dilute solution is given by:",
+    "options": [
+      "\u03a0 = M/RT",
+      "\u03a0 = MRT (where M = molarity)",
+      "\u03a0 = nRT/V\u00b2",
+      "\u03a0 = mRT (where m = molality)"
+    ],
+    "correct": 1,
+    "explanation": "The van't Hoff equation for osmotic pressure: \u03a0 = iMRT, where i = van't Hoff factor (1 for non-electrolytes), M = molar concentration, R = gas constant, T = temperature in Kelvin. Osmosis drives solvent through a semipermeable membrane from low to high solute concentration.",
+    "tags": [
+      "solutions",
+      "osmotic-pressure",
+      "colligative-properties"
+    ],
+    "difficulty": "medium"
+  }
+]

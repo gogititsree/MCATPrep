@@ -82,9 +82,10 @@ function build() {
       else if (data && data.passageText) allPassages.push(data);
     });
     // group 3 passages per exam
-    for (let i = 0; i < Math.min(10, Math.ceil(allPassages.length / 3) || 1); i++) {
-      const start = i * 3;
-      const bundle = allPassages.slice(start, start + 3);
+    const perCarsExam = 3;
+    for (let i = 0; i < Math.min(10, Math.ceil(allPassages.length / perCarsExam) || 1); i++) {
+      const start = i * perCarsExam;
+      const bundle = allPassages.slice(start, start + perCarsExam);
       const outFile = path.join(OUT_DIR, 'cars', `exam-${String(i+1).padStart(2,'0')}.json`);
       fs.writeFileSync(outFile, JSON.stringify(bundle, null, 2), 'utf8');
       console.log('Wrote', outFile);

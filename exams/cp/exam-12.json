@@ -1,405 +1,434 @@
 [
   {
-    "text": "Hund's rule states that electrons will:",
+    "text": "A spring with spring constant k = 200 N/m is compressed by 0.1 m. What is the elastic potential energy stored?",
     "options": [
-      "Pair up in the lowest-energy orbital first",
-      "Fill orbitals in order of increasing n+l",
-      "Occupy the highest available energy orbitals first",
-      "Occupy degenerate orbitals singly before pairing, with parallel spins"
+      "20 J",
+      "1 J",
+      "10 J",
+      "0.1 J"
     ],
-    "correct": 3,
-    "explanation": "Hund's rule states that for degenerate orbitals, electrons occupy each orbital singly with parallel (same) spins before any orbital is doubly occupied, minimizing electron repulsion.",
+    "correct": 1,
+    "explanation": "Elastic potential energy: PE = ½kx² = ½(200)(0.1)² = ½(200)(0.01) = 1 J. This energy can be converted to kinetic energy when the spring is released. If a 0.5 kg ball is attached: ½mv² = 1 J → v = √(2/0.5) = 2 m/s. Note: PE = ½kx² doubles when x doubles only if we compare k·x (force) — but since PE ∝ x², doubling compression quadruples stored energy.",
     "tags": [
-      "electron-configuration",
-      "hunds-rule"
+      "physics",
+      "springs",
+      "energy"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "Which molecule has a trigonal bipyramidal electron geometry but a seesaw molecular geometry?",
+    "text": "Water flows through a horizontal pipe that narrows from a diameter of 4 cm to 2 cm. If the velocity in the wide section is 1 m/s, what is the velocity in the narrow section?",
     "options": [
-      "ClF₃",
-      "PCl₅",
-      "SF₄",
-      "XeF₂"
+      "2 m/s",
+      "4 m/s",
+      "0.5 m/s",
+      "8 m/s"
     ],
-    "correct": 2,
-    "explanation": "SF₄ has 5 electron domains around sulfur (4 bonding + 1 lone pair). The electron geometry is trigonal bipyramidal, and the lone pair in an equatorial position gives a seesaw molecular shape.",
+    "correct": 1,
+    "explanation": "Continuity equation: A₁v₁ = A₂v₂. Cross-sectional area A = πr² ∝ d². A₁/A₂ = (d₁/d₂)² = (4/2)² = 4. So v₂ = v₁(A₁/A₂) = 1 × 4 = 4 m/s. When the diameter halves, the area quarters, so the velocity must quadruple to conserve mass flow (for incompressible fluid). Bernoulli's principle: increased velocity in the narrow section → decreased pressure (explains atomizers, carburetors, venturi meters).",
     "tags": [
-      "vsepr",
-      "molecular-geometry"
+      "physics",
+      "fluid dynamics",
+      "continuity equation"
     ],
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
-    "text": "The bond angle in water (H₂O) is approximately 104.5°, which is less than the ideal tetrahedral angle of 109.5° because:",
+    "text": "A sound wave in air has a frequency of 500 Hz. If the speed of sound is 340 m/s, what is the wavelength?",
     "options": [
-      "O-H bonds are longer than expected",
-      "Water forms a linear geometry",
-      "Lone pairs exert greater repulsion than bonding pairs",
-      "Hydrogen is highly electronegative"
-    ],
-    "correct": 2,
-    "explanation": "Lone pairs occupy more space than bonding pairs because they are not constrained between two nuclei. The two lone pairs on oxygen push the bonding pairs closer together, reducing the H-O-H angle to ~104.5°.",
-    "tags": [
-      "vsepr",
-      "water"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which of the following exhibits the strongest intermolecular forces?",
-    "options": [
-      "HF",
-      "H₂S",
-      "HCl",
-      "PH₃"
+      "0.68 m",
+      "1.47 m",
+      "170000 m",
+      "0.34 m"
     ],
     "correct": 0,
-    "explanation": "HF can form hydrogen bonds (H bonded to highly electronegative F) which are the strongest intermolecular forces among these options. HCl, H₂S, and PH₃ have only dipole-dipole interactions and London dispersion forces.",
+    "explanation": "Wave equation: v = fλ → λ = v/f = 340/500 = 0.68 m. Sound at 500 Hz (close to natural resonance of the human ear canal) has a wavelength of 68 cm. The human hearing range (20 Hz – 20 kHz) corresponds to wavelengths of 17 m – 1.7 cm in air. Ultrasound (>20 kHz) has shorter wavelengths, enabling higher-resolution medical imaging (shorter λ = better spatial resolution, but greater attenuation in tissue).",
     "tags": [
-      "intermolecular-forces",
-      "hydrogen-bonding"
+      "physics",
+      "waves",
+      "acoustics"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "An ideal gas undergoes an isothermal expansion at 300 K, doubling its volume. What happens to its pressure?",
+    "options": [
+      "Pressure doubles",
+      "Pressure halves",
+      "Pressure stays the same",
+      "Pressure quadruples"
+    ],
+    "correct": 1,
+    "explanation": "For an ideal gas at constant temperature (isothermal): PV = nRT = constant → P₁V₁ = P₂V₂. If V₂ = 2V₁, then P₂ = P₁V₁/V₂ = P₁/2. Pressure halves when volume doubles. This is Boyle's Law (P ∝ 1/V at constant T). Physically: same number of molecules in twice the volume → half as many collisions per unit area per unit time → half the pressure. For isothermal expansion of an ideal gas: ΔU = 0 (U depends only on T); work done by gas = nRT·ln(V₂/V₁) = nRT·ln(2) > 0; heat absorbed from surroundings = work done.",
+    "tags": [
+      "physics",
+      "thermodynamics",
+      "ideal gas"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In a circuit, three resistors of 2 Ω, 4 Ω, and 6 Ω are connected in series to a 24 V battery. What current flows through the circuit?",
+    "options": [
+      "2 A",
+      "1.5 A",
+      "4 A",
+      "12 A"
+    ],
+    "correct": 0,
+    "explanation": "Series resistors: Rtotal = R1 + R2 + R3 = 2 + 4 + 6 = 12 Ω. Ohm's law: I = V/R = 24/12 = 2 A. In a series circuit, the same current flows through all resistors. Voltage drops: V₂Ω = 2×2 = 4 V; V₄Ω = 2×4 = 8 V; V₆Ω = 2×6 = 12 V. Check: 4 + 8 + 12 = 24 V ✓ (Kirchhoff's voltage law). Power dissipated: P = I²R_total = 4 × 12 = 48 W, or P = IV = 2 × 24 = 48 W.",
+    "tags": [
+      "physics",
+      "circuits",
+      "Ohm's law"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "An object is placed 30 cm in front of a converging lens with a focal length of 10 cm. Where is the image formed?",
+    "options": [
+      "15 cm behind the lens",
+      "15 cm in front of the lens",
+      "30 cm behind the lens",
+      "At infinity"
+    ],
+    "correct": 0,
+    "explanation": "Thin lens equation: 1/f = 1/do + 1/di → 1/10 = 1/30 + 1/di → 1/di = 1/10 – 1/30 = 3/30 – 1/30 = 2/30 → di = 15 cm. Positive di means real image, formed on the opposite side of the lens from the object. Magnification: m = –di/do = –15/30 = –0.5 (real, inverted, smaller image). When do > f, a converging lens forms a real, inverted image. When do < f, it forms a virtual, upright, magnified image (magnifying glass). When do = f, di → ∞ (used in collimating beams).",
+    "tags": [
+      "physics",
+      "optics",
+      "lenses"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "In an sp³ hybridized carbon, the orbitals point towards the corners of:",
+    "text": "Which statement correctly describes the photoelectric effect?",
     "options": [
-      "An octahedron",
-      "A square",
-      "A tetrahedron",
-      "A triangle"
+      "Increasing the intensity of light always increases the kinetic energy of ejected electrons",
+      "Electrons are ejected only when the photon frequency exceeds the work function threshold; kinetic energy of ejected electrons depends on frequency (not intensity), and intensity only affects the number of electrons ejected",
+      "The photoelectric effect can be explained by classical wave theory of light",
+      "Electrons are ejected more easily from metals with larger work functions"
     ],
-    "correct": 2,
-    "explanation": "sp³ hybridization combines one s orbital and three p orbitals to create four equivalent hybrid orbitals directed toward the corners of a regular tetrahedron at 109.5° angles.",
+    "correct": 1,
+    "explanation": "Photoelectric effect (Einstein, 1905): light behaves as photons (E = hf). Key features: (1) Threshold frequency — electrons are only ejected if hf ≥ φ (work function); below threshold, no electrons are ejected regardless of intensity; (2) Kinetic energy of ejected electrons: KE = hf – φ (depends on frequency, not intensity); (3) Intensity affects the number of electrons ejected (more photons → more electrons), not their energy; (4) Emission is instantaneous (no time lag). Classical wave theory predicted: all frequencies could eject electrons given enough intensity (wrong); energy would build up over time (wrong). This experiment proved the quantum nature of light and earned Einstein the Nobel Prize.",
     "tags": [
-      "hybridization",
-      "bonding"
+      "physics",
+      "quantum mechanics",
+      "photoelectric effect"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient undergoes an MRI scan. The MRI magnetic field causes hydrogen nuclei to precess. What determines the precession (Larmor) frequency?",
+    "options": [
+      "The mass of the hydrogen nucleus only",
+      "The gyromagnetic ratio of the nucleus multiplied by the applied magnetic field strength (ω = γB₀) — higher field strengths produce higher precession frequencies and better resolution",
+      "The density of protons in the tissue",
+      "The temperature of the patient's body"
+    ],
+    "correct": 1,
+    "explanation": "MRI physics: protons (¹H) have intrinsic spin and a magnetic moment. In a static magnetic field B₀, protons precess around B₀ at the Larmor frequency: ω₀ = γB₀, where γ is the gyromagnetic ratio (for ¹H: 42.58 MHz/T). A radiofrequency pulse at ω₀ resonates with the protons (NMR resonance condition), flipping their net magnetization. When the RF pulse stops, protons relax back to equilibrium, emitting RF signals at ω₀ detected by receiver coils. T1 (longitudinal relaxation) and T2 (transverse relaxation) times differ between tissues (fat, water, gray matter) → image contrast. Higher B₀ → higher SNR and resolution. ¹H is used because of its high natural abundance and large gyromagnetic ratio.",
+    "tags": [
+      "physics",
+      "MRI",
+      "NMR",
+      "magnetism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A 1000 kg car traveling at 20 m/s collides with a stationary 1000 kg car and they stick together. What is the velocity of the combined cars after the collision?",
+    "options": [
+      "20 m/s",
+      "10 m/s",
+      "5 m/s",
+      "14 m/s"
+    ],
+    "correct": 1,
+    "explanation": "Perfectly inelastic collision (objects stick together): conservation of momentum: m₁v₁ + m₂v₂ = (m₁ + m₂)v_f → (1000)(20) + (1000)(0) = (2000)v_f → v_f = 20000/2000 = 10 m/s. Kinetic energy is not conserved: KE_initial = ½(1000)(20²) = 200,000 J; KE_final = ½(2000)(10²) = 100,000 J. Energy lost = 100,000 J (converted to heat, sound, deformation). This is always true for perfectly inelastic collisions — maximum KE is lost while momentum is conserved.",
+    "tags": [
+      "physics",
+      "momentum",
+      "collisions"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "Which bond is the shortest?",
+    "text": "What is the pH of a 0.01 M HCl solution?",
     "options": [
-      "C-C",
-      "C=C",
-      "C-N",
-      "C≡C"
+      "1",
+      "2",
+      "12",
+      "7"
     ],
-    "correct": 3,
-    "explanation": "Triple bonds have the highest bond order, which results in the shortest and strongest bond. C≡C (~120 pm) < C=C (~134 pm) < C-C (~154 pm). C-N is a single bond (~147 pm) and longer than C≡C.",
+    "correct": 1,
+    "explanation": "HCl is a strong acid that dissociates completely: [H+] = 0.01 M = 10⁻² M. pH = –log[H+] = –log(10⁻²) = 2. Note: 0.1 M HCl → pH 1; 0.001 M HCl → pH 3. pH scale: 0–14 in water at 25°C. pH < 7 is acidic; pH > 7 is basic. At 25°C, pure water: pH = pOH = 7. pOH of 0.01 M HCl: pOH = 14 – 2 = 12; [OH⁻] = 10⁻¹² M. Verify: [H+][OH⁻] = Kw = 10⁻¹⁴.",
     "tags": [
-      "chemical-bonding",
-      "bond-length"
+      "chemistry",
+      "acid-base",
+      "pH"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "Formal charge on nitrogen in NH₄⁺ is:",
+    "text": "Which of the following intermolecular forces is responsible for the unusually high boiling point of water compared to H₂S?",
     "options": [
+      "London dispersion forces (water is larger and more polarizable)",
+      "Hydrogen bonding — water (H₂O) can form up to 4 hydrogen bonds per molecule (2 donor O-H bonds, 2 acceptor lone pairs on O); H₂S cannot because sulfur's electronegativity and size are insufficient for hydrogen bonding",
+      "Ionic bonding within liquid water",
+      "Dipole-dipole interactions only, with no hydrogen bonding in water"
+    ],
+    "correct": 1,
+    "explanation": "Hydrogen bonding requires: H bonded to a highly electronegative atom (N, O, F) forming the donor; the acceptor is a lone pair on N, O, or F. Water (O–H bonds) satisfies both criteria. H₂S: sulfur is much larger and less electronegative than oxygen → cannot form true H-bonds → H₂S has much lower boiling point (–60°C) than H₂O (+100°C). Water's network of H-bonds (each ~20 kJ/mol) explains its: high BP, high specific heat capacity, high heat of vaporization, surface tension, expansion on freezing, and biological importance as a universal solvent. London dispersion increases with molecular size — but H₂S (larger) has lower BP than H₂O, proving H-bonding is the dominant factor in water.",
+    "tags": [
+      "chemistry",
+      "intermolecular forces",
+      "hydrogen bonding"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In an SN2 reaction, which substrate is most reactive?",
+    "options": [
+      "Tertiary alkyl halide (3°)",
+      "Primary alkyl halide (1°) — minimal steric hindrance allows the nucleophile to attack the back of the carbon bearing the leaving group in a concerted bimolecular mechanism",
+      "Neopentyl halide (very hindered primary)",
+      "Vinyl halide"
+    ],
+    "correct": 1,
+    "explanation": "SN2 (bimolecular nucleophilic substitution) mechanism: nucleophile attacks the electrophilic carbon from the back (180° to leaving group) in a single concerted step → Walden inversion (inversion of configuration at the chiral center). Rate = k[Nu][substrate]. Steric hindrance at the reaction center is the dominant factor: methyl > primary > secondary >> tertiary (steric hindrance prevents backside attack). Neopentyl: formally primary but has a bulky tert-butyl group — extremely slow SN2 despite primary. Tertiary: essentially no SN2 (favors SN1/E2). Vinyl and aryl halides: no SN2 (sp² carbon, no accessible backside). Good nucleophiles (CN⁻, I⁻, RS⁻) and polar aprotic solvents (DMSO, DMF, acetone) favor SN2.",
+    "tags": [
+      "chemistry",
+      "organic chemistry",
+      "SN2",
+      "reaction mechanisms"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "What is the hybridization and geometry of the nitrogen atom in ammonia (NH₃)?",
+    "options": [
+      "sp² hybridized, trigonal planar",
+      "sp³ hybridized, trigonal pyramidal (due to one lone pair occupying one sp³ orbital)",
+      "sp hybridized, linear",
+      "sp³d hybridized, see-saw"
+    ],
+    "correct": 1,
+    "explanation": "NH₃: N has 5 valence electrons. Four electron pairs around N: 3 bonding pairs (N–H) + 1 lone pair → sp³ hybridization (4 electron domains). VSEPR: electron geometry = tetrahedral; molecular geometry = trigonal pyramidal (lone pair not counted in shape, but occupies more space than bonding pairs → bond angle ~107°, slightly less than tetrahedral 109.5°). The lone pair makes NH₃ a Lewis base and explains its nucleophilicity. Compare: BF₃ (no lone pairs, sp², trigonal planar, 120°); NF₃ (also sp³, trigonal pyramidal, but F's pull electron density away → weaker base).",
+    "tags": [
+      "chemistry",
+      "molecular geometry",
+      "VSEPR",
+      "hybridization"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A reaction has ΔG° = –20 kJ/mol at 298 K. What can be concluded about the equilibrium constant K?",
+    "options": [
+      "K < 1 (products not favored at equilibrium)",
+      "K > 1 (products are favored at equilibrium) — ΔG° = –RT lnK, so negative ΔG° means lnK > 0, meaning K > 1",
+      "K = 1 (reaction is at equilibrium under standard conditions)",
+      "Cannot determine K without knowing ΔH and ΔS separately"
+    ],
+    "correct": 1,
+    "explanation": "The van't Hoff equation: ΔG° = –RT lnK. At 298 K: –20,000 J/mol = –(8.314)(298) lnK → lnK = 20,000/(8.314 × 298) = 20,000/2478 ≈ 8.07 → K ≈ e^8.07 ≈ 3,200. Negative ΔG° → positive lnK → K > 1 → products favored at equilibrium. Note: ΔG° is about equilibrium position (where the system will end up); ΔG (not °) is the driving force at any given composition, equal to zero at equilibrium. ΔG° ≠ ΔG. Standard conditions: 1 M concentrations, 1 atm, 25°C.",
+    "tags": [
+      "chemistry",
+      "thermodynamics",
+      "equilibrium",
+      "Gibbs free energy"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following correctly describes the relationship between an acid's pKa and its strength?",
+    "options": [
+      "A higher pKa means a stronger acid",
+      "A lower pKa means a stronger acid — pKa = –log(Ka), so a lower pKa corresponds to a larger Ka (greater degree of dissociation)",
+      "pKa has no relationship to acid strength",
+      "pKa only applies to weak acids; strong acids have no pKa"
+    ],
+    "correct": 1,
+    "explanation": "Ka is the acid dissociation constant: HA ⇌ H+ + A⁻; Ka = [H+][A⁻]/[HA]. pKa = –log Ka. A stronger acid has a larger Ka (dissociates more) → smaller pKa. Examples: HCl (Ka >> 1, pKa ≈ –7, very strong); acetic acid (Ka = 1.8×10⁻⁵, pKa = 4.74, weak); water (Ka = 1.8×10⁻¹⁶, pKa = 15.7, very weak acid). Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA]). At pH = pKa, [A⁻] = [HA] (50% dissociated). Strong acids (pKa < 0) are fully dissociated in water.",
+    "tags": [
+      "chemistry",
+      "acid-base",
+      "pKa"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "An electron in a hydrogen atom falls from n=3 to n=1. Does the atom absorb or emit a photon, and what is the energy of the photon? (Use E_n = –13.6/n² eV)",
+    "options": [
+      "Absorbs a photon; energy = 13.6 eV",
+      "Emits a photon; energy = 12.09 eV (ΔE = –13.6/1² – (–13.6/3²) = –13.6 + 1.51 = –12.09 eV)",
+      "Emits a photon; energy = 1.51 eV",
+      "Absorbs a photon; energy = 12.09 eV"
+    ],
+    "correct": 1,
+    "explanation": "Energy levels: E_n = –13.6/n² eV. E₁ = –13.6 eV; E₃ = –13.6/9 = –1.51 eV. Transition from n=3 to n=1 is a downward transition (lower energy state) → atom releases energy by emitting a photon. ΔE = E_final – E_initial = E₁ – E₃ = –13.6 – (–1.51) = –12.09 eV. The photon energy = |ΔE| = 12.09 eV (UV range — part of Lyman series, n→1 transitions). λ = hc/E = (4.14×10⁻¹⁵ eV·s)(3×10⁸ m/s)/(12.09 eV) ≈ 103 nm (UV). Absorption: photon absorbed when electron goes up; emission: photon emitted when electron falls down.",
+    "tags": [
+      "physics",
+      "atomic physics",
+      "Bohr model",
+      "quantum mechanics"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which statement correctly describes the differences between alpha (α), beta (β), and gamma (γ) radiation in terms of penetrating power and ionizing ability?",
+    "options": [
+      "Alpha is most penetrating; gamma is least penetrating",
+      "Alpha particles (He nuclei, +2) are least penetrating but most ionizing; beta particles (electrons, –1) are intermediate; gamma rays (photons) are most penetrating but least ionizing per unit path length",
+      "All three types have equal penetrating power in tissue",
+      "Beta particles are more ionizing than alpha particles"
+    ],
+    "correct": 1,
+    "explanation": "Ionizing radiation properties: Alpha (α): helium-4 nuclei (2p + 2n, +2 charge); very large mass and charge → high ionization density; stopped by a sheet of paper or a few cm of air; cannot penetrate skin; dangerous if inhaled/ingested (internal emitter). Beta (β): electrons (β⁻) or positrons (β⁺); stopped by a few mm of aluminum or plastic; moderate penetration and ionization. Gamma (γ): high-energy photons; no charge or mass; penetrate deeply (require lead or thick concrete shielding); least ionizing per unit path length. In medicine: γ-emitters used in nuclear imaging (Tc-99m); β-emitters in therapy (I-131 for thyroid cancer); α-emitters in targeted cancer therapy (Ra-223 for bone metastases).",
+    "tags": [
+      "physics",
+      "nuclear physics",
+      "radiation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A buffer solution contains 0.1 M acetic acid (pKa = 4.74) and 0.2 M sodium acetate. What is the pH of this buffer?",
+    "options": [
+      "4.74",
+      "5.04",
+      "4.44",
+      "4.0"
+    ],
+    "correct": 1,
+    "explanation": "Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA]) = 4.74 + log(0.2/0.1) = 4.74 + log(2) = 4.74 + 0.30 = 5.04. When [A⁻] > [HA], pH > pKa (more base pushes pH above pKa). Buffer capacity is maximal at pH = pKa (equal concentrations of acid and conjugate base). Buffers effectively resist pH change within ~1 pH unit of the pKa. This calculation is fundamental for understanding physiological buffers: bicarbonate buffer (pKa₁ = 6.1: pH = 7.4, so [HCO₃⁻]/[CO₂] ≈ 20:1), phosphate buffer (pKa = 6.8 — important in urine and intracellular).",
+    "tags": [
+      "chemistry",
+      "acid-base",
+      "buffers",
+      "Henderson-Hasselbalch"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "What is the oxidation state of sulfur in sulfuric acid (H₂SO₄)?",
+    "options": [
+      "+4",
+      "+6",
       "+2",
-      "-1",
-      "0",
-      "+1"
-    ],
-    "correct": 3,
-    "explanation": "Formal charge = valence electrons - nonbonding electrons - (½ × bonding electrons). For N in NH₄⁺: 5 - 0 - (½ × 8) = 5 - 0 - 4 = +1.",
-    "tags": [
-      "formal-charge",
-      "bonding"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "A reaction has ΔH = -50 kJ/mol and ΔS = -100 J/(mol·K). At what temperature does this reaction become non-spontaneous?",
-    "options": [
-      "The reaction is always spontaneous",
-      "T > 250 K",
-      "T > 500 K",
-      "T > 750 K"
-    ],
-    "correct": 2,
-    "explanation": "ΔG = ΔH - TΔS. Reaction is spontaneous when ΔG < 0. At T = 500 K: ΔG = -50,000 - (500)(-100) = -50,000 + 50,000 = 0. Above 500 K, ΔG > 0 (non-spontaneous).",
-    "tags": [
-      "thermodynamics",
-      "gibbs-free-energy"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which statement best describes an endothermic process?",
-    "options": [
-      "No heat is exchanged; ΔH = 0",
-      "Entropy always decreases",
-      "Heat flows from system to surroundings; ΔH < 0",
-      "Heat flows from surroundings to system; ΔH > 0"
-    ],
-    "correct": 3,
-    "explanation": "In an endothermic process, the system absorbs heat from its surroundings, so the enthalpy change ΔH is positive. Examples include melting ice and dissolving NH₄NO₃.",
-    "tags": [
-      "thermodynamics",
-      "enthalpy"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Hess's Law states that the total enthalpy change for a reaction is:",
-    "options": [
-      "Independent of pathway; equal to sum of enthalpy changes of individual steps",
-      "Dependent on the rate of reaction",
-      "Equal to the activation energy",
-      "Always negative for spontaneous reactions"
-    ],
-    "correct": 0,
-    "explanation": "Hess's Law exploits the fact that enthalpy is a state function. The total ΔH for a reaction equals the sum of ΔH values for any series of steps that convert reactants to products, regardless of the pathway taken.",
-    "tags": [
-      "thermodynamics",
-      "hess-law"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "The standard entropy change (ΔS°) for a reaction is expected to be positive when:",
-    "options": [
-      "Temperature decreases",
-      "Gas molecules are produced from solid reactants",
-      "A solution precipitates a solid",
-      "A gas condenses to a liquid"
+      "–2"
     ],
     "correct": 1,
-    "explanation": "Entropy increases when disorder increases. Producing gaseous products from solids greatly increases the number of microstates available (gas molecules have much greater positional and kinetic freedom than solids).",
+    "explanation": "Assigning oxidation states in H₂SO₄: H = +1 each (×2 = +2); O = –2 each (×4 = –8); total must sum to 0. 2 + S + (–8) = 0 → S = +6. Sulfur is in its highest common oxidation state (+6) in H₂SO₄ and SO₄²⁻. Compare: SO₂ (S = +4), H₂S (S = –2), S (elemental, 0), thiosulfate (S₂O₃²⁻, average S = +2). Sulfuric acid is a strong oxidizing agent in concentrated form (can oxidize metals above hydrogen). The high oxidation state explains its electrophilic character and reactivity.",
     "tags": [
-      "thermodynamics",
-      "entropy"
+      "chemistry",
+      "oxidation states",
+      "redox"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "For a spontaneous process at constant temperature and pressure, the Gibbs free energy change (ΔG) must be:",
+    "text": "A galvanic cell uses the reaction: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s). Given E°cell = +1.10 V, what is the standard Gibbs free energy change?",
     "options": [
-      "Positive",
-      "Equal to TΔS",
-      "Zero",
-      "Negative"
-    ],
-    "correct": 3,
-    "explanation": "At constant T and P, a process is spontaneous if ΔG < 0. When ΔG = 0, the system is at equilibrium. When ΔG > 0, the process is non-spontaneous (reverse is spontaneous).",
-    "tags": [
-      "thermodynamics",
-      "gibbs-free-energy",
-      "spontaneity"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Heat capacity at constant pressure (Cp) is greater than heat capacity at constant volume (Cv) for gases because:",
-    "options": [
-      "Gases have fewer degrees of freedom at constant pressure",
-      "Cv includes PV work while Cp does not",
-      "At constant pressure, gas must also do PΔV work when heated",
-      "Pressure increases slow molecular motion"
-    ],
-    "correct": 2,
-    "explanation": "When a gas is heated at constant pressure, it expands and does work on the surroundings (PΔV). This extra energy input beyond ΔU makes Cp = Cv + nR for ideal gases, so Cp > Cv.",
-    "tags": [
-      "thermodynamics",
-      "heat-capacity"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "For the reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g), the Kc expression is:",
-    "options": [
-      "Kc = [NH₃]²/([N₂]³[H₂])",
-      "Kc = [NH₃]/([N₂][H₂])",
-      "Kc = [N₂][H₂]³/[NH₃]²",
-      "Kc = [NH₃]²/([N₂][H₂]³)"
-    ],
-    "correct": 3,
-    "explanation": "Kc = [products]^stoich / [reactants]^stoich. For N₂ + 3H₂ ⇌ 2NH₃: Kc = [NH₃]²/([N₂]¹[H₂]³). Pure solids and liquids are omitted.",
-    "tags": [
-      "equilibrium",
-      "equilibrium-constant"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "If Kp = 2.5 × 10⁻⁴ for a reaction, which statement is correct?",
-    "options": [
-      "Reactants are favored at equilibrium",
-      "Products are favored at equilibrium",
-      "The reaction goes to completion",
-      "The reaction does not proceed"
+      "–212 kJ/mol",
+      "+212 kJ/mol",
+      "–106 kJ/mol",
+      "+106 kJ/mol"
     ],
     "correct": 0,
-    "explanation": "A Kp value much less than 1 indicates that at equilibrium, the concentration of reactants greatly exceeds that of products, meaning the reactant side is favored.",
+    "explanation": "ΔG° = –nFE°. Number of electrons transferred: Zn → Zn²⁺ + 2e⁻ (n = 2). F = 96,485 C/mol (Faraday's constant ≈ 96,500). ΔG° = –(2)(96,500)(1.10) = –212,300 J/mol ≈ –212 kJ/mol. Negative ΔG° confirms the reaction is spontaneous under standard conditions (galvanic cell). The Cu²⁺/Cu half-cell is the cathode (reduction, +0.34 V); Zn/Zn²⁺ is the anode (oxidation, –(–0.76 V) = +0.76 V). E°cell = E°cathode – E°anode = 0.34 – (–0.76) = +1.10 V. Related: ln K = nFE°/RT → K = e^(nFE°/RT).",
     "tags": [
-      "equilibrium",
-      "equilibrium-constant"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Le Chatelier's principle predicts that for an exothermic reaction at equilibrium, increasing temperature will:",
-    "options": [
-      "Shift equilibrium toward reactants, decreasing K",
-      "Have no effect on equilibrium position",
-      "Shift equilibrium toward products without changing K",
-      "Shift equilibrium toward products, increasing K"
-    ],
-    "correct": 0,
-    "explanation": "For an exothermic reaction, heat is a product. Adding heat (increasing T) shifts equilibrium left (toward reactants) by Le Chatelier's principle. This also decreases the equilibrium constant K.",
-    "tags": [
-      "equilibrium",
-      "le-chatelier"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The relationship between Kp and Kc is:",
-    "options": [
-      "Kp = Kc(RT)^Δn",
-      "Kp = Kc regardless of Δn",
-      "Kp = Kc/Δn(RT)",
-      "Kp = Kc + Δn(RT)"
-    ],
-    "correct": 0,
-    "explanation": "Kp = Kc(RT)^Δn, where Δn = moles of gaseous products - moles of gaseous reactants, R = 0.08206 L·atm/(mol·K), and T is temperature in Kelvin.",
-    "tags": [
-      "equilibrium",
-      "kp-kc"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Adding a catalyst to a reaction at equilibrium will:",
-    "options": [
-      "Shift equilibrium to favor products",
-      "Decrease activation energy for forward reaction only",
-      "Increase the equilibrium constant",
-      "Speed up both forward and reverse reactions equally, not shifting equilibrium"
-    ],
-    "correct": 3,
-    "explanation": "A catalyst lowers the activation energy for both the forward and reverse reactions equally. It allows equilibrium to be reached faster but does not change the equilibrium constant or the equilibrium position.",
-    "tags": [
-      "equilibrium",
-      "catalysis"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "The Henderson-Hasselbalch equation relates pH to pKa as:",
-    "options": [
-      "pH = pKa × log([HA]/[A⁻])",
-      "pH = pKa + log([HA]/[A⁻])",
-      "pH = pKa + log([A⁻]/[HA])",
-      "pH = pKa - log([A⁻]/[HA])"
-    ],
-    "correct": 2,
-    "explanation": "The Henderson-Hasselbalch equation is pH = pKa + log([A⁻]/[HA]), where [A⁻] is the conjugate base concentration and [HA] is the weak acid concentration. It is most useful in the buffer region.",
-    "tags": [
-      "acid-base",
-      "henderson-hasselbalch",
-      "buffers"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Which of the following is the strongest acid?",
-    "options": [
-      "HCl",
-      "HI",
-      "HF",
-      "HBr"
-    ],
-    "correct": 1,
-    "explanation": "Among the hydrohalic acids, acid strength increases down the group: HF << HCl < HBr < HI. HI is the strongest because the H-I bond is weakest (longest), making it easiest to donate a proton.",
-    "tags": [
-      "acid-base",
-      "acid-strength"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "A buffer solution is most effective when:",
-    "options": [
-      "pH = 7.0",
-      "pH << pKa",
-      "pH = pKa of the weak acid",
-      "pH >> pKa"
-    ],
-    "correct": 2,
-    "explanation": "A buffer is most effective when pH = pKa, meaning [A⁻] = [HA]. At this point, the buffer has equal capacity to absorb added acid or base. The effective range is approximately pH = pKa ± 1.",
-    "tags": [
-      "acid-base",
-      "buffers"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "What is the pH of a solution with [OH⁻] = 1 × 10⁻⁴ M at 25°C?",
-    "options": [
-      "14",
-      "7",
-      "4",
-      "10"
-    ],
-    "correct": 3,
-    "explanation": "pOH = -log[OH⁻] = -log(10⁻⁴) = 4. Since pH + pOH = 14 at 25°C, pH = 14 - 4 = 10.",
-    "tags": [
-      "acid-base",
-      "ph-calculation"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Which of the following would produce a basic solution when dissolved in water?",
-    "options": [
-      "NH₄Cl (ammonium chloride)",
-      "HNO₃ (nitric acid)",
-      "NaCH₃COO (sodium acetate)",
-      "NaCl (sodium chloride)"
-    ],
-    "correct": 2,
-    "explanation": "Sodium acetate undergoes hydrolysis: CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻. The acetate ion (conjugate base of weak acid) accepts a proton from water, producing OH⁻ and making the solution basic.",
-    "tags": [
-      "acid-base",
-      "hydrolysis",
-      "salt-solutions"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "According to the Brønsted-Lowry definition, an acid is:",
-    "options": [
-      "An electron pair donor",
-      "An electron pair acceptor",
-      "A proton donor",
-      "A proton acceptor"
-    ],
-    "correct": 2,
-    "explanation": "The Brønsted-Lowry theory defines an acid as a proton (H⁺) donor and a base as a proton acceptor. This definition is broader than the Arrhenius theory, encompassing reactions not in aqueous solution.",
-    "tags": [
-      "acid-base",
-      "bronsted-lowry"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "In a galvanic cell, oxidation occurs at the:",
-    "options": [
-      "Anode",
-      "Cathode",
-      "Salt bridge",
-      "Both electrodes simultaneously"
-    ],
-    "correct": 0,
-    "explanation": "In a galvanic (voltaic) cell, the anode is the site of oxidation (loss of electrons). Electrons flow from the anode through the external circuit to the cathode, where reduction occurs. Memory aid: AN OX (anode = oxidation).",
-    "tags": [
+      "chemistry",
       "electrochemistry",
-      "galvanic-cell"
+      "thermodynamics"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In nuclear magnetic resonance (NMR) spectroscopy, a proton with a chemical shift of 7–8 ppm is most likely:",
+    "options": [
+      "A proton on an sp³ carbon far from any electronegative group (alkyl CH)",
+      "An aromatic proton — aromatic ring currents create a local magnetic field that deshields aromatic protons, shifting them significantly downfield to 7–8 ppm",
+      "An alcohol OH proton",
+      "A proton alpha to a carbonyl (α-CH₂) only"
+    ],
+    "correct": 1,
+    "explanation": "¹H NMR chemical shifts (ppm): alkyl CH (0.5–1.5), allylic/benzylic CH (1.5–2.5), α to C=O (2–3), alkyne CH (2.5), OCH (3.5–4.5), vinyl/alkene (4.5–6.5), aromatic H (6.5–8.5), aldehyde H (9–10), carboxylic acid OH (10–12). Aromatic protons (~7–8 ppm) are highly deshielded by the ring current effect: circulation of π electrons in the aromatic ring generates a secondary magnetic field that opposes B₀ above/below the ring (shielding) but reinforces B₀ in the plane of the ring where H atoms are located → protons are strongly deshielded → large chemical shift. Alcohol OH: variable (1–5 ppm, broad due to exchange).",
+    "tags": [
+      "chemistry",
+      "NMR spectroscopy",
+      "organic chemistry"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient is given nitroglycerin to treat angina pectoris. Which mechanism explains its action?",
+    "options": [
+      "Nitroglycerin blocks calcium channels in the heart, reducing heart rate",
+      "Nitroglycerin is metabolized to nitric oxide (NO), which activates guanylyl cyclase → cGMP → PKG → smooth muscle relaxation → venodilation (reduces preload) and arteriolar dilation (reduces afterload), decreasing cardiac oxygen demand",
+      "Nitroglycerin inhibits phosphodiesterase, increasing cAMP",
+      "Nitroglycerin directly inhibits myosin ATPase in cardiac muscle"
+    ],
+    "correct": 1,
+    "explanation": "Organic nitrates (nitroglycerin, isosorbide mononitrate) are prodrugs converted to NO by mitochondrial aldehyde dehydrogenase (ALDH2) in vascular smooth muscle. NO → sGC → cGMP → PKG → (1) activates myosin light chain phosphatase → dephosphorylates myosin → relaxation; (2) inhibits Ca²⁺ influx. Predominantly venodilator at low doses → reduces venous return (preload) → reduces cardiac wall tension and O₂ demand → relieves angina. At higher doses, arteriolar dilation → reduced afterload. Headache and hypotension are common side effects (vasodilation). Tolerance (tachyphylaxis) develops with continuous use (depletes ALDH2 and NO-generation capacity) — requires nitrate-free intervals. Sildenafil + nitroglycerin is contraindicated (severe hypotension from additive cGMP effects).",
+    "tags": [
+      "pharmacology",
+      "cardiovascular",
+      "nitric oxide"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which of the following correctly orders the bond lengths from shortest to longest: C≡C, C=C, C–C?",
+    "options": [
+      "C–C < C=C < C≡C",
+      "C≡C < C=C < C–C",
+      "C=C < C≡C < C–C",
+      "All carbon-carbon bonds have the same length"
+    ],
+    "correct": 1,
+    "explanation": "More bonds between atoms = shorter, stronger bond. C≡C (triple bond, sp hybridized): ~1.20 Å, bond energy ~835 kJ/mol. C=C (double bond, sp²): ~1.34 Å, bond energy ~614 kJ/mol. C–C (single bond, sp³): ~1.54 Å, bond energy ~347 kJ/mol. Bond order inversely correlates with bond length and directly correlates with bond energy. The additional π bonds in double and triple bonds pull the nuclei closer together. This pattern applies to other bonds: N≡N (1.10 Å) < N=N (1.24 Å) < N–N (1.45 Å). MCAT relevance: IR spectroscopy — higher bond order → higher force constant → higher stretching frequency (C≡C stretch at ~2100 cm⁻¹; C=C ~1650 cm⁻¹; C–C ~1200 cm⁻¹).",
+    "tags": [
+      "chemistry",
+      "organic chemistry",
+      "chemical bonding"
     ],
     "difficulty": "easy"
+  },
+  {
+    "text": "A 70 kg person climbs a flight of stairs (height = 5 m) in 10 seconds. What is their power output? (g = 10 m/s²)",
+    "options": [
+      "350 W",
+      "3500 W",
+      "70 W",
+      "700 W"
+    ],
+    "correct": 0,
+    "explanation": "Power = Work/time. Work done against gravity = mgh = (70)(10)(5) = 3500 J. Power = 3500 J / 10 s = 350 W. This is approximately 0.47 horsepower (1 hp = 746 W). Note: this is the mechanical power output — metabolic power (from food) is much higher (~3× due to ~25–35% efficiency of muscles). A Tour de France cyclist sustains ~400 W output for extended periods. Power can also be calculated as P = Fv = (mg)(v) = (700 N)(0.5 m/s) = 350 W.",
+    "tags": [
+      "physics",
+      "energy",
+      "power",
+      "mechanics"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In the context of acid-base chemistry, a Lewis acid differs from a Brønsted-Lowry acid in that:",
+    "options": [
+      "Lewis acids donate protons; Brønsted-Lowry acids accept electrons",
+      "Lewis acids accept electron pairs (electrophiles) rather than donating protons; all Brønsted-Lowry acids are Lewis acids, but Lewis acids include species that do not involve proton transfer (e.g., BF₃, AlCl₃, Fe³⁺)",
+      "Lewis acids and Brønsted-Lowry acids are identical concepts",
+      "Lewis acids only apply to organic reactions; Brønsted-Lowry applies to aqueous solutions only"
+    ],
+    "correct": 1,
+    "explanation": "Brønsted-Lowry: acid = proton (H+) donor; base = proton acceptor. Lewis: acid = electron pair acceptor; base = electron pair donor. Lewis definition is broader: all Brønsted-Lowry acids are Lewis acids (H+ is an electron pair acceptor) but not vice versa. Lewis acids without protons: BF₃, BCl₃, AlCl₃ (empty p orbital accepts e⁻ pair); transition metal ions (Fe³⁺, Zn²⁺, Cu²⁺ — empty d orbitals); carbocations (empty p orbital). Lewis acid-base reactions: coordinate covalent bond formation (H₃N: + BF₃ → H₃N–BF₃). Relevant in organic chemistry: Friedel-Crafts reactions use Lewis acid catalysts (AlCl₃); metal coordination complexes.",
+    "tags": [
+      "chemistry",
+      "acid-base",
+      "Lewis acid"
+    ],
+    "difficulty": "medium"
   }
 ]

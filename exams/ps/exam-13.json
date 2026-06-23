@@ -1,0 +1,430 @@
+[
+  {
+    "text": "In a research context, informed consent requires:",
+    "options": [
+      "Only the researcher's ethical intentions, not formal documentation",
+      "Disclosure of study purpose, risks, benefits, alternatives, and right to withdraw; voluntary agreement by participants with capacity to consent; documentation — ongoing (can be withdrawn)",
+      "A one-time signature and no further obligation to participants",
+      "That participants are never deceived under any circumstances"
+    ],
+    "correct": 1,
+    "explanation": "Informed consent elements (Belmont Report): (1) Disclosure: full information about study procedures, risks, benefits, alternatives to participation; (2) Comprehension: information must be understandable to the participant; (3) Voluntariness: free from coercion or undue influence; (4) Capacity: participants must have decision-making ability. Exceptions: deception allowed if no alternative and debriefing occurs. Vulnerable populations: additional protections (minors need parental consent + child assent, prisoners, pregnant women, cognitively impaired).",
+    "tags": [
+      "research methods",
+      "ethics",
+      "informed consent"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Selection bias in research occurs when:",
+    "options": [
+      "Participants are randomly assigned to treatment conditions",
+      "The sample is not representative of the target population because of systematic differences between those who participate and those who don't — limits external validity (generalizability)",
+      "The researcher measures the wrong variable",
+      "The statistical analysis is incorrectly performed"
+    ],
+    "correct": 1,
+    "explanation": "Selection bias: people who volunteer for studies differ from those who don't (volunteers tend to be healthier, more educated, more motivated). Healthy worker effect: employed workers healthier than general population. Survival bias: only survivors are studied (overestimates treatment success). Berkson's bias: hospital patients differ from community population (bias in hospital-based case-control studies). Minimize with: random sampling, high response rates, comparing early vs. late responders.",
+    "tags": [
+      "research methods",
+      "bias",
+      "external validity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A cross-sectional study vs. a longitudinal study:",
+    "options": [
+      "Both measure the same participants over time",
+      "Cross-sectional: measures multiple groups at ONE point in time (efficient but confounds age and cohort effects); longitudinal: follows the same individuals over time (can establish temporal sequence but expensive, attrition)",
+      "Cross-sectional studies require random assignment; longitudinal do not",
+      "Longitudinal studies cannot establish causal relationships"
+    ],
+    "correct": 1,
+    "explanation": "Cross-sectional (one snapshot): compares people of different ages at the same time — efficient and cheap but conflates age effects with cohort effects (e.g., older adults having less education may reflect cohort, not aging). Longitudinal (follows same people over time): can track development and establish temporal sequence; but attrition (dropout), practice effects, historical events affect results. Sequential design: combines both, separates age, cohort, and time-of-measurement effects.",
+    "tags": [
+      "research methods",
+      "study design",
+      "developmental psychology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which psychological disorder is most associated with ego-syntonic thinking?",
+    "options": [
+      "Major depressive disorder",
+      "Anorexia nervosa — patients often do not recognize their restriction behaviors as problematic (ego-syntonic: behavior is consistent with self-concept and values); contrasts with ego-dystonic disorders where symptoms are experienced as alien to self (e.g., OCD obsessions)",
+      "Obsessive-compulsive disorder (OCD)",
+      "Generalized anxiety disorder (GAD)"
+    ],
+    "correct": 1,
+    "explanation": "Ego-syntonic: behavior/thoughts align with one's self-image and values (patient doesn't see it as a problem). Anorexia nervosa: restrictive eating and distorted body image are often ego-syntonic → reduced treatment motivation, high treatment resistance. Ego-dystonic: behavior/thoughts conflict with self-image (patient experiences them as alien and unwanted). OCD: obsessions are typically ego-dystonic (patient knows intrusive thoughts are irrational). Important distinction for understanding motivation and treatment engagement.",
+    "tags": [
+      "abnormal psychology",
+      "ego-syntonic",
+      "eating disorders"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The Cannon-Bard theory of emotion differs from James-Lange in that:",
+    "options": [
+      "Cannon-Bard proposes that physiological arousal precedes emotion",
+      "Cannon-Bard proposes that the thalamus simultaneously sends signals to both the cortex (producing subjective emotion) AND the body (producing physiological arousal) — emotion and arousal are simultaneous and independent, not sequential",
+      "Cannon-Bard proposes no physiological component to emotion",
+      "Both theories are identical but use different terminology"
+    ],
+    "correct": 1,
+    "explanation": "Cannon-Bard: thalamus acts as relay — splits input to cortex (emotion experience) and hypothalamus/body (physiological arousal) simultaneously. Critiques James-Lange: (1) Visceral responses are too slow for fast emotions; (2) Artificially induced arousal doesn't always produce emotion; (3) Same physiological arousal for different emotions. Evidence for James-Lange: facial feedback hypothesis (Strack: holding pencil in teeth → better mood from smile muscles). Two-factor theory: combines both, adds cognitive labeling.",
+    "tags": [
+      "emotion",
+      "Cannon-Bard theory",
+      "theories of emotion"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Ecological validity in research refers to:",
+    "options": [
+      "The degree to which results can be applied to real-world settings and everyday behavior — lab findings may not generalize if the controlled experimental environment differs too much from natural contexts",
+      "The use of environmentally friendly research methods",
+      "The accuracy of measurements of biological variables",
+      "The accuracy of statistical analysis"
+    ],
+    "correct": 0,
+    "explanation": "Ecological validity: a component of external validity — whether experimental conditions reflect real-world conditions. Laboratory experiments: high internal validity (control confounds), but low ecological validity. Naturalistic observation/field studies: higher ecological validity but lower internal validity (can't control extraneous variables). Example: Milgram's laboratory obedience paradigm — ecological validity questioned (real authority situations differ). Trade-off between internal and ecological validity is fundamental in research design.",
+    "tags": [
+      "research methods",
+      "ecological validity",
+      "external validity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The five-factor model (Big Five) has been shown in cross-cultural research to:",
+    "options": [
+      "Apply only to Western cultures (individualistic societies)",
+      "Show a high degree of cross-cultural consistency, suggesting some biological basis, though factor scores differ across cultures",
+      "Show completely different factor structures in different cultures",
+      "Apply only to adults and not children or adolescents"
+    ],
+    "correct": 1,
+    "explanation": "Cross-cultural Big Five research: (1) The five-factor structure replicates across dozens of cultures (supporting universality); (2) Mean levels of traits differ across cultures (e.g., some cultures score higher on Agreeableness); (3) Evolutionary explanations suggest adaptive significance of personality variation; (4) Heritability studies (twins) suggest ~40-60% heritability for each factor. Critiques: most research uses WEIRD samples (Western, Educated, Industrialized, Rich, Democratic).",
+    "tags": [
+      "personality",
+      "Big Five",
+      "cross-cultural"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Social norms theory in health promotion suggests that:",
+    "options": [
+      "People always overestimate healthy behaviors in their peers",
+      "People often misperceive the norm (e.g., overestimating how much peers drink), and this misperception itself leads to unhealthy behavior — correcting misperceptions can reduce unhealthy behavior",
+      "Norms have no effect on health behaviors",
+      "Peer pressure is the only mechanism by which norms affect behavior"
+    ],
+    "correct": 1,
+    "explanation": "Social norms approach (Perkins & Berkowitz): most people perceive peers as engaging in unhealthy behaviors more than they actually do. This misperception → normative influence → people adopt or maintain unhealthy behaviors to 'fit in.' E.g., college students overestimate peers' alcohol consumption → drink more to match perceived norm. Intervention: provide accurate statistics about actual (typically moderate) peer behavior → reduces misperceived pressure. Used in campus health programs.",
+    "tags": [
+      "social psychology",
+      "health behavior",
+      "social norms"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The distinction between incidence and prevalence in epidemiology:",
+    "options": [
+      "Incidence = all current cases; prevalence = new cases only",
+      "Incidence = number of NEW cases of a condition in a population during a specified time period; prevalence = total number of EXISTING cases (new + old) at a given time or during a period",
+      "Both terms mean the same thing in epidemiology",
+      "Incidence is used for chronic diseases; prevalence for acute diseases"
+    ],
+    "correct": 1,
+    "explanation": "Incidence: rate of new case development (numerator = new cases only). Prevalence: proportion of population currently affected (numerator = all existing cases). Relationship: prevalence ≈ incidence × duration of illness. High incidence with short duration → low prevalence (e.g., influenza). Low incidence with long duration → high prevalence (e.g., diabetes, HIV in treatment era). Relevant to MCAT: understanding disease burden, screening program design, resource allocation.",
+    "tags": [
+      "research methods",
+      "epidemiology",
+      "incidence vs prevalence"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which type of memory is most impaired in Alzheimer's disease in the early stages?",
+    "options": [
+      "Procedural memory (motor skills — relatively preserved in early AD)",
+      "Episodic memory — memory for recent personal experiences and events (hippocampus-dependent, affected earliest in AD due to hippocampal atrophy); semantic and procedural memory are relatively preserved longer",
+      "Semantic memory for facts (affected before episodic in AD)",
+      "Working memory for numbers (primarily affected in frontal lobe disorders)"
+    ],
+    "correct": 1,
+    "explanation": "Early Alzheimer's disease: episodic memory impairment most prominent (can't form new memories, forget recent events), due to hippocampal neurodegeneration (tau tangles, amyloid plaques). Semantic memory (general knowledge) affected later. Procedural memory (how to ride a bike) relatively preserved until late stages. Language: early aphasia can occur (anomia). Executive function: impaired in frontal lobe involvement. Imaging: PET shows reduced metabolic activity in temporal-parietal regions.",
+    "tags": [
+      "memory",
+      "neuroscience",
+      "Alzheimer's disease"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Weber's three components of social class (as opposed to Marx's two-class model) include:",
+    "options": [
+      "Race, gender, and age",
+      "Class (economic: wealth and income), Status (social prestige and honor), and Party (power: ability to achieve goals despite opposition)",
+      "Bourgeoisie, proletariat, and lumpenproletariat",
+      "Education, occupation, and religion only"
+    ],
+    "correct": 1,
+    "explanation": "Max Weber's multidimensional stratification: (1) Class: economic position — ownership of property and market situation; (2) Status: social honor or prestige — not always aligned with economic class (e.g., a poor college professor may have high status); (3) Party: power — ability to achieve goals in competitive situations (political parties, organizations). Marx focused on economic class (means of production) as primary; Weber showed stratification is more complex and multidimensional.",
+    "tags": [
+      "sociology",
+      "social stratification",
+      "Weber"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The concept of 'resocialization' in total institutions occurs when:",
+    "options": [
+      "Individuals reinforce their existing social identities",
+      "Previous identity is systematically stripped away (mortification of self) and replaced with a new institutional identity — occurs in military boot camps, prisons, residential psychiatric facilities, and cults",
+      "Individuals freely choose to adopt new social roles",
+      "Cultural transmission occurs through informal learning"
+    ],
+    "correct": 1,
+    "explanation": "Goffman (Asylums, 1961): total institutions resocialize through mortification — degradation ceremonies, stripping personal identity markers (civilian clothing replaced with uniform, name replaced with number), loss of autonomy over daily schedule. Purpose: create conformity to institutional demands. Analogous processes in medical education (medical students learning to depersonalize to cope) and religious conversion experiences.",
+    "tags": [
+      "sociology",
+      "resocialization",
+      "Goffman"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Negative symptoms of schizophrenia most likely result from dysfunction in which brain region?",
+    "options": [
+      "Amygdala (fear processing)",
+      "Prefrontal cortex — hypofrontality (reduced metabolic activity in PFC) is associated with negative symptoms such as flat affect, avolition, and alogia",
+      "Hippocampus (memory formation)",
+      "Cerebellum (motor coordination)"
+    ],
+    "correct": 1,
+    "explanation": "Schizophrenia neurobiology: positive symptoms (hallucinations, delusions) — linked to excess dopamine in mesolimbic pathway; treated by D2 receptor blockers. Negative symptoms (flat affect, avolition, alogia, anhedonia) — linked to dopamine deficiency in mesocortical pathway (PFC hypofrontality seen on PET). Glutamate hypothesis: NMDA receptor hypofunction (explains both positive and negative symptoms). Structural: enlarged ventricles, reduced gray matter volume in temporal/frontal regions.",
+    "tags": [
+      "abnormal psychology",
+      "schizophrenia",
+      "neuroscience"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In operant conditioning, which schedule of reinforcement produces the slowest rate of extinction?",
+    "options": [
+      "Continuous reinforcement (every response rewarded)",
+      "Fixed ratio schedule",
+      "Variable ratio schedule — produces the greatest resistance to extinction because unpredictability prevents the organism from learning that reinforcement has stopped",
+      "Fixed interval schedule"
+    ],
+    "correct": 2,
+    "explanation": "Partial reinforcement extinction effect (PREE): behaviors reinforced intermittently are much more resistant to extinction than continuously reinforced behaviors. Why: under continuous reinforcement, any non-reinforcement signals extinction immediately. Under variable ratio: organism can't tell if it's just a bad run or true extinction — keeps responding. Gambling behavior: quintessential VR schedule, explaining extreme persistence even when losing. VR > FI > FR in extinction resistance.",
+    "tags": [
+      "learning",
+      "operant conditioning",
+      "reinforcement schedules",
+      "extinction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The 'good patient' role and adherence to medical advice is influenced by all EXCEPT:",
+    "options": [
+      "Patient's health literacy and understanding of the diagnosis and treatment plan",
+      "Patient's trust in and quality of communication with the healthcare provider",
+      "Genetic polymorphisms in the patient's CYP450 enzymes (these affect drug metabolism, not adherence behavior itself)",
+      "Social support and financial ability to afford medications and follow-up care"
+    ],
+    "correct": 2,
+    "explanation": "Medication adherence (compliance) is influenced by: patient factors (beliefs about illness, health literacy, motivation), provider factors (communication quality, trust, shared decision-making), treatment factors (complexity, side effects, cost), and system factors (access, insurance). CYP450 polymorphisms affect drug metabolism and efficacy — they may affect whether a drug 'works' but are not a behavioral adherence factor. Social determinants of health strongly predict adherence.",
+    "tags": [
+      "sociology",
+      "medical sociology",
+      "adherence",
+      "health behavior"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A researcher finds that participants in a study are more likely to comply with a large request if they have already agreed to a smaller, related request. This is an example of:",
+    "options": [
+      "Door-in-the-face technique",
+      "Foot-in-the-door technique — initial small commitment increases subsequent compliance with larger requests by engaging consistency motivation and self-perception as a 'helpful person'",
+      "Social loafing",
+      "Reactance theory"
+    ],
+    "correct": 1,
+    "explanation": "Foot-in-the-door (Freedman & Fraser, 1966): once people agree to a small request, they are more likely to comply with a larger, related request later. Mechanism: self-perception theory (Bem) — having agreed, the person perceives themselves as 'the kind of person who helps' → maintains consistency with this self-image. Contrast with door-in-the-face: start with a very large (unreasonable) request that is rejected, then make the actual (smaller) request → reciprocal concession norm increases compliance. Both exploit the commitment and consistency principle (Cialdini). FITD is used in charitable giving, sales, and political persuasion.",
+    "tags": [
+      "social psychology",
+      "persuasion",
+      "compliance"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "According to Kübler-Ross's model, the five stages of grief are (in order):",
+    "options": [
+      "Shock, anger, bargaining, sadness, acceptance",
+      "Denial, anger, bargaining, depression, acceptance — though the model is not strictly linear and not all stages are experienced by everyone",
+      "Fear, anger, guilt, bargaining, resolution",
+      "Disbelief, denial, anger, depression, hope"
+    ],
+    "correct": 1,
+    "explanation": "Kübler-Ross (On Death and Dying, 1969) described five stages of grief observed in terminally ill patients: (1) Denial — 'This can't be happening'; (2) Anger — 'Why me?'; (3) Bargaining — 'If I get better, I'll...'; (4) Depression — profound sadness; (5) Acceptance — coming to terms. Important caveats: the model was descriptive, not prescriptive; grief is nonlinear; people may skip stages, revisit earlier stages, or experience multiple simultaneously. Later models (Worden's tasks; Stroebe's dual-process) have supplemented it. The model has been extended to other types of loss (job loss, relationship breakups). MCAT may ask about stages and their order.",
+    "tags": [
+      "psychology",
+      "health psychology",
+      "grief"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In Erikson's psychosocial theory, the conflict during middle adulthood (approximately ages 40–65) is:",
+    "options": [
+      "Intimacy vs. Isolation",
+      "Generativity vs. Stagnation — the challenge is contributing to the next generation through parenting, mentoring, or creative/professional work; failure leads to self-absorption and stagnation",
+      "Integrity vs. Despair",
+      "Industry vs. Inferiority"
+    ],
+    "correct": 1,
+    "explanation": "Erikson's 8 stages: (1) Trust vs. Mistrust (0–1); (2) Autonomy vs. Shame/Doubt (1–3); (3) Initiative vs. Guilt (3–6); (4) Industry vs. Inferiority (6–12); (5) Identity vs. Role Confusion (adolescence); (6) Intimacy vs. Isolation (young adulthood); (7) Generativity vs. Stagnation (middle adulthood, 40–65): generativity = 'leaving a mark' on the world through children, mentoring, community contribution, or creative work; stagnation = self-preoccupation and a sense of meaninglessness; (8) Integrity vs. Despair (late adulthood): reflecting on life with satisfaction (integrity) or regret (despair). Each stage builds on resolution of the previous crisis.",
+    "tags": [
+      "developmental psychology",
+      "Erikson",
+      "psychosocial development"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A study finds that children who watch more violent television have more aggressive behavior. This is most accurately described as:",
+    "options": [
+      "Evidence that watching violent TV causes aggression",
+      "A positive correlation between TV violence exposure and aggression — does not establish causation; confounds (family environment, pre-existing aggression) could explain the relationship",
+      "A negative correlation",
+      "An experimental result demonstrating causation"
+    ],
+    "correct": 1,
+    "explanation": "Correlation ≠ causation. A positive correlation means both variables increase together. However, a correlational study cannot rule out: (1) Third variable / confounding (e.g., permissive parenting → both TV violence exposure AND aggression); (2) Reverse causation (already-aggressive children may prefer violent TV). To establish causation, an experiment is required (randomly assign children to watch violent vs. non-violent TV, measure subsequent aggression). Bandura's Bobo doll experiments (experimental) did establish that observing aggressive models increases aggressive behavior. Meta-analyses find a modest positive correlation between media violence and aggression; effect sizes are debated.",
+    "tags": [
+      "research methods",
+      "correlation",
+      "social psychology"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The concept of 'locus of control' refers to:",
+    "options": [
+      "The brain region that controls attention and impulse regulation",
+      "Whether an individual believes outcomes are determined by their own actions (internal LOC) or by external forces like luck, fate, or powerful others (external LOC) — Rotter's concept",
+      "The degree to which a person can control their emotional responses",
+      "The social hierarchy that controls access to resources"
+    ],
+    "correct": 1,
+    "explanation": "Locus of Control (Rotter, 1966): Internal LOC — 'I control my outcomes; my behavior determines what happens to me.' Associated with better health outcomes, academic achievement, and resilience; more likely to take preventive health actions. External LOC — 'Outcomes depend on luck, chance, or powerful others; I can't control what happens.' Associated with lower motivation, worse health outcomes, and helplessness. Seligman's learned helplessness overlaps conceptually (organisms learn that responses don't affect outcomes → give up). LOC is related to but distinct from self-efficacy (Bandura's concept of belief in one's ability to perform a specific behavior). Relevant in health psychology: internal LOC patients more likely to adhere to treatment.",
+    "tags": [
+      "psychology",
+      "personality",
+      "health psychology",
+      "Rotter"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "According to self-determination theory (Deci & Ryan), the three basic psychological needs that support intrinsic motivation are:",
+    "options": [
+      "Safety, belonging, and esteem (Maslow hierarchy)",
+      "Autonomy (feeling of choice), competence (feeling of effectiveness), and relatedness (feeling of connection to others)",
+      "Achievement, affiliation, and power (McClelland)",
+      "Food, water, and shelter (physiological needs)"
+    ],
+    "correct": 1,
+    "explanation": "Self-Determination Theory (SDT): Deci and Ryan (1985) proposed that humans have three innate psychological needs: (1) Autonomy — feeling that behavior is self-chosen and self-endorsed (not controlled); (2) Competence — feeling effective and capable; (3) Relatedness — feeling connected and cared for by others. When these needs are met by the social environment, intrinsic motivation flourishes and people take on activities for their inherent satisfaction. When needs are thwarted (controlling environments, incompetence induction, social exclusion), intrinsic motivation decreases. SDT distinguishes types of extrinsic motivation: external regulation → introjection → identification → integration (internalization continuum). Clinically relevant: autonomy-supportive healthcare providers improve patient motivation and adherence.",
+    "tags": [
+      "psychology",
+      "motivation",
+      "self-determination theory"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In Piaget's preoperational stage (ages 2–7), children fail the classic conservation task because they focus on only one dimension of a stimulus (e.g., height of water without considering width). This tendency is called:",
+    "options": [
+      "Object permanence failure",
+      "Centration — the child centers attention on only one salient perceptual feature (usually the most visually striking), ignoring other relevant dimensions; leads to failures in conservation of number, volume, and mass",
+      "Formal operational thinking",
+      "Animism"
+    ],
+    "correct": 1,
+    "explanation": "Preoperational stage cognitive limitations: (1) Centration — focus on one dimension (e.g., taller glass = more water, ignoring that it is also narrower); (2) Lack of conservation — same amount of liquid looks different in different-shaped containers; (3) Egocentrism — cannot take another's perspective (three mountains task); (4) Animism — attributing life to inanimate objects; (5) Irreversibility — cannot mentally reverse transformations. Concrete operational stage (7–11): achieves conservation, decentration, reversibility, but thinks concretely. Vygotsky's critique: Piaget underestimated social context; children may fail tasks due to language or unfamiliarity, not just cognitive limitations.",
+    "tags": [
+      "developmental psychology",
+      "Piaget",
+      "cognitive development"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which theory of emotion proposes that physiological arousal and emotional experience occur simultaneously and independently in response to an emotional stimulus?",
+    "options": [
+      "James-Lange theory (physiological arousal → cognitive label → emotion)",
+      "Cannon-Bard theory — the thalamus simultaneously sends signals to the cortex (producing subjective emotion) and to the body (producing physiological arousal); the two occur concurrently rather than sequentially",
+      "Schachter-Singer two-factor theory (arousal + cognitive attribution → emotion)",
+      "Lazarus's appraisal theory (cognitive appraisal precedes emotion)"
+    ],
+    "correct": 1,
+    "explanation": "Theories of emotion: James-Lange (1884): stimulus → physiological arousal → cognitive interpretation of arousal → emotion ('we feel afraid because we tremble'). Cannon-Bard (1927): criticized James-Lange; Cannon showed that bodily arousal patterns are too similar across emotions to explain emotional differentiation; proposed that thalamus simultaneously activates cortex (emotion) and body (arousal) — both are concurrent, not causal. Schachter-Singer (1962): two factors needed — (1) undifferentiated arousal, (2) cognitive attribution of that arousal to a specific emotion (based on situational cues). Lazarus (1991): cognitive appraisal of an event (is this threatening or beneficial?) precedes and causes both arousal and emotion.",
+    "tags": [
+      "psychology",
+      "emotion",
+      "theories of emotion"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following best describes a Type I error in hypothesis testing?",
+    "options": [
+      "Failing to reject a false null hypothesis (missing a real effect)",
+      "Rejecting a true null hypothesis — concluding there is an effect when none exists (false positive); probability of Type I error = α (significance level, typically 0.05)",
+      "Correctly rejecting a false null hypothesis (detecting a true effect)",
+      "A statistical error caused by a biased sample"
+    ],
+    "correct": 1,
+    "explanation": "Hypothesis testing errors: Type I error (false positive): reject H₀ when H₀ is actually true; probability = α (typically 0.05 or 5%). By convention, we accept a 5% chance of being wrong when we conclude significance. Type II error (false negative): fail to reject H₀ when H₀ is false; probability = β (typically 0.20). Power = 1 – β = probability of detecting a true effect. Trade-off: decreasing α (more stringent threshold, e.g., 0.01) reduces Type I error but increases Type II error. Multiple comparisons increase Type I error rate (Bonferroni correction). In medical testing: Type I = false positive test; Type II = false negative test (missed diagnosis).",
+    "tags": [
+      "research methods",
+      "statistics",
+      "hypothesis testing"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The concept of 'social capital' in sociology refers to:",
+    "options": [
+      "The total wealth held by members of a community",
+      "The networks of relationships, norms of reciprocity, and social trust that facilitate coordination and cooperation; bonding social capital (dense ties within groups) vs. bridging social capital (weak ties across groups)",
+      "The human capital (skills and education) accumulated through social interactions",
+      "Government investment in public social programs"
+    ],
+    "correct": 1,
+    "explanation": "Social capital (Bourdieu, Coleman, Putnam): the value embedded in social relationships and networks. Bonding social capital: strong ties within homogeneous groups (family, close friends) — provides emotional support, resource sharing, group identity; can be exclusive and limit diversity. Bridging social capital: weak ties across diverse groups — provides access to new information, economic opportunities, civic participation. Putnam (Bowling Alone, 2000) documented decline of social capital in US. Health implications: social capital buffers stress, promotes health behaviors, facilitates access to healthcare. Low social capital → social isolation → worse health outcomes. Putnam's bowling alone thesis: Americans are less civically engaged despite greater prosperity.",
+    "tags": [
+      "sociology",
+      "social capital",
+      "social networks"
+    ],
+    "difficulty": "medium"
+  }
+]

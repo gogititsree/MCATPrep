@@ -338,82 +338,87 @@
     "difficulty": "easy"
   },
   {
-    "text": "Which quantum numbers specify an electron in the 3d subshell?",
+    "text": "A block of mass 5 kg is pushed across a frictionless surface by a horizontal force of 20 N. What is the block's acceleration?",
     "options": [
-      "n=2, l=3",
-      "n=3, l=1",
-      "n=3, l=3",
-      "n=3, l=2"
+      "1 m/s²",
+      "4 m/s²",
+      "100 m/s²",
+      "0.25 m/s²"
     ],
-    "correct": 3,
-    "explanation": "The principal quantum number n=3 designates the third shell, and the azimuthal quantum number l=2 designates a d subshell (l: 0=s, 1=p, 2=d, 3=f).",
+    "correct": 1,
+    "explanation": "Newton's second law: F = ma → a = F/m = 20 N / 5 kg = 4 m/s². Since the surface is frictionless, the only horizontal force is the applied force. The normal force and gravity cancel vertically. This is a direct application of F = ma with no complicating factors.",
     "tags": [
-      "atomic-structure",
-      "quantum-numbers"
+      "physics",
+      "Newton's laws",
+      "mechanics"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "Which element has the highest first ionization energy?",
+    "text": "A car traveling at 30 m/s brakes uniformly and stops in 6 seconds. What is the magnitude of its deceleration?",
     "options": [
-      "Kr",
-      "Ar",
-      "He",
-      "Ne"
+      "5 m/s²",
+      "180 m/s²",
+      "0.2 m/s²",
+      "36 m/s²"
+    ],
+    "correct": 0,
+    "explanation": "Using kinematics: a = Δv/Δt = (0 – 30 m/s) / 6 s = –5 m/s². The magnitude of deceleration is 5 m/s². The negative sign indicates deceleration (opposing motion). The stopping distance is: d = v₀t + ½at² = 30(6) + ½(–5)(36) = 180 – 90 = 90 m (or via v² = v₀² + 2ad → 0 = 900 + 2(–5)d → d = 90 m).",
+    "tags": [
+      "physics",
+      "kinematics",
+      "mechanics"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Two objects, A (mass 2 kg) and B (mass 8 kg), rest on a frictionless surface and are connected by a compressed spring. When released, object A moves to the right at 4 m/s. What is the velocity of B?",
+    "options": [
+      "1 m/s to the left",
+      "16 m/s to the left",
+      "4 m/s to the left",
+      "0.5 m/s to the right"
+    ],
+    "correct": 0,
+    "explanation": "Conservation of momentum: total initial momentum = 0 (system at rest). After release: pA + pB = 0 → mA·vA + mB·vB = 0 → (2)(4) + (8)vB = 0 → vB = –1 m/s. The negative sign indicates leftward motion (opposite to A). This is an explosion-type problem: internal forces (spring) cannot change total system momentum.",
+    "tags": [
+      "physics",
+      "momentum",
+      "conservation laws"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A 60 kg person stands on a scale in an elevator accelerating upward at 2 m/s². What does the scale read? (g = 10 m/s²)",
+    "options": [
+      "480 N",
+      "600 N",
+      "720 N",
+      "60 N"
     ],
     "correct": 2,
-    "explanation": "Helium has the highest first ionization energy of all elements (~2372 kJ/mol) due to its small atomic radius and full 1s² shell with no shielding electrons.",
+    "explanation": "The scale reads the normal force N. Applying Newton's second law (net upward force = ma): N – mg = ma → N = m(g + a) = 60(10 + 2) = 60 × 12 = 720 N. Upward acceleration increases apparent weight. Downward acceleration (or free fall): N = m(g – a), reaching 0 in free fall (weightlessness). This reflects the equivalence principle — acceleration is indistinguishable from gravity locally.",
     "tags": [
-      "periodic-trends",
-      "ionization-energy"
+      "physics",
+      "Newton's laws",
+      "forces"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "Across a period from left to right, atomic radius generally:",
+    "text": "A 0.5 kg ball is swung in a horizontal circle of radius 2 m at a speed of 4 m/s. What is the centripetal force?",
     "options": [
-      "Increases due to more electron shells",
-      "Remains constant",
-      "Increases due to decreasing nuclear charge",
-      "Decreases due to increasing nuclear charge with same shielding"
+      "4 N",
+      "8 N",
+      "16 N",
+      "1 N"
     ],
-    "correct": 3,
-    "explanation": "Across a period, nuclear charge increases while electrons are added to the same shell (minimal additional shielding), causing the electron cloud to contract.",
+    "correct": 0,
+    "explanation": "Centripetal force: Fc = mv²/r = (0.5 kg)(4 m/s)²/(2 m) = (0.5)(16)/2 = 4 N. Centripetal force is always directed toward the center of the circle. The centripetal acceleration is ac = v²/r = 16/2 = 8 m/s². This force is provided by the tension in the string (or friction for a car on a curve, or gravity for orbital motion).",
     "tags": [
-      "periodic-trends",
-      "atomic-radius"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "The electron configuration of Fe²⁺ is:",
-    "options": [
-      "[Ar] 3d⁴",
-      "[Ar] 3d⁵ 4s¹",
-      "[Ar] 3d⁶",
-      "[Ar] 3d⁶ 4s²"
-    ],
-    "correct": 2,
-    "explanation": "Neutral Fe is [Ar] 3d⁶ 4s². When Fe loses 2 electrons to form Fe²⁺, the 4s electrons are removed first, leaving [Ar] 3d⁶.",
-    "tags": [
-      "electron-configuration",
-      "transition-metals"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which property generally increases going down a group in the periodic table?",
-    "options": [
-      "First ionization energy",
-      "Electronegativity",
-      "Electron affinity",
-      "Atomic radius"
-    ],
-    "correct": 3,
-    "explanation": "Atomic radius increases down a group because each successive element has an additional electron shell, increasing the distance between the nucleus and valence electrons.",
-    "tags": [
-      "periodic-trends",
-      "atomic-radius"
+      "physics",
+      "circular motion",
+      "mechanics"
     ],
     "difficulty": "easy"
   }

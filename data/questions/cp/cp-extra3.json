@@ -1,0 +1,346 @@
+[
+  {
+    "text": "A block of mass 5 kg is pushed across a frictionless surface by a horizontal force of 20 N. What is the block's acceleration?",
+    "options": ["1 m/s²", "4 m/s²", "100 m/s²", "0.25 m/s²"],
+    "correct": 1,
+    "explanation": "Newton's second law: F = ma → a = F/m = 20 N / 5 kg = 4 m/s². Since the surface is frictionless, the only horizontal force is the applied force. The normal force and gravity cancel vertically. This is a direct application of F = ma with no complicating factors.",
+    "tags": ["physics", "Newton's laws", "mechanics"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A car traveling at 30 m/s brakes uniformly and stops in 6 seconds. What is the magnitude of its deceleration?",
+    "options": ["5 m/s²", "180 m/s²", "0.2 m/s²", "36 m/s²"],
+    "correct": 0,
+    "explanation": "Using kinematics: a = Δv/Δt = (0 – 30 m/s) / 6 s = –5 m/s². The magnitude of deceleration is 5 m/s². The negative sign indicates deceleration (opposing motion). The stopping distance is: d = v₀t + ½at² = 30(6) + ½(–5)(36) = 180 – 90 = 90 m (or via v² = v₀² + 2ad → 0 = 900 + 2(–5)d → d = 90 m).",
+    "tags": ["physics", "kinematics", "mechanics"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Two objects, A (mass 2 kg) and B (mass 8 kg), rest on a frictionless surface and are connected by a compressed spring. When released, object A moves to the right at 4 m/s. What is the velocity of B?",
+    "options": ["1 m/s to the left", "16 m/s to the left", "4 m/s to the left", "0.5 m/s to the right"],
+    "correct": 0,
+    "explanation": "Conservation of momentum: total initial momentum = 0 (system at rest). After release: pA + pB = 0 → mA·vA + mB·vB = 0 → (2)(4) + (8)vB = 0 → vB = –1 m/s. The negative sign indicates leftward motion (opposite to A). This is an explosion-type problem: internal forces (spring) cannot change total system momentum.",
+    "tags": ["physics", "momentum", "conservation laws"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A 60 kg person stands on a scale in an elevator accelerating upward at 2 m/s². What does the scale read? (g = 10 m/s²)",
+    "options": ["480 N", "600 N", "720 N", "60 N"],
+    "correct": 2,
+    "explanation": "The scale reads the normal force N. Applying Newton's second law (net upward force = ma): N – mg = ma → N = m(g + a) = 60(10 + 2) = 60 × 12 = 720 N. Upward acceleration increases apparent weight. Downward acceleration (or free fall): N = m(g – a), reaching 0 in free fall (weightlessness). This reflects the equivalence principle — acceleration is indistinguishable from gravity locally.",
+    "tags": ["physics", "Newton's laws", "forces"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A 0.5 kg ball is swung in a horizontal circle of radius 2 m at a speed of 4 m/s. What is the centripetal force?",
+    "options": ["4 N", "8 N", "16 N", "1 N"],
+    "correct": 0,
+    "explanation": "Centripetal force: Fc = mv²/r = (0.5 kg)(4 m/s)²/(2 m) = (0.5)(16)/2 = 4 N. Centripetal force is always directed toward the center of the circle. The centripetal acceleration is ac = v²/r = 16/2 = 8 m/s². This force is provided by the tension in the string (or friction for a car on a curve, or gravity for orbital motion).",
+    "tags": ["physics", "circular motion", "mechanics"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A spring with spring constant k = 200 N/m is compressed by 0.1 m. What is the elastic potential energy stored?",
+    "options": ["20 J", "1 J", "10 J", "0.1 J"],
+    "correct": 1,
+    "explanation": "Elastic potential energy: PE = ½kx² = ½(200)(0.1)² = ½(200)(0.01) = 1 J. This energy can be converted to kinetic energy when the spring is released. If a 0.5 kg ball is attached: ½mv² = 1 J → v = √(2/0.5) = 2 m/s. Note: PE = ½kx² doubles when x doubles only if we compare k·x (force) — but since PE ∝ x², doubling compression quadruples stored energy.",
+    "tags": ["physics", "springs", "energy"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Water flows through a horizontal pipe that narrows from a diameter of 4 cm to 2 cm. If the velocity in the wide section is 1 m/s, what is the velocity in the narrow section?",
+    "options": ["2 m/s", "4 m/s", "0.5 m/s", "8 m/s"],
+    "correct": 1,
+    "explanation": "Continuity equation: A₁v₁ = A₂v₂. Cross-sectional area A = πr² ∝ d². A₁/A₂ = (d₁/d₂)² = (4/2)² = 4. So v₂ = v₁(A₁/A₂) = 1 × 4 = 4 m/s. When the diameter halves, the area quarters, so the velocity must quadruple to conserve mass flow (for incompressible fluid). Bernoulli's principle: increased velocity in the narrow section → decreased pressure (explains atomizers, carburetors, venturi meters).",
+    "tags": ["physics", "fluid dynamics", "continuity equation"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A sound wave in air has a frequency of 500 Hz. If the speed of sound is 340 m/s, what is the wavelength?",
+    "options": ["0.68 m", "1.47 m", "170000 m", "0.34 m"],
+    "correct": 0,
+    "explanation": "Wave equation: v = fλ → λ = v/f = 340/500 = 0.68 m. Sound at 500 Hz (close to natural resonance of the human ear canal) has a wavelength of 68 cm. The human hearing range (20 Hz – 20 kHz) corresponds to wavelengths of 17 m – 1.7 cm in air. Ultrasound (>20 kHz) has shorter wavelengths, enabling higher-resolution medical imaging (shorter λ = better spatial resolution, but greater attenuation in tissue).",
+    "tags": ["physics", "waves", "acoustics"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "An ideal gas undergoes an isothermal expansion at 300 K, doubling its volume. What happens to its pressure?",
+    "options": ["Pressure doubles", "Pressure halves", "Pressure stays the same", "Pressure quadruples"],
+    "correct": 1,
+    "explanation": "For an ideal gas at constant temperature (isothermal): PV = nRT = constant → P₁V₁ = P₂V₂. If V₂ = 2V₁, then P₂ = P₁V₁/V₂ = P₁/2. Pressure halves when volume doubles. This is Boyle's Law (P ∝ 1/V at constant T). Physically: same number of molecules in twice the volume → half as many collisions per unit area per unit time → half the pressure. For isothermal expansion of an ideal gas: ΔU = 0 (U depends only on T); work done by gas = nRT·ln(V₂/V₁) = nRT·ln(2) > 0; heat absorbed from surroundings = work done.",
+    "tags": ["physics", "thermodynamics", "ideal gas"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In a circuit, three resistors of 2 Ω, 4 Ω, and 6 Ω are connected in series to a 24 V battery. What current flows through the circuit?",
+    "options": ["2 A", "1.5 A", "4 A", "12 A"],
+    "correct": 0,
+    "explanation": "Series resistors: Rtotal = R1 + R2 + R3 = 2 + 4 + 6 = 12 Ω. Ohm's law: I = V/R = 24/12 = 2 A. In a series circuit, the same current flows through all resistors. Voltage drops: V₂Ω = 2×2 = 4 V; V₄Ω = 2×4 = 8 V; V₆Ω = 2×6 = 12 V. Check: 4 + 8 + 12 = 24 V ✓ (Kirchhoff's voltage law). Power dissipated: P = I²R_total = 4 × 12 = 48 W, or P = IV = 2 × 24 = 48 W.",
+    "tags": ["physics", "circuits", "Ohm's law"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "An object is placed 30 cm in front of a converging lens with a focal length of 10 cm. Where is the image formed?",
+    "options": ["15 cm behind the lens", "15 cm in front of the lens", "30 cm behind the lens", "At infinity"],
+    "correct": 0,
+    "explanation": "Thin lens equation: 1/f = 1/do + 1/di → 1/10 = 1/30 + 1/di → 1/di = 1/10 – 1/30 = 3/30 – 1/30 = 2/30 → di = 15 cm. Positive di means real image, formed on the opposite side of the lens from the object. Magnification: m = –di/do = –15/30 = –0.5 (real, inverted, smaller image). When do > f, a converging lens forms a real, inverted image. When do < f, it forms a virtual, upright, magnified image (magnifying glass). When do = f, di → ∞ (used in collimating beams).",
+    "tags": ["physics", "optics", "lenses"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which statement correctly describes the photoelectric effect?",
+    "options": ["Increasing the intensity of light always increases the kinetic energy of ejected electrons", "Electrons are ejected only when the photon frequency exceeds the work function threshold; kinetic energy of ejected electrons depends on frequency (not intensity), and intensity only affects the number of electrons ejected", "The photoelectric effect can be explained by classical wave theory of light", "Electrons are ejected more easily from metals with larger work functions"],
+    "correct": 1,
+    "explanation": "Photoelectric effect (Einstein, 1905): light behaves as photons (E = hf). Key features: (1) Threshold frequency — electrons are only ejected if hf ≥ φ (work function); below threshold, no electrons are ejected regardless of intensity; (2) Kinetic energy of ejected electrons: KE = hf – φ (depends on frequency, not intensity); (3) Intensity affects the number of electrons ejected (more photons → more electrons), not their energy; (4) Emission is instantaneous (no time lag). Classical wave theory predicted: all frequencies could eject electrons given enough intensity (wrong); energy would build up over time (wrong). This experiment proved the quantum nature of light and earned Einstein the Nobel Prize.",
+    "tags": ["physics", "quantum mechanics", "photoelectric effect"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient undergoes an MRI scan. The MRI magnetic field causes hydrogen nuclei to precess. What determines the precession (Larmor) frequency?",
+    "options": ["The mass of the hydrogen nucleus only", "The gyromagnetic ratio of the nucleus multiplied by the applied magnetic field strength (ω = γB₀) — higher field strengths produce higher precession frequencies and better resolution", "The density of protons in the tissue", "The temperature of the patient's body"],
+    "correct": 1,
+    "explanation": "MRI physics: protons (¹H) have intrinsic spin and a magnetic moment. In a static magnetic field B₀, protons precess around B₀ at the Larmor frequency: ω₀ = γB₀, where γ is the gyromagnetic ratio (for ¹H: 42.58 MHz/T). A radiofrequency pulse at ω₀ resonates with the protons (NMR resonance condition), flipping their net magnetization. When the RF pulse stops, protons relax back to equilibrium, emitting RF signals at ω₀ detected by receiver coils. T1 (longitudinal relaxation) and T2 (transverse relaxation) times differ between tissues (fat, water, gray matter) → image contrast. Higher B₀ → higher SNR and resolution. ¹H is used because of its high natural abundance and large gyromagnetic ratio.",
+    "tags": ["physics", "MRI", "NMR", "magnetism"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A 1000 kg car traveling at 20 m/s collides with a stationary 1000 kg car and they stick together. What is the velocity of the combined cars after the collision?",
+    "options": ["20 m/s", "10 m/s", "5 m/s", "14 m/s"],
+    "correct": 1,
+    "explanation": "Perfectly inelastic collision (objects stick together): conservation of momentum: m₁v₁ + m₂v₂ = (m₁ + m₂)v_f → (1000)(20) + (1000)(0) = (2000)v_f → v_f = 20000/2000 = 10 m/s. Kinetic energy is not conserved: KE_initial = ½(1000)(20²) = 200,000 J; KE_final = ½(2000)(10²) = 100,000 J. Energy lost = 100,000 J (converted to heat, sound, deformation). This is always true for perfectly inelastic collisions — maximum KE is lost while momentum is conserved.",
+    "tags": ["physics", "momentum", "collisions"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "What is the pH of a 0.01 M HCl solution?",
+    "options": ["1", "2", "12", "7"],
+    "correct": 1,
+    "explanation": "HCl is a strong acid that dissociates completely: [H+] = 0.01 M = 10⁻² M. pH = –log[H+] = –log(10⁻²) = 2. Note: 0.1 M HCl → pH 1; 0.001 M HCl → pH 3. pH scale: 0–14 in water at 25°C. pH < 7 is acidic; pH > 7 is basic. At 25°C, pure water: pH = pOH = 7. pOH of 0.01 M HCl: pOH = 14 – 2 = 12; [OH⁻] = 10⁻¹² M. Verify: [H+][OH⁻] = Kw = 10⁻¹⁴.",
+    "tags": ["chemistry", "acid-base", "pH"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following intermolecular forces is responsible for the unusually high boiling point of water compared to H₂S?",
+    "options": ["London dispersion forces (water is larger and more polarizable)", "Hydrogen bonding — water (H₂O) can form up to 4 hydrogen bonds per molecule (2 donor O-H bonds, 2 acceptor lone pairs on O); H₂S cannot because sulfur's electronegativity and size are insufficient for hydrogen bonding", "Ionic bonding within liquid water", "Dipole-dipole interactions only, with no hydrogen bonding in water"],
+    "correct": 1,
+    "explanation": "Hydrogen bonding requires: H bonded to a highly electronegative atom (N, O, F) forming the donor; the acceptor is a lone pair on N, O, or F. Water (O–H bonds) satisfies both criteria. H₂S: sulfur is much larger and less electronegative than oxygen → cannot form true H-bonds → H₂S has much lower boiling point (–60°C) than H₂O (+100°C). Water's network of H-bonds (each ~20 kJ/mol) explains its: high BP, high specific heat capacity, high heat of vaporization, surface tension, expansion on freezing, and biological importance as a universal solvent. London dispersion increases with molecular size — but H₂S (larger) has lower BP than H₂O, proving H-bonding is the dominant factor in water.",
+    "tags": ["chemistry", "intermolecular forces", "hydrogen bonding"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In an SN2 reaction, which substrate is most reactive?",
+    "options": ["Tertiary alkyl halide (3°)", "Primary alkyl halide (1°) — minimal steric hindrance allows the nucleophile to attack the back of the carbon bearing the leaving group in a concerted bimolecular mechanism", "Neopentyl halide (very hindered primary)", "Vinyl halide"],
+    "correct": 1,
+    "explanation": "SN2 (bimolecular nucleophilic substitution) mechanism: nucleophile attacks the electrophilic carbon from the back (180° to leaving group) in a single concerted step → Walden inversion (inversion of configuration at the chiral center). Rate = k[Nu][substrate]. Steric hindrance at the reaction center is the dominant factor: methyl > primary > secondary >> tertiary (steric hindrance prevents backside attack). Neopentyl: formally primary but has a bulky tert-butyl group — extremely slow SN2 despite primary. Tertiary: essentially no SN2 (favors SN1/E2). Vinyl and aryl halides: no SN2 (sp² carbon, no accessible backside). Good nucleophiles (CN⁻, I⁻, RS⁻) and polar aprotic solvents (DMSO, DMF, acetone) favor SN2.",
+    "tags": ["chemistry", "organic chemistry", "SN2", "reaction mechanisms"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "What is the hybridization and geometry of the nitrogen atom in ammonia (NH₃)?",
+    "options": ["sp² hybridized, trigonal planar", "sp³ hybridized, trigonal pyramidal (due to one lone pair occupying one sp³ orbital)", "sp hybridized, linear", "sp³d hybridized, see-saw"],
+    "correct": 1,
+    "explanation": "NH₃: N has 5 valence electrons. Four electron pairs around N: 3 bonding pairs (N–H) + 1 lone pair → sp³ hybridization (4 electron domains). VSEPR: electron geometry = tetrahedral; molecular geometry = trigonal pyramidal (lone pair not counted in shape, but occupies more space than bonding pairs → bond angle ~107°, slightly less than tetrahedral 109.5°). The lone pair makes NH₃ a Lewis base and explains its nucleophilicity. Compare: BF₃ (no lone pairs, sp², trigonal planar, 120°); NF₃ (also sp³, trigonal pyramidal, but F's pull electron density away → weaker base).",
+    "tags": ["chemistry", "molecular geometry", "VSEPR", "hybridization"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A reaction has ΔG° = –20 kJ/mol at 298 K. What can be concluded about the equilibrium constant K?",
+    "options": ["K < 1 (products not favored at equilibrium)", "K > 1 (products are favored at equilibrium) — ΔG° = –RT lnK, so negative ΔG° means lnK > 0, meaning K > 1", "K = 1 (reaction is at equilibrium under standard conditions)", "Cannot determine K without knowing ΔH and ΔS separately"],
+    "correct": 1,
+    "explanation": "The van't Hoff equation: ΔG° = –RT lnK. At 298 K: –20,000 J/mol = –(8.314)(298) lnK → lnK = 20,000/(8.314 × 298) = 20,000/2478 ≈ 8.07 → K ≈ e^8.07 ≈ 3,200. Negative ΔG° → positive lnK → K > 1 → products favored at equilibrium. Note: ΔG° is about equilibrium position (where the system will end up); ΔG (not °) is the driving force at any given composition, equal to zero at equilibrium. ΔG° ≠ ΔG. Standard conditions: 1 M concentrations, 1 atm, 25°C.",
+    "tags": ["chemistry", "thermodynamics", "equilibrium", "Gibbs free energy"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following correctly describes the relationship between an acid's pKa and its strength?",
+    "options": ["A higher pKa means a stronger acid", "A lower pKa means a stronger acid — pKa = –log(Ka), so a lower pKa corresponds to a larger Ka (greater degree of dissociation)", "pKa has no relationship to acid strength", "pKa only applies to weak acids; strong acids have no pKa"],
+    "correct": 1,
+    "explanation": "Ka is the acid dissociation constant: HA ⇌ H+ + A⁻; Ka = [H+][A⁻]/[HA]. pKa = –log Ka. A stronger acid has a larger Ka (dissociates more) → smaller pKa. Examples: HCl (Ka >> 1, pKa ≈ –7, very strong); acetic acid (Ka = 1.8×10⁻⁵, pKa = 4.74, weak); water (Ka = 1.8×10⁻¹⁶, pKa = 15.7, very weak acid). Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA]). At pH = pKa, [A⁻] = [HA] (50% dissociated). Strong acids (pKa < 0) are fully dissociated in water.",
+    "tags": ["chemistry", "acid-base", "pKa"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "An electron in a hydrogen atom falls from n=3 to n=1. Does the atom absorb or emit a photon, and what is the energy of the photon? (Use E_n = –13.6/n² eV)",
+    "options": ["Absorbs a photon; energy = 13.6 eV", "Emits a photon; energy = 12.09 eV (ΔE = –13.6/1² – (–13.6/3²) = –13.6 + 1.51 = –12.09 eV)", "Emits a photon; energy = 1.51 eV", "Absorbs a photon; energy = 12.09 eV"],
+    "correct": 1,
+    "explanation": "Energy levels: E_n = –13.6/n² eV. E₁ = –13.6 eV; E₃ = –13.6/9 = –1.51 eV. Transition from n=3 to n=1 is a downward transition (lower energy state) → atom releases energy by emitting a photon. ΔE = E_final – E_initial = E₁ – E₃ = –13.6 – (–1.51) = –12.09 eV. The photon energy = |ΔE| = 12.09 eV (UV range — part of Lyman series, n→1 transitions). λ = hc/E = (4.14×10⁻¹⁵ eV·s)(3×10⁸ m/s)/(12.09 eV) ≈ 103 nm (UV). Absorption: photon absorbed when electron goes up; emission: photon emitted when electron falls down.",
+    "tags": ["physics", "atomic physics", "Bohr model", "quantum mechanics"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which statement correctly describes the differences between alpha (α), beta (β), and gamma (γ) radiation in terms of penetrating power and ionizing ability?",
+    "options": ["Alpha is most penetrating; gamma is least penetrating", "Alpha particles (He nuclei, +2) are least penetrating but most ionizing; beta particles (electrons, –1) are intermediate; gamma rays (photons) are most penetrating but least ionizing per unit path length", "All three types have equal penetrating power in tissue", "Beta particles are more ionizing than alpha particles"],
+    "correct": 1,
+    "explanation": "Ionizing radiation properties: Alpha (α): helium-4 nuclei (2p + 2n, +2 charge); very large mass and charge → high ionization density; stopped by a sheet of paper or a few cm of air; cannot penetrate skin; dangerous if inhaled/ingested (internal emitter). Beta (β): electrons (β⁻) or positrons (β⁺); stopped by a few mm of aluminum or plastic; moderate penetration and ionization. Gamma (γ): high-energy photons; no charge or mass; penetrate deeply (require lead or thick concrete shielding); least ionizing per unit path length. In medicine: γ-emitters used in nuclear imaging (Tc-99m); β-emitters in therapy (I-131 for thyroid cancer); α-emitters in targeted cancer therapy (Ra-223 for bone metastases).",
+    "tags": ["physics", "nuclear physics", "radiation"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A buffer solution contains 0.1 M acetic acid (pKa = 4.74) and 0.2 M sodium acetate. What is the pH of this buffer?",
+    "options": ["4.74", "5.04", "4.44", "4.0"],
+    "correct": 1,
+    "explanation": "Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA]) = 4.74 + log(0.2/0.1) = 4.74 + log(2) = 4.74 + 0.30 = 5.04. When [A⁻] > [HA], pH > pKa (more base pushes pH above pKa). Buffer capacity is maximal at pH = pKa (equal concentrations of acid and conjugate base). Buffers effectively resist pH change within ~1 pH unit of the pKa. This calculation is fundamental for understanding physiological buffers: bicarbonate buffer (pKa₁ = 6.1: pH = 7.4, so [HCO₃⁻]/[CO₂] ≈ 20:1), phosphate buffer (pKa = 6.8 — important in urine and intracellular).",
+    "tags": ["chemistry", "acid-base", "buffers", "Henderson-Hasselbalch"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "What is the oxidation state of sulfur in sulfuric acid (H₂SO₄)?",
+    "options": ["+4", "+6", "+2", "–2"],
+    "correct": 1,
+    "explanation": "Assigning oxidation states in H₂SO₄: H = +1 each (×2 = +2); O = –2 each (×4 = –8); total must sum to 0. 2 + S + (–8) = 0 → S = +6. Sulfur is in its highest common oxidation state (+6) in H₂SO₄ and SO₄²⁻. Compare: SO₂ (S = +4), H₂S (S = –2), S (elemental, 0), thiosulfate (S₂O₃²⁻, average S = +2). Sulfuric acid is a strong oxidizing agent in concentrated form (can oxidize metals above hydrogen). The high oxidation state explains its electrophilic character and reactivity.",
+    "tags": ["chemistry", "oxidation states", "redox"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A galvanic cell uses the reaction: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s). Given E°cell = +1.10 V, what is the standard Gibbs free energy change?",
+    "options": ["–212 kJ/mol", "+212 kJ/mol", "–106 kJ/mol", "+106 kJ/mol"],
+    "correct": 0,
+    "explanation": "ΔG° = –nFE°. Number of electrons transferred: Zn → Zn²⁺ + 2e⁻ (n = 2). F = 96,485 C/mol (Faraday's constant ≈ 96,500). ΔG° = –(2)(96,500)(1.10) = –212,300 J/mol ≈ –212 kJ/mol. Negative ΔG° confirms the reaction is spontaneous under standard conditions (galvanic cell). The Cu²⁺/Cu half-cell is the cathode (reduction, +0.34 V); Zn/Zn²⁺ is the anode (oxidation, –(–0.76 V) = +0.76 V). E°cell = E°cathode – E°anode = 0.34 – (–0.76) = +1.10 V. Related: ln K = nFE°/RT → K = e^(nFE°/RT).",
+    "tags": ["chemistry", "electrochemistry", "thermodynamics"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In nuclear magnetic resonance (NMR) spectroscopy, a proton with a chemical shift of 7–8 ppm is most likely:",
+    "options": ["A proton on an sp³ carbon far from any electronegative group (alkyl CH)", "An aromatic proton — aromatic ring currents create a local magnetic field that deshields aromatic protons, shifting them significantly downfield to 7–8 ppm", "An alcohol OH proton", "A proton alpha to a carbonyl (α-CH₂) only"],
+    "correct": 1,
+    "explanation": "¹H NMR chemical shifts (ppm): alkyl CH (0.5–1.5), allylic/benzylic CH (1.5–2.5), α to C=O (2–3), alkyne CH (2.5), OCH (3.5–4.5), vinyl/alkene (4.5–6.5), aromatic H (6.5–8.5), aldehyde H (9–10), carboxylic acid OH (10–12). Aromatic protons (~7–8 ppm) are highly deshielded by the ring current effect: circulation of π electrons in the aromatic ring generates a secondary magnetic field that opposes B₀ above/below the ring (shielding) but reinforces B₀ in the plane of the ring where H atoms are located → protons are strongly deshielded → large chemical shift. Alcohol OH: variable (1–5 ppm, broad due to exchange).",
+    "tags": ["chemistry", "NMR spectroscopy", "organic chemistry"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient is given nitroglycerin to treat angina pectoris. Which mechanism explains its action?",
+    "options": ["Nitroglycerin blocks calcium channels in the heart, reducing heart rate", "Nitroglycerin is metabolized to nitric oxide (NO), which activates guanylyl cyclase → cGMP → PKG → smooth muscle relaxation → venodilation (reduces preload) and arteriolar dilation (reduces afterload), decreasing cardiac oxygen demand", "Nitroglycerin inhibits phosphodiesterase, increasing cAMP", "Nitroglycerin directly inhibits myosin ATPase in cardiac muscle"],
+    "correct": 1,
+    "explanation": "Organic nitrates (nitroglycerin, isosorbide mononitrate) are prodrugs converted to NO by mitochondrial aldehyde dehydrogenase (ALDH2) in vascular smooth muscle. NO → sGC → cGMP → PKG → (1) activates myosin light chain phosphatase → dephosphorylates myosin → relaxation; (2) inhibits Ca²⁺ influx. Predominantly venodilator at low doses → reduces venous return (preload) → reduces cardiac wall tension and O₂ demand → relieves angina. At higher doses, arteriolar dilation → reduced afterload. Headache and hypotension are common side effects (vasodilation). Tolerance (tachyphylaxis) develops with continuous use (depletes ALDH2 and NO-generation capacity) — requires nitrate-free intervals. Sildenafil + nitroglycerin is contraindicated (severe hypotension from additive cGMP effects).",
+    "tags": ["pharmacology", "cardiovascular", "nitric oxide"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which of the following correctly orders the bond lengths from shortest to longest: C≡C, C=C, C–C?",
+    "options": ["C–C < C=C < C≡C", "C≡C < C=C < C–C", "C=C < C≡C < C–C", "All carbon-carbon bonds have the same length"],
+    "correct": 1,
+    "explanation": "More bonds between atoms = shorter, stronger bond. C≡C (triple bond, sp hybridized): ~1.20 Å, bond energy ~835 kJ/mol. C=C (double bond, sp²): ~1.34 Å, bond energy ~614 kJ/mol. C–C (single bond, sp³): ~1.54 Å, bond energy ~347 kJ/mol. Bond order inversely correlates with bond length and directly correlates with bond energy. The additional π bonds in double and triple bonds pull the nuclei closer together. This pattern applies to other bonds: N≡N (1.10 Å) < N=N (1.24 Å) < N–N (1.45 Å). MCAT relevance: IR spectroscopy — higher bond order → higher force constant → higher stretching frequency (C≡C stretch at ~2100 cm⁻¹; C=C ~1650 cm⁻¹; C–C ~1200 cm⁻¹).",
+    "tags": ["chemistry", "organic chemistry", "chemical bonding"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A 70 kg person climbs a flight of stairs (height = 5 m) in 10 seconds. What is their power output? (g = 10 m/s²)",
+    "options": ["350 W", "3500 W", "70 W", "700 W"],
+    "correct": 0,
+    "explanation": "Power = Work/time. Work done against gravity = mgh = (70)(10)(5) = 3500 J. Power = 3500 J / 10 s = 350 W. This is approximately 0.47 horsepower (1 hp = 746 W). Note: this is the mechanical power output — metabolic power (from food) is much higher (~3× due to ~25–35% efficiency of muscles). A Tour de France cyclist sustains ~400 W output for extended periods. Power can also be calculated as P = Fv = (mg)(v) = (700 N)(0.5 m/s) = 350 W.",
+    "tags": ["physics", "energy", "power", "mechanics"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In the context of acid-base chemistry, a Lewis acid differs from a Brønsted-Lowry acid in that:",
+    "options": ["Lewis acids donate protons; Brønsted-Lowry acids accept electrons", "Lewis acids accept electron pairs (electrophiles) rather than donating protons; all Brønsted-Lowry acids are Lewis acids, but Lewis acids include species that do not involve proton transfer (e.g., BF₃, AlCl₃, Fe³⁺)", "Lewis acids and Brønsted-Lowry acids are identical concepts", "Lewis acids only apply to organic reactions; Brønsted-Lowry applies to aqueous solutions only"],
+    "correct": 1,
+    "explanation": "Brønsted-Lowry: acid = proton (H+) donor; base = proton acceptor. Lewis: acid = electron pair acceptor; base = electron pair donor. Lewis definition is broader: all Brønsted-Lowry acids are Lewis acids (H+ is an electron pair acceptor) but not vice versa. Lewis acids without protons: BF₃, BCl₃, AlCl₃ (empty p orbital accepts e⁻ pair); transition metal ions (Fe³⁺, Zn²⁺, Cu²⁺ — empty d orbitals); carbocations (empty p orbital). Lewis acid-base reactions: coordinate covalent bond formation (H₃N: + BF₃ → H₃N–BF₃). Relevant in organic chemistry: Friedel-Crafts reactions use Lewis acid catalysts (AlCl₃); metal coordination complexes.",
+    "tags": ["chemistry", "acid-base", "Lewis acid"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Two parallel plates are separated by 0.01 m and have a potential difference of 100 V. What is the electric field between the plates?",
+    "options": ["1 V/m", "10,000 V/m", "1000 V/m", "0.0001 V/m"],
+    "correct": 1,
+    "explanation": "For a uniform electric field between parallel plates: E = V/d = 100 V / 0.01 m = 10,000 V/m = 10 kV/m. The field is uniform (constant magnitude and direction) between ideal parallel plates and points from the positive to the negative plate. A proton in this field experiences force: F = qE = (1.6×10⁻¹⁹)(10,000) = 1.6×10⁻¹⁵ N. Parallel plates are the basis for capacitors: C = ε₀A/d; Q = CV; E_stored = ½CV²= ½QV. The uniform field between parallel plates is analogous to uniform gravitational field near Earth's surface.",
+    "tags": ["physics", "electrostatics", "electric field"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following best explains why tertiary alcohols undergo dehydration (elimination to alkene) faster than primary alcohols under acidic conditions?",
+    "options": ["Tertiary alcohols are better nucleophiles", "Tertiary alcohols form more stable carbocation intermediates (3° > 2° > 1°) after protonation and loss of water; the Hammond postulate states that more stable intermediates have lower activation energy → faster reaction via E1 mechanism", "Primary alcohols preferentially undergo E2 elimination", "Tertiary carbocations are less reactive and thus form more slowly"],
+    "correct": 1,
+    "explanation": "Acid-catalyzed dehydration of alcohols proceeds via E1 (for 2° and 3°): (1) Protonation of OH by H+ → good leaving group (H₂O); (2) Loss of water → carbocation; (3) Deprotonation by base → alkene. The rate-limiting step is carbocation formation. Stability order: 3° > 2° > 1° (more alkyl groups stabilize positive charge by hyperconjugation and induction). By Hammond's postulate (transition state resembles intermediate for endothermic steps), more stable carbocation → lower energy TS → lower activation energy → faster reaction. 3° alcohols dehydrate easily; 1° alcohols require harsher conditions and often go via E2. Zaitsev's rule: major product is the more substituted (more stable) alkene.",
+    "tags": ["chemistry", "organic chemistry", "elimination reactions", "alcohols"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In a double-slit experiment, the distance between adjacent bright fringes is observed to increase. Which experimental change could cause this?",
+    "options": ["Decreasing the wavelength of light used", "Increasing the distance from the slits to the screen (L) or decreasing the slit separation (d), since fringe spacing Δy = λL/d", "Increasing the slit width", "Decreasing the intensity of light"],
+    "correct": 1,
+    "explanation": "Young's double-slit experiment: constructive interference (bright fringes) occurs at path difference = mλ. Fringe spacing: Δy = λL/d, where λ = wavelength, L = screen distance, d = slit separation. To increase Δy: (1) Increase L (move screen farther); (2) Decrease d (bring slits closer together); (3) Increase λ (use longer-wavelength, redder light). Decreasing λ would decrease fringe spacing. Slit width affects diffraction envelope (single-slit pattern modulating the fringes) but does not change fringe spacing directly. Intensity changes don't affect spacing, only brightness. This experiment demonstrates wave nature of light.",
+    "tags": ["physics", "optics", "wave interference"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which organic functional group is most susceptible to nucleophilic addition, and why?",
+    "options": ["Alkene (C=C) — the pi electrons attract nucleophiles", "Aldehyde (RCHO) — the carbonyl carbon is highly electrophilic due to the electronegative oxygen withdrawing electron density; and the R group on one side provides less steric shielding than ketones", "Ether (R-O-R) — oxygen is nucleophilic", "Alkane — no functional group means maximum reactivity"],
+    "correct": 1,
+    "explanation": "Nucleophilic addition to carbonyls (C=O): the carbonyl carbon is electron-deficient (δ+) due to the electronegativity of oxygen. Aldehydes are more reactive than ketones for nucleophilic addition because: (1) Less steric hindrance — R on only one side (vs. R on both sides in ketones); (2) Electronic — one electron-donating alkyl group (vs. two in ketones) means the carbonyl carbon is more electrophilic. Reactivity order: H₂C=O (formaldehyde) > RCHO (aldehyde) > R₂CO (ketone) > ester > amide. Common nucleophilic additions: HCN (cyanohydrin), NaBH₄ (hydride reduction), Grignard reagents (RMgX), water (hydration). Alkenes undergo electrophilic addition, not nucleophilic addition.",
+    "tags": ["chemistry", "organic chemistry", "carbonyl chemistry", "nucleophilic addition"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient's blood has a pH of 7.28 and PaCO₂ of 52 mmHg. What acid-base disturbance is present?",
+    "options": ["Metabolic acidosis", "Respiratory acidosis — elevated CO₂ (hypoventilation) → increased H₂CO₃ → decreased pH; primary respiratory cause confirmed by elevated PaCO₂", "Respiratory alkalosis", "Metabolic alkalosis"],
+    "correct": 1,
+    "explanation": "Normal values: pH 7.35–7.45; PaCO₂ 35–45 mmHg; HCO₃⁻ 22–26 mEq/L. Analysis: pH 7.28 = acidosis; PaCO₂ 52 mmHg = elevated (hypercapnia) → respiratory acidosis (hypoventilation: COPD, opioid overdose, neuromuscular disease, obesity hypoventilation). Henderson-Hasselbalch: pH = 6.1 + log([HCO₃⁻]/0.03×PaCO₂). With PaCO₂ = 52: if pH = 7.28, [HCO₃⁻] = 10^(7.28–6.1) × 0.03 × 52 = 10^1.18 × 1.56 = 15.1 × 1.56 ≈ 23.6 mEq/L (near normal → acute, no renal compensation yet). Compensation: kidneys retain HCO₃⁻ over 2–5 days (chronic respiratory acidosis). Treatment: address underlying ventilatory impairment.",
+    "tags": ["physiology", "acid-base", "respiratory acidosis"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In a nuclear fission reaction, ²³⁵U absorbs a neutron and splits into ⁹²Kr and ¹⁴¹Ba plus additional neutrons. How many neutrons are released?",
+    "options": ["1", "2", "3", "4"],
+    "correct": 2,
+    "explanation": "Conservation of mass number (A) and atomic number (Z): ²³⁵U + ¹n → ⁹²Kr + ¹⁴¹Ba + x·¹n. Mass numbers: 235 + 1 = 92 + 141 + x → 236 = 233 + x → x = 3. Atomic numbers: 92 + 0 = 36 + 56 + 0 → 92 = 92 ✓. Therefore 3 neutrons are released. This is the chain reaction: 3 neutrons each can trigger additional ²³⁵U fissions → exponential chain reaction if >critical mass. In nuclear reactors, control rods (boron, cadmium) absorb neutrons to maintain a controlled, sustained chain reaction. Fission releases ~200 MeV per ²³⁵U nucleus (binding energy curve: peak stability at Fe-56).",
+    "tags": ["physics", "nuclear physics", "fission"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which law states that at constant temperature and pressure, equal volumes of all ideal gases contain the same number of molecules?",
+    "options": ["Boyle's Law", "Avogadro's Law — V/n = constant at fixed T and P; at STP, 1 mol of any ideal gas occupies 22.4 L", "Charles's Law", "Dalton's Law"],
+    "correct": 1,
+    "explanation": "Avogadro's Law: V ∝ n at constant T and P (V/n = R T/P = constant). At STP (0°C, 1 atm): 1 mol of any ideal gas occupies 22.4 L (molar volume). At SATP (25°C, 1 bar): 24.8 L/mol. This is why gases react in simple integer volume ratios (Gay-Lussac's Law of combining volumes): 2 H₂ + O₂ → 2 H₂O (2:1:2 volume ratio). Other ideal gas laws: Boyle's (P ∝ 1/V at constant T); Charles's (V ∝ T at constant P); Gay-Lussac's (P ∝ T at constant V); combined gas law: PV/T = nR. Real gases deviate from ideal at high pressure/low temperature (van der Waals corrections).",
+    "tags": ["chemistry", "ideal gas laws", "Avogadro's Law"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A 2 μF capacitor is connected to a 9 V battery. What charge is stored on the capacitor?",
+    "options": ["18 μC", "4.5 μC", "9 μC", "0.22 μC"],
+    "correct": 0,
+    "explanation": "Q = CV = (2 × 10⁻⁶ F)(9 V) = 18 × 10⁻⁶ C = 18 μC. Energy stored: U = ½CV² = ½(2×10⁻⁶)(81) = 81 μJ, or equivalently U = Q²/2C = (18×10⁻⁶)²/(2×2×10⁻⁶) = 81 μJ. Capacitors in parallel: C_total = C₁ + C₂ (voltages same, charges add); capacitors in series: 1/C_total = 1/C₁ + 1/C₂ (charges same, voltages add). Capacitance of parallel plates: C = ε₀εᵣA/d (increases with area A, decreases with separation d, increases with dielectric constant εᵣ).",
+    "tags": ["physics", "capacitors", "electrostatics"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which factor would NOT increase the rate of dissolution of a solid solute in a liquid solvent?",
+    "options": ["Increasing temperature", "Increasing pressure (for solid solutes)", "Stirring or agitating the solution", "Grinding the solid into smaller particles (increasing surface area)"],
+    "correct": 1,
+    "explanation": "Factors that increase dissolution rate: (1) Temperature — increases kinetic energy, enhances solvation; (2) Stirring — removes saturated solution from contact with solid; (3) Particle size — smaller particles = greater surface area exposed. Pressure: increasing pressure significantly increases dissolution of gases in liquids (Henry's Law: C = kH × P_gas) but has negligible effect on solid dissolving in liquid. Solubility (equilibrium amount dissolved) of most solids increases with temperature (endothermic dissolution, Le Chatelier's); however rate vs. solubility are different concepts. Note: some salts (like Ce₂(SO₄)₃) have retrograde solubility (decreases with temperature).",
+    "tags": ["chemistry", "dissolution", "solubility"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "What type of isomerism is exhibited by cis-2-butene and trans-2-butene?",
+    "options": ["Constitutional isomers (structural isomers)", "Geometric isomers (cis-trans or E/Z isomers) — they have the same molecular formula and connectivity but differ in spatial arrangement of groups around the C=C double bond, which cannot rotate freely", "Enantiomers (non-superimposable mirror images)", "Conformational isomers (interconvertible by rotation)"],
+    "correct": 1,
+    "explanation": "cis-2-butene and trans-2-butene: both have formula C₄H₈ with a double bond at C2-C3. They are geometric (cis/trans) isomers because: the C=C double bond has restricted rotation (due to the π bond); cis: both methyl groups on the same side of the double bond; trans: methyl groups on opposite sides. This is a type of stereoisomerism (same connectivity, different spatial arrangement). They have different physical properties (boiling points: cis = 3.7°C, trans = 0.9°C) and are NOT interconvertible without breaking the π bond. In E/Z nomenclature: trans-2-butene = (E)-2-butene; cis-2-butene = (Z)-2-butene. Constitutional isomers: same formula, different connectivity. Enantiomers: non-superimposable mirror images.",
+    "tags": ["chemistry", "organic chemistry", "isomers", "stereochemistry"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "An inductor with inductance L = 0.5 H carries a current of 4 A. What is the energy stored in the magnetic field?",
+    "options": ["1 J", "4 J", "2 J", "8 J"],
+    "correct": 1,
+    "explanation": "Energy stored in an inductor: U = ½LI² = ½(0.5)(4²) = ½(0.5)(16) = 4 J. This energy is stored in the magnetic field surrounding the inductor. Compare: capacitor stores energy in electric field as U = ½CV². In an LC circuit, energy oscillates between the inductor (magnetic field) and capacitor (electric field) at frequency ω = 1/√(LC). The inductor opposes changes in current (V = L dI/dt): acts as a short circuit for DC (steady state) and as high impedance for AC (inductive reactance XL = ωL increases with frequency).",
+    "tags": ["physics", "electromagnetism", "inductors"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In an exothermic reaction, adding a catalyst:",
+    "options": ["Makes the reaction even more exothermic by providing extra energy", "Lowers the activation energy for both the forward and reverse reactions equally, increasing the rate of both directions but not changing the equilibrium constant K or ΔG°", "Shifts the equilibrium toward the products", "Only speeds up the forward reaction, not the reverse"],
+    "correct": 1,
+    "explanation": "A catalyst provides an alternative reaction pathway with lower activation energy (Ea). Crucially: it lowers Ea for both forward and reverse reactions by the same amount (since ΔG° = Ea_forward – Ea_reverse remains unchanged). Therefore: (1) Rate of both forward and reverse reactions increases equally; (2) Equilibrium constant K is unchanged (K depends only on ΔG° = –RT lnK, which is unchanged); (3) The system reaches equilibrium faster but the equilibrium position is the same; (4) ΔH, ΔS, and ΔG° are unchanged (thermodynamic quantities). Catalysts are regenerated (not consumed). Enzymes are biological catalysts; they can also change the substrate specificity and regulate reaction directionality, but not the equilibrium constant.",
+    "tags": ["chemistry", "kinetics", "catalysis", "thermodynamics"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following correctly describes Rayleigh scattering and its relevance to the blue color of the sky?",
+    "options": ["Sunlight is mostly blue, and other colors are absorbed by the atmosphere", "Rayleigh scattering: intensity of scattering ∝ 1/λ⁴ — shorter wavelengths (blue, ~450 nm) scatter far more strongly than longer wavelengths (red, ~700 nm) as sunlight passes through the atmosphere; scattered blue light reaches the eye from all directions", "Nitrogen molecules absorb red wavelengths, leaving only blue", "Water vapor in the atmosphere preferentially reflects blue light"],
+    "correct": 1,
+    "explanation": "Rayleigh scattering occurs when light interacts with particles much smaller than its wavelength (gas molecules, O₂, N₂). Scattering intensity ∝ 1/λ⁴: blue light (450 nm) scatters (700/450)⁴ ≈ 5.6× more than red light (700 nm). Blue light is scattered in all directions by the atmosphere → sky appears blue. At sunset/sunrise, sunlight travels through more atmosphere → blue is completely scattered away → only red/orange wavelengths remain → red sky. Tyndall effect: similar principle for particles slightly larger (milk, fog). Mie scattering: for particles comparable to λ (clouds look white — all wavelengths scattered equally). This is also why deep water appears blue.",
+    "tags": ["physics", "optics", "light scattering"],
+    "difficulty": "medium"
+  }
+]

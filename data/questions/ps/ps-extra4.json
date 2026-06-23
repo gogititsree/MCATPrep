@@ -1,0 +1,386 @@
+[
+  {
+    "text": "A researcher finds that participants in a study are more likely to comply with a large request if they have already agreed to a smaller, related request. This is an example of:",
+    "options": ["Door-in-the-face technique", "Foot-in-the-door technique — initial small commitment increases subsequent compliance with larger requests by engaging consistency motivation and self-perception as a 'helpful person'", "Social loafing", "Reactance theory"],
+    "correct": 1,
+    "explanation": "Foot-in-the-door (Freedman & Fraser, 1966): once people agree to a small request, they are more likely to comply with a larger, related request later. Mechanism: self-perception theory (Bem) — having agreed, the person perceives themselves as 'the kind of person who helps' → maintains consistency with this self-image. Contrast with door-in-the-face: start with a very large (unreasonable) request that is rejected, then make the actual (smaller) request → reciprocal concession norm increases compliance. Both exploit the commitment and consistency principle (Cialdini). FITD is used in charitable giving, sales, and political persuasion.",
+    "tags": ["social psychology", "persuasion", "compliance"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "According to Kübler-Ross's model, the five stages of grief are (in order):",
+    "options": ["Shock, anger, bargaining, sadness, acceptance", "Denial, anger, bargaining, depression, acceptance — though the model is not strictly linear and not all stages are experienced by everyone", "Fear, anger, guilt, bargaining, resolution", "Disbelief, denial, anger, depression, hope"],
+    "correct": 1,
+    "explanation": "Kübler-Ross (On Death and Dying, 1969) described five stages of grief observed in terminally ill patients: (1) Denial — 'This can't be happening'; (2) Anger — 'Why me?'; (3) Bargaining — 'If I get better, I'll...'; (4) Depression — profound sadness; (5) Acceptance — coming to terms. Important caveats: the model was descriptive, not prescriptive; grief is nonlinear; people may skip stages, revisit earlier stages, or experience multiple simultaneously. Later models (Worden's tasks; Stroebe's dual-process) have supplemented it. The model has been extended to other types of loss (job loss, relationship breakups). MCAT may ask about stages and their order.",
+    "tags": ["psychology", "health psychology", "grief"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In Erikson's psychosocial theory, the conflict during middle adulthood (approximately ages 40–65) is:",
+    "options": ["Intimacy vs. Isolation", "Generativity vs. Stagnation — the challenge is contributing to the next generation through parenting, mentoring, or creative/professional work; failure leads to self-absorption and stagnation", "Integrity vs. Despair", "Industry vs. Inferiority"],
+    "correct": 1,
+    "explanation": "Erikson's 8 stages: (1) Trust vs. Mistrust (0–1); (2) Autonomy vs. Shame/Doubt (1–3); (3) Initiative vs. Guilt (3–6); (4) Industry vs. Inferiority (6–12); (5) Identity vs. Role Confusion (adolescence); (6) Intimacy vs. Isolation (young adulthood); (7) Generativity vs. Stagnation (middle adulthood, 40–65): generativity = 'leaving a mark' on the world through children, mentoring, community contribution, or creative work; stagnation = self-preoccupation and a sense of meaninglessness; (8) Integrity vs. Despair (late adulthood): reflecting on life with satisfaction (integrity) or regret (despair). Each stage builds on resolution of the previous crisis.",
+    "tags": ["developmental psychology", "Erikson", "psychosocial development"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A study finds that children who watch more violent television have more aggressive behavior. This is most accurately described as:",
+    "options": ["Evidence that watching violent TV causes aggression", "A positive correlation between TV violence exposure and aggression — does not establish causation; confounds (family environment, pre-existing aggression) could explain the relationship", "A negative correlation", "An experimental result demonstrating causation"],
+    "correct": 1,
+    "explanation": "Correlation ≠ causation. A positive correlation means both variables increase together. However, a correlational study cannot rule out: (1) Third variable / confounding (e.g., permissive parenting → both TV violence exposure AND aggression); (2) Reverse causation (already-aggressive children may prefer violent TV). To establish causation, an experiment is required (randomly assign children to watch violent vs. non-violent TV, measure subsequent aggression). Bandura's Bobo doll experiments (experimental) did establish that observing aggressive models increases aggressive behavior. Meta-analyses find a modest positive correlation between media violence and aggression; effect sizes are debated.",
+    "tags": ["research methods", "correlation", "social psychology"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The concept of 'locus of control' refers to:",
+    "options": ["The brain region that controls attention and impulse regulation", "Whether an individual believes outcomes are determined by their own actions (internal LOC) or by external forces like luck, fate, or powerful others (external LOC) — Rotter's concept", "The degree to which a person can control their emotional responses", "The social hierarchy that controls access to resources"],
+    "correct": 1,
+    "explanation": "Locus of Control (Rotter, 1966): Internal LOC — 'I control my outcomes; my behavior determines what happens to me.' Associated with better health outcomes, academic achievement, and resilience; more likely to take preventive health actions. External LOC — 'Outcomes depend on luck, chance, or powerful others; I can't control what happens.' Associated with lower motivation, worse health outcomes, and helplessness. Seligman's learned helplessness overlaps conceptually (organisms learn that responses don't affect outcomes → give up). LOC is related to but distinct from self-efficacy (Bandura's concept of belief in one's ability to perform a specific behavior). Relevant in health psychology: internal LOC patients more likely to adhere to treatment.",
+    "tags": ["psychology", "personality", "health psychology", "Rotter"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "According to self-determination theory (Deci & Ryan), the three basic psychological needs that support intrinsic motivation are:",
+    "options": ["Safety, belonging, and esteem (Maslow hierarchy)", "Autonomy (feeling of choice), competence (feeling of effectiveness), and relatedness (feeling of connection to others)", "Achievement, affiliation, and power (McClelland)", "Food, water, and shelter (physiological needs)"],
+    "correct": 1,
+    "explanation": "Self-Determination Theory (SDT): Deci and Ryan (1985) proposed that humans have three innate psychological needs: (1) Autonomy — feeling that behavior is self-chosen and self-endorsed (not controlled); (2) Competence — feeling effective and capable; (3) Relatedness — feeling connected and cared for by others. When these needs are met by the social environment, intrinsic motivation flourishes and people take on activities for their inherent satisfaction. When needs are thwarted (controlling environments, incompetence induction, social exclusion), intrinsic motivation decreases. SDT distinguishes types of extrinsic motivation: external regulation → introjection → identification → integration (internalization continuum). Clinically relevant: autonomy-supportive healthcare providers improve patient motivation and adherence.",
+    "tags": ["psychology", "motivation", "self-determination theory"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In Piaget's preoperational stage (ages 2–7), children fail the classic conservation task because they focus on only one dimension of a stimulus (e.g., height of water without considering width). This tendency is called:",
+    "options": ["Object permanence failure", "Centration — the child centers attention on only one salient perceptual feature (usually the most visually striking), ignoring other relevant dimensions; leads to failures in conservation of number, volume, and mass", "Formal operational thinking", "Animism"],
+    "correct": 1,
+    "explanation": "Preoperational stage cognitive limitations: (1) Centration — focus on one dimension (e.g., taller glass = more water, ignoring that it is also narrower); (2) Lack of conservation — same amount of liquid looks different in different-shaped containers; (3) Egocentrism — cannot take another's perspective (three mountains task); (4) Animism — attributing life to inanimate objects; (5) Irreversibility — cannot mentally reverse transformations. Concrete operational stage (7–11): achieves conservation, decentration, reversibility, but thinks concretely. Vygotsky's critique: Piaget underestimated social context; children may fail tasks due to language or unfamiliarity, not just cognitive limitations.",
+    "tags": ["developmental psychology", "Piaget", "cognitive development"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which theory of emotion proposes that physiological arousal and emotional experience occur simultaneously and independently in response to an emotional stimulus?",
+    "options": ["James-Lange theory (physiological arousal → cognitive label → emotion)", "Cannon-Bard theory — the thalamus simultaneously sends signals to the cortex (producing subjective emotion) and to the body (producing physiological arousal); the two occur concurrently rather than sequentially", "Schachter-Singer two-factor theory (arousal + cognitive attribution → emotion)", "Lazarus's appraisal theory (cognitive appraisal precedes emotion)"],
+    "correct": 1,
+    "explanation": "Theories of emotion: James-Lange (1884): stimulus → physiological arousal → cognitive interpretation of arousal → emotion ('we feel afraid because we tremble'). Cannon-Bard (1927): criticized James-Lange; Cannon showed that bodily arousal patterns are too similar across emotions to explain emotional differentiation; proposed that thalamus simultaneously activates cortex (emotion) and body (arousal) — both are concurrent, not causal. Schachter-Singer (1962): two factors needed — (1) undifferentiated arousal, (2) cognitive attribution of that arousal to a specific emotion (based on situational cues). Lazarus (1991): cognitive appraisal of an event (is this threatening or beneficial?) precedes and causes both arousal and emotion.",
+    "tags": ["psychology", "emotion", "theories of emotion"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following best describes a Type I error in hypothesis testing?",
+    "options": ["Failing to reject a false null hypothesis (missing a real effect)", "Rejecting a true null hypothesis — concluding there is an effect when none exists (false positive); probability of Type I error = α (significance level, typically 0.05)", "Correctly rejecting a false null hypothesis (detecting a true effect)", "A statistical error caused by a biased sample"],
+    "correct": 1,
+    "explanation": "Hypothesis testing errors: Type I error (false positive): reject H₀ when H₀ is actually true; probability = α (typically 0.05 or 5%). By convention, we accept a 5% chance of being wrong when we conclude significance. Type II error (false negative): fail to reject H₀ when H₀ is false; probability = β (typically 0.20). Power = 1 – β = probability of detecting a true effect. Trade-off: decreasing α (more stringent threshold, e.g., 0.01) reduces Type I error but increases Type II error. Multiple comparisons increase Type I error rate (Bonferroni correction). In medical testing: Type I = false positive test; Type II = false negative test (missed diagnosis).",
+    "tags": ["research methods", "statistics", "hypothesis testing"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The concept of 'social capital' in sociology refers to:",
+    "options": ["The total wealth held by members of a community", "The networks of relationships, norms of reciprocity, and social trust that facilitate coordination and cooperation; bonding social capital (dense ties within groups) vs. bridging social capital (weak ties across groups)", "The human capital (skills and education) accumulated through social interactions", "Government investment in public social programs"],
+    "correct": 1,
+    "explanation": "Social capital (Bourdieu, Coleman, Putnam): the value embedded in social relationships and networks. Bonding social capital: strong ties within homogeneous groups (family, close friends) — provides emotional support, resource sharing, group identity; can be exclusive and limit diversity. Bridging social capital: weak ties across diverse groups — provides access to new information, economic opportunities, civic participation. Putnam (Bowling Alone, 2000) documented decline of social capital in US. Health implications: social capital buffers stress, promotes health behaviors, facilitates access to healthcare. Low social capital → social isolation → worse health outcomes. Putnam's bowling alone thesis: Americans are less civically engaged despite greater prosperity.",
+    "tags": ["sociology", "social capital", "social networks"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A researcher asks participants to estimate the percentage of people who die from cancer in the US. Participants who were first asked about a very high number give higher estimates than those first asked about a low number, even when told the anchor was random. This is an example of:",
+    "options": ["Representativeness heuristic", "Anchoring and adjustment heuristic — initial information (the anchor) disproportionately influences subsequent estimates even when known to be arbitrary or irrelevant", "Availability heuristic", "Confirmation bias"],
+    "correct": 1,
+    "explanation": "Anchoring and adjustment (Tversky & Kahneman, 1974): people start from an initial value (anchor) and adjust insufficiently, producing estimates biased toward the anchor. Even random, arbitrary anchors affect judgments. Examples: (1) Asking 'Was Gandhi older or younger than 9 when he died?' then 'How old was he?' → anchored estimates; (2) Salary negotiation — first offer anchors the negotiation; (3) Medical diagnosis — first suspected diagnosis anchors physician reasoning. Anchoring is robust and persists even when people are explicitly told the anchor is random. Availability heuristic: judging frequency/probability by how easily examples come to mind. Representativeness: judging probability by how well something matches a prototype.",
+    "tags": ["psychology", "cognitive psychology", "heuristics", "bias"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In the context of health disparities, the 'social gradient of health' refers to:",
+    "options": ["The difference in health outcomes between urban and rural populations", "The stepwise relationship between socioeconomic position and health — at each level of the social hierarchy, those above have better health than those below, producing a gradient rather than just a threshold effect between poor and non-poor", "The decline in health that occurs as people age", "Racial disparities in access to healthcare"],
+    "correct": 1,
+    "explanation": "The social gradient of health (Marmot, Whitehall studies): health improves at every step up the social hierarchy — it's not just that the poor have worse health than the rich, but that those in the middle have worse health than those at the top, who have worse health than those even higher. The gradient is stepwise and graded. Mechanisms: psychosocial (chronic stress from low control, status anxiety → cortisol dysregulation → immune suppression → disease), material (income → nutrition, housing, healthcare access), behavioral (SES shapes health behaviors). The 'cause of causes' framework: social determinants produce the conditions that create individual risk factors. The gradient was observed even in British civil servants with guaranteed income and healthcare (controlling for absolute poverty), demonstrating that relative position matters.",
+    "tags": ["sociology", "health disparities", "social determinants of health"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following correctly describes the difference between primary and secondary socialization?",
+    "options": ["Primary socialization occurs in school; secondary socialization occurs in the family", "Primary socialization occurs in early childhood within the family — internalization of basic norms, language, and values; secondary socialization occurs later through other institutions (school, peers, media, work) teaching role-specific behaviors", "Primary socialization is biological; secondary socialization is cultural", "Secondary socialization is more important than primary for adult identity formation"],
+    "correct": 1,
+    "explanation": "Socialization: the process by which individuals learn and internalize the norms, values, and behaviors expected in their society. Primary socialization: occurs in early childhood, primarily within the family; establishes foundational personality, language acquisition, basic norms, and values; Cooley's 'looking-glass self' and Mead's 'generalized other' develop here. Secondary socialization: occurs throughout life via institutions beyond the family — school (formal curriculum + hidden curriculum), peer groups (most influential in adolescence), mass media, workplace, religious institutions. Tertiary socialization (resocialization): adult transitions requiring abandonment of previous socialization (prison, military, cult). Both Functionalist (normative integration) and Conflict (reproduction of inequality) perspectives analyze socialization differently.",
+    "tags": ["sociology", "socialization", "social institutions"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In classical conditioning, 'extinction' refers to which phenomenon?",
+    "options": ["The complete, permanent elimination of a conditioned response", "The gradual decrease in the conditioned response (CR) when the conditioned stimulus (CS) is repeatedly presented without the unconditioned stimulus (US) — though spontaneous recovery shows the association is not erased but inhibited", "The transfer of learning to a new stimulus", "The reappearance of a conditioned response after a rest period"],
+    "correct": 1,
+    "explanation": "Classical conditioning extinction: Pavlov observed that repeated presentation of CS (bell) without US (food) gradually diminishes the CR (salivation). Important: extinction is not forgetting — the original CS-US association is not erased. Evidence: (1) Spontaneous recovery — after a rest period, the CR reappears (at reduced strength) to the CS, even without retraining; (2) Renewal effect — the extinguished CR re-emerges when the CS is presented in the original conditioning context; (3) Reinstatement — a single US presentation can restore the CR. Clinically: exposure therapy in anxiety/PTSD works by extinction learning; relapse risk is explained by renewal and reinstatement. The new inhibitory CS-US association competes with but doesn't erase the original.",
+    "tags": ["psychology", "classical conditioning", "learning"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The sociological concept of 'false consciousness' is associated with which theoretical perspective?",
+    "options": ["Structural functionalism (Parsons)", "Conflict theory (Marx) — false consciousness is a state in which the working class fails to recognize its own exploitation and accepts the ideology of the ruling class as natural and just, preventing class-consciousness and revolution", "Symbolic interactionism (Blumer)", "Social exchange theory (Homans)"],
+    "correct": 1,
+    "explanation": "False consciousness (Marx/Engels): the proletariat (working class) is misled by the superstructure (ideology, religion, media, education) controlled by the bourgeoisie into accepting capitalist social relations as natural, inevitable, or just — rather than as historically contingent and exploitative. Workers identify with their employers, vote against their material interests, and view inequality as deserved. Gramsci's concept of hegemony: the dominant class maintains power through cultural leadership and consent (not just force) — workers internalize ruling-class values voluntarily. Class consciousness (Marx): the opposite state — workers recognize their shared interests and develop collective solidarity. False consciousness prevents this and thus prevents revolutionary action.",
+    "tags": ["sociology", "conflict theory", "Marx", "ideology"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient reports forgetting everything that happened before a traumatic event but can still form new memories afterward. This pattern is consistent with:",
+    "options": ["Anterograde amnesia", "Retrograde amnesia — loss of memories formed before a specific event (trauma, brain injury); the ability to form new memories (which depends on the hippocampus) may be preserved", "Procedural memory loss", "Working memory deficit"],
+    "correct": 1,
+    "explanation": "Types of amnesia: Retrograde amnesia: inability to recall memories formed before the precipitating event. Mechanisms: hippocampal damage disrupts memory consolidation; older memories are better consolidated (more cortically distributed) → often a temporal gradient (recent memories more vulnerable than remote memories: Ribot's gradient). Anterograde amnesia: inability to form new long-term memories after the event; hippocampal damage (H.M. case: bilateral hippocampectomy → profound anterograde amnesia, unable to form new episodic or semantic memories, but procedural memory intact). Dissociative amnesia: psychogenic, often involving traumatic events; may present as retrograde amnesia without neurological lesion. The scenario described (lost pre-event memories, intact new memory formation) = retrograde amnesia.",
+    "tags": ["psychology", "memory", "amnesia", "neuroscience"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In Maslow's hierarchy of needs, which needs must generally be satisfied before esteem needs can become a primary motivator?",
+    "options": ["Self-actualization needs", "Physiological, safety, and belonging/love needs — the hierarchical model posits that lower-order deficiency needs must be substantially met before higher-order growth needs become primary motivators", "Cognitive and aesthetic needs only", "Esteem needs are primary from birth and do not require prior need satisfaction"],
+    "correct": 1,
+    "explanation": "Maslow's Hierarchy (1943): (1) Physiological needs: food, water, sleep, homeostasis; (2) Safety needs: security, employment, health; (3) Love/belonging: relationships, social connection, community; (4) Esteem needs: achievement, recognition, respect from others; (5) Self-actualization: realizing full potential. Maslow proposed that lower 'deficiency needs' (D-needs: 1–4) must be substantially met before 'being needs' or 'growth needs' (B-needs: 5, and in later revisions: cognitive, aesthetic, transcendence) become primary motivators. Critiques: the hierarchy is culturally specific (individualistic); evidence for strict hierarchy is weak; people simultaneously pursue multiple needs. Cross-cultural research shows collectivist cultures may prioritize belonging over esteem (Gambrel & Cianci).",
+    "tags": ["psychology", "motivation", "Maslow"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A researcher conducts a double-blind randomized controlled trial. 'Double-blind' means that:",
+    "options": ["Neither the researchers nor the participants know the study hypothesis", "Neither the participants nor the investigators directly interacting with or assessing participants know which group (treatment vs. control) each participant has been assigned to — reduces expectancy effects and assessment bias", "The study uses two control groups", "Data analysis is conducted blindly, but participants know their group assignment"],
+    "correct": 1,
+    "explanation": "Double-blind RCT: reduces bias at two levels: (1) Participants blinded → eliminates placebo effect and demand characteristics (participants don't change behavior because they know they're getting the real treatment); (2) Investigators/assessors blinded → eliminates observer bias (researchers don't unconsciously rate outcomes differently for treatment vs. control groups). Single-blind: only participants blinded (investigators know assignments — still allows observer bias). Allocation concealment: preventing those enrolling participants from knowing upcoming treatment assignments (prevents selection bias). Randomization: distributes known and unknown confounders equally between groups. Triple-blind: also the data analyst is blinded. Gold standard for causal evidence in clinical research.",
+    "tags": ["research methods", "clinical trials", "bias"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following describes the process of 'operant shaping'?",
+    "options": ["Teaching a new behavior by modeling it for the learner to imitate", "Reinforcing successive approximations to a desired target behavior — gradually rewarding behaviors that come closer and closer to the goal until the full behavior is acquired (used to teach complex behaviors not in the organism's repertoire)", "Punishing undesired behaviors until they extinguish", "Using classical conditioning to associate a neutral stimulus with a desired behavioral response"],
+    "correct": 1,
+    "explanation": "Operant shaping (Skinner): used when the target behavior does not naturally occur and thus cannot be directly reinforced. The trainer: (1) Starts by reinforcing any behavior in the direction of the target; (2) As those behaviors stabilize, raises the criterion — only reinforces behaviors closer to the target; (3) Continues raising the criterion until the full target behavior is reliably elicited. Examples: training a rat to press a lever (reinforce turning toward the lever → approaching → touching → pressing); training complex behaviors in animals (dolphins, circus animals); applied behavior analysis (ABA) for autism spectrum disorder; teaching athletic skills. The key is reinforcing approximations, not waiting for perfection.",
+    "tags": ["psychology", "learning", "operant conditioning", "shaping"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The 'Thomas theorem' in sociology states that:",
+    "options": ["Social structures determine individual behavior regardless of interpretation", "'If men define situations as real, they are real in their consequences' — subjective definitions of situations shape behavior and social outcomes, even if the definition is objectively incorrect", "Social norms are transmitted through biological inheritance", "Economic forces always determine social definitions"],
+    "correct": 1,
+    "explanation": "Thomas theorem (W.I. Thomas & D.S. Thomas, 1928): the subjective definition of a situation influences behavior regardless of its objective accuracy. This means social reality is constructed through interpretation. Example: if students believe a teacher doesn't like them (even if false), they may behave defensively → teacher responds negatively → the belief becomes self-fulfilling (self-fulfilling prophecy). In medical contexts: if a patient defines their symptoms as severe (even if they are mild), they will seek more medical care and experience more disability. Thomas theorem is foundational to symbolic interactionism and phenomenological sociology. Related: Rosenthal effect (Pygmalion effect) — teacher expectations influence student performance.",
+    "tags": ["sociology", "symbolic interactionism", "social construction"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A person from a collectivist culture moves to an individualist culture and struggles to adapt to new social norms. This process of adapting to a new culture is called:",
+    "options": ["Socialization", "Acculturation — the process of cultural and psychological change in individuals who have sustained contact with a different culture; includes assimilation (adopting new culture), integration (biculturalism), separation, and marginalization (Berry's framework)", "Resocialization", "Cultural diffusion"],
+    "correct": 1,
+    "explanation": "Acculturation (Berry, 1997): four strategies individuals adopt when encountering a new culture: (1) Integration/biculturalism: maintain original culture AND adopt aspects of new culture — best mental health outcomes; (2) Assimilation: abandon original culture, fully adopt new culture; (3) Separation: maintain original culture, reject new culture; (4) Marginalization: unable to maintain original culture, unable to adopt new culture — worst outcomes. Acculturation stress: the psychological strain of adapting to a new culture. Healthy immigrant effect/Latino paradox: recent immigrants often have better health than native-born counterparts despite lower SES — health advantage erodes with longer residence and greater acculturation (assimilation worsens diet, increases substance use). Cultural competence in healthcare addresses acculturation challenges.",
+    "tags": ["sociology", "culture", "acculturation"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which neurotransmitter is primarily responsible for the 'fight or flight' response, and from which structure is it released in the peripheral nervous system?",
+    "options": ["Acetylcholine, from the parasympathetic nervous system", "Norepinephrine (and epinephrine from the adrenal medulla), released by postganglionic sympathetic fibers and adrenal chromaffin cells in response to sympathetic activation", "Serotonin, from the enteric nervous system", "Dopamine, from the hypothalamus"],
+    "correct": 1,
+    "explanation": "Sympathetic 'fight or flight' response: preganglionic fibers (cholinergic, releasing ACh onto nicotinic receptors) synapse in paravertebral or prevertebral ganglia → postganglionic fibers (adrenergic, releasing norepinephrine) innervate target organs. Exception: sympathetic fibers to adrenal medulla (preganglionic directly) → chromaffin cells release epinephrine (80%) and NE (20%) directly into bloodstream (no postganglionic fiber). Effects: ↑HR, ↑BP, ↑blood glucose, pupil dilation, bronchodilation, decreased GI motility, redirected blood flow to muscles. Parasympathetic ('rest and digest'): both pre- and postganglionic cholinergic (ACh); muscarinic receptors on target organs. Adrenal medulla is developmentally a modified sympathetic ganglion.",
+    "tags": ["psychology", "neuroscience", "autonomic nervous system"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The concept of 'intersectionality' in sociology was developed by Kimberlé Crenshaw (1989) primarily to explain:",
+    "options": ["The intersection of individual and societal factors in determining health outcomes", "How multiple, overlapping systems of oppression (race, gender, class, sexuality, disability) interact to create unique experiences of discrimination that cannot be understood by examining each axis of identity separately", "The convergence of different sociological theories in contemporary research", "How social norms intersect across generations"],
+    "correct": 1,
+    "explanation": "Intersectionality (Crenshaw, 1989): coined in the context of Black women's experiences in employment discrimination law — cases where discrimination against Black women didn't fit neatly into race discrimination (affecting Black men) or sex discrimination (affecting white women) categories. The experiences of Black women at the intersection of race AND gender created a unique, qualitatively distinct experience of oppression. Extended to overlapping identities: race, class, gender, sexuality, disability, immigration status, age. These systems are: simultaneous (not additive — 1+1 ≠ 2; they create new forms); structural (embedded in institutions, not just individual prejudice); relational (each identity is defined in relation to others). In health: Crenshaw's framework explains why health disparities cannot be fully understood by studying race or gender separately.",
+    "tags": ["sociology", "intersectionality", "inequality"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following best describes Vygotsky's concept of the Zone of Proximal Development (ZPD)?",
+    "options": ["The range of tasks a child can perform independently without any help", "The gap between what a learner can do alone (actual developmental level) and what they can accomplish with guidance from a more capable peer or adult (potential developmental level) — the optimal zone for learning and instruction", "The period of rapid cognitive development in early adolescence", "The biological limit of cognitive capacity that cannot be exceeded through social interaction"],
+    "correct": 1,
+    "explanation": "ZPD (Vygotsky, 1978): the distance between a child's actual developmental level (what they can do independently) and their potential developmental level (what they can achieve with competent guidance — scaffolding). Learning occurs most efficiently within this zone: too easy = no learning (already mastered); too hard = no learning (beyond current capacity with help); just within ZPD = zone of learning. Scaffolding: the temporary support provided by a more knowledgeable other (teacher, parent, peer) that enables the learner to accomplish tasks within the ZPD; gradually removed as competence develops. This contrasts with Piaget's emphasis on individual construction of knowledge — Vygotsky emphasized social, cultural, and linguistic mediation of cognitive development.",
+    "tags": ["developmental psychology", "Vygotsky", "learning"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "According to the DSM-5, which of the following is the primary distinguishing feature of major depressive disorder (MDD) versus persistent depressive disorder (dysthymia/PDD)?",
+    "options": ["MDD involves psychosis; PDD does not", "MDD requires at least one major depressive episode (5+ symptoms including depressed mood or anhedonia for ≥2 weeks); PDD involves chronic depressed mood for ≥2 years with fewer symptoms — MDD is episodic and more severe; PDD is chronic and milder", "MDD is treated with medication; PDD only with therapy", "MDD involves suicidal ideation; PDD does not"],
+    "correct": 1,
+    "explanation": "MDD (DSM-5): ≥5 of 9 symptoms for ≥2 weeks; must include depressed mood and/or anhedonia; causes significant distress/impairment; not attributable to substances or medical condition. The 9 symptoms (SIG E CAPS): Sleep disturbance, Interest loss (anhedonia), Guilt/worthlessness, Energy loss, Concentration impairment, Appetite change, Psychomotor changes, Suicidal ideation. Persistent depressive disorder (formerly dysthymia): chronically depressed mood for ≥2 years; fewer symptoms (2+, not the full MDD criteria); chronic and persistent but lower severity. 'Double depression': MDD episode superimposed on PDD. Both are treated with SSRIs/SNRIs + psychotherapy (CBT most evidence-based). Specifiers: with anxious distress, melancholic features, psychotic features, peripartum onset, seasonal pattern.",
+    "tags": ["psychology", "abnormal psychology", "DSM-5", "depression"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A researcher studying prejudice finds that implicit racial bias can be measured even when participants claim to be unbiased. Which instrument is most commonly used to assess implicit bias?",
+    "options": ["Minnesota Multiphasic Personality Inventory (MMPI)", "Implicit Association Test (IAT) — measures reaction time differences when pairing concepts (e.g., Black faces with positive/negative words) to reveal automatic associations not captured by self-report", "Thematic Apperception Test (TAT)", "Rorschach Inkblot Test"],
+    "correct": 1,
+    "explanation": "Implicit Association Test (IAT; Greenwald, McGhee & Schwartz, 1998): measures the strength of automatic associations between concepts by testing reaction times. If a person has an implicit bias (e.g., associating 'Black' with 'bad'), they respond faster when categorizing Black faces with negative words (compatible block) than when categorizing Black faces with positive words (incompatible block). The difference in reaction time = the IAT D-score (measure of implicit bias). Key features: (1) Measures automatic/implicit processes, not deliberate self-report; (2) People can have implicit biases they consciously disavow; (3) Critiques: test-retest reliability modest; predictive validity of behavior debated; may measure cultural knowledge rather than personal bias. IAT has been used for race, gender, age, weight, sexuality.",
+    "tags": ["social psychology", "prejudice", "implicit bias", "research methods"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In the sociological study of deviance, which theoretical perspective emphasizes that deviance is not a quality of the act itself but is created by social reactions and labeling by powerful groups?",
+    "options": ["Functionalist theory (Durkheim — deviance serves social functions)", "Labeling theory — Becker (Outsiders, 1963): deviance is not inherent in an act; it is constructed through the social process of labeling by those with power to define and apply the label; stigma from labels shapes future behavior (secondary deviance)", "Strain theory (Merton — deviance from blocked legitimate means)", "Differential association theory (Sutherland — learned through social interaction)"],
+    "correct": 1,
+    "explanation": "Labeling theory (symbolic interactionist perspective): deviance is created through social interaction and power. Becker: 'Deviance is not a quality of the act a person commits, but rather a consequence of the application by others of rules and sanctions to an offender.' Primary deviance: initial rule-breaking (not yet labeled). Secondary deviance (Lemert): after being publicly labeled deviant, the person reorganizes identity around the deviant label → stigma → reduced conventional opportunities → increased deviance. Master status: the deviant label becomes the most important status, overriding others (e.g., 'ex-con'). Power: those with less power are more likely to be labeled deviant (race, class, mental illness). Applied to mental illness (Rosenhan experiment: 'On Being Sane in Insane Places').",
+    "tags": ["sociology", "deviance", "labeling theory"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following is an example of negative punishment (in the operant conditioning sense)?",
+    "options": ["Giving a child dessert for finishing dinner (adding a positive stimulus to increase behavior)", "Taking away a teenager's phone for bad grades — removing a desired stimulus to decrease the undesired behavior", "Spanking a child for misbehavior (adding an aversive stimulus to decrease behavior)", "Giving a student detention (adding an unpleasant consequence to decrease behavior)"],
+    "correct": 1,
+    "explanation": "Operant conditioning terminology: Reinforcement increases behavior; punishment decreases behavior. Positive = adding a stimulus; negative = removing a stimulus. Four types: Positive reinforcement: add pleasant → behavior ↑ (give treat for good behavior). Negative reinforcement: remove unpleasant → behavior ↑ (taking aspirin removes headache → aspirin use increases). Positive punishment: add unpleasant → behavior ↓ (spanking, detention, electric shock). Negative punishment (response cost): remove pleasant → behavior ↓ (taking away phone, privileges, grounding). Common confusion: 'negative reinforcement' is NOT punishment — it reinforces (increases) behavior by removing something aversive. The modifier (positive/negative) refers to what happens to a stimulus (add/remove), not the valence of the outcome.",
+    "tags": ["psychology", "operant conditioning", "learning"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The biopsychosocial model of illness, proposed by Engel (1977), argues that health and illness are best understood as:",
+    "options": ["Purely biological phenomena caused by pathogens, genes, and organ dysfunction", "The result of complex interactions among biological factors (genes, physiology), psychological factors (thoughts, emotions, behavior), and social factors (relationships, culture, socioeconomic status) — replacing the reductive biomedical model", "Social constructions with no biological basis", "Primarily psychological — illness is a result of maladaptive thinking patterns"],
+    "correct": 1,
+    "explanation": "Biomedical model (traditional): disease = biological malfunction; dualism between mind and body; social/psychological factors secondary. Biopsychosocial model (Engel, 1977): health and illness are simultaneously determined by: Biological (genetic predisposition, immune function, neurotransmitters, organ function); Psychological (stress, coping, beliefs, emotions, behaviors); Social (SES, social support, cultural norms, healthcare access, discrimination). Advantages: explains why two people with identical biological risk differ in illness outcomes; accounts for medically unexplained symptoms; guides holistic treatment. Critiques: imprecise (which factors matter how much?); can be used to blame patients; may oversimplify complex systems. Related: Borrell-Carrió et al. extended it as the 'biopsychosocial-spiritual model.'",
+    "tags": ["psychology", "health psychology", "biopsychosocial model"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following is a key difference between a prevalence rate and an incidence rate?",
+    "options": ["Prevalence measures disease severity; incidence measures disease frequency", "Prevalence = the proportion of a population that has the condition at a given point in time (existing cases); incidence = the number of new cases developing in a previously disease-free population over a defined time period", "Incidence includes both new and existing cases; prevalence only counts new cases", "Prevalence applies to chronic diseases; incidence applies to acute diseases only"],
+    "correct": 1,
+    "explanation": "Epidemiological measures: Point prevalence: proportion of population with a condition at one moment (existing cases). Period prevalence: proportion with condition at any time during a defined period. Incidence rate: number of NEW cases per at-risk population per time period. Relationship: Prevalence ≈ Incidence × Duration (for stable endemic conditions). Implications: high incidence but low prevalence → short duration (acute recovery or high fatality); low incidence but high prevalence → long duration (chronic condition like HIV with treatment). Example: if a disease has incidence of 5/100,000/year and average duration of 20 years, prevalence ≈ 100/100,000. Case fatality rate: proportion of cases that die. Attack rate: incidence during outbreaks. These are essential for understanding public health burden.",
+    "tags": ["research methods", "epidemiology", "prevalence", "incidence"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "According to Goffman's concept of 'stigma,' which of the following is an example of a 'discreditable' stigma (as opposed to a 'discredited' stigma)?",
+    "options": ["Visible physical disability — immediately apparent, discredited", "HIV-positive status that is not publicly known — the individual appears 'normal' but fears discovery and manages information carefully; this is a discreditable stigma because it could be revealed and has not yet been imposed", "Obvious facial disfigurement", "Wheelchairs that signal disability immediately to others"],
+    "correct": 1,
+    "explanation": "Goffman (Stigma, 1963): stigma = deeply discrediting attribute that reduces a person 'from a whole and usual person to a tainted, discounted one.' Types: (1) Discredited: stigma is known or immediately visible (physical disability, certain disfigurements, visible racial/ethnic marks); person manages tension in interactions (covering, passing, withdrawal). (2) Discreditable: stigma is not yet known or immediately visible; individual manages information to control who knows (information management: concealment, selective disclosure, passing). Examples: undisclosed mental illness, HIV status, sexual orientation, past criminal record, substance use disorder in remission. The distinction matters clinically: discreditable conditions create additional psychological burden from concealment and fear of disclosure.",
+    "tags": ["sociology", "stigma", "Goffman", "health sociology"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which theoretical approach to personality emphasizes the role of unconscious processes, early childhood experiences, and psychosexual stages?",
+    "options": ["Humanistic approach (Maslow, Rogers)", "Psychodynamic/psychoanalytic approach (Freud) — personality is shaped by unconscious conflicts between id (pleasure principle), ego (reality principle), and superego (morality); early experiences and psychosexual stages (oral, anal, phallic, latency, genital) shape adult character", "Behavioral approach (Skinner, Watson)", "Trait approach (Big Five, McCrae & Costa)"],
+    "correct": 1,
+    "explanation": "Freudian psychodynamic theory: personality emerges from conflicts between: Id (unconscious, present from birth, drives pleasure principle: immediate gratification of instincts); Ego (conscious/preconscious, develops from id, reality principle: mediates between id demands and external reality); Superego (develops ~age 5, internalized parental and societal standards, morality). Psychosexual stages: Oral (0–18 months), Anal (18m–3yr), Phallic (3–6yr, Oedipus/Electra complex), Latency (6–puberty), Genital (puberty+). Fixation at a stage (due to deprivation or overindulgence) produces characteristic adult personality traits. Defense mechanisms (repression, projection, reaction formation, displacement, rationalization, sublimation, denial) protect ego from anxiety. Modern psychodynamic therapy draws on these concepts while being more empirically grounded.",
+    "tags": ["psychology", "personality", "Freud", "psychodynamic"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A researcher measures the same group of participants' anxiety levels at ages 10, 15, 20, and 25. This is an example of which research design?",
+    "options": ["Cross-sectional study — different age groups measured at one time", "Longitudinal study — the same individuals are followed and measured repeatedly over time, allowing tracking of developmental changes within individuals", "Case-control study", "Cohort study comparing different birth cohorts"],
+    "correct": 1,
+    "explanation": "Research designs: Cross-sectional: measure different participants of different ages at the same time → quick and cheap, but cannot distinguish age effects from cohort effects (different generations may differ for reasons unrelated to aging). Longitudinal: follow the same participants over time → can track individual change, identify developmental trajectories, study causality; but expensive, time-consuming, subject to attrition (dropouts may be systematically different), and practice effects. Sequential/cross-sequential: combines both — multiple age cohorts followed over time, controlling for both age and cohort effects (Schaie's Seattle Longitudinal Study of intelligence). Case-control: retrospective, compares cases (disease) to controls. The scenario (same participants, multiple time points) = longitudinal.",
+    "tags": ["research methods", "developmental psychology", "study design"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "What is the primary criticism of the DSM-5's categorical approach to mental disorders?",
+    "options": ["It does not include enough categories of mental illness", "The categorical model imposes artificial boundaries on what are actually dimensions of human experience (e.g., everyone experiences some anxiety or depression); comorbidity is extremely high because disorders share underlying dimensions; alternative: dimensional approach (Research Domain Criteria, RDoC)", "It relies too heavily on biological biomarkers", "The DSM-5 was developed without empirical research"],
+    "correct": 1,
+    "explanation": "DSM-5 categorical approach: each disorder is defined by a checklist of symptoms; presence/absence of the disorder determined by meeting threshold criteria. Criticisms: (1) High comorbidity (60–70% of patients meet criteria for multiple disorders) — suggests artificial boundaries between related conditions; (2) Heterogeneity within categories — two patients with MDD may share only 1 of 9 symptoms; (3) Arbitrary diagnostic thresholds — why 5 symptoms not 4?; (4) Poor construct validity — categories don't map onto neurobiology, genetics, or treatment response. NIMH's RDoC (Research Domain Criteria, Insel 2013): alternative dimensional framework organized around behavioral and neural systems (valence, cognition, social processes, arousal) cutting across traditional diagnostic categories. DSM remains clinically and legally useful for standardized communication.",
+    "tags": ["psychology", "abnormal psychology", "DSM-5", "research methods"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The 'sleeper effect' in persuasion research refers to which phenomenon?",
+    "options": ["People are more easily persuaded when tired", "A persuasive message from a low-credibility source initially has little impact, but over time people forget the source (discounting cue) while retaining the message content — attitude change increases over time", "Repeated exposure to a message gradually increases its persuasive impact", "Persuasion is stronger for messages received before sleep"],
+    "correct": 1,
+    "explanation": "Sleeper effect (Hovland & Weiss, 1951; Kupperman et al.): when a persuasive message comes from a non-credible source, recipients discount it initially ('discounting cue'). Over time: memory for the message content (arguments) fades more slowly than memory for the source (discounting cue) → the discounting effect weakens → net attitude change becomes greater over time. Conditions for the sleeper effect: (1) The discounting cue must be presented after the message; (2) The message must be strong; (3) Initial attitude change must occur (some message impact). The sleeper effect suggests that the timing and nature of credibility information matters in persuasion. It has implications for propaganda, advertising, and misinformation studies.",
+    "tags": ["social psychology", "persuasion", "attitude change"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In the study of health behavior, which model proposes that behavior change involves distinct stages: precontemplation, contemplation, preparation, action, and maintenance?",
+    "options": ["Health Belief Model (Rosenstock)", "Transtheoretical Model (TTM) / Stages of Change (Prochaska & DiClemente, 1983) — different interventions are needed at different stages; relapse is considered a normal part of the cycle, not a failure", "Theory of Planned Behavior (Ajzen)", "Social Cognitive Theory (Bandura)"],
+    "correct": 1,
+    "explanation": "TTM/Stages of Change: (1) Precontemplation — not intending to change in the next 6 months (unaware of problem or demoralized); (2) Contemplation — aware of problem, intending to change in next 6 months, ambivalent; (3) Preparation — intending to change in next month, taking small steps; (4) Action — actively modified behavior in last 6 months; (5) Maintenance — sustained change >6 months, working to prevent relapse. Relapse: return to earlier stage (not failure — relapses teach what doesn't work). Matched interventions: motivational interviewing for precontemplation/contemplation; skill-building for action/maintenance. Health Belief Model: perceived susceptibility + severity + benefits + barriers + cues to action + self-efficacy. Theory of Planned Behavior: attitudes + subjective norms + perceived behavioral control → intention → behavior.",
+    "tags": ["psychology", "health psychology", "behavior change models"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following correctly describes Weber's concept of 'ideal types' in sociological analysis?",
+    "options": ["Weber believed that some social arrangements are ideal and should be promoted as models", "Ideal types are analytical constructs that exaggerate and systematize the essential features of a social phenomenon to create a conceptual tool for comparison — not descriptions of reality but heuristic models (e.g., 'bureaucracy', 'capitalism', 'charismatic authority')", "Ideal types are statistical averages of social behavior", "Ideal types are the most morally desirable forms of social organization"],
+    "correct": 1,
+    "explanation": "Weber's ideal type (Idealtyp): a methodological tool, not an empirical description or moral prescription. Created by deliberately exaggerating and emphasizing certain features of a phenomenon to create a pure, logically coherent model. Examples: Weber's ideal types of authority — Traditional (based on custom/tradition), Charismatic (based on personal devotion to an exceptional individual), Rational-legal (based on impersonal rules and procedures — modern bureaucracy). Weber's ideal-type bureaucracy: clear hierarchy, written rules, impersonal application of rules, technical expertise, full-time officials. Real bureaucracies deviate from this ideal type. Ideal types serve as benchmarks for comparison: how much does this real institution resemble the ideal type? Where does it deviate and why?",
+    "tags": ["sociology", "Weber", "sociological methods"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which of the following describes the psychological concept of 'self-efficacy' as defined by Bandura?",
+    "options": ["A person's overall sense of self-worth and value", "A person's belief in their ability to execute the specific behaviors required to produce a particular outcome in a given situation — domain-specific and distinct from general self-esteem", "The degree to which a person believes their outcomes are determined by internal vs. external factors (locus of control)", "A person's perception of how others view them (looking-glass self)"],
+    "correct": 1,
+    "explanation": "Self-efficacy (Bandura, 1977; Social Cognitive Theory): domain-specific confidence in one's capacity to successfully perform a particular task or behavior. Sources of self-efficacy: (1) Mastery experiences — past successes are the strongest source; (2) Vicarious experiences — observing similar others succeed ('if they can do it, so can I'); (3) Social persuasion — verbal encouragement from credible others; (4) Physiological/affective states — reduced anxiety and stress improve self-efficacy. High self-efficacy: set higher goals, persist longer, recover from setbacks; predicts academic achievement, health behavior, career success. Distinct from self-esteem (general self-worth) and locus of control (attribution). Health applications: self-efficacy is the strongest predictor of adherence to health behaviors (exercise, quitting smoking, medication compliance).",
+    "tags": ["psychology", "social cognitive theory", "Bandura", "motivation"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In the context of social stratification, the term 'meritocracy' refers to a system in which:",
+    "options": ["Social position is determined by family origin and inherited status", "Social rewards are allocated based on individual talent, effort, and achievement — a dominant ideology in many societies that justifies inequality as fair and earned, even as structural barriers limit equal opportunity", "All individuals receive equal resources and outcomes regardless of contribution", "Social mobility occurs primarily through political connections"],
+    "correct": 1,
+    "explanation": "Meritocracy (Young, 1958; ironic term): the belief that social rewards (income, status, power) should be and are distributed based on individual merit (talent + effort). Functionally: meritocracy is presented as the legitimating ideology of stratified societies — inequality appears just because those on top 'earned' their position. Conflict theory critique: meritocracy ideology obscures structural barriers — unequal access to quality education, social capital, wealth, and health mean that 'merit' is itself socially distributed unequally. Bourdieu: cultural and social capital advantages upper-class children in educational competition, making 'merit' partly a measure of inherited privilege. Coleman Report (1966): family background explains more educational achievement variance than school quality. The meritocracy ideology has been linked to reduced sympathy for disadvantaged groups.",
+    "tags": ["sociology", "social stratification", "meritocracy"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A study finds that adults who experienced childhood maltreatment have a higher risk of developing depression, anxiety, and physical illness in adulthood. This finding is most consistent with which theoretical framework?",
+    "options": ["Pure genetic determinism — only inherited factors matter for adult health", "Biological embedding of adversity — early adversity shapes developing biological systems (HPA axis, immune function, gene expression via epigenetics), creating 'biological memories' that increase vulnerability to stress and disease across the lifespan (ACE studies)", "The biomedical model — maltreatment directly damages organ systems", "Social learning theory only — adults model the maladaptive behavior they observed"],
+    "correct": 1,
+    "explanation": "Adverse Childhood Experiences (ACEs) research (Felitti et al., 1998): dose-response relationship between number of ACEs (abuse, neglect, household dysfunction) and adult physical/mental health outcomes. Mechanisms of biological embedding: (1) Toxic stress — prolonged activation of the HPA axis (cortisol dysregulation) during sensitive periods disrupts developing neural architecture, particularly the hippocampus, amygdala, and PFC; (2) Epigenetic changes — adverse experiences alter DNA methylation and histone modification patterns → changed gene expression that may persist and be heritable; (3) Immune dysregulation — chronic inflammation; (4) Telomere shortening — accelerated cellular aging. The life course perspective (Elder): early experiences create trajectories that compound over time. Early intervention programs (Head Start, nurse-family partnership) aim to interrupt these pathways.",
+    "tags": ["psychology", "health psychology", "developmental psychology", "ACEs"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "According to attribution theory, the 'fundamental attribution error' (FAE) describes which tendency?",
+    "options": ["The tendency to attribute our own failures to situational factors and our own successes to dispositional factors", "The tendency to overestimate the role of dispositional (internal, personal) factors and underestimate situational (external, contextual) factors when explaining other people's behavior — also called 'correspondence bias'", "The tendency to make attributions that maintain our self-esteem (self-serving bias)", "The tendency to attribute the behavior of in-group members to situations and out-group members to dispositions (ultimate attribution error)"],
+    "correct": 1,
+    "explanation": "FAE / Correspondence Bias (Ross, 1977): when observing others' behavior, people tend to attribute it to stable dispositional characteristics (personality, character) rather than considering powerful situational forces. Classic demonstrations: Jones & Harris (1967) — participants attributed essays to authors' true beliefs even when told authors were assigned their positions; Milgram obedience study — observers predicted low compliance and attributed disobedience to character, not situation. FAE is more pronounced in individualist (WEIRD) cultures; collectivist cultures show more situational attribution for others (weaker FAE). Self-serving bias: attribute own successes to internal factors, own failures to external factors. Actor-observer asymmetry: we attribute others' behavior to disposition but our own behavior to situation (perspective and information access differ).",
+    "tags": ["social psychology", "attribution theory", "FAE"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The 'looking-glass self,' a concept developed by Charles Cooley, proposes that self-concept is formed through:",
+    "options": ["Comparing ourselves to our ideal self", "Imagining how we appear to others, imagining their judgment of that appearance, and developing feelings about ourselves based on those imagined judgments — a social mirror of self-concept", "Observing our own behavior and making inferences about our traits (Bem's self-perception theory)", "Comparing ourselves to similar others (social comparison theory)"],
+    "correct": 1,
+    "explanation": "Looking-glass self (Cooley, 1902): the self is socially constructed through three steps: (1) I imagine how I appear to others; (2) I imagine how others judge that appearance; (3) I develop pride or shame based on my perception of those judgments. The 'glass' is not a literal mirror but other people — we use social interactions as a mirror to see ourselves. Key feature: it is based on imagined, not actual, judgments — we may be wrong about what others think, but our self-concept is shaped by our perception of their response. Example: a student who perceives that classmates see them as smart develops a positive academic self-concept. Mead's 'generalized other': internal representation of what 'society' expects — guides self-assessment when specific others aren't present. Both are symbolic interactionist perspectives on self-concept formation.",
+    "tags": ["sociology", "symbolic interactionism", "self-concept", "Cooley"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following is an example of 'institutional discrimination'?",
+    "options": ["An individual employer who holds prejudiced views and refuses to hire members of a minority group", "Racially neutral policies that produce disparate outcomes — such as banning cornrows in a school dress code, which disproportionately affects Black students; or drug sentencing laws that had racially disparate impacts — because systemic inequalities are embedded in institutional practices regardless of individual intent", "Prejudiced attitudes held by members of a society", "Stereotypes transmitted through media representations"],
+    "correct": 1,
+    "explanation": "Institutional (structural) discrimination: unequal treatment embedded in social institutions, policies, and practices — regardless of individual intent. Examples: (1) Criminal justice: mandatory minimum sentences for crack (associated with Black communities) vs. powder cocaine (associated with white communities) — 100:1 disparity pre-Fair Sentencing Act; (2) Education: school funding tied to property taxes → unequal resources by neighborhood; (3) Housing: historical redlining → segregated wealth accumulation; (4) Healthcare: algorithmic tools that use race as a proxy → Black patients receive less care; (5) Employment: 'race-neutral' hiring criteria that screen out candidates from under-resourced schools. Contrast with individual discrimination (prejudiced individuals) and cultural discrimination (societal stereotypes). Institutional discrimination can perpetuate inequality without any individual holding prejudiced views.",
+    "tags": ["sociology", "discrimination", "systemic racism", "social inequality"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which neuroimaging finding is consistently associated with depression?",
+    "options": ["Increased activity in the prefrontal cortex and decreased amygdala activation", "Decreased activity in the prefrontal cortex (especially dorsolateral PFC — reduced executive function, rumination) and increased amygdala reactivity to negative stimuli; also decreased hippocampal volume (stress-related neurogenesis suppression)", "Increased hippocampal volume and enhanced memory consolidation", "Hyperactivation of the basal ganglia causing motor symptoms"],
+    "correct": 1,
+    "explanation": "Neuroimaging in MDD: Prefrontal cortex (PFC) — particularly the dorsolateral PFC (DLPFC) — shows decreased activity/volume; associated with reduced positive affect, cognitive flexibility, and executive function; target of TMS (transcranial magnetic stimulation — therapeutic stimulation of left DLPFC). Subgenual anterior cingulate (sgACC/Brodmann area 25) — hyperactive in depression; target of deep brain stimulation (DBS) for treatment-resistant depression (Mayberg). Amygdala — hyperreactive to negative stimuli; ruminates on negative memories; reduced by antidepressants. Hippocampus — reduced volume (correlates with depression duration and stress exposure); cortisol-mediated neurogenesis suppression; antidepressants increase hippocampal neurogenesis (may underlie delayed therapeutic effect). HPA axis: hypercortisolemia (reduced feedback inhibition) is a key biological marker.",
+    "tags": ["psychology", "neuroscience", "depression", "neuroimaging"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The sociological concept of 'anomie' as developed by Durkheim refers to:",
+    "options": ["A state of excessive social regulation that suppresses individual freedom", "A breakdown of social norms and moral regulation — when the regulatory framework that gives individuals a sense of purpose and behavioral guidance is weakened (e.g., during rapid social change, economic crisis), individuals feel disconnected and normless → increased suicide and deviance", "The oppression of the working class by capitalist social structures", "The process by which individuals internalize social roles"],
+    "correct": 1,
+    "explanation": "Anomie (Durkheim, Suicide, 1897): 'normlessness' — a condition in which social norms are absent, unclear, or contradictory, leaving individuals without guidance for behavior. Durkheim observed that suicide rates increased during rapid social change (both prosperity and crisis) — when the normal social regulatory framework is disrupted. Types of suicide: Egoistic (weak social integration — individuation); Altruistic (excessive integration — sacrifice for group); Anomic (weak moral regulation — normlessness); Fatalistic (excessive regulation — oppression). Merton (1938) extended anomie to crime: when culturally prescribed goals (success, wealth) and legitimate means to achieve them are misaligned, people adopt deviant adaptations (innovation, ritualism, retreatism, rebellion).",
+    "tags": ["sociology", "Durkheim", "anomie", "deviance"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "According to the 'contact hypothesis' proposed by Gordon Allport, prejudice between groups is most effectively reduced when intergroup contact occurs under which conditions?",
+    "options": ["Any contact between groups reduces prejudice through familiarity", "Equal status, cooperative (not competitive) goals, institutional support, and opportunities for personal acquaintance — all four conditions must ideally be present for contact to reduce prejudice (Allport, 1954)", "Contact reduces prejudice only when the majority group is present to mediate", "Competitive intergroup contact is most effective because it tests mutual respect"],
+    "correct": 1,
+    "explanation": "Contact Hypothesis (Allport, The Nature of Prejudice, 1954): mere contact between groups does not automatically reduce prejudice — it can reinforce it under competitive or unequal conditions. Optimal conditions: (1) Equal status — participants interact as equals (not supervisor/subordinate); (2) Cooperative interdependence — groups must work together toward shared goals (not compete for resources); (3) Institutional support — authorities, laws, or social norms sanction and endorse the contact; (4) Personal acquaintance — contact allows individualization (breaking down categorical thinking). Empirical support: Sherif's Robbers Cave experiment demonstrated that competitive contact → hostility; cooperative superordinate goals → reduced prejudice. Meta-analyses (Pettigrew & Tropp, 2006) confirm contact reduces prejudice across hundreds of studies.",
+    "tags": ["social psychology", "prejudice", "contact hypothesis"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In health sociology, the 'sick role' concept developed by Talcott Parsons includes which obligations for the sick person?",
+    "options": ["The sick person is entitled to all the rights and freedoms of a healthy person, with no obligations", "The sick person: (1) must want to get well and see illness as undesirable; (2) must seek competent medical help; (3) is exempted from normal social role obligations proportional to illness severity; (4) is not held responsible for the illness itself", "The sick person is obligated to continue working to maintain social function", "The sick person must disclose their illness to all social contacts"],
+    "correct": 1,
+    "explanation": "Parsons' sick role (The Social System, 1951): a functionalist analysis of illness as a social role with rights and obligations. Rights: (1) Exemption from normal social responsibilities (work, family obligations) — proportional to severity; (2) Not held personally responsible for the illness (though this has become more contested for 'lifestyle diseases'). Obligations: (1) Must regard illness as undesirable and want to recover; (2) Must seek and cooperate with technically competent help (physicians). The sick role maintains the social system: without the obligation to recover, illness could become a permanent escape from social responsibilities ('secondary gain'). Critiques: (1) Assumes acute illness (doesn't fit chronic conditions where recovery is impossible); (2) Doesn't account for stigmatized illnesses; (3) Assumes power-neutral physician-patient relationship; (4) Culture shapes who can legitimately occupy the sick role (power structures).",
+    "tags": ["sociology", "medical sociology", "sick role", "Parsons"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following best describes the difference between 'sex' and 'gender' as used in social science?",
+    "options": ["Sex and gender are interchangeable biological terms", "Sex refers to biological characteristics (chromosomes, hormones, anatomy); gender refers to the socially constructed roles, behaviors, identities, and expressions that a society associates with being male, female, or other — gender varies across cultures and history", "Gender is fixed and determined by chromosomes at conception; sex is a social construct", "Sex includes both biological and social characteristics; gender is purely psychological"],
+    "correct": 1,
+    "explanation": "Sex: biological — chromosomal (XX, XY, XXY), hormonal (estrogen, testosterone), anatomical (primary/secondary sex characteristics); determined at fertilization but can be intersex (naturally occurring variation). Sex is not strictly binary in nature (~1.7% intersex by some estimates). Gender: social/cultural construction — roles (division of labor), behaviors (norms about appearance, emotion), identities (how one identifies internally), and expressions (presentation). Gender varies historically and cross-culturally (e.g., hijra in South Asian cultures, Two-Spirit among some Indigenous peoples). Gender identity ≠ sexual orientation. Gender socialization: from birth, boys and girls are treated differently → internalize gendered expectations. Social constructionists: gender is 'performed' (Butler's performativity theory) rather than innately possessed.",
+    "tags": ["sociology", "gender", "sex", "social construction"],
+    "difficulty": "easy"
+  }
+]

@@ -1,408 +1,416 @@
 [
   {
-    "text": "An inhibitor decreases Vmax but leaves Km unchanged. This is consistent with:",
+    "text": "Which of the following correctly explains why saturated fatty acids are solid at room temperature while unsaturated fatty acids are liquid?",
     "options": [
-      "Substrate inhibition",
-      "Pure noncompetitive inhibition",
-      "Competitive inhibition",
-      "Uncompetitive inhibition"
+      "Saturated fatty acids have more double bonds, increasing their melting points",
+      "Saturated fatty acids have no double bonds and adopt fully extended, straight-chain conformations that pack tightly together, increasing van der Waals interactions and raising melting point; unsaturated fatty acids have cis double bonds that introduce kinks, preventing tight packing and lowering melting point",
+      "The length of the carbon chain determines physical state, not saturation",
+      "Unsaturated fatty acids have charged groups that repel each other"
     ],
     "correct": 1,
-    "explanation": "Pure noncompetitive inhibitors bind equally well to free enzyme and enzyme-substrate complex (at a site other than active site), reducing the total functional enzyme population. Km is unchanged (substrate still binds normally), but Vmax decreases proportionally with inhibitor concentration. On a Lineweaver-Burk plot, lines have different y-intercepts but the same x-intercept.",
+    "explanation": "Saturated fatty acids (no double bonds) adopt an extended zigzag (all-trans) conformation that allows tight, parallel packing between chains → strong van der Waals interactions → high melting point → solid at room temperature (butter, lard, coconut oil). Unsaturated fatty acids have cis double bonds that introduce rigid, ~30° kinks in the chain → disrupt tight packing → weaker van der Waals → lower melting point → liquid at room temperature (olive oil, fish oil). Trans fatty acids (straight-chain like saturated fats) also pack tightly and raise melting point → solid at room temperature, similar cardiovascular risk to saturated fats. Membrane fluidity is maintained by unsaturated/short-chain fatty acids; cholesterol buffers fluidity changes.",
     "tags": [
-      "enzyme kinetics",
-      "noncompetitive inhibition"
+      "biochemistry",
+      "lipids",
+      "membrane biology"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which enzyme is responsible for the initial step of nitrogen fixation in Rhizobium bacteria, and what is the product?",
+    "options": [
+      "Glutamine synthetase, which fixes atmospheric N2 into glutamine",
+      "Nitrogenase complex, which reduces atmospheric N2 to NH3 (ammonia) — this requires 16 ATP and is inhibited by oxygen",
+      "Nitrate reductase, which converts NO3⁻ to NO2⁻",
+      "Glutamate dehydrogenase, which incorporates NH4+ into glutamate"
+    ],
+    "correct": 1,
+    "explanation": "Biological nitrogen fixation: N₂ + 8H+ + 8e⁻ + 16ATP → 2NH₃ + H₂ + 16ADP + 16Pi. Catalyzed by the nitrogenase complex (dinitrogenase reductase + dinitrogenase), which contains iron-sulfur clusters and a MoFe cofactor. Critical features: (1) Strongly inhibited by O₂ (destroys the Fe-S clusters) — Rhizobium in root nodules is protected by leghemoglobin (encoded by both plant and bacterium) which scavenges O₂; (2) Extremely ATP-intensive; (3) H₂ is always released as a byproduct. Products NH₃ → glutamine (via glutamine synthetase) → glutamate (via glutamate synthase/GOGAT) → all other N-containing biomolecules. This is the primary entry point of atmospheric N into the biosphere.",
+    "tags": [
+      "biology",
+      "biochemistry",
+      "nitrogen cycle",
+      "microbiology"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "An uncompetitive inhibitor binds only to the enzyme-substrate complex. On a Lineweaver-Burk plot, uncompetitive inhibition produces:",
+    "text": "A patient undergoes a bone marrow transplant and develops graft-versus-host disease (GVHD). What is the underlying immunological mechanism?",
     "options": [
-      "Lines intersecting at the x-axis",
-      "Lines intersecting at the y-axis",
-      "No change in the graph",
-      "Parallel lines (same slope, different intercepts)"
+      "The patient's immune system rejects the transplanted marrow",
+      "Donor T cells present in the transplant recognize host (recipient) MHC molecules as foreign and mount an immune attack against host tissues (GI tract, skin, liver)",
+      "NK cells in the graft attack cancer cells remaining in the patient",
+      "The patient lacks MHC molecules and cannot activate transplanted T cells"
     ],
-    "correct": 3,
-    "explanation": "Uncompetitive inhibitors bind ES complex, decreasing apparent Km and Vmax by the same factor (alpha'). On a double-reciprocal plot, the uninhibited and inhibited lines are parallel (same slope = Km/Vmax, since both change by the same factor). Both the x-intercept (–1/Km) and y-intercept (1/Vmax) shift left/up by the same factor.",
+    "correct": 1,
+    "explanation": "GVHD occurs when immunocompetent donor T cells (in the graft) recognize the recipient's MHC molecules as foreign (alloreactive T cells): (1) Direct allorecognition: donor T cells bind recipient APCs displaying recipient's allogeneic MHC directly; (2) Indirect allorecognition: donor T cells recognize recipient-derived peptides presented by donor MHC on donor APCs. Activated donor T cells attack recipient tissues: skin (rash), GI tract (diarrhea, nausea), liver (elevated LFTs), lungs. Acute GVHD (<100 days) and chronic GVHD are distinct entities. Prevention: HLA matching, T cell depletion of graft, calcineurin inhibitors (tacrolimus, cyclosporine). Note: graft-versus-leukemia (GVL) effect is beneficial — donor T cells also kill residual leukemic cells.",
     "tags": [
-      "enzyme kinetics",
-      "uncompetitive inhibition"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Organophosphate compounds (e.g., nerve agents) are dangerous because they:",
-    "options": [
-      "Activate adenylyl cyclase, flooding cells with cAMP",
-      "Competitively inhibit nicotinic acetylcholine receptors",
-      "Block voltage-gated sodium channels in motor neurons",
-      "Irreversibly phosphorylate the active-site serine of acetylcholinesterase, preventing ACh breakdown"
-    ],
-    "correct": 3,
-    "explanation": "Organophosphates covalently phosphorylate the catalytic serine of acetylcholinesterase (AChE) at the neuromuscular junction. Without AChE, acetylcholine accumulates, causing continuous muscle stimulation (SLUDGE symptoms: salivation, lacrimation, urination, defecation, GI distress, emesis). Treatment includes atropine (muscarinic antagonist) and pralidoxime (reactivates AChE if given early).",
-    "tags": [
-      "enzyme kinetics",
-      "irreversible inhibition",
-      "neuroscience"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Allosteric regulation differs from competitive inhibition in that:",
-    "options": [
-      "Both mechanisms bind at the active site",
-      "Competitive inhibitors permanently modify enzyme structure",
-      "Allosteric effectors only inhibit, never activate",
-      "Allosteric effectors bind to sites distinct from the active site and cause conformational changes; competitive inhibitors bind at the active site"
-    ],
-    "correct": 3,
-    "explanation": "Allosteric regulation involves binding of an effector to a regulatory (allosteric) site, causing conformational changes that alter active site geometry/affinity. Allosteric effectors can be activators or inhibitors and are not structurally similar to the substrate. Competitive inhibitors are typically substrate analogs that directly compete at the active site.",
-    "tags": [
-      "enzyme regulation",
-      "allosterism"
+      "immunology",
+      "transplantation",
+      "T cells"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Feedback inhibition in the isoleucine biosynthetic pathway involves isoleucine inhibiting:",
+    "text": "The hormone glucagon primarily acts on the liver to raise blood glucose. Which intracellular signaling pathway does it activate?",
     "options": [
-      "Threonine deaminase (first committed step)",
-      "Only the export of isoleucine from the cell",
-      "All enzymes simultaneously",
-      "The last enzyme in the pathway"
+      "PI3K-Akt pathway, inhibiting glycogen synthase kinase",
+      "Gs-adenylyl cyclase-cAMP-PKA pathway: glucagon binds Gs-coupled GPCR → adenylyl cyclase → ↑cAMP → PKA activation → phosphorylates and activates glycogen phosphorylase kinase → activates glycogen phosphorylase → glycogenolysis; also inhibits glycogen synthase and activates gluconeogenesis",
+      "Gq-PLCβ-IP3-DAG-PKC pathway",
+      "MAPK/ERK pathway, activating transcription of gluconeogenic enzymes"
     ],
-    "correct": 0,
-    "explanation": "Classic feedback (product) inhibition: isoleucine (end product) allosterically inhibits threonine deaminase, the first committed step. This prevents overproduction by shutting down the pathway when sufficient product exists. Inhibiting the first committed step is more efficient than inhibiting later enzymes.",
+    "correct": 1,
+    "explanation": "Glucagon (from pancreatic α-cells) is the primary counter-regulatory hormone to insulin. Its receptor is a Gs-coupled GPCR: glucagon → Gs → adenylyl cyclase activation → ↑cAMP → PKA activation. PKA phosphorylates: (1) Phosphorylase kinase → phosphorylates/activates glycogen phosphorylase → glycogenolysis (glucose-1-P → glucose-6-P → glucose); (2) Glycogen synthase → inactivates glycogen synthesis; (3) PFK-2/FBPase-2 (bifunctional enzyme) → reduces F-2,6-BP → relieves allosteric activation of PFK-1 → decreases glycolysis; (4) Transcription factors (CREB) → upregulate PEPCK and G6Pase for gluconeogenesis. Net hepatic effect: ↑glycogenolysis, ↓glycolysis, ↑gluconeogenesis → ↑blood glucose.",
     "tags": [
-      "enzyme regulation",
-      "feedback inhibition"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Protein kinase A (PKA) is activated by which second messenger?",
-    "options": [
-      "cAMP (cyclic AMP)",
-      "Diacylglycerol (DAG)",
-      "Ca2+",
-      "IP3"
-    ],
-    "correct": 0,
-    "explanation": "PKA is a tetrameric enzyme with two catalytic (C) and two regulatory (R) subunits. cAMP binds R subunits, causing dissociation and releasing active C subunits. cAMP is made by adenylyl cyclase in response to GPCR activation (e.g., beta-adrenergic receptors). PKA phosphorylates many targets including glycogen phosphorylase kinase and CREB.",
-    "tags": [
-      "enzyme regulation",
+      "biochemistry",
+      "endocrinology",
       "signal transduction",
-      "cAMP"
+      "glucose metabolism"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Michaelis-Menten kinetics break down when an enzyme has multiple subunits with cooperative substrate binding. This behavior is better described by:",
+    "text": "In a patient with hemophilia A, what is the primary coagulation defect?",
     "options": [
-      "First-order rate kinetics",
-      "The Hill equation (sigmoidal binding curve)",
-      "Competitive inhibition kinetics",
-      "The Lineweaver-Burk equation"
+      "Deficiency of von Willebrand factor",
+      "Deficiency of Factor VIII, which is required as a cofactor for Factor IXa to activate Factor X in the intrinsic pathway of the coagulation cascade",
+      "Deficiency of Factor VII in the extrinsic pathway",
+      "Deficiency of platelet glycoprotein IIb/IIIa"
     ],
     "correct": 1,
-    "explanation": "Cooperative enzymes (like hemoglobin for O2, or regulatory enzymes like PFK-1) show sigmoidal v vs. [S] curves. The Hill coefficient (n) quantifies cooperativity: n>1 = positive cooperativity, n<1 = negative, n=1 = hyperbolic (Michaelis-Menten). The Hill equation: v = Vmax[S]^n / (K0.5^n + [S]^n).",
+    "explanation": "Hemophilia A: X-linked recessive deficiency of Factor VIII (FVIII). In the coagulation cascade: intrinsic pathway — contact activation (XII → XIa → IXa); FVIII is a cofactor that dramatically accelerates Factor IXa's activation of Factor X (10,000-fold). Without FVIII: the IXa-VIIIa complex ('tenase complex') cannot form → Factor Xa is not efficiently generated → insufficient thrombin and fibrin clot. Lab findings: prolonged aPTT (tests intrinsic + common pathway), normal PT (extrinsic pathway intact), normal bleeding time (primary hemostasis intact — platelets and vWF are normal). Treatment: recombinant FVIII or emicizumab (bispecific antibody mimicking FVIII function). Hemophilia B: Factor IX deficiency (same lab picture).",
     "tags": [
-      "enzyme kinetics",
-      "cooperativity",
-      "Hill equation"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Hexokinase (in muscle) and glucokinase (hexokinase IV, in liver) both phosphorylate glucose, but differ in that:",
-    "options": [
-      "Glucokinase has a high Km for glucose and is not inhibited by G6P; hexokinase has low Km and is inhibited by G6P",
-      "Glucokinase requires NAD+ as a cofactor",
-      "Both have the same Km but glucokinase is allosterically activated",
-      "Hexokinase only works at high glucose concentrations"
-    ],
-    "correct": 0,
-    "explanation": "Glucokinase (hexokinase IV) has high Km (~10 mM, near portal vein glucose), is not inhibited by G6P, and shows sigmoidal kinetics (cooperative). This makes glucokinase a glucose sensor: it acts as a low-affinity glucose phosphorylator in the liver when blood glucose is high. Muscle hexokinase has low Km (~0.1 mM), is inhibited by G6P, and saturates at normal glucose levels.",
-    "tags": [
-      "enzyme regulation",
-      "glycolysis",
-      "hexokinase"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "The kcat/Km ratio (catalytic efficiency) is important because:",
-    "options": [
-      "It reflects how efficiently an enzyme converts substrate to product at low [S], approaching the diffusion limit",
-      "It equals the maximum velocity",
-      "It measures enzyme concentration",
-      "It is used to calculate the equilibrium constant"
-    ],
-    "correct": 0,
-    "explanation": "kcat/Km is the second-order rate constant for the reaction E + S → E + P at low [S]. The theoretical maximum is the diffusion limit (~10^8–10^9 M-1s-1). 'Catalytically perfect' enzymes (like carbonic anhydrase, triose phosphate isomerase) approach this limit. kcat/Km is used to compare catalytic efficiencies of different enzymes or compare the same enzyme with different substrates.",
-    "tags": [
-      "enzyme kinetics",
-      "catalytic efficiency"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Zymogen activation is best exemplified by:",
-    "options": [
-      "Hexokinase is phosphorylated to activate it",
-      "DNA polymerase requires RNA primer to initiate",
-      "Hemoglobin binds O2 cooperatively",
-      "Trypsinogen is cleaved to trypsin by enteropeptidase in the small intestine"
-    ],
-    "correct": 3,
-    "explanation": "Zymogens (proenzymes) are inactive precursors activated by proteolytic cleavage. Trypsinogen → trypsin (by enteropeptidase/enterokinase); trypsin then activates other zymogens (chymotrypsinogen, proelastase, procarboxypeptidases). This irreversible mechanism prevents premature activation in the pancreas. Premature activation causes pancreatitis.",
-    "tags": [
-      "enzyme regulation",
-      "zymogens",
-      "digestion"
+      "physiology",
+      "hematology",
+      "coagulation"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Which enzyme catalyzes the rate-limiting committed step of glycolysis?",
+    "text": "Which statement correctly describes the central dogma of molecular biology as understood today?",
     "options": [
-      "Pyruvate kinase",
-      "Aldolase",
-      "Hexokinase",
-      "Phosphofructokinase-1 (PFK-1)"
+      "DNA → RNA → Protein, with no known exceptions",
+      "The primary flow is DNA → RNA → Protein, but exceptions exist: reverse transcriptase copies RNA back to DNA (retroviruses), RNA can replicate RNA (RNA viruses), and prions demonstrate protein conformation change without nucleic acid",
+      "Proteins can directly encode information and synthesize new DNA sequences",
+      "RNA is never translated back to DNA under any circumstances"
     ],
-    "correct": 3,
-    "explanation": "PFK-1 catalyzes fructose-6-phosphate → fructose-1,6-bisphosphate (using ATP). This is the first committed, irreversible step of glycolysis and its major regulatory point. PFK-1 is activated by AMP/ADP/F-2,6-BP and inhibited by ATP/citrate/glucagon. Hexokinase is also regulated but not the committed rate-limiting step.",
+    "correct": 1,
+    "explanation": "Crick's central dogma (1958): information flows DNA → DNA (replication), DNA → RNA (transcription), RNA → Protein (translation). Exceptions now known: (1) RNA → DNA: reverse transcriptase (HIV, retroviruses) — used in HIV replication and cDNA library construction; (2) RNA → RNA: RNA-dependent RNA polymerase (RNA viruses like poliovirus, influenza) — basis for viral genome replication; (3) Prion hypothesis: abnormal protein conformation (PrPsc) propagates by converting normal PrPc — information encoded in protein structure, not sequence; no nucleic acid involved. The dogma holds that amino acid sequences cannot be reverse-translated to nucleotide sequences — this remains unchallenged.",
     "tags": [
-      "glycolysis",
-      "enzyme regulation"
+      "molecular biology",
+      "central dogma",
+      "virology"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "Net ATP yield from glycolysis (glucose → 2 pyruvate) is:",
+    "text": "A 35-year-old develops a pulmonary embolism. Anticoagulation with heparin is initiated. What is the primary mechanism of heparin's anticoagulant effect?",
     "options": [
-      "36–38 ATP",
-      "2 ATP",
-      "6 ATP",
-      "4 ATP"
+      "Heparin directly inhibits thrombin and Factor Xa by occupying their active sites",
+      "Heparin binds and activates antithrombin III (ATIII), increasing its inhibitory activity ~1000-fold against thrombin (IIa) and Factor Xa, as well as IXa, XIa, and XIIa",
+      "Heparin prevents vitamin K-dependent carboxylation of coagulation factors",
+      "Heparin inhibits platelet aggregation by blocking thromboxane A2 synthesis"
     ],
     "correct": 1,
-    "explanation": "Glycolysis: 4 ATP produced (steps 7 and 10, substrate-level phosphorylation) minus 2 ATP consumed (hexokinase and PFK-1) = net 2 ATP. Also produces 2 NADH. The 36-38 ATP figure includes downstream oxidative phosphorylation from the full aerobic catabolism of glucose.",
+    "explanation": "Heparin (unfractionated) is a glycosaminoglycan that binds antithrombin III (ATIII) via a specific pentasaccharide sequence, causing conformational change → ATIII becomes a rapid inhibitor of thrombin (IIa) and other serine proteases (Xa, IXa, XIa, XIIa). For thrombin inhibition, heparin must also bind thrombin simultaneously (ternary complex) — requires ≥18 saccharides. LMWH (low molecular weight heparin: enoxaparin) predominantly inhibits Factor Xa (anti-Xa > anti-IIa). Fondaparinux: synthetic pentasaccharide, pure Factor Xa inhibitor via ATIII. Warfarin inhibits vitamin K epoxide reductase → depletes γ-carboxylation of factors II, VII, IX, X. Direct oral anticoagulants (apixaban, rivaroxaban) directly inhibit Xa or IIa (dabigatran).",
     "tags": [
-      "glycolysis",
-      "bioenergetics"
+      "pharmacology",
+      "hematology",
+      "coagulation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A researcher studying protein folding finds that a small protein folds spontaneously in a test tube without any chaperones. This observation is consistent with which principle?",
+    "options": [
+      "The information for the final 3D structure is NOT encoded in the primary amino acid sequence",
+      "Anfinsen's principle: the native (biologically active) 3D structure of a protein is the thermodynamically most stable conformation under physiological conditions, and all information needed to reach this state is encoded in the primary sequence",
+      "Chaperones are required for all protein folding in vivo",
+      "Proteins fold along a single defined pathway determined by their mRNA structure"
+    ],
+    "correct": 1,
+    "explanation": "Anfinsen's ribonuclease experiment (Nobel Prize 1972): RNase A was denatured with urea (unfolded) and reduced with β-mercaptoethanol (broke disulfide bonds) → completely inactive. When renaturation conditions were restored (remove denaturants), RNase A spontaneously refolded to its native structure and regained full enzymatic activity. This demonstrated that all information for 3D structure is encoded in the primary amino acid sequence and that the native state is the thermodynamic minimum. Chaperones prevent misfolding and aggregation in vivo (crowded cellular environment) but are not required for the thermodynamic driving force — they increase the kinetic efficiency and fidelity of folding.",
+    "tags": [
+      "biochemistry",
+      "protein folding",
+      "protein structure"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "Which glycolytic enzyme catalyzes the only oxidation-reduction step in glycolysis?",
+    "text": "In which situation does the kidney secrete potassium (K+) into the tubular lumen?",
     "options": [
-      "Phosphoglycerate mutase",
-      "Enolase",
-      "Phosphoglycerate kinase",
-      "Glyceraldehyde-3-phosphate dehydrogenase (G3PDH)"
-    ],
-    "correct": 3,
-    "explanation": "G3PDH oxidizes glyceraldehyde-3-phosphate to 1,3-bisphosphoglycerate, reducing NAD+ to NADH. This is the only redox step in glycolysis. The high-energy thioester intermediate is captured as 1,3-BPG, which then drives ATP synthesis at phosphoglycerate kinase (substrate-level phosphorylation).",
-    "tags": [
-      "glycolysis",
-      "redox reactions"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Under anaerobic conditions, NADH generated in glycolysis is reoxidized by:",
-    "options": [
-      "Malate-aspartate shuttle",
-      "Pyruvate dehydrogenase complex",
-      "Lactate dehydrogenase (pyruvate → lactate), regenerating NAD+ to sustain glycolysis",
-      "The electron transport chain"
-    ],
-    "correct": 2,
-    "explanation": "Without O2, the ETC cannot reoxidize NADH. Lactate dehydrogenase (LDH) transfers the electrons from NADH to pyruvate, forming lactate and regenerating NAD+. This NAD+ is essential for continued glycolysis. In yeast, pyruvate decarboxylase and alcohol dehydrogenase regenerate NAD+ via ethanol fermentation.",
-    "tags": [
-      "glycolysis",
-      "anaerobic metabolism"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Pyruvate dehydrogenase complex (PDC) is inhibited by all of the following EXCEPT:",
-    "options": [
-      "Acetyl-CoA (product)",
-      "PDC kinase activated by high ATP/ADP ratio",
-      "AMP (which activates PDC)",
-      "NADH (product)"
-    ],
-    "correct": 2,
-    "explanation": "PDC is inhibited by its products (acetyl-CoA and NADH) and by PDC kinase when ATP/ADP and NADH/NAD+ ratios are high (energy surplus). PDC is activated by PDC phosphatase (activated by insulin and Ca2+), by AMP, by CoA, and by NAD+. High AMP signals low energy and would activate PDC to produce more acetyl-CoA.",
-    "tags": [
-      "pyruvate dehydrogenase",
-      "enzyme regulation"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "How many CO2 molecules are released per turn of the TCA cycle?",
-    "options": [
-      "2",
-      "1",
-      "4",
-      "3"
-    ],
-    "correct": 0,
-    "explanation": "Two CO2 are released per TCA cycle turn: one at isocitrate dehydrogenase (isocitrate → alpha-ketoglutarate) and one at alpha-ketoglutarate dehydrogenase (alpha-KG → succinyl-CoA). These are the two oxidative decarboxylation steps of the TCA cycle. The 2-carbon acetyl group entering from acetyl-CoA is fully oxidized over multiple turns.",
-    "tags": [
-      "TCA cycle",
-      "carbon balance"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The energetic yield of one NADH oxidized by the ETC is approximately:",
-    "options": [
-      "4 ATP",
-      "2.5 ATP",
-      "3 ATP",
-      "1.5 ATP"
+      "During hypokalemia, to conserve potassium",
+      "In the principal cells of the cortical collecting duct, when aldosterone is high — aldosterone upregulates Na+/K+-ATPase and apical K+ channels (ROMK), driving K+ secretion in exchange for Na+ reabsorption",
+      "In the loop of Henle, as the primary site of K+ regulation",
+      "When the patient is acidotic, K+ is secreted in exchange for H+"
     ],
     "correct": 1,
-    "explanation": "Modern measurements (using P/O ratios from chemiosmosis) give ~2.5 ATP per NADH (pumps 10 H+ across inner mitochondrial membrane; ATP synthase needs ~4 H+ per ATP → 10/4 = 2.5 ATP). FADH2 yields ~1.5 ATP (pumps 6 H+). Older textbooks cited 3 ATP (NADH) and 2 ATP (FADH2), but 2.5 and 1.5 are now accepted values.",
+    "explanation": "K+ homeostasis: most K+ is reabsorbed in the proximal tubule (~67%) and thick ascending limb (~25%). Fine-tuning occurs in the cortical collecting duct (CCD). Principal cells: aldosterone → binds mineralocorticoid receptor → upregulates ENaC (apical Na+ channel) and Na+/K+-ATPase (basolateral) → Na+ reabsorption creates lumen electronegativity → driving force for K+ secretion via ROMK channels. High aldosterone (hyperaldosteronism) → hypokalemia. RAAS activation also includes ADH and volume status. Acidosis: H+ competes with K+ for secretion → hyperkalemia. Alkalosis → hypokalemia. K+-sparing diuretics: spironolactone (aldosterone antagonist), amiloride (blocks ENaC). Loop diuretics also increase K+ loss by increasing CCD flow rate.",
     "tags": [
-      "electron transport chain",
-      "ATP yield"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which complex of the ETC does NOT pump protons across the inner mitochondrial membrane?",
-    "options": [
-      "Complex III (cytochrome bc1)",
-      "Complex I (NADH dehydrogenase)",
-      "Complex II (succinate dehydrogenase)",
-      "Complex IV (cytochrome c oxidase)"
-    ],
-    "correct": 2,
-    "explanation": "Complexes I, III, and IV pump protons from matrix to intermembrane space, generating the proton motive force. Complex II (succinate dehydrogenase) accepts electrons from FADH2 and passes them to ubiquinone (CoQ) but does NOT translocate protons. This is why FADH2 yields less ATP than NADH.",
-    "tags": [
-      "electron transport chain"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Rotenone, a pesticide, blocks which complex of the ETC?",
-    "options": [
-      "Complex II",
-      "Complex III",
-      "Complex I (NADH:ubiquinone oxidoreductase)",
-      "Complex IV"
-    ],
-    "correct": 2,
-    "explanation": "Rotenone is a specific inhibitor of Complex I (blocks electron transfer from Fe-S center to ubiquinone). Inhibiting Complex I prevents NADH oxidation, halting the ETC. It is also used experimentally to model Parkinson's disease (dopaminergic neurons are especially sensitive to Complex I inhibition).",
-    "tags": [
-      "electron transport chain",
-      "toxicology"
+      "physiology",
+      "renal physiology",
+      "potassium regulation"
     ],
     "difficulty": "hard"
   },
   {
-    "text": "Uncoupling proteins (UCPs, e.g., thermogenin/UCP1 in brown fat) affect oxidative phosphorylation by:",
+    "text": "A patient with type 1 diabetes has blood glucose of 400 mg/dL and produces large amounts of ketone bodies. Why does this occur despite glucose being available?",
     "options": [
-      "Increasing proton gradient without generating heat",
-      "Activating ATP synthase to produce more ATP per proton",
-      "Inhibiting electron flow at Complex III",
-      "Allowing protons to flow back across the inner mitochondrial membrane without producing ATP, generating heat instead"
-    ],
-    "correct": 3,
-    "explanation": "UCPs dissipate the proton gradient (uncouple ETC from ATP synthesis) by providing an alternative proton leak pathway. Instead of driving ATP synthase, the energy is released as heat — thermogenesis. UCP1 in brown adipose tissue is especially important in newborns and hibernating animals for non-shivering thermogenesis.",
-    "tags": [
-      "oxidative phosphorylation",
-      "thermogenesis",
-      "uncoupling"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The unique enzymes of gluconeogenesis that bypass glycolytic irreversible steps are:",
-    "options": [
-      "Pyruvate carboxylase, PEPCK, fructose-1,6-bisphosphatase, glucose-6-phosphatase",
-      "Aldolase and enolase",
-      "Hexokinase, PFK-1, pyruvate kinase",
-      "Glycogen synthase and glycogen phosphorylase"
-    ],
-    "correct": 0,
-    "explanation": "Three irreversible glycolytic steps are bypassed: (1) Pyruvate kinase step bypassed by pyruvate carboxylase (pyruvate→OAA) + PEPCK (OAA→PEP); (2) PFK-1 step bypassed by fructose-1,6-bisphosphatase; (3) Hexokinase step bypassed by glucose-6-phosphatase. Glucose-6-phosphatase is only in liver/kidney, explaining why only those organs can release glucose to blood.",
-    "tags": [
-      "gluconeogenesis"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Insulin promotes which of the following metabolic effects in hepatocytes?",
-    "options": [
-      "Glycogenolysis, gluconeogenesis, fatty acid oxidation",
-      "Glycolysis, glycogen synthesis, fatty acid synthesis; inhibits gluconeogenesis",
-      "Ketone body production and glucose output",
-      "Protein catabolism and urea synthesis"
+      "Type 1 diabetes reduces GLUT2 transporter expression in the liver",
+      "Absolute insulin deficiency prevents glucose uptake by muscle and adipose tissue; the liver interprets this as a fasting state, activating β-oxidation and ketogenesis from free fatty acids released by unregulated lipolysis in adipose tissue",
+      "Excess glucose directly activates glucagon receptors, stimulating ketogenesis",
+      "The kidneys fail to filter glucose and divert it to ketone synthesis"
     ],
     "correct": 1,
-    "explanation": "Insulin (secreted by beta cells in response to high glucose) promotes anabolic pathways: activates PFK-2 (increases F-2,6-BP → activates PFK-1 → glycolysis), glycogen synthase (glycogen synthesis), acetyl-CoA carboxylase (fatty acid synthesis), and inhibits PEPCK and glucose-6-phosphatase (gluconeogenesis). Net effect: lower blood glucose.",
+    "explanation": "In type 1 diabetes (absolute insulin deficiency): (1) Glucose cannot enter muscle or adipose tissue (GLUT4 translocation requires insulin) → hyperglycemia; (2) Adipocytes: without insulin, hormone-sensitive lipase is unchecked → massive lipolysis → free fatty acids released into blood; (3) Liver: low insulin + high glucagon → oxaloacetate used for gluconeogenesis rather than condensing with acetyl-CoA; (4) Hepatic β-oxidation of FFAs generates excess acetyl-CoA that cannot enter TCA (insufficient OAA) → ketogenesis (acetoacetate, β-hydroxybutyrate) → ketoacidosis. The liver 'thinks' it's starving because insulin is absent. The paradox: hyperglycemia + starvation metabolism coexist. Treatment: insulin (shuts down lipolysis, activates GLUT4, inhibits glucagon).",
     "tags": [
-      "carbohydrate metabolism",
-      "hormones",
-      "insulin"
+      "biochemistry",
+      "endocrinology",
+      "diabetes",
+      "ketone metabolism"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "The pentose phosphate pathway (hexose monophosphate shunt) is particularly important in red blood cells because it:",
+    "text": "In gel electrophoresis with SDS-PAGE, proteins are separated based on:",
     "options": [
-      "Is the only source of ribose for nucleotide synthesis in RBCs",
-      "Provides the primary ATP source for red blood cells",
-      "Generates acetyl-CoA for fatty acid synthesis in RBCs",
-      "Produces NADPH to maintain glutathione (GSH) reduced, protecting against oxidative hemolysis"
+      "Charge and shape — proteins with more negative charges migrate faster toward the anode",
+      "Molecular weight only — SDS denatures proteins and coats them with uniform negative charge proportional to mass; smaller proteins migrate faster through the polyacrylamide gel matrix",
+      "Isoelectric point — proteins at their pI do not migrate",
+      "Protein-protein interactions — proteins in the same complex migrate together"
+    ],
+    "correct": 1,
+    "explanation": "SDS (sodium dodecyl sulfate) is an anionic detergent that: (1) Denatures proteins (disrupts non-covalent interactions) and (2) Binds at ~1.4 g SDS per g protein, coating the protein with uniform negative charge proportional to its mass. This eliminates the effect of intrinsic charge and shape. Under an electric field, all proteins migrate toward the anode (positive electrode), but smaller proteins pass through the polyacrylamide matrix more easily than larger ones → separation by molecular weight. The log(MW) vs. migration distance is linear → MW can be determined using a protein ladder. Note: disulfide bonds must be reduced (β-mercaptoethanol or DTT) for complete denaturation and accurate sizing of multi-chain proteins.",
+    "tags": [
+      "biochemistry",
+      "laboratory techniques",
+      "protein chemistry"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which amino acid is the only one that lacks a chiral alpha carbon?",
+    "options": [
+      "Serine",
+      "Alanine",
+      "Proline",
+      "Glycine"
     ],
     "correct": 3,
-    "explanation": "RBCs lack mitochondria and nuclei (no TCA, no ETC, no nucleotide synthesis). The pentose phosphate pathway produces NADPH, which reduces glutathione (GSSG → GSH) via glutathione reductase. Reduced GSH protects hemoglobin from oxidative damage. G6PD deficiency impairs this pathway → oxidative hemolysis with oxidative stressors (certain drugs, fava beans).",
+    "explanation": "Glycine has two H atoms on its alpha carbon (R = H), giving it two identical substituents and no chirality. Every other standard amino acid has four distinct groups at the alpha carbon and exists as the L-enantiomer in proteins.",
     "tags": [
-      "pentose phosphate pathway",
-      "red blood cells",
-      "G6PD"
+      "amino acids",
+      "chirality"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "At physiological pH (~7.4), which amino acid side chain is best positioned to donate or accept a proton and function as an acid-base catalyst?",
+    "options": [
+      "Glutamine",
+      "Aspartate",
+      "Histidine",
+      "Lysine"
+    ],
+    "correct": 2,
+    "explanation": "Histidine's imidazole side chain has pKa ≈ 6.0, closest to physiological pH of all standard amino acids. This lets it toggle between protonated and deprotonated forms under physiological conditions. Lysine (pKa ≈ 10.5) stays protonated; aspartate (pKa ≈ 3.9) stays deprotonated; glutamine has no ionizable side chain.",
+    "tags": [
+      "amino acids",
+      "enzyme catalysis"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Glycogen synthase is activated by:",
+    "text": "Which amino acid side chain contains a thiol group (–SH) that can form disulfide bonds?",
     "options": [
-      "Phosphorylation by PKA",
-      "Epinephrine in skeletal muscle",
-      "Dephosphorylation (by phosphatase, stimulated by insulin) and allosterically by glucose-6-phosphate",
-      "Glucagon via cAMP"
+      "Serine",
+      "Methionine",
+      "Threonine",
+      "Cysteine"
+    ],
+    "correct": 3,
+    "explanation": "Cysteine's thiol (–SH) group is oxidized to form disulfide bonds (–S–S–) with another cysteine, stabilizing tertiary/quaternary protein structure. Serine and threonine have –OH groups. Methionine contains a thioether (–S–CH3) that cannot form disulfide bonds.",
+    "tags": [
+      "amino acids",
+      "protein structure"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Why does proline disrupt alpha-helices?",
+    "options": [
+      "Its side chain is too large to fit in the helix",
+      "It carries a negative charge at physiological pH",
+      "Its side chain bonds to the backbone nitrogen, eliminating the N–H hydrogen bond donor",
+      "It forms an extra covalent bond with adjacent residues"
     ],
     "correct": 2,
-    "explanation": "Glycogen synthase is active when dephosphorylated (insulin activates PP1 via inhibiting GSK-3). G6P allosterically activates glycogen synthase — high intracellular glucose signals available precursor. Glucagon and epinephrine activate PKA → phosphorylates glycogen synthase → INACTIVATES it (and activates phosphorylase). This reciprocal regulation is a key metabolic switch.",
+    "explanation": "Proline's nitrogen is locked in a pyrrolidine ring with its side chain, removing the backbone N–H needed for hydrogen bonding in a helix. This creates a rigid kink, making proline a 'helix breaker.' It can appear at the end of helices or in beta-turns.",
     "tags": [
-      "glycogen metabolism",
-      "enzyme regulation",
-      "insulin"
+      "amino acids",
+      "protein structure"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Proteins absorb strongly at 280 nm primarily because of which amino acids?",
+    "options": [
+      "Phenylalanine and alanine",
+      "Methionine and cysteine",
+      "Glycine and proline",
+      "Tryptophan and tyrosine"
+    ],
+    "correct": 3,
+    "explanation": "Tryptophan (indole ring) and tyrosine (phenol ring) absorb at 280 nm due to aromatic pi electrons. Tryptophan has the larger extinction coefficient. This is used to estimate protein concentration spectrophotometrically. Phenylalanine absorbs weakly at ~257 nm.",
+    "tags": [
+      "amino acids",
+      "spectroscopy"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which amino acid is the direct precursor for catecholamine biosynthesis (dopamine, norepinephrine, epinephrine)?",
+    "options": [
+      "Tryptophan",
+      "Histidine",
+      "Phenylalanine",
+      "Tyrosine"
+    ],
+    "correct": 3,
+    "explanation": "Tyrosine → L-DOPA (tyrosine hydroxylase) → Dopamine → Norepinephrine → Epinephrine. Phenylalanine can be converted to tyrosine by phenylalanine hydroxylase, but tyrosine is the direct precursor. Tryptophan makes serotonin. Histidine makes histamine.",
+    "tags": [
+      "amino acids",
+      "neurotransmitters"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In eukaryotes, which amino acid is delivered by the initiator tRNA at the start codon AUG?",
+    "options": [
+      "Alanine",
+      "Valine",
+      "Methionine",
+      "Leucine"
+    ],
+    "correct": 2,
+    "explanation": "AUG codes for methionine and serves as the start codon in eukaryotes (the initiator tRNA is met-tRNAi). In prokaryotes, the initiator carries N-formyl-methionine (fMet). The initiating methionine is often cleaved post-translationally.",
+    "tags": [
+      "amino acids",
+      "translation"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A patient with phenylketonuria (PKU) lacks phenylalanine hydroxylase. Which metabolite accumulates and causes neurological damage?",
+    "options": [
+      "Tyrosine",
+      "Excess dopamine",
+      "Phenylalanine and its toxic byproducts (phenylpyruvate, phenyllactate)",
+      "Tryptophan metabolites"
+    ],
+    "correct": 2,
+    "explanation": "Without phenylalanine hydroxylase, phenylalanine cannot be converted to tyrosine and accumulates. It is shunted to phenylpyruvate, phenyllactate, and phenylacetate. These metabolites inhibit brain aromatic amino acid transport, impair myelination, and cause intellectual disability if untreated.",
+    "tags": [
+      "amino acids",
+      "metabolic disorders"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Glutamic acid (pI ≈ 3.2) carries what net charge at pH 7.4?",
+    "options": [
+      "–1",
+      "+1",
+      "0",
+      "+2"
+    ],
+    "correct": 0,
+    "explanation": "At pH 7.4, well above pI 3.2: the alpha-COOH (pKa ~2.1) and side-chain COOH (pKa ~4.1) are both deprotonated (–1 each), while the alpha-NH3+ (pKa ~9.5) is protonated (+1). Net = +1 – 1 – 1 = –1.",
+    "tags": [
+      "amino acids",
+      "acid-base"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following is a complete list of the nine essential amino acids?",
+    "options": [
+      "Arg, His, Lys, Asp, Glu, Asn, Gln, Ser, Thr",
+      "Phe, Tyr, Trp, Met, Cys, Gly, Pro, Val, Ala",
+      "His, Ile, Leu, Lys, Met, Phe, Thr, Trp, Val",
+      "Ala, Gly, Pro, Ser, Thr, Asn, Gln, Cys, Tyr"
+    ],
+    "correct": 2,
+    "explanation": "The nine essential amino acids (cannot be synthesized by humans) are Histidine, Isoleucine, Leucine, Lysine, Methionine, Phenylalanine, Threonine, Tryptophan, Valine. Mnemonic: PVT TIM HaLL. They must come from the diet.",
+    "tags": [
+      "amino acids",
+      "nutrition"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Glycine appears in regions of the Ramachandran plot that are forbidden for other amino acids because:",
+    "options": [
+      "It forms the most stable hydrogen bonds",
+      "It has the most hydrophobic side chain",
+      "Its pKa is farthest from physiological pH",
+      "It lacks a side chain, minimizing steric clash at extreme phi/psi angles"
+    ],
+    "correct": 3,
+    "explanation": "Without a side chain, glycine has minimal steric restriction and can adopt phi/psi combinations (including left-handed alpha-helix conformations) inaccessible to other amino acids. This flexibility is why glycine is common at tight turns and in collagen (Gly-X-Y). Proline, conversely, is the most restricted.",
+    "tags": [
+      "amino acids",
+      "protein structure"
     ],
     "difficulty": "hard"
   },
   {
-    "text": "In the Cori cycle, skeletal muscle sends which metabolite to the liver during intense exercise?",
+    "text": "Collagen requires hydroxyproline for stability. Which vitamin is essential for prolyl hydroxylase, and what disease results from its deficiency?",
     "options": [
-      "Pyruvate",
-      "Fatty acids",
-      "Lactate",
-      "Glucose"
+      "Vitamin K; coagulopathy",
+      "Vitamin B12; pernicious anemia",
+      "Vitamin D; rickets",
+      "Vitamin C (ascorbic acid); scurvy"
+    ],
+    "correct": 3,
+    "explanation": "Prolyl hydroxylase requires ascorbate (vitamin C) as a cofactor to hydroxylate proline residues in collagen. Hydroxyproline forms extra hydrogen bonds in the collagen triple helix. Without vitamin C, hydroxylation fails, collagen is unstable, and patients develop scurvy: bleeding gums, poor wound healing, perifollicular hemorrhages.",
+    "tags": [
+      "amino acids",
+      "collagen",
+      "vitamins"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "GABA (gamma-aminobutyric acid) is synthesized from which amino acid by glutamate decarboxylase?",
+    "options": [
+      "Tyrosine",
+      "Aspartate",
+      "Glutamate",
+      "Tryptophan"
     ],
     "correct": 2,
-    "explanation": "During intense anaerobic exercise, skeletal muscle converts glucose to lactate (anaerobic glycolysis) to regenerate NAD+ for continued glycolysis. Lactate is exported to the blood, taken up by the liver, converted to pyruvate and then glucose via gluconeogenesis. This glucose returns to muscle — the Cori cycle. Alanine (from muscle amino acid catabolism) participates in the glucose-alanine cycle.",
+    "explanation": "Glutamate decarboxylase (requires PLP/vitamin B6) converts glutamate → GABA by removing the carboxyl group. GABA is the principal inhibitory neurotransmitter in the CNS. Disruption of GABA signaling is linked to anxiety disorders, epilepsy, and the mechanism of benzodiazepines and barbiturates.",
     "tags": [
-      "Cori cycle",
-      "glucose-lactate cycle"
+      "amino acids",
+      "neurotransmitters"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The branched-chain amino acids (BCAAs) are:",
+    "options": [
+      "Phenylalanine, tyrosine, tryptophan",
+      "Serine, threonine, cysteine",
+      "Lysine, arginine, histidine",
+      "Leucine, isoleucine, valine"
+    ],
+    "correct": 3,
+    "explanation": "BCAAs (Leu, Ile, Val) have branched aliphatic side chains and are metabolized primarily in skeletal muscle (not liver), making them important for muscle protein synthesis and energy during exercise. All three are essential amino acids.",
+    "tags": [
+      "amino acids",
+      "metabolism"
     ],
     "difficulty": "easy"
   }

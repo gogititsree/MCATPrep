@@ -35,376 +35,397 @@
     "difficulty": "medium"
   },
   {
-    "text": "Which amino acid is the only one that lacks a chiral alpha carbon?",
+    "text": "Which enzyme removes the RNA primers during DNA replication in eukaryotes and fills in the resulting gaps?",
     "options": [
-      "Serine",
-      "Alanine",
-      "Proline",
-      "Glycine"
+      "DNA polymerase I",
+      "DNA polymerase δ, assisted by RNase H and FEN1 (flap endonuclease 1)",
+      "DNA polymerase α",
+      "Telomerase"
     ],
-    "correct": 3,
-    "explanation": "Glycine has two H atoms on its alpha carbon (R = H), giving it two identical substituents and no chirality. Every other standard amino acid has four distinct groups at the alpha carbon and exists as the L-enantiomer in proteins.",
+    "correct": 1,
+    "explanation": "In eukaryotes, RNA primers are removed by the coordinated action of RNase H1 (degrades RNA in RNA:DNA hybrids) and FEN1 (flap endonuclease 1, cleaves the 5' RNA flap). DNA polymerase δ then fills the gap using the 3'-OH of the upstream Okazaki fragment. DNA ligase I seals the nick. In prokaryotes, DNA pol I has 5'→3' exonuclease activity and performs primer removal itself. DNA pol α synthesizes the initial RNA-DNA primer on each Okazaki fragment. Telomerase extends the 3' overhang of chromosomal ends, not primer removal.",
     "tags": [
-      "amino acids",
-      "chirality"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "At physiological pH (~7.4), which amino acid side chain is best positioned to donate or accept a proton and function as an acid-base catalyst?",
-    "options": [
-      "Glutamine",
-      "Aspartate",
-      "Histidine",
-      "Lysine"
-    ],
-    "correct": 2,
-    "explanation": "Histidine's imidazole side chain has pKa ≈ 6.0, closest to physiological pH of all standard amino acids. This lets it toggle between protonated and deprotonated forms under physiological conditions. Lysine (pKa ≈ 10.5) stays protonated; aspartate (pKa ≈ 3.9) stays deprotonated; glutamine has no ionizable side chain.",
-    "tags": [
-      "amino acids",
-      "enzyme catalysis"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which amino acid side chain contains a thiol group (–SH) that can form disulfide bonds?",
-    "options": [
-      "Serine",
-      "Methionine",
-      "Threonine",
-      "Cysteine"
-    ],
-    "correct": 3,
-    "explanation": "Cysteine's thiol (–SH) group is oxidized to form disulfide bonds (–S–S–) with another cysteine, stabilizing tertiary/quaternary protein structure. Serine and threonine have –OH groups. Methionine contains a thioether (–S–CH3) that cannot form disulfide bonds.",
-    "tags": [
-      "amino acids",
-      "protein structure"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Why does proline disrupt alpha-helices?",
-    "options": [
-      "Its side chain is too large to fit in the helix",
-      "It carries a negative charge at physiological pH",
-      "Its side chain bonds to the backbone nitrogen, eliminating the N–H hydrogen bond donor",
-      "It forms an extra covalent bond with adjacent residues"
-    ],
-    "correct": 2,
-    "explanation": "Proline's nitrogen is locked in a pyrrolidine ring with its side chain, removing the backbone N–H needed for hydrogen bonding in a helix. This creates a rigid kink, making proline a 'helix breaker.' It can appear at the end of helices or in beta-turns.",
-    "tags": [
-      "amino acids",
-      "protein structure"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Proteins absorb strongly at 280 nm primarily because of which amino acids?",
-    "options": [
-      "Phenylalanine and alanine",
-      "Methionine and cysteine",
-      "Glycine and proline",
-      "Tryptophan and tyrosine"
-    ],
-    "correct": 3,
-    "explanation": "Tryptophan (indole ring) and tyrosine (phenol ring) absorb at 280 nm due to aromatic pi electrons. Tryptophan has the larger extinction coefficient. This is used to estimate protein concentration spectrophotometrically. Phenylalanine absorbs weakly at ~257 nm.",
-    "tags": [
-      "amino acids",
-      "spectroscopy"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which amino acid is the direct precursor for catecholamine biosynthesis (dopamine, norepinephrine, epinephrine)?",
-    "options": [
-      "Tryptophan",
-      "Histidine",
-      "Phenylalanine",
-      "Tyrosine"
-    ],
-    "correct": 3,
-    "explanation": "Tyrosine → L-DOPA (tyrosine hydroxylase) → Dopamine → Norepinephrine → Epinephrine. Phenylalanine can be converted to tyrosine by phenylalanine hydroxylase, but tyrosine is the direct precursor. Tryptophan makes serotonin. Histidine makes histamine.",
-    "tags": [
-      "amino acids",
-      "neurotransmitters"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "In eukaryotes, which amino acid is delivered by the initiator tRNA at the start codon AUG?",
-    "options": [
-      "Alanine",
-      "Valine",
-      "Methionine",
-      "Leucine"
-    ],
-    "correct": 2,
-    "explanation": "AUG codes for methionine and serves as the start codon in eukaryotes (the initiator tRNA is met-tRNAi). In prokaryotes, the initiator carries N-formyl-methionine (fMet). The initiating methionine is often cleaved post-translationally.",
-    "tags": [
-      "amino acids",
-      "translation"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "A patient with phenylketonuria (PKU) lacks phenylalanine hydroxylase. Which metabolite accumulates and causes neurological damage?",
-    "options": [
-      "Tyrosine",
-      "Excess dopamine",
-      "Phenylalanine and its toxic byproducts (phenylpyruvate, phenyllactate)",
-      "Tryptophan metabolites"
-    ],
-    "correct": 2,
-    "explanation": "Without phenylalanine hydroxylase, phenylalanine cannot be converted to tyrosine and accumulates. It is shunted to phenylpyruvate, phenyllactate, and phenylacetate. These metabolites inhibit brain aromatic amino acid transport, impair myelination, and cause intellectual disability if untreated.",
-    "tags": [
-      "amino acids",
-      "metabolic disorders"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Glutamic acid (pI ≈ 3.2) carries what net charge at pH 7.4?",
-    "options": [
-      "–1",
-      "+1",
-      "0",
-      "+2"
-    ],
-    "correct": 0,
-    "explanation": "At pH 7.4, well above pI 3.2: the alpha-COOH (pKa ~2.1) and side-chain COOH (pKa ~4.1) are both deprotonated (–1 each), while the alpha-NH3+ (pKa ~9.5) is protonated (+1). Net = +1 – 1 – 1 = –1.",
-    "tags": [
-      "amino acids",
-      "acid-base"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which of the following is a complete list of the nine essential amino acids?",
-    "options": [
-      "Arg, His, Lys, Asp, Glu, Asn, Gln, Ser, Thr",
-      "Phe, Tyr, Trp, Met, Cys, Gly, Pro, Val, Ala",
-      "His, Ile, Leu, Lys, Met, Phe, Thr, Trp, Val",
-      "Ala, Gly, Pro, Ser, Thr, Asn, Gln, Cys, Tyr"
-    ],
-    "correct": 2,
-    "explanation": "The nine essential amino acids (cannot be synthesized by humans) are Histidine, Isoleucine, Leucine, Lysine, Methionine, Phenylalanine, Threonine, Tryptophan, Valine. Mnemonic: PVT TIM HaLL. They must come from the diet.",
-    "tags": [
-      "amino acids",
-      "nutrition"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Glycine appears in regions of the Ramachandran plot that are forbidden for other amino acids because:",
-    "options": [
-      "It forms the most stable hydrogen bonds",
-      "It has the most hydrophobic side chain",
-      "Its pKa is farthest from physiological pH",
-      "It lacks a side chain, minimizing steric clash at extreme phi/psi angles"
-    ],
-    "correct": 3,
-    "explanation": "Without a side chain, glycine has minimal steric restriction and can adopt phi/psi combinations (including left-handed alpha-helix conformations) inaccessible to other amino acids. This flexibility is why glycine is common at tight turns and in collagen (Gly-X-Y). Proline, conversely, is the most restricted.",
-    "tags": [
-      "amino acids",
-      "protein structure"
+      "molecular biology",
+      "DNA replication"
     ],
     "difficulty": "hard"
   },
   {
-    "text": "Collagen requires hydroxyproline for stability. Which vitamin is essential for prolyl hydroxylase, and what disease results from its deficiency?",
+    "text": "A missense mutation in the gene encoding hemoglobin beta chain (HBB) results in a glutamate→valine substitution at position 6. This produces sickle cell hemoglobin (HbS) because:",
     "options": [
-      "Vitamin K; coagulopathy",
-      "Vitamin B12; pernicious anemia",
-      "Vitamin D; rickets",
-      "Vitamin C (ascorbic acid); scurvy"
+      "Valine is charged and disrupts the oxygen-binding pocket",
+      "Valine is hydrophobic and causes HbS to polymerize under low-oxygen conditions, distorting red blood cell shape",
+      "The mutation destroys the heme group",
+      "Valine increases oxygen affinity, preventing release to tissues"
+    ],
+    "correct": 1,
+    "explanation": "The Glu6Val substitution in HBB replaces a charged, hydrophilic residue with a nonpolar, hydrophobic one. Under deoxygenation, the exposed valine on one HbS tetramer fits into a hydrophobic pocket on an adjacent HbS molecule, nucleating polymerization into long fibers. These fibers distort the RBC into the classic sickle shape, increasing viscosity and causing vaso-occlusion. Heterozygotes (HbAS) have sickle-cell trait — usually asymptomatic but protective against falciparum malaria. The heme group is intact; oxygen affinity is actually reduced (right-shifted O2 dissociation curve).",
+    "tags": [
+      "biochemistry",
+      "hemoglobin",
+      "genetics"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "During mitosis, the spindle assembly checkpoint (SAC) prevents anaphase onset until:",
+    "options": [
+      "All chromosomes have replicated their DNA",
+      "Every kinetochore is properly attached to spindle microtubules (biorientation), satisfying the Mad2/BubR1 checkpoint proteins",
+      "The nuclear envelope has completely broken down",
+      "Cyclin B is fully degraded"
+    ],
+    "correct": 1,
+    "explanation": "The SAC (spindle assembly checkpoint) ensures accurate chromosome segregation. Unattached kinetochores catalytically generate a 'wait' signal — they recruit Mad1-Mad2 complexes, which convert cytoplasmic Mad2 into an inhibitory form that sequesters Cdc20, preventing it from activating the APC/C (anaphase-promoting complex/cyclosome). Without active APC/C, securin and cyclin B are not ubiquitinated and degraded, so cohesin is not cleaved by separase, and sister chromatids cannot separate. Once all kinetochores achieve proper amphitelic attachment (biorientation), the 'wait' signal is extinguished, Cdc20 activates APC/C, and anaphase proceeds.",
+    "tags": [
+      "cell biology",
+      "mitosis",
+      "cell cycle"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which of the following best describes the role of acetyl-CoA carboxylase (ACC) in fatty acid synthesis?",
+    "options": [
+      "ACC catalyzes the condensation of two acetyl-CoA molecules to form acetoacetyl-CoA",
+      "ACC is the committed, rate-limiting step: it carboxylates acetyl-CoA to malonyl-CoA using biotin and ATP",
+      "ACC transfers the malonyl group onto ACP (acyl carrier protein)",
+      "ACC performs the final thioesterase step releasing free palmitate"
+    ],
+    "correct": 1,
+    "explanation": "ACC (acetyl-CoA carboxylase) catalyzes: acetyl-CoA + CO₂ + ATP → malonyl-CoA. This is the committed, rate-limiting step of de novo fatty acid synthesis. It uses biotin as a cofactor (covalently attached). Regulation: activated by citrate (signals surplus acetyl-CoA) and insulin (activates phosphatase that dephosphorylates ACC); inhibited by palmitoyl-CoA (product feedback), glucagon/epinephrine (via AMPK phosphorylation), and malonyl-CoA itself. Malonyl-CoA also inhibits carnitine palmitoyltransferase I, preventing futile cycling between synthesis and β-oxidation.",
+    "tags": [
+      "biochemistry",
+      "fatty acid synthesis",
+      "metabolism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient has a deficiency in adenosine deaminase (ADA). Which condition results, and why?",
+    "options": [
+      "Gout, because purine degradation is impaired and uric acid accumulates",
+      "Severe combined immunodeficiency (SCID), because deoxyadenosine accumulates and is toxic to lymphocytes (especially T cells)",
+      "Hemolytic anemia, because RBCs cannot recycle adenosine",
+      "Lesch-Nyhan syndrome, because hypoxanthine cannot be salvaged"
+    ],
+    "correct": 1,
+    "explanation": "ADA converts adenosine → inosine and deoxyadenosine → deoxyinosine. Without ADA, deoxyadenosine accumulates and is phosphorylated to dATP by salvage enzymes. dATP pools are particularly high in lymphocytes, inhibiting ribonucleotide reductase (which requires a balance of dNTPs) and inducing apoptosis via cytochrome c release. T cells are most affected (SCID — 'boy in the bubble' disease). ADA-SCID was the first human disease treated by gene therapy (1990). Lesch-Nyhan involves HGPRT deficiency; gout results from HGPRT or PRPP synthetase mutations.",
+    "tags": [
+      "biochemistry",
+      "immunology",
+      "purine metabolism"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which statement correctly describes the difference between competitive and uncompetitive enzyme inhibition?",
+    "options": [
+      "Competitive inhibition raises Km and lowers Vmax; uncompetitive inhibition raises Km and raises Vmax",
+      "Competitive inhibition raises apparent Km (reducible by adding more substrate); uncompetitive inhibition lowers both apparent Km and Vmax proportionally (Vmax/Km ratio unchanged)",
+      "Both types of inhibition increase Km without affecting Vmax",
+      "Uncompetitive inhibitors bind the free enzyme; competitive inhibitors bind the enzyme-substrate complex"
+    ],
+    "correct": 1,
+    "explanation": "Competitive inhibitors bind the free enzyme at the active site (or allosteric site mimicking substrate binding), increasing apparent Km (more substrate needed to outcompete inhibitor) but leaving Vmax unchanged (can be overcome by excess substrate). Uncompetitive inhibitors bind only the ES complex, decreasing both apparent Km and Vmax by the same factor α' — so the Vmax/Km (catalytic efficiency) is unchanged. On a Lineweaver-Burk plot: competitive = same y-intercept, different x-intercept; uncompetitive = parallel lines (same slope); noncompetitive = same x-intercept, different y-intercept.",
+    "tags": [
+      "biochemistry",
+      "enzyme kinetics",
+      "inhibition"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In the liver, glucokinase (hexokinase IV) differs from hexokinase I-III in peripheral tissues primarily because glucokinase:",
+    "options": [
+      "Has a low Km for glucose (~0.1 mM) and is inhibited by its product glucose-6-phosphate",
+      "Has a high Km for glucose (~10 mM), is not inhibited by glucose-6-phosphate, and acts as a glucose sensor for the liver and pancreatic β-cells",
+      "Is expressed in all tissues and responds to all hexoses equally",
+      "Is regulated primarily by AMP concentration rather than glucose concentration"
+    ],
+    "correct": 1,
+    "explanation": "Glucokinase (GK) features: high Km (~10 mM) — active only when portal blood glucose is high postprandially; sigmoidal kinetics (cooperative); not inhibited by G6P — so liver continues phosphorylating glucose even at high concentrations. This makes GK a glucose sensor: it ramps up glycolysis/glycogen synthesis when glucose is abundant. In contrast, hexokinases I-III have low Km (~0.1 mM), are saturated at normal blood glucose, and are product-inhibited by G6P. Glucokinase is also induced by insulin and expressed in pancreatic β-cells (where it controls insulin secretion threshold).",
+    "tags": [
+      "biochemistry",
+      "glycolysis",
+      "metabolism",
+      "liver"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "A cell exposed to ultraviolet light develops a thymine dimer. Which DNA repair pathway is primarily responsible for removing this lesion?",
+    "options": [
+      "Base excision repair (BER)",
+      "Nucleotide excision repair (NER)",
+      "Mismatch repair (MMR)",
+      "Homologous recombination (HR)"
+    ],
+    "correct": 1,
+    "explanation": "UV-induced pyrimidine dimers (cyclobutane pyrimidine dimers and 6-4 photoproducts) cause bulky helix-distorting lesions repaired by NER. NER involves: (1) damage recognition (XPC-RAD23B in global genome NER; stalled RNA pol II in transcription-coupled NER); (2) dual incision ~25 nt around the lesion by ERCC1-XPF and XPG; (3) gap filling by DNA pol δ/ε + RFC + PCNA; (4) ligation. XP (xeroderma pigmentosum) arises from NER defects → extreme UV sensitivity and skin cancer. BER repairs small, non-distorting lesions (oxidized/deaminated bases). MMR corrects replication errors. HR repairs double-strand breaks.",
+    "tags": [
+      "molecular biology",
+      "DNA repair"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The complement system can be activated by three pathways. Which pathway is activated first during a primary infection with a novel bacterium before antibodies are produced?",
+    "options": [
+      "Classical pathway, via IgM/IgG antibody-antigen complexes activating C1q",
+      "Lectin pathway (via MBL binding to bacterial carbohydrates) and alternative pathway (spontaneous C3 hydrolysis), both of which are antibody-independent",
+      "Terminal pathway, directly forming the membrane attack complex",
+      "Only the classical pathway operates during infection"
+    ],
+    "correct": 1,
+    "explanation": "The alternative pathway (AP) is constitutively active at low levels via spontaneous C3 hydrolysis ('tick-over'). When C3b deposits on a bacterial surface, it amplifies rapidly (properdin stabilizes the C3bBb convertase). The lectin pathway activates when mannose-binding lectin (MBL) or ficolins bind carbohydrate patterns on bacteria → MASP-1/2 cleave C4 and C2. Both pathways are antibody-independent and constitute innate immunity. The classical pathway requires IgM or IgG antibodies (adaptive immunity, requires prior exposure or vaccination). All three converge at C3 cleavage → C3a/C3b → C5 cleavage → membrane attack complex (C5b-9).",
+    "tags": [
+      "immunology",
+      "complement",
+      "innate immunity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In the fed state, insulin signaling activates which intracellular pathway to promote glucose uptake in muscle and adipose tissue?",
+    "options": [
+      "cAMP-PKA pathway, which phosphorylates GLUT4 vesicles",
+      "PI3K-Akt pathway, which causes GLUT4-containing vesicles to translocate from intracellular stores to the plasma membrane",
+      "JAK-STAT pathway, which transcribes the GLUT4 gene",
+      "MAPK pathway, which activates glycogen synthase directly"
+    ],
+    "correct": 1,
+    "explanation": "Insulin binds its receptor tyrosine kinase → autophosphorylation → phosphorylation of IRS-1/2 → recruits PI3K → produces PIP3 → activates PDK1 → phosphorylates and activates Akt (PKB). Akt phosphorylates AS160 (a RabGAP), relieving inhibition of Rab proteins on GLUT4 vesicles → GLUT4 storage vesicles fuse with the plasma membrane → increased glucose import. Insulin also activates glycogen synthase (via PP1, inactivating GSK3). In type 2 diabetes, PI3K-Akt signaling is impaired (insulin resistance). Exercise also causes GLUT4 translocation via AMPK independently of insulin.",
+    "tags": [
+      "biochemistry",
+      "signal transduction",
+      "insulin",
+      "glucose metabolism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which vitamin deficiency causes megaloblastic anemia by the same mechanism as folate deficiency, but also causes irreversible neurological damage?",
+    "options": [
+      "Vitamin B6 (pyridoxine)",
+      "Vitamin B12 (cobalamin)",
+      "Vitamin C (ascorbic acid)",
+      "Vitamin B1 (thiamine)"
+    ],
+    "correct": 1,
+    "explanation": "B12 (cobalamin) deficiency causes megaloblastic anemia because B12 is required for methionine synthase (converts homocysteine → methionine, simultaneously converting methylTHF → THF). Without B12, folate is 'trapped' as methylTHF and unavailable for thymidylate synthesis → impaired DNA synthesis → large, immature RBCs (megaloblasts). Importantly, B12 is also required for methylmalonyl-CoA mutase (converts methylmalonyl-CoA → succinyl-CoA). Without this, methylmalonyl-CoA accumulates → neurological damage (subacute combined degeneration of the spinal cord: posterior and lateral columns). Folate deficiency causes identical anemia but NO neurological damage. Pernicious anemia: autoimmune loss of intrinsic factor → B12 malabsorption.",
+    "tags": [
+      "biochemistry",
+      "vitamins",
+      "hematology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A researcher observes that a signaling protein requires phosphorylation on both a tyrosine and a serine residue for full activation. Phosphorylation of either residue alone produces only partial activity. This is an example of:",
+    "options": [
+      "Allosteric inhibition",
+      "Post-translational modification combinatorial control — multiple phosphorylation events integrate to produce a graded or threshold response",
+      "Feedback inhibition",
+      "Transcriptional regulation"
+    ],
+    "correct": 1,
+    "explanation": "Many signaling proteins require multiple post-translational modifications (PTMs) for full activity, allowing combinatorial integration of signals. This is sometimes called a 'coincidence detection' mechanism: full activation only when both an upstream tyrosine kinase and a serine/threonine kinase are active simultaneously. Examples: ERK requires dual phosphorylation on Thr and Tyr by MEK; Akt requires phosphorylation by PDK1 (Thr308) and mTORC2 (Ser473) for maximal activity. This architecture creates bistability, noise filtering, and signal integration — enabling cells to respond only when multiple conditions are met simultaneously.",
+    "tags": [
+      "cell biology",
+      "signal transduction",
+      "post-translational modification"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "During embryonic development, the notochord induces overlying ectoderm to form the neural plate via a process called primary neurulation. The key molecular mechanism involves:",
+    "options": [
+      "Wnt signaling from the notochord activating neural fate in all ectoderm",
+      "Secretion of BMP antagonists (Chordin, Noggin, Follistatin) by the notochord and dorsal mesoderm, inhibiting BMP4 and allowing neural fate in dorsal ectoderm",
+      "FGF signaling that converts mesoderm into neural tissue",
+      "Sonic hedgehog from the notochord directly converting ectoderm to neurons"
+    ],
+    "correct": 1,
+    "explanation": "Default model of neural induction: BMP4 (from ventral ectoderm and lateral mesoderm) promotes epidermal fate. The Spemann organizer (dorsal blastopore lip in amphibians) secretes BMP antagonists — Chordin, Noggin, and Follistatin — which bind and block BMP4. In dorsal ectoderm, where BMP activity is low, cells adopt neural plate fate (default). Lateral ectoderm (high BMP4) becomes epidermis. Sonic hedgehog from the notochord ventralizes the neural tube (floor plate, motor neurons). This 'morphogen gradient' model explains dorsoventral patterning of the neural tube.",
+    "tags": [
+      "biology",
+      "developmental biology",
+      "embryology"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which of the following correctly describes the mechanism of CRISPR-Cas9 genome editing?",
+    "options": [
+      "Cas9 is an RNA polymerase that transcribes corrected sequences into the genome",
+      "Cas9 is an RNA-guided endonuclease: a single guide RNA (sgRNA) directs Cas9 to a complementary genomic sequence adjacent to a PAM site, where Cas9 makes a double-strand break that can be repaired by NHEJ or HDR",
+      "Cas9 methylates target DNA to silence gene expression",
+      "CRISPR works by inserting transposable elements adjacent to target genes"
+    ],
+    "correct": 1,
+    "explanation": "CRISPR-Cas9 mechanism: (1) Design a 20-nt guide RNA sequence complementary to the target DNA; (2) sgRNA (guide RNA + scaffold) directs Cas9 to the target, which must be adjacent to a PAM sequence (NGG for SpCas9); (3) Cas9 unwinds DNA, checks for sgRNA complementarity, and cleaves both strands (RuvC domain cuts non-complementary strand; HNH domain cuts complementary strand) → blunt DSB; (4) Repair: NHEJ causes insertions/deletions (knockouts); HDR with donor template allows precise edits. Base editors (CBE, ABE) and prime editors extend the toolkit without DSBs. CRISPRi uses dead Cas9 (dCas9) fused to repressors for gene silencing.",
+    "tags": [
+      "molecular biology",
+      "CRISPR",
+      "biotechnology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient with galactosemia cannot convert galactose-1-phosphate to glucose-1-phosphate. Which enzyme is deficient?",
+    "options": [
+      "Galactokinase",
+      "Galactose-1-phosphate uridylyltransferase (GALT)",
+      "UDP-galactose 4-epimerase",
+      "Lactase"
+    ],
+    "correct": 1,
+    "explanation": "Classic galactosemia is caused by deficiency of galactose-1-phosphate uridylyltransferase (GALT), which catalyzes: Gal-1-P + UDP-glucose ↔ Glc-1-P + UDP-galactose. Without GALT, Gal-1-P accumulates → toxic to liver, brain, and kidneys. Presentation: jaundice, cataracts (galactitol via aldose reductase), intellectual disability, E. coli sepsis in neonates. Treatment: lactose-free diet. Galactokinase deficiency: milder — only cataracts (galactitol accumulation). UDP-galactose 4-epimerase deficiency: rarest form. Lactase deficiency causes lactose intolerance (GI symptoms only, no systemic toxicity).",
+    "tags": [
+      "biochemistry",
+      "metabolism",
+      "genetic diseases"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Na+/K+-ATPase pump transports 3 Na+ out and 2 K+ in per ATP hydrolyzed. How does this contribute to the resting membrane potential?",
+    "options": [
+      "It has no effect on membrane potential because both ions are transported",
+      "It contributes directly to resting membrane potential by making the inside of the cell more negative (electrogenic pump), and critically maintains Na+ and K+ concentration gradients that drive K+ leak channels to establish the resting potential",
+      "It depolarizes the cell by bringing K+ inside",
+      "The pump only maintains osmotic balance and has no electrical effect"
+    ],
+    "correct": 1,
+    "explanation": "The Na+/K+-ATPase is electrogenic: net export of 1 positive charge per cycle (3 Na+ out, 2 K+ in) directly hyperpolarizes the membrane by ~3-5 mV. More importantly, it maintains the concentration gradients (high [K+] inside, high [Na+] outside) that drive K+ leak channels. K+ efflux through leak channels (down its concentration gradient) is the primary determinant of resting membrane potential (~-70 mV in neurons), as described by the Goldman equation. Without the pump, gradients would dissipate and resting potential would collapse. The pump is inhibited by cardiac glycosides (digoxin, ouabain) → indirectly increases intracellular Ca²+ → positive inotropy.",
+    "tags": [
+      "physiology",
+      "membrane potential",
+      "cell biology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following correctly describes the genetic basis of X-linked recessive inheritance?",
+    "options": [
+      "Affected fathers always pass the disease to all daughters",
+      "Males are affected when they carry one mutant X allele (hemizygous); females are carriers with one mutant allele and are usually unaffected; affected fathers pass the carrier state to all daughters but not to sons",
+      "The condition skips generations in females but never skips in males",
+      "Homozygous females are less severely affected than hemizygous males"
+    ],
+    "correct": 1,
+    "explanation": "X-linked recessive (e.g., Duchenne MD, hemophilia A/B, G6PD deficiency, color blindness): Males (XY) are hemizygous — one mutant X allele causes disease. Females (XX) need two mutant alleles to be affected (usually carriers). Key inheritance rules: (1) Affected father × unaffected mother → all daughters are carriers, all sons unaffected (fathers pass X only to daughters); (2) Carrier mother × unaffected father → 50% of sons affected, 50% of daughters carriers; (3) No father-to-son transmission (sons get Y from father). Lyonization (X-inactivation) can cause mild symptoms in carriers. Affected daughters require an affected father AND carrier/affected mother.",
+    "tags": [
+      "genetics",
+      "inheritance",
+      "X-linked"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A bacterium exposed to a beta-lactam antibiotic develops resistance by producing beta-lactamase. This enzyme:",
+    "options": [
+      "Modifies the bacterial ribosome so the antibiotic cannot bind",
+      "Hydrolyzes the beta-lactam ring, inactivating the antibiotic before it can inhibit transpeptidase (PBP) and disrupt cell wall synthesis",
+      "Actively pumps the antibiotic out of the bacterial cell",
+      "Prevents the antibiotic from crossing the outer membrane"
+    ],
+    "correct": 1,
+    "explanation": "Beta-lactam antibiotics (penicillins, cephalosporins, carbapenems) inhibit transpeptidases (penicillin-binding proteins, PBPs) that cross-link peptidoglycan strands in the bacterial cell wall. Beta-lactamases are serine hydrolases that open the beta-lactam ring → inactivated antibiotic. Beta-lactamase genes are often on plasmids and rapidly spread by horizontal gene transfer. Clinical strategies to overcome beta-lactamase: (1) beta-lactamase inhibitors (clavulanate, sulbactam, tazobactam) combined with a beta-lactam; (2) Carbapenems resist most common beta-lactamases (but carbapenemases — KPC, NDM — now a major concern). MRSA resistance instead involves altered PBP2a with reduced affinity.",
+    "tags": [
+      "microbiology",
+      "antibiotic resistance",
+      "cell wall"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "During the citric acid cycle, which step directly produces GTP (or ATP) by substrate-level phosphorylation?",
+    "options": [
+      "Isocitrate → alpha-ketoglutarate (catalyzed by isocitrate dehydrogenase)",
+      "Succinyl-CoA → succinate (catalyzed by succinyl-CoA synthetase)",
+      "Fumarate → malate (catalyzed by fumarase)",
+      "Oxaloacetate → citrate (catalyzed by citrate synthase)"
+    ],
+    "correct": 1,
+    "explanation": "Succinyl-CoA synthetase (also called succinate thiokinase) couples the thioester bond hydrolysis of succinyl-CoA to substrate-level phosphorylation: succinyl-CoA + GDP (or ADP) + Pi → succinate + GTP (or ATP) + CoA. This is the only substrate-level phosphorylation step in the TCA cycle. The complete TCA cycle (per acetyl-CoA turn) yields: 3 NADH, 1 FADH2, 1 GTP, 2 CO2. The other steps produce NADH (isocitrate DH, α-ketoglutarate DH, malate DH) or FADH2 (succinate DH). Citrate synthase and fumarase catalyze condensation and hydration reactions respectively — no phosphorylation.",
+    "tags": [
+      "biochemistry",
+      "TCA cycle",
+      "bioenergetics"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The HIV virus packages two copies of its RNA genome along with reverse transcriptase. After infecting a CD4+ T cell, the first product of reverse transcriptase activity is:",
+    "options": [
+      "Double-stranded DNA immediately",
+      "A DNA-RNA hybrid (negative-sense DNA strand synthesized from the viral RNA template)",
+      "A positive-sense RNA copy used directly for translation",
+      "Integrated proviral DNA without any RNA intermediate"
+    ],
+    "correct": 1,
+    "explanation": "HIV reverse transcriptase (RT) has three activities: RNA-dependent DNA polymerase, RNase H, and DNA-dependent DNA polymerase. Steps: (1) RT uses a host tRNA as primer and the viral (+)RNA genome as template → synthesizes (-)DNA strand = DNA-RNA hybrid; (2) RNase H degrades the RNA component of the hybrid; (3) RT synthesizes the second (+)DNA strand using the (-)DNA as template → double-stranded DNA (dsDNA); (4) Integrase imports dsDNA into the nucleus and integrates it into the host chromosome (provirus). RT lacks proofreading → high mutation rate → rapid emergence of drug resistance. NRTI/NNRTIs target RT; integrase strand transfer inhibitors (INSTIs) target integrase.",
+    "tags": [
+      "microbiology",
+      "virology",
+      "HIV",
+      "molecular biology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Myasthenia gravis is an autoimmune disease caused by antibodies against nicotinic acetylcholine receptors (nAChR) at the neuromuscular junction. The primary symptom—muscle weakness that worsens with use—occurs because:",
+    "options": [
+      "Autoantibodies block acetylcholinesterase, causing excessive ACh stimulation",
+      "Autoantibodies block, internalize, and trigger complement-mediated destruction of nAChRs at the motor end plate, reducing the safety factor for neuromuscular transmission; repeated stimulation depletes available receptors faster than they can be replaced",
+      "Autoantibodies prevent ACh synthesis in motor nerve terminals",
+      "Autoantibodies activate nAChRs constitutively, causing fatigue"
+    ],
+    "correct": 1,
+    "explanation": "In MG, IgG antibodies against nAChR (primarily the α-subunit) cause: (1) direct blockade of ACh binding; (2) crosslinking and accelerated internalization/degradation of receptors; (3) complement-mediated destruction of the post-synaptic membrane. The end plate potential (EPP) is reduced below threshold → failure of muscle fiber recruitment ('decremental response' on EMG). Weakness worsens with repeated use because the safety margin is already compromised; repetitive stimulation further depletes ACh release. Treatment: acetylcholinesterase inhibitors (neostigmine, pyridostigmine) increase synaptic ACh; immunosuppression; thymectomy (thymic hyperplasia/thymoma is often associated). Lambert-Eaton: autoantibodies against voltage-gated Ca²+ channels on presynaptic terminal → reduced ACh release; weakness improves with repeated stimulation.",
+    "tags": [
+      "physiology",
+      "neuroscience",
+      "immunology",
+      "neuromuscular junction"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which of the following correctly describes the mechanism of action of tamoxifen in treating estrogen receptor-positive (ER+) breast cancer?",
+    "options": [
+      "Tamoxifen is a cytotoxic agent that directly kills rapidly dividing cells",
+      "Tamoxifen is a selective estrogen receptor modulator (SERM) that competitively binds ERα in breast tissue, acting as an antagonist to block estrogen-driven transcription of proliferative genes",
+      "Tamoxifen inhibits aromatase, reducing peripheral estrogen synthesis",
+      "Tamoxifen is a monoclonal antibody targeting HER2/neu"
+    ],
+    "correct": 1,
+    "explanation": "Tamoxifen is a SERM (selective estrogen receptor modulator): it competitively binds ERα with high affinity. In breast tissue, the tamoxifen-ER complex recruits co-repressors (rather than co-activators) → blocks transcription of estrogen-responsive genes (cyclin D1, MYC) → antiproliferative. In bone and uterus, the same complex acts as a partial agonist (explains bone protection but increased endometrial cancer risk). Tamoxifen undergoes hepatic metabolism to its active form (endoxifen) via CYP2D6 — CYP2D6 poor metabolizers have reduced benefit. Aromatase inhibitors (letrozole, anastrozole) reduce estrogen synthesis — used in postmenopausal women. Trastuzumab targets HER2.",
+    "tags": [
+      "pharmacology",
+      "cancer biology",
+      "estrogen signaling"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The conversion of pyruvate to acetyl-CoA by the pyruvate dehydrogenase complex (PDC) is irreversible and requires multiple cofactors. Which of the following cofactors is NOT required by PDC?",
+    "options": [
+      "Thiamine pyrophosphate (TPP)",
+      "Lipoic acid",
+      "FAD",
+      "Biotin"
     ],
     "correct": 3,
-    "explanation": "Prolyl hydroxylase requires ascorbate (vitamin C) as a cofactor to hydroxylate proline residues in collagen. Hydroxyproline forms extra hydrogen bonds in the collagen triple helix. Without vitamin C, hydroxylation fails, collagen is unstable, and patients develop scurvy: bleeding gums, poor wound healing, perifollicular hemorrhages.",
+    "explanation": "PDC is a multi-enzyme complex: E1 (pyruvate decarboxylase) uses TPP; E2 (dihydrolipoyl transacetylase) uses lipoic acid and CoA; E3 (dihydrolipoyl dehydrogenase) uses FAD and NAD+. The reaction: pyruvate + CoA + NAD+ → acetyl-CoA + CO₂ + NADH. Biotin is NOT a PDC cofactor — it is used by carboxylases (pyruvate carboxylase, acetyl-CoA carboxylase, propionyl-CoA carboxylase). PDC is inhibited by acetyl-CoA and NADH (products) and by PDC kinase (phosphorylation). PDC kinase is activated by high ATP/ADP and acetyl-CoA/CoA ratios. PDC deficiency causes lactic acidosis and neurological damage — pyruvate cannot enter TCA, accumulates, and is converted to lactate.",
     "tags": [
-      "amino acids",
-      "collagen",
+      "biochemistry",
+      "metabolism",
+      "PDC",
       "vitamins"
     ],
     "difficulty": "medium"
-  },
-  {
-    "text": "GABA (gamma-aminobutyric acid) is synthesized from which amino acid by glutamate decarboxylase?",
-    "options": [
-      "Tyrosine",
-      "Aspartate",
-      "Glutamate",
-      "Tryptophan"
-    ],
-    "correct": 2,
-    "explanation": "Glutamate decarboxylase (requires PLP/vitamin B6) converts glutamate → GABA by removing the carboxyl group. GABA is the principal inhibitory neurotransmitter in the CNS. Disruption of GABA signaling is linked to anxiety disorders, epilepsy, and the mechanism of benzodiazepines and barbiturates.",
-    "tags": [
-      "amino acids",
-      "neurotransmitters"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The branched-chain amino acids (BCAAs) are:",
-    "options": [
-      "Phenylalanine, tyrosine, tryptophan",
-      "Serine, threonine, cysteine",
-      "Lysine, arginine, histidine",
-      "Leucine, isoleucine, valine"
-    ],
-    "correct": 3,
-    "explanation": "BCAAs (Leu, Ile, Val) have branched aliphatic side chains and are metabolized primarily in skeletal muscle (not liver), making them important for muscle protein synthesis and energy during exercise. All three are essential amino acids.",
-    "tags": [
-      "amino acids",
-      "metabolism"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Which amino acid pair contains sulfur in their side chains?",
-    "options": [
-      "Cysteine and methionine",
-      "Serine and threonine",
-      "Asparagine and glutamine",
-      "Aspartate and glutamate"
-    ],
-    "correct": 0,
-    "explanation": "Cysteine (thiol –SH) and methionine (thioether –S–CH3) are the two standard sulfur-containing amino acids. Cysteine's sulfur forms disulfide bonds; methionine's sulfur is used in methyl group transfer reactions (as SAM, S-adenosylmethionine).",
-    "tags": [
-      "amino acids"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Serine and threonine are common targets for phosphorylation. Which type of kinase performs this modification?",
-    "options": [
-      "RNA kinase",
-      "Serine/threonine kinase",
-      "Lipid kinase",
-      "Tyrosine kinase"
-    ],
-    "correct": 1,
-    "explanation": "Serine/threonine kinases (e.g., PKA, PKC, CDKs) phosphorylate the hydroxyl groups of serine and threonine. Tyrosine kinases (e.g., receptor tyrosine kinases, Src) phosphorylate tyrosine. Phosphorylation on any of these three residues is a key regulatory mechanism in signal transduction.",
-    "tags": [
-      "amino acids",
-      "signal transduction",
-      "phosphorylation"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "An amino acid has pI = 9.7. This is most characteristic of which amino acid?",
-    "options": [
-      "Glutamate",
-      "Tryptophan",
-      "Glycine",
-      "Lysine"
-    ],
-    "correct": 3,
-    "explanation": "Lysine (pI ≈ 9.7) has a positively charged epsilon-amino group (pKa ≈ 10.5) in addition to the alpha-amino group. Basic amino acids (Arg, Lys, His) have pI > 7.4 because they carry extra positive charges. Glutamate (pI ≈ 3.2) is acidic; glycine (pI ≈ 6.0) is near neutral.",
-    "tags": [
-      "amino acids",
-      "acid-base"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "N-linked glycosylation is added to which amino acid residue in the ER?",
-    "options": [
-      "Serine",
-      "Lysine",
-      "Asparagine",
-      "Threonine"
-    ],
-    "correct": 2,
-    "explanation": "N-linked glycosylation occurs on asparagine residues in the consensus sequence Asn-X-Ser/Thr (where X ≠ Pro) in the ER, as oligosaccharyltransferase adds a pre-assembled oligosaccharide. O-linked glycosylation occurs on serine and threonine in the Golgi. N-linked glycosylation is important for protein folding, stability, and cell-surface recognition.",
-    "tags": [
-      "amino acids",
-      "glycosylation",
-      "post-translational modification"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Tryptophan is the precursor for which neurotransmitter and hormone?",
-    "options": [
-      "Acetylcholine and histamine",
-      "GABA and glycine",
-      "Dopamine and norepinephrine",
-      "Serotonin and melatonin"
-    ],
-    "correct": 3,
-    "explanation": "Tryptophan → 5-hydroxytryptophan (tryptophan hydroxylase) → Serotonin (5-HT) by aromatic amino acid decarboxylase. Serotonin → N-acetylserotonin → Melatonin (in pineal gland). Melatonin regulates circadian rhythms. Serotonin deficiency is associated with depression; SSRI antidepressants increase synaptic serotonin.",
-    "tags": [
-      "amino acids",
-      "neurotransmitters"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which amino acids are most commonly found at the active sites of serine proteases (e.g., chymotrypsin, trypsin)?",
-    "options": [
-      "Serine, histidine, and aspartate (the catalytic triad)",
-      "Lysine, arginine, and glutamate",
-      "Cysteine, histidine, and asparagine",
-      "Glycine, alanine, and valine"
-    ],
-    "correct": 0,
-    "explanation": "Serine proteases use a catalytic triad: Ser (nucleophile), His (general base/acid), and Asp (orients and stabilizes His). Asp hydrogen bonds to His, lowering its pKa so it can abstract a proton from Ser, making Ser a better nucleophile. This triad is a classic example of convergent evolution, found in unrelated serine proteases.",
-    "tags": [
-      "amino acids",
-      "enzyme catalysis",
-      "proteases"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "The epsilon-amino group of lysine participates in which important post-translational reaction in collagen?",
-    "options": [
-      "Cross-linking by lysyl oxidase to form aldehyde-derived crosslinks",
-      "Glycosylation to form N-linked oligosaccharides",
-      "Hydroxylation by prolyl hydroxylase",
-      "Phosphorylation by receptor tyrosine kinases"
-    ],
-    "correct": 0,
-    "explanation": "Lysyl oxidase (requires copper) oxidatively deaminates lysine/hydroxylysine epsilon-amino groups to aldehydes, which then condense with adjacent lysine residues to form covalent crosslinks. These crosslinks are essential for the tensile strength of collagen fibers. Defects occur in Menkes disease (copper deficiency) and lathyrism.",
-    "tags": [
-      "amino acids",
-      "collagen",
-      "post-translational modification"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Which amino acid is a precursor for heme biosynthesis?",
-    "options": [
-      "Glycine",
-      "Lysine",
-      "Methionine",
-      "Histidine"
-    ],
-    "correct": 0,
-    "explanation": "Heme biosynthesis begins with glycine + succinyl-CoA (from TCA cycle) → delta-aminolevulinic acid (ALA), catalyzed by ALA synthase (rate-limiting step, requires PLP). Eight glycine residues contribute to heme. Glycine's simplicity (no side chain, small) makes it ubiquitous in metabolic biosynthesis pathways.",
-    "tags": [
-      "amino acids",
-      "heme synthesis",
-      "metabolism"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "The pKa of an amino acid side chain can shift in a protein environment. The active site serine of a serine protease has a lower pKa than free serine because:",
-    "options": [
-      "The protein core is more acidic than solution",
-      "Nearby ionic residues completely neutralize the serine",
-      "The serine forms an extra disulfide bond",
-      "The neighboring histidine abstracts its proton, effectively lowering its pKa and increasing its nucleophilicity"
-    ],
-    "correct": 3,
-    "explanation": "In the catalytic triad, histidine acts as a general base, abstracting the proton from serine's hydroxyl. This lowers the effective pKa of serine (from ~13 to near 7), making it a much stronger nucleophile. The aspartate stabilizes the protonated histidine, completing the charge relay system.",
-    "tags": [
-      "amino acids",
-      "enzyme catalysis"
-    ],
-    "difficulty": "hard"
   }
 ]

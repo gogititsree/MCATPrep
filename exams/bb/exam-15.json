@@ -1,421 +1,410 @@
 [
   {
-    "text": "Duchenne muscular dystrophy (DMD) is X-linked recessive. An unaffected carrier mother (XᴬXᵃ) and unaffected father (XᴬY) have children. What fraction of ALL children is expected to be affected?",
+    "text": "Chaperone proteins (e.g., Hsp70, GroEL) assist in protein folding by:",
     "options": [
-      "All daughters",
-      "1/2",
-      "1/4",
-      "1/8"
-    ],
-    "correct": 2,
-    "explanation": "Mother's gametes: 1/2 Xᴬ, 1/2 Xᵃ. Father's gametes: 1/2 Xᴬ, 1/2 Y. Possible outcomes: 1/4 XᴬXᴬ (unaffected daughter), 1/4 XᴬXᵃ (carrier daughter), 1/4 XᴬY (unaffected son), 1/4 XᵃY (affected son). Only 1/4 children are affected (all affected are male). 1/2 of sons are affected, but 1/4 of ALL children.",
-    "tags": [
-      "genetics",
-      "X-linked recessive"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Chromosomal non-disjunction during meiosis I in a female results in:",
-    "options": [
-      "Normal gametes with an extra chromosome",
-      "One secondary oocyte with an extra chromatid",
-      "Two identical oocytes",
-      "One secondary oocyte with both homologous chromosomes, one with neither"
+      "Degrading misfolded proteins exclusively",
+      "Catalyzing disulfide bond formation",
+      "Directly specifying the final folded structure",
+      "Preventing premature/incorrect aggregation by transiently binding exposed hydrophobic regions"
     ],
     "correct": 3,
-    "explanation": "Meiosis I non-disjunction: homologous chromosomes fail to separate → one cell receives both chromosomes of a pair, the other receives neither. After meiosis II: two gametes have n+1 chromosomes (disomy), two have n-1 (nullisomy). Fertilization with normal sperm → trisomy (e.g., trisomy 21 Down syndrome) or monosomy. Meiosis II non-disjunction produces sister chromatid separation failure.",
+    "explanation": "Molecular chaperones bind to exposed hydrophobic regions of nascent or unfolded polypeptides, preventing aggregation and providing a protected environment for folding. ATP hydrolysis drives cycles of binding and release, giving the protein repeated chances to fold correctly. Chaperones do not specify the final folded structure — that information is in the primary sequence (Anfinsen's principle).",
     "tags": [
-      "genetics",
-      "non-disjunction",
-      "meiosis"
+      "protein structure",
+      "chaperones",
+      "folding"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Down syndrome (trisomy 21) most commonly arises from:",
+    "text": "The proteasome degrades proteins that are tagged with:",
     "options": [
-      "De novo point mutation in the DYRK1A gene",
-      "Paternal non-disjunction",
-      "Maternal non-disjunction during meiosis I (frequency increases with maternal age)",
-      "Translocation (Robertsonian) in ~4% of cases"
+      "Acetyl groups",
+      "Phosphate groups",
+      "Ubiquitin chains (polyubiquitination)",
+      "Glycosyl groups"
     ],
     "correct": 2,
-    "explanation": "~95% of Down syndrome cases are standard trisomy 21 from maternal non-disjunction during meiosis I (rarely meiosis II). Risk increases dramatically with maternal age (from ~1/1500 at age 20 to ~1/30 at age 45). About 4% are Robertsonian translocations (chromosome 21 fused to chromosome 14); these have a higher recurrence risk. ~1% are mosaics.",
+    "explanation": "The ubiquitin-proteasome system (UPS) marks proteins for degradation: ubiquitin ligases attach ubiquitin chains (usually K48-linked polyubiquitin) to target proteins. The 26S proteasome recognizes polyubiquitin, unfolds the protein, and degrades it into short peptides. This is the main pathway for regulated protein degradation in eukaryotes.",
     "tags": [
-      "genetics",
-      "chromosomal abnormalities",
-      "Down syndrome"
+      "protein structure",
+      "ubiquitin-proteasome",
+      "protein degradation"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Turner syndrome (45,X) results from:",
+    "text": "Which immunoglobulin class is most abundant in serum and crosses the placenta?",
     "options": [
-      "Trisomy X",
-      "Monosomy X (missing one sex chromosome), most commonly from paternal non-disjunction",
-      "Loss of an autosome",
-      "Klinefelter syndrome (47,XXY)"
+      "IgA",
+      "IgM",
+      "IgG",
+      "IgE"
     ],
-    "correct": 1,
-    "explanation": "Turner syndrome: 45,X (missing one sex chromosome). Features: short stature, webbed neck, shield chest, gonadal dysgenesis (streak ovaries, primary amenorrhea), coarctation of the aorta. Most commonly arises from paternal non-disjunction (losing the Y or X from the sperm). Despite having only one X, Barr body is absent (normal: females have one Barr body per extra X above 2 total).",
+    "correct": 2,
+    "explanation": "IgG is the most abundant immunoglobulin (~80% of serum Ig) and the only class that crosses the placenta (via FcRn receptors), providing passive immunity to the fetus and newborn for the first months of life. IgM is produced first in an immune response (pentamer, good at complement activation). IgA is the main Ig in mucosal secretions. IgE mediates allergic responses and anti-parasite immunity.",
     "tags": [
-      "genetics",
-      "chromosomal abnormalities",
-      "Turner syndrome"
+      "protein structure",
+      "immunology"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Genomic imprinting means that:",
+    "text": "Beta-lactam antibiotics (penicillins, cephalosporins) work by:",
     "options": [
-      "All genes from the father are expressed over maternal genes",
-      "Some genes are expressed from only one parental allele (maternal or paternal), determined by differential methylation",
-      "Only mitochondrial genes are imprinted",
-      "Imprinted genes are deleted in the other parent"
+      "Blocking dihydrofolate reductase",
+      "Inhibiting the bacterial 50S ribosomal subunit",
+      "Disrupting bacterial cell membranes",
+      "Irreversibly inhibiting transpeptidase (PBP) enzymes that crosslink peptidoglycan in bacterial cell walls"
+    ],
+    "correct": 3,
+    "explanation": "Beta-lactam antibiotics mimic the D-Ala-D-Ala terminus of peptidoglycan precursors and covalently acylate penicillin-binding proteins (PBPs = transpeptidases), blocking crosslinking of peptidoglycan strands. This weakens the cell wall, causing lysis. Bacteria acquire resistance via beta-lactamases (hydrolyze the beta-lactam ring) or altered PBPs (MRSA).",
+    "tags": [
+      "protein structure",
+      "antibiotics",
+      "microbiology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Collagen is unusually stable because of its unique triple helix structure. What amino acid is essential at every third position in collagen?",
+    "options": [
+      "Hydroxyproline",
+      "Glycine",
+      "Alanine",
+      "Proline"
     ],
     "correct": 1,
-    "explanation": "Imprinted genes have parent-of-origin-specific expression determined by epigenetic marks (DNA methylation, histone modification) established in the germ line. IGF2 (insulin-like growth factor 2) is expressed from the paternal allele; H19 from the maternal. Prader-Willi syndrome (loss of paternal 15q11-q13) and Angelman syndrome (loss of maternal 15q11-q13) are classic imprinting disorders affecting the same chromosomal region.",
+    "explanation": "Collagen has the repeating sequence Gly-X-Y, where Gly at every third position is absolutely required. The triple helix packs three chains tightly, and only glycine (the smallest amino acid, R = H) can fit in the central space of the triple helix without steric clash. Mutations substituting even one Gly cause osteogenesis imperfecta.",
     "tags": [
-      "genetics",
-      "imprinting",
-      "epigenetics"
+      "protein structure",
+      "collagen"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Sickle cell anemia results from which mutation in hemoglobin?",
+    "options": [
+      "A deletion in the alpha-globin gene",
+      "Val→Glu substitution at position 6 of the beta-globin chain (HbS: glutamic acid replaced by valine)",
+      "Incorrect disulfide bond formation",
+      "Phosphorylation of histidine in the active site"
+    ],
+    "correct": 1,
+    "explanation": "HbS has a single nucleotide change (GAG→GTG) causing substitution of hydrophilic Glu with hydrophobic Val at position 6 of beta-globin. In the deoxy (T) state, this Val fits into a hydrophobic pocket on an adjacent beta-chain, causing polymerization. These long fibers distort RBCs into sickle shapes, causing hemolysis, vaso-occlusion, and pain crises. HbS provides heterozygote protection against malaria.",
+    "tags": [
+      "protein structure",
+      "hemoglobin",
+      "genetic disease"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Antibody diversity is primarily generated by which mechanism?",
+    "options": [
+      "Alternative splicing only",
+      "V(D)J recombination — somatic recombination of variable, diversity, and joining gene segments",
+      "Copy number variation in the germ line",
+      "Point mutations in germ cells"
+    ],
+    "correct": 1,
+    "explanation": "V(D)J recombination randomly joins one V, D, and J segment (heavy chain) or V and J segments (light chain) in developing B cells, creating enormous receptor diversity (~10^11 combinations). Additional diversity comes from junctional imprecision (P and N nucleotide addition) and somatic hypermutation (after antigen exposure). This process underlies the ability to recognize virtually any antigen.",
+    "tags": [
+      "protein structure",
+      "immunology",
+      "molecular biology"
     ],
     "difficulty": "hard"
   },
   {
-    "text": "What is the significance of Mendel's law of independent assortment?",
+    "text": "The Michaelis constant (Km) reflects:",
     "options": [
-      "Dominant alleles are always inherited over recessive alleles",
-      "Alleles of different genes on different chromosomes are inherited independently of one another",
-      "Alleles are always inherited in the same combination as the parent",
-      "All alleles of a single gene are inherited together"
-    ],
-    "correct": 1,
-    "explanation": "Independent assortment (Mendel's second law): alleles at different loci (on different chromosomes or far apart on the same chromosome) are distributed to gametes independently. This is the basis for dihybrid crosses producing 9:3:3:1 ratios. Genes linked on the same chromosome violate this law unless separated by recombination.",
-    "tags": [
-      "genetics",
-      "Mendel's laws",
-      "independent assortment"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "A female with X-linked red-green colorblindness (XᵃXᵃ) has children with a normal male (XᴬY). What fraction of their daughters will have colorblindness?",
-    "options": [
-      "1/4",
-      "1/2",
-      "All daughters are colorblind",
-      "0 (all daughters are carriers, none are colorblind)"
+      "The number of active sites per enzyme molecule",
+      "Maximum reaction velocity",
+      "The concentration of product that inhibits the enzyme",
+      "Substrate concentration at which v = Vmax/2; inversely related to enzyme-substrate affinity"
     ],
     "correct": 3,
-    "explanation": "Mother: XᵃXᵃ (affected). Father: XᴬY. All daughters receive Xᵃ from mother and Xᴬ from father → all daughters are XᴬXᵃ (carriers, not affected). All sons receive Xᵃ from mother and Y from father → all sons are XᵃY (affected). 0 daughters are colorblind in this cross.",
+    "explanation": "Km is the substrate concentration at half-maximal velocity. Low Km → enzyme reaches half-saturation at low [S] → high affinity. High Km → enzyme needs more substrate to half-saturate → low affinity. Numerically, Km ≈ (k-1 + k2)/k1 for simple Michaelis-Menten kinetics.",
     "tags": [
-      "genetics",
-      "X-linked",
-      "colorblindness"
+      "enzyme kinetics"
     ],
-    "difficulty": "medium"
+    "difficulty": "easy"
   },
   {
-    "text": "Genetic linkage means that genes on the same chromosome:",
+    "text": "A competitive inhibitor increases apparent Km but leaves Vmax unchanged because:",
     "options": [
-      "Have identical allele frequencies in a population",
-      "Tend to be inherited together; recombination frequency between them reflects map distance (1 cM = 1% recombination)",
-      "Cannot recombine under any circumstances",
-      "Are always co-expressed in the same cell"
-    ],
-    "correct": 1,
-    "explanation": "Linked genes violate independent assortment. Recombination (crossing over during meiosis I) creates new combinations (recombinant gametes). Recombination frequency is used to construct genetic maps: 1 centimorgan (cM) = 1% recombination frequency ≈ 1 Mb (roughly). Genes <50 cM apart are linked; genes >50 cM apart (or on different chromosomes) assort independently.",
-    "tags": [
-      "genetics",
-      "genetic linkage",
-      "recombination"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which type of membrane transport allows Na+ to move from high concentration (outside) to low concentration (inside) the cell?",
-    "options": [
-      "Endocytosis",
-      "Primary active transport",
-      "Facilitated diffusion via ion channels (passive)",
-      "Secondary active transport"
+      "The inhibitor binds irreversibly, so more enzyme must be synthesized",
+      "The inhibitor activates an alternative active site",
+      "High substrate concentrations can displace the competitive inhibitor from the active site",
+      "The inhibitor changes the protein's secondary structure"
     ],
     "correct": 2,
-    "explanation": "Na+ has high extracellular (~145 mM) and low intracellular (~12 mM) concentration, creating a large inward driving force. Na+ flows down its concentration AND electrical gradient (inside negative) via ion channels (facilitated diffusion) — no energy required. The Na+/K+ ATPase maintains this gradient using ATP (primary active transport).",
+    "explanation": "Competitive inhibitors bind reversibly to the active site. At high [S], substrate outcompetes the inhibitor, so Vmax (the rate when enzyme is fully saturated with substrate) is unchanged. However, more substrate is needed to achieve half-saturation in the presence of inhibitor, so apparent Km increases.",
     "tags": [
-      "cell biology",
-      "membrane transport"
+      "enzyme kinetics",
+      "competitive inhibition"
     ],
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
-    "text": "The Na+/K+ ATPase pumps per cycle:",
+    "text": "An inhibitor decreases Vmax but leaves Km unchanged. This is consistent with:",
     "options": [
-      "Equal amounts of Na+ and K+ in opposite directions",
-      "3 Na+ out and 2 K+ in, hydrolyzing 1 ATP",
-      "2 Na+ out and 3 K+ in",
-      "Only Na+ out, no K+ movement"
+      "Substrate inhibition",
+      "Pure noncompetitive inhibition",
+      "Competitive inhibition",
+      "Uncompetitive inhibition"
     ],
     "correct": 1,
-    "explanation": "Na+/K+ ATPase (P-type ATPase) per cycle: 3 Na+ exported out + 2 K+ imported in + 1 ATP hydrolyzed. Net charge movement: 3(+) out and 2(+) in = net 1(+) charge out → electrogenic (contributes slightly to negative resting membrane potential). This pump accounts for ~20-30% of basal ATP consumption in cells.",
+    "explanation": "Pure noncompetitive inhibitors bind equally well to free enzyme and enzyme-substrate complex (at a site other than active site), reducing the total functional enzyme population. Km is unchanged (substrate still binds normally), but Vmax decreases proportionally with inhibitor concentration. On a Lineweaver-Burk plot, lines have different y-intercepts but the same x-intercept.",
     "tags": [
-      "cell biology",
-      "Na/K ATPase"
+      "enzyme kinetics",
+      "noncompetitive inhibition"
     ],
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
-    "text": "Tight junctions between epithelial cells primarily function to:",
+    "text": "An uncompetitive inhibitor binds only to the enzyme-substrate complex. On a Lineweaver-Burk plot, uncompetitive inhibition produces:",
     "options": [
-      "Anchor the cytoskeleton to the ECM",
-      "Provide mechanical adhesion between cells",
-      "Facilitate rapid communication between adjacent cells",
-      "Create a paracellular seal that prevents movement of solutes between cells, maintaining epithelial polarity"
+      "Lines intersecting at the x-axis",
+      "Lines intersecting at the y-axis",
+      "No change in the graph",
+      "Parallel lines (same slope, different intercepts)"
     ],
     "correct": 3,
-    "explanation": "Tight junctions (zonula occludens, made of claudins, occludins, ZO proteins) seal adjacent epithelial cells, preventing paracellular diffusion of ions and molecules. They also maintain membrane polarity by preventing lateral diffusion of membrane proteins between apical and basolateral domains. The 'fence' and 'gate' functions. Desmosomes provide mechanical strength; gap junctions allow communication; integrins anchor to ECM.",
+    "explanation": "Uncompetitive inhibitors bind ES complex, decreasing apparent Km and Vmax by the same factor (alpha'). On a double-reciprocal plot, the uninhibited and inhibited lines are parallel (same slope = Km/Vmax, since both change by the same factor). Both the x-intercept (–1/Km) and y-intercept (1/Vmax) shift left/up by the same factor.",
     "tags": [
-      "cell biology",
-      "cell junctions",
-      "epithelium"
+      "enzyme kinetics",
+      "uncompetitive inhibition"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Organophosphate compounds (e.g., nerve agents) are dangerous because they:",
+    "options": [
+      "Activate adenylyl cyclase, flooding cells with cAMP",
+      "Competitively inhibit nicotinic acetylcholine receptors",
+      "Block voltage-gated sodium channels in motor neurons",
+      "Irreversibly phosphorylate the active-site serine of acetylcholinesterase, preventing ACh breakdown"
+    ],
+    "correct": 3,
+    "explanation": "Organophosphates covalently phosphorylate the catalytic serine of acetylcholinesterase (AChE) at the neuromuscular junction. Without AChE, acetylcholine accumulates, causing continuous muscle stimulation (SLUDGE symptoms: salivation, lacrimation, urination, defecation, GI distress, emesis). Treatment includes atropine (muscarinic antagonist) and pralidoxime (reactivates AChE if given early).",
+    "tags": [
+      "enzyme kinetics",
+      "irreversible inhibition",
+      "neuroscience"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Allosteric regulation differs from competitive inhibition in that:",
+    "options": [
+      "Both mechanisms bind at the active site",
+      "Competitive inhibitors permanently modify enzyme structure",
+      "Allosteric effectors only inhibit, never activate",
+      "Allosteric effectors bind to sites distinct from the active site and cause conformational changes; competitive inhibitors bind at the active site"
+    ],
+    "correct": 3,
+    "explanation": "Allosteric regulation involves binding of an effector to a regulatory (allosteric) site, causing conformational changes that alter active site geometry/affinity. Allosteric effectors can be activators or inhibitors and are not structurally similar to the substrate. Competitive inhibitors are typically substrate analogs that directly compete at the active site.",
+    "tags": [
+      "enzyme regulation",
+      "allosterism"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "The endosome-lysosome pathway processes materials taken up by endocytosis. Which enzyme activates lysosomal hydrolases by making the lumen acidic?",
+    "text": "Feedback inhibition in the isoleucine biosynthetic pathway involves isoleucine inhibiting:",
     "options": [
-      "Na+/K+ ATPase",
-      "Cytochrome c oxidase",
-      "V-type H+ ATPase (vacuolar proton pump)",
-      "Carbonic anhydrase"
+      "Threonine deaminase (first committed step)",
+      "Only the export of isoleucine from the cell",
+      "All enzymes simultaneously",
+      "The last enzyme in the pathway"
     ],
-    "correct": 2,
-    "explanation": "Lysosomes maintain pH ~4.5–5.0 through V-type H+ ATPase (uses ATP to pump H+ into the lumen). This acidic environment is required for the activity of ~50+ lysosomal hydrolases (proteases, lipases, nucleases, glycosidases). Chloroquine/hydroxychloroquine work by raising lysosomal pH, disrupting pathogen degradation.",
+    "correct": 0,
+    "explanation": "Classic feedback (product) inhibition: isoleucine (end product) allosterically inhibits threonine deaminase, the first committed step. This prevents overproduction by shutting down the pathway when sufficient product exists. Inhibiting the first committed step is more efficient than inhibiting later enzymes.",
     "tags": [
-      "cell biology",
-      "lysosomes",
-      "vesicle trafficking"
+      "enzyme regulation",
+      "feedback inhibition"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Receptor tyrosine kinases (RTKs) transmit signals by:",
+    "text": "Protein kinase A (PKA) is activated by which second messenger?",
     "options": [
-      "Ligand stimulates adenylyl cyclase directly",
-      "Ligand binding activates associated trimeric G proteins",
-      "Ligand binding causes dimerization and autophosphorylation of tyrosine residues, creating docking sites for SH2 domain-containing signaling proteins",
-      "Ligand-receptor complex translocates to the nucleus to act as transcription factor"
+      "cAMP (cyclic AMP)",
+      "Diacylglycerol (DAG)",
+      "Ca2+",
+      "IP3"
     ],
-    "correct": 2,
-    "explanation": "RTK signaling: ligand (e.g., EGF, PDGF, insulin) binds extracellular domain → RTK dimerizes → trans-autophosphorylation of tyrosine residues in the intracellular domain → phosphotyrosines serve as docking sites for SH2-domain proteins (Grb2, PI3K, PLC-gamma, Shp2) → activate downstream cascades (Ras-MAPK, PI3K-Akt, PLC-PKC). Mutated/amplified RTKs are oncogenes in cancer.",
+    "correct": 0,
+    "explanation": "PKA is a tetrameric enzyme with two catalytic (C) and two regulatory (R) subunits. cAMP binds R subunits, causing dissociation and releasing active C subunits. cAMP is made by adenylyl cyclase in response to GPCR activation (e.g., beta-adrenergic receptors). PKA phosphorylates many targets including glycogen phosphorylase kinase and CREB.",
     "tags": [
-      "cell biology",
+      "enzyme regulation",
       "signal transduction",
-      "RTK"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "G-protein coupled receptors (GPCRs) signal through trimeric G proteins. In the inactive state, the G protein:",
-    "options": [
-      "Has GDP bound to the alpha subunit and the alpha-beta-gamma trimer is intact",
-      "Is constitutively active",
-      "Is free of any nucleotide",
-      "Has GTP bound to the alpha subunit and is dissociated"
-    ],
-    "correct": 0,
-    "explanation": "Inactive GPCR: trimeric G protein (alpha-beta-gamma) has GDP bound to alpha subunit. Ligand binds GPCR → conformational change → GPCR acts as GEF, causing GDP-GTP exchange in alpha subunit → alpha-GTP dissociates from beta-gamma → each activates downstream effectors (adenylyl cyclase for Gs, PLC for Gq, adenylyl cyclase inhibition for Gi). GTPase activity of alpha subunit returns to inactive GDP state.",
-    "tags": [
-      "cell biology",
-      "GPCR",
-      "signal transduction"
+      "cAMP"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "The cell cycle checkpoint at the G1/S boundary (restriction point) monitors:",
+    "text": "Michaelis-Menten kinetics break down when an enzyme has multiple subunits with cooperative substrate binding. This behavior is better described by:",
     "options": [
-      "DNA replication completion and accurate chromosome alignment",
-      "DNA integrity and sufficient cell size/growth factors before committing to DNA replication",
-      "Spindle assembly and chromosome attachment to kinetochores",
-      "Sister chromatid cohesion before anaphase"
+      "First-order rate kinetics",
+      "The Hill equation (sigmoidal binding curve)",
+      "Competitive inhibition kinetics",
+      "The Lineweaver-Burk equation"
     ],
     "correct": 1,
-    "explanation": "The G1/S checkpoint (restriction point in mammals) is the key decision point for cell division. Rb (retinoblastoma protein) inhibits E2F transcription factors (needed for S-phase entry). When growth factor signaling drives cyclin D/CDK4,6 activity → phosphorylates Rb → releases E2F → S-phase entry. DNA damage activates p53 → p21 → inhibits CDK4,6/cyclin D → cell cycle arrest.",
+    "explanation": "Cooperative enzymes (like hemoglobin for O2, or regulatory enzymes like PFK-1) show sigmoidal v vs. [S] curves. The Hill coefficient (n) quantifies cooperativity: n>1 = positive cooperativity, n<1 = negative, n=1 = hyperbolic (Michaelis-Menten). The Hill equation: v = Vmax[S]^n / (K0.5^n + [S]^n).",
     "tags": [
-      "cell biology",
-      "cell cycle",
-      "checkpoints"
+      "enzyme kinetics",
+      "cooperativity",
+      "Hill equation"
     ],
     "difficulty": "hard"
   },
   {
-    "text": "Mitosis produces daughter cells that are:",
+    "text": "Hexokinase (in muscle) and glucokinase (hexokinase IV, in liver) both phosphorylate glucose, but differ in that:",
     "options": [
-      "Haploid with half the genetic material",
-      "Cells with random chromosome number",
-      "Cells that have undergone meiotic recombination",
-      "Genetically identical to the parent cell (diploid cells producing two diploid daughters)"
+      "Glucokinase has a high Km for glucose and is not inhibited by G6P; hexokinase has low Km and is inhibited by G6P",
+      "Glucokinase requires NAD+ as a cofactor",
+      "Both have the same Km but glucokinase is allosterically activated",
+      "Hexokinase only works at high glucose concentrations"
+    ],
+    "correct": 0,
+    "explanation": "Glucokinase (hexokinase IV) has high Km (~10 mM, near portal vein glucose), is not inhibited by G6P, and shows sigmoidal kinetics (cooperative). This makes glucokinase a glucose sensor: it acts as a low-affinity glucose phosphorylator in the liver when blood glucose is high. Muscle hexokinase has low Km (~0.1 mM), is inhibited by G6P, and saturates at normal glucose levels.",
+    "tags": [
+      "enzyme regulation",
+      "glycolysis",
+      "hexokinase"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The kcat/Km ratio (catalytic efficiency) is important because:",
+    "options": [
+      "It reflects how efficiently an enzyme converts substrate to product at low [S], approaching the diffusion limit",
+      "It equals the maximum velocity",
+      "It measures enzyme concentration",
+      "It is used to calculate the equilibrium constant"
+    ],
+    "correct": 0,
+    "explanation": "kcat/Km is the second-order rate constant for the reaction E + S → E + P at low [S]. The theoretical maximum is the diffusion limit (~10^8–10^9 M-1s-1). 'Catalytically perfect' enzymes (like carbonic anhydrase, triose phosphate isomerase) approach this limit. kcat/Km is used to compare catalytic efficiencies of different enzymes or compare the same enzyme with different substrates.",
+    "tags": [
+      "enzyme kinetics",
+      "catalytic efficiency"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Zymogen activation is best exemplified by:",
+    "options": [
+      "Hexokinase is phosphorylated to activate it",
+      "DNA polymerase requires RNA primer to initiate",
+      "Hemoglobin binds O2 cooperatively",
+      "Trypsinogen is cleaved to trypsin by enteropeptidase in the small intestine"
     ],
     "correct": 3,
-    "explanation": "Mitosis is cell division for growth, repair, and asexual reproduction. It produces two genetically identical daughter cells, each with the same chromosome number as the parent cell (2n → 2n in diploid organisms). Meiosis, by contrast, produces four haploid (n) cells with genetic variation from recombination and independent assortment, for sexual reproduction.",
+    "explanation": "Zymogens (proenzymes) are inactive precursors activated by proteolytic cleavage. Trypsinogen → trypsin (by enteropeptidase/enterokinase); trypsin then activates other zymogens (chymotrypsinogen, proelastase, procarboxypeptidases). This irreversible mechanism prevents premature activation in the pancreas. Premature activation causes pancreatitis.",
     "tags": [
-      "cell biology",
-      "mitosis",
-      "cell division"
+      "enzyme regulation",
+      "zymogens",
+      "digestion"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which enzyme catalyzes the rate-limiting committed step of glycolysis?",
+    "options": [
+      "Pyruvate kinase",
+      "Aldolase",
+      "Hexokinase",
+      "Phosphofructokinase-1 (PFK-1)"
+    ],
+    "correct": 3,
+    "explanation": "PFK-1 catalyzes fructose-6-phosphate → fructose-1,6-bisphosphate (using ATP). This is the first committed, irreversible step of glycolysis and its major regulatory point. PFK-1 is activated by AMP/ADP/F-2,6-BP and inhibited by ATP/citrate/glucagon. Hexokinase is also regulated but not the committed rate-limiting step.",
+    "tags": [
+      "glycolysis",
+      "enzyme regulation"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "During the S phase of interphase:",
+    "text": "Net ATP yield from glycolysis (glucose → 2 pyruvate) is:",
     "options": [
-      "Sister chromatids separate to opposite poles",
-      "Chromosomes condense and the spindle forms",
-      "The cell prepares for division by synthesizing cyclins",
-      "DNA is replicated (each chromosome is duplicated to form two sister chromatids joined at the centromere)"
+      "36–38 ATP",
+      "2 ATP",
+      "6 ATP",
+      "4 ATP"
     ],
-    "correct": 3,
-    "explanation": "S (synthesis) phase: all chromosomal DNA is replicated semiconservatively, producing identical sister chromatids joined at the centromere by cohesin. DNA content doubles from 2C to 4C. After S: G2 phase (growth and preparation) → M phase (mitosis: prophase, prometaphase, metaphase, anaphase, telophase, cytokinesis).",
+    "correct": 1,
+    "explanation": "Glycolysis: 4 ATP produced (steps 7 and 10, substrate-level phosphorylation) minus 2 ATP consumed (hexokinase and PFK-1) = net 2 ATP. Also produces 2 NADH. The 36-38 ATP figure includes downstream oxidative phosphorylation from the full aerobic catabolism of glucose.",
     "tags": [
-      "cell biology",
-      "cell cycle",
-      "DNA replication"
+      "glycolysis",
+      "bioenergetics"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "The unfolded protein response (UPR) is triggered by:",
+    "text": "Which glycolytic enzyme catalyzes the only oxidation-reduction step in glycolysis?",
     "options": [
-      "Misfolded proteins in the cytoplasm",
-      "Ribosome stalling during translation",
-      "Accumulation of misfolded proteins in the ER lumen, which activates sensors (IRE1, PERK, ATF6)",
-      "Depletion of ER Ca2+ stores only"
+      "Phosphoglycerate mutase",
+      "Enolase",
+      "Phosphoglycerate kinase",
+      "Glyceraldehyde-3-phosphate dehydrogenase (G3PDH)"
+    ],
+    "correct": 3,
+    "explanation": "G3PDH oxidizes glyceraldehyde-3-phosphate to 1,3-bisphosphoglycerate, reducing NAD+ to NADH. This is the only redox step in glycolysis. The high-energy thioester intermediate is captured as 1,3-BPG, which then drives ATP synthesis at phosphoglycerate kinase (substrate-level phosphorylation).",
+    "tags": [
+      "glycolysis",
+      "redox reactions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Under anaerobic conditions, NADH generated in glycolysis is reoxidized by:",
+    "options": [
+      "Malate-aspartate shuttle",
+      "Pyruvate dehydrogenase complex",
+      "Lactate dehydrogenase (pyruvate → lactate), regenerating NAD+ to sustain glycolysis",
+      "The electron transport chain"
     ],
     "correct": 2,
-    "explanation": "ER stress: misfolded proteins accumulate in the ER → BiP (Hsp70 chaperone) is titrated away from UPR sensors IRE1, PERK, ATF6 → sensors activate → UPR responses: increased chaperone synthesis, reduced global translation, ERAD (ER-associated degradation). If UPR cannot resolve ER stress, apoptosis ensues (via CHOP transcription factor). UPR is implicated in diabetes, neurodegeneration, and cancer.",
+    "explanation": "Without O2, the ETC cannot reoxidize NADH. Lactate dehydrogenase (LDH) transfers the electrons from NADH to pyruvate, forming lactate and regenerating NAD+. This NAD+ is essential for continued glycolysis. In yeast, pyruvate decarboxylase and alcohol dehydrogenase regenerate NAD+ via ethanol fermentation.",
     "tags": [
-      "cell biology",
-      "ER stress",
-      "unfolded protein response"
+      "glycolysis",
+      "anaerobic metabolism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Pyruvate dehydrogenase complex (PDC) is inhibited by all of the following EXCEPT:",
+    "options": [
+      "Acetyl-CoA (product)",
+      "PDC kinase activated by high ATP/ADP ratio",
+      "AMP (which activates PDC)",
+      "NADH (product)"
+    ],
+    "correct": 2,
+    "explanation": "PDC is inhibited by its products (acetyl-CoA and NADH) and by PDC kinase when ATP/ADP and NADH/NAD+ ratios are high (energy surplus). PDC is activated by PDC phosphatase (activated by insulin and Ca2+), by AMP, by CoA, and by NAD+. High AMP signals low energy and would activate PDC to produce more acetyl-CoA.",
+    "tags": [
+      "pyruvate dehydrogenase",
+      "enzyme regulation"
     ],
     "difficulty": "hard"
   },
   {
-    "text": "The resting membrane potential of a neuron (~–70 mV) is primarily maintained by:",
+    "text": "How many CO2 molecules are released per turn of the TCA cycle?",
     "options": [
-      "Chloride pumps actively removing Cl-",
-      "High intracellular K+ and leak channels; Na+/K+ ATPase maintains ion gradients",
-      "High intracellular Na+ and voltage-gated Na+ channels",
-      "Equal concentrations of all ions inside and outside"
-    ],
-    "correct": 1,
-    "explanation": "The resting membrane potential is set mainly by K+ permeability (K+ leak channels) and the K+ electrochemical equilibrium (Nernst potential for K+ ≈ –90 mV). Selective permeability to K+ and impermeability to Na+ (at rest) creates the negative interior. Na+/K+ ATPase maintains the gradients over time but contributes little directly to the resting potential (~–3 mV from electrogenic pumping).",
-    "tags": [
-      "neuroscience",
-      "membrane potential"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "An action potential is propagated along an axon because:",
-    "options": [
-      "Neurotransmitter release propagates the signal",
-      "Calcium influx triggers membrane depolarization sequentially",
-      "Depolarization at one node spreads current that depolarizes adjacent membrane, triggering sodium channel opening in the next segment",
-      "Gap junctions directly connect adjacent axon segments"
-    ],
-    "correct": 2,
-    "explanation": "Local circuit currents flow from the depolarized region (inside positive) to adjacent resting regions (inside negative). This depolarizes the adjacent membrane to threshold, triggering opening of voltage-gated Na+ channels and a new action potential. In myelinated axons (Schwann cells/oligodendrocytes), APs jump between nodes of Ranvier (saltatory conduction), greatly increasing speed.",
-    "tags": [
-      "neuroscience",
-      "action potential",
-      "axon conduction"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The Frank-Starling mechanism describes which cardiac property?",
-    "options": [
-      "Cardiac output is fixed regardless of venous return",
-      "The heart rate increases with increased arterial pressure",
-      "Heart rate is inversely proportional to stroke volume",
-      "Stroke volume increases with increased preload (end-diastolic volume), due to increased myocardial fiber stretch and force generation"
-    ],
-    "correct": 3,
-    "explanation": "Frank-Starling law: within limits, stroke volume is proportional to EDV (preload). Greater ventricular filling → more myofibril overlap → more forceful contraction (Starling mechanism). This is why both ventricles pump equal volumes over time. Increased afterload (SVR) at constant contractility decreases stroke volume. Heart failure reduces the Frank-Starling curve.",
-    "tags": [
-      "cardiovascular physiology",
-      "Frank-Starling"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Pulmonary surfactant, produced by type II pneumocytes, reduces surface tension in alveoli. Without it (as in neonatal respiratory distress syndrome):",
-    "options": [
-      "Alveolar macrophages become hyperactive",
-      "Surfactant removal increases O2 diffusion",
-      "Alveoli collapse (atelectasis) because surface tension increases as alveoli shrink, creating positive feedback of collapse",
-      "Alveoli over-inflate because pressure is increased"
-    ],
-    "correct": 2,
-    "explanation": "By Laplace's law, P = 2T/r; smaller alveoli would collapse unless surface tension (T) decreases as radius decreases. Surfactant (DPPC, dipalmitoylphosphatidylcholine) reduces T proportionally with radius, stabilizing small alveoli. Without surfactant (prematurity, RDS): high T in small alveoli → collapse → atelectasis → hypoxia. Treated with exogenous surfactant and CPAP.",
-    "tags": [
-      "respiratory physiology",
-      "surfactant",
-      "lung mechanics"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which statement about glomerular filtration is correct?",
-    "options": [
-      "Only small molecules < 1 kDa are filtered",
-      "GFR is determined by net filtration pressure = (Pcap – Pbowman) – oncotic pressure; GFR ≈ 120 mL/min",
-      "The filtration barrier has no size selectivity",
-      "GFR is primarily regulated by hormones acting on tubular cells"
-    ],
-    "correct": 1,
-    "explanation": "GFR is driven by the net balance of Starling forces across the glomerular capillary: hydraulic pressure in capillary (Pgc, ~50 mmHg) minus Bowman's capsule pressure (~15 mmHg) minus plasma oncotic pressure (~30 mmHg) = ~5 mmHg net filtration. Normal GFR ≈ 120-125 mL/min. Regulated by afferent (dilates → increases GFR) and efferent (constricts → increases GFR) arteriolar tone.",
-    "tags": [
-      "renal physiology",
-      "GFR",
-      "filtration"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Aldosterone increases sodium reabsorption by acting on which segment of the nephron?",
-    "options": [
-      "Principal cells of the collecting duct (and late distal tubule), increasing ENaC and Na+/K+ ATPase expression",
-      "Loop of Henle via ADH-sensitive channels",
-      "Thick ascending limb via NKCC2",
-      "Proximal tubule (majority of Na+ reabsorption)"
+      "2",
+      "1",
+      "4",
+      "3"
     ],
     "correct": 0,
-    "explanation": "Aldosterone (from adrenal cortex, stimulated by angiotensin II, high K+) acts on principal cells in the collecting duct: binds cytosolic MR receptor → increases transcription of ENaC (epithelial Na+ channel) and Na+/K+ ATPase. Net: Na+ reabsorption, K+ secretion, water follows Na+. Spironolactone is an aldosterone receptor antagonist (K+-sparing diuretic).",
+    "explanation": "Two CO2 are released per TCA cycle turn: one at isocitrate dehydrogenase (isocitrate → alpha-ketoglutarate) and one at alpha-ketoglutarate dehydrogenase (alpha-KG → succinyl-CoA). These are the two oxidative decarboxylation steps of the TCA cycle. The 2-carbon acetyl group entering from acetyl-CoA is fully oxidized over multiple turns.",
     "tags": [
-      "renal physiology",
-      "aldosterone",
-      "RAAS"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Parathyroid hormone (PTH) is released in response to hypocalcemia. Its effects include all of the following EXCEPT:",
-    "options": [
-      "Increasing renal Ca2+ reabsorption",
-      "Decreasing bone resorption (PTH increases bone resorption via osteoclast activation)",
-      "Increasing renal phosphate excretion",
-      "Activating renal 1-alpha-hydroxylase to produce calcitriol (active vitamin D)"
-    ],
-    "correct": 1,
-    "explanation": "PTH actions on calcium homeostasis: (1) bone: stimulates osteoclast activity → Ca2+ and phosphate release from bone; (2) kidney: increases Ca2+ reabsorption in DCT, increases phosphate excretion, activates 1-alpha-hydroxylase → calcitriol production; (3) gut: indirectly increases Ca2+ absorption via calcitriol. PTH increases serum Ca2+, so answer A is false — PTH INCREASES bone resorption.",
-    "tags": [
-      "endocrine physiology",
-      "PTH",
-      "calcium homeostasis"
+      "TCA cycle",
+      "carbon balance"
     ],
     "difficulty": "medium"
   }

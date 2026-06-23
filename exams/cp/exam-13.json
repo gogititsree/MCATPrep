@@ -1,420 +1,419 @@
 [
   {
-    "text": "The standard cell potential for a galvanic cell is calculated as:",
+    "text": "Two parallel plates are separated by 0.01 m and have a potential difference of 100 V. What is the electric field between the plates?",
     "options": [
-      "E°cell = E°cathode + E°anode",
-      "E°cell = E°cathode - E°anode",
-      "E°cell = E°cathode × E°anode",
-      "E°cell = E°anode - E°cathode"
+      "1 V/m",
+      "10,000 V/m",
+      "1000 V/m",
+      "0.0001 V/m"
     ],
     "correct": 1,
-    "explanation": "E°cell = E°cathode - E°anode (using standard reduction potentials). Since both are given as reduction potentials, we subtract the anode value from the cathode value. A positive E°cell indicates a spontaneous reaction.",
+    "explanation": "For a uniform electric field between parallel plates: E = V/d = 100 V / 0.01 m = 10,000 V/m = 10 kV/m. The field is uniform (constant magnitude and direction) between ideal parallel plates and points from the positive to the negative plate. A proton in this field experiences force: F = qE = (1.6×10⁻¹⁹)(10,000) = 1.6×10⁻¹⁵ N. Parallel plates are the basis for capacitors: C = ε₀A/d; Q = CV; E_stored = ½CV²= ½QV. The uniform field between parallel plates is analogous to uniform gravitational field near Earth's surface.",
     "tags": [
-      "electrochemistry",
-      "cell-potential"
+      "physics",
+      "electrostatics",
+      "electric field"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "The Nernst equation relates cell potential to concentration as:",
+    "text": "Which of the following best explains why tertiary alcohols undergo dehydration (elimination to alkene) faster than primary alcohols under acidic conditions?",
     "options": [
-      "E = E° - (RT/nF)lnQ",
-      "E = E°/lnQ",
-      "E = E° - (nF/RT)lnQ",
-      "E = E° + (RT/nF)lnQ"
-    ],
-    "correct": 0,
-    "explanation": "The Nernst equation is E = E° - (RT/nF)lnQ, where R = gas constant, T = temperature, n = moles of electrons transferred, F = Faraday's constant, and Q = reaction quotient. At 25°C this simplifies to E = E° - (0.0592/n)logQ.",
-    "tags": [
-      "electrochemistry",
-      "nernst-equation"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Faraday's first law of electrolysis states that the mass of substance deposited is proportional to:",
-    "options": [
-      "The quantity of charge passed (coulombs)",
-      "The voltage applied",
-      "The resistance of the solution",
-      "The temperature of the electrolyte"
-    ],
-    "correct": 0,
-    "explanation": "Faraday's first law: m = (M × Q)/(n × F), where m = mass deposited, M = molar mass, Q = charge in coulombs, n = number of electrons per ion, F = 96,485 C/mol. The amount deposited is directly proportional to charge passed.",
-    "tags": [
-      "electrochemistry",
-      "electrolysis",
-      "faradays-law"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which species is most easily oxidized?",
-    "options": [
-      "Au (E° = +1.50 V for Au³⁺/Au)",
-      "Ag (E° = +0.80 V for Ag⁺/Ag)",
-      "Li (E° = -3.04 V for Li⁺/Li)",
-      "Cu (E° = +0.34 V for Cu²⁺/Cu)"
-    ],
-    "correct": 2,
-    "explanation": "Metals with the most negative standard reduction potential are most easily oxidized (best reducing agents). Li has E° = -3.04 V, the most negative listed, making it the strongest reducing agent and easiest to oxidize.",
-    "tags": [
-      "electrochemistry",
-      "oxidation-potential",
-      "activity-series"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "For a first-order reaction, the half-life is:",
-    "options": [
-      "t½ = 1/(k[A]₀) (dependent on initial concentration)",
-      "t½ = 2/k",
-      "t½ = 0.693/k (independent of initial concentration)",
-      "t½ = k/0.693"
-    ],
-    "correct": 2,
-    "explanation": "For a first-order reaction, t½ = ln(2)/k = 0.693/k. This half-life is constant and independent of initial concentration, which is a defining feature of first-order kinetics.",
-    "tags": [
-      "kinetics",
-      "half-life",
-      "first-order"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "The Arrhenius equation describes the temperature dependence of the rate constant as:",
-    "options": [
-      "k = Ae^(Ea/RT)",
-      "k = A/e^(Ea/RT)^2",
-      "k = RT/Ea",
-      "k = Ae^(-Ea/RT)"
-    ],
-    "correct": 3,
-    "explanation": "The Arrhenius equation is k = Ae^(-Ea/RT), where A is the frequency factor, Ea is the activation energy, R is the gas constant, and T is temperature in Kelvin. Increasing T or decreasing Ea increases k.",
-    "tags": [
-      "kinetics",
-      "arrhenius",
-      "activation-energy"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "A reaction is second-order in [A] and first-order in [B]. If [A] is doubled and [B] is halved, the rate:",
-    "options": [
-      "Stays the same",
-      "Doubles",
-      "Quadruples",
-      "Halves"
+      "Tertiary alcohols are better nucleophiles",
+      "Tertiary alcohols form more stable carbocation intermediates (3° > 2° > 1°) after protonation and loss of water; the Hammond postulate states that more stable intermediates have lower activation energy → faster reaction via E1 mechanism",
+      "Primary alcohols preferentially undergo E2 elimination",
+      "Tertiary carbocations are less reactive and thus form more slowly"
     ],
     "correct": 1,
-    "explanation": "Rate = k[A]²[B]. New rate = k(2[A])²(½[B]) = k × 4[A]² × ½[B] = 2k[A]²[B] = 2 × original rate. The rate doubles.",
+    "explanation": "Acid-catalyzed dehydration of alcohols proceeds via E1 (for 2° and 3°): (1) Protonation of OH by H+ → good leaving group (H₂O); (2) Loss of water → carbocation; (3) Deprotonation by base → alkene. The rate-limiting step is carbocation formation. Stability order: 3° > 2° > 1° (more alkyl groups stabilize positive charge by hyperconjugation and induction). By Hammond's postulate (transition state resembles intermediate for endothermic steps), more stable carbocation → lower energy TS → lower activation energy → faster reaction. 3° alcohols dehydrate easily; 1° alcohols require harsher conditions and often go via E2. Zaitsev's rule: major product is the more substituted (more stable) alkene.",
     "tags": [
-      "kinetics",
-      "rate-law"
+      "chemistry",
+      "organic chemistry",
+      "elimination reactions",
+      "alcohols"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "The rate-determining step in a multi-step reaction mechanism is:",
+    "text": "In a double-slit experiment, the distance between adjacent bright fringes is observed to increase. Which experimental change could cause this?",
     "options": [
-      "The slowest elementary step",
-      "The step with lowest activation energy",
-      "The fastest elementary step",
-      "The step that produces the most product"
-    ],
-    "correct": 0,
-    "explanation": "The rate-determining step (RDS) is the slowest step in a reaction mechanism. It acts as the bottleneck, determining the overall rate of the reaction. The rate law for the overall reaction reflects the elementary rate law of the RDS.",
-    "tags": [
-      "kinetics",
-      "rate-determining-step",
-      "mechanism"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "A zero-order reaction has a rate that is:",
-    "options": [
-      "Proportional to reactant concentration",
-      "Independent of reactant concentration",
-      "Inversely proportional to concentration",
-      "Proportional to the square of reactant concentration"
+      "Decreasing the wavelength of light used",
+      "Increasing the distance from the slits to the screen (L) or decreasing the slit separation (d), since fringe spacing Δy = λL/d",
+      "Increasing the slit width",
+      "Decreasing the intensity of light"
     ],
     "correct": 1,
-    "explanation": "For a zero-order reaction, rate = k[A]⁰ = k. The rate is constant and independent of the concentration of reactants. The half-life increases as the reaction proceeds: t½ = [A]₀/(2k).",
+    "explanation": "Young's double-slit experiment: constructive interference (bright fringes) occurs at path difference = mλ. Fringe spacing: Δy = λL/d, where λ = wavelength, L = screen distance, d = slit separation. To increase Δy: (1) Increase L (move screen farther); (2) Decrease d (bring slits closer together); (3) Increase λ (use longer-wavelength, redder light). Decreasing λ would decrease fringe spacing. Slit width affects diffraction envelope (single-slit pattern modulating the fringes) but does not change fringe spacing directly. Intensity changes don't affect spacing, only brightness. This experiment demonstrates wave nature of light.",
     "tags": [
-      "kinetics",
-      "zero-order"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "What is the IUPAC name for CH₃CH₂CH(CH₃)CH₂CH₃?",
-    "options": [
-      "2-methylpentane",
-      "2-ethylbutane",
-      "Isohexane",
-      "3-methylpentane"
-    ],
-    "correct": 3,
-    "explanation": "The longest chain has 5 carbons (pentane). The methyl branch is at carbon 3 (numbering from either end gives position 3). IUPAC name: 3-methylpentane.",
-    "tags": [
-      "organic-chemistry",
-      "nomenclature",
-      "alkanes"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Which functional group is present in an ester?",
-    "options": [
-      "-CHO",
-      "-COOH",
-      "-COO- (carbonyl bonded to oxygen)",
-      "-CO-NH-"
-    ],
-    "correct": 2,
-    "explanation": "An ester contains the -COO- functional group, formally written as R-C(=O)-O-R'. Esters are formed by reaction of carboxylic acids with alcohols (Fischer esterification).",
-    "tags": [
-      "organic-chemistry",
-      "functional-groups",
-      "esters"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "cis-2-butene and trans-2-butene are examples of:",
-    "options": [
-      "Conformational isomers",
-      "Enantiomers",
-      "Geometric (cis-trans) isomers",
-      "Constitutional isomers"
-    ],
-    "correct": 2,
-    "explanation": "Geometric isomers (cis-trans isomers) differ in the spatial arrangement of groups around a double bond or ring. Both cis- and trans-2-butene have the same connectivity (constitutional structure) but different geometric arrangements.",
-    "tags": [
-      "organic-chemistry",
-      "stereochemistry",
-      "isomers"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "A chiral center (stereocenter) in an organic molecule is a carbon that:",
-    "options": [
-      "Is part of an aromatic ring",
-      "Has four identical substituents",
-      "Is sp² hybridized",
-      "Has four different substituents attached"
-    ],
-    "correct": 3,
-    "explanation": "A chiral center is a tetrahedral carbon bonded to four different groups. Such a center is non-superimposable on its mirror image, giving rise to enantiomers. sp² carbons cannot be chiral centers as they only have three substituents.",
-    "tags": [
-      "organic-chemistry",
-      "stereochemistry",
-      "chirality"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "An SN2 reaction proceeds by:",
-    "options": [
-      "Radical chain mechanism",
-      "Back-side attack of nucleophile on carbon with simultaneous leaving group departure, inverting configuration",
-      "Front-side attack retaining configuration",
-      "Formation of a carbocation intermediate followed by nucleophile attack"
-    ],
-    "correct": 1,
-    "explanation": "SN2 is a concerted one-step mechanism. The nucleophile attacks from the back (180° from the leaving group), and as the leaving group departs, configuration is inverted (Walden inversion). Second-order kinetics: rate = k[Nu][substrate].",
-    "tags": [
-      "organic-chemistry",
-      "sn2",
-      "substitution"
+      "physics",
+      "optics",
+      "wave interference"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Which substrate undergoes SN1 most readily?",
+    "text": "Which organic functional group is most susceptible to nucleophilic addition, and why?",
     "options": [
-      "CH₃Br (methyl)",
-      "(CH₃)₃CBr (tertiary, forms stable carbocation)",
-      "CH₃CH₂CH₂Br (primary)",
-      "CH₃CH₂Br (primary)"
+      "Alkene (C=C) — the pi electrons attract nucleophiles",
+      "Aldehyde (RCHO) — the carbonyl carbon is highly electrophilic due to the electronegative oxygen withdrawing electron density; and the R group on one side provides less steric shielding than ketones",
+      "Ether (R-O-R) — oxygen is nucleophilic",
+      "Alkane — no functional group means maximum reactivity"
     ],
     "correct": 1,
-    "explanation": "SN1 proceeds through a carbocation intermediate. Tertiary substrates form the most stable (tertiary) carbocations due to hyperconjugation and inductive stabilization by three alkyl groups, making (CH₃)₃CBr most reactive for SN1.",
+    "explanation": "Nucleophilic addition to carbonyls (C=O): the carbonyl carbon is electron-deficient (δ+) due to the electronegativity of oxygen. Aldehydes are more reactive than ketones for nucleophilic addition because: (1) Less steric hindrance — R on only one side (vs. R on both sides in ketones); (2) Electronic — one electron-donating alkyl group (vs. two in ketones) means the carbonyl carbon is more electrophilic. Reactivity order: H₂C=O (formaldehyde) > RCHO (aldehyde) > R₂CO (ketone) > ester > amide. Common nucleophilic additions: HCN (cyanohydrin), NaBH₄ (hydride reduction), Grignard reagents (RMgX), water (hydration). Alkenes undergo electrophilic addition, not nucleophilic addition.",
     "tags": [
-      "organic-chemistry",
-      "sn1",
-      "substitution",
-      "carbocation"
+      "chemistry",
+      "organic chemistry",
+      "carbonyl chemistry",
+      "nucleophilic addition"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "E2 elimination reactions are favored by:",
+    "text": "A patient's blood has a pH of 7.28 and PaCO₂ of 52 mmHg. What acid-base disturbance is present?",
     "options": [
-      "Aqueous solvent, weak bases, and tertiary substrates",
-      "Bulky strong bases, elevated temperature, and secondary/tertiary substrates",
-      "Polar protic solvents and strong nucleophiles",
-      "Small nucleophiles, low temperature, and primary substrates"
+      "Metabolic acidosis",
+      "Respiratory acidosis — elevated CO₂ (hypoventilation) → increased H₂CO₃ → decreased pH; primary respiratory cause confirmed by elevated PaCO₂",
+      "Respiratory alkalosis",
+      "Metabolic alkalosis"
     ],
     "correct": 1,
-    "explanation": "E2 is a concerted anti-periplanar elimination. Bulky, strong bases (e.g., t-BuOK) favor elimination by approaching the β-hydrogen rather than the carbon. Higher temperature and secondary/tertiary substrates also favor E2 over SN2.",
+    "explanation": "Normal values: pH 7.35–7.45; PaCO₂ 35–45 mmHg; HCO₃⁻ 22–26 mEq/L. Analysis: pH 7.28 = acidosis; PaCO₂ 52 mmHg = elevated (hypercapnia) → respiratory acidosis (hypoventilation: COPD, opioid overdose, neuromuscular disease, obesity hypoventilation). Henderson-Hasselbalch: pH = 6.1 + log([HCO₃⁻]/0.03×PaCO₂). With PaCO₂ = 52: if pH = 7.28, [HCO₃⁻] = 10^(7.28–6.1) × 0.03 × 52 = 10^1.18 × 1.56 = 15.1 × 1.56 ≈ 23.6 mEq/L (near normal → acute, no renal compensation yet). Compensation: kidneys retain HCO₃⁻ over 2–5 days (chronic respiratory acidosis). Treatment: address underlying ventilatory impairment.",
     "tags": [
-      "organic-chemistry",
-      "e2",
-      "elimination"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Markovnikov's rule predicts that in hydrohalogenation of an alkene, the hydrogen adds to:",
-    "options": [
-      "Only to terminal carbons",
-      "The carbon with fewer hydrogens",
-      "Randomly to either carbon",
-      "The carbon with more hydrogens (less substituted), placing the halide on the more substituted carbon"
-    ],
-    "correct": 3,
-    "explanation": "Markovnikov's rule: the proton adds to the carbon bearing more hydrogens, generating the more stable (more substituted) carbocation intermediate. The halide then attacks the carbocation.",
-    "tags": [
-      "organic-chemistry",
-      "addition-reactions",
-      "markovnikov"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Nucleophilic addition to a carbonyl group is favored when the carbonyl carbon is:",
-    "options": [
-      "Nucleophilic (partial negative charge)",
-      "Neutral with no partial charges",
-      "Electrophilic (partial positive charge)",
-      "Part of an aromatic ring"
-    ],
-    "correct": 2,
-    "explanation": "The carbonyl carbon bears a partial positive charge (δ+) due to the electronegativity of oxygen withdrawing electron density. This makes the carbonyl carbon electrophilic and susceptible to attack by nucleophiles.",
-    "tags": [
-      "organic-chemistry",
-      "carbonyl",
-      "nucleophilic-addition"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "In the Fischer esterification reaction, a carboxylic acid reacts with an alcohol under acid catalysis to produce:",
-    "options": [
-      "An aldehyde and water",
-      "An ester and water",
-      "An amide and water",
-      "An anhydride and water"
-    ],
-    "correct": 1,
-    "explanation": "Fischer esterification: RCOOH + R'OH ⇌ RCOOR' + H₂O. It is catalyzed by strong acid (H₂SO₄) and is reversible (equilibrium reaction). Excess alcohol or removal of water drives the reaction toward ester formation.",
-    "tags": [
-      "organic-chemistry",
-      "esterification",
-      "carbonyl"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "An aldol condensation involves:",
-    "options": [
-      "Acid-catalyzed addition of water to a carbonyl",
-      "Oxidation of an aldehyde to a carboxylic acid",
-      "Reduction of a ketone to an alcohol",
-      "A nucleophilic enolate attacking a carbonyl carbon to form a β-hydroxy carbonyl compound"
-    ],
-    "correct": 3,
-    "explanation": "In aldol condensation, a base abstracts an α-hydrogen to form an enolate, which then attacks the carbonyl carbon of another carbonyl compound. The product is a β-hydroxy carbonyl compound (aldol). Dehydration can then occur to give an α,β-unsaturated carbonyl.",
-    "tags": [
-      "organic-chemistry",
-      "aldol-condensation",
-      "carbonyl"
+      "physiology",
+      "acid-base",
+      "respiratory acidosis"
     ],
     "difficulty": "hard"
   },
   {
-    "text": "In ¹H NMR spectroscopy, chemical shift (δ) is measured in ppm relative to:",
+    "text": "In a nuclear fission reaction, ²³⁵U absorbs a neutron and splits into ⁹²Kr and ¹⁴¹Ba plus additional neutrons. How many neutrons are released?",
     "options": [
-      "CHCl₃ at δ = 0",
-      "Water at δ = 0",
-      "Benzene at δ = 0",
-      "TMS (tetramethylsilane) at δ = 0"
+      "1",
+      "2",
+      "3",
+      "4"
     ],
-    "correct": 3,
-    "explanation": "TMS (tetramethylsilane, Si(CH₃)₄) is the standard reference for ¹H and ¹³C NMR. Its protons resonate at higher field than most organic protons, and it is assigned δ = 0 ppm. It is chemically inert and volatile (easily removed).",
+    "correct": 2,
+    "explanation": "Conservation of mass number (A) and atomic number (Z): ²³⁵U + ¹n → ⁹²Kr + ¹⁴¹Ba + x·¹n. Mass numbers: 235 + 1 = 92 + 141 + x → 236 = 233 + x → x = 3. Atomic numbers: 92 + 0 = 36 + 56 + 0 → 92 = 92 ✓. Therefore 3 neutrons are released. This is the chain reaction: 3 neutrons each can trigger additional ²³⁵U fissions → exponential chain reaction if >critical mass. In nuclear reactors, control rods (boron, cadmium) absorb neutrons to maintain a controlled, sustained chain reaction. Fission releases ~200 MeV per ²³⁵U nucleus (binding energy curve: peak stability at Fe-56).",
     "tags": [
-      "spectroscopy",
-      "nmr"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "In infrared (IR) spectroscopy, the carbonyl (C=O) stretch appears at approximately:",
-    "options": [
-      "~3300 cm⁻¹",
-      "~2200 cm⁻¹",
-      "~1600 cm⁻¹",
-      "~1700 cm⁻¹"
-    ],
-    "correct": 3,
-    "explanation": "The C=O stretch is one of the most diagnostic IR absorptions, appearing near 1700 cm⁻¹ for ketones. Conjugation or ring strain shifts this value: esters ~1735 cm⁻¹, amides ~1680 cm⁻¹, α,β-unsaturated carbonyls ~1680 cm⁻¹.",
-    "tags": [
-      "spectroscopy",
-      "ir",
-      "carbonyl"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Mass spectrometry measures:",
-    "options": [
-      "Mass-to-charge ratio (m/z) of ions",
-      "Electron energy levels",
-      "Nuclear spin transitions",
-      "Frequency of photon absorption"
-    ],
-    "correct": 0,
-    "explanation": "In mass spectrometry, molecules are ionized and fragmented, and the resulting ions are separated by their mass-to-charge ratio (m/z). The molecular ion (M⁺) gives the molecular weight. Fragmentation patterns help determine structure.",
-    "tags": [
-      "spectroscopy",
-      "mass-spectrometry"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "A ball is thrown horizontally from a cliff 20 m high with v = 10 m/s. How far from the base does it land? (g = 10 m/s²)",
-    "options": [
-      "20 m",
-      "40 m",
-      "14 m",
-      "10 m"
-    ],
-    "correct": 0,
-    "explanation": "Time to fall: h = ½gt² → 20 = ½(10)t² → t = 2 s. Horizontal distance: x = v₀t = 10 × 2 = 20 m.",
-    "tags": [
-      "mechanics",
-      "projectile-motion"
+      "physics",
+      "nuclear physics",
+      "fission"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Newton's second law states:",
+    "text": "Which law states that at constant temperature and pressure, equal volumes of all ideal gases contain the same number of molecules?",
     "options": [
-      "Work equals force times displacement",
-      "F = ma (net force equals mass times acceleration)",
-      "An object at rest stays at rest unless acted on by a net force",
-      "For every action there is an equal and opposite reaction"
+      "Boyle's Law",
+      "Avogadro's Law — V/n = constant at fixed T and P; at STP, 1 mol of any ideal gas occupies 22.4 L",
+      "Charles's Law",
+      "Dalton's Law"
     ],
     "correct": 1,
-    "explanation": "Newton's second law: the net force on an object equals its mass multiplied by its acceleration (F = ma). This is a vector equation; both F and a have the same direction.",
+    "explanation": "Avogadro's Law: V ∝ n at constant T and P (V/n = R T/P = constant). At STP (0°C, 1 atm): 1 mol of any ideal gas occupies 22.4 L (molar volume). At SATP (25°C, 1 bar): 24.8 L/mol. This is why gases react in simple integer volume ratios (Gay-Lussac's Law of combining volumes): 2 H₂ + O₂ → 2 H₂O (2:1:2 volume ratio). Other ideal gas laws: Boyle's (P ∝ 1/V at constant T); Charles's (V ∝ T at constant P); Gay-Lussac's (P ∝ T at constant V); combined gas law: PV/T = nR. Real gases deviate from ideal at high pressure/low temperature (van der Waals corrections).",
     "tags": [
-      "mechanics",
-      "newtons-laws"
+      "chemistry",
+      "ideal gas laws",
+      "Avogadro's Law"
     ],
     "difficulty": "easy"
+  },
+  {
+    "text": "A 2 μF capacitor is connected to a 9 V battery. What charge is stored on the capacitor?",
+    "options": [
+      "18 μC",
+      "4.5 μC",
+      "9 μC",
+      "0.22 μC"
+    ],
+    "correct": 0,
+    "explanation": "Q = CV = (2 × 10⁻⁶ F)(9 V) = 18 × 10⁻⁶ C = 18 μC. Energy stored: U = ½CV² = ½(2×10⁻⁶)(81) = 81 μJ, or equivalently U = Q²/2C = (18×10⁻⁶)²/(2×2×10⁻⁶) = 81 μJ. Capacitors in parallel: C_total = C₁ + C₂ (voltages same, charges add); capacitors in series: 1/C_total = 1/C₁ + 1/C₂ (charges same, voltages add). Capacitance of parallel plates: C = ε₀εᵣA/d (increases with area A, decreases with separation d, increases with dielectric constant εᵣ).",
+    "tags": [
+      "physics",
+      "capacitors",
+      "electrostatics"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which factor would NOT increase the rate of dissolution of a solid solute in a liquid solvent?",
+    "options": [
+      "Increasing temperature",
+      "Increasing pressure (for solid solutes)",
+      "Stirring or agitating the solution",
+      "Grinding the solid into smaller particles (increasing surface area)"
+    ],
+    "correct": 1,
+    "explanation": "Factors that increase dissolution rate: (1) Temperature — increases kinetic energy, enhances solvation; (2) Stirring — removes saturated solution from contact with solid; (3) Particle size — smaller particles = greater surface area exposed. Pressure: increasing pressure significantly increases dissolution of gases in liquids (Henry's Law: C = kH × P_gas) but has negligible effect on solid dissolving in liquid. Solubility (equilibrium amount dissolved) of most solids increases with temperature (endothermic dissolution, Le Chatelier's); however rate vs. solubility are different concepts. Note: some salts (like Ce₂(SO₄)₃) have retrograde solubility (decreases with temperature).",
+    "tags": [
+      "chemistry",
+      "dissolution",
+      "solubility"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "What type of isomerism is exhibited by cis-2-butene and trans-2-butene?",
+    "options": [
+      "Constitutional isomers (structural isomers)",
+      "Geometric isomers (cis-trans or E/Z isomers) — they have the same molecular formula and connectivity but differ in spatial arrangement of groups around the C=C double bond, which cannot rotate freely",
+      "Enantiomers (non-superimposable mirror images)",
+      "Conformational isomers (interconvertible by rotation)"
+    ],
+    "correct": 1,
+    "explanation": "cis-2-butene and trans-2-butene: both have formula C₄H₈ with a double bond at C2-C3. They are geometric (cis/trans) isomers because: the C=C double bond has restricted rotation (due to the π bond); cis: both methyl groups on the same side of the double bond; trans: methyl groups on opposite sides. This is a type of stereoisomerism (same connectivity, different spatial arrangement). They have different physical properties (boiling points: cis = 3.7°C, trans = 0.9°C) and are NOT interconvertible without breaking the π bond. In E/Z nomenclature: trans-2-butene = (E)-2-butene; cis-2-butene = (Z)-2-butene. Constitutional isomers: same formula, different connectivity. Enantiomers: non-superimposable mirror images.",
+    "tags": [
+      "chemistry",
+      "organic chemistry",
+      "isomers",
+      "stereochemistry"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "An inductor with inductance L = 0.5 H carries a current of 4 A. What is the energy stored in the magnetic field?",
+    "options": [
+      "1 J",
+      "4 J",
+      "2 J",
+      "8 J"
+    ],
+    "correct": 1,
+    "explanation": "Energy stored in an inductor: U = ½LI² = ½(0.5)(4²) = ½(0.5)(16) = 4 J. This energy is stored in the magnetic field surrounding the inductor. Compare: capacitor stores energy in electric field as U = ½CV². In an LC circuit, energy oscillates between the inductor (magnetic field) and capacitor (electric field) at frequency ω = 1/√(LC). The inductor opposes changes in current (V = L dI/dt): acts as a short circuit for DC (steady state) and as high impedance for AC (inductive reactance XL = ωL increases with frequency).",
+    "tags": [
+      "physics",
+      "electromagnetism",
+      "inductors"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In an exothermic reaction, adding a catalyst:",
+    "options": [
+      "Makes the reaction even more exothermic by providing extra energy",
+      "Lowers the activation energy for both the forward and reverse reactions equally, increasing the rate of both directions but not changing the equilibrium constant K or ΔG°",
+      "Shifts the equilibrium toward the products",
+      "Only speeds up the forward reaction, not the reverse"
+    ],
+    "correct": 1,
+    "explanation": "A catalyst provides an alternative reaction pathway with lower activation energy (Ea). Crucially: it lowers Ea for both forward and reverse reactions by the same amount (since ΔG° = Ea_forward – Ea_reverse remains unchanged). Therefore: (1) Rate of both forward and reverse reactions increases equally; (2) Equilibrium constant K is unchanged (K depends only on ΔG° = –RT lnK, which is unchanged); (3) The system reaches equilibrium faster but the equilibrium position is the same; (4) ΔH, ΔS, and ΔG° are unchanged (thermodynamic quantities). Catalysts are regenerated (not consumed). Enzymes are biological catalysts; they can also change the substrate specificity and regulate reaction directionality, but not the equilibrium constant.",
+    "tags": [
+      "chemistry",
+      "kinetics",
+      "catalysis",
+      "thermodynamics"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following correctly describes Rayleigh scattering and its relevance to the blue color of the sky?",
+    "options": [
+      "Sunlight is mostly blue, and other colors are absorbed by the atmosphere",
+      "Rayleigh scattering: intensity of scattering ∝ 1/λ⁴ — shorter wavelengths (blue, ~450 nm) scatter far more strongly than longer wavelengths (red, ~700 nm) as sunlight passes through the atmosphere; scattered blue light reaches the eye from all directions",
+      "Nitrogen molecules absorb red wavelengths, leaving only blue",
+      "Water vapor in the atmosphere preferentially reflects blue light"
+    ],
+    "correct": 1,
+    "explanation": "Rayleigh scattering occurs when light interacts with particles much smaller than its wavelength (gas molecules, O₂, N₂). Scattering intensity ∝ 1/λ⁴: blue light (450 nm) scatters (700/450)⁴ ≈ 5.6× more than red light (700 nm). Blue light is scattered in all directions by the atmosphere → sky appears blue. At sunset/sunrise, sunlight travels through more atmosphere → blue is completely scattered away → only red/orange wavelengths remain → red sky. Tyndall effect: similar principle for particles slightly larger (milk, fog). Mie scattering: for particles comparable to λ (clouds look white — all wavelengths scattered equally). This is also why deep water appears blue.",
+    "tags": [
+      "physics",
+      "optics",
+      "light scattering"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which quantum numbers specify an electron in the 3d subshell?",
+    "options": [
+      "n=2, l=3",
+      "n=3, l=1",
+      "n=3, l=3",
+      "n=3, l=2"
+    ],
+    "correct": 3,
+    "explanation": "The principal quantum number n=3 designates the third shell, and the azimuthal quantum number l=2 designates a d subshell (l: 0=s, 1=p, 2=d, 3=f).",
+    "tags": [
+      "atomic-structure",
+      "quantum-numbers"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which element has the highest first ionization energy?",
+    "options": [
+      "Kr",
+      "Ar",
+      "He",
+      "Ne"
+    ],
+    "correct": 2,
+    "explanation": "Helium has the highest first ionization energy of all elements (~2372 kJ/mol) due to its small atomic radius and full 1s² shell with no shielding electrons.",
+    "tags": [
+      "periodic-trends",
+      "ionization-energy"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Across a period from left to right, atomic radius generally:",
+    "options": [
+      "Increases due to more electron shells",
+      "Remains constant",
+      "Increases due to decreasing nuclear charge",
+      "Decreases due to increasing nuclear charge with same shielding"
+    ],
+    "correct": 3,
+    "explanation": "Across a period, nuclear charge increases while electrons are added to the same shell (minimal additional shielding), causing the electron cloud to contract.",
+    "tags": [
+      "periodic-trends",
+      "atomic-radius"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The electron configuration of Fe²⁺ is:",
+    "options": [
+      "[Ar] 3d⁴",
+      "[Ar] 3d⁵ 4s¹",
+      "[Ar] 3d⁶",
+      "[Ar] 3d⁶ 4s²"
+    ],
+    "correct": 2,
+    "explanation": "Neutral Fe is [Ar] 3d⁶ 4s². When Fe loses 2 electrons to form Fe²⁺, the 4s electrons are removed first, leaving [Ar] 3d⁶.",
+    "tags": [
+      "electron-configuration",
+      "transition-metals"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which property generally increases going down a group in the periodic table?",
+    "options": [
+      "First ionization energy",
+      "Electronegativity",
+      "Electron affinity",
+      "Atomic radius"
+    ],
+    "correct": 3,
+    "explanation": "Atomic radius increases down a group because each successive element has an additional electron shell, increasing the distance between the nucleus and valence electrons.",
+    "tags": [
+      "periodic-trends",
+      "atomic-radius"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Hund's rule states that electrons will:",
+    "options": [
+      "Pair up in the lowest-energy orbital first",
+      "Fill orbitals in order of increasing n+l",
+      "Occupy the highest available energy orbitals first",
+      "Occupy degenerate orbitals singly before pairing, with parallel spins"
+    ],
+    "correct": 3,
+    "explanation": "Hund's rule states that for degenerate orbitals, electrons occupy each orbital singly with parallel (same) spins before any orbital is doubly occupied, minimizing electron repulsion.",
+    "tags": [
+      "electron-configuration",
+      "hunds-rule"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which molecule has a trigonal bipyramidal electron geometry but a seesaw molecular geometry?",
+    "options": [
+      "ClF₃",
+      "PCl₅",
+      "SF₄",
+      "XeF₂"
+    ],
+    "correct": 2,
+    "explanation": "SF₄ has 5 electron domains around sulfur (4 bonding + 1 lone pair). The electron geometry is trigonal bipyramidal, and the lone pair in an equatorial position gives a seesaw molecular shape.",
+    "tags": [
+      "vsepr",
+      "molecular-geometry"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The bond angle in water (H₂O) is approximately 104.5°, which is less than the ideal tetrahedral angle of 109.5° because:",
+    "options": [
+      "O-H bonds are longer than expected",
+      "Water forms a linear geometry",
+      "Lone pairs exert greater repulsion than bonding pairs",
+      "Hydrogen is highly electronegative"
+    ],
+    "correct": 2,
+    "explanation": "Lone pairs occupy more space than bonding pairs because they are not constrained between two nuclei. The two lone pairs on oxygen push the bonding pairs closer together, reducing the H-O-H angle to ~104.5°.",
+    "tags": [
+      "vsepr",
+      "water"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following exhibits the strongest intermolecular forces?",
+    "options": [
+      "HF",
+      "H₂S",
+      "HCl",
+      "PH₃"
+    ],
+    "correct": 0,
+    "explanation": "HF can form hydrogen bonds (H bonded to highly electronegative F) which are the strongest intermolecular forces among these options. HCl, H₂S, and PH₃ have only dipole-dipole interactions and London dispersion forces.",
+    "tags": [
+      "intermolecular-forces",
+      "hydrogen-bonding"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In an sp³ hybridized carbon, the orbitals point towards the corners of:",
+    "options": [
+      "An octahedron",
+      "A square",
+      "A tetrahedron",
+      "A triangle"
+    ],
+    "correct": 2,
+    "explanation": "sp³ hybridization combines one s orbital and three p orbitals to create four equivalent hybrid orbitals directed toward the corners of a regular tetrahedron at 109.5° angles.",
+    "tags": [
+      "hybridization",
+      "bonding"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which bond is the shortest?",
+    "options": [
+      "C-C",
+      "C=C",
+      "C-N",
+      "C≡C"
+    ],
+    "correct": 3,
+    "explanation": "Triple bonds have the highest bond order, which results in the shortest and strongest bond. C≡C (~120 pm) < C=C (~134 pm) < C-C (~154 pm). C-N is a single bond (~147 pm) and longer than C≡C.",
+    "tags": [
+      "chemical-bonding",
+      "bond-length"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Formal charge on nitrogen in NH₄⁺ is:",
+    "options": [
+      "+2",
+      "-1",
+      "0",
+      "+1"
+    ],
+    "correct": 3,
+    "explanation": "Formal charge = valence electrons - nonbonding electrons - (½ × bonding electrons). For N in NH₄⁺: 5 - 0 - (½ × 8) = 5 - 0 - 4 = +1.",
+    "tags": [
+      "formal-charge",
+      "bonding"
+    ],
+    "difficulty": "medium"
   }
 ]

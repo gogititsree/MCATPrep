@@ -1,0 +1,149 @@
+[
+  {
+    "passageText": "The sociology of science, developed by Robert Merton and later transformed by constructivists, asks not only what science discovers but how scientific knowledge is produced, legitimated, and contested. Merton's normative account identified four institutional imperatives guiding ideal scientific conduct: communalism (knowledge as public property), universalism (truth claims evaluated on merit, not the social characteristics of the claimant), disinterestedness (scientists motivated by the advancement of knowledge, not personal gain), and organized skepticism (systematic scrutiny of all claims).\n\nConstructivists (Bloor, Collins, Latour) challenged the Mertonian picture by arguing that scientific knowledge, including even natural science, is socially constructed — that facts are not simply discovered but are produced through social processes of negotiation, credentialing, and institutionalization. The laboratory studies tradition showed that what counts as a successful experiment depends on judgments about instrument reliability, competence of experimenters, and interpretive conventions that cannot be derived from the data alone.\n\nThe resulting 'science wars' of the 1990s pitted constructivists against scientists and philosophers who argued that strong constructivism collapses into relativism — if all knowledge claims are equally socially constructed, then the germ theory of disease is no more epistemically privileged than pre-modern humoral medicine. Constructivists typically respond that they are not committed to relativism but to symmetry: applying the same standards of sociological explanation to successful and failed scientific claims, rather than explaining success by 'truth' and failure by 'social factors.'\n\nThese debates have practical stakes in an era of scientific skepticism. Public distrust of expert consensus on vaccination, climate change, and evolution is partly fueled by the perception — sometimes deliberately cultivated by interests opposed to regulation — that scientific knowledge is merely one 'narrative' among many. Sociologists of science face the challenge of explaining the social dimensions of knowledge production without inadvertently providing rhetorical resources for antiscience movements.",
+    "questions": [
+      {
+        "text": "According to Merton's normative account, which principle requires that scientific claims be evaluated on their merits regardless of who makes them?",
+        "options": [
+          "Communalism",
+          "Universalism",
+          "Disinterestedness",
+          "Organized skepticism"
+        ],
+        "correct": 1,
+        "explanation": "The passage defines universalism as the principle that 'truth claims [are] evaluated on merit, not the social characteristics of the claimant.' This means a scientist's race, gender, nationality, or status should be irrelevant to the evaluation of their claims."
+      },
+      {
+        "text": "Constructivists' 'symmetry principle' as described in the passage means that:",
+        "options": [
+          "All scientific theories are equally true",
+          "Social factors explain failed science but not successful science",
+          "Both successful and failed scientific claims should be explained by the same sociological standards",
+          "Science and non-science should be treated as equivalent"
+        ],
+        "correct": 2,
+        "explanation": "The passage states constructivists claim 'symmetry: applying the same standards of sociological explanation to successful and failed scientific claims, rather than explaining success by truth and failure by social factors.' This is a methodological stance, not a claim about the truth of scientific theories."
+      },
+      {
+        "text": "The author presents the concern in the final paragraph about antiscience movements as:",
+        "options": [
+          "Proof that constructivism is wrong",
+          "A practical challenge for sociologists of science who must explain social dimensions of knowledge without lending credibility to antiscience rhetoric",
+          "Evidence that public skepticism about science is justified",
+          "An argument that scientists should control their public communications more tightly"
+        ],
+        "correct": 1,
+        "explanation": "The passage frames this as a challenge ('sociologists of science face the challenge of explaining...without inadvertently providing rhetorical resources for antiscience movements'). The author does not conclude that constructivism is wrong, does not endorse skepticism, and does not advocate for communication control."
+      },
+      {
+        "text": "The strongest objection to strong constructivism mentioned in the passage is that it:",
+        "options": [
+          "Ignores the role of experiments in science",
+          "Collapses into relativism, making the germ theory no more valid than humoral medicine",
+          "Cannot explain why some experiments fail to replicate",
+          "Denies that social factors influence science at all"
+        ],
+        "correct": 1,
+        "explanation": "The passage states that critics argue 'strong constructivism collapses into relativism — if all knowledge claims are equally socially constructed, then the germ theory of disease is no more epistemically privileged than pre-modern humoral medicine.' This is explicitly identified as the core objection."
+      }
+    ]
+  },
+  {
+    "passageText": "Urban heat islands (UHIs) form when cities replace natural land cover with dense concentrations of pavement, buildings, and other materials that absorb and re-emit the sun's heat more than natural landscapes. The effect is well documented: urban cores can be 1–7°C warmer than surrounding rural areas, with the greatest divergence at night when urban materials release stored heat. The phenomenon has meaningful consequences for energy use, human health, and ecosystem function in cities.\n\nThe physical mechanisms driving UHIs are multiple. Dark impervious surfaces have lower albedo (reflectivity) than vegetated land, absorbing more solar radiation. Buildings and pavement have high thermal mass, storing heat during the day and releasing it at night. The geometry of street canyons traps longwave radiation that would otherwise escape to the atmosphere. Reduced vegetative cover means less evapotranspirative cooling — the process by which plants release water vapor, cooling the surrounding air. Finally, anthropogenic heat (from vehicles, air conditioning, and industry) adds directly to the thermal budget.\n\nMitigation strategies draw on understanding of these mechanisms. Cool roofs and pavements with high albedo reflect more solar radiation. Urban greening — including trees, parks, green roofs, and urban agriculture — restores evapotranspiration and shading. Urban form modifications (street orientation, building height-to-width ratios, and increased sky view factor) can improve nocturnal radiative cooling. Some cities have experimented with white-painted streets and water features.\n\nThe equity dimensions of UHI are often overlooked. Lower-income neighborhoods tend to have less tree canopy, more impervious surface, and older, less efficient housing — all of which increase heat exposure. Studies consistently find that race and income are associated with differential heat exposure within cities. Mitigation investment focused on the most affected neighborhoods can simultaneously address environmental justice and resilience goals, though greening efforts carry the risk of contributing to gentrification by increasing property values.",
+    "questions": [
+      {
+        "text": "According to the passage, which process contributes to the urban heat island effect by reducing a natural cooling mechanism?",
+        "options": [
+          "High albedo of urban surfaces",
+          "Reduced evapotranspiration due to less vegetation",
+          "Increased sky view factor in urban canyons",
+          "Lower thermal mass of building materials"
+        ],
+        "correct": 1,
+        "explanation": "The passage states that 'reduced vegetative cover means less evapotranspirative cooling — the process by which plants release water vapor, cooling the surrounding air.' This removal of vegetation eliminates a natural cooling mechanism. Urban surfaces actually have LOW albedo (not high), and the passage says building materials have HIGH thermal mass."
+      },
+      {
+        "text": "The passage suggests that the UHI effect is greatest at night because:",
+        "options": [
+          "Solar radiation is absent at night, making albedo irrelevant",
+          "Urban materials store heat during the day and release it at night",
+          "Anthropogenic heat production is highest at night",
+          "Evapotranspiration ceases after sunset"
+        ],
+        "correct": 1,
+        "explanation": "The passage states that cities are warmest 'with the greatest divergence at night when urban materials release stored heat.' The mechanism is the high thermal mass of buildings and pavement — they store solar energy during daylight and release it slowly after sunset."
+      },
+      {
+        "text": "The author characterizes the equity dimensions of UHI as:",
+        "options": [
+          "The primary focus of urban climate policy",
+          "Unrelated to race and income",
+          "Often overlooked, with lower-income and minority communities bearing disproportionate heat exposure",
+          "Fully addressed by existing mitigation strategies"
+        ],
+        "correct": 2,
+        "explanation": "The passage opens the final paragraph by stating the equity dimensions 'are often overlooked' and that 'studies consistently find that race and income are associated with differential heat exposure within cities.' This characterizes the issue as neglected and inequitably distributed."
+      },
+      {
+        "text": "Which of the following mitigation strategies described in the passage works by the same mechanism as natural vegetation?",
+        "options": [
+          "Cool roofs with high albedo",
+          "White-painted streets",
+          "Green roofs and urban agriculture",
+          "Modified street canyon geometry"
+        ],
+        "correct": 2,
+        "explanation": "The passage identifies vegetation's cooling mechanism as evapotranspiration (and shading). Green roofs and urban agriculture restore these same mechanisms — they are vegetated surfaces. Cool roofs and white streets work by increased albedo. Street canyon geometry works by improving radiative cooling."
+      }
+    ]
+  },
+  {
+    "passageText": "The rise of social media platforms in the twenty-first century has prompted intense debate about their effects on democratic discourse and epistemic culture. Two related phenomena — echo chambers and filter bubbles — are frequently cited as mechanisms by which digital platforms degrade the quality of political information environments. Though often used interchangeably, the terms describe different processes. Echo chambers arise primarily from homophily and social dynamics: people tend to associate with, and selectively expose themselves to, those who share their views. Filter bubbles, by contrast, result from algorithmic personalization: recommendation and ranking systems trained to maximize engagement prioritize content predicted to interest individual users, incidentally creating personalized information environments.\n\nThe empirical evidence for these effects is more mixed than popular discourse suggests. Large-scale studies using platform data (Bakshy et al., 2015, on Facebook) found that, while algorithmic ranking did reduce cross-cutting content exposure, individual choice (selective exposure to friends and sources) had a larger effect. Other studies suggest that social media users may actually encounter more diverse viewpoints than those who rely on legacy media — because social networks include weak ties to people with different views. The most politically engaged users, however, do show strong echo chamber effects.\n\nSeparately from the polarization debate, platform architecture shapes the information environment in ways that may incentivize misinformation. Content that provokes strong emotional reactions (outrage, fear, moral condemnation) spreads more widely and rapidly than factually accurate but emotionally neutral content. Platforms that optimize for engagement therefore create structural incentives for misinformation — not because platforms or users intend it, but because the architecture rewards virality over accuracy.\n\nProposed remedies include algorithmic transparency requirements (forcing platforms to disclose how content is ranked), interoperability mandates (allowing users to communicate across platforms), and resurrecting the editorial responsibility model (treating platforms more like publishers, who bear legal responsibility for the content they amplify). Each proposal carries tradeoffs between free expression, innovation, privacy, and democratic function.",
+    "questions": [
+      {
+        "text": "According to the passage, the key distinction between echo chambers and filter bubbles is that:",
+        "options": [
+          "Echo chambers are caused by algorithms while filter bubbles result from human choices",
+          "Filter bubbles are caused by algorithms while echo chambers arise from social homophily and selective exposure",
+          "Echo chambers are more harmful to democracy than filter bubbles",
+          "Filter bubbles only affect political content while echo chambers affect all content"
+        ],
+        "correct": 1,
+        "explanation": "The passage directly states: 'Echo chambers arise primarily from homophily and social dynamics...Filter bubbles, by contrast, result from algorithmic personalization.' The passage explicitly corrects the common confusion, assigning algorithmic causation to filter bubbles and social causation to echo chambers."
+      },
+      {
+        "text": "The Bakshy et al. (2015) study is cited in the passage to support which conclusion?",
+        "options": [
+          "Algorithms are the primary cause of political polarization",
+          "Social media has no effect on information diversity",
+          "Individual selective exposure choices may have larger effects than algorithmic ranking on cross-cutting content",
+          "Filter bubbles are more damaging than echo chambers"
+        ],
+        "correct": 2,
+        "explanation": "The passage states the study 'found that, while algorithmic ranking did reduce cross-cutting content exposure, individual choice (selective exposure) had a larger effect.' This nuances the narrative that algorithms are the primary cause, pointing instead to user behavior."
+      },
+      {
+        "text": "According to the passage, platforms that optimize for engagement inadvertently incentivize misinformation because:",
+        "options": [
+          "Platform owners want to spread false information",
+          "Users cannot distinguish true from false content",
+          "Emotionally provocative content spreads faster than accurate but emotionally neutral content",
+          "Fact-checking algorithms are unreliable"
+        ],
+        "correct": 2,
+        "explanation": "The passage states: 'Content that provokes strong emotional reactions...spreads more widely and rapidly than factually accurate but emotionally neutral content. Platforms that optimize for engagement therefore create structural incentives for misinformation.' The key mechanism is virality rewarding emotional activation."
+      },
+      {
+        "text": "Which proposed remedy described in the passage would most directly address algorithmic transparency concerns?",
+        "options": [
+          "Interoperability mandates",
+          "The editorial responsibility model",
+          "Algorithmic transparency requirements forcing platforms to disclose ranking methods",
+          "Restricting user access to content outside their network"
+        ],
+        "correct": 2,
+        "explanation": "The passage describes 'algorithmic transparency requirements (forcing platforms to disclose how content is ranked)' as the remedy most directly targeting transparency. Interoperability addresses cross-platform communication; the editorial responsibility model addresses legal liability for amplified content."
+      }
+    ]
+  }
+]

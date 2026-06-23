@@ -1,411 +1,433 @@
 [
   {
-    "text": "Which statement about D-amino acids in biology is correct?",
+    "text": "In an autosomal dominant condition with 80% penetrance, a heterozygous individual has what probability of showing the phenotype?",
     "options": [
-      "D-amino acids are found in all collagen molecules",
-      "D-amino acids are toxic to all organisms",
-      "D-amino acids are found in bacterial peptidoglycan cell walls but not in typical mammalian proteins",
-      "D-amino acids are the normal configuration in all proteins"
-    ],
-    "correct": 2,
-    "explanation": "Most proteins contain exclusively L-amino acids. However, D-amino acids appear in bacterial peptidoglycan (D-Ala, D-Glu), conferring resistance to most proteases. Some antibiotics (vancomycin, penicillin) exploit this by targeting D-amino acid-containing structures. Small amounts of D-amino acids also exist in the mammalian brain (D-serine as a co-agonist of NMDA receptors).",
-    "tags": [
-      "amino acids",
-      "microbiology"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Arginine is the most basic standard amino acid. Which functional group in its side chain accounts for this?",
-    "options": [
-      "Epsilon-amino group (pKa ~10.5)",
-      "Guanidinium group (pKa ~12.5)",
-      "Imidazole ring (pKa ~6)",
-      "Secondary amine in a ring"
+      "100%",
+      "80%",
+      "50%",
+      "40%"
     ],
     "correct": 1,
-    "explanation": "Arginine's side chain contains a guanidinium group (–NH–C(=NH)–NH2), which is positively charged at essentially all physiological and experimental pH values (pKa ~12.5). This makes arginine the most basic amino acid. It participates in the urea cycle and forms salt bridges/electrostatic interactions with negatively charged residues and DNA phosphates.",
+    "explanation": "Penetrance is the proportion of individuals with a given genotype who express the associated phenotype. With 80% penetrance, 80% of heterozygous individuals (who carry the dominant allele) will manifest the condition. The remaining 20% carry the allele but are phenotypically unaffected ('non-penetrant'). This differs from expressivity, which describes the degree/severity of phenotypic expression among those who do show it. Examples of variable penetrance: BRCA1/2 mutations (high but not 100% penetrance for breast cancer), retinoblastoma, neurofibromatosis. Penetrance affects apparent inheritance patterns — reduced penetrance can cause autosomal dominant conditions to appear to 'skip' generations.",
     "tags": [
-      "amino acids",
-      "acid-base"
+      "genetics",
+      "penetrance",
+      "inheritance"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which lysosomal storage disease results from deficiency of glucocerebrosidase (acid β-glucosidase), and what accumulates?",
+    "options": [
+      "Tay-Sachs disease; GM2 ganglioside accumulates in neurons",
+      "Gaucher disease; glucocerebroside (glucosylceramide) accumulates in macrophages of the liver, spleen, and bone marrow",
+      "Niemann-Pick disease; sphingomyelin accumulates in lysosomes",
+      "Fabry disease; globotriaosylceramide accumulates in vascular endothelium"
+    ],
+    "correct": 1,
+    "explanation": "Gaucher disease (most common lysosomal storage disease): deficiency of glucocerebrosidase (GBA gene) → accumulation of glucosylceramide in macrophages → 'Gaucher cells' (lipid-laden macrophages with crinkled tissue-paper cytoplasm) in liver, spleen, and bone marrow. Findings: hepatosplenomegaly, pancytopenia (bone marrow infiltration), bone pain/fractures, osteonecrosis. Type 1 (non-neuronopathic): most common, especially in Ashkenazi Jews. Treatment: enzyme replacement therapy (imiglucerase) or substrate reduction therapy (miglustat). Tay-Sachs: hexosaminidase A deficiency → GM2 ganglioside in neurons. Niemann-Pick: sphingomyelinase deficiency. Fabry: α-galactosidase A deficiency.",
+    "tags": [
+      "biochemistry",
+      "lysosomal storage diseases",
+      "metabolism"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Which amino acid is least likely to be found in a transmembrane helix of an integral membrane protein?",
+    "text": "During clonal selection of B cells, somatic hypermutation occurs in which structure, and what is its purpose?",
     "options": [
-      "Leucine",
-      "Isoleucine",
-      "Lysine",
-      "Valine"
+      "In the bone marrow during VDJ recombination, to generate initial diversity",
+      "In the germinal center of secondary lymphoid organs, to introduce point mutations in immunoglobulin variable regions, enabling affinity maturation (selection for higher-affinity antibodies)",
+      "In the thymus, to diversify T cell receptors",
+      "In the spleen, to switch antibody isotype from IgM to IgG"
     ],
-    "correct": 2,
-    "explanation": "Transmembrane helices span the hydrophobic lipid bilayer and require predominantly hydrophobic residues (Leu, Val, Ile, Ala, Phe, Met). Lysine is positively charged and highly hydrophilic; burying it in the membrane bilayer is thermodynamically unfavorable. Charged residues found in transmembrane segments are usually involved in ion channel gating or proton transfer.",
+    "correct": 1,
+    "explanation": "After B cell activation by antigen + T helper cell help, B cells migrate into germinal centers (GCs) of lymph nodes/spleen. In GCs: (1) Somatic hypermutation (SHM) — AID (activation-induced cytidine deaminase) introduces point mutations throughout the variable regions of immunoglobulin genes at ~10^6× normal mutation rate; (2) Affinity maturation — B cells with higher-affinity BCRs receive survival signals from follicular dendritic cells (FDCs) presenting antigen; low-affinity clones undergo apoptosis; (3) Class switch recombination (CSR) — also AID-dependent, switches from IgM to IgG, IgA, or IgE. The result: memory B cells and plasma cells producing high-affinity antibodies of diverse isotypes.",
     "tags": [
-      "amino acids",
-      "membrane proteins"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Histidine, lysine, and arginine are basic amino acids. At physiological pH (7.4), which of these carries a net charge of approximately zero (uncharged side chain)?",
-    "options": [
-      "None; all three are fully protonated at pH 7.4",
-      "Arginine (pKa ~12.5)",
-      "Lysine (pKa ~10.5)",
-      "Histidine (pKa ~6.0, mostly deprotonated at pH 7.4)"
-    ],
-    "correct": 3,
-    "explanation": "At pH 7.4, histidine's imidazole (pKa ~6.0) is mostly deprotonated (neutral), since pH > pKa. By Henderson-Hasselbalch, at pH 7.4: ratio = 10^(7.4–6.0) = 25:1 unprotonated:protonated. Lysine and arginine have pKa values far above 7.4 and remain fully protonated (positively charged) at physiological pH.",
-    "tags": [
-      "amino acids",
-      "acid-base"
+      "immunology",
+      "B cells",
+      "adaptive immunity"
     ],
     "difficulty": "hard"
   },
   {
-    "text": "Which amino acid provides the nitrogen atoms used in urea cycle reactions?",
+    "text": "In the kidney, which segment of the nephron reabsorbs the majority of filtered glucose via sodium-glucose cotransporters (SGLTs)?",
     "options": [
-      "Glutamine and alanine",
-      "Histidine and arginine",
-      "Aspartate and ammonia (via carbamoyl phosphate)",
-      "Glycine and serine"
+      "Thin descending limb of the loop of Henle",
+      "Proximal convoluted tubule (PCT), via SGLT2 on the apical membrane coupled with GLUT2 on the basolateral side",
+      "Distal convoluted tubule (DCT)",
+      "Collecting duct"
     ],
-    "correct": 2,
-    "explanation": "The urea cycle incorporates two nitrogen atoms into urea: one from ammonia (as carbamoyl phosphate, made from NH4+ + CO2) and one from aspartate (which donates its amino group via argininosuccinate). Glutamine transports amino nitrogen from peripheral tissues to the liver as NH4+ and as aspartate precursors.",
+    "correct": 1,
+    "explanation": "Nearly all filtered glucose (~99.9%) is reabsorbed in the proximal tubule: ~90% in the S1/S2 segments by SGLT2 (low affinity, high capacity) and ~10% in S3 by SGLT1 (high affinity, low capacity). SGLT2 uses the Na+ electrochemical gradient (maintained by Na+/K+-ATPase on the basolateral membrane) to co-transport glucose against its concentration gradient into the cell; GLUT2 then facilitates glucose efflux into the interstitium. The renal threshold for glucose is ~180 mg/dL — above this, transport maximum (Tm) is exceeded and glucose spills into urine (glycosuria). SGLT2 inhibitors (empagliflozin, dapagliflozin) are used in T2DM to promote urinary glucose excretion, lowering blood glucose and providing cardiorenal benefits.",
     "tags": [
-      "amino acids",
-      "urea cycle",
-      "nitrogen metabolism"
+      "physiology",
+      "renal physiology",
+      "glucose transport"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which molecular mechanism explains the cooperative oxygen binding of hemoglobin?",
+    "options": [
+      "Each subunit of hemoglobin binds oxygen independently with the same affinity",
+      "Oxygen binding to one subunit induces a conformational change (T→R state transition) that increases oxygen affinity in the remaining subunits — a sigmoidal O2 dissociation curve results",
+      "Hemoglobin has only one oxygen binding site",
+      "Cooperative binding is due to allosteric inhibition by 2,3-BPG at all four subunits simultaneously"
+    ],
+    "correct": 1,
+    "explanation": "Hemoglobin (α2β2 tetramer) exhibits positive cooperativity due to conformational coupling between subunits. Deoxy-Hb is in the T (tense, low-affinity) state — stabilized by salt bridges and 2,3-BPG. Binding of O2 to one heme iron pulls the iron into the porphyrin plane → moves the proximal histidine → shifts the alpha-helix → disrupts T-state contacts → shifts equilibrium toward R (relaxed, high-affinity) state → remaining subunits bind O2 more easily. The result: sigmoidal O2 dissociation curve (vs. hyperbolic for myoglobin). Hill coefficient ~2.7 (theoretical max = 4). Modulators of O2 affinity: 2,3-BPG, CO2, H+, and temperature all stabilize T state (right shift = Bohr effect).",
+    "tags": [
+      "biochemistry",
+      "hemoglobin",
+      "physiology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient with a liver tumor has elevated serum AFP (alpha-fetoprotein). AFP is an example of:",
+    "options": [
+      "A tumor suppressor protein whose loss promotes cancer",
+      "A tumor marker — a fetal protein normally present during embryogenesis (synthesized by fetal liver and yolk sac) that is re-expressed in hepatocellular carcinoma and nonseminomatous germ cell tumors",
+      "A hormone secreted by the pituitary in response to liver disease",
+      "An immune checkpoint protein that inhibits T cell killing of tumor cells"
+    ],
+    "correct": 1,
+    "explanation": "AFP is normally produced by the fetal liver and yolk sac and is the major serum protein in the fetus (analogous to albumin in adults). AFP levels fall sharply after birth and are very low in adults. Re-expression of AFP indicates dedifferentiation (cancer cells reverting to fetal gene expression patterns). Elevated serum AFP is a marker for: hepatocellular carcinoma (HCC), yolk sac tumors (a type of nonseminomatous germ cell tumor), and some mixed germ cell tumors. AFP is also elevated in neural tube defects (elevated maternal serum AFP) and hepatitis. PSA is a prostate cancer marker; CEA for colon cancer; CA-125 for ovarian cancer; hCG for trophoblastic tumors and germ cell tumors.",
+    "tags": [
+      "biochemistry",
+      "cancer biology",
+      "tumor markers"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The enzyme ribonucleotide reductase (RNR) converts ribonucleotides to deoxyribonucleotides. Why is this enzyme a target for anticancer drugs?",
+    "options": [
+      "It is the rate-limiting step of RNA synthesis",
+      "RNR is essential for de novo deoxyribonucleotide synthesis required for DNA replication; inhibiting it selectively kills rapidly dividing cancer cells that depend on de novo synthesis rather than salvage pathways",
+      "It catalyzes the methylation of deoxycytidine to 5-methylcytosine",
+      "It activates nucleoside analogs by phosphorylation"
+    ],
+    "correct": 1,
+    "explanation": "RNR (class I in mammals) reduces ribonucleoside diphosphates (ADP, CDP, GDP, UDP) to the corresponding deoxyribonucleoside diphosphates using a tyrosyl radical and thioredoxin as electron donor. This is the only de novo pathway for dNTP synthesis, making it essential for S-phase DNA replication. Allosteric regulation: overall activity regulated by ATP/dATP; substrate specificity regulated by binding of specific dNTPs at the specificity site. Cancer cells proliferate rapidly and need large dNTP pools. Hydroxyurea inhibits RNR by quenching the tyrosyl radical — used in CML, sickle cell disease (increases HbF), and myeloproliferative disorders. Gemcitabine (also inhibits RNR after incorporation) is used in pancreatic cancer.",
+    "tags": [
+      "biochemistry",
+      "nucleotide metabolism",
+      "pharmacology",
+      "cancer"
     ],
     "difficulty": "hard"
   },
   {
-    "text": "A peptide bond is formed by:",
+    "text": "Which of the following correctly describes the function of MHC class II molecules?",
     "options": [
-      "Reduction of a disulfide bond between two cysteines",
-      "Oxidation of two adjacent amino acid side chains",
-      "Condensation of the alpha-carboxyl group of one amino acid with the alpha-amino group of the next, releasing water",
-      "Phosphorylation of the alpha-amino group"
-    ],
-    "correct": 2,
-    "explanation": "Peptide bond formation is a condensation (dehydration) reaction: the alpha-COOH of one amino acid reacts with the alpha-NH2 of the next, releasing H2O and forming an amide bond (–CO–NH–). This occurs at the ribosome during translation. The peptide bond has partial double bond character due to resonance, making it planar and restricting rotation.",
-    "tags": [
-      "amino acids",
-      "protein structure"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Selenocysteine is sometimes called the 21st amino acid. It is encoded by which codon?",
-    "options": [
-      "UGA (normally a stop codon, recoded in context)",
-      "AUG",
-      "UAA",
-      "CGG"
-    ],
-    "correct": 0,
-    "explanation": "Selenocysteine is incorporated at UGA codons when a special stem-loop structure (SECIS element) is present in the mRNA 3' UTR. Normally UGA is a stop codon, but SECIS causes the ribosome to insert selenocysteine instead. Selenoproteins include thioredoxin reductase and glutathione peroxidase. Dietary selenium is essential for their synthesis.",
-    "tags": [
-      "amino acids",
-      "translation",
-      "molecular biology"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Which pair of amino acids is important for forming salt bridges in proteins?",
-    "options": [
-      "Leucine and valine",
-      "Aspartate/glutamate (negative) with lysine/arginine/histidine (positive)",
-      "Serine and threonine",
-      "Glycine and alanine"
+      "MHC II presents endogenous (intracellular) peptides to CD8+ T cells on all nucleated cells",
+      "MHC II presents exogenous peptides (from extracellular proteins degraded in endosomes/lysosomes) to CD4+ T helper cells; expression is restricted to professional antigen-presenting cells (dendritic cells, macrophages, B cells)",
+      "MHC II presents lipid antigens via CD1 molecules to NKT cells",
+      "MHC II is expressed on all cells and presents viral peptides during active infection"
     ],
     "correct": 1,
-    "explanation": "Salt bridges form between oppositely charged side chains: anionic residues (Asp pKa ~3.9, Glu pKa ~4.1) pair with cationic residues (Lys pKa ~10.5, Arg pKa ~12.5, His pKa ~6.0). Salt bridges contribute to protein stability, especially in thermophilic proteins, and to protein-protein and protein-DNA interactions.",
+    "explanation": "MHC class II pathway: professional APCs (dendritic cells, macrophages, B cells) engulf extracellular proteins → endosome → lysosomal proteases degrade protein → peptides (13-25 aa) loaded onto MHC II (replacing CLIP via HLA-DM) → MHC II-peptide complex displayed on surface → CD4+ T helper cells recognize this complex (their TCR + CD4 co-receptor binds MHC II). Activated Th cells then help B cells (antibody production) or macrophages (cytotoxicity). MHC I presents endogenous peptides (8-10 aa, from proteasome → TAP → ER) to CD8+ CTLs on all nucleated cells. CD1 presents lipid antigens to NKT cells.",
     "tags": [
-      "amino acids",
-      "protein structure"
+      "immunology",
+      "MHC",
+      "antigen presentation"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Which level of protein structure is maintained by hydrogen bonds between backbone carbonyl and amide groups?",
+    "text": "In the context of the blood-brain barrier (BBB), which statement best explains why most small molecule drugs can cross the BBB while most large molecules cannot?",
     "options": [
-      "Secondary structure (alpha-helices and beta-sheets)",
-      "Quaternary structure",
-      "Tertiary structure",
-      "Primary structure"
-    ],
-    "correct": 0,
-    "explanation": "Secondary structure (alpha-helices, beta-sheets, turns) is stabilized by H-bonds between backbone C=O and N–H groups, not side chains. Primary structure is the amino acid sequence (covalent). Tertiary structure involves side chain interactions. Quaternary structure involves interactions between subunits.",
-    "tags": [
-      "protein structure"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "In an alpha-helix, each residue forms a hydrogen bond with the residue how many positions later?",
-    "options": [
-      "4 positions (i+4)",
-      "2 positions (i+2)",
-      "3 positions (i+3)",
-      "7 positions (i+7)"
-    ],
-    "correct": 0,
-    "explanation": "In an alpha-helix, the N–H of residue i hydrogen bonds to the C=O of residue i+4. The helix has 3.6 residues per turn and a rise of 1.5 Å per residue (5.4 Å per turn). This geometry and the i→i+4 hydrogen bonding pattern define the alpha-helix.",
-    "tags": [
-      "protein structure",
-      "alpha-helix"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The dominant thermodynamic driving force for protein folding in aqueous solution is:",
-    "options": [
-      "Maximizing the number of hydrogen bonds",
-      "Maximizing ionic interactions",
-      "The hydrophobic effect — burying nonpolar side chains away from water",
-      "Formation of disulfide bonds"
-    ],
-    "correct": 2,
-    "explanation": "The hydrophobic effect drives folding: exposing nonpolar residues to water is entropically costly (water forms ordered cage around them). Burying them in the protein core releases water, increasing entropy. This is the dominant force, though hydrogen bonds, electrostatic interactions, and van der Waals forces also contribute.",
-    "tags": [
-      "protein structure",
-      "folding",
-      "thermodynamics"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Hemoglobin (alpha2beta2) exhibits cooperative O2 binding. This means:",
-    "options": [
-      "O2 binds to only one subunit at a time",
-      "All four subunits bind O2 simultaneously with equal affinity",
-      "Binding of O2 to one subunit increases O2 affinity in remaining subunits",
-      "Cooperativity decreases O2 binding at high PO2"
-    ],
-    "correct": 2,
-    "explanation": "Hemoglobin's cooperative binding produces a sigmoidal O2 saturation curve. O2 binding to one heme group causes a conformational change from T-state (tense, low affinity) to R-state (relaxed, high affinity), increasing affinity of the remaining hemes. This allows efficient O2 loading in lungs (high PO2) and unloading in tissues (low PO2).",
-    "tags": [
-      "protein structure",
-      "hemoglobin",
-      "cooperativity"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The Bohr effect describes how hemoglobin O2 affinity changes with:",
-    "options": [
-      "Increasing pH and decreasing CO2",
-      "2,3-BPG binding to the T-state",
-      "Temperature changes only",
-      "Decreasing pH and increasing CO2 (lower affinity, promotes O2 release to tissues)"
-    ],
-    "correct": 3,
-    "explanation": "CO2 from metabolizing tissues lowers blood pH (H2CO3 formation) and also carbamylates hemoglobin. Both H+ and CO2 stabilize the T-state (lower O2 affinity), promoting O2 unloading. In lungs, CO2 is expelled and pH rises, shifting to R-state for O2 loading. This is an exquisite physiological adaptation.",
-    "tags": [
-      "protein structure",
-      "hemoglobin",
-      "Bohr effect"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "2,3-bisphosphoglycerate (2,3-BPG) binds to hemoglobin and:",
-    "options": [
-      "Increases O2 affinity (left shift)",
-      "Stabilizes the T-state, decreasing O2 affinity and shifting the curve rightward",
-      "Has no effect on O2 binding",
-      "Is produced only in the lungs"
+      "Large molecules are actively transported out of the CNS by ABC transporters only",
+      "The BBB consists of brain capillary endothelial cells joined by tight junctions. Passage depends primarily on lipophilicity and molecular size: small, lipophilic, uncharged molecules diffuse passively; large or polar molecules require specific transporters. Most large biologics (antibodies, proteins) cannot cross.",
+      "The BBB selectively allows all nutrients to pass but blocks all drugs regardless of size",
+      "Water-soluble molecules cross the BBB faster than lipid-soluble molecules"
     ],
     "correct": 1,
-    "explanation": "2,3-BPG binds in the central cavity of deoxyhemoglobin (T-state), stabilizing it and decreasing O2 affinity (right shift of the O2-dissociation curve). High altitude → hypoxia → increased 2,3-BPG → more efficient O2 unloading. Fetal hemoglobin (HbF, gamma subunits) has lower affinity for 2,3-BPG, giving it higher O2 affinity to extract O2 from maternal blood.",
+    "explanation": "The BBB is formed by: tight junctions (claudins, occludins) between brain capillary endothelial cells (eliminating paracellular transport), pericytes, and astrocyte end-feet. Key crossing determinants: (1) Lipophilicity — lipophilic drugs partition into cell membranes and diffuse transcellularly; (2) Molecular weight — ideally <500 Da (Lipinski's rule of five); (3) Efflux transporters — P-glycoprotein (ABCB1) and BCRP pump many drugs back out; (4) Specific carriers — GLUT1 for glucose, LAT1 for large neutral amino acids. Large biologics (mAbs, proteins) cannot cross without modifications (e.g., receptor-mediated transcytosis strategies). This explains why CNS drug development is particularly challenging.",
     "tags": [
-      "protein structure",
-      "hemoglobin",
-      "2,3-BPG"
+      "physiology",
+      "pharmacology",
+      "blood-brain barrier",
+      "neuroscience"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "SDS-PAGE separates proteins primarily based on:",
+    "text": "During fasting, the liver produces ketone bodies. Which enzyme catalyzes the rate-limiting step of ketogenesis, and in which organelle does ketogenesis occur?",
     "options": [
-      "Molecular weight",
-      "Hydrophobicity",
-      "Isoelectric point",
-      "Ligand-binding affinity"
-    ],
-    "correct": 0,
-    "explanation": "SDS (sodium dodecyl sulfate) denatures proteins and coats them with negative charge proportional to their size. When run through an acrylamide gel under electric field, all proteins migrate based on size alone (smaller migrates faster). The resulting bands can be stained to reveal molecular weight distribution.",
-    "tags": [
-      "protein structure",
-      "lab techniques"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Which statement about enzyme active sites is correct?",
-    "options": [
-      "Active sites are randomly distributed on the protein surface",
-      "Active sites are small pockets or clefts that are complementary in shape and charge to the substrate",
-      "Active sites are always composed of hydrophobic residues only",
-      "Active sites only function when the substrate is in excess"
+      "Acetyl-CoA carboxylase in the cytoplasm",
+      "HMG-CoA synthase in the mitochondrial matrix; ketogenesis occurs entirely in the mitochondria of hepatocytes",
+      "HMG-CoA reductase in the smooth ER",
+      "Beta-hydroxybutyrate dehydrogenase in the cytoplasm"
     ],
     "correct": 1,
-    "explanation": "Enzyme active sites are specific three-dimensional pockets with precise geometries, charge distributions, and hydrophobic/hydrophilic properties complementary to the transition state (and substrate). They are formed by residues from different parts of the primary sequence that come together in the folded protein. The induced fit model proposes that substrates cause conformational changes to optimize complementarity.",
+    "explanation": "Ketogenesis occurs in the liver mitochondrial matrix (hepatocytes have high β-oxidation activity, producing excess acetyl-CoA that exceeds TCA cycle capacity when oxaloacetate is low during fasting). Steps: 2 acetyl-CoA → acetoacetyl-CoA (thiolase) → HMG-CoA (HMG-CoA synthase, rate-limiting) → acetoacetate + acetyl-CoA (HMG-CoA lyase) → β-hydroxybutyrate (β-HB dehydrogenase, reduced form exported predominantly). Ketone bodies (acetoacetate, β-hydroxybutyrate, acetone) are exported to blood and oxidized in extrahepatic tissues (brain, muscle, heart) — liver lacks succinyl-CoA transferase (thiophorase) needed to activate them. DKA occurs when insulin deficiency causes uncontrolled ketogenesis.",
     "tags": [
-      "protein structure",
-      "enzyme function"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Chaperone proteins (e.g., Hsp70, GroEL) assist in protein folding by:",
-    "options": [
-      "Degrading misfolded proteins exclusively",
-      "Catalyzing disulfide bond formation",
-      "Directly specifying the final folded structure",
-      "Preventing premature/incorrect aggregation by transiently binding exposed hydrophobic regions"
-    ],
-    "correct": 3,
-    "explanation": "Molecular chaperones bind to exposed hydrophobic regions of nascent or unfolded polypeptides, preventing aggregation and providing a protected environment for folding. ATP hydrolysis drives cycles of binding and release, giving the protein repeated chances to fold correctly. Chaperones do not specify the final folded structure — that information is in the primary sequence (Anfinsen's principle).",
-    "tags": [
-      "protein structure",
-      "chaperones",
-      "folding"
+      "biochemistry",
+      "ketone body metabolism",
+      "fasting physiology"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "The proteasome degrades proteins that are tagged with:",
+    "text": "Which of the following is the correct mechanism of action of aminoglycoside antibiotics (e.g., gentamicin, streptomycin)?",
     "options": [
-      "Acetyl groups",
-      "Phosphate groups",
-      "Ubiquitin chains (polyubiquitination)",
-      "Glycosyl groups"
+      "They inhibit bacterial cell wall synthesis by blocking transpeptidase",
+      "They bind the 30S ribosomal subunit, causing misreading of mRNA codons (mistranslation) and blocking translocation, inhibiting bacterial protein synthesis",
+      "They inhibit bacterial DNA gyrase and topoisomerase IV",
+      "They intercalate into bacterial DNA and prevent transcription"
     ],
-    "correct": 2,
-    "explanation": "The ubiquitin-proteasome system (UPS) marks proteins for degradation: ubiquitin ligases attach ubiquitin chains (usually K48-linked polyubiquitin) to target proteins. The 26S proteasome recognizes polyubiquitin, unfolds the protein, and degrades it into short peptides. This is the main pathway for regulated protein degradation in eukaryotes.",
+    "correct": 1,
+    "explanation": "Aminoglycosides are bactericidal antibiotics that: (1) Enter bacteria via oxygen-dependent uptake (ineffective against anaerobes); (2) Bind the 16S rRNA of the 30S ribosomal subunit, stabilizing the ribosome in a 'ram' (ribosomal ambiguity) state → misreading of mRNA codons → incorporation of wrong amino acids; (3) Also block translocation, trapping the ribosome on mRNA. Mistranslated proteins insert into the cell membrane, increasing permeability → more drug enters → irreversible, concentration-dependent bactericidal effect. Resistance: enzymatic inactivation (acetyltransferases, nucleotidyltransferases, phosphotransferases), reduced uptake, 16S rRNA methylation. Toxicities: nephrotoxicity and ototoxicity (vestibular and cochlear).",
     "tags": [
-      "protein structure",
-      "ubiquitin-proteasome",
-      "protein degradation"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which immunoglobulin class is most abundant in serum and crosses the placenta?",
-    "options": [
-      "IgA",
-      "IgM",
-      "IgG",
-      "IgE"
-    ],
-    "correct": 2,
-    "explanation": "IgG is the most abundant immunoglobulin (~80% of serum Ig) and the only class that crosses the placenta (via FcRn receptors), providing passive immunity to the fetus and newborn for the first months of life. IgM is produced first in an immune response (pentamer, good at complement activation). IgA is the main Ig in mucosal secretions. IgE mediates allergic responses and anti-parasite immunity.",
-    "tags": [
-      "protein structure",
-      "immunology"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Beta-lactam antibiotics (penicillins, cephalosporins) work by:",
-    "options": [
-      "Blocking dihydrofolate reductase",
-      "Inhibiting the bacterial 50S ribosomal subunit",
-      "Disrupting bacterial cell membranes",
-      "Irreversibly inhibiting transpeptidase (PBP) enzymes that crosslink peptidoglycan in bacterial cell walls"
-    ],
-    "correct": 3,
-    "explanation": "Beta-lactam antibiotics mimic the D-Ala-D-Ala terminus of peptidoglycan precursors and covalently acylate penicillin-binding proteins (PBPs = transpeptidases), blocking crosslinking of peptidoglycan strands. This weakens the cell wall, causing lysis. Bacteria acquire resistance via beta-lactamases (hydrolyze the beta-lactam ring) or altered PBPs (MRSA).",
-    "tags": [
-      "protein structure",
+      "pharmacology",
       "antibiotics",
       "microbiology"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Collagen is unusually stable because of its unique triple helix structure. What amino acid is essential at every third position in collagen?",
+    "text": "In flow cytometry, forward scatter (FSC) and side scatter (SSC) are used to characterize cells. What do these measurements indicate?",
     "options": [
-      "Hydroxyproline",
-      "Glycine",
-      "Alanine",
-      "Proline"
+      "FSC measures cell fluorescence intensity; SSC measures cell size",
+      "FSC correlates with cell size/volume; SSC correlates with internal complexity/granularity (organelles, nuclear structure)",
+      "Both FSC and SSC measure DNA content for cell cycle analysis",
+      "FSC measures cell viability; SSC measures membrane integrity"
     ],
     "correct": 1,
-    "explanation": "Collagen has the repeating sequence Gly-X-Y, where Gly at every third position is absolutely required. The triple helix packs three chains tightly, and only glycine (the smallest amino acid, R = H) can fit in the central space of the triple helix without steric clash. Mutations substituting even one Gly cause osteogenesis imperfecta.",
+    "explanation": "Flow cytometry scatter parameters: Forward scatter (FSC) is light scattered at small angles (~2-10°) in the direction of the laser beam — proportional to cell size/volume (larger cells scatter more light forward). Side scatter (SSC) is light scattered at 90° — proportional to internal complexity, granularity, and membrane roughness (cells with more granules, organelles, or nuclear lobulations scatter more light sideways). Classic example: a FSC vs. SSC dot plot of blood distinguishes lymphocytes (small, low FSC; agranular, low SSC), monocytes (medium FSC, medium SSC), and granulocytes (large FSC, high SSC). Fluorescent antibodies (detected in specific channels) identify specific surface markers (CD4, CD8, etc.).",
     "tags": [
-      "protein structure",
-      "collagen"
+      "cell biology",
+      "laboratory techniques",
+      "flow cytometry"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Sickle cell anemia results from which mutation in hemoglobin?",
+    "text": "A patient presents with jaundice and pale stools. Laboratory results show elevated direct (conjugated) bilirubin with normal indirect (unconjugated) bilirubin. This pattern is most consistent with:",
     "options": [
-      "A deletion in the alpha-globin gene",
-      "Val→Glu substitution at position 6 of the beta-globin chain (HbS: glutamic acid replaced by valine)",
-      "Incorrect disulfide bond formation",
-      "Phosphorylation of histidine in the active site"
+      "Pre-hepatic (hemolytic) jaundice due to massive RBC destruction",
+      "Post-hepatic (obstructive) jaundice — bile duct obstruction prevents conjugated bilirubin from entering the duodenum; it regurgitates into blood. Pale stools result from absent urobilinogen",
+      "Neonatal jaundice due to immature hepatic UGT1A1",
+      "Gilbert syndrome due to mildly reduced UGT1A1 activity"
     ],
     "correct": 1,
-    "explanation": "HbS has a single nucleotide change (GAG→GTG) causing substitution of hydrophilic Glu with hydrophobic Val at position 6 of beta-globin. In the deoxy (T) state, this Val fits into a hydrophobic pocket on an adjacent beta-chain, causing polymerization. These long fibers distort RBCs into sickle shapes, causing hemolysis, vaso-occlusion, and pain crises. HbS provides heterozygote protection against malaria.",
+    "explanation": "Bilirubin metabolism: unconjugated bilirubin (indirect) → liver → conjugated to glucuronate by UGT1A1 → conjugated bilirubin (direct) → bile → duodenum → urobilinogen → stool (stercobilin = brown color) / urine (urobilin). Pre-hepatic: ↑indirect (excess production exceeds conjugation); hemolytic anemia, neonatal jaundice. Hepatic: ↑both (mixed); hepatitis, cirrhosis, Gilbert (↑indirect only). Post-hepatic: ↑direct (conjugated bilirubin regurgitates because bile duct is obstructed); gallstones (choledocholithiasis), pancreatic head cancer, cholangiocarcinoma. Pale/clay stools = no bile reaching intestine. Dark urine = conjugated bilirubin in urine (water-soluble). Pruritus from bile salts.",
     "tags": [
-      "protein structure",
-      "hemoglobin",
-      "genetic disease"
+      "biochemistry",
+      "physiology",
+      "liver",
+      "bilirubin"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Antibody diversity is primarily generated by which mechanism?",
+    "text": "The lac operon's promoter has two regulatory regions: the operator and the CAP binding site. Which combination results in maximal transcription of the lac operon?",
     "options": [
-      "Alternative splicing only",
-      "V(D)J recombination — somatic recombination of variable, diversity, and joining gene segments",
-      "Copy number variation in the germ line",
-      "Point mutations in germ cells"
+      "High glucose AND lactose present",
+      "Low glucose AND lactose present — low glucose raises cAMP activating CAP, and lactose removes the repressor",
+      "Low glucose AND NO lactose present",
+      "High glucose AND NO lactose present"
     ],
     "correct": 1,
-    "explanation": "V(D)J recombination randomly joins one V, D, and J segment (heavy chain) or V and J segments (light chain) in developing B cells, creating enormous receptor diversity (~10^11 combinations). Additional diversity comes from junctional imprecision (P and N nucleotide addition) and somatic hypermutation (after antigen exposure). This process underlies the ability to recognize virtually any antigen.",
+    "explanation": "Maximal lac operon transcription requires both control mechanisms to favor transcription simultaneously: (1) Negative control OFF — lactose (as allolactose) must be present to inactivate the lac repressor, allowing RNA pol access to the promoter; (2) Positive control ON — glucose must be absent/low so adenylyl cyclase produces cAMP, which binds CAP (catabolite activator protein), and the CAP-cAMP complex binds upstream of the promoter, enhancing RNA pol recruitment ~50-fold. E. coli prefers glucose; when glucose is absent and lactose is available, the cell maximally expresses lac genes to use lactose as an alternative energy source. If glucose is present (even with lactose), CAP is inactive → weak transcription despite repressor removal.",
     "tags": [
-      "protein structure",
-      "immunology",
-      "molecular biology"
+      "molecular biology",
+      "gene regulation",
+      "lac operon"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A protein has a pI of 8.0. In a solution at pH 7.0, the protein carries a net:",
+    "options": [
+      "Negative charge, and migrates toward the cathode in electrophoresis",
+      "Positive charge, and migrates toward the anode (negative electrode) in electrophoresis",
+      "No charge; it is at its isoelectric point",
+      "Positive charge, and migrates toward the cathode (negative electrode) — but wait, toward the positive electrode (anode)"
+    ],
+    "correct": 1,
+    "explanation": "At pH below its pI, a protein is net positively charged (more protonated). At pH above its pI, it is net negatively charged. Here, pH 7.0 < pI 8.0, so the protein carries a net positive charge. In gel electrophoresis at pH 7.0, positively charged proteins migrate toward the cathode (negative electrode) — but in standard SDS-PAGE, SDS masks all charges. In native gel electrophoresis or isoelectric focusing, the protein at pH 7.0 < pI 8.0 would carry positive charge and migrate toward the negative electrode (cathode). The correct answer: net positive charge. In gel electrophoresis toward the anode (positive) is incorrect — positively charged molecules move toward the negative electrode (cathode). So the answer is: positive charge, migrates toward the cathode.",
+    "tags": [
+      "biochemistry",
+      "protein chemistry",
+      "isoelectric point"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following best explains why cancer cells frequently upregulate aerobic glycolysis (Warburg effect) even in the presence of oxygen?",
+    "options": [
+      "Cancer cells lack functional mitochondria and cannot perform oxidative phosphorylation",
+      "Aerobic glycolysis provides biosynthetic precursors (ribose-5-phosphate, NADPH, amino acid precursors, lipid building blocks) for rapid cell growth; the rapid (though less efficient) ATP production also supports proliferating cells",
+      "Aerobic glycolysis generates more ATP per glucose molecule than oxidative phosphorylation",
+      "Glycolysis is less efficient but cancer cells have unlimited glucose supply"
+    ],
+    "correct": 1,
+    "explanation": "The Warburg effect (aerobic glycolysis) occurs in most proliferating cancer cells: even with oxygen, they preferentially convert glucose to lactate. Key reasons: (1) Biosynthetic advantage — glycolytic intermediates (G6P → pentose phosphate pathway for nucleotides; pyruvate/acetyl-CoA for fatty acids/amino acids; DHAP for glycerol) are needed for building new cells; (2) Rapid ATP — despite lower yield (~2 vs. ~30 ATP/glucose), glycolysis is ~100× faster than OXPHOS; (3) NADPH production via PPP for biosynthesis and antioxidant defense; (4) Acidic tumor microenvironment from lactate secretion suppresses immune cells. Mutations in metabolic enzymes (IDH1/2) and Myc/HIF-1α transcription factors promote the Warburg effect. PET scans exploit high glucose uptake in tumors ([18F]-FDG).",
+    "tags": [
+      "biochemistry",
+      "cancer biology",
+      "metabolism",
+      "Warburg effect"
     ],
     "difficulty": "hard"
   },
   {
-    "text": "The Michaelis constant (Km) reflects:",
+    "text": "Which statement correctly describes the function of tight junctions in epithelial cells?",
     "options": [
-      "The number of active sites per enzyme molecule",
-      "Maximum reaction velocity",
-      "The concentration of product that inhibits the enzyme",
-      "Substrate concentration at which v = Vmax/2; inversely related to enzyme-substrate affinity"
+      "Tight junctions provide mechanical strength by linking the cytoskeletons of adjacent cells via cadherins",
+      "Tight junctions form a paracellular seal between adjacent epithelial cells, preventing passive diffusion of molecules and ions between cells, and creating distinct apical and basolateral membrane domains (cell polarity)",
+      "Tight junctions facilitate communication between adjacent cells via gap junctions",
+      "Tight junctions attach epithelial cells to the basement membrane"
     ],
-    "correct": 3,
-    "explanation": "Km is the substrate concentration at half-maximal velocity. Low Km → enzyme reaches half-saturation at low [S] → high affinity. High Km → enzyme needs more substrate to half-saturate → low affinity. Numerically, Km ≈ (k-1 + k2)/k1 for simple Michaelis-Menten kinetics.",
+    "correct": 1,
+    "explanation": "Tight junctions (zonula occludens) are the most apical of the junctional complex. They consist of transmembrane proteins (claudins, occludins, JAM) that form 'kissing' contacts between adjacent cells, creating: (1) A paracellular barrier — prevents free movement of ions and molecules between epithelial cells (the 'gate' function); tightness varies by tissue (kidney proximal tubule = 'leaky'; bladder = 'tight'); (2) A fence function — maintains membrane polarity by preventing mixing of apical and basolateral lipid/protein domains. Desmosomes (cadherins + intermediate filaments) provide mechanical strength. Gap junctions (connexins) allow cytoplasmic communication. Hemidesmosomes/focal adhesions connect cells to basement membrane.",
     "tags": [
-      "enzyme kinetics"
+      "cell biology",
+      "epithelial junctions",
+      "membrane biology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A researcher finds that a drug inhibits the enzyme thymidylate synthase. What is the expected downstream effect of this inhibition?",
+    "options": [
+      "Impaired synthesis of ATP and GTP due to reduced purine nucleotide production",
+      "Impaired DNA synthesis due to depletion of dTMP (thymidylate) — cells cannot form the thymidine triphosphate (dTTP) needed to replicate DNA; uracil is misincorporated instead",
+      "Impaired RNA synthesis due to reduced UMP availability",
+      "Increased methylation of DNA"
+    ],
+    "correct": 1,
+    "explanation": "Thymidylate synthase (TS) catalyzes: dUMP + methyleneTHF → dTMP + DHF. This is the only de novo source of dTMP (thymidylate), which is phosphorylated to dTDP → dTTP for DNA synthesis. TS inhibition → dTTP depletion → inability to replicate DNA (thymineless death). The methylene-THF is oxidized to DHF → DHFR must regenerate it to THF. 5-fluorouracil (5-FU) works by being converted to 5-fluoro-dUMP (FdUMP), a potent irreversible TS inhibitor (suicide inhibition, with methyleneTHF stabilizing the covalent ternary complex). Methotrexate inhibits DHFR, also depleting THF and thus blocking TS indirectly. Both are used in cancer chemotherapy. Leucovorin (folinic acid) is the antidote used to rescue normal cells.",
+    "tags": [
+      "biochemistry",
+      "nucleotide synthesis",
+      "pharmacology"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The SH2 domain found in many signaling proteins binds specifically to:",
+    "options": [
+      "SH3 domains on other signaling proteins",
+      "Phosphorylated tyrosine residues (pTyr) on activated receptor tyrosine kinases and adaptor proteins",
+      "GTP-bound Ras family small G proteins",
+      "Lipid second messengers like PIP3"
+    ],
+    "correct": 1,
+    "explanation": "SH2 (Src homology 2) domains are ~100-residue modular protein domains that specifically recognize phosphorylated tyrosine (pTyr) residues in the context of specific surrounding amino acids. This specificity enables the assembly of signaling complexes downstream of receptor tyrosine kinases (RTKs). When an RTK (e.g., EGFR, PDGFR) autophosphorylates its tyrosine residues, SH2-containing proteins (Grb2, PI3K p85, PLCγ, SHP2, Src) dock at specific pTyr sites → activating distinct downstream pathways. SH3 domains bind proline-rich PXXP motifs. PH domains bind PIP3 and other phosphoinositides. WD40, RING, and BRCT domains have other functions. The SH2-pTyr interaction is the molecular basis for RTK signal specificity.",
+    "tags": [
+      "cell biology",
+      "signal transduction",
+      "molecular biology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following correctly describes the role of the endoplasmic reticulum (ER) stress response (unfolded protein response, UPR)?",
+    "options": [
+      "ER stress response is activated by nutrient excess and promotes anabolism",
+      "The UPR is triggered when misfolded proteins accumulate in the ER lumen; sensors (IRE1, PERK, ATF6) activate downstream pathways to: reduce new protein translation, upregulate ER chaperones (BiP/GRP78), and if unresolved, trigger apoptosis",
+      "The UPR exports misfolded proteins to the Golgi for degradation",
+      "ER stress activates the proteasome pathway in the cytoplasm directly"
+    ],
+    "correct": 1,
+    "explanation": "The UPR (unfolded protein response) is activated when ER chaperone BiP/GRP78 is titrated away by unfolded proteins, freeing three ER transmembrane sensors: (1) PERK (eIF2α kinase): globally reduces translation, activates ATF4 for stress-gene transcription; (2) IRE1 (endoribonuclease): splices XBP1 mRNA → active XBP1s transcription factor → upregulates ERAD (ER-associated degradation) and chaperones; (3) ATF6 (transcription factor): cleaved in Golgi → upregulates UPR target genes. If unresolved, sustained UPR promotes apoptosis via CHOP. ERAD retrotranslocates misfolded proteins to the cytoplasm for proteasomal degradation. UPR is relevant in multiple myeloma (high Ig production stress), diabetes (β-cell failure), and neurodegeneration.",
+    "tags": [
+      "cell biology",
+      "protein quality control",
+      "ER stress"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In which phase of the cell cycle does DNA synthesis occur, and what kinase complex drives the G1/S transition?",
+    "options": [
+      "G2 phase; CDK1-Cyclin B drives G1/S",
+      "S phase; Cyclin E-CDK2 drives the G1/S transition by phosphorylating Rb (retinoblastoma protein), releasing E2F transcription factors to activate S-phase genes",
+      "M phase; CDK4-Cyclin D drives S phase entry",
+      "G1 phase; CDK2-Cyclin A promotes DNA replication"
+    ],
+    "correct": 1,
+    "explanation": "Cell cycle: G1 (growth) → S (DNA synthesis) → G2 (growth/repair) → M (mitosis). The G1/S restriction point is controlled by: (1) CDK4/6-Cyclin D (induced by mitogens): phosphorylates Rb → partial E2F release; (2) CDK2-Cyclin E: further phosphorylates Rb → hyperphosphorylation → complete E2F release → transcription of S-phase genes (DNA polymerases, thymidylate synthase, PCNA). CDK inhibitors (p21, p27, p16/INK4a) halt this process. CDK1-Cyclin B ('MPF') drives G2/M. CDK2-Cyclin A drives S phase progression and DNA replication. Rb is a classic tumor suppressor — lost in retinoblastoma and many cancers; p16 loss also bypasses the G1/S checkpoint.",
+    "tags": [
+      "cell biology",
+      "cell cycle",
+      "cancer biology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A mutation in the CFTR gene results in misfolding of the protein and its retention in the ER, where it is degraded by ERAD. This is the mechanism underlying which disease?",
+    "options": [
+      "Marfan syndrome",
+      "Cystic fibrosis (CF) — the most common CF mutation ΔF508 causes CFTR misfolding and ER retention; only a small amount of functional CFTR reaches the apical membrane of epithelial cells",
+      "Alpha-1 antitrypsin deficiency",
+      "Phenylketonuria"
+    ],
+    "correct": 1,
+    "explanation": "CFTR is a cAMP-regulated chloride channel on the apical membrane of epithelial cells (airways, pancreatic ducts, sweat glands, intestine, vas deferens). ΔF508 (deletion of phenylalanine at position 508) is the most common CF mutation (~70% of CF alleles): it causes temperature-sensitive misfolding → BiP retention in ER → ERAD degradation → no CFTR at cell surface → no Cl⁻ secretion → thick, viscous mucus in lungs (chronic infection, bronchiectasis), pancreatic insufficiency, meconium ileus, male infertility. CFTR modulators: ivacaftor (potentiator, opens the gate); lumacaftor/tezacaftor (correctors, help ΔF508-CFTR reach the membrane); trikafta (elexacaftor+tezacaftor+ivacaftor) — highly effective triple therapy.",
+    "tags": [
+      "cell biology",
+      "genetics",
+      "protein trafficking",
+      "cystic fibrosis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Steroid hormones exert their effects primarily through which molecular mechanism?",
+    "options": [
+      "Binding to G protein-coupled receptors on the plasma membrane, activating cAMP signaling",
+      "Diffusing through the plasma membrane and binding intracellular (nuclear) receptors that act as ligand-activated transcription factors, directly regulating gene expression",
+      "Binding to receptor tyrosine kinases on the cell surface",
+      "Activating ion channels on the plasma membrane directly"
+    ],
+    "correct": 1,
+    "explanation": "Steroid hormones (cortisol, estrogen, testosterone, progesterone, aldosterone, vitamin D, thyroid hormone) are lipid-soluble and diffuse through the plasma membrane. They bind intracellular nuclear receptors (NRs), which are ligand-activated transcription factors. Mechanism: unbound NRs are often in the cytoplasm complexed with heat shock proteins (HSPs). Hormone binding causes HSP dissociation → receptor dimerization → nuclear translocation → binding to specific DNA hormone response elements (HREs) → recruitment of co-activators or co-repressors → modulation of target gene transcription. This mechanism is slow (hours) compared to membrane receptor signaling (seconds-minutes). Some steroids also have rapid non-genomic effects via membrane-associated receptors.",
+    "tags": [
+      "biochemistry",
+      "endocrinology",
+      "signal transduction"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "A competitive inhibitor increases apparent Km but leaves Vmax unchanged because:",
+    "text": "A researcher treats cells with cycloheximide, which inhibits the 80S ribosome. Which process would be most directly impaired?",
     "options": [
-      "The inhibitor binds irreversibly, so more enzyme must be synthesized",
-      "The inhibitor activates an alternative active site",
-      "High substrate concentrations can displace the competitive inhibitor from the active site",
-      "The inhibitor changes the protein's secondary structure"
+      "Transcription of mRNA in the nucleus",
+      "Cytoplasmic translation of mRNA into protein in eukaryotic cells — the peptidyl transferase activity of the 60S subunit is blocked",
+      "Mitochondrial translation of mtDNA-encoded proteins",
+      "Post-translational modification in the Golgi"
     ],
-    "correct": 2,
-    "explanation": "Competitive inhibitors bind reversibly to the active site. At high [S], substrate outcompetes the inhibitor, so Vmax (the rate when enzyme is fully saturated with substrate) is unchanged. However, more substrate is needed to achieve half-saturation in the presence of inhibitor, so apparent Km increases.",
+    "correct": 1,
+    "explanation": "Cycloheximide inhibits the peptidyl transferase activity of the 80S (eukaryotic) ribosome — specifically the 60S subunit — blocking translocation and thus protein synthesis in the cytoplasm. It does NOT inhibit: (1) prokaryotic ribosomes (70S) — used to distinguish eukaryotic vs. prokaryotic translation; (2) mitochondrial ribosomes (also 70S-like, inhibited by chloramphenicol, not cycloheximide). This is why cycloheximide is used experimentally to: study protein stability (pulse-chase), measure protein degradation rates, and inhibit new protein synthesis. Clinically relevant: antibiotics targeting 70S ribosomes (aminoglycosides, tetracyclines, chloramphenicol, macrolides, clindamycin) are selective for bacteria.",
     "tags": [
-      "enzyme kinetics",
-      "competitive inhibition"
+      "molecular biology",
+      "translation",
+      "protein synthesis"
     ],
     "difficulty": "medium"
+  },
+  {
+    "text": "Nitric oxide (NO) is synthesized by endothelial cells and causes vascular smooth muscle relaxation. What is the molecular mechanism?",
+    "options": [
+      "NO binds to beta-adrenergic receptors, activating cAMP/PKA and phosphorylating myosin light chain kinase",
+      "NO diffuses into smooth muscle cells and binds soluble guanylyl cyclase (sGC), stimulating conversion of GTP to cGMP, which activates PKG → phosphorylates and inactivates MLCK → decreased myosin phosphorylation → vasodilation",
+      "NO activates voltage-gated calcium channels, increasing intracellular Ca²+ in smooth muscle",
+      "NO directly depolymerizes actin filaments in vascular smooth muscle"
+    ],
+    "correct": 1,
+    "explanation": "NO (from eNOS, using L-arginine + O2 + NADPH) is a gaseous signaling molecule that diffuses across membranes. In vascular smooth muscle: NO binds the heme iron of soluble guanylyl cyclase (sGC) → conformational change → sGC converts GTP → cGMP → cGMP activates PKG (protein kinase G) → PKG phosphorylates: myosin light chain phosphatase (activates it, dephosphorylates myosin) and myosin light chain kinase (inhibits it) → less myosin phosphorylation → less actin-myosin cross-bridge cycling → smooth muscle relaxation → vasodilation. Nitroglycerin and sildenafil (PDE5 inhibitor, prevents cGMP breakdown) exploit this pathway. ACh → eNOS → NO → vasodilation (endothelium-dependent relaxation).",
+    "tags": [
+      "physiology",
+      "biochemistry",
+      "nitric oxide",
+      "cardiovascular"
+    ],
+    "difficulty": "hard"
   }
 ]

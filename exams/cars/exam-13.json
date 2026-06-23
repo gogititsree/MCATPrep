@@ -1,148 +1,203 @@
 [
   {
-    "passageText": "The rise of social media platforms in the twenty-first century has prompted intense debate about their effects on democratic discourse and epistemic culture. Two related phenomena — echo chambers and filter bubbles — are frequently cited as mechanisms by which digital platforms degrade the quality of political information environments. Though often used interchangeably, the terms describe different processes. Echo chambers arise primarily from homophily and social dynamics: people tend to associate with, and selectively expose themselves to, those who share their views. Filter bubbles, by contrast, result from algorithmic personalization: recommendation and ranking systems trained to maximize engagement prioritize content predicted to interest individual users, incidentally creating personalized information environments.\n\nThe empirical evidence for these effects is more mixed than popular discourse suggests. Large-scale studies using platform data (Bakshy et al., 2015, on Facebook) found that, while algorithmic ranking did reduce cross-cutting content exposure, individual choice (selective exposure to friends and sources) had a larger effect. Other studies suggest that social media users may actually encounter more diverse viewpoints than those who rely on legacy media — because social networks include weak ties to people with different views. The most politically engaged users, however, do show strong echo chamber effects.\n\nSeparately from the polarization debate, platform architecture shapes the information environment in ways that may incentivize misinformation. Content that provokes strong emotional reactions (outrage, fear, moral condemnation) spreads more widely and rapidly than factually accurate but emotionally neutral content. Platforms that optimize for engagement therefore create structural incentives for misinformation — not because platforms or users intend it, but because the architecture rewards virality over accuracy.\n\nProposed remedies include algorithmic transparency requirements (forcing platforms to disclose how content is ranked), interoperability mandates (allowing users to communicate across platforms), and resurrecting the editorial responsibility model (treating platforms more like publishers, who bear legal responsibility for the content they amplify). Each proposal carries tradeoffs between free expression, innovation, privacy, and democratic function.",
+    "passageText": "The political philosophy of republicanism—distinct from both the American Republican Party and from liberal individualism—centers on the concept of freedom as non-domination. This tradition, traceable from Cicero through Machiavelli to the eighteenth-century Atlantic revolutions, holds that freedom is not merely the absence of interference (the liberal conception) but the absence of subjection to another's arbitrary will—even if that will is currently benevolent and exercises no actual interference.\n\nPhilip Pettit, the most systematic contemporary theorist of republicanism, distinguishes the republican from the liberal understanding of liberty through the example of the contented slave. A slave whose master happens to be benevolent, who does not currently interfere with the slave's choices, is nevertheless unfree in the republican sense—because the slave's freedom depends entirely on the master's will and could be withdrawn at any moment. The slave lives 'at the pleasure' of the master. Freedom, for republicans, requires being immune to domination—not merely experiencing its absence.\n\nThis conception has distinctive implications for how we understand public institutions. Laws, on the republican view, are not restrictions on freedom but the condition of freedom: a well-designed system of laws insulated from arbitrary power and equally applied creates the conditions under which domination is minimized. This contrasts with the libertarian view that every law is an interference with freedom and must be minimized. For republicans, the relevant question about a law is not 'does it restrict what I can do?' but 'is it an expression of domination or the rule of law?'\n\nThe republican tradition also has a distinctive account of political participation. Unlike liberal theories that value participation instrumentally (as a means to protect individual rights), republicans value participation partly intrinsically: being a self-governing citizen rather than a subject is itself constitutive of freedom. Participation in public deliberation and decision-making is part of what it means to live as a free person rather than as a subject of another's will.\n\nCritics of republicanism argue that the concept of domination is too indeterminate to guide policy—how much structural power imbalance constitutes domination? They also question whether non-domination really differs from non-interference in practice, or whether the republican framework generates distinctive policy prescriptions. Defenders respond that the concept's indeterminacy is a feature rather than a bug: it tracks our intuitions about freedom across diverse cases rather than forcing them into a pre-defined mold.",
     "questions": [
       {
-        "text": "According to the passage, the key distinction between echo chambers and filter bubbles is that:",
+        "text": "The republican conception of freedom as 'non-domination' differs from the liberal conception of freedom as 'non-interference' in that:",
         "options": [
-          "Echo chambers are caused by algorithms while filter bubbles result from human choices",
-          "Filter bubbles are caused by algorithms while echo chambers arise from social homophily and selective exposure",
-          "Echo chambers are more harmful to democracy than filter bubbles",
-          "Filter bubbles only affect political content while echo chambers affect all content"
+          "Non-interference is stronger protection than non-domination",
+          "Non-domination requires immunity from subjection to another's arbitrary will — even when no actual interference occurs; a contented slave under a benevolent master has non-interference but not non-domination (freedom depends on master's will)",
+          "Both conceptions are functionally identical in practice",
+          "Non-domination only applies to political freedom; non-interference applies to all freedoms"
         ],
         "correct": 1,
-        "explanation": "The passage directly states: 'Echo chambers arise primarily from homophily and social dynamics...Filter bubbles, by contrast, result from algorithmic personalization.' The passage explicitly corrects the common confusion, assigning algorithmic causation to filter bubbles and social causation to echo chambers."
+        "explanation": "The passage states the republican conception requires 'the absence of subjection to another's arbitrary will—even if that will is currently benevolent and exercises no actual interference.' A slave under a benevolent master has non-interference but is still dominated — freedom 'depends entirely on the master's will.'"
       },
       {
-        "text": "The Bakshy et al. (2015) study is cited in the passage to support which conclusion?",
+        "text": "On the republican view, laws are:",
         "options": [
-          "Algorithms are the primary cause of political polarization",
-          "Social media has no effect on information diversity",
-          "Individual selective exposure choices may have larger effects than algorithmic ranking on cross-cutting content",
-          "Filter bubbles are more damaging than echo chambers"
+          "Restrictions on freedom that should be minimized (the libertarian view)",
+          "The condition of freedom — well-designed laws insulated from arbitrary power create conditions under which domination is minimized; the question is whether a law expresses domination or the rule of law, not whether it restricts action",
+          "Irrelevant to freedom, which is purely a matter of individual capacity",
+          "Only legitimate when enacted by unanimous consent"
         ],
-        "correct": 2,
-        "explanation": "The passage states the study 'found that, while algorithmic ranking did reduce cross-cutting content exposure, individual choice (selective exposure) had a larger effect.' This nuances the narrative that algorithms are the primary cause, pointing instead to user behavior."
+        "correct": 1,
+        "explanation": "The passage states: 'Laws, on the republican view, are not restrictions on freedom but the condition of freedom: a well-designed system of laws...creates the conditions under which domination is minimized.' The relevant question is 'is it an expression of domination or the rule of law?' not 'does it restrict what I can do?'"
       },
       {
-        "text": "According to the passage, platforms that optimize for engagement inadvertently incentivize misinformation because:",
+        "text": "Republicans value political participation differently from liberals in that republicans:",
         "options": [
-          "Platform owners want to spread false information",
-          "Users cannot distinguish true from false content",
-          "Emotionally provocative content spreads faster than accurate but emotionally neutral content",
-          "Fact-checking algorithms are unreliable"
+          "Consider participation purely instrumental — a means to protect individual rights",
+          "Value participation partly intrinsically — being a self-governing citizen rather than a subject is constitutive of freedom itself, not merely a means to protect other freedoms",
+          "Oppose participation in public deliberation because it leads to mob rule",
+          "Value participation only when it produces optimal policy outcomes"
         ],
-        "correct": 2,
-        "explanation": "The passage states: 'Content that provokes strong emotional reactions...spreads more widely and rapidly than factually accurate but emotionally neutral content. Platforms that optimize for engagement therefore create structural incentives for misinformation.' The key mechanism is virality rewarding emotional activation."
+        "correct": 1,
+        "explanation": "The passage states: 'Unlike liberal theories that value participation instrumentally (as a means to protect individual rights), republicans value participation partly intrinsically: being a self-governing citizen rather than a subject is itself constitutive of freedom.'"
       },
       {
-        "text": "Which proposed remedy described in the passage would most directly address algorithmic transparency concerns?",
+        "text": "The passage presents defenders' response to the criticism that non-domination is 'too indeterminate' as:",
         "options": [
-          "Interoperability mandates",
-          "The editorial responsibility model",
-          "Algorithmic transparency requirements forcing platforms to disclose ranking methods",
-          "Restricting user access to content outside their network"
+          "Conceding the criticism and abandoning non-domination as a policy guide",
+          "Arguing that indeterminacy is a feature rather than a bug — the concept tracks moral intuitions across diverse cases rather than forcing them into a pre-defined mold",
+          "Offering a precise quantitative definition of domination thresholds",
+          "Arguing that non-domination and non-interference are actually identical"
         ],
-        "correct": 2,
-        "explanation": "The passage describes 'algorithmic transparency requirements (forcing platforms to disclose how content is ranked)' as the remedy most directly targeting transparency. Interoperability addresses cross-platform communication; the editorial responsibility model addresses legal liability for amplified content."
+        "correct": 1,
+        "explanation": "The passage states: 'Defenders respond that the concept's indeterminacy is a feature rather than a bug: it tracks our intuitions about freedom across diverse cases rather than forcing them into a pre-defined mold.'"
+      },
+      {
+        "text": "The example of 'the contented slave' is used in the passage to:",
+        "options": [
+          "Show that slavery could be acceptable if masters were consistently benevolent",
+          "Illustrate the intuitive appeal of non-domination over non-interference: a slave under a benevolent master experiences no interference but remains unfree in the republican sense because freedom depends entirely on the master's arbitrary will",
+          "Argue that all employer-employee relationships involve domination",
+          "Demonstrate the historical origins of republican theory in abolitionist thought"
+        ],
+        "correct": 1,
+        "explanation": "The passage states Pettit uses the contented slave to show that 'a slave whose master happens to be benevolent, who does not currently interfere with the slave's choices, is nevertheless unfree in the republican sense—because the slave's freedom depends entirely on the master's will.'"
+      },
+      {
+        "text": "Republicanism's historical tradition, as described in the passage, is best characterized as:",
+        "options": [
+          "A product of the twentieth century response to totalitarianism",
+          "A tradition traceable from Cicero through Machiavelli to the eighteenth-century Atlantic revolutions — a long political philosophy lineage centered on freedom as non-domination rather than a recent development",
+          "A theory developed primarily by American political philosophers after the Civil War",
+          "An exclusively European tradition with no relevance to non-Western political thought"
+        ],
+        "correct": 1,
+        "explanation": "The passage states republicanism is 'traceable from Cicero through Machiavelli to the eighteenth-century Atlantic revolutions' — establishing it as a long historical tradition predating modern liberal political philosophy."
       }
     ]
   },
   {
-    "passageText": "Evolutionary biologists have long debated the relative importance of natural selection, genetic drift, mutation, and gene flow in shaping the genetic diversity of populations. The modern synthesis (1930s–1950s) integrated Mendelian genetics with Darwinian selection, producing a framework in which selection was typically viewed as the primary determinant of allele frequencies over time. The neutral theory of molecular evolution, proposed by Motoo Kimura in 1968, challenged this adaptationist consensus.\n\nKimura argued that at the molecular level, most genetic variation is selectively neutral — neither beneficial nor harmful — and that random genetic drift (the stochastic sampling of alleles in finite populations) is the dominant force shaping molecular variation. On this view, most protein polymorphisms and synonymous substitutions (those not changing amino acid sequence) are effectively neutral, maintained or lost by chance rather than selection. The neutral theory made predictions about the rate of molecular evolution: substitution rates should be proportional to the mutation rate (the molecular clock hypothesis), and genetic diversity should scale with effective population size.\n\nThe neutral theory has been partially superseded by the nearly neutral theory (Ohta), which allows for slightly deleterious as well as neutral mutations and predicts that effective population size modulates the efficiency of selection (in small populations, drift overpowers selection on slightly deleterious mutations, allowing them to fix). More recent genomic analyses have found evidence for widespread positive selection in the human genome, suggesting adaptation is more common than the neutral theory implies, though the relative contributions of selection and drift remain contested.\n\nThe debate matters for medicine. Many single-nucleotide polymorphisms (SNPs) identified in genome-wide association studies (GWAS) are in non-coding regulatory regions and may be neutral, nearly neutral, or adaptively maintained. Distinguishing true functional variants from neutral ones requires population genetic analysis. Moreover, understanding the demographic history of populations (bottlenecks, expansions) is necessary for interpreting patterns of genetic variation without confusing the effects of drift with those of selection.",
+    "passageText": "The sociology of knowledge asks not merely what we know but who knows, how they came to know it, and what social conditions make certain kinds of knowledge possible or impossible. Karl Mannheim's Ideology and Utopia (1929) drew a systematic distinction between 'ideology' (ideas that legitimate the existing order, reflecting the interests of dominant groups) and 'utopia' (ideas that point beyond the existing order, reflecting the interests of marginalized groups striving for change). Both are socially situated—neither represents a view from nowhere.\n\nMannheim's 'relationism' stopped short of full relativism: he distinguished between statements that are merely ideological (serving particular interests) and those that, while socially situated, nonetheless make genuine cognitive claims about social reality. The 'free-floating intelligentsia' (freischwebende Intelligenz) — a social stratum not tied to class interests — might, in principle, transcend partial perspectives and achieve a more comprehensive ('synthetic') view. This was Mannheim's solution to the problem of relativism, though critics found it naive about the intelligentsia's own social positioning.\n\nFeminist standpoint epistemology—developed by Sandra Harding, Donna Haraway, and Patricia Hill Collins among others—radicalized the sociology of knowledge in a different direction. Rather than seeking a transcendent 'view from nowhere,' standpoint theorists argued that all knowledge is situated, and that marginalized standpoints often afford epistemic advantages: those who occupy subordinated positions in social hierarchies are required by their situation to understand both their own perspective and that of the dominant group (because their survival depends on understanding the powerful). This generates what Harding calls 'strong objectivity': a more comprehensive knowledge than that produced from the unmarked, allegedly neutral standpoint of the dominant group.\n\nThe concept of 'epistemic injustice' (Miranda Fricker, 2007) provides tools for analyzing how social inequalities produce specifically epistemic harms. Testimonial injustice: a speaker receives less credibility than they deserve because of their social identity (race, gender, class). Hermeneutical injustice: a gap in collective interpretive resources means an agent lacks the concepts to make intelligible their own experiences (Fricker's example: the concept 'sexual harassment' did not exist before the 1970s, leaving women without language to name and contest what was happening to them).\n\nThese frameworks converge on a political epistemology: the distribution of epistemic power—who is heard, believed, and whose categories structure inquiry—is not politically neutral but reflects and reproduces social inequalities. Democratic knowledge production requires attending to who is systematically excluded from epistemic communities and addressing those exclusions.",
     "questions": [
       {
-        "text": "The neutral theory of molecular evolution contradicted the modern synthesis primarily by arguing that:",
+        "text": "Mannheim's distinction between 'ideology' and 'utopia' rests on which criterion?",
         "options": [
-          "Mutations do not occur at the molecular level",
-          "Natural selection cannot act on protein variation",
-          "Most molecular genetic variation is shaped by random drift rather than natural selection",
-          "Effective population size is irrelevant to evolution"
-        ],
-        "correct": 2,
-        "explanation": "The passage states that Kimura argued 'at the molecular level, most genetic variation is selectively neutral' and that 'random genetic drift...is the dominant force shaping molecular variation.' This directly challenged the adaptationist view of the modern synthesis that selection drives allele frequencies."
-      },
-      {
-        "text": "According to the passage, the molecular clock hypothesis predicts that:",
-        "options": [
-          "Molecular evolution proceeds at a rate proportional to effective population size",
-          "All mutations are fixed at the same rate regardless of mutation rate",
-          "The rate of molecular substitution is proportional to the mutation rate",
-          "Synonymous and nonsynonymous substitutions occur at the same rate"
-        ],
-        "correct": 2,
-        "explanation": "The passage states: 'Substitution rates should be proportional to the mutation rate (the molecular clock hypothesis).' Under the neutral theory, neutral mutations are fixed at a rate equal to the mutation rate (since fix probability = 1/2N × 2N = 1 for neutral mutations), creating a constant molecular clock."
-      },
-      {
-        "text": "The nearly neutral theory (Ohta) adds to Kimura's neutral theory by predicting that in small populations:",
-        "options": [
-          "Positive selection is more efficient",
-          "Slightly deleterious mutations are more likely to be purged",
-          "Drift can overwhelm selection, allowing slightly deleterious mutations to fix",
-          "Genetic diversity is maximized"
-        ],
-        "correct": 2,
-        "explanation": "The passage states that the nearly neutral theory 'predicts that effective population size modulates the efficiency of selection (in small populations, drift overpowers selection on slightly deleterious mutations, allowing them to fix).' Small populations have stronger drift, which can counteract weak selection against slightly harmful mutations."
-      },
-      {
-        "text": "The passage implies that distinguishing neutral from adaptive variants in GWAS data requires:",
-        "options": [
-          "Only sequencing more individuals from the same population",
-          "Population genetic analysis and understanding of demographic history",
-          "Focusing only on coding regions of the genome",
-          "Ignoring the effects of genetic drift"
+          "The logical validity of the ideas",
+          "The social position of those holding the ideas — ideology legitimates the existing order and reflects dominant-group interests; utopia points beyond the existing order and reflects marginalized-group interests; both are socially situated",
+          "Whether the ideas are supported by empirical evidence",
+          "The degree of political practicality of the ideas"
         ],
         "correct": 1,
-        "explanation": "The passage states: 'Distinguishing true functional variants from neutral ones requires population genetic analysis. Moreover, understanding the demographic history of populations (bottlenecks, expansions) is necessary for interpreting patterns of genetic variation without confusing the effects of drift with those of selection.'"
+        "explanation": "The passage states Mannheim distinguished 'ideology (ideas that legitimate the existing order, reflecting the interests of dominant groups) and utopia (ideas that point beyond the existing order, reflecting the interests of marginalized groups striving for change). Both are socially situated.'"
+      },
+      {
+        "text": "Feminist standpoint epistemology differs from Mannheim's approach in that it:",
+        "options": [
+          "Seeks a transcendent 'view from nowhere' that escapes social situatedness",
+          "Radicalizes the sociology of knowledge by arguing that marginalized standpoints may afford epistemic advantages — those in subordinated positions must understand both their own perspective and the dominant perspective (for survival), producing 'strong objectivity' rather than mere relativism",
+          "Denies that social position affects knowledge production",
+          "Proposes that the intelligentsia alone can achieve comprehensive knowledge"
+        ],
+        "correct": 1,
+        "explanation": "The passage states standpoint theorists 'argued that all knowledge is situated, and that marginalized standpoints often afford epistemic advantages' because 'those who occupy subordinated positions...are required by their situation to understand both their own perspective and that of the dominant group.' This generates 'strong objectivity.'"
+      },
+      {
+        "text": "Fricker's concept of 'hermeneutical injustice' refers to:",
+        "options": [
+          "Deliberately misinterpreting a marginalized person's testimony",
+          "A gap in collective interpretive resources — lacking the concepts to make one's own experience intelligible; the example of 'sexual harassment' shows how women lacked language to name and contest a harm before the concept existed",
+          "Giving a speaker less credibility than they deserve based on social identity",
+          "The exclusion of marginalized groups from academic institutions"
+        ],
+        "correct": 1,
+        "explanation": "The passage states hermeneutical injustice is 'a gap in collective interpretive resources means an agent lacks the concepts to make intelligible their own experiences.' The example: 'the concept sexual harassment did not exist before the 1970s, leaving women without language to name and contest what was happening to them.'"
+      },
+      {
+        "text": "Mannheim's 'free-floating intelligentsia' was his proposed solution to relativism. The passage suggests this solution was criticized because:",
+        "options": [
+          "The intelligentsia was too politically committed to left-wing causes",
+          "Critics found it naive about the intelligentsia's own social positioning — the intelligentsia, like any social stratum, has particular interests and perspectives that situate its knowledge",
+          "The intelligentsia lacked the education needed to transcend class perspectives",
+          "Mannheim himself did not believe the intelligentsia could achieve synthetic knowledge"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'critics found it naive about the intelligentsia's own social positioning.' The implied critique is that the intelligentsia is not actually 'free-floating' — it occupies a social position with its own interests."
+      },
+      {
+        "text": "The passage's concept of 'political epistemology' concerns which claim?",
+        "options": [
+          "That political beliefs should be based on sound epistemological principles",
+          "That the distribution of epistemic power — who is heard, believed, and whose categories structure inquiry — is not neutral but reflects and reproduces social inequalities; democratic knowledge production requires addressing epistemic exclusions",
+          "That science should be directly guided by democratic political processes",
+          "That marginalized groups should establish separate knowledge institutions"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'the distribution of epistemic power—who is heard, believed, and whose categories structure inquiry—is not politically neutral but reflects and reproduces social inequalities. Democratic knowledge production requires attending to who is systematically excluded from epistemic communities.'"
+      },
+      {
+        "text": "Testimonial injustice, as described in the passage, occurs when:",
+        "options": [
+          "A witness lies in a legal proceeding",
+          "A speaker receives less credibility than they deserve because of their social identity (race, gender, class) — an epistemic harm that also devalues the person as a knower",
+          "Research findings are not published because they challenge dominant theories",
+          "A community's traditional knowledge is appropriated without credit"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Testimonial injustice: a speaker receives less credibility than they deserve because of their social identity (race, gender, class).' This is one of Fricker's two forms of epistemic injustice."
       }
     ]
   },
   {
-    "passageText": "The concept of distributive justice — how benefits and burdens should be fairly allocated in society — has animated political philosophy since antiquity but was given its most influential modern formulation by John Rawls in A Theory of Justice (1971). Rawls argued that principles of justice should be those that free and rational persons, ignorant of their own position in society (behind a 'veil of ignorance'), would choose to govern the basic structure of social institutions. This thought experiment, the 'original position,' is designed to ensure impartiality: knowing neither one's natural talents, social class, race, nor conception of the good, contractors cannot bias principles to their own advantage.\n\nFrom this hypothetical choice situation, Rawls derived two principles. The first principle guarantees each person the most extensive system of equal basic liberties compatible with a similar system for all. The second principle — the difference principle — permits social and economic inequalities only insofar as they benefit the least advantaged members of society. Rawls argued that rational agents behind the veil of ignorance would choose the maximin rule (maximize the minimum position) because they could find themselves among the worst-off.\n\nLibertarians (Nozick) objected that the difference principle violates individual rights: if patterns of distribution result from voluntary exchanges, no redistribution is warranted regardless of whether it benefits the worst-off. Utilitarians objected that the maximin rule is too risk-averse — a rational agent might prefer a system that maximizes total welfare even if it creates greater inequality. Communitarian critics (Sandel, MacIntyre) argued that Rawls's liberal framework presupposes an 'unencumbered self' — an individual whose identity is prior to and independent of social roles and communities — which misrepresents the social constitution of persons.\n\nRawls's theory has been extended and challenged by feminist theorists (Okin), who argued that the original position fails to adequately address gender inequality because it brackets the family — which is itself a site of significant injustice — from the scope of justice. The broader debate continues to address whether liberal theories of justice can adequately accommodate cultural, religious, and group-based claims to recognition.",
+    "passageText": "The emergence of behavioral economics in the late twentieth century challenged the dominant rational-agent models that had governed economic theory for decades. Traditional economic theory, rooted in neoclassical principles, assumed that individuals make decisions by carefully weighing all available information, calculating expected utilities, and selecting the option that maximizes personal welfare. This idealized agent — Homo economicus — was mathematically tractable but empirically problematic.\n\nDaniel Kahneman and Amos Tversky's prospect theory, developed in the 1970s and 1980s, offered a descriptively accurate alternative. Their experiments revealed consistent patterns of irrationality: people are loss-averse (losses loom larger than equivalent gains), weight probabilities non-linearly (overweighting small probabilities and underweighting moderate and high probabilities), and evaluate outcomes relative to a reference point rather than in absolute terms. These findings undermined the expected utility framework in a way that could not be dismissed as random error.\n\nThe implications for policy were quickly recognized. If individuals reliably make predictable errors, governments and institutions could design choice architectures — 'nudges' — that guide people toward better outcomes without restricting freedom of choice. Automatic enrollment in retirement savings plans, calorie labeling, and organ donation opt-out defaults are all examples. Critics, however, argue that nudge policies are paternalistic, implicitly assuming that policymakers know better than individuals what constitutes a good outcome. Others raise concerns about transparency: if nudges work by exploiting cognitive biases, their effectiveness depends partly on the subject's unawareness of them.\n\nThe behavioralist critique of rationality has itself been critiqued. Some economists argue that apparent irrationalities dissolve under scrutiny: the ecological rationality framework (Gigerenzer) holds that many 'biases' are actually adaptive heuristics that perform well in naturalistic environments, even if they fail on laboratory tasks constructed to expose their limits. The debate touches fundamental questions about what rationality means: is it defined by coherent preferences, by adaptive behavior, or by some external standard of correctness?",
     "questions": [
       {
-        "text": "The purpose of the 'veil of ignorance' in Rawls's original position is to:",
+        "text": "The author's primary purpose in the passage is to:",
         "options": [
-          "Ensure that all participants have equal intelligence",
-          "Remove knowledge of one's own social position so that principles of justice cannot be biased in one's favor",
-          "Guarantee that principles of justice will maximize total welfare",
-          "Prevent participants from knowing the content of Rawls's two principles"
+          "Argue that behavioral economics has definitively replaced neoclassical theory",
+          "Describe the emergence of behavioral economics, its policy implications, and ongoing debates about its claims",
+          "Advocate for nudge policies as the most effective form of government intervention",
+          "Explain why Homo economicus remains the dominant model in economics"
         ],
         "correct": 1,
-        "explanation": "The passage explains that the veil of ignorance strips away knowledge of 'one's natural talents, social class, race, nor conception of the good' so that contractors 'cannot bias principles to their own advantage.' The goal is impartiality through ignorance of self-interested factors."
+        "explanation": "The passage presents behavioral economics' development and policy implications in a balanced way, then introduces critiques from multiple sides. The author does not take a strong stance for or against any position, making option B the most accurate description of the primary purpose."
       },
       {
-        "text": "Rawls's difference principle holds that inequalities are permissible only when they:",
+        "text": "According to prospect theory as described in the passage, which of the following best illustrates loss aversion?",
         "options": [
-          "Result from voluntary exchanges between consenting individuals",
-          "Maximize total social welfare across all members of society",
-          "Benefit the least advantaged members of society",
-          "Are distributed equally across all social positions"
+          "Choosing a certain $50 gain over a 50% chance of $100",
+          "Feeling more distressed about losing $100 than pleased about winning $100",
+          "Overestimating the probability of a rare airline crash",
+          "Evaluating a salary relative to a reference point"
+        ],
+        "correct": 1,
+        "explanation": "Loss aversion means that 'losses loom larger than equivalent gains.' Option B directly illustrates this asymmetry. Option A describes risk aversion (not loss aversion specifically). Option C illustrates probability overweighting of small probabilities. Option D illustrates reference-point evaluation."
+      },
+      {
+        "text": "The passage implies that nudge policies depend on which assumption to be effective?",
+        "options": [
+          "People are fully rational and will recognize the optimal choice when presented properly",
+          "Cognitive biases are random and unpredictable",
+          "Predictable patterns of irrationality can be anticipated and directed toward better outcomes",
+          "Policymakers should restrict choices to prevent poor decisions"
         ],
         "correct": 2,
-        "explanation": "The passage states the difference principle 'permits social and economic inequalities only insofar as they benefit the least advantaged members of society.' This is the maximin criterion — improvements at the top are acceptable only if they also improve the position of those at the bottom."
+        "explanation": "The passage states that nudges work by exploiting 'predictable errors.' For a nudge to succeed, the biases it targets must be consistent and foreseeable, not random. The passage explicitly contrasts nudges (preserving choice) with restrictions, ruling out option D."
       },
       {
-        "text": "Nozick's libertarian objection to the difference principle is that:",
+        "text": "Gigerenzer's 'ecological rationality' framework would most likely respond to demonstrations of human irrationality in laboratory studies by arguing that:",
         "options": [
-          "It is too permissive of inequality",
-          "It violates individual rights by redistributing what resulted from voluntary exchanges",
-          "Rational agents would not choose maximin behind the veil of ignorance",
-          "The original position fails to represent communal identity"
+          "The studies confirm that human reasoning is fundamentally flawed",
+          "The heuristics that appear as biases in artificial tasks are actually adaptive in real-world environments",
+          "Laboratory conditions are more realistic than naturalistic settings",
+          "Loss aversion is the most important cognitive bias to address"
         ],
         "correct": 1,
-        "explanation": "The passage states Nozick argued 'the difference principle violates individual rights: if patterns of distribution result from voluntary exchanges, no redistribution is warranted.' Nozick's entitlement theory holds that holdings are just if acquired justly, regardless of the resulting pattern."
+        "explanation": "The passage describes ecological rationality as the view that 'many biases are actually adaptive heuristics that perform well in naturalistic environments, even if they fail on laboratory tasks constructed to expose their limits.' This directly supports option B."
       },
       {
-        "text": "The feminist critique of Rawls described in the passage centers on which objection?",
+        "text": "The author's description of nudge critics who argue that 'nudges work by exploiting cognitive biases' suggests which concern?",
         "options": [
-          "Women should not be included in the original position",
-          "The original position brackets the family from justice, despite the family being a site of significant injustice",
-          "Gender equality is already fully addressed by Rawls's first principle of equal liberty",
-          "The difference principle is specifically designed to disadvantage women"
+          "Nudges are too costly to implement",
+          "The effectiveness of nudges may depend on people not knowing they are being nudged",
+          "Cognitive biases do not actually exist",
+          "Nudges always restrict freedom of choice"
         ],
         "correct": 1,
-        "explanation": "The passage states feminist theorists (Okin) argued 'the original position fails to adequately address gender inequality because it brackets the family — which is itself a site of significant injustice — from the scope of justice.' By treating the family as a private sphere outside justice, Rawls ignores internal gender inequalities."
+        "explanation": "The passage states that 'if nudges work by exploiting cognitive biases, their effectiveness depends partly on the subject's unawareness of them.' This is a transparency concern: disclosure might undermine the nudge's mechanism, raising ethical questions about hidden manipulation."
       }
     ]
   }

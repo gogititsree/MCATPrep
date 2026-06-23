@@ -1,159 +1,214 @@
 [
   {
-    "passageText": "The history of antibiotic resistance illustrates how evolutionary pressures can generate rapid and consequential changes in microbial populations. When Alexander Fleming discovered penicillin in 1928 and mass production began in the 1940s, the drug seemed to offer near-miraculous cures for previously fatal bacterial infections. Within years, however, penicillin-resistant Staphylococcus aureus strains had emerged in hospitals. The development of methicillin in 1960 to combat penicillin-resistant staph was followed, within two years, by the first reports of methicillin-resistant Staphylococcus aureus (MRSA).\n\nThe evolutionary dynamics of resistance are well understood. In any bacterial population, individual cells vary genetically. Antibiotic treatment creates intense selective pressure, eliminating susceptible cells while any cells harboring resistance mechanisms survive and proliferate. Resistance can arise de novo through spontaneous mutation, or can be acquired via horizontal gene transfer — plasmids, transposons, and bacteriophage-mediated transduction can rapidly distribute resistance genes across species boundaries. This horizontal transfer is particularly alarming because it can move resistance determinants between clinically significant pathogens in ways that vertical (parent-to-offspring) evolution alone could not achieve in relevant time frames.\n\nThe problem of antibiotic resistance is compounded by the economics of pharmaceutical development. Antibiotics are taken briefly and must be sold cheaply; return on investment is modest compared to drugs for chronic conditions. The WHO has classified antibiotic resistance as one of the greatest threats to global health, yet the development pipeline for novel antibiotics has thinned dramatically since the 1980s. Several approaches have been proposed: antibiotic stewardship programs to reduce inappropriate use; restrictions on agricultural antibiotic use (antibiotics are used extensively in livestock to promote growth); and new incentive structures for pharmaceutical companies, including market-entry rewards decoupled from sales volume.\n\nSome researchers advocate returning to bacteriophage therapy — using viruses that kill specific bacteria — as an alternative or supplement to antibiotics. Phage therapy was widely used in Eastern Europe and the Soviet Union during the twentieth century but largely abandoned in the West after antibiotics proved more reliable. Modern phage therapy has the advantage of targeting specific pathogens (minimizing collateral damage to the microbiome) but faces regulatory challenges because phage preparations must often be customized for individual patients.",
+    "passageText": "The emergence of the modern research university in the nineteenth century transformed the relationship between knowledge production and social institutions in ways whose consequences are still unfolding. Wilhelm von Humboldt's founding of the University of Berlin in 1810 embodied a new ideal: Wissenschaft (systematic knowledge) pursued for its own sake, with freedom of teaching and research (Lehrfreiheit and Lernfreiheit) insulated from both state interference and market pressures. The university was to be the home of pure inquiry.\n\nThis ideal was never fully realized—German universities were deeply embedded in the state apparatus and nationalist ideology—but it provided a powerful vision that shaped the development of research universities worldwide, including the American research university that emerged after the Civil War. The Morrill Land-Grant Act (1862) represented a different vision: universities in service of practical, agricultural, and mechanical education for working people. The tension between these models—pure inquiry vs. practical application, universal knowledge vs. social mission—has animated debates about higher education ever since.\n\nThe twentieth century's military-industrial complex drew universities into a new relationship with the state. World War II produced a massive mobilization of university scientists for national goals—from radar to the Manhattan Project to synthetic rubber. Vannevar Bush's Science: The Endless Frontier (1945) proposed the postwar bargain: the government would fund basic research; scientists would control how that research was conducted; and society would benefit from the eventual applications. This compact sustained American scientific dominance for decades.\n\nThe late twentieth century's commercialization of university research—accelerated by the Bayh-Dole Act (1980), which allowed universities to patent federally funded research—has further complicated the Humboldtian ideal. Universities now derive significant revenue from technology transfer, licensing, and industry partnerships. Critics argue that commercial pressures distort research agendas (toward patentable applications and away from basic science), compromise the publication and replication of findings, and create conflicts of interest that undermine the integrity of research.\n\nThe contemporary crisis of the university is multidimensional: spiraling tuition costs and student debt; declining public funding for higher education; the precarity of academic labor (adjunctification); and challenges from online education. These pressures raise the foundational question: what is the university for? The answer has never been singular, and the current moment forces a reckoning with the competing visions that have always been in tension.",
     "questions": [
       {
-        "text": "The author uses the example of penicillin and MRSA primarily to:",
+        "text": "Humboldt's vision of the university was characterized by:",
         "options": [
-          "Criticize Fleming for not anticipating resistance",
-          "Illustrate the speed with which antibiotic resistance can emerge after a new drug's introduction",
-          "Argue that antibiotics should never have been developed",
-          "Explain the chemistry of methicillin"
+          "A focus on practical, vocational training for working people",
+          "Systematic knowledge pursued for its own sake, with academic freedom (Lehrfreiheit/Lernfreiheit) insulated from both state interference and market pressures — pure inquiry as the university's defining purpose",
+          "Close partnership with industry to apply research to economic development",
+          "Religious education and moral formation as primary goals"
         ],
         "correct": 1,
-        "explanation": "The passage uses the timeline — penicillin in the 1940s, resistance within years; methicillin in 1960, MRSA within two years — to illustrate how quickly resistance evolves. This sets up the broader evolutionary discussion. There is no criticism of Fleming's foresight."
+        "explanation": "The passage states: 'Wilhelm von Humboldt's founding of the University of Berlin in 1810 embodied a new ideal: Wissenschaft (systematic knowledge) pursued for its own sake, with freedom of teaching and research...insulated from both state interference and market pressures.'"
       },
       {
-        "text": "According to the passage, horizontal gene transfer is particularly alarming in the context of antibiotic resistance because:",
+        "text": "The Morrill Land-Grant Act (1862) represented a vision of higher education that contrasted with Humboldt's by:",
         "options": [
-          "It occurs only within a single species",
-          "It allows resistance genes to spread across species boundaries faster than vertical evolution could",
-          "It requires antibiotic exposure to occur",
-          "It only moves resistance genes through bacteriophages"
+          "Emphasizing pure research and academic freedom",
+          "Orienting universities toward practical education in agriculture and mechanical arts for working people — a democratic and applied mission rather than pure inquiry",
+          "Establishing the first research universities in the United States",
+          "Removing federal government from higher education funding"
         ],
         "correct": 1,
-        "explanation": "The passage states horizontal transfer 'can move resistance determinants between clinically significant pathogens in ways that vertical evolution alone could not achieve in relevant time frames.' The key concern is cross-species spread at speed that exceeds what mutation and vertical inheritance could accomplish."
+        "explanation": "The passage states the Land-Grant Act 'represented a different vision: universities in service of practical, agricultural, and mechanical education for working people.' This is contrasted with the Humboldtian 'pure inquiry' model."
       },
       {
-        "text": "The passage suggests that the thin antibiotic development pipeline results primarily from:",
+        "text": "Vannevar Bush's postwar compact proposed that:",
         "options": [
-          "A lack of scientific knowledge about new antibiotic targets",
-          "Government regulations preventing clinical trials",
-          "Economic disincentives: antibiotics generate modest returns compared to drugs for chronic conditions",
-          "The success of bacteriophage therapy as an alternative"
-        ],
-        "correct": 2,
-        "explanation": "The passage states: 'Antibiotics are taken briefly and must be sold cheaply; return on investment is modest compared to drugs for chronic conditions.' This economic argument explains the thin pipeline. The passage does not mention regulatory barriers to trials or suggest phage therapy has replaced antibiotics."
-      },
-      {
-        "text": "Based on the passage, which of the following is cited as an advantage of bacteriophage therapy over conventional antibiotics?",
-        "options": [
-          "Phages are cheaper to produce than antibiotics",
-          "Phages have a broader spectrum of activity than most antibiotics",
-          "Phages target specific pathogens, minimizing disruption to the microbiome",
-          "Phage therapy has been rigorously tested in Western clinical trials"
-        ],
-        "correct": 2,
-        "explanation": "The passage explicitly states that modern phage therapy has 'the advantage of targeting specific pathogens (minimizing collateral damage to the microbiome).' The passage does not compare production costs, does not claim broad spectrum activity (in fact the opposite — phages are specific), and notes that phage therapy faces regulatory challenges in the West."
-      },
-      {
-        "text": "Which of the following interventions mentioned in the passage addresses resistance at the level of reducing the selective pressure that drives resistance evolution?",
-        "options": [
-          "Market-entry rewards decoupled from sales volume",
-          "Antibiotic stewardship programs to reduce inappropriate use",
-          "Restricting pharmaceutical company profits",
-          "Developing phage therapy as an alternative"
+          "Universities should prioritize military applications in exchange for federal funding",
+          "Government would fund basic research; scientists would control how it was conducted; society would benefit from eventual applications — a bargain that sustained American scientific dominance while preserving academic autonomy",
+          "Scientific research should be conducted by government laboratories, not universities",
+          "All federally funded research should be immediately applicable to defense needs"
         ],
         "correct": 1,
-        "explanation": "Evolutionary dynamics of resistance are driven by antibiotic selective pressure eliminating susceptible bacteria. Stewardship programs reduce inappropriate use, thereby reducing selective pressure. Market-entry rewards address economic incentives for development; phage therapy is an alternative treatment — neither directly reduces selective pressure on existing antibiotics."
+        "explanation": "The passage states Bush proposed: 'the government would fund basic research; scientists would control how that research was conducted; and society would benefit from the eventual applications.'"
+      },
+      {
+        "text": "The Bayh-Dole Act (1980) is described in the passage as having complicated the Humboldtian ideal by:",
+        "options": [
+          "Reducing federal funding for basic research",
+          "Allowing universities to patent federally funded research — accelerating commercialization and creating pressures that may distort research agendas toward patentable applications, compromise publication, and create conflicts of interest",
+          "Strengthening academic freedom protections for university researchers",
+          "Establishing government ownership of all university-generated intellectual property"
+        ],
+        "correct": 1,
+        "explanation": "The passage states the Bayh-Dole Act 'allowed universities to patent federally funded research.' Critics argue this 'distort[s] research agendas (toward patentable applications), compromise[s] the publication and replication of findings, and create[s] conflicts of interest.'"
+      },
+      {
+        "text": "The passage characterizes the current crisis of the university as:",
+        "options": [
+          "A singular problem caused by declining public funding",
+          "Multidimensional — including spiraling tuition and debt, declining public funding, adjunctification of academic labor, and challenges from online education — forcing a reckoning with the competing visions of what the university is for",
+          "A crisis that can be solved by returning to the Humboldtian ideal of pure inquiry",
+          "Primarily a problem in STEM fields due to industry commercialization"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'The contemporary crisis of the university is multidimensional: spiraling tuition costs and student debt; declining public funding for higher education; the precarity of academic labor (adjunctification); and challenges from online education.'"
+      },
+      {
+        "text": "The passage implies that the tension between pure inquiry and practical application in universities:",
+        "options": [
+          "Was resolved by the Bayh-Dole Act in favor of practical application",
+          "Has never been resolved — it animated debates from Humboldt vs. Morrill through the postwar compact and continues in contemporary crises; the university's purpose has never been singular",
+          "Favors pure inquiry in all contexts outside of military research",
+          "Only became significant after World War II"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'The tension between these models—pure inquiry vs. practical application, universal knowledge vs. social mission—has animated debates about higher education ever since.' And: 'The answer [to what the university is for] has never been singular, and the current moment forces a reckoning with the competing visions that have always been in tension.'"
       }
     ]
   },
   {
-    "passageText": "The sociology of science, developed by Robert Merton and later transformed by constructivists, asks not only what science discovers but how scientific knowledge is produced, legitimated, and contested. Merton's normative account identified four institutional imperatives guiding ideal scientific conduct: communalism (knowledge as public property), universalism (truth claims evaluated on merit, not the social characteristics of the claimant), disinterestedness (scientists motivated by the advancement of knowledge, not personal gain), and organized skepticism (systematic scrutiny of all claims).\n\nConstructivists (Bloor, Collins, Latour) challenged the Mertonian picture by arguing that scientific knowledge, including even natural science, is socially constructed — that facts are not simply discovered but are produced through social processes of negotiation, credentialing, and institutionalization. The laboratory studies tradition showed that what counts as a successful experiment depends on judgments about instrument reliability, competence of experimenters, and interpretive conventions that cannot be derived from the data alone.\n\nThe resulting 'science wars' of the 1990s pitted constructivists against scientists and philosophers who argued that strong constructivism collapses into relativism — if all knowledge claims are equally socially constructed, then the germ theory of disease is no more epistemically privileged than pre-modern humoral medicine. Constructivists typically respond that they are not committed to relativism but to symmetry: applying the same standards of sociological explanation to successful and failed scientific claims, rather than explaining success by 'truth' and failure by 'social factors.'\n\nThese debates have practical stakes in an era of scientific skepticism. Public distrust of expert consensus on vaccination, climate change, and evolution is partly fueled by the perception — sometimes deliberately cultivated by interests opposed to regulation — that scientific knowledge is merely one 'narrative' among many. Sociologists of science face the challenge of explaining the social dimensions of knowledge production without inadvertently providing rhetorical resources for antiscience movements.",
+    "passageText": "Literature has always served as both a mirror and a lamp—reflecting social reality and illuminating possibilities beyond it. The debate over whether literature should primarily depict the world as it is (mimesis) or transform it (poiesis) runs through the entire history of literary criticism, from Aristotle's defense of tragic mimesis to the Romantic elevation of the creative imagination to contemporary debates over realism and postmodernism.\n\nThe realist novel of the nineteenth century—Austen, Dickens, Tolstoy, Eliot—aspired to comprehensive representation of social life. George Eliot's Middlemarch, with its dense network of provincial characters and its attention to the small dramas of ordinary existence, embodied the belief that fiction could do what history and sociology could not: illuminate the subjective textures of social experience, the inner lives of people living under conditions they did not choose. This 'cognitive' or 'epistemic' defense of fiction—the idea that reading literature teaches us things we could not learn otherwise—remains influential.\n\nThe twentieth century's modernism challenged realism's assumptions. If consciousness is not a transparent window onto an external world but a constructing, distorting, temporal medium—as Freud, Bergson, and Einstein in different ways suggested—then the realist novel's omniscient narrator and linear plot are not representations of reality but impositions of false order onto the chaos of experience. Virginia Woolf's 'stream of consciousness,' James Joyce's interior monologue, and William Faulkner's fragmented narratives attempted to give form to experience as it is actually lived—radically subjective, discontinuous, saturated with memory and anticipation.\n\nPostmodernism went further: not only is the individual subject fragmented, but the very idea of 'experience as it is actually lived' is a fiction. Postmodern fiction (Pynchon, Borges, DeLillo) foregrounds its own constructedness—breaking the fictional frame, mixing genres, proliferating unreliable narrators—not to approach reality more closely but to reveal that all representations are conventions, all narratives are constructions. The question is not which representation is truest but which constructions serve which interests.\n\nThe contemporary debate over 'autofiction'—fiction that blurs the boundary between autobiography and invention—recapitulates these arguments in a new register. Karl Ove Knausgård's My Struggle and Rachel Cusk's Outline trilogy navigate the problem of representing experience by foregrounding the subjectivity of the narrator while insisting on the factual basis of the account. Whether this move transcends or merely restates the realism/anti-realism debate remains a live question in literary criticism.",
     "questions": [
       {
-        "text": "According to Merton's normative account, which principle requires that scientific claims be evaluated on their merits regardless of who makes them?",
+        "text": "The 'cognitive' or 'epistemic' defense of fiction refers to which claim?",
         "options": [
-          "Communalism",
-          "Universalism",
-          "Disinterestedness",
-          "Organized skepticism"
+          "Fiction should primarily entertain readers rather than inform them",
+          "Reading literature teaches readers things they could not learn otherwise — illuminating the subjective textures of social experience and inner lives in ways history and sociology cannot",
+          "Fiction accurately predicts future social developments",
+          "The literary text mirrors social reality without distortion"
         ],
         "correct": 1,
-        "explanation": "The passage defines universalism as the principle that 'truth claims [are] evaluated on merit, not the social characteristics of the claimant.' This means a scientist's race, gender, nationality, or status should be irrelevant to the evaluation of their claims."
+        "explanation": "The passage states: 'This cognitive or epistemic defense of fiction—the idea that reading literature teaches us things we could not learn otherwise—remains influential.' The example given is Middlemarch's illumination of 'the inner lives of people living under conditions they did not choose.'"
       },
       {
-        "text": "Constructivists' 'symmetry principle' as described in the passage means that:",
+        "text": "Modernist fiction's formal innovations (stream of consciousness, interior monologue, fragmented narrative) were motivated by which insight?",
         "options": [
-          "All scientific theories are equally true",
-          "Social factors explain failed science but not successful science",
-          "Both successful and failed scientific claims should be explained by the same sociological standards",
-          "Science and non-science should be treated as equivalent"
-        ],
-        "correct": 2,
-        "explanation": "The passage states constructivists claim 'symmetry: applying the same standards of sociological explanation to successful and failed scientific claims, rather than explaining success by truth and failure by social factors.' This is a methodological stance, not a claim about the truth of scientific theories."
-      },
-      {
-        "text": "The author presents the concern in the final paragraph about antiscience movements as:",
-        "options": [
-          "Proof that constructivism is wrong",
-          "A practical challenge for sociologists of science who must explain social dimensions of knowledge without lending credibility to antiscience rhetoric",
-          "Evidence that public skepticism about science is justified",
-          "An argument that scientists should control their public communications more tightly"
+          "Social reality was too complex to be captured by any single narrative perspective",
+          "The realist novel's omniscient narrator and linear plot impose false order on experience — if consciousness is a constructing, distorting medium rather than a transparent window, fiction should give form to experience as actually lived (subjective, discontinuous, saturated with time)",
+          "Psychological realism required abandoning all formal experimentation",
+          "Readers demanded more entertaining and accessible plots"
         ],
         "correct": 1,
-        "explanation": "The passage frames this as a challenge ('sociologists of science face the challenge of explaining...without inadvertently providing rhetorical resources for antiscience movements'). The author does not conclude that constructivism is wrong, does not endorse skepticism, and does not advocate for communication control."
+        "explanation": "The passage states: 'If consciousness is not a transparent window onto an external world but a constructing, distorting, temporal medium...then the realist novel's omniscient narrator and linear plot are not representations of reality but impositions of false order onto the chaos of experience.' Modernist techniques attempted to capture experience 'as it is actually lived.'"
       },
       {
-        "text": "The strongest objection to strong constructivism mentioned in the passage is that it:",
+        "text": "Postmodern fiction differs from modernism in that postmodernism:",
         "options": [
-          "Ignores the role of experiments in science",
-          "Collapses into relativism, making the germ theory no more valid than humoral medicine",
-          "Cannot explain why some experiments fail to replicate",
-          "Denies that social factors influence science at all"
+          "Returned to realist conventions to better capture social experience",
+          "Goes further than modernism — not only is the individual subject fragmented, but all representations are conventions and constructions; postmodern fiction foregrounds its own constructedness rather than seeking to approximate experience more closely",
+          "Attempted to depict consciousness more accurately through interior monologue",
+          "Rejected all formal experimentation in favor of clarity"
         ],
         "correct": 1,
-        "explanation": "The passage states that critics argue 'strong constructivism collapses into relativism — if all knowledge claims are equally socially constructed, then the germ theory of disease is no more epistemically privileged than pre-modern humoral medicine.' This is explicitly identified as the core objection."
+        "explanation": "The passage states postmodernism 'went further: not only is the individual subject fragmented, but the very idea of experience as it is actually lived is a fiction.' Postmodern fiction 'foregrounds its own constructedness...not to approach reality more closely but to reveal that all representations are conventions.'"
+      },
+      {
+        "text": "The passage uses autofiction (Knausgård, Cusk) to illustrate which point?",
+        "options": [
+          "That contemporary fiction has resolved the realism/anti-realism debate in favor of realism",
+          "That contemporary autofiction recapitulates the realism/anti-realism debate by blurring autobiography and invention — foregrounding subjective narration while insisting on factual basis; whether this transcends or restates the debate remains contested",
+          "That all contemporary fiction is autobiographical",
+          "That the line between fiction and non-fiction has no literary significance"
+        ],
+        "correct": 1,
+        "explanation": "The passage states autofiction 'recapitulates these arguments in a new register' and concludes: 'Whether this move transcends or merely restates the realism/anti-realism debate remains a live question in literary criticism.'"
+      },
+      {
+        "text": "Aristotle's defense of 'tragic mimesis,' mentioned in the opening, is placed alongside Romantic poiesis to illustrate:",
+        "options": [
+          "That ancient and Romantic literary theories are identical",
+          "That the debate between depicting reality as it is vs. transforming or creating beyond it runs through the entire history of literary criticism — a persistent tension the passage traces through realism, modernism, postmodernism, and autofiction",
+          "That mimesis is superior to poiesis as a literary value",
+          "That modern literature has abandoned ancient aesthetic concerns entirely"
+        ],
+        "correct": 1,
+        "explanation": "The passage opens: 'The debate over whether literature should primarily depict the world as it is (mimesis) or transform it (poiesis) runs through the entire history of literary criticism, from Aristotle's defense of tragic mimesis to the Romantic elevation of the creative imagination to contemporary debates over realism and postmodernism.' The historical breadth establishes the debate's persistence."
+      },
+      {
+        "text": "Based on the passage, George Eliot's Middlemarch is most relevant as an example of:",
+        "options": [
+          "Modernist interior monologue and fragmented narrative form",
+          "The realist novel's belief that dense social representation could illuminate subjective experience in ways unavailable to history or sociology — the epistemic/cognitive value of realistic fiction",
+          "Postmodern foregrounding of the text's own constructedness",
+          "Autofiction blurring autobiography and invention"
+        ],
+        "correct": 1,
+        "explanation": "The passage cites Middlemarch as an example of 'The realist novel of the nineteenth century' that 'embodied the belief that fiction could do what history and sociology could not: illuminate the subjective textures of social experience, the inner lives of people living under conditions they did not choose.'"
       }
     ]
   },
   {
-    "passageText": "Urban heat islands (UHIs) form when cities replace natural land cover with dense concentrations of pavement, buildings, and other materials that absorb and re-emit the sun's heat more than natural landscapes. The effect is well documented: urban cores can be 1–7°C warmer than surrounding rural areas, with the greatest divergence at night when urban materials release stored heat. The phenomenon has meaningful consequences for energy use, human health, and ecosystem function in cities.\n\nThe physical mechanisms driving UHIs are multiple. Dark impervious surfaces have lower albedo (reflectivity) than vegetated land, absorbing more solar radiation. Buildings and pavement have high thermal mass, storing heat during the day and releasing it at night. The geometry of street canyons traps longwave radiation that would otherwise escape to the atmosphere. Reduced vegetative cover means less evapotranspirative cooling — the process by which plants release water vapor, cooling the surrounding air. Finally, anthropogenic heat (from vehicles, air conditioning, and industry) adds directly to the thermal budget.\n\nMitigation strategies draw on understanding of these mechanisms. Cool roofs and pavements with high albedo reflect more solar radiation. Urban greening — including trees, parks, green roofs, and urban agriculture — restores evapotranspiration and shading. Urban form modifications (street orientation, building height-to-width ratios, and increased sky view factor) can improve nocturnal radiative cooling. Some cities have experimented with white-painted streets and water features.\n\nThe equity dimensions of UHI are often overlooked. Lower-income neighborhoods tend to have less tree canopy, more impervious surface, and older, less efficient housing — all of which increase heat exposure. Studies consistently find that race and income are associated with differential heat exposure within cities. Mitigation investment focused on the most affected neighborhoods can simultaneously address environmental justice and resilience goals, though greening efforts carry the risk of contributing to gentrification by increasing property values.",
+    "passageText": "The concept of 'biodiversity' entered scientific and public discourse in the 1980s, gaining urgency as the scale of species loss became apparent. Edward O. Wilson, who helped popularize the term, argued that biodiversity loss represents a civilizational crisis: not merely the loss of individual species but the unraveling of the ecological webs on which all life—including human civilization—depends. The current rate of extinction, estimated at 100 to 1000 times the background rate, has led many scientists to declare a 'sixth mass extinction.'\n\nThe economic case for biodiversity conservation, developed under the framework of 'ecosystem services,' attempts to make biodiversity legible in the language of markets. Clean water, carbon sequestration, pollination of food crops, disease regulation, and pharmaceutical discovery—all depend on functioning ecosystems. The Millennium Ecosystem Assessment (2005) estimated the economic value of ecosystem services in the trillions of dollars annually. By translating nature into economic value, the ecosystem services framework aims to make conservation legible to policy-makers and investors who respond to economic signals.\n\nCritics of this approach argue that it commodifies nature in ways that are both intellectually misleading and practically dangerous. If nature's value is its utility to human beings, then it follows that once ecosystem services can be replicated technologically—through water treatment plants, synthetic pollinators, and direct air carbon capture—nature becomes expendable. Furthermore, assigning economic values to ecosystem services is technically fraught: how do you price the 'existence value' of a species that no one directly uses? The valuation exercises tend to reflect the economic preferences of wealthy societies, systematically undervaluing the services on which poor communities most depend.\n\nThe alternative, intrinsic value approach holds that species and ecosystems have value independent of their utility to humans. Deep ecologists like Arne Næss and biocentrists like Paul Taylor argue that anthropocentric ethics is fundamentally misguided: what grounds the assumption that only human beings or human-relevant values matter? This view has deep resonances with many indigenous worldviews, in which humans are participants in ecological communities rather than managers of natural resources.\n\nThe governance of biodiversity conservation is correspondingly contested. Protected areas ('fortress conservation') have historically been created by displacing indigenous communities who had maintained ecosystems for millennia. The Convention on Biological Diversity and the Kunming-Montreal Global Biodiversity Framework (2022) attempt to integrate indigenous and local knowledge and rights into conservation governance—a significant normative shift, though implementation remains challenging.",
     "questions": [
       {
-        "text": "According to the passage, which process contributes to the urban heat island effect by reducing a natural cooling mechanism?",
+        "text": "The 'ecosystem services' framework attempts to make biodiversity conservation appealing to policy-makers by:",
         "options": [
-          "High albedo of urban surfaces",
-          "Reduced evapotranspiration due to less vegetation",
-          "Increased sky view factor in urban canyons",
-          "Lower thermal mass of building materials"
+          "Arguing that species have intrinsic value independent of human use",
+          "Translating nature's value into economic terms — quantifying services like clean water, pollination, and carbon sequestration in trillions of dollars so conservation becomes legible to market-oriented decision makers",
+          "Establishing legally enforceable rights for non-human species",
+          "Demonstrating the cultural significance of biodiversity to indigenous communities"
         ],
         "correct": 1,
-        "explanation": "The passage states that 'reduced vegetative cover means less evapotranspirative cooling — the process by which plants release water vapor, cooling the surrounding air.' This removal of vegetation eliminates a natural cooling mechanism. Urban surfaces actually have LOW albedo (not high), and the passage says building materials have HIGH thermal mass."
+        "explanation": "The passage states: 'By translating nature into economic value, the ecosystem services framework aims to make conservation legible to policy-makers and investors who respond to economic signals.'"
       },
       {
-        "text": "The passage suggests that the UHI effect is greatest at night because:",
+        "text": "Which criticism of the ecosystem services framework is most clearly articulated in the passage?",
         "options": [
-          "Solar radiation is absent at night, making albedo irrelevant",
-          "Urban materials store heat during the day and release it at night",
-          "Anthropogenic heat production is highest at night",
-          "Evapotranspiration ceases after sunset"
+          "It overestimates the economic value of biodiversity conservation",
+          "It commodifies nature — implying that once technological substitutes exist, nature becomes expendable; it also reflects wealthy societies' preferences, undervaluing services on which poor communities depend; and existence values are technically impossible to price accurately",
+          "It ignores the contributions of indigenous communities to conservation",
+          "It relies on overly optimistic assumptions about the rate of extinction"
         ],
         "correct": 1,
-        "explanation": "The passage states that cities are warmest 'with the greatest divergence at night when urban materials release stored heat.' The mechanism is the high thermal mass of buildings and pavement — they store solar energy during daylight and release it slowly after sunset."
+        "explanation": "The passage states critics argue it 'commodifies nature'; 'if ecosystem services can be replicated technologically...nature becomes expendable'; 'how do you price the existence value of a species that no one directly uses?'; and 'the valuation exercises tend to reflect the economic preferences of wealthy societies, systematically undervaluing the services on which poor communities most depend.'"
       },
       {
-        "text": "The author characterizes the equity dimensions of UHI as:",
+        "text": "The 'intrinsic value' approach differs from the ecosystem services approach in that it holds:",
         "options": [
-          "The primary focus of urban climate policy",
-          "Unrelated to race and income",
-          "Often overlooked, with lower-income and minority communities bearing disproportionate heat exposure",
-          "Fully addressed by existing mitigation strategies"
+          "That biodiversity is valuable only because it can be used by humans",
+          "That species and ecosystems have value independent of their utility to human beings — rejecting anthropocentric ethics as fundamentally misguided and resonating with indigenous worldviews in which humans are participants in ecological communities, not managers",
+          "That economic valuation is the most effective tool for conservation policy",
+          "That technological substitutes can fully replace ecosystem services"
         ],
-        "correct": 2,
-        "explanation": "The passage opens the final paragraph by stating the equity dimensions 'are often overlooked' and that 'studies consistently find that race and income are associated with differential heat exposure within cities.' This characterizes the issue as neglected and inequitably distributed."
+        "correct": 1,
+        "explanation": "The passage states: 'The alternative, intrinsic value approach holds that species and ecosystems have value independent of their utility to humans.' Deep ecologists 'argue that anthropocentric ethics is fundamentally misguided.'"
       },
       {
-        "text": "Which of the following mitigation strategies described in the passage works by the same mechanism as natural vegetation?",
+        "text": "The passage identifies 'fortress conservation' as problematic because:",
         "options": [
-          "Cool roofs with high albedo",
-          "White-painted streets",
-          "Green roofs and urban agriculture",
-          "Modified street canyon geometry"
+          "It is too expensive to maintain protected areas over long timescales",
+          "Protected areas have historically been created by displacing indigenous communities who had maintained ecosystems for millennia — a form of conservation that harms the people most knowledgeable about and dependent on those ecosystems",
+          "It prevents economic development that would otherwise benefit local populations",
+          "It focuses on too few species rather than whole-ecosystem approaches"
         ],
-        "correct": 2,
-        "explanation": "The passage identifies vegetation's cooling mechanism as evapotranspiration (and shading). Green roofs and urban agriculture restore these same mechanisms — they are vegetated surfaces. Cool roofs and white streets work by increased albedo. Street canyon geometry works by improving radiative cooling."
+        "correct": 1,
+        "explanation": "The passage states: 'Protected areas (fortress conservation) have historically been created by displacing indigenous communities who had maintained ecosystems for millennia.'"
+      },
+      {
+        "text": "Wilson's claim about biodiversity loss is that it represents:",
+        "options": [
+          "A manageable problem that technology will solve",
+          "A civilizational crisis — not just the loss of individual species but the unraveling of ecological webs on which all life depends, with current extinction rates 100–1000 times the background rate suggesting a 'sixth mass extinction'",
+          "A primarily economic problem about the value of ecosystem services",
+          "A scientific concern but not yet at crisis levels"
+        ],
+        "correct": 1,
+        "explanation": "The passage states Wilson 'argued that biodiversity loss represents a civilizational crisis: not merely the loss of individual species but the unraveling of the ecological webs on which all life—including human civilization—depends.'"
+      },
+      {
+        "text": "Based on the passage, the Kunming-Montreal Global Biodiversity Framework (2022) represents which type of shift?",
+        "options": [
+          "A move away from protected areas toward purely economic incentives for conservation",
+          "A normative shift attempting to integrate indigenous and local knowledge and rights into conservation governance — recognizing the failures of fortress conservation, though implementation challenges remain",
+          "The replacement of the ecosystem services framework with an intrinsic value approach",
+          "A commitment to eliminating all human use of biodiversity for conservation purposes"
+        ],
+        "correct": 1,
+        "explanation": "The passage states the framework attempts 'to integrate indigenous and local knowledge and rights into conservation governance—a significant normative shift, though implementation remains challenging.'"
       }
     ]
   }

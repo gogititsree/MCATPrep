@@ -1,170 +1,214 @@
 [
   {
-    "passageText": "The concept of epigenetics — heritable changes in gene expression that do not involve alterations to the DNA sequence — has transformed how biologists think about development, disease, and evolution. For much of the twentieth century, the central dogma of molecular biology implied a one-way information flow from DNA to RNA to protein, and the genome was treated as a fixed blueprint largely immune to environmental influence during an individual's lifetime.\n\nEpigenetic mechanisms — including DNA methylation, histone modification, and non-coding RNA regulation — provide a layer of regulatory complexity above the sequence. Methylation of cytosine residues at CpG dinucleotides typically silences gene expression, while acetylation of histone tails loosens chromatin structure and promotes transcription. These marks are established during development, responsive to environmental signals, and in some cases transmitted across generations.\n\nThe possibility of transgenerational epigenetic inheritance challenges Weismann's barrier — the principle that information flows only from germline to soma, not in reverse. Studies in plants and invertebrates provide relatively clear evidence for epigenetic transmission through reproduction. The evidence in mammals is more contested. The agouti mouse model, in which maternal diet during pregnancy alters coat color and disease susceptibility of offspring via DNA methylation of an inserted retrotransposon, has been widely cited. However, critics point out that confounds such as cytoplasmic factors, mitochondrial DNA, and microbiome transmission complicate interpretation.\n\nFor human health, epigenetic mechanisms offer a potential molecular explanation for the developmental origins of health and disease (DOHaD) hypothesis: early-life exposures (including in utero nutrition, stress, and toxins) program gene expression patterns that influence disease risk across the life course. This framework has significant implications for understanding health disparities, since socioeconomic disadvantage is associated with adverse epigenetic profiles. The concern is that attributing health disparities to epigenetics risks biological determinism — implying that social disadvantage becomes biologically 'fixed' — unless the reversibility of epigenetic marks is also emphasized.",
+    "passageText": "The concept of 'health literacy' — the capacity to obtain, process, and understand basic health information needed to make appropriate decisions — has become central to efforts to reduce health disparities. Patients with limited health literacy show worse chronic disease control, higher rates of emergency department use, lower medication adherence, and higher rates of hospitalization. Yet the discourse around health literacy has not escaped critique.\n\nThe dominant model frames health literacy as a deficit residing in individual patients — a property that some patients lack and need to acquire. Interventions typically target patient education: simplifying written materials, reducing jargon, using plain language and visual aids. This framework treats the healthcare system as a neutral information environment and patients as deficient information processors who need to be brought up to a standard. Critics, drawing on a social determinants framework, argue that this framing mislocates the problem: literacy is a relational property between people and the specific communicative demands placed on them, not a fixed attribute of individuals.\n\nAn alternative framework — 'organizational health literacy' — holds that healthcare systems themselves should be restructured to require lower literacy demands. Rather than changing patients, this approach focuses on: simplifying the complexity of health systems (reducing bureaucratic barriers to care navigation), ensuring providers communicate clearly without assuming baseline knowledge, and designing health encounters so that patients can participate as partners rather than passive recipients. The Institute of Medicine's report Patients Should Not Have to Ask recommended that health systems confirm patient understanding rather than simply providing information.\n\nBeyond communication, scholars have pointed to 'critical health literacy' — the capacity not just to access and understand health information, but to critically analyze it and use it to exert greater control over one's health and the social and political determinants that shape health. Critical health literacy moves from individual empowerment toward collective action, recognizing that many health problems cannot be resolved by individuals alone but require changes in social structures — food environments, housing, occupational exposures.\n\nThe relationship between health literacy and health disparities is bidirectional: lower SES predicts lower health literacy (due to educational inequalities), while lower health literacy contributes to poorer health outcomes that deepen socioeconomic disadvantage. Addressing health literacy requires attention to both the individual communication encounter and the structural conditions that shape literacy development and healthcare experiences.",
     "questions": [
       {
-        "text": "The author mentions 'Weismann's barrier' primarily to:",
+        "text": "The 'deficit model' of health literacy, as described in the passage, locates the problem primarily:",
         "options": [
-          "Explain why DNA methylation silences gene expression",
-          "Provide context for why transgenerational epigenetic inheritance is theoretically controversial",
-          "Argue that environmental factors cannot influence the germline",
-          "Support the central dogma of molecular biology"
+          "In the complexity of healthcare systems and provider communication",
+          "In individual patients who lack the capacity to obtain, process, and understand health information — treating literacy as a patient property rather than a relational property between people and communicative demands; interventions target patient education rather than system redesign",
+          "In the relationship between socioeconomic status and educational attainment",
+          "In the technical vocabulary used in medical research publications"
         ],
         "correct": 1,
-        "explanation": "Weismann's barrier is introduced immediately before the discussion of transgenerational epigenetic inheritance as a challenge, framing why such inheritance would be theoretically significant. The author uses it to set up the debate about whether epigenetic marks can be transmitted across generations."
+        "explanation": "The passage states the dominant model 'frames health literacy as a deficit residing in individual patients...Interventions typically target patient education.' Critics argue this 'mislocates the problem': literacy is relational, not an individual fixed attribute."
       },
       {
-        "text": "Based on the passage, which of the following represents the strongest evidence cited for transgenerational epigenetic inheritance?",
+        "text": "The organizational health literacy framework differs from the deficit model in that it:",
         "options": [
-          "DNA methylation at CpG sites in somatic cells",
-          "The agouti mouse model linking maternal diet to offspring phenotype",
-          "Human studies on socioeconomic disadvantage and disease risk",
-          "Histone acetylation and chromatin structure changes"
+          "Places equal blame on patients and providers for communication failures",
+          "Focuses on restructuring health systems to lower literacy demands — simplifying bureaucratic barriers, improving provider communication, designing encounters as partnerships — rather than changing patients to meet existing system demands",
+          "Advocates exclusively for increasing patient education programs",
+          "Focuses only on written health materials (brochures, consent forms)"
         ],
         "correct": 1,
-        "explanation": "The passage states the agouti mouse model 'has been widely cited' in the context of evidence for transgenerational inheritance. The passage explicitly notes that evidence in mammals is contested, but the agouti model is presented as the most discussed example."
+        "explanation": "The passage states: 'Rather than changing patients, this approach focuses on: simplifying the complexity of health systems...ensuring providers communicate clearly...designing health encounters so that patients can participate as partners.' The IOM recommendation is for systems to 'confirm patient understanding rather than simply providing information.'"
       },
       {
-        "text": "According to the passage, critics of the agouti mouse study argue that the findings:",
+        "text": "Critical health literacy, as described in the passage, extends beyond basic health literacy by:",
         "options": [
-          "Prove that Weismann's barrier is completely invalid",
-          "May be explained by non-epigenetic factors such as cytoplasmic inheritance, mitochondrial DNA, or microbiome transmission",
-          "Demonstrate irreversibility of epigenetic marks",
-          "Cannot be replicated in plants or invertebrates"
+          "Requiring patients to memorize medical terminology",
+          "Adding the capacity to critically analyze health information and use it to exert control over both individual health and the social/political determinants that shape health — moving from individual empowerment toward collective action and social change",
+          "Focusing exclusively on chronic disease self-management",
+          "Replacing the deficit model with an emphasis on genetic determinants of disease"
         ],
         "correct": 1,
-        "explanation": "The passage states that 'critics point out that confounds such as cytoplasmic factors, mitochondrial DNA, and microbiome transmission complicate interpretation.' These are alternative explanations that do not require epigenetic inheritance across generations."
+        "explanation": "The passage states critical health literacy involves 'the capacity not just to access and understand health information, but to critically analyze it and use it to exert greater control over one's health and the social and political determinants that shape health' — moving toward 'collective action' and 'changes in social structures.'"
       },
       {
-        "text": "The author's final concern about attributing health disparities to epigenetics suggests that the author believes:",
+        "text": "The passage argues that the relationship between health literacy and health disparities is 'bidirectional' because:",
         "options": [
-          "Epigenetics does not play a role in health disparities",
-          "Epigenetic explanations are more accurate than social explanations for health disparities",
-          "Overemphasizing epigenetic mechanisms could obscure the reversibility of social disadvantage's biological effects",
-          "Biological determinism is the most accurate framework for understanding disparities"
-        ],
-        "correct": 2,
-        "explanation": "The passage raises concern that attributing disparities to epigenetics 'risks biological determinism — implying that social disadvantage becomes biologically fixed — unless the reversibility of epigenetic marks is also emphasized.' This implies the author is warning against an overly deterministic reading, not rejecting the epigenetic framework altogether."
-      },
-      {
-        "text": "How does the author characterize the current evidence for transgenerational epigenetic inheritance in mammals compared to plants and invertebrates?",
-        "options": [
-          "The mammalian evidence is clearer and more convincing",
-          "The mammalian evidence is more contested, while plant and invertebrate evidence is relatively clear",
-          "Both are equally contested",
-          "Neither has any credible supporting evidence"
+          "Health literacy affects both physical and mental health outcomes",
+          "Lower SES predicts lower health literacy (through educational inequality), and lower health literacy predicts worse health outcomes that deepen socioeconomic disadvantage — a mutually reinforcing cycle, not a simple linear causal chain",
+          "Both patients and providers contribute to health literacy gaps",
+          "Health disparities affect some conditions more than others"
         ],
         "correct": 1,
-        "explanation": "The passage explicitly states: 'Studies in plants and invertebrates provide relatively clear evidence for epigenetic transmission through reproduction. The evidence in mammals is more contested.' This is a direct comparison made by the author."
+        "explanation": "The passage states: 'lower SES predicts lower health literacy (due to educational inequalities), while lower health literacy contributes to poorer health outcomes that deepen socioeconomic disadvantage.' This is a bidirectional, mutually reinforcing relationship."
+      },
+      {
+        "text": "Which of the following would the critics of the deficit model most likely support?",
+        "options": [
+          "Providing more patient education handouts written at a lower reading level",
+          "Redesigning appointment scheduling systems, consent forms, and care navigation to require minimal literacy — combined with training providers to communicate without jargon and confirm comprehension; addressing structural factors (SES, education) that shape literacy development",
+          "Requiring all patients to demonstrate health literacy before receiving treatment",
+          "Limiting complex procedures to patients with higher educational attainment"
+        ],
+        "correct": 1,
+        "explanation": "Critics who frame literacy as relational and advocate for organizational health literacy would support system redesign — reducing demands placed on patients rather than raising patients' capacities to meet existing demands. This aligns with the organizational health literacy and social determinants frameworks."
+      },
+      {
+        "text": "The passage implies that educational interventions targeting individual patient health literacy are:",
+        "options": [
+          "Completely ineffective and should be abandoned",
+          "Insufficient alone — they may help at the communication encounter level but do not address the relational nature of health literacy, the structural conditions (SES, educational inequality) that produce literacy differences, or the need for critical health literacy to address health's social determinants",
+          "The most effective approach to reducing health disparities across all populations",
+          "Only appropriate for patients with formal education below the 6th-grade level"
+        ],
+        "correct": 1,
+        "explanation": "The passage presents individual education interventions as the dominant approach but critiques them for mislocating the problem in patients. Addressing health literacy requires 'attention to both the individual communication encounter and the structural conditions that shape literacy development and healthcare experiences' — individual education is insufficient alone."
       }
     ]
   },
   {
-    "passageText": "Philosophy of mind has long grappled with what David Chalmers called the 'hard problem of consciousness': explaining why and how physical processes in the brain give rise to subjective, first-person experience — the redness of red, the painfulness of pain, the qualitative character that philosophers call 'qualia.' The easy problems of consciousness (accounting for cognitive functions, attention, integration of information, reportability of mental states) are tractable in principle through neuroscience and cognitive science. The hard problem is different in kind.\n\nFunctionalists hold that mental states are defined by their causal-functional roles — their relationships to inputs, outputs, and other mental states — rather than by their physical substrate. On this view, any system that instantiates the right functional organization would be conscious, whether implemented in neurons, silicon, or any other medium. Critics argue that functionalism cannot account for qualia: two systems could be functionally identical yet differ in subjective experience (inverted qualia thought experiment), or a system could perform all the right functions while having no inner experience at all (the zombie argument).\n\nPhysicalists respond that intuitions about zombies are systematically misleading — perhaps because our introspective access to our own mental states is unreliable, or because conceivability does not entail metaphysical possibility. Illusionism (Frankish) takes a more radical position: rather than explaining how qualia arise, illusionism holds that the phenomenal properties we introspect are themselves the products of a representational illusion. We don't have rich subjective experience; we represent ourselves as having it.\n\nThe debate has practical stakes. If consciousness can arise in any functional system, then sufficiently sophisticated AI systems might be conscious, with implications for moral status. If consciousness requires biological substrates, AI cannot be conscious regardless of behavioral sophistication. Resolving the hard problem may require either new scientific conceptual frameworks or a revision of our intuitions about what genuine explanation requires.",
+    "passageText": "The philosophical debate over free will and moral responsibility has ancient roots but takes on new urgency in the age of neuroscience. Hard determinism holds that all events, including human choices, are causally necessitated by prior events; given this, free will is an illusion and moral responsibility is incoherent. Libertarianism (in the metaphysical sense, not the political one) holds that some human choices are genuinely uncaused or self-caused, providing the freedom that grounds moral responsibility. Compatibilism occupies the middle ground: free will and determinism are compatible — indeed, the kind of freedom required for moral responsibility does not require the absence of causal determination.\n\nThe compatibilist tradition, from Hume through Frankfurt to P.F. Strawson, defines free will not as freedom from causation but as freedom from coercion, compulsion, and internal compulsion — acting in accordance with one's own desires and values, without external force or internal pathology. Frankfurt's influential analysis adds: a person acts freely when they act on a desire they reflectively endorse at a higher level — when their 'will' (effective first-order desire) matches their 'second-order volition' (what they want their will to be). A willing addict, who desires to desire their drug, differs from an unwilling addict, who acts on a drug desire they reflectively reject.\n\nNeuroscientific challenges to free will became prominent after Benjamin Libet's experiments in the 1980s. Libet found that a readiness potential (electrical brain activity preceding voluntary movement) appeared ~500ms before participants reported conscious awareness of their intention to move. The implication drawn: unconscious brain processes initiate actions before consciousness 'decides' — consciousness may be an epiphenomenon, not a cause. However, critics noted that Libet's findings concern the timing of awareness of intention, not the absence of voluntary control. Libet himself noted a 'veto' window: participants could consciously inhibit the movement up to about 200ms before execution.\n\nP.F. Strawson's 'reactive attitudes' approach relocates the question from metaphysics to interpersonal practice. What grounds moral responsibility, on Strawson's view, is not the metaphysical truth about determinism but the web of attitudes — resentment, gratitude, indignation, love — that constitute interpersonal relationships. We hold people responsible because we are reactive to their attitudes of goodwill or ill will; when we adopt the 'objective stance' (treating someone as an object to be managed rather than an agent to be engaged), we step outside the reactive framework. Determinism, Strawson argued, could not give us reason to universally adopt the objective stance, because the reactive attitudes are not optional responses to a theory of freedom — they are constitutive of human relationships.",
     "questions": [
       {
-        "text": "The 'hard problem' of consciousness is distinguished from the 'easy problems' in the passage because:",
+        "text": "Frankfurt's analysis of free will adds which condition to traditional compatibilism?",
         "options": [
-          "The hard problem is unsolvable while the easy problems have been solved",
-          "The hard problem concerns subjective experience, while easy problems concern cognitive and behavioral functions tractable by science",
-          "The hard problem is less important to neuroscience than the easy problems",
-          "Easy problems are about brain anatomy while the hard problem is about psychology"
+          "Actions must be unpredictable to count as free",
+          "A person acts freely when their effective first-order desire (will) matches their second-order volition (what they want their will to be) — the willing addict's desire is endorsed at a higher level; the unwilling addict acts on a desire they reflectively reject (wishing they didn't have it)",
+          "Freedom requires the absence of unconscious brain processes influencing behavior",
+          "A person must be consciously aware of all the causes of their action for it to count as free"
         ],
         "correct": 1,
-        "explanation": "The passage says easy problems (cognitive functions, attention, reportability) are 'tractable in principle through neuroscience and cognitive science,' while the hard problem — why physical processes give rise to subjective experience — 'is different in kind.' The distinction is about type of explanation needed, not solubility."
+        "explanation": "The passage states Frankfurt's analysis: 'a person acts freely when they act on a desire they reflectively endorse at a higher level — when their will (effective first-order desire) matches their second-order volition (what they want their will to be).' The willing/unwilling addict distinction illustrates this."
       },
       {
-        "text": "According to the passage, what is the primary objection to functionalism as a theory of consciousness?",
+        "text": "The most significant criticism of the implications drawn from Libet's experiments is that:",
         "options": [
-          "Functionalism requires a biological substrate for consciousness",
-          "Functionalism cannot explain why functional organization should produce subjective experience (qualia)",
-          "Functionalism is inconsistent with neuroscience",
-          "Functionalism denies that consciousness exists"
+          "The readiness potential does not actually precede conscious awareness of intention",
+          "Libet's findings concern the timing of conscious awareness of intention, not the absence of voluntary control — they don't show that conscious processes never influence action; Libet himself noted a 'veto' window allowing conscious inhibition",
+          "Libet's sample size was too small to draw conclusions",
+          "The experiments only apply to simple motor movements, not complex decisions"
         ],
         "correct": 1,
-        "explanation": "Critics of functionalism argue it 'cannot account for qualia' — two functionally identical systems could differ in subjective experience (inverted qualia), or a system could be functional without any experience (zombies). The core objection is the explanatory gap between function and qualia."
+        "explanation": "The passage notes: 'critics noted that Libet's findings concern the timing of awareness of intention, not the absence of voluntary control. Libet himself noted a veto window: participants could consciously inhibit the movement up to about 200ms before execution.' The experiments don't establish that consciousness has no role in action."
       },
       {
-        "text": "Illusionism (as described in the passage) responds to the hard problem by:",
+        "text": "Strawson's 'reactive attitudes' approach relocates the free will debate from metaphysics to:",
         "options": [
-          "Arguing that qualia are physical properties of neurons",
-          "Accepting that qualia exist but are causally inert",
-          "Denying that phenomenal properties are real — they are products of a representational illusion",
-          "Arguing that AI systems can have qualia"
-        ],
-        "correct": 2,
-        "explanation": "The passage describes illusionism (Frankish) as holding that 'phenomenal properties we introspect are themselves the products of a representational illusion' and that 'we don't have rich subjective experience; we represent ourselves as having it.' This dissolves rather than solves the hard problem."
-      },
-      {
-        "text": "The passage suggests that if functionalism is correct, then:",
-        "options": [
-          "Only biological organisms can be conscious",
-          "Sufficiently sophisticated AI systems might be conscious and have moral status",
-          "Consciousness requires quantum processes in microtubules",
-          "The hard problem is unsolvable"
+          "Neuroscience — the physical correlates of freedom must be identified",
+          "Interpersonal practice — what grounds moral responsibility is the web of attitudes (resentment, gratitude, indignation) constitutive of human relationships; determinism cannot give us reason to universally abandon reactive attitudes because they are not responses to a theory but are constitutive of human life itself",
+          "Law — responsibility should be determined by courts rather than philosophers",
+          "Economics — the incentive structure of rewards and punishments is what matters for responsibility"
         ],
         "correct": 1,
-        "explanation": "The passage states: 'If consciousness can arise in any functional system, then sufficiently sophisticated AI systems might be conscious, with implications for moral status.' This follows directly from functionalism's claim that substrate is irrelevant — only functional organization matters."
+        "explanation": "The passage states: 'What grounds moral responsibility, on Strawson's view, is not the metaphysical truth about determinism but the web of attitudes — resentment, gratitude, indignation, love — that constitute interpersonal relationships.' Determinism 'could not give us reason to universally adopt the objective stance, because the reactive attitudes...are constitutive of human relationships.'"
+      },
+      {
+        "text": "Hard determinism differs from compatibilism in that hard determinism holds:",
+        "options": [
+          "Determinism is false — quantum indeterminacy shows that not all events are causally necessitated",
+          "That determinism IS true AND that it IS incompatible with free will and moral responsibility — both compatibilism (free will and determinism are compatible) and libertarianism (some choices are genuinely uncaused) are rejected",
+          "That moral responsibility is grounded in reactive attitudes rather than metaphysics",
+          "That consciousness is an epiphenomenon with no causal role in action"
+        ],
+        "correct": 1,
+        "explanation": "The passage states hard determinism: 'all events, including human choices, are causally necessitated by prior events; given this, free will is an illusion and moral responsibility is incoherent.' Compatibilism holds that free will and determinism are compatible. Hard determinism rejects this compatibility."
+      },
+      {
+        "text": "Based on the passage, the compatibilist would most likely respond to the hard determinist's challenge by arguing:",
+        "options": [
+          "Quantum mechanics shows that some physical events are genuinely indeterminate, preserving free will",
+          "The relevant sense of 'freedom' for moral responsibility is freedom from coercion, compulsion, and internal pathology — acting according to one's own endorsed desires — not freedom from causal determination; determinism is compatible with this freedom because causation through one's own character and values is precisely what freedom requires",
+          "Moral responsibility is a useful social fiction even if free will is an illusion",
+          "Brain processes that determine behavior are too complex to be fully deterministic"
+        ],
+        "correct": 1,
+        "explanation": "The passage describes compatibilism: freedom is 'freedom from coercion, compulsion, and internal compulsion — acting in accordance with one's own desires and values, without external force or internal pathology.' This does not require freedom from causal determination. Determinism through one's own character is compatible with this conception."
+      },
+      {
+        "text": "The 'objective stance' that Strawson contrasts with reactive attitudes refers to:",
+        "options": [
+          "The scientific perspective on human behavior as the only valid framework",
+          "Treating a person as an object to be managed (by therapy, medication, restraint, behavior modification) rather than as an agent whose attitudes of goodwill or ill will are responded to — we adopt this stance toward those we consider fully non-responsible (infants, the severely mentally ill)",
+          "The perspective of a neutral third-party observer without personal relationships",
+          "The compatibilist philosophical stance that evaluates freedom objectively"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'when we adopt the objective stance (treating someone as an object to be managed rather than an agent to be engaged), we step outside the reactive framework.' This contrasts with the reactive framework where we respond to others' attitudes of goodwill or ill will with corresponding attitudes."
       }
     ]
   },
   {
-    "passageText": "The history of antibiotic resistance illustrates how evolutionary pressures can generate rapid and consequential changes in microbial populations. When Alexander Fleming discovered penicillin in 1928 and mass production began in the 1940s, the drug seemed to offer near-miraculous cures for previously fatal bacterial infections. Within years, however, penicillin-resistant Staphylococcus aureus strains had emerged in hospitals. The development of methicillin in 1960 to combat penicillin-resistant staph was followed, within two years, by the first reports of methicillin-resistant Staphylococcus aureus (MRSA).\n\nThe evolutionary dynamics of resistance are well understood. In any bacterial population, individual cells vary genetically. Antibiotic treatment creates intense selective pressure, eliminating susceptible cells while any cells harboring resistance mechanisms survive and proliferate. Resistance can arise de novo through spontaneous mutation, or can be acquired via horizontal gene transfer — plasmids, transposons, and bacteriophage-mediated transduction can rapidly distribute resistance genes across species boundaries. This horizontal transfer is particularly alarming because it can move resistance determinants between clinically significant pathogens in ways that vertical (parent-to-offspring) evolution alone could not achieve in relevant time frames.\n\nThe problem of antibiotic resistance is compounded by the economics of pharmaceutical development. Antibiotics are taken briefly and must be sold cheaply; return on investment is modest compared to drugs for chronic conditions. The WHO has classified antibiotic resistance as one of the greatest threats to global health, yet the development pipeline for novel antibiotics has thinned dramatically since the 1980s. Several approaches have been proposed: antibiotic stewardship programs to reduce inappropriate use; restrictions on agricultural antibiotic use (antibiotics are used extensively in livestock to promote growth); and new incentive structures for pharmaceutical companies, including market-entry rewards decoupled from sales volume.\n\nSome researchers advocate returning to bacteriophage therapy — using viruses that kill specific bacteria — as an alternative or supplement to antibiotics. Phage therapy was widely used in Eastern Europe and the Soviet Union during the twentieth century but largely abandoned in the West after antibiotics proved more reliable. Modern phage therapy has the advantage of targeting specific pathogens (minimizing collateral damage to the microbiome) but faces regulatory challenges because phage preparations must often be customized for individual patients.",
+    "passageText": "The digital transformation of news media has fundamentally altered the economics of journalism and, with it, the conditions under which democratic publics receive information about the world. The decline of advertising revenue — which migrated to platforms like Google and Facebook — has devastated local news especially. Between 2008 and 2020, American newsrooms lost approximately 57% of their reporting workforce. More than 1,800 local newspapers closed. In communities without local journalism, research has documented reduced civic participation, lower voter turnout, higher local government borrowing costs (because investors lack information about fiscal governance), and greater political polarization.\n\nThe platforms that absorbed advertising revenue simultaneously became the dominant distribution channels for news, introducing new logics of attention and engagement. Algorithmic curation optimizes for engagement — clicks, shares, comments — rather than civic information value. Research on social media algorithm design shows that content provoking emotional reactions (anger, fear, outrage) generates more engagement than calm, accurate reporting. Content that is false or sensationalized spreads faster and more widely than accurate content (Vosoughi et al., Science, 2018). The result, critics argue, is a media ecosystem that monetizes emotional arousal rather than informed understanding.\n\nThe concentration of digital attention in a small number of platform gatekeepers has also created new vulnerabilities to manipulation. State-sponsored disinformation campaigns exploit algorithmic amplification to spread narratives that degrade shared factual reality and generate distrust. The Internet Research Agency's 2016 operation demonstrated that relatively modest resources could exploit social media algorithms to amplify existing social divisions and generate voter suppression content.\n\nResponses to the crisis of democratic information have ranged across the political spectrum. Some advocate structural solutions: antitrust action against platform monopolies, public funding for local journalism (modeled on public broadcasting), journalism cooperatives, and nonprofit news models. Others focus on demand-side interventions: media literacy education, news label verification systems, and social media platform reforms to reduce algorithmic amplification of misinformation.\n\nSkeptics of platform-focused solutions argue that the fundamental problem is audience fragmentation and motivated reasoning — people seek information that confirms their prior beliefs regardless of algorithmic design. This view suggests that even if platforms were redesigned to minimize sensationalism and prioritize accurate reporting, polarized audiences would migrate to alternative channels. The problem may be less a supply-side failure (platforms producing bad information) than a demand-side challenge (audiences preferring information that validates existing identities).",
     "questions": [
       {
-        "text": "The author uses the example of penicillin and MRSA primarily to:",
+        "text": "According to the passage, the decline of local news journalism has produced which consequences?",
         "options": [
-          "Criticize Fleming for not anticipating resistance",
-          "Illustrate the speed with which antibiotic resistance can emerge after a new drug's introduction",
-          "Argue that antibiotics should never have been developed",
-          "Explain the chemistry of methicillin"
+          "Only reduced voter turnout and civic participation",
+          "Multiple consequences: reduced civic participation, lower voter turnout, higher local government borrowing costs (investors lack fiscal governance information), and greater political polarization — a broad civic impact beyond just information access",
+          "Primarily financial costs but no effect on political behavior",
+          "Only increased polarization, with no effect on government accountability"
         ],
         "correct": 1,
-        "explanation": "The passage uses the timeline — penicillin in the 1940s, resistance within years; methicillin in 1960, MRSA within two years — to illustrate how quickly resistance evolves. This sets up the broader evolutionary discussion. There is no criticism of Fleming's foresight."
+        "explanation": "The passage lists multiple consequences of local news decline: 'reduced civic participation, lower voter turnout, higher local government borrowing costs (because investors lack information about fiscal governance), and greater political polarization.'"
       },
       {
-        "text": "According to the passage, horizontal gene transfer is particularly alarming in the context of antibiotic resistance because:",
+        "text": "The finding by Vosoughi et al. (2018) is cited in the passage to support which claim?",
         "options": [
-          "It occurs only within a single species",
-          "It allows resistance genes to spread across species boundaries faster than vertical evolution could",
-          "It requires antibiotic exposure to occur",
-          "It only moves resistance genes through bacteriophages"
+          "That social media users prefer accurate information but cannot distinguish it from false content",
+          "That false or sensationalized content spreads faster and more widely on social media than accurate content — supporting the critique that algorithmic optimization for engagement creates a media ecosystem that monetizes emotional arousal over informed understanding",
+          "That algorithms have no systematic effect on information spread",
+          "That platform companies deliberately suppress accurate journalism"
         ],
         "correct": 1,
-        "explanation": "The passage states horizontal transfer 'can move resistance determinants between clinically significant pathogens in ways that vertical evolution alone could not achieve in relevant time frames.' The key concern is cross-species spread at speed that exceeds what mutation and vertical inheritance could accomplish."
+        "explanation": "The passage states: 'Content that is false or sensationalized spreads faster and more widely than accurate content (Vosoughi et al., Science, 2018). The result, critics argue, is a media ecosystem that monetizes emotional arousal rather than informed understanding.'"
       },
       {
-        "text": "The passage suggests that the thin antibiotic development pipeline results primarily from:",
+        "text": "The passage presents two competing explanations for the democratic information crisis. These are:",
         "options": [
-          "A lack of scientific knowledge about new antibiotic targets",
-          "Government regulations preventing clinical trials",
-          "Economic disincentives: antibiotics generate modest returns compared to drugs for chronic conditions",
-          "The success of bacteriophage therapy as an alternative"
-        ],
-        "correct": 2,
-        "explanation": "The passage states: 'Antibiotics are taken briefly and must be sold cheaply; return on investment is modest compared to drugs for chronic conditions.' This economic argument explains the thin pipeline. The passage does not mention regulatory barriers to trials or suggest phage therapy has replaced antibiotics."
-      },
-      {
-        "text": "Based on the passage, which of the following is cited as an advantage of bacteriophage therapy over conventional antibiotics?",
-        "options": [
-          "Phages are cheaper to produce than antibiotics",
-          "Phages have a broader spectrum of activity than most antibiotics",
-          "Phages target specific pathogens, minimizing disruption to the microbiome",
-          "Phage therapy has been rigorously tested in Western clinical trials"
-        ],
-        "correct": 2,
-        "explanation": "The passage explicitly states that modern phage therapy has 'the advantage of targeting specific pathogens (minimizing collateral damage to the microbiome).' The passage does not compare production costs, does not claim broad spectrum activity (in fact the opposite — phages are specific), and notes that phage therapy faces regulatory challenges in the West."
-      },
-      {
-        "text": "Which of the following interventions mentioned in the passage addresses resistance at the level of reducing the selective pressure that drives resistance evolution?",
-        "options": [
-          "Market-entry rewards decoupled from sales volume",
-          "Antibiotic stewardship programs to reduce inappropriate use",
-          "Restricting pharmaceutical company profits",
-          "Developing phage therapy as an alternative"
+          "Platform design failures vs. advertising revenue decline",
+          "Supply-side failure (platforms producing bad information through algorithmic amplification of sensationalism and disinformation) vs. demand-side challenge (audiences prefer information that confirms existing identities regardless of platform design — motivated reasoning and audience fragmentation)",
+          "State-sponsored disinformation vs. domestic misinformation",
+          "Local news decline vs. national media concentration"
         ],
         "correct": 1,
-        "explanation": "Evolutionary dynamics of resistance are driven by antibiotic selective pressure eliminating susceptible bacteria. Stewardship programs reduce inappropriate use, thereby reducing selective pressure. Market-entry rewards address economic incentives for development; phage therapy is an alternative treatment — neither directly reduces selective pressure on existing antibiotics."
+        "explanation": "The passage explicitly frames this as: 'The problem may be less a supply-side failure (platforms producing bad information) than a demand-side challenge (audiences preferring information that validates existing identities).' These are the two competing explanations presented."
+      },
+      {
+        "text": "State-sponsored disinformation campaigns, as described in the passage, exploit which feature of social media platforms?",
+        "options": [
+          "The platforms' policies against foreign government advertising",
+          "Algorithmic amplification — algorithms designed to maximize engagement amplify emotionally provocative and divisive content; modest resources can generate outsized impact by exploiting these amplification dynamics to spread narratives and generate distrust",
+          "The platforms' ability to verify the identity of account holders",
+          "The geographic targeting capabilities of platform advertising systems"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'State-sponsored disinformation campaigns exploit algorithmic amplification to spread narratives that degrade shared factual reality and generate distrust.' The IRA 'could exploit social media algorithms to amplify existing social divisions.'"
+      },
+      {
+        "text": "Which of the following structural solutions does the passage describe as a response to the local journalism crisis?",
+        "options": [
+          "Government regulation of social media content moderation policies",
+          "Multiple structural approaches including antitrust action against platform monopolies, public funding for local journalism (modeled on public broadcasting), journalism cooperatives, and nonprofit news models",
+          "Requiring all news outlets to adopt fact-checking labels",
+          "Taxing digital platforms and redistributing funds to existing private newspapers"
+        ],
+        "correct": 1,
+        "explanation": "The passage lists structural responses: 'antitrust action against platform monopolies, public funding for local journalism (modeled on public broadcasting), journalism cooperatives, and nonprofit news models.' These contrast with demand-side interventions (media literacy, news labels, platform reforms)."
+      },
+      {
+        "text": "The skeptics of platform-focused solutions argue that even a well-designed platform would not solve the information crisis because:",
+        "options": [
+          "Platform companies cannot be trusted to implement genuine reforms",
+          "Polarized audiences engaging in motivated reasoning would migrate to alternative channels that provide identity-validating information — the problem is a demand-side challenge (what audiences want) rather than a supply-side failure that platform redesign could fix",
+          "Media literacy education is more effective than platform redesign",
+          "Antitrust action against platforms would reduce innovation and harm consumers"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Skeptics...argue that the fundamental problem is audience fragmentation and motivated reasoning — people seek information that confirms their prior beliefs regardless of algorithmic design. This view suggests that even if platforms were redesigned...polarized audiences would migrate to alternative channels.'"
       }
     ]
   }

@@ -225,195 +225,207 @@
     "difficulty": "medium"
   },
   {
-    "text": "Which quantum numbers specify an electron in the 3d subshell?",
+    "text": "A 2 kg block slides down a frictionless incline angled at 30° from horizontal. What is its acceleration?",
     "options": [
-      "n=2, l=3",
-      "n=3, l=1",
-      "n=3, l=3",
-      "n=3, l=2"
+      "9.8 m/s²",
+      "4.9 m/s²",
+      "8.5 m/s²",
+      "2.0 m/s²"
     ],
-    "correct": 3,
-    "explanation": "The principal quantum number n=3 designates the third shell, and the azimuthal quantum number l=2 designates a d subshell (l: 0=s, 1=p, 2=d, 3=f).",
+    "correct": 1,
+    "explanation": "On a frictionless incline, the net force along the surface is mg sin θ. Acceleration = g sin θ = 9.8 × sin 30° = 9.8 × 0.5 = 4.9 m/s². Note this is independent of mass. With friction, a = g(sin θ − μk cos θ).",
     "tags": [
-      "atomic-structure",
-      "quantum-numbers"
+      "physics",
+      "inclined plane",
+      "Newton's laws"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "Which element has the highest first ionization energy?",
+    "text": "Two identical capacitors are connected in parallel across a 12 V battery. If each has capacitance C = 3 μF, what is the total charge stored?",
     "options": [
-      "Kr",
-      "Ar",
-      "He",
-      "Ne"
+      "18 μC",
+      "72 μC",
+      "36 μC",
+      "6 μC"
     ],
-    "correct": 2,
-    "explanation": "Helium has the highest first ionization energy of all elements (~2372 kJ/mol) due to its small atomic radius and full 1s² shell with no shielding electrons.",
+    "correct": 1,
+    "explanation": "Capacitors in parallel: Ctotal = C1 + C2 = 3 + 3 = 6 μF. Total charge: Q = CV = 6 μF × 12 V = 72 μC. In parallel, voltage across each capacitor is equal to the battery voltage (12 V), but charge is additive (each stores 36 μC, for a total of 72 μC).",
     "tags": [
-      "periodic-trends",
-      "ionization-energy"
+      "physics",
+      "capacitors",
+      "electricity"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "Across a period from left to right, atomic radius generally:",
+    "text": "An electron moves through a magnetic field B = 0.5 T perpendicular to its velocity v = 2 × 10⁶ m/s. What is the magnetic force on the electron? (|q| = 1.6 × 10⁻¹⁹ C)",
     "options": [
-      "Increases due to more electron shells",
-      "Remains constant",
-      "Increases due to decreasing nuclear charge",
-      "Decreases due to increasing nuclear charge with same shielding"
-    ],
-    "correct": 3,
-    "explanation": "Across a period, nuclear charge increases while electrons are added to the same shell (minimal additional shielding), causing the electron cloud to contract.",
-    "tags": [
-      "periodic-trends",
-      "atomic-radius"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "The electron configuration of Fe²⁺ is:",
-    "options": [
-      "[Ar] 3d⁴",
-      "[Ar] 3d⁵ 4s¹",
-      "[Ar] 3d⁶",
-      "[Ar] 3d⁶ 4s²"
-    ],
-    "correct": 2,
-    "explanation": "Neutral Fe is [Ar] 3d⁶ 4s². When Fe loses 2 electrons to form Fe²⁺, the 4s electrons are removed first, leaving [Ar] 3d⁶.",
-    "tags": [
-      "electron-configuration",
-      "transition-metals"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which property generally increases going down a group in the periodic table?",
-    "options": [
-      "First ionization energy",
-      "Electronegativity",
-      "Electron affinity",
-      "Atomic radius"
-    ],
-    "correct": 3,
-    "explanation": "Atomic radius increases down a group because each successive element has an additional electron shell, increasing the distance between the nucleus and valence electrons.",
-    "tags": [
-      "periodic-trends",
-      "atomic-radius"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Hund's rule states that electrons will:",
-    "options": [
-      "Pair up in the lowest-energy orbital first",
-      "Fill orbitals in order of increasing n+l",
-      "Occupy the highest available energy orbitals first",
-      "Occupy degenerate orbitals singly before pairing, with parallel spins"
-    ],
-    "correct": 3,
-    "explanation": "Hund's rule states that for degenerate orbitals, electrons occupy each orbital singly with parallel (same) spins before any orbital is doubly occupied, minimizing electron repulsion.",
-    "tags": [
-      "electron-configuration",
-      "hunds-rule"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Which molecule has a trigonal bipyramidal electron geometry but a seesaw molecular geometry?",
-    "options": [
-      "ClF₃",
-      "PCl₅",
-      "SF₄",
-      "XeF₂"
-    ],
-    "correct": 2,
-    "explanation": "SF₄ has 5 electron domains around sulfur (4 bonding + 1 lone pair). The electron geometry is trigonal bipyramidal, and the lone pair in an equatorial position gives a seesaw molecular shape.",
-    "tags": [
-      "vsepr",
-      "molecular-geometry"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The bond angle in water (H₂O) is approximately 104.5°, which is less than the ideal tetrahedral angle of 109.5° because:",
-    "options": [
-      "O-H bonds are longer than expected",
-      "Water forms a linear geometry",
-      "Lone pairs exert greater repulsion than bonding pairs",
-      "Hydrogen is highly electronegative"
-    ],
-    "correct": 2,
-    "explanation": "Lone pairs occupy more space than bonding pairs because they are not constrained between two nuclei. The two lone pairs on oxygen push the bonding pairs closer together, reducing the H-O-H angle to ~104.5°.",
-    "tags": [
-      "vsepr",
-      "water"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which of the following exhibits the strongest intermolecular forces?",
-    "options": [
-      "HF",
-      "H₂S",
-      "HCl",
-      "PH₃"
+      "1.6 × 10⁻¹³ N",
+      "0 N (magnetic fields do no work)",
+      "3.2 × 10⁻¹³ N",
+      "8 × 10⁻¹⁴ N"
     ],
     "correct": 0,
-    "explanation": "HF can form hydrogen bonds (H bonded to highly electronegative F) which are the strongest intermolecular forces among these options. HCl, H₂S, and PH₃ have only dipole-dipole interactions and London dispersion forces.",
+    "explanation": "Magnetic force: F = qvB sin θ = (1.6 × 10⁻¹⁹)(2 × 10⁶)(0.5)(sin 90°) = 1.6 × 10⁻¹³ N. The force is centripetal (perpendicular to velocity), so it changes direction but not speed, causing circular motion. The magnetic force does no work (F ⊥ v), so the electron's kinetic energy is unchanged.",
     "tags": [
-      "intermolecular-forces",
-      "hydrogen-bonding"
+      "physics",
+      "magnetism",
+      "charged particles"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "In an sp³ hybridized carbon, the orbitals point towards the corners of:",
+    "text": "A transformer has 100 turns in the primary coil and 500 turns in the secondary. If the primary voltage is 120 V, what is the secondary voltage?",
     "options": [
-      "An octahedron",
-      "A square",
-      "A tetrahedron",
-      "A triangle"
+      "24 V",
+      "600 V",
+      "120 V",
+      "6000 V"
     ],
-    "correct": 2,
-    "explanation": "sp³ hybridization combines one s orbital and three p orbitals to create four equivalent hybrid orbitals directed toward the corners of a regular tetrahedron at 109.5° angles.",
+    "correct": 1,
+    "explanation": "Transformer equation: Vs/Vp = Ns/Np → Vs = Vp × (Ns/Np) = 120 × (500/100) = 120 × 5 = 600 V. This is a step-up transformer. An ideal transformer conserves power: Vp × Ip = Vs × Is, so the secondary current is reduced by the same factor (Is = Ip/5). Step-down transformers are used in power distribution; step-up transformers in transmission lines.",
     "tags": [
-      "hybridization",
-      "bonding"
+      "physics",
+      "electromagnetism",
+      "transformers"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "Which bond is the shortest?",
+    "text": "A gas in a piston-cylinder undergoes an adiabatic compression. Which of the following correctly describes this process?",
     "options": [
-      "C-C",
-      "C=C",
-      "C-N",
-      "C≡C"
+      "Q = 0; the internal energy decreases and temperature drops",
+      "Q = 0; work is done ON the gas, increasing its internal energy and temperature: ΔU = −W (first law, where W is work done BY the gas, which is negative when compressed)",
+      "Q = W; temperature remains constant",
+      "ΔU = 0; all energy is released as heat"
     ],
-    "correct": 3,
-    "explanation": "Triple bonds have the highest bond order, which results in the shortest and strongest bond. C≡C (~120 pm) < C=C (~134 pm) < C-C (~154 pm). C-N is a single bond (~147 pm) and longer than C≡C.",
+    "correct": 1,
+    "explanation": "Adiabatic process: Q = 0 (no heat exchange). First law: ΔU = Q − W = 0 − W = −W. During compression, work is done ON the gas (W < 0 using sign convention for work done BY the gas), so ΔU > 0 and temperature rises. Diesel engines use adiabatic compression to ignite fuel without a spark plug. Adiabatic expansion cools gas (basis of refrigeration, atmospheric cooling of rising air).",
     "tags": [
-      "chemical-bonding",
-      "bond-length"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Formal charge on nitrogen in NH₄⁺ is:",
-    "options": [
-      "+2",
-      "-1",
-      "0",
-      "+1"
-    ],
-    "correct": 3,
-    "explanation": "Formal charge = valence electrons - nonbonding electrons - (½ × bonding electrons). For N in NH₄⁺: 5 - 0 - (½ × 8) = 5 - 0 - 4 = +1.",
-    "tags": [
-      "formal-charge",
-      "bonding"
+      "physics",
+      "thermodynamics",
+      "adiabatic process"
     ],
     "difficulty": "medium"
+  },
+  {
+    "text": "An ideal gas at constant pressure (isobaric process) is heated from 300 K to 600 K. By what factor does its volume change?",
+    "options": [
+      "Volume doubles",
+      "Volume quadruples",
+      "Volume is unchanged",
+      "Volume halves"
+    ],
+    "correct": 0,
+    "explanation": "Charles's Law (isobaric): V/T = constant. V₁/T₁ = V₂/T₂ → V₂ = V₁ × (T₂/T₁) = V₁ × (600/300) = 2V₁. The volume doubles when absolute temperature doubles at constant pressure. This is the basis of hot air balloons (heating air at constant atmospheric pressure expands volume, reducing density below surrounding air).",
+    "tags": [
+      "physics",
+      "thermodynamics",
+      "ideal gas law"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The phenomenon of total internal reflection requires that light travel from:",
+    "options": [
+      "A medium of low refractive index to high refractive index at any angle",
+      "A denser (higher n) medium to a less dense (lower n) medium at an angle greater than or equal to the critical angle (θc = arcsin[n₂/n₁])",
+      "Any medium to vacuum at exactly 45°",
+      "Air to glass at angles greater than 45°"
+    ],
+    "correct": 1,
+    "explanation": "Total internal reflection (TIR) occurs when light attempts to cross from a high-n to a low-n medium at an angle ≥ the critical angle. At θc, refracted light travels along the interface (θrefracted = 90°). Above θc, all light is reflected back. Applications: optical fiber communication (light bounces along fiber core), endoscopes, prisms replacing mirrors in cameras. For water-air: θc = arcsin(1/1.33) ≈ 48.8°.",
+    "tags": [
+      "physics",
+      "optics",
+      "total internal reflection"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A concave mirror has a focal length of 20 cm. An object is placed 30 cm in front of it. Where is the image formed?",
+    "options": [
+      "60 cm in front of the mirror (real, inverted)",
+      "60 cm behind the mirror (virtual, upright)",
+      "20 cm in front of the mirror (at the focal point)",
+      "15 cm in front of the mirror"
+    ],
+    "correct": 0,
+    "explanation": "Mirror equation: 1/f = 1/do + 1/di → 1/20 = 1/30 + 1/di → 1/di = 1/20 − 1/30 = 3/60 − 2/60 = 1/60 → di = 60 cm. Positive di means the image is in front of the mirror (real, since concave mirrors form real images when object is beyond focal point). Magnification = −di/do = −60/30 = −2 (inverted, 2× enlarged). Used in telescopes, satellite dishes, headlights.",
+    "tags": [
+      "physics",
+      "optics",
+      "mirrors"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In a galvanic (voltaic) cell, which electrode undergoes oxidation?",
+    "options": [
+      "The cathode",
+      "The anode — oxidation occurs at the anode in all electrochemical cells (both galvanic and electrolytic); electrons flow from anode to cathode through the external circuit",
+      "Neither; both undergo reduction simultaneously",
+      "The electrode with the higher standard reduction potential"
+    ],
+    "correct": 1,
+    "explanation": "Mnemonic: AN OX, RED CAT (ANode = OXidation; REDuction = CAThode). In a galvanic cell, the more active metal (lower, more negative standard reduction potential) is oxidized at the anode, releasing electrons. Electrons flow through the external circuit to the cathode, where reduction occurs. The salt bridge maintains electrical neutrality by allowing ion migration.",
+    "tags": [
+      "chemistry",
+      "electrochemistry",
+      "galvanic cell"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A buffer solution contains 0.1 M acetic acid (pKa = 4.74) and 0.2 M sodium acetate. What is the approximate pH?",
+    "options": [
+      "5.04",
+      "4.44",
+      "4.74",
+      "5.34"
+    ],
+    "correct": 0,
+    "explanation": "Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA]) = 4.74 + log(0.2/0.1) = 4.74 + log(2) = 4.74 + 0.30 = 5.04. When [base] > [acid], pH > pKa. The buffer is most effective within ±1 pH unit of the pKa. Maximum buffering capacity occurs at pH = pKa (equal concentrations of acid and conjugate base).",
+    "tags": [
+      "chemistry",
+      "acid-base",
+      "buffers"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following molecules has a net dipole moment?",
+    "options": [
+      "CO₂ (linear, dipoles cancel)",
+      "H₂O — bent geometry (104.5°) due to two lone pairs on oxygen; O-H bond dipoles do not cancel, resulting in a net dipole pointing toward oxygen",
+      "BF₃ (trigonal planar, dipoles cancel)",
+      "CCl₄ (tetrahedral, dipoles cancel)"
+    ],
+    "correct": 1,
+    "explanation": "Net dipole moment requires both polar bonds AND asymmetric geometry so bond dipoles don't cancel. H₂O: bent (VSEPR: 2 bonding pairs + 2 lone pairs → bent), O is partially negative, each H is partially positive; the two O-H dipoles point toward O and add vectorially. CO₂ has polar C=O bonds but they cancel (linear). BF₃ has polar B-F bonds but is symmetric (trigonal planar). CCl₄ is symmetric (tetrahedral).",
+    "tags": [
+      "chemistry",
+      "molecular geometry",
+      "polarity"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "What is the oxidation state of chromium in K₂Cr₂O₇ (potassium dichromate)?",
+    "options": [
+      "+3",
+      "+6",
+      "+7",
+      "+4"
+    ],
+    "correct": 1,
+    "explanation": "K₂Cr₂O₇: K is +1, O is −2. Equation: 2(+1) + 2x + 7(−2) = 0 → 2 + 2x − 14 = 0 → 2x = 12 → x = +6. Chromium is +6 in dichromate (Cr₂O₇²⁻), a strong oxidizing agent. Cr³+ is the stable reduced form. KMnO₄ similarly has Mn in the +7 state. Both Cr(VI) and Mn(VII) are potent oxidizers used in analytical chemistry and organic synthesis.",
+    "tags": [
+      "chemistry",
+      "oxidation states",
+      "redox"
+    ],
+    "difficulty": "easy"
   }
 ]

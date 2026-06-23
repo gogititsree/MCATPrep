@@ -1,0 +1,618 @@
+[
+  {
+    "text": "Which enzyme is responsible for adding the 5' cap (7-methylguanosine) to eukaryotic mRNA?",
+    "options": ["RNA polymerase II", "Guanylyltransferase (capping enzyme)", "Poly-A polymerase", "Spliceosomes"],
+    "correct": 1,
+    "explanation": "The 5' cap is added co-transcriptionally by guanylyltransferase shortly after transcription initiation. The cap protects mRNA from 5'→3' exonuclease degradation, assists in ribosome binding (40S subunit recognition), and promotes splicing and nuclear export.",
+    "tags": ["molecular biology", "transcription", "mRNA processing"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient has a mutation that abolishes ATM kinase activity. Which downstream effector is most directly affected in the DNA damage response?",
+    "options": ["Cyclin D/CDK4 activation", "Chk2 phosphorylation leading to p53 stabilization", "Activation of telomerase", "Inhibition of the proteasome"],
+    "correct": 1,
+    "explanation": "ATM (Ataxia Telangiectasia Mutated) is activated by double-strand breaks and phosphorylates Chk2. Chk2 then phosphorylates Mdm2 (destabilizing it) and p53 (stabilizing it), leading to cell cycle arrest or apoptosis. Loss of ATM causes Ataxia Telangiectasia, characterized by radiation sensitivity and cancer predisposition.",
+    "tags": ["molecular biology", "DNA damage", "cell cycle"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In oxidative phosphorylation, which complex directly donates electrons to ubiquinone (CoQ)?",
+    "options": ["Complex I and Complex II only", "Complex I, Complex II, and Complex III", "Complex I and Complex II (and other flavoprotein dehydrogenases)", "Complex IV only"],
+    "correct": 2,
+    "explanation": "Ubiquinone (CoQ) accepts electrons from Complex I (NADH dehydrogenase), Complex II (succinate dehydrogenase), and other flavoprotein-linked dehydrogenases (e.g., fatty acyl-CoA dehydrogenase, glycerol-3-phosphate dehydrogenase). CoQ is a mobile electron carrier that shuttles electrons to Complex III.",
+    "tags": ["biochemistry", "oxidative phosphorylation", "electron transport chain"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Familial hypercholesterolemia is caused by mutations in the LDL receptor gene. Which cellular process is most directly impaired?",
+    "options": ["Synthesis of cholesterol in the ER", "Receptor-mediated endocytosis of LDL particles", "Secretion of VLDL from hepatocytes", "Conversion of cholesterol to bile acids"],
+    "correct": 1,
+    "explanation": "LDL receptors on the cell surface bind apolipoprotein B-100 on LDL particles. The complex is internalized via clathrin-coated pits (receptor-mediated endocytosis). In FH, dysfunctional receptors prevent LDL clearance, causing plasma LDL accumulation, atherosclerosis, and early cardiovascular disease.",
+    "tags": ["biochemistry", "lipid metabolism", "endocytosis"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which structural feature of tRNA allows the anticodon to pair with the mRNA codon during translation?",
+    "options": ["The 3' CCA acceptor stem", "The anticodon loop, which presents the anticodon in an orientation for antiparallel base pairing with the mRNA codon", "The D-loop, which interacts with aminoacyl-tRNA synthetase", "The variable loop, which determines tRNA identity"],
+    "correct": 1,
+    "explanation": "The anticodon loop (loop II) contains the three-nucleotide anticodon that pairs antiparallel and antiparallel with the mRNA codon in the A site of the ribosome. Wobble base pairing at the third codon position (5' end of codon / 3' end of anticodon) allows one tRNA to recognize multiple codons.",
+    "tags": ["molecular biology", "translation", "tRNA"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A researcher finds that a drug inhibits HMG-CoA reductase. What is the primary metabolic consequence?",
+    "options": ["Decreased fatty acid oxidation", "Decreased de novo cholesterol synthesis, leading to upregulation of LDL receptors", "Decreased synthesis of ketone bodies", "Increased synthesis of bile acids directly"],
+    "correct": 1,
+    "explanation": "HMG-CoA reductase catalyzes the rate-limiting step in cholesterol biosynthesis (HMG-CoA → mevalonate). Statins inhibit this enzyme. Reduced intracellular cholesterol signals upregulation of LDL receptors (via SREBP pathway), increasing LDL clearance from the blood and lowering plasma LDL.",
+    "tags": ["biochemistry", "lipid metabolism", "cholesterol"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In meiosis, crossing over (homologous recombination) occurs at which stage?",
+    "options": ["Leptotene of prophase I", "Pachytene of prophase I", "Metaphase I", "Anaphase II"],
+    "correct": 1,
+    "explanation": "Crossing over occurs at the pachytene stage of prophase I, when homologous chromosomes are fully synapsed (synaptonemal complex formed). Recombination nodules mark sites of crossover. Chiasmata (physical manifestations of crossovers) become visible at diplotene after the synaptonemal complex disassembles.",
+    "tags": ["genetics", "meiosis", "recombination"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient lacks a functional gene for adenylyl cyclase. Which signaling pathway is most directly disrupted?",
+    "options": ["IP3/DAG pathway downstream of Gq-coupled receptors", "cAMP/PKA pathway downstream of Gs-coupled receptors", "Jak-STAT pathway downstream of cytokine receptors", "MAP kinase pathway downstream of receptor tyrosine kinases"],
+    "correct": 1,
+    "explanation": "Adenylyl cyclase converts ATP to cAMP when activated by the Gαs subunit. cAMP activates PKA (protein kinase A), which phosphorylates downstream targets. Gs-coupled receptors (β-adrenergic, glucagon, TSH receptors) use this pathway. Gi-coupled receptors inhibit adenylyl cyclase.",
+    "tags": ["cell biology", "signal transduction", "cAMP"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following describes the role of ubiquitin in proteasomal degradation?",
+    "options": ["Ubiquitin is a protease that cleaves target proteins", "Polyubiquitin chains (typically K48-linked) tag proteins for recognition by the 26S proteasome", "Ubiquitin inhibits the proteasome from degrading essential proteins", "Ubiquitin is required only for lysosomal but not proteasomal degradation"],
+    "correct": 1,
+    "explanation": "Proteins targeted for proteasomal degradation are tagged with polyubiquitin chains via E1 (ubiquitin-activating), E2 (ubiquitin-conjugating), and E3 (ubiquitin ligase) enzymes. K48-linked polyubiquitin chains direct proteins to the 26S proteasome, where the regulatory 19S particle recognizes ubiquitin, unfolds the protein, and feeds it into the 20S catalytic chamber.",
+    "tags": ["cell biology", "protein degradation", "ubiquitin-proteasome"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A mutation disrupts the signal recognition particle (SRP) receptor on the ER membrane. What is the consequence for secretory proteins?",
+    "options": ["Secretory proteins are degraded in the nucleus", "Secretory proteins are synthesized normally but fail to be translocated into the ER lumen, remaining in the cytosol", "Secretory proteins are mistargeted to mitochondria", "Secretory proteins are translated at faster rates"],
+    "correct": 1,
+    "explanation": "SRP recognizes the signal sequence emerging from the ribosome and pauses translation, targeting the ribosome-mRNA-nascent chain complex to the ER. The SRP receptor on the ER membrane docks the complex, allowing cotranslational translocation. Without a functional SRP receptor, translocation cannot occur and secretory proteins accumulate in the cytosol.",
+    "tags": ["cell biology", "protein targeting", "ER"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In the lac operon, which molecule directly binds to the operator and represses transcription?",
+    "options": ["Lactose", "The Lac repressor protein (in its active, allolactose-free form)", "cAMP-CAP complex", "RNA polymerase"],
+    "correct": 1,
+    "explanation": "The Lac repressor (encoded by lacI) binds the operator in the absence of lactose (or its metabolite allolactose). When allolactose binds the repressor, it causes allosteric conformational change releasing the repressor from the operator, allowing transcription. Note: lactose itself is not the inducer — allolactose (a lactose isomer) is the actual inducer.",
+    "tags": ["molecular biology", "gene regulation", "lac operon"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which amino acid's side chain directly participates in the catalytic mechanism of serine proteases (e.g., chymotrypsin) as part of the catalytic triad?",
+    "options": ["Serine only", "Serine, histidine, and aspartate — the catalytic triad", "Serine and cysteine", "Lysine and arginine"],
+    "correct": 1,
+    "explanation": "Serine proteases use a catalytic triad: Asp-His-Ser. Aspartate stabilizes the positive charge on histidine; histidine acts as a base, abstracting the proton from serine's hydroxyl; serine's activated hydroxyl performs nucleophilic attack on the peptide carbonyl. This mechanism is an example of convergent evolution — it appears in unrelated protease families.",
+    "tags": ["biochemistry", "enzymology", "protein structure"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "During which phase of the cell cycle does DNA replication occur?",
+    "options": ["G1 phase", "S phase", "G2 phase", "M phase"],
+    "correct": 1,
+    "explanation": "DNA replication (S phase = synthesis phase) occurs between G1 and G2. Licensing of replication origins occurs in late mitosis/G1 (loading of MCM helicase). Actual firing and elongation occur in S phase. The G1/S checkpoint (restriction point) commits the cell to replication; the G2/M checkpoint ensures replication is complete before mitosis.",
+    "tags": ["cell biology", "cell cycle", "DNA replication"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A cell line deficient in nucleotide excision repair (NER) is most susceptible to DNA damage caused by:",
+    "options": ["Reactive oxygen species producing 8-oxoguanine", "UV radiation producing cyclobutane pyrimidine dimers (CPDs) and 6-4 photoproducts", "Replication errors producing mismatched bases", "Ionizing radiation producing double-strand breaks"],
+    "correct": 1,
+    "explanation": "NER repairs bulky helix-distorting lesions, most importantly UV-induced pyrimidine dimers (CPDs and 6-4 photoproducts). Mutations in NER genes cause Xeroderma Pigmentosum, characterized by extreme UV sensitivity and skin cancer. 8-oxoguanine is repaired by base excision repair (BER); mismatches by mismatch repair (MMR); DSBs by NHEJ or HR.",
+    "tags": ["molecular biology", "DNA repair", "NER"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which property of the plasma membrane allows it to function as a selective barrier?",
+    "options": ["The presence of cholesterol, which makes the entire membrane rigid and impermeable", "The amphipathic nature of phospholipids forming a bilayer — hydrophobic core excludes ions and polar molecules while allowing small nonpolar molecules to diffuse freely", "The uniform distribution of integral membrane proteins", "The negative charge of the extracellular leaflet"],
+    "correct": 1,
+    "explanation": "Phospholipids are amphipathic: hydrophilic phosphate-containing head groups face aqueous environments (intra- and extracellular); hydrophobic fatty acid tails face the interior, creating a hydrophobic core. This core is impermeable to ions and most polar molecules (which require channels/transporters) while freely permeable to small nonpolar molecules (O2, CO2, steroid hormones).",
+    "tags": ["cell biology", "membrane biology", "lipid bilayer"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In glycolysis, what is the net yield of ATP per glucose molecule?",
+    "options": ["4 ATP", "2 ATP net (4 produced – 2 consumed in the investment phase)", "36–38 ATP", "1 ATP"],
+    "correct": 1,
+    "explanation": "Glycolysis consumes 2 ATP in the investment phase (hexokinase and phosphofructokinase reactions) and produces 4 ATP in the payoff phase (two substrate-level phosphorylations per triose × 2 trioses), for a net gain of 2 ATP per glucose. Additionally, 2 NADH are produced, which yield additional ATP via oxidative phosphorylation if oxygen is available.",
+    "tags": ["biochemistry", "glycolysis", "metabolism"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following correctly describes the process of alternative splicing?",
+    "options": ["Different introns are removed from a single pre-mRNA in different cell types or conditions, generating multiple mRNA isoforms from one gene", "Splicing errors that cause disease by retaining introns in mature mRNA", "The use of different promoters to initiate transcription of the same gene", "Post-translational modification of proteins encoded by a single gene"],
+    "correct": 0,
+    "explanation": "Alternative splicing allows a single gene to produce multiple protein isoforms by including or excluding different exons (or using alternative splice sites). Approximately 95% of human multi-exon genes are alternatively spliced. Classic example: Drosophila Dscam gene can produce ~38,000 isoforms. Dysregulation of alternative splicing contributes to cancer and neurological disease.",
+    "tags": ["molecular biology", "RNA processing", "alternative splicing"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient presents with hyperammonemia, intellectual disability, and elevated orotic acid in urine. Which enzyme deficiency is most likely?",
+    "options": ["Carbamoyl phosphate synthetase I (CPS I)", "Ornithine transcarbamylase (OTC)", "Argininosuccinate synthetase", "Arginase"],
+    "correct": 1,
+    "explanation": "OTC deficiency is the most common urea cycle disorder (X-linked). OTC converts carbamoyl phosphate + ornithine → citrulline. Without OTC, carbamoyl phosphate accumulates and spills into the cytosol, entering the pyrimidine synthesis pathway and generating orotic acid (orotic aciduria). CPS I deficiency also causes hyperammonemia but without orotic aciduria (carbamoyl phosphate doesn't accumulate).",
+    "tags": ["biochemistry", "nitrogen metabolism", "urea cycle"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which neurotransmitter is released at the neuromuscular junction to trigger skeletal muscle contraction?",
+    "options": ["Norepinephrine", "Acetylcholine, which binds nicotinic receptors (nAChR) on the motor end plate", "GABA", "Glutamate"],
+    "correct": 1,
+    "explanation": "Somatic motor neurons release ACh, which binds nicotinic ACh receptors (ligand-gated Na+/K+ channels) on the muscle end plate, generating an end plate potential. Acetylcholinesterase in the synaptic cleft rapidly degrades ACh. Myasthenia gravis involves autoantibodies against nAChR; Lambert-Eaton syndrome involves antibodies against presynaptic Ca2+ channels.",
+    "tags": ["physiology", "neuromuscular junction", "neurotransmission"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In eukaryotic translation initiation, which factor is responsible for scanning the 5' UTR to find the start codon?",
+    "options": ["eIF2", "eIF4F complex (including eIF4E cap-binding protein and eIF4A helicase), with eIF4B enabling 5'→3' scanning", "eIF6", "eIF3"],
+    "correct": 1,
+    "explanation": "The eIF4F complex binds the 5' cap (via eIF4E), unwinds secondary structure in the 5' UTR (via eIF4A helicase, stimulated by eIF4B), and recruits the 43S pre-initiation complex (40S + eIF2-GTP-Met-tRNA). The complex scans 5'→3' until it encounters the AUG in favorable Kozak context, triggering GTP hydrolysis and 60S joining.",
+    "tags": ["molecular biology", "translation", "initiation factors"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "What is the function of the enzyme telomerase in maintaining chromosome integrity?",
+    "options": ["It repairs double-strand breaks at telomeres using homologous recombination", "It adds telomeric DNA repeats (TTAGGG in humans) to chromosome ends using its intrinsic RNA template, compensating for 5' end shortening after replication", "It removes the RNA primer at the 3' end of the lagging strand", "It prevents chromosome fusion by binding shelterin proteins"],
+    "correct": 1,
+    "explanation": "DNA polymerase cannot replicate the very 5' end of linear chromosomes (end-replication problem), causing progressive shortening. Telomerase is a reverse transcriptase with an intrinsic RNA template (TERC) that adds TTAGGG repeats to chromosome 3' ends, allowing subsequent fill-in synthesis. Active in germ cells, stem cells, and most cancer cells (90%); silenced in most somatic cells.",
+    "tags": ["molecular biology", "telomeres", "DNA replication"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A drug blocks the Na+/K+ ATPase. What is the immediate consequence for a resting neuron?",
+    "options": ["Immediate depolarization due to Na+ influx through voltage-gated channels", "Gradual depolarization as the Na+ gradient dissipates — resting potential becomes less negative as the pump can no longer maintain the low intracellular Na+ concentration", "Immediate hyperpolarization due to K+ efflux", "No effect because the resting potential is maintained by leak channels alone"],
+    "correct": 1,
+    "explanation": "The Na+/K+ ATPase pumps 3 Na+ out and 2 K+ in per ATP, maintaining the Na+ and K+ gradients essential for the resting membrane potential. Blocking the pump gradually dissipates these gradients, causing membrane depolarization. This is the mechanism of cardiac glycosides (digoxin): in cardiomyocytes, Na+ accumulation reduces the Na+/Ca2+ exchanger's driving force, increasing intracellular Ca2+ and cardiac contractility.",
+    "tags": ["physiology", "membrane potential", "ion transport"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which metabolic pathway is exclusively mitochondrial and produces ketone bodies?",
+    "options": ["Fatty acid beta-oxidation (also mitochondrial but produces acetyl-CoA, not ketone bodies directly)", "Ketogenesis — occurs in hepatic mitochondria; acetyl-CoA → acetoacetate and β-hydroxybutyrate, exported to peripheral tissues", "The citric acid cycle", "Gluconeogenesis"],
+    "correct": 1,
+    "explanation": "Ketogenesis occurs in hepatic mitochondria during fasting, low-carbohydrate states, or uncontrolled T1DM. Acetyl-CoA condenses to form HMG-CoA (via HMG-CoA synthase, the rate-limiting step), which is cleaved to acetoacetate. Acetoacetate is reduced to β-hydroxybutyrate or spontaneously decarboxylated to acetone. The liver cannot use ketone bodies itself (lacks succinyl-CoA:acetoacetate-CoA transferase/thiophorase).",
+    "tags": ["biochemistry", "lipid metabolism", "ketogenesis"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "What is the role of RecA (or Rad51 in eukaryotes) in DNA repair?",
+    "options": ["It is the main exonuclease that degrades damaged DNA strands", "It catalyzes strand invasion — coating single-stranded DNA to search for and invade a homologous duplex, enabling homologous recombination repair of double-strand breaks", "It ligates DNA strand ends after DSB repair", "It recognizes UV-induced pyrimidine dimers for NER"],
+    "correct": 1,
+    "explanation": "After DSB resection generates 3' ssDNA overhangs, RecA (prokaryotes) or Rad51 (eukaryotes) polymerizes onto the ssDNA to form a nucleoprotein filament. This filament catalyzes homology search and strand invasion into the intact homologous duplex, forming a D-loop that serves as the starting point for DNA synthesis to restore the broken sequence. BRCA1/2 facilitate Rad51 loading.",
+    "tags": ["molecular biology", "DNA repair", "homologous recombination"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "A patient has hemolytic anemia triggered by oxidative stress (e.g., primaquine, fava beans). The most likely enzyme deficiency is:",
+    "options": ["Pyruvate kinase", "Glucose-6-phosphate dehydrogenase (G6PD)", "Hexokinase", "Phosphoglucose isomerase"],
+    "correct": 1,
+    "explanation": "G6PD is the rate-limiting enzyme of the pentose phosphate pathway, generating NADPH. NADPH maintains glutathione in its reduced form (GSH), which neutralizes reactive oxygen species in RBCs. Without G6PD, oxidative stress causes glutathione depletion, RBC membrane damage, and hemolysis. G6PD deficiency is X-linked and the most common enzyme deficiency worldwide.",
+    "tags": ["biochemistry", "pentose phosphate pathway", "hemolytic anemia"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following best describes the concept of cooperativity in hemoglobin oxygen binding?",
+    "options": ["All four subunits bind oxygen simultaneously with equal affinity", "Binding of O2 to one subunit increases the O2 affinity of remaining subunits (positive cooperativity), producing a sigmoidal O2 dissociation curve — explained by T→R state transition", "Hemoglobin has the same O2 affinity as myoglobin at all O2 partial pressures", "Cooperativity means hemoglobin can only carry either 0 or 4 O2 molecules"],
+    "correct": 1,
+    "explanation": "Hemoglobin exhibits positive cooperativity: the T (tense, low-affinity) state shifts toward the R (relaxed, high-affinity) state upon O2 binding, making subsequent binding easier. The result is a sigmoidal dissociation curve (vs. hyperbolic for non-cooperative myoglobin), which allows efficient O2 loading in the lungs (high pO2) and unloading in tissues (low pO2). Hill coefficient ~2.8.",
+    "tags": ["biochemistry", "hemoglobin", "cooperativity"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "During the absorptive state (fed state), which hormonal and metabolic changes predominate?",
+    "options": ["High glucagon, high glycogenolysis, high ketogenesis", "High insulin, high glucose uptake by muscle and adipose (via GLUT4), glycogen synthesis, fatty acid synthesis, protein synthesis — anabolic state", "High cortisol, high gluconeogenesis, protein catabolism", "Low insulin, high lipolysis, high fatty acid oxidation"],
+    "correct": 1,
+    "explanation": "After a meal, elevated blood glucose triggers insulin secretion. Insulin promotes: glucose uptake (GLUT4 translocation in muscle and adipose), glycogenesis (in liver and muscle), lipogenesis (in liver and adipose), and protein synthesis. The absorptive state is anabolic. The post-absorptive/fasting state is characterized by glucagon dominance, glycogenolysis, gluconeogenesis, lipolysis, and ketogenesis.",
+    "tags": ["biochemistry", "metabolism", "hormonal regulation"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following correctly describes the function of cytochrome P450 enzymes in the liver?",
+    "options": ["They synthesize cholesterol from acetyl-CoA", "They are monooxygenases that oxidize lipophilic compounds (drugs, toxins, steroids) to more water-soluble forms, facilitating excretion — Phase I metabolism", "They conjugate drugs with glucuronate or sulfate in Phase II reactions", "They are the primary enzymes for mitochondrial fatty acid oxidation"],
+    "correct": 1,
+    "explanation": "Cytochrome P450s (CYPs) are the major Phase I drug-metabolizing enzymes, using O2 and NADPH to introduce hydroxyl groups into lipophilic substrates, increasing water solubility. CYP3A4 metabolizes ~50% of drugs. CYPs also metabolize steroids, fatty acids, and carcinogens. Induction (rifampin) or inhibition (grapefruit, azole antifungals) causes drug-drug interactions.",
+    "tags": ["biochemistry", "drug metabolism", "liver"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A child is born with no functional T or B cells due to a defect in the RAG1/RAG2 recombinase. What process is impaired?",
+    "options": ["MHC class II antigen presentation", "V(D)J recombination — somatic rearrangement of immunoglobulin and T-cell receptor gene segments that generates B and T lymphocyte diversity", "Somatic hypermutation in germinal centers", "Class switch recombination from IgM to IgG"],
+    "correct": 1,
+    "explanation": "RAG1/RAG2 endonuclease catalyzes V(D)J recombination, cleaving between V, D, and J gene segments and joining them to generate the immense diversity of B-cell receptor (BCR/antibody) and T-cell receptor (TCR) variable regions. Mutations in RAG1/2 cause SCID (severe combined immunodeficiency) because neither B nor T cells can complete receptor gene assembly.",
+    "tags": ["immunology", "V(D)J recombination", "lymphocyte development"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "What is the primary function of the complement protein C3b in the immune response?",
+    "options": ["Direct lysis of bacterial membranes", "Opsonization — C3b covalently binds pathogen surfaces, tagging them for phagocytosis by macrophages and neutrophils bearing complement receptor 1 (CR1)", "Activation of mast cells to release histamine", "Inhibition of viral replication"],
+    "correct": 1,
+    "explanation": "C3b is the central effector molecule of the complement system. Generated by cleavage of C3 (by C3 convertases), C3b's reactive thioester covalently bonds to hydroxyl or amino groups on pathogen surfaces. Phagocytes bearing CR1 recognize C3b-opsonized targets, greatly enhancing phagocytosis. C3b also participates in C5 convertase formation (leading to MAC) and immune complex clearance.",
+    "tags": ["immunology", "complement", "innate immunity"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following describes the primary function of the smooth ER (SER)?",
+    "options": ["Synthesis of membrane proteins and secretory proteins for export", "Lipid synthesis, drug detoxification (P450 enzymes), Ca2+ storage, and steroid hormone synthesis — functions that do not require ribosomes", "Protein glycosylation and quality control", "Synthesis of ribosomal RNA"],
+    "correct": 1,
+    "explanation": "The SER lacks ribosomes and specializes in: lipid and phospholipid synthesis, steroid hormone synthesis (adrenal cortex, gonads), drug/toxin metabolism via CYPs, and intracellular Ca2+ storage (sarcoplasmic reticulum in muscle). The RER (rough ER) bears ribosomes and is the site of synthesis and co-translational modification of secretory, membrane, and lysosomal proteins.",
+    "tags": ["cell biology", "endoplasmic reticulum", "organelle function"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "During muscle contraction, what triggers the release of Ca2+ from the sarcoplasmic reticulum?",
+    "options": ["Direct mechanical pull from motor neuron axons", "Membrane depolarization spreads along the T-tubule system, activating the DHPR (dihydropyridine receptor), which triggers the RyR1 (ryanodine receptor) to release Ca2+ from the SR into the cytosol", "Actin binding to myosin directly causes Ca2+ release", "ATP hydrolysis by myosin opens Ca2+ channels"],
+    "correct": 1,
+    "explanation": "In skeletal muscle: action potential → T-tubule depolarization → DHPR (voltage sensor, L-type Ca2+ channel) conformational change → mechanical coupling to RyR1 → Ca2+ release from SR. In cardiac muscle: DHPR allows small Ca2+ influx which triggers much larger Ca2+ release from SR via RyR2 (calcium-induced calcium release, CICR). Ca2+ binds troponin C, unblocking tropomyosin, allowing actin-myosin interaction.",
+    "tags": ["physiology", "muscle physiology", "excitation-contraction coupling"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In the context of enzyme kinetics, an allosteric inhibitor reduces the enzyme's catalytic rate without competing with substrate. This best describes:",
+    "options": ["Competitive inhibition", "Noncompetitive inhibition (a form of allosteric inhibition) — binds a site distinct from the active site, reducing Vmax without affecting Km; inhibition cannot be overcome by adding more substrate", "Uncompetitive inhibition", "Irreversible inhibition"],
+    "correct": 1,
+    "explanation": "Noncompetitive inhibition: inhibitor binds allosteric site on free enzyme or enzyme-substrate complex (equally). Km unchanged (substrate binding unaffected), Vmax decreased. On Lineweaver-Burk: lines with different y-intercepts (1/Vmax changes) but same x-intercept (−1/Km unchanged). Example: cyanide inhibiting cytochrome c oxidase (Complex IV) noncompetitively.",
+    "tags": ["biochemistry", "enzyme kinetics", "inhibition"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A mutation that constitutively activates Ras GTPase would most likely cause:",
+    "options": ["Suppression of cell proliferation", "Unregulated cell proliferation — Ras constitutively active (GTP-bound, cannot hydrolyze GTP) continuously signals through Raf-MEK-ERK and PI3K-Akt, acting as an oncogene", "Increased apoptosis", "Decreased growth factor receptor activation"],
+    "correct": 1,
+    "explanation": "Ras is a GTPase that cycles between GTP-bound (active) and GDP-bound (inactive) forms. GAPs (GTPase-activating proteins) accelerate GTP hydrolysis, inactivating Ras. Constitutively active Ras mutations (G12V, G13D — common in KRAS, NRAS, HRAS in cancer) cannot hydrolyze GTP, keeping downstream pro-proliferative pathways permanently on. KRAS mutations occur in ~90% of pancreatic cancers.",
+    "tags": ["cell biology", "oncology", "signal transduction"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which phase of the bacterial growth curve is characterized by maximum cell division at a constant rate?",
+    "options": ["Lag phase", "Log (exponential) phase", "Stationary phase", "Death phase"],
+    "correct": 1,
+    "explanation": "During the log (logarithmic) phase, bacteria divide at their maximum rate (generation time is shortest and constant), nutrient supply is ample, and waste has not yet accumulated. Antibiotics targeting cell wall synthesis (penicillins, cephalosporins) or DNA replication (fluoroquinolones) are most effective during this phase because cells are actively dividing.",
+    "tags": ["microbiology", "bacterial growth", "antibiotics"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A researcher uses siRNA targeting mRNA for protein X. The protein level of X is greatly reduced. This technique exploits which cellular mechanism?",
+    "options": ["Nonsense-mediated decay (NMD) of mutant mRNAs", "RNA interference (RNAi): siRNA is loaded into the RISC complex; the antisense strand guides RISC to complementary mRNA, which Argonaute-2 cleaves, leading to mRNA degradation", "Alternative splicing to produce non-functional isoforms", "Premature transcription termination"],
+    "correct": 1,
+    "explanation": "RNA interference (RNAi) is a conserved gene-silencing mechanism. siRNA (21–23 nt duplexes) is unwound and loaded into RISC (RNA-Induced Silencing Complex). Argonaute-2 (Ago2) uses the antisense guide strand to find complementary mRNA and cleave it, leading to degradation. miRNAs work similarly but cause translational repression/degradation via imperfect complementarity.",
+    "tags": ["molecular biology", "RNAi", "gene silencing"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Phenylketonuria (PKU) results from deficiency of phenylalanine hydroxylase (PAH). What is the biochemical consequence?",
+    "options": ["Accumulation of tyrosine and homogentisic acid", "Accumulation of phenylalanine and its transamination products (phenylpyruvate, phenylacetate, phenyllactate), which are neurotoxic — lack of tyrosine may also impair melanin and catecholamine synthesis", "Deficient conversion of homocysteine to methionine", "Excess uric acid production from purine degradation"],
+    "correct": 1,
+    "explanation": "PAH converts phenylalanine to tyrosine (requiring BH4 as cofactor). Without PAH, phenylalanine accumulates and is shunted to phenylpyruvate, phenylacetate, and phenyllactate — excreted in urine (phenylketonuria). Accumulation is neurotoxic in infants (intellectual disability), and tyrosine deficiency reduces melanin (fair skin/hair) and catecholamines. Treatment: low-phenylalanine diet.",
+    "tags": ["biochemistry", "amino acid metabolism", "inborn errors"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following is the correct order of events in the complement classical pathway?",
+    "options": ["C3 → C1 → C4 → C2 → C5-C9 (MAC)", "C1 binds antibody-antigen complexes → cleaves C4 and C2 → C3 convertase (C4b2a) → C3 cleavage → C5 convertase → C5-C9 MAC assembly", "MBL → MASP → C3 directly → MAC", "C3b binds directly to antibody → C5 activation"],
+    "correct": 1,
+    "explanation": "Classical pathway: C1q binds Fc regions of IgM or IgG in immune complexes → C1r/C1s activation → C4 and C2 cleavage → C3 convertase (C4b2a) → C3 cleavage to C3b (opsonin) + C3a (anaphylatoxin) → C5 convertase → C5b triggers C6-C9 assembly of the MAC (membrane attack complex), lysing gram-negative bacteria and virally infected cells.",
+    "tags": ["immunology", "complement", "classical pathway"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In aerobic respiration, where does substrate-level phosphorylation occur (excluding glycolysis)?",
+    "options": ["Complex I of the electron transport chain", "The succinyl-CoA synthetase reaction in the TCA cycle — succinyl-CoA + GDP (or ADP) + Pi → succinate + GTP (or ATP)", "Complex V (ATP synthase)", "The malate-aspartate shuttle"],
+    "correct": 1,
+    "explanation": "Within the TCA cycle, succinyl-CoA synthetase catalyzes substrate-level phosphorylation: the energy of the thioester bond in succinyl-CoA drives phosphorylation of GDP to GTP (in mammals) or ADP to ATP (in bacteria). GTP can be converted to ATP by nucleoside diphosphate kinase. Complex V (ATP synthase) is an example of oxidative phosphorylation (using the proton gradient), not substrate-level phosphorylation.",
+    "tags": ["biochemistry", "TCA cycle", "substrate-level phosphorylation"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient with Wilson's disease has impaired copper metabolism. Which protein is defective, and what is the consequence?",
+    "options": ["Ceruloplasmin synthesis is impaired, causing copper accumulation in blood", "ATP7B (copper-transporting ATPase) in hepatocytes is defective, impairing biliary copper excretion — copper accumulates in liver, brain (neuropsychiatric symptoms), and cornea (Kayser-Fleischer rings)", "The copper chaperone ATOX1 is deficient, preventing copper delivery to ceruloplasmin", "The intestinal copper transporter Ctr1 is overactive, causing excess copper absorption"],
+    "correct": 1,
+    "explanation": "Wilson's disease (autosomal recessive) involves mutation of ATP7B, a copper-transporting P-type ATPase in hepatocytes. ATP7B normally exports copper into bile for excretion and incorporates copper into ceruloplasmin. Deficiency leads to copper accumulation: hepatocellular damage → cirrhosis; basal ganglia deposition → tremor, dysarthria; corneal deposition → Kayser-Fleischer rings. Treatment: copper chelation (penicillamine, trientine) or zinc (blocks intestinal absorption).",
+    "tags": ["biochemistry", "metal metabolism", "genetic disease"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which type of RNA polymerase transcribes mRNA precursors (pre-mRNA) in eukaryotes?",
+    "options": ["RNA polymerase I", "RNA polymerase II", "RNA polymerase III", "Primase"],
+    "correct": 1,
+    "explanation": "RNA Pol II transcribes all protein-coding genes (pre-mRNA), as well as most snRNA and miRNA precursors. RNA Pol I transcribes rRNA (28S, 18S, 5.8S — ~80% of total RNA). RNA Pol III transcribes tRNA, 5S rRNA, and other small RNAs. Alpha-amanitin (from Amanita phalloides mushrooms) potently inhibits RNA Pol II at low concentrations.",
+    "tags": ["molecular biology", "transcription", "RNA polymerase"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A mutation in the gene encoding spectrin would most directly affect which cellular structure?",
+    "options": ["Nuclear lamina", "The red blood cell cytoskeleton — spectrin forms the flexible network underlying the RBC membrane, maintaining biconcave shape and deformability", "Intermediate filaments in neurons", "Microtubule organizing center (MTOC)"],
+    "correct": 1,
+    "explanation": "Spectrin (α and β subunits form heterodimers) is the major protein of the erythrocyte cytoskeletal network, connected to the plasma membrane via ankyrin (to band 3) and protein 4.1 (to glycophorin C). It provides the structural basis for RBC flexibility and biconcave shape. Mutations cause hereditary spherocytosis (osmotically fragile, spherical RBCs → hemolytic anemia).",
+    "tags": ["cell biology", "cytoskeleton", "red blood cell"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "What is the biochemical basis of sickle cell disease?",
+    "options": ["A frameshift mutation causing premature stop in the β-globin gene", "A single missense mutation (Glu6Val) in the β-globin gene — hydrophobic valine replaces glutamate, allowing deoxygenated HbS to polymerize into fibers that distort RBCs into sickle shape", "Deletion of the α-globin gene cluster", "A nonsense mutation in the γ-globin gene"],
+    "correct": 1,
+    "explanation": "SCD is caused by a point mutation (GAG→GTG at codon 6) encoding a glutamate→valine substitution in β-globin. Deoxygenated HbS polymerizes via hydrophobic interactions between the Val6 on one β chain and a hydrophobic pocket on an adjacent HbS molecule. Sickling causes vaso-occlusion, hemolysis, and organ damage. Heterozygotes (HbAS) have relative protection against falciparum malaria.",
+    "tags": ["genetics", "hemoglobin", "sickle cell disease"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following best explains why the inner mitochondrial membrane must be impermeable to H+ ions?",
+    "options": ["To prevent H+ from reacting with O2 and forming water prematurely", "To maintain the proton gradient (ΔμH+) generated by the electron transport chain — this electrochemical gradient drives H+ back through ATP synthase (Complex V) to synthesize ATP (chemiosmosis)", "To prevent ATP from leaking out of the mitochondrial matrix", "To allow only NADH to cross the membrane freely"],
+    "correct": 1,
+    "explanation": "The ETC pumps H+ from the matrix to the intermembrane space, creating a proton-motive force (PMF) consisting of a chemical gradient (ΔpH) and an electrical gradient (ΔΨ). The inner membrane's impermeability to H+ forces protons to return through ATP synthase's F0 channel, driving rotation of the F1 subunit and ATP synthesis. Uncouplers (e.g., DNP, thermogenin/UCP1) dissipate the gradient, producing heat instead of ATP.",
+    "tags": ["biochemistry", "oxidative phosphorylation", "chemiosmosis"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A student discovers a new bacterium that lacks a cell wall. This organism would be most similar to which known organisms?",
+    "options": ["Chlamydia (obligate intracellular parasites)", "Mycoplasma — bacteria that naturally lack cell walls and are the smallest self-replicating organisms; naturally resistant to penicillins and cephalosporins", "Archaea in high-temperature environments", "Prions"],
+    "correct": 1,
+    "explanation": "Mycoplasma (and related genera like Ureaplasma) are the only bacteria that naturally lack a peptidoglycan cell wall. Their plasma membrane contains sterols for stability (unusual for bacteria). They are naturally resistant to beta-lactam antibiotics and vancomycin (which target cell wall synthesis). Atypical pneumonia caused by M. pneumoniae is treated with macrolides, fluoroquinolones, or tetracyclines.",
+    "tags": ["microbiology", "bacteria", "cell wall"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In which phase of mitosis do chromosomes align at the metaphase plate?",
+    "options": ["Prophase", "Metaphase", "Anaphase", "Telophase"],
+    "correct": 1,
+    "explanation": "During metaphase, the mitotic spindle (kinetochore microtubules) aligns chromosomes at the cell's equatorial plane (metaphase plate). The spindle assembly checkpoint (SAC) ensures all kinetochores are properly attached to spindle fibers before anaphase onset. In anaphase, sister chromatids are pulled apart to opposite poles (driven by depolymerization of kinetochore microtubules and motor proteins).",
+    "tags": ["cell biology", "mitosis", "cell division"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A cell-surface receptor that, upon ligand binding, dimerizes and autophosphorylates its own tyrosine residues best describes:",
+    "options": ["A G protein-coupled receptor (GPCR)", "A receptor tyrosine kinase (RTK) — e.g., EGFR, PDGFR, insulin receptor; activation leads to SH2 domain recruitment, Ras activation, and MAPK/PI3K signaling", "A nuclear receptor", "A cytokine receptor signaling via JAK-STAT"],
+    "correct": 1,
+    "explanation": "RTKs are single-pass transmembrane proteins with extracellular ligand-binding domains and intracellular kinase domains. Ligand binding → dimerization → transautophosphorylation of tyrosine residues in the activation loop and on receptor tails. Phosphotyrosines recruit SH2-domain proteins (Grb2, PI3K, PLCγ) → Ras/MAPK, PI3K/Akt cascades. Mutations causing constitutive RTK activity drive many cancers.",
+    "tags": ["cell biology", "signal transduction", "receptor tyrosine kinase"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "What is the role of the TATA box in eukaryotic transcription?",
+    "options": ["It is a coding sequence translated into the N-terminal signal peptide", "It is a core promoter element recognized by TATA-binding protein (TBP, part of TFIID), positioning RNA polymerase II for accurate transcription initiation approximately 25 bp downstream", "It marks the site of 3' polyadenylation", "It is the sequence recognized by spliceosomes for intron removal"],
+    "correct": 1,
+    "explanation": "The TATA box (consensus TATAAA) is located ~25-30 bp upstream of the transcription start site in many but not all eukaryotic promoters (~24% of human gene promoters). TBP binds the minor groove of the TATA box, severely bending DNA and nucleating the assembly of the pre-initiation complex (PIC) including TFIIA, TFIIB, TFIID, TFIIE, TFIIF, TFIIH, and RNA Pol II.",
+    "tags": ["molecular biology", "transcription", "promoter"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A researcher observes that a tumor cell has lost expression of the gene encoding p16 (CDKN2A/Ink4a). What is the consequence for the cell cycle?",
+    "options": ["Constitutive activation of the p53 pathway", "Loss of G1/S checkpoint control — p16 inhibits CDK4/6, which normally phosphorylates Rb to release E2F transcription factors; without p16, CDK4/6 is constitutively active, Rb is hyperphosphorylated, E2F is freed, and cells continuously enter S phase", "Cells arrest in G2/M due to unrestricted CDK1 activity", "Cells undergo constitutive apoptosis via the intrinsic pathway"],
+    "correct": 1,
+    "explanation": "p16 (encoded by CDKN2A) is a CDK inhibitor that blocks CDK4/6 activity. CDK4/6 with cyclin D phosphorylate Rb, releasing E2F to drive S-phase gene expression. Without p16, CDK4/6 activity is unrestricted → Rb hyperphosphorylation → uncontrolled E2F activity → uncontrolled S-phase entry and proliferation. CDKN2A is the second most commonly mutated gene in human cancer (after TP53).",
+    "tags": ["cell biology", "cell cycle", "tumor suppressors"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The enzyme that catalyzes the first committed step of glycolysis is:",
+    "options": ["Hexokinase (glucose → glucose-6-phosphate)", "Phosphofructokinase-1 (PFK-1): fructose-6-phosphate → fructose-1,6-bisphosphate — the rate-limiting, regulated, irreversible committed step", "Pyruvate kinase", "Phosphoglucose isomerase"],
+    "correct": 1,
+    "explanation": "PFK-1 catalyzes the rate-limiting, committed step of glycolysis. It is activated by AMP, ADP, fructose-2,6-bisphosphate (F-2,6-BP; highest-impact activator, produced by PFK-2) and inhibited by ATP and citrate (indicating cellular energy/biosynthetic sufficiency). Hexokinase commits glucose to glycolysis, but is not the rate-limiting step. PFK-1 is the primary regulatory checkpoint.",
+    "tags": ["biochemistry", "glycolysis", "enzyme regulation"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Botulinum toxin causes flaccid paralysis by which mechanism?",
+    "options": ["Blocking nicotinic ACh receptors on skeletal muscle", "Cleaving SNARE proteins (SNAP-25 or synaptobrevin/VAMP) required for synaptic vesicle fusion at the neuromuscular junction, preventing ACh release", "Irreversibly inhibiting acetylcholinesterase, causing sustained depolarization and receptor desensitization", "Blocking voltage-gated Ca2+ channels at the presynaptic terminal"],
+    "correct": 1,
+    "explanation": "Botulinum toxin (BoNT, produced by Clostridium botulinum) is a Zn2+-dependent protease that cleaves SNARE complex proteins — SNAP-25 (BoNT/A, E), synaptobrevin/VAMP (BoNT/B, D, F, G), or syntaxin (BoNT/C). SNARE proteins mediate synaptic vesicle fusion with the presynaptic membrane; their cleavage prevents ACh release, causing flaccid paralysis. Tetanus toxin also cleaves SNARE proteins but acts at inhibitory interneurons.",
+    "tags": ["physiology", "neurotoxin", "neuromuscular junction"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following describes the mechanism by which aspirin (acetylsalicylic acid) inhibits cyclooxygenase (COX)?",
+    "options": ["Reversible competitive inhibition — aspirin competes with arachidonic acid at the active site", "Irreversible covalent acetylation of a serine residue in the COX active site, permanently blocking arachidonic acid access and inhibiting thromboxane A2 and prostaglandin synthesis", "Allosteric inhibition by binding a regulatory site on COX", "Irreversible inhibition via zinc chelation in the COX active site"],
+    "correct": 1,
+    "explanation": "Aspirin irreversibly acetylates Ser530 in COX-1 and Ser516 in COX-2, blocking the channel through which arachidonic acid accesses the active site. This prevents thromboxane A2 synthesis in platelets (which lack nuclei and cannot synthesize new COX) for the platelet's entire lifespan (~10 days). Other NSAIDs (ibuprofen, naproxen) are reversible COX inhibitors.",
+    "tags": ["pharmacology", "prostaglandins", "aspirin"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient with Lesch-Nyhan syndrome has a deficiency of hypoxanthine-guanine phosphoribosyltransferase (HGPRT). What metabolic consequence results?",
+    "options": ["Elevated orotic acid due to pyrimidine overproduction", "Elevated uric acid due to failure to salvage hypoxanthine and guanine — purines cannot be recycled and are instead fully degraded to uric acid via xanthine oxidase", "Elevated homocysteine due to impaired methionine recycling", "Deficient purine de novo synthesis causing anemia"],
+    "correct": 1,
+    "explanation": "HGPRT is required for the purine salvage pathway: hypoxanthine + PRPP → IMP, and guanine + PRPP → GMP. Without HGPRT, purines are not recycled; PRPP accumulates and drives increased de novo purine synthesis and degradation, producing excess uric acid. Gout, nephrolithiasis, and characteristic self-mutilation (choreoathetosis, intellectual disability) result. Treatment: allopurinol (xanthine oxidase inhibitor).",
+    "tags": ["biochemistry", "purine metabolism", "Lesch-Nyhan"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "What is the role of the Golgi apparatus in protein processing?",
+    "options": ["Synthesis of all membrane proteins", "Processing, sorting, and trafficking of proteins from the ER — includes glycosylation modification (trimming and addition of sugars), proteolytic cleavage, sulfation, and sorting to destinations (lysosomes, plasma membrane, secretion)", "Degradation of misfolded proteins via the UPR", "ATP-dependent protein folding by chaperones"],
+    "correct": 1,
+    "explanation": "Proteins arrive at the Golgi cis face from the ER and traffic through medial to trans Golgi, undergoing sequential modifications: N-glycan remodeling (trimming mannose, adding GlcNAc, galactose, sialic acid), O-glycosylation, sulfation, and phosphorylation. In the trans Golgi network (TGN), proteins are sorted: mannose-6-phosphate tags target proteins to lysosomes; others go to the plasma membrane or are secreted.",
+    "tags": ["cell biology", "Golgi", "protein trafficking"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A patient has elevated serum levels of unconjugated bilirubin and is jaundiced, but liver enzymes and conjugated bilirubin are normal. The most likely cause is:",
+    "options": ["Obstruction of the bile duct", "Prehepatic (hemolytic) jaundice — excess RBC breakdown releases unconjugated (indirect) bilirubin faster than the liver can conjugate it; alternatively, impaired conjugation (Gilbert's syndrome: reduced UGT1A1)", "Hepatocellular damage impairing all liver functions", "Impaired secretion of conjugated bilirubin into bile (Dubin-Johnson syndrome)"],
+    "correct": 1,
+    "explanation": "Unconjugated hyperbilirubinemia with normal liver function suggests either overproduction (hemolysis) or impaired conjugation (Gilbert's syndrome: benign UGT1A1 variant; Crigler-Najjar: severe UGT1A1 deficiency). Conjugated hyperbilirubinemia indicates post-hepatic obstruction or impaired secretion. In hepatocellular disease, both forms elevate along with transaminases.",
+    "tags": ["biochemistry", "bilirubin", "jaundice"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following is true about the SOS response in bacteria?",
+    "options": ["It is an immediate response to oxidative stress mediated by catalase induction", "It is an emergency DNA repair system activated when RecA binds ssDNA at stalled replication forks — RecA-ssDNA complex promotes LexA auto-cleavage, derepressing ~40 SOS genes including those for error-prone translesion synthesis polymerases", "It activates flagellar motility to escape DNA-damaging environments", "It triggers biofilm formation in response to antibiotic treatment"],
+    "correct": 1,
+    "explanation": "The SOS response is activated when RecA binds to ssDNA accumulated at stalled replication forks. RecA-ssDNA filament acts as a coprotease, stimulating LexA repressor to cleave itself, derepressing ~40 genes including UvrABC (NER), RecA, sulA (cell division inhibitor), and error-prone polymerases (Pol IV/DinB, Pol V/UmuC-UmuD). Mutagenic SOS repair (translesion synthesis) allows replication past damaged templates at the cost of accuracy.",
+    "tags": ["microbiology", "DNA repair", "SOS response"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "What happens to the free energy change (ΔG) of a biochemical reaction as products accumulate?",
+    "options": ["ΔG becomes more negative, driving the reaction further forward", "ΔG becomes less negative (or more positive), because ΔG = ΔG° + RT ln Q, and increasing Q (product/reactant ratio) raises ΔG toward zero (equilibrium)", "ΔG remains constant because it is determined solely by ΔG°", "ΔG becomes more positive at first, then abruptly becomes negative"],
+    "correct": 1,
+    "explanation": "ΔG = ΔG° + RT ln([products]/[reactants]). As products accumulate, the reaction quotient Q increases, making RT ln Q more positive (less negative), and ΔG approaches zero (equilibrium). At equilibrium, ΔG = 0 (no driving force). Cells maintain reactions far from equilibrium by continuously consuming products (coupling reactions) to keep Q << Keq and ΔG negative.",
+    "tags": ["biochemistry", "thermodynamics", "free energy"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A neonate presents with cataracts, jaundice, liver disease, and hypoglycemia after breast feeding. Reducing substances are found in the urine but not glucose. Which enzyme is most likely deficient?",
+    "options": ["Glucose-6-phosphatase (von Gierke disease)", "Galactose-1-phosphate uridylyltransferase (GALT) — classic galactosemia; galactose-1-phosphate and galactitol accumulate, causing liver damage, cataracts (galactitol), and intellectual disability", "Galactokinase alone (milder, cataracts only)", "Fructose-1,6-bisphosphatase"],
+    "correct": 1,
+    "explanation": "Classic galactosemia (GALT deficiency) causes accumulation of galactose-1-phosphate (toxic to liver, kidney, brain) and galactitol (toxic to lens → cataracts). Galactose (from lactose in breast milk) is a reducing sugar detected by Clinitest (copper reduction) but not by glucose oxidase dipstick. Treatment: eliminate lactose and galactose from diet. Galactokinase deficiency causes only cataracts (galactitol only).",
+    "tags": ["biochemistry", "carbohydrate metabolism", "galactosemia"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In a Hardy-Weinberg equilibrium population, if the frequency of an autosomal recessive disease is 1/10,000, what is the carrier frequency?",
+    "options": ["1/100", "Approximately 1/50 (2pq ≈ 2q for rare alleles, where q = 1/100 since q² = 1/10,000)", "1/10,000", "1/200"],
+    "correct": 1,
+    "explanation": "If q² = 1/10,000, then q = 1/100 (allele frequency). p = 1 − q ≈ 1 (for rare alleles). Carrier frequency = 2pq ≈ 2(1)(1/100) = 1/50. For rare autosomal recessive conditions, there are approximately 2/q × more carriers than affected individuals. This is essential for genetic counseling: a population disease frequency of 1/10,000 means ~2% are carriers.",
+    "tags": ["genetics", "Hardy-Weinberg", "population genetics"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which organelle is primarily responsible for the degradation of hydrogen peroxide?",
+    "options": ["Lysosomes, using acid hydrolases", "Peroxisomes, using catalase (2 H₂O₂ → 2 H₂O + O₂)", "Mitochondria, using glutathione peroxidase", "The endoplasmic reticulum, using cytochrome P450"],
+    "correct": 1,
+    "explanation": "Peroxisomes are organelles that contain catalase, which dismutates H₂O₂ to water and O₂. Peroxisomes also perform fatty acid β-oxidation (of very long chain fatty acids), plasmalogen synthesis, and bile acid synthesis. Zellweger syndrome (absent peroxisomes) causes accumulation of VLCFA and bile acid precursors. Lysosomes use acid hydrolases at pH ~5; mitochondria use glutathione peroxidase and superoxide dismutase.",
+    "tags": ["cell biology", "peroxisomes", "reactive oxygen species"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A patient is given a drug that blocks all muscarinic acetylcholine receptors. Which of the following effects would be expected?",
+    "options": ["Bradycardia and increased GI motility", "Tachycardia, dry mouth, constipation, urinary retention, mydriasis, and decreased secretions — classic anticholinergic (antimuscarinic) effects", "Skeletal muscle paralysis", "Hypertension from α1-adrenergic receptor activation"],
+    "correct": 1,
+    "explanation": "Muscarinic receptors mediate parasympathetic effects: decreased heart rate (M2 in SA node), increased GI motility and secretions (M3), pupillary constriction (M3 in iris sphincter), bladder contraction (M3). Blocking muscarinic receptors with atropine or scopolamine produces the opposite: tachycardia, constipation, urinary retention, mydriasis, dry mouth, anhidrosis. Mnemonic: 'Can't see, can't pee, can't spit, can't sh*t, heart races, skin is dry.'",
+    "tags": ["pharmacology", "autonomic nervous system", "muscarinic receptors"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A point mutation changes a codon from UGG (Trp) to UAG. This mutation is best described as a:",
+    "options": ["Missense mutation", "Nonsense mutation — UAG is an amber stop codon; premature termination truncates the protein, typically causing loss of function", "Silent mutation", "Frameshift mutation"],
+    "correct": 1,
+    "explanation": "Nonsense mutations convert an amino acid codon to a stop codon (UAA, UAG, UGA), causing premature translation termination. The resulting truncated protein is usually non-functional and often degraded by nonsense-mediated decay (NMD). Missense mutations change one amino acid to another. Silent (synonymous) mutations change a codon but encode the same amino acid. Frameshift mutations alter the reading frame.",
+    "tags": ["genetics", "mutation types", "molecular biology"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following best explains why adipocytes are the primary site of triglyceride storage?",
+    "options": ["Adipocytes express glycogen phosphorylase for efficient energy mobilization", "Adipocytes express lipoprotein lipase on their surface (releasing fatty acids from circulating chylomicrons and VLDL), and contain high levels of glycerol-3-phosphate for fatty acid re-esterification, plus lipid droplet-associated proteins (perilipins) for efficient packing", "Adipocytes cannot perform fatty acid oxidation, so they have no choice but to store lipids", "Adipocytes receive triglycerides directly via gap junctions from hepatocytes"],
+    "correct": 1,
+    "explanation": "Adipocytes are specialized for lipid storage: (1) LPL on capillary surfaces cleaves TG in lipoproteins, releasing fatty acids for uptake; (2) insulin stimulates glucose uptake (GLUT4) to generate glycerol-3-phosphate for esterification; (3) perilipins coat lipid droplets, regulating both storage and lipolysis; (4) HSL (hormone-sensitive lipase) is activated by catecholamines/glucagon during fasting for TG mobilization.",
+    "tags": ["biochemistry", "lipid metabolism", "adipose tissue"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A researcher blocks the action of GTP-binding protein Gαi. What would be the expected effect on cAMP levels in cells stimulated by an opioid receptor agonist?",
+    "options": ["cAMP levels would decrease further, because Gαi stimulates phosphodiesterase", "cAMP levels would not decrease (or would be higher than expected) — Gαi normally inhibits adenylyl cyclase; blocking Gαi removes this inhibition, preventing the opioid-mediated decrease in cAMP", "cAMP levels would increase due to direct activation of adenylyl cyclase by the blocked Gαi", "cAMP levels would be unaffected because opioid receptors do not use G proteins"],
+    "correct": 1,
+    "explanation": "Opioid receptors (μ, δ, κ) are Gi-coupled GPCRs. Activation → Gαi inhibits adenylyl cyclase → decreased cAMP → decreased PKA activity → reduced neuronal excitability (analgesia). Blocking Gαi prevents this inhibition; adenylyl cyclase remains active; cAMP levels do not fall as expected. This is relevant to opioid tolerance: chronic opioid exposure causes compensatory upregulation of adenylyl cyclase.",
+    "tags": ["pharmacology", "signal transduction", "opioids"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The 'wobble hypothesis' proposed by Crick describes which phenomenon?",
+    "options": ["The flexibility of the ribosome A site allowing accommodation of different tRNAs", "Relaxed base-pairing rules at the third codon position (5' end of codon / 3' end of anticodon) — certain bases (especially inosine) in the anticodon can pair with multiple bases in the codon, allowing fewer tRNAs to read more codons", "The conformational changes in the ribosome during translocation", "The wobbling motion of the transfer RNA as it exits the ribosome"],
+    "correct": 1,
+    "explanation": "Crick's wobble hypothesis explains why ~45 tRNAs can decode 61 sense codons. Standard Watson-Crick pairing requires precise antiparallel complementarity at positions 1 and 2 of the codon. At position 3 (wobble position), non-standard pairing is allowed: inosine (I) can pair with U, C, or A; G can pair with U. This is why most synonymous codons differ only at the third position (the genetic code's 'degeneracy').",
+    "tags": ["molecular biology", "genetic code", "tRNA"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In which condition would you expect both hyperglycemia AND elevated ketone bodies?",
+    "options": ["Type 2 diabetes mellitus, well-controlled", "Type 1 diabetes mellitus (T1DM), uncontrolled — absolute insulin deficiency prevents glucose uptake (hyperglycemia) and fails to suppress glucagon, which drives lipolysis and hepatic ketogenesis, producing diabetic ketoacidosis (DKA)", "Insulinoma (insulin-secreting tumor)", "Prolonged fasting in a metabolically healthy individual"],
+    "correct": 1,
+    "explanation": "In T1DM, absolute insulin deficiency produces: (1) hyperglycemia (cells cannot uptake glucose); (2) unopposed glucagon → lipolysis → high FFA → hepatic ketogenesis → ketoacidosis; (3) osmotic diuresis → dehydration and electrolyte loss. Prolonged fasting produces ketones but also low (not high) glucose. T2DM patients have residual insulin that suppresses ketogenesis; they rarely develop DKA.",
+    "tags": ["biochemistry", "diabetes", "metabolism"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A protein lacks a signal sequence but is found in the nucleus. Which sequence likely targets it there?",
+    "options": ["A hydrophobic signal sequence recognized by SRP", "A nuclear localization signal (NLS) — a stretch of basic amino acids (e.g., KKKRKV in SV40 T antigen) recognized by importins α and β, which mediate active transport through nuclear pore complexes (NPCs)", "A peroxisomal targeting signal (PTS1: SKL at C-terminus)", "A mitochondrial targeting sequence (N-terminal amphipathic helix)"],
+    "correct": 1,
+    "explanation": "Nuclear proteins are translated on cytosolic ribosomes and post-translationally imported. NLS sequences (rich in Lys and Arg) are recognized by importin-α, which bridges to importin-β. The importin-cargo complex moves through NPCs in a Ran-GTP-dependent manner. In the nucleus, RanGTP causes cargo release; importins are exported and recycled. RanGAP in the cytoplasm hydrolyzes GTP, resetting the cycle.",
+    "tags": ["cell biology", "protein targeting", "nuclear import"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which immunoglobulin class is the primary antibody in mucosal secretions (e.g., saliva, tears, breast milk)?",
+    "options": ["IgG", "IgA (secretory IgA, sIgA) — exists as a dimer joined by J chain and a secretory component; sIgA is the main antibody at mucosal surfaces, neutralizing pathogens before they can adhere to epithelium", "IgM", "IgE"],
+    "correct": 1,
+    "explanation": "Secretory IgA is produced by plasma cells in the lamina propria, dimerized by J chain, and transported across epithelium via the polymeric immunoglobulin receptor (pIgR), which is cleaved to leave the secretory component attached. sIgA is the most abundantly produced antibody in the body. It is found in saliva, tears, breast milk (maternal transfer), colostrum, and GI/respiratory secretions. It neutralizes but generally does not activate complement.",
+    "tags": ["immunology", "immunoglobulins", "mucosal immunity"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which cellular process is most directly responsible for the inheritance of epigenetic marks through cell division?",
+    "options": ["DNA proofreading by Pol III/Pol δ", "Maintenance methylation by DNMT1, which recognizes hemimethylated CpG sites on newly replicated DNA and methylates the daughter strand, restoring the symmetrical methylation pattern", "Histone deacetylation by HDAC complexes", "Gene conversion during mitotic recombination"],
+    "correct": 1,
+    "explanation": "After DNA replication, CpG methylation is hemimethylated (template strand methylated, daughter strand not). DNMT1 ('maintenance methyltransferase') is recruited to replication forks via PCNA/UHRF1, recognizes hemimethylated CpG, and methylates the new strand. This faithfully propagates the methylation pattern. DNMT3A and DNMT3B establish de novo methylation. Methylation of CpG islands in promoters generally silences gene expression.",
+    "tags": ["epigenetics", "DNA methylation", "cell division"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "A drug binds to the β subunit of ATP synthase and prevents the c-ring from rotating. This would most directly affect:",
+    "options": ["The ability of Complex IV to transfer electrons to O2", "ATP synthesis — the c-ring rotation is essential for the mechanical mechanism of ATP synthesis in the F0 subunit; without rotation, the conformational changes in F1 that drive ADP phosphorylation cannot occur; oligomycin is a known inhibitor of this type", "The proton pumping capacity of Complex I", "The reduction of ubiquinone by Complex II"],
+    "correct": 1,
+    "explanation": "ATP synthase (Complex V) operates as a rotary motor: H+ flow through the F0 c-ring drives its rotation, which is mechanically coupled to conformational changes in the F1 α3β3 hexamer catalytic subunit (alternating between open, loose, tight conformations — binding change mechanism), driving ATP synthesis from ADP + Pi. Oligomycin inhibits F0 c-ring rotation, blocking ATP synthesis and dissipating the proton gradient.",
+    "tags": ["biochemistry", "ATP synthase", "oxidative phosphorylation"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which of the following correctly describes the function of CD4 on T helper cells?",
+    "options": ["CD4 is a co-receptor that binds MHC class I molecules on target cells, initiating cytotoxic killing", "CD4 is a co-receptor that binds the invariant region of MHC class II molecules on APCs, stabilizing the TCR-pMHC interaction and facilitating signaling via Lck (a tyrosine kinase associated with CD4's cytoplasmic tail)", "CD4 binds bacterial lipopolysaccharide to activate innate responses in T cells", "CD4 is the receptor that binds IL-4 to drive Th2 differentiation"],
+    "correct": 1,
+    "explanation": "CD4 on T helper cells binds the MHC II β2 domain (invariant, not the peptide-binding groove). This co-receptor interaction stabilizes TCR engagement with pMHC II and brings Lck (a Src-family tyrosine kinase) into proximity with CD3ζ ITAMs, initiating downstream signaling (ZAP-70 activation → LAT → PLCγ/Ras pathways). HIV gp120 binds CD4 as its primary receptor, targeting CD4+ T cells and causing AIDS.",
+    "tags": ["immunology", "T cells", "MHC"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient has McArdle disease (muscle glycogen phosphorylase deficiency). What would you expect during exercise?",
+    "options": ["Normal lactate production but elevated ketone bodies", "Failure to generate lactate during exercise (forearm ischemic exercise test shows no rise in venous lactate despite NH3 rise) — muscle glycogen cannot be mobilized, causing exercise intolerance, cramps, and myoglobinuria with strenuous activity", "Fasting hypoglycemia due to inability to release glucose from liver", "Elevated blood glucose during exercise due to compensatory liver glycogenolysis"],
+    "correct": 1,
+    "explanation": "McArdle disease (GSD type V) involves deficiency of muscle glycogen phosphorylase (myophosphorylase). Muscle cannot mobilize glycogen during exercise. The forearm ischemic exercise test: normal individuals show rises in both lactate and NH3 (from AMP deamination); McArdle patients show NH3 rise but NO lactate rise (glycogenolysis blocked). Exercise intolerance, 'second wind' phenomenon (muscles adapt to fat/glucose from blood), cramps, and myoglobinuria with intense exercise.",
+    "tags": ["biochemistry", "glycogen metabolism", "exercise physiology"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which of the following is true about the coagulation cascade?",
+    "options": ["The intrinsic pathway is the physiologically dominant pathway activated by tissue injury", "The extrinsic pathway (tissue factor pathway) is the primary initiator of coagulation in vivo — TF + Factor VIIa activates Factors X and IX; the intrinsic pathway amplifies the response; both converge on the common pathway (Factor X → thrombin → fibrin)", "Thrombin is the substrate of Factor Xa, not the product", "Fibrinogen is directly converted to fibrin by Factor Xa"],
+    "correct": 1,
+    "explanation": "In vivo, coagulation is initiated by tissue factor (TF/thromboplastin) exposed at injury sites, forming a complex with circulating Factor VIIa (extrinsic pathway). TF-VIIa cleaves X (→Xa) and IX (→IXa). The intrinsic pathway (contact activation via FXII, FXI) amplifies clotting. Common pathway: Xa + Va (prothrombinase complex) → prothrombin → thrombin → fibrinogen → fibrin (crosslinked by FXIIIa).",
+    "tags": ["physiology", "coagulation", "hemostasis"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following amino acids is the primary gluconeogenic precursor from muscle during prolonged fasting?",
+    "options": ["Leucine (purely ketogenic)", "Alanine — muscle transamination of pyruvate generates alanine (alanine cycle); alanine is transported to the liver where it donates its amino group (urea cycle) and the pyruvate backbone enters gluconeogenesis", "Valine (primarily gluconeogenic but minor contributor)", "Lysine (purely ketogenic)"],
+    "correct": 1,
+    "explanation": "The glucose-alanine cycle: in muscle, amino acid transamination generates glutamate, which transaminates pyruvate (from glycolysis) to produce alanine and α-ketoglutarate. Alanine is exported to the liver, where ALT reverses the reaction: alanine + α-KG → pyruvate + glutamate. Pyruvate enters gluconeogenesis; glutamate nitrogen enters the urea cycle. Leucine and lysine are purely ketogenic (cannot contribute to gluconeogenesis).",
+    "tags": ["biochemistry", "gluconeogenesis", "amino acid metabolism"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A researcher observes that a transcription factor's DNA-binding domain contains a zinc finger motif. What type of secondary structure does the zinc finger use to interact with DNA?",
+    "options": ["Antiparallel β-barrel for major groove contact", "An α-helix that fits into the major groove of DNA, making sequence-specific contacts with base pairs — the zinc ion tetrahedrally coordinates Cys and/or His residues to stabilize the finger fold, positioning the α-helix for DNA recognition", "A β-sheet that intercalates between DNA base pairs", "A leucine zipper that dimerizes before contacting DNA"],
+    "correct": 1,
+    "explanation": "The classical Cys2-His2 zinc finger (e.g., in Sp1, TFIIIA) uses a zinc ion to stabilize a ββα fold. The α-helix (recognition helix) inserts into the major groove of DNA, where specific amino acid side chains make hydrogen bonds and van der Waals contacts with DNA bases. Multiple zinc fingers typically work in tandem for extended DNA sequence recognition. Each finger recognizes ~3 bp.",
+    "tags": ["biochemistry", "protein structure", "transcription factors"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following is the correct biochemical explanation for why long-chain fatty acids require the carnitine shuttle to enter the mitochondrial matrix?",
+    "options": ["Long-chain fatty acids are toxic to the outer mitochondrial membrane", "Long-chain acyl-CoA cannot cross the inner mitochondrial membrane directly — acyl group is transferred from CoA to carnitine (by CPT-I on outer membrane), transported as acylcarnitine via carnitine-acylcarnitine translocase, and transferred back to CoA (by CPT-II) in the matrix for β-oxidation", "Carnitine provides reducing equivalents needed for fatty acid oxidation", "The carnitine shuttle is needed for activation of fatty acids by acyl-CoA synthetase"],
+    "correct": 1,
+    "explanation": "Fatty acid activation (fatty acid + CoA → acyl-CoA) occurs in the outer mitochondrial membrane or cytoplasm, but acyl-CoA cannot cross the impermeable inner mitochondrial membrane. CPT-I (inhibited by malonyl-CoA, the key regulatory step) transfers the acyl group to carnitine; the carnitine-acylcarnitine translocase exchanges acylcarnitine (in) for carnitine (out); CPT-II regenerates acyl-CoA in the matrix. Medium/short-chain fatty acids (<12 C) can cross freely.",
+    "tags": ["biochemistry", "fatty acid oxidation", "mitochondria"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "What is the primary mechanism by which tumor cells evade cytotoxic T lymphocyte (CTL) killing?",
+    "options": ["Tumor cells produce high levels of antibodies that neutralize perforin", "Downregulation or mutation of MHC class I molecules on tumor cells — without pMHC I, CTLs cannot recognize target cells; some tumors also upregulate PD-L1 to engage PD-1 on CTLs, delivering inhibitory signals that suppress cytotoxic activity", "Tumor cells produce IL-2 that overactivates and exhausts CTLs", "Tumor cells sequester CTLs in regional lymph nodes"],
+    "correct": 1,
+    "explanation": "CTL recognition requires TCR binding to peptide-MHC I on target cells. Tumors commonly downregulate MHC I (via β2-microglobulin or TAP mutations), making them invisible to CTLs. They also upregulate PD-L1 (programmed death-ligand 1), which engages PD-1 on CTLs → T-cell exhaustion/anergy. PD-1/PD-L1 checkpoint inhibitors (pembrolizumab, nivolumab, atezolizumab) restore CTL killing and are transformative cancer therapies.",
+    "tags": ["immunology", "cancer immunology", "immune evasion"],
+    "difficulty": "medium"
+  }
+]

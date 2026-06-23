@@ -1,0 +1,435 @@
+[
+  {
+    "text": "In the study of health behavior, which model proposes that behavior change involves distinct stages: precontemplation, contemplation, preparation, action, and maintenance?",
+    "options": [
+      "Health Belief Model (Rosenstock)",
+      "Transtheoretical Model (TTM) / Stages of Change (Prochaska & DiClemente, 1983) — different interventions are needed at different stages; relapse is considered a normal part of the cycle, not a failure",
+      "Theory of Planned Behavior (Ajzen)",
+      "Social Cognitive Theory (Bandura)"
+    ],
+    "correct": 1,
+    "explanation": "TTM/Stages of Change: (1) Precontemplation — not intending to change in the next 6 months (unaware of problem or demoralized); (2) Contemplation — aware of problem, intending to change in next 6 months, ambivalent; (3) Preparation — intending to change in next month, taking small steps; (4) Action — actively modified behavior in last 6 months; (5) Maintenance — sustained change >6 months, working to prevent relapse. Relapse: return to earlier stage (not failure — relapses teach what doesn't work). Matched interventions: motivational interviewing for precontemplation/contemplation; skill-building for action/maintenance. Health Belief Model: perceived susceptibility + severity + benefits + barriers + cues to action + self-efficacy. Theory of Planned Behavior: attitudes + subjective norms + perceived behavioral control → intention → behavior.",
+    "tags": [
+      "psychology",
+      "health psychology",
+      "behavior change models"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following correctly describes Weber's concept of 'ideal types' in sociological analysis?",
+    "options": [
+      "Weber believed that some social arrangements are ideal and should be promoted as models",
+      "Ideal types are analytical constructs that exaggerate and systematize the essential features of a social phenomenon to create a conceptual tool for comparison — not descriptions of reality but heuristic models (e.g., 'bureaucracy', 'capitalism', 'charismatic authority')",
+      "Ideal types are statistical averages of social behavior",
+      "Ideal types are the most morally desirable forms of social organization"
+    ],
+    "correct": 1,
+    "explanation": "Weber's ideal type (Idealtyp): a methodological tool, not an empirical description or moral prescription. Created by deliberately exaggerating and emphasizing certain features of a phenomenon to create a pure, logically coherent model. Examples: Weber's ideal types of authority — Traditional (based on custom/tradition), Charismatic (based on personal devotion to an exceptional individual), Rational-legal (based on impersonal rules and procedures — modern bureaucracy). Weber's ideal-type bureaucracy: clear hierarchy, written rules, impersonal application of rules, technical expertise, full-time officials. Real bureaucracies deviate from this ideal type. Ideal types serve as benchmarks for comparison: how much does this real institution resemble the ideal type? Where does it deviate and why?",
+    "tags": [
+      "sociology",
+      "Weber",
+      "sociological methods"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which of the following describes the psychological concept of 'self-efficacy' as defined by Bandura?",
+    "options": [
+      "A person's overall sense of self-worth and value",
+      "A person's belief in their ability to execute the specific behaviors required to produce a particular outcome in a given situation — domain-specific and distinct from general self-esteem",
+      "The degree to which a person believes their outcomes are determined by internal vs. external factors (locus of control)",
+      "A person's perception of how others view them (looking-glass self)"
+    ],
+    "correct": 1,
+    "explanation": "Self-efficacy (Bandura, 1977; Social Cognitive Theory): domain-specific confidence in one's capacity to successfully perform a particular task or behavior. Sources of self-efficacy: (1) Mastery experiences — past successes are the strongest source; (2) Vicarious experiences — observing similar others succeed ('if they can do it, so can I'); (3) Social persuasion — verbal encouragement from credible others; (4) Physiological/affective states — reduced anxiety and stress improve self-efficacy. High self-efficacy: set higher goals, persist longer, recover from setbacks; predicts academic achievement, health behavior, career success. Distinct from self-esteem (general self-worth) and locus of control (attribution). Health applications: self-efficacy is the strongest predictor of adherence to health behaviors (exercise, quitting smoking, medication compliance).",
+    "tags": [
+      "psychology",
+      "social cognitive theory",
+      "Bandura",
+      "motivation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In the context of social stratification, the term 'meritocracy' refers to a system in which:",
+    "options": [
+      "Social position is determined by family origin and inherited status",
+      "Social rewards are allocated based on individual talent, effort, and achievement — a dominant ideology in many societies that justifies inequality as fair and earned, even as structural barriers limit equal opportunity",
+      "All individuals receive equal resources and outcomes regardless of contribution",
+      "Social mobility occurs primarily through political connections"
+    ],
+    "correct": 1,
+    "explanation": "Meritocracy (Young, 1958; ironic term): the belief that social rewards (income, status, power) should be and are distributed based on individual merit (talent + effort). Functionally: meritocracy is presented as the legitimating ideology of stratified societies — inequality appears just because those on top 'earned' their position. Conflict theory critique: meritocracy ideology obscures structural barriers — unequal access to quality education, social capital, wealth, and health mean that 'merit' is itself socially distributed unequally. Bourdieu: cultural and social capital advantages upper-class children in educational competition, making 'merit' partly a measure of inherited privilege. Coleman Report (1966): family background explains more educational achievement variance than school quality. The meritocracy ideology has been linked to reduced sympathy for disadvantaged groups.",
+    "tags": [
+      "sociology",
+      "social stratification",
+      "meritocracy"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A study finds that adults who experienced childhood maltreatment have a higher risk of developing depression, anxiety, and physical illness in adulthood. This finding is most consistent with which theoretical framework?",
+    "options": [
+      "Pure genetic determinism — only inherited factors matter for adult health",
+      "Biological embedding of adversity — early adversity shapes developing biological systems (HPA axis, immune function, gene expression via epigenetics), creating 'biological memories' that increase vulnerability to stress and disease across the lifespan (ACE studies)",
+      "The biomedical model — maltreatment directly damages organ systems",
+      "Social learning theory only — adults model the maladaptive behavior they observed"
+    ],
+    "correct": 1,
+    "explanation": "Adverse Childhood Experiences (ACEs) research (Felitti et al., 1998): dose-response relationship between number of ACEs (abuse, neglect, household dysfunction) and adult physical/mental health outcomes. Mechanisms of biological embedding: (1) Toxic stress — prolonged activation of the HPA axis (cortisol dysregulation) during sensitive periods disrupts developing neural architecture, particularly the hippocampus, amygdala, and PFC; (2) Epigenetic changes — adverse experiences alter DNA methylation and histone modification patterns → changed gene expression that may persist and be heritable; (3) Immune dysregulation — chronic inflammation; (4) Telomere shortening — accelerated cellular aging. The life course perspective (Elder): early experiences create trajectories that compound over time. Early intervention programs (Head Start, nurse-family partnership) aim to interrupt these pathways.",
+    "tags": [
+      "psychology",
+      "health psychology",
+      "developmental psychology",
+      "ACEs"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "According to attribution theory, the 'fundamental attribution error' (FAE) describes which tendency?",
+    "options": [
+      "The tendency to attribute our own failures to situational factors and our own successes to dispositional factors",
+      "The tendency to overestimate the role of dispositional (internal, personal) factors and underestimate situational (external, contextual) factors when explaining other people's behavior — also called 'correspondence bias'",
+      "The tendency to make attributions that maintain our self-esteem (self-serving bias)",
+      "The tendency to attribute the behavior of in-group members to situations and out-group members to dispositions (ultimate attribution error)"
+    ],
+    "correct": 1,
+    "explanation": "FAE / Correspondence Bias (Ross, 1977): when observing others' behavior, people tend to attribute it to stable dispositional characteristics (personality, character) rather than considering powerful situational forces. Classic demonstrations: Jones & Harris (1967) — participants attributed essays to authors' true beliefs even when told authors were assigned their positions; Milgram obedience study — observers predicted low compliance and attributed disobedience to character, not situation. FAE is more pronounced in individualist (WEIRD) cultures; collectivist cultures show more situational attribution for others (weaker FAE). Self-serving bias: attribute own successes to internal factors, own failures to external factors. Actor-observer asymmetry: we attribute others' behavior to disposition but our own behavior to situation (perspective and information access differ).",
+    "tags": [
+      "social psychology",
+      "attribution theory",
+      "FAE"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The 'looking-glass self,' a concept developed by Charles Cooley, proposes that self-concept is formed through:",
+    "options": [
+      "Comparing ourselves to our ideal self",
+      "Imagining how we appear to others, imagining their judgment of that appearance, and developing feelings about ourselves based on those imagined judgments — a social mirror of self-concept",
+      "Observing our own behavior and making inferences about our traits (Bem's self-perception theory)",
+      "Comparing ourselves to similar others (social comparison theory)"
+    ],
+    "correct": 1,
+    "explanation": "Looking-glass self (Cooley, 1902): the self is socially constructed through three steps: (1) I imagine how I appear to others; (2) I imagine how others judge that appearance; (3) I develop pride or shame based on my perception of those judgments. The 'glass' is not a literal mirror but other people — we use social interactions as a mirror to see ourselves. Key feature: it is based on imagined, not actual, judgments — we may be wrong about what others think, but our self-concept is shaped by our perception of their response. Example: a student who perceives that classmates see them as smart develops a positive academic self-concept. Mead's 'generalized other': internal representation of what 'society' expects — guides self-assessment when specific others aren't present. Both are symbolic interactionist perspectives on self-concept formation.",
+    "tags": [
+      "sociology",
+      "symbolic interactionism",
+      "self-concept",
+      "Cooley"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following is an example of 'institutional discrimination'?",
+    "options": [
+      "An individual employer who holds prejudiced views and refuses to hire members of a minority group",
+      "Racially neutral policies that produce disparate outcomes — such as banning cornrows in a school dress code, which disproportionately affects Black students; or drug sentencing laws that had racially disparate impacts — because systemic inequalities are embedded in institutional practices regardless of individual intent",
+      "Prejudiced attitudes held by members of a society",
+      "Stereotypes transmitted through media representations"
+    ],
+    "correct": 1,
+    "explanation": "Institutional (structural) discrimination: unequal treatment embedded in social institutions, policies, and practices — regardless of individual intent. Examples: (1) Criminal justice: mandatory minimum sentences for crack (associated with Black communities) vs. powder cocaine (associated with white communities) — 100:1 disparity pre-Fair Sentencing Act; (2) Education: school funding tied to property taxes → unequal resources by neighborhood; (3) Housing: historical redlining → segregated wealth accumulation; (4) Healthcare: algorithmic tools that use race as a proxy → Black patients receive less care; (5) Employment: 'race-neutral' hiring criteria that screen out candidates from under-resourced schools. Contrast with individual discrimination (prejudiced individuals) and cultural discrimination (societal stereotypes). Institutional discrimination can perpetuate inequality without any individual holding prejudiced views.",
+    "tags": [
+      "sociology",
+      "discrimination",
+      "systemic racism",
+      "social inequality"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which neuroimaging finding is consistently associated with depression?",
+    "options": [
+      "Increased activity in the prefrontal cortex and decreased amygdala activation",
+      "Decreased activity in the prefrontal cortex (especially dorsolateral PFC — reduced executive function, rumination) and increased amygdala reactivity to negative stimuli; also decreased hippocampal volume (stress-related neurogenesis suppression)",
+      "Increased hippocampal volume and enhanced memory consolidation",
+      "Hyperactivation of the basal ganglia causing motor symptoms"
+    ],
+    "correct": 1,
+    "explanation": "Neuroimaging in MDD: Prefrontal cortex (PFC) — particularly the dorsolateral PFC (DLPFC) — shows decreased activity/volume; associated with reduced positive affect, cognitive flexibility, and executive function; target of TMS (transcranial magnetic stimulation — therapeutic stimulation of left DLPFC). Subgenual anterior cingulate (sgACC/Brodmann area 25) — hyperactive in depression; target of deep brain stimulation (DBS) for treatment-resistant depression (Mayberg). Amygdala — hyperreactive to negative stimuli; ruminates on negative memories; reduced by antidepressants. Hippocampus — reduced volume (correlates with depression duration and stress exposure); cortisol-mediated neurogenesis suppression; antidepressants increase hippocampal neurogenesis (may underlie delayed therapeutic effect). HPA axis: hypercortisolemia (reduced feedback inhibition) is a key biological marker.",
+    "tags": [
+      "psychology",
+      "neuroscience",
+      "depression",
+      "neuroimaging"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The sociological concept of 'anomie' as developed by Durkheim refers to:",
+    "options": [
+      "A state of excessive social regulation that suppresses individual freedom",
+      "A breakdown of social norms and moral regulation — when the regulatory framework that gives individuals a sense of purpose and behavioral guidance is weakened (e.g., during rapid social change, economic crisis), individuals feel disconnected and normless → increased suicide and deviance",
+      "The oppression of the working class by capitalist social structures",
+      "The process by which individuals internalize social roles"
+    ],
+    "correct": 1,
+    "explanation": "Anomie (Durkheim, Suicide, 1897): 'normlessness' — a condition in which social norms are absent, unclear, or contradictory, leaving individuals without guidance for behavior. Durkheim observed that suicide rates increased during rapid social change (both prosperity and crisis) — when the normal social regulatory framework is disrupted. Types of suicide: Egoistic (weak social integration — individuation); Altruistic (excessive integration — sacrifice for group); Anomic (weak moral regulation — normlessness); Fatalistic (excessive regulation — oppression). Merton (1938) extended anomie to crime: when culturally prescribed goals (success, wealth) and legitimate means to achieve them are misaligned, people adopt deviant adaptations (innovation, ritualism, retreatism, rebellion).",
+    "tags": [
+      "sociology",
+      "Durkheim",
+      "anomie",
+      "deviance"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "According to the 'contact hypothesis' proposed by Gordon Allport, prejudice between groups is most effectively reduced when intergroup contact occurs under which conditions?",
+    "options": [
+      "Any contact between groups reduces prejudice through familiarity",
+      "Equal status, cooperative (not competitive) goals, institutional support, and opportunities for personal acquaintance — all four conditions must ideally be present for contact to reduce prejudice (Allport, 1954)",
+      "Contact reduces prejudice only when the majority group is present to mediate",
+      "Competitive intergroup contact is most effective because it tests mutual respect"
+    ],
+    "correct": 1,
+    "explanation": "Contact Hypothesis (Allport, The Nature of Prejudice, 1954): mere contact between groups does not automatically reduce prejudice — it can reinforce it under competitive or unequal conditions. Optimal conditions: (1) Equal status — participants interact as equals (not supervisor/subordinate); (2) Cooperative interdependence — groups must work together toward shared goals (not compete for resources); (3) Institutional support — authorities, laws, or social norms sanction and endorse the contact; (4) Personal acquaintance — contact allows individualization (breaking down categorical thinking). Empirical support: Sherif's Robbers Cave experiment demonstrated that competitive contact → hostility; cooperative superordinate goals → reduced prejudice. Meta-analyses (Pettigrew & Tropp, 2006) confirm contact reduces prejudice across hundreds of studies.",
+    "tags": [
+      "social psychology",
+      "prejudice",
+      "contact hypothesis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In health sociology, the 'sick role' concept developed by Talcott Parsons includes which obligations for the sick person?",
+    "options": [
+      "The sick person is entitled to all the rights and freedoms of a healthy person, with no obligations",
+      "The sick person: (1) must want to get well and see illness as undesirable; (2) must seek competent medical help; (3) is exempted from normal social role obligations proportional to illness severity; (4) is not held responsible for the illness itself",
+      "The sick person is obligated to continue working to maintain social function",
+      "The sick person must disclose their illness to all social contacts"
+    ],
+    "correct": 1,
+    "explanation": "Parsons' sick role (The Social System, 1951): a functionalist analysis of illness as a social role with rights and obligations. Rights: (1) Exemption from normal social responsibilities (work, family obligations) — proportional to severity; (2) Not held personally responsible for the illness (though this has become more contested for 'lifestyle diseases'). Obligations: (1) Must regard illness as undesirable and want to recover; (2) Must seek and cooperate with technically competent help (physicians). The sick role maintains the social system: without the obligation to recover, illness could become a permanent escape from social responsibilities ('secondary gain'). Critiques: (1) Assumes acute illness (doesn't fit chronic conditions where recovery is impossible); (2) Doesn't account for stigmatized illnesses; (3) Assumes power-neutral physician-patient relationship; (4) Culture shapes who can legitimately occupy the sick role (power structures).",
+    "tags": [
+      "sociology",
+      "medical sociology",
+      "sick role",
+      "Parsons"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following best describes the difference between 'sex' and 'gender' as used in social science?",
+    "options": [
+      "Sex and gender are interchangeable biological terms",
+      "Sex refers to biological characteristics (chromosomes, hormones, anatomy); gender refers to the socially constructed roles, behaviors, identities, and expressions that a society associates with being male, female, or other — gender varies across cultures and history",
+      "Gender is fixed and determined by chromosomes at conception; sex is a social construct",
+      "Sex includes both biological and social characteristics; gender is purely psychological"
+    ],
+    "correct": 1,
+    "explanation": "Sex: biological — chromosomal (XX, XY, XXY), hormonal (estrogen, testosterone), anatomical (primary/secondary sex characteristics); determined at fertilization but can be intersex (naturally occurring variation). Sex is not strictly binary in nature (~1.7% intersex by some estimates). Gender: social/cultural construction — roles (division of labor), behaviors (norms about appearance, emotion), identities (how one identifies internally), and expressions (presentation). Gender varies historically and cross-culturally (e.g., hijra in South Asian cultures, Two-Spirit among some Indigenous peoples). Gender identity ≠ sexual orientation. Gender socialization: from birth, boys and girls are treated differently → internalize gendered expectations. Social constructionists: gender is 'performed' (Butler's performativity theory) rather than innately possessed.",
+    "tags": [
+      "sociology",
+      "gender",
+      "sex",
+      "social construction"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A researcher finds that participants who received $1 for telling someone a lies became convinced the boring task was actually enjoyable, whereas those paid $20 did not change their attitude. This is best explained by:",
+    "options": [
+      "Operant conditioning — $1 was insufficient reinforcement",
+      "Cognitive dissonance theory — the $1 group lacked sufficient external justification for lying, so they reduced dissonance by convincing themselves the task was enjoyable; the $20 group had ample external justification and needed no attitude change",
+      "Social comparison theory — the $1 group compared themselves to less well-paid peers",
+      "Self-perception theory — participants inferred their attitudes from their behavior without involving dissonance"
+    ],
+    "correct": 1,
+    "explanation": "This is Festinger & Carlsmith's (1959) classic cognitive dissonance study. When people act counter to their attitudes without sufficient external justification (like high pay), they experience dissonance and resolve it by changing their attitude. $20 = sufficient justification (no dissonance); $1 = insufficient justification (attitude change needed). Note: Bem's self-perception theory offers an alternative explanation without invoking dissonance arousal.",
+    "tags": [
+      "psychology",
+      "social psychology",
+      "cognitive dissonance"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following correctly describes the difference between prejudice, stereotyping, and discrimination?",
+    "options": [
+      "Prejudice is behavioral, stereotyping is cognitive, discrimination is emotional",
+      "Stereotyping is a cognitive overgeneralization about group members; prejudice is the affective (emotional) component — an attitude involving feelings toward a group; discrimination is behavioral — differential treatment based on group membership; all three are related but conceptually distinct",
+      "All three are equivalent concepts describing the same psychological phenomenon",
+      "Discrimination is cognitive; prejudice is behavioral; stereotyping is emotional"
+    ],
+    "correct": 1,
+    "explanation": "The ABC model: Affective (prejudice: negative feelings toward a group), Behavioral (discrimination: acting on those feelings), Cognitive (stereotyping: oversimplified beliefs about group characteristics). People can have stereotypes without prejudice, or be prejudiced without discriminating. Implicit Association Test (IAT) measures implicit (unconscious) biases. Modern racism is characterized by denial of personal prejudice while opposing policies that aid disadvantaged groups.",
+    "tags": [
+      "psychology",
+      "social psychology",
+      "prejudice"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "According to Tajfel and Turner's Social Identity Theory, intergroup conflict arises primarily because:",
+    "options": [
+      "People are inherently aggressive toward strangers from evolutionary pressure",
+      "People categorize themselves into groups (social categorization), adopt group identity (social identification), and compare their group favorably to others (social comparison) — ingroup favoritism and outgroup derogation enhance self-esteem through a positive social identity",
+      "Scarce resources inevitably create competition between groups (Realistic Conflict Theory)",
+      "Authority figures create conflict by assigning people to different roles"
+    ],
+    "correct": 1,
+    "explanation": "Social Identity Theory (SIT): (1) Social categorization — dividing the world into 'us' and 'them'; (2) Social identification — adopting the ingroup's identity as part of the self-concept; (3) Social comparison — comparing the ingroup favorably against outgroups to maintain positive self-esteem. Even arbitrary group assignment (minimal group paradigm) produces ingroup favoritism. Realistic Conflict Theory (Sherif) emphasizes actual competition for resources; SIT shows conflict emerges even without real competition.",
+    "tags": [
+      "psychology",
+      "social psychology",
+      "social identity theory"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Stanford Prison Experiment (Zimbardo, 1971) is primarily cited as evidence for which psychological phenomenon?",
+    "options": [
+      "Milgram's obedience to authority — people follow orders from experimenters",
+      "The power of situational forces and role-playing to override individual dispositions — participants assigned as 'guards' rapidly adopted authoritarian, abusive behaviors, and 'prisoners' became passive and distressed, demonstrating situationism over dispositionism",
+      "Fundamental attribution error in observers who blamed guard brutality on personality",
+      "Social facilitation effects on task performance in group settings"
+    ],
+    "correct": 1,
+    "explanation": "The Stanford Prison Experiment is the classic demonstration of situationism: assigned social roles created powerful situational forces that transformed ordinary college students into abusive guards and demoralized prisoners within days. Zimbardo used this to argue against pure dispositional explanations for behavior in abusive institutions (prisons, military). The study is ethically controversial (lack of IRB oversight, Zimbardo's role as prison superintendent) and its findings have been partially replicated and partially challenged.",
+    "tags": [
+      "psychology",
+      "social psychology",
+      "situationism"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In classical conditioning, the term 'extinction' refers to:",
+    "options": [
+      "The permanent removal of the conditioned response from the organism's behavioral repertoire",
+      "The weakening of the conditioned response (CR) when the conditioned stimulus (CS) is repeatedly presented without the unconditioned stimulus (US) — but the CR is inhibited, not erased; it can recover spontaneously (spontaneous recovery) after a rest period",
+      "The process of pairing the CS with the US to establish conditioning",
+      "The generalization of the CR to similar stimuli"
+    ],
+    "correct": 1,
+    "explanation": "Extinction occurs when the CS is repeatedly presented without the US, reducing the CR. However, Pavlov noted spontaneous recovery: after extinction and a rest period, presenting the CS again yields a partial CR — showing extinction inhibits rather than erases the conditioned association. This has major implications for exposure therapy (extinction of fear CRs): the original fear association remains in memory, making relapse possible (especially with stress-induced renewal or reinstatement). Extinction ≠ forgetting.",
+    "tags": [
+      "psychology",
+      "learning",
+      "classical conditioning"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following best describes the difference between positive and negative reinforcement?",
+    "options": [
+      "Positive reinforcement increases behavior by adding a reward; negative reinforcement decreases behavior by removing a punishment",
+      "Both positive and negative reinforcement INCREASE the frequency of behavior: positive reinforcement adds a pleasant stimulus; negative reinforcement removes an unpleasant stimulus — both consequences make the behavior more likely in the future",
+      "Positive reinforcement involves praise; negative reinforcement involves punishment",
+      "Negative reinforcement always involves pain or aversion"
+    ],
+    "correct": 1,
+    "explanation": "Reinforcement (+ or −) always INCREASES behavior; punishment always DECREASES behavior. Positive reinforcement: add a pleasant stimulus (food pellet, praise) → behavior increases. Negative reinforcement: remove an unpleasant stimulus (taking aspirin removes headache → aspirin-taking increases; fastening seatbelt removes annoying beeping → seatbelt behavior increases). Key: 'negative' refers to removal, not to bad outcomes. Negative punishment: remove a pleasant stimulus → behavior decreases (taking away video games for bad behavior).",
+    "tags": [
+      "psychology",
+      "learning",
+      "operant conditioning"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "According to Piaget, what is the major cognitive achievement of the concrete operational stage?",
+    "options": [
+      "Development of object permanence (understanding that objects continue to exist when unseen)",
+      "Conservation — understanding that the quantity of a substance remains the same despite changes in its shape or appearance; also: seriation (ordering objects), classification (hierarchical grouping), and logical operations on concrete objects",
+      "Hypothetical-deductive reasoning about abstract propositions",
+      "Symbolic thought and language acquisition"
+    ],
+    "correct": 1,
+    "explanation": "Concrete operational stage (ages 7-11): children master conservation (liquid, mass, number), seriation, transitivity, and classification. They can think logically but only about concrete (tangible, observable) situations — not abstract hypotheticals (achieved in formal operations, 12+). Object permanence is achieved in sensorimotor stage (0-2). Symbolic thought and language appear in preoperational (2-7). Egocentrism (inability to take another's perspective) decreases through the concrete operational stage.",
+    "tags": [
+      "psychology",
+      "developmental psychology",
+      "Piaget"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The bystander effect refers to which social phenomenon?",
+    "options": [
+      "People are more likely to help when the victim is similar to themselves",
+      "The finding that individuals are less likely to offer help in an emergency when other bystanders are present — mediated by diffusion of responsibility (others will help) and pluralistic ignorance (interpreting others' calm inaction as evidence the situation isn't an emergency)",
+      "Helping behavior increases with the number of bystanders who also choose to help",
+      "People are more likely to help when they are in a good mood"
+    ],
+    "correct": 1,
+    "explanation": "Darley & Latané (1968): in the presence of others, emergency helping decreases due to: (1) Diffusion of responsibility — each bystander feels less personally responsible when others are present; (2) Pluralistic ignorance — others' inaction is interpreted as 'this isn't a real emergency.' Solutions: make a direct request (eliminate diffusion), create urgency (eliminate ambiguity). MCAT implication: emergency training emphasizes designating a specific person to call 911.",
+    "tags": [
+      "psychology",
+      "social psychology",
+      "prosocial behavior"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Weber's law states that the just noticeable difference (JND) between two stimuli:",
+    "options": [
+      "Is constant in absolute terms regardless of the stimulus intensity",
+      "Is a constant proportion of the stimulus magnitude (JND/I = k, Weber's fraction) — larger stimuli require larger differences to be detectable; e.g., you can notice 1 lb added to 10 lb but not 1 lb added to 100 lb",
+      "Decreases as stimulus intensity increases (inverse relationship)",
+      "Depends on the modality — visual JND is absolute while auditory JND is proportional"
+    ],
+    "correct": 1,
+    "explanation": "Weber's law: ΔI/I = k (a constant called Weber's fraction or Weber's constant). The JND is a constant ratio, not absolute difference. Example: if k = 0.10 for weight, you can detect a 1 kg difference from a 10 kg baseline, but need a 10 kg difference from a 100 kg baseline. Fechner extended this to Fechner's law: perceived sensation = k × log(stimulus intensity). Stevens' power law provides a more accurate description for many modalities.",
+    "tags": [
+      "psychology",
+      "sensation and perception",
+      "psychophysics"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In Bowlby's attachment theory, which attachment style develops when a caregiver is consistently unresponsive and rejecting?",
+    "options": [
+      "Secure attachment — the child uses the caregiver as a safe base for exploration",
+      "Avoidant (dismissing) attachment — the child learns to suppress attachment needs and shows little distress on separation and little relief on reunion; they have adapted to the caregiver's consistent rejection by deactivating the attachment behavioral system",
+      "Anxious-ambivalent (preoccupied) attachment — develops from inconsistent caregiving",
+      "Disorganized attachment — develops from frightening or frightened caregiving"
+    ],
+    "correct": 1,
+    "explanation": "Ainsworth's Strange Situation revealed four attachment patterns: Secure (consistent, responsive caregiving), Avoidant (consistent rejection → child suppresses needs), Anxious-ambivalent (inconsistent caregiving → child hyperactivates attachment, clingy and not easily soothed), Disorganized (frightening caregiving → no coherent strategy). Adult attachment representations (Adult Attachment Interview) parallel these: autonomous (secure), dismissing (avoidant), preoccupied (anxious), unresolved (disorganized).",
+    "tags": [
+      "psychology",
+      "developmental psychology",
+      "attachment"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The concept of 'stereotype threat' (Steele & Aronson, 1995) refers to:",
+    "options": [
+      "The tendency for people to discriminate against out-group members who confirm stereotypes",
+      "The risk of confirming a negative stereotype about one's group, which creates anxiety that can impair performance on relevant tasks — demonstrated when Black students underperformed on a verbal test when race was made salient, but not when it wasn't",
+      "The process by which stereotypes become self-fulfilling prophecies through behavioral confirmation",
+      "The threat of legal consequences for acting on discriminatory stereotypes"
+    ],
+    "correct": 1,
+    "explanation": "Stereotype threat: awareness of a negative group stereotype about ability creates performance pressure and anxiety, impairing working memory and performance. Steele & Aronson showed Black college students performed worse on a verbal test when told it measured 'intellectual ability' (activating racial stereotype) vs. as a non-diagnostic lab task. Stereotype threat affects many groups: women in math, elderly in memory tests, white men in athletics. Interventions: values affirmation, role models, growth mindset.",
+    "tags": [
+      "psychology",
+      "social psychology",
+      "stereotypes"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following describes Durkheim's concept of 'mechanical solidarity'?",
+    "options": [
+      "Social cohesion based on interdependence created by specialization of labor (found in complex societies)",
+      "Social cohesion based on similarity, shared beliefs, and collective conscience — characteristic of small, traditional societies with little division of labor; individuals are largely interchangeable; a crime is experienced as an offense against the whole community",
+      "The mechanical reproduction of culture through mass media",
+      "Social integration achieved through formal legal institutions"
+    ],
+    "correct": 1,
+    "explanation": "Durkheim distinguished mechanical solidarity (pre-industrial, traditional societies: homogeneity, shared conscience, crime = offense against collective) from organic solidarity (modern industrial societies: interdependence through division of labor, heterogeneity — like organs of a body each serving distinct functions). The transition from mechanical to organic solidarity accompanies modernization. Durkheim's concern: if collective conscience weakens faster than organic solidarity develops, anomie results.",
+    "tags": [
+      "sociology",
+      "Durkheim",
+      "social cohesion"
+    ],
+    "difficulty": "medium"
+  }
+]

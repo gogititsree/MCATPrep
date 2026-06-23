@@ -190,228 +190,241 @@
     "difficulty": "easy"
   },
   {
-    "text": "Which amino acid is the only one that lacks a chiral alpha carbon?",
+    "text": "Which enzyme is responsible for adding the 5' cap (7-methylguanosine) to eukaryotic mRNA?",
     "options": [
-      "Serine",
-      "Alanine",
-      "Proline",
-      "Glycine"
+      "RNA polymerase II",
+      "Guanylyltransferase (capping enzyme)",
+      "Poly-A polymerase",
+      "Spliceosomes"
     ],
-    "correct": 3,
-    "explanation": "Glycine has two H atoms on its alpha carbon (R = H), giving it two identical substituents and no chirality. Every other standard amino acid has four distinct groups at the alpha carbon and exists as the L-enantiomer in proteins.",
+    "correct": 1,
+    "explanation": "The 5' cap is added co-transcriptionally by guanylyltransferase shortly after transcription initiation. The cap protects mRNA from 5'→3' exonuclease degradation, assists in ribosome binding (40S subunit recognition), and promotes splicing and nuclear export.",
     "tags": [
-      "amino acids",
-      "chirality"
+      "molecular biology",
+      "transcription",
+      "mRNA processing"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient has a mutation that abolishes ATM kinase activity. Which downstream effector is most directly affected in the DNA damage response?",
+    "options": [
+      "Cyclin D/CDK4 activation",
+      "Chk2 phosphorylation leading to p53 stabilization",
+      "Activation of telomerase",
+      "Inhibition of the proteasome"
+    ],
+    "correct": 1,
+    "explanation": "ATM (Ataxia Telangiectasia Mutated) is activated by double-strand breaks and phosphorylates Chk2. Chk2 then phosphorylates Mdm2 (destabilizing it) and p53 (stabilizing it), leading to cell cycle arrest or apoptosis. Loss of ATM causes Ataxia Telangiectasia, characterized by radiation sensitivity and cancer predisposition.",
+    "tags": [
+      "molecular biology",
+      "DNA damage",
+      "cell cycle"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In oxidative phosphorylation, which complex directly donates electrons to ubiquinone (CoQ)?",
+    "options": [
+      "Complex I and Complex II only",
+      "Complex I, Complex II, and Complex III",
+      "Complex I and Complex II (and other flavoprotein dehydrogenases)",
+      "Complex IV only"
+    ],
+    "correct": 2,
+    "explanation": "Ubiquinone (CoQ) accepts electrons from Complex I (NADH dehydrogenase), Complex II (succinate dehydrogenase), and other flavoprotein-linked dehydrogenases (e.g., fatty acyl-CoA dehydrogenase, glycerol-3-phosphate dehydrogenase). CoQ is a mobile electron carrier that shuttles electrons to Complex III.",
+    "tags": [
+      "biochemistry",
+      "oxidative phosphorylation",
+      "electron transport chain"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Familial hypercholesterolemia is caused by mutations in the LDL receptor gene. Which cellular process is most directly impaired?",
+    "options": [
+      "Synthesis of cholesterol in the ER",
+      "Receptor-mediated endocytosis of LDL particles",
+      "Secretion of VLDL from hepatocytes",
+      "Conversion of cholesterol to bile acids"
+    ],
+    "correct": 1,
+    "explanation": "LDL receptors on the cell surface bind apolipoprotein B-100 on LDL particles. The complex is internalized via clathrin-coated pits (receptor-mediated endocytosis). In FH, dysfunctional receptors prevent LDL clearance, causing plasma LDL accumulation, atherosclerosis, and early cardiovascular disease.",
+    "tags": [
+      "biochemistry",
+      "lipid metabolism",
+      "endocytosis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which structural feature of tRNA allows the anticodon to pair with the mRNA codon during translation?",
+    "options": [
+      "The 3' CCA acceptor stem",
+      "The anticodon loop, which presents the anticodon in an orientation for antiparallel base pairing with the mRNA codon",
+      "The D-loop, which interacts with aminoacyl-tRNA synthetase",
+      "The variable loop, which determines tRNA identity"
+    ],
+    "correct": 1,
+    "explanation": "The anticodon loop (loop II) contains the three-nucleotide anticodon that pairs antiparallel and antiparallel with the mRNA codon in the A site of the ribosome. Wobble base pairing at the third codon position (5' end of codon / 3' end of anticodon) allows one tRNA to recognize multiple codons.",
+    "tags": [
+      "molecular biology",
+      "translation",
+      "tRNA"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "At physiological pH (~7.4), which amino acid side chain is best positioned to donate or accept a proton and function as an acid-base catalyst?",
+    "text": "A researcher finds that a drug inhibits HMG-CoA reductase. What is the primary metabolic consequence?",
     "options": [
-      "Glutamine",
-      "Aspartate",
-      "Histidine",
-      "Lysine"
+      "Decreased fatty acid oxidation",
+      "Decreased de novo cholesterol synthesis, leading to upregulation of LDL receptors",
+      "Decreased synthesis of ketone bodies",
+      "Increased synthesis of bile acids directly"
     ],
-    "correct": 2,
-    "explanation": "Histidine's imidazole side chain has pKa ≈ 6.0, closest to physiological pH of all standard amino acids. This lets it toggle between protonated and deprotonated forms under physiological conditions. Lysine (pKa ≈ 10.5) stays protonated; aspartate (pKa ≈ 3.9) stays deprotonated; glutamine has no ionizable side chain.",
+    "correct": 1,
+    "explanation": "HMG-CoA reductase catalyzes the rate-limiting step in cholesterol biosynthesis (HMG-CoA → mevalonate). Statins inhibit this enzyme. Reduced intracellular cholesterol signals upregulation of LDL receptors (via SREBP pathway), increasing LDL clearance from the blood and lowering plasma LDL.",
     "tags": [
-      "amino acids",
-      "enzyme catalysis"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which amino acid side chain contains a thiol group (–SH) that can form disulfide bonds?",
-    "options": [
-      "Serine",
-      "Methionine",
-      "Threonine",
-      "Cysteine"
-    ],
-    "correct": 3,
-    "explanation": "Cysteine's thiol (–SH) group is oxidized to form disulfide bonds (–S–S–) with another cysteine, stabilizing tertiary/quaternary protein structure. Serine and threonine have –OH groups. Methionine contains a thioether (–S–CH3) that cannot form disulfide bonds.",
-    "tags": [
-      "amino acids",
-      "protein structure"
+      "biochemistry",
+      "lipid metabolism",
+      "cholesterol"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "Why does proline disrupt alpha-helices?",
+    "text": "In meiosis, crossing over (homologous recombination) occurs at which stage?",
     "options": [
-      "Its side chain is too large to fit in the helix",
-      "It carries a negative charge at physiological pH",
-      "Its side chain bonds to the backbone nitrogen, eliminating the N–H hydrogen bond donor",
-      "It forms an extra covalent bond with adjacent residues"
+      "Leptotene of prophase I",
+      "Pachytene of prophase I",
+      "Metaphase I",
+      "Anaphase II"
     ],
-    "correct": 2,
-    "explanation": "Proline's nitrogen is locked in a pyrrolidine ring with its side chain, removing the backbone N–H needed for hydrogen bonding in a helix. This creates a rigid kink, making proline a 'helix breaker.' It can appear at the end of helices or in beta-turns.",
+    "correct": 1,
+    "explanation": "Crossing over occurs at the pachytene stage of prophase I, when homologous chromosomes are fully synapsed (synaptonemal complex formed). Recombination nodules mark sites of crossover. Chiasmata (physical manifestations of crossovers) become visible at diplotene after the synaptonemal complex disassembles.",
     "tags": [
-      "amino acids",
-      "protein structure"
+      "genetics",
+      "meiosis",
+      "recombination"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Proteins absorb strongly at 280 nm primarily because of which amino acids?",
+    "text": "A patient lacks a functional gene for adenylyl cyclase. Which signaling pathway is most directly disrupted?",
     "options": [
-      "Phenylalanine and alanine",
-      "Methionine and cysteine",
-      "Glycine and proline",
-      "Tryptophan and tyrosine"
+      "IP3/DAG pathway downstream of Gq-coupled receptors",
+      "cAMP/PKA pathway downstream of Gs-coupled receptors",
+      "Jak-STAT pathway downstream of cytokine receptors",
+      "MAP kinase pathway downstream of receptor tyrosine kinases"
     ],
-    "correct": 3,
-    "explanation": "Tryptophan (indole ring) and tyrosine (phenol ring) absorb at 280 nm due to aromatic pi electrons. Tryptophan has the larger extinction coefficient. This is used to estimate protein concentration spectrophotometrically. Phenylalanine absorbs weakly at ~257 nm.",
+    "correct": 1,
+    "explanation": "Adenylyl cyclase converts ATP to cAMP when activated by the Gαs subunit. cAMP activates PKA (protein kinase A), which phosphorylates downstream targets. Gs-coupled receptors (β-adrenergic, glucagon, TSH receptors) use this pathway. Gi-coupled receptors inhibit adenylyl cyclase.",
     "tags": [
-      "amino acids",
-      "spectroscopy"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which amino acid is the direct precursor for catecholamine biosynthesis (dopamine, norepinephrine, epinephrine)?",
-    "options": [
-      "Tryptophan",
-      "Histidine",
-      "Phenylalanine",
-      "Tyrosine"
-    ],
-    "correct": 3,
-    "explanation": "Tyrosine → L-DOPA (tyrosine hydroxylase) → Dopamine → Norepinephrine → Epinephrine. Phenylalanine can be converted to tyrosine by phenylalanine hydroxylase, but tyrosine is the direct precursor. Tryptophan makes serotonin. Histidine makes histamine.",
-    "tags": [
-      "amino acids",
-      "neurotransmitters"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "In eukaryotes, which amino acid is delivered by the initiator tRNA at the start codon AUG?",
-    "options": [
-      "Alanine",
-      "Valine",
-      "Methionine",
-      "Leucine"
-    ],
-    "correct": 2,
-    "explanation": "AUG codes for methionine and serves as the start codon in eukaryotes (the initiator tRNA is met-tRNAi). In prokaryotes, the initiator carries N-formyl-methionine (fMet). The initiating methionine is often cleaved post-translationally.",
-    "tags": [
-      "amino acids",
-      "translation"
+      "cell biology",
+      "signal transduction",
+      "cAMP"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "A patient with phenylketonuria (PKU) lacks phenylalanine hydroxylase. Which metabolite accumulates and causes neurological damage?",
+    "text": "Which of the following describes the role of ubiquitin in proteasomal degradation?",
     "options": [
-      "Tyrosine",
-      "Excess dopamine",
-      "Phenylalanine and its toxic byproducts (phenylpyruvate, phenyllactate)",
-      "Tryptophan metabolites"
+      "Ubiquitin is a protease that cleaves target proteins",
+      "Polyubiquitin chains (typically K48-linked) tag proteins for recognition by the 26S proteasome",
+      "Ubiquitin inhibits the proteasome from degrading essential proteins",
+      "Ubiquitin is required only for lysosomal but not proteasomal degradation"
     ],
-    "correct": 2,
-    "explanation": "Without phenylalanine hydroxylase, phenylalanine cannot be converted to tyrosine and accumulates. It is shunted to phenylpyruvate, phenyllactate, and phenylacetate. These metabolites inhibit brain aromatic amino acid transport, impair myelination, and cause intellectual disability if untreated.",
+    "correct": 1,
+    "explanation": "Proteins targeted for proteasomal degradation are tagged with polyubiquitin chains via E1 (ubiquitin-activating), E2 (ubiquitin-conjugating), and E3 (ubiquitin ligase) enzymes. K48-linked polyubiquitin chains direct proteins to the 26S proteasome, where the regulatory 19S particle recognizes ubiquitin, unfolds the protein, and feeds it into the 20S catalytic chamber.",
     "tags": [
-      "amino acids",
-      "metabolic disorders"
+      "cell biology",
+      "protein degradation",
+      "ubiquitin-proteasome"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Glutamic acid (pI ≈ 3.2) carries what net charge at pH 7.4?",
+    "text": "A mutation disrupts the signal recognition particle (SRP) receptor on the ER membrane. What is the consequence for secretory proteins?",
     "options": [
-      "–1",
-      "+1",
-      "0",
-      "+2"
+      "Secretory proteins are degraded in the nucleus",
+      "Secretory proteins are synthesized normally but fail to be translocated into the ER lumen, remaining in the cytosol",
+      "Secretory proteins are mistargeted to mitochondria",
+      "Secretory proteins are translated at faster rates"
     ],
-    "correct": 0,
-    "explanation": "At pH 7.4, well above pI 3.2: the alpha-COOH (pKa ~2.1) and side-chain COOH (pKa ~4.1) are both deprotonated (–1 each), while the alpha-NH3+ (pKa ~9.5) is protonated (+1). Net = +1 – 1 – 1 = –1.",
+    "correct": 1,
+    "explanation": "SRP recognizes the signal sequence emerging from the ribosome and pauses translation, targeting the ribosome-mRNA-nascent chain complex to the ER. The SRP receptor on the ER membrane docks the complex, allowing cotranslational translocation. Without a functional SRP receptor, translocation cannot occur and secretory proteins accumulate in the cytosol.",
     "tags": [
-      "amino acids",
-      "acid-base"
+      "cell biology",
+      "protein targeting",
+      "ER"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Which of the following is a complete list of the nine essential amino acids?",
+    "text": "In the lac operon, which molecule directly binds to the operator and represses transcription?",
     "options": [
-      "Arg, His, Lys, Asp, Glu, Asn, Gln, Ser, Thr",
-      "Phe, Tyr, Trp, Met, Cys, Gly, Pro, Val, Ala",
-      "His, Ile, Leu, Lys, Met, Phe, Thr, Trp, Val",
-      "Ala, Gly, Pro, Ser, Thr, Asn, Gln, Cys, Tyr"
+      "Lactose",
+      "The Lac repressor protein (in its active, allolactose-free form)",
+      "cAMP-CAP complex",
+      "RNA polymerase"
     ],
-    "correct": 2,
-    "explanation": "The nine essential amino acids (cannot be synthesized by humans) are Histidine, Isoleucine, Leucine, Lysine, Methionine, Phenylalanine, Threonine, Tryptophan, Valine. Mnemonic: PVT TIM HaLL. They must come from the diet.",
+    "correct": 1,
+    "explanation": "The Lac repressor (encoded by lacI) binds the operator in the absence of lactose (or its metabolite allolactose). When allolactose binds the repressor, it causes allosteric conformational change releasing the repressor from the operator, allowing transcription. Note: lactose itself is not the inducer — allolactose (a lactose isomer) is the actual inducer.",
     "tags": [
-      "amino acids",
-      "nutrition"
+      "molecular biology",
+      "gene regulation",
+      "lac operon"
     ],
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
-    "text": "Glycine appears in regions of the Ramachandran plot that are forbidden for other amino acids because:",
+    "text": "Which amino acid's side chain directly participates in the catalytic mechanism of serine proteases (e.g., chymotrypsin) as part of the catalytic triad?",
     "options": [
-      "It forms the most stable hydrogen bonds",
-      "It has the most hydrophobic side chain",
-      "Its pKa is farthest from physiological pH",
-      "It lacks a side chain, minimizing steric clash at extreme phi/psi angles"
+      "Serine only",
+      "Serine, histidine, and aspartate — the catalytic triad",
+      "Serine and cysteine",
+      "Lysine and arginine"
     ],
-    "correct": 3,
-    "explanation": "Without a side chain, glycine has minimal steric restriction and can adopt phi/psi combinations (including left-handed alpha-helix conformations) inaccessible to other amino acids. This flexibility is why glycine is common at tight turns and in collagen (Gly-X-Y). Proline, conversely, is the most restricted.",
+    "correct": 1,
+    "explanation": "Serine proteases use a catalytic triad: Asp-His-Ser. Aspartate stabilizes the positive charge on histidine; histidine acts as a base, abstracting the proton from serine's hydroxyl; serine's activated hydroxyl performs nucleophilic attack on the peptide carbonyl. This mechanism is an example of convergent evolution — it appears in unrelated protease families.",
     "tags": [
-      "amino acids",
+      "biochemistry",
+      "enzymology",
       "protein structure"
     ],
     "difficulty": "hard"
   },
   {
-    "text": "Collagen requires hydroxyproline for stability. Which vitamin is essential for prolyl hydroxylase, and what disease results from its deficiency?",
+    "text": "During which phase of the cell cycle does DNA replication occur?",
     "options": [
-      "Vitamin K; coagulopathy",
-      "Vitamin B12; pernicious anemia",
-      "Vitamin D; rickets",
-      "Vitamin C (ascorbic acid); scurvy"
+      "G1 phase",
+      "S phase",
+      "G2 phase",
+      "M phase"
     ],
-    "correct": 3,
-    "explanation": "Prolyl hydroxylase requires ascorbate (vitamin C) as a cofactor to hydroxylate proline residues in collagen. Hydroxyproline forms extra hydrogen bonds in the collagen triple helix. Without vitamin C, hydroxylation fails, collagen is unstable, and patients develop scurvy: bleeding gums, poor wound healing, perifollicular hemorrhages.",
+    "correct": 1,
+    "explanation": "DNA replication (S phase = synthesis phase) occurs between G1 and G2. Licensing of replication origins occurs in late mitosis/G1 (loading of MCM helicase). Actual firing and elongation occur in S phase. The G1/S checkpoint (restriction point) commits the cell to replication; the G2/M checkpoint ensures replication is complete before mitosis.",
     "tags": [
-      "amino acids",
-      "collagen",
-      "vitamins"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "GABA (gamma-aminobutyric acid) is synthesized from which amino acid by glutamate decarboxylase?",
-    "options": [
-      "Tyrosine",
-      "Aspartate",
-      "Glutamate",
-      "Tryptophan"
-    ],
-    "correct": 2,
-    "explanation": "Glutamate decarboxylase (requires PLP/vitamin B6) converts glutamate → GABA by removing the carboxyl group. GABA is the principal inhibitory neurotransmitter in the CNS. Disruption of GABA signaling is linked to anxiety disorders, epilepsy, and the mechanism of benzodiazepines and barbiturates.",
-    "tags": [
-      "amino acids",
-      "neurotransmitters"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The branched-chain amino acids (BCAAs) are:",
-    "options": [
-      "Phenylalanine, tyrosine, tryptophan",
-      "Serine, threonine, cysteine",
-      "Lysine, arginine, histidine",
-      "Leucine, isoleucine, valine"
-    ],
-    "correct": 3,
-    "explanation": "BCAAs (Leu, Ile, Val) have branched aliphatic side chains and are metabolized primarily in skeletal muscle (not liver), making them important for muscle protein synthesis and energy during exercise. All three are essential amino acids.",
-    "tags": [
-      "amino acids",
-      "metabolism"
+      "cell biology",
+      "cell cycle",
+      "DNA replication"
     ],
     "difficulty": "easy"
+  },
+  {
+    "text": "A cell line deficient in nucleotide excision repair (NER) is most susceptible to DNA damage caused by:",
+    "options": [
+      "Reactive oxygen species producing 8-oxoguanine",
+      "UV radiation producing cyclobutane pyrimidine dimers (CPDs) and 6-4 photoproducts",
+      "Replication errors producing mismatched bases",
+      "Ionizing radiation producing double-strand breaks"
+    ],
+    "correct": 1,
+    "explanation": "NER repairs bulky helix-distorting lesions, most importantly UV-induced pyrimidine dimers (CPDs and 6-4 photoproducts). Mutations in NER genes cause Xeroderma Pigmentosum, characterized by extreme UV sensitivity and skin cancer. 8-oxoguanine is repaired by base excision repair (BER); mismatches by mismatch repair (MMR); DSBs by NHEJ or HR.",
+    "tags": [
+      "molecular biology",
+      "DNA repair",
+      "NER"
+    ],
+    "difficulty": "medium"
   }
 ]

@@ -142,62 +142,73 @@
     ]
   },
   {
-    "passageText": "The emergence of behavioral economics in the late twentieth century challenged the dominant rational-agent models that had governed economic theory for decades. Traditional economic theory, rooted in neoclassical principles, assumed that individuals make decisions by carefully weighing all available information, calculating expected utilities, and selecting the option that maximizes personal welfare. This idealized agent — Homo economicus — was mathematically tractable but empirically problematic.\n\nDaniel Kahneman and Amos Tversky's prospect theory, developed in the 1970s and 1980s, offered a descriptively accurate alternative. Their experiments revealed consistent patterns of irrationality: people are loss-averse (losses loom larger than equivalent gains), weight probabilities non-linearly (overweighting small probabilities and underweighting moderate and high probabilities), and evaluate outcomes relative to a reference point rather than in absolute terms. These findings undermined the expected utility framework in a way that could not be dismissed as random error.\n\nThe implications for policy were quickly recognized. If individuals reliably make predictable errors, governments and institutions could design choice architectures — 'nudges' — that guide people toward better outcomes without restricting freedom of choice. Automatic enrollment in retirement savings plans, calorie labeling, and organ donation opt-out defaults are all examples. Critics, however, argue that nudge policies are paternalistic, implicitly assuming that policymakers know better than individuals what constitutes a good outcome. Others raise concerns about transparency: if nudges work by exploiting cognitive biases, their effectiveness depends partly on the subject's unawareness of them.\n\nThe behavioralist critique of rationality has itself been critiqued. Some economists argue that apparent irrationalities dissolve under scrutiny: the ecological rationality framework (Gigerenzer) holds that many 'biases' are actually adaptive heuristics that perform well in naturalistic environments, even if they fail on laboratory tasks constructed to expose their limits. The debate touches fundamental questions about what rationality means: is it defined by coherent preferences, by adaptive behavior, or by some external standard of correctness?",
+    "passageText": "The relationship between law and morality has preoccupied legal theorists since at least the ancient Greeks. Natural law theorists hold that law derives its authority from a higher moral order — that unjust law is, in some significant sense, not fully law at all. Legal positivists deny this connection: the existence of law is one thing, its moral merit quite another. Understanding what law is, on the positivist account, requires only identifying the social facts that make a rule legally valid in a given system — not evaluating its moral content.\n\nH.L.A. Hart, the twentieth century's most influential legal positivist, articulated a distinction between 'primary rules' (duties and obligations imposed on citizens) and 'secondary rules' (rules about how primary rules are made, recognized, adjudicated, and changed). The most fundamental secondary rule is the 'rule of recognition' — a social practice among officials that specifies the criteria of legal validity in a system. In the United States, one such criterion is enactment by Congress in accord with the Constitution. Hart's positivism is 'soft': he acknowledged that the rule of recognition might include moral criteria ('law that is grossly unjust is invalid'), but insisted this is a contingent fact about specific legal systems, not a necessary truth about law as such.\n\nRonald Dworkin challenged positivism by arguing that law includes not only rules but also 'principles' — standards that bear on legal decisions without being enacted as rules, and that have weight rather than a simple on-off application. Principles express moral rights and can constrain judicial decisions even when no enacted rule is applicable. For Dworkin, the correct answer to any legal question — even hard cases — can be reached by a sufficiently wise judge ('Hercules') who can identify the interpretation that 'fits' the existing law and shows it in its morally best light.\n\nCritical legal studies (CLS) challenged both positivism and Dworkin's rights-based theory from the left. CLS scholars argued that law is not a neutral system of rules but is permeated by political ideology serving dominant class interests. Legal reasoning is indeterminate — it can justify any outcome — and law's apparent neutrality and objectivity are ideological constructs that legitimate existing power relations.",
     "questions": [
       {
-        "text": "The author's primary purpose in the passage is to:",
+        "text": "Hart's 'rule of recognition' functions in his theory primarily as:",
         "options": [
-          "Argue that behavioral economics has definitively replaced neoclassical theory",
-          "Describe the emergence of behavioral economics, its policy implications, and ongoing debates about its claims",
-          "Advocate for nudge policies as the most effective form of government intervention",
-          "Explain why Homo economicus remains the dominant model in economics"
+          "A moral standard against which laws are evaluated",
+          "The social practice among officials that specifies criteria of legal validity — the foundational secondary rule that allows identification of what counts as valid law in a system",
+          "A constitutional provision guaranteeing rights",
+          "A rule that determines punishment for criminal offenders"
         ],
         "correct": 1,
-        "explanation": "The passage presents behavioral economics' development and policy implications in a balanced way, then introduces critiques from multiple sides. The author does not take a strong stance for or against any position, making option B the most accurate description of the primary purpose."
+        "explanation": "The passage states the rule of recognition is 'a social practice among officials that specifies the criteria of legal validity in a system.' It is a foundational secondary rule (about how rules are made/recognized) in Hart's framework."
       },
       {
-        "text": "According to prospect theory as described in the passage, which of the following best illustrates loss aversion?",
+        "text": "The passage characterizes Hart's positivism as 'soft' because:",
         "options": [
-          "Choosing a certain $50 gain over a 50% chance of $100",
-          "Feeling more distressed about losing $100 than pleased about winning $100",
-          "Overestimating the probability of a rare airline crash",
-          "Evaluating a salary relative to a reference point"
+          "He acknowledged that some laws are morally wrong",
+          "He allowed that a specific system's rule of recognition might contingently include moral criteria (e.g., 'grossly unjust laws are invalid') while insisting this is not a necessary feature of law as such — law and morality are conceptually separable even if empirically connected in some systems",
+          "He believed natural law theory was partially correct",
+          "He held that judges should make moral judgments when deciding cases"
         ],
         "correct": 1,
-        "explanation": "Loss aversion means that 'losses loom larger than equivalent gains.' Option B directly illustrates this asymmetry. Option A describes risk aversion (not loss aversion specifically). Option C illustrates probability overweighting of small probabilities. Option D illustrates reference-point evaluation."
+        "explanation": "The passage explains Hart's 'soft' positivism: 'he acknowledged that the rule of recognition might include moral criteria...but insisted this is a contingent fact about specific legal systems, not a necessary truth about law as such.' Law and morality are separable in concept even if related in practice."
       },
       {
-        "text": "The passage implies that nudge policies depend on which assumption to be effective?",
+        "text": "Dworkin's concept of legal 'principles' differs from Hart's 'rules' in that principles:",
         "options": [
-          "People are fully rational and will recognize the optimal choice when presented properly",
-          "Cognitive biases are random and unpredictable",
-          "Predictable patterns of irrationality can be anticipated and directed toward better outcomes",
-          "Policymakers should restrict choices to prevent poor decisions"
-        ],
-        "correct": 2,
-        "explanation": "The passage states that nudges work by exploiting 'predictable errors.' For a nudge to succeed, the biases it targets must be consistent and foreseeable, not random. The passage explicitly contrasts nudges (preserving choice) with restrictions, ruling out option D."
-      },
-      {
-        "text": "Gigerenzer's 'ecological rationality' framework would most likely respond to demonstrations of human irrationality in laboratory studies by arguing that:",
-        "options": [
-          "The studies confirm that human reasoning is fundamentally flawed",
-          "The heuristics that appear as biases in artificial tasks are actually adaptive in real-world environments",
-          "Laboratory conditions are more realistic than naturalistic settings",
-          "Loss aversion is the most important cognitive bias to address"
+          "Are enacted by legislatures while rules are judge-made",
+          "Are not enacted rules but standards with moral weight that bear on decisions — they have 'weight' (can be balanced) rather than binary application; they constrain judicial decisions even where no rule applies, and reflect underlying moral rights",
+          "Only apply in criminal law cases",
+          "Are identical to constitutional provisions"
         ],
         "correct": 1,
-        "explanation": "The passage describes ecological rationality as the view that 'many biases are actually adaptive heuristics that perform well in naturalistic environments, even if they fail on laboratory tasks constructed to expose their limits.' This directly supports option B."
+        "explanation": "The passage states Dworkin's principles are 'standards that bear on legal decisions without being enacted as rules, and that have weight rather than a simple on-off application. Principles express moral rights and can constrain judicial decisions even when no enacted rule is applicable.'"
       },
       {
-        "text": "The author's description of nudge critics who argue that 'nudges work by exploiting cognitive biases' suggests which concern?",
+        "text": "Critical legal studies (CLS) scholars would most likely respond to Dworkin's 'Hercules' judge by arguing:",
         "options": [
-          "Nudges are too costly to implement",
-          "The effectiveness of nudges may depend on people not knowing they are being nudged",
-          "Cognitive biases do not actually exist",
-          "Nudges always restrict freedom of choice"
+          "That Hercules is a useful theoretical ideal even if no actual judge achieves it",
+          "That legal reasoning is indeterminate — multiple interpretations can always be constructed; even a 'best' interpretation reflects ideological commitments rather than neutral discovery; Hercules's conclusions would reflect class and power interests masked as objective legal reasoning",
+          "That constitutional principles can provide determinate answers in hard cases",
+          "That judges should defer to legislative intent rather than moral principles"
         ],
         "correct": 1,
-        "explanation": "The passage states that 'if nudges work by exploiting cognitive biases, their effectiveness depends partly on the subject's unawareness of them.' This is a transparency concern: disclosure might undermine the nudge's mechanism, raising ethical questions about hidden manipulation."
+        "explanation": "CLS argues legal reasoning is indeterminate ('can justify any outcome') and law's apparent neutrality is ideological. Applied to Dworkin: the 'best interpretation' would itself reflect political ideology rather than objective moral truth. CLS would reject the premise that there is a uniquely correct legal answer discoverable by Hercules."
+      },
+      {
+        "text": "The central disagreement between natural law theory and legal positivism, as described in the passage, concerns:",
+        "options": [
+          "Whether courts should interpret law broadly or narrowly",
+          "Whether law's authority derives from a higher moral order (natural law: unjust law is not truly law) or from social facts of enactment and recognition (positivism: law and morality are conceptually separable — a law's existence is independent of its moral merit)",
+          "Whether judges or legislatures should have ultimate authority",
+          "Whether constitutional rights should be enforceable by courts"
+        ],
+        "correct": 1,
+        "explanation": "The passage presents: natural law holds 'unjust law is, in some significant sense, not fully law at all' (moral order grounds legal authority); positivism holds 'the existence of law is one thing, its moral merit quite another' — social facts, not moral merit, determine legal validity."
+      },
+      {
+        "text": "Based on the passage, which position would argue that the Nuremberg laws in Nazi Germany were not valid law because of their content?",
+        "options": [
+          "Legal positivism — the laws were validly enacted by the German government",
+          "Natural law theory — the laws were so grossly unjust that they failed the higher moral standard that makes law genuinely obligatory; 'unjust law is not fully law'",
+          "Critical legal studies — the laws served dominant class interests and were therefore invalid",
+          "Dworkin's rights theory — the laws could not be 'fitted' to show Germany's legal system in its best moral light"
+        ],
+        "correct": 1,
+        "explanation": "Natural law theory holds that 'unjust law is, in some significant sense, not fully law at all.' This is the classic natural law argument used about Nazi law — because it violated higher moral principles, it lacked genuine legal authority. Positivists would say the laws were valid law (though morally monstrous); they distinguish between 'is law' and 'morally legitimate.'"
       }
     ]
   }

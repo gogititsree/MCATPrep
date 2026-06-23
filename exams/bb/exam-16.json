@@ -1,413 +1,415 @@
 [
   {
-    "text": "The energetic yield of one NADH oxidized by the ETC is approximately:",
+    "text": "The 'wobble hypothesis' proposed by Crick describes which phenomenon?",
     "options": [
-      "4 ATP",
-      "2.5 ATP",
-      "3 ATP",
-      "1.5 ATP"
+      "The flexibility of the ribosome A site allowing accommodation of different tRNAs",
+      "Relaxed base-pairing rules at the third codon position (5' end of codon / 3' end of anticodon) — certain bases (especially inosine) in the anticodon can pair with multiple bases in the codon, allowing fewer tRNAs to read more codons",
+      "The conformational changes in the ribosome during translocation",
+      "The wobbling motion of the transfer RNA as it exits the ribosome"
     ],
     "correct": 1,
-    "explanation": "Modern measurements (using P/O ratios from chemiosmosis) give ~2.5 ATP per NADH (pumps 10 H+ across inner mitochondrial membrane; ATP synthase needs ~4 H+ per ATP → 10/4 = 2.5 ATP). FADH2 yields ~1.5 ATP (pumps 6 H+). Older textbooks cited 3 ATP (NADH) and 2 ATP (FADH2), but 2.5 and 1.5 are now accepted values.",
+    "explanation": "Crick's wobble hypothesis explains why ~45 tRNAs can decode 61 sense codons. Standard Watson-Crick pairing requires precise antiparallel complementarity at positions 1 and 2 of the codon. At position 3 (wobble position), non-standard pairing is allowed: inosine (I) can pair with U, C, or A; G can pair with U. This is why most synonymous codons differ only at the third position (the genetic code's 'degeneracy').",
     "tags": [
-      "electron transport chain",
-      "ATP yield"
+      "molecular biology",
+      "genetic code",
+      "tRNA"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Which complex of the ETC does NOT pump protons across the inner mitochondrial membrane?",
+    "text": "In which condition would you expect both hyperglycemia AND elevated ketone bodies?",
     "options": [
-      "Complex III (cytochrome bc1)",
-      "Complex I (NADH dehydrogenase)",
-      "Complex II (succinate dehydrogenase)",
-      "Complex IV (cytochrome c oxidase)"
-    ],
-    "correct": 2,
-    "explanation": "Complexes I, III, and IV pump protons from matrix to intermembrane space, generating the proton motive force. Complex II (succinate dehydrogenase) accepts electrons from FADH2 and passes them to ubiquinone (CoQ) but does NOT translocate protons. This is why FADH2 yields less ATP than NADH.",
-    "tags": [
-      "electron transport chain"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Rotenone, a pesticide, blocks which complex of the ETC?",
-    "options": [
-      "Complex II",
-      "Complex III",
-      "Complex I (NADH:ubiquinone oxidoreductase)",
-      "Complex IV"
-    ],
-    "correct": 2,
-    "explanation": "Rotenone is a specific inhibitor of Complex I (blocks electron transfer from Fe-S center to ubiquinone). Inhibiting Complex I prevents NADH oxidation, halting the ETC. It is also used experimentally to model Parkinson's disease (dopaminergic neurons are especially sensitive to Complex I inhibition).",
-    "tags": [
-      "electron transport chain",
-      "toxicology"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Uncoupling proteins (UCPs, e.g., thermogenin/UCP1 in brown fat) affect oxidative phosphorylation by:",
-    "options": [
-      "Increasing proton gradient without generating heat",
-      "Activating ATP synthase to produce more ATP per proton",
-      "Inhibiting electron flow at Complex III",
-      "Allowing protons to flow back across the inner mitochondrial membrane without producing ATP, generating heat instead"
-    ],
-    "correct": 3,
-    "explanation": "UCPs dissipate the proton gradient (uncouple ETC from ATP synthesis) by providing an alternative proton leak pathway. Instead of driving ATP synthase, the energy is released as heat — thermogenesis. UCP1 in brown adipose tissue is especially important in newborns and hibernating animals for non-shivering thermogenesis.",
-    "tags": [
-      "oxidative phosphorylation",
-      "thermogenesis",
-      "uncoupling"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The unique enzymes of gluconeogenesis that bypass glycolytic irreversible steps are:",
-    "options": [
-      "Pyruvate carboxylase, PEPCK, fructose-1,6-bisphosphatase, glucose-6-phosphatase",
-      "Aldolase and enolase",
-      "Hexokinase, PFK-1, pyruvate kinase",
-      "Glycogen synthase and glycogen phosphorylase"
-    ],
-    "correct": 0,
-    "explanation": "Three irreversible glycolytic steps are bypassed: (1) Pyruvate kinase step bypassed by pyruvate carboxylase (pyruvate→OAA) + PEPCK (OAA→PEP); (2) PFK-1 step bypassed by fructose-1,6-bisphosphatase; (3) Hexokinase step bypassed by glucose-6-phosphatase. Glucose-6-phosphatase is only in liver/kidney, explaining why only those organs can release glucose to blood.",
-    "tags": [
-      "gluconeogenesis"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Insulin promotes which of the following metabolic effects in hepatocytes?",
-    "options": [
-      "Glycogenolysis, gluconeogenesis, fatty acid oxidation",
-      "Glycolysis, glycogen synthesis, fatty acid synthesis; inhibits gluconeogenesis",
-      "Ketone body production and glucose output",
-      "Protein catabolism and urea synthesis"
+      "Type 2 diabetes mellitus, well-controlled",
+      "Type 1 diabetes mellitus (T1DM), uncontrolled — absolute insulin deficiency prevents glucose uptake (hyperglycemia) and fails to suppress glucagon, which drives lipolysis and hepatic ketogenesis, producing diabetic ketoacidosis (DKA)",
+      "Insulinoma (insulin-secreting tumor)",
+      "Prolonged fasting in a metabolically healthy individual"
     ],
     "correct": 1,
-    "explanation": "Insulin (secreted by beta cells in response to high glucose) promotes anabolic pathways: activates PFK-2 (increases F-2,6-BP → activates PFK-1 → glycolysis), glycogen synthase (glycogen synthesis), acetyl-CoA carboxylase (fatty acid synthesis), and inhibits PEPCK and glucose-6-phosphatase (gluconeogenesis). Net effect: lower blood glucose.",
+    "explanation": "In T1DM, absolute insulin deficiency produces: (1) hyperglycemia (cells cannot uptake glucose); (2) unopposed glucagon → lipolysis → high FFA → hepatic ketogenesis → ketoacidosis; (3) osmotic diuresis → dehydration and electrolyte loss. Prolonged fasting produces ketones but also low (not high) glucose. T2DM patients have residual insulin that suppresses ketogenesis; they rarely develop DKA.",
     "tags": [
-      "carbohydrate metabolism",
-      "hormones",
-      "insulin"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The pentose phosphate pathway (hexose monophosphate shunt) is particularly important in red blood cells because it:",
-    "options": [
-      "Is the only source of ribose for nucleotide synthesis in RBCs",
-      "Provides the primary ATP source for red blood cells",
-      "Generates acetyl-CoA for fatty acid synthesis in RBCs",
-      "Produces NADPH to maintain glutathione (GSH) reduced, protecting against oxidative hemolysis"
-    ],
-    "correct": 3,
-    "explanation": "RBCs lack mitochondria and nuclei (no TCA, no ETC, no nucleotide synthesis). The pentose phosphate pathway produces NADPH, which reduces glutathione (GSSG → GSH) via glutathione reductase. Reduced GSH protects hemoglobin from oxidative damage. G6PD deficiency impairs this pathway → oxidative hemolysis with oxidative stressors (certain drugs, fava beans).",
-    "tags": [
-      "pentose phosphate pathway",
-      "red blood cells",
-      "G6PD"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Glycogen synthase is activated by:",
-    "options": [
-      "Phosphorylation by PKA",
-      "Epinephrine in skeletal muscle",
-      "Dephosphorylation (by phosphatase, stimulated by insulin) and allosterically by glucose-6-phosphate",
-      "Glucagon via cAMP"
-    ],
-    "correct": 2,
-    "explanation": "Glycogen synthase is active when dephosphorylated (insulin activates PP1 via inhibiting GSK-3). G6P allosterically activates glycogen synthase — high intracellular glucose signals available precursor. Glucagon and epinephrine activate PKA → phosphorylates glycogen synthase → INACTIVATES it (and activates phosphorylase). This reciprocal regulation is a key metabolic switch.",
-    "tags": [
-      "glycogen metabolism",
-      "enzyme regulation",
-      "insulin"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "In the Cori cycle, skeletal muscle sends which metabolite to the liver during intense exercise?",
-    "options": [
-      "Pyruvate",
-      "Fatty acids",
-      "Lactate",
-      "Glucose"
-    ],
-    "correct": 2,
-    "explanation": "During intense anaerobic exercise, skeletal muscle converts glucose to lactate (anaerobic glycolysis) to regenerate NAD+ for continued glycolysis. Lactate is exported to the blood, taken up by the liver, converted to pyruvate and then glucose via gluconeogenesis. This glucose returns to muscle — the Cori cycle. Alanine (from muscle amino acid catabolism) participates in the glucose-alanine cycle.",
-    "tags": [
-      "Cori cycle",
-      "glucose-lactate cycle"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Fructose-1,6-bisphosphatase (FBPase-1) is inhibited by which metabolite?",
-    "options": [
-      "Glucose-6-phosphate",
-      "AMP and fructose-2,6-bisphosphate",
-      "Acetyl-CoA",
-      "ATP and citrate"
-    ],
-    "correct": 1,
-    "explanation": "FBPase-1 (the gluconeogenesis enzyme) is inhibited by AMP (low energy signal) and fructose-2,6-bisphosphate (F-2,6-BP, high glycolytic signal). F-2,6-BP is produced by PFK-2 and is a powerful inhibitor of FBPase-1 while simultaneously activating PFK-1. This reciprocal regulation ensures glycolysis and gluconeogenesis don't run simultaneously at high rates.",
-    "tags": [
-      "gluconeogenesis",
-      "enzyme regulation"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Pyruvate carboxylase, an enzyme in gluconeogenesis, is activated by:",
-    "options": [
-      "NADH",
-      "Acetyl-CoA",
-      "AMP",
-      "Glucose-6-phosphate"
-    ],
-    "correct": 1,
-    "explanation": "Pyruvate carboxylase (PC) requires biotin (vitamin B7) and is allosterically activated by acetyl-CoA. High acetyl-CoA (from beta-oxidation during fasting) signals excess fuel and need for oxaloacetate replenishment for both the TCA cycle and gluconeogenesis. Acetyl-CoA cannot be converted back to pyruvate/glucose directly, so PC channels pyruvate into OAA.",
-    "tags": [
-      "gluconeogenesis",
-      "pyruvate carboxylase",
-      "enzyme regulation"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Galactosemia is caused by deficiency of galactose-1-phosphate uridyltransferase, which converts:",
-    "options": [
-      "UDP-galactose to UDP-glucose",
-      "Lactose to glucose and galactose",
-      "Galactose to glucose directly",
-      "Galactose-1-phosphate + UDP-glucose → glucose-1-phosphate + UDP-galactose"
-    ],
-    "correct": 3,
-    "explanation": "In galactose metabolism: galactose → galactose-1-phosphate (galactokinase) → glucose-1-phosphate (galactose-1-phosphate uridyltransferase). Deficiency causes accumulation of galactose-1-phosphate, which is toxic to liver, brain, and kidneys. Newborn screening detects this enzyme deficiency. Treatment is elimination of galactose (lactose) from the diet.",
-    "tags": [
-      "carbohydrate metabolism",
-      "metabolic disorders",
-      "galactose"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Which metabolic process generates the majority of the NADH used by the ETC during aerobic glucose catabolism?",
-    "options": [
-      "Glycolysis exclusively",
-      "The pentose phosphate pathway",
-      "Beta-oxidation",
-      "The TCA cycle (most NADH) plus pyruvate dehydrogenase"
-    ],
-    "correct": 3,
-    "explanation": "Of the 10 NADH produced per glucose in complete aerobic catabolism: glycolysis produces 2 NADH (cytoplasmic); pyruvate dehydrogenase produces 2 NADH; the TCA cycle produces 6 NADH (3 per turn × 2 turns). Additionally 2 FADH2 come from TCA. The TCA cycle + PDC provide 8 of 10 NADH, making them the dominant source for the ETC.",
-    "tags": [
-      "TCA cycle",
-      "NADH",
-      "bioenergetics"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Type 1 diabetes results from autoimmune destruction of pancreatic beta cells. Without insulin, which metabolic pathway is inappropriately active in adipose tissue?",
-    "options": [
-      "Lipogenesis (fatty acid synthesis)",
-      "Glycogen synthesis",
-      "Glucose uptake via GLUT4",
-      "Lipolysis (HSL activated by glucagon/epinephrine, not inhibited by insulin)"
-    ],
-    "correct": 3,
-    "explanation": "Insulin normally suppresses hormone-sensitive lipase (HSL) in adipocytes. Without insulin, HSL is active → releases free fatty acids → liver converts to ketone bodies → ketoacidosis. Insulin also promotes GLUT4 insertion into adipocyte membranes for glucose uptake; without insulin, glucose uptake is impaired. This explains the metabolic crisis in untreated T1DM.",
-    "tags": [
-      "lipid metabolism",
-      "hormones",
-      "diabetes"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which enzyme is the rate-limiting step of fatty acid synthesis, and how is it regulated?",
-    "options": [
-      "Acetyl-CoA carboxylase (ACC); activated by citrate, inhibited by palmitoyl-CoA and glucagon-induced phosphorylation",
-      "HMG-CoA reductase; inhibited by statins",
-      "Fatty acid synthase; regulated by product inhibition only",
-      "Malonyl-CoA decarboxylase; activated by glucagon"
-    ],
-    "correct": 0,
-    "explanation": "ACC carboxylates acetyl-CoA to malonyl-CoA (requires biotin). It is allosterically activated by citrate (excess acetyl-CoA signal) and inhibited by palmitoyl-CoA (feedback) and by phosphorylation (AMPK or PKA, activated by fasting/glucagon). Malonyl-CoA also inhibits carnitine palmitoyltransferase-1 (CPT-1), preventing concurrent fatty acid oxidation.",
-    "tags": [
-      "fatty acid synthesis",
-      "enzyme regulation"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The transport of long-chain fatty acids into the mitochondrial matrix requires:",
-    "options": [
-      "VLDL particle transport",
-      "Carnitine shuttle (carnitine palmitoyltransferase-1 on outer membrane, CPT-2 on inner membrane)",
-      "The GLUT family of transporters",
-      "Simple diffusion across the inner membrane"
-    ],
-    "correct": 1,
-    "explanation": "Long-chain fatty acyl-CoA cannot cross the inner mitochondrial membrane directly. Acyl-CoA is converted to acylcarnitine by CPT-1 (rate-limiting step of beta-oxidation; inhibited by malonyl-CoA). Acylcarnitine crosses via a translocase; CPT-2 on the inner membrane regenerates acyl-CoA in the matrix for beta-oxidation.",
-    "tags": [
-      "fatty acid oxidation",
-      "carnitine"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The net ATP yield from complete oxidation of one molecule of palmitate (C16:0) is approximately:",
-    "options": [
-      "38 ATP",
-      "106–108 ATP",
-      "15 ATP",
-      "2 ATP"
-    ],
-    "correct": 1,
-    "explanation": "Palmitoyl-CoA → 7 cycles of beta-oxidation: 7 FADH2 (×1.5=10.5 ATP) + 7 NADH (×2.5=17.5 ATP) + 8 acetyl-CoA (×10 ATP each = 80 ATP) = 108 ATP. Subtract 2 ATP for activation (palmitoyl-CoA synthesis). Net ≈ 106 ATP. This is ~3× the yield from glycolysis + TCA for glucose, reflecting fats' higher energy density.",
-    "tags": [
-      "beta-oxidation",
-      "bioenergetics"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Odd-chain fatty acid beta-oxidation produces propionyl-CoA, which is converted to succinyl-CoA by which enzymes and cofactors?",
-    "options": [
-      "Propionyl-CoA carboxylase (biotin) → methylmalonyl-CoA mutase (vitamin B12) → succinyl-CoA",
-      "Fatty acid synthase in reverse",
-      "Propionyl-CoA dehydrogenase → acetyl-CoA directly",
-      "Thiolase cleavage to two acetyl-CoA"
-    ],
-    "correct": 0,
-    "explanation": "Odd-chain fatty acid catabolism: beta-oxidation proceeds normally until 3-carbon propionyl-CoA (instead of 2-carbon acetyl-CoA). Propionyl-CoA carboxylase (biotin) → D-methylmalonyl-CoA → L-methylmalonyl-CoA → succinyl-CoA (methylmalonyl-CoA mutase, requires B12). Succinyl-CoA enters TCA cycle. Methylmalonic acidemia results from B12/mutase deficiency.",
-    "tags": [
-      "beta-oxidation",
-      "odd-chain fatty acids",
-      "vitamin B12"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "HMG-CoA reductase catalyzes the committed, rate-limiting step of cholesterol synthesis. Statins treat hypercholesterolemia by:",
-    "options": [
-      "Competitively inhibiting HMG-CoA reductase, reducing hepatic cholesterol synthesis and upregulating LDL receptors",
-      "Increasing LDL oxidation in macrophages",
-      "Activating VLDL secretion from the liver",
-      "Blocking bile acid reabsorption in the intestine"
-    ],
-    "correct": 0,
-    "explanation": "Statins (e.g., atorvastatin) are structural analogs of HMG-CoA that competitively inhibit HMG-CoA reductase. Reduced intrahepatic cholesterol triggers upregulation of hepatic LDL receptors → more LDL cleared from blood. This is the primary mechanism by which statins lower LDL-C and reduce cardiovascular risk.",
-    "tags": [
-      "cholesterol synthesis",
-      "pharmacology"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "In diabetic ketoacidosis (DKA), ketone bodies accumulate because:",
-    "options": [
-      "Ketone body utilization is blocked in peripheral tissues",
-      "Insulin blocks beta-oxidation, diverting all acetyl-CoA to ketones",
-      "Excess acetyl-CoA from beta-oxidation cannot enter the TCA cycle (depleted OAA), so it is channeled to ketogenesis",
-      "Cells cannot oxidize glucose, so they burn fat instead (oversimplified: technically OAA depletion is key)"
-    ],
-    "correct": 2,
-    "explanation": "In DKA (untreated T1DM), lack of insulin → lipolysis → excess fatty acids → beta-oxidation in liver → acetyl-CoA accumulates. OAA is depleted (used for gluconeogenesis, reducing TCA capacity). Excess acetyl-CoA → HMG-CoA → ketone bodies (acetoacetate, beta-hydroxybutyrate). Paradoxically, brain eventually uses ketones as fuel during prolonged starvation. Acetone gives the characteristic fruity breath.",
-    "tags": [
-      "ketone bodies",
+      "biochemistry",
       "diabetes",
-      "lipid metabolism"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Adipose triglyceride lipase (ATGL) and hormone-sensitive lipase (HSL) are key lipolytic enzymes. Which hormone activates these during fasting?",
-    "options": [
-      "Cortisol via nuclear receptors only",
-      "Leptin directly activating HSL",
-      "Glucagon (and epinephrine) via cAMP-PKA cascade",
-      "Insulin via PI3K pathway"
-    ],
-    "correct": 2,
-    "explanation": "Glucagon and epinephrine activate adenylyl cyclase → cAMP → PKA → phosphorylates HSL (activating it) and perilipin (allowing access to lipid droplet). ATGL is also activated. Free fatty acids + glycerol are released. Insulin inhibits PKA effects and activates phosphodiesterase (breaks down cAMP), suppressing lipolysis. This is how insulin promotes fat storage and glucagon/epinephrine promote fat mobilization.",
-    "tags": [
-      "lipolysis",
-      "hormones",
-      "signal transduction"
+      "metabolism"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Eicosanoids (prostaglandins, thromboxanes, leukotrienes) are derived from which fatty acid?",
+    "text": "A protein lacks a signal sequence but is found in the nucleus. Which sequence likely targets it there?",
     "options": [
-      "Linoleic acid (C18:2, omega-6)",
-      "Palmitic acid (C16:0)",
-      "Arachidonic acid (C20:4, omega-6)",
-      "Alpha-linolenic acid (C18:3, omega-3)"
-    ],
-    "correct": 2,
-    "explanation": "Arachidonic acid (AA, 20:4, omega-6), released from membrane phospholipids by phospholipase A2, is the major precursor for eicosanoids. COX (cyclooxygenase) converts AA to prostaglandins/thromboxanes; 5-LOX converts AA to leukotrienes. NSAIDs (aspirin, ibuprofen) inhibit COX. Omega-3 fatty acids (EPA, DHA) compete with AA and produce less inflammatory eicosanoids.",
-    "tags": [
-      "lipid metabolism",
-      "eicosanoids",
-      "inflammation"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which strand of the double-stranded DNA serves as the template for RNA polymerase?",
-    "options": [
-      "Coding strand (non-template strand, same sequence as mRNA)",
-      "Template strand (antisense strand, read 3'→5' by RNA polymerase, producing RNA 5'→3')",
-      "Either strand is equally used",
-      "The strand with the promoter sequence"
+      "A hydrophobic signal sequence recognized by SRP",
+      "A nuclear localization signal (NLS) — a stretch of basic amino acids (e.g., KKKRKV in SV40 T antigen) recognized by importins α and β, which mediate active transport through nuclear pore complexes (NPCs)",
+      "A peroxisomal targeting signal (PTS1: SKL at C-terminus)",
+      "A mitochondrial targeting sequence (N-terminal amphipathic helix)"
     ],
     "correct": 1,
-    "explanation": "RNA polymerase reads the template (antisense) strand 3'→5' and synthesizes RNA 5'→3'. The resulting mRNA has the same sequence as the non-template (coding/sense) strand, except U replaces T. The coding strand is also called the sense strand or non-template strand.",
+    "explanation": "Nuclear proteins are translated on cytosolic ribosomes and post-translationally imported. NLS sequences (rich in Lys and Arg) are recognized by importin-α, which bridges to importin-β. The importin-cargo complex moves through NPCs in a Ran-GTP-dependent manner. In the nucleus, RanGTP causes cargo release; importins are exported and recycled. RanGAP in the cytoplasm hydrolyzes GTP, resetting the cycle.",
     "tags": [
-      "transcription",
-      "molecular biology"
+      "cell biology",
+      "protein targeting",
+      "nuclear import"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which immunoglobulin class is the primary antibody in mucosal secretions (e.g., saliva, tears, breast milk)?",
+    "options": [
+      "IgG",
+      "IgA (secretory IgA, sIgA) — exists as a dimer joined by J chain and a secretory component; sIgA is the main antibody at mucosal surfaces, neutralizing pathogens before they can adhere to epithelium",
+      "IgM",
+      "IgE"
+    ],
+    "correct": 1,
+    "explanation": "Secretory IgA is produced by plasma cells in the lamina propria, dimerized by J chain, and transported across epithelium via the polymeric immunoglobulin receptor (pIgR), which is cleaved to leave the secretory component attached. sIgA is the most abundantly produced antibody in the body. It is found in saliva, tears, breast milk (maternal transfer), colostrum, and GI/respiratory secretions. It neutralizes but generally does not activate complement.",
+    "tags": [
+      "immunology",
+      "immunoglobulins",
+      "mucosal immunity"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "Which DNA repair mechanism corrects single-base mismatches and small insertions/deletions that escape proofreading during replication?",
+    "text": "Which cellular process is most directly responsible for the inheritance of epigenetic marks through cell division?",
     "options": [
-      "Nucleotide excision repair (NER)",
-      "Non-homologous end joining (NHEJ)",
-      "Base excision repair (BER)",
-      "Mismatch repair (MMR)"
+      "DNA proofreading by Pol III/Pol δ",
+      "Maintenance methylation by DNMT1, which recognizes hemimethylated CpG sites on newly replicated DNA and methylates the daughter strand, restoring the symmetrical methylation pattern",
+      "Histone deacetylation by HDAC complexes",
+      "Gene conversion during mitotic recombination"
     ],
-    "correct": 3,
-    "explanation": "MMR detects and corrects replication errors: MSH2/MSH6 recognize mismatches, MLH1/PMS2 coordinate excision and resynthesis. MMR deficiency (Lynch syndrome/HNPCC) causes microsatellite instability and predisposes to colorectal cancer. NER handles bulky lesions (UV damage). BER handles single oxidized/deaminated bases. NHEJ joins double-strand breaks.",
+    "correct": 1,
+    "explanation": "After DNA replication, CpG methylation is hemimethylated (template strand methylated, daughter strand not). DNMT1 ('maintenance methyltransferase') is recruited to replication forks via PCNA/UHRF1, recognizes hemimethylated CpG, and methylates the new strand. This faithfully propagates the methylation pattern. DNMT3A and DNMT3B establish de novo methylation. Methylation of CpG islands in promoters generally silences gene expression.",
     "tags": [
-      "DNA repair",
-      "mismatch repair",
-      "molecular biology"
+      "epigenetics",
+      "DNA methylation",
+      "cell division"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "A drug binds to the β subunit of ATP synthase and prevents the c-ring from rotating. This would most directly affect:",
+    "options": [
+      "The ability of Complex IV to transfer electrons to O2",
+      "ATP synthesis — the c-ring rotation is essential for the mechanical mechanism of ATP synthesis in the F0 subunit; without rotation, the conformational changes in F1 that drive ADP phosphorylation cannot occur; oligomycin is a known inhibitor of this type",
+      "The proton pumping capacity of Complex I",
+      "The reduction of ubiquinone by Complex II"
+    ],
+    "correct": 1,
+    "explanation": "ATP synthase (Complex V) operates as a rotary motor: H+ flow through the F0 c-ring drives its rotation, which is mechanically coupled to conformational changes in the F1 α3β3 hexamer catalytic subunit (alternating between open, loose, tight conformations — binding change mechanism), driving ATP synthesis from ADP + Pi. Oligomycin inhibits F0 c-ring rotation, blocking ATP synthesis and dissipating the proton gradient.",
+    "tags": [
+      "biochemistry",
+      "ATP synthase",
+      "oxidative phosphorylation"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which of the following correctly describes the function of CD4 on T helper cells?",
+    "options": [
+      "CD4 is a co-receptor that binds MHC class I molecules on target cells, initiating cytotoxic killing",
+      "CD4 is a co-receptor that binds the invariant region of MHC class II molecules on APCs, stabilizing the TCR-pMHC interaction and facilitating signaling via Lck (a tyrosine kinase associated with CD4's cytoplasmic tail)",
+      "CD4 binds bacterial lipopolysaccharide to activate innate responses in T cells",
+      "CD4 is the receptor that binds IL-4 to drive Th2 differentiation"
+    ],
+    "correct": 1,
+    "explanation": "CD4 on T helper cells binds the MHC II β2 domain (invariant, not the peptide-binding groove). This co-receptor interaction stabilizes TCR engagement with pMHC II and brings Lck (a Src-family tyrosine kinase) into proximity with CD3ζ ITAMs, initiating downstream signaling (ZAP-70 activation → LAT → PLCγ/Ras pathways). HIV gp120 binds CD4 as its primary receptor, targeting CD4+ T cells and causing AIDS.",
+    "tags": [
+      "immunology",
+      "T cells",
+      "MHC"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Telomeres are maintained in stem cells and cancer cells by which enzyme?",
+    "text": "A patient has McArdle disease (muscle glycogen phosphorylase deficiency). What would you expect during exercise?",
     "options": [
-      "Primase",
-      "Topoisomerase II",
-      "Telomerase (an RNA-dependent DNA polymerase with its own RNA template)",
-      "DNA polymerase delta"
+      "Normal lactate production but elevated ketone bodies",
+      "Failure to generate lactate during exercise (forearm ischemic exercise test shows no rise in venous lactate despite NH3 rise) — muscle glycogen cannot be mobilized, causing exercise intolerance, cramps, and myoglobinuria with strenuous activity",
+      "Fasting hypoglycemia due to inability to release glucose from liver",
+      "Elevated blood glucose during exercise due to compensatory liver glycogenolysis"
+    ],
+    "correct": 1,
+    "explanation": "McArdle disease (GSD type V) involves deficiency of muscle glycogen phosphorylase (myophosphorylase). Muscle cannot mobilize glycogen during exercise. The forearm ischemic exercise test: normal individuals show rises in both lactate and NH3 (from AMP deamination); McArdle patients show NH3 rise but NO lactate rise (glycogenolysis blocked). Exercise intolerance, 'second wind' phenomenon (muscles adapt to fat/glucose from blood), cramps, and myoglobinuria with intense exercise.",
+    "tags": [
+      "biochemistry",
+      "glycogen metabolism",
+      "exercise physiology"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which of the following is true about the coagulation cascade?",
+    "options": [
+      "The intrinsic pathway is the physiologically dominant pathway activated by tissue injury",
+      "The extrinsic pathway (tissue factor pathway) is the primary initiator of coagulation in vivo — TF + Factor VIIa activates Factors X and IX; the intrinsic pathway amplifies the response; both converge on the common pathway (Factor X → thrombin → fibrin)",
+      "Thrombin is the substrate of Factor Xa, not the product",
+      "Fibrinogen is directly converted to fibrin by Factor Xa"
+    ],
+    "correct": 1,
+    "explanation": "In vivo, coagulation is initiated by tissue factor (TF/thromboplastin) exposed at injury sites, forming a complex with circulating Factor VIIa (extrinsic pathway). TF-VIIa cleaves X (→Xa) and IX (→IXa). The intrinsic pathway (contact activation via FXII, FXI) amplifies clotting. Common pathway: Xa + Va (prothrombinase complex) → prothrombin → thrombin → fibrinogen → fibrin (crosslinked by FXIIIa).",
+    "tags": [
+      "physiology",
+      "coagulation",
+      "hemostasis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following amino acids is the primary gluconeogenic precursor from muscle during prolonged fasting?",
+    "options": [
+      "Leucine (purely ketogenic)",
+      "Alanine — muscle transamination of pyruvate generates alanine (alanine cycle); alanine is transported to the liver where it donates its amino group (urea cycle) and the pyruvate backbone enters gluconeogenesis",
+      "Valine (primarily gluconeogenic but minor contributor)",
+      "Lysine (purely ketogenic)"
+    ],
+    "correct": 1,
+    "explanation": "The glucose-alanine cycle: in muscle, amino acid transamination generates glutamate, which transaminates pyruvate (from glycolysis) to produce alanine and α-ketoglutarate. Alanine is exported to the liver, where ALT reverses the reaction: alanine + α-KG → pyruvate + glutamate. Pyruvate enters gluconeogenesis; glutamate nitrogen enters the urea cycle. Leucine and lysine are purely ketogenic (cannot contribute to gluconeogenesis).",
+    "tags": [
+      "biochemistry",
+      "gluconeogenesis",
+      "amino acid metabolism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A researcher observes that a transcription factor's DNA-binding domain contains a zinc finger motif. What type of secondary structure does the zinc finger use to interact with DNA?",
+    "options": [
+      "Antiparallel β-barrel for major groove contact",
+      "An α-helix that fits into the major groove of DNA, making sequence-specific contacts with base pairs — the zinc ion tetrahedrally coordinates Cys and/or His residues to stabilize the finger fold, positioning the α-helix for DNA recognition",
+      "A β-sheet that intercalates between DNA base pairs",
+      "A leucine zipper that dimerizes before contacting DNA"
+    ],
+    "correct": 1,
+    "explanation": "The classical Cys2-His2 zinc finger (e.g., in Sp1, TFIIIA) uses a zinc ion to stabilize a ββα fold. The α-helix (recognition helix) inserts into the major groove of DNA, where specific amino acid side chains make hydrogen bonds and van der Waals contacts with DNA bases. Multiple zinc fingers typically work in tandem for extended DNA sequence recognition. Each finger recognizes ~3 bp.",
+    "tags": [
+      "biochemistry",
+      "protein structure",
+      "transcription factors"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following is the correct biochemical explanation for why long-chain fatty acids require the carnitine shuttle to enter the mitochondrial matrix?",
+    "options": [
+      "Long-chain fatty acids are toxic to the outer mitochondrial membrane",
+      "Long-chain acyl-CoA cannot cross the inner mitochondrial membrane directly — acyl group is transferred from CoA to carnitine (by CPT-I on outer membrane), transported as acylcarnitine via carnitine-acylcarnitine translocase, and transferred back to CoA (by CPT-II) in the matrix for β-oxidation",
+      "Carnitine provides reducing equivalents needed for fatty acid oxidation",
+      "The carnitine shuttle is needed for activation of fatty acids by acyl-CoA synthetase"
+    ],
+    "correct": 1,
+    "explanation": "Fatty acid activation (fatty acid + CoA → acyl-CoA) occurs in the outer mitochondrial membrane or cytoplasm, but acyl-CoA cannot cross the impermeable inner mitochondrial membrane. CPT-I (inhibited by malonyl-CoA, the key regulatory step) transfers the acyl group to carnitine; the carnitine-acylcarnitine translocase exchanges acylcarnitine (in) for carnitine (out); CPT-II regenerates acyl-CoA in the matrix. Medium/short-chain fatty acids (<12 C) can cross freely.",
+    "tags": [
+      "biochemistry",
+      "fatty acid oxidation",
+      "mitochondria"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "What is the primary mechanism by which tumor cells evade cytotoxic T lymphocyte (CTL) killing?",
+    "options": [
+      "Tumor cells produce high levels of antibodies that neutralize perforin",
+      "Downregulation or mutation of MHC class I molecules on tumor cells — without pMHC I, CTLs cannot recognize target cells; some tumors also upregulate PD-L1 to engage PD-1 on CTLs, delivering inhibitory signals that suppress cytotoxic activity",
+      "Tumor cells produce IL-2 that overactivates and exhausts CTLs",
+      "Tumor cells sequester CTLs in regional lymph nodes"
+    ],
+    "correct": 1,
+    "explanation": "CTL recognition requires TCR binding to peptide-MHC I on target cells. Tumors commonly downregulate MHC I (via β2-microglobulin or TAP mutations), making them invisible to CTLs. They also upregulate PD-L1 (programmed death-ligand 1), which engages PD-1 on CTLs → T-cell exhaustion/anergy. PD-1/PD-L1 checkpoint inhibitors (pembrolizumab, nivolumab, atezolizumab) restore CTL killing and are transformative cancer therapies.",
+    "tags": [
+      "immunology",
+      "cancer immunology",
+      "immune evasion"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which amino acid is the only one that lacks a chiral alpha carbon?",
+    "options": [
+      "Serine",
+      "Alanine",
+      "Proline",
+      "Glycine"
+    ],
+    "correct": 3,
+    "explanation": "Glycine has two H atoms on its alpha carbon (R = H), giving it two identical substituents and no chirality. Every other standard amino acid has four distinct groups at the alpha carbon and exists as the L-enantiomer in proteins.",
+    "tags": [
+      "amino acids",
+      "chirality"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "At physiological pH (~7.4), which amino acid side chain is best positioned to donate or accept a proton and function as an acid-base catalyst?",
+    "options": [
+      "Glutamine",
+      "Aspartate",
+      "Histidine",
+      "Lysine"
     ],
     "correct": 2,
-    "explanation": "Telomeres shorten with each replication (end replication problem). Telomerase is a reverse transcriptase (TERT) with an RNA component (TERC) that serves as the template to extend telomeric repeats (TTAGGG) de novo. Active in stem cells, germ cells, and ~85-90% of cancer cells (allowing immortalization). Absence in somatic cells contributes to cellular senescence.",
+    "explanation": "Histidine's imidazole side chain has pKa ≈ 6.0, closest to physiological pH of all standard amino acids. This lets it toggle between protonated and deprotonated forms under physiological conditions. Lysine (pKa ≈ 10.5) stays protonated; aspartate (pKa ≈ 3.9) stays deprotonated; glutamine has no ionizable side chain.",
     "tags": [
-      "DNA replication",
-      "telomeres",
-      "cancer biology"
+      "amino acids",
+      "enzyme catalysis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which amino acid side chain contains a thiol group (–SH) that can form disulfide bonds?",
+    "options": [
+      "Serine",
+      "Methionine",
+      "Threonine",
+      "Cysteine"
+    ],
+    "correct": 3,
+    "explanation": "Cysteine's thiol (–SH) group is oxidized to form disulfide bonds (–S–S–) with another cysteine, stabilizing tertiary/quaternary protein structure. Serine and threonine have –OH groups. Methionine contains a thioether (–S–CH3) that cannot form disulfide bonds.",
+    "tags": [
+      "amino acids",
+      "protein structure"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Why does proline disrupt alpha-helices?",
+    "options": [
+      "Its side chain is too large to fit in the helix",
+      "It carries a negative charge at physiological pH",
+      "Its side chain bonds to the backbone nitrogen, eliminating the N–H hydrogen bond donor",
+      "It forms an extra covalent bond with adjacent residues"
+    ],
+    "correct": 2,
+    "explanation": "Proline's nitrogen is locked in a pyrrolidine ring with its side chain, removing the backbone N–H needed for hydrogen bonding in a helix. This creates a rigid kink, making proline a 'helix breaker.' It can appear at the end of helices or in beta-turns.",
+    "tags": [
+      "amino acids",
+      "protein structure"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Proteins absorb strongly at 280 nm primarily because of which amino acids?",
+    "options": [
+      "Phenylalanine and alanine",
+      "Methionine and cysteine",
+      "Glycine and proline",
+      "Tryptophan and tyrosine"
+    ],
+    "correct": 3,
+    "explanation": "Tryptophan (indole ring) and tyrosine (phenol ring) absorb at 280 nm due to aromatic pi electrons. Tryptophan has the larger extinction coefficient. This is used to estimate protein concentration spectrophotometrically. Phenylalanine absorbs weakly at ~257 nm.",
+    "tags": [
+      "amino acids",
+      "spectroscopy"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which amino acid is the direct precursor for catecholamine biosynthesis (dopamine, norepinephrine, epinephrine)?",
+    "options": [
+      "Tryptophan",
+      "Histidine",
+      "Phenylalanine",
+      "Tyrosine"
+    ],
+    "correct": 3,
+    "explanation": "Tyrosine → L-DOPA (tyrosine hydroxylase) → Dopamine → Norepinephrine → Epinephrine. Phenylalanine can be converted to tyrosine by phenylalanine hydroxylase, but tyrosine is the direct precursor. Tryptophan makes serotonin. Histidine makes histamine.",
+    "tags": [
+      "amino acids",
+      "neurotransmitters"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In eukaryotes, which amino acid is delivered by the initiator tRNA at the start codon AUG?",
+    "options": [
+      "Alanine",
+      "Valine",
+      "Methionine",
+      "Leucine"
+    ],
+    "correct": 2,
+    "explanation": "AUG codes for methionine and serves as the start codon in eukaryotes (the initiator tRNA is met-tRNAi). In prokaryotes, the initiator carries N-formyl-methionine (fMet). The initiating methionine is often cleaved post-translationally.",
+    "tags": [
+      "amino acids",
+      "translation"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A patient with phenylketonuria (PKU) lacks phenylalanine hydroxylase. Which metabolite accumulates and causes neurological damage?",
+    "options": [
+      "Tyrosine",
+      "Excess dopamine",
+      "Phenylalanine and its toxic byproducts (phenylpyruvate, phenyllactate)",
+      "Tryptophan metabolites"
+    ],
+    "correct": 2,
+    "explanation": "Without phenylalanine hydroxylase, phenylalanine cannot be converted to tyrosine and accumulates. It is shunted to phenylpyruvate, phenyllactate, and phenylacetate. These metabolites inhibit brain aromatic amino acid transport, impair myelination, and cause intellectual disability if untreated.",
+    "tags": [
+      "amino acids",
+      "metabolic disorders"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Glutamic acid (pI ≈ 3.2) carries what net charge at pH 7.4?",
+    "options": [
+      "–1",
+      "+1",
+      "0",
+      "+2"
+    ],
+    "correct": 0,
+    "explanation": "At pH 7.4, well above pI 3.2: the alpha-COOH (pKa ~2.1) and side-chain COOH (pKa ~4.1) are both deprotonated (–1 each), while the alpha-NH3+ (pKa ~9.5) is protonated (+1). Net = +1 – 1 – 1 = –1.",
+    "tags": [
+      "amino acids",
+      "acid-base"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following is a complete list of the nine essential amino acids?",
+    "options": [
+      "Arg, His, Lys, Asp, Glu, Asn, Gln, Ser, Thr",
+      "Phe, Tyr, Trp, Met, Cys, Gly, Pro, Val, Ala",
+      "His, Ile, Leu, Lys, Met, Phe, Thr, Trp, Val",
+      "Ala, Gly, Pro, Ser, Thr, Asn, Gln, Cys, Tyr"
+    ],
+    "correct": 2,
+    "explanation": "The nine essential amino acids (cannot be synthesized by humans) are Histidine, Isoleucine, Leucine, Lysine, Methionine, Phenylalanine, Threonine, Tryptophan, Valine. Mnemonic: PVT TIM HaLL. They must come from the diet.",
+    "tags": [
+      "amino acids",
+      "nutrition"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Glycine appears in regions of the Ramachandran plot that are forbidden for other amino acids because:",
+    "options": [
+      "It forms the most stable hydrogen bonds",
+      "It has the most hydrophobic side chain",
+      "Its pKa is farthest from physiological pH",
+      "It lacks a side chain, minimizing steric clash at extreme phi/psi angles"
+    ],
+    "correct": 3,
+    "explanation": "Without a side chain, glycine has minimal steric restriction and can adopt phi/psi combinations (including left-handed alpha-helix conformations) inaccessible to other amino acids. This flexibility is why glycine is common at tight turns and in collagen (Gly-X-Y). Proline, conversely, is the most restricted.",
+    "tags": [
+      "amino acids",
+      "protein structure"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Collagen requires hydroxyproline for stability. Which vitamin is essential for prolyl hydroxylase, and what disease results from its deficiency?",
+    "options": [
+      "Vitamin K; coagulopathy",
+      "Vitamin B12; pernicious anemia",
+      "Vitamin D; rickets",
+      "Vitamin C (ascorbic acid); scurvy"
+    ],
+    "correct": 3,
+    "explanation": "Prolyl hydroxylase requires ascorbate (vitamin C) as a cofactor to hydroxylate proline residues in collagen. Hydroxyproline forms extra hydrogen bonds in the collagen triple helix. Without vitamin C, hydroxylation fails, collagen is unstable, and patients develop scurvy: bleeding gums, poor wound healing, perifollicular hemorrhages.",
+    "tags": [
+      "amino acids",
+      "collagen",
+      "vitamins"
     ],
     "difficulty": "medium"
   }

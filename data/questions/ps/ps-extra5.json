@@ -1,0 +1,426 @@
+[
+  {
+    "text": "A researcher finds that participants who received $1 for telling someone a lies became convinced the boring task was actually enjoyable, whereas those paid $20 did not change their attitude. This is best explained by:",
+    "options": ["Operant conditioning — $1 was insufficient reinforcement", "Cognitive dissonance theory — the $1 group lacked sufficient external justification for lying, so they reduced dissonance by convincing themselves the task was enjoyable; the $20 group had ample external justification and needed no attitude change", "Social comparison theory — the $1 group compared themselves to less well-paid peers", "Self-perception theory — participants inferred their attitudes from their behavior without involving dissonance"],
+    "correct": 1,
+    "explanation": "This is Festinger & Carlsmith's (1959) classic cognitive dissonance study. When people act counter to their attitudes without sufficient external justification (like high pay), they experience dissonance and resolve it by changing their attitude. $20 = sufficient justification (no dissonance); $1 = insufficient justification (attitude change needed). Note: Bem's self-perception theory offers an alternative explanation without invoking dissonance arousal.",
+    "tags": ["psychology", "social psychology", "cognitive dissonance"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following correctly describes the difference between prejudice, stereotyping, and discrimination?",
+    "options": ["Prejudice is behavioral, stereotyping is cognitive, discrimination is emotional", "Stereotyping is a cognitive overgeneralization about group members; prejudice is the affective (emotional) component — an attitude involving feelings toward a group; discrimination is behavioral — differential treatment based on group membership; all three are related but conceptually distinct", "All three are equivalent concepts describing the same psychological phenomenon", "Discrimination is cognitive; prejudice is behavioral; stereotyping is emotional"],
+    "correct": 1,
+    "explanation": "The ABC model: Affective (prejudice: negative feelings toward a group), Behavioral (discrimination: acting on those feelings), Cognitive (stereotyping: oversimplified beliefs about group characteristics). People can have stereotypes without prejudice, or be prejudiced without discriminating. Implicit Association Test (IAT) measures implicit (unconscious) biases. Modern racism is characterized by denial of personal prejudice while opposing policies that aid disadvantaged groups.",
+    "tags": ["psychology", "social psychology", "prejudice"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "According to Tajfel and Turner's Social Identity Theory, intergroup conflict arises primarily because:",
+    "options": ["People are inherently aggressive toward strangers from evolutionary pressure", "People categorize themselves into groups (social categorization), adopt group identity (social identification), and compare their group favorably to others (social comparison) — ingroup favoritism and outgroup derogation enhance self-esteem through a positive social identity", "Scarce resources inevitably create competition between groups (Realistic Conflict Theory)", "Authority figures create conflict by assigning people to different roles"],
+    "correct": 1,
+    "explanation": "Social Identity Theory (SIT): (1) Social categorization — dividing the world into 'us' and 'them'; (2) Social identification — adopting the ingroup's identity as part of the self-concept; (3) Social comparison — comparing the ingroup favorably against outgroups to maintain positive self-esteem. Even arbitrary group assignment (minimal group paradigm) produces ingroup favoritism. Realistic Conflict Theory (Sherif) emphasizes actual competition for resources; SIT shows conflict emerges even without real competition.",
+    "tags": ["psychology", "social psychology", "social identity theory"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Stanford Prison Experiment (Zimbardo, 1971) is primarily cited as evidence for which psychological phenomenon?",
+    "options": ["Milgram's obedience to authority — people follow orders from experimenters", "The power of situational forces and role-playing to override individual dispositions — participants assigned as 'guards' rapidly adopted authoritarian, abusive behaviors, and 'prisoners' became passive and distressed, demonstrating situationism over dispositionism", "Fundamental attribution error in observers who blamed guard brutality on personality", "Social facilitation effects on task performance in group settings"],
+    "correct": 1,
+    "explanation": "The Stanford Prison Experiment is the classic demonstration of situationism: assigned social roles created powerful situational forces that transformed ordinary college students into abusive guards and demoralized prisoners within days. Zimbardo used this to argue against pure dispositional explanations for behavior in abusive institutions (prisons, military). The study is ethically controversial (lack of IRB oversight, Zimbardo's role as prison superintendent) and its findings have been partially replicated and partially challenged.",
+    "tags": ["psychology", "social psychology", "situationism"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In classical conditioning, the term 'extinction' refers to:",
+    "options": ["The permanent removal of the conditioned response from the organism's behavioral repertoire", "The weakening of the conditioned response (CR) when the conditioned stimulus (CS) is repeatedly presented without the unconditioned stimulus (US) — but the CR is inhibited, not erased; it can recover spontaneously (spontaneous recovery) after a rest period", "The process of pairing the CS with the US to establish conditioning", "The generalization of the CR to similar stimuli"],
+    "correct": 1,
+    "explanation": "Extinction occurs when the CS is repeatedly presented without the US, reducing the CR. However, Pavlov noted spontaneous recovery: after extinction and a rest period, presenting the CS again yields a partial CR — showing extinction inhibits rather than erases the conditioned association. This has major implications for exposure therapy (extinction of fear CRs): the original fear association remains in memory, making relapse possible (especially with stress-induced renewal or reinstatement). Extinction ≠ forgetting.",
+    "tags": ["psychology", "learning", "classical conditioning"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following best describes the difference between positive and negative reinforcement?",
+    "options": ["Positive reinforcement increases behavior by adding a reward; negative reinforcement decreases behavior by removing a punishment", "Both positive and negative reinforcement INCREASE the frequency of behavior: positive reinforcement adds a pleasant stimulus; negative reinforcement removes an unpleasant stimulus — both consequences make the behavior more likely in the future", "Positive reinforcement involves praise; negative reinforcement involves punishment", "Negative reinforcement always involves pain or aversion"],
+    "correct": 1,
+    "explanation": "Reinforcement (+ or −) always INCREASES behavior; punishment always DECREASES behavior. Positive reinforcement: add a pleasant stimulus (food pellet, praise) → behavior increases. Negative reinforcement: remove an unpleasant stimulus (taking aspirin removes headache → aspirin-taking increases; fastening seatbelt removes annoying beeping → seatbelt behavior increases). Key: 'negative' refers to removal, not to bad outcomes. Negative punishment: remove a pleasant stimulus → behavior decreases (taking away video games for bad behavior).",
+    "tags": ["psychology", "learning", "operant conditioning"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "According to Piaget, what is the major cognitive achievement of the concrete operational stage?",
+    "options": ["Development of object permanence (understanding that objects continue to exist when unseen)", "Conservation — understanding that the quantity of a substance remains the same despite changes in its shape or appearance; also: seriation (ordering objects), classification (hierarchical grouping), and logical operations on concrete objects", "Hypothetical-deductive reasoning about abstract propositions", "Symbolic thought and language acquisition"],
+    "correct": 1,
+    "explanation": "Concrete operational stage (ages 7-11): children master conservation (liquid, mass, number), seriation, transitivity, and classification. They can think logically but only about concrete (tangible, observable) situations — not abstract hypotheticals (achieved in formal operations, 12+). Object permanence is achieved in sensorimotor stage (0-2). Symbolic thought and language appear in preoperational (2-7). Egocentrism (inability to take another's perspective) decreases through the concrete operational stage.",
+    "tags": ["psychology", "developmental psychology", "Piaget"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The bystander effect refers to which social phenomenon?",
+    "options": ["People are more likely to help when the victim is similar to themselves", "The finding that individuals are less likely to offer help in an emergency when other bystanders are present — mediated by diffusion of responsibility (others will help) and pluralistic ignorance (interpreting others' calm inaction as evidence the situation isn't an emergency)", "Helping behavior increases with the number of bystanders who also choose to help", "People are more likely to help when they are in a good mood"],
+    "correct": 1,
+    "explanation": "Darley & Latané (1968): in the presence of others, emergency helping decreases due to: (1) Diffusion of responsibility — each bystander feels less personally responsible when others are present; (2) Pluralistic ignorance — others' inaction is interpreted as 'this isn't a real emergency.' Solutions: make a direct request (eliminate diffusion), create urgency (eliminate ambiguity). MCAT implication: emergency training emphasizes designating a specific person to call 911.",
+    "tags": ["psychology", "social psychology", "prosocial behavior"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Weber's law states that the just noticeable difference (JND) between two stimuli:",
+    "options": ["Is constant in absolute terms regardless of the stimulus intensity", "Is a constant proportion of the stimulus magnitude (JND/I = k, Weber's fraction) — larger stimuli require larger differences to be detectable; e.g., you can notice 1 lb added to 10 lb but not 1 lb added to 100 lb", "Decreases as stimulus intensity increases (inverse relationship)", "Depends on the modality — visual JND is absolute while auditory JND is proportional"],
+    "correct": 1,
+    "explanation": "Weber's law: ΔI/I = k (a constant called Weber's fraction or Weber's constant). The JND is a constant ratio, not absolute difference. Example: if k = 0.10 for weight, you can detect a 1 kg difference from a 10 kg baseline, but need a 10 kg difference from a 100 kg baseline. Fechner extended this to Fechner's law: perceived sensation = k × log(stimulus intensity). Stevens' power law provides a more accurate description for many modalities.",
+    "tags": ["psychology", "sensation and perception", "psychophysics"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In Bowlby's attachment theory, which attachment style develops when a caregiver is consistently unresponsive and rejecting?",
+    "options": ["Secure attachment — the child uses the caregiver as a safe base for exploration", "Avoidant (dismissing) attachment — the child learns to suppress attachment needs and shows little distress on separation and little relief on reunion; they have adapted to the caregiver's consistent rejection by deactivating the attachment behavioral system", "Anxious-ambivalent (preoccupied) attachment — develops from inconsistent caregiving", "Disorganized attachment — develops from frightening or frightened caregiving"],
+    "correct": 1,
+    "explanation": "Ainsworth's Strange Situation revealed four attachment patterns: Secure (consistent, responsive caregiving), Avoidant (consistent rejection → child suppresses needs), Anxious-ambivalent (inconsistent caregiving → child hyperactivates attachment, clingy and not easily soothed), Disorganized (frightening caregiving → no coherent strategy). Adult attachment representations (Adult Attachment Interview) parallel these: autonomous (secure), dismissing (avoidant), preoccupied (anxious), unresolved (disorganized).",
+    "tags": ["psychology", "developmental psychology", "attachment"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The concept of 'stereotype threat' (Steele & Aronson, 1995) refers to:",
+    "options": ["The tendency for people to discriminate against out-group members who confirm stereotypes", "The risk of confirming a negative stereotype about one's group, which creates anxiety that can impair performance on relevant tasks — demonstrated when Black students underperformed on a verbal test when race was made salient, but not when it wasn't", "The process by which stereotypes become self-fulfilling prophecies through behavioral confirmation", "The threat of legal consequences for acting on discriminatory stereotypes"],
+    "correct": 1,
+    "explanation": "Stereotype threat: awareness of a negative group stereotype about ability creates performance pressure and anxiety, impairing working memory and performance. Steele & Aronson showed Black college students performed worse on a verbal test when told it measured 'intellectual ability' (activating racial stereotype) vs. as a non-diagnostic lab task. Stereotype threat affects many groups: women in math, elderly in memory tests, white men in athletics. Interventions: values affirmation, role models, growth mindset.",
+    "tags": ["psychology", "social psychology", "stereotypes"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following describes Durkheim's concept of 'mechanical solidarity'?",
+    "options": ["Social cohesion based on interdependence created by specialization of labor (found in complex societies)", "Social cohesion based on similarity, shared beliefs, and collective conscience — characteristic of small, traditional societies with little division of labor; individuals are largely interchangeable; a crime is experienced as an offense against the whole community", "The mechanical reproduction of culture through mass media", "Social integration achieved through formal legal institutions"],
+    "correct": 1,
+    "explanation": "Durkheim distinguished mechanical solidarity (pre-industrial, traditional societies: homogeneity, shared conscience, crime = offense against collective) from organic solidarity (modern industrial societies: interdependence through division of labor, heterogeneity — like organs of a body each serving distinct functions). The transition from mechanical to organic solidarity accompanies modernization. Durkheim's concern: if collective conscience weakens faster than organic solidarity develops, anomie results.",
+    "tags": ["sociology", "Durkheim", "social cohesion"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following best describes the 'looking-glass self' concept (Cooley)?",
+    "options": ["The tendency to form accurate self-assessments by observing one's own behavior (self-perception theory)", "A three-step process through which self-concept is formed via imagined perception of others: (1) we imagine how we appear to others; (2) we imagine their judgment of that appearance; (3) we develop feelings of pride or shame based on that imagined judgment", "The use of mirrors to increase self-awareness and reduce aggression", "The comparison of the self to social media representations"],
+    "correct": 1,
+    "explanation": "Charles Cooley's looking-glass self: other people function as social mirrors through which we see ourselves. The self-concept is socially constructed through imagining how we look to others and how they evaluate us. This is a form of reflected appraisal — self-concept is shaped by perceived (not necessarily accurate) evaluations of significant others. Related concepts: Mead's generalized other (imagining the view of society as a whole); Goffman's impression management.",
+    "tags": ["sociology", "self and identity", "Cooley"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A researcher studies the effect of socioeconomic status (SES) on mental health. Which design provides the strongest evidence for a causal relationship?",
+    "options": ["A cross-sectional survey comparing mental health outcomes across SES levels at one time point", "A randomized controlled trial (RCT) is the gold standard, but with SES, a quasi-experimental design using natural experiments (e.g., randomized housing voucher programs, policy changes) provides causal evidence while a longitudinal study demonstrates temporal precedence; cross-sectional data shows correlation but cannot establish causality", "A case study of individuals who improved their SES and mental health simultaneously", "A meta-analysis of cross-sectional correlational studies"],
+    "correct": 1,
+    "explanation": "Establishing causality requires: (1) correlation, (2) temporal precedence (cause precedes effect), (3) elimination of third variables (confounding). Cross-sectional designs meet criterion 1 only. Longitudinal designs add criterion 2. RCTs (or natural experiments) add criterion 3. With SES (which cannot be randomly assigned), the Moving to Opportunity program (randomized housing vouchers) approximated an RCT and found causal effects of neighborhood SES on health outcomes. Meta-analyses aggregate correlational data but don't create causality.",
+    "tags": ["research methods", "causality", "research design"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Harlow's rhesus monkey experiments (1958) demonstrated which principle about infant attachment?",
+    "options": ["Attachment is based primarily on satisfying hunger — monkeys attached to wire mothers that provided milk", "Contact comfort is the primary basis of attachment — infant monkeys preferred soft cloth mothers even when wire mothers provided all milk; the infant ran to the cloth mother when frightened, using it as a secure base for exploration", "Attachment is genetically determined and not influenced by early experience", "Social learning theory explains attachment — infants imitate caregivers' behaviors"],
+    "correct": 1,
+    "explanation": "Harlow's experiments refuted the 'cupboard love' theory that attachment is derived from food reinforcement. Infants consistently preferred the cloth 'mother' over the wire milk-providing 'mother' for clinging and as a safe haven in fear. Without any attachment figure, monkeys showed severe social and emotional disturbances (even if physically healthy). Harlow's work supported Bowlby's attachment theory: contact comfort, warmth, and security are primary attachment needs, not feeding.",
+    "tags": ["psychology", "developmental psychology", "attachment"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following is an example of a latent function of public education?",
+    "options": ["Teaching students academic subjects such as reading, math, and science (manifest function)", "Providing childcare for working parents, facilitating peer socialization and dating networks, and reinforcing class hierarchies through tracking — consequences of education that are real but not the stated purpose", "Preparing students for employment (manifest function)", "Awarding credentials that signal educational achievement to employers (partly manifest)"],
+    "correct": 1,
+    "explanation": "Merton distinguished manifest functions (intended, recognized purposes) from latent functions (unintended, often unrecognized consequences). Education's manifest functions: academic instruction, credentialing, socialization into civic values. Latent functions: childcare, creating peer social networks, mate selection, reproduction of class inequality (Bowles & Gintis). The 'hidden curriculum' transmits class-based norms and dispositions alongside formal content. Latent dysfunctions: tracking reinforces inequality; social stratification by 'merit' masks structural advantages.",
+    "tags": ["sociology", "education", "functionalism"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The James-Lange theory of emotion proposes that:",
+    "options": ["Emotions and physiological arousal occur simultaneously and independently", "We experience an emotion because we perceive our physiological response to a stimulus — the body reacts first, and we interpret that reaction as an emotion (e.g., 'I am afraid because I tremble,' not 'I tremble because I am afraid')", "A cognitive appraisal of the situation occurs before any emotional experience", "The thalamus simultaneously sends signals to the cortex and to the body, producing simultaneous emotion and arousal"],
+    "correct": 1,
+    "explanation": "James-Lange theory (William James and Carl Lange, independently, 1880s): stimulus → physiological response → emotion is the perception of that physiological response. 'We do not tremble because we are afraid; we are afraid because we tremble.' Counter-intuitive but influential. Cannon-Bard theory: emotion and arousal are simultaneous, not sequential (also, visceral feedback is too slow and non-specific). Schachter-Singer two-factor theory: arousal + cognitive label = emotion. Cognitive appraisal theories: evaluation/interpretation precedes emotion.",
+    "tags": ["psychology", "emotion", "theories of emotion"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following describes the sociological concept of 'social capital'?",
+    "options": ["The financial assets available to members of different social classes", "The resources embedded in social networks — relationships, trust, norms of reciprocity, and information that individuals can mobilize through social connections; Putnam distinguishes bonding capital (within-group, dense ties) from bridging capital (cross-group, weaker ties that provide new information)", "The educational credentials and cultural knowledge that provide social advantages (cultural capital, per Bourdieu)", "The marketable skills and human capital that increase individual earnings"],
+    "correct": 1,
+    "explanation": "Social capital (Putnam, Coleman, Bourdieu with different emphases): social connections as resources. Putnam: bonding capital (strong ties within homogeneous groups — emotional support, solidarity) vs. bridging capital (weak ties across diverse groups — job leads, new information; Granovetter's 'strength of weak ties'). Bourdieu emphasizes social capital as another form of capital convertible to economic advantage. Lower social capital predicts worse health outcomes, lower educational achievement, and reduced civic participation.",
+    "tags": ["sociology", "social capital", "social networks"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Freud's structural model of the mind divides psychic functioning into which three agencies?",
+    "options": ["Conscious, preconscious, and unconscious (topographic model)", "Id (primitive drives and instincts — pleasure principle), ego (reality principle — mediates between id, superego, and reality), and superego (internalized moral standards and ideals) — the structural model", "Eros (life drive), Thanatos (death drive), and libido (sexual energy)", "The oral, anal, phallic, latency, and genital stages of psychosexual development"],
+    "correct": 1,
+    "explanation": "Freud's structural model (1923): Id: entirely unconscious, contains drives (Eros/libido, Thanatos), operates on pleasure principle (immediate gratification). Ego: mostly conscious, operates on reality principle, uses defense mechanisms to mediate between id's demands, superego's prohibitions, and reality. Superego: partly unconscious, internalized parental/societal standards; produces guilt and ego-ideal. The topographic model (unconscious/preconscious/conscious) preceded the structural model. Defense mechanisms (repression, projection, rationalization, sublimation) are ego functions.",
+    "tags": ["psychology", "psychoanalytic theory", "Freud"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A sociologist studying homelessness notes that the same individual behavior (sleeping on the streets) is defined as vagrancy deserving arrest in one era and as homelessness deserving social services in another. This illustrates which theoretical perspective?",
+    "options": ["Structural functionalism — social problems serve latent functions", "Social constructionism — deviance is not an inherent quality of an act but is constructed through social, political, and cultural processes of definition; what counts as a problem, and who counts as deviant, depends on historical and social context", "Conflict theory — ruling class criminalizes poverty to serve its interests", "Symbolic interactionism — individuals negotiate meaning in face-to-face interactions"],
+    "correct": 1,
+    "explanation": "Social constructionism holds that social problems (including deviance) are defined through social processes rather than inherent in the behavior itself. Howard Becker's labeling theory similarly argues that deviance is created by social reactions. The same behavior (rough sleeping) carries different meanings and elicits different societal responses across time and place. This contrasts with functionalism (deviance reinforces boundaries) and conflict theory (ruling class definitions serve their interests), though these are all compatible lenses.",
+    "tags": ["sociology", "social constructionism", "deviance"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following is an example of secondary deviance, as defined by Edwin Lemert?",
+    "options": ["An individual commits a minor violation such as jaywalking (primary deviance)", "After being arrested for marijuana possession (primary deviance), an individual incorporates the 'criminal' label into their self-identity, associates with other labeled deviants, and commits more serious crimes partly because legitimate opportunities are now closed to them — this career of deviance driven by societal reaction is secondary deviance", "A person commits deviance because of broken social bonds (Hirschi's control theory)", "Deviance committed by individuals with no prior record"],
+    "correct": 1,
+    "explanation": "Lemert's distinction: Primary deviance = initial rule-breaking, which the individual can rationalize without altering self-concept. Secondary deviance = deviance that occurs as a response to social reactions to primary deviance — the label ('criminal,' 'deviant,' 'mentally ill') becomes a master status that reorganizes the person's self-concept and social interactions. Secondary deviance is a career built on the deviant identity, not just repeated offending. Becker's labeling theory built on this framework.",
+    "tags": ["sociology", "deviance", "labeling theory"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following is the correct description of 'confirmation bias'?",
+    "options": ["The tendency to assume that what has happened frequently in the past will continue to happen in the future", "The tendency to search for, interpret, favor, and recall information in a way that confirms or supports one's prior beliefs or values — leading to closed-mindedness and resistance to updating beliefs in light of contrary evidence", "The tendency to judge the frequency of events by how easily examples come to mind (availability heuristic)", "The tendency to rely too heavily on the first piece of information encountered (anchoring)"],
+    "correct": 1,
+    "explanation": "Confirmation bias is pervasive in human cognition: people notice and remember evidence supporting their beliefs and ignore, dismiss, or minimize disconfirming evidence. It affects scientific reasoning, clinical diagnosis (premature closure on a diagnosis), political beliefs, and relationships. Motivated reasoning: the 'why' behind confirmation bias — people are motivated to believe what they want to believe. Critical thinking training and peer review are institutional checks. Related: myside bias, belief perseverance.",
+    "tags": ["psychology", "cognitive biases", "reasoning"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which neurotransmitter system is most directly implicated in the reward circuitry and plays a central role in addiction?",
+    "options": ["Serotonin (5-HT) — deficit hypothesis of depression", "Dopamine — mesolimbic dopamine pathway (VTA → nucleus accumbens); virtually all addictive substances or behaviors increase dopamine release in the nucleus accumbens, producing pleasure and reinforcing drug-seeking behavior; tolerance and withdrawal involve dopamine receptor downregulation", "Norepinephrine — involved in arousal and the fight-or-flight response", "GABA — the main inhibitory neurotransmitter, target of benzodiazepines"],
+    "correct": 1,
+    "explanation": "The mesolimbic dopamine system (ventral tegmental area → nucleus accumbens → prefrontal cortex) is the primary reward circuit. Drugs that directly increase NAcc dopamine: cocaine/amphetamine (block/reverse DAT), opioids (disinhibit VTA neurons), nicotine (stimulate nicotinic receptors on VTA neurons), alcohol and THC (indirect effects). Natural rewards (food, sex, social bonding) also engage this circuit. Addiction involves allostatic changes: downregulated D2 receptors, sensitized wanting without increased liking.",
+    "tags": ["psychology", "neuroscience", "addiction"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "According to Maslow's hierarchy of needs, a person who has satisfied physiological and safety needs but has not met social belonging needs would be most motivated by:",
+    "options": ["Pursuing self-actualization through creative achievement", "Love and belonging needs — seeking relationships, friendships, family connection, and a sense of community; these must be met before esteem needs (respect, status, achievement) can become primary motivators", "Esteem needs — seeking status and recognition from others", "Cognitive needs — seeking knowledge and understanding"],
+    "correct": 1,
+    "explanation": "Maslow's hierarchy (bottom to top): (1) Physiological (food, water, sleep, warmth); (2) Safety (security, stability); (3) Love and belonging (relationships, community); (4) Esteem (self-respect, recognition); (5) Self-actualization (fulfilling potential). The hierarchy implies lower needs must be substantially satisfied before higher needs emerge as dominant motivators. Criticisms: the order is not universal across cultures; people often pursue higher needs when lower needs are partially unmet.",
+    "tags": ["psychology", "motivation", "Maslow"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A medical student consistently rates their performance as above average on examinations even when their actual scores are below average. This is best explained by:",
+    "options": ["The self-serving bias — attributing successes to internal factors and failures to external factors", "The Dunning-Kruger effect — people with limited competence in a domain lack the metacognitive ability to accurately assess their own performance; they don't know what they don't know, leading to overconfidence; experts may actually underestimate their competence relative to others", "Defensive pessimism — deliberately setting low expectations to reduce anxiety", "The illusory superiority effect (Lake Wobegon effect) — above-average effect in general populations"],
+    "correct": 1,
+    "explanation": "The Dunning-Kruger effect (Kruger & Dunning, 1999): unskilled individuals overestimate their competence because their incompetence prevents them from recognizing quality performance. The skills needed to produce correct answers are the same skills needed to evaluate correctness. The effect is strongest in low performers. Note: the illusory superiority effect (above-average bias) is a different, related phenomenon — most people rate themselves above average on desirable traits regardless of competence level.",
+    "tags": ["psychology", "metacognition", "cognitive biases"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following best describes the sociological concept of 'intersectionality' (Crenshaw, 1989)?",
+    "options": ["The idea that all forms of social inequality reduce to economic class differences", "Multiple social identities (race, gender, class, sexuality, disability) overlap and interact, creating intersecting systems of privilege and oppression that produce unique experiences not reducible to examining any single identity dimension in isolation — a Black woman's experience is not simply the sum of being Black and being a woman", "The crossing of boundaries between social groups through social mobility", "The convergence of different sociological theories into a unified framework"],
+    "correct": 1,
+    "explanation": "Kimberlé Crenshaw introduced intersectionality to describe how Black women's experiences with employment discrimination could not be captured by race discrimination or sex discrimination frameworks alone — their specific position at the intersection created a unique vulnerability invisible to single-axis analysis. Now broadly applied: any person occupies multiple social locations simultaneously (race + class + gender + sexuality + disability...), and the interactions between these create qualitatively different experiences. Central to contemporary social justice and critical race scholarship.",
+    "tags": ["sociology", "intersectionality", "gender and race"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The gate control theory of pain (Melzack & Wall, 1965) proposes that:",
+    "options": ["Pain is directly proportional to the amount of tissue damage", "A neural 'gate' in the spinal cord (substantia gelatinosa) modulates pain signals before they reach the brain — large-diameter non-pain fibers (Aβ) can close the gate, reducing pain transmission; small-diameter fibers (C, Aδ) tend to open it; brain signals can also close the gate (explaining placebo, distraction, and cognitive effects on pain)", "Pain is entirely psychological and has no neural substrate", "Gate mechanisms only operate during acute pain, not chronic pain"],
+    "correct": 1,
+    "explanation": "Gate control theory revolutionized pain science by showing pain is not a simple transmitter of tissue damage signals but is actively modulated. Gate at the dorsal horn: input from large-fiber touch/proprioception closes the gate (reduces pain) — explains why rubbing an injury helps. Descending control from the brain: endorphin-mediated analgesia, placebo effects, stress-induced analgesia. This theory led to TENS (transcutaneous electrical nerve stimulation) therapy and to modern understanding of chronic pain as involving central sensitization.",
+    "tags": ["psychology", "neuroscience", "pain"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following correctly describes 'relative deprivation' theory?",
+    "options": ["The absolute level of deprivation (objective poverty) determines levels of social unrest and dissatisfaction", "Dissatisfaction and social unrest arise not from absolute deprivation but from perceived unfairness relative to a reference group — people feel deprived when they compare their situation to others who are better off or to their own past/expected situation; can explain why rising expectations during improvement can increase relative deprivation", "Deprivation only causes political action when it is experienced collectively, not individually", "Relative deprivation refers to cross-national comparisons of poverty rates"],
+    "correct": 1,
+    "explanation": "Stouffer's American Soldier studies showed that satisfaction depended on comparison to peers, not objective conditions — air corps soldiers (higher promotion rates) felt more dissatisfied with promotions than military police (lower rates) because they had higher reference points. Runciman: egoistic relative deprivation (comparing self to others) vs. fraternal/group relative deprivation (comparing one's group to other groups). Group relative deprivation predicts collective action and social movements. The 'revolution of rising expectations': as conditions improve, expectations rise faster → greater relative deprivation.",
+    "tags": ["sociology", "social movements", "relative deprivation"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A researcher wants to measure a stable personality trait over time and across different situations. Which psychometric property is most important to assess?",
+    "options": ["Internal consistency reliability — consistency of items within a single administration", "Test-retest reliability — the correlation between scores on the measure administered at different points in time; a stable trait should produce consistent scores across time and situations; also important: cross-situational consistency (behavioral evidence of trait stability)", "Content validity — whether the items representatively sample the domain", "Concurrent validity — whether scores correlate with other measures of the same construct taken at the same time"],
+    "correct": 1,
+    "explanation": "For a trait measure, test-retest reliability is paramount: the same stable construct should yield similar scores months or years later. Internal consistency measures whether items within one test administration hang together (important for construct validity). For personality traits (the Big Five), adequate test-retest stability (r > 0.7) over months to years is expected. Personality traits show moderate cross-situational consistency (Mischel's critique: often r ≈ 0.3 between situation-specific behaviors) but aggregated behavior is much more stable.",
+    "tags": ["psychology", "research methods", "psychometrics"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The 'serotonin hypothesis' of depression proposes which mechanism, and what is the main critique?",
+    "options": ["Excess serotonin causes depression; the main critique is that SSRIs deplete serotonin", "Insufficient serotonergic neurotransmission causes depression; the main critique is that this simple deficit model is not supported — SSRIs increase synaptic serotonin within hours but take weeks to improve depression, and depletion studies don't reliably produce depression in non-depressed individuals; the mechanism likely involves neuroplasticity, not simple neurotransmitter levels", "Dopamine deficit causes depression; the critique is that serotonin is more important", "Serotonin affects sleep but not mood; the critique is that sleep improvements alone account for antidepressant effects"],
+    "correct": 1,
+    "explanation": "The monoamine hypothesis of depression (serotonin, norepinephrine deficits) arose from observations that monoamine-depleting drugs (reserpine) cause depression and that effective antidepressants increase monoamine availability. However, tryptophan depletion (reducing serotonin) doesn't reliably depress non-vulnerable individuals; SSRIs' delayed action doesn't match immediate neurochemical effects. Current view: antidepressants likely work via neuroplasticity (increased BDNF, hippocampal neurogenesis, synaptogenesis) downstream of initial receptor effects. The serotonin hypothesis is oversimplified but historically important.",
+    "tags": ["psychology", "neuroscience", "depression"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "A person who lives in poverty accepts that they are poor because they lack intelligence or work ethic, despite structural factors (lack of jobs, housing discrimination, inadequate schools) that shaped their situation. This is most directly explained by:",
+    "options": ["The just-world hypothesis — people believe that those who suffer deserve their suffering", "False consciousness (Marx) — ideology promoted by the dominant class is accepted by subordinate classes as natural/legitimate, obscuring structural conditions that produce inequality; people blame themselves for outcomes produced by social structures, reducing likelihood of class consciousness and collective action", "Internal locus of control — attributing outcomes to one's own actions (accurate perception)", "The fundamental attribution error — the poor person overattributes other poor people's poverty to disposition, not situation"],
+    "correct": 1,
+    "explanation": "Marx's false consciousness: when workers (or poor individuals) internalize ruling-class ideology — meritocracy, individualism, the idea that success reflects hard work and failure reflects personal deficiency — they misattribute structurally produced outcomes to personal failings. This serves ruling-class interests by naturalizing inequality and preventing collective action (class consciousness). Related: symbolic violence (Bourdieu) — the exercise of power through cultural meanings that subordinates accept as legitimate. The just-world hypothesis is related but refers to a cognitive tendency to believe people get what they deserve.",
+    "tags": ["sociology", "social inequality", "Marxism"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Vygotsky's concept of 'scaffolding' refers to which educational/developmental process?",
+    "options": ["The developmental sequence of stages children must pass through in a fixed order (Piaget's stages)", "Temporary support provided by a more competent person (teacher, parent, peer) that enables a child to accomplish tasks within their Zone of Proximal Development (ZPD) — as competence develops, support is gradually withdrawn (faded), and the child performs independently", "The reinforcement schedule used in operant conditioning to shape new behaviors", "The mnemonic devices children use to scaffold new information onto existing knowledge"],
+    "correct": 1,
+    "explanation": "Vygotsky's ZPD is the zone between what a child can do independently and what they can do with guidance from a more knowledgeable other (MKO). Scaffolding (Wood, Bruner, & Ross, 1976, building on Vygotsky): the MKO provides calibrated support — breaking tasks into steps, providing hints, modeling — that operates in the ZPD. As competence develops, scaffolding is gradually faded (withdrawn). This is applied in reciprocal teaching, guided reading, and apprenticeship models. Contrasts with Piaget's more maturational, stage-based view.",
+    "tags": ["psychology", "developmental psychology", "Vygotsky"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following best describes a Type II error in statistical hypothesis testing?",
+    "options": ["Rejecting a true null hypothesis (false positive, α)", "Failing to reject a false null hypothesis (false negative, β) — a real effect exists, but the study fails to detect it; the probability of Type II error is β; statistical power (1 − β) is the probability of correctly detecting a true effect", "Setting α = 0.05 when it should be 0.01", "Using a one-tailed test when a two-tailed test is appropriate"],
+    "correct": 1,
+    "explanation": "Type I error (α): rejecting H₀ when H₀ is true (false positive). Type II error (β): failing to reject H₀ when H₀ is false (false negative, missing a real effect). Power = 1 − β = probability of detecting a true effect. Factors increasing power: larger sample size, larger effect size, lower variance, one-tailed test (if directional prediction), higher α (but increases Type I error). In medical research, Type II errors (false negatives) can be as dangerous as Type I errors — missing a real treatment effect.",
+    "tags": ["psychology", "research methods", "statistics"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "According to role theory in sociology, 'role strain' and 'role conflict' are distinguished by:",
+    "options": ["Role strain occurs between two different roles; role conflict occurs within a single role", "Role conflict: incompatible demands from two or more different social roles a person occupies (e.g., doctor-parent conflict when work hours interfere with family obligations). Role strain: tension arising from competing demands WITHIN a single role (e.g., a teacher expected to be both supportive mentor and objective grader)", "Role strain is more severe and leads to identity crisis; role conflict is minor and easily resolved", "Role conflict only occurs in bureaucratic institutions; role strain occurs in primary groups"],
+    "correct": 1,
+    "explanation": "Merton distinguished these: Role conflict = incompatibility between different roles in a person's role set (e.g., a nurse who is also a patient's family member). Role strain = incompatibility within a single role (a judge expected to be both impartial and empathetic). Both produce stress and require coping strategies: compartmentalization, role distance, renegotiation. Role exit: Ebaugh's concept of leaving a central role that defined one's identity (former priest, retired athlete).",
+    "tags": ["sociology", "role theory", "social interaction"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The concept of 'medicalization' in medical sociology refers to:",
+    "options": ["The process by which medical technology improves treatment of previously fatal diseases", "The expansion of medical jurisdiction to define, classify, and treat human conditions that were previously considered moral, social, or personal matters — e.g., alcoholism redefined as disease, childbirth medicalized, ADHD as a disorder requiring pharmaceutical treatment", "The standardization of medical practice through evidence-based guidelines", "The process by which patients become increasingly dependent on medical technology for self-monitoring"],
+    "correct": 1,
+    "explanation": "Medicalization (Conrad, Zola): social conditions once handled by other institutions (religion, law, education) come to be defined and treated as medical problems. Examples: homosexuality (removed from DSM in 1973), alcoholism (disease model), pregnancy and childbirth, obesity, ADHD, aging, grief. Critics: pathologizes normal variation; expands pharmaceutical market; shifts responsibility from social structures to individual biology. Defenders: reduces moral judgment and stigma by framing conditions as medical rather than moral failures.",
+    "tags": ["sociology", "medical sociology", "medicalization"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In Erikson's psychosocial theory, the crisis of 'identity vs. role confusion' occurs during which stage?",
+    "options": ["Early childhood (2-3 years): initiative vs. guilt", "Adolescence (12-18 years): identity vs. role confusion — the central task is developing a coherent sense of personal identity (Erikson called this 'identity formation'); failure results in role confusion (uncertainty about one's place in society). James Marcia operationalized this into 4 identity statuses: diffusion, foreclosure, moratorium, achievement", "Young adulthood (20s): intimacy vs. isolation", "Middle adulthood (40-65): generativity vs. stagnation"],
+    "correct": 1,
+    "explanation": "Erikson's 8 stages of psychosocial development. Stage 5: Adolescence — identity vs. role confusion. Adolescents experiment with roles, values, and relationships to form a stable identity (Marcia's moratorium → achievement). Without successful resolution: role confusion — uncertainty about values, goals, who one is. Identity achievement is the healthy outcome: having explored alternatives and committed to a coherent set of values/goals. Foreclosure: commitment without exploration (adopted parents' identity); Diffusion: no commitment or exploration.",
+    "tags": ["psychology", "developmental psychology", "Erikson"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following provides the strongest evidence that a psychological disorder has a biological (as opposed to purely environmental) basis?",
+    "options": ["A high prevalence of the disorder in a particular geographic region", "Concordance rates significantly higher in identical twins (MZ) than fraternal twins (DZ) — MZ twins share 100% of genes while DZ twins share 50%; greater MZ concordance implicates genetic factors; heritability is estimated as approximately 2 × (MZ concordance − DZ concordance)", "The disorder responds to psychotherapy", "Children of affected parents develop the disorder"],
+    "correct": 1,
+    "explanation": "Twin studies partition variance into genetic (heritability) and environmental components. MZ > DZ concordance implies genetic contribution. Heritability (h²) estimates: Falconer's formula h² ≈ 2(rMZ − rDZ). Schizophrenia: MZ ~50%, DZ ~17% → h² ≈ 66%; MDD: MZ ~37%, DZ ~26%; autism: MZ ~70-90%, DZ ~30-40%. Important caveat: even if MZ concordance = 100%, the disorder is 100% heritable — but high MZ concordance below 100% shows environmental factors also contribute. Adoption studies also distinguish genetic from shared environmental effects.",
+    "tags": ["psychology", "research methods", "behavior genetics"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The sociological concept of 'impression management' (Goffman) suggests that in social interactions, individuals:",
+    "options": ["Behave consistently across all social situations regardless of audience", "Strategically control the information available to others to create desired impressions of themselves — using front stage (public presentations) and back stage (private behavior) regions; social interactions are analogous to theatrical performances", "Always present their authentic selves to avoid cognitive dissonance", "Seek to maximize their social capital through all interactions"],
+    "correct": 1,
+    "explanation": "Goffman's dramaturgical approach (The Presentation of Self in Everyday Life, 1959): social life is theater. Front stage: managed performance for specific audiences (e.g., professional behavior at work). Back stage: where performers relax and drop their front stage presentation (the break room, home). Props, costumes (clothing), teams, and staging facilitate impression management. Face-saving work: maintaining the impression when it threatens to collapse. This is related to self-monitoring (Snyder): high self-monitors adjust behavior to situational cues; low self-monitors behave consistently across situations.",
+    "tags": ["sociology", "symbolic interactionism", "Goffman"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A researcher observes that college students who study while listening to music perform worse on an exam than those who study in silence. This is best explained by which cognitive concept?",
+    "options": ["Proactive interference — old learning interferes with new learning", "Limited cognitive resources / working memory capacity — the central executive has limited capacity; music competes with studying for cognitive resources, dividing attention and reducing depth of processing (especially for complex material requiring elaborative encoding)", "The spacing effect — distributed practice improves retention", "State-dependent memory — studying with music requires testing with music for best recall"],
+    "correct": 1,
+    "explanation": "Working memory (Baddeley) has limited capacity: the central executive coordinates a phonological loop, visuospatial sketchpad, and episodic buffer. Listening to music (especially lyrical music) competes for phonological loop resources needed for verbal learning. The interference is greater for complex cognitive tasks. However, music's effect is nuanced: some types (instrumental, familiar music) may improve mood and arousal (Yerkes-Dodson), improving performance on simple tasks. For complex studying, silence or non-lyrical ambient sound is superior.",
+    "tags": ["psychology", "cognitive psychology", "working memory"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In sociology, the concept of 'anomie' as developed by Durkheim refers to:",
+    "options": ["A state of extreme social solidarity in which individual autonomy is suppressed", "A state of normlessness or lack of clear social norms resulting from rapid social change, dislocation, or lack of social integration — individuals lack guidance about appropriate behavior and values; Durkheim linked anomie to higher rates of anomic suicide", "The process by which immigrants are assimilated into a new culture", "Social disorganization caused by geographic mobility and urbanization"],
+    "correct": 1,
+    "explanation": "Durkheim's anomie: when social norms are unclear, absent, or rapidly changing, individuals lose the regulative framework that gives meaning and direction to action. In Suicide (1897), anomic suicide increases during periods of economic boom or crash (both involve rapid norm change). Merton adapted anomie: strain theory — when culturally valued goals (wealth) are blocked for structurally disadvantaged groups who cannot achieve them through legitimate means, anomie/strain results. Responses: conformity, innovation, ritualism, retreatism, rebellion.",
+    "tags": ["sociology", "Durkheim", "anomie"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following correctly describes how 'availability heuristic' leads to biased risk assessment?",
+    "options": ["People underestimate risks that they have personally experienced", "People estimate the probability of events based on how easily examples come to mind — vivid, dramatic, or recently publicized events seem more probable than mundane or statistically more common ones (e.g., overestimating death by plane crash vs. car accident after media coverage)", "People consistently overestimate their own mortality risks regardless of actual frequency", "People rely on base rates rather than specific cases to estimate probabilities"],
+    "correct": 1,
+    "explanation": "Tversky & Kahneman's availability heuristic: frequency/probability estimates are made based on ease of retrieval from memory. Vivid events (shark attacks, plane crashes, terrorist attacks) are overestimated because they are memorable and receive media coverage. Mundane but statistically more common causes (heart disease, car accidents, falls) are underestimated because they're less memorable. This distorts health risk perceptions and policy priorities. Availability is influenced by: recency, vividness, personal experience, and media coverage.",
+    "tags": ["psychology", "cognitive biases", "heuristics"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The difference between 'sex' and 'gender' in sociological usage is:",
+    "options": ["Sex and gender are synonymous terms used interchangeably in social science", "Sex refers to biological characteristics (chromosomes, hormones, anatomy) — typically categorized as male/female/intersex; gender refers to the socially constructed roles, behaviors, expressions, and identities associated with being masculine, feminine, or other gender categories — not fixed or binary, varies across cultures and history", "Sex is a social construction; gender is biologically determined", "Sex refers to sexual orientation; gender refers to biological anatomy"],
+    "correct": 1,
+    "explanation": "The sex/gender distinction is foundational in feminist sociology. Biological sex is typically assigned at birth based on anatomy (and includes chromosomes, hormones, gonads — not always binary or unambiguous). Gender is the social, cultural, and psychological elaboration of sex — varying historically (women in pants was once deviant) and cross-culturally (third genders in many indigenous cultures, Hijra in South Asia). Butler's gender performativity: gender is constituted through repeated performances. The relationship between sex and gender is itself contested: social constructionists argue even sex is partly constructed through social practices.",
+    "tags": ["sociology", "gender", "social construction"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The concept of 'social stratification' refers to which sociological phenomenon?",
+    "options": ["Random variation in social outcomes that creates statistical distributions", "The hierarchical ranking of individuals or groups based on unequal access to valued resources (wealth, power, prestige) — creating layers (strata) with systematic advantages and disadvantages that tend to be reproduced across generations through mechanisms of social closure, cultural capital transmission, and differential opportunity structures", "Social mobility — movement of individuals between social classes", "The process by which immigrants move into different neighborhoods based on income"],
+    "correct": 1,
+    "explanation": "Social stratification is a durable feature of societies, organized along dimensions of class (economic), status (prestige), and party (power) — Weber's three dimensions. Modern stratification research focuses on: income and wealth inequality (Gini coefficient), occupational prestige, educational attainment, and their intersection with race, gender, and ethnicity. Meritocracy is the dominant ideology legitimizing stratification in capitalist societies; sociologists examine how structural factors produce outcomes attributed to individual merit.",
+    "tags": ["sociology", "social stratification", "inequality"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following describes the 'self-serving bias'?",
+    "options": ["The tendency to attribute others' failures to their character and successes to luck", "The tendency to attribute one's successes to internal factors (ability, effort) and failures to external factors (bad luck, unfair tests) — maintaining a positive self-image; the mirror image of the fundamental attribution error applied to the self", "The tendency to prefer information that confirms one's existing beliefs (confirmation bias)", "The tendency to overestimate the extent to which others share one's opinions (false consensus effect)"],
+    "correct": 1,
+    "explanation": "Self-serving bias: attribution pattern that protects self-esteem. Success → internal attribution (I'm smart, I worked hard). Failure → external attribution (the test was unfair, I got bad luck, the grader was biased). Compare to fundamental attribution error: when observing OTHERS, we over-attribute to disposition even for failures. Self-serving bias is stronger in individualistic cultures (where self-enhancement is valued) than collectivist cultures (where self-criticism is more valued). Clinical connection: depressed individuals often show REVERSED self-serving bias (internal attribution for failure, external for success — depressive realism).",
+    "tags": ["psychology", "social psychology", "attribution"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Experimental studies have repeatedly shown that violent video game play is associated with increased aggressive thoughts and behavior in laboratory settings. A critic points out that these findings may not apply to real-world violence. This critique invokes which research concept?",
+    "options": ["Internal validity — the study has confounds that make causal claims invalid", "External validity (ecological validity) — the artificial laboratory context may not represent natural conditions; brief exposure to violent games in lab settings may produce aggressive cognitions without translating to real-world violence; also, selection effects (who plays violent games) confound observational studies; lab aggression measures (noise blasts, hot sauce) may not represent serious real-world violence", "Demand characteristics — participants behave differently because they know they're observed", "Social desirability bias — participants underreport aggressive intentions"],
+    "correct": 1,
+    "explanation": "External validity concerns generalizability: from lab to real world (ecological validity), from sample to population, across time and settings. The violent video game debate: laboratory studies consistently show short-term effects on aggressive cognition (thought listing) and behavior (noise blasts, hot sauce administration — proxy measures of aggression), but longitudinal and cross-national data are more mixed. Methodological concerns: publication bias, outcome measure validity, confounding by game complexity/frustration. An internally valid lab study can lack external validity.",
+    "tags": ["psychology", "research methods", "validity"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following describes the 'contact hypothesis' proposed by Allport (1954) and the four conditions required for it to reduce prejudice?",
+    "options": ["Any contact between groups reduces prejudice through familiarity and exposure", "Intergroup contact reduces prejudice only when four conditions are met: (1) equal status within the contact situation, (2) cooperative (not competitive) interdependence, (3) personal acquaintance allowing cross-group friendships to develop, (4) institutional support from authorities legitimizing the contact", "Contact must be initiated by the minority group to be effective", "Contact reduces prejudice only in children, not adults"],
+    "correct": 1,
+    "explanation": "Allport's contact hypothesis is the most influential theory of prejudice reduction. Without the four conditions, contact can backfire (increase prejudice through negative interactions). Evidence: desegregation with unequal status increased prejudice; cooperative learning interventions (jigsaw classroom — Aronson) reduce prejudice when all four conditions are met. Meta-analyses (Pettigrew & Tropp, 2006): contact reliably reduces prejudice across diverse contexts, with the four conditions enhancing the effect. Extended contact: even knowing someone in your group has an outgroup friend reduces prejudice.",
+    "tags": ["psychology", "social psychology", "prejudice reduction"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following social determinants of health is most strongly associated with health disparities across populations?",
+    "options": ["Individual health behaviors (smoking, diet, exercise)", "Socioeconomic status — income, education, and occupation create a graded social gradient of health (Marmot's Whitehall studies: even comparing adjacent rungs of a hierarchy, higher SES = better health outcomes); SES affects health through multiple pathways: material deprivation, psychosocial stress, healthcare access, neighborhood effects, and early childhood development", "Access to specialist medical care", "Genetic ancestry differences between populations"],
+    "correct": 1,
+    "explanation": "The social gradient of health (Marmot): health improves at each step up the social hierarchy, creating a gradient rather than a threshold effect. UK civil servants with the lowest grade jobs had 3× the mortality of the highest grade — despite all having jobs and healthcare access. Mechanisms: chronic psychosocial stress (allostatic load, cortisol dysregulation), material deprivation, neighborhood safety/food environments, early childhood adversity (ACEs). The WHO Commission on Social Determinants of Health called SES 'the cause of causes.' Individual behaviors explain part but not all of the gradient.",
+    "tags": ["sociology", "social determinants of health", "health disparities"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In which of the following cases is the use of punishment most likely to be effective in modifying behavior?",
+    "options": ["When punishment is delayed 30 minutes after the undesired behavior", "When punishment is immediate, consistent, moderate intensity, and accompanied by information about what alternative behavior is desired — these conditions maximize the association between the behavior and the consequence, and provide a replacement behavior", "When punishment is intermittent (delivered on a variable ratio schedule)", "When punishment is severe enough to override any positive reinforcement maintaining the behavior"],
+    "correct": 1,
+    "explanation": "Effective punishment: (1) Immediacy — delay weakens the association; (2) Consistency — intermittent punishment is less effective (unpredictable); (3) Appropriate intensity — severe punishment causes fear, aggression, and relationship damage without improving learning; (4) Alternative reinforcement — punishment alone tells the organism what NOT to do, not what TO do; providing reinforcement for an alternative behavior is essential. Problems with punishment: suppresses but doesn't extinguish behavior, models aggression, damages relationship between punisher and recipient, creates fear and avoidance.",
+    "tags": ["psychology", "learning", "operant conditioning"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The 'hidden curriculum' in education refers to:",
+    "options": ["Secret academic content taught to gifted students not available in the standard syllabus", "The implicit transmission of norms, values, attitudes, and social roles through the structure of schooling — not the official academic content; includes lessons about authority (compliance with teachers), time discipline, stratification (academic tracking), and social class norms; reproduces existing social inequalities by teaching different values to students in different tracks/schools", "Unlicensed tutoring services that supplement formal education", "The informal peer-to-peer learning that occurs in school hallways"],
+    "correct": 1,
+    "explanation": "The hidden curriculum (Jackson, 1968; Bowles & Gintis, 1976): schools teach students more than academic content — they transmit the habits, dispositions, and values appropriate to their future class positions. Working-class schools: emphasize rule-following, punctuality, obedience (preparation for working-class jobs). Elite schools: emphasize creativity, self-direction, initiative (preparation for professional positions). This correspondence between school norms and workplace expectations reproduces class inequality across generations, appearing meritocratic through the academic credential system.",
+    "tags": ["sociology", "education", "hidden curriculum"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient who experienced a traumatic brain injury to the amygdala would most likely show deficits in which psychological process?",
+    "options": ["Working memory and executive function (frontal lobe functions)", "Fear conditioning and recognition of fear in others' facial expressions — the amygdala is essential for detecting and responding to threat, forming fear memories, and processing emotionally salient information; amygdala damage produces Urbach-Wiethe disease symptoms: inability to be conditioned to fear CS, difficulty recognizing fearful faces, reduced threat vigilance", "Long-term declarative memory consolidation (hippocampal function)", "Motor sequence learning and procedural memory (basal ganglia/cerebellum)"],
+    "correct": 1,
+    "explanation": "The amygdala (bilateral, in the temporal lobe) is the central structure for: fear conditioning (CS-US association for threat), fear memory storage and retrieval, recognition of fearful expressions, enhancement of memory for emotionally arousing events (via norepinephrine and cortisol facilitating hippocampal consolidation). S.M. (patient with bilateral amygdala damage from Urbach-Wiethe): couldn't be fear-conditioned, approached threatening people without normal wariness, didn't recognize fear in faces. The amygdala also contributes to positive emotional processing but is best known for threat detection.",
+    "tags": ["psychology", "neuroscience", "amygdala"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following correctly describes 'operationalization' in the context of psychological research?",
+    "options": ["Conducting research in real-world settings rather than laboratories", "The process of defining a construct in terms of the specific, observable, measurable procedures used to measure it — translating abstract concepts (intelligence, stress, depression) into concrete measurement operations; allows replication and comparison across studies", "The process of selecting research participants who represent the target population", "Using operational rather than conceptual definitions in research reports"],
+    "correct": 1,
+    "explanation": "Operationalization bridges abstract constructs and empirical measurement. Intelligence → IQ score on a specific test. Stress → cortisol level, or perceived stress scale score, or number of stressful life events. Depression → BDI score, DSM-5 criteria, Hamilton Rating Scale. Good operationalization has construct validity (it measures what it intends to measure) and is reliable. Different operationalizations of the same construct can yield different findings — construct validity must be established through convergent validity (correlates with similar measures) and discriminant validity (doesn't correlate with unrelated constructs).",
+    "tags": ["psychology", "research methods", "construct validity"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following describes the difference between 'incidence' and 'prevalence' of a disease?",
+    "options": ["Incidence is the proportion of people who have recovered from a disease; prevalence is the proportion currently ill", "Incidence = the number of NEW cases occurring in a defined population during a specific time period (rate of disease occurrence); prevalence = the total proportion of a population with a condition at a given point in time (includes both new and existing cases); Prevalence ≈ Incidence × Disease Duration", "Incidence is always greater than prevalence", "Prevalence is measured in clinical settings; incidence in community settings"],
+    "correct": 1,
+    "explanation": "Epidemiological measures: Incidence rate = new cases / population at risk / time period (measures disease risk). Point prevalence = existing cases / total population at one time point. Period prevalence = existing cases over a time period. Relationship: Prevalence ≈ Incidence × Average Duration. Implication: effective treatment that doesn't cure but extends survival will INCREASE prevalence even if incidence stays constant (more people living with disease longer). High-duration chronic diseases have high prevalence relative to incidence; acute self-limiting conditions have prevalence ≈ incidence × short duration.",
+    "tags": ["psychology", "research methods", "epidemiology"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following best describes a study where the researcher observes and records behavior in natural settings without manipulating any variables?",
+    "options": ["A randomized controlled experiment", "A naturalistic observation study — researcher observes participants in their natural environment without intervention; maximizes ecological validity and avoids demand characteristics; does not allow causal conclusions; observer effects (Hawthorne effect) and researcher bias are risks; can generate hypotheses for experimental testing", "A case-control study", "A quasi-experiment with natural grouping variables"],
+    "correct": 1,
+    "explanation": "Naturalistic observation: researchers observe participants in real-world settings (classrooms, zoos for animal behavior, playgrounds for child development). Strengths: high ecological validity, behavior is not altered by laboratory artificiality, allows observation of rare behaviors over long periods. Weaknesses: no causal inference, observer bias, Hawthorne effect (people change behavior when they know they're observed — addressed through covert observation, but raises ethical concerns). Examples: Goodall's chimpanzee studies, observational studies of playground gender differences.",
+    "tags": ["psychology", "research methods", "observational research"],
+    "difficulty": "easy"
+  }
+]

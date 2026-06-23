@@ -1,0 +1,411 @@
+[
+  {
+    "text": "SDS-PAGE separates proteins primarily based on:",
+    "options": [
+      "Molecular weight",
+      "Hydrophobicity",
+      "Isoelectric point",
+      "Ligand-binding affinity"
+    ],
+    "correct": 0,
+    "explanation": "SDS (sodium dodecyl sulfate) denatures proteins and coats them with negative charge proportional to their size. When run through an acrylamide gel under electric field, all proteins migrate based on size alone (smaller migrates faster). The resulting bands can be stained to reveal molecular weight distribution.",
+    "tags": [
+      "protein structure",
+      "lab techniques"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which statement about enzyme active sites is correct?",
+    "options": [
+      "Active sites are randomly distributed on the protein surface",
+      "Active sites are small pockets or clefts that are complementary in shape and charge to the substrate",
+      "Active sites are always composed of hydrophobic residues only",
+      "Active sites only function when the substrate is in excess"
+    ],
+    "correct": 1,
+    "explanation": "Enzyme active sites are specific three-dimensional pockets with precise geometries, charge distributions, and hydrophobic/hydrophilic properties complementary to the transition state (and substrate). They are formed by residues from different parts of the primary sequence that come together in the folded protein. The induced fit model proposes that substrates cause conformational changes to optimize complementarity.",
+    "tags": [
+      "protein structure",
+      "enzyme function"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Chaperone proteins (e.g., Hsp70, GroEL) assist in protein folding by:",
+    "options": [
+      "Degrading misfolded proteins exclusively",
+      "Catalyzing disulfide bond formation",
+      "Directly specifying the final folded structure",
+      "Preventing premature/incorrect aggregation by transiently binding exposed hydrophobic regions"
+    ],
+    "correct": 3,
+    "explanation": "Molecular chaperones bind to exposed hydrophobic regions of nascent or unfolded polypeptides, preventing aggregation and providing a protected environment for folding. ATP hydrolysis drives cycles of binding and release, giving the protein repeated chances to fold correctly. Chaperones do not specify the final folded structure — that information is in the primary sequence (Anfinsen's principle).",
+    "tags": [
+      "protein structure",
+      "chaperones",
+      "folding"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The proteasome degrades proteins that are tagged with:",
+    "options": [
+      "Acetyl groups",
+      "Phosphate groups",
+      "Ubiquitin chains (polyubiquitination)",
+      "Glycosyl groups"
+    ],
+    "correct": 2,
+    "explanation": "The ubiquitin-proteasome system (UPS) marks proteins for degradation: ubiquitin ligases attach ubiquitin chains (usually K48-linked polyubiquitin) to target proteins. The 26S proteasome recognizes polyubiquitin, unfolds the protein, and degrades it into short peptides. This is the main pathway for regulated protein degradation in eukaryotes.",
+    "tags": [
+      "protein structure",
+      "ubiquitin-proteasome",
+      "protein degradation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which immunoglobulin class is most abundant in serum and crosses the placenta?",
+    "options": [
+      "IgA",
+      "IgM",
+      "IgG",
+      "IgE"
+    ],
+    "correct": 2,
+    "explanation": "IgG is the most abundant immunoglobulin (~80% of serum Ig) and the only class that crosses the placenta (via FcRn receptors), providing passive immunity to the fetus and newborn for the first months of life. IgM is produced first in an immune response (pentamer, good at complement activation). IgA is the main Ig in mucosal secretions. IgE mediates allergic responses and anti-parasite immunity.",
+    "tags": [
+      "protein structure",
+      "immunology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Beta-lactam antibiotics (penicillins, cephalosporins) work by:",
+    "options": [
+      "Blocking dihydrofolate reductase",
+      "Inhibiting the bacterial 50S ribosomal subunit",
+      "Disrupting bacterial cell membranes",
+      "Irreversibly inhibiting transpeptidase (PBP) enzymes that crosslink peptidoglycan in bacterial cell walls"
+    ],
+    "correct": 3,
+    "explanation": "Beta-lactam antibiotics mimic the D-Ala-D-Ala terminus of peptidoglycan precursors and covalently acylate penicillin-binding proteins (PBPs = transpeptidases), blocking crosslinking of peptidoglycan strands. This weakens the cell wall, causing lysis. Bacteria acquire resistance via beta-lactamases (hydrolyze the beta-lactam ring) or altered PBPs (MRSA).",
+    "tags": [
+      "protein structure",
+      "antibiotics",
+      "microbiology"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Collagen is unusually stable because of its unique triple helix structure. What amino acid is essential at every third position in collagen?",
+    "options": [
+      "Hydroxyproline",
+      "Glycine",
+      "Alanine",
+      "Proline"
+    ],
+    "correct": 1,
+    "explanation": "Collagen has the repeating sequence Gly-X-Y, where Gly at every third position is absolutely required. The triple helix packs three chains tightly, and only glycine (the smallest amino acid, R = H) can fit in the central space of the triple helix without steric clash. Mutations substituting even one Gly cause osteogenesis imperfecta.",
+    "tags": [
+      "protein structure",
+      "collagen"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Sickle cell anemia results from which mutation in hemoglobin?",
+    "options": [
+      "A deletion in the alpha-globin gene",
+      "Val→Glu substitution at position 6 of the beta-globin chain (HbS: glutamic acid replaced by valine)",
+      "Incorrect disulfide bond formation",
+      "Phosphorylation of histidine in the active site"
+    ],
+    "correct": 1,
+    "explanation": "HbS has a single nucleotide change (GAG→GTG) causing substitution of hydrophilic Glu with hydrophobic Val at position 6 of beta-globin. In the deoxy (T) state, this Val fits into a hydrophobic pocket on an adjacent beta-chain, causing polymerization. These long fibers distort RBCs into sickle shapes, causing hemolysis, vaso-occlusion, and pain crises. HbS provides heterozygote protection against malaria.",
+    "tags": [
+      "protein structure",
+      "hemoglobin",
+      "genetic disease"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Antibody diversity is primarily generated by which mechanism?",
+    "options": [
+      "Alternative splicing only",
+      "V(D)J recombination — somatic recombination of variable, diversity, and joining gene segments",
+      "Copy number variation in the germ line",
+      "Point mutations in germ cells"
+    ],
+    "correct": 1,
+    "explanation": "V(D)J recombination randomly joins one V, D, and J segment (heavy chain) or V and J segments (light chain) in developing B cells, creating enormous receptor diversity (~10^11 combinations). Additional diversity comes from junctional imprecision (P and N nucleotide addition) and somatic hypermutation (after antigen exposure). This process underlies the ability to recognize virtually any antigen.",
+    "tags": [
+      "protein structure",
+      "immunology",
+      "molecular biology"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The Michaelis constant (Km) reflects:",
+    "options": [
+      "The number of active sites per enzyme molecule",
+      "Maximum reaction velocity",
+      "The concentration of product that inhibits the enzyme",
+      "Substrate concentration at which v = Vmax/2; inversely related to enzyme-substrate affinity"
+    ],
+    "correct": 3,
+    "explanation": "Km is the substrate concentration at half-maximal velocity. Low Km → enzyme reaches half-saturation at low [S] → high affinity. High Km → enzyme needs more substrate to half-saturate → low affinity. Numerically, Km ≈ (k-1 + k2)/k1 for simple Michaelis-Menten kinetics.",
+    "tags": [
+      "enzyme kinetics"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A competitive inhibitor increases apparent Km but leaves Vmax unchanged because:",
+    "options": [
+      "The inhibitor binds irreversibly, so more enzyme must be synthesized",
+      "The inhibitor activates an alternative active site",
+      "High substrate concentrations can displace the competitive inhibitor from the active site",
+      "The inhibitor changes the protein's secondary structure"
+    ],
+    "correct": 2,
+    "explanation": "Competitive inhibitors bind reversibly to the active site. At high [S], substrate outcompetes the inhibitor, so Vmax (the rate when enzyme is fully saturated with substrate) is unchanged. However, more substrate is needed to achieve half-saturation in the presence of inhibitor, so apparent Km increases.",
+    "tags": [
+      "enzyme kinetics",
+      "competitive inhibition"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "An inhibitor decreases Vmax but leaves Km unchanged. This is consistent with:",
+    "options": [
+      "Substrate inhibition",
+      "Pure noncompetitive inhibition",
+      "Competitive inhibition",
+      "Uncompetitive inhibition"
+    ],
+    "correct": 1,
+    "explanation": "Pure noncompetitive inhibitors bind equally well to free enzyme and enzyme-substrate complex (at a site other than active site), reducing the total functional enzyme population. Km is unchanged (substrate still binds normally), but Vmax decreases proportionally with inhibitor concentration. On a Lineweaver-Burk plot, lines have different y-intercepts but the same x-intercept.",
+    "tags": [
+      "enzyme kinetics",
+      "noncompetitive inhibition"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "An uncompetitive inhibitor binds only to the enzyme-substrate complex. On a Lineweaver-Burk plot, uncompetitive inhibition produces:",
+    "options": [
+      "Lines intersecting at the x-axis",
+      "Lines intersecting at the y-axis",
+      "No change in the graph",
+      "Parallel lines (same slope, different intercepts)"
+    ],
+    "correct": 3,
+    "explanation": "Uncompetitive inhibitors bind ES complex, decreasing apparent Km and Vmax by the same factor (alpha'). On a double-reciprocal plot, the uninhibited and inhibited lines are parallel (same slope = Km/Vmax, since both change by the same factor). Both the x-intercept (–1/Km) and y-intercept (1/Vmax) shift left/up by the same factor.",
+    "tags": [
+      "enzyme kinetics",
+      "uncompetitive inhibition"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Organophosphate compounds (e.g., nerve agents) are dangerous because they:",
+    "options": [
+      "Activate adenylyl cyclase, flooding cells with cAMP",
+      "Competitively inhibit nicotinic acetylcholine receptors",
+      "Block voltage-gated sodium channels in motor neurons",
+      "Irreversibly phosphorylate the active-site serine of acetylcholinesterase, preventing ACh breakdown"
+    ],
+    "correct": 3,
+    "explanation": "Organophosphates covalently phosphorylate the catalytic serine of acetylcholinesterase (AChE) at the neuromuscular junction. Without AChE, acetylcholine accumulates, causing continuous muscle stimulation (SLUDGE symptoms: salivation, lacrimation, urination, defecation, GI distress, emesis). Treatment includes atropine (muscarinic antagonist) and pralidoxime (reactivates AChE if given early).",
+    "tags": [
+      "enzyme kinetics",
+      "irreversible inhibition",
+      "neuroscience"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Allosteric regulation differs from competitive inhibition in that:",
+    "options": [
+      "Both mechanisms bind at the active site",
+      "Competitive inhibitors permanently modify enzyme structure",
+      "Allosteric effectors only inhibit, never activate",
+      "Allosteric effectors bind to sites distinct from the active site and cause conformational changes; competitive inhibitors bind at the active site"
+    ],
+    "correct": 3,
+    "explanation": "Allosteric regulation involves binding of an effector to a regulatory (allosteric) site, causing conformational changes that alter active site geometry/affinity. Allosteric effectors can be activators or inhibitors and are not structurally similar to the substrate. Competitive inhibitors are typically substrate analogs that directly compete at the active site.",
+    "tags": [
+      "enzyme regulation",
+      "allosterism"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Feedback inhibition in the isoleucine biosynthetic pathway involves isoleucine inhibiting:",
+    "options": [
+      "Threonine deaminase (first committed step)",
+      "Only the export of isoleucine from the cell",
+      "All enzymes simultaneously",
+      "The last enzyme in the pathway"
+    ],
+    "correct": 0,
+    "explanation": "Classic feedback (product) inhibition: isoleucine (end product) allosterically inhibits threonine deaminase, the first committed step. This prevents overproduction by shutting down the pathway when sufficient product exists. Inhibiting the first committed step is more efficient than inhibiting later enzymes.",
+    "tags": [
+      "enzyme regulation",
+      "feedback inhibition"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Protein kinase A (PKA) is activated by which second messenger?",
+    "options": [
+      "cAMP (cyclic AMP)",
+      "Diacylglycerol (DAG)",
+      "Ca2+",
+      "IP3"
+    ],
+    "correct": 0,
+    "explanation": "PKA is a tetrameric enzyme with two catalytic (C) and two regulatory (R) subunits. cAMP binds R subunits, causing dissociation and releasing active C subunits. cAMP is made by adenylyl cyclase in response to GPCR activation (e.g., beta-adrenergic receptors). PKA phosphorylates many targets including glycogen phosphorylase kinase and CREB.",
+    "tags": [
+      "enzyme regulation",
+      "signal transduction",
+      "cAMP"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Michaelis-Menten kinetics break down when an enzyme has multiple subunits with cooperative substrate binding. This behavior is better described by:",
+    "options": [
+      "First-order rate kinetics",
+      "The Hill equation (sigmoidal binding curve)",
+      "Competitive inhibition kinetics",
+      "The Lineweaver-Burk equation"
+    ],
+    "correct": 1,
+    "explanation": "Cooperative enzymes (like hemoglobin for O2, or regulatory enzymes like PFK-1) show sigmoidal v vs. [S] curves. The Hill coefficient (n) quantifies cooperativity: n>1 = positive cooperativity, n<1 = negative, n=1 = hyperbolic (Michaelis-Menten). The Hill equation: v = Vmax[S]^n / (K0.5^n + [S]^n).",
+    "tags": [
+      "enzyme kinetics",
+      "cooperativity",
+      "Hill equation"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Hexokinase (in muscle) and glucokinase (hexokinase IV, in liver) both phosphorylate glucose, but differ in that:",
+    "options": [
+      "Glucokinase has a high Km for glucose and is not inhibited by G6P; hexokinase has low Km and is inhibited by G6P",
+      "Glucokinase requires NAD+ as a cofactor",
+      "Both have the same Km but glucokinase is allosterically activated",
+      "Hexokinase only works at high glucose concentrations"
+    ],
+    "correct": 0,
+    "explanation": "Glucokinase (hexokinase IV) has high Km (~10 mM, near portal vein glucose), is not inhibited by G6P, and shows sigmoidal kinetics (cooperative). This makes glucokinase a glucose sensor: it acts as a low-affinity glucose phosphorylator in the liver when blood glucose is high. Muscle hexokinase has low Km (~0.1 mM), is inhibited by G6P, and saturates at normal glucose levels.",
+    "tags": [
+      "enzyme regulation",
+      "glycolysis",
+      "hexokinase"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The kcat/Km ratio (catalytic efficiency) is important because:",
+    "options": [
+      "It reflects how efficiently an enzyme converts substrate to product at low [S], approaching the diffusion limit",
+      "It equals the maximum velocity",
+      "It measures enzyme concentration",
+      "It is used to calculate the equilibrium constant"
+    ],
+    "correct": 0,
+    "explanation": "kcat/Km is the second-order rate constant for the reaction E + S → E + P at low [S]. The theoretical maximum is the diffusion limit (~10^8–10^9 M-1s-1). 'Catalytically perfect' enzymes (like carbonic anhydrase, triose phosphate isomerase) approach this limit. kcat/Km is used to compare catalytic efficiencies of different enzymes or compare the same enzyme with different substrates.",
+    "tags": [
+      "enzyme kinetics",
+      "catalytic efficiency"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Zymogen activation is best exemplified by:",
+    "options": [
+      "Hexokinase is phosphorylated to activate it",
+      "DNA polymerase requires RNA primer to initiate",
+      "Hemoglobin binds O2 cooperatively",
+      "Trypsinogen is cleaved to trypsin by enteropeptidase in the small intestine"
+    ],
+    "correct": 3,
+    "explanation": "Zymogens (proenzymes) are inactive precursors activated by proteolytic cleavage. Trypsinogen → trypsin (by enteropeptidase/enterokinase); trypsin then activates other zymogens (chymotrypsinogen, proelastase, procarboxypeptidases). This irreversible mechanism prevents premature activation in the pancreas. Premature activation causes pancreatitis.",
+    "tags": [
+      "enzyme regulation",
+      "zymogens",
+      "digestion"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which enzyme catalyzes the rate-limiting committed step of glycolysis?",
+    "options": [
+      "Pyruvate kinase",
+      "Aldolase",
+      "Hexokinase",
+      "Phosphofructokinase-1 (PFK-1)"
+    ],
+    "correct": 3,
+    "explanation": "PFK-1 catalyzes fructose-6-phosphate → fructose-1,6-bisphosphate (using ATP). This is the first committed, irreversible step of glycolysis and its major regulatory point. PFK-1 is activated by AMP/ADP/F-2,6-BP and inhibited by ATP/citrate/glucagon. Hexokinase is also regulated but not the committed rate-limiting step.",
+    "tags": [
+      "glycolysis",
+      "enzyme regulation"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Net ATP yield from glycolysis (glucose → 2 pyruvate) is:",
+    "options": [
+      "36–38 ATP",
+      "2 ATP",
+      "6 ATP",
+      "4 ATP"
+    ],
+    "correct": 1,
+    "explanation": "Glycolysis: 4 ATP produced (steps 7 and 10, substrate-level phosphorylation) minus 2 ATP consumed (hexokinase and PFK-1) = net 2 ATP. Also produces 2 NADH. The 36-38 ATP figure includes downstream oxidative phosphorylation from the full aerobic catabolism of glucose.",
+    "tags": [
+      "glycolysis",
+      "bioenergetics"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which glycolytic enzyme catalyzes the only oxidation-reduction step in glycolysis?",
+    "options": [
+      "Phosphoglycerate mutase",
+      "Enolase",
+      "Phosphoglycerate kinase",
+      "Glyceraldehyde-3-phosphate dehydrogenase (G3PDH)"
+    ],
+    "correct": 3,
+    "explanation": "G3PDH oxidizes glyceraldehyde-3-phosphate to 1,3-bisphosphoglycerate, reducing NAD+ to NADH. This is the only redox step in glycolysis. The high-energy thioester intermediate is captured as 1,3-BPG, which then drives ATP synthesis at phosphoglycerate kinase (substrate-level phosphorylation).",
+    "tags": [
+      "glycolysis",
+      "redox reactions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Under anaerobic conditions, NADH generated in glycolysis is reoxidized by:",
+    "options": [
+      "Malate-aspartate shuttle",
+      "Pyruvate dehydrogenase complex",
+      "Lactate dehydrogenase (pyruvate → lactate), regenerating NAD+ to sustain glycolysis",
+      "The electron transport chain"
+    ],
+    "correct": 2,
+    "explanation": "Without O2, the ETC cannot reoxidize NADH. Lactate dehydrogenase (LDH) transfers the electrons from NADH to pyruvate, forming lactate and regenerating NAD+. This NAD+ is essential for continued glycolysis. In yeast, pyruvate decarboxylase and alcohol dehydrogenase regenerate NAD+ via ethanol fermentation.",
+    "tags": [
+      "glycolysis",
+      "anaerobic metabolism"
+    ],
+    "difficulty": "medium"
+  }
+]

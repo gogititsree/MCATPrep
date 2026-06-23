@@ -1,0 +1,586 @@
+[
+  {
+    "text": "A 2 kg block slides down a frictionless incline angled at 30° from horizontal. What is its acceleration?",
+    "options": ["9.8 m/s²", "4.9 m/s²", "8.5 m/s²", "2.0 m/s²"],
+    "correct": 1,
+    "explanation": "On a frictionless incline, the net force along the surface is mg sin θ. Acceleration = g sin θ = 9.8 × sin 30° = 9.8 × 0.5 = 4.9 m/s². Note this is independent of mass. With friction, a = g(sin θ − μk cos θ).",
+    "tags": ["physics", "inclined plane", "Newton's laws"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Two identical capacitors are connected in parallel across a 12 V battery. If each has capacitance C = 3 μF, what is the total charge stored?",
+    "options": ["18 μC", "72 μC", "36 μC", "6 μC"],
+    "correct": 1,
+    "explanation": "Capacitors in parallel: Ctotal = C1 + C2 = 3 + 3 = 6 μF. Total charge: Q = CV = 6 μF × 12 V = 72 μC. In parallel, voltage across each capacitor is equal to the battery voltage (12 V), but charge is additive (each stores 36 μC, for a total of 72 μC).",
+    "tags": ["physics", "capacitors", "electricity"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "An electron moves through a magnetic field B = 0.5 T perpendicular to its velocity v = 2 × 10⁶ m/s. What is the magnetic force on the electron? (|q| = 1.6 × 10⁻¹⁹ C)",
+    "options": ["1.6 × 10⁻¹³ N", "0 N (magnetic fields do no work)", "3.2 × 10⁻¹³ N", "8 × 10⁻¹⁴ N"],
+    "correct": 0,
+    "explanation": "Magnetic force: F = qvB sin θ = (1.6 × 10⁻¹⁹)(2 × 10⁶)(0.5)(sin 90°) = 1.6 × 10⁻¹³ N. The force is centripetal (perpendicular to velocity), so it changes direction but not speed, causing circular motion. The magnetic force does no work (F ⊥ v), so the electron's kinetic energy is unchanged.",
+    "tags": ["physics", "magnetism", "charged particles"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A transformer has 100 turns in the primary coil and 500 turns in the secondary. If the primary voltage is 120 V, what is the secondary voltage?",
+    "options": ["24 V", "600 V", "120 V", "6000 V"],
+    "correct": 1,
+    "explanation": "Transformer equation: Vs/Vp = Ns/Np → Vs = Vp × (Ns/Np) = 120 × (500/100) = 120 × 5 = 600 V. This is a step-up transformer. An ideal transformer conserves power: Vp × Ip = Vs × Is, so the secondary current is reduced by the same factor (Is = Ip/5). Step-down transformers are used in power distribution; step-up transformers in transmission lines.",
+    "tags": ["physics", "electromagnetism", "transformers"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A gas in a piston-cylinder undergoes an adiabatic compression. Which of the following correctly describes this process?",
+    "options": ["Q = 0; the internal energy decreases and temperature drops", "Q = 0; work is done ON the gas, increasing its internal energy and temperature: ΔU = −W (first law, where W is work done BY the gas, which is negative when compressed)", "Q = W; temperature remains constant", "ΔU = 0; all energy is released as heat"],
+    "correct": 1,
+    "explanation": "Adiabatic process: Q = 0 (no heat exchange). First law: ΔU = Q − W = 0 − W = −W. During compression, work is done ON the gas (W < 0 using sign convention for work done BY the gas), so ΔU > 0 and temperature rises. Diesel engines use adiabatic compression to ignite fuel without a spark plug. Adiabatic expansion cools gas (basis of refrigeration, atmospheric cooling of rising air).",
+    "tags": ["physics", "thermodynamics", "adiabatic process"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "An ideal gas at constant pressure (isobaric process) is heated from 300 K to 600 K. By what factor does its volume change?",
+    "options": ["Volume doubles", "Volume quadruples", "Volume is unchanged", "Volume halves"],
+    "correct": 0,
+    "explanation": "Charles's Law (isobaric): V/T = constant. V₁/T₁ = V₂/T₂ → V₂ = V₁ × (T₂/T₁) = V₁ × (600/300) = 2V₁. The volume doubles when absolute temperature doubles at constant pressure. This is the basis of hot air balloons (heating air at constant atmospheric pressure expands volume, reducing density below surrounding air).",
+    "tags": ["physics", "thermodynamics", "ideal gas law"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The phenomenon of total internal reflection requires that light travel from:",
+    "options": ["A medium of low refractive index to high refractive index at any angle", "A denser (higher n) medium to a less dense (lower n) medium at an angle greater than or equal to the critical angle (θc = arcsin[n₂/n₁])", "Any medium to vacuum at exactly 45°", "Air to glass at angles greater than 45°"],
+    "correct": 1,
+    "explanation": "Total internal reflection (TIR) occurs when light attempts to cross from a high-n to a low-n medium at an angle ≥ the critical angle. At θc, refracted light travels along the interface (θrefracted = 90°). Above θc, all light is reflected back. Applications: optical fiber communication (light bounces along fiber core), endoscopes, prisms replacing mirrors in cameras. For water-air: θc = arcsin(1/1.33) ≈ 48.8°.",
+    "tags": ["physics", "optics", "total internal reflection"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A concave mirror has a focal length of 20 cm. An object is placed 30 cm in front of it. Where is the image formed?",
+    "options": ["60 cm in front of the mirror (real, inverted)", "60 cm behind the mirror (virtual, upright)", "20 cm in front of the mirror (at the focal point)", "15 cm in front of the mirror"],
+    "correct": 0,
+    "explanation": "Mirror equation: 1/f = 1/do + 1/di → 1/20 = 1/30 + 1/di → 1/di = 1/20 − 1/30 = 3/60 − 2/60 = 1/60 → di = 60 cm. Positive di means the image is in front of the mirror (real, since concave mirrors form real images when object is beyond focal point). Magnification = −di/do = −60/30 = −2 (inverted, 2× enlarged). Used in telescopes, satellite dishes, headlights.",
+    "tags": ["physics", "optics", "mirrors"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In a galvanic (voltaic) cell, which electrode undergoes oxidation?",
+    "options": ["The cathode", "The anode — oxidation occurs at the anode in all electrochemical cells (both galvanic and electrolytic); electrons flow from anode to cathode through the external circuit", "Neither; both undergo reduction simultaneously", "The electrode with the higher standard reduction potential"],
+    "correct": 1,
+    "explanation": "Mnemonic: AN OX, RED CAT (ANode = OXidation; REDuction = CAThode). In a galvanic cell, the more active metal (lower, more negative standard reduction potential) is oxidized at the anode, releasing electrons. Electrons flow through the external circuit to the cathode, where reduction occurs. The salt bridge maintains electrical neutrality by allowing ion migration.",
+    "tags": ["chemistry", "electrochemistry", "galvanic cell"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A buffer solution contains 0.1 M acetic acid (pKa = 4.74) and 0.2 M sodium acetate. What is the approximate pH?",
+    "options": ["5.04", "4.44", "4.74", "5.34"],
+    "correct": 0,
+    "explanation": "Henderson-Hasselbalch: pH = pKa + log([A⁻]/[HA]) = 4.74 + log(0.2/0.1) = 4.74 + log(2) = 4.74 + 0.30 = 5.04. When [base] > [acid], pH > pKa. The buffer is most effective within ±1 pH unit of the pKa. Maximum buffering capacity occurs at pH = pKa (equal concentrations of acid and conjugate base).",
+    "tags": ["chemistry", "acid-base", "buffers"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following molecules has a net dipole moment?",
+    "options": ["CO₂ (linear, dipoles cancel)", "H₂O — bent geometry (104.5°) due to two lone pairs on oxygen; O-H bond dipoles do not cancel, resulting in a net dipole pointing toward oxygen", "BF₃ (trigonal planar, dipoles cancel)", "CCl₄ (tetrahedral, dipoles cancel)"],
+    "correct": 1,
+    "explanation": "Net dipole moment requires both polar bonds AND asymmetric geometry so bond dipoles don't cancel. H₂O: bent (VSEPR: 2 bonding pairs + 2 lone pairs → bent), O is partially negative, each H is partially positive; the two O-H dipoles point toward O and add vectorially. CO₂ has polar C=O bonds but they cancel (linear). BF₃ has polar B-F bonds but is symmetric (trigonal planar). CCl₄ is symmetric (tetrahedral).",
+    "tags": ["chemistry", "molecular geometry", "polarity"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "What is the oxidation state of chromium in K₂Cr₂O₇ (potassium dichromate)?",
+    "options": ["+3", "+6", "+7", "+4"],
+    "correct": 1,
+    "explanation": "K₂Cr₂O₇: K is +1, O is −2. Equation: 2(+1) + 2x + 7(−2) = 0 → 2 + 2x − 14 = 0 → 2x = 12 → x = +6. Chromium is +6 in dichromate (Cr₂O₇²⁻), a strong oxidizing agent. Cr³+ is the stable reduced form. KMnO₄ similarly has Mn in the +7 state. Both Cr(VI) and Mn(VII) are potent oxidizers used in analytical chemistry and organic synthesis.",
+    "tags": ["chemistry", "oxidation states", "redox"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which type of isomerism is exhibited by cis-2-butene and trans-2-butene?",
+    "options": ["Enantiomerism", "Geometric (cis-trans) isomerism, a type of diastereomerism — the restricted rotation around the C=C double bond fixes groups in different spatial arrangements; cis has same groups on the same side, trans on opposite sides", "Constitutional (structural) isomerism", "Conformational isomerism"],
+    "correct": 1,
+    "explanation": "Cis/trans isomers have the same connectivity (both are 2-butene: CH₃CH=CHCH₃) but differ in the spatial arrangement of groups around the C=C. Restricted π bond rotation makes interconversion impossible without breaking the double bond. They are diastereomers (non-mirror-image stereoisomers). cis-2-butene has a dipole moment; trans does not (symmetrical). IUPAC uses E/Z nomenclature for complex cases.",
+    "tags": ["chemistry", "organic chemistry", "stereochemistry"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A patient inhales a gas mixture with reduced oxygen partial pressure at high altitude. Which gas law explains why the partial pressure of O₂ decreases even though the percentage of O₂ in air remains the same?",
+    "options": ["Henry's law (gas solubility depends on partial pressure)", "Dalton's law of partial pressures — the partial pressure of O₂ = fraction of O₂ × total pressure; at high altitude, total atmospheric pressure decreases, so pO₂ decreases proportionally even though O₂ is still 21% of the atmosphere", "Boyle's law (pressure-volume relationship)", "Graham's law (rate of diffusion depends on molar mass)"],
+    "correct": 1,
+    "explanation": "Dalton's law: Ptotal = P₁ + P₂ + ... + Pn; Pi = Xi × Ptotal (Xi = mole fraction). At sea level: Ptotal = 760 mmHg, pO₂ = 0.21 × 760 = 160 mmHg. At high altitude (~5500 m): Ptotal ≈ 380 mmHg, pO₂ = 0.21 × 380 = 80 mmHg — causing altitude sickness, hyperventilation, and erythropoietin-driven polycythemia over time.",
+    "tags": ["chemistry", "gas laws", "respiratory physiology"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In a first-order reaction, a drug is administered at t=0 with initial concentration [A]₀. What is the half-life expression?",
+    "options": ["t₁/₂ = [A]₀ / (2k) — concentration-dependent (second-order)", "t₁/₂ = ln2 / k = 0.693 / k — constant, independent of initial concentration (first-order); each successive half-life reduces concentration by 50%, regardless of the starting amount", "t₁/₂ = 1 / (k[A]₀) — initial concentration dependent", "t₁/₂ = [A]₀ × k — proportional to initial concentration"],
+    "correct": 1,
+    "explanation": "First-order reaction rate law: d[A]/dt = −k[A]; integrated: [A]t = [A]₀e^(−kt). At half-life: [A]₀/2 = [A]₀e^(−kt₁/₂) → t₁/₂ = ln2/k = 0.693/k. The constant half-life is the hallmark of first-order kinetics. Most drug elimination follows first-order kinetics; after ~5 half-lives, >96% of drug is eliminated. Pharmacokinetic consequence: steady-state is reached in ~4-5 half-lives.",
+    "tags": ["chemistry", "kinetics", "pharmacokinetics"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following best explains why ice floats on water?",
+    "options": ["Ice has more kinetic energy than liquid water at the same temperature", "The hydrogen bond network in ice forces water molecules into a hexagonal lattice with greater spacing than liquid water — ice density (~0.92 g/mL) is less than liquid water (~1.00 g/mL), so ice floats", "Solid-state intermolecular forces are always weaker than liquid-state forces", "The surface tension of water supports ice as it does other floating objects"],
+    "correct": 1,
+    "explanation": "Liquid water has a high density because molecules can pack more efficiently than in the rigid ice lattice. In ice, each water molecule hydrogen bonds to exactly 4 neighbors in a tetrahedral arrangement forming a hexagonal crystal, creating a less dense open structure. When ice melts, some H-bonds break, allowing molecules to pack more closely. Maximum water density occurs at 4°C. This anomaly is critical for aquatic ecosystems (lakes freeze from top down, insulating liquid water below).",
+    "tags": ["chemistry", "hydrogen bonding", "water"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which type of reaction involves the net transfer of a hydride ion (H⁻) from a substrate to NAD+?",
+    "options": ["Hydration (addition of water across a double bond)", "Oxidation: NAD+ acts as an oxidizing agent, accepting a hydride (H⁻, equivalent to 2e⁻ + H+) from the substrate, yielding NADH + H+. This type of oxidation is used in glycolysis (GAPDH), the TCA cycle, and fatty acid oxidation", "Transaminase reaction (transfer of an amino group)", "Phosphorylation (transfer of a phosphate group)"],
+    "correct": 1,
+    "explanation": "Biological oxidation-reduction often involves transfer of hydride ion (H⁻) to NAD+. The substrate loses 2 electrons (is oxidized); NAD+ gains 2 electrons (is reduced) to NADH. Example: glyceraldehyde-3-phosphate + NAD+ + Pi → 1,3-bisphosphoglycerate + NADH + H+ (GAPDH reaction). NADH then donates its electrons to Complex I of the ETC, generating ~2.5 ATP per NADH.",
+    "tags": ["chemistry", "organic chemistry", "redox reactions"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Two objects, A (2 kg) and B (8 kg), collide and stick together (perfectly inelastic collision). Object A was moving at 10 m/s; B was at rest. What is the final velocity?",
+    "options": ["2 m/s", "5 m/s", "10 m/s", "0.4 m/s"],
+    "correct": 0,
+    "explanation": "Conservation of momentum: pᵢ = pf. mA·vA + mB·vB = (mA + mB)·vf. (2)(10) + (8)(0) = (2+8)·vf → 20 = 10·vf → vf = 2 m/s. Kinetic energy is not conserved in inelastic collisions: KEᵢ = ½(2)(100) = 100 J; KEf = ½(10)(4) = 20 J. 80 J is lost as heat, deformation, and sound — a 80% loss.",
+    "tags": ["physics", "momentum", "collisions"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A resistor (R = 10 Ω) and an inductor (L = 0.1 H) are connected in series to an AC source. At a frequency of 50 Hz, what is the inductive reactance (XL)?",
+    "options": ["31.4 Ω", "5 Ω", "50 Ω", "0.1 Ω"],
+    "correct": 0,
+    "explanation": "Inductive reactance: XL = 2πfL = 2π(50)(0.1) = 10π ≈ 31.4 Ω. The impedance Z = √(R² + XL²) = √(100 + 987) ≈ 32.9 Ω. Inductors resist changes in current (oppose AC): at higher frequencies, XL increases (XL ∝ f), so inductors block high-frequency signals (used in low-pass filters). Capacitors do the opposite (XC = 1/2πfC, decreases with frequency — block low frequencies).",
+    "tags": ["physics", "AC circuits", "inductance"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A 60 kg person runs up a flight of stairs 4 m high in 5 seconds. What is the average power output? (g = 10 m/s²)",
+    "options": ["480 W", "240 W", "120 W", "1200 W"],
+    "correct": 0,
+    "explanation": "Work done against gravity: W = mgh = 60 × 10 × 4 = 2400 J. Power: P = W/t = 2400/5 = 480 W. This is approximately 0.64 horsepower. Elite cyclists can sustain ~400-500 W for hours; sprinters can produce >2000 W briefly. Note: this only accounts for the work against gravity, not horizontal motion or inefficiency.",
+    "tags": ["physics", "work and energy", "power"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "What is the electron configuration of Fe²+ (iron with charge +2)? (Atomic number of Fe = 26)",
+    "options": ["[Ar] 3d⁶ 4s² (same as neutral Fe)", "[Ar] 3d⁶ — Fe²+ loses both 4s electrons first (4s subshell empties before 3d when ionizing transition metals)", "[Ar] 3d⁴ 4s²", "[Ar] 3d⁸"],
+    "correct": 1,
+    "explanation": "Neutral Fe: [Ar] 3d⁶ 4s². When transition metals are ionized, electrons are removed from the 4s orbital first (highest energy orbital in the atom is 4s, but once filled, 3d electrons are lower energy). Fe²+ loses both 4s electrons → [Ar] 3d⁶. Fe³+ loses one additional 3d electron → [Ar] 3d⁵ (particularly stable: half-filled d shell). This is a commonly tested concept on the MCAT.",
+    "tags": ["chemistry", "electron configuration", "transition metals"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following statements about SN1 reactions is correct?",
+    "options": ["SN1 reactions are favored by primary substrates and strong nucleophiles", "SN1 reactions proceed through a planar carbocation intermediate, causing racemization at the chiral center; they are favored by tertiary (most stable carbocation) and secondary substrates, polar protic solvents, and weak nucleophiles", "SN1 reactions show second-order kinetics (rate depends on both substrate and nucleophile concentrations)", "SN1 reactions always produce inversion of configuration (Walden inversion)"],
+    "correct": 1,
+    "explanation": "SN1 (substitution nucleophilic unimolecular): rate = k[substrate]; two steps: (1) ionization of leaving group → carbocation (rate-limiting); (2) nucleophilic attack from either face of planar carbocation. Racemization (or slight inversion due to ion pair) results at a chiral center. Favored by: 3°>2° substrates (carbocation stability), polar protic solvents (stabilize ions), weak nucleophiles. Contrast with SN2: one step, backside attack, inversion (Walden inversion), favored for 1° substrates.",
+    "tags": ["chemistry", "organic chemistry", "SN1 reactions"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which intermolecular force is primarily responsible for the elevated boiling point of ethanol (78°C) compared to dimethyl ether (−24°C), despite similar molecular weights?",
+    "options": ["London dispersion forces, which are stronger in ethanol", "Hydrogen bonding — ethanol (CH₃CH₂OH) has an O-H bond allowing it to act as both H-bond donor and acceptor; dimethyl ether (CH₃OCH₃) can only accept H-bonds (no O-H), so it has weaker net intermolecular forces and a much lower boiling point", "Dipole-dipole interactions, which are present only in ethanol", "Ionic interactions from partial charges on the ether oxygen"],
+    "correct": 1,
+    "explanation": "Hydrogen bonding (O-H or N-H to electronegative atom) is the strongest intermolecular force after ionic and ion-dipole. Ethanol's O-H allows it to form H-bonds as both donor and acceptor; DME can only accept H-bonds from water (no H-bond donor). The additional H-bonding in ethanol requires more energy to overcome during vaporization → higher boiling point. Water (MW=18, bp 100°C) vs. H₂S (MW=34, bp −60°C) is another illustration.",
+    "tags": ["chemistry", "intermolecular forces", "hydrogen bonding"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "What is the de Broglie wavelength of an electron (mass 9.11 × 10⁻³¹ kg) moving at 1% the speed of light (v = 3 × 10⁶ m/s)? (h = 6.63 × 10⁻³⁴ J·s)",
+    "options": ["2.4 × 10⁻¹⁰ m (0.24 nm, on the order of atomic bond lengths)", "6.63 × 10⁻³¹ m", "3 × 10⁻³ m", "6.63 × 10⁻²⁸ m"],
+    "correct": 0,
+    "explanation": "de Broglie wavelength: λ = h/mv = (6.63 × 10⁻³⁴) / (9.11 × 10⁻³¹ × 3 × 10⁶) = (6.63 × 10⁻³⁴) / (2.73 × 10⁻²⁴) ≈ 2.4 × 10⁻¹⁰ m = 0.24 nm. This is comparable to atomic/molecular dimensions, explaining why electrons exhibit wave behavior in crystals (electron diffraction) and why quantum mechanics governs atomic structure. Visible light is 400-700 nm; X-rays are 0.01-10 nm; this electron is in the X-ray range.",
+    "tags": ["physics", "quantum mechanics", "wave-particle duality"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In the Beer-Lambert Law (A = εlc), if the absorbance of a solution at 1.0 cm path length is 0.5, and the molar absorptivity ε = 1000 L·mol⁻¹·cm⁻¹, what is the concentration?",
+    "options": ["5 × 10⁻⁴ mol/L", "0.5 mol/L", "5 × 10⁻² mol/L", "500 mol/L"],
+    "correct": 0,
+    "explanation": "Beer-Lambert Law: A = εlc → c = A/(εl) = 0.5 / (1000 × 1.0) = 0.5/1000 = 5 × 10⁻⁴ M. The law states that absorbance is proportional to both path length and concentration (for dilute solutions with no scattering). Transmittance T = I/I₀; Absorbance A = −log T = εlc. Used extensively in spectrophotometry for protein quantification (Bradford, BCA assays) and enzyme activity measurements.",
+    "tags": ["chemistry", "spectroscopy", "Beer-Lambert law"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A negative charge is placed in a uniform electric field pointing east. What direction is the force on the charge?",
+    "options": ["East (same as the field)", "West — the force on a negative charge is opposite to the electric field direction (F = qE; with q negative, F is anti-parallel to E)", "North or south (perpendicular to field)", "There is no force on a stationary charge"],
+    "correct": 1,
+    "explanation": "Electric force: F = qE. For a positive charge, F is parallel to E (points east). For a negative charge, F is antiparallel to E (points west). Electric field lines point from high to low potential (from positive to negative); positive charges accelerate in the field direction, negative charges accelerate against the field direction. This is analogous to how a cation and anion move in opposite directions in an electric field during electrophoresis.",
+    "tags": ["physics", "electrostatics", "electric force"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "What is the hybridization of the carbon in CO₂?",
+    "options": ["sp³", "sp — the carbon forms two double bonds (C=O), using two sp hybrid orbitals for sigma bonds (180° apart) and two unhybridized p orbitals for the two pi bonds", "sp²", "sp³d"],
+    "correct": 1,
+    "explanation": "CO₂: O=C=O. The central carbon has 2 regions of electron density (2 double bonds); VSEPR predicts linear geometry. For linear geometry: sp hybridization. The two sp orbitals form sigma bonds with each oxygen (180° apart). The two unhybridized p orbitals on carbon (orthogonal to each other and to the bond axis) overlap with p orbitals on each oxygen to form two π bonds. Total: two C=O double bonds (each = 1σ + 1π).",
+    "tags": ["chemistry", "molecular geometry", "hybridization"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following functional groups makes a compound a carboxylic acid?",
+    "options": ["Carbonyl group alone (C=O)", "Carboxyl group (−COOH): a carbonyl bonded to a hydroxyl group on the same carbon — gives pKa ~4-5 and makes the molecule an organic acid; the −OH proton is lost upon ionization", "Ester linkage (−COO−R)", "Amide bond (−CONH₂)"],
+    "correct": 1,
+    "explanation": "A carboxylic acid contains the carboxyl group (−COOH): R−C(=O)−OH. The pKa of simple carboxylic acids is 4-5 (acetic acid: 4.74). The carboxylate anion (RCOO⁻) is stabilized by resonance delocalization of the negative charge over both oxygens. Electron-withdrawing substituents (Cl, F) lower the pKa (increase acidity) by stabilizing the anion. Esters (−COOR) and amides (−CONH₂) do not dissociate under physiological conditions.",
+    "tags": ["chemistry", "organic chemistry", "functional groups"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A satellite orbits Earth at radius r. If it moves to an orbit at radius 4r, by what factor does its orbital period change?",
+    "options": ["Increases by factor of 4", "Increases by factor of 8 (2³) — Kepler's third law: T² ∝ r³, so T ∝ r^(3/2); T₂/T₁ = (4r/r)^(3/2) = 4^(3/2) = 8", "Increases by factor of 2", "Increases by factor of 16"],
+    "correct": 1,
+    "explanation": "Kepler's third law: T² = (4π²/GM)r³ → T ∝ r^(3/2). If r increases by factor 4: T₂/T₁ = (r₂/r₁)^(3/2) = 4^(3/2) = (4^1)^(3/2) = 2³ = 8. The orbital period increases by a factor of 8. Earth's Moon (r ≈ 385,000 km, T = 27.3 days) vs. GPS satellites (r ≈ 26,600 km, T ≈ 12 hours) illustrates this: GPS orbit is much smaller and faster.",
+    "tags": ["physics", "orbital mechanics", "Kepler's laws"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The enthalpy change for a reaction at constant pressure is defined as:",
+    "options": ["ΔH = ΔU − PΔV (enthalpy is the internal energy minus PV work)", "ΔH = ΔU + PΔV = qp — heat flow at constant pressure; for reactions with no change in number of moles of gas (Δn_gas = 0), ΔH ≈ ΔU", "ΔH = ΔG + TΔS (this is the relation for Gibbs free energy)", "ΔH = ΔG − TΔS"],
+    "correct": 1,
+    "explanation": "Enthalpy H = U + PV; ΔH = ΔU + PΔV = ΔU + Δ(nRT) for ideal gases. At constant pressure, ΔH = qp (heat absorbed from surroundings). For a reaction producing Δn_gas moles of gas: ΔH − ΔU = Δn_gas × RT. Exothermic reactions: ΔH < 0 (heat released to surroundings); endothermic: ΔH > 0. Hess's law allows ΔH to be calculated from tabulated ΔH°f values.",
+    "tags": ["chemistry", "thermochemistry", "enthalpy"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A proton NMR spectrum shows a signal at δ 7.5 ppm with integration of 5H and a signal at δ 2.3 ppm with integration of 3H. This pattern is consistent with:",
+    "options": ["An aliphatic chain with 8 equivalent hydrogens", "A monosubstituted benzene ring (5 aromatic H at δ 7-8 ppm) attached to a methyl group (3H at δ 2-3 ppm, characteristic of Ar-CH₃) — consistent with toluene", "An aldehyde (which shows a signal at δ 9-10 ppm)", "A carboxylic acid (which shows a broad signal at δ 10-12 ppm)"],
+    "correct": 1,
+    "explanation": "Proton NMR chemical shifts: aromatic H typically δ 6.5-8.5 ppm (downfield due to ring current); Ar-CH₃ (benzylic) appears at δ 2.2-2.5 ppm. Monosubstituted benzene has 5 equivalent (or near-equivalent) aromatic protons. Integration ratio 5:3 with these chemical shifts is the textbook NMR of toluene (C₆H₅-CH₃). Aldehydes appear at δ 9-10 ppm; carboxylic acids at δ 10-12 ppm (very downfield due to strong deshielding).",
+    "tags": ["chemistry", "NMR spectroscopy", "organic chemistry"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A liquid in a U-tube manometer has a height difference of 15 cm between the two arms. If the liquid is mercury (density = 13,600 kg/m³), what is the gauge pressure? (g = 10 m/s²)",
+    "options": ["20,400 Pa", "2,040 Pa", "136,000 Pa", "1,360 Pa"],
+    "correct": 0,
+    "explanation": "Gauge pressure = ρgh = 13,600 × 10 × 0.15 = 20,400 Pa. A standard mercury column of 760 mmHg = 101,325 Pa (1 atm), so 150 mmHg ≈ 20,000 Pa. Manometers measure pressure differences (gauge pressure = absolute pressure − atmospheric pressure). The higher the density of the manometric fluid, the more compact the instrument (mercury manometers are much shorter than water manometers for the same pressure).",
+    "tags": ["physics", "fluid statics", "pressure"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A radioactive isotope has a half-life of 10 years. What fraction of the original sample remains after 30 years?",
+    "options": ["1/8", "1/4", "1/3", "1/6"],
+    "correct": 0,
+    "explanation": "After n half-lives, fraction remaining = (1/2)^n. 30 years / 10 years per half-life = 3 half-lives. Fraction remaining = (1/2)³ = 1/8. After 10 y: 50%; after 20 y: 25%; after 30 y: 12.5%. This applies to all first-order decay processes. Carbon-14 (t₁/₂ = 5,730 years) allows dating of organic materials up to ~50,000 years; uranium-238 (t₁/₂ = 4.47 × 10⁹ years) is used for geological dating.",
+    "tags": ["physics", "nuclear physics", "radioactive decay"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In an Aldol condensation, the nucleophile that attacks the carbonyl is:",
+    "options": ["The carbonyl oxygen acting as nucleophile", "The enolate ion (formed by deprotonation of the α-carbon adjacent to the carbonyl) — the α-carbon attacks the electrophilic carbonyl carbon of another molecule, forming a β-hydroxy carbonyl compound", "A hydroxide ion attacking the carbonyl directly", "The carbonyl carbon acting as nucleophile"],
+    "correct": 1,
+    "explanation": "The Aldol condensation: (1) Base deprotonates the α-carbon (pKa ~20 for aldehydes/ketones) to form the enolate; (2) The nucleophilic α-carbon attacks the electrophilic carbonyl carbon of another carbonyl compound → β-hydroxy carbonyl (aldol product); (3) Dehydration gives the α,β-unsaturated carbonyl (Aldol condensation product). This is the basis for biological C-C bond formation in fatty acid synthesis (via malonyl-ACP as the enolate equivalent).",
+    "tags": ["chemistry", "organic chemistry", "aldol condensation"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Light enters a glass fiber optic cable (n = 1.5) from air (n = 1.0). What is the refracted angle if the angle of incidence is 30°? (sin 30° = 0.5, sin 19.5° ≈ 0.33)",
+    "options": ["19.5°", "30°", "45°", "60°"],
+    "correct": 0,
+    "explanation": "Snell's law: n₁ sin θ₁ = n₂ sin θ₂ → (1.0)(sin 30°) = (1.5)(sin θ₂) → 0.5 = 1.5 sin θ₂ → sin θ₂ = 0.33 → θ₂ ≈ 19.5°. The refracted ray bends toward the normal when entering a denser (higher n) medium (θ₂ < θ₁). When exiting to a less dense medium, the ray bends away from the normal. At the critical angle (θc = arcsin(1/1.5) ≈ 41.8°), total internal reflection occurs, trapping light in the fiber.",
+    "tags": ["physics", "optics", "Snell's law"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following best describes an amphoteric compound?",
+    "options": ["A compound that donates both H+ and H- simultaneously", "A compound that can act as either a Brønsted-Lowry acid (H+ donor) or base (H+ acceptor) depending on the reaction conditions — water and amino acids at their pI are classic examples", "A compound with both acidic and basic functional groups that neutralize each other internally", "A compound that dissolves equally well in acids and bases"],
+    "correct": 1,
+    "explanation": "Amphiprotic (amphoteric) substances can donate or accept protons. Water: acts as base (H₂O + HCl → H₃O+ + Cl⁻) or acid (H₂O + NH₃ → OH⁻ + NH₄+). Amino acids: at low pH, accept H+ (act as base); at high pH, donate H+ (act as acid). Metal oxides like Al₂O₃ and ZnO are amphoteric — dissolve in both strong acid (to give Al³+/Zn²+) and strong base (to give aluminate/zincate).",
+    "tags": ["chemistry", "acid-base", "amphoteric"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Infrared (IR) spectroscopy detects molecular vibrations. Which bond type produces a characteristic broad absorption band in the 2500-3300 cm⁻¹ range in an IR spectrum?",
+    "options": ["C=O stretch (found at ~1700 cm⁻¹)", "O-H stretch of carboxylic acids — the strong, broad band from 2500-3300 cm⁻¹ results from hydrogen-bonded O-H stretch; alcohol O-H is broader at 3200-3550 cm⁻¹; C=O of the carboxylic acid appears at ~1710 cm⁻¹", "C-H stretch (found at 2850-3000 cm⁻¹, sharp)", "C≡N stretch (found at ~2200 cm⁻¹)"],
+    "correct": 1,
+    "explanation": "Carboxylic acids show a uniquely broad O-H stretch from 2500-3300 cm⁻¹ due to strong intermolecular hydrogen bonding (carboxylic acids form dimers in solution/solid). This broad band often overlaps C-H stretches. Key IR absorptions: O-H carboxylic acid (2500-3300, broad); alcohol O-H (3200-3550, broad); C=O ketone/aldehyde (~1715-1740 cm⁻¹); C=O carboxylic acid (~1700-1725 cm⁻¹); amide C=O (~1650-1690 cm⁻¹); alkyne C≡C (~2100-2260 cm⁻¹).",
+    "tags": ["chemistry", "spectroscopy", "IR spectroscopy"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "An enzyme catalyzes a reaction with ΔG° = −15 kJ/mol. Adding more enzyme:",
+    "options": ["Makes ΔG° more negative, further driving the reaction forward", "Does not change ΔG° or the equilibrium constant — enzymes lower the activation energy (Ea) and increase the rate of reaching equilibrium, but they do not change the thermodynamic favorability (ΔG° or Keq) of a reaction", "Shifts the equilibrium to favor products by stabilizing the transition state", "Increases the temperature of the reaction, providing more energy"],
+    "correct": 1,
+    "explanation": "Enzymes are catalysts: they lower the activation energy (Ea) for both forward and reverse reactions equally, increasing the rate at which equilibrium is reached without changing the equilibrium position. ΔG° is determined solely by the thermodynamic properties of reactants and products (independent of catalyst). Keq = e^(−ΔG°/RT) is also unaffected by an enzyme. Enzymes cannot make a thermodynamically unfavorable reaction (ΔG° > 0) favorable.",
+    "tags": ["chemistry", "enzyme kinetics", "thermodynamics"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "What is the relationship between solubility product (Ksp) and molar solubility for a salt AB₂ (e.g., PbCl₂) that dissociates as AB₂ → A²⁺ + 2B⁻?",
+    "options": ["Ksp = s, where s is the molar solubility", "Ksp = 4s³, where s is the molar solubility: [A²⁺] = s, [B⁻] = 2s, Ksp = s × (2s)² = 4s³", "Ksp = s², where s is the molar solubility", "Ksp = 2s³"],
+    "correct": 1,
+    "explanation": "For AB₂ → A²⁺ + 2B⁻: if solubility = s, then [A²⁺] = s and [B⁻] = 2s. Ksp = [A²⁺][B⁻]² = (s)(2s)² = 4s³. Therefore s = (Ksp/4)^(1/3). Compare to AB → A⁺ + B⁻: Ksp = s². For A₂B₃ → 2A³⁺ + 3B²⁻: Ksp = (2s)²(3s)³ = 108s⁵. The common ion effect: adding A²⁺ or B⁻ shifts equilibrium left (Le Chatelier), decreasing solubility.",
+    "tags": ["chemistry", "solubility", "equilibrium"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following is the mechanism of action of 5-fluorouracil (5-FU), an anticancer drug?",
+    "options": ["It alkylates DNA, causing cross-linking and strand breaks", "It is metabolized to FdUMP, which irreversibly inhibits thymidylate synthase (TS), blocking dTMP synthesis from dUMP; this depletes dTTP, impairing DNA replication and repair ('thymineless death')", "It intercalates between DNA base pairs, inhibiting topoisomerases", "It is an EGFR tyrosine kinase inhibitor"],
+    "correct": 1,
+    "explanation": "5-FU is a pyrimidine antimetabolite. Intracellular conversion to FdUMP (5-fluoro-2'-deoxyuridine-5'-monophosphate) forms a covalent ternary complex with thymidylate synthase and methylenetetrahydrofolate, irreversibly inhibiting TS. TS catalyzes the only de novo pathway for dTMP synthesis (dUMP → dTMP). Without dTMP, dTTP is depleted → thymineless death (DNA damage without ability to repair). Note: thymidylate synthase requires folate cofactor, linking 5-FU mechanism to folate metabolism.",
+    "tags": ["pharmacology", "anticancer drugs", "nucleotide metabolism"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A sound wave travels from air into water. Which property of the wave changes?",
+    "options": ["Frequency — it increases proportionally to the density of water", "Speed and wavelength change; frequency remains constant. Speed increases in water (v_water ≈ 1500 m/s vs v_air ≈ 340 m/s); since f = v/λ and f is constant, wavelength increases proportionally", "Only amplitude decreases due to partial reflection at the interface", "Frequency and speed both change; wavelength remains constant"],
+    "correct": 1,
+    "explanation": "When a wave crosses a medium boundary, frequency is always conserved (determined by the source, not the medium). Speed changes based on medium properties. Since v = fλ: if v increases (in water) and f is constant, λ must increase. Sound travels faster in denser media (compressibility matters more than density for sound): v_water ≈ 4.4× v_air. This is why SONAR in water uses shorter pulse intervals than radar in air would.",
+    "tags": ["physics", "waves", "sound"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "At what temperature (in Kelvin) does a gas have zero theoretical kinetic energy, according to kinetic molecular theory?",
+    "options": ["0°C (273 K)", "0 K (absolute zero, −273°C) — all translational kinetic energy ceases; KE = (3/2)kT, so KE = 0 when T = 0 K", "−100°C (173 K)", "4 K (liquid helium temperature)"],
+    "correct": 1,
+    "explanation": "Kinetic molecular theory: average translational KE = (3/2)kBT, where kB is Boltzmann's constant and T is temperature in Kelvin. At T = 0 K (absolute zero), theoretical KE = 0. In practice, quantum mechanical zero-point energy prevents true zero motion. The third law of thermodynamics states that absolute zero is unattainable (though approached within nanokelvins in laboratory settings). The Kelvin scale is defined so that T = 0 K is the lower bound.",
+    "tags": ["physics", "thermodynamics", "kinetic theory"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In an electrochemical cell, the standard cell potential E°cell = 1.10 V for the Zn/Cu cell. What is ΔG° for this reaction? (n = 2, F = 96,500 C/mol)",
+    "options": ["−212,300 J/mol (−212.3 kJ/mol)", "+212,300 J/mol (+212.3 kJ/mol)", "−1.10 J/mol", "−55,000 J/mol"],
+    "correct": 0,
+    "explanation": "ΔG° = −nFE° = −(2)(96,500)(1.10) = −212,300 J/mol = −212.3 kJ/mol. The negative ΔG° confirms the reaction is spontaneous under standard conditions. Relationship: ΔG° = −nFE° = −RT lnKeq. The Zn/Cu cell (Zn(s) + Cu²+(aq) → Zn²+(aq) + Cu(s)) is the classic galvanic cell, with the spontaneous direction determined by Zn being more easily oxidized (more negative standard reduction potential) than Cu.",
+    "tags": ["chemistry", "electrochemistry", "free energy"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient has a respiratory rate of 40 breaths/min and an arterial pH of 7.55. Which acid-base disturbance is most likely?",
+    "options": ["Metabolic alkalosis from vomiting", "Respiratory alkalosis — rapid breathing (hyperventilation) eliminates CO₂ faster than produced: ↓PaCO₂ → ↑pH (alkalosis); causes include anxiety, high altitude, pain, aspirin toxicity (early), liver failure", "Respiratory acidosis from hypoventilation", "Metabolic acidosis from lactic acid accumulation"],
+    "correct": 1,
+    "explanation": "Respiratory alkalosis: hyperventilation (RR 40/min) blows off CO₂. CO₂ + H₂O ↔ H₂CO₃ ↔ H+ + HCO₃⁻; as CO₂ decreases, equilibrium shifts left → fewer H+ → pH rises (alkalosis). Primary: ↓PaCO₂; pH > 7.45. Compensation: kidneys increase HCO₃⁻ excretion (renal compensation is slow, hours-days). Symptoms: perioral numbness, tingling, carpopedal spasm (hypocalcemia — alkalosis increases albumin binding of Ca²+).",
+    "tags": ["physiology", "acid-base", "respiratory alkalosis"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Two wires carry currents of 5 A and 10 A in the same direction, separated by 2 cm. What is the nature of the force between them?",
+    "options": ["Repulsive, proportional to the product of currents", "Attractive — parallel currents in the same direction attract each other; force per unit length: F/L = μ₀I₁I₂/(2πd); the force is attractive for parallel currents and repulsive for antiparallel currents", "No force (magnetic forces only act between moving charge and magnetic fields, not between wires)", "Attractive only if both wires are in vacuum"],
+    "correct": 1,
+    "explanation": "Parallel wires carrying current in the same direction attract each other (Ampere's force law). Wire 1 creates a magnetic field at the location of wire 2; wire 2 (carrying current) experiences a force F = IL × B. The force per unit length: F/L = μ₀I₁I₂/(2πd). This attraction (and the definition of the Ampere) is the basis: 1 Ampere is defined as the current producing a force of 2 × 10⁻⁷ N/m between two parallel wires separated by 1 m.",
+    "tags": ["physics", "electromagnetism", "magnetic force"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In mass spectrometry, the base peak is defined as:",
+    "options": ["The peak with the highest m/z ratio (molecular ion peak)", "The most abundant fragment ion peak, assigned 100% relative abundance — all other peaks are reported as a percentage of the base peak intensity; the base peak may or may not be the molecular ion", "The peak at m/z = 1 (proton peak)", "The peak representing the most stable isotope"],
+    "correct": 1,
+    "explanation": "In a mass spectrum, all peaks are normalized to the most intense peak (base peak = 100%). The molecular ion (M⁺) peak appears at the highest m/z (before isotope peaks) and gives the molecular weight, but is often not the base peak because some molecular ions readily fragment. The fragmentation pattern (daughter ions) provides structural information. Common fragmentations: alpha-cleavage at heteroatoms, McLafferty rearrangement in carbonyls.",
+    "tags": ["chemistry", "mass spectrometry", "spectroscopy"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following describes the relationship between the Gibbs free energy change (ΔG°) and the equilibrium constant (K)?",
+    "options": ["ΔG° = −R/T × ln K", "ΔG° = −RT ln K: when K > 1 (products favored), ΔG° < 0 (spontaneous); when K < 1 (reactants favored), ΔG° > 0 (non-spontaneous); when K = 1, ΔG° = 0", "ΔG° = RT/K", "ΔG° = −nFE° only for electrochemical reactions, not for regular chemical equilibria"],
+    "correct": 1,
+    "explanation": "ΔG° = −RT ln Keq (where R = 8.314 J/mol·K, T in Kelvin). Equivalently, Keq = e^(−ΔG°/RT). For a reaction with ΔG° = −5.7 kJ/mol at 25°C: K ≈ 10. For ΔG° = +5.7 kJ/mol: K ≈ 0.1. The ΔG° = −nFE° relationship for electrochemical cells is consistent with this (derived from the same thermodynamic principles). At equilibrium, ΔG = 0 (not ΔG°).",
+    "tags": ["chemistry", "thermodynamics", "equilibrium"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient with Graves' disease (hyperthyroidism) would be expected to have which metabolic change?",
+    "options": ["Decreased basal metabolic rate and weight gain", "Increased basal metabolic rate (BMR): excess thyroid hormone (T3/T4) upregulates Na+/K+ ATPase and mitochondrial uncoupling, increasing O2 consumption and heat production; results in weight loss, tachycardia, heat intolerance, diaphoresis", "Hypoglycemia from increased glucose uptake", "Decreased catecholamine sensitivity"],
+    "correct": 1,
+    "explanation": "Thyroid hormones (T3 more potent than T4) are the primary regulators of BMR. They act on nuclear receptors to increase expression of Na+/K+ ATPase, increase mitochondrial uncoupling proteins, and enhance sympathetic sensitivity (upregulate β-adrenergic receptors). Hyperthyroidism: ↑BMR, weight loss despite increased appetite, tachycardia, anxiety, tremor, heat intolerance, exophthalmos (in Graves'). T3 = 3,5,3'-triiodothyronine; more potent, shorter half-life.",
+    "tags": ["physiology", "endocrinology", "thyroid hormone"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "What distinguishes a nucleoside from a nucleotide?",
+    "options": ["Nucleosides contain the base and sugar plus a phosphate group; nucleotides lack the phosphate", "Nucleotides contain the base, sugar, AND one or more phosphate groups; nucleosides contain only the base and sugar (no phosphate). Adenosine = base + ribose (nucleoside); AMP/ADP/ATP = nucleosides + phosphate group(s) (nucleotides)", "Nucleosides are found only in RNA; nucleotides only in DNA", "Nucleotides contain the base only; nucleosides contain base + sugar"],
+    "correct": 1,
+    "explanation": "Nucleoside: nitrogenous base + pentose sugar (ribose or deoxyribose). Nucleotide: nucleoside + phosphate (mono-, di-, or triphosphate). Examples: adenosine (nucleoside); AMP, ADP, ATP (nucleotides). Key nucleotides: ATP (energy currency), cAMP (second messenger), NAD+/NADH, FAD/FADH2, CoA. Antiviral drugs like acyclovir are nucleoside analogs that lack the 3'-OH needed for chain extension.",
+    "tags": ["biochemistry", "nucleotides", "molecular biology"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A 5 kg box is pushed along the floor with a force of 25 N against a friction force of 10 N. What is the acceleration?",
+    "options": ["3 m/s²", "5 m/s²", "2 m/s²", "7 m/s²"],
+    "correct": 0,
+    "explanation": "Net force = Applied force − Friction force = 25 − 10 = 15 N. Acceleration = F_net / m = 15 / 5 = 3 m/s². The friction force opposes motion. Normal force N = mg = 5 × 10 = 50 N; coefficient of kinetic friction μk = F_friction/N = 10/50 = 0.2. Note: static friction is greater than kinetic friction; it takes more force to START an object moving than to keep it moving.",
+    "tags": ["physics", "Newton's laws", "friction"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following correctly describes the process of dielectrics in a capacitor?",
+    "options": ["A dielectric decreases capacitance by reducing the electric field strength between the plates", "A dielectric increases capacitance by a factor κ (dielectric constant > 1): C = κε₀A/d. The dielectric material polarizes in the field, reducing the electric field and voltage between plates while maintaining the same charge, thereby increasing capacitance", "A dielectric increases the voltage across the capacitor for a given charge", "A dielectric material must be a good conductor to function in a capacitor"],
+    "correct": 1,
+    "explanation": "When a dielectric (insulating material) fills the space between capacitor plates, induced dipoles in the dielectric align opposite to the external field, reducing the net electric field (and thus voltage) between the plates. Since C = Q/V, reducing V while keeping Q constant increases C. C = κC₀ = κε₀A/d, where κ > 1. A higher dielectric constant allows more charge storage at a given voltage. Air: κ ≈ 1; water: κ ≈ 80; common capacitor ceramics: κ = 1,000-10,000.",
+    "tags": ["physics", "capacitors", "dielectrics"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "What is the pH of a 0.001 M solution of NaOH at 25°C?",
+    "options": ["11", "3", "7", "13"],
+    "correct": 0,
+    "explanation": "NaOH is a strong base: [OH⁻] = 0.001 M = 10⁻³ M. pOH = −log(10⁻³) = 3. pH = 14 − pOH = 14 − 3 = 11. Alternatively: pOH = 3, and at 25°C, pH + pOH = 14 (from Kw = 10⁻¹⁴). So pH = 11. This is a common calculation: 0.001 M = 10⁻³ M strong base → pOH = 3 → pH = 11.",
+    "tags": ["chemistry", "acid-base", "pH calculation"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The viscosity of blood is primarily determined by which component?",
+    "options": ["Plasma proteins, especially albumin", "Hematocrit (red blood cell volume fraction) — RBCs are the largest contributor to blood viscosity; polycythemia (high hematocrit) increases viscosity, raising resistance to flow and cardiac workload", "White blood cell count", "Platelet concentration"],
+    "correct": 1,
+    "explanation": "Blood viscosity depends primarily on hematocrit (volume fraction of RBCs, normally ~45%). At low shear rates, RBCs aggregate into rouleaux (stacks), further increasing viscosity. Sickle cells and rigid cells increase viscosity at low flow. Poiseuille's law: resistance to flow R = 8ηL/(πr⁴); viscosity η directly affects resistance. In polycythemia vera (hematocrit 60-70%), markedly increased viscosity raises thrombosis risk and cardiac afterload.",
+    "tags": ["physiology", "blood", "viscosity"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In a closed organ pipe (closed at one end, open at the other), what is the relationship between the length of the pipe and the fundamental (first harmonic) wavelength?",
+    "options": ["L = λ/2 (half wavelength fits in the pipe)", "L = λ/4 (only odd harmonics exist): the closed end is a displacement node, the open end is an antinode; one quarter-wavelength spans this node-to-antinode distance", "L = λ (one full wavelength)", "L = 3λ/4 (fundamental has three-quarter wavelength)"],
+    "correct": 1,
+    "explanation": "Closed pipe: closed end = displacement node (no air movement); open end = displacement antinode (maximum displacement). Distance from node to nearest antinode = λ/4. For the fundamental: L = λ/4, so λ = 4L, and f₁ = v/λ = v/(4L). Only odd harmonics exist: f_n = nv/(4L) for n = 1, 3, 5... Open pipe: both ends are antinodes, L = λ/2 for fundamental, all harmonics exist.",
+    "tags": ["physics", "sound", "standing waves"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The reaction of an alcohol with a carboxylic acid in the presence of an acid catalyst to form an ester is called:",
+    "options": ["Saponification", "Fischer esterification — a reversible, acid-catalyzed reaction (RCOOH + R'OH ⇌ RCOOR' + H₂O); Le Chatelier's principle: driven to completion by excess alcohol, excess acid, or removal of water", "Transesterification", "Nucleophilic acyl substitution with hydroxide"],
+    "correct": 1,
+    "explanation": "Fischer esterification: acid protonates the carbonyl oxygen → electrophilic carbonyl carbon is attacked by the alcohol oxygen → tetrahedral intermediate → proton transfers → loss of water → ester product. Mechanism: protonation, nucleophilic addition (alcohol), proton transfers, elimination of water, deprotonation. Reverse (saponification) uses base and is irreversible (produces carboxylate salt). Transesterification replaces one alcohol with another.",
+    "tags": ["chemistry", "organic chemistry", "esterification"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A patient is given IV normal saline (0.9% NaCl, isotonic). What effect does this have on red blood cells?",
+    "options": ["RBCs crenate (shrink) due to water leaving by osmosis", "No net water movement — isotonic solution has the same osmolarity as cytoplasm (~290 mOsm/L); RBCs maintain their biconcave shape with no net osmotic flow", "RBCs lyse due to hypotonic conditions", "RBCs absorb NaCl by active transport, causing swelling"],
+    "correct": 1,
+    "explanation": "Normal saline (0.9% NaCl) contains 154 mM NaCl = 308 mOsm/L (NaCl dissociates into Na+ and Cl⁻), which approximates plasma osmolarity (~290 mOsm/L). No net osmotic gradient → no net water movement → RBCs maintain their shape. Hypotonic solutions (pure water) cause RBC swelling and lysis (hemolysis). Hypertonic solutions (3% NaCl) cause crenation. Normal saline is slightly hypertonic but is the standard IV fluid for volume replacement.",
+    "tags": ["physiology", "osmosis", "red blood cells"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "What is the Coriolis effect, and how does it relate to large-scale weather patterns?",
+    "options": ["A real force that acts on objects moving along the Earth's surface, proportional to their speed and mass", "An apparent force (pseudoforce) resulting from Earth's rotation that deflects moving fluids to the right in the Northern Hemisphere and to the left in the Southern Hemisphere — causing counterclockwise rotation of Northern Hemisphere cyclones (low pressure systems) and clockwise of anticyclones", "A force that causes winds to blow from high to low pressure regions", "A quantum mechanical effect on atmospheric gas molecules at high altitudes"],
+    "correct": 1,
+    "explanation": "The Coriolis effect arises from Earth's rotation: moving objects appear to deflect right in the NH and left in the SH (from the frame of reference of an observer on the rotating Earth). In the NH: air flowing into a low-pressure center is deflected to the right → counterclockwise rotation (cyclone). High pressure (anticyclone): air flows out and is deflected right → clockwise rotation. The Coriolis effect also drives oceanic gyres and influences long-range ballistics.",
+    "tags": ["physics", "Earth science", "fluid dynamics"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following correctly identifies the pKa values relevant for a peptide's net charge calculation?",
+    "options": ["Only the isoelectric point (pI) of the peptide matters", "The pKa of the N-terminal α-amino group (~8-9), the C-terminal α-carboxyl group (~3-4), and any ionizable side chains (His: ~6, Asp/Glu: ~4, Lys: ~10.5, Arg: ~12.5, Cys: ~8.3, Tyr: ~10) — at pH above pKa, the group is deprotonated; below pKa, protonated", "Only the side chain pKa values matter; the N- and C-termini do not ionize", "The pKa of water (14) determines protonation states of amino acids"],
+    "correct": 1,
+    "explanation": "To determine net charge of a peptide at a given pH: for each ionizable group, compare pH to pKa. If pH > pKa: group is deprotonated (carboxyl → COO⁻, amino → NH₂, imidazole → neutral). If pH < pKa: group is protonated (COO⁻ → COOH, amino stays +, imidazole → +). Net charge = sum of all charges. The pI = pH at which net charge = 0 = average of the two pKa values flanking the neutral form.",
+    "tags": ["biochemistry", "amino acids", "acid-base"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A converging lens (focal length 15 cm) is used as a magnifying glass. The object is placed 10 cm from the lens. What is the image distance and type?",
+    "options": ["di = −30 cm (virtual, upright, on the same side as the object)", "di = +30 cm (real, inverted, on the opposite side)", "di = −15 cm (virtual, at the focal point)", "di = +10 cm (real, same size)"],
+    "correct": 0,
+    "explanation": "Thin lens equation: 1/f = 1/do + 1/di → 1/15 = 1/10 + 1/di → 1/di = 1/15 − 1/10 = 2/30 − 3/30 = −1/30 → di = −30 cm. Negative image distance means the image is virtual (on the same side as the object) and upright. Magnification: m = −di/do = −(−30)/10 = +3 (upright, 3× magnified). When the object is inside the focal length of a converging lens, the lens acts as a magnifying glass, producing a virtual, upright, magnified image.",
+    "tags": ["physics", "optics", "lenses"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Reduction of a ketone with NaBH₄ produces:",
+    "options": ["A carboxylic acid", "A secondary alcohol — NaBH₄ delivers a hydride (H⁻) nucleophile to the electrophilic carbonyl carbon; protonation of the resulting alkoxide gives a secondary alcohol; ketones (R₂C=O) → secondary alcohols (R₂CHOH)", "A primary alcohol", "An ether by dehydration"],
+    "correct": 1,
+    "explanation": "NaBH₄ (sodium borohydride) is a mild reducing agent that reduces aldehydes → primary alcohols and ketones → secondary alcohols. It does not reduce esters, carboxylic acids, or amides under normal conditions. LiAlH₄ (LAH) is a stronger reducing agent that can reduce esters, carboxylic acids, and amides. Mechanism: H⁻ from BH₄⁻ attacks the δ+ carbonyl carbon (nucleophilic addition) → tetrahedral alkoxide intermediate → protonation by water → alcohol product.",
+    "tags": ["chemistry", "organic chemistry", "reduction reactions"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following is the reason that noble gases are largely unreactive?",
+    "options": ["They have no electrons to participate in bonding", "They have completely filled valence shells (8 electrons in ns²np⁶ configuration, except He: 1s²) — there is no energetic driving force for forming bonds because they already have the most stable electron configuration", "They are always in the gas phase, preventing reactions", "They have extremely high ionization energies AND electron affinities that are both prohibitively high"],
+    "correct": 1,
+    "explanation": "Noble gases (He, Ne, Ar, Kr, Xe, Rn) have full valence shells. Their ionization energies are extremely high (removing an electron is energetically unfavorable) and their electron affinities are negative or near zero (no tendency to gain electrons). The full octet provides maximum electrostatic stability. Under extreme conditions (high pressure, electric discharge), Xe and Kr can form compounds (XeF₂, XeF₄, KrF₂) since they have accessible d orbitals and lower ionization energies than lighter noble gases.",
+    "tags": ["chemistry", "periodic table", "atomic structure"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A 70 kg patient falls from a height of 5 m onto a padded surface that brings them to rest over 0.5 seconds. What is the average force exerted on the patient during stopping? (g = 10 m/s²)",
+    "options": ["1,400 N", "700 N", "2,100 N", "350 N"],
+    "correct": 0,
+    "explanation": "Velocity just before impact: v = √(2gh) = √(2 × 10 × 5) = √100 = 10 m/s (downward). Impulse-momentum theorem: F_avg × Δt = Δp = m × Δv = 70 × 10 = 700 N·s (stopping from 10 m/s to 0). F_avg = 700/0.5 = 1,400 N. Net force = 1,400 N upward; the pad's normal force = 1,400 N + 700 N (weight during stopping) ≈ 2,100 N total. But using impulse for the stopping alone: F = Δp/Δt = 1,400 N. Padding extends time → reduces force (airbags, crumple zones work the same way).",
+    "tags": ["physics", "impulse-momentum", "Newton's laws"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The conversion of pyruvate to acetyl-CoA by pyruvate dehydrogenase complex (PDC) is irreversible. Which of the following is a consequence of this irreversibility?",
+    "options": ["Acetyl-CoA can be directly converted back to glucose in the liver", "The carbon skeletons of acetyl-CoA cannot be used for net glucose synthesis in mammals — acetyl-CoA enters the TCA cycle but yields only CO₂; mammals (unlike plants) cannot convert acetyl-CoA to oxaloacetate for gluconeogenesis (no net pyruvate carboxylase running backward)", "Fatty acids can be converted to glucose via β-oxidation in humans", "PDC must be inhibited during fasting to prevent glucose synthesis from pyruvate"],
+    "correct": 1,
+    "explanation": "The pyruvate → acetyl-CoA step is irreversible (no mammalian enzyme catalyzes the reverse). Acetyl-CoA entering the TCA cycle yields NADH, FADH₂, and CO₂ — no net carbon is added to oxaloacetate (OAA). Because even-chain fatty acids yield only acetyl-CoA via β-oxidation, they cannot be converted to net glucose. Odd-chain fatty acids yield propionyl-CoA (→ succinyl-CoA → OAA) and can contribute. This is why fat does not make glucose (except minimally from glycerol).",
+    "tags": ["biochemistry", "metabolism", "gluconeogenesis"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In the visible light spectrum, which color has the highest energy photons?",
+    "options": ["Red (λ ≈ 700 nm)", "Violet/blue (λ ≈ 400 nm) — E = hc/λ; shorter wavelength = higher frequency = higher energy; violet light has approximately 1.75× the energy of red light", "Green (λ ≈ 550 nm)", "Yellow (λ ≈ 580 nm)"],
+    "correct": 1,
+    "explanation": "E = hf = hc/λ. Wavelength and energy are inversely related: shorter λ → higher E. Visible spectrum: violet (~380-450 nm) > blue > green > yellow > orange > red (~620-750 nm). UV radiation (shorter λ, higher E than visible) damages DNA (causing pyrimidine dimers). X-rays and γ-rays have even shorter wavelengths and higher energy. Infrared (longer λ than red) has lower energy and is felt as heat.",
+    "tags": ["physics", "optics", "electromagnetic spectrum"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A student measures that a battery with labeled voltage 9 V actually reads 9 V when measured with a voltmeter in an open circuit, but only 8.5 V when connected to a resistor. What explains this?",
+    "options": ["The voltmeter draws too much current, causing measurement error", "The battery has internal resistance (r) — in the open circuit, no current flows so no voltage drops across r; when connected to a load resistor R, current I flows: terminal voltage = EMF − Ir = 9 − I × r = 8.5 V; the 0.5 V is lost across the internal resistance", "The resistor stores charge, reducing the voltage", "The battery voltage fluctuates randomly"],
+    "correct": 1,
+    "explanation": "All real batteries have internal resistance r. Terminal voltage = EMF − Ir. Open circuit: I = 0, terminal voltage = EMF = 9 V. Loaded: I = EMF/(R + r); terminal voltage = EMF − Ir = 8.5 V (0.5 V dropped across internal resistance). As a battery discharges, its internal resistance increases, explaining why terminal voltage drops under load even if 'charge' seems remaining. This is why older batteries still show voltage when tested but fail under load.",
+    "tags": ["physics", "electricity", "battery"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Compton effect demonstrates which property of electromagnetic radiation?",
+    "options": ["The wave nature of light (interference and diffraction)", "The particle (photon) nature of light — X-ray photons scatter off electrons and transfer momentum to them; the scattered photons have longer wavelengths (lower energy/frequency) than the incident photons, consistent with treating photons as particles with momentum p = h/λ", "The polarization of electromagnetic waves", "The photoelectric effect (ejection of electrons from metal surfaces)"],
+    "correct": 1,
+    "explanation": "The Compton effect (1923): X-rays scattered by free electrons emerge with longer wavelengths. Classical wave theory predicted no wavelength shift. Compton explained it as a billiard-ball collision between a photon (p = h/λ, E = hf) and an electron; the photon loses energy/momentum to the electron → longer λ. This provided decisive evidence for the particle nature of light. Compton wavelength shift: Δλ = (h/mₑc)(1 − cos θ) ≈ 2.4 pm × (1 − cos θ).",
+    "tags": ["physics", "quantum mechanics", "Compton effect"],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following reactions describes the oxidation of glucose in aerobic respiration?",
+    "options": ["C₆H₁₂O₆ + 6CO₂ → 6H₂O + 6O₂", "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ~30–32 ATP (standard textbook: ~36-38 ATP)", "C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂ (fermentation)", "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (photosynthesis)"],
+    "correct": 1,
+    "explanation": "Aerobic respiration: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O; ΔG° = −2870 kJ/mol. ~30-32 ATP are generated per glucose under physiological conditions (theoretical maximum ~38 ATP). The energy is captured as NADH (×10 per glucose → ~25 ATP), FADH₂ (×2 → ~3 ATP), and substrate-level phosphorylation (×4 ATP: 2 in glycolysis, 1 in TCA per turn × 2 turns). Fermentation (option C) is anaerobic and produces ethanol + CO₂.",
+    "tags": ["biochemistry", "metabolism", "cellular respiration"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which property of a photon determines whether it ejects an electron from a metal surface in the photoelectric effect?",
+    "options": ["The intensity (number of photons per second)", "The frequency (or equivalently, energy: E = hf) — the photon must have energy ≥ the work function (φ) of the metal; below a threshold frequency, no electrons are ejected regardless of intensity; above threshold, KE_max = hf − φ", "The amplitude of the light wave", "The wavelength must be less than 500 nm regardless of metal"],
+    "correct": 1,
+    "explanation": "The photoelectric effect demonstrates photon nature of light. Classical wave theory predicted higher intensity → more energetic electrons, no threshold frequency. Einstein explained (1905, Nobel Prize): each photon has E = hf; electrons are ejected only if hf ≥ φ (work function, minimum energy to eject electron). Above threshold: KE_max = hf − φ (intensity increases electron count but not KE per electron). This was direct evidence that light energy is quantized into photons.",
+    "tags": ["physics", "quantum mechanics", "photoelectric effect"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "What is the purpose of the salt bridge in a galvanic electrochemical cell?",
+    "options": ["It allows electrons to flow between the two half-cells", "It maintains electrical neutrality in both half-cells by allowing migration of ions (cations move toward cathode compartment, anions toward anode compartment) as electrons flow through the external circuit — without it, charge imbalance would immediately stop the cell", "It physically connects the two electrodes to complete the circuit", "It contains a catalyst that increases the rate of the electrochemical reactions"],
+    "correct": 1,
+    "explanation": "In a galvanic cell, oxidation at the anode produces cations (e.g., Zn → Zn²+ + 2e⁻), creating a positive charge buildup; reduction at the cathode consumes cations (e.g., Cu²+ + 2e⁻ → Cu), creating a negative charge buildup. The salt bridge (saturated KCl, KNO₃, or agar with ions) allows ion flow: anions migrate toward the anode, cations toward the cathode, maintaining electrical neutrality and allowing the cell to operate continuously. Electrons travel through the external circuit (wire), not the salt bridge.",
+    "tags": ["chemistry", "electrochemistry", "galvanic cell"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "According to the kinetic molecular theory of gases, which gas sample at the same temperature has the highest average molecular speed?",
+    "options": ["CO₂ (M = 44 g/mol)", "H₂ (M = 2 g/mol) — average speed ∝ √(T/M); lighter molecules move faster at the same temperature; H₂ moves ~4.7× faster than N₂, ~14.8× faster than Xe", "N₂ (M = 28 g/mol)", "Xe (M = 131 g/mol)"],
+    "correct": 1,
+    "explanation": "Average molecular speed (rms speed): v_rms = √(3RT/M). At the same temperature, speed is inversely proportional to √M. H₂ (M = 2) has the lowest molar mass → highest speed. This is also reflected in Graham's law of diffusion/effusion: rate ∝ 1/√M. H₂ effuses √(44/2) = √22 ≈ 4.7× faster than CO₂. This explains why lighter molecules (H₂, He) are lost from Earth's atmosphere over geological time.",
+    "tags": ["chemistry", "kinetic molecular theory", "gas properties"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A patient on warfarin (vitamin K antagonist) has a prolonged PT (prothrombin time) but normal PTT. Which factor is most likely deficient?",
+    "options": ["Factor VIII (intrinsic pathway only)", "Factor VII — the PT tests the extrinsic pathway (Factor VII + TF) and common pathway; early warfarin therapy preferentially reduces Factor VII (shortest half-life ~6 hours) before other clotting factors (II, IX, X); PTT tests intrinsic + common pathway", "Factor XII (contact factor)", "Von Willebrand Factor"],
+    "correct": 1,
+    "explanation": "Warfarin inhibits Vitamin K epoxide reductase, reducing γ-carboxylation of factors II, VII, IX, X (and protein C, S). PT (prothrombin time) tests factors VII, X, V, II, fibrinogen (extrinsic pathway + common). PTT (partial thromboplastin time) tests XII, XI, IX, VIII, X, V, II, fibrinogen (intrinsic + common). Factor VII's short half-life (~6h) causes PT prolongation first on warfarin initiation. Hemophilia A (factor VIII deficiency) → prolonged PTT, normal PT.",
+    "tags": ["physiology", "coagulation", "pharmacology"],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which type of chromatography separates proteins based on their affinity for a specific ligand immobilized on a resin?",
+    "options": ["Size-exclusion chromatography (separates by molecular weight)", "Affinity chromatography — protein of interest binds selectively to an immobilized ligand (e.g., antibody, substrate analog, His-tag for Ni-NTA); non-binding proteins are washed away; bound protein is eluted with high-salt, pH change, or competing ligand — highly specific purification in one step", "Ion-exchange chromatography (separates by charge)", "Hydrophobic interaction chromatography (separates by hydrophobicity)"],
+    "correct": 1,
+    "explanation": "Affinity chromatography exploits specific, reversible binding between a protein and a ligand: GST-tag purification uses glutathione-sepharose; His-tag purification uses Ni-NTA; antibody purification uses Protein A/G; enzyme purification uses substrate analogs. It can achieve >1000-fold purification in a single step. The running order of protein purification: cell lysis → centrifugation → affinity chromatography → additional polishing (SEC, IEX).",
+    "tags": ["biochemistry", "protein purification", "chromatography"],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Fick's law of diffusion states that the rate of diffusion across a membrane is proportional to which factors?",
+    "options": ["Inversely proportional to concentration gradient and directly proportional to membrane thickness", "Directly proportional to: concentration gradient (ΔC) and membrane surface area (A), and inversely proportional to: membrane thickness (d) and molecular size/membrane permeability: J = −DA(ΔC/Δx), where D is the diffusion coefficient", "Only proportional to temperature (higher T → faster diffusion)", "Directly proportional to membrane thickness (thicker membrane → faster diffusion)"],
+    "correct": 1,
+    "explanation": "Fick's first law: J = −D × A × (ΔC/Δx), where J = flux (amount/time), D = diffusion coefficient (depends on molecule size, temperature, medium viscosity), A = area, ΔC = concentration difference, Δx = membrane thickness. Oxygen crosses alveolar membranes efficiently because the gradient is large (PO₂: alveolus 100 mmHg vs. capillary 40 mmHg), area is vast (~70 m²), and the membrane is extremely thin (~0.5 μm). Pulmonary fibrosis increases thickness → decreased diffusion.",
+    "tags": ["physiology", "diffusion", "membrane transport"],
+    "difficulty": "medium"
+  }
+]

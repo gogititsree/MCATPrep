@@ -1,0 +1,149 @@
+[
+  {
+    "passageText": "Urban heat islands (UHIs) form when cities replace natural land cover with dense concentrations of pavement, buildings, and other materials that absorb and re-emit the sun's heat more than natural landscapes. The effect is well documented: urban cores can be 1–7°C warmer than surrounding rural areas, with the greatest divergence at night when urban materials release stored heat. The phenomenon has meaningful consequences for energy use, human health, and ecosystem function in cities.\n\nThe physical mechanisms driving UHIs are multiple. Dark impervious surfaces have lower albedo (reflectivity) than vegetated land, absorbing more solar radiation. Buildings and pavement have high thermal mass, storing heat during the day and releasing it at night. The geometry of street canyons traps longwave radiation that would otherwise escape to the atmosphere. Reduced vegetative cover means less evapotranspirative cooling — the process by which plants release water vapor, cooling the surrounding air. Finally, anthropogenic heat (from vehicles, air conditioning, and industry) adds directly to the thermal budget.\n\nMitigation strategies draw on understanding of these mechanisms. Cool roofs and pavements with high albedo reflect more solar radiation. Urban greening — including trees, parks, green roofs, and urban agriculture — restores evapotranspiration and shading. Urban form modifications (street orientation, building height-to-width ratios, and increased sky view factor) can improve nocturnal radiative cooling. Some cities have experimented with white-painted streets and water features.\n\nThe equity dimensions of UHI are often overlooked. Lower-income neighborhoods tend to have less tree canopy, more impervious surface, and older, less efficient housing — all of which increase heat exposure. Studies consistently find that race and income are associated with differential heat exposure within cities. Mitigation investment focused on the most affected neighborhoods can simultaneously address environmental justice and resilience goals, though greening efforts carry the risk of contributing to gentrification by increasing property values.",
+    "questions": [
+      {
+        "text": "According to the passage, which process contributes to the urban heat island effect by reducing a natural cooling mechanism?",
+        "options": [
+          "High albedo of urban surfaces",
+          "Reduced evapotranspiration due to less vegetation",
+          "Increased sky view factor in urban canyons",
+          "Lower thermal mass of building materials"
+        ],
+        "correct": 1,
+        "explanation": "The passage states that 'reduced vegetative cover means less evapotranspirative cooling — the process by which plants release water vapor, cooling the surrounding air.' This removal of vegetation eliminates a natural cooling mechanism. Urban surfaces actually have LOW albedo (not high), and the passage says building materials have HIGH thermal mass."
+      },
+      {
+        "text": "The passage suggests that the UHI effect is greatest at night because:",
+        "options": [
+          "Solar radiation is absent at night, making albedo irrelevant",
+          "Urban materials store heat during the day and release it at night",
+          "Anthropogenic heat production is highest at night",
+          "Evapotranspiration ceases after sunset"
+        ],
+        "correct": 1,
+        "explanation": "The passage states that cities are warmest 'with the greatest divergence at night when urban materials release stored heat.' The mechanism is the high thermal mass of buildings and pavement — they store solar energy during daylight and release it slowly after sunset."
+      },
+      {
+        "text": "The author characterizes the equity dimensions of UHI as:",
+        "options": [
+          "The primary focus of urban climate policy",
+          "Unrelated to race and income",
+          "Often overlooked, with lower-income and minority communities bearing disproportionate heat exposure",
+          "Fully addressed by existing mitigation strategies"
+        ],
+        "correct": 2,
+        "explanation": "The passage opens the final paragraph by stating the equity dimensions 'are often overlooked' and that 'studies consistently find that race and income are associated with differential heat exposure within cities.' This characterizes the issue as neglected and inequitably distributed."
+      },
+      {
+        "text": "Which of the following mitigation strategies described in the passage works by the same mechanism as natural vegetation?",
+        "options": [
+          "Cool roofs with high albedo",
+          "White-painted streets",
+          "Green roofs and urban agriculture",
+          "Modified street canyon geometry"
+        ],
+        "correct": 2,
+        "explanation": "The passage identifies vegetation's cooling mechanism as evapotranspiration (and shading). Green roofs and urban agriculture restore these same mechanisms — they are vegetated surfaces. Cool roofs and white streets work by increased albedo. Street canyon geometry works by improving radiative cooling."
+      }
+    ]
+  },
+  {
+    "passageText": "The rise of social media platforms in the twenty-first century has prompted intense debate about their effects on democratic discourse and epistemic culture. Two related phenomena — echo chambers and filter bubbles — are frequently cited as mechanisms by which digital platforms degrade the quality of political information environments. Though often used interchangeably, the terms describe different processes. Echo chambers arise primarily from homophily and social dynamics: people tend to associate with, and selectively expose themselves to, those who share their views. Filter bubbles, by contrast, result from algorithmic personalization: recommendation and ranking systems trained to maximize engagement prioritize content predicted to interest individual users, incidentally creating personalized information environments.\n\nThe empirical evidence for these effects is more mixed than popular discourse suggests. Large-scale studies using platform data (Bakshy et al., 2015, on Facebook) found that, while algorithmic ranking did reduce cross-cutting content exposure, individual choice (selective exposure to friends and sources) had a larger effect. Other studies suggest that social media users may actually encounter more diverse viewpoints than those who rely on legacy media — because social networks include weak ties to people with different views. The most politically engaged users, however, do show strong echo chamber effects.\n\nSeparately from the polarization debate, platform architecture shapes the information environment in ways that may incentivize misinformation. Content that provokes strong emotional reactions (outrage, fear, moral condemnation) spreads more widely and rapidly than factually accurate but emotionally neutral content. Platforms that optimize for engagement therefore create structural incentives for misinformation — not because platforms or users intend it, but because the architecture rewards virality over accuracy.\n\nProposed remedies include algorithmic transparency requirements (forcing platforms to disclose how content is ranked), interoperability mandates (allowing users to communicate across platforms), and resurrecting the editorial responsibility model (treating platforms more like publishers, who bear legal responsibility for the content they amplify). Each proposal carries tradeoffs between free expression, innovation, privacy, and democratic function.",
+    "questions": [
+      {
+        "text": "According to the passage, the key distinction between echo chambers and filter bubbles is that:",
+        "options": [
+          "Echo chambers are caused by algorithms while filter bubbles result from human choices",
+          "Filter bubbles are caused by algorithms while echo chambers arise from social homophily and selective exposure",
+          "Echo chambers are more harmful to democracy than filter bubbles",
+          "Filter bubbles only affect political content while echo chambers affect all content"
+        ],
+        "correct": 1,
+        "explanation": "The passage directly states: 'Echo chambers arise primarily from homophily and social dynamics...Filter bubbles, by contrast, result from algorithmic personalization.' The passage explicitly corrects the common confusion, assigning algorithmic causation to filter bubbles and social causation to echo chambers."
+      },
+      {
+        "text": "The Bakshy et al. (2015) study is cited in the passage to support which conclusion?",
+        "options": [
+          "Algorithms are the primary cause of political polarization",
+          "Social media has no effect on information diversity",
+          "Individual selective exposure choices may have larger effects than algorithmic ranking on cross-cutting content",
+          "Filter bubbles are more damaging than echo chambers"
+        ],
+        "correct": 2,
+        "explanation": "The passage states the study 'found that, while algorithmic ranking did reduce cross-cutting content exposure, individual choice (selective exposure) had a larger effect.' This nuances the narrative that algorithms are the primary cause, pointing instead to user behavior."
+      },
+      {
+        "text": "According to the passage, platforms that optimize for engagement inadvertently incentivize misinformation because:",
+        "options": [
+          "Platform owners want to spread false information",
+          "Users cannot distinguish true from false content",
+          "Emotionally provocative content spreads faster than accurate but emotionally neutral content",
+          "Fact-checking algorithms are unreliable"
+        ],
+        "correct": 2,
+        "explanation": "The passage states: 'Content that provokes strong emotional reactions...spreads more widely and rapidly than factually accurate but emotionally neutral content. Platforms that optimize for engagement therefore create structural incentives for misinformation.' The key mechanism is virality rewarding emotional activation."
+      },
+      {
+        "text": "Which proposed remedy described in the passage would most directly address algorithmic transparency concerns?",
+        "options": [
+          "Interoperability mandates",
+          "The editorial responsibility model",
+          "Algorithmic transparency requirements forcing platforms to disclose ranking methods",
+          "Restricting user access to content outside their network"
+        ],
+        "correct": 2,
+        "explanation": "The passage describes 'algorithmic transparency requirements (forcing platforms to disclose how content is ranked)' as the remedy most directly targeting transparency. Interoperability addresses cross-platform communication; the editorial responsibility model addresses legal liability for amplified content."
+      }
+    ]
+  },
+  {
+    "passageText": "Evolutionary biologists have long debated the relative importance of natural selection, genetic drift, mutation, and gene flow in shaping the genetic diversity of populations. The modern synthesis (1930s–1950s) integrated Mendelian genetics with Darwinian selection, producing a framework in which selection was typically viewed as the primary determinant of allele frequencies over time. The neutral theory of molecular evolution, proposed by Motoo Kimura in 1968, challenged this adaptationist consensus.\n\nKimura argued that at the molecular level, most genetic variation is selectively neutral — neither beneficial nor harmful — and that random genetic drift (the stochastic sampling of alleles in finite populations) is the dominant force shaping molecular variation. On this view, most protein polymorphisms and synonymous substitutions (those not changing amino acid sequence) are effectively neutral, maintained or lost by chance rather than selection. The neutral theory made predictions about the rate of molecular evolution: substitution rates should be proportional to the mutation rate (the molecular clock hypothesis), and genetic diversity should scale with effective population size.\n\nThe neutral theory has been partially superseded by the nearly neutral theory (Ohta), which allows for slightly deleterious as well as neutral mutations and predicts that effective population size modulates the efficiency of selection (in small populations, drift overpowers selection on slightly deleterious mutations, allowing them to fix). More recent genomic analyses have found evidence for widespread positive selection in the human genome, suggesting adaptation is more common than the neutral theory implies, though the relative contributions of selection and drift remain contested.\n\nThe debate matters for medicine. Many single-nucleotide polymorphisms (SNPs) identified in genome-wide association studies (GWAS) are in non-coding regulatory regions and may be neutral, nearly neutral, or adaptively maintained. Distinguishing true functional variants from neutral ones requires population genetic analysis. Moreover, understanding the demographic history of populations (bottlenecks, expansions) is necessary for interpreting patterns of genetic variation without confusing the effects of drift with those of selection.",
+    "questions": [
+      {
+        "text": "The neutral theory of molecular evolution contradicted the modern synthesis primarily by arguing that:",
+        "options": [
+          "Mutations do not occur at the molecular level",
+          "Natural selection cannot act on protein variation",
+          "Most molecular genetic variation is shaped by random drift rather than natural selection",
+          "Effective population size is irrelevant to evolution"
+        ],
+        "correct": 2,
+        "explanation": "The passage states that Kimura argued 'at the molecular level, most genetic variation is selectively neutral' and that 'random genetic drift...is the dominant force shaping molecular variation.' This directly challenged the adaptationist view of the modern synthesis that selection drives allele frequencies."
+      },
+      {
+        "text": "According to the passage, the molecular clock hypothesis predicts that:",
+        "options": [
+          "Molecular evolution proceeds at a rate proportional to effective population size",
+          "All mutations are fixed at the same rate regardless of mutation rate",
+          "The rate of molecular substitution is proportional to the mutation rate",
+          "Synonymous and nonsynonymous substitutions occur at the same rate"
+        ],
+        "correct": 2,
+        "explanation": "The passage states: 'Substitution rates should be proportional to the mutation rate (the molecular clock hypothesis).' Under the neutral theory, neutral mutations are fixed at a rate equal to the mutation rate (since fix probability = 1/2N × 2N = 1 for neutral mutations), creating a constant molecular clock."
+      },
+      {
+        "text": "The nearly neutral theory (Ohta) adds to Kimura's neutral theory by predicting that in small populations:",
+        "options": [
+          "Positive selection is more efficient",
+          "Slightly deleterious mutations are more likely to be purged",
+          "Drift can overwhelm selection, allowing slightly deleterious mutations to fix",
+          "Genetic diversity is maximized"
+        ],
+        "correct": 2,
+        "explanation": "The passage states that the nearly neutral theory 'predicts that effective population size modulates the efficiency of selection (in small populations, drift overpowers selection on slightly deleterious mutations, allowing them to fix).' Small populations have stronger drift, which can counteract weak selection against slightly harmful mutations."
+      },
+      {
+        "text": "The passage implies that distinguishing neutral from adaptive variants in GWAS data requires:",
+        "options": [
+          "Only sequencing more individuals from the same population",
+          "Population genetic analysis and understanding of demographic history",
+          "Focusing only on coding regions of the genome",
+          "Ignoring the effects of genetic drift"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Distinguishing true functional variants from neutral ones requires population genetic analysis. Moreover, understanding the demographic history of populations (bottlenecks, expansions) is necessary for interpreting patterns of genetic variation without confusing the effects of drift with those of selection.'"
+      }
+    ]
+  }
+]

@@ -1,148 +1,192 @@
 [
   {
-    "passageText": "Evolutionary biologists have long debated the relative importance of natural selection, genetic drift, mutation, and gene flow in shaping the genetic diversity of populations. The modern synthesis (1930s–1950s) integrated Mendelian genetics with Darwinian selection, producing a framework in which selection was typically viewed as the primary determinant of allele frequencies over time. The neutral theory of molecular evolution, proposed by Motoo Kimura in 1968, challenged this adaptationist consensus.\n\nKimura argued that at the molecular level, most genetic variation is selectively neutral — neither beneficial nor harmful — and that random genetic drift (the stochastic sampling of alleles in finite populations) is the dominant force shaping molecular variation. On this view, most protein polymorphisms and synonymous substitutions (those not changing amino acid sequence) are effectively neutral, maintained or lost by chance rather than selection. The neutral theory made predictions about the rate of molecular evolution: substitution rates should be proportional to the mutation rate (the molecular clock hypothesis), and genetic diversity should scale with effective population size.\n\nThe neutral theory has been partially superseded by the nearly neutral theory (Ohta), which allows for slightly deleterious as well as neutral mutations and predicts that effective population size modulates the efficiency of selection (in small populations, drift overpowers selection on slightly deleterious mutations, allowing them to fix). More recent genomic analyses have found evidence for widespread positive selection in the human genome, suggesting adaptation is more common than the neutral theory implies, though the relative contributions of selection and drift remain contested.\n\nThe debate matters for medicine. Many single-nucleotide polymorphisms (SNPs) identified in genome-wide association studies (GWAS) are in non-coding regulatory regions and may be neutral, nearly neutral, or adaptively maintained. Distinguishing true functional variants from neutral ones requires population genetic analysis. Moreover, understanding the demographic history of populations (bottlenecks, expansions) is necessary for interpreting patterns of genetic variation without confusing the effects of drift with those of selection.",
+    "passageText": "The philosopher of science Thomas Kuhn's The Structure of Scientific Revolutions (1962) transformed how historians and philosophers thought about the development of science. Kuhn's central concept — the 'paradigm' — described the constellation of beliefs, values, methods, and exemplary achievements shared by a scientific community that guides its research. Normal science, Kuhn argued, is puzzle-solving within a paradigm: scientists apply the paradigm's methods to extend and fill in its picture of the world, not questioning its fundamental assumptions.\n\nParadigms are not simply tested and replaced by better theories when they encounter problems. Instead, they accumulate 'anomalies' — results that cannot be explained within the paradigm — that are initially set aside or worked around. Only when anomalies multiply beyond a community's tolerance, and when an alternative paradigm becomes available, does a 'scientific revolution' occur. The revolution is not simply the adoption of a better theory — it involves a 'Gestalt switch,' a transformation in how scientists see the world, such that questions, standards of evidence, and even the meaning of key terms change. Kuhn famously said that scientists who work under different paradigms 'live in different worlds.'\n\nThis claim generated a controversy about 'incommensurability' — the idea that paradigms cannot be directly compared using shared standards, because the standards themselves are paradigm-dependent. Critics charged that this made science irrational: if revolutionary theory choice cannot be made by appeal to neutral standards, is science merely fashion? Kuhn resisted this interpretation, arguing that scientists make rational choices among paradigms based on shared values (predictive accuracy, scope, simplicity, fruitfulness) even if these values do not uniquely determine a single rational choice. Paul Feyerabend pushed further: if there are no theory-neutral standards, 'anything goes' in scientific methodology.\n\nLarry Laudan offered a realist alternative to Kuhnian relativism. He distinguished problems from theories: scientific progress occurs when science solves more empirical and conceptual problems, regardless of whether successive theories are incommensurable. This allows progress to be defined independently of paradigm succession. Philip Kitcher synthesized insights from Kuhn and the realists: scientific change is rational because the social organization of science — division of cognitive labor, replication requirements, peer review — corrects individual biases and produces reliable knowledge even if no individual scientist follows a perfectly rational method.\n\nKuhn's historical examples — the Copernican revolution, the chemical revolution (oxygen replacing phlogiston), relativity and quantum mechanics — remain subjects of debate about whether his model accurately describes how scientific change actually occurred, as opposed to providing a compelling narrative framework.",
     "questions": [
       {
-        "text": "The neutral theory of molecular evolution contradicted the modern synthesis primarily by arguing that:",
+        "text": "In Kuhn's model, 'normal science' is characterized by:",
         "options": [
-          "Mutations do not occur at the molecular level",
-          "Natural selection cannot act on protein variation",
-          "Most molecular genetic variation is shaped by random drift rather than natural selection",
-          "Effective population size is irrelevant to evolution"
-        ],
-        "correct": 2,
-        "explanation": "The passage states that Kimura argued 'at the molecular level, most genetic variation is selectively neutral' and that 'random genetic drift...is the dominant force shaping molecular variation.' This directly challenged the adaptationist view of the modern synthesis that selection drives allele frequencies."
-      },
-      {
-        "text": "According to the passage, the molecular clock hypothesis predicts that:",
-        "options": [
-          "Molecular evolution proceeds at a rate proportional to effective population size",
-          "All mutations are fixed at the same rate regardless of mutation rate",
-          "The rate of molecular substitution is proportional to the mutation rate",
-          "Synonymous and nonsynonymous substitutions occur at the same rate"
-        ],
-        "correct": 2,
-        "explanation": "The passage states: 'Substitution rates should be proportional to the mutation rate (the molecular clock hypothesis).' Under the neutral theory, neutral mutations are fixed at a rate equal to the mutation rate (since fix probability = 1/2N × 2N = 1 for neutral mutations), creating a constant molecular clock."
-      },
-      {
-        "text": "The nearly neutral theory (Ohta) adds to Kimura's neutral theory by predicting that in small populations:",
-        "options": [
-          "Positive selection is more efficient",
-          "Slightly deleterious mutations are more likely to be purged",
-          "Drift can overwhelm selection, allowing slightly deleterious mutations to fix",
-          "Genetic diversity is maximized"
-        ],
-        "correct": 2,
-        "explanation": "The passage states that the nearly neutral theory 'predicts that effective population size modulates the efficiency of selection (in small populations, drift overpowers selection on slightly deleterious mutations, allowing them to fix).' Small populations have stronger drift, which can counteract weak selection against slightly harmful mutations."
-      },
-      {
-        "text": "The passage implies that distinguishing neutral from adaptive variants in GWAS data requires:",
-        "options": [
-          "Only sequencing more individuals from the same population",
-          "Population genetic analysis and understanding of demographic history",
-          "Focusing only on coding regions of the genome",
-          "Ignoring the effects of genetic drift"
+          "Constant testing of fundamental assumptions and openness to revolutionary change",
+          "Puzzle-solving within an accepted paradigm — extending and filling in the paradigm's picture of the world using its established methods, without questioning fundamental assumptions; most scientific work is normal science rather than revolutionary",
+          "Systematic comparison of competing theories using neutral evidence",
+          "Individual scientists challenging accepted consensus through radical innovation"
         ],
         "correct": 1,
-        "explanation": "The passage states: 'Distinguishing true functional variants from neutral ones requires population genetic analysis. Moreover, understanding the demographic history of populations (bottlenecks, expansions) is necessary for interpreting patterns of genetic variation without confusing the effects of drift with those of selection.'"
+        "explanation": "The passage states: 'Normal science, Kuhn argued, is puzzle-solving within a paradigm: scientists apply the paradigm's methods to extend and fill in its picture of the world, not questioning its fundamental assumptions.'"
+      },
+      {
+        "text": "According to Kuhn, scientific revolutions occur because:",
+        "options": [
+          "A new theory is proven definitively superior to the existing paradigm through crucial experiments",
+          "Anomalies accumulate beyond a community's tolerance AND an alternative paradigm becomes available — neither condition alone triggers revolution; the transition involves a Gestalt switch in which scientists see the world differently, not just a rational theory replacement",
+          "The scientific community democratically votes on which paradigm to adopt",
+          "External social pressures (funding, politics) force scientists to abandon an existing paradigm"
+        ],
+        "correct": 1,
+        "explanation": "The passage states revolutions occur 'when anomalies multiply beyond a community's tolerance, and when an alternative paradigm becomes available.' The revolution 'involves a Gestalt switch, a transformation in how scientists see the world, such that questions, standards of evidence, and even the meaning of key terms change.'"
+      },
+      {
+        "text": "The controversy over 'incommensurability' concerns which claim?",
+        "options": [
+          "Whether different scientific disciplines can collaborate on shared research questions",
+          "Whether paradigms can be directly compared using shared neutral standards — Kuhn argued standards are paradigm-dependent, which critics said made theory choice irrational; Kuhn responded that shared values (accuracy, simplicity, fruitfulness) allow rational choice without uniquely determining a single correct answer",
+          "Whether scientific theories can be translated between different languages",
+          "Whether scientific knowledge can be communicated to non-expert publics"
+        ],
+        "correct": 1,
+        "explanation": "The passage states incommensurability concerns 'the idea that paradigms cannot be directly compared using shared standards, because the standards themselves are paradigm-dependent. Critics charged that this made science irrational.' Kuhn resisted, arguing shared values allow rational choice even if they don't uniquely determine outcomes."
+      },
+      {
+        "text": "Laudan's alternative to Kuhn's model redefines scientific progress in terms of:",
+        "options": [
+          "Paradigm succession — each new paradigm is more empirically accurate than the one it replaces",
+          "Problem-solving success — science progresses when it solves more empirical and conceptual problems, independently of whether successive theories are incommensurable; this allows progress to be defined without assuming paradigm-neutral comparison is impossible",
+          "The social organization of science — peer review and replication ensure progress",
+          "The accumulation of empirical facts independent of any theoretical framework"
+        ],
+        "correct": 1,
+        "explanation": "The passage states Laudan 'distinguished problems from theories: scientific progress occurs when science solves more empirical and conceptual problems, regardless of whether successive theories are incommensurable. This allows progress to be defined independently of paradigm succession.'"
+      },
+      {
+        "text": "Kitcher's synthesis attempts to reconcile Kuhn and the realists by arguing that:",
+        "options": [
+          "Individual scientists do follow perfectly rational methods and can be trusted to produce reliable knowledge independently",
+          "The social organization of science — division of cognitive labor, replication requirements, peer review — corrects individual biases and produces reliable knowledge even if no individual scientist reasons perfectly; scientific rationality is a collective property of the community, not necessarily an individual property",
+          "Kuhn's incommensurability thesis was simply wrong and should be abandoned",
+          "All scientific progress reduces to problem-solving, making paradigms unnecessary as explanatory concepts"
+        ],
+        "correct": 1,
+        "explanation": "The passage states Kitcher argued 'scientific change is rational because the social organization of science — division of cognitive labor, replication requirements, peer review — corrects individual biases and produces reliable knowledge even if no individual scientist follows a perfectly rational method.'"
+      },
+      {
+        "text": "Feyerabend's position, as described in the passage, represents which conclusion drawn from Kuhn's premises?",
+        "options": [
+          "A moderate constructivism that acknowledges social influences on science without denying its rationality",
+          "A radical methodological anarchism ('anything goes') — if there are no theory-neutral standards for methodology, then no methodological rules can be justified; Feyerabend went further than Kuhn in accepting that incommensurability entails no rational constraints on scientific practice",
+          "A defense of Popperian falsificationism against Kuhnian historicism",
+          "A social epistemology that relies on institutional peer review to preserve rationality"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'Paul Feyerabend pushed further: if there are no theory-neutral standards, anything goes in scientific methodology.' This is the position of methodological anarchism — the most radical conclusion drawn from Kuhnian premises about the impossibility of theory-neutral standards."
       }
     ]
   },
   {
-    "passageText": "The concept of distributive justice — how benefits and burdens should be fairly allocated in society — has animated political philosophy since antiquity but was given its most influential modern formulation by John Rawls in A Theory of Justice (1971). Rawls argued that principles of justice should be those that free and rational persons, ignorant of their own position in society (behind a 'veil of ignorance'), would choose to govern the basic structure of social institutions. This thought experiment, the 'original position,' is designed to ensure impartiality: knowing neither one's natural talents, social class, race, nor conception of the good, contractors cannot bias principles to their own advantage.\n\nFrom this hypothetical choice situation, Rawls derived two principles. The first principle guarantees each person the most extensive system of equal basic liberties compatible with a similar system for all. The second principle — the difference principle — permits social and economic inequalities only insofar as they benefit the least advantaged members of society. Rawls argued that rational agents behind the veil of ignorance would choose the maximin rule (maximize the minimum position) because they could find themselves among the worst-off.\n\nLibertarians (Nozick) objected that the difference principle violates individual rights: if patterns of distribution result from voluntary exchanges, no redistribution is warranted regardless of whether it benefits the worst-off. Utilitarians objected that the maximin rule is too risk-averse — a rational agent might prefer a system that maximizes total welfare even if it creates greater inequality. Communitarian critics (Sandel, MacIntyre) argued that Rawls's liberal framework presupposes an 'unencumbered self' — an individual whose identity is prior to and independent of social roles and communities — which misrepresents the social constitution of persons.\n\nRawls's theory has been extended and challenged by feminist theorists (Okin), who argued that the original position fails to adequately address gender inequality because it brackets the family — which is itself a site of significant injustice — from the scope of justice. The broader debate continues to address whether liberal theories of justice can adequately accommodate cultural, religious, and group-based claims to recognition.",
+    "passageText": "The emergence of behavioral economics in the late twentieth century challenged the dominant rational-agent models that had governed economic theory for decades. Traditional economic theory, rooted in neoclassical principles, assumed that individuals make decisions by carefully weighing all available information, calculating expected utilities, and selecting the option that maximizes personal welfare. This idealized agent — Homo economicus — was mathematically tractable but empirically problematic.\n\nDaniel Kahneman and Amos Tversky's prospect theory, developed in the 1970s and 1980s, offered a descriptively accurate alternative. Their experiments revealed consistent patterns of irrationality: people are loss-averse (losses loom larger than equivalent gains), weight probabilities non-linearly (overweighting small probabilities and underweighting moderate and high probabilities), and evaluate outcomes relative to a reference point rather than in absolute terms. These findings undermined the expected utility framework in a way that could not be dismissed as random error.\n\nThe implications for policy were quickly recognized. If individuals reliably make predictable errors, governments and institutions could design choice architectures — 'nudges' — that guide people toward better outcomes without restricting freedom of choice. Automatic enrollment in retirement savings plans, calorie labeling, and organ donation opt-out defaults are all examples. Critics, however, argue that nudge policies are paternalistic, implicitly assuming that policymakers know better than individuals what constitutes a good outcome. Others raise concerns about transparency: if nudges work by exploiting cognitive biases, their effectiveness depends partly on the subject's unawareness of them.\n\nThe behavioralist critique of rationality has itself been critiqued. Some economists argue that apparent irrationalities dissolve under scrutiny: the ecological rationality framework (Gigerenzer) holds that many 'biases' are actually adaptive heuristics that perform well in naturalistic environments, even if they fail on laboratory tasks constructed to expose their limits. The debate touches fundamental questions about what rationality means: is it defined by coherent preferences, by adaptive behavior, or by some external standard of correctness?",
     "questions": [
       {
-        "text": "The purpose of the 'veil of ignorance' in Rawls's original position is to:",
+        "text": "The author's primary purpose in the passage is to:",
         "options": [
-          "Ensure that all participants have equal intelligence",
-          "Remove knowledge of one's own social position so that principles of justice cannot be biased in one's favor",
-          "Guarantee that principles of justice will maximize total welfare",
-          "Prevent participants from knowing the content of Rawls's two principles"
+          "Argue that behavioral economics has definitively replaced neoclassical theory",
+          "Describe the emergence of behavioral economics, its policy implications, and ongoing debates about its claims",
+          "Advocate for nudge policies as the most effective form of government intervention",
+          "Explain why Homo economicus remains the dominant model in economics"
         ],
         "correct": 1,
-        "explanation": "The passage explains that the veil of ignorance strips away knowledge of 'one's natural talents, social class, race, nor conception of the good' so that contractors 'cannot bias principles to their own advantage.' The goal is impartiality through ignorance of self-interested factors."
+        "explanation": "The passage presents behavioral economics' development and policy implications in a balanced way, then introduces critiques from multiple sides. The author does not take a strong stance for or against any position, making option B the most accurate description of the primary purpose."
       },
       {
-        "text": "Rawls's difference principle holds that inequalities are permissible only when they:",
+        "text": "According to prospect theory as described in the passage, which of the following best illustrates loss aversion?",
         "options": [
-          "Result from voluntary exchanges between consenting individuals",
-          "Maximize total social welfare across all members of society",
-          "Benefit the least advantaged members of society",
-          "Are distributed equally across all social positions"
+          "Choosing a certain $50 gain over a 50% chance of $100",
+          "Feeling more distressed about losing $100 than pleased about winning $100",
+          "Overestimating the probability of a rare airline crash",
+          "Evaluating a salary relative to a reference point"
+        ],
+        "correct": 1,
+        "explanation": "Loss aversion means that 'losses loom larger than equivalent gains.' Option B directly illustrates this asymmetry. Option A describes risk aversion (not loss aversion specifically). Option C illustrates probability overweighting of small probabilities. Option D illustrates reference-point evaluation."
+      },
+      {
+        "text": "The passage implies that nudge policies depend on which assumption to be effective?",
+        "options": [
+          "People are fully rational and will recognize the optimal choice when presented properly",
+          "Cognitive biases are random and unpredictable",
+          "Predictable patterns of irrationality can be anticipated and directed toward better outcomes",
+          "Policymakers should restrict choices to prevent poor decisions"
         ],
         "correct": 2,
-        "explanation": "The passage states the difference principle 'permits social and economic inequalities only insofar as they benefit the least advantaged members of society.' This is the maximin criterion — improvements at the top are acceptable only if they also improve the position of those at the bottom."
+        "explanation": "The passage states that nudges work by exploiting 'predictable errors.' For a nudge to succeed, the biases it targets must be consistent and foreseeable, not random. The passage explicitly contrasts nudges (preserving choice) with restrictions, ruling out option D."
       },
       {
-        "text": "Nozick's libertarian objection to the difference principle is that:",
+        "text": "Gigerenzer's 'ecological rationality' framework would most likely respond to demonstrations of human irrationality in laboratory studies by arguing that:",
         "options": [
-          "It is too permissive of inequality",
-          "It violates individual rights by redistributing what resulted from voluntary exchanges",
-          "Rational agents would not choose maximin behind the veil of ignorance",
-          "The original position fails to represent communal identity"
+          "The studies confirm that human reasoning is fundamentally flawed",
+          "The heuristics that appear as biases in artificial tasks are actually adaptive in real-world environments",
+          "Laboratory conditions are more realistic than naturalistic settings",
+          "Loss aversion is the most important cognitive bias to address"
         ],
         "correct": 1,
-        "explanation": "The passage states Nozick argued 'the difference principle violates individual rights: if patterns of distribution result from voluntary exchanges, no redistribution is warranted.' Nozick's entitlement theory holds that holdings are just if acquired justly, regardless of the resulting pattern."
+        "explanation": "The passage describes ecological rationality as the view that 'many biases are actually adaptive heuristics that perform well in naturalistic environments, even if they fail on laboratory tasks constructed to expose their limits.' This directly supports option B."
       },
       {
-        "text": "The feminist critique of Rawls described in the passage centers on which objection?",
+        "text": "The author's description of nudge critics who argue that 'nudges work by exploiting cognitive biases' suggests which concern?",
         "options": [
-          "Women should not be included in the original position",
-          "The original position brackets the family from justice, despite the family being a site of significant injustice",
-          "Gender equality is already fully addressed by Rawls's first principle of equal liberty",
-          "The difference principle is specifically designed to disadvantage women"
+          "Nudges are too costly to implement",
+          "The effectiveness of nudges may depend on people not knowing they are being nudged",
+          "Cognitive biases do not actually exist",
+          "Nudges always restrict freedom of choice"
         ],
         "correct": 1,
-        "explanation": "The passage states feminist theorists (Okin) argued 'the original position fails to adequately address gender inequality because it brackets the family — which is itself a site of significant injustice — from the scope of justice.' By treating the family as a private sphere outside justice, Rawls ignores internal gender inequalities."
+        "explanation": "The passage states that 'if nudges work by exploiting cognitive biases, their effectiveness depends partly on the subject's unawareness of them.' This is a transparency concern: disclosure might undermine the nudge's mechanism, raising ethical questions about hidden manipulation."
       }
     ]
   },
   {
-    "passageText": "The pandemic decade transformed public understanding of mRNA vaccine technology, which had been in development for decades before the SARS-CoV-2 crisis propelled it to global prominence. Traditional vaccines introduce attenuated pathogens, inactivated pathogens, or purified protein antigens to stimulate immune responses. mRNA vaccines instead introduce the instructions for the body's own cells to produce a target antigen — in the case of COVID-19 vaccines, the spike protein of SARS-CoV-2.\n\nThe fundamental challenge of mRNA vaccine development had long been stability and delivery. Naked mRNA is rapidly degraded by ubiquitous extracellular RNases, and the negatively charged molecule cannot easily cross cell membranes. Lipid nanoparticles (LNPs), the delivery vehicle used in the first approved mRNA vaccines, encapsulate the mRNA, protecting it from degradation and facilitating cellular uptake via endocytosis. A second innovation was the use of nucleoside modifications (specifically, substituting pseudouridine for uridine in the mRNA) to reduce the innate immune response that would otherwise degrade transfected mRNA before it could be translated.\n\nOnce inside cells, the mRNA is translated by ribosomes to produce the spike protein, which is then displayed on the cell surface, stimulating both humoral (antibody) and cellular (T-cell) immune responses. The mRNA itself does not enter the nucleus and cannot be integrated into genomic DNA — a key safety feature that distinguishes mRNA vaccines from retroviral gene therapy. The mRNA degrades within days after translation.\n\nThe platform has broader applications beyond infectious disease: mRNA approaches are in clinical trials for cancer immunotherapy (personalized tumor-specific neoantigens), rare genetic diseases, and cardiovascular conditions. The speed of mRNA vaccine development — from sequence to clinical trial in days — positions the platform as a critical tool for pandemic preparedness, though equitable global access to the technology and cold-chain distribution requirements remain significant barriers.",
+    "passageText": "The concept of epigenetics — heritable changes in gene expression that do not involve alterations to the DNA sequence — has transformed how biologists think about development, disease, and evolution. For much of the twentieth century, the central dogma of molecular biology implied a one-way information flow from DNA to RNA to protein, and the genome was treated as a fixed blueprint largely immune to environmental influence during an individual's lifetime.\n\nEpigenetic mechanisms — including DNA methylation, histone modification, and non-coding RNA regulation — provide a layer of regulatory complexity above the sequence. Methylation of cytosine residues at CpG dinucleotides typically silences gene expression, while acetylation of histone tails loosens chromatin structure and promotes transcription. These marks are established during development, responsive to environmental signals, and in some cases transmitted across generations.\n\nThe possibility of transgenerational epigenetic inheritance challenges Weismann's barrier — the principle that information flows only from germline to soma, not in reverse. Studies in plants and invertebrates provide relatively clear evidence for epigenetic transmission through reproduction. The evidence in mammals is more contested. The agouti mouse model, in which maternal diet during pregnancy alters coat color and disease susceptibility of offspring via DNA methylation of an inserted retrotransposon, has been widely cited. However, critics point out that confounds such as cytoplasmic factors, mitochondrial DNA, and microbiome transmission complicate interpretation.\n\nFor human health, epigenetic mechanisms offer a potential molecular explanation for the developmental origins of health and disease (DOHaD) hypothesis: early-life exposures (including in utero nutrition, stress, and toxins) program gene expression patterns that influence disease risk across the life course. This framework has significant implications for understanding health disparities, since socioeconomic disadvantage is associated with adverse epigenetic profiles. The concern is that attributing health disparities to epigenetics risks biological determinism — implying that social disadvantage becomes biologically 'fixed' — unless the reversibility of epigenetic marks is also emphasized.",
     "questions": [
       {
-        "text": "According to the passage, the primary challenge in early mRNA vaccine development was:",
+        "text": "The author mentions 'Weismann's barrier' primarily to:",
         "options": [
-          "Difficulty identifying appropriate target antigens",
-          "mRNA instability and delivery across cell membranes",
-          "The body's inability to produce antibody responses to mRNA",
-          "Regulatory resistance to novel vaccine platforms"
+          "Explain why DNA methylation silences gene expression",
+          "Provide context for why transgenerational epigenetic inheritance is theoretically controversial",
+          "Argue that environmental factors cannot influence the germline",
+          "Support the central dogma of molecular biology"
         ],
         "correct": 1,
-        "explanation": "The passage states: 'The fundamental challenge of mRNA vaccine development had long been stability and delivery. Naked mRNA is rapidly degraded by ubiquitous extracellular RNases, and the negatively charged molecule cannot easily cross cell membranes.'"
+        "explanation": "Weismann's barrier is introduced immediately before the discussion of transgenerational epigenetic inheritance as a challenge, framing why such inheritance would be theoretically significant. The author uses it to set up the debate about whether epigenetic marks can be transmitted across generations."
       },
       {
-        "text": "The passage indicates that lipid nanoparticles (LNPs) address which specific problem in mRNA vaccine delivery?",
+        "text": "Based on the passage, which of the following represents the strongest evidence cited for transgenerational epigenetic inheritance?",
         "options": [
-          "They integrate mRNA into the host genome for stable expression",
-          "They encapsulate mRNA to protect from degradation and facilitate cellular uptake",
-          "They directly stimulate T-cell responses without translation",
-          "They eliminate the need for cold-chain storage"
+          "DNA methylation at CpG sites in somatic cells",
+          "The agouti mouse model linking maternal diet to offspring phenotype",
+          "Human studies on socioeconomic disadvantage and disease risk",
+          "Histone acetylation and chromatin structure changes"
         ],
         "correct": 1,
-        "explanation": "The passage states LNPs 'encapsulate the mRNA, protecting it from degradation and facilitating cellular uptake via endocytosis.' The passage does not claim LNPs enable genomic integration (in fact, the opposite is stated), or that they stimulate T-cells directly, or eliminate cold-chain requirements."
+        "explanation": "The passage states the agouti mouse model 'has been widely cited' in the context of evidence for transgenerational inheritance. The passage explicitly notes that evidence in mammals is contested, but the agouti model is presented as the most discussed example."
       },
       {
-        "text": "The passage states that mRNA vaccines cannot integrate into the host genome because:",
+        "text": "According to the passage, critics of the agouti mouse study argue that the findings:",
         "options": [
-          "The mRNA is too short to encode integrase enzymes",
-          "LNPs prevent the mRNA from reaching the nucleus",
-          "mRNA does not enter the nucleus and degrades within days",
-          "The immune system destroys any mRNA that enters the nucleus"
+          "Prove that Weismann's barrier is completely invalid",
+          "May be explained by non-epigenetic factors such as cytoplasmic inheritance, mitochondrial DNA, or microbiome transmission",
+          "Demonstrate irreversibility of epigenetic marks",
+          "Cannot be replicated in plants or invertebrates"
+        ],
+        "correct": 1,
+        "explanation": "The passage states that 'critics point out that confounds such as cytoplasmic factors, mitochondrial DNA, and microbiome transmission complicate interpretation.' These are alternative explanations that do not require epigenetic inheritance across generations."
+      },
+      {
+        "text": "The author's final concern about attributing health disparities to epigenetics suggests that the author believes:",
+        "options": [
+          "Epigenetics does not play a role in health disparities",
+          "Epigenetic explanations are more accurate than social explanations for health disparities",
+          "Overemphasizing epigenetic mechanisms could obscure the reversibility of social disadvantage's biological effects",
+          "Biological determinism is the most accurate framework for understanding disparities"
         ],
         "correct": 2,
-        "explanation": "The passage states: 'The mRNA itself does not enter the nucleus and cannot be integrated into genomic DNA.' It also notes that 'the mRNA degrades within days after translation.' The mechanism is simply that mRNA operates in the cytoplasm, not the nucleus where DNA integration would occur."
+        "explanation": "The passage raises concern that attributing disparities to epigenetics 'risks biological determinism — implying that social disadvantage becomes biologically fixed — unless the reversibility of epigenetic marks is also emphasized.' This implies the author is warning against an overly deterministic reading, not rejecting the epigenetic framework altogether."
       },
       {
-        "text": "The author characterizes the speed of mRNA vaccine development primarily as:",
+        "text": "How does the author characterize the current evidence for transgenerational epigenetic inheritance in mammals compared to plants and invertebrates?",
         "options": [
-          "A risk to safety because insufficient time for testing",
-          "An advantage for pandemic preparedness",
-          "Irrelevant to vaccine efficacy",
-          "A disadvantage compared to traditional vaccine platforms"
+          "The mammalian evidence is clearer and more convincing",
+          "The mammalian evidence is more contested, while plant and invertebrate evidence is relatively clear",
+          "Both are equally contested",
+          "Neither has any credible supporting evidence"
         ],
         "correct": 1,
-        "explanation": "The passage states: 'The speed of mRNA vaccine development — from sequence to clinical trial in days — positions the platform as a critical tool for pandemic preparedness.' This is explicitly presented as an advantage, though the passage also notes remaining barriers (access, cold chain)."
+        "explanation": "The passage explicitly states: 'Studies in plants and invertebrates provide relatively clear evidence for epigenetic transmission through reproduction. The evidence in mammals is more contested.' This is a direct comparison made by the author."
       }
     ]
   }

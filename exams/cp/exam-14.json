@@ -1,408 +1,426 @@
 [
   {
-    "text": "A reaction has ΔH = -50 kJ/mol and ΔS = -100 J/(mol·K). At what temperature does this reaction become non-spontaneous?",
+    "text": "Which type of isomerism is exhibited by cis-2-butene and trans-2-butene?",
     "options": [
-      "The reaction is always spontaneous",
-      "T > 250 K",
-      "T > 500 K",
-      "T > 750 K"
+      "Enantiomerism",
+      "Geometric (cis-trans) isomerism, a type of diastereomerism — the restricted rotation around the C=C double bond fixes groups in different spatial arrangements; cis has same groups on the same side, trans on opposite sides",
+      "Constitutional (structural) isomerism",
+      "Conformational isomerism"
     ],
-    "correct": 2,
-    "explanation": "ΔG = ΔH - TΔS. Reaction is spontaneous when ΔG < 0. At T = 500 K: ΔG = -50,000 - (500)(-100) = -50,000 + 50,000 = 0. Above 500 K, ΔG > 0 (non-spontaneous).",
+    "correct": 1,
+    "explanation": "Cis/trans isomers have the same connectivity (both are 2-butene: CH₃CH=CHCH₃) but differ in the spatial arrangement of groups around the C=C. Restricted π bond rotation makes interconversion impossible without breaking the double bond. They are diastereomers (non-mirror-image stereoisomers). cis-2-butene has a dipole moment; trans does not (symmetrical). IUPAC uses E/Z nomenclature for complex cases.",
     "tags": [
-      "thermodynamics",
-      "gibbs-free-energy"
+      "chemistry",
+      "organic chemistry",
+      "stereochemistry"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A patient inhales a gas mixture with reduced oxygen partial pressure at high altitude. Which gas law explains why the partial pressure of O₂ decreases even though the percentage of O₂ in air remains the same?",
+    "options": [
+      "Henry's law (gas solubility depends on partial pressure)",
+      "Dalton's law of partial pressures — the partial pressure of O₂ = fraction of O₂ × total pressure; at high altitude, total atmospheric pressure decreases, so pO₂ decreases proportionally even though O₂ is still 21% of the atmosphere",
+      "Boyle's law (pressure-volume relationship)",
+      "Graham's law (rate of diffusion depends on molar mass)"
+    ],
+    "correct": 1,
+    "explanation": "Dalton's law: Ptotal = P₁ + P₂ + ... + Pn; Pi = Xi × Ptotal (Xi = mole fraction). At sea level: Ptotal = 760 mmHg, pO₂ = 0.21 × 760 = 160 mmHg. At high altitude (~5500 m): Ptotal ≈ 380 mmHg, pO₂ = 0.21 × 380 = 80 mmHg — causing altitude sickness, hyperventilation, and erythropoietin-driven polycythemia over time.",
+    "tags": [
+      "chemistry",
+      "gas laws",
+      "respiratory physiology"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In a first-order reaction, a drug is administered at t=0 with initial concentration [A]₀. What is the half-life expression?",
+    "options": [
+      "t₁/₂ = [A]₀ / (2k) — concentration-dependent (second-order)",
+      "t₁/₂ = ln2 / k = 0.693 / k — constant, independent of initial concentration (first-order); each successive half-life reduces concentration by 50%, regardless of the starting amount",
+      "t₁/₂ = 1 / (k[A]₀) — initial concentration dependent",
+      "t₁/₂ = [A]₀ × k — proportional to initial concentration"
+    ],
+    "correct": 1,
+    "explanation": "First-order reaction rate law: d[A]/dt = −k[A]; integrated: [A]t = [A]₀e^(−kt). At half-life: [A]₀/2 = [A]₀e^(−kt₁/₂) → t₁/₂ = ln2/k = 0.693/k. The constant half-life is the hallmark of first-order kinetics. Most drug elimination follows first-order kinetics; after ~5 half-lives, >96% of drug is eliminated. Pharmacokinetic consequence: steady-state is reached in ~4-5 half-lives.",
+    "tags": [
+      "chemistry",
+      "kinetics",
+      "pharmacokinetics"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Which statement best describes an endothermic process?",
+    "text": "Which of the following best explains why ice floats on water?",
     "options": [
-      "No heat is exchanged; ΔH = 0",
-      "Entropy always decreases",
-      "Heat flows from system to surroundings; ΔH < 0",
-      "Heat flows from surroundings to system; ΔH > 0"
+      "Ice has more kinetic energy than liquid water at the same temperature",
+      "The hydrogen bond network in ice forces water molecules into a hexagonal lattice with greater spacing than liquid water — ice density (~0.92 g/mL) is less than liquid water (~1.00 g/mL), so ice floats",
+      "Solid-state intermolecular forces are always weaker than liquid-state forces",
+      "The surface tension of water supports ice as it does other floating objects"
     ],
-    "correct": 3,
-    "explanation": "In an endothermic process, the system absorbs heat from its surroundings, so the enthalpy change ΔH is positive. Examples include melting ice and dissolving NH₄NO₃.",
+    "correct": 1,
+    "explanation": "Liquid water has a high density because molecules can pack more efficiently than in the rigid ice lattice. In ice, each water molecule hydrogen bonds to exactly 4 neighbors in a tetrahedral arrangement forming a hexagonal crystal, creating a less dense open structure. When ice melts, some H-bonds break, allowing molecules to pack more closely. Maximum water density occurs at 4°C. This anomaly is critical for aquatic ecosystems (lakes freeze from top down, insulating liquid water below).",
     "tags": [
-      "thermodynamics",
+      "chemistry",
+      "hydrogen bonding",
+      "water"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which type of reaction involves the net transfer of a hydride ion (H⁻) from a substrate to NAD+?",
+    "options": [
+      "Hydration (addition of water across a double bond)",
+      "Oxidation: NAD+ acts as an oxidizing agent, accepting a hydride (H⁻, equivalent to 2e⁻ + H+) from the substrate, yielding NADH + H+. This type of oxidation is used in glycolysis (GAPDH), the TCA cycle, and fatty acid oxidation",
+      "Transaminase reaction (transfer of an amino group)",
+      "Phosphorylation (transfer of a phosphate group)"
+    ],
+    "correct": 1,
+    "explanation": "Biological oxidation-reduction often involves transfer of hydride ion (H⁻) to NAD+. The substrate loses 2 electrons (is oxidized); NAD+ gains 2 electrons (is reduced) to NADH. Example: glyceraldehyde-3-phosphate + NAD+ + Pi → 1,3-bisphosphoglycerate + NADH + H+ (GAPDH reaction). NADH then donates its electrons to Complex I of the ETC, generating ~2.5 ATP per NADH.",
+    "tags": [
+      "chemistry",
+      "organic chemistry",
+      "redox reactions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Two objects, A (2 kg) and B (8 kg), collide and stick together (perfectly inelastic collision). Object A was moving at 10 m/s; B was at rest. What is the final velocity?",
+    "options": [
+      "2 m/s",
+      "5 m/s",
+      "10 m/s",
+      "0.4 m/s"
+    ],
+    "correct": 0,
+    "explanation": "Conservation of momentum: pᵢ = pf. mA·vA + mB·vB = (mA + mB)·vf. (2)(10) + (8)(0) = (2+8)·vf → 20 = 10·vf → vf = 2 m/s. Kinetic energy is not conserved in inelastic collisions: KEᵢ = ½(2)(100) = 100 J; KEf = ½(10)(4) = 20 J. 80 J is lost as heat, deformation, and sound — a 80% loss.",
+    "tags": [
+      "physics",
+      "momentum",
+      "collisions"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A resistor (R = 10 Ω) and an inductor (L = 0.1 H) are connected in series to an AC source. At a frequency of 50 Hz, what is the inductive reactance (XL)?",
+    "options": [
+      "31.4 Ω",
+      "5 Ω",
+      "50 Ω",
+      "0.1 Ω"
+    ],
+    "correct": 0,
+    "explanation": "Inductive reactance: XL = 2πfL = 2π(50)(0.1) = 10π ≈ 31.4 Ω. The impedance Z = √(R² + XL²) = √(100 + 987) ≈ 32.9 Ω. Inductors resist changes in current (oppose AC): at higher frequencies, XL increases (XL ∝ f), so inductors block high-frequency signals (used in low-pass filters). Capacitors do the opposite (XC = 1/2πfC, decreases with frequency — block low frequencies).",
+    "tags": [
+      "physics",
+      "AC circuits",
+      "inductance"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A 60 kg person runs up a flight of stairs 4 m high in 5 seconds. What is the average power output? (g = 10 m/s²)",
+    "options": [
+      "480 W",
+      "240 W",
+      "120 W",
+      "1200 W"
+    ],
+    "correct": 0,
+    "explanation": "Work done against gravity: W = mgh = 60 × 10 × 4 = 2400 J. Power: P = W/t = 2400/5 = 480 W. This is approximately 0.64 horsepower. Elite cyclists can sustain ~400-500 W for hours; sprinters can produce >2000 W briefly. Note: this only accounts for the work against gravity, not horizontal motion or inefficiency.",
+    "tags": [
+      "physics",
+      "work and energy",
+      "power"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "What is the electron configuration of Fe²+ (iron with charge +2)? (Atomic number of Fe = 26)",
+    "options": [
+      "[Ar] 3d⁶ 4s² (same as neutral Fe)",
+      "[Ar] 3d⁶ — Fe²+ loses both 4s electrons first (4s subshell empties before 3d when ionizing transition metals)",
+      "[Ar] 3d⁴ 4s²",
+      "[Ar] 3d⁸"
+    ],
+    "correct": 1,
+    "explanation": "Neutral Fe: [Ar] 3d⁶ 4s². When transition metals are ionized, electrons are removed from the 4s orbital first (highest energy orbital in the atom is 4s, but once filled, 3d electrons are lower energy). Fe²+ loses both 4s electrons → [Ar] 3d⁶. Fe³+ loses one additional 3d electron → [Ar] 3d⁵ (particularly stable: half-filled d shell). This is a commonly tested concept on the MCAT.",
+    "tags": [
+      "chemistry",
+      "electron configuration",
+      "transition metals"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following statements about SN1 reactions is correct?",
+    "options": [
+      "SN1 reactions are favored by primary substrates and strong nucleophiles",
+      "SN1 reactions proceed through a planar carbocation intermediate, causing racemization at the chiral center; they are favored by tertiary (most stable carbocation) and secondary substrates, polar protic solvents, and weak nucleophiles",
+      "SN1 reactions show second-order kinetics (rate depends on both substrate and nucleophile concentrations)",
+      "SN1 reactions always produce inversion of configuration (Walden inversion)"
+    ],
+    "correct": 1,
+    "explanation": "SN1 (substitution nucleophilic unimolecular): rate = k[substrate]; two steps: (1) ionization of leaving group → carbocation (rate-limiting); (2) nucleophilic attack from either face of planar carbocation. Racemization (or slight inversion due to ion pair) results at a chiral center. Favored by: 3°>2° substrates (carbocation stability), polar protic solvents (stabilize ions), weak nucleophiles. Contrast with SN2: one step, backside attack, inversion (Walden inversion), favored for 1° substrates.",
+    "tags": [
+      "chemistry",
+      "organic chemistry",
+      "SN1 reactions"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which intermolecular force is primarily responsible for the elevated boiling point of ethanol (78°C) compared to dimethyl ether (−24°C), despite similar molecular weights?",
+    "options": [
+      "London dispersion forces, which are stronger in ethanol",
+      "Hydrogen bonding — ethanol (CH₃CH₂OH) has an O-H bond allowing it to act as both H-bond donor and acceptor; dimethyl ether (CH₃OCH₃) can only accept H-bonds (no O-H), so it has weaker net intermolecular forces and a much lower boiling point",
+      "Dipole-dipole interactions, which are present only in ethanol",
+      "Ionic interactions from partial charges on the ether oxygen"
+    ],
+    "correct": 1,
+    "explanation": "Hydrogen bonding (O-H or N-H to electronegative atom) is the strongest intermolecular force after ionic and ion-dipole. Ethanol's O-H allows it to form H-bonds as both donor and acceptor; DME can only accept H-bonds from water (no H-bond donor). The additional H-bonding in ethanol requires more energy to overcome during vaporization → higher boiling point. Water (MW=18, bp 100°C) vs. H₂S (MW=34, bp −60°C) is another illustration.",
+    "tags": [
+      "chemistry",
+      "intermolecular forces",
+      "hydrogen bonding"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "What is the de Broglie wavelength of an electron (mass 9.11 × 10⁻³¹ kg) moving at 1% the speed of light (v = 3 × 10⁶ m/s)? (h = 6.63 × 10⁻³⁴ J·s)",
+    "options": [
+      "2.4 × 10⁻¹⁰ m (0.24 nm, on the order of atomic bond lengths)",
+      "6.63 × 10⁻³¹ m",
+      "3 × 10⁻³ m",
+      "6.63 × 10⁻²⁸ m"
+    ],
+    "correct": 0,
+    "explanation": "de Broglie wavelength: λ = h/mv = (6.63 × 10⁻³⁴) / (9.11 × 10⁻³¹ × 3 × 10⁶) = (6.63 × 10⁻³⁴) / (2.73 × 10⁻²⁴) ≈ 2.4 × 10⁻¹⁰ m = 0.24 nm. This is comparable to atomic/molecular dimensions, explaining why electrons exhibit wave behavior in crystals (electron diffraction) and why quantum mechanics governs atomic structure. Visible light is 400-700 nm; X-rays are 0.01-10 nm; this electron is in the X-ray range.",
+    "tags": [
+      "physics",
+      "quantum mechanics",
+      "wave-particle duality"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In the Beer-Lambert Law (A = εlc), if the absorbance of a solution at 1.0 cm path length is 0.5, and the molar absorptivity ε = 1000 L·mol⁻¹·cm⁻¹, what is the concentration?",
+    "options": [
+      "5 × 10⁻⁴ mol/L",
+      "0.5 mol/L",
+      "5 × 10⁻² mol/L",
+      "500 mol/L"
+    ],
+    "correct": 0,
+    "explanation": "Beer-Lambert Law: A = εlc → c = A/(εl) = 0.5 / (1000 × 1.0) = 0.5/1000 = 5 × 10⁻⁴ M. The law states that absorbance is proportional to both path length and concentration (for dilute solutions with no scattering). Transmittance T = I/I₀; Absorbance A = −log T = εlc. Used extensively in spectrophotometry for protein quantification (Bradford, BCA assays) and enzyme activity measurements.",
+    "tags": [
+      "chemistry",
+      "spectroscopy",
+      "Beer-Lambert law"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A negative charge is placed in a uniform electric field pointing east. What direction is the force on the charge?",
+    "options": [
+      "East (same as the field)",
+      "West — the force on a negative charge is opposite to the electric field direction (F = qE; with q negative, F is anti-parallel to E)",
+      "North or south (perpendicular to field)",
+      "There is no force on a stationary charge"
+    ],
+    "correct": 1,
+    "explanation": "Electric force: F = qE. For a positive charge, F is parallel to E (points east). For a negative charge, F is antiparallel to E (points west). Electric field lines point from high to low potential (from positive to negative); positive charges accelerate in the field direction, negative charges accelerate against the field direction. This is analogous to how a cation and anion move in opposite directions in an electric field during electrophoresis.",
+    "tags": [
+      "physics",
+      "electrostatics",
+      "electric force"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "What is the hybridization of the carbon in CO₂?",
+    "options": [
+      "sp³",
+      "sp — the carbon forms two double bonds (C=O), using two sp hybrid orbitals for sigma bonds (180° apart) and two unhybridized p orbitals for the two pi bonds",
+      "sp²",
+      "sp³d"
+    ],
+    "correct": 1,
+    "explanation": "CO₂: O=C=O. The central carbon has 2 regions of electron density (2 double bonds); VSEPR predicts linear geometry. For linear geometry: sp hybridization. The two sp orbitals form sigma bonds with each oxygen (180° apart). The two unhybridized p orbitals on carbon (orthogonal to each other and to the bond axis) overlap with p orbitals on each oxygen to form two π bonds. Total: two C=O double bonds (each = 1σ + 1π).",
+    "tags": [
+      "chemistry",
+      "molecular geometry",
+      "hybridization"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following functional groups makes a compound a carboxylic acid?",
+    "options": [
+      "Carbonyl group alone (C=O)",
+      "Carboxyl group (−COOH): a carbonyl bonded to a hydroxyl group on the same carbon — gives pKa ~4-5 and makes the molecule an organic acid; the −OH proton is lost upon ionization",
+      "Ester linkage (−COO−R)",
+      "Amide bond (−CONH₂)"
+    ],
+    "correct": 1,
+    "explanation": "A carboxylic acid contains the carboxyl group (−COOH): R−C(=O)−OH. The pKa of simple carboxylic acids is 4-5 (acetic acid: 4.74). The carboxylate anion (RCOO⁻) is stabilized by resonance delocalization of the negative charge over both oxygens. Electron-withdrawing substituents (Cl, F) lower the pKa (increase acidity) by stabilizing the anion. Esters (−COOR) and amides (−CONH₂) do not dissociate under physiological conditions.",
+    "tags": [
+      "chemistry",
+      "organic chemistry",
+      "functional groups"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A satellite orbits Earth at radius r. If it moves to an orbit at radius 4r, by what factor does its orbital period change?",
+    "options": [
+      "Increases by factor of 4",
+      "Increases by factor of 8 (2³) — Kepler's third law: T² ∝ r³, so T ∝ r^(3/2); T₂/T₁ = (4r/r)^(3/2) = 4^(3/2) = 8",
+      "Increases by factor of 2",
+      "Increases by factor of 16"
+    ],
+    "correct": 1,
+    "explanation": "Kepler's third law: T² = (4π²/GM)r³ → T ∝ r^(3/2). If r increases by factor 4: T₂/T₁ = (r₂/r₁)^(3/2) = 4^(3/2) = (4^1)^(3/2) = 2³ = 8. The orbital period increases by a factor of 8. Earth's Moon (r ≈ 385,000 km, T = 27.3 days) vs. GPS satellites (r ≈ 26,600 km, T ≈ 12 hours) illustrates this: GPS orbit is much smaller and faster.",
+    "tags": [
+      "physics",
+      "orbital mechanics",
+      "Kepler's laws"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The enthalpy change for a reaction at constant pressure is defined as:",
+    "options": [
+      "ΔH = ΔU − PΔV (enthalpy is the internal energy minus PV work)",
+      "ΔH = ΔU + PΔV = qp — heat flow at constant pressure; for reactions with no change in number of moles of gas (Δn_gas = 0), ΔH ≈ ΔU",
+      "ΔH = ΔG + TΔS (this is the relation for Gibbs free energy)",
+      "ΔH = ΔG − TΔS"
+    ],
+    "correct": 1,
+    "explanation": "Enthalpy H = U + PV; ΔH = ΔU + PΔV = ΔU + Δ(nRT) for ideal gases. At constant pressure, ΔH = qp (heat absorbed from surroundings). For a reaction producing Δn_gas moles of gas: ΔH − ΔU = Δn_gas × RT. Exothermic reactions: ΔH < 0 (heat released to surroundings); endothermic: ΔH > 0. Hess's law allows ΔH to be calculated from tabulated ΔH°f values.",
+    "tags": [
+      "chemistry",
+      "thermochemistry",
       "enthalpy"
     ],
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
-    "text": "Hess's Law states that the total enthalpy change for a reaction is:",
+    "text": "A proton NMR spectrum shows a signal at δ 7.5 ppm with integration of 5H and a signal at δ 2.3 ppm with integration of 3H. This pattern is consistent with:",
     "options": [
-      "Independent of pathway; equal to sum of enthalpy changes of individual steps",
-      "Dependent on the rate of reaction",
-      "Equal to the activation energy",
-      "Always negative for spontaneous reactions"
-    ],
-    "correct": 0,
-    "explanation": "Hess's Law exploits the fact that enthalpy is a state function. The total ΔH for a reaction equals the sum of ΔH values for any series of steps that convert reactants to products, regardless of the pathway taken.",
-    "tags": [
-      "thermodynamics",
-      "hess-law"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "The standard entropy change (ΔS°) for a reaction is expected to be positive when:",
-    "options": [
-      "Temperature decreases",
-      "Gas molecules are produced from solid reactants",
-      "A solution precipitates a solid",
-      "A gas condenses to a liquid"
+      "An aliphatic chain with 8 equivalent hydrogens",
+      "A monosubstituted benzene ring (5 aromatic H at δ 7-8 ppm) attached to a methyl group (3H at δ 2-3 ppm, characteristic of Ar-CH₃) — consistent with toluene",
+      "An aldehyde (which shows a signal at δ 9-10 ppm)",
+      "A carboxylic acid (which shows a broad signal at δ 10-12 ppm)"
     ],
     "correct": 1,
-    "explanation": "Entropy increases when disorder increases. Producing gaseous products from solids greatly increases the number of microstates available (gas molecules have much greater positional and kinetic freedom than solids).",
+    "explanation": "Proton NMR chemical shifts: aromatic H typically δ 6.5-8.5 ppm (downfield due to ring current); Ar-CH₃ (benzylic) appears at δ 2.2-2.5 ppm. Monosubstituted benzene has 5 equivalent (or near-equivalent) aromatic protons. Integration ratio 5:3 with these chemical shifts is the textbook NMR of toluene (C₆H₅-CH₃). Aldehydes appear at δ 9-10 ppm; carboxylic acids at δ 10-12 ppm (very downfield due to strong deshielding).",
     "tags": [
-      "thermodynamics",
-      "entropy"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "For a spontaneous process at constant temperature and pressure, the Gibbs free energy change (ΔG) must be:",
-    "options": [
-      "Positive",
-      "Equal to TΔS",
-      "Zero",
-      "Negative"
-    ],
-    "correct": 3,
-    "explanation": "At constant T and P, a process is spontaneous if ΔG < 0. When ΔG = 0, the system is at equilibrium. When ΔG > 0, the process is non-spontaneous (reverse is spontaneous).",
-    "tags": [
-      "thermodynamics",
-      "gibbs-free-energy",
-      "spontaneity"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Heat capacity at constant pressure (Cp) is greater than heat capacity at constant volume (Cv) for gases because:",
-    "options": [
-      "Gases have fewer degrees of freedom at constant pressure",
-      "Cv includes PV work while Cp does not",
-      "At constant pressure, gas must also do PΔV work when heated",
-      "Pressure increases slow molecular motion"
-    ],
-    "correct": 2,
-    "explanation": "When a gas is heated at constant pressure, it expands and does work on the surroundings (PΔV). This extra energy input beyond ΔU makes Cp = Cv + nR for ideal gases, so Cp > Cv.",
-    "tags": [
-      "thermodynamics",
-      "heat-capacity"
+      "chemistry",
+      "NMR spectroscopy",
+      "organic chemistry"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "For the reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g), the Kc expression is:",
+    "text": "A liquid in a U-tube manometer has a height difference of 15 cm between the two arms. If the liquid is mercury (density = 13,600 kg/m³), what is the gauge pressure? (g = 10 m/s²)",
     "options": [
-      "Kc = [NH₃]²/([N₂]³[H₂])",
-      "Kc = [NH₃]/([N₂][H₂])",
-      "Kc = [N₂][H₂]³/[NH₃]²",
-      "Kc = [NH₃]²/([N₂][H₂]³)"
-    ],
-    "correct": 3,
-    "explanation": "Kc = [products]^stoich / [reactants]^stoich. For N₂ + 3H₂ ⇌ 2NH₃: Kc = [NH₃]²/([N₂]¹[H₂]³). Pure solids and liquids are omitted.",
-    "tags": [
-      "equilibrium",
-      "equilibrium-constant"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "If Kp = 2.5 × 10⁻⁴ for a reaction, which statement is correct?",
-    "options": [
-      "Reactants are favored at equilibrium",
-      "Products are favored at equilibrium",
-      "The reaction goes to completion",
-      "The reaction does not proceed"
+      "20,400 Pa",
+      "2,040 Pa",
+      "136,000 Pa",
+      "1,360 Pa"
     ],
     "correct": 0,
-    "explanation": "A Kp value much less than 1 indicates that at equilibrium, the concentration of reactants greatly exceeds that of products, meaning the reactant side is favored.",
+    "explanation": "Gauge pressure = ρgh = 13,600 × 10 × 0.15 = 20,400 Pa. A standard mercury column of 760 mmHg = 101,325 Pa (1 atm), so 150 mmHg ≈ 20,000 Pa. Manometers measure pressure differences (gauge pressure = absolute pressure − atmospheric pressure). The higher the density of the manometric fluid, the more compact the instrument (mercury manometers are much shorter than water manometers for the same pressure).",
     "tags": [
-      "equilibrium",
-      "equilibrium-constant"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Le Chatelier's principle predicts that for an exothermic reaction at equilibrium, increasing temperature will:",
-    "options": [
-      "Shift equilibrium toward reactants, decreasing K",
-      "Have no effect on equilibrium position",
-      "Shift equilibrium toward products without changing K",
-      "Shift equilibrium toward products, increasing K"
-    ],
-    "correct": 0,
-    "explanation": "For an exothermic reaction, heat is a product. Adding heat (increasing T) shifts equilibrium left (toward reactants) by Le Chatelier's principle. This also decreases the equilibrium constant K.",
-    "tags": [
-      "equilibrium",
-      "le-chatelier"
+      "physics",
+      "fluid statics",
+      "pressure"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "The relationship between Kp and Kc is:",
+    "text": "A radioactive isotope has a half-life of 10 years. What fraction of the original sample remains after 30 years?",
     "options": [
-      "Kp = Kc(RT)^Δn",
-      "Kp = Kc regardless of Δn",
-      "Kp = Kc/Δn(RT)",
-      "Kp = Kc + Δn(RT)"
+      "1/8",
+      "1/4",
+      "1/3",
+      "1/6"
     ],
     "correct": 0,
-    "explanation": "Kp = Kc(RT)^Δn, where Δn = moles of gaseous products - moles of gaseous reactants, R = 0.08206 L·atm/(mol·K), and T is temperature in Kelvin.",
+    "explanation": "After n half-lives, fraction remaining = (1/2)^n. 30 years / 10 years per half-life = 3 half-lives. Fraction remaining = (1/2)³ = 1/8. After 10 y: 50%; after 20 y: 25%; after 30 y: 12.5%. This applies to all first-order decay processes. Carbon-14 (t₁/₂ = 5,730 years) allows dating of organic materials up to ~50,000 years; uranium-238 (t₁/₂ = 4.47 × 10⁹ years) is used for geological dating.",
     "tags": [
-      "equilibrium",
-      "kp-kc"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Adding a catalyst to a reaction at equilibrium will:",
-    "options": [
-      "Shift equilibrium to favor products",
-      "Decrease activation energy for forward reaction only",
-      "Increase the equilibrium constant",
-      "Speed up both forward and reverse reactions equally, not shifting equilibrium"
-    ],
-    "correct": 3,
-    "explanation": "A catalyst lowers the activation energy for both the forward and reverse reactions equally. It allows equilibrium to be reached faster but does not change the equilibrium constant or the equilibrium position.",
-    "tags": [
-      "equilibrium",
-      "catalysis"
+      "physics",
+      "nuclear physics",
+      "radioactive decay"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "The Henderson-Hasselbalch equation relates pH to pKa as:",
+    "text": "In an Aldol condensation, the nucleophile that attacks the carbonyl is:",
     "options": [
-      "pH = pKa × log([HA]/[A⁻])",
-      "pH = pKa + log([HA]/[A⁻])",
-      "pH = pKa + log([A⁻]/[HA])",
-      "pH = pKa - log([A⁻]/[HA])"
-    ],
-    "correct": 2,
-    "explanation": "The Henderson-Hasselbalch equation is pH = pKa + log([A⁻]/[HA]), where [A⁻] is the conjugate base concentration and [HA] is the weak acid concentration. It is most useful in the buffer region.",
-    "tags": [
-      "acid-base",
-      "henderson-hasselbalch",
-      "buffers"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Which of the following is the strongest acid?",
-    "options": [
-      "HCl",
-      "HI",
-      "HF",
-      "HBr"
+      "The carbonyl oxygen acting as nucleophile",
+      "The enolate ion (formed by deprotonation of the α-carbon adjacent to the carbonyl) — the α-carbon attacks the electrophilic carbonyl carbon of another molecule, forming a β-hydroxy carbonyl compound",
+      "A hydroxide ion attacking the carbonyl directly",
+      "The carbonyl carbon acting as nucleophile"
     ],
     "correct": 1,
-    "explanation": "Among the hydrohalic acids, acid strength increases down the group: HF << HCl < HBr < HI. HI is the strongest because the H-I bond is weakest (longest), making it easiest to donate a proton.",
+    "explanation": "The Aldol condensation: (1) Base deprotonates the α-carbon (pKa ~20 for aldehydes/ketones) to form the enolate; (2) The nucleophilic α-carbon attacks the electrophilic carbonyl carbon of another carbonyl compound → β-hydroxy carbonyl (aldol product); (3) Dehydration gives the α,β-unsaturated carbonyl (Aldol condensation product). This is the basis for biological C-C bond formation in fatty acid synthesis (via malonyl-ACP as the enolate equivalent).",
     "tags": [
-      "acid-base",
-      "acid-strength"
+      "chemistry",
+      "organic chemistry",
+      "aldol condensation"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "A buffer solution is most effective when:",
+    "text": "Light enters a glass fiber optic cable (n = 1.5) from air (n = 1.0). What is the refracted angle if the angle of incidence is 30°? (sin 30° = 0.5, sin 19.5° ≈ 0.33)",
     "options": [
-      "pH = 7.0",
-      "pH << pKa",
-      "pH = pKa of the weak acid",
-      "pH >> pKa"
-    ],
-    "correct": 2,
-    "explanation": "A buffer is most effective when pH = pKa, meaning [A⁻] = [HA]. At this point, the buffer has equal capacity to absorb added acid or base. The effective range is approximately pH = pKa ± 1.",
-    "tags": [
-      "acid-base",
-      "buffers"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "What is the pH of a solution with [OH⁻] = 1 × 10⁻⁴ M at 25°C?",
-    "options": [
-      "14",
-      "7",
-      "4",
-      "10"
-    ],
-    "correct": 3,
-    "explanation": "pOH = -log[OH⁻] = -log(10⁻⁴) = 4. Since pH + pOH = 14 at 25°C, pH = 14 - 4 = 10.",
-    "tags": [
-      "acid-base",
-      "ph-calculation"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Which of the following would produce a basic solution when dissolved in water?",
-    "options": [
-      "NH₄Cl (ammonium chloride)",
-      "HNO₃ (nitric acid)",
-      "NaCH₃COO (sodium acetate)",
-      "NaCl (sodium chloride)"
-    ],
-    "correct": 2,
-    "explanation": "Sodium acetate undergoes hydrolysis: CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻. The acetate ion (conjugate base of weak acid) accepts a proton from water, producing OH⁻ and making the solution basic.",
-    "tags": [
-      "acid-base",
-      "hydrolysis",
-      "salt-solutions"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "According to the Brønsted-Lowry definition, an acid is:",
-    "options": [
-      "An electron pair donor",
-      "An electron pair acceptor",
-      "A proton donor",
-      "A proton acceptor"
-    ],
-    "correct": 2,
-    "explanation": "The Brønsted-Lowry theory defines an acid as a proton (H⁺) donor and a base as a proton acceptor. This definition is broader than the Arrhenius theory, encompassing reactions not in aqueous solution.",
-    "tags": [
-      "acid-base",
-      "bronsted-lowry"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "In a galvanic cell, oxidation occurs at the:",
-    "options": [
-      "Anode",
-      "Cathode",
-      "Salt bridge",
-      "Both electrodes simultaneously"
+      "19.5°",
+      "30°",
+      "45°",
+      "60°"
     ],
     "correct": 0,
-    "explanation": "In a galvanic (voltaic) cell, the anode is the site of oxidation (loss of electrons). Electrons flow from the anode through the external circuit to the cathode, where reduction occurs. Memory aid: AN OX (anode = oxidation).",
+    "explanation": "Snell's law: n₁ sin θ₁ = n₂ sin θ₂ → (1.0)(sin 30°) = (1.5)(sin θ₂) → 0.5 = 1.5 sin θ₂ → sin θ₂ = 0.33 → θ₂ ≈ 19.5°. The refracted ray bends toward the normal when entering a denser (higher n) medium (θ₂ < θ₁). When exiting to a less dense medium, the ray bends away from the normal. At the critical angle (θc = arcsin(1/1.5) ≈ 41.8°), total internal reflection occurs, trapping light in the fiber.",
     "tags": [
-      "electrochemistry",
-      "galvanic-cell"
+      "physics",
+      "optics",
+      "Snell's law"
     ],
-    "difficulty": "easy"
+    "difficulty": "medium"
   },
   {
-    "text": "The standard cell potential for a galvanic cell is calculated as:",
+    "text": "Which of the following best describes an amphoteric compound?",
     "options": [
-      "E°cell = E°cathode + E°anode",
-      "E°cell = E°cathode - E°anode",
-      "E°cell = E°cathode × E°anode",
-      "E°cell = E°anode - E°cathode"
+      "A compound that donates both H+ and H- simultaneously",
+      "A compound that can act as either a Brønsted-Lowry acid (H+ donor) or base (H+ acceptor) depending on the reaction conditions — water and amino acids at their pI are classic examples",
+      "A compound with both acidic and basic functional groups that neutralize each other internally",
+      "A compound that dissolves equally well in acids and bases"
     ],
     "correct": 1,
-    "explanation": "E°cell = E°cathode - E°anode (using standard reduction potentials). Since both are given as reduction potentials, we subtract the anode value from the cathode value. A positive E°cell indicates a spontaneous reaction.",
+    "explanation": "Amphiprotic (amphoteric) substances can donate or accept protons. Water: acts as base (H₂O + HCl → H₃O+ + Cl⁻) or acid (H₂O + NH₃ → OH⁻ + NH₄+). Amino acids: at low pH, accept H+ (act as base); at high pH, donate H+ (act as acid). Metal oxides like Al₂O₃ and ZnO are amphoteric — dissolve in both strong acid (to give Al³+/Zn²+) and strong base (to give aluminate/zincate).",
     "tags": [
-      "electrochemistry",
-      "cell-potential"
+      "chemistry",
+      "acid-base",
+      "amphoteric"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "The Nernst equation relates cell potential to concentration as:",
+    "text": "Infrared (IR) spectroscopy detects molecular vibrations. Which bond type produces a characteristic broad absorption band in the 2500-3300 cm⁻¹ range in an IR spectrum?",
     "options": [
-      "E = E° - (RT/nF)lnQ",
-      "E = E°/lnQ",
-      "E = E° - (nF/RT)lnQ",
-      "E = E° + (RT/nF)lnQ"
-    ],
-    "correct": 0,
-    "explanation": "The Nernst equation is E = E° - (RT/nF)lnQ, where R = gas constant, T = temperature, n = moles of electrons transferred, F = Faraday's constant, and Q = reaction quotient. At 25°C this simplifies to E = E° - (0.0592/n)logQ.",
-    "tags": [
-      "electrochemistry",
-      "nernst-equation"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Faraday's first law of electrolysis states that the mass of substance deposited is proportional to:",
-    "options": [
-      "The quantity of charge passed (coulombs)",
-      "The voltage applied",
-      "The resistance of the solution",
-      "The temperature of the electrolyte"
-    ],
-    "correct": 0,
-    "explanation": "Faraday's first law: m = (M × Q)/(n × F), where m = mass deposited, M = molar mass, Q = charge in coulombs, n = number of electrons per ion, F = 96,485 C/mol. The amount deposited is directly proportional to charge passed.",
-    "tags": [
-      "electrochemistry",
-      "electrolysis",
-      "faradays-law"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which species is most easily oxidized?",
-    "options": [
-      "Au (E° = +1.50 V for Au³⁺/Au)",
-      "Ag (E° = +0.80 V for Ag⁺/Ag)",
-      "Li (E° = -3.04 V for Li⁺/Li)",
-      "Cu (E° = +0.34 V for Cu²⁺/Cu)"
-    ],
-    "correct": 2,
-    "explanation": "Metals with the most negative standard reduction potential are most easily oxidized (best reducing agents). Li has E° = -3.04 V, the most negative listed, making it the strongest reducing agent and easiest to oxidize.",
-    "tags": [
-      "electrochemistry",
-      "oxidation-potential",
-      "activity-series"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "For a first-order reaction, the half-life is:",
-    "options": [
-      "t½ = 1/(k[A]₀) (dependent on initial concentration)",
-      "t½ = 2/k",
-      "t½ = 0.693/k (independent of initial concentration)",
-      "t½ = k/0.693"
-    ],
-    "correct": 2,
-    "explanation": "For a first-order reaction, t½ = ln(2)/k = 0.693/k. This half-life is constant and independent of initial concentration, which is a defining feature of first-order kinetics.",
-    "tags": [
-      "kinetics",
-      "half-life",
-      "first-order"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "The Arrhenius equation describes the temperature dependence of the rate constant as:",
-    "options": [
-      "k = Ae^(Ea/RT)",
-      "k = A/e^(Ea/RT)^2",
-      "k = RT/Ea",
-      "k = Ae^(-Ea/RT)"
-    ],
-    "correct": 3,
-    "explanation": "The Arrhenius equation is k = Ae^(-Ea/RT), where A is the frequency factor, Ea is the activation energy, R is the gas constant, and T is temperature in Kelvin. Increasing T or decreasing Ea increases k.",
-    "tags": [
-      "kinetics",
-      "arrhenius",
-      "activation-energy"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "A reaction is second-order in [A] and first-order in [B]. If [A] is doubled and [B] is halved, the rate:",
-    "options": [
-      "Stays the same",
-      "Doubles",
-      "Quadruples",
-      "Halves"
+      "C=O stretch (found at ~1700 cm⁻¹)",
+      "O-H stretch of carboxylic acids — the strong, broad band from 2500-3300 cm⁻¹ results from hydrogen-bonded O-H stretch; alcohol O-H is broader at 3200-3550 cm⁻¹; C=O of the carboxylic acid appears at ~1710 cm⁻¹",
+      "C-H stretch (found at 2850-3000 cm⁻¹, sharp)",
+      "C≡N stretch (found at ~2200 cm⁻¹)"
     ],
     "correct": 1,
-    "explanation": "Rate = k[A]²[B]. New rate = k(2[A])²(½[B]) = k × 4[A]² × ½[B] = 2k[A]²[B] = 2 × original rate. The rate doubles.",
+    "explanation": "Carboxylic acids show a uniquely broad O-H stretch from 2500-3300 cm⁻¹ due to strong intermolecular hydrogen bonding (carboxylic acids form dimers in solution/solid). This broad band often overlaps C-H stretches. Key IR absorptions: O-H carboxylic acid (2500-3300, broad); alcohol O-H (3200-3550, broad); C=O ketone/aldehyde (~1715-1740 cm⁻¹); C=O carboxylic acid (~1700-1725 cm⁻¹); amide C=O (~1650-1690 cm⁻¹); alkyne C≡C (~2100-2260 cm⁻¹).",
     "tags": [
-      "kinetics",
-      "rate-law"
+      "chemistry",
+      "spectroscopy",
+      "IR spectroscopy"
     ],
     "difficulty": "medium"
   }

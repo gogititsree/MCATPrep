@@ -1,0 +1,419 @@
+[
+  {
+    "text": "What is the IUPAC name for CH₃CH₂CH(CH₃)CH₂CH₃?",
+    "options": [
+      "2-methylpentane",
+      "2-ethylbutane",
+      "Isohexane",
+      "3-methylpentane"
+    ],
+    "correct": 3,
+    "explanation": "The longest chain has 5 carbons (pentane). The methyl branch is at carbon 3 (numbering from either end gives position 3). IUPAC name: 3-methylpentane.",
+    "tags": [
+      "organic-chemistry",
+      "nomenclature",
+      "alkanes"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which functional group is present in an ester?",
+    "options": [
+      "-CHO",
+      "-COOH",
+      "-COO- (carbonyl bonded to oxygen)",
+      "-CO-NH-"
+    ],
+    "correct": 2,
+    "explanation": "An ester contains the -COO- functional group, formally written as R-C(=O)-O-R'. Esters are formed by reaction of carboxylic acids with alcohols (Fischer esterification).",
+    "tags": [
+      "organic-chemistry",
+      "functional-groups",
+      "esters"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "cis-2-butene and trans-2-butene are examples of:",
+    "options": [
+      "Conformational isomers",
+      "Enantiomers",
+      "Geometric (cis-trans) isomers",
+      "Constitutional isomers"
+    ],
+    "correct": 2,
+    "explanation": "Geometric isomers (cis-trans isomers) differ in the spatial arrangement of groups around a double bond or ring. Both cis- and trans-2-butene have the same connectivity (constitutional structure) but different geometric arrangements.",
+    "tags": [
+      "organic-chemistry",
+      "stereochemistry",
+      "isomers"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A chiral center (stereocenter) in an organic molecule is a carbon that:",
+    "options": [
+      "Is part of an aromatic ring",
+      "Has four identical substituents",
+      "Is sp² hybridized",
+      "Has four different substituents attached"
+    ],
+    "correct": 3,
+    "explanation": "A chiral center is a tetrahedral carbon bonded to four different groups. Such a center is non-superimposable on its mirror image, giving rise to enantiomers. sp² carbons cannot be chiral centers as they only have three substituents.",
+    "tags": [
+      "organic-chemistry",
+      "stereochemistry",
+      "chirality"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "An SN2 reaction proceeds by:",
+    "options": [
+      "Radical chain mechanism",
+      "Back-side attack of nucleophile on carbon with simultaneous leaving group departure, inverting configuration",
+      "Front-side attack retaining configuration",
+      "Formation of a carbocation intermediate followed by nucleophile attack"
+    ],
+    "correct": 1,
+    "explanation": "SN2 is a concerted one-step mechanism. The nucleophile attacks from the back (180° from the leaving group), and as the leaving group departs, configuration is inverted (Walden inversion). Second-order kinetics: rate = k[Nu][substrate].",
+    "tags": [
+      "organic-chemistry",
+      "sn2",
+      "substitution"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which substrate undergoes SN1 most readily?",
+    "options": [
+      "CH₃Br (methyl)",
+      "(CH₃)₃CBr (tertiary, forms stable carbocation)",
+      "CH₃CH₂CH₂Br (primary)",
+      "CH₃CH₂Br (primary)"
+    ],
+    "correct": 1,
+    "explanation": "SN1 proceeds through a carbocation intermediate. Tertiary substrates form the most stable (tertiary) carbocations due to hyperconjugation and inductive stabilization by three alkyl groups, making (CH₃)₃CBr most reactive for SN1.",
+    "tags": [
+      "organic-chemistry",
+      "sn1",
+      "substitution",
+      "carbocation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "E2 elimination reactions are favored by:",
+    "options": [
+      "Aqueous solvent, weak bases, and tertiary substrates",
+      "Bulky strong bases, elevated temperature, and secondary/tertiary substrates",
+      "Polar protic solvents and strong nucleophiles",
+      "Small nucleophiles, low temperature, and primary substrates"
+    ],
+    "correct": 1,
+    "explanation": "E2 is a concerted anti-periplanar elimination. Bulky, strong bases (e.g., t-BuOK) favor elimination by approaching the β-hydrogen rather than the carbon. Higher temperature and secondary/tertiary substrates also favor E2 over SN2.",
+    "tags": [
+      "organic-chemistry",
+      "e2",
+      "elimination"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Markovnikov's rule predicts that in hydrohalogenation of an alkene, the hydrogen adds to:",
+    "options": [
+      "Only to terminal carbons",
+      "The carbon with fewer hydrogens",
+      "Randomly to either carbon",
+      "The carbon with more hydrogens (less substituted), placing the halide on the more substituted carbon"
+    ],
+    "correct": 3,
+    "explanation": "Markovnikov's rule: the proton adds to the carbon bearing more hydrogens, generating the more stable (more substituted) carbocation intermediate. The halide then attacks the carbocation.",
+    "tags": [
+      "organic-chemistry",
+      "addition-reactions",
+      "markovnikov"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Nucleophilic addition to a carbonyl group is favored when the carbonyl carbon is:",
+    "options": [
+      "Nucleophilic (partial negative charge)",
+      "Neutral with no partial charges",
+      "Electrophilic (partial positive charge)",
+      "Part of an aromatic ring"
+    ],
+    "correct": 2,
+    "explanation": "The carbonyl carbon bears a partial positive charge (δ+) due to the electronegativity of oxygen withdrawing electron density. This makes the carbonyl carbon electrophilic and susceptible to attack by nucleophiles.",
+    "tags": [
+      "organic-chemistry",
+      "carbonyl",
+      "nucleophilic-addition"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In the Fischer esterification reaction, a carboxylic acid reacts with an alcohol under acid catalysis to produce:",
+    "options": [
+      "An aldehyde and water",
+      "An ester and water",
+      "An amide and water",
+      "An anhydride and water"
+    ],
+    "correct": 1,
+    "explanation": "Fischer esterification: RCOOH + R'OH ⇌ RCOOR' + H₂O. It is catalyzed by strong acid (H₂SO₄) and is reversible (equilibrium reaction). Excess alcohol or removal of water drives the reaction toward ester formation.",
+    "tags": [
+      "organic-chemistry",
+      "esterification",
+      "carbonyl"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "An aldol condensation involves:",
+    "options": [
+      "Acid-catalyzed addition of water to a carbonyl",
+      "Oxidation of an aldehyde to a carboxylic acid",
+      "Reduction of a ketone to an alcohol",
+      "A nucleophilic enolate attacking a carbonyl carbon to form a β-hydroxy carbonyl compound"
+    ],
+    "correct": 3,
+    "explanation": "In aldol condensation, a base abstracts an α-hydrogen to form an enolate, which then attacks the carbonyl carbon of another carbonyl compound. The product is a β-hydroxy carbonyl compound (aldol). Dehydration can then occur to give an α,β-unsaturated carbonyl.",
+    "tags": [
+      "organic-chemistry",
+      "aldol-condensation",
+      "carbonyl"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In ¹H NMR spectroscopy, chemical shift (δ) is measured in ppm relative to:",
+    "options": [
+      "CHCl₃ at δ = 0",
+      "Water at δ = 0",
+      "Benzene at δ = 0",
+      "TMS (tetramethylsilane) at δ = 0"
+    ],
+    "correct": 3,
+    "explanation": "TMS (tetramethylsilane, Si(CH₃)₄) is the standard reference for ¹H and ¹³C NMR. Its protons resonate at higher field than most organic protons, and it is assigned δ = 0 ppm. It is chemically inert and volatile (easily removed).",
+    "tags": [
+      "spectroscopy",
+      "nmr"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "In infrared (IR) spectroscopy, the carbonyl (C=O) stretch appears at approximately:",
+    "options": [
+      "~3300 cm⁻¹",
+      "~2200 cm⁻¹",
+      "~1600 cm⁻¹",
+      "~1700 cm⁻¹"
+    ],
+    "correct": 3,
+    "explanation": "The C=O stretch is one of the most diagnostic IR absorptions, appearing near 1700 cm⁻¹ for ketones. Conjugation or ring strain shifts this value: esters ~1735 cm⁻¹, amides ~1680 cm⁻¹, α,β-unsaturated carbonyls ~1680 cm⁻¹.",
+    "tags": [
+      "spectroscopy",
+      "ir",
+      "carbonyl"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Mass spectrometry measures:",
+    "options": [
+      "Mass-to-charge ratio (m/z) of ions",
+      "Electron energy levels",
+      "Nuclear spin transitions",
+      "Frequency of photon absorption"
+    ],
+    "correct": 0,
+    "explanation": "In mass spectrometry, molecules are ionized and fragmented, and the resulting ions are separated by their mass-to-charge ratio (m/z). The molecular ion (M⁺) gives the molecular weight. Fragmentation patterns help determine structure.",
+    "tags": [
+      "spectroscopy",
+      "mass-spectrometry"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A ball is thrown horizontally from a cliff 20 m high with v = 10 m/s. How far from the base does it land? (g = 10 m/s²)",
+    "options": [
+      "20 m",
+      "40 m",
+      "14 m",
+      "10 m"
+    ],
+    "correct": 0,
+    "explanation": "Time to fall: h = ½gt² → 20 = ½(10)t² → t = 2 s. Horizontal distance: x = v₀t = 10 × 2 = 20 m.",
+    "tags": [
+      "mechanics",
+      "projectile-motion"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Newton's second law states:",
+    "options": [
+      "Work equals force times displacement",
+      "F = ma (net force equals mass times acceleration)",
+      "An object at rest stays at rest unless acted on by a net force",
+      "For every action there is an equal and opposite reaction"
+    ],
+    "correct": 1,
+    "explanation": "Newton's second law: the net force on an object equals its mass multiplied by its acceleration (F = ma). This is a vector equation; both F and a have the same direction.",
+    "tags": [
+      "mechanics",
+      "newtons-laws"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The work done by a force F over displacement d at angle θ is:",
+    "options": [
+      "W = Fd cosθ",
+      "W = Fd tanθ",
+      "W = Fd sinθ",
+      "W = Fd/cosθ"
+    ],
+    "correct": 0,
+    "explanation": "Work = F·d (dot product) = Fd cosθ, where θ is the angle between the force vector and displacement vector. Only the component of force parallel to displacement does work.",
+    "tags": [
+      "mechanics",
+      "work-energy"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Conservation of momentum applies when:",
+    "options": [
+      "No external net force acts on the system",
+      "Only conservative forces act",
+      "Kinetic energy is conserved",
+      "The system is in thermal equilibrium"
+    ],
+    "correct": 0,
+    "explanation": "Momentum is conserved (Δp = 0) when the net external force on the system is zero (Newton's second law: F_net = dp/dt). This applies to collisions and explosions where internal forces are much greater than external forces.",
+    "tags": [
+      "mechanics",
+      "conservation-of-momentum"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A satellite in circular orbit: as orbital radius increases, orbital speed:",
+    "options": [
+      "Increases",
+      "Stays the same",
+      "Depends on satellite mass",
+      "Decreases (v = √(GM/r))"
+    ],
+    "correct": 3,
+    "explanation": "For circular orbit, gravitational force provides centripetal force: GMm/r² = mv²/r → v = √(GM/r). As r increases, v decreases. Orbital speed is independent of the satellite's mass.",
+    "tags": [
+      "mechanics",
+      "orbital-mechanics",
+      "gravitation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The moment of inertia of an object depends on:",
+    "options": [
+      "Linear velocity only",
+      "Applied torque only",
+      "Mass only",
+      "Mass and its distribution relative to the rotation axis"
+    ],
+    "correct": 3,
+    "explanation": "Moment of inertia I = Σmᵢrᵢ² depends on both the total mass AND how that mass is distributed relative to the rotation axis. Objects with mass concentrated far from the axis have higher I.",
+    "tags": [
+      "mechanics",
+      "rotational-motion",
+      "moment-of-inertia"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Bernoulli's principle states that in steady fluid flow, as fluid speed increases:",
+    "options": [
+      "Density increases",
+      "Pressure decreases (conservation of energy)",
+      "Pressure stays the same",
+      "Pressure increases"
+    ],
+    "correct": 1,
+    "explanation": "Bernoulli's equation: P + ½ρv² + ρgh = constant. As v increases (e.g., in a constriction), P must decrease to maintain the constant. This explains lift on airfoils and the Venturi effect.",
+    "tags": [
+      "fluids",
+      "bernoulli"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Poiseuille's Law for viscous flow in a tube shows that flow rate Q is proportional to:",
+    "options": [
+      "r² (second power)",
+      "r (first power)",
+      "r³ (third power)",
+      "r⁴ (fourth power of radius)"
+    ],
+    "correct": 3,
+    "explanation": "Poiseuille's Law: Q = πr⁴ΔP/(8ηL). Flow rate is proportional to r⁴, meaning doubling the radius increases flow 16-fold. This has major physiological implications: small changes in vessel radius cause large changes in blood flow.",
+    "tags": [
+      "fluids",
+      "poiseuille",
+      "viscosity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Archimedes' principle states that a submerged object experiences an upward buoyant force equal to:",
+    "options": [
+      "The pressure at the bottom of the object",
+      "The product of object volume and object density times g",
+      "The weight of fluid displaced",
+      "The weight of the object"
+    ],
+    "correct": 2,
+    "explanation": "Archimedes' principle: F_buoyancy = ρ_fluid × V_submerged × g = weight of fluid displaced. An object floats when buoyant force equals its weight, which occurs when object density ≤ fluid density.",
+    "tags": [
+      "fluids",
+      "buoyancy",
+      "archimedes"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Ohm's law states that current through a resistor is:",
+    "options": [
+      "I = VR",
+      "I = V²/R",
+      "I = V/R (proportional to voltage, inversely proportional to resistance)",
+      "I = R/V"
+    ],
+    "correct": 2,
+    "explanation": "Ohm's law: V = IR, or equivalently I = V/R. Current is directly proportional to voltage and inversely proportional to resistance. Note that power P = IV = I²R = V²/R.",
+    "tags": [
+      "electricity",
+      "ohms-law"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Capacitors in series have equivalent capacitance calculated as:",
+    "options": [
+      "1/C_eq = 1/C₁ + 1/C₂ + ... (reciprocal sum)",
+      "C_eq = C₁ + C₂ + ...",
+      "C_eq = (C₁ + C₂)/2",
+      "C_eq = C₁ × C₂/(C₁+C₂) only for exactly two"
+    ],
+    "correct": 0,
+    "explanation": "Capacitors in series: 1/C_eq = 1/C₁ + 1/C₂ + ... (same as resistors in parallel). Capacitors in parallel: C_eq = C₁ + C₂ + ... (same as resistors in series). Series capacitors all have the same charge Q.",
+    "tags": [
+      "electricity",
+      "capacitors"
+    ],
+    "difficulty": "medium"
+  }
+]

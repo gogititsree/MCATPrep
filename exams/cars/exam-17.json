@@ -1,0 +1,160 @@
+[
+  {
+    "passageText": "Philosophy of mind has long grappled with what David Chalmers called the 'hard problem of consciousness': explaining why and how physical processes in the brain give rise to subjective, first-person experience — the redness of red, the painfulness of pain, the qualitative character that philosophers call 'qualia.' The easy problems of consciousness (accounting for cognitive functions, attention, integration of information, reportability of mental states) are tractable in principle through neuroscience and cognitive science. The hard problem is different in kind.\n\nFunctionalists hold that mental states are defined by their causal-functional roles — their relationships to inputs, outputs, and other mental states — rather than by their physical substrate. On this view, any system that instantiates the right functional organization would be conscious, whether implemented in neurons, silicon, or any other medium. Critics argue that functionalism cannot account for qualia: two systems could be functionally identical yet differ in subjective experience (inverted qualia thought experiment), or a system could perform all the right functions while having no inner experience at all (the zombie argument).\n\nPhysicalists respond that intuitions about zombies are systematically misleading — perhaps because our introspective access to our own mental states is unreliable, or because conceivability does not entail metaphysical possibility. Illusionism (Frankish) takes a more radical position: rather than explaining how qualia arise, illusionism holds that the phenomenal properties we introspect are themselves the products of a representational illusion. We don't have rich subjective experience; we represent ourselves as having it.\n\nThe debate has practical stakes. If consciousness can arise in any functional system, then sufficiently sophisticated AI systems might be conscious, with implications for moral status. If consciousness requires biological substrates, AI cannot be conscious regardless of behavioral sophistication. Resolving the hard problem may require either new scientific conceptual frameworks or a revision of our intuitions about what genuine explanation requires.",
+    "questions": [
+      {
+        "text": "The 'hard problem' of consciousness is distinguished from the 'easy problems' in the passage because:",
+        "options": [
+          "The hard problem is unsolvable while the easy problems have been solved",
+          "The hard problem concerns subjective experience, while easy problems concern cognitive and behavioral functions tractable by science",
+          "The hard problem is less important to neuroscience than the easy problems",
+          "Easy problems are about brain anatomy while the hard problem is about psychology"
+        ],
+        "correct": 1,
+        "explanation": "The passage says easy problems (cognitive functions, attention, reportability) are 'tractable in principle through neuroscience and cognitive science,' while the hard problem — why physical processes give rise to subjective experience — 'is different in kind.' The distinction is about type of explanation needed, not solubility."
+      },
+      {
+        "text": "According to the passage, what is the primary objection to functionalism as a theory of consciousness?",
+        "options": [
+          "Functionalism requires a biological substrate for consciousness",
+          "Functionalism cannot explain why functional organization should produce subjective experience (qualia)",
+          "Functionalism is inconsistent with neuroscience",
+          "Functionalism denies that consciousness exists"
+        ],
+        "correct": 1,
+        "explanation": "Critics of functionalism argue it 'cannot account for qualia' — two functionally identical systems could differ in subjective experience (inverted qualia), or a system could be functional without any experience (zombies). The core objection is the explanatory gap between function and qualia."
+      },
+      {
+        "text": "Illusionism (as described in the passage) responds to the hard problem by:",
+        "options": [
+          "Arguing that qualia are physical properties of neurons",
+          "Accepting that qualia exist but are causally inert",
+          "Denying that phenomenal properties are real — they are products of a representational illusion",
+          "Arguing that AI systems can have qualia"
+        ],
+        "correct": 2,
+        "explanation": "The passage describes illusionism (Frankish) as holding that 'phenomenal properties we introspect are themselves the products of a representational illusion' and that 'we don't have rich subjective experience; we represent ourselves as having it.' This dissolves rather than solves the hard problem."
+      },
+      {
+        "text": "The passage suggests that if functionalism is correct, then:",
+        "options": [
+          "Only biological organisms can be conscious",
+          "Sufficiently sophisticated AI systems might be conscious and have moral status",
+          "Consciousness requires quantum processes in microtubules",
+          "The hard problem is unsolvable"
+        ],
+        "correct": 1,
+        "explanation": "The passage states: 'If consciousness can arise in any functional system, then sufficiently sophisticated AI systems might be conscious, with implications for moral status.' This follows directly from functionalism's claim that substrate is irrelevant — only functional organization matters."
+      }
+    ]
+  },
+  {
+    "passageText": "The history of antibiotic resistance illustrates how evolutionary pressures can generate rapid and consequential changes in microbial populations. When Alexander Fleming discovered penicillin in 1928 and mass production began in the 1940s, the drug seemed to offer near-miraculous cures for previously fatal bacterial infections. Within years, however, penicillin-resistant Staphylococcus aureus strains had emerged in hospitals. The development of methicillin in 1960 to combat penicillin-resistant staph was followed, within two years, by the first reports of methicillin-resistant Staphylococcus aureus (MRSA).\n\nThe evolutionary dynamics of resistance are well understood. In any bacterial population, individual cells vary genetically. Antibiotic treatment creates intense selective pressure, eliminating susceptible cells while any cells harboring resistance mechanisms survive and proliferate. Resistance can arise de novo through spontaneous mutation, or can be acquired via horizontal gene transfer — plasmids, transposons, and bacteriophage-mediated transduction can rapidly distribute resistance genes across species boundaries. This horizontal transfer is particularly alarming because it can move resistance determinants between clinically significant pathogens in ways that vertical (parent-to-offspring) evolution alone could not achieve in relevant time frames.\n\nThe problem of antibiotic resistance is compounded by the economics of pharmaceutical development. Antibiotics are taken briefly and must be sold cheaply; return on investment is modest compared to drugs for chronic conditions. The WHO has classified antibiotic resistance as one of the greatest threats to global health, yet the development pipeline for novel antibiotics has thinned dramatically since the 1980s. Several approaches have been proposed: antibiotic stewardship programs to reduce inappropriate use; restrictions on agricultural antibiotic use (antibiotics are used extensively in livestock to promote growth); and new incentive structures for pharmaceutical companies, including market-entry rewards decoupled from sales volume.\n\nSome researchers advocate returning to bacteriophage therapy — using viruses that kill specific bacteria — as an alternative or supplement to antibiotics. Phage therapy was widely used in Eastern Europe and the Soviet Union during the twentieth century but largely abandoned in the West after antibiotics proved more reliable. Modern phage therapy has the advantage of targeting specific pathogens (minimizing collateral damage to the microbiome) but faces regulatory challenges because phage preparations must often be customized for individual patients.",
+    "questions": [
+      {
+        "text": "The author uses the example of penicillin and MRSA primarily to:",
+        "options": [
+          "Criticize Fleming for not anticipating resistance",
+          "Illustrate the speed with which antibiotic resistance can emerge after a new drug's introduction",
+          "Argue that antibiotics should never have been developed",
+          "Explain the chemistry of methicillin"
+        ],
+        "correct": 1,
+        "explanation": "The passage uses the timeline — penicillin in the 1940s, resistance within years; methicillin in 1960, MRSA within two years — to illustrate how quickly resistance evolves. This sets up the broader evolutionary discussion. There is no criticism of Fleming's foresight."
+      },
+      {
+        "text": "According to the passage, horizontal gene transfer is particularly alarming in the context of antibiotic resistance because:",
+        "options": [
+          "It occurs only within a single species",
+          "It allows resistance genes to spread across species boundaries faster than vertical evolution could",
+          "It requires antibiotic exposure to occur",
+          "It only moves resistance genes through bacteriophages"
+        ],
+        "correct": 1,
+        "explanation": "The passage states horizontal transfer 'can move resistance determinants between clinically significant pathogens in ways that vertical evolution alone could not achieve in relevant time frames.' The key concern is cross-species spread at speed that exceeds what mutation and vertical inheritance could accomplish."
+      },
+      {
+        "text": "The passage suggests that the thin antibiotic development pipeline results primarily from:",
+        "options": [
+          "A lack of scientific knowledge about new antibiotic targets",
+          "Government regulations preventing clinical trials",
+          "Economic disincentives: antibiotics generate modest returns compared to drugs for chronic conditions",
+          "The success of bacteriophage therapy as an alternative"
+        ],
+        "correct": 2,
+        "explanation": "The passage states: 'Antibiotics are taken briefly and must be sold cheaply; return on investment is modest compared to drugs for chronic conditions.' This economic argument explains the thin pipeline. The passage does not mention regulatory barriers to trials or suggest phage therapy has replaced antibiotics."
+      },
+      {
+        "text": "Based on the passage, which of the following is cited as an advantage of bacteriophage therapy over conventional antibiotics?",
+        "options": [
+          "Phages are cheaper to produce than antibiotics",
+          "Phages have a broader spectrum of activity than most antibiotics",
+          "Phages target specific pathogens, minimizing disruption to the microbiome",
+          "Phage therapy has been rigorously tested in Western clinical trials"
+        ],
+        "correct": 2,
+        "explanation": "The passage explicitly states that modern phage therapy has 'the advantage of targeting specific pathogens (minimizing collateral damage to the microbiome).' The passage does not compare production costs, does not claim broad spectrum activity (in fact the opposite — phages are specific), and notes that phage therapy faces regulatory challenges in the West."
+      },
+      {
+        "text": "Which of the following interventions mentioned in the passage addresses resistance at the level of reducing the selective pressure that drives resistance evolution?",
+        "options": [
+          "Market-entry rewards decoupled from sales volume",
+          "Antibiotic stewardship programs to reduce inappropriate use",
+          "Restricting pharmaceutical company profits",
+          "Developing phage therapy as an alternative"
+        ],
+        "correct": 1,
+        "explanation": "Evolutionary dynamics of resistance are driven by antibiotic selective pressure eliminating susceptible bacteria. Stewardship programs reduce inappropriate use, thereby reducing selective pressure. Market-entry rewards address economic incentives for development; phage therapy is an alternative treatment — neither directly reduces selective pressure on existing antibiotics."
+      }
+    ]
+  },
+  {
+    "passageText": "The sociology of science, developed by Robert Merton and later transformed by constructivists, asks not only what science discovers but how scientific knowledge is produced, legitimated, and contested. Merton's normative account identified four institutional imperatives guiding ideal scientific conduct: communalism (knowledge as public property), universalism (truth claims evaluated on merit, not the social characteristics of the claimant), disinterestedness (scientists motivated by the advancement of knowledge, not personal gain), and organized skepticism (systematic scrutiny of all claims).\n\nConstructivists (Bloor, Collins, Latour) challenged the Mertonian picture by arguing that scientific knowledge, including even natural science, is socially constructed — that facts are not simply discovered but are produced through social processes of negotiation, credentialing, and institutionalization. The laboratory studies tradition showed that what counts as a successful experiment depends on judgments about instrument reliability, competence of experimenters, and interpretive conventions that cannot be derived from the data alone.\n\nThe resulting 'science wars' of the 1990s pitted constructivists against scientists and philosophers who argued that strong constructivism collapses into relativism — if all knowledge claims are equally socially constructed, then the germ theory of disease is no more epistemically privileged than pre-modern humoral medicine. Constructivists typically respond that they are not committed to relativism but to symmetry: applying the same standards of sociological explanation to successful and failed scientific claims, rather than explaining success by 'truth' and failure by 'social factors.'\n\nThese debates have practical stakes in an era of scientific skepticism. Public distrust of expert consensus on vaccination, climate change, and evolution is partly fueled by the perception — sometimes deliberately cultivated by interests opposed to regulation — that scientific knowledge is merely one 'narrative' among many. Sociologists of science face the challenge of explaining the social dimensions of knowledge production without inadvertently providing rhetorical resources for antiscience movements.",
+    "questions": [
+      {
+        "text": "According to Merton's normative account, which principle requires that scientific claims be evaluated on their merits regardless of who makes them?",
+        "options": [
+          "Communalism",
+          "Universalism",
+          "Disinterestedness",
+          "Organized skepticism"
+        ],
+        "correct": 1,
+        "explanation": "The passage defines universalism as the principle that 'truth claims [are] evaluated on merit, not the social characteristics of the claimant.' This means a scientist's race, gender, nationality, or status should be irrelevant to the evaluation of their claims."
+      },
+      {
+        "text": "Constructivists' 'symmetry principle' as described in the passage means that:",
+        "options": [
+          "All scientific theories are equally true",
+          "Social factors explain failed science but not successful science",
+          "Both successful and failed scientific claims should be explained by the same sociological standards",
+          "Science and non-science should be treated as equivalent"
+        ],
+        "correct": 2,
+        "explanation": "The passage states constructivists claim 'symmetry: applying the same standards of sociological explanation to successful and failed scientific claims, rather than explaining success by truth and failure by social factors.' This is a methodological stance, not a claim about the truth of scientific theories."
+      },
+      {
+        "text": "The author presents the concern in the final paragraph about antiscience movements as:",
+        "options": [
+          "Proof that constructivism is wrong",
+          "A practical challenge for sociologists of science who must explain social dimensions of knowledge without lending credibility to antiscience rhetoric",
+          "Evidence that public skepticism about science is justified",
+          "An argument that scientists should control their public communications more tightly"
+        ],
+        "correct": 1,
+        "explanation": "The passage frames this as a challenge ('sociologists of science face the challenge of explaining...without inadvertently providing rhetorical resources for antiscience movements'). The author does not conclude that constructivism is wrong, does not endorse skepticism, and does not advocate for communication control."
+      },
+      {
+        "text": "The strongest objection to strong constructivism mentioned in the passage is that it:",
+        "options": [
+          "Ignores the role of experiments in science",
+          "Collapses into relativism, making the germ theory no more valid than humoral medicine",
+          "Cannot explain why some experiments fail to replicate",
+          "Denies that social factors influence science at all"
+        ],
+        "correct": 1,
+        "explanation": "The passage states that critics argue 'strong constructivism collapses into relativism — if all knowledge claims are equally socially constructed, then the germ theory of disease is no more epistemically privileged than pre-modern humoral medicine.' This is explicitly identified as the core objection."
+      }
+    ]
+  }
+]

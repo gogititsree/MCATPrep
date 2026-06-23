@@ -1,411 +1,427 @@
 [
   {
-    "text": "Chaperone proteins (e.g., Hsp70, GroEL) assist in protein folding by:",
+    "text": "A patient with Wilson's disease has impaired copper metabolism. Which protein is defective, and what is the consequence?",
     "options": [
-      "Degrading misfolded proteins exclusively",
-      "Catalyzing disulfide bond formation",
-      "Directly specifying the final folded structure",
-      "Preventing premature/incorrect aggregation by transiently binding exposed hydrophobic regions"
-    ],
-    "correct": 3,
-    "explanation": "Molecular chaperones bind to exposed hydrophobic regions of nascent or unfolded polypeptides, preventing aggregation and providing a protected environment for folding. ATP hydrolysis drives cycles of binding and release, giving the protein repeated chances to fold correctly. Chaperones do not specify the final folded structure — that information is in the primary sequence (Anfinsen's principle).",
-    "tags": [
-      "protein structure",
-      "chaperones",
-      "folding"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "The proteasome degrades proteins that are tagged with:",
-    "options": [
-      "Acetyl groups",
-      "Phosphate groups",
-      "Ubiquitin chains (polyubiquitination)",
-      "Glycosyl groups"
-    ],
-    "correct": 2,
-    "explanation": "The ubiquitin-proteasome system (UPS) marks proteins for degradation: ubiquitin ligases attach ubiquitin chains (usually K48-linked polyubiquitin) to target proteins. The 26S proteasome recognizes polyubiquitin, unfolds the protein, and degrades it into short peptides. This is the main pathway for regulated protein degradation in eukaryotes.",
-    "tags": [
-      "protein structure",
-      "ubiquitin-proteasome",
-      "protein degradation"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which immunoglobulin class is most abundant in serum and crosses the placenta?",
-    "options": [
-      "IgA",
-      "IgM",
-      "IgG",
-      "IgE"
-    ],
-    "correct": 2,
-    "explanation": "IgG is the most abundant immunoglobulin (~80% of serum Ig) and the only class that crosses the placenta (via FcRn receptors), providing passive immunity to the fetus and newborn for the first months of life. IgM is produced first in an immune response (pentamer, good at complement activation). IgA is the main Ig in mucosal secretions. IgE mediates allergic responses and anti-parasite immunity.",
-    "tags": [
-      "protein structure",
-      "immunology"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Beta-lactam antibiotics (penicillins, cephalosporins) work by:",
-    "options": [
-      "Blocking dihydrofolate reductase",
-      "Inhibiting the bacterial 50S ribosomal subunit",
-      "Disrupting bacterial cell membranes",
-      "Irreversibly inhibiting transpeptidase (PBP) enzymes that crosslink peptidoglycan in bacterial cell walls"
-    ],
-    "correct": 3,
-    "explanation": "Beta-lactam antibiotics mimic the D-Ala-D-Ala terminus of peptidoglycan precursors and covalently acylate penicillin-binding proteins (PBPs = transpeptidases), blocking crosslinking of peptidoglycan strands. This weakens the cell wall, causing lysis. Bacteria acquire resistance via beta-lactamases (hydrolyze the beta-lactam ring) or altered PBPs (MRSA).",
-    "tags": [
-      "protein structure",
-      "antibiotics",
-      "microbiology"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Collagen is unusually stable because of its unique triple helix structure. What amino acid is essential at every third position in collagen?",
-    "options": [
-      "Hydroxyproline",
-      "Glycine",
-      "Alanine",
-      "Proline"
+      "Ceruloplasmin synthesis is impaired, causing copper accumulation in blood",
+      "ATP7B (copper-transporting ATPase) in hepatocytes is defective, impairing biliary copper excretion — copper accumulates in liver, brain (neuropsychiatric symptoms), and cornea (Kayser-Fleischer rings)",
+      "The copper chaperone ATOX1 is deficient, preventing copper delivery to ceruloplasmin",
+      "The intestinal copper transporter Ctr1 is overactive, causing excess copper absorption"
     ],
     "correct": 1,
-    "explanation": "Collagen has the repeating sequence Gly-X-Y, where Gly at every third position is absolutely required. The triple helix packs three chains tightly, and only glycine (the smallest amino acid, R = H) can fit in the central space of the triple helix without steric clash. Mutations substituting even one Gly cause osteogenesis imperfecta.",
+    "explanation": "Wilson's disease (autosomal recessive) involves mutation of ATP7B, a copper-transporting P-type ATPase in hepatocytes. ATP7B normally exports copper into bile for excretion and incorporates copper into ceruloplasmin. Deficiency leads to copper accumulation: hepatocellular damage → cirrhosis; basal ganglia deposition → tremor, dysarthria; corneal deposition → Kayser-Fleischer rings. Treatment: copper chelation (penicillamine, trientine) or zinc (blocks intestinal absorption).",
     "tags": [
-      "protein structure",
-      "collagen"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Sickle cell anemia results from which mutation in hemoglobin?",
-    "options": [
-      "A deletion in the alpha-globin gene",
-      "Val→Glu substitution at position 6 of the beta-globin chain (HbS: glutamic acid replaced by valine)",
-      "Incorrect disulfide bond formation",
-      "Phosphorylation of histidine in the active site"
-    ],
-    "correct": 1,
-    "explanation": "HbS has a single nucleotide change (GAG→GTG) causing substitution of hydrophilic Glu with hydrophobic Val at position 6 of beta-globin. In the deoxy (T) state, this Val fits into a hydrophobic pocket on an adjacent beta-chain, causing polymerization. These long fibers distort RBCs into sickle shapes, causing hemolysis, vaso-occlusion, and pain crises. HbS provides heterozygote protection against malaria.",
-    "tags": [
-      "protein structure",
-      "hemoglobin",
+      "biochemistry",
+      "metal metabolism",
       "genetic disease"
     ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which type of RNA polymerase transcribes mRNA precursors (pre-mRNA) in eukaryotes?",
+    "options": [
+      "RNA polymerase I",
+      "RNA polymerase II",
+      "RNA polymerase III",
+      "Primase"
+    ],
+    "correct": 1,
+    "explanation": "RNA Pol II transcribes all protein-coding genes (pre-mRNA), as well as most snRNA and miRNA precursors. RNA Pol I transcribes rRNA (28S, 18S, 5.8S — ~80% of total RNA). RNA Pol III transcribes tRNA, 5S rRNA, and other small RNAs. Alpha-amanitin (from Amanita phalloides mushrooms) potently inhibits RNA Pol II at low concentrations.",
+    "tags": [
+      "molecular biology",
+      "transcription",
+      "RNA polymerase"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A mutation in the gene encoding spectrin would most directly affect which cellular structure?",
+    "options": [
+      "Nuclear lamina",
+      "The red blood cell cytoskeleton — spectrin forms the flexible network underlying the RBC membrane, maintaining biconcave shape and deformability",
+      "Intermediate filaments in neurons",
+      "Microtubule organizing center (MTOC)"
+    ],
+    "correct": 1,
+    "explanation": "Spectrin (α and β subunits form heterodimers) is the major protein of the erythrocyte cytoskeletal network, connected to the plasma membrane via ankyrin (to band 3) and protein 4.1 (to glycophorin C). It provides the structural basis for RBC flexibility and biconcave shape. Mutations cause hereditary spherocytosis (osmotically fragile, spherical RBCs → hemolytic anemia).",
+    "tags": [
+      "cell biology",
+      "cytoskeleton",
+      "red blood cell"
+    ],
     "difficulty": "medium"
   },
   {
-    "text": "Antibody diversity is primarily generated by which mechanism?",
+    "text": "What is the biochemical basis of sickle cell disease?",
     "options": [
-      "Alternative splicing only",
-      "V(D)J recombination — somatic recombination of variable, diversity, and joining gene segments",
-      "Copy number variation in the germ line",
-      "Point mutations in germ cells"
+      "A frameshift mutation causing premature stop in the β-globin gene",
+      "A single missense mutation (Glu6Val) in the β-globin gene — hydrophobic valine replaces glutamate, allowing deoxygenated HbS to polymerize into fibers that distort RBCs into sickle shape",
+      "Deletion of the α-globin gene cluster",
+      "A nonsense mutation in the γ-globin gene"
     ],
     "correct": 1,
-    "explanation": "V(D)J recombination randomly joins one V, D, and J segment (heavy chain) or V and J segments (light chain) in developing B cells, creating enormous receptor diversity (~10^11 combinations). Additional diversity comes from junctional imprecision (P and N nucleotide addition) and somatic hypermutation (after antigen exposure). This process underlies the ability to recognize virtually any antigen.",
+    "explanation": "SCD is caused by a point mutation (GAG→GTG at codon 6) encoding a glutamate→valine substitution in β-globin. Deoxygenated HbS polymerizes via hydrophobic interactions between the Val6 on one β chain and a hydrophobic pocket on an adjacent HbS molecule. Sickling causes vaso-occlusion, hemolysis, and organ damage. Heterozygotes (HbAS) have relative protection against falciparum malaria.",
     "tags": [
-      "protein structure",
-      "immunology",
+      "genetics",
+      "hemoglobin",
+      "sickle cell disease"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which of the following best explains why the inner mitochondrial membrane must be impermeable to H+ ions?",
+    "options": [
+      "To prevent H+ from reacting with O2 and forming water prematurely",
+      "To maintain the proton gradient (ΔμH+) generated by the electron transport chain — this electrochemical gradient drives H+ back through ATP synthase (Complex V) to synthesize ATP (chemiosmosis)",
+      "To prevent ATP from leaking out of the mitochondrial matrix",
+      "To allow only NADH to cross the membrane freely"
+    ],
+    "correct": 1,
+    "explanation": "The ETC pumps H+ from the matrix to the intermembrane space, creating a proton-motive force (PMF) consisting of a chemical gradient (ΔpH) and an electrical gradient (ΔΨ). The inner membrane's impermeability to H+ forces protons to return through ATP synthase's F0 channel, driving rotation of the F1 subunit and ATP synthesis. Uncouplers (e.g., DNP, thermogenin/UCP1) dissipate the gradient, producing heat instead of ATP.",
+    "tags": [
+      "biochemistry",
+      "oxidative phosphorylation",
+      "chemiosmosis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A student discovers a new bacterium that lacks a cell wall. This organism would be most similar to which known organisms?",
+    "options": [
+      "Chlamydia (obligate intracellular parasites)",
+      "Mycoplasma — bacteria that naturally lack cell walls and are the smallest self-replicating organisms; naturally resistant to penicillins and cephalosporins",
+      "Archaea in high-temperature environments",
+      "Prions"
+    ],
+    "correct": 1,
+    "explanation": "Mycoplasma (and related genera like Ureaplasma) are the only bacteria that naturally lack a peptidoglycan cell wall. Their plasma membrane contains sterols for stability (unusual for bacteria). They are naturally resistant to beta-lactam antibiotics and vancomycin (which target cell wall synthesis). Atypical pneumonia caused by M. pneumoniae is treated with macrolides, fluoroquinolones, or tetracyclines.",
+    "tags": [
+      "microbiology",
+      "bacteria",
+      "cell wall"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In which phase of mitosis do chromosomes align at the metaphase plate?",
+    "options": [
+      "Prophase",
+      "Metaphase",
+      "Anaphase",
+      "Telophase"
+    ],
+    "correct": 1,
+    "explanation": "During metaphase, the mitotic spindle (kinetochore microtubules) aligns chromosomes at the cell's equatorial plane (metaphase plate). The spindle assembly checkpoint (SAC) ensures all kinetochores are properly attached to spindle fibers before anaphase onset. In anaphase, sister chromatids are pulled apart to opposite poles (driven by depolymerization of kinetochore microtubules and motor proteins).",
+    "tags": [
+      "cell biology",
+      "mitosis",
+      "cell division"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A cell-surface receptor that, upon ligand binding, dimerizes and autophosphorylates its own tyrosine residues best describes:",
+    "options": [
+      "A G protein-coupled receptor (GPCR)",
+      "A receptor tyrosine kinase (RTK) — e.g., EGFR, PDGFR, insulin receptor; activation leads to SH2 domain recruitment, Ras activation, and MAPK/PI3K signaling",
+      "A nuclear receptor",
+      "A cytokine receptor signaling via JAK-STAT"
+    ],
+    "correct": 1,
+    "explanation": "RTKs are single-pass transmembrane proteins with extracellular ligand-binding domains and intracellular kinase domains. Ligand binding → dimerization → transautophosphorylation of tyrosine residues in the activation loop and on receptor tails. Phosphotyrosines recruit SH2-domain proteins (Grb2, PI3K, PLCγ) → Ras/MAPK, PI3K/Akt cascades. Mutations causing constitutive RTK activity drive many cancers.",
+    "tags": [
+      "cell biology",
+      "signal transduction",
+      "receptor tyrosine kinase"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "What is the role of the TATA box in eukaryotic transcription?",
+    "options": [
+      "It is a coding sequence translated into the N-terminal signal peptide",
+      "It is a core promoter element recognized by TATA-binding protein (TBP, part of TFIID), positioning RNA polymerase II for accurate transcription initiation approximately 25 bp downstream",
+      "It marks the site of 3' polyadenylation",
+      "It is the sequence recognized by spliceosomes for intron removal"
+    ],
+    "correct": 1,
+    "explanation": "The TATA box (consensus TATAAA) is located ~25-30 bp upstream of the transcription start site in many but not all eukaryotic promoters (~24% of human gene promoters). TBP binds the minor groove of the TATA box, severely bending DNA and nucleating the assembly of the pre-initiation complex (PIC) including TFIIA, TFIIB, TFIID, TFIIE, TFIIF, TFIIH, and RNA Pol II.",
+    "tags": [
+      "molecular biology",
+      "transcription",
+      "promoter"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A researcher observes that a tumor cell has lost expression of the gene encoding p16 (CDKN2A/Ink4a). What is the consequence for the cell cycle?",
+    "options": [
+      "Constitutive activation of the p53 pathway",
+      "Loss of G1/S checkpoint control — p16 inhibits CDK4/6, which normally phosphorylates Rb to release E2F transcription factors; without p16, CDK4/6 is constitutively active, Rb is hyperphosphorylated, E2F is freed, and cells continuously enter S phase",
+      "Cells arrest in G2/M due to unrestricted CDK1 activity",
+      "Cells undergo constitutive apoptosis via the intrinsic pathway"
+    ],
+    "correct": 1,
+    "explanation": "p16 (encoded by CDKN2A) is a CDK inhibitor that blocks CDK4/6 activity. CDK4/6 with cyclin D phosphorylate Rb, releasing E2F to drive S-phase gene expression. Without p16, CDK4/6 activity is unrestricted → Rb hyperphosphorylation → uncontrolled E2F activity → uncontrolled S-phase entry and proliferation. CDKN2A is the second most commonly mutated gene in human cancer (after TP53).",
+    "tags": [
+      "cell biology",
+      "cell cycle",
+      "tumor suppressors"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "The enzyme that catalyzes the first committed step of glycolysis is:",
+    "options": [
+      "Hexokinase (glucose → glucose-6-phosphate)",
+      "Phosphofructokinase-1 (PFK-1): fructose-6-phosphate → fructose-1,6-bisphosphate — the rate-limiting, regulated, irreversible committed step",
+      "Pyruvate kinase",
+      "Phosphoglucose isomerase"
+    ],
+    "correct": 1,
+    "explanation": "PFK-1 catalyzes the rate-limiting, committed step of glycolysis. It is activated by AMP, ADP, fructose-2,6-bisphosphate (F-2,6-BP; highest-impact activator, produced by PFK-2) and inhibited by ATP and citrate (indicating cellular energy/biosynthetic sufficiency). Hexokinase commits glucose to glycolysis, but is not the rate-limiting step. PFK-1 is the primary regulatory checkpoint.",
+    "tags": [
+      "biochemistry",
+      "glycolysis",
+      "enzyme regulation"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Botulinum toxin causes flaccid paralysis by which mechanism?",
+    "options": [
+      "Blocking nicotinic ACh receptors on skeletal muscle",
+      "Cleaving SNARE proteins (SNAP-25 or synaptobrevin/VAMP) required for synaptic vesicle fusion at the neuromuscular junction, preventing ACh release",
+      "Irreversibly inhibiting acetylcholinesterase, causing sustained depolarization and receptor desensitization",
+      "Blocking voltage-gated Ca2+ channels at the presynaptic terminal"
+    ],
+    "correct": 1,
+    "explanation": "Botulinum toxin (BoNT, produced by Clostridium botulinum) is a Zn2+-dependent protease that cleaves SNARE complex proteins — SNAP-25 (BoNT/A, E), synaptobrevin/VAMP (BoNT/B, D, F, G), or syntaxin (BoNT/C). SNARE proteins mediate synaptic vesicle fusion with the presynaptic membrane; their cleavage prevents ACh release, causing flaccid paralysis. Tetanus toxin also cleaves SNARE proteins but acts at inhibitory interneurons.",
+    "tags": [
+      "physiology",
+      "neurotoxin",
+      "neuromuscular junction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following describes the mechanism by which aspirin (acetylsalicylic acid) inhibits cyclooxygenase (COX)?",
+    "options": [
+      "Reversible competitive inhibition — aspirin competes with arachidonic acid at the active site",
+      "Irreversible covalent acetylation of a serine residue in the COX active site, permanently blocking arachidonic acid access and inhibiting thromboxane A2 and prostaglandin synthesis",
+      "Allosteric inhibition by binding a regulatory site on COX",
+      "Irreversible inhibition via zinc chelation in the COX active site"
+    ],
+    "correct": 1,
+    "explanation": "Aspirin irreversibly acetylates Ser530 in COX-1 and Ser516 in COX-2, blocking the channel through which arachidonic acid accesses the active site. This prevents thromboxane A2 synthesis in platelets (which lack nuclei and cannot synthesize new COX) for the platelet's entire lifespan (~10 days). Other NSAIDs (ibuprofen, naproxen) are reversible COX inhibitors.",
+    "tags": [
+      "pharmacology",
+      "prostaglandins",
+      "aspirin"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A patient with Lesch-Nyhan syndrome has a deficiency of hypoxanthine-guanine phosphoribosyltransferase (HGPRT). What metabolic consequence results?",
+    "options": [
+      "Elevated orotic acid due to pyrimidine overproduction",
+      "Elevated uric acid due to failure to salvage hypoxanthine and guanine — purines cannot be recycled and are instead fully degraded to uric acid via xanthine oxidase",
+      "Elevated homocysteine due to impaired methionine recycling",
+      "Deficient purine de novo synthesis causing anemia"
+    ],
+    "correct": 1,
+    "explanation": "HGPRT is required for the purine salvage pathway: hypoxanthine + PRPP → IMP, and guanine + PRPP → GMP. Without HGPRT, purines are not recycled; PRPP accumulates and drives increased de novo purine synthesis and degradation, producing excess uric acid. Gout, nephrolithiasis, and characteristic self-mutilation (choreoathetosis, intellectual disability) result. Treatment: allopurinol (xanthine oxidase inhibitor).",
+    "tags": [
+      "biochemistry",
+      "purine metabolism",
+      "Lesch-Nyhan"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "What is the role of the Golgi apparatus in protein processing?",
+    "options": [
+      "Synthesis of all membrane proteins",
+      "Processing, sorting, and trafficking of proteins from the ER — includes glycosylation modification (trimming and addition of sugars), proteolytic cleavage, sulfation, and sorting to destinations (lysosomes, plasma membrane, secretion)",
+      "Degradation of misfolded proteins via the UPR",
+      "ATP-dependent protein folding by chaperones"
+    ],
+    "correct": 1,
+    "explanation": "Proteins arrive at the Golgi cis face from the ER and traffic through medial to trans Golgi, undergoing sequential modifications: N-glycan remodeling (trimming mannose, adding GlcNAc, galactose, sialic acid), O-glycosylation, sulfation, and phosphorylation. In the trans Golgi network (TGN), proteins are sorted: mannose-6-phosphate tags target proteins to lysosomes; others go to the plasma membrane or are secreted.",
+    "tags": [
+      "cell biology",
+      "Golgi",
+      "protein trafficking"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A patient has elevated serum levels of unconjugated bilirubin and is jaundiced, but liver enzymes and conjugated bilirubin are normal. The most likely cause is:",
+    "options": [
+      "Obstruction of the bile duct",
+      "Prehepatic (hemolytic) jaundice — excess RBC breakdown releases unconjugated (indirect) bilirubin faster than the liver can conjugate it; alternatively, impaired conjugation (Gilbert's syndrome: reduced UGT1A1)",
+      "Hepatocellular damage impairing all liver functions",
+      "Impaired secretion of conjugated bilirubin into bile (Dubin-Johnson syndrome)"
+    ],
+    "correct": 1,
+    "explanation": "Unconjugated hyperbilirubinemia with normal liver function suggests either overproduction (hemolysis) or impaired conjugation (Gilbert's syndrome: benign UGT1A1 variant; Crigler-Najjar: severe UGT1A1 deficiency). Conjugated hyperbilirubinemia indicates post-hepatic obstruction or impaired secretion. In hepatocellular disease, both forms elevate along with transaminases.",
+    "tags": [
+      "biochemistry",
+      "bilirubin",
+      "jaundice"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following is true about the SOS response in bacteria?",
+    "options": [
+      "It is an immediate response to oxidative stress mediated by catalase induction",
+      "It is an emergency DNA repair system activated when RecA binds ssDNA at stalled replication forks — RecA-ssDNA complex promotes LexA auto-cleavage, derepressing ~40 SOS genes including those for error-prone translesion synthesis polymerases",
+      "It activates flagellar motility to escape DNA-damaging environments",
+      "It triggers biofilm formation in response to antibiotic treatment"
+    ],
+    "correct": 1,
+    "explanation": "The SOS response is activated when RecA binds to ssDNA accumulated at stalled replication forks. RecA-ssDNA filament acts as a coprotease, stimulating LexA repressor to cleave itself, derepressing ~40 genes including UvrABC (NER), RecA, sulA (cell division inhibitor), and error-prone polymerases (Pol IV/DinB, Pol V/UmuC-UmuD). Mutagenic SOS repair (translesion synthesis) allows replication past damaged templates at the cost of accuracy.",
+    "tags": [
+      "microbiology",
+      "DNA repair",
+      "SOS response"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "What happens to the free energy change (ΔG) of a biochemical reaction as products accumulate?",
+    "options": [
+      "ΔG becomes more negative, driving the reaction further forward",
+      "ΔG becomes less negative (or more positive), because ΔG = ΔG° + RT ln Q, and increasing Q (product/reactant ratio) raises ΔG toward zero (equilibrium)",
+      "ΔG remains constant because it is determined solely by ΔG°",
+      "ΔG becomes more positive at first, then abruptly becomes negative"
+    ],
+    "correct": 1,
+    "explanation": "ΔG = ΔG° + RT ln([products]/[reactants]). As products accumulate, the reaction quotient Q increases, making RT ln Q more positive (less negative), and ΔG approaches zero (equilibrium). At equilibrium, ΔG = 0 (no driving force). Cells maintain reactions far from equilibrium by continuously consuming products (coupling reactions) to keep Q << Keq and ΔG negative.",
+    "tags": [
+      "biochemistry",
+      "thermodynamics",
+      "free energy"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A neonate presents with cataracts, jaundice, liver disease, and hypoglycemia after breast feeding. Reducing substances are found in the urine but not glucose. Which enzyme is most likely deficient?",
+    "options": [
+      "Glucose-6-phosphatase (von Gierke disease)",
+      "Galactose-1-phosphate uridylyltransferase (GALT) — classic galactosemia; galactose-1-phosphate and galactitol accumulate, causing liver damage, cataracts (galactitol), and intellectual disability",
+      "Galactokinase alone (milder, cataracts only)",
+      "Fructose-1,6-bisphosphatase"
+    ],
+    "correct": 1,
+    "explanation": "Classic galactosemia (GALT deficiency) causes accumulation of galactose-1-phosphate (toxic to liver, kidney, brain) and galactitol (toxic to lens → cataracts). Galactose (from lactose in breast milk) is a reducing sugar detected by Clinitest (copper reduction) but not by glucose oxidase dipstick. Treatment: eliminate lactose and galactose from diet. Galactokinase deficiency causes only cataracts (galactitol only).",
+    "tags": [
+      "biochemistry",
+      "carbohydrate metabolism",
+      "galactosemia"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In a Hardy-Weinberg equilibrium population, if the frequency of an autosomal recessive disease is 1/10,000, what is the carrier frequency?",
+    "options": [
+      "1/100",
+      "Approximately 1/50 (2pq ≈ 2q for rare alleles, where q = 1/100 since q² = 1/10,000)",
+      "1/10,000",
+      "1/200"
+    ],
+    "correct": 1,
+    "explanation": "If q² = 1/10,000, then q = 1/100 (allele frequency). p = 1 − q ≈ 1 (for rare alleles). Carrier frequency = 2pq ≈ 2(1)(1/100) = 1/50. For rare autosomal recessive conditions, there are approximately 2/q × more carriers than affected individuals. This is essential for genetic counseling: a population disease frequency of 1/10,000 means ~2% are carriers.",
+    "tags": [
+      "genetics",
+      "Hardy-Weinberg",
+      "population genetics"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which organelle is primarily responsible for the degradation of hydrogen peroxide?",
+    "options": [
+      "Lysosomes, using acid hydrolases",
+      "Peroxisomes, using catalase (2 H₂O₂ → 2 H₂O + O₂)",
+      "Mitochondria, using glutathione peroxidase",
+      "The endoplasmic reticulum, using cytochrome P450"
+    ],
+    "correct": 1,
+    "explanation": "Peroxisomes are organelles that contain catalase, which dismutates H₂O₂ to water and O₂. Peroxisomes also perform fatty acid β-oxidation (of very long chain fatty acids), plasmalogen synthesis, and bile acid synthesis. Zellweger syndrome (absent peroxisomes) causes accumulation of VLCFA and bile acid precursors. Lysosomes use acid hydrolases at pH ~5; mitochondria use glutathione peroxidase and superoxide dismutase.",
+    "tags": [
+      "cell biology",
+      "peroxisomes",
+      "reactive oxygen species"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A patient is given a drug that blocks all muscarinic acetylcholine receptors. Which of the following effects would be expected?",
+    "options": [
+      "Bradycardia and increased GI motility",
+      "Tachycardia, dry mouth, constipation, urinary retention, mydriasis, and decreased secretions — classic anticholinergic (antimuscarinic) effects",
+      "Skeletal muscle paralysis",
+      "Hypertension from α1-adrenergic receptor activation"
+    ],
+    "correct": 1,
+    "explanation": "Muscarinic receptors mediate parasympathetic effects: decreased heart rate (M2 in SA node), increased GI motility and secretions (M3), pupillary constriction (M3 in iris sphincter), bladder contraction (M3). Blocking muscarinic receptors with atropine or scopolamine produces the opposite: tachycardia, constipation, urinary retention, mydriasis, dry mouth, anhidrosis. Mnemonic: 'Can't see, can't pee, can't spit, can't sh*t, heart races, skin is dry.'",
+    "tags": [
+      "pharmacology",
+      "autonomic nervous system",
+      "muscarinic receptors"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A point mutation changes a codon from UGG (Trp) to UAG. This mutation is best described as a:",
+    "options": [
+      "Missense mutation",
+      "Nonsense mutation — UAG is an amber stop codon; premature termination truncates the protein, typically causing loss of function",
+      "Silent mutation",
+      "Frameshift mutation"
+    ],
+    "correct": 1,
+    "explanation": "Nonsense mutations convert an amino acid codon to a stop codon (UAA, UAG, UGA), causing premature translation termination. The resulting truncated protein is usually non-functional and often degraded by nonsense-mediated decay (NMD). Missense mutations change one amino acid to another. Silent (synonymous) mutations change a codon but encode the same amino acid. Frameshift mutations alter the reading frame.",
+    "tags": [
+      "genetics",
+      "mutation types",
       "molecular biology"
     ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "The Michaelis constant (Km) reflects:",
-    "options": [
-      "The number of active sites per enzyme molecule",
-      "Maximum reaction velocity",
-      "The concentration of product that inhibits the enzyme",
-      "Substrate concentration at which v = Vmax/2; inversely related to enzyme-substrate affinity"
-    ],
-    "correct": 3,
-    "explanation": "Km is the substrate concentration at half-maximal velocity. Low Km → enzyme reaches half-saturation at low [S] → high affinity. High Km → enzyme needs more substrate to half-saturate → low affinity. Numerically, Km ≈ (k-1 + k2)/k1 for simple Michaelis-Menten kinetics.",
-    "tags": [
-      "enzyme kinetics"
-    ],
     "difficulty": "easy"
   },
   {
-    "text": "A competitive inhibitor increases apparent Km but leaves Vmax unchanged because:",
+    "text": "Which of the following best explains why adipocytes are the primary site of triglyceride storage?",
     "options": [
-      "The inhibitor binds irreversibly, so more enzyme must be synthesized",
-      "The inhibitor activates an alternative active site",
-      "High substrate concentrations can displace the competitive inhibitor from the active site",
-      "The inhibitor changes the protein's secondary structure"
-    ],
-    "correct": 2,
-    "explanation": "Competitive inhibitors bind reversibly to the active site. At high [S], substrate outcompetes the inhibitor, so Vmax (the rate when enzyme is fully saturated with substrate) is unchanged. However, more substrate is needed to achieve half-saturation in the presence of inhibitor, so apparent Km increases.",
-    "tags": [
-      "enzyme kinetics",
-      "competitive inhibition"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "An inhibitor decreases Vmax but leaves Km unchanged. This is consistent with:",
-    "options": [
-      "Substrate inhibition",
-      "Pure noncompetitive inhibition",
-      "Competitive inhibition",
-      "Uncompetitive inhibition"
+      "Adipocytes express glycogen phosphorylase for efficient energy mobilization",
+      "Adipocytes express lipoprotein lipase on their surface (releasing fatty acids from circulating chylomicrons and VLDL), and contain high levels of glycerol-3-phosphate for fatty acid re-esterification, plus lipid droplet-associated proteins (perilipins) for efficient packing",
+      "Adipocytes cannot perform fatty acid oxidation, so they have no choice but to store lipids",
+      "Adipocytes receive triglycerides directly via gap junctions from hepatocytes"
     ],
     "correct": 1,
-    "explanation": "Pure noncompetitive inhibitors bind equally well to free enzyme and enzyme-substrate complex (at a site other than active site), reducing the total functional enzyme population. Km is unchanged (substrate still binds normally), but Vmax decreases proportionally with inhibitor concentration. On a Lineweaver-Burk plot, lines have different y-intercepts but the same x-intercept.",
+    "explanation": "Adipocytes are specialized for lipid storage: (1) LPL on capillary surfaces cleaves TG in lipoproteins, releasing fatty acids for uptake; (2) insulin stimulates glucose uptake (GLUT4) to generate glycerol-3-phosphate for esterification; (3) perilipins coat lipid droplets, regulating both storage and lipolysis; (4) HSL (hormone-sensitive lipase) is activated by catecholamines/glucagon during fasting for TG mobilization.",
     "tags": [
-      "enzyme kinetics",
-      "noncompetitive inhibition"
+      "biochemistry",
+      "lipid metabolism",
+      "adipose tissue"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "An uncompetitive inhibitor binds only to the enzyme-substrate complex. On a Lineweaver-Burk plot, uncompetitive inhibition produces:",
+    "text": "A researcher blocks the action of GTP-binding protein Gαi. What would be the expected effect on cAMP levels in cells stimulated by an opioid receptor agonist?",
     "options": [
-      "Lines intersecting at the x-axis",
-      "Lines intersecting at the y-axis",
-      "No change in the graph",
-      "Parallel lines (same slope, different intercepts)"
+      "cAMP levels would decrease further, because Gαi stimulates phosphodiesterase",
+      "cAMP levels would not decrease (or would be higher than expected) — Gαi normally inhibits adenylyl cyclase; blocking Gαi removes this inhibition, preventing the opioid-mediated decrease in cAMP",
+      "cAMP levels would increase due to direct activation of adenylyl cyclase by the blocked Gαi",
+      "cAMP levels would be unaffected because opioid receptors do not use G proteins"
     ],
-    "correct": 3,
-    "explanation": "Uncompetitive inhibitors bind ES complex, decreasing apparent Km and Vmax by the same factor (alpha'). On a double-reciprocal plot, the uninhibited and inhibited lines are parallel (same slope = Km/Vmax, since both change by the same factor). Both the x-intercept (–1/Km) and y-intercept (1/Vmax) shift left/up by the same factor.",
+    "correct": 1,
+    "explanation": "Opioid receptors (μ, δ, κ) are Gi-coupled GPCRs. Activation → Gαi inhibits adenylyl cyclase → decreased cAMP → decreased PKA activity → reduced neuronal excitability (analgesia). Blocking Gαi prevents this inhibition; adenylyl cyclase remains active; cAMP levels do not fall as expected. This is relevant to opioid tolerance: chronic opioid exposure causes compensatory upregulation of adenylyl cyclase.",
     "tags": [
-      "enzyme kinetics",
-      "uncompetitive inhibition"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Organophosphate compounds (e.g., nerve agents) are dangerous because they:",
-    "options": [
-      "Activate adenylyl cyclase, flooding cells with cAMP",
-      "Competitively inhibit nicotinic acetylcholine receptors",
-      "Block voltage-gated sodium channels in motor neurons",
-      "Irreversibly phosphorylate the active-site serine of acetylcholinesterase, preventing ACh breakdown"
-    ],
-    "correct": 3,
-    "explanation": "Organophosphates covalently phosphorylate the catalytic serine of acetylcholinesterase (AChE) at the neuromuscular junction. Without AChE, acetylcholine accumulates, causing continuous muscle stimulation (SLUDGE symptoms: salivation, lacrimation, urination, defecation, GI distress, emesis). Treatment includes atropine (muscarinic antagonist) and pralidoxime (reactivates AChE if given early).",
-    "tags": [
-      "enzyme kinetics",
-      "irreversible inhibition",
-      "neuroscience"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Allosteric regulation differs from competitive inhibition in that:",
-    "options": [
-      "Both mechanisms bind at the active site",
-      "Competitive inhibitors permanently modify enzyme structure",
-      "Allosteric effectors only inhibit, never activate",
-      "Allosteric effectors bind to sites distinct from the active site and cause conformational changes; competitive inhibitors bind at the active site"
-    ],
-    "correct": 3,
-    "explanation": "Allosteric regulation involves binding of an effector to a regulatory (allosteric) site, causing conformational changes that alter active site geometry/affinity. Allosteric effectors can be activators or inhibitors and are not structurally similar to the substrate. Competitive inhibitors are typically substrate analogs that directly compete at the active site.",
-    "tags": [
-      "enzyme regulation",
-      "allosterism"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Feedback inhibition in the isoleucine biosynthetic pathway involves isoleucine inhibiting:",
-    "options": [
-      "Threonine deaminase (first committed step)",
-      "Only the export of isoleucine from the cell",
-      "All enzymes simultaneously",
-      "The last enzyme in the pathway"
-    ],
-    "correct": 0,
-    "explanation": "Classic feedback (product) inhibition: isoleucine (end product) allosterically inhibits threonine deaminase, the first committed step. This prevents overproduction by shutting down the pathway when sufficient product exists. Inhibiting the first committed step is more efficient than inhibiting later enzymes.",
-    "tags": [
-      "enzyme regulation",
-      "feedback inhibition"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Protein kinase A (PKA) is activated by which second messenger?",
-    "options": [
-      "cAMP (cyclic AMP)",
-      "Diacylglycerol (DAG)",
-      "Ca2+",
-      "IP3"
-    ],
-    "correct": 0,
-    "explanation": "PKA is a tetrameric enzyme with two catalytic (C) and two regulatory (R) subunits. cAMP binds R subunits, causing dissociation and releasing active C subunits. cAMP is made by adenylyl cyclase in response to GPCR activation (e.g., beta-adrenergic receptors). PKA phosphorylates many targets including glycogen phosphorylase kinase and CREB.",
-    "tags": [
-      "enzyme regulation",
+      "pharmacology",
       "signal transduction",
-      "cAMP"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Michaelis-Menten kinetics break down when an enzyme has multiple subunits with cooperative substrate binding. This behavior is better described by:",
-    "options": [
-      "First-order rate kinetics",
-      "The Hill equation (sigmoidal binding curve)",
-      "Competitive inhibition kinetics",
-      "The Lineweaver-Burk equation"
-    ],
-    "correct": 1,
-    "explanation": "Cooperative enzymes (like hemoglobin for O2, or regulatory enzymes like PFK-1) show sigmoidal v vs. [S] curves. The Hill coefficient (n) quantifies cooperativity: n>1 = positive cooperativity, n<1 = negative, n=1 = hyperbolic (Michaelis-Menten). The Hill equation: v = Vmax[S]^n / (K0.5^n + [S]^n).",
-    "tags": [
-      "enzyme kinetics",
-      "cooperativity",
-      "Hill equation"
+      "opioids"
     ],
     "difficulty": "hard"
-  },
-  {
-    "text": "Hexokinase (in muscle) and glucokinase (hexokinase IV, in liver) both phosphorylate glucose, but differ in that:",
-    "options": [
-      "Glucokinase has a high Km for glucose and is not inhibited by G6P; hexokinase has low Km and is inhibited by G6P",
-      "Glucokinase requires NAD+ as a cofactor",
-      "Both have the same Km but glucokinase is allosterically activated",
-      "Hexokinase only works at high glucose concentrations"
-    ],
-    "correct": 0,
-    "explanation": "Glucokinase (hexokinase IV) has high Km (~10 mM, near portal vein glucose), is not inhibited by G6P, and shows sigmoidal kinetics (cooperative). This makes glucokinase a glucose sensor: it acts as a low-affinity glucose phosphorylator in the liver when blood glucose is high. Muscle hexokinase has low Km (~0.1 mM), is inhibited by G6P, and saturates at normal glucose levels.",
-    "tags": [
-      "enzyme regulation",
-      "glycolysis",
-      "hexokinase"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "The kcat/Km ratio (catalytic efficiency) is important because:",
-    "options": [
-      "It reflects how efficiently an enzyme converts substrate to product at low [S], approaching the diffusion limit",
-      "It equals the maximum velocity",
-      "It measures enzyme concentration",
-      "It is used to calculate the equilibrium constant"
-    ],
-    "correct": 0,
-    "explanation": "kcat/Km is the second-order rate constant for the reaction E + S → E + P at low [S]. The theoretical maximum is the diffusion limit (~10^8–10^9 M-1s-1). 'Catalytically perfect' enzymes (like carbonic anhydrase, triose phosphate isomerase) approach this limit. kcat/Km is used to compare catalytic efficiencies of different enzymes or compare the same enzyme with different substrates.",
-    "tags": [
-      "enzyme kinetics",
-      "catalytic efficiency"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Zymogen activation is best exemplified by:",
-    "options": [
-      "Hexokinase is phosphorylated to activate it",
-      "DNA polymerase requires RNA primer to initiate",
-      "Hemoglobin binds O2 cooperatively",
-      "Trypsinogen is cleaved to trypsin by enteropeptidase in the small intestine"
-    ],
-    "correct": 3,
-    "explanation": "Zymogens (proenzymes) are inactive precursors activated by proteolytic cleavage. Trypsinogen → trypsin (by enteropeptidase/enterokinase); trypsin then activates other zymogens (chymotrypsinogen, proelastase, procarboxypeptidases). This irreversible mechanism prevents premature activation in the pancreas. Premature activation causes pancreatitis.",
-    "tags": [
-      "enzyme regulation",
-      "zymogens",
-      "digestion"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which enzyme catalyzes the rate-limiting committed step of glycolysis?",
-    "options": [
-      "Pyruvate kinase",
-      "Aldolase",
-      "Hexokinase",
-      "Phosphofructokinase-1 (PFK-1)"
-    ],
-    "correct": 3,
-    "explanation": "PFK-1 catalyzes fructose-6-phosphate → fructose-1,6-bisphosphate (using ATP). This is the first committed, irreversible step of glycolysis and its major regulatory point. PFK-1 is activated by AMP/ADP/F-2,6-BP and inhibited by ATP/citrate/glucagon. Hexokinase is also regulated but not the committed rate-limiting step.",
-    "tags": [
-      "glycolysis",
-      "enzyme regulation"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Net ATP yield from glycolysis (glucose → 2 pyruvate) is:",
-    "options": [
-      "36–38 ATP",
-      "2 ATP",
-      "6 ATP",
-      "4 ATP"
-    ],
-    "correct": 1,
-    "explanation": "Glycolysis: 4 ATP produced (steps 7 and 10, substrate-level phosphorylation) minus 2 ATP consumed (hexokinase and PFK-1) = net 2 ATP. Also produces 2 NADH. The 36-38 ATP figure includes downstream oxidative phosphorylation from the full aerobic catabolism of glucose.",
-    "tags": [
-      "glycolysis",
-      "bioenergetics"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Which glycolytic enzyme catalyzes the only oxidation-reduction step in glycolysis?",
-    "options": [
-      "Phosphoglycerate mutase",
-      "Enolase",
-      "Phosphoglycerate kinase",
-      "Glyceraldehyde-3-phosphate dehydrogenase (G3PDH)"
-    ],
-    "correct": 3,
-    "explanation": "G3PDH oxidizes glyceraldehyde-3-phosphate to 1,3-bisphosphoglycerate, reducing NAD+ to NADH. This is the only redox step in glycolysis. The high-energy thioester intermediate is captured as 1,3-BPG, which then drives ATP synthesis at phosphoglycerate kinase (substrate-level phosphorylation).",
-    "tags": [
-      "glycolysis",
-      "redox reactions"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Under anaerobic conditions, NADH generated in glycolysis is reoxidized by:",
-    "options": [
-      "Malate-aspartate shuttle",
-      "Pyruvate dehydrogenase complex",
-      "Lactate dehydrogenase (pyruvate → lactate), regenerating NAD+ to sustain glycolysis",
-      "The electron transport chain"
-    ],
-    "correct": 2,
-    "explanation": "Without O2, the ETC cannot reoxidize NADH. Lactate dehydrogenase (LDH) transfers the electrons from NADH to pyruvate, forming lactate and regenerating NAD+. This NAD+ is essential for continued glycolysis. In yeast, pyruvate decarboxylase and alcohol dehydrogenase regenerate NAD+ via ethanol fermentation.",
-    "tags": [
-      "glycolysis",
-      "anaerobic metabolism"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Pyruvate dehydrogenase complex (PDC) is inhibited by all of the following EXCEPT:",
-    "options": [
-      "Acetyl-CoA (product)",
-      "PDC kinase activated by high ATP/ADP ratio",
-      "AMP (which activates PDC)",
-      "NADH (product)"
-    ],
-    "correct": 2,
-    "explanation": "PDC is inhibited by its products (acetyl-CoA and NADH) and by PDC kinase when ATP/ADP and NADH/NAD+ ratios are high (energy surplus). PDC is activated by PDC phosphatase (activated by insulin and Ca2+), by AMP, by CoA, and by NAD+. High AMP signals low energy and would activate PDC to produce more acetyl-CoA.",
-    "tags": [
-      "pyruvate dehydrogenase",
-      "enzyme regulation"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "How many CO2 molecules are released per turn of the TCA cycle?",
-    "options": [
-      "2",
-      "1",
-      "4",
-      "3"
-    ],
-    "correct": 0,
-    "explanation": "Two CO2 are released per TCA cycle turn: one at isocitrate dehydrogenase (isocitrate → alpha-ketoglutarate) and one at alpha-ketoglutarate dehydrogenase (alpha-KG → succinyl-CoA). These are the two oxidative decarboxylation steps of the TCA cycle. The 2-carbon acetyl group entering from acetyl-CoA is fully oxidized over multiple turns.",
-    "tags": [
-      "TCA cycle",
-      "carbon balance"
-    ],
-    "difficulty": "medium"
   }
 ]

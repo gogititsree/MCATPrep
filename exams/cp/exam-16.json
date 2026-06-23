@@ -1,0 +1,413 @@
+[
+  {
+    "text": "The conversion of pyruvate to acetyl-CoA by pyruvate dehydrogenase complex (PDC) is irreversible. Which of the following is a consequence of this irreversibility?",
+    "options": [
+      "Acetyl-CoA can be directly converted back to glucose in the liver",
+      "The carbon skeletons of acetyl-CoA cannot be used for net glucose synthesis in mammals — acetyl-CoA enters the TCA cycle but yields only CO₂; mammals (unlike plants) cannot convert acetyl-CoA to oxaloacetate for gluconeogenesis (no net pyruvate carboxylase running backward)",
+      "Fatty acids can be converted to glucose via β-oxidation in humans",
+      "PDC must be inhibited during fasting to prevent glucose synthesis from pyruvate"
+    ],
+    "correct": 1,
+    "explanation": "The pyruvate → acetyl-CoA step is irreversible (no mammalian enzyme catalyzes the reverse). Acetyl-CoA entering the TCA cycle yields NADH, FADH₂, and CO₂ — no net carbon is added to oxaloacetate (OAA). Because even-chain fatty acids yield only acetyl-CoA via β-oxidation, they cannot be converted to net glucose. Odd-chain fatty acids yield propionyl-CoA (→ succinyl-CoA → OAA) and can contribute. This is why fat does not make glucose (except minimally from glycerol).",
+    "tags": [
+      "biochemistry",
+      "metabolism",
+      "gluconeogenesis"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In the visible light spectrum, which color has the highest energy photons?",
+    "options": [
+      "Red (λ ≈ 700 nm)",
+      "Violet/blue (λ ≈ 400 nm) — E = hc/λ; shorter wavelength = higher frequency = higher energy; violet light has approximately 1.75× the energy of red light",
+      "Green (λ ≈ 550 nm)",
+      "Yellow (λ ≈ 580 nm)"
+    ],
+    "correct": 1,
+    "explanation": "E = hf = hc/λ. Wavelength and energy are inversely related: shorter λ → higher E. Visible spectrum: violet (~380-450 nm) > blue > green > yellow > orange > red (~620-750 nm). UV radiation (shorter λ, higher E than visible) damages DNA (causing pyrimidine dimers). X-rays and γ-rays have even shorter wavelengths and higher energy. Infrared (longer λ than red) has lower energy and is felt as heat.",
+    "tags": [
+      "physics",
+      "optics",
+      "electromagnetic spectrum"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A student measures that a battery with labeled voltage 9 V actually reads 9 V when measured with a voltmeter in an open circuit, but only 8.5 V when connected to a resistor. What explains this?",
+    "options": [
+      "The voltmeter draws too much current, causing measurement error",
+      "The battery has internal resistance (r) — in the open circuit, no current flows so no voltage drops across r; when connected to a load resistor R, current I flows: terminal voltage = EMF − Ir = 9 − I × r = 8.5 V; the 0.5 V is lost across the internal resistance",
+      "The resistor stores charge, reducing the voltage",
+      "The battery voltage fluctuates randomly"
+    ],
+    "correct": 1,
+    "explanation": "All real batteries have internal resistance r. Terminal voltage = EMF − Ir. Open circuit: I = 0, terminal voltage = EMF = 9 V. Loaded: I = EMF/(R + r); terminal voltage = EMF − Ir = 8.5 V (0.5 V dropped across internal resistance). As a battery discharges, its internal resistance increases, explaining why terminal voltage drops under load even if 'charge' seems remaining. This is why older batteries still show voltage when tested but fail under load.",
+    "tags": [
+      "physics",
+      "electricity",
+      "battery"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The Compton effect demonstrates which property of electromagnetic radiation?",
+    "options": [
+      "The wave nature of light (interference and diffraction)",
+      "The particle (photon) nature of light — X-ray photons scatter off electrons and transfer momentum to them; the scattered photons have longer wavelengths (lower energy/frequency) than the incident photons, consistent with treating photons as particles with momentum p = h/λ",
+      "The polarization of electromagnetic waves",
+      "The photoelectric effect (ejection of electrons from metal surfaces)"
+    ],
+    "correct": 1,
+    "explanation": "The Compton effect (1923): X-rays scattered by free electrons emerge with longer wavelengths. Classical wave theory predicted no wavelength shift. Compton explained it as a billiard-ball collision between a photon (p = h/λ, E = hf) and an electron; the photon loses energy/momentum to the electron → longer λ. This provided decisive evidence for the particle nature of light. Compton wavelength shift: Δλ = (h/mₑc)(1 − cos θ) ≈ 2.4 pm × (1 − cos θ).",
+    "tags": [
+      "physics",
+      "quantum mechanics",
+      "Compton effect"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following reactions describes the oxidation of glucose in aerobic respiration?",
+    "options": [
+      "C₆H₁₂O₆ + 6CO₂ → 6H₂O + 6O₂",
+      "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ~30–32 ATP (standard textbook: ~36-38 ATP)",
+      "C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂ (fermentation)",
+      "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (photosynthesis)"
+    ],
+    "correct": 1,
+    "explanation": "Aerobic respiration: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O; ΔG° = −2870 kJ/mol. ~30-32 ATP are generated per glucose under physiological conditions (theoretical maximum ~38 ATP). The energy is captured as NADH (×10 per glucose → ~25 ATP), FADH₂ (×2 → ~3 ATP), and substrate-level phosphorylation (×4 ATP: 2 in glycolysis, 1 in TCA per turn × 2 turns). Fermentation (option C) is anaerobic and produces ethanol + CO₂.",
+    "tags": [
+      "biochemistry",
+      "metabolism",
+      "cellular respiration"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which property of a photon determines whether it ejects an electron from a metal surface in the photoelectric effect?",
+    "options": [
+      "The intensity (number of photons per second)",
+      "The frequency (or equivalently, energy: E = hf) — the photon must have energy ≥ the work function (φ) of the metal; below a threshold frequency, no electrons are ejected regardless of intensity; above threshold, KE_max = hf − φ",
+      "The amplitude of the light wave",
+      "The wavelength must be less than 500 nm regardless of metal"
+    ],
+    "correct": 1,
+    "explanation": "The photoelectric effect demonstrates photon nature of light. Classical wave theory predicted higher intensity → more energetic electrons, no threshold frequency. Einstein explained (1905, Nobel Prize): each photon has E = hf; electrons are ejected only if hf ≥ φ (work function, minimum energy to eject electron). Above threshold: KE_max = hf − φ (intensity increases electron count but not KE per electron). This was direct evidence that light energy is quantized into photons.",
+    "tags": [
+      "physics",
+      "quantum mechanics",
+      "photoelectric effect"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "What is the purpose of the salt bridge in a galvanic electrochemical cell?",
+    "options": [
+      "It allows electrons to flow between the two half-cells",
+      "It maintains electrical neutrality in both half-cells by allowing migration of ions (cations move toward cathode compartment, anions toward anode compartment) as electrons flow through the external circuit — without it, charge imbalance would immediately stop the cell",
+      "It physically connects the two electrodes to complete the circuit",
+      "It contains a catalyst that increases the rate of the electrochemical reactions"
+    ],
+    "correct": 1,
+    "explanation": "In a galvanic cell, oxidation at the anode produces cations (e.g., Zn → Zn²+ + 2e⁻), creating a positive charge buildup; reduction at the cathode consumes cations (e.g., Cu²+ + 2e⁻ → Cu), creating a negative charge buildup. The salt bridge (saturated KCl, KNO₃, or agar with ions) allows ion flow: anions migrate toward the anode, cations toward the cathode, maintaining electrical neutrality and allowing the cell to operate continuously. Electrons travel through the external circuit (wire), not the salt bridge.",
+    "tags": [
+      "chemistry",
+      "electrochemistry",
+      "galvanic cell"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "According to the kinetic molecular theory of gases, which gas sample at the same temperature has the highest average molecular speed?",
+    "options": [
+      "CO₂ (M = 44 g/mol)",
+      "H₂ (M = 2 g/mol) — average speed ∝ √(T/M); lighter molecules move faster at the same temperature; H₂ moves ~4.7× faster than N₂, ~14.8× faster than Xe",
+      "N₂ (M = 28 g/mol)",
+      "Xe (M = 131 g/mol)"
+    ],
+    "correct": 1,
+    "explanation": "Average molecular speed (rms speed): v_rms = √(3RT/M). At the same temperature, speed is inversely proportional to √M. H₂ (M = 2) has the lowest molar mass → highest speed. This is also reflected in Graham's law of diffusion/effusion: rate ∝ 1/√M. H₂ effuses √(44/2) = √22 ≈ 4.7× faster than CO₂. This explains why lighter molecules (H₂, He) are lost from Earth's atmosphere over geological time.",
+    "tags": [
+      "chemistry",
+      "kinetic molecular theory",
+      "gas properties"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A patient on warfarin (vitamin K antagonist) has a prolonged PT (prothrombin time) but normal PTT. Which factor is most likely deficient?",
+    "options": [
+      "Factor VIII (intrinsic pathway only)",
+      "Factor VII — the PT tests the extrinsic pathway (Factor VII + TF) and common pathway; early warfarin therapy preferentially reduces Factor VII (shortest half-life ~6 hours) before other clotting factors (II, IX, X); PTT tests intrinsic + common pathway",
+      "Factor XII (contact factor)",
+      "Von Willebrand Factor"
+    ],
+    "correct": 1,
+    "explanation": "Warfarin inhibits Vitamin K epoxide reductase, reducing γ-carboxylation of factors II, VII, IX, X (and protein C, S). PT (prothrombin time) tests factors VII, X, V, II, fibrinogen (extrinsic pathway + common). PTT (partial thromboplastin time) tests XII, XI, IX, VIII, X, V, II, fibrinogen (intrinsic + common). Factor VII's short half-life (~6h) causes PT prolongation first on warfarin initiation. Hemophilia A (factor VIII deficiency) → prolonged PTT, normal PT.",
+    "tags": [
+      "physiology",
+      "coagulation",
+      "pharmacology"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "Which type of chromatography separates proteins based on their affinity for a specific ligand immobilized on a resin?",
+    "options": [
+      "Size-exclusion chromatography (separates by molecular weight)",
+      "Affinity chromatography — protein of interest binds selectively to an immobilized ligand (e.g., antibody, substrate analog, His-tag for Ni-NTA); non-binding proteins are washed away; bound protein is eluted with high-salt, pH change, or competing ligand — highly specific purification in one step",
+      "Ion-exchange chromatography (separates by charge)",
+      "Hydrophobic interaction chromatography (separates by hydrophobicity)"
+    ],
+    "correct": 1,
+    "explanation": "Affinity chromatography exploits specific, reversible binding between a protein and a ligand: GST-tag purification uses glutathione-sepharose; His-tag purification uses Ni-NTA; antibody purification uses Protein A/G; enzyme purification uses substrate analogs. It can achieve >1000-fold purification in a single step. The running order of protein purification: cell lysis → centrifugation → affinity chromatography → additional polishing (SEC, IEX).",
+    "tags": [
+      "biochemistry",
+      "protein purification",
+      "chromatography"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Fick's law of diffusion states that the rate of diffusion across a membrane is proportional to which factors?",
+    "options": [
+      "Inversely proportional to concentration gradient and directly proportional to membrane thickness",
+      "Directly proportional to: concentration gradient (ΔC) and membrane surface area (A), and inversely proportional to: membrane thickness (d) and molecular size/membrane permeability: J = −DA(ΔC/Δx), where D is the diffusion coefficient",
+      "Only proportional to temperature (higher T → faster diffusion)",
+      "Directly proportional to membrane thickness (thicker membrane → faster diffusion)"
+    ],
+    "correct": 1,
+    "explanation": "Fick's first law: J = −D × A × (ΔC/Δx), where J = flux (amount/time), D = diffusion coefficient (depends on molecule size, temperature, medium viscosity), A = area, ΔC = concentration difference, Δx = membrane thickness. Oxygen crosses alveolar membranes efficiently because the gradient is large (PO₂: alveolus 100 mmHg vs. capillary 40 mmHg), area is vast (~70 m²), and the membrane is extremely thin (~0.5 μm). Pulmonary fibrosis increases thickness → decreased diffusion.",
+    "tags": [
+      "physiology",
+      "diffusion",
+      "membrane transport"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which quantum numbers specify an electron in the 3d subshell?",
+    "options": [
+      "n=2, l=3",
+      "n=3, l=1",
+      "n=3, l=3",
+      "n=3, l=2"
+    ],
+    "correct": 3,
+    "explanation": "The principal quantum number n=3 designates the third shell, and the azimuthal quantum number l=2 designates a d subshell (l: 0=s, 1=p, 2=d, 3=f).",
+    "tags": [
+      "atomic-structure",
+      "quantum-numbers"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which element has the highest first ionization energy?",
+    "options": [
+      "Kr",
+      "Ar",
+      "He",
+      "Ne"
+    ],
+    "correct": 2,
+    "explanation": "Helium has the highest first ionization energy of all elements (~2372 kJ/mol) due to its small atomic radius and full 1s² shell with no shielding electrons.",
+    "tags": [
+      "periodic-trends",
+      "ionization-energy"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Across a period from left to right, atomic radius generally:",
+    "options": [
+      "Increases due to more electron shells",
+      "Remains constant",
+      "Increases due to decreasing nuclear charge",
+      "Decreases due to increasing nuclear charge with same shielding"
+    ],
+    "correct": 3,
+    "explanation": "Across a period, nuclear charge increases while electrons are added to the same shell (minimal additional shielding), causing the electron cloud to contract.",
+    "tags": [
+      "periodic-trends",
+      "atomic-radius"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "The electron configuration of Fe²⁺ is:",
+    "options": [
+      "[Ar] 3d⁴",
+      "[Ar] 3d⁵ 4s¹",
+      "[Ar] 3d⁶",
+      "[Ar] 3d⁶ 4s²"
+    ],
+    "correct": 2,
+    "explanation": "Neutral Fe is [Ar] 3d⁶ 4s². When Fe loses 2 electrons to form Fe²⁺, the 4s electrons are removed first, leaving [Ar] 3d⁶.",
+    "tags": [
+      "electron-configuration",
+      "transition-metals"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which property generally increases going down a group in the periodic table?",
+    "options": [
+      "First ionization energy",
+      "Electronegativity",
+      "Electron affinity",
+      "Atomic radius"
+    ],
+    "correct": 3,
+    "explanation": "Atomic radius increases down a group because each successive element has an additional electron shell, increasing the distance between the nucleus and valence electrons.",
+    "tags": [
+      "periodic-trends",
+      "atomic-radius"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Hund's rule states that electrons will:",
+    "options": [
+      "Pair up in the lowest-energy orbital first",
+      "Fill orbitals in order of increasing n+l",
+      "Occupy the highest available energy orbitals first",
+      "Occupy degenerate orbitals singly before pairing, with parallel spins"
+    ],
+    "correct": 3,
+    "explanation": "Hund's rule states that for degenerate orbitals, electrons occupy each orbital singly with parallel (same) spins before any orbital is doubly occupied, minimizing electron repulsion.",
+    "tags": [
+      "electron-configuration",
+      "hunds-rule"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which molecule has a trigonal bipyramidal electron geometry but a seesaw molecular geometry?",
+    "options": [
+      "ClF₃",
+      "PCl₅",
+      "SF₄",
+      "XeF₂"
+    ],
+    "correct": 2,
+    "explanation": "SF₄ has 5 electron domains around sulfur (4 bonding + 1 lone pair). The electron geometry is trigonal bipyramidal, and the lone pair in an equatorial position gives a seesaw molecular shape.",
+    "tags": [
+      "vsepr",
+      "molecular-geometry"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "The bond angle in water (H₂O) is approximately 104.5°, which is less than the ideal tetrahedral angle of 109.5° because:",
+    "options": [
+      "O-H bonds are longer than expected",
+      "Water forms a linear geometry",
+      "Lone pairs exert greater repulsion than bonding pairs",
+      "Hydrogen is highly electronegative"
+    ],
+    "correct": 2,
+    "explanation": "Lone pairs occupy more space than bonding pairs because they are not constrained between two nuclei. The two lone pairs on oxygen push the bonding pairs closer together, reducing the H-O-H angle to ~104.5°.",
+    "tags": [
+      "vsepr",
+      "water"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following exhibits the strongest intermolecular forces?",
+    "options": [
+      "HF",
+      "H₂S",
+      "HCl",
+      "PH₃"
+    ],
+    "correct": 0,
+    "explanation": "HF can form hydrogen bonds (H bonded to highly electronegative F) which are the strongest intermolecular forces among these options. HCl, H₂S, and PH₃ have only dipole-dipole interactions and London dispersion forces.",
+    "tags": [
+      "intermolecular-forces",
+      "hydrogen-bonding"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "In an sp³ hybridized carbon, the orbitals point towards the corners of:",
+    "options": [
+      "An octahedron",
+      "A square",
+      "A tetrahedron",
+      "A triangle"
+    ],
+    "correct": 2,
+    "explanation": "sp³ hybridization combines one s orbital and three p orbitals to create four equivalent hybrid orbitals directed toward the corners of a regular tetrahedron at 109.5° angles.",
+    "tags": [
+      "hybridization",
+      "bonding"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Which bond is the shortest?",
+    "options": [
+      "C-C",
+      "C=C",
+      "C-N",
+      "C≡C"
+    ],
+    "correct": 3,
+    "explanation": "Triple bonds have the highest bond order, which results in the shortest and strongest bond. C≡C (~120 pm) < C=C (~134 pm) < C-C (~154 pm). C-N is a single bond (~147 pm) and longer than C≡C.",
+    "tags": [
+      "chemical-bonding",
+      "bond-length"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "Formal charge on nitrogen in NH₄⁺ is:",
+    "options": [
+      "+2",
+      "-1",
+      "0",
+      "+1"
+    ],
+    "correct": 3,
+    "explanation": "Formal charge = valence electrons - nonbonding electrons - (½ × bonding electrons). For N in NH₄⁺: 5 - 0 - (½ × 8) = 5 - 0 - 4 = +1.",
+    "tags": [
+      "formal-charge",
+      "bonding"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A reaction has ΔH = -50 kJ/mol and ΔS = -100 J/(mol·K). At what temperature does this reaction become non-spontaneous?",
+    "options": [
+      "The reaction is always spontaneous",
+      "T > 250 K",
+      "T > 500 K",
+      "T > 750 K"
+    ],
+    "correct": 2,
+    "explanation": "ΔG = ΔH - TΔS. Reaction is spontaneous when ΔG < 0. At T = 500 K: ΔG = -50,000 - (500)(-100) = -50,000 + 50,000 = 0. Above 500 K, ΔG > 0 (non-spontaneous).",
+    "tags": [
+      "thermodynamics",
+      "gibbs-free-energy"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which statement best describes an endothermic process?",
+    "options": [
+      "No heat is exchanged; ΔH = 0",
+      "Entropy always decreases",
+      "Heat flows from system to surroundings; ΔH < 0",
+      "Heat flows from surroundings to system; ΔH > 0"
+    ],
+    "correct": 3,
+    "explanation": "In an endothermic process, the system absorbs heat from its surroundings, so the enthalpy change ΔH is positive. Examples include melting ice and dissolving NH₄NO₃.",
+    "tags": [
+      "thermodynamics",
+      "enthalpy"
+    ],
+    "difficulty": "easy"
+  }
+]

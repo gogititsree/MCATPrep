@@ -1,411 +1,427 @@
 [
   {
-    "text": "Which amino acid pair contains sulfur in their side chains?",
+    "text": "Which property of the plasma membrane allows it to function as a selective barrier?",
     "options": [
-      "Cysteine and methionine",
-      "Serine and threonine",
-      "Asparagine and glutamine",
-      "Aspartate and glutamate"
-    ],
-    "correct": 0,
-    "explanation": "Cysteine (thiol –SH) and methionine (thioether –S–CH3) are the two standard sulfur-containing amino acids. Cysteine's sulfur forms disulfide bonds; methionine's sulfur is used in methyl group transfer reactions (as SAM, S-adenosylmethionine).",
-    "tags": [
-      "amino acids"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "Serine and threonine are common targets for phosphorylation. Which type of kinase performs this modification?",
-    "options": [
-      "RNA kinase",
-      "Serine/threonine kinase",
-      "Lipid kinase",
-      "Tyrosine kinase"
+      "The presence of cholesterol, which makes the entire membrane rigid and impermeable",
+      "The amphipathic nature of phospholipids forming a bilayer — hydrophobic core excludes ions and polar molecules while allowing small nonpolar molecules to diffuse freely",
+      "The uniform distribution of integral membrane proteins",
+      "The negative charge of the extracellular leaflet"
     ],
     "correct": 1,
-    "explanation": "Serine/threonine kinases (e.g., PKA, PKC, CDKs) phosphorylate the hydroxyl groups of serine and threonine. Tyrosine kinases (e.g., receptor tyrosine kinases, Src) phosphorylate tyrosine. Phosphorylation on any of these three residues is a key regulatory mechanism in signal transduction.",
+    "explanation": "Phospholipids are amphipathic: hydrophilic phosphate-containing head groups face aqueous environments (intra- and extracellular); hydrophobic fatty acid tails face the interior, creating a hydrophobic core. This core is impermeable to ions and most polar molecules (which require channels/transporters) while freely permeable to small nonpolar molecules (O2, CO2, steroid hormones).",
     "tags": [
-      "amino acids",
-      "signal transduction",
-      "phosphorylation"
+      "cell biology",
+      "membrane biology",
+      "lipid bilayer"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "An amino acid has pI = 9.7. This is most characteristic of which amino acid?",
+    "text": "In glycolysis, what is the net yield of ATP per glucose molecule?",
     "options": [
-      "Glutamate",
-      "Tryptophan",
-      "Glycine",
-      "Lysine"
+      "4 ATP",
+      "2 ATP net (4 produced – 2 consumed in the investment phase)",
+      "36–38 ATP",
+      "1 ATP"
     ],
-    "correct": 3,
-    "explanation": "Lysine (pI ≈ 9.7) has a positively charged epsilon-amino group (pKa ≈ 10.5) in addition to the alpha-amino group. Basic amino acids (Arg, Lys, His) have pI > 7.4 because they carry extra positive charges. Glutamate (pI ≈ 3.2) is acidic; glycine (pI ≈ 6.0) is near neutral.",
+    "correct": 1,
+    "explanation": "Glycolysis consumes 2 ATP in the investment phase (hexokinase and phosphofructokinase reactions) and produces 4 ATP in the payoff phase (two substrate-level phosphorylations per triose × 2 trioses), for a net gain of 2 ATP per glucose. Additionally, 2 NADH are produced, which yield additional ATP via oxidative phosphorylation if oxygen is available.",
     "tags": [
-      "amino acids",
-      "acid-base"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "N-linked glycosylation is added to which amino acid residue in the ER?",
-    "options": [
-      "Serine",
-      "Lysine",
-      "Asparagine",
-      "Threonine"
-    ],
-    "correct": 2,
-    "explanation": "N-linked glycosylation occurs on asparagine residues in the consensus sequence Asn-X-Ser/Thr (where X ≠ Pro) in the ER, as oligosaccharyltransferase adds a pre-assembled oligosaccharide. O-linked glycosylation occurs on serine and threonine in the Golgi. N-linked glycosylation is important for protein folding, stability, and cell-surface recognition.",
-    "tags": [
-      "amino acids",
-      "glycosylation",
-      "post-translational modification"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Tryptophan is the precursor for which neurotransmitter and hormone?",
-    "options": [
-      "Acetylcholine and histamine",
-      "GABA and glycine",
-      "Dopamine and norepinephrine",
-      "Serotonin and melatonin"
-    ],
-    "correct": 3,
-    "explanation": "Tryptophan → 5-hydroxytryptophan (tryptophan hydroxylase) → Serotonin (5-HT) by aromatic amino acid decarboxylase. Serotonin → N-acetylserotonin → Melatonin (in pineal gland). Melatonin regulates circadian rhythms. Serotonin deficiency is associated with depression; SSRI antidepressants increase synaptic serotonin.",
-    "tags": [
-      "amino acids",
-      "neurotransmitters"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which amino acids are most commonly found at the active sites of serine proteases (e.g., chymotrypsin, trypsin)?",
-    "options": [
-      "Serine, histidine, and aspartate (the catalytic triad)",
-      "Lysine, arginine, and glutamate",
-      "Cysteine, histidine, and asparagine",
-      "Glycine, alanine, and valine"
-    ],
-    "correct": 0,
-    "explanation": "Serine proteases use a catalytic triad: Ser (nucleophile), His (general base/acid), and Asp (orients and stabilizes His). Asp hydrogen bonds to His, lowering its pKa so it can abstract a proton from Ser, making Ser a better nucleophile. This triad is a classic example of convergent evolution, found in unrelated serine proteases.",
-    "tags": [
-      "amino acids",
-      "enzyme catalysis",
-      "proteases"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "The epsilon-amino group of lysine participates in which important post-translational reaction in collagen?",
-    "options": [
-      "Cross-linking by lysyl oxidase to form aldehyde-derived crosslinks",
-      "Glycosylation to form N-linked oligosaccharides",
-      "Hydroxylation by prolyl hydroxylase",
-      "Phosphorylation by receptor tyrosine kinases"
-    ],
-    "correct": 0,
-    "explanation": "Lysyl oxidase (requires copper) oxidatively deaminates lysine/hydroxylysine epsilon-amino groups to aldehydes, which then condense with adjacent lysine residues to form covalent crosslinks. These crosslinks are essential for the tensile strength of collagen fibers. Defects occur in Menkes disease (copper deficiency) and lathyrism.",
-    "tags": [
-      "amino acids",
-      "collagen",
-      "post-translational modification"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Which amino acid is a precursor for heme biosynthesis?",
-    "options": [
-      "Glycine",
-      "Lysine",
-      "Methionine",
-      "Histidine"
-    ],
-    "correct": 0,
-    "explanation": "Heme biosynthesis begins with glycine + succinyl-CoA (from TCA cycle) → delta-aminolevulinic acid (ALA), catalyzed by ALA synthase (rate-limiting step, requires PLP). Eight glycine residues contribute to heme. Glycine's simplicity (no side chain, small) makes it ubiquitous in metabolic biosynthesis pathways.",
-    "tags": [
-      "amino acids",
-      "heme synthesis",
+      "biochemistry",
+      "glycolysis",
       "metabolism"
     ],
-    "difficulty": "hard"
+    "difficulty": "easy"
   },
   {
-    "text": "The pKa of an amino acid side chain can shift in a protein environment. The active site serine of a serine protease has a lower pKa than free serine because:",
+    "text": "Which of the following correctly describes the process of alternative splicing?",
     "options": [
-      "The protein core is more acidic than solution",
-      "Nearby ionic residues completely neutralize the serine",
-      "The serine forms an extra disulfide bond",
-      "The neighboring histidine abstracts its proton, effectively lowering its pKa and increasing its nucleophilicity"
+      "Different introns are removed from a single pre-mRNA in different cell types or conditions, generating multiple mRNA isoforms from one gene",
+      "Splicing errors that cause disease by retaining introns in mature mRNA",
+      "The use of different promoters to initiate transcription of the same gene",
+      "Post-translational modification of proteins encoded by a single gene"
     ],
-    "correct": 3,
-    "explanation": "In the catalytic triad, histidine acts as a general base, abstracting the proton from serine's hydroxyl. This lowers the effective pKa of serine (from ~13 to near 7), making it a much stronger nucleophile. The aspartate stabilizes the protonated histidine, completing the charge relay system.",
+    "correct": 0,
+    "explanation": "Alternative splicing allows a single gene to produce multiple protein isoforms by including or excluding different exons (or using alternative splice sites). Approximately 95% of human multi-exon genes are alternatively spliced. Classic example: Drosophila Dscam gene can produce ~38,000 isoforms. Dysregulation of alternative splicing contributes to cancer and neurological disease.",
     "tags": [
-      "amino acids",
-      "enzyme catalysis"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "Which statement about D-amino acids in biology is correct?",
-    "options": [
-      "D-amino acids are found in all collagen molecules",
-      "D-amino acids are toxic to all organisms",
-      "D-amino acids are found in bacterial peptidoglycan cell walls but not in typical mammalian proteins",
-      "D-amino acids are the normal configuration in all proteins"
-    ],
-    "correct": 2,
-    "explanation": "Most proteins contain exclusively L-amino acids. However, D-amino acids appear in bacterial peptidoglycan (D-Ala, D-Glu), conferring resistance to most proteases. Some antibiotics (vancomycin, penicillin) exploit this by targeting D-amino acid-containing structures. Small amounts of D-amino acids also exist in the mammalian brain (D-serine as a co-agonist of NMDA receptors).",
-    "tags": [
-      "amino acids",
-      "microbiology"
+      "molecular biology",
+      "RNA processing",
+      "alternative splicing"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Arginine is the most basic standard amino acid. Which functional group in its side chain accounts for this?",
+    "text": "A patient presents with hyperammonemia, intellectual disability, and elevated orotic acid in urine. Which enzyme deficiency is most likely?",
     "options": [
-      "Epsilon-amino group (pKa ~10.5)",
-      "Guanidinium group (pKa ~12.5)",
-      "Imidazole ring (pKa ~6)",
-      "Secondary amine in a ring"
+      "Carbamoyl phosphate synthetase I (CPS I)",
+      "Ornithine transcarbamylase (OTC)",
+      "Argininosuccinate synthetase",
+      "Arginase"
     ],
     "correct": 1,
-    "explanation": "Arginine's side chain contains a guanidinium group (–NH–C(=NH)–NH2), which is positively charged at essentially all physiological and experimental pH values (pKa ~12.5). This makes arginine the most basic amino acid. It participates in the urea cycle and forms salt bridges/electrostatic interactions with negatively charged residues and DNA phosphates.",
+    "explanation": "OTC deficiency is the most common urea cycle disorder (X-linked). OTC converts carbamoyl phosphate + ornithine → citrulline. Without OTC, carbamoyl phosphate accumulates and spills into the cytosol, entering the pyrimidine synthesis pathway and generating orotic acid (orotic aciduria). CPS I deficiency also causes hyperammonemia but without orotic aciduria (carbamoyl phosphate doesn't accumulate).",
     "tags": [
-      "amino acids",
-      "acid-base"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Which amino acid is least likely to be found in a transmembrane helix of an integral membrane protein?",
-    "options": [
-      "Leucine",
-      "Isoleucine",
-      "Lysine",
-      "Valine"
-    ],
-    "correct": 2,
-    "explanation": "Transmembrane helices span the hydrophobic lipid bilayer and require predominantly hydrophobic residues (Leu, Val, Ile, Ala, Phe, Met). Lysine is positively charged and highly hydrophilic; burying it in the membrane bilayer is thermodynamically unfavorable. Charged residues found in transmembrane segments are usually involved in ion channel gating or proton transfer.",
-    "tags": [
-      "amino acids",
-      "membrane proteins"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "Histidine, lysine, and arginine are basic amino acids. At physiological pH (7.4), which of these carries a net charge of approximately zero (uncharged side chain)?",
-    "options": [
-      "None; all three are fully protonated at pH 7.4",
-      "Arginine (pKa ~12.5)",
-      "Lysine (pKa ~10.5)",
-      "Histidine (pKa ~6.0, mostly deprotonated at pH 7.4)"
-    ],
-    "correct": 3,
-    "explanation": "At pH 7.4, histidine's imidazole (pKa ~6.0) is mostly deprotonated (neutral), since pH > pKa. By Henderson-Hasselbalch, at pH 7.4: ratio = 10^(7.4–6.0) = 25:1 unprotonated:protonated. Lysine and arginine have pKa values far above 7.4 and remain fully protonated (positively charged) at physiological pH.",
-    "tags": [
-      "amino acids",
-      "acid-base"
+      "biochemistry",
+      "nitrogen metabolism",
+      "urea cycle"
     ],
     "difficulty": "hard"
   },
   {
-    "text": "Which amino acid provides the nitrogen atoms used in urea cycle reactions?",
+    "text": "Which neurotransmitter is released at the neuromuscular junction to trigger skeletal muscle contraction?",
     "options": [
-      "Glutamine and alanine",
-      "Histidine and arginine",
-      "Aspartate and ammonia (via carbamoyl phosphate)",
-      "Glycine and serine"
+      "Norepinephrine",
+      "Acetylcholine, which binds nicotinic receptors (nAChR) on the motor end plate",
+      "GABA",
+      "Glutamate"
     ],
-    "correct": 2,
-    "explanation": "The urea cycle incorporates two nitrogen atoms into urea: one from ammonia (as carbamoyl phosphate, made from NH4+ + CO2) and one from aspartate (which donates its amino group via argininosuccinate). Glutamine transports amino nitrogen from peripheral tissues to the liver as NH4+ and as aspartate precursors.",
+    "correct": 1,
+    "explanation": "Somatic motor neurons release ACh, which binds nicotinic ACh receptors (ligand-gated Na+/K+ channels) on the muscle end plate, generating an end plate potential. Acetylcholinesterase in the synaptic cleft rapidly degrades ACh. Myasthenia gravis involves autoantibodies against nAChR; Lambert-Eaton syndrome involves antibodies against presynaptic Ca2+ channels.",
     "tags": [
-      "amino acids",
-      "urea cycle",
-      "nitrogen metabolism"
-    ],
-    "difficulty": "hard"
-  },
-  {
-    "text": "A peptide bond is formed by:",
-    "options": [
-      "Reduction of a disulfide bond between two cysteines",
-      "Oxidation of two adjacent amino acid side chains",
-      "Condensation of the alpha-carboxyl group of one amino acid with the alpha-amino group of the next, releasing water",
-      "Phosphorylation of the alpha-amino group"
-    ],
-    "correct": 2,
-    "explanation": "Peptide bond formation is a condensation (dehydration) reaction: the alpha-COOH of one amino acid reacts with the alpha-NH2 of the next, releasing H2O and forming an amide bond (–CO–NH–). This occurs at the ribosome during translation. The peptide bond has partial double bond character due to resonance, making it planar and restricting rotation.",
-    "tags": [
-      "amino acids",
-      "protein structure"
+      "physiology",
+      "neuromuscular junction",
+      "neurotransmission"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "Selenocysteine is sometimes called the 21st amino acid. It is encoded by which codon?",
+    "text": "In eukaryotic translation initiation, which factor is responsible for scanning the 5' UTR to find the start codon?",
     "options": [
-      "UGA (normally a stop codon, recoded in context)",
-      "AUG",
-      "UAA",
-      "CGG"
+      "eIF2",
+      "eIF4F complex (including eIF4E cap-binding protein and eIF4A helicase), with eIF4B enabling 5'→3' scanning",
+      "eIF6",
+      "eIF3"
     ],
-    "correct": 0,
-    "explanation": "Selenocysteine is incorporated at UGA codons when a special stem-loop structure (SECIS element) is present in the mRNA 3' UTR. Normally UGA is a stop codon, but SECIS causes the ribosome to insert selenocysteine instead. Selenoproteins include thioredoxin reductase and glutathione peroxidase. Dietary selenium is essential for their synthesis.",
+    "correct": 1,
+    "explanation": "The eIF4F complex binds the 5' cap (via eIF4E), unwinds secondary structure in the 5' UTR (via eIF4A helicase, stimulated by eIF4B), and recruits the 43S pre-initiation complex (40S + eIF2-GTP-Met-tRNA). The complex scans 5'→3' until it encounters the AUG in favorable Kozak context, triggering GTP hydrolysis and 60S joining.",
     "tags": [
-      "amino acids",
+      "molecular biology",
       "translation",
-      "molecular biology"
+      "initiation factors"
     ],
     "difficulty": "hard"
   },
   {
-    "text": "Which pair of amino acids is important for forming salt bridges in proteins?",
+    "text": "What is the function of the enzyme telomerase in maintaining chromosome integrity?",
     "options": [
-      "Leucine and valine",
-      "Aspartate/glutamate (negative) with lysine/arginine/histidine (positive)",
-      "Serine and threonine",
-      "Glycine and alanine"
+      "It repairs double-strand breaks at telomeres using homologous recombination",
+      "It adds telomeric DNA repeats (TTAGGG in humans) to chromosome ends using its intrinsic RNA template, compensating for 5' end shortening after replication",
+      "It removes the RNA primer at the 3' end of the lagging strand",
+      "It prevents chromosome fusion by binding shelterin proteins"
     ],
     "correct": 1,
-    "explanation": "Salt bridges form between oppositely charged side chains: anionic residues (Asp pKa ~3.9, Glu pKa ~4.1) pair with cationic residues (Lys pKa ~10.5, Arg pKa ~12.5, His pKa ~6.0). Salt bridges contribute to protein stability, especially in thermophilic proteins, and to protein-protein and protein-DNA interactions.",
+    "explanation": "DNA polymerase cannot replicate the very 5' end of linear chromosomes (end-replication problem), causing progressive shortening. Telomerase is a reverse transcriptase with an intrinsic RNA template (TERC) that adds TTAGGG repeats to chromosome 3' ends, allowing subsequent fill-in synthesis. Active in germ cells, stem cells, and most cancer cells (90%); silenced in most somatic cells.",
     "tags": [
-      "amino acids",
-      "protein structure"
+      "molecular biology",
+      "telomeres",
+      "DNA replication"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Which level of protein structure is maintained by hydrogen bonds between backbone carbonyl and amide groups?",
+    "text": "A drug blocks the Na+/K+ ATPase. What is the immediate consequence for a resting neuron?",
     "options": [
-      "Secondary structure (alpha-helices and beta-sheets)",
-      "Quaternary structure",
-      "Tertiary structure",
-      "Primary structure"
+      "Immediate depolarization due to Na+ influx through voltage-gated channels",
+      "Gradual depolarization as the Na+ gradient dissipates — resting potential becomes less negative as the pump can no longer maintain the low intracellular Na+ concentration",
+      "Immediate hyperpolarization due to K+ efflux",
+      "No effect because the resting potential is maintained by leak channels alone"
     ],
-    "correct": 0,
-    "explanation": "Secondary structure (alpha-helices, beta-sheets, turns) is stabilized by H-bonds between backbone C=O and N–H groups, not side chains. Primary structure is the amino acid sequence (covalent). Tertiary structure involves side chain interactions. Quaternary structure involves interactions between subunits.",
+    "correct": 1,
+    "explanation": "The Na+/K+ ATPase pumps 3 Na+ out and 2 K+ in per ATP, maintaining the Na+ and K+ gradients essential for the resting membrane potential. Blocking the pump gradually dissipates these gradients, causing membrane depolarization. This is the mechanism of cardiac glycosides (digoxin): in cardiomyocytes, Na+ accumulation reduces the Na+/Ca2+ exchanger's driving force, increasing intracellular Ca2+ and cardiac contractility.",
     "tags": [
-      "protein structure"
-    ],
-    "difficulty": "easy"
-  },
-  {
-    "text": "In an alpha-helix, each residue forms a hydrogen bond with the residue how many positions later?",
-    "options": [
-      "4 positions (i+4)",
-      "2 positions (i+2)",
-      "3 positions (i+3)",
-      "7 positions (i+7)"
-    ],
-    "correct": 0,
-    "explanation": "In an alpha-helix, the N–H of residue i hydrogen bonds to the C=O of residue i+4. The helix has 3.6 residues per turn and a rise of 1.5 Å per residue (5.4 Å per turn). This geometry and the i→i+4 hydrogen bonding pattern define the alpha-helix.",
-    "tags": [
-      "protein structure",
-      "alpha-helix"
+      "physiology",
+      "membrane potential",
+      "ion transport"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "The dominant thermodynamic driving force for protein folding in aqueous solution is:",
+    "text": "Which metabolic pathway is exclusively mitochondrial and produces ketone bodies?",
     "options": [
-      "Maximizing the number of hydrogen bonds",
-      "Maximizing ionic interactions",
-      "The hydrophobic effect — burying nonpolar side chains away from water",
-      "Formation of disulfide bonds"
+      "Fatty acid beta-oxidation (also mitochondrial but produces acetyl-CoA, not ketone bodies directly)",
+      "Ketogenesis — occurs in hepatic mitochondria; acetyl-CoA → acetoacetate and β-hydroxybutyrate, exported to peripheral tissues",
+      "The citric acid cycle",
+      "Gluconeogenesis"
     ],
-    "correct": 2,
-    "explanation": "The hydrophobic effect drives folding: exposing nonpolar residues to water is entropically costly (water forms ordered cage around them). Burying them in the protein core releases water, increasing entropy. This is the dominant force, though hydrogen bonds, electrostatic interactions, and van der Waals forces also contribute.",
+    "correct": 1,
+    "explanation": "Ketogenesis occurs in hepatic mitochondria during fasting, low-carbohydrate states, or uncontrolled T1DM. Acetyl-CoA condenses to form HMG-CoA (via HMG-CoA synthase, the rate-limiting step), which is cleaved to acetoacetate. Acetoacetate is reduced to β-hydroxybutyrate or spontaneously decarboxylated to acetone. The liver cannot use ketone bodies itself (lacks succinyl-CoA:acetoacetate-CoA transferase/thiophorase).",
     "tags": [
-      "protein structure",
-      "folding",
-      "thermodynamics"
+      "biochemistry",
+      "lipid metabolism",
+      "ketogenesis"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "Hemoglobin (alpha2beta2) exhibits cooperative O2 binding. This means:",
+    "text": "What is the role of RecA (or Rad51 in eukaryotes) in DNA repair?",
     "options": [
-      "O2 binds to only one subunit at a time",
-      "All four subunits bind O2 simultaneously with equal affinity",
-      "Binding of O2 to one subunit increases O2 affinity in remaining subunits",
-      "Cooperativity decreases O2 binding at high PO2"
+      "It is the main exonuclease that degrades damaged DNA strands",
+      "It catalyzes strand invasion — coating single-stranded DNA to search for and invade a homologous duplex, enabling homologous recombination repair of double-strand breaks",
+      "It ligates DNA strand ends after DSB repair",
+      "It recognizes UV-induced pyrimidine dimers for NER"
     ],
-    "correct": 2,
-    "explanation": "Hemoglobin's cooperative binding produces a sigmoidal O2 saturation curve. O2 binding to one heme group causes a conformational change from T-state (tense, low affinity) to R-state (relaxed, high affinity), increasing affinity of the remaining hemes. This allows efficient O2 loading in lungs (high PO2) and unloading in tissues (low PO2).",
+    "correct": 1,
+    "explanation": "After DSB resection generates 3' ssDNA overhangs, RecA (prokaryotes) or Rad51 (eukaryotes) polymerizes onto the ssDNA to form a nucleoprotein filament. This filament catalyzes homology search and strand invasion into the intact homologous duplex, forming a D-loop that serves as the starting point for DNA synthesis to restore the broken sequence. BRCA1/2 facilitate Rad51 loading.",
     "tags": [
-      "protein structure",
+      "molecular biology",
+      "DNA repair",
+      "homologous recombination"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "A patient has hemolytic anemia triggered by oxidative stress (e.g., primaquine, fava beans). The most likely enzyme deficiency is:",
+    "options": [
+      "Pyruvate kinase",
+      "Glucose-6-phosphate dehydrogenase (G6PD)",
+      "Hexokinase",
+      "Phosphoglucose isomerase"
+    ],
+    "correct": 1,
+    "explanation": "G6PD is the rate-limiting enzyme of the pentose phosphate pathway, generating NADPH. NADPH maintains glutathione in its reduced form (GSH), which neutralizes reactive oxygen species in RBCs. Without G6PD, oxidative stress causes glutathione depletion, RBC membrane damage, and hemolysis. G6PD deficiency is X-linked and the most common enzyme deficiency worldwide.",
+    "tags": [
+      "biochemistry",
+      "pentose phosphate pathway",
+      "hemolytic anemia"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following best describes the concept of cooperativity in hemoglobin oxygen binding?",
+    "options": [
+      "All four subunits bind oxygen simultaneously with equal affinity",
+      "Binding of O2 to one subunit increases the O2 affinity of remaining subunits (positive cooperativity), producing a sigmoidal O2 dissociation curve — explained by T→R state transition",
+      "Hemoglobin has the same O2 affinity as myoglobin at all O2 partial pressures",
+      "Cooperativity means hemoglobin can only carry either 0 or 4 O2 molecules"
+    ],
+    "correct": 1,
+    "explanation": "Hemoglobin exhibits positive cooperativity: the T (tense, low-affinity) state shifts toward the R (relaxed, high-affinity) state upon O2 binding, making subsequent binding easier. The result is a sigmoidal dissociation curve (vs. hyperbolic for non-cooperative myoglobin), which allows efficient O2 loading in the lungs (high pO2) and unloading in tissues (low pO2). Hill coefficient ~2.8.",
+    "tags": [
+      "biochemistry",
       "hemoglobin",
       "cooperativity"
     ],
     "difficulty": "medium"
   },
   {
-    "text": "The Bohr effect describes how hemoglobin O2 affinity changes with:",
+    "text": "During the absorptive state (fed state), which hormonal and metabolic changes predominate?",
     "options": [
-      "Increasing pH and decreasing CO2",
-      "2,3-BPG binding to the T-state",
-      "Temperature changes only",
-      "Decreasing pH and increasing CO2 (lower affinity, promotes O2 release to tissues)"
-    ],
-    "correct": 3,
-    "explanation": "CO2 from metabolizing tissues lowers blood pH (H2CO3 formation) and also carbamylates hemoglobin. Both H+ and CO2 stabilize the T-state (lower O2 affinity), promoting O2 unloading. In lungs, CO2 is expelled and pH rises, shifting to R-state for O2 loading. This is an exquisite physiological adaptation.",
-    "tags": [
-      "protein structure",
-      "hemoglobin",
-      "Bohr effect"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "2,3-bisphosphoglycerate (2,3-BPG) binds to hemoglobin and:",
-    "options": [
-      "Increases O2 affinity (left shift)",
-      "Stabilizes the T-state, decreasing O2 affinity and shifting the curve rightward",
-      "Has no effect on O2 binding",
-      "Is produced only in the lungs"
+      "High glucagon, high glycogenolysis, high ketogenesis",
+      "High insulin, high glucose uptake by muscle and adipose (via GLUT4), glycogen synthesis, fatty acid synthesis, protein synthesis — anabolic state",
+      "High cortisol, high gluconeogenesis, protein catabolism",
+      "Low insulin, high lipolysis, high fatty acid oxidation"
     ],
     "correct": 1,
-    "explanation": "2,3-BPG binds in the central cavity of deoxyhemoglobin (T-state), stabilizing it and decreasing O2 affinity (right shift of the O2-dissociation curve). High altitude → hypoxia → increased 2,3-BPG → more efficient O2 unloading. Fetal hemoglobin (HbF, gamma subunits) has lower affinity for 2,3-BPG, giving it higher O2 affinity to extract O2 from maternal blood.",
+    "explanation": "After a meal, elevated blood glucose triggers insulin secretion. Insulin promotes: glucose uptake (GLUT4 translocation in muscle and adipose), glycogenesis (in liver and muscle), lipogenesis (in liver and adipose), and protein synthesis. The absorptive state is anabolic. The post-absorptive/fasting state is characterized by glucagon dominance, glycogenolysis, gluconeogenesis, lipolysis, and ketogenesis.",
     "tags": [
-      "protein structure",
-      "hemoglobin",
-      "2,3-BPG"
-    ],
-    "difficulty": "medium"
-  },
-  {
-    "text": "SDS-PAGE separates proteins primarily based on:",
-    "options": [
-      "Molecular weight",
-      "Hydrophobicity",
-      "Isoelectric point",
-      "Ligand-binding affinity"
-    ],
-    "correct": 0,
-    "explanation": "SDS (sodium dodecyl sulfate) denatures proteins and coats them with negative charge proportional to their size. When run through an acrylamide gel under electric field, all proteins migrate based on size alone (smaller migrates faster). The resulting bands can be stained to reveal molecular weight distribution.",
-    "tags": [
-      "protein structure",
-      "lab techniques"
+      "biochemistry",
+      "metabolism",
+      "hormonal regulation"
     ],
     "difficulty": "easy"
   },
   {
-    "text": "Which statement about enzyme active sites is correct?",
+    "text": "Which of the following correctly describes the function of cytochrome P450 enzymes in the liver?",
     "options": [
-      "Active sites are randomly distributed on the protein surface",
-      "Active sites are small pockets or clefts that are complementary in shape and charge to the substrate",
-      "Active sites are always composed of hydrophobic residues only",
-      "Active sites only function when the substrate is in excess"
+      "They synthesize cholesterol from acetyl-CoA",
+      "They are monooxygenases that oxidize lipophilic compounds (drugs, toxins, steroids) to more water-soluble forms, facilitating excretion — Phase I metabolism",
+      "They conjugate drugs with glucuronate or sulfate in Phase II reactions",
+      "They are the primary enzymes for mitochondrial fatty acid oxidation"
     ],
     "correct": 1,
-    "explanation": "Enzyme active sites are specific three-dimensional pockets with precise geometries, charge distributions, and hydrophobic/hydrophilic properties complementary to the transition state (and substrate). They are formed by residues from different parts of the primary sequence that come together in the folded protein. The induced fit model proposes that substrates cause conformational changes to optimize complementarity.",
+    "explanation": "Cytochrome P450s (CYPs) are the major Phase I drug-metabolizing enzymes, using O2 and NADPH to introduce hydroxyl groups into lipophilic substrates, increasing water solubility. CYP3A4 metabolizes ~50% of drugs. CYPs also metabolize steroids, fatty acids, and carcinogens. Induction (rifampin) or inhibition (grapefruit, azole antifungals) causes drug-drug interactions.",
     "tags": [
-      "protein structure",
-      "enzyme function"
+      "biochemistry",
+      "drug metabolism",
+      "liver"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A child is born with no functional T or B cells due to a defect in the RAG1/RAG2 recombinase. What process is impaired?",
+    "options": [
+      "MHC class II antigen presentation",
+      "V(D)J recombination — somatic rearrangement of immunoglobulin and T-cell receptor gene segments that generates B and T lymphocyte diversity",
+      "Somatic hypermutation in germinal centers",
+      "Class switch recombination from IgM to IgG"
+    ],
+    "correct": 1,
+    "explanation": "RAG1/RAG2 endonuclease catalyzes V(D)J recombination, cleaving between V, D, and J gene segments and joining them to generate the immense diversity of B-cell receptor (BCR/antibody) and T-cell receptor (TCR) variable regions. Mutations in RAG1/2 cause SCID (severe combined immunodeficiency) because neither B nor T cells can complete receptor gene assembly.",
+    "tags": [
+      "immunology",
+      "V(D)J recombination",
+      "lymphocyte development"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "What is the primary function of the complement protein C3b in the immune response?",
+    "options": [
+      "Direct lysis of bacterial membranes",
+      "Opsonization — C3b covalently binds pathogen surfaces, tagging them for phagocytosis by macrophages and neutrophils bearing complement receptor 1 (CR1)",
+      "Activation of mast cells to release histamine",
+      "Inhibition of viral replication"
+    ],
+    "correct": 1,
+    "explanation": "C3b is the central effector molecule of the complement system. Generated by cleavage of C3 (by C3 convertases), C3b's reactive thioester covalently bonds to hydroxyl or amino groups on pathogen surfaces. Phagocytes bearing CR1 recognize C3b-opsonized targets, greatly enhancing phagocytosis. C3b also participates in C5 convertase formation (leading to MAC) and immune complex clearance.",
+    "tags": [
+      "immunology",
+      "complement",
+      "innate immunity"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following describes the primary function of the smooth ER (SER)?",
+    "options": [
+      "Synthesis of membrane proteins and secretory proteins for export",
+      "Lipid synthesis, drug detoxification (P450 enzymes), Ca2+ storage, and steroid hormone synthesis — functions that do not require ribosomes",
+      "Protein glycosylation and quality control",
+      "Synthesis of ribosomal RNA"
+    ],
+    "correct": 1,
+    "explanation": "The SER lacks ribosomes and specializes in: lipid and phospholipid synthesis, steroid hormone synthesis (adrenal cortex, gonads), drug/toxin metabolism via CYPs, and intracellular Ca2+ storage (sarcoplasmic reticulum in muscle). The RER (rough ER) bears ribosomes and is the site of synthesis and co-translational modification of secretory, membrane, and lysosomal proteins.",
+    "tags": [
+      "cell biology",
+      "endoplasmic reticulum",
+      "organelle function"
     ],
     "difficulty": "easy"
+  },
+  {
+    "text": "During muscle contraction, what triggers the release of Ca2+ from the sarcoplasmic reticulum?",
+    "options": [
+      "Direct mechanical pull from motor neuron axons",
+      "Membrane depolarization spreads along the T-tubule system, activating the DHPR (dihydropyridine receptor), which triggers the RyR1 (ryanodine receptor) to release Ca2+ from the SR into the cytosol",
+      "Actin binding to myosin directly causes Ca2+ release",
+      "ATP hydrolysis by myosin opens Ca2+ channels"
+    ],
+    "correct": 1,
+    "explanation": "In skeletal muscle: action potential → T-tubule depolarization → DHPR (voltage sensor, L-type Ca2+ channel) conformational change → mechanical coupling to RyR1 → Ca2+ release from SR. In cardiac muscle: DHPR allows small Ca2+ influx which triggers much larger Ca2+ release from SR via RyR2 (calcium-induced calcium release, CICR). Ca2+ binds troponin C, unblocking tropomyosin, allowing actin-myosin interaction.",
+    "tags": [
+      "physiology",
+      "muscle physiology",
+      "excitation-contraction coupling"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In the context of enzyme kinetics, an allosteric inhibitor reduces the enzyme's catalytic rate without competing with substrate. This best describes:",
+    "options": [
+      "Competitive inhibition",
+      "Noncompetitive inhibition (a form of allosteric inhibition) — binds a site distinct from the active site, reducing Vmax without affecting Km; inhibition cannot be overcome by adding more substrate",
+      "Uncompetitive inhibition",
+      "Irreversible inhibition"
+    ],
+    "correct": 1,
+    "explanation": "Noncompetitive inhibition: inhibitor binds allosteric site on free enzyme or enzyme-substrate complex (equally). Km unchanged (substrate binding unaffected), Vmax decreased. On Lineweaver-Burk: lines with different y-intercepts (1/Vmax changes) but same x-intercept (−1/Km unchanged). Example: cyanide inhibiting cytochrome c oxidase (Complex IV) noncompetitively.",
+    "tags": [
+      "biochemistry",
+      "enzyme kinetics",
+      "inhibition"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "A mutation that constitutively activates Ras GTPase would most likely cause:",
+    "options": [
+      "Suppression of cell proliferation",
+      "Unregulated cell proliferation — Ras constitutively active (GTP-bound, cannot hydrolyze GTP) continuously signals through Raf-MEK-ERK and PI3K-Akt, acting as an oncogene",
+      "Increased apoptosis",
+      "Decreased growth factor receptor activation"
+    ],
+    "correct": 1,
+    "explanation": "Ras is a GTPase that cycles between GTP-bound (active) and GDP-bound (inactive) forms. GAPs (GTPase-activating proteins) accelerate GTP hydrolysis, inactivating Ras. Constitutively active Ras mutations (G12V, G13D — common in KRAS, NRAS, HRAS in cancer) cannot hydrolyze GTP, keeping downstream pro-proliferative pathways permanently on. KRAS mutations occur in ~90% of pancreatic cancers.",
+    "tags": [
+      "cell biology",
+      "oncology",
+      "signal transduction"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which phase of the bacterial growth curve is characterized by maximum cell division at a constant rate?",
+    "options": [
+      "Lag phase",
+      "Log (exponential) phase",
+      "Stationary phase",
+      "Death phase"
+    ],
+    "correct": 1,
+    "explanation": "During the log (logarithmic) phase, bacteria divide at their maximum rate (generation time is shortest and constant), nutrient supply is ample, and waste has not yet accumulated. Antibiotics targeting cell wall synthesis (penicillins, cephalosporins) or DNA replication (fluoroquinolones) are most effective during this phase because cells are actively dividing.",
+    "tags": [
+      "microbiology",
+      "bacterial growth",
+      "antibiotics"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "text": "A researcher uses siRNA targeting mRNA for protein X. The protein level of X is greatly reduced. This technique exploits which cellular mechanism?",
+    "options": [
+      "Nonsense-mediated decay (NMD) of mutant mRNAs",
+      "RNA interference (RNAi): siRNA is loaded into the RISC complex; the antisense strand guides RISC to complementary mRNA, which Argonaute-2 cleaves, leading to mRNA degradation",
+      "Alternative splicing to produce non-functional isoforms",
+      "Premature transcription termination"
+    ],
+    "correct": 1,
+    "explanation": "RNA interference (RNAi) is a conserved gene-silencing mechanism. siRNA (21–23 nt duplexes) is unwound and loaded into RISC (RNA-Induced Silencing Complex). Argonaute-2 (Ago2) uses the antisense guide strand to find complementary mRNA and cleave it, leading to degradation. miRNAs work similarly but cause translational repression/degradation via imperfect complementarity.",
+    "tags": [
+      "molecular biology",
+      "RNAi",
+      "gene silencing"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Phenylketonuria (PKU) results from deficiency of phenylalanine hydroxylase (PAH). What is the biochemical consequence?",
+    "options": [
+      "Accumulation of tyrosine and homogentisic acid",
+      "Accumulation of phenylalanine and its transamination products (phenylpyruvate, phenylacetate, phenyllactate), which are neurotoxic — lack of tyrosine may also impair melanin and catecholamine synthesis",
+      "Deficient conversion of homocysteine to methionine",
+      "Excess uric acid production from purine degradation"
+    ],
+    "correct": 1,
+    "explanation": "PAH converts phenylalanine to tyrosine (requiring BH4 as cofactor). Without PAH, phenylalanine accumulates and is shunted to phenylpyruvate, phenylacetate, and phenyllactate — excreted in urine (phenylketonuria). Accumulation is neurotoxic in infants (intellectual disability), and tyrosine deficiency reduces melanin (fair skin/hair) and catecholamines. Treatment: low-phenylalanine diet.",
+    "tags": [
+      "biochemistry",
+      "amino acid metabolism",
+      "inborn errors"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "text": "Which of the following is the correct order of events in the complement classical pathway?",
+    "options": [
+      "C3 → C1 → C4 → C2 → C5-C9 (MAC)",
+      "C1 binds antibody-antigen complexes → cleaves C4 and C2 → C3 convertase (C4b2a) → C3 cleavage → C5 convertase → C5-C9 MAC assembly",
+      "MBL → MASP → C3 directly → MAC",
+      "C3b binds directly to antibody → C5 activation"
+    ],
+    "correct": 1,
+    "explanation": "Classical pathway: C1q binds Fc regions of IgM or IgG in immune complexes → C1r/C1s activation → C4 and C2 cleavage → C3 convertase (C4b2a) → C3 cleavage to C3b (opsonin) + C3a (anaphylatoxin) → C5 convertase → C5b triggers C6-C9 assembly of the MAC (membrane attack complex), lysing gram-negative bacteria and virally infected cells.",
+    "tags": [
+      "immunology",
+      "complement",
+      "classical pathway"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "text": "In aerobic respiration, where does substrate-level phosphorylation occur (excluding glycolysis)?",
+    "options": [
+      "Complex I of the electron transport chain",
+      "The succinyl-CoA synthetase reaction in the TCA cycle — succinyl-CoA + GDP (or ADP) + Pi → succinate + GTP (or ATP)",
+      "Complex V (ATP synthase)",
+      "The malate-aspartate shuttle"
+    ],
+    "correct": 1,
+    "explanation": "Within the TCA cycle, succinyl-CoA synthetase catalyzes substrate-level phosphorylation: the energy of the thioester bond in succinyl-CoA drives phosphorylation of GDP to GTP (in mammals) or ADP to ATP (in bacteria). GTP can be converted to ATP by nucleoside diphosphate kinase. Complex V (ATP synthase) is an example of oxidative phosphorylation (using the proton gradient), not substrate-level phosphorylation.",
+    "tags": [
+      "biochemistry",
+      "TCA cycle",
+      "substrate-level phosphorylation"
+    ],
+    "difficulty": "medium"
   }
 ]
